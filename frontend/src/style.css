@@ -1,0 +1,61 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, "Microsoft YaHei", sans-serif; color: #1f2937; background: #f3f4f6; }
+#app { height: 100vh; display: flex; flex-direction: column; }
+.topbar { height: 56px; padding: 10px 16px; background: #111827; color: #fff; display: flex; align-items: center; gap: 12px; }
+.topbar h1 { font-size: 17px; margin: 0 18px 0 0; font-weight: 700; }
+.topbar select, .topbar button { height: 32px; border-radius: 6px; border: 1px solid #374151; padding: 0 8px; }
+.topbar button { cursor: pointer; background: #374151; color: #fff; }
+.main { flex: 1; display: grid; grid-template-columns: 50% 50%; gap: 0; min-height: 0; }
+.left, .right { min-width: 0; min-height: 0; padding: 12px; display: grid; gap: 12px; }
+.left { grid-template-rows: 80% 20%; border-right: 1px solid #d1d5db; }
+.right { grid-template-rows: 50% 50%; }
+.panel { background: #fff; border: 1px solid #d1d5db; border-radius: 10px; min-height: 0; display: flex; flex-direction: column; overflow: hidden; }
+.panel-header { height: 40px; flex: 0 0 auto; padding: 0 12px; border-bottom: 1px solid #e5e7eb; display: flex; justify-content: space-between; align-items: center; background: #f9fafb; font-weight: 700; }
+.panel-body { padding: 12px; overflow: auto; min-height: 0; }
+.chunk-text { white-space: pre-wrap; line-height: 1.8; font-size: 15px; word-break: break-word; }
+.entity-hl { border-radius: 2px; }
+.entity-hl--bg[data-etype="疾病"] { background-color: #fee2e2; }
+.entity-hl--bg[data-etype="确诊疾病"] { background-color: #ffedd5; }
+.entity-hl--bg[data-etype="临床表现"] { background-color: #dbeafe; }
+.entity-hl--bg[data-etype="指标"] { background-color: #fce7f3; }
+.entity-hl--bg[data-etype="病因"] { background-color: #fef9c3; }
+.entity-hl--bg[data-etype="病理生理机制阐述"] { background-color: #f3e8ff; }
+.entity-hl--bg[data-etype="治疗原则"] { background-color: #dcfce7; }
+.entity-hl--bg[data-etype="治疗方案"] { background-color: #cffafe; }
+.entity-hl--underline[data-etype="疾病"] { text-decoration: underline solid #fca5a5; text-underline-offset: 2px; }
+.entity-hl--underline[data-etype="确诊疾病"] { text-decoration: underline solid #fdba74; text-underline-offset: 2px; }
+.entity-hl--underline[data-etype="临床表现"] { text-decoration: underline solid #93c5fd; text-underline-offset: 2px; }
+.entity-hl--underline[data-etype="指标"] { text-decoration: underline solid #f9a8d4; text-underline-offset: 2px; }
+.entity-hl--underline[data-etype="病因"] { text-decoration: underline solid #fde047; text-underline-offset: 2px; }
+.entity-hl--underline[data-etype="病理生理机制阐述"] { text-decoration: underline solid #d8b4fe; text-underline-offset: 2px; }
+.entity-hl--underline[data-etype="治疗原则"] { text-decoration: underline solid #86efac; text-underline-offset: 2px; }
+.entity-hl--underline[data-etype="治疗方案"] { text-decoration: underline solid #67e8f9; text-underline-offset: 2px; }
+.entity-hl--wavy[data-etype="疾病"] { text-decoration: underline wavy #fca5a5; text-underline-offset: 2px; }
+.entity-hl--wavy[data-etype="确诊疾病"] { text-decoration: underline wavy #fdba74; text-underline-offset: 2px; }
+.entity-hl--wavy[data-etype="临床表现"] { text-decoration: underline wavy #93c5fd; text-underline-offset: 2px; }
+.entity-hl--wavy[data-etype="指标"] { text-decoration: underline wavy #f9a8d4; text-underline-offset: 2px; }
+.entity-hl--wavy[data-etype="病因"] { text-decoration: underline wavy #fde047; text-underline-offset: 2px; }
+.entity-hl--wavy[data-etype="病理生理机制阐述"] { text-decoration: underline wavy #d8b4fe; text-underline-offset: 2px; }
+.entity-hl--wavy[data-etype="治疗原则"] { text-decoration: underline wavy #86efac; text-underline-offset: 2px; }
+.entity-hl--wavy[data-etype="治疗方案"] { text-decoration: underline wavy #67e8f9; text-underline-offset: 2px; }
+.entity-unmatched { color: #dc2626; border-color: #fca5a5; }
+.entity-duplicate { color: #2563eb; border-color: #93c5fd; }
+.meta-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; font-size: 13px; }
+.meta-item { background: #f9fafb; border: 1px solid #e5e7eb; border-radius: 6px; padding: 6px 8px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.actions { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.actions textarea { flex: 1; height: 40px; resize: none; border: 1px solid #d1d5db; border-radius: 6px; padding: 6px; }
+button { cursor: pointer; border: 1px solid #d1d5db; border-radius: 6px; padding: 6px 10px; background: #fff; }
+button.primary { background: #2563eb; color: #fff; border-color: #2563eb; }
+button.danger { background: #dc2626; color: #fff; border-color: #dc2626; }
+button.ghost { background: #f3f4f6; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th, td { border-bottom: 1px solid #e5e7eb; padding: 7px; vertical-align: middle; }
+th { position: sticky; top: 0; background: #f9fafb; z-index: 1; text-align: left; }
+td input, td select { width: 100%; height: 30px; border: 1px solid #d1d5db; border-radius: 5px; padding: 0 6px; }
+.small { color: #d1d5db; font-size: 12px; font-weight: 400; }
+.panel .small { color: #6b7280; }
+.status { padding: 2px 8px; border-radius: 999px; font-size: 12px; background: #e5e7eb; color: #374151; }
+.status.pass { background: #dcfce7; color: #166534; }
+.status.error { background: #fee2e2; color: #991b1b; }
+.placeholder { border: 1px dashed #cbd5e1; background: #f8fafc; color: #64748b; padding: 8px; border-radius: 8px; margin-bottom: 8px; }
+.loading { padding: 24px; }

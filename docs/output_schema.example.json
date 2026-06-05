@@ -1,0 +1,43 @@
+{
+  "base_info": {
+    "doc_key": "《白塞综合征诊疗规范》",
+    "doc_id": "DOC_238d214c91ed",
+    "source_title": "《白塞综合征诊疗规范》",
+    "pdf_path": "原始 PDF 路径",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 8,
+    "total_chunks": 14
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "实体ID",
+          "entity_type": "疾病",
+          "entity_name": "白塞综合征",
+          "chunk_id": "CH0001"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "关系ID",
+          "relation_type": "manifests_as",
+          "source_entity": "白塞综合征",
+          "target_entity": "发热",
+          "chunk_id": "CH0001"
+        }
+      ]
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "前言/概述",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "pass",
+      "remark": "人工备注",
+      "updated_at": "2026-06-05T12:00:00"
+    }
+  }
+}
