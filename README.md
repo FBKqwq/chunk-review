@@ -1,8 +1,7 @@
-# Chunk 人工复验 Demo（Vite 本地依赖离线版）
+# Chunk 人工复验
+，用于对 PDF 切分后的 chunk 和 LLM 预抽取 KG JSON 进行人工复验。
 
-这是一个最小可运行 demo，用于对 PDF 切分后的 chunk 和 LLM 预抽取 KG JSON 进行人工复验。
-
-本版已取消 CDN Vue 引入，前端改为 **Vite + Vue3 本地依赖版**：
+前端为 **Vite + Vue3本地 **：
 
 - `frontend/package.json`：前端依赖声明
 - `frontend/node_modules/`：已随包提供，可离线运行前端构建产物或本地 Vite dev server
@@ -56,7 +55,7 @@ XXX.kg.json
 
 ## 推荐运行方式：Flask 直接托管已构建页面
 
-这种方式不需要访问外网，也不需要启动 Vite dev server。
+这种方式不需要启动 Vite dev server。
 
 ```bash
 cd chunk_review_demo
@@ -89,7 +88,7 @@ http://127.0.0.1:5000
 
 ## 前端开发模式：Vite 本地依赖运行
 
-只在你要改前端页面时使用。需要开两个终端。
+只在要改前端页面时使用。需要开两个终端。
 
 终端 1：启动后端 API。
 
