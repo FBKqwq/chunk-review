@@ -1,0 +1,619 @@
+{
+  "meta": {
+    "doc_id": "桥本甲状腺炎中西医结合诊疗指南",
+    "source_title": "桥本甲状腺炎中西医结合诊疗指南",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_hashimoto_thyroiditis",
+        "name": "桥本甲状腺炎",
+        "normalized_name": "桥本甲状腺炎",
+        "aliases": [
+          "Hashimoto's thyroiditis",
+          "HT",
+          "慢性淋巴细胞性甲状腺炎"
+        ],
+        "source_document_ids": [
+          "桥本甲状腺炎中西医结合诊疗指南"
+        ],
+        "evidence_ids": [
+          "桥本甲状腺炎（Hashimotos thyroiditis，HT）是常见的自身免疫性甲状腺疾病，患病率和发病率均呈增长趋势。",
+          "桥本甲状腺炎（Hashimotos thyroiditis，HT）又称慢性淋巴细胞性甲状腺炎，属于自身免疫性甲状腺炎，由日本学者 Hashimoto 于 1912 年首先报道[1]。"
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_ht_euthyroid",
+        "name": "桥本甲状腺炎（甲状腺功能正常期）",
+        "parent_disease_id": "disease_hashimoto_thyroiditis",
+        "disease_subtype": "自身免疫性甲状腺炎",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "桥本甲状腺炎甲功正常时，中西医结合治疗能否有效降低 TPOAb滴度？",
+          "桥本甲状腺炎甲功正常时，中西医结合治疗能否更好改善患者的临床症状（如颈前压迫感，咽部异物感等）和甲状腺肿？"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ht_thyrotoxicosis",
+        "name": "桥本甲状腺炎继发甲状腺毒症",
+        "parent_disease_id": "disease_hashimoto_thyroiditis",
+        "disease_subtype": "自身免疫性甲状腺炎",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "桥本甲状腺炎继发甲状腺毒症临床诊断标准：a) 符合桥本甲状腺炎诊断标准；b) 血清TSH水平降低，和/或FT4、FT3水平升高。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "sub_disease_ht_hypothyroidism",
+        "name": "桥本甲状腺炎继发甲状腺功能减退症",
+        "parent_disease_id": "disease_hashimoto_thyroiditis",
+        "disease_subtype": "自身免疫性甲状腺炎",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "桥本甲状腺炎继发甲状腺功能减退症临床诊断标准：a) 符合桥本甲状腺炎诊断标准；b) 血清TSH水平升高，和/或FT4、TT4水平降低。"
+        ],
+        "confidence": 0.97
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_diffuse_goiter",
+        "name": "甲状腺弥漫性肿大",
+        "body_site": "颈部",
+        "symptom_category": "内分泌系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "本病以甲状腺弥漫性肿大、质地坚韧、表面结节状，伴甲状腺过氧化物酶抗体（anti-thyroid peroxidase antibody，TPOAb）、甲状腺球蛋白抗体（anti-thyroid globulin antibody，TgAb）升高为主要临床特征"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "symptom_firm_thyroid",
+        "name": "甲状腺质地韧硬",
+        "body_site": "颈部",
+        "symptom_category": "内分泌系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "本病以甲状腺弥漫性肿大、质地坚韧、表面结节状，伴甲状腺过氧化物酶抗体（anti-thyroid peroxidase antibody，TPOAb）、甲状腺球蛋白抗体（anti-thyroid globulin antibody，TgAb）升高为主要临床特征"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "symptom_nodular_surface",
+        "name": "甲状腺表面结节状",
+        "body_site": "颈部",
+        "symptom_category": "内分泌系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "本病以甲状腺弥漫性肿大、质地坚韧、表面结节状，伴甲状腺过氧化物酶抗体（anti-thyroid peroxidase antibody，TPOAb）、甲状腺球蛋白抗体（anti-thyroid globulin antibody，TgAb）升高为主要临床特征"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "symptom_neck_pressure",
+        "name": "颈前压迫感",
+        "body_site": "颈部",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "桥本甲状腺炎甲功正常时，中西医结合治疗能否更好改善患者的临床症状（如颈前压迫感，咽部异物感等）和甲状腺肿？",
+          "桥本甲状腺炎继发甲状腺毒症时，中西医结合治疗能否更好改善患者的临床症状（如颈前压迫感、咽部异物感、心慌手抖等）和甲状腺肿？"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "symptom_globus_hystericus",
+        "name": "咽部异物感",
+        "body_site": "咽喉",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "桥本甲状腺炎甲功正常时，中西医结合治疗能否更好改善患者的临床症状（如颈前压迫感，咽部异物感等）和甲状腺肿？",
+          "桥本甲状腺炎继发甲状腺毒症时，中西医结合治疗能否更好改善患者的临床症状（如颈前压迫感、咽部异物感、心慌手抖等）和甲状腺肿？"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "symptom_palpitations",
+        "name": "心悸",
+        "body_site": "心脏",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "继发甲状腺毒症时，临床表现可见心悸、多汗、食欲亢进等；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_tremor",
+        "name": "手抖",
+        "body_site": "上肢",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "桥本甲状腺炎继发甲状腺毒症时，中西医结合治疗能否更好改善患者的临床症状（如颈前压迫感、咽部异物感、心慌手抖等）和甲状腺肿？"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "乏力",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "早期临床表现往往并不典型，部分患者可伴有咽部不适或轻度吞咽困难、颈部压迫感、局部疼痛与触痛、乏力、失眠等症状。",
+          "继发甲状腺功能减退症时，临床表现可见乏力、困倦、心动过缓、怕冷、黏液性水肿、便秘等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_cold_intolerance",
+        "name": "怕冷",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "继发甲状腺功能减退症时，临床表现可见乏力、困倦、心动过缓、怕冷、黏液性水肿、便秘等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_myxedema",
+        "name": "黏液性水肿",
+        "body_site": "全身",
+        "symptom_category": "内分泌系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "继发甲状腺功能减退症时，临床表现可见乏力、困倦、心动过缓、怕冷、黏液性水肿、便秘等。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_tpoab",
+        "name": "甲状腺过氧化物酶抗体（TPOAb）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "本病以甲状腺弥漫性肿大、质地坚韧、表面结节状，伴甲状腺过氧化物酶抗体（anti-thyroid peroxidase antibody，TPOAb）、甲状腺球蛋白抗体（anti-thyroid globulin antibody，TgAb）升高为主要临床特征。",
+          "TPOAb 是诊断 HT 的最重要指标，HT 患者血清中 TPOAb 的阳性率达到 95％以上，TPOAb 的滴度与甲状腺淋巴细胞浸润的程度密切相关，直接反映炎症程度。"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "test_tgab",
+        "name": "甲状腺球蛋白抗体（TgAb）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "本病以甲状腺弥漫性肿大、质地坚韧、表面结节状，伴甲状腺过氧化物酶抗体（anti-thyroid peroxidase antibody，TPOAb）、甲状腺球蛋白抗体（anti-thyroid globulin antibody，TgAb）升高为主要临床特征。",
+          "TgAb 具有与 TPOAb 相同的诊断意义，HT 患者中 TgAb的阳性率为 60％～80％，但其敏感性不如TPOAb。"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "test_tsh",
+        "name": "促甲状腺激素（TSH）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "辅助检查 a) 甲状腺功能：包括血液中总甲状腺素（Total Thyroxine，TT4），总三碘甲状腺原氨酸（Total Triiodothyronine，TT3）、血清游离甲状腺素（Free Thyroxine，FT4）和游离三碘甲腺原氨酸（Free Triiodthyronine，FT3）以及促甲状腺激素（Thyroid Stimulating Hormone，TSH）。"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "test_ft4",
+        "name": "游离甲状腺素（FT4）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "辅助检查 a) 甲状腺功能：包括血液中总甲状腺素（Total Thyroxine，TT4），总三碘甲状腺原氨酸（Total Triiodothyronine，TT3）、血清游离甲状腺素（Free Thyroxine，FT4）和游离三碘甲腺原氨酸（Free Triiodthyronine，FT3）以及促甲状腺激素（Thyroid Stimulating Hormone，TSH）。"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "test_ft3",
+        "name": "游离三碘甲腺原氨酸（FT3）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "辅助检查 a) 甲状腺功能：包括血液中总甲状腺素（Total Thyroxine，TT4），总三碘甲状腺原氨酸（Total Triiodothyronine，TT3）、血清游离甲状腺素（Free Thyroxine，FT4）和游离三碘甲腺原氨酸（Free Triiodthyronine，FT3）以及促甲状腺激素（Thyroid Stimulating Hormone，TSH）。"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "test_thyroid_ultrasound",
+        "name": "甲状腺超声检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "c) 超声检查：双侧甲状腺体积增大，回声不均匀，弥漫性低回声内出现短线状强回声并形成分隔状或网格状改变，对本病的诊断具有较高的特异性。"
+        ],
+        "confidence": 0.97
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_western_diagnosis_chinese_syndrome",
+        "content": "西医辨病，中医辨证，病证结合",
+        "recommendation_strength": "强推荐",
+        "source_section": "5.1 中西医结合治疗原则",
+        "evidence_ids": [
+          "a) 西医辨病，中医辨证，病证结合 中西医结合治疗桥本甲状腺炎，应结合患者临床症状及辅助检查结果明确西医诊断，在此基础上，谨守“西医辨病，中医辨证，病证结合”的原则，进行分阶段辨证论治。（共识度：100％）"
+        ],
+        "confidence": 0.99
+      },
+      {
+        "id": "treatment_staged_treatment",
+        "content": "分段论治，中西协同，优势互补",
+        "recommendation_strength": "强推荐",
+        "source_section": "5.1 中西医结合治疗原则",
+        "evidence_ids": [
+          "b) 分段论治，中西协同，优势互补 中西医结合治疗的目的在于优势互补。现代医学在调控甲状腺功能等方面优势明显，而中医学在改善临床症状、降低甲状腺相关抗体滴度、改善甲状腺肿、提升生活质量等方面效果更好。"
+        ],
+        "confidence": 0.99
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_l_t4_replacement",
+        "content": "依据 TSH 水平采用左甲状腺素（L-T4）替代治疗。",
+        "plan_level": 1,
+        "applicable_condition": "桥本甲状腺炎继发甲状腺功能减退症",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐意见 10-12.1：桥本甲状腺炎继发甲状腺功能减退症患者需进行生活方式干预，依据 TSH 水平采用左甲状腺素（L-T4）替代治疗。"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "plan_beta_blocker",
+        "content": "甲状腺毒症症状明显，尤其是老年患者、静息心率超过 90 次/min 或合并心血管疾病，可用 β 受体阻滞剂治疗。",
+        "plan_level": 1,
+        "applicable_condition": "桥本甲状腺炎继发甲状腺毒症",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐意见 7-9.1：桥本甲状腺炎继发甲状腺毒症患者需进行生活方式干预，一般不用抗甲状腺药物，甲状腺毒症症状明显，尤其是老年患者、静息心率超过 90 次/min 或合并心血管疾病，可用 β 受体阻滞剂治疗，个别症状严重不能控制者，可应用小剂量抗甲状腺药物，并根据甲状腺功能监测情况及时调整剂量或停药，以免导致甲减。"
+        ],
+        "confidence": 0.97
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_autoimmunity",
+        "content": "自身免疫异常",
+        "etiology_type": "自身免疫因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "桥本甲状腺炎（Hashimotos thyroiditis，HT）是常见的自身免疫性甲状腺疾病",
+          "桥本甲状腺炎（Hashimotos thyroiditis，HT）又称慢性淋巴细胞性甲状腺炎，属于自身免疫性甲状腺炎"
+        ],
+        "confidence": 0.99
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_lymphocytic_infiltration",
+        "content": "淋巴细胞浸润甲状腺为主要病理特征",
+        "evidence_ids": [
+          "本病以甲状腺弥漫性肿大、质地坚韧、表面结节状，伴甲状腺过氧化物酶抗体（anti-thyroid peroxidase antibody，TPOAb）、甲状腺球蛋白抗体（anti-thyroid globulin antibody，TgAb）升高为主要临床特征，淋巴细胞浸润甲状腺为主要病理特征[1]。"
+        ],
+        "confidence": 0.99
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_hashimoto_thyroiditis",
+        "to": "sub_disease_ht_euthyroid",
+        "relation_id": "rel_ht_has_euthyroid",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "桥本甲状腺炎甲功正常时，中西医结合治疗能否有效降低 TPOAb滴度？"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hashimoto_thyroiditis",
+        "to": "sub_disease_ht_thyrotoxicosis",
+        "relation_id": "rel_ht_has_thyrotoxicosis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "桥本甲状腺炎继发甲状腺毒症临床诊断标准：a) 符合桥本甲状腺炎诊断标准；b) 血清TSH水平降低，和/或FT4、FT3水平升高。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "from": "disease_hashimoto_thyroiditis",
+        "to": "sub_disease_ht_hypothyroidism",
+        "relation_id": "rel_ht_has_hypothyroidism",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "桥本甲状腺炎继发甲状腺功能减退症临床诊断标准：a) 符合桥本甲状腺炎诊断标准；b) 血清TSH水平升高，和/或FT4、TT4水平降低。"
+        ],
+        "confidence": 0.97
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_ht_euthyroid",
+        "to": "symptom_diffuse_goiter",
+        "relation_id": "rel_ht_euthyroid_manifests_as_goiter",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "本病以甲状腺弥漫性肿大、质地坚韧、表面结节状，伴甲状腺过氧化物酶抗体（anti-thyroid peroxidase antibody，TPOAb）、甲状腺球蛋白抗体（anti-thyroid globulin antibody，TgAb）升高为主要临床特征"
+        ],
+        "confidence": 0.99,
+        "weight_reason": "原文明确将‘甲状腺弥漫性肿大’列为桥本甲状腺炎主要临床特征，且在‘诊断标准’中强调‘甲状腺弥漫性肿大，质地较韧’为关键怀疑指征",
+        "evidence": "本病以甲状腺弥漫性肿大、质地坚韧、表面结节状，伴甲状腺过氧化物酶抗体升高为主要临床特征"
+      },
+      {
+        "from": "sub_disease_ht_thyrotoxicosis",
+        "to": "symptom_palpitations",
+        "relation_id": "rel_ht_thyrotoxicosis_manifests_as_palpitations",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "继发甲状腺毒症时，临床表现可见心悸、多汗、食欲亢进等；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_ht_hypothyroidism",
+        "to": "symptom_fatigue",
+        "relation_id": "rel_ht_hypothyroidism_manifests_as_fatigue",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "继发甲状腺功能减退症时，临床表现可见乏力、困倦、心动过缓、怕冷、黏液性水肿、便秘等。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_ht_euthyroid",
+        "to": "test_tpoab",
+        "relation_id": "rel_ht_euthyroid_requires_tpoab",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "血清 TPOAb 和 TgAb 阳性，诊断即可成立。如 TPOAb、TgAb单一抗体阳性，需要结合临床表现。"
+        ],
+        "confidence": 0.99,
+        "weight_reason": "原文在‘诊断标准’中明确定义‘血清 TPOAb 和 TgAb 阳性，诊断即可成立’，且称‘TPOAb 是诊断 HT 的最重要指标’，符合金标准定义",
+        "evidence": "诊断标准：桥本甲状腺炎诊断标准：血清TPOAb和TgAb阳性，诊断即可成立。TPOAb是诊断HT的最重要指标"
+      },
+      {
+        "from": "sub_disease_ht_thyrotoxicosis",
+        "to": "test_tsh",
+        "relation_id": "rel_ht_thyrotoxicosis_requires_tsh",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "<",
+        "unit": null,
+        "result_text": null,
+        "weight": 100,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "桥本甲状腺炎继发甲状腺毒症临床诊断标准：a) 符合桥本甲状腺炎诊断标准；b) 血清TSH水平降低，和/或FT4、FT3水平升高。"
+        ],
+        "confidence": 0.97,
+        "weight_reason": "原文在‘桥本甲状腺炎继发甲状腺毒症临床诊断标准’中明确将‘血清TSH水平降低’列为必要条件之一，属确诊必备检测",
+        "evidence": "桥本甲状腺炎继发甲状腺毒症临床诊断标准：a)符合桥本甲状腺炎诊断标准；b)血清TSH水平降低，和/或FT4、FT3水平升高。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_ht_euthyroid",
+        "to": "treatment_western_diagnosis_chinese_syndrome",
+        "relation_id": "rel_ht_euthyroid_follows_wdcst",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确西医诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强推荐",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "5.1 中西医结合治疗原则",
+        "confidence": 0.99
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_western_diagnosis_chinese_syndrome",
+        "to": "plan_l_t4_replacement",
+        "relation_id": "rel_treatment_implements_by_l_t4",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "桥本甲状腺炎继发甲状腺功能减退症",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐意见 10-12.1：桥本甲状腺炎继发甲状腺功能减退症患者需进行生活方式干预，依据 TSH 水平采用左甲状腺素（L-T4）替代治疗。"
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_ht_euthyroid",
+        "to": "etiology_autoimmunity",
+        "relation_id": "rel_ht_euthyroid_causes_autoimmunity",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "桥本甲状腺炎（Hashimotos thyroiditis，HT）是常见的自身免疫性甲状腺疾病"
+        ],
+        "confidence": 0.99
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_ht_euthyroid",
+        "to": "pathogenesis_lymphocytic_infiltration",
+        "relation_id": "rel_ht_euthyroid_explained_by_lymphocytic_infiltration",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "本病以甲状腺弥漫性肿大、质地坚韧、表面结节状，伴甲状腺过氧化物酶抗体（anti-thyroid peroxidase antibody，TPOAb）、甲状腺球蛋白抗体（anti-thyroid globulin antibody，TgAb）升高为主要临床特征，淋巴细胞浸润甲状腺为主要病理特征[1]。"
+        ],
+        "confidence": 0.99
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

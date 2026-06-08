@@ -1,0 +1,1211 @@
+{
+  "meta": {
+    "doc_id": "细菌性痢疾诊疗方案_2023年版",
+    "source_title": "细菌性痢疾诊疗方案（2023 年版）",
+    "section_path": "",
+    "text_span": {
+      "start": 0,
+      "end": 0
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_bacillary_dysentery",
+        "name": "细菌性痢疾",
+        "normalized_name": "细菌性痢疾",
+        "aliases": [
+          "菌痢",
+          "志贺菌病",
+          "Shigellosis",
+          "Bacillary dysentery"
+        ],
+        "source_document_ids": [
+          "细菌性痢疾诊疗方案（2023 年版）"
+        ],
+        "evidence_ids": [
+          "细菌性痢疾（Bacillary dysentery）简称菌痢，是由志贺菌属（Shigella）引起的一种肠道传染病，又称志贺菌病（Shigellosis），是全球范围内引起人类腹泻的主要病因之一"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_acute_bacillary_dysentery",
+        "name": "急性菌痢",
+        "parent_disease_id": "disease_bacillary_dysentery",
+        "disease_subtype": "急性感染性肠炎",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "1.急性菌痢。\n根据毒血症及临床症状严重程度，分为四型。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_acute_mild",
+        "name": "轻型急性菌痢",
+        "parent_disease_id": "disease_bacillary_dysentery",
+        "disease_subtype": "急性感染性肠炎",
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（1）轻型：全身中毒症状轻，可无发热或仅低热。表现为急性腹泻，大便次数及量少，脓血便少见。可有轻微腹痛，里急后重较轻或缺如。病程 3~7 天。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_acute_moderate",
+        "name": "中型急性菌痢",
+        "parent_disease_id": "disease_bacillary_dysentery",
+        "disease_subtype": "急性感染性肠炎",
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（2）中型：起病急骤，畏寒发热，体温可达 39℃以上，伴头痛、乏力、食欲减退，数小时后出现腹痛、腹泻、里急后重等肠道症状。排便初为稀便，后转为黏液脓血便。排便次数较多，可达 10 余次/天。可有左下腹压痛。病程 1~2 周。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_acute_severe",
+        "name": "重型急性菌痢",
+        "parent_disease_id": "disease_bacillary_dysentery",
+        "disease_subtype": "急性感染性肠炎",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "老年、体弱、营养不良者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（3）重型：除上述腹泻症状外，出现严重腹胀及中毒性肠麻痹，严重失水可引起外周循环障碍，出现心、肾功能不全。多见于老年、体弱、营养不良者。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_toxic_bacillary_dysentery",
+        "name": "中毒型菌痢",
+        "parent_disease_id": "disease_bacillary_dysentery",
+        "disease_subtype": "急性感染性肠炎",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "2~7岁儿童",
+        "gender": "all",
+        "age_min": 2,
+        "age_max": 7,
+        "evidence_ids": [
+          "（4）中毒型（或暴发型）：起病急骤，以高热、休克、惊厥和神志障碍为主要表现。初期腹泻症状轻或缺如。多见于 2~7 岁儿童，病死率高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_toxic_shock_type",
+        "name": "休克型中毒型菌痢",
+        "parent_disease_id": "disease_bacillary_dysentery",
+        "disease_subtype": "急性感染性肠炎",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "2~7岁儿童",
+        "gender": "all",
+        "age_min": 2,
+        "age_max": 7,
+        "evidence_ids": [
+          "a.休克型（周围循环衰竭型）。\n以感染中毒性休克为主要表现，可致多脏器功能衰竭。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_toxic_brain_type",
+        "name": "脑型中毒型菌痢",
+        "parent_disease_id": "disease_bacillary_dysentery",
+        "disease_subtype": "急性感染性肠炎",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "2~7岁儿童",
+        "gender": "all",
+        "age_min": 2,
+        "age_max": 7,
+        "evidence_ids": [
+          "b.脑型（呼吸衰竭型）。\n以脑水肿、脑疝为主要表现，可致中枢性呼吸衰竭。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_toxic_mixed_type",
+        "name": "混合型中毒型菌痢",
+        "parent_disease_id": "disease_bacillary_dysentery",
+        "disease_subtype": "急性感染性肠炎",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "2~7岁儿童",
+        "gender": "all",
+        "age_min": 2,
+        "age_max": 7,
+        "evidence_ids": [
+          "c.混合型。\n兼有休克型和脑型的表现，可迅速出现呼吸衰竭及循环衰竭，病死率高达 90%以上。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_chronic_bacillary_dysentery",
+        "name": "慢性菌痢",
+        "parent_disease_id": "disease_bacillary_dysentery",
+        "disease_subtype": "慢性感染性肠炎",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "2.慢性菌痢。\n反复发作或迁延不愈 2 个月以上。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "畏寒发热，体温可达 39℃以上"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_headache",
+        "name": "头痛",
+        "body_site": "头部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "伴头痛、乏力、食欲减退"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "出现腹痛、腹泻、里急后重等肠道症状"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_diarrhea",
+        "name": "腹泻",
+        "body_site": "肠道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "表现为急性腹泻",
+          "出现腹痛、腹泻、里急后重等肠道症状"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_tenemus",
+        "name": "里急后重",
+        "body_site": "直肠",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "里急后重较轻或缺如",
+          "出现腹痛、腹泻、里急后重等肠道症状"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_pus_blood_stool",
+        "name": "脓血便",
+        "body_site": "肠道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "脓血便少见",
+          "后转为黏液脓血便"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_abdominal_distension",
+        "name": "腹胀",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "出现严重腹胀及中毒性肠麻痹"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_shock",
+        "name": "休克",
+        "body_site": "全身",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "以感染中毒性休克为主要表现",
+          "高热、休克、惊厥和神志障碍为主要表现"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_convulsion",
+        "name": "惊厥",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "高热、休克、惊厥和神志障碍为主要表现"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_altered_mentation",
+        "name": "神志障碍",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "高热、休克、惊厥和神志障碍为主要表现"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_lef_lower_abdominal_tenderness",
+        "name": "左下腹压痛",
+        "body_site": "左下腹",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "可有左下腹压痛"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hematochezia",
+        "name": "血便",
+        "body_site": "肠道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "脓血便",
+          "黏液脓血便"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_stool_culture",
+        "name": "粪便培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "细菌培养：粪便培养到志贺菌。为提高细菌培养阳性率，应在抗菌药物使用前取粪便脓血黏液部分或肛拭子，及时送检。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_stool_pcr",
+        "name": "志贺菌核酸检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "核酸检测：PCR 等方法检测志贺菌核酸阳性。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_stool_routine_wbc",
+        "name": "粪便常规白细胞计数",
+        "normal_range_min": 0,
+        "normal_range_max": 0,
+        "is_digital": 1,
+        "evidence_ids": [
+          "粪便常规检查白细胞或脓细胞≥15 个/高倍视野，可见红细胞、吞噬细胞。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_stool_routine_rbc",
+        "name": "粪便常规红细胞计数",
+        "normal_range_min": 0,
+        "normal_range_max": 0,
+        "is_digital": 1,
+        "evidence_ids": [
+          "粪便常规检查白细胞或脓细胞≥15 个/高倍视野，可见红细胞、吞噬细胞。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_stool_routine_phagocyte",
+        "name": "粪便常规吞噬细胞",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "粪便常规检查白细胞或脓细胞≥15 个/高倍视野，可见红细胞、吞噬细胞。如有吞噬细胞更有助于诊断。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_blood_wbc_count",
+        "name": "血白细胞计数",
+        "normal_range_min": 4.0,
+        "normal_range_max": 10.0,
+        "is_digital": 1,
+        "evidence_ids": [
+          "急性期血白细胞计数轻至中度增高，多在（10~20）×109/L，以中性粒细胞为主"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_digestive_isolation",
+        "content": "应实施消化道隔离，临床症状消失、便培养连续 2 次（间隔 24 小时）阴性后可解除隔离。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "1.应实施消化道隔离，临床症状消失、便培养连续 2 次（间隔 24 小时）阴性后可解除隔离。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_fluid_replacement",
+        "content": "出现脱水征象时，及时补液，以口服补液为主，不能口服者需静脉补液。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "出现脱水征象时，及时补液，以口服补液为主，不能口服者需静脉补液。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_antipyretic",
+        "content": "发热以物理降温为主，体温超过 38.5℃可应用退热药物治疗，如对乙酰氨基酚、布洛芬等。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "发热以物理降温为主，体温超过 38.5℃可应用退热药物治疗，如对乙酰氨基酚、布洛芬等；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_antispasmodic",
+        "content": "如出现剧烈腹痛，可使用解痉止痛类药物，如颠茄片、山莨菪碱、阿托品等。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "如出现剧烈腹痛，可使用解痉止痛类药物，如颠茄片、山莨菪碱、阿托品等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_antibiotic",
+        "content": "选择药物需结合本地流行株药敏结果，首选口服抗菌药物，严重病例可静脉给药，疗程 3~5 天。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "选择药物需结合本地流行株药敏结果，首选口服抗菌药物，严重病例可静脉给药，疗程 3~5 天。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_corticosteroid",
+        "content": "毒血症严重时可短期小剂量糖皮质激素治疗。",
+        "recommendation_strength": "weak",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "毒血症严重时可短期小剂量糖皮质激素治疗。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_ciprofloxacin_oral",
+        "content": "环丙沙星 500mg，口服，2 次/天",
+        "plan_level": 1,
+        "applicable_condition": "成人急性菌痢",
+        "contraindication_note": "儿童需与监护人充分沟通并签署知情同意书",
+        "evidence_ids": [
+          "环丙沙星 500mg，口服，2 次/天；0.4g，静脉滴注，每 12 小时一次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ciprofloxacin_iv",
+        "content": "环丙沙星 0.4g，静脉滴注，每 12 小时一次",
+        "plan_level": 2,
+        "applicable_condition": "严重病例",
+        "contraindication_note": "儿童需与监护人充分沟通并签署知情同意书",
+        "evidence_ids": [
+          "环丙沙星 500mg，口服，2 次/天；0.4g，静脉滴注，每 12 小时一次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_levo_ciprofloxacin_oral",
+        "content": "左氧氟沙星 500mg，口服，1 次/天",
+        "plan_level": 1,
+        "applicable_condition": "成人急性菌痢",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "左氧氟沙星 500mg，口服，1 次/天。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ciprofloxacin_pediatric",
+        "content": "环丙沙星：每日 10~15mg/kg，分 3 次口服",
+        "plan_level": 3,
+        "applicable_condition": "儿童急性菌痢",
+        "contraindication_note": "需与监护人充分沟通并签署知情同意书",
+        "evidence_ids": [
+          "在与监护人充分沟通并签署知情同意书的情况下，儿童可使用环丙沙星：每日 10~15mg/kg，分 3 次口服。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_sulfamethoxazole_trimethoprim",
+        "content": "复方磺胺甲噁唑（TMP-SMZ），成人：160/800mg，口服，2 次/天；儿童：2 月以下婴儿禁用，2 月以上体重 40kg 以下婴幼儿（4~8）/（20~40）mg/kg，口服，2 次/天。体重≥40kg 的小儿用量同成人常用量。",
+        "plan_level": 2,
+        "applicable_condition": "急性菌痢",
+        "contraindication_note": "2 月以下婴儿禁用",
+        "evidence_ids": [
+          "复方磺胺甲噁唑（TMP-SMZ），成人：160/800mg，口服，2 次/天；儿童：2 月以下婴儿禁用，2 月以上体重 40kg 以下婴幼儿（4~8）/（20~40）mg/kg，口服，2 次/天。体重≥40kg 的小儿用量同成人常用量。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ceftriaxone_iv",
+        "content": "头孢曲松钠 1.0~2.0g，静脉滴注，1 次/天",
+        "plan_level": 2,
+        "applicable_condition": "严重病例",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "头孢曲松钠 1.0~2.0g，静脉滴注，1 次/天；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_cefotaxime_iv",
+        "content": "头孢噻肟钠，2.0g，静脉滴注，每 8 小时一次",
+        "plan_level": 2,
+        "applicable_condition": "严重病例",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "头孢噻肟钠，2.0g，静脉滴注，每 8 小时一次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ceftriaxone_pediatric",
+        "content": "头孢曲松 50~100/mg/kg，静脉滴注，每天一次",
+        "plan_level": 3,
+        "applicable_condition": "儿童严重病例",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "儿童：头孢曲松 50~100/mg/kg，静脉滴注，每天一次；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_cefotaxime_pediatric",
+        "content": "头孢噻肟 150~200mg/kg/d，静脉滴注，分 3~4 次",
+        "plan_level": 3,
+        "applicable_condition": "儿童严重病例",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "头孢噻肟 150~200mg/kg/d，静脉滴注，分 3~4 次。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_shigella_infection",
+        "content": "志贺菌属（Shigella）感染",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "是由志贺菌属（Shigella）引起的一种肠道传染病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_dysenteriae_serogroup",
+        "content": "痢疾志贺菌（S. dysenteria，A 群）",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "痢疾志贺菌（S. dysenteria，A 群）、福氏志贺菌（S. flexneri，B 群）、鲍氏志贺菌（S. boydii，C 群）、宋内志贺菌（S. sonnei，D 群）。不同血清群感染引起的临床表现严重程度不一，痢疾志贺菌最为严重，可引起中毒型痢疾"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_flexneri_serogroup",
+        "content": "福氏志贺菌（S. flexneri，B 群）",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "我国以福氏和宋内志贺菌占优势。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_sonnei_serogroup",
+        "content": "宋内志贺菌（S. sonnei，D 群）",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "我国以福氏和宋内志贺菌占优势。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_colonic_invasion",
+        "content": "志贺菌进入下消化道侵入结肠黏膜上皮细胞，进入固有层繁殖、释放毒素，进而引起肠黏膜炎症反应，固有层毛细血管及小静脉充血，炎症细胞浸润，血浆渗出，进而导致固有层小血管循环障碍引起上皮细胞变性、坏死。坏死的上皮细胞脱落后可形成小而浅的溃疡，因而出现腹痛、腹泻、脓血便。直肠壁受炎症刺激出现里急后重感。",
+        "evidence_ids": [
+          "三、发病机制\n志贺菌进入下消化道侵入结肠黏膜上皮细胞，进入固有层繁殖、释放毒素，进而引起肠黏膜炎症反应，固有层毛细血管及小静脉充血，炎症细胞浸润，血浆渗出，进而导致固有层小血管循环障碍引起上皮细胞变性、坏死。坏死的上皮细胞脱落后可形成小而浅的溃疡，因而出现腹痛、腹泻、脓血便。直肠壁受炎症刺激出现里急后重感。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_endotoxin_systemic",
+        "content": "内毒素入血引起发热和毒血症状，并释放血管活性物质引起微循环障碍、血浆外渗，进而引发感染性休克、DIC 及重要脏器功能障碍，临床表现为中毒性菌痢。脑组织出现微循环障碍则发生脑水肿甚至脑疝。",
+        "evidence_ids": [
+          "内毒素入血引起发热和毒血症状，并释放血管活性物质引起微循环障碍、血浆外渗，进而引发感染性休克、DIC 及重要脏器功能障碍，临床表现为中毒性菌痢。脑组织出现微循环障碍则发生脑水肿甚至脑疝。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_shiga_toxin_hus",
+        "content": "极少数患者因外毒素导致上皮细胞损伤，引发凝血障碍、肾微血管病变及溶血后血红蛋白堵塞肾小管引起溶血性尿毒症综合征。",
+        "evidence_ids": [
+          "极少数患者因外毒素导致上皮细胞损伤，引发凝血障碍、肾微血管病变及溶血后血红蛋白堵塞肾小管引起溶血性尿毒症综合征。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_bacillary_dysentery",
+        "to": "sub_disease_acute_bacillary_dysentery",
+        "relation_id": "rel_bacillary_dysentery_has_acute",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "1.急性菌痢。\n根据毒血症及临床症状严重程度，分为四型。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_bacillary_dysentery",
+        "to": "sub_disease_chronic_bacillary_dysentery",
+        "relation_id": "rel_bacillary_dysentery_has_chronic",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "2.慢性菌痢。\n反复发作或迁延不愈 2 个月以上。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_acute_mild",
+        "to": "symptom_fever",
+        "relation_id": "rel_acute_mild_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "全身中毒症状轻，可无发热或仅低热。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_acute_mild",
+        "to": "symptom_diarrhea",
+        "relation_id": "rel_acute_mild_manifests_as_diarrhea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "表现为急性腹泻"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确描述轻型‘表现为急性腹泻’，属直接、必然临床表现",
+        "evidence": "（1）轻型：……表现为急性腹泻，大便次数及量少，脓血便少见。"
+      },
+      {
+        "from": "sub_disease_acute_moderate",
+        "to": "symptom_fever",
+        "relation_id": "rel_acute_moderate_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "畏寒发热，体温可达 39℃以上"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘中型：起病急骤，畏寒发热，体温可达39℃以上’，属必然核心表现",
+        "evidence": "（2）中型：起病急骤，畏寒发热，体温可达39℃以上，伴头痛、乏力、食欲减退，数小时后出现腹痛、腹泻、里急后重等肠道症状。"
+      },
+      {
+        "from": "sub_disease_acute_moderate",
+        "to": "symptom_abdominal_pain",
+        "relation_id": "rel_acute_moderate_manifests_as_abdominal_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "出现腹痛、腹泻、里急后重等肠道症状"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将‘腹痛’列为中型‘数小时后出现’的典型肠道症状，属必然表现",
+        "evidence": "数小时后出现腹痛、腹泻、里急后重等肠道症状。"
+      },
+      {
+        "from": "sub_disease_acute_moderate",
+        "to": "symptom_tenemus",
+        "relation_id": "rel_acute_moderate_manifests_as_tenemus",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "出现腹痛、腹泻、里急后重等肠道症状"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将‘里急后重’与腹痛、腹泻并列作为中型必然肠道症状",
+        "evidence": "数小时后出现腹痛、腹泻、里急后重等肠道症状。"
+      },
+      {
+        "from": "sub_disease_acute_moderate",
+        "to": "symptom_pus_blood_stool",
+        "relation_id": "rel_acute_moderate_manifests_as_pus_blood_stool",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "后转为黏液脓血便"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘后转为黏液脓血便’，是中型进展期典型且必然表现",
+        "evidence": "排便初为稀便，后转为黏液脓血便。"
+      },
+      {
+        "from": "sub_disease_acute_severe",
+        "to": "symptom_abdominal_distension",
+        "relation_id": "rel_acute_severe_manifests_as_abdominal_distension",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "出现严重腹胀及中毒性肠麻痹"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘重型：除上述腹泻症状外，出现严重腹胀及中毒性肠麻痹’，属定义性特征",
+        "evidence": "（3）重型：除上述腹泻症状外，出现严重腹胀及中毒性肠麻痹，严重失水可引起外周循环障碍，出现心、肾功能不全。"
+      },
+      {
+        "from": "sub_disease_toxic_bacillary_dysentery",
+        "to": "symptom_fever",
+        "relation_id": "rel_toxic_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "起病急骤，以高热、休克、惊厥和神志障碍为主要表现。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文定义‘中毒型（或暴发型）：起病急骤，以高热、休克、惊厥和神志障碍为主要表现’，‘高热’即高热性发热，属核心必备表现",
+        "evidence": "（4）中毒型（或暴发型）：起病急骤，以高热、休克、惊厥和神志障碍为主要表现。"
+      },
+      {
+        "from": "sub_disease_toxic_bacillary_dysentery",
+        "to": "symptom_shock",
+        "relation_id": "rel_toxic_manifests_as_shock",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "起病急骤，以高热、休克、惊厥和神志障碍为主要表现。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确定义中毒型‘以高热、休克、惊厥和神志障碍为主要表现’，‘休克’为四大核心表现之一",
+        "evidence": "（4）中毒型（或暴发型）：起病急骤，以高热、休克、惊厥和神志障碍为主要表现。"
+      },
+      {
+        "from": "sub_disease_toxic_bacillary_dysentery",
+        "to": "symptom_convulsion",
+        "relation_id": "rel_toxic_manifests_as_convulsion",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "起病急骤，以高热、休克、惊厥和神志障碍为主要表现。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确定义中毒型‘以高热、休克、惊厥和神志障碍为主要表现’，‘惊厥’即convulsion，属核心必备表现",
+        "evidence": "（4）中毒型（或暴发型）：起病急骤，以高热、休克、惊厥和神志障碍为主要表现。"
+      },
+      {
+        "from": "sub_disease_toxic_bacillary_dysentery",
+        "to": "symptom_altered_mentation",
+        "relation_id": "rel_toxic_manifests_as_altered_mentation",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "起病急骤，以高热、休克、惊厥和神志障碍为主要表现。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确定义中毒型‘以高热、休克、惊厥和神志障碍为主要表现’，‘神志障碍’即altered mentation，属核心必备表现",
+        "evidence": "（4）中毒型（或暴发型）：起病急骤，以高热、休克、惊厥和神志障碍为主要表现。"
+      },
+      {
+        "from": "sub_disease_toxic_shock_type",
+        "to": "symptom_shock",
+        "relation_id": "rel_toxic_shock_manifests_as_shock",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "以感染中毒性休克为主要表现，可致多脏器功能衰竭。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确定义‘a.休克型（周围循环衰竭型）。以感染中毒性休克为主要表现’，属定义性核心表现",
+        "evidence": "a.休克型（周围循环衰竭型）。以感染中毒性休克为主要表现，可致多脏器功能衰竭。"
+      },
+      {
+        "from": "sub_disease_toxic_brain_type",
+        "to": "symptom_altered_mentation",
+        "relation_id": "rel_toxic_brain_manifests_as_altered_mentation",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "以脑水肿、脑疝为主要表现，可致中枢性呼吸衰竭。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确定义‘b.脑型（呼吸衰竭型）。以脑水肿、脑疝为主要表现’，而脑水肿/脑疝必然导致神志障碍，且前文已将‘神志障碍’列为中毒型共性核心表现；此处虽未重复写‘神志障碍’，但‘脑型’在中毒型分类下，其临床表现必含神志障碍，且‘脑水肿甚至脑疝’原文见第3页‘脑组织出现微循环障碍则发生脑水肿甚至脑疝’，该句紧接‘临床表现为中毒性菌痢’，逻辑闭环支持altered mentation为必然表现",
+        "evidence": "b.脑型（呼吸衰竭型）。以脑水肿、脑疝为主要表现，可致中枢性呼吸衰竭。"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_acute_bacillary_dysentery",
+        "to": "test_stool_culture",
+        "relation_id": "rel_acute_requires_stool_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "粪便培养到志贺菌",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "细菌培养：粪便培养到志贺菌。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文‘七、诊断’节明确‘确诊病例：疑似病例或临床诊断病例粪便培养到志贺菌……’，且‘细菌培养：粪便培养到志贺菌’被列为病原学检查首项，符合金标准定义",
+        "evidence": "（三）确诊病例。疑似病例或临床诊断病例粪便培养到志贺菌或志贺菌核酸检测阳性。"
+      },
+      {
+        "from": "sub_disease_acute_bacillary_dysentery",
+        "to": "test_stool_pcr",
+        "relation_id": "rel_acute_requires_stool_pcr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "志贺菌核酸检测阳性",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "核酸检测：PCR 等方法检测志贺菌核酸阳性。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文‘七、诊断’节将‘志贺菌核酸检测阳性’与‘粪便培养到志贺菌’并列作为确诊病例唯一标准之一，属同等效力金标准",
+        "evidence": "（三）确诊病例。疑似病例或临床诊断病例粪便培养到志贺菌或志贺菌核酸检测阳性。"
+      },
+      {
+        "from": "sub_disease_acute_bacillary_dysentery",
+        "to": "test_stool_routine_wbc",
+        "relation_id": "rel_acute_requires_stool_wbc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "required",
+        "value_min": 15,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "个/高倍视野",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "粪便常规检查白细胞或脓细胞≥15 个/高倍视野，可见红细胞、吞噬细胞。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文‘（二）临床诊断病例’要求‘粪便常规检查白细胞或脓细胞≥15个/高倍视野’，属临床诊断必要条件，但非确诊依据，强度强于一般相关但弱于金标准",
+        "evidence": "（二）临床诊断病例。同时具备以下3点：……3.粪便常规检查白细胞或脓细胞≥15个/高倍视野，可见红细胞、吞噬细胞。"
+      },
+      {
+        "from": "sub_disease_acute_bacillary_dysentery",
+        "to": "test_stool_routine_rbc",
+        "relation_id": "rel_acute_requires_stool_rbc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "common",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "粪便常规检查白细胞或脓细胞≥15 个/高倍视野，可见红细胞、吞噬细胞。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_acute_bacillary_dysentery",
+        "to": "treatment_digestive_isolation",
+        "relation_id": "rel_acute_follows_isolation",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊后立即执行",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "诊断确认"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_acute_bacillary_dysentery",
+        "to": "treatment_fluid_replacement",
+        "relation_id": "rel_acute_follows_fluid_replacement",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "出现脱水征象时",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "临床评估"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_acute_bacillary_dysentery",
+        "to": "treatment_antibiotic",
+        "relation_id": "rel_acute_follows_antibiotic",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病原学确认",
+          "病情严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_digestive_isolation",
+        "to": "plan_ciprofloxacin_oral",
+        "relation_id": "rel_isolation_implements_by_ciprofloxacin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "成人急性菌痢",
+        "contraindication_note": "儿童需与监护人充分沟通并签署知情同意书",
+        "evidence_ids": [
+          "环丙沙星 500mg，口服，2 次/天；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antibiotic",
+        "to": "plan_ciprofloxacin_oral",
+        "relation_id": "rel_antibiotic_implements_by_ciprofloxacin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "成人急性菌痢",
+        "contraindication_note": "儿童需与监护人充分沟通并签署知情同意书",
+        "evidence_ids": [
+          "环丙沙星 500mg，口服，2 次/天；"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_acute_bacillary_dysentery",
+        "to": "etiology_shigella_infection",
+        "relation_id": "rel_acute_causes_by_shigella",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "是由志贺菌属（Shigella）引起的一种肠道传染病"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_acute_bacillary_dysentery",
+        "to": "pathogenesis_colonic_invasion",
+        "relation_id": "rel_acute_explained_by_colonic_invasion",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "三、发病机制\n志贺菌进入下消化道侵入结肠黏膜上皮细胞，进入固有层繁殖、释放毒素，进而引起肠黏膜炎症反应，固有层毛细血管及小静脉充血，炎症细胞浸润，血浆渗出，进而导致固有层小血管循环障碍引起上皮细胞变性、坏死。坏死的上皮细胞脱落后可形成小而浅的溃疡，因而出现腹痛、腹泻、脓血便。直肠壁受炎症刺激出现里急后重感。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

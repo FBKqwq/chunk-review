@@ -1,0 +1,1051 @@
+{
+  "meta": {
+    "doc_id": "急诊成人细菌性感染诊疗专家共识",
+    "source_title": "急诊成人细菌性感染诊疗专家共识",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_bacterial_infection",
+        "name": "细菌性感染",
+        "normalized_name": "细菌性感染",
+        "aliases": [
+          "成人细菌性感染",
+          "急诊细菌性感染"
+        ],
+        "source_document_ids": [
+          "急诊成人细菌性感染诊疗专家共识"
+        ],
+        "evidence_ids": [
+          "急诊成人细菌性感染诊疗专家共识"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_uti",
+        "name": "尿路感染",
+        "normalized_name": "尿路感染",
+        "aliases": [
+          "泌尿系感染"
+        ],
+        "source_document_ids": [
+          "急诊成人细菌性感染诊疗专家共识"
+        ],
+        "evidence_ids": [
+          "尿路感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_respiratory_infection",
+        "name": "呼吸道感染",
+        "normalized_name": "呼吸道感染",
+        "aliases": [
+          "急性细菌性呼吸道感染",
+          "下呼吸道感染",
+          "上呼吸道感染"
+        ],
+        "source_document_ids": [
+          "急诊成人细菌性感染诊疗专家共识"
+        ],
+        "evidence_ids": [
+          "急性细菌性呼吸道感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_skin_soft_tissue_infection",
+        "name": "皮肤/软组织感染",
+        "normalized_name": "皮肤/软组织感染",
+        "aliases": [
+          "蜂窝组织炎",
+          "坏死性筋膜炎"
+        ],
+        "source_document_ids": [
+          "急诊成人细菌性感染诊疗专家共识"
+        ],
+        "evidence_ids": [
+          "皮肤/软组织感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_meningitis",
+        "name": "脑膜炎",
+        "normalized_name": "脑膜炎",
+        "aliases": [
+          "细菌性脑膜炎"
+        ],
+        "source_document_ids": [
+          "急诊成人细菌性感染诊疗专家共识"
+        ],
+        "evidence_ids": [
+          "脑膜炎"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_abdominal_infection",
+        "name": "腹腔感染",
+        "normalized_name": "腹腔感染",
+        "aliases": [
+          "原发性腹膜炎"
+        ],
+        "source_document_ids": [
+          "急诊成人细菌性感染诊疗专家共识"
+        ],
+        "evidence_ids": [
+          "腹腔感染"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_acute_bacterial_upper_respiratory_infection",
+        "name": "急性细菌性上呼吸道感染",
+        "parent_disease_id": "disease_respiratory_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "非重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "急性细菌性呼吸道感染\n急性上呼吸道感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_acute_bacterial_lower_respiratory_infection",
+        "name": "急性细菌性下呼吸道感染",
+        "parent_disease_id": "disease_respiratory_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "非重症或重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "急性下呼吸道感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_community_acquired_pneumonia",
+        "name": "社区获得性肺炎",
+        "parent_disease_id": "disease_respiratory_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "非重症或重症",
+        "population": "免疫功能正常、青壮年或免疫功能缺陷或年龄＞50岁",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "社区获得性肺炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_complicated_uti",
+        "name": "复杂性尿路感染",
+        "parent_disease_id": "disease_uti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "非重症或重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "复杂性尿路感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_uncomplicated_lower_uti",
+        "name": "急性非复杂性下尿路感染",
+        "parent_disease_id": "disease_uti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "急性非复杂性下尿路感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_uncomplicated_upper_uti",
+        "name": "急性非复杂性上尿路感染（肾盂肾炎）",
+        "parent_disease_id": "disease_uti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "急性非复杂性上尿路感染（肾盂肾炎）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cellulitis",
+        "name": "蜂窝组织炎",
+        "parent_disease_id": "disease_skin_soft_tissue_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "非重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "蜂窝组织炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_necrotizing_fasciitis",
+        "name": "坏死性筋膜炎",
+        "parent_disease_id": "disease_skin_soft_tissue_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "坏死性筋膜炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_meningitis_immunocompetent",
+        "name": "免疫功能正常者细菌性脑膜炎",
+        "parent_disease_id": "disease_meningitis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "免疫功能正常成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "免疫功能正常 肺炎链球菌，脑膜炎奈瑟菌"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_meningitis_immunocompromised",
+        "name": "免疫功能缺陷或老年（＞50岁）细菌性脑膜炎",
+        "parent_disease_id": "disease_meningitis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "免疫功能缺陷或年龄＞50岁成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "免疫功能缺陷或年龄＞50岁 肺炎链球菌、李斯特菌，革兰阴性杆菌"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_primary_peritonitis",
+        "name": "原发性腹膜炎",
+        "parent_disease_id": "disease_abdominal_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "非重症或重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "原发性腹膜炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_severe_infection",
+        "name": "重症感染",
+        "parent_disease_id": "disease_bacterial_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "如果感染导致了急性或进展性器官功能不全、血流动力学不稳定、或需要机械通气支持时应视为重症感染。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_non_severe_infection",
+        "name": "非重症感染",
+        "parent_disease_id": "disease_bacterial_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "非重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "而对于非重症感染，则应充分评估可能的病原微生物，釆用相对保守的治疗策略。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "表现为充血、肿胀、疼痛、渗出(如分泌物增加)、发热、白细胞升高以及影像学改变等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_leukocytosis",
+        "name": "白细胞升高",
+        "body_site": "血液",
+        "symptom_category": "实验室检查异常",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "表现为充血、肿胀、疼痛、渗出(如分泌物增加)、发热、白细胞升高以及影像学改变等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_tachypnea",
+        "name": "呼吸频率≥22次/min",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "required",
+        "evidence_ids": [
+          "qSOFA评分包括三项指标：呼吸频率M 22次/min、意识改变、收缩压W 100 mmHg"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_altered_mentation",
+        "name": "意识改变",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "required",
+        "evidence_ids": [
+          "qSOFA评分包括三项指标：呼吸频率M 22次/min、意识改变、收缩压W 100 mmHg"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hypotension",
+        "name": "收缩压≤100 mmHg",
+        "body_site": "循环系统",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "required",
+        "evidence_ids": [
+          "qSOFA评分包括三项指标：呼吸频率M 22次/min、意识改变、收缩压W 100 mmHg"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_pct",
+        "name": "降钙素原（PCT）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "近年来发现降钙素原(procalcitonin, PCT)可能是预测细菌性感染比较好的标志物；然而，前瞻性临床试验显示，基于PCT鉴别是否存在感染时应谨慎解读其结果"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_wbc",
+        "name": "白细胞计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "白细胞计数升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_crp",
+        "name": "C反应蛋白（CRP）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "C 反应蛋白(C reactive protein, CRP )"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_il6",
+        "name": "白介素-6（IL-6）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "白介素-6 (interleukin-6, IL-6 )"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_lbp",
+        "name": "脂多糖结合蛋白（LBP）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "脂多糖结合蛋白(lipopolysaccharide binding protein, LBP )"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_strem1",
+        "name": "可溶性髓系细胞触发受体-1（sTREM-1）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "可溶性髓系细胞触发受体-1 ( soluble triggering receptor expressed on myeloid cell-1, sTREM-1 )"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_urine_culture",
+        "name": "尿培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "尿培养标本"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_blood_culture",
+        "name": "血培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "血、脑脊液、关节液等需要穿刺获得的标本"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_empirical_antibiotic_therapy",
+        "content": "经验性抗菌药物治疗是急危重症患者常用的抗感染治疗策略。",
+        "recommendation_strength": "strong",
+        "source_section": "2急诊经验性抗菌药物治疗原则",
+        "evidence_ids": [
+          "经验性抗菌药物治疗是急危重症患者常用的抗感染治疗策略。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_targeted_antibiotic_therapy",
+        "content": "目标抗菌药物治疗是合理与正确使用抗菌药物的重要基础，是目标抗菌药物治疗的必要条件。",
+        "recommendation_strength": "strong",
+        "source_section": "3规范病原微生物采集",
+        "evidence_ids": [
+          "病原学标本的留取是合理与正确使用抗菌药物的重要基础，是目标抗菌药物治疗的必要条件。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_severe_infection_early_antibiotics",
+        "content": "对于重症感染患者，由于治疗的紧迫性，可能不允许进行更为充分地病原学诊断，建议采用积极的抗感染策略，应尽早启动抗感染治疗，可使用相对广谱的抗生素以覆盖最可能的病原菌。",
+        "recommendation_strength": "strong",
+        "source_section": "1.2.2感染严重程度评估",
+        "evidence_ids": [
+          "对于重症感染患者，由于治疗的紧迫性，可能不允许进行更为充分地病原学诊断，建议采用积极的抗感染策略，应尽早启动抗感染治疗，可使用相对广谱的抗生素以覆盖最可能的病原菌。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_amoxicillin_for_pharyngitis",
+        "content": "咽炎：青霉素G,阿莫西林",
+        "plan_level": 1,
+        "applicable_condition": "急性上呼吸道感染-咽炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "咽炎 A组溶血性链球菌 青霉素G,阿莫西林 一、二代口服头抱菌素"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_amoxicillin_clavulanate_for_sinusitis",
+        "content": "中耳炎，急性上颌窦炎：阿莫西林、阿莫西林/克拉维酸",
+        "plan_level": 1,
+        "applicable_condition": "急性上呼吸道感染-中耳炎/上颌窦炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "中耳炎，急性上颌窦炎 肺炎链球菌 阿莫西林、阿莫西林/克拉维酸 一、二代口服头砲菌素"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_penicillin_for_cellulitis",
+        "content": "蜂窝组织炎：青霉素、阿莫西林",
+        "plan_level": 1,
+        "applicable_condition": "皮肤/软组织感染-蜂窝组织炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "蜂窝组织炎 A组溶血性链球菌 青霉素、阿莫西林 一代头抱菌素、阿莫西林/克拉维酸、头抱曲松"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_penicillin_clindamycin_for_necrotizing_fasciitis",
+        "content": "坏死性筋膜炎：大剂量青霉素联合克林霉素",
+        "plan_level": 1,
+        "applicable_condition": "皮肤/软组织感染-坏死性筋膜炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "坏死性筋膜炎 溶血性链球菌、梭菌属、混合感染 大剂量青霉素联合克林霉素 美罗培南或亚胺培南+万古霉素"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_nitrofurantoin_for_uncomplicated_lower_uti",
+        "content": "急性非复杂性下尿路感染：咲喃妥因、磷霉素氨丁三醇",
+        "plan_level": 1,
+        "applicable_condition": "尿路感染-急性非复杂性下尿路感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "急性非复杂性下尿路感染 大肠埃希菌 咲喃妥因、磷霉素氨丁三醇 头抱氨节、头抱拉定、座诺酮类药物b"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_ampicillin_sulbactam_for_pyelonephritis",
+        "content": "急性非复杂性上尿路感染（肾盂肾炎）：氨节西林/舒巴坦、阿莫西林/克拉维酸",
+        "plan_level": 1,
+        "applicable_condition": "尿路感染-急性非复杂性上尿路感染（肾盂肾炎）",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "急性非复杂I生上尿路感染（肾盂肾炎） 大肠埃希菌、其他肠杆菌科细菌、肠球菌属 氨节西林/舒巴坦、阿莫西林/克拉维酸"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_ceftriaxone_for_meningitis_immunocompetent",
+        "content": "免疫功能正常脑膜炎：头抱曲松和头抱囉脂",
+        "plan_level": 1,
+        "applicable_condition": "脑膜炎-免疫功能正常",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "免疫功能正常 肺炎链球菌，脑膜炎奈瑟菌 头抱曲松和头抱囉脂 万古霉素+头抱曲松或头抱囉肪"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_ceftriaxone_aminobenzylpenicillin_for_meningitis_immunocompromised",
+        "content": "免疫功能缺陷或年龄＞50岁脑膜炎：头抱曲松或头抱囉脂联合氨节西林",
+        "plan_level": 1,
+        "applicable_condition": "脑膜炎-免疫功能缺陷或年龄＞50岁",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "免疫功能缺陷或年龄＞50岁 肺炎链球菌、李斯特菌，革兰阴性杆菌 头抱曲松或头抱囉脂联合氨节西林 美罗培南联合万古霉素"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_ampicillin_sulbactam_for_primary_peritonitis",
+        "content": "原发性腹膜炎：氨节西林/舒巴坦，阿莫西林/克拉维酸，二、三代头抱菌素",
+        "plan_level": 1,
+        "applicable_condition": "腹腔感染-原发性腹膜炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "原发性腹膜炎 大肠埃希菌、变形杆菌属 氨节西林/舒巴坦，阿莫西林/克拉维酸，二、三代头抱菌素"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_streptococcus_pyogenes",
+        "content": "A组溶血性链球菌",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "咽炎 A组溶血性链球菌"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_streptococcus_pneumoniae",
+        "content": "肺炎链球菌",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "中耳炎，急性上颌窦炎 肺炎链球菌"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_haemophilus_influenzae",
+        "content": "流感嗜血杆菌",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "中耳炎，急性上颌窦炎 流感嗜血杆菌"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_escherichia_coli",
+        "content": "大肠埃希菌",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "急性非复杂性下尿路感染 大肠埃希菌"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_klebsiella_pneumoniae",
+        "content": "肺炎克雷伯菌",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "铁锈色痰提示肺炎链球菌;砖红色痰提示肺炎克雷伯菌"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_pseudomonas_aeruginosa",
+        "content": "铜绿假单胞菌",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "有铜绿假单胞菌感染风险，合并死亡高危风险a"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_acinetobacter_baumannii",
+        "content": "鲍曼不动杆菌",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "存在多药耐药菌感染风险时.例如铜绿假单胞菌或鲍曼不动杆菌导致的肺部感染"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_systemic_inflammatory_response",
+        "content": "机体在发生感染后会出现局部或全身的炎症反应，表现为充血、肿胀、疼痛、渗出(如分泌物增加)、发热、白细胞升高以及影像学改变等。",
+        "evidence_ids": [
+          "机体在发生感染后会出现局部或全身的炎症反应，表现为充血、肿胀、疼痛、渗出(如分泌物增加)、发热、白细胞升高以及影像学改变等。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_respiratory_infection",
+        "to": "sub_disease_acute_bacterial_upper_respiratory_infection",
+        "relation_id": "rel_respiratory_infection_has_acute_upper",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性细菌性呼吸道感染\n急性上呼吸道感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_respiratory_infection",
+        "to": "sub_disease_acute_bacterial_lower_respiratory_infection",
+        "relation_id": "rel_respiratory_infection_has_acute_lower",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性下呼吸道感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_respiratory_infection",
+        "to": "sub_disease_community_acquired_pneumonia",
+        "relation_id": "rel_respiratory_infection_has_cap",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "社区获得性肺炎"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_uti",
+        "to": "sub_disease_complicated_uti",
+        "relation_id": "rel_uti_has_complicated",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "复杂性尿路感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_uti",
+        "to": "sub_disease_uncomplicated_lower_uti",
+        "relation_id": "rel_uti_has_uncomplicated_lower",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性非复杂性下尿路感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_uti",
+        "to": "sub_disease_uncomplicated_upper_uti",
+        "relation_id": "rel_uti_has_uncomplicated_upper",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性非复杂性上尿路感染（肾盂肾炎）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_skin_soft_tissue_infection",
+        "to": "sub_disease_cellulitis",
+        "relation_id": "rel_skin_infection_has_cellulitis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "蜂窝组织炎"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_skin_soft_tissue_infection",
+        "to": "sub_disease_necrotizing_fasciitis",
+        "relation_id": "rel_skin_infection_has_necrotizing",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "坏死性筋膜炎"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_meningitis",
+        "to": "sub_disease_meningitis_immunocompetent",
+        "relation_id": "rel_meningitis_has_immunocompetent",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "免疫功能正常 肺炎链球菌，脑膜炎奈瑟菌"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_meningitis",
+        "to": "sub_disease_meningitis_immunocompromised",
+        "relation_id": "rel_meningitis_has_immunocompromised",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "免疫功能缺陷或年龄＞50岁 肺炎链球菌、李斯特菌，革兰阴性杆菌"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_abdominal_infection",
+        "to": "sub_disease_primary_peritonitis",
+        "relation_id": "rel_abdominal_infection_has_primary_peritonitis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "原发性腹膜炎"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_severe_infection",
+        "to": "symptom_tachypnea",
+        "relation_id": "rel_severe_infection_manifests_as_tachypnea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "qSOFA_3_choose_2",
+        "required_count": 2,
+        "typicality": "required",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "qSOFA评分包括三项指标：呼吸频率M 22次/min、意识改变、收缩压W 100 mmHg"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "qSOFA评分中呼吸频率≥22次/min为一项指标，属重症感染早期识别标准，但非金标准诊断依据",
+        "evidence": "qSOFA评分包括三项指标：呼吸频率≥22次/min、意识改变、收缩压≤100mmHg"
+      },
+      {
+        "from": "sub_disease_severe_infection",
+        "to": "symptom_altered_mentation",
+        "relation_id": "rel_severe_infection_manifests_as_altered_mentation",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "qSOFA_3_choose_2",
+        "required_count": 2,
+        "typicality": "required",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "qSOFA评分包括三项指标：呼吸频率M 22次/min、意识改变、收缩压W 100 mmHg"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "qSOFA评分中意识改变为一项指标，属重症感染早期识别标准，但非金标准诊断依据",
+        "evidence": "qSOFA评分包括三项指标：呼吸频率≥22次/min、意识改变、收缩压≤100mmHg"
+      },
+      {
+        "from": "sub_disease_severe_infection",
+        "to": "symptom_hypotension",
+        "relation_id": "rel_severe_infection_manifests_as_hypotension",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "qSOFA_3_choose_2",
+        "required_count": 2,
+        "typicality": "required",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "qSOFA评分包括三项指标：呼吸频率M 22次/min、意识改变、收缩压W 100 mmHg"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "qSOFA评分中收缩压≤100 mmHg为一项指标，属重症感染早期识别标准，但非金标准诊断依据",
+        "evidence": "qSOFA评分包括三项指标：呼吸频率≥22次/min、意识改变、收缩压≤100mmHg"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_severe_infection",
+        "to": "test_pct",
+        "relation_id": "rel_severe_infection_requires_pct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "背景介绍",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "近年来发现降钙素原(procalcitonin, PCT)可能是预测细菌性感染比较好的标志物；然而，前瞻性临床试验显示，基于PCT鉴别是否存在感染时应谨慎解读其结果"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_severe_infection",
+        "to": "test_wbc",
+        "relation_id": "rel_severe_infection_requires_wbc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "支持诊断",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 4,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "背景介绍",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "表现为充血、肿胀、疼痛、渗出(如分泌物增加)、发热、白细胞升高以及影像学改变等。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_severe_infection",
+        "to": "treatment_severe_infection_early_antibiotics",
+        "relation_id": "rel_severe_infection_follows_early_antibiotics",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊为重症感染",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "感染严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "1.2.2感染严重程度评估",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_severe_infection_early_antibiotics",
+        "to": "plan_ceftriaxone_for_meningitis_immunocompetent",
+        "relation_id": "rel_treatment_implements_by_ceftriaxone_meningitis",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "免疫功能正常脑膜炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "免疫功能正常 肺炎链球菌，脑膜炎奈瑟菌 头抱曲松和头抱囉脂 万古霉素+头抱曲松或头抱囉肪"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_acute_bacterial_upper_respiratory_infection",
+        "to": "etiology_streptococcus_pyogenes",
+        "relation_id": "rel_pharyngitis_caused_by_streptococcus_pyogenes",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "咽炎 A组溶血性链球菌"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_severe_infection",
+        "to": "pathogenesis_systemic_inflammatory_response",
+        "relation_id": "rel_severe_infection_explained_by_sirs",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "机体在发生感染后会出现局部或全身的炎症反应，表现为充血、肿胀、疼痛、渗出(如分泌物增加)、发热、白细胞升高以及影像学改变等。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

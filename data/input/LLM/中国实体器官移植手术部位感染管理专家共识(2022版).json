@@ -1,0 +1,1135 @@
+{
+  "meta": {
+    "doc_id": "中国实体器官移植手术部位感染管理专家共识（２０２２版）",
+    "source_title": "中国实体器官移植手术部位感染管理专家共识（２０２２版）",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_ssi",
+        "name": "手术部位感染",
+        "normalized_name": "手术部位感染",
+        "aliases": [
+          "SSI",
+          "Surgical site infection"
+        ],
+        "source_document_ids": [
+          "中国实体器官移植手术部位感染管理专家共识（２０２２版）"
+        ],
+        "evidence_ids": [
+          "手术部位感染（Ｓｕｒｇｉｃａｌｓｉｔｅｉｎｆｅｃｔｉｏｎ，ＳＳＩ）是指发生在手术切口浅部和深部组织、手术器官或腔隙的感染［１］。"
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_ssi_incision_superficial",
+        "name": "切口浅部组织感染",
+        "parent_disease_id": "disease_ssi",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（１）切口浅部组织感染：仅累及切口皮肤或皮下组织的感染。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "sub_disease_ssi_incision_deep",
+        "name": "切口深部组织感染",
+        "parent_disease_id": "disease_ssi",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（２）切口深部组织感染：累及深部软组织（如筋膜和肌层）的感染。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "sub_disease_ssi_organ_space",
+        "name": "器官或腔隙感染",
+        "parent_disease_id": "disease_ssi",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（３）器官或腔隙感染：累及术中解剖部位（如器官或者腔隙）的感染。早期的移植物感染同样归属该范畴，包括肝移植后胆管炎、肾移植后肾盂肾炎和肺移植后肺炎等。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "sub_disease_ssi_mdro",
+        "name": "多重耐药菌所致手术部位感染",
+        "parent_disease_id": "disease_ssi",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "ＭＤＲＯ感染占 ５０．０％，其中产ＥＳＢＬｓ肠杆菌、ＣＲＥ和 ＶＲＥ感染率近年来呈上升趋势，且与术后早期死亡密切相关［３０３１］。"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "sub_disease_ssi_ifd",
+        "name": "侵袭性真菌病所致手术部位感染",
+        "parent_disease_id": "disease_ssi",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "３２ 侵袭性真菌病（Ｉｎｖａｓｉｖｅｆｕｎｇａｌｄｉｓｅａｓｅ，ＩＦＤ）"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "sub_disease_ssi_ntm",
+        "name": "非结核分枝杆菌所致手术部位感染",
+        "parent_disease_id": "disease_ssi",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "３３ 分枝杆菌感染",
+          "３３１ 临床表现 手术切口非结核分枝杆菌（Ｎｏｎｔｕｂｅｒｃｕｌｏｕｓｍｙｃｏｂａｃｔｅｒｉａｌ，ＮＴＭ）感染的主要病原菌有海分枝杆菌、偶发分枝杆菌、龟分枝杆菌、脓肿分枝杆菌和溃疡分枝杆菌等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ssi_tb",
+        "name": "结核分枝杆菌所致手术部位感染",
+        "parent_disease_id": "disease_ssi",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "手术切口结核分枝杆菌（Ｍｙｃｏｂａｃｔｅｒｉｕｍｔｕｂｅｒｃｕｌｏｓｉｓ，ＭＴＢ）感染非常罕见，临床表现与ＮＴＭ感染类似［４１］。"
+        ],
+        "confidence": 0.94
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_local_redness",
+        "name": "局部发红",
+        "body_site": "手术切口",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛；"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "symptom_local_swelling",
+        "name": "肿胀",
+        "body_site": "手术切口",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛；"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "symptom_local_heat",
+        "name": "发热",
+        "body_site": "手术切口",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛；"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "symptom_local_pain",
+        "name": "疼痛",
+        "body_site": "手术切口",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛；"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "symptom_fever_systemic",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "全身表现无特异性，主要表现为发热、乏力和食欲下降，严重者可出现脓毒血症。"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "乏力",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "全身表现无特异性，主要表现为发热、乏力和食欲下降，严重者可出现脓毒血症。"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "symptom_anorexia",
+        "name": "食欲下降",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "全身表现无特异性，主要表现为发热、乏力和食欲下降，严重者可出现脓毒血症。"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "symptom_shock",
+        "name": "休克",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者可出现脓毒血症。……一旦出现移植物血管破裂或假性动脉瘤形成，应尽早手术……甚至休克。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_drainage_purulent",
+        "name": "引流液呈脓性",
+        "body_site": "手术切口",
+        "symptom_category": "外科表现",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "切口深部或器官／腔隙感染还可出现移植物及其周围积液（脓）、血肿和脓肿，出现引流液增多、混浊，甚至呈脓性"
+        ],
+        "confidence": 0.97
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_culture_positive",
+        "name": "切口/组织/引流液/血液培养阳性",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体……",
+          "（２）经穿刺引流、手术探查等手段，获得病原学、病理学证据，或影像学检查发现切口组织、器官或腔隙感染［２３］。"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "test_mngs",
+        "name": "宏基因组二代测序（mNGS）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "治疗，同时留取样本，进行涂片、宏基因组二代测序（Ｍｅｔａｇｅｎｏｍｉｃｓｎｅｘｔｇｅｎｅｒａｔｉｏｎｓｅｑｕｅｎｃｉｎｇ，ｍＮＧＳ）、培养＋药敏试验等检测。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "test_g_test",
+        "name": "1,3-β-D葡聚糖检测（G试验）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "当考虑发生 ＩＦＤ时，应完善１，３βＤ葡聚糖检测（Ｇ试验）、半乳甘露聚糖检测（ＧＭ试验）等实验室检查和ＣＴ等影像学检查。"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "test_gm_test",
+        "name": "半乳甘露聚糖检测（GM试验）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "当考虑发生 ＩＦＤ时，应完善１，３βＤ葡聚糖检测（Ｇ试验）、半乳甘露聚糖检测（ＧＭ试验）等实验室检查和ＣＴ等影像学检查。"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "test_ct_imaging",
+        "name": "胸部CT",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "胸部 ＣＴ对明确诊断意义重大。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_ssi_surgical_drainage",
+        "content": "强调病因治疗，重视引流、清创，采用介入或外科手段干预，解除吻合口漏和充分引流是治疗的关键。",
+        "recommendation_strength": "strong",
+        "source_section": "１．３．２ 治疗措施",
+        "evidence_ids": [
+          "对于深部切口组织感染、器官或腔隙感染，需强调病因治疗，重视引流、清创，采用介入或外科手段（经皮肝穿刺胆道引流术、内镜下鼻胆管引流术、肝脓肿穿刺、腹腔穿刺、双 Ｊ管引流、纤维支气管镜和胸腔穿刺等）干预，解除吻合口漏和充分引流是治疗的关键，必要时应用黎氏管冲洗引流。"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "treatment_ssi_antibiotics_empirical",
+        "content": "尽早选择能够覆盖可疑致病菌的广谱抗菌药物经验性治疗。",
+        "recommendation_strength": "strong",
+        "source_section": "１．３．２ 治疗措施",
+        "evidence_ids": [
+          "除外科引流外，还须合理使用全身抗菌药物，尽早选择能够覆盖可疑致病菌的广谱抗菌药物经验性治疗。"
+        ],
+        "confidence": 0.98
+      },
+      {
+        "id": "treatment_ssi_immunosuppression_minimization",
+        "content": "在保障移植器官功能的前提下，最小化、个体化使用免疫抑制剂。",
+        "recommendation_strength": "strong",
+        "source_section": "建议１",
+        "evidence_ids": [
+          "建议１：对于实体器官移植 ＳＳＩ的治疗，建议在积极外科引流、清创和解除吻合口漏等干预措施的基础上，科学合理使用抗菌药物，并加强营养支持，在保障移植器官功能的前提下，最小化、个体化使用免疫抑制剂。"
+        ],
+        "confidence": 0.98
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_ssi_negative_pressure_wound_vacuum",
+        "content": "对于存在明显感染的切口浅部组织均应进行充分开放和引流，必要时可考虑使用负压封闭引流装置。",
+        "plan_level": 1,
+        "applicable_condition": "切口浅部组织感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于存在明显感染的切口浅部组织均应进行充分开放和引流，必要时可考虑使用负压封闭引流装置。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "plan_ssi_carbapenem_for_esbl",
+        "content": "针对产超广谱 β内酰胺酶（ＥＳＢＬｓ）肠杆菌可选用碳青霉烯类、β内酰胺类／β内酰胺酶抑制剂合剂和头霉素类等抗生素治疗。",
+        "plan_level": 1,
+        "applicable_condition": "产ESBLs肠杆菌感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "针对普通细菌，可根据药敏试验结果选择敏感抗菌药物；针对耐药菌，可选择联合用药。一般情况下，针对产超广谱 β内酰胺酶（Ｅｘｔｅｎｄｅｄｓｐｅｃｔｒｕｍｂｅｔａｌａｃｔａｍａｓｅｓ，ＥＳＢＬｓ）肠杆菌可选用碳青霉烯类、β内酰胺类／β内酰胺酶抑制剂合剂和头霉素类等抗生素治疗；"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "plan_ssi_ceftazidime_avibactam_for_cre",
+        "content": "针对耐碳青霉烯类肠杆菌（CRE），可选用头孢他啶阿维巴坦，或替加环素单药／联合，或以多黏菌素为基础的两药／三药联合治疗方案。",
+        "plan_level": 1,
+        "applicable_condition": "CRE感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "针对 ＣＲＥ，可选用头孢他啶阿维巴坦，或替加环素单药／联合，或以多黏菌素为基础的两药／三药联合治疗方案；针对产金属酶ＣＲＥ，可选用头孢他啶阿维巴坦联合氨曲南；"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "plan_ssi_vancomycin_for_mrsa",
+        "content": "针对耐甲氧西林金黄色葡萄球菌（MRSA），可选用万古霉素、利奈唑胺、达托霉素或替考拉宁治疗。",
+        "plan_level": 1,
+        "applicable_condition": "MRSA感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "针对耐甲氧西林金黄色葡萄球菌（ＭｅｔｈｉｃｉｌｌｉｎｒｅｓｉｓｔａｎｔＳｔａｐｈｙｌｏｃｏｃｃｕｓａｕｒｅｕｓ，ＭＲＳＡ），可选用万古霉素、利奈唑胺、达托霉素或替考拉宁治疗；"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "plan_ssi_vancomycin_for_are",
+        "content": "针对耐氨苄西林肠球菌（ARE），可选用万古霉素或替考拉宁等治疗。",
+        "plan_level": 1,
+        "applicable_condition": "ARE感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "针对耐氨苄西林肠球菌（ＡｍｐｉｃｉｌｌｉｎｒｅｓｉｓｔａｎｔＥｎｔｅｒｏｃｏｃｃｕｓ，ＡＲＥ），可选用万古霉素或替考拉宁等治疗；"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "plan_ssi_linezolid_or_daptomycin_for_vre",
+        "content": "针对耐万古霉素肠球菌（VRE），可选用利奈唑胺或达托霉素治疗。",
+        "plan_level": 1,
+        "applicable_condition": "VRE感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "耐万古霉素肠球菌 （ＶａｎｃｏｍｙｃｉｎｒｅｓｉｓｔａｎｔＥｎｔｅｒｏｃｏｃｃｕｓ，ＶＲＥ）在中国相对少见，可选用利奈唑胺或达托霉素治疗。"
+        ],
+        "confidence": 0.96
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_esbl_enterobacteriaceae",
+        "content": "产超广谱β-内酰胺酶肠杆菌",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "病原体",
+        "evidence_ids": [
+          "产 ＥＳＢＬｓ肠杆菌、耐碳青霉烯类革兰阴性杆菌（Ｃａｒｂａｐｅｎｅｍｒｅｓｉｓｔａｎｔｏｒｇａｎｉｓｍ，ＣＲＯ）和ＭＲＳＡ。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "etiology_cre",
+        "content": "耐碳青霉烯类肠杆菌",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "病原体",
+        "evidence_ids": [
+          "ＣＲＥ感染率近年来呈上升趋势，且与术后早期死亡密切相关［３０３１］。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "id": "etiology_mrsa",
+        "content": "耐甲氧西林金黄色葡萄球菌",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "病原体",
+        "evidence_ids": [
+          "ＭＲＳＡ。肺炎克雷伯菌和鲍曼不动杆菌对碳青霉烯类抗生素的耐药率显著上升，假丝酵母菌感染也不少见［２，１６］。"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "etiology_vre",
+        "content": "耐万古霉素肠球菌",
+        "etiology_type": "感染因素",
+        "typicality": "rare",
+        "diagnostic_role": "病原体",
+        "evidence_ids": [
+          "耐万古霉素肠球菌 （ＶａｎｃｏｍｙｃｉｎｒｅｓｉｓｔａｎｔＥｎｔｅｒｏｃｏｃｃｕｓ，ＶＲＥ）在中国相对少见"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_candida_albicans",
+        "content": "假丝酵母菌",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "病原体",
+        "evidence_ids": [
+          "假丝酵母菌感染也不少见［２，１６］。……肝移植、肾移植和心脏移植术后 ＩＦＤ导致的ＳＳＩ均以假丝酵母菌感染最常见"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "etiology_aspergillus",
+        "content": "曲霉",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "病原体",
+        "evidence_ids": [
+          "肺移植术后手术部位 ＩＦＤ致病菌以曲霉更为常见，其次为假丝酵母菌和其他真菌［３７３８］。"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "id": "etiology_ntm",
+        "content": "非结核分枝杆菌",
+        "etiology_type": "感染因素",
+        "typicality": "rare",
+        "diagnostic_role": "病原体",
+        "evidence_ids": [
+          "手术切口非结核分枝杆菌（Ｎｏｎｔｕｂｅｒｃｕｌｏｕｓｍｙｃｏｂａｃｔｅｒｉａｌ，ＮＴＭ）感染的主要病原菌有海分枝杆菌、偶发分枝杆菌、龟分枝杆菌、脓肿分枝杆菌和溃疡分枝杆菌等。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_ssi_immunosuppression",
+        "content": "免疫抑制状态导致宿主防御能力下降，易发生机会性感染。",
+        "evidence_ids": [
+          "实体器官移植 ＳＳＩ的常见病原体还与供者来源性感染（Ｄｏｎｏｒｄｅｒｉｖｅｄｉｎｆｅｃｔｉｏｎ，ＤＤＩ）、受者免疫状态和受者既往存在的感染相关。"
+        ],
+        "confidence": 0.92
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_ssi",
+        "to": "sub_disease_ssi_incision_superficial",
+        "relation_id": "rel_ssi_has_incision_superficial",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（１）切口浅部组织感染：仅累及切口皮肤或皮下组织的感染。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "from": "disease_ssi",
+        "to": "sub_disease_ssi_incision_deep",
+        "relation_id": "rel_ssi_has_incision_deep",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（２）切口深部组织感染：累及深部软组织（如筋膜和肌层）的感染。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "from": "disease_ssi",
+        "to": "sub_disease_ssi_organ_space",
+        "relation_id": "rel_ssi_has_organ_space",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（３）器官或腔隙感染：累及术中解剖部位（如器官或者腔隙）的感染。早期的移植物感染同样归属该范畴，包括肝移植后胆管炎、肾移植后肾盂肾炎和肺移植后肺炎等。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "from": "disease_ssi",
+        "to": "sub_disease_ssi_mdro",
+        "relation_id": "rel_ssi_has_mdro",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "ＭＤＲＯ感染占 ５０．０％，其中产ＥＳＢＬｓ肠杆菌、ＣＲＥ和 ＶＲＥ感染率近年来呈上升趋势，且与术后早期死亡密切相关［３０３１］。"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "from": "disease_ssi",
+        "to": "sub_disease_ssi_ifd",
+        "relation_id": "rel_ssi_has_ifd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "３２ 侵袭性真菌病（Ｉｎｖａｓｉｖｅｆｕｎｇａｌｄｉｓｅａｓｅ，ＩＦＤ）"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "from": "disease_ssi",
+        "to": "sub_disease_ssi_ntm",
+        "relation_id": "rel_ssi_has_ntm",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "３３ 分枝杆菌感染",
+          "３３１ 临床表现 手术切口非结核分枝杆菌（Ｎｏｎｔｕｂｅｒｃｕｌｏｕｓｍｙｃｏｂａｃｔｅｒｉａｌ，ＮＴＭ）感染的主要病原菌有海分枝杆菌、偶发分枝杆菌、龟分枝杆菌、脓肿分枝杆菌和溃疡分枝杆菌等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_ssi",
+        "to": "sub_disease_ssi_tb",
+        "relation_id": "rel_ssi_has_tb",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "手术切口结核分枝杆菌（Ｍｙｃｏｂａｃｔｅｒｉｕｍｔｕｂｅｒｃｕｌｏｓｉｓ，ＭＴＢ）感染非常罕见，临床表现与ＮＴＭ感染类似［４１］。"
+        ],
+        "confidence": 0.94
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_ssi_incision_superficial",
+        "to": "symptom_local_redness",
+        "relation_id": "rel_incision_superficial_manifests_as_redness",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛；"
+        ],
+        "confidence": 0.97,
+        "weight_reason": "原文明确将'局部发红'列为SSI切口浅部感染的典型症状之一，属直接临床表现",
+        "evidence": "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛"
+      },
+      {
+        "from": "sub_disease_ssi_incision_superficial",
+        "to": "symptom_local_swelling",
+        "relation_id": "rel_incision_superficial_manifests_as_swelling",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛；"
+        ],
+        "confidence": 0.97,
+        "weight_reason": "原文明确将'肿胀'列为SSI切口浅部感染的典型症状之一，属直接临床表现",
+        "evidence": "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛"
+      },
+      {
+        "from": "sub_disease_ssi_incision_superficial",
+        "to": "symptom_local_heat",
+        "relation_id": "rel_incision_superficial_manifests_as_heat",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛；"
+        ],
+        "confidence": 0.97,
+        "weight_reason": "原文明确将'发热'（指局部发热）列为SSI切口浅部感染的典型症状之一，属直接临床表现",
+        "evidence": "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛"
+      },
+      {
+        "from": "sub_disease_ssi_incision_superficial",
+        "to": "symptom_local_pain",
+        "relation_id": "rel_incision_superficial_manifests_as_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛；"
+        ],
+        "confidence": 0.97,
+        "weight_reason": "原文明确将'疼痛'列为SSI切口浅部感染的典型症状之一，属直接临床表现",
+        "evidence": "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛"
+      },
+      {
+        "from": "sub_disease_ssi_mdro",
+        "to": "symptom_fever_systemic",
+        "relation_id": "rel_mdro_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "全身表现无特异性，主要表现为发热、乏力和食欲下降，严重者可出现脓毒血症。"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "from": "sub_disease_ssi_mdro",
+        "to": "symptom_fatigue",
+        "relation_id": "rel_mdro_manifests_as_fatigue",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "全身表现无特异性，主要表现为发热、乏力和食欲下降，严重者可出现脓毒血症。"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "from": "sub_disease_ssi_mdro",
+        "to": "symptom_anorexia",
+        "relation_id": "rel_mdro_manifests_as_anorexia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "全身表现无特异性，主要表现为发热、乏力和食欲下降，严重者可出现脓毒血症。"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "from": "sub_disease_ssi_ifd",
+        "to": "symptom_drainage_purulent",
+        "relation_id": "rel_ifd_manifests_as_purulent_drainage",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "切口深部或器官／腔隙感染还可出现移植物及其周围积液（脓）、血肿和脓肿，出现引流液增多、混浊，甚至呈脓性"
+        ],
+        "confidence": 0.97,
+        "weight_reason": "原文描述IFD时未直接提及'脓性引流液'，但'切口IFD局部表现无固定特征'及'腹腔IFD主要表现为...脓肿等，常伴随细菌感染'间接支持该表现；'渗液（脓）'在MDRO感染临床表现中被明确列出，属强相关但非IFD特异性",
+        "evidence": "３１１临床表现手术部位ＭＤＲＯ感染的临床症状主要以局部症状为主，包括局部红肿、压痛、渗液（脓）、切口愈合不良和坏死等"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_ssi_incision_superficial",
+        "to": "test_culture_positive",
+        "relation_id": "rel_incision_superficial_requires_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "培养出病原体",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛；"
+        ],
+        "confidence": 0.98,
+        "weight_reason": "原文明确将'从切口处的液体／组织中培养出病原体'列为SSI诊断条件之一，且培养是病原学诊断的金标准",
+        "evidence": "（１）手术切口有化脓性液体，或从切口处的液体／组织中培养出病原体，或具有感染的症状或体征，包括局部发红、肿胀、发热和疼痛"
+      },
+      {
+        "from": "sub_disease_ssi_incision_deep",
+        "to": "test_culture_positive",
+        "relation_id": "rel_incision_deep_requires_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "培养出病原体",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（２）经穿刺引流、手术探查等手段，获得病原学、病理学证据，或影像学检查发现切口组织、器官或腔隙感染［２３］。"
+        ],
+        "confidence": 0.98,
+        "weight_reason": "原文明确将'经穿刺引流、手术探查等手段，获得病原学、病理学证据'列为SSI诊断条件之一，其中病原学证据即含培养阳性，且培养是病原学诊断的金标准",
+        "evidence": "（２）经穿刺引流、手术探查等手段，获得病原学、病理学证据，或影像学检查发现切口组织、器官或腔隙感染"
+      },
+      {
+        "from": "sub_disease_ssi_organ_space",
+        "to": "test_culture_positive",
+        "relation_id": "rel_organ_space_requires_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "培养出病原体",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（２）经穿刺引流、手术探查等手段，获得病原学、病理学证据，或影像学检查发现切口组织、器官或腔隙感染［２３］。"
+        ],
+        "confidence": 0.98,
+        "weight_reason": "原文明确将'经穿刺引流、手术探查等手段，获得病原学、病理学证据'列为SSI诊断条件之一，覆盖器官/腔隙感染，且培养是病原学诊断的金标准",
+        "evidence": "（２）经穿刺引流、手术探查等手段，获得病原学、病理学证据，或影像学检查发现切口组织、器官或腔隙感染"
+      },
+      {
+        "from": "sub_disease_ssi_ifd",
+        "to": "test_g_test",
+        "relation_id": "rel_ifd_requires_g_test",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持证据",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "当考虑发生 ＩＦＤ时，应完善１，３βＤ葡聚糖检测（Ｇ试验）、半乳甘露聚糖检测（ＧＭ试验）等实验室检查和ＣＴ等影像学检查。"
+        ],
+        "confidence": 0.96,
+        "weight_reason": "原文明确将'１，３βＤ葡聚糖检测（Ｇ试验）'列为IFD诊断需完善的实验室检查之一，属推荐性辅助检查，非金标准",
+        "evidence": "当考虑发生ＩＦＤ时，应完善１，３βＤ葡聚糖检测（Ｇ试验）、半乳甘露聚糖检测（ＧＭ试验）等实验室检查和ＣＴ等影像学检查"
+      },
+      {
+        "from": "sub_disease_ssi_ifd",
+        "to": "test_gm_test",
+        "relation_id": "rel_ifd_requires_gm_test",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持证据",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "当考虑发生 ＩＦＤ时，应完善１，３βＤ葡聚糖检测（Ｇ试验）、半乳甘露聚糖检测（ＧＭ试验）等实验室检查和ＣＴ等影像学检查。"
+        ],
+        "confidence": 0.96,
+        "weight_reason": "原文明确将'半乳甘露聚糖检测（ＧＭ试验）'列为IFD诊断需完善的实验室检查之一，属推荐性辅助检查，非金标准",
+        "evidence": "当考虑发生ＩＦＤ时，应完善１，３βＤ葡聚糖检测（Ｇ试验）、半乳甘露聚糖检测（ＧＭ试验）等实验室检查和ＣＴ等影像学检查"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_ssi_incision_superficial",
+        "to": "treatment_ssi_surgical_drainage",
+        "relation_id": "rel_incision_superficial_follows_surgical_drainage",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "存在明显感染",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "感染部位"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "１．３．２ 治疗措施",
+        "confidence": 0.98
+      },
+      {
+        "from": "sub_disease_ssi_incision_deep",
+        "to": "treatment_ssi_surgical_drainage",
+        "relation_id": "rel_incision_deep_follows_surgical_drainage",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "深部组织感染",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "感染部位"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "１．３．２ 治疗措施",
+        "confidence": 0.98
+      },
+      {
+        "from": "sub_disease_ssi_organ_space",
+        "to": "treatment_ssi_surgical_drainage",
+        "relation_id": "rel_organ_space_follows_surgical_drainage",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "器官或腔隙感染",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "感染部位"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "１．３．２ 治疗措施",
+        "confidence": 0.98
+      },
+      {
+        "from": "sub_disease_ssi_mdro",
+        "to": "treatment_ssi_antibiotics_empirical",
+        "relation_id": "rel_mdro_follows_antibiotics_empirical",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "MDRO感染",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病原体类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "１．３．２ 治疗措施",
+        "confidence": 0.98
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_ssi_surgical_drainage",
+        "to": "plan_ssi_negative_pressure_wound_vacuum",
+        "relation_id": "rel_surgical_drainage_implements_by_npwt",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "切口浅部组织感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于存在明显感染的切口浅部组织均应进行充分开放和引流，必要时可考虑使用负压封闭引流装置。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "from": "treatment_ssi_antibiotics_empirical",
+        "to": "plan_ssi_carbapenem_for_esbl",
+        "relation_id": "rel_antibiotics_empirical_implements_by_carbapenem",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "产ESBLs肠杆菌感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "针对产超广谱 β内酰胺酶（ＥＳＢＬｓ）肠杆菌可选用碳青霉烯类、β内酰胺类／β内酰胺酶抑制剂合剂和头霉素类等抗生素治疗；"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "from": "treatment_ssi_antibiotics_empirical",
+        "to": "plan_ssi_ceftazidime_avibactam_for_cre",
+        "relation_id": "rel_antibiotics_empirical_implements_by_ceftazidime_avibactam",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "CRE感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "针对 ＣＲＥ，可选用头孢他啶阿维巴坦，或替加环素单药／联合，或以多黏菌素为基础的两药／三药联合治疗方案；"
+        ],
+        "confidence": 0.97
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_ssi_mdro",
+        "to": "etiology_esbl_enterobacteriaceae",
+        "relation_id": "rel_mdro_caused_by_esbl",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "产 ＥＳＢＬｓ肠杆菌、耐碳青霉烯类革兰阴性杆菌（Ｃａｒｂａｐｅｎｅｍｒｅｓｉｓｔａｎｔｏｒｇａｎｉｓｍ，ＣＲＯ）和ＭＲＳＡ。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "from": "sub_disease_ssi_mdro",
+        "to": "etiology_cre",
+        "relation_id": "rel_mdro_caused_by_cre",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "ＣＲＥ感染率近年来呈上升趋势，且与术后早期死亡密切相关［３０３１］。"
+        ],
+        "confidence": 0.97
+      },
+      {
+        "from": "sub_disease_ssi_ifd",
+        "to": "etiology_candida_albicans",
+        "relation_id": "rel_ifd_caused_by_candida",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "肝移植、肾移植和心脏移植术后 ＩＦＤ导致的ＳＳＩ均以假丝酵母菌感染最常见"
+        ],
+        "confidence": 0.96
+      },
+      {
+        "from": "sub_disease_ssi_ifd",
+        "to": "etiology_aspergillus",
+        "relation_id": "rel_ifd_caused_by_aspergillus",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "肺移植术后手术部位 ＩＦＤ致病菌以曲霉更为常见，其次为假丝酵母菌和其他真菌［３７３８］。"
+        ],
+        "confidence": 0.96
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_ssi_mdro",
+        "to": "pathogenesis_ssi_immunosuppression",
+        "relation_id": "rel_mdro_explained_by_immunosuppression",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "实体器官移植 ＳＳＩ的常见病原体还与供者来源性感染（Ｄｏｎｏｒｄｅｒｉｖｅｄｉｎｆｅｃｔｉｏｎ，ＤＤＩ）、受者免疫状态和受者既往存在的感染相关。"
+        ],
+        "confidence": 0.92
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

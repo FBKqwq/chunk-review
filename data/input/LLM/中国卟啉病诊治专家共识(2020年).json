@@ -1,0 +1,1120 @@
+{
+  "meta": {
+    "doc_id": "中国卟啉病诊治专家共识(2020年)",
+    "source_title": "中国卟啉病诊治专家共识(2020年)",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_porphyria",
+        "name": "卟啉病",
+        "normalized_name": "卟啉病",
+        "aliases": [
+          "Porphyria"
+        ],
+        "source_document_ids": [
+          "中国卟啉病诊治专家共识(2020年)"
+        ],
+        "evidence_ids": [
+          "卟啉病(Porphyria)是由于血红素生物合成途径中的酶活性缺乏，引起卟啉或其前体[如氨基乙酰丙酸(delta-aminolevulinic acid, S-ALA)和卟胆原（porphobilinogen, PBG)」浓度异常升高，并在组织中蓄积，造成细胞损伤而引起的一类代谢性疾病"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_xlpp",
+        "name": "X连锁原卟啉病",
+        "parent_disease_id": "disease_porphyria",
+        "disease_subtype": "红细胞生成性卟啉病",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(1)X连锁原卟啉病（XLPP): ALAS2基因位于X染色体，编码血红素生物合成途径的初始酶，ALAS2基因功能获得性突变引起XLPP,又称为X-连锁红细胞生成性卟啉病。患者红细胞中原卟啉生成增加，锌原卟啉增加。主要表现为疼痛性、非发疱性皮肤光敏反应。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_adp",
+        "name": "ALA脱水酶卟啉病",
+        "parent_disease_id": "disease_porphyria",
+        "disease_subtype": "急性肝卟啉病",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(2) ALA脱水酶卟啉病（ADP): ALA脱水酶(ALAD)是血红素合成途径中的第2个酶，催化两分子ALA形成PBG。基因缺陷导致ALAD缺乏，ALA升高,为常染色体隐性遗传。表现为急性卟啉病症状，如腹痛、运动神经病造成的肌无力及神经精神性表现，不累及皮肤。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_aip",
+        "name": "急性间歇性卟啉病",
+        "parent_disease_id": "disease_porphyria",
+        "disease_subtype": "急性肝卟啉病",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(3) AIP：是HMBS，又称为胆色素原脱氨酶(PBGD)部分缺乏引起的急性神经内脏卟啉病。...常染色体显性遗传，症状的发生和严重程度受多种环境因素和其他因素的影响。...临床上表现为急性卟啉病症状，最常见为胃肠道和神经系统受累，包括腹部和肢体的疼痛，无皮肤表现。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cep",
+        "name": "先天性红细胞生成性卟啉病",
+        "parent_disease_id": "disease_porphyria",
+        "disease_subtype": "红细胞生成性卟啉病",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(4) 先天性红细胞生成性卟啉病(CEP):在血红素生物合成途径中，尿卟啉原III合成酶(uros)催化HMB转化为环化四吡咯尿卟啉原III。UROS基因突变导致酶活性降低，引起尿卟啉I及粪卟啉I积聚，为常染色体隐性遗传。主要表现为皮肤光敏(慢性发疱性病变）和溶血性贫血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_pct",
+        "name": "迟发性皮肤卟啉病",
+        "parent_disease_id": "disease_porphyria",
+        "disease_subtype": "慢性肝卟啉病",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(5) 家族性/散发性PCT:肝脏尿卟啉原脱羧酶(UROD)是血红素生物合成途径中的第5个酶，催化尿卟啉原发生脱羧反应生成粪卟啉原。肝脏UROD活性降低引起PCT,大量尿卟啉原和高度羧基化的卟啉在肝脏中蓄积，并出现在血浆和尿液中。PCT是最常见的人类卟啉病，通常在中年或晚年发病，患者表现为手背和其他阳光暴露区慢性水疱性皮肤损害;肝功能异常，肝活检镜下可见肝细胞内针状结晶的卟啉。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hcp",
+        "name": "遗传性粪卟啉病",
+        "parent_disease_id": "disease_porphyria",
+        "disease_subtype": "混合性肝卟啉病",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(6) HCP:线粒体酶粪卟啉原氧化酶(CPOX)是血红素生物合成途径的第6个酶，催化粪卟啉原III氧化脱羧为原卟啉原IX，CPOX基因的杂合突变导致酶活性缺陷引起HCP: 临床表现为急性神经内脏症状和起疱性皮肤损害。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_vp",
+        "name": "变异性卟啉病",
+        "parent_disease_id": "disease_porphyria",
+        "disease_subtype": "混合性肝卟啉病",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(7) VP:由原卟啉原氧化酶(PPOX)基因杂合突变导致的常染色体显性遗传病：PPOX基因编码血红素生物合成途径中的第7个酶，将原卟啉原IX氧化成原卟啉IX。酶活性降低导致原卟啉原IX蓄积于肝细胞内。以光暴露区皮肤慢性起疱性皮损和(或)急性神经内脏损害为特征。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_epp",
+        "name": "红细胞生成性原卟啉病",
+        "parent_disease_id": "disease_porphyria",
+        "disease_subtype": "红细胞生成性卟啉病",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(8)EPP:亚铁螯合酶(FECH)在血红素形成的最终阶段将铁插入原卟啉IX环，FECH酶缺乏导致EPP,为常染色体显性遗传。FECH缺乏影响骨髓红细胞前体细胞(有核红细胞和网织红细胞）中血红素的合成和锌原卟啉的形成，原卟啉在红细胞和血浆中积聚，引起烧灼感、偶伴疼痛性、非发疱性光敏反应，日晒后急性发病。原卟啉大量聚集在肝脏，可导致肝细胞和胆管细胞损伤，甚至出现严重肝功能衰竭。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_painful_non_bullous_photosensitivity",
+        "name": "疼痛性、非发疱性皮肤光敏反应",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "(1)X连锁原卟啉病（XLPP): ...主要表现为疼痛性、非发疱性皮肤光敏反应。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_acute_neurovisceral_symptoms",
+        "name": "急性神经内脏症状",
+        "body_site": "全身",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "(2) ALA脱水酶卟啉病（ADP): ...表现为急性卟啉病症状，如腹痛、运动神经病造成的肌无力及神经精神性表现，不累及皮肤。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "(3) AIP：...临床上表现为急性卟啉病症状，最常见为胃肠道和神经系统受累，包括腹部和肢体的疼痛，无皮肤表现。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_chronic_bullous_photosensitivity",
+        "name": "慢性发疱性皮肤光敏",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "(4) 先天性红细胞生成性卟啉病(CEP): ...主要表现为皮肤光敏(慢性发疱性病变）和溶血性贫血。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hepatic_dysfunction",
+        "name": "肝功能异常",
+        "body_site": "肝脏",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "(5) 家族性/散发性PCT: ...患者表现为手背和其他阳光暴露区慢性水疱性皮肤损害;肝功能异常，肝活检镜下可见肝细胞内针状结晶的卟啉。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_bullous_skin_lesions",
+        "name": "起疱性皮肤损害",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "(6) HCP: ...临床表现为急性神经内脏症状和起疱性皮肤损害。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_burning_sensation",
+        "name": "烧灼感",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "(8)EPP: ...原卟啉在红细胞和血浆中积聚，引起烧灼感、偶伴疼痛性、非发疱性光敏反应，日晒后急性发病。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hemolytic_anemia",
+        "name": "溶血性贫血",
+        "body_site": "血液",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "(4) 先天性红细胞生成性卟啉病(CEP): ...主要表现为皮肤光敏(慢性发疱性病变）和溶血性贫血。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_urine_pbg",
+        "name": "尿卟胆原测定",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "(2)尿PBG测定:急性发作期间随机尿样本,快速定性检测尿PBG，为卟啉病的快速筛查方法。症状急性发作之后会快速下降，发作间期患者指标可能正常。ADP患者急性发作期尿PBG不增加。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_urine_ala",
+        "name": "尿氨基乙酰丙酸测定",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "(4)血浆或尿ALA测定：急性卟啉病发作期血浆（或尿液）ALA升高，尿ALA增高也见于铅中毒和遗传性酪氨酸血症1型。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_rbc_protoporphyrin",
+        "name": "红细胞内原卟啉测定",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "(6)红细胞内原卟啉测定：EPP和XLPP总红细胞内原卟啉增高。总红细胞原卟啉水平增加也可见于铁缺乏、铅中毒、慢性病性贫血和溶血性疾病，过多的原卟啉大部分是锌原卟啉，而在EPP和大部分XLPP患者中，则主要是不含金属原卟啉。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_plasma_fluorescence_peak",
+        "name": "血浆荧光发射峰检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "2.血浆荧光发射峰检测：卟啉是人体唯一内源性光致敏剂，具有特殊吸收光谱卟啉及其衍生物吸光后被激活放出红色荧光，根据荧光波长的差异可以协助判断卟啉衍生物的类型。在中性PH环境下稀释时，在XLPP或XLPP中，血浆荧光峰值在接近634 nm波长处，VP峰值在接近626 nm处，AIP、HCP、PCT和CEP的峰值在接近620 nm处。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_fecal_protoporphyrin",
+        "name": "粪卟啉检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "(8)粪卟啉检测:CEP患者粪便中的卟啉排泄明显增加，通常以粪卟啉I为主。粪便卟啉明显升高是HCP和VP的特征。EPP患者粪便中总卟啉类化合物水平正常或轻度升高，大部分是原卟啉。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_skin_porphyria_avoidance",
+        "content": "以避光为主。采用物理性防晒霜、皮肤防护服、保护性太阳镜，房屋和汽车的车窗应该配备防护有色玻璃，并尽可能地避免灯光照射。",
+        "recommendation_strength": "strong",
+        "source_section": "五、卟啉病的治疗",
+        "evidence_ids": [
+          "1.皮肤型卟啉病:以避光为主。采用物理性防晒霜、皮肤防护服、保护性太阳镜，房屋和汽车的车窗应该配备防护有色玻璃，并尽可能地避免灯光照射。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_acute_porphyria_hemin",
+        "content": "静脉输注氯高铁血红素治疗:急性卟啉病发作的首选治疗，抑制ALAS1减少血红素前体及其副产物的累积，快速降低血浆和尿液PBG和ALA。",
+        "recommendation_strength": "strong",
+        "source_section": "五、卟啉病的治疗",
+        "evidence_ids": [
+          "(1) 静脉输注氯高铁血红素治疗:急性卟啉病发作的首选治疗，抑制ALAS1减少血红素前体及其副产物的累积，快速降低血浆和尿液PBG和ALA。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_acute_porphyria_carbohydrate",
+        "content": "碳水化合物负荷治疗:若不能获得血红素，则应给予葡萄糖进行碳水化合物负荷治疗；葡萄糖和其他碳水化合物可减少过氧化物酶体增殖物活化受体γ共激活因子-1α（PGC-1α），介导肝脏ALAS1下调，减少卟啉前体的排泄。",
+        "recommendation_strength": "recommended",
+        "source_section": "五、卟啉病的治疗",
+        "evidence_ids": [
+          "(2) 碳水化合物负荷治疗:若不能获得血红素，则应给予葡萄糖进行碳水化合物负荷治疗；葡萄糖和其他碳水化合物可减少过氧化物酶体增殖物活化受体γ共激活因子-1α（PGC-1α），介导肝脏ALAS1下调，减少卟啉前体的排泄。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_hemin_iv",
+        "content": "使用25%人白蛋白复溶，中心静脉导管给予3〜4 mg/kg, 1次/d,连用4 d。如果在4 d内未观察到完全缓解，可延长治疗时间。",
+        "plan_level": 1,
+        "applicable_condition": "急性卟啉病发作期",
+        "contraindication_note": "多次治疗后可能发生铁过载。",
+        "evidence_ids": [
+          "给药方案是使用25%人白蛋白复溶，中心静脉导管给予3〜4 mg/kg, 1次/d,连用4 d。如果在4 d内未观察到完全缓解，可延长治疗时间。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_glucose_iv_or_oral",
+        "content": "口服或静脉给予葡萄糖,剂量为300〜400 g/d。",
+        "plan_level": 2,
+        "applicable_condition": "无法获得氯高铁血红素时",
+        "contraindication_note": "低钠血症为AIP常见临床表现,需注意静脉给予葡萄糖时可能导致总液体摄入量增加，进一步加重低钠血症。",
+        "evidence_ids": [
+          "口服或静脉给予葡萄糖,剂量为300〜400 g/d。低钠血症为AIP常见临床表现,需注意静脉给予葡萄糖时可能导致总液体摄人量增加，进一步加重低钠血症。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_alas2_gain_of_function",
+        "content": "ALAS2基因功能获得性突变",
+        "etiology_type": "遗传因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "ALAS2基因功能获得性突变引起XLPP"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_alad_deficiency",
+        "content": "ALA脱水酶(ALAD)基因缺陷导致ALAD缺乏",
+        "etiology_type": "遗传因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "基因缺陷导致ALAD缺乏"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_hmbs_deficiency",
+        "content": "HMBS（胆色素原脱氨酶）部分缺乏",
+        "etiology_type": "遗传因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "HMBS（胆色素原脱氨酶）部分缺乏引起的急性神经内脏卟啉病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_uros_deficiency",
+        "content": "尿卟啉原III合成酶(uros)基因突变导致酶活性降低",
+        "etiology_type": "遗传因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "UROS基因突变导致酶活性降低"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_urol_deficiency",
+        "content": "肝脏尿卟啉原脱羧酶(UROD)活性降低",
+        "etiology_type": "遗传或获得性因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "肝脏UROD活性降低引起PCT"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_cpoX_mutation",
+        "content": "粪卟啉原氧化酶(CPOX)基因杂合突变",
+        "etiology_type": "遗传因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "CPOX基因的杂合突变导致酶活性缺陷引起HCP"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_ppox_mutation",
+        "content": "原卟啉原氧化酶(PPOX)基因杂合突变",
+        "etiology_type": "遗传因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "VP:由原卟啉原氧化酶(PPOX)基因杂合突变导致的常染色体显性遗传病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_fech_deficiency",
+        "content": "亚铁螯合酶(FECH)缺乏",
+        "etiology_type": "遗传因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "FECH酶缺乏导致EPP"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_heme_synthesis_enzyme_deficiency",
+        "content": "血红素生物合成途径中的酶活性缺乏，引起卟啉或其前体[如氨基乙酰丙酸(delta-aminolevulinic acid, S-ALA)和卟胆原（porphobilinogen, PBG)」浓度异常升高，并在组织中蓄积，造成细胞损伤",
+        "evidence_ids": [
+          "卟啉病(Porphyria)是由于血红素生物合成途径中的酶活性缺乏，引起卟啉或其前体[如氨基乙酰丙酸(delta-aminolevulinic acid, S-ALA)和卟胆原（porphobilinogen, PBG)」浓度异常升高，并在组织中蓄积，造成细胞损伤而引起的一类代谢性疾病"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_porphyria",
+        "to": "sub_disease_xlpp",
+        "relation_id": "rel_porphyria_has_xlpp",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(1)X连锁原卟啉病（XLPP): ALAS2基因位于X染色体，编码血红素生物合成途径的初始酶，ALAS2基因功能获得性突变引起XLPP,又称为X-连锁红细胞生成性卟啉病。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_porphyria",
+        "to": "sub_disease_adp",
+        "relation_id": "rel_porphyria_has_adp",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(2) ALA脱水酶卟啉病（ADP): ALA脱水酶(ALAD)是血红素合成途径中的第2个酶，催化两分子ALA形成PBG。基因缺陷导致ALAD缺乏，ALA升高,为常染色体隐性遗传。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_porphyria",
+        "to": "sub_disease_aip",
+        "relation_id": "rel_porphyria_has_aip",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(3) AIP：是HMBS，又称为胆色素原脱氨酶(PBGD)部分缺乏引起的急性神经内脏卟啉病。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_porphyria",
+        "to": "sub_disease_cep",
+        "relation_id": "rel_porphyria_has_cep",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(4) 先天性红细胞生成性卟啉病(CEP):在血红素生物合成途径中，尿卟啉原III合成酶(uros)催化HMB转化为环化四吡咯尿卟啉原III。UROS基因突变导致酶活性降低，引起尿卟啉I及粪卟啉I积聚，为常染色体隐性遗传。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_porphyria",
+        "to": "sub_disease_pct",
+        "relation_id": "rel_porphyria_has_pct",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(5) 家族性/散发性PCT:肝脏尿卟啉原脱羧酶(UROD)是血红素生物合成途径中的第5个酶，催化尿卟啉原发生脱羧反应生成粪卟啉原。肝脏UROD活性降低引起PCT"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_porphyria",
+        "to": "sub_disease_hcp",
+        "relation_id": "rel_porphyria_has_hcp",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(6) HCP:线粒体酶粪卟啉原氧化酶(CPOX)是血红素生物合成途径的第6个酶，催化粪卟啉原III氧化脱羧为原卟啉原IX，CPOX基因的杂合突变导致酶活性缺陷引起HCP"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_porphyria",
+        "to": "sub_disease_vp",
+        "relation_id": "rel_porphyria_has_vp",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(7) VP:由原卟啉原氧化酶(PPOX)基因杂合突变导致的常染色体显性遗传病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_porphyria",
+        "to": "sub_disease_epp",
+        "relation_id": "rel_porphyria_has_epp",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(8)EPP:亚铁螯合酶(FECH)在血红素形成的最终阶段将铁插入原卟啉IX环，FECH酶缺乏导致EPP,为常染色体显性遗传。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_xlpp",
+        "to": "symptom_painful_non_bullous_photosensitivity",
+        "relation_id": "rel_xlpp_manifests_as_painful_non_bullous_photosensitivity",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "(1)X连锁原卟啉病（XLPP): ...主要表现为疼痛性、非发疱性皮肤光敏反应。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将XLPP与该症状直接对应为‘主要表现’，且描述高度特异、无歧义",
+        "evidence": "(1)X连锁原卟啉病（XLPP):...主要表现为疼痛性、非发疱性皮肤光敏反应。"
+      },
+      {
+        "from": "sub_disease_adp",
+        "to": "symptom_acute_neurovisceral_symptoms",
+        "relation_id": "rel_adp_manifests_as_acute_neurovisceral_symptoms",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "(2) ALA脱水酶卟啉病（ADP): ...表现为急性卟啉病症状，如腹痛、运动神经病造成的肌无力及神经精神性表现，不累及皮肤。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将ADP定义为‘急性神经内脏卟啉病’，并以‘表现为急性卟啉病症状’直接对应，属疾病本质性临床表型",
+        "evidence": "(2)ALA脱水酶卟啉病（ADP):...表现为急性卟啉病症状，如腹痛、运动神经病造成的肌无力及神经精神性表现，不累及皮肤。"
+      },
+      {
+        "from": "sub_disease_aip",
+        "to": "symptom_abdominal_pain",
+        "relation_id": "rel_aip_manifests_as_abdominal_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "(3) AIP：...临床上表现为急性卟啉病症状，最常见为胃肠道和神经系统受累，包括腹部和肢体的疼痛，无皮肤表现。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在‘神经内脏症状’小节下首条即明确‘急性腹痛：为最常见的表现’，且专指AIP等急性肝卟啉病；表1亦列其为AIP主要症状",
+        "evidence": "2.神经内脏症状^:...（1)急性腹痛：为最常见的表现,腹痛往往为重度、持续、定位模糊..."
+      },
+      {
+        "from": "sub_disease_cep",
+        "to": "symptom_chronic_bullous_photosensitivity",
+        "relation_id": "rel_cep_manifests_as_chronic_bullous_photosensitivity",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "(4) 先天性红细胞生成性卟啉病(CEP): ...主要表现为皮肤光敏(慢性发疱性病变）和溶血性贫血。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在‘皮肤光敏’分类中明确定义CEP为‘慢性发疱性皮肤光敏’，且表1‘主要症状’栏直接写‘慢性发疱性皮肤光敏:溶血性贫血’",
+        "evidence": "(4)先天性红细胞生成性卟啉病(CEP):...主要表现为皮肤光敏(慢性发疱性病变）和溶血性贫血."
+      },
+      {
+        "from": "sub_disease_pct",
+        "to": "symptom_hepatic_dysfunction",
+        "relation_id": "rel_pct_manifests_as_hepatic_dysfunction",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "(5) 家族性/散发性PCT: ...患者表现为手背和其他阳光暴露区慢性水疱性皮肤损害;肝功能异常，肝活检镜下可见肝细胞内针状结晶的卟啉。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "表1‘主要症状’栏对PCT明确列出‘慢性发疱性皮肤光敏;肝功能异常’，原文第2页‘(5) 家族性/散发性PCT’段落亦写‘肝功能异常’",
+        "evidence": "迟发性皮肤卟啉病(PCT)...主要症状:慢性发疱性皮肤光敏;肝功能异常"
+      },
+      {
+        "from": "sub_disease_hcp",
+        "to": "symptom_bullous_skin_lesions",
+        "relation_id": "rel_hcp_manifests_as_bullous_skin_lesions",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "(6) HCP: ...临床表现为急性神经内脏症状和起疱性皮肤损害。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文第2页‘(6) HCP’段落明确‘临床表现为急性神经内脏症状和起疱性皮肤损害’，且‘皮肤光敏’节中将HCP列为‘大疱性皮肤卟啉病’",
+        "evidence": "(6)HCP:...临床表现为急性神经内脏症状和起疱性皮肤损害。"
+      },
+      {
+        "from": "sub_disease_epp",
+        "to": "symptom_burning_sensation",
+        "relation_id": "rel_epp_manifests_as_burning_sensation",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "(8)EPP: ...原卟啉在红细胞和血浆中积聚，引起烧灼感、偶伴疼痛性、非发疱性光敏反应，日晒后急性发病。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文第3页‘皮肤光敏’节明确‘EPP和XLPP患者表现为日光暴露后数分钟内出现皮肤针刺感、烧灼感和显著疼痛’，‘烧灼感’即burning sensation",
+        "evidence": "EPP和XLPP患者表现为日光暴露后数分钟内出现皮肤针刺感、烧灼感和显著疼痛"
+      },
+      {
+        "from": "sub_disease_cep",
+        "to": "symptom_hemolytic_anemia",
+        "relation_id": "rel_cep_manifests_as_hemolytic_anemia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "(4) 先天性红细胞生成性卟啉病(CEP): ...主要表现为皮肤光敏(慢性发疱性病变）和溶血性贫血。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文第2页‘(4) 先天性红细胞生成性卟啉病(CEP)’段落结尾明确‘主要表现为皮肤光敏(慢性发疱性病变）和溶血性贫血’，表1亦列‘慢性发疱性皮肤光敏:溶血性贫血’",
+        "evidence": "(4)先天性红细胞生成性卟啉病(CEP):...主要表现为皮肤光敏(慢性发疱性病变）和溶血性贫血."
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_xlpp",
+        "to": "test_rbc_protoporphyrin",
+        "relation_id": "rel_xlpp_requires_rbc_protoporphyrin",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "总红细胞内原卟啉增高",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "(6)红细胞内原卟啉测定：EPP和XLPP总红细胞内原卟啉增高。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文第3页明确‘红细胞内原卟啉测定：EPP和XLPP总红细胞内原卟啉增高’，且强调‘总红细胞原卟啉水平增加也可见于...但在EPP和大部分XLPP患者中，则主要是不含金属原卟啉’，表明该检测是核心确诊依据",
+        "evidence": "（6)红细胞内原卟啉测定：EPP和XLPP总红细胞内原卟啉增高"
+      },
+      {
+        "from": "sub_disease_adp",
+        "to": "test_urine_ala",
+        "relation_id": "rel_adp_requires_urine_ala",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "尿ALA升高",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "(4)血浆或尿ALA测定：急性卟啉病发作期血浆（或尿液）ALA升高，尿ALA增高也见于铅中毒和遗传性酪氨酸血症1型。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "表2明确ADP尿中卟啉类型为‘ALA，粪卟啉m’，且第3页‘生化检查’节指出‘尿ALA测定：急性卟啉病发作期...尿ALA升高’，ADP被归类为急性卟啉病",
+        "evidence": "表2卟啉病生化指标特点:ALA脱水酶卟啉病(ADP)ALA，粪卟啉m/锌原卟啉IX"
+      },
+      {
+        "from": "sub_disease_aip",
+        "to": "test_urine_pbg",
+        "relation_id": "rel_aip_requires_urine_pbg",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "尿PBG升高",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "(2)尿PBG测定:急性发作期间随机尿样本,快速定性检测尿PBG，为卟啉病的快速筛查方法。症状急性发作之后会快速下降，发作间期患者指标可能正常。ADP患者急性发作期尿PBG不增加。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文第3页‘生化检查’节明确‘尿PBG测定:急性发作期间随机尿样本,快速定性检测尿PBG，为卟啉病的快速筛查方法’，并特别注明‘ADP患者急性发作期尿PBG不增加’，反向印证AIP必须依赖此检测；图2标题为‘急性卟啉病的诊断流程’，起点即为尿PBG检测",
+        "evidence": "(2)尿PBG测定:急性发作期间随机尿样本,快速定性检测尿PBG，为卟啉病的快速筛查方法。"
+      },
+      {
+        "from": "sub_disease_cep",
+        "to": "test_fecal_protoporphyrin",
+        "relation_id": "rel_cep_requires_fecal_protoporphyrin",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "粪便中卟啉排泄明显增加，通常以粪卟啉I为主",
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "(8)粪卟啉检测:CEP患者粪便中的卟啉排泄明显增加，通常以粪卟啉I为主。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文表2显示CEP粪中卟啉类型为‘粪卟啉[’，但未使用‘粪卟啉I’或‘粪卟啉i’作为标准术语；且第3页‘粪卟啉检测’节仅说‘CEP患者粪便中的卟啉排泄明显增加，通常以粪卟啉1为主’，未明确指向‘粪卟啉I测定’为必需检测；而表2中CEP对应项为‘粪卟啉[’，符号不规范，证据强度弱于其他检测",
+        "evidence": "粪便中的卟啉排泄明显增加，通常以粪卟啉1为主"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_xlpp",
+        "to": "treatment_skin_porphyria_avoidance",
+        "relation_id": "rel_xlpp_follows_skin_porphyria_avoidance",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "五、卟啉病的治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_adp",
+        "to": "treatment_acute_porphyria_hemin",
+        "relation_id": "rel_adp_follows_acute_porphyria_hemin",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "急性发作期",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型",
+          "临床表现"
+        ],
+        "contraindication_note": "多次治疗后可能发生铁过载。",
+        "evidence_level": "expert_consensus",
+        "source_section": "五、卟啉病的治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aip",
+        "to": "treatment_acute_porphyria_hemin",
+        "relation_id": "rel_aip_follows_acute_porphyria_hemin",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "急性发作期",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型",
+          "临床表现"
+        ],
+        "contraindication_note": "多次治疗后可能发生铁过载。",
+        "evidence_level": "expert_consensus",
+        "source_section": "五、卟啉病的治疗",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_acute_porphyria_hemin",
+        "to": "plan_hemin_iv",
+        "relation_id": "rel_hemin_treatment_implements_by_plan_hemin_iv",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "急性卟啉病发作期",
+        "contraindication_note": "多次治疗后可能发生铁过载。",
+        "evidence_ids": [
+          "给药方案是使用25%人白蛋白复溶，中心静脉导管给予3〜4 mg/kg, 1次/d,连用4 d。如果在4 d内未观察到完全缓解，可延长治疗时间。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_acute_porphyria_carbohydrate",
+        "to": "plan_glucose_iv_or_oral",
+        "relation_id": "rel_carbohydrate_treatment_implements_by_plan_glucose",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "无法获得氯高铁血红素时",
+        "contraindication_note": "低钠血症为AIP常见临床表现,需注意静脉给予葡萄糖时可能导致总液体摄入量增加，进一步加重低钠血症。",
+        "evidence_ids": [
+          "口服或静脉给予葡萄糖,剂量为300〜400 g/d。低钠血症为AIP常见临床表现,需注意静脉给予葡萄糖时可能导致总液体摄人量增加，进一步加重低钠血症。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_xlpp",
+        "to": "etiology_alas2_gain_of_function",
+        "relation_id": "rel_xlpp_causes_alas2_gain_of_function",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "ALAS2基因功能获得性突变引起XLPP"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_adp",
+        "to": "etiology_alad_deficiency",
+        "relation_id": "rel_adp_causes_alad_deficiency",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "基因缺陷导致ALAD缺乏"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aip",
+        "to": "etiology_hmbs_deficiency",
+        "relation_id": "rel_aip_causes_hmbs_deficiency",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "HMBS（胆色素原脱氨酶）部分缺乏引起的急性神经内脏卟啉病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cep",
+        "to": "etiology_uros_deficiency",
+        "relation_id": "rel_cep_causes_uros_deficiency",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "UROS基因突变导致酶活性降低"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pct",
+        "to": "etiology_urol_deficiency",
+        "relation_id": "rel_pct_causes_urol_deficiency",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "肝脏UROD活性降低引起PCT"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hcp",
+        "to": "etiology_cpoX_mutation",
+        "relation_id": "rel_hcp_causes_cpoX_mutation",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "CPOX基因的杂合突变导致酶活性缺陷引起HCP"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_vp",
+        "to": "etiology_ppox_mutation",
+        "relation_id": "rel_vp_causes_ppox_mutation",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "VP:由原卟啉原氧化酶(PPOX)基因杂合突变导致的常染色体显性遗传病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_epp",
+        "to": "etiology_fech_deficiency",
+        "relation_id": "rel_epp_causes_fech_deficiency",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "FECH酶缺乏导致EPP"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_xlpp",
+        "to": "pathogenesis_heme_synthesis_enzyme_deficiency",
+        "relation_id": "rel_xlpp_explained_by_heme_synthesis_enzyme_deficiency",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "卟啉病(Porphyria)是由于血红素生物合成途径中的酶活性缺乏，引起卟啉或其前体[如氨基乙酰丙酸(delta-aminolevulinic acid, S-ALA)和卟胆原（porphobilinogen, PBG)」浓度异常升高，并在组织中蓄积，造成细胞损伤而引起的一类代谢性疾病"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

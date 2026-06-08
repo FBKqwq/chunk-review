@@ -1,0 +1,2946 @@
+{
+  "doc_id": "DOC_4cec71f47d41",
+  "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\中国铜绿假单胞菌下呼吸道感染诊治专家共识（2022年版）.pdf",
+  "source_title": "中国铜绿假单胞菌下呼吸道感染诊治专家共识（2022年版）",
+  "chunking_method": "section_semantic_v1",
+  "total_pages": 14,
+  "total_chunks": 24,
+  "dropped_chunks": [
+    {
+      "reason": "low_cjk_ratio",
+      "section_title": "前言/概述",
+      "section_path": [
+        "正文",
+        "前言/概述"
+      ],
+      "page_start": 1,
+      "page_end": 1,
+      "page_span": {
+        "start": {
+          "page": 1,
+          "offset": 1106
+        },
+        "end": {
+          "page": 1,
+          "offset": 2276
+        }
+      },
+      "text_span": {
+        "start": 1106,
+        "end": 2276
+      },
+      "len": 1170,
+      "cjk_ratio": 0.0123,
+      "head_80": "Consideringthehighdiseaseburden\noflowerrespiratorytractinfections(LRTIs)causedby"
+    },
+    {
+      "reason": "low_cjk_ratio",
+      "section_title": "前言/概述",
+      "section_path": [
+        "正文",
+        "前言/概述"
+      ],
+      "page_start": 1,
+      "page_end": 1,
+      "page_span": {
+        "start": {
+          "page": 1,
+          "offset": 2276
+        },
+        "end": {
+          "page": 1,
+          "offset": 2403
+        }
+      },
+      "text_span": {
+        "start": 2276,
+        "end": 2403
+      },
+      "len": 127,
+      "cjk_ratio": 0.0082,
+      "head_80": "Thediagnosisof\nCOPD,orimmunocompromisedconditions;\ntwotimes(atleast3monthsapart)"
+    },
+    {
+      "reason": "low_cjk_ratio",
+      "section_title": "前言/概述",
+      "section_path": [
+        "正文",
+        "前言/概述"
+      ],
+      "page_start": 2,
+      "page_end": 2,
+      "page_span": {
+        "start": {
+          "page": 2,
+          "offset": 0
+        },
+        "end": {
+          "page": 2,
+          "offset": 1089
+        }
+      },
+      "text_span": {
+        "start": 2405,
+        "end": 3494
+      },
+      "len": 1089,
+      "cjk_ratio": 0.0084,
+      "head_80": "·740· 中华结核和呼吸杂志\nDrugsusceptibilitytestisaconventionalmethodforPAresistancedetect"
+    },
+    {
+      "reason": "low_cjk_ratio",
+      "section_title": "前言/概述",
+      "section_path": [
+        "正文",
+        "前言/概述"
+      ],
+      "page_start": 2,
+      "page_end": 2,
+      "page_span": {
+        "start": {
+          "page": 2,
+          "offset": 1089
+        },
+        "end": {
+          "page": 2,
+          "offset": 2172
+        }
+      },
+      "text_span": {
+        "start": 3494,
+        "end": 4577
+      },
+      "len": 1083,
+      "cjk_ratio": 0.0,
+      "head_80": "ForLRTIscausedbycarbapenem‑resistantPA(CRPA)ordifficult‑to‑treatresistancePA(DTR"
+    },
+    {
+      "reason": "low_cjk_ratio",
+      "section_title": "前言/概述",
+      "section_path": [
+        "正文",
+        "前言/概述"
+      ],
+      "page_start": 2,
+      "page_end": 2,
+      "page_span": {
+        "start": {
+          "page": 2,
+          "offset": 3054
+        },
+        "end": {
+          "page": 2,
+          "offset": 3478
+        }
+      },
+      "text_span": {
+        "start": 5459,
+        "end": 5883
+      },
+      "len": 424,
+      "cjk_ratio": 0.1985,
+      "head_80": "In\ntherapyofanactiveantimicrobialwith\nceftazidime/avibactam,and\nfordrug‑resistan"
+    }
+  ],
+  "unit_exponent_corrections": [],
+  "chunks": [
+    {
+      "chunk_id": "CH0001",
+      "section_title": "前言/概述",
+      "section_path": [
+        "正文",
+        "前言/概述"
+      ],
+      "page_start": 1,
+      "page_end": 1,
+      "page_span": {
+        "start": {
+          "page": 1,
+          "offset": 0
+        },
+        "end": {
+          "page": 1,
+          "offset": 1106
+        }
+      },
+      "text_span": {
+        "start": 0,
+        "end": 1106
+      },
+      "text": "中华结核和呼吸杂志年月第卷第期\n2022 8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\n中国铜绿假单胞菌下呼吸道感染诊治\n专家共识（ 年版）\n中华医学会呼吸病学分会感染学组\n： ；施毅，解放军东部战区总医院呼吸与危重症医学科，南京\nEmailjmqu0906@163.com\n， ：\n210002Emailshiyi56@126.com\n【摘要】铜绿假单胞菌是难治性下呼吸道感染最常见致病菌之一，由于其耐药严重和易形成生\n物被膜，特别是近10多年来碳青霉烯类耐药株的出现，使其治疗更为困难；同时新的治疗药物和治疗\n策略不断问世，有必要加以评估以指导临床合理应用。中华医学会呼吸病学分会感染学组在《铜绿假\n单胞菌下呼吸道感染诊治专家共识（2014年版）》的基础上进行更新，并以临床诊治和预防的思路和\n技术为重点，以期为临床医生规范化诊治铜绿假单胞菌下呼吸道感染提供切实可行的参考。\n国际实践指南注册号：\nIPGRP‑2021CN028\nChineseexpertconsensusonthemanagement\nPseudomonasaeruginosainadults(2022)\nPulmonaryInfectionAssemblyofChineseThoracicSociety\nCorrespondingauthor:QuJieming,Department\nHospital,InstituteofRespiratoryDiseases,ShanghaiJiaotongUniversitySchoolofMedicine,Shanghai\n200025,China,Email:jmqu0906@163.com;Shi\nMedicine,JinlingHospital,MedicalSchoolofNanjingUniversity,Nanjing210002,China,Email:shiyi56@\n126.com\n【Abstract】Pseudomonasaeruginosa(PA)isthesecondcommonGram‑negativebacterium\nforhospitalacquiredpneumonia(HAP)inChina(16.9%\nacquiredpneumonia(CAP)wasabout1.0%,while\naccountedfor67.0%ofCAPinpatientswithahistory\nchronicobstructivepulmonarydisease(COPD)ortracheotomy.",
+      "text_quality": {
+        "cjk_ratio": 0.2605
+      },
+      "anchors": {
+        "sha1_12": "7cfac5856a5b",
+        "head_80": "中华结核和呼吸杂志年月第卷第期\n2022 8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\n中国铜绿假单胞菌"
+      },
+      "page_regions": [
+        {
+          "page": 1,
+          "bbox": [
+            65.27673571999999,
+            51.42910409379988,
+            452.6149706582436,
+            759.7645388085999
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p001_002",
+          "object_type": "figure",
+          "page": 1,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0002",
+      "section_title": "前言/概述",
+      "section_path": [
+        "正文",
+        "前言/概述"
+      ],
+      "page_start": 2,
+      "page_end": 2,
+      "page_span": {
+        "start": {
+          "page": 2,
+          "offset": 2172
+        },
+        "end": {
+          "page": 2,
+          "offset": 3054
+        }
+      },
+      "text_span": {
+        "start": 4577,
+        "end": 5459
+      },
+      "text": "Practiceguidelineregistrationfortransparency:\n铜绿假单胞菌（Pseudomonasaeruginosa\naeruginosa，PA）是临床常见的革兰阴性杆菌，在自\n然界广泛分布，可在人体皮肤表面分离到，还可污\n染医疗器械甚至消毒液，具有易定植、易变异和多\n耐药的特点。PA下呼吸道感染的种类主要包括肺\n炎、支气管扩张症（简称支扩）合并感染和慢性阻塞\n性肺疾病（简称慢阻肺）急性加重，由多重耐药\n（ Paeruginosa， ）引起的\nmultidrugresistant MDR‑PA\n下呼吸道感染病死率高，治疗困难。\n中华医学会呼吸病学分会感染学组于\n发表了“铜绿假单胞菌下呼吸道感染诊治专家共2014\n识”［1］，对规范PA下呼吸道感染的诊断和治疗发挥\n了积极作用。近年来，PA的流行病学、耐药情况不\n断发生变化，相关临床研究不断深入，新型抗菌药\n物研发上市，需要重新认识PA下呼吸道感染。感\n年月第卷第期\n2022 8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\nlimitedactivityofavailableagents,combined\ndrugswithadditiveorsynergisticeffectin\nmechanismsofPAisolates,suchas\nifavailable.Itisrecommendednot\norwithhighriskfactorsforPAinfection,\nbeinitiatedaftercollectingspecimensfor\npneumoniawhoarenotcriticallyill,single\nsuchassepsisorwithriskfactorsfor\nTheantimicrobialregimenshouldfollow\nensureadequatedosageandadministration\nbeselectedbasedondrugsensitivity.",
+      "text_quality": {
+        "cjk_ratio": 0.2955
+      },
+      "anchors": {
+        "sha1_12": "85aa70023579",
+        "head_80": "Practiceguidelineregistrationfortransparency:\n铜绿假单胞菌（Pseudomonasaeruginosa\naerug"
+      },
+      "page_regions": [
+        {
+          "page": 2,
+          "bbox": [
+            61.65156578,
+            51.42910409379988,
+            547.08119146,
+            775.3137635496399
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p002_001",
+          "object_type": "figure",
+          "page": 2,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0003",
+      "section_title": "一、PA的微生物学特点",
+      "section_path": [
+        "正文",
+        "一、PA的微生物学特点"
+      ],
+      "page_start": 2,
+      "page_end": 3,
+      "page_span": {
+        "start": {
+          "page": 2,
+          "offset": 3481
+        },
+        "end": {
+          "page": 3,
+          "offset": 582
+        }
+      },
+      "text_span": {
+        "start": 5886,
+        "end": 6691
+      },
+      "text": "一、PA的微生物学特点\n假单胞菌属为需氧革兰阴性杆菌，与不动杆菌\nPA\n属、黄杆菌属、嗜麦芽窄食单胞菌及洋葱伯克霍尔\n德菌等同属不发酵糖革兰阴性杆菌，是常见的条件\n年致病菌，尤其是医院感染的主要病原菌之一。\n是假单胞菌属的代表菌株，占所有假单胞菌属感染PA\n的70%以上。PA呈球杆状或长丝状，宽约0.5~\n，长约 ，一端有单鞭毛，无芽孢，\n1.0μm 1.5~3.0μm\n无荚膜，成双或短链排列，能产生绿脓素和荧光素\n等多种色素，专性需氧。\n\n中华结核和呼吸杂志年月第卷第期\n2022 8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\n影响PA致病性的决定因素是细菌分泌的外毒\n素、形成的生物被膜以及相关的群体感应（quorum\nsensing，QS）系统。PA是临床上可形成生物被膜而\n致顽固性耐药的典型菌种之一，其生物被膜由细菌\n和细菌自身分泌的胞外复合物组成，生物被膜基质\n既可以作为结构支架，又可以作为生物被膜中细菌\n的保护性屏障。胞外多糖是构成生物被膜基质各\n种成分中最重要的部分，包括Psl、Pel和藻酸盐3种\n类型，在生物被膜的结构维持和抗菌药物抗性中起\n着重要作用［2］。QS系统主要由QS信号分子、信号\n合酶以及信号受体或调节蛋白组成，包括LasI/R、\nRhlI/R、PQS和IQS系统，它们相互关联并高度集\n成，每个系统都具有自动调节功能，同时还能调节\n其他系统的活动［3］；QS系统启动后各子系统基因经\n过复杂的级联机制可调控PA产生对抗菌药物的耐\n药、形成生物被膜及产生毒力因子。PA还可分泌\n致病因子与宿主体内的特定位点相结合而具有强\n致病性。其中，型分泌系统（ ）是主要的致病\nⅢ T3SS\n因子，PA可通过T3SS系统将毒力蛋白直接注入到\n宿主细胞中，干扰宿主细胞的信号传导并改变其功\n能，创造有利于细菌生存和扩散的环境。",
+      "text_quality": {
+        "cjk_ratio": 0.7368
+      },
+      "anchors": {
+        "sha1_12": "9fa6d28c301b",
+        "head_80": "一、PA的微生物学特点\n假单胞菌属为需氧革兰阴性杆菌，与不动杆菌\nPA\n属、黄杆菌属、嗜麦芽窄食单胞菌及洋葱伯克霍尔\n德菌等同属不发酵糖革兰阴性杆菌，是常见的条"
+      },
+      "page_regions": [
+        {
+          "page": 2,
+          "bbox": [
+            273.97796948,
+            51.42910409379988,
+            552.2485908199999,
+            767.6067423361
+          ]
+        },
+        {
+          "page": 3,
+          "bbox": [
+            61.65156578,
+            51.42910409379988,
+            412.37889146000003,
+            547.1035423361
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p003_001",
+          "object_type": "figure",
+          "page": 3,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        },
+        {
+          "object_id": "F_p002_001",
+          "object_type": "figure",
+          "page": 2,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0004",
+      "section_title": "二、流行病学",
+      "section_path": [
+        "正文",
+        "二、流行病学"
+      ],
+      "page_start": 3,
+      "page_end": 3,
+      "page_span": {
+        "start": {
+          "page": 3,
+          "offset": 582
+        },
+        "end": {
+          "page": 3,
+          "offset": 1710
+        }
+      },
+      "text_span": {
+        "start": 6691,
+        "end": 7819
+      },
+      "text": "二、流行病学\n\n（一）疾病流行病学\nPA的分离率近年来有下降趋势，但仍然是院\n内下呼吸道感染的重要病原体。我国医院获得性\n肺炎（hospitalacquiredpneumonia，HAP）病原谱中，\nPA占16.9%~22.0%，居第2位，其中二级医院PA比\n例略低于三级医院，在≥65岁的患者中，PA比例更\n高［4］。中国院内感染的抗菌药物耐药监测\n（\nChineseantimicrobialresistancesurveillanceof\nnosocomialinfections，CARES）2007—2016年的\n10年HAP监测结果显示，PA是仅次于鲍曼不动杆\n菌的第位致病菌（ ）。 中比例\n2 20.1% HAP MDR‑PA\n较高，碳青霉烯类耐药PA（carbapenemresistant\nPseudomonasaeruginosa，CRPA）的比例为36.6%~\n44.8%，呼吸机相关性肺炎（ventilatorassociated\n， ）患者的更高［5］。美国疾\npneumoniaVAP MDR‑PA\n病预防控制中心（CDC）的全国医院感染研究数据\n显示， 年导致例医院内感染，\n2017 MDR‑PA 32600\n例患者死亡，感染人数呈下降趋势［6］。\nPA导致的社区获得性肺炎（community\nacquiredpneumonia，CAP）相对较少见。在美国\nCAP中PA的分离率仅为0.9%~1.9%，中国的流行\n病学调查结果类似（1.0%）［7］，但在需要入住重症监\n护病房（ICU）的重症CAP中PA的比例可以高达\n1.8%~8.3%［8］；在既往感染过PA、罹患支扩、极重度\n慢阻肺或气管切开患者中PA导致的CAP高达\n67.0%［9］。PA是与CAP病死率有关的独立危险\n因素。\n结构性肺病如支扩、慢阻肺、肺囊性纤维化\n（cysticfibrosis，CF）患者是PA定植或感染的高危人\n群。PA是成人支扩患者感染最主要的病原菌之\n一，也是支扩患者频繁急性加重、住院次数增加和\n生活质量下降的独立危险因素［10］。研究显示在病\n原学检查阳性且有临床意义的住院支扩患者中，\n70.6%检出了PA［11］。3.0%~20.0%的稳定期慢阻肺\n患者下呼吸道痰标本和经支气管镜吸引标本PA培\n养阳性，而且定植的频率随着气流受限的加重而增\n加。多项研究显示采用合格痰作为标本，慢阻肺急\n性加重期PA分离率约为13.0%~35.0%；肺功能越\n差，分离率越高［ ］；采用经支气管镜保护性毛\n12‑13\n刷采集的标本，即使避免了呼吸道污染仍有PA\n慢阻肺急性加重患者下呼吸道标本中分离3.0%~\n10.0%到 ［］。\nPA14",
+      "text_quality": {
+        "cjk_ratio": 0.5127
+      },
+      "anchors": {
+        "sha1_12": "0c8fe31fc47d",
+        "head_80": "二、流行病学\n\n（一）疾病流行病学\nPA的分离率近年来有下降趋势，但仍然是院\n内下呼吸道感染的重要病原体。我国医院获得性\n肺炎（hospitalacquired"
+      },
+      "page_regions": [
+        {
+          "page": 3,
+          "bbox": [
+            61.65156578,
+            80.06376087609999,
+            552.2484908199999,
+            775.3138635496399
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p003_001",
+          "object_type": "figure",
+          "page": 3,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0005",
+      "section_title": "（二）病原菌相关流行病学",
+      "section_path": [
+        "正文",
+        "二、流行病学",
+        "（二）病原菌相关流行病学"
+      ],
+      "page_start": 3,
+      "page_end": 4,
+      "page_span": {
+        "start": {
+          "page": 3,
+          "offset": 1710
+        },
+        "end": {
+          "page": 4,
+          "offset": 264
+        }
+      },
+      "text_span": {
+        "start": 7819,
+        "end": 8738
+      },
+      "text": "（二）病原菌相关流行病学\n中国细菌耐药监测网（Chinasurveillancefor\nbacterialresistance，CHINET）资料显示，2021年综\n合性教学医院PA的分离率占所有分离菌的第\n4位，呼吸道标本分离菌的第3位。近5年来PA的\n分离率占革兰阴性菌第位（ ）［15］。\n— 年全国细3~4菌耐药10.6%~13.3%监测网（\n2014 2019 ，China）\nantimicrobialresistancesurveillancesystemCARSS\n涵盖全国1400多家医院的数据显示，PA占据革兰\n阴性菌的第3位（8.5%~9.1%）［16］，其中支气管肺泡\n灌洗液（bronchoalveolarlavagefluid，BALF）标本分\n离菌中PA占第1位（19.1%），但其构成有下降\n趋势［17］。\nPA的耐药性问题值得关注，特别是CRPA，仍\n然是当前临床抗感染治疗的难题。CHINET数据\n显示，PA对亚胺培南和美罗培南的耐药率在\n2005—2021年呈平稳下降趋势。近5年数据显示，\nPA对亚胺培南和美罗培南的耐药率波动于\n18.9%~30.7%；对多黏菌素B的耐药率较低（0.5%~\n1.2%），对哌拉西林/他唑巴坦、头孢哌酮/舒巴坦、\n庆大霉素、环丙沙星、头孢他啶、头孢吡肟和哌拉西\n林的耐药率<20.0%［15］。2014—2019年CARSS数据\n显示PA对各种抗菌药物的耐药率均<25.0%，并呈\n现小幅下降趋势［16］。BALF标本中PA的耐药率总\n\n·742· 中华结核和呼吸杂志\n体亦呈下降趋势［17］。已有研究报道，新型酶抑制剂\n复合制剂头孢洛扎/他唑巴坦对86.0%~95.0%临床\nPA菌株敏感，并对60.0%~80.0%耐头孢他啶和耐\n美罗培南PA菌株仍然敏感；头孢他啶/阿维巴坦对\n临床菌株敏感［18］。\n84.0%~97.0%（三）耐药机制PA\nPA的耐药机制复杂，而且与其致病性相关\n如果仅以PA体外药敏试验结果作为选择临床用药\n的依据，仍可能导致治疗失败。因此，掌握PA的耐\n药机制，对于临床的精准抗感染治疗具有指导\n意义。\n耐药表现形式：大多表现为 ，少部",
+      "text_quality": {
+        "cjk_ratio": 0.5366
+      },
+      "anchors": {
+        "sha1_12": "573d62672682",
+        "head_80": "（二）病原菌相关流行病学\n中国细菌耐药监测网（Chinasurveillancefor\nbacterialresistance，CHINET）资料显示，2021"
+      },
+      "page_regions": [
+        {
+          "page": 3,
+          "bbox": [
+            61.65156578,
+            395.06376087609993,
+            552.2484908199999,
+            775.3138635496399
+          ]
+        },
+        {
+          "page": 4,
+          "bbox": [
+            63.277125420000004,
+            51.42910409379988,
+            291.9109951053808,
+            413.0607635496399
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p003_001",
+          "object_type": "figure",
+          "page": 3,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        },
+        {
+          "object_id": "F_p004_001",
+          "object_type": "figure",
+          "page": 4,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0006",
+      "section_title": "1. MDR‑PA",
+      "section_path": [
+        "正文",
+        "二、流行病学",
+        "1. MDR‑PA"
+      ],
+      "page_start": 4,
+      "page_end": 4,
+      "page_span": {
+        "start": {
+          "page": 4,
+          "offset": 264
+        },
+        "end": {
+          "page": 4,
+          "offset": 1402
+        }
+      },
+      "text_span": {
+        "start": 8738,
+        "end": 9876
+      },
+      "text": "1. MDR‑PA\n分菌株表现为广泛耐药PA（extensively\n， ）或全耐药\ndrug‑resistantPA XDR‑PA\n（ ， ）。 是指对亚\npandrug‑resistantPAPDR‑PA CRPA\n胺培南、美罗培南或多利培南任何一种碳青霉烯类\n耐药的PA。2020年美国感染性疾病学会（IDSA\n抗菌药物耐药革兰阴性菌感染治疗指南重新定义\n“难治”耐药性 （\nPAdifficult‑to‑treatresistance\n）［20］，即对以下所有药物不敏感的 ：哌拉\nDTR‑PA PA\n西林他唑巴坦、头孢他啶、头孢吡肟、氨曲南、美罗\n/\n培南、亚胺培南、环丙沙星和左氧氟沙星。该定义\n更贴近临床治疗角度。\n\n2.耐药机制类型：分为天然耐药、获得性耐药\n和适应性耐药3种，前两者可从药敏试验发现，后\n者与体内耐药有关［21］。\n（）天然耐药和获得性耐药的常见机制：\n1 ①\n膜通透性降低，并与外膜上的主动外排系统协同发\n挥作用。最典型的是D2通道缺失导致亚胺培南耐\n药。 主动外排系统过度表达：与细菌耐药相关的\n②\n外排系统有个，分别是\n4 MexAB‑OprM\n、 和 ，主要介\nMexCD‑OprJMexEF‑OprN MexXY‑OprM\n导内酰胺类、氟喹诺酮类和（或）氨基糖苷类耐\nβ‑\n药，形成 。 产生灭活酶：最常产生的内酰\nMDR ③ β‑\n胺酶是AmpC酶，介导对青霉素类和头孢菌素类耐\n药；部分菌株产金属酶（如IMP和VIM型），介导对\n碳青霉烯类耐药。 其他新耐药机制：例如\n④\n（细胞分化相关基因）突变在对环丙沙星和\nPA β‑\n酰胺类耐药中起一定的作用。\nPA的部分天然耐药机制需在一定外在因素\n（如抗菌药物选择性压力）作用下才会表达。例如\n几乎所有PA都存在主动外排系统，但外排系统是\n否表达（出现体外药敏试验的MDR），很大程度取\n决于所使用的抗菌药物的品种和时限。目前，基于\n年月第卷第期\n2022 8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\n宏基因组二代测序（metagenomicnextgeneration\nsequencing，mNGS）在临床标本上测得的主动外排\n系统基因并不能反映真实的细菌耐药表型，临床不\n宜以此作为选择抗菌药物的依据。\n（2）适应性耐药机制：指由于响应环境刺激而\n导致基因和（或）蛋白质表达的瞬时改变而增加了\n［19］。 细菌抵抗抗菌药物攻击的能力，当去除刺激因素时\n适应性耐药是可逆的。此现象常规药敏试验和耐\n药基因检测都难以发现，但经常造成临床治疗困\n难。最典型的机制是生物被膜形成和细菌持留，多\n见于结构性肺病合并慢性感染患者。",
+      "text_quality": {
+        "cjk_ratio": 0.635
+      },
+      "anchors": {
+        "sha1_12": "f779f81000ad",
+        "head_80": "1. MDR‑PA\n分菌株表现为广泛耐药PA（extensively\n， ）或全耐药\ndrug‑resistantPA XDR‑PA\n（ ， ）。 是指对亚\np"
+      },
+      "page_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            60.072410119999994,
+            51.42910409379988,
+            547.08119146,
+            767.6067423361
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p004_001",
+          "object_type": "figure",
+          "page": 4,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0007",
+      "section_title": "二、流行病学",
+      "section_path": [
+        "正文",
+        "二、流行病学"
+      ],
+      "page_start": 4,
+      "page_end": 4,
+      "page_span": {
+        "start": {
+          "page": 4,
+          "offset": 1402
+        },
+        "end": {
+          "page": 4,
+          "offset": 2113
+        }
+      },
+      "text_span": {
+        "start": 9876,
+        "end": 10587
+      },
+      "text": "适应性耐药\n的激发因素很多，包括抗菌药物、杀虫剂、pH改变\n等，给临床带来最直接的影响是抗菌药物的体外药\n敏试验和临床疗效不一致，这也是适应性耐药机制\nPA\n的重要特征，即去除诱因后，细菌便会恢复为野生\n型（即抗菌药物敏感菌），从而表现出使用“敏感”的\n） 抗菌药物治疗难以清除细菌的临床特征。针对适\n应性耐药PA引发的感染，目前更多的是依赖对患\nPA， 者疾病基础、细菌体外药敏和初始针对性治疗结果\n的综合判断。在应用抗PA抗菌药物基础上，可以\n加用阻止或破坏生物被膜形成的药物，如阿奇霉\n素；针对持留性感染，目前尚无针对性药物，但已在\n体外筛选出一些分子化合物。部分氟喹诺酮类药\n物既具有抗PA活性又具有抑制生物被膜形成的\n作用。\n\n（四）耐药基因与体外药敏一致性的相关问题\n外 PA耐药性检测的常规方法为药敏试验，是指\n导用药的直接依据。缺点是耗时较长，许多生长慢\n或不容易培养的细菌不能进行药敏试验。近年来\n随着基因检测技术的进步，通过耐药基因检测评估\n、 病原体耐药性的快速抗菌药物敏感性试验迅速发\n展，包括PCR技术、基因芯片法及mNGS技术等。\n尤其是mNGS技术，既可以快速检测出临床标本中\n的多种病原菌，又能明确耐药基因存在的种类和相\n对数量。但如前所述，PA存在多种耐药基因，其不\n表达则不会形成耐药。此外，对于下呼吸道标本，\nftsK 尤其是痰液和BALF，检测出的病原体可能仅是定\n内植或污染，而耐药基因未必是位于致病菌上；目前\n的技术仅能检测已知基因序列的耐药基因，无法获\n得未知序列的基因导致的耐药情况，对推断药物敏\n感性仍然存在缺陷。因此，对耐药基因检测结果的\n解释务必谨慎，以免误导临床用药。",
+      "text_quality": {
+        "cjk_ratio": 0.8694
+      },
+      "anchors": {
+        "sha1_12": "e4b13628d4d8",
+        "head_80": "适应性耐药\n的激发因素很多，包括抗菌药物、杀虫剂、pH改变\n等，给临床带来最直接的影响是抗菌药物的体外药\n敏试验和临床疗效不一致，这也是适应性耐药机制\nPA\n的"
+      },
+      "page_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            273.7904468468146,
+            253.3137608761,
+            552.2485908199999,
+            736.1066423361
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p004_001",
+          "object_type": "figure",
+          "page": 4,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0008",
+      "section_title": "三、诊断",
+      "section_path": [
+        "正文",
+        "三、诊断"
+      ],
+      "page_start": 4,
+      "page_end": 5,
+      "page_span": {
+        "start": {
+          "page": 4,
+          "offset": 2113
+        },
+        "end": {
+          "page": 5,
+          "offset": 1010
+        }
+      },
+      "text_span": {
+        "start": 10587,
+        "end": 11624
+      },
+      "text": "三、诊断\nPA既可引起急性下呼吸道感染，也可引起慢\n\n中华结核和呼吸杂志年月第卷第期\n2022 8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\n性下呼吸道感染。PA慢性感染高危人群1年内从\n下呼吸道标本中分离出PA≥2次（至少间隔3个\n月），并有感染相应的临床表现，则认为存在PA慢\n性下呼吸道感染［22］。\n\n（一）急性下呼吸道感染\n1.高危因素：（1）PA急性下呼吸道感染高危因\n素［1，9，23］：既往有下呼吸道分离史；结构性\n① PA ②\n肺疾病，如支扩、CF、弥漫性泛细支气管炎、慢阻肺\n尤其是占预计值 ；基础疾病或免疫\nFEV1 %<30%③\n缺陷，如恶性肿瘤、营养不良、外周血中性粒细胞\n<\n、应用糖皮质激素（泼尼松 ）或其\n1.0×109/L >10mg/d\n他免疫抑制药物超过周； 内全身抗菌药物\n1 ④90d\n使用史；接受有创检查、治疗或手术；在流\n⑤ ⑥ PA\n行区获得的感染、接触被污染的气溶胶或水。\n（） 急性下呼吸道感染高危因素PA ［ ］：呼\n23‑24\n2MDR‑PA ①\n吸道分离史； 流行区获得的感\nMDR‑PA ②MDR‑PA\n染； 内全身广谱抗菌药物使用史；接受有\n③90d ④\n创检查、治疗或手术，特别是人工气道、机械通气治\n疗。（3）PA急性下呼吸道感染预后不良危险因\n素［8，24］：年龄岁；慢性肝脏疾病；神经系\n① ≥65 ② ③\n统疾病； ；急性肾功能衰竭；不恰当的\n④ARDS⑤ ⑥\n经验性抗感染治疗。\n临床表现［， ］：包括肺炎（ 、 和\n2. 125‑26 CAPHAP\nVAP）、气管支气管炎、肺脓肿和脓胸。不同类型\nPA下呼吸道感染的临床表现有相似性，并与其他\n细菌性下呼吸道感染相仿，常表现为急性发热、咳\n嗽、咳痰、气促，不常见表现包括咯血和胸痛。当患\n者咯黄绿色脓性痰时要警惕PA感染可能。肺部影\n像学改变缺乏特异性，常表现为支气管肺炎，可伴\n有小结节和小透亮区的“微脓肿”，少数情况下表现\n为大叶性肺炎、肺脓肿，可伴有胸腔积液。实验室\n检查常有白细胞总数和中性粒细胞数升高，C反应\n蛋白（ ）和白细胞介素（ ）升高，也可出现\nCRP 6IL‑6\n内毒素、降钙素原（PCT）和中性粒细胞CD64升高。\n3.诊断标准：临床表现符合肺炎、气管支气管\n炎、肺脓肿、脓胸的诊断标准［4，27］，同期合格下呼吸\n道标本分离到PA，结合PA急性感染高危因素进行\n诊断。",
+      "text_quality": {
+        "cjk_ratio": 0.6593
+      },
+      "anchors": {
+        "sha1_12": "7332717c0994",
+        "head_80": "三、诊断\nPA既可引起急性下呼吸道感染，也可引起慢\n\n中华结核和呼吸杂志年月第卷第期\n2022 8 45 8 ChinJTubercRespirDis,Augu"
+      },
+      "page_regions": [
+        {
+          "page": 4,
+          "bbox": [
+            86.39847415999999,
+            51.42910409379988,
+            547.08119146,
+            775.3138635496399
+          ]
+        },
+        {
+          "page": 5,
+          "bbox": [
+            61.65156578,
+            51.42910409379988,
+            491.57988298538083,
+            673.1063423360999
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p004_001",
+          "object_type": "figure",
+          "page": 4,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        },
+        {
+          "object_id": "F_p005_001",
+          "object_type": "figure",
+          "page": 5,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0009",
+      "section_title": "（二）慢性下呼吸道感染",
+      "section_path": [
+        "正文",
+        "三、诊断",
+        "（二）慢性下呼吸道感染"
+      ],
+      "page_start": 5,
+      "page_end": 5,
+      "page_span": {
+        "start": {
+          "page": 5,
+          "offset": 1010
+        },
+        "end": {
+          "page": 5,
+          "offset": 1406
+        }
+      },
+      "text_span": {
+        "start": 11624,
+        "end": 12020
+      },
+      "text": "（二）慢性下呼吸道感染\nPA慢性下呼吸道感染对患者的急性加重、肺\n功能下降、医疗费用支出、生活质量、甚至病死率造\n成不同程度的不利影响［ ］。对这类患者进行早\n28‑29\n期筛查和诊断具有重要临床意义。\n1.高危因素：（1）慢性结构性肺病，如支扩、\nCF、弥漫性泛细支气管炎、重度慢阻肺等患者；\n（2）长期接受糖皮质激素、免疫抑制剂治疗或者有\n获得性免疫缺陷综合征的患者；（3）反复接受全身\n广谱抗菌药物治疗导致菌群失调的患者。此类下\n呼吸道感染患者，需要定期进行痰微生物培养，充\n分评估慢性感染的可能性［30］。\n诊断标准：根据下列几点综合评估：（PA ）存在\n慢性感染的高危因素；（2. ）有下呼吸道感染的临1\nPA床症状和体征，影像学出现持续性、新的或加重的2\n肺部渗出、浸润、实变等；（3）合格下呼吸道标本病\n原学检测阳性：1年内分离出PA（至少间隔3个\n月）次［22，31］。\n≥2",
+      "text_quality": {
+        "cjk_ratio": 0.7701
+      },
+      "anchors": {
+        "sha1_12": "a24d569cada6",
+        "head_80": "（二）慢性下呼吸道感染\nPA慢性下呼吸道感染对患者的急性加重、肺\n功能下降、医疗费用支出、生活质量、甚至病死率造\n成不同程度的不利影响［ ］。对这类患者进行早\n"
+      },
+      "page_regions": [
+        {
+          "page": 5,
+          "bbox": [
+            65.30168019999999,
+            80.06376087609999,
+            552.27655336,
+            775.3138635496399
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p005_001",
+          "object_type": "figure",
+          "page": 5,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0010",
+      "section_title": "（三）病原学诊断和药敏检测",
+      "section_path": [
+        "正文",
+        "三、诊断",
+        "（三）病原学诊断和药敏检测"
+      ],
+      "page_start": 5,
+      "page_end": 6,
+      "page_span": {
+        "start": {
+          "page": 5,
+          "offset": 1406
+        },
+        "end": {
+          "page": 6,
+          "offset": 333
+        }
+      },
+      "text_span": {
+        "start": 12020,
+        "end": 13042
+      },
+      "text": "（三）病原学诊断和药敏检测\n1.标本获取：应严格掌握呼吸道标本的正确留\n取方法，不合格痰标本的培养结果不能作为诊断依\n据。建议采用气管吸引、保护性毛刷和BALF标\n本，并及时送检。对于合并胸腔积液的下呼吸道感\n染患者，推荐采集胸腔积液进行病原学检测。\n下呼吸道感染患者血培养阳性率较低，但对于肺部PA\n病灶广泛、病情危重、免疫缺陷、经验性治疗失败的\n患者，推荐在抗菌药物使用或更换前规范采集血液\n标本进行病原培养和其他相关检测。\n2.病原学检测：临床微生物实验室要严格把握\n痰标本的质量，接种前应进行革兰染色镜检，并判\n断是否合格，不合格痰标本应退回，并告知临床医\n生再次送检合格标本。在合格呼吸道标本镜检时\n发现白细胞吞噬或伴行现象，所见细菌形态与培养\n结果相一致，提示感染可能性大。临床考虑为\n定植的患者，不推荐进行抗菌治疗，但应动态监测，PA\n并作为下一次出现感染时临床起始治疗的参考。\n呼吸道标本应尽量采用定量或半定量培养。\nPA定量培养阳性是指在支气管抽吸物（≥\n105CFU/ml）、BALF（≥104CFU/ml）、保护性毛刷标\n本（≥103CFU/ml）中的菌落计数达到诊断阈值，有\n较大的参考意义。\n下呼吸道感染患者，如胸腔积液或血培养\n阳性，结合临床排除污染后可作为下呼吸道感PA\nPA\n染的诊断依据。\n临床高度怀疑PA感染而常规检测阴性，特别\n是已给予经验性抗菌治疗但疗效不佳的患者可采\n用分子诊断技术进行病原诊断［32］，如PCR技术、基\n因芯片、mNGS等。\n3.药敏检测：对下呼吸道标本培养到的PA推\n荐进行规范的常规药物敏感性实验，对反复培养阳\n\n性的住院患者至少每3天进行1次药敏检测。当基\n于常规药敏选择抗菌药物存在困难时，推荐开展联\n合药敏实验，选择体外有相加或协同作用的抗菌药\n物进行联合治疗能改善下呼吸道感染的\nMDR‑PA\n临床有效率［33］。\n除常规体外药敏实验外，可进行PA菌株耐药\n机制的快速检测［33］。建议有条件的医院进行碳青\n霉烯酶表型确证试验，主要识别丝氨酸酶或金属\n酶。根据典型的药敏表型进行PA耐药机制的预测\n同样有参考价值［ ］。鉴于耐药基因检测的局限\n34‑35\n性，不建议临床常规进行，在重症感染、重症免疫抑\n制宿主感染、患者有特殊接触史可能合并特殊病原\n体感染以及聚集性发病溯源时，为迅速明确感染病\n原体及耐药情况，可行病原学基因检测，同时动态\n监测常规细菌培养及药敏结果。",
+      "text_quality": {
+        "cjk_ratio": 0.832
+      },
+      "anchors": {
+        "sha1_12": "66d86baa50d6",
+        "head_80": "（三）病原学诊断和药敏检测\n1.标本获取：应严格掌握呼吸道标本的正确留\n取方法，不合格痰标本的培养结果不能作为诊断依\n据。建议采用气管吸引、保护性毛刷和BALF"
+      },
+      "page_regions": [
+        {
+          "page": 5,
+          "bbox": [
+            320.42158020000005,
+            284.8136608761,
+            552.2489236399999,
+            767.6067423361
+          ]
+        },
+        {
+          "page": 6,
+          "bbox": [
+            65.30168019999999,
+            80.06376087609999,
+            439.6821887518144,
+            350.0607635496399
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p006_001",
+          "object_type": "figure",
+          "page": 6,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        },
+        {
+          "object_id": "F_p005_001",
+          "object_type": "figure",
+          "page": 5,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0011",
+      "section_title": "（四）感染和定植的鉴别",
+      "section_path": [
+        "正文",
+        "三、诊断",
+        "（四）感染和定植的鉴别"
+      ],
+      "page_start": 6,
+      "page_end": 6,
+      "page_span": {
+        "start": {
+          "page": 6,
+          "offset": 333
+        },
+        "end": {
+          "page": 6,
+          "offset": 886
+        }
+      },
+      "text_span": {
+        "start": 13042,
+        "end": 13595
+      },
+      "text": "（四）感染和定植的鉴别\n在下呼吸道标本分离出PA时，区分定植和感\n染非常重要，切忌仅仅依据培养结果进行治疗。在\n临床实际工作中，定植与感染的区别往往非常困\n难，需要结合临床进行综合评定，根据患者的临床\n症状、体征、实验室检查、影像学改变等各方面信息\n综合判断是否为感染，必要时应与临床微生物、影\n像学、临床药学及其他临床专科等多学科医生进行\n讨论和决策。以下几点需要关注［1，36］：阳性结果\n①\n是否来自合格的呼吸道标本；是否具有感染\n② PA\n的高危因素；是否存在明确的下呼吸道感染诊\n③\n断； 出现的时间是否与下呼吸道感染发生或\n④PA\n病情加重的时间相符合；病情加重是否能够排除\n⑤\n其他原因；是否下呼吸道标本多次分离到 ，且\n⑥ PA\n未被经验性治疗所覆盖；使用敏感药物抗治\n⑦ PA\n疗是否有效。\n当定植和感染临床判断困难时，需要根据患者\n疾病严重程度和耐药危险因素分层决策是否选择\n抗菌药物覆盖PA。对免疫功能低下（特别是粒细\n胞缺乏）或合并脏器功能衰竭的下呼吸道感染危重\n症患者，进行相对积极的治疗是合理的。同时，感\n染和定植的判断是个动态过程，无论是否开始针对\nPA的抗菌治疗，都需要动态监测高危因素、临床特\n征、微生物学证据的变化及患者对治疗的反应，及\n时调整诊断和治疗策略［36］。",
+      "text_quality": {
+        "cjk_ratio": 0.8682
+      },
+      "anchors": {
+        "sha1_12": "100801120bd4",
+        "head_80": "（四）感染和定植的鉴别\n在下呼吸道标本分离出PA时，区分定植和感\n染非常重要，切忌仅仅依据培养结果进行治疗。在\n临床实际工作中，定植与感染的区别往往非常困\n难，"
+      },
+      "page_regions": [
+        {
+          "page": 6,
+          "bbox": [
+            65.30168019999999,
+            316.31376087609993,
+            291.85908290501425,
+            704.6064423360999
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p006_001",
+          "object_type": "figure",
+          "page": 6,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0012",
+      "section_title": "四、治疗",
+      "section_path": [
+        "正文",
+        "四、治疗"
+      ],
+      "page_start": 6,
+      "page_end": 6,
+      "page_span": {
+        "start": {
+          "page": 6,
+          "offset": 886
+        },
+        "end": {
+          "page": 6,
+          "offset": 1833
+        }
+      },
+      "text_span": {
+        "start": 13595,
+        "end": 14542
+      },
+      "text": "四、治疗\n临床治疗PA引起的下呼吸道感染面临越来越\n大的挑战，一方面由于细菌耐药性增加，导致治疗\n失败的几率增加，而针对的新型抗菌\nXDR/PDR‑PA\n月第卷第期\n8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\n药物品种很少；另一方面，PA易在结构性肺病患者\n的下呼吸道定植及形成生物被膜，导致病原体难以\n清除，反复引起下呼吸道感染。\n\n（一）PA下呼吸道感染的治疗原则\n1.治疗目标：包括清除病原体、消除炎症、缓解\n症状和保护肺功能等。治疗终点应基于患者的基\n础疾病、临床表现、实验室和影像学检查以及病原\n体检查等指标进行综合判断［ ］。对于引起的\n37‑40\n和等急性感染，治疗目标包括症状和体PA\nCAP征缓解或消失，实验室检查基本恢复正常，感染部HAP\n位的病原菌清除，后期影像学随访病灶明显消散。\n对于PA引起的慢性下呼吸道感染，治疗目标除了\n改善症状、尽可能清除PA以外，还包括减少后续的\n急性加重风险，维持或改善肺功能和生活质量。\n2.总体原则：（1）基于临床特征和药敏检测结\n果，选择抗PA活性强的抗菌药物，进行单药或联合\n治疗［， ］。对于下呼吸道感染如存在敏\n2041‑42\nMDR‑PA\n感药物且其肺内药物分布充分，可予以单药治疗，\n否则应选择抗PA活性较强的药物联合治疗。对于\n感染或结构性肺病的慢性感染，吸入抗\nDTR‑PA PA\n菌药物可作为静脉或口服治疗的补充。（2）根据药\n代动力学（pharmacokinetics，PK）/药效学\n（pharmacodynamics，PD）理论选择充分的给药剂\n量、频次和恰当的用药方式。治疗PA感染的抗菌\n药物剂量通常高于治疗其他革兰阴性菌感染的剂\n量。在达到治疗目标的同时，尽可能减少抗菌药物\n的不良反应和附加损害，避免形成定植菌，减少产\n生治疗相关的耐药菌。（3）在抗PA治疗过程中，应\n动态评估疗效和PA耐药状况，并根据疗效和耐药\n性的变化合理调整抗菌药物。（4）重视气道廓清、改\n善氧合、营养支持和保护脏器功能等抗感染以外的\n综合治疗。（5）纠正引起PA感染的危险因素，避免\n再次发生PA感染。\n\n（二）具有抗PA活性的抗菌药物\n抗内酰胺类：临床常用的药物包括青",
+      "text_quality": {
+        "cjk_ratio": 0.733
+      },
+      "anchors": {
+        "sha1_12": "b028f6660d09",
+        "head_80": "四、治疗\n临床治疗PA引起的下呼吸道感染面临越来越\n大的挑战，一方面由于细菌耐药性增加，导致治疗\n失败的几率增加，而针对的新型抗菌\nXDR/PDR‑PA\n月第卷"
+      },
+      "page_regions": [
+        {
+          "page": 6,
+          "bbox": [
+            65.30168019999999,
+            51.42910409379988,
+            552.2485908199999,
+            775.3138635496399
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p006_001",
+          "object_type": "figure",
+          "page": 6,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0013",
+      "section_title": "1. PAβ‑",
+      "section_path": [
+        "正文",
+        "四、治疗",
+        "1. PAβ‑"
+      ],
+      "page_start": 6,
+      "page_end": 7,
+      "page_span": {
+        "start": {
+          "page": 6,
+          "offset": 1833
+        },
+        "end": {
+          "page": 7,
+          "offset": 849
+        }
+      },
+      "text_span": {
+        "start": 14542,
+        "end": 15623
+      },
+      "text": "1. PAβ‑\n霉素类、头孢菌素类及其与酶抑制剂复合制剂以及\n碳青霉烯类，属于时间依赖性抗菌药物，T>MIC%\n与临床疗效密切相关，此类药物需日剂量分3~4次\n给药，可以延长药物暴露时间，加强杀菌作用，提高\n临床疗效。（）抗青霉素类及其与内酰胺酶抑\n1 PA β‑\n制剂复合制剂：包括哌拉西林、美洛西林、哌拉西\n林他唑巴坦、替卡西林克拉维酸等，其中最具代表\n/ /\n性的药物是哌拉西林/他唑巴坦，具有较强的抗PA\n活性，是治疗PA感染的基础用药之一，常用剂量为\n\n中华结核和呼吸杂志年月第卷第期\n2022 8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\n4.5g，1次/6~8h，静脉滴注。主要不良反应为过敏\n反应、肠道菌群失调。（2）抗PA头孢菌素类及其与\n内酰胺酶抑制剂复合制剂：包括头孢他啶、头孢\nβ‑\n哌酮、头孢吡肟、头孢哌酮舒巴坦，以及近年来新\n/\n上市的头孢他啶阿维巴坦、头孢洛扎他唑巴坦［43］、\n/ /\n头孢地尔［44］。常用剂量为（均为静脉滴注）：头孢他\n啶，2g，1次/8h；头孢哌酮，2g，1次/8h；头孢哌酮/\n舒巴坦，3g（2∶1剂型），1次/6~8h；头孢吡肟，2g，\n1次/8~12h；头孢他啶/阿维巴坦，2.5g，1次/8h；头孢\n洛扎/他唑巴坦，3g，1次/8h；头孢地尔，2g，1次/8h。\n此类药物主要不良反应为过敏反应、肠道菌群失\n调、肝酶升高等。（）抗碳青霉烯类及其与内\n3 PA β‑\n酰胺酶抑制剂复合制剂：包括美罗培南、亚胺培南、\n帕尼培南和比阿培南，及近年来新上市的亚胺培\n南西司他丁雷利巴坦、美罗培南法硼巴坦［45］，后\n‑ / /\n两者已被批准用于HAP/VAP、复杂尿路感染和复\n杂性腹腔内感染［41，46］。常用剂量为（均为静脉滴\n注）：亚胺培南，0.5g，1次/6h；或1g，1次/6~8h；美\n罗培南，，次 ，对感染可用至 ，\n1g1 /6~8h DTR‑PA 2g\n1次/8h，输注时间>3h［20］；比阿培南，0.3~0.6g，\n次 ；亚胺培南西司他丁雷利巴坦， ，\n1 /6~8h ‑ / 1.25g\n1次/6h；美罗培南/法硼巴坦，4g，1次/8h。此类药\n物主要不良反应为肠道菌群失调。（）单环内酰\n4 β‑\n胺类：氨曲南一般不单独用于PA下呼吸道感染，应\n与其他抗PA有效药物的联合应用。多用于对青霉\n素类及头孢菌素类过敏者以及产金属酶PA感染\n者。常用剂量为2g，1次/6~8h，静脉滴注。常见不\n良反应为静脉炎、皮疹、胃肠道反应。",
+      "text_quality": {
+        "cjk_ratio": 0.6169
+      },
+      "anchors": {
+        "sha1_12": "eb677a412e86",
+        "head_80": "1. PAβ‑\n霉素类、头孢菌素类及其与酶抑制剂复合制剂以及\n碳青霉烯类，属于时间依赖性抗菌药物，T>MIC%\n与临床疗效密切相关，此类药物需日剂量分3~4次\n"
+      },
+      "page_regions": [
+        {
+          "page": 6,
+          "bbox": [
+            300.97753448000003,
+            51.42910409379988,
+            547.08119146,
+            775.3138635496399
+          ]
+        },
+        {
+          "page": 7,
+          "bbox": [
+            65.27673571999999,
+            51.42910409379988,
+            412.37889146000003,
+            515.6035423361
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p007_001",
+          "object_type": "figure",
+          "page": 7,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        },
+        {
+          "object_id": "F_p006_001",
+          "object_type": "figure",
+          "page": 6,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0014",
+      "section_title": "1. PAβ‑",
+      "section_path": [
+        "正文",
+        "四、治疗",
+        "1. PAβ‑"
+      ],
+      "page_start": 7,
+      "page_end": 7,
+      "page_span": {
+        "start": {
+          "page": 7,
+          "offset": 849
+        },
+        "end": {
+          "page": 7,
+          "offset": 1569
+        }
+      },
+      "text_span": {
+        "start": 15623,
+        "end": 16343
+      },
+      "text": "2.抗PA氟喹诺酮类：主要有环丙沙星、左氧氟\n沙星和西他沙星，属于浓度依赖性抗菌药物，\nAUC/MIC与临床有效率相关性最高。日剂量单次\n给药可提高临床疗效，但其毒性亦具有浓度依赖\n性。左氧氟沙星因半衰期较长，推荐日剂量单次给\n药，对于细菌负荷升高或者MIC较高的菌株，可增\n大日剂量并一日两次给药，常用方案为0.5~0.75g，\n1次/d，静脉滴注；重症感染可用至0.5g，1次/12h，\n静脉滴注［47］。环丙沙星由于半衰期较短，同时日剂\n量单次给药会明显增加不良反应，故采用日剂量分\n2~3次给药，常用方案为0.4g，1次/8~12h，静脉滴\n注。西他沙星推荐100mg，1次/d，中重度复杂感染\n可增加至100mg，1次/12h，静脉滴注［48］。此类药\n物常见不良反应为胃肠道反应、神经系统反应、肝\n酶增高等。\n\n3.氨基糖苷类：常用的有阿米卡星、庆大霉素\n和妥布霉素，应用于临床的还有异帕米星、奈替米\n星、依替米星，其中以阿米卡星的活性最强。属于\n浓度依赖性抗菌药物，Cmax/MIC与细菌清除率和\n临床有效率密切相关，同时肾小管上皮细胞与耳蜗\n毛细胞对较高浓度的氨基糖苷类摄取有“饱和”现\n象，因此，日剂量单次给药可在保证疗效的同时，减\n少耳、肾毒性，并且有助于遏制细菌耐药性，通常推\n荐的静脉应用剂量阿米卡星为15mg/kg，1次/d；妥\n布霉素和庆大霉素为5.1mg/kg（病情危重时\n7mg/kg），1次/d。此类药物静脉应用时肺泡上皮衬\n液药物浓度较低，因此一般不作为肺炎的单药治\n疗。治疗肺部感染时，在全身用药的基础\nMDR‑PA\n上联合雾化吸入氨基糖苷类药物有助于提高疗效。\n此类药物常见不良反应为肾毒性与耳毒性。",
+      "text_quality": {
+        "cjk_ratio": 0.7431
+      },
+      "anchors": {
+        "sha1_12": "f692d4ef7c60",
+        "head_80": "2.抗PA氟喹诺酮类：主要有环丙沙星、左氧氟\n沙星和西他沙星，属于浓度依赖性抗菌药物，\nAUC/MIC与临床有效率相关性最高。日剂量单次\n给药可提高临床疗效，但"
+      },
+      "page_regions": [
+        {
+          "page": 7,
+          "bbox": [
+            65.30168019999999,
+            80.06376087609999,
+            552.2484908199999,
+            775.3138635496399
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p007_001",
+          "object_type": "figure",
+          "page": 7,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0015",
+      "section_title": "1. PAβ‑",
+      "section_path": [
+        "正文",
+        "四、治疗",
+        "1. PAβ‑"
+      ],
+      "page_start": 7,
+      "page_end": 7,
+      "page_span": {
+        "start": {
+          "page": 7,
+          "offset": 1569
+        },
+        "end": {
+          "page": 7,
+          "offset": 2192
+        }
+      },
+      "text_span": {
+        "start": 16343,
+        "end": 16966
+      },
+      "text": "4.多黏菌素类：包括硫酸多黏菌素B、多黏菌\n素E甲磺酸钠、硫酸多黏菌素E，主要应用于\n、 感染。由于肺内药物浓度较低\nXDR‑PAPDR‑PA\n以及异质性耐药等问题，即便多黏菌素类对PA敏\n感（MIC≤2mg/L）其临床疗效也有限，使用时应联合\n一个或多个其他有抗PA活性的抗菌药物［49］。多黏\n菌素类虽然表现出浓度依赖性的抗菌活性，但从药\n效学角度，8~12h给药1次最为理想。使用时需要\n给予负荷剂量，并根据肾功能给予最大剂量治疗。\n推荐剂量［50］：硫酸多黏菌素B，负荷剂量2.0~\n2.5mg/kg（相当于2.0万~2.5万U/kg），维持剂量1.25~\n1.50mg/kg（相当于1.25万~1.50万U/kg），1次/12h；多\n黏菌素E甲磺酸钠，负荷剂量300mgCBA（约900万\nU），12~24h后给予第1次维持剂量150~180mg（约\n450万~545万U），1次/12h；硫酸多黏菌素E，\n100万~150万U/d，分2~3次给药。此类药物常见不\n良反应为肾毒性和神经系统反应。对于下呼吸道感\n染，全身给药可能疗效欠佳，应联合雾化吸入给药。\n\n5.磷霉素：对包括PA在内的多种致病菌均有\n较弱的抗菌活性，治疗下呼吸道感染一般与其他抗\n菌药物联合应用。属于时间依赖性抗菌药物，日剂量\n分次给药可发挥更佳疗效，常用剂量为 ，\n300mg·kg‑1·d‑1\n分2~3次静脉滴注。常见不良反应为轻度胃肠道\n反应，偶有伪膜性肠炎。",
+      "text_quality": {
+        "cjk_ratio": 0.6208
+      },
+      "anchors": {
+        "sha1_12": "cb3ad546c257",
+        "head_80": "4.多黏菌素类：包括硫酸多黏菌素B、多黏菌\n素E甲磺酸钠、硫酸多黏菌素E，主要应用于\n、 感染。由于肺内药物浓度较低\nXDR‑PAPDR‑PA\n以及异质性耐药等"
+      },
+      "page_regions": [
+        {
+          "page": 7,
+          "bbox": [
+            185.5312392,
+            135.02088208963994,
+            552.2484908199999,
+            673.1063423360999
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p007_001",
+          "object_type": "figure",
+          "page": 7,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0016",
+      "section_title": "（三）抗菌药物的选择和合理使用",
+      "section_path": [
+        "正文",
+        "四、治疗",
+        "（三）抗菌药物的选择和合理使用"
+      ],
+      "page_start": 7,
+      "page_end": 8,
+      "page_span": {
+        "start": {
+          "page": 7,
+          "offset": 2193
+        },
+        "end": {
+          "page": 8,
+          "offset": 380
+        }
+      },
+      "text_span": {
+        "start": 16967,
+        "end": 17479
+      },
+      "text": "（三）抗菌药物的选择和合理使用\n\n1.经验性治疗时抗菌药物选择：对于急性下呼\n吸道感染患者，如果病情危重或不能排除PA感染\n的可能（具有PA感染的高危因素），留取病原学检\n测标本后可以考虑实施覆盖PA的经验性抗菌治\n疗。值得注意的是，对于CAP患者应选择对肺炎链\n\n球菌抗菌活性较好的药物，而头孢他啶、氨曲南就\n不适合单药用于CAP的经验性抗菌治疗。\n对于非重症的疑似PA肺炎患者，经验性治疗\n可选择一种具有抗假单胞菌活性、可单药用于肺部\n感染的抗菌药物；若患者存在脓毒症等重症情况或\n有耐药菌感染的危险因素，则选择PA可能敏感的\n2种不同类别的抗菌药物联合治疗。轻症患者可\n口服给药，重症患者应静脉给药。\n药物选择应参考当地细菌耐药的流行病学资\n料、患者既往下呼吸道PA定植史、感染分离菌的药\n敏结果以及抗菌药物使用情况等，通常使用酶抑制\n剂复合制剂（哌拉西林他唑巴坦、头孢哌酮舒巴\n/ /\n坦、替卡西林克拉维酸）、头孢菌素类（头孢他啶、\n/\n头孢吡肟）和碳青霉烯类（美罗培南、亚胺培南），并\n给予充分的剂量。青霉素过敏者可用氨曲南替代。\n氟喹诺酮类和氨基糖苷类可在内酰胺类过敏或\nβ‑\n不能使用时选用或作为联合治疗用药。",
+      "text_quality": {
+        "cjk_ratio": 0.8698
+      },
+      "anchors": {
+        "sha1_12": "2b836710b2db",
+        "head_80": "（三）抗菌药物的选择和合理使用\n\n1.经验性治疗时抗菌药物选择：对于急性下呼\n吸道感染患者，如果病情危重或不能排除PA感染\n的可能（具有PA感染的高危因素），留"
+      },
+      "page_regions": [
+        {
+          "page": 7,
+          "bbox": [
+            65.30168019999999,
+            119.27088208963994,
+            546.9785498822996,
+            775.3138635496399
+          ]
+        },
+        {
+          "page": 8,
+          "bbox": [
+            65.30168019999999,
+            80.06376087609999,
+            515.5317135350238,
+            516.2297407737999
+          ]
+        }
+      ],
+      "linked_tables": [
+        {
+          "object_id": "T_p008_001",
+          "object_type": "table",
+          "page": 8,
+          "caption": "表1 和",
+          "bbox": [
+            106.31206,
+            415.60545558329994,
+            464.7774,
+            456.3528999999999
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "not_required"
+        }
+      ],
+      "linked_figures": [
+        {
+          "object_id": "F_p007_001",
+          "object_type": "figure",
+          "page": 7,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        },
+        {
+          "object_id": "F_p008_001",
+          "object_type": "figure",
+          "page": 8,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0017",
+      "section_title": "（三）抗菌药物的选择和合理使用",
+      "section_path": [
+        "正文",
+        "四、治疗",
+        "（三）抗菌药物的选择和合理使用"
+      ],
+      "page_start": 8,
+      "page_end": 8,
+      "page_span": {
+        "start": {
+          "page": 8,
+          "offset": 380
+        },
+        "end": {
+          "page": 8,
+          "offset": 1494
+        }
+      },
+      "text_span": {
+        "start": 17479,
+        "end": 18593
+      },
+      "text": "2.目标治疗时抗菌药物选择：诊断明确的PA\n下呼吸道感染应根据药敏检测结果选择药物。一\n项纳入了183例PA导致VAP患者的多中心研究显\n表1 和\nPA‑CAP PA‑HAP/VAP\n感染类型\n内酰胺类氟喹诺酮类内酰胺类；氟喹诺酮类内酰胺类\nCAP β‑氨基糖苷类+ /β‑（环丙沙星、左氧氟沙β‑氨基糖苷类\n星、西他沙星）\n内酰胺酶抑制剂复合制低风险：单药治疗根据药敏试验结果制定治\nHAP/VAPβ‑剂（哌拉西林他唑巴坦、MDR‑PA青霉素类（哌拉西林等）； 疗方案，优先选择肺组\n头孢哌酮舒巴坦等）；碳/ 第三、四代头孢菌素织浓度充分的药物\n以上药物单药或联合下列剂复合制剂（哌拉西β‑ 阿维巴坦、亚胺培南\n药物中的一种： 林他唑巴坦、头孢哌司他丁\n糖苷类（阿米卡星、异帕头孢等）；氟喹诺酮类以多黏菌素类为基础的联\n、多黏菌素） 内酰胺酶抑制剂复合\n以上药物单药或联合下列\n注：PA：铜绿假单胞菌；CAP：社区获得性肺炎；HAP：医院获得性肺炎；\n：“难治”耐药性铜绿假单胞菌； ：多重耐药铜绿假单胞菌\nDTR‑PA MDR‑PA\n卷第期\n45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\n示，使用联合治疗或者根据药敏结果给予单药治疗\n在病死率、住院时间、感染复发率差异均无统计学\n意义［51］。因此，对于无显著基础疾病的患者建议选\n择一种有抗PA活性且肺组织浓度高的药物治疗，\n无需联合治疗。对缺乏敏感抗菌药物或敏感药物\n肺组织浓度低的耐药PA感染则需要联合治疗，应\n根据可能的耐药机制选择药物；如有条件则可根据\n联合药敏试验结果选择药物（表1）。\n\n3.合理应用联合抗菌治疗：联合抗菌治疗主要\n用于危重症或具有危险因素的下呼吸道\nMDR‑PA\n感染患者的经验性治疗，以及缺乏敏感治疗药物的\n耐药 （如 ）感染的目标治疗。\nPA DTR‑PA\n体外抗菌研究结果显示，某些联合治疗方案有\n不同程度的协同作用，如碳青霉烯类（亚胺培南）联\n合阿米卡星或异帕米星，对有的协\nMDR‑PA 4.0%\n同作用， 的部分协同作用。 内酰胺类与氨\n46.0% β‑\n基糖苷类或氟喹诺酮类联合后均可提高对PA的抗\n菌活性，但氨基糖苷类对内酰胺类的增效作用略\nβ‑\n强于氟喹诺酮类。磷霉素与抗PA有效药物联合应\n用对PA感染具有协同作用，联合治疗时可采用时\n抗菌药物选择方案\n备注\n氟喹诺酮类氨基糖苷类环丙具有危险因素的\n± / 沙星左氧氟沙星+ 1. 患者经验性治PA\n或/ 感 CAP疗时需使用具有抗\nCRPA染：多黏菌素类为DTR‑PA 作用的抗菌药物\n基础的联合治疗经验性抗菌治疗方PA",
+      "text_quality": {
+        "cjk_ratio": 0.7447
+      },
+      "anchors": {
+        "sha1_12": "75a09cddecbd",
+        "head_80": "2.目标治疗时抗菌药物选择：诊断明确的PA\n下呼吸道感染应根据药敏检测结果选择药物。一\n项纳入了183例PA导致VAP患者的多中心研究显\n表1 和\nPA‑CAP"
+      },
+      "page_regions": [
+        {
+          "page": 8,
+          "bbox": [
+            65.30168019999999,
+            51.42910409379988,
+            552.2485908199999,
+            772.05585334712
+          ]
+        }
+      ],
+      "linked_tables": [
+        {
+          "object_id": "T_p008_001",
+          "object_type": "table",
+          "page": 8,
+          "caption": "表1 和",
+          "bbox": [
+            106.31206,
+            415.60545558329994,
+            464.7774,
+            456.3528999999999
+          ],
+          "link_reasons": [
+            "explicit_reference",
+            "layout_proximity"
+          ],
+          "link_confidence": 0.95,
+          "ocr_status": "not_required"
+        },
+        {
+          "object_id": "T_p008_002",
+          "object_type": "table",
+          "page": 8,
+          "caption": "",
+          "bbox": [
+            106.31206,
+            520.8569,
+            199.1511933333333,
+            560.8568333333334
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "not_required"
+        },
+        {
+          "object_id": "T_p008_003",
+          "object_type": "table",
+          "page": 8,
+          "caption": "",
+          "bbox": [
+            218.9448,
+            544.85685,
+            293.39711304347827,
+            616.8567999999999
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "not_required"
+        }
+      ],
+      "linked_figures": []
+    },
+    {
+      "chunk_id": "CH0018",
+      "section_title": "2.案应能够同时覆盖",
+      "section_path": [
+        "正文",
+        "四、治疗",
+        "2.案应能够同时覆盖"
+      ],
+      "page_start": 8,
+      "page_end": 9,
+      "page_span": {
+        "start": {
+          "page": 8,
+          "offset": 1495
+        },
+        "end": {
+          "page": 9,
+          "offset": 767
+        }
+      },
+      "text_span": {
+        "start": 18594,
+        "end": 19699
+      },
+      "text": "2.案应能够同时覆盖\n肺炎链球菌\n多黏菌素类为基础常为耐药\n的联合治疗：1.HAP/VAP菌感染，需结合药敏\n内酰胺类环丙+ 试验结果、患者具体\n或 ：头孢洛 β‑沙星磷霉素/碳情况选择药物\n他唑巴坦、头孢他啶DTR‑PA 青霉烯类或/ /内通常不采用种\n/ 西/ 酰胺类氨基糖β‑ 2.内酰胺类药物联2\n雷利巴坦、美罗‑ 苷类磷霉素+ β‑合治疗\n法硼巴坦/ 氟喹诺其他治疗：氨基糖/ 氨基糖苷类药物仅\n/氨基糖苷类± 苷类环丙沙星3.用于联合治疗\n/ 左氧氟沙星；头+ / 吸入性抗菌药物应\n孢地尔 4.用于的目标\n治疗，主要为氨基糖MDR‑PA\n苷类和多黏菌素类，\n通常应在全身治疗\n的基础上联合使用\nVAP：呼吸机相关性肺炎；CRPA：碳青霉烯类耐药铜绿假单胞菌；\n\n中华结核和呼吸杂志年月第卷第期\n2022 8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\n间差治疗方案，即提前1h应用磷霉素，提高合并应\n用的其他药物对PA细胞壁的渗透性，增强疗效。\n磷霉素与氨基糖苷类联合应用可减轻后者的耳毒\n性和肾毒性。14元环与15元环大环内酯类与抗\nPA有效药物联合应用对PA生物被膜相关感染具\n有协同作用。常用的联合治疗方案包括抗内\nPAβ‑\n酰胺类+氨基糖苷类或抗PA氟喹诺酮类，或抗PA\n氟喹诺酮类氨基糖苷类。对碳青霉烯类耐药尤其\n+\n是肺部感染，推荐以多黏菌素类为基础的\nPDR‑PA\n联合治疗方案。\n\n4.耐药PA感染的治疗策略：对于CRPA或\n所致的肺部感染，若药敏试验显示其对头\nDTR‑PA\n孢他啶阿维巴坦、头孢洛扎他唑巴坦、亚胺培\n/ /\n南西司他丁雷利巴坦、美罗培南法硼巴坦等新型\n‑ / /\n酶抑制剂复合制剂敏感，可作为一线选择；二线治\n疗可选择头孢地尔［20，52］。在上述药物不可及或者\n不能耐受的情况下，可考虑使用以多黏菌素类药物\n为基础的联合治疗。治疗耐药菌感染的其他可尝\n试的方法包括雾化吸入抗菌药物、采取联合抗菌方\n案或者内酰胺类药物延长静脉输注时间\nβ‑ 2~3h\n等治疗策略。\n\n5.局部抗菌药物的合理使用：不建议常规使用\n吸入性抗菌药物治疗肺炎，但对于所\nPA MDR‑PA\n致感染，吸入性治疗可能是静脉治疗的有效辅助方\n法，主要用于有结构性肺病变的PA慢性感染、VAP\n和肺移植术后［4，53］。通常建议局部抗菌药物应在\n全身用药的基础上使用，吸入用抗菌药物主要有氨\n基糖苷类（妥布霉素、阿米卡星、庆大霉素）和多黏\n菌素类（多黏菌素E、多黏菌素B），用法用量参见\n《成人抗感染药物下呼吸道局部应用专家共识》［53］。",
+      "text_quality": {
+        "cjk_ratio": 0.7549
+      },
+      "anchors": {
+        "sha1_12": "8c18b591961e",
+        "head_80": "2.案应能够同时覆盖\n肺炎链球菌\n多黏菌素类为基础常为耐药\n的联合治疗：1.HAP/VAP菌感染，需结合药敏\n内酰胺类环丙+ 试验结果、患者具体\n或 ：头孢洛 "
+      },
+      "page_regions": [
+        {
+          "page": 8,
+          "bbox": [
+            125.0989845,
+            51.42910409379988,
+            550.8944419000001,
+            758.80595334712
+          ]
+        },
+        {
+          "page": 9,
+          "bbox": [
+            61.39503447999999,
+            51.42910409379988,
+            412.37889146000003,
+            547.1034423360999
+          ]
+        }
+      ],
+      "linked_tables": [
+        {
+          "object_id": "T_p008_003",
+          "object_type": "table",
+          "page": 8,
+          "caption": "",
+          "bbox": [
+            218.9448,
+            544.85685,
+            293.39711304347827,
+            616.8567999999999
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "not_required"
+        },
+        {
+          "object_id": "T_p008_001",
+          "object_type": "table",
+          "page": 8,
+          "caption": "表1 和",
+          "bbox": [
+            106.31206,
+            415.60545558329994,
+            464.7774,
+            456.3528999999999
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "not_required"
+        }
+      ],
+      "linked_figures": [
+        {
+          "object_id": "F_p008_001",
+          "object_type": "figure",
+          "page": 8,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0019",
+      "section_title": "2.案应能够同时覆盖",
+      "section_path": [
+        "正文",
+        "四、治疗",
+        "2.案应能够同时覆盖"
+      ],
+      "page_start": 9,
+      "page_end": 9,
+      "page_span": {
+        "start": {
+          "page": 9,
+          "offset": 767
+        },
+        "end": {
+          "page": 9,
+          "offset": 1697
+        }
+      },
+      "text_span": {
+        "start": 19699,
+        "end": 20629
+      },
+      "text": "6.抗菌治疗的疗程：根据感染类型、初始治疗\n反应以及治疗目标，PA下呼吸道感染的抗菌治疗\n疗程建议如下。（1）PA急性下呼吸道感染：多为\nHAP/VAP，也有少数PA所致的CAP、慢阻肺急性加\n重或吸入性肺炎。若患者无显著基础疾病、在治疗\n初期（2~3d内）发热等临床状况显著改善、感染的\nPA为敏感菌株，疗程为7~8d。若患者有严重基础\n疾病（如中性粒细胞减少）、合并血流感染、重症\nHAP、初始治疗效果差或起效慢，或缺乏敏感抗菌\n药物，需要延长疗程至 ，甚至更长时间［14］。\n所致慢阻肺急性加重的抗菌疗程可参考10~14d 肺\nPA炎。 所致支扩合并感染的抗菌疗程尚无定论，PA\n建议为PA 左右［］。若致病分离株对氟喹诺酮类\n敏感且患者无胃肠道吸收问题，待病情缓解后可根14d\n据药敏检测结果选择环丙沙星、左氧氟沙星或西他\n沙星口服完成疗程。值得注意的是，即使临床治疗\n有效气道中仍可能存在PA定植。相较于病原菌根\n除，症状改善是PA急性下呼吸道感染停用抗菌药\n物更为重要的指标。（2）PA慢性下呼吸道感染：结\n构性肺病（主要是支扩）合并PA持续感染，生物被\n膜在其中起着重要作用。长疗程口服大环内酯抗\n菌药物（14元环的红霉素、罗红霉素、克拉霉素和\n15元环的阿奇霉素）或吸入具有抗假单胞菌活性\n的抗菌药物以获得较高的局部药物浓度是对抗下\n呼吸道生物被膜感染可能的有效方法［ ］。对于\n54‑57\n长疗程抗菌治疗，临床上应根据具体病情结合治疗\n目标以及利弊选用［49］。 对于首次发现感染的\n① PA\n支扩、CF等结构性肺病患者建议实施积极的病原\n菌清除治疗［31，49］，可采用长疗程的全身和（或）吸入\n抗菌治疗。根据症状是否超过基线水平，起始2周\n分别推荐环丙沙星（500mg，2次/d）口服，或氨基糖\n苷类联合抗内酰胺类静脉给药，继以周\nPAβ‑ 4~12\n的妥布霉素或多黏菌素类吸入治疗。 对于中重\n②\n度支扩每年急性加重≥3次的患者或者急性加重对\n患者健康影响较大时，为了减少急性加重，可在排\n除下呼吸道非结核分枝杆菌（NTM）感染后考虑长\n程口服小剂量大环内酯类药物（≥3个月，不超过\n1年），或者吸入妥布霉素或多黏菌素类治\n疗（表2）。",
+      "text_quality": {
+        "cjk_ratio": 0.7861
+      },
+      "anchors": {
+        "sha1_12": "08516b9b3e59",
+        "head_80": "6.抗菌治疗的疗程：根据感染类型、初始治疗\n反应以及治疗目标，PA下呼吸道感染的抗菌治疗\n疗程建议如下。（1）PA急性下呼吸道感染：多为\nHAP/VAP，也有少"
+      },
+      "page_regions": [
+        {
+          "page": 9,
+          "bbox": [
+            65.30168019999999,
+            80.06376087609999,
+            546.9789176510199,
+            767.6070423361
+          ]
+        }
+      ],
+      "linked_tables": [
+        {
+          "object_id": "T_p010_001",
+          "object_type": "table",
+          "page": 10,
+          "caption": "表2结构性肺病合并",
+          "bbox": [
+            113.9842,
+            79.3495555833,
+            311.2333637392866,
+            173.26239999999996
+          ],
+          "link_reasons": [
+            "explicit_reference"
+          ],
+          "link_confidence": 0.95,
+          "ocr_status": "not_required"
+        }
+      ],
+      "linked_figures": [
+        {
+          "object_id": "F_p009_001",
+          "object_type": "figure",
+          "page": 9,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0020",
+      "section_title": "（四）综合治疗",
+      "section_path": [
+        "正文",
+        "四、治疗",
+        "（四）综合治疗"
+      ],
+      "page_start": 9,
+      "page_end": 10,
+      "page_span": {
+        "start": {
+          "page": 9,
+          "offset": 1698
+        },
+        "end": {
+          "page": 10,
+          "offset": 388
+        }
+      },
+      "text_span": {
+        "start": 20630,
+        "end": 21491
+      },
+      "text": "（四）综合治疗\n\n1.物理治疗：（1）结构性肺病合并PA慢性感\n染：气道廓清技术（airwayclearancetechniques，\nACT）有助于减轻咳痰等症状，改善部分肺功能指\n标和生活质量［58］，其中以主动循环呼吸技术（active\ncyclingbreathingtechnique，ACBT）在国外应用最为\n普遍［40，59］。结合我国的实际情况，建议优先选择\nACBT、用力呼气技术、呼气正压技术、胸部叩击振\n动等效果明确、操作简便、易于学习掌握、不需专用\n装置、方便居家进行的气道廓清技术；对于无体位\n引流禁忌者，可结合重力辅助体位引流以增强气道\n廓清效果。在设计体位引流方案时，应根据胸部\nCT检查确定感染病变的位置和范围，以获得最佳\n引流效果。对于上述理疗效果不佳或不能接受的\n患者，可以根据实际条件选择自然引流、高频胸壁\n振荡通气、肺内叩击通气等其他胸部理疗技术。每\n次治疗的时间应控制在10~30min，治疗频次和疗\n程应根据患者具体情况进行个体化安排，并定期进\n行疗效评估。（2）PA肺炎：卧床的HAP/VAP患者应\n\n表2结构性肺病合并\n结构性肺病清除治疗急性加重治疗\n慢阻肺急性无门诊患者：口服氟喹诺酮\n加重合并类（环丙沙星、左氧氟\n感染沙星、西他沙星）\nPA 住院患者：抗\n胺类、氟喹诺酮类、氨PAβ‑\n基糖苷类等；根据耐药\n程度和病情严重度选\n择单药或联合治疗\n合并首次或新发现的感染，可选用根据患者病情严重度给\nCF感染PA 吸入妥布霉素PA；或吸入多予口服或静脉抗菌药\n黏菌素甲磺酸钠联合口服环×28d 物；耐药菌感染患者建\n丙沙星，最长可持续E 3个月议联合治疗\n注：PA：铜绿假单胞菌；CF：囊性纤维化\n定时翻身拍背，积极体位引流，防止误吸并积极进\n行呼吸功能锻炼。对于气道廓清能力较差、不能充\n分排痰，或常规体位引流或手法辅助排痰效果不佳\n的患者，可选用排痰机进行高频胸壁振荡技术排\n痰，或直接经鼻（口）或经人工气道予以刺激咳嗽及\n吸痰，必要时利用支气管镜进行气道管理［4］。",
+      "text_quality": {
+        "cjk_ratio": 0.7598
+      },
+      "anchors": {
+        "sha1_12": "f445353be29e",
+        "head_80": "（四）综合治疗\n\n1.物理治疗：（1）结构性肺病合并PA慢性感\n染：气道廓清技术（airwayclearancetechniques，\nACT）有助于减轻咳痰等"
+      },
+      "page_regions": [
+        {
+          "page": 9,
+          "bbox": [
+            256.20320294,
+            166.52088208963994,
+            552.2484908199999,
+            775.3138635496399
+          ]
+        },
+        {
+          "page": 10,
+          "bbox": [
+            65.30168019999999,
+            79.3495555833,
+            317.93810840116186,
+            432.6141423360999
+          ]
+        }
+      ],
+      "linked_tables": [
+        {
+          "object_id": "T_p010_001",
+          "object_type": "table",
+          "page": 10,
+          "caption": "表2结构性肺病合并",
+          "bbox": [
+            113.9842,
+            79.3495555833,
+            311.2333637392866,
+            173.26239999999996
+          ],
+          "link_reasons": [
+            "explicit_reference",
+            "layout_proximity"
+          ],
+          "link_confidence": 0.95,
+          "ocr_status": "not_required"
+        }
+      ],
+      "linked_figures": [
+        {
+          "object_id": "F_p009_001",
+          "object_type": "figure",
+          "page": 9,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        },
+        {
+          "object_id": "F_p010_001",
+          "object_type": "figure",
+          "page": 10,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0021",
+      "section_title": "（四）综合治疗",
+      "section_path": [
+        "正文",
+        "四、治疗",
+        "（四）综合治疗"
+      ],
+      "page_start": 10,
+      "page_end": 10,
+      "page_span": {
+        "start": {
+          "page": 10,
+          "offset": 388
+        },
+        "end": {
+          "page": 10,
+          "offset": 1544
+        }
+      },
+      "text_span": {
+        "start": 21491,
+        "end": 22647
+      },
+      "text": "2.抗炎治疗和免疫治疗：在决定结构性肺病合\n并PA慢性感染患者是否给予吸入或全身糖皮质激\n素治疗时，应审慎评估基础疾病接受糖皮质激素治\n疗的必要性和治疗后PA感染加重的风险。不建议\n支扩患者常规使用吸入糖皮质激素，除非患者有\n使用吸入糖皮质激素治疗的其他指征［31，40，59］。其\n他抗炎策略在治疗支扩合并PA慢性感染方面的\n应用价值尚缺乏充分的临床证据，不宜常规临床\n使用。慢阻肺全球创议（GOLD）推荐用于慢阻肺\n的抗炎治疗药物包括吸入糖皮质激素、磷酸二酯\n酶（PDE）抑制剂、大环内酯药物（阿奇霉素或红霉\n素）、黏液溶解剂和抗氧化剂等［60］，在反复发生\n肺炎或合并慢性感染的患者中，吸入糖皮质激PA\n素会增加急性加重或肺炎的风险，应优先考虑选PA\n择大环内酯药物、PDE抑制剂等其他抗炎治疗\n药物［60］。\n对于PA导致的肺炎，目前还缺乏专门针对糖\n皮质激素治疗的高质量临床研究。但是，在未专门\n限定肺炎致病菌的情况下，几个随机对照临床试验\n和荟萃分析结果提示合并脓毒症休克或高炎症反\n应的重症肺炎患者可能从全身糖皮质激素治疗中\n月第卷第期\n8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\nPA感染的治疗方案\n减少未来急性加重风险的治疗备注\n每年急性加重次的支扩患者： 国内由于抗菌药物吸入剂\n推荐长期（≥3个月）口服小剂量型未正式上市，长期抗菌\n大环内酯类治疗或吸入治疗：≥3 药物吸入疗法仍需探索\n妥布霉素（ 次，次）\n，可延长至300mg/个月；多黏2/d×\n28菌素d 甲磺酸钠（6 次，\n次），疗程E 个月；或硫酸多1MU/\n2黏菌素/dB 6\n经过充分支气管扩张剂和（或）吸入\n糖皮质激素抗炎治疗仍反复急性\n加重的患者，在排除下呼吸道\n内酰定植或感染后可予以长程\nNTM大环内酯类药物治疗：阿奇霉素\n（ ；或 ，次周）；\n或红霉素（250mg/d 500mg，次3），持续/\n1年 250mg2/d\n若根除治疗失败，形成慢性感\n染： PA\n推荐吸入妥布霉素 ，\n次 ，间隔 300mg，持续\n2个月以上；或吸入氨曲南（赖/d×28d 28d\n6氨酸盐吸入剂）、多黏菌素\n甲磺酸钠，或硫酸多黏菌素E\n大环内酯类小剂量长程治疗B\n获益［ ］，但对于糖皮质激素的使用时机、种类、剂\n61‑64\n量及疗程，目前尚未达成共识，参照多数相关指南\n的意见，我们建议糖皮质激素只适用于血流动力学\n不稳定的重症肺炎患者［4，27，65］。\n由于缺乏循证医学证据，对于结构性肺病合并\nPA慢性感染，通常情况下没有必要给予免疫治疗\n（如输注人免疫球蛋白等）［59］。但是，对于合并\n感染的各种免疫球蛋白缺乏症患者，输注人免疫球PA\n蛋白治疗是必要的［59］。",
+      "text_quality": {
+        "cjk_ratio": 0.7486
+      },
+      "anchors": {
+        "sha1_12": "129a7ed6cf5b",
+        "head_80": "2.抗炎治疗和免疫治疗：在决定结构性肺病合\n并PA慢性感染患者是否给予吸入或全身糖皮质激\n素治疗时，应审慎评估基础疾病接受糖皮质激素治\n疗的必要性和治疗后PA感"
+      },
+      "page_regions": [
+        {
+          "page": 10,
+          "bbox": [
+            65.30168019999999,
+            51.42910409379988,
+            547.08119146,
+            767.6072423361
+          ]
+        }
+      ],
+      "linked_tables": [
+        {
+          "object_id": "T_p010_001",
+          "object_type": "table",
+          "page": 10,
+          "caption": "表2结构性肺病合并",
+          "bbox": [
+            113.9842,
+            79.3495555833,
+            311.2333637392866,
+            173.26239999999996
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "not_required"
+        }
+      ],
+      "linked_figures": [
+        {
+          "object_id": "F_p010_001",
+          "object_type": "figure",
+          "page": 10,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0022",
+      "section_title": "（四）综合治疗",
+      "section_path": [
+        "正文",
+        "四、治疗",
+        "（四）综合治疗"
+      ],
+      "page_start": 10,
+      "page_end": 11,
+      "page_span": {
+        "start": {
+          "page": 10,
+          "offset": 1544
+        },
+        "end": {
+          "page": 11,
+          "offset": 71
+        }
+      },
+      "text_span": {
+        "start": 22647,
+        "end": 23147
+      },
+      "text": "此外，对于其他体液免疫缺\n陷患者，如果经过规范治疗仍不能有效控制PA感\n染，也应考虑进行免疫球蛋白替代治疗［59］。其他免\n疫缺陷宿主继发肺部PA感染或重症HAP/VAP患\n者在抗感染治疗的基础上可酌情应用免疫球蛋白\n（ ）［］。其他免疫调节治疗方法尚\n0.5~1.0g·kg‑1·d‑14\n需更多高质量临床研究证实，可根据免疫状态和病\n情严重程度酌情选用。\n\n3.营养支持：目前对CF或非CF支扩合并PA\n慢性感染者的营养支持治疗还缺乏深入研究［59］。\n对营养不良的慢阻肺患者应给予积极营养支持，但\n目前尚无最优的营养支持方案可推荐［60］。对于\n肺炎合并脓毒症或脓毒症休克者，应尽早启动肠内PA\n营养；如肠内营养支持7~10d摄入能量与蛋白质仍\n达不到目标值的60%，则给予肠外营养补充。对于\n病程7d内不能进行早期肠内营养者，如无营养不\n良风险，可在发病7d后开始肠外营养支持；如存在\n严重营养不良或营养不良风险，则应尽早开始肠外\n营养支持［4］。\n\n中华结核和呼吸杂志年月第卷第期\n2022 8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8",
+      "text_quality": {
+        "cjk_ratio": 0.7019
+      },
+      "anchors": {
+        "sha1_12": "5f959042b986",
+        "head_80": "此外，对于其他体液免疫缺\n陷患者，如果经过规范治疗仍不能有效控制PA感\n染，也应考虑进行免疫球蛋白替代治疗［59］。其他免\n疫缺陷宿主继发肺部PA感染或重症HA"
+      },
+      "page_regions": [
+        {
+          "page": 10,
+          "bbox": [
+            300.97753448000003,
+            51.42910409379988,
+            552.24830736,
+            767.6067423361
+          ]
+        },
+        {
+          "page": 11,
+          "bbox": [
+            65.27673571999999,
+            51.42910409379988,
+            412.37889146000003,
+            65.14115334711994
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p010_001",
+          "object_type": "figure",
+          "page": 10,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0023",
+      "section_title": "五、预防",
+      "section_path": [
+        "正文",
+        "五、预防"
+      ],
+      "page_start": 11,
+      "page_end": 11,
+      "page_span": {
+        "start": {
+          "page": 11,
+          "offset": 72
+        },
+        "end": {
+          "page": 11,
+          "offset": 1270
+        }
+      },
+      "text_span": {
+        "start": 23148,
+        "end": 24346
+      },
+      "text": "五、预防\nPA容易在结构性肺病患者的呼吸道发生定\n植，且一旦定植很难被清除，可引起下呼吸道感染\n反复发作；人体或环境中的PA还可能在医疗机构\n内引起医院感染爆发，特别是或\nMDR‑PA PDR‑PA\n引起的感染治疗更困难，病死率更高，因此预防和\n控制PA下呼吸道感染尤其重要［1，31，66］。污染的手、\n器械或物体表面可以造成PA的广泛传播［67］，通常\n需要在标准预防的基础上采用接触传播的隔离与\n预防措施来阻断其传播；进行有针对性的主动筛\n查，及时的监控和反馈［1，4，68］有助于的防\nMDR‑PA\n控；预防性全身抗菌药物的使用并不能减少CF和\nHAP/VAP患者的PA呼吸道感染［69］，临床不推荐应\n用，需加强抗菌药物的优化使用和管理。具体措施\n包括：（1）手卫生：是感染防控最为重要的基础措\n施，提高医务人员、患者及陪护人员的手卫生依从\n性对PA感染防控至关重要。（2）接触预防：接触\n感染或定植患者的所有人员均应正确执\nMDR‑PA\n行接触预防措施［70］，包括手卫生、正确选择和穿脱\n个人防护用品、简易设备专人专用、减少患者转运\n和规范管理医疗废物等。（3）患者隔离：应对\n感染或定植者实施接触隔离。尽可能采\nMDR‑PA\n取单间或建立物理屏障隔离，最好能有独立的卫生\n间，有条件的机构可为其安排专门的医务人员有助\n于隔离措施的执行［68］。对患者及陪护人员进行教\n育，使其了解并配合各项隔离措施［71］。（4）环境清洁\n消毒：医院环境中，特别是ICU内的自来水龙头、水\n槽、加湿器储液罐等均可发生的污染［ ］，且与\n72‑74\n院内获得性感染的爆发密切相关。有条件的单PA\n位可考虑安装可拆卸消毒的水龙头PA ［］及具有消毒\n功能的水槽排水管道［76］，ICU内水槽的设置应与床\n单元有足够的距离或有物理隔断［77］，必要时对高危\n患者提供无菌水［72］等。 感染或定植患者\nMDR‑PA\n的床单元及其周边的物体表面均可被其污染，需按\n规范加强清洁消毒［72］。怀疑或确定物表有PA生物\n被膜形成时可用2.5%浓度的酒精、0.55%邻苯二甲\n醛（OPA）、200mg/L含氯消毒剂以及500mg/L有效\n碘反复擦拭或浸泡。（5）器械物品的清洁消毒：要特\n别关注与呼吸治疗相关的重复使用仪器设备包括\n氧气湿化瓶、呼吸机湿化器、雾化吸入装置、负压吸\n引装置和支气管镜等的日常清洁与消毒。雾化装\n置的充分干燥［78］或使用一次性氧气湿化瓶［79］能降\n低PA污染风险。PA是常见的支气管镜相关的外\n源性感染病原菌［80］，通过污染的支气管镜或其附属\n设备、配件，甚至受污染的清洗消毒设备传播，PA\n可在支气管镜操作腔道或附件内形成生物被膜，特\n别是当支气管镜结构破坏时，易导致消毒失\n败［ ］，增加院内感染的风险，必须严格按规范对\n80‑81\n支气管镜进行洗消、维保和储存［82］。",
+      "text_quality": {
+        "cjk_ratio": 0.7654
+      },
+      "anchors": {
+        "sha1_12": "3ac854da396d",
+        "head_80": "五、预防\nPA容易在结构性肺病患者的呼吸道发生定\n植，且一旦定植很难被清除，可引起下呼吸道感染\n反复发作；人体或环境中的PA还可能在医疗机构\n内引起医院感染爆发"
+      },
+      "page_regions": [
+        {
+          "page": 11,
+          "bbox": [
+            65.30168019999999,
+            80.06376087609999,
+            547.0308951053809,
+            767.6067423361
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p011_001",
+          "object_type": "figure",
+          "page": 11,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    },
+    {
+      "chunk_id": "CH0024",
+      "section_title": "五、预防",
+      "section_path": [
+        "正文",
+        "五、预防"
+      ],
+      "page_start": 11,
+      "page_end": 11,
+      "page_span": {
+        "start": {
+          "page": 11,
+          "offset": 1270
+        },
+        "end": {
+          "page": 11,
+          "offset": 1676
+        }
+      },
+      "text_span": {
+        "start": 24346,
+        "end": 24752
+      },
+      "text": "（6）呼吸道去定\n植：雾化吸入［53］氨基糖苷类、多黏菌素类、氨曲南或\n口服环丙沙星等抗菌药物被用于CF患者的PA呼\n吸道去定植，但证据级别均不高［83］，非CF支扩患者\n中应用的证据更为有限，目前仅推荐在每年超过\n次急性加重的支扩和患者中尝试使用［31，83］。\n3 CF\n总负责：瞿介明\n顾问：刘又宁、何礼贤、曹彬、贺蓓、张湘燕、赖国祥、王明贵、\n胡必杰、徐英春、吕小东\n总执笔：施毅\n执笔专家（按写作内容顺序排名）：沈宁、卓超、徐金富、\n周华、苏欣、范红、张静、佘丹阳、黄怡、田欣伦\n写作组成员（按姓氏拼音排名）：陈愉、陈一强、程齐俭、\n程伟、常德、姜淑娟、揭志军、李海潮、李华茵、李玉苹、\n李园园、刘琳、刘学东、刘漪、陆海雯、牟向东、苏振中、孙禾、\n孙文逵、王辉、王红民、王凌伟、吴琦、文文、徐峰、徐礼裕、\n叶枫、颜伏归、赵洪文、张建全、张巧、张天托、张伟、周琼、\n朱迎钢\n利益冲突所有作者声明无利益冲突",
+      "text_quality": {
+        "cjk_ratio": 0.7539
+      },
+      "anchors": {
+        "sha1_12": "f98d11a55b86",
+        "head_80": "（6）呼吸道去定\n植：雾化吸入［53］氨基糖苷类、多黏菌素类、氨曲南或\n口服环丙沙星等抗菌药物被用于CF患者的PA呼\n吸道去定植，但证据级别均不高［83］，非C"
+      },
+      "page_regions": [
+        {
+          "page": 11,
+          "bbox": [
+            320.39663572,
+            158.25978177499996,
+            551.5786748400001,
+            427.56184077379993
+          ]
+        }
+      ],
+      "linked_tables": [],
+      "linked_figures": [
+        {
+          "object_id": "F_p011_001",
+          "object_type": "figure",
+          "page": 11,
+          "caption": "",
+          "bbox": [
+            170.0,
+            254.88199999999995,
+            442.0,
+            570.882
+          ],
+          "link_reasons": [
+            "layout_proximity"
+          ],
+          "link_confidence": 0.65,
+          "ocr_status": "pending"
+        }
+      ]
+    }
+  ],
+  "toc_llm_report": {
+    "enabled": true,
+    "mode": "dual_toc_v1",
+    "rule_candidate_count": 40,
+    "llm_candidate_count": 18,
+    "local_accepted_title_count": 20,
+    "final_accepted_title_count": 19,
+    "llm_extract_report": {
+      "enabled": true,
+      "status": "ok",
+      "reason": "",
+      "truncated_input": false,
+      "model": "qwen-plus",
+      "candidate_count": 18
+    },
+    "llm_judge_report": {
+      "enabled": true,
+      "status": "ok",
+      "reason": "",
+      "model": "qwen-plus",
+      "accepted_title_count": 19
+    },
+    "local_metrics": {
+      "candidate_count": 58,
+      "accepted_title_count": 20,
+      "title_match_rate": 0.6034,
+      "heading_noise_rate": 0.3793,
+      "page_density": 1.4286,
+      "suspicious_density": false,
+      "page_monotonicity_rate": 1.0,
+      "level_jump_count": 0
+    },
+    "final_metrics": {
+      "candidate_count": 19,
+      "accepted_title_count": 19,
+      "title_match_rate": 1.0,
+      "heading_noise_rate": 0.0,
+      "page_density": 1.3571,
+      "suspicious_density": false,
+      "page_monotonicity_rate": 1.0,
+      "level_jump_count": 0
+    },
+    "final_toc": [
+      {
+        "title": "一、PA的微生物学特点",
+        "level": 1,
+        "start": 5886,
+        "page": 2,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "一、PA的微生物学特点",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "二、流行病学",
+        "level": 1,
+        "start": 6691,
+        "page": 3,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "二、流行病学",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "（一）疾病流行病学",
+        "level": 2,
+        "start": 6698,
+        "page": 3,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "（一）疾病流行病学",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "（二）病原菌相关流行病学",
+        "level": 2,
+        "start": 7819,
+        "page": 3,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "（二）病原菌相关流行病学",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "1. MDR‑PA",
+        "level": 2,
+        "start": 8738,
+        "page": 4,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "1. MDR‑PA",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "（四）耐药基因与体外药敏一致性的相关问题",
+        "level": 2,
+        "start": 10193,
+        "page": 4,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "（四）耐药基因与体外药敏一致性的相关问题",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "三、诊断",
+        "level": 1,
+        "start": 10587,
+        "page": 4,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "三、诊断",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "（一）急性下呼吸道感染",
+        "level": 2,
+        "start": 10769,
+        "page": 5,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "（一）急性下呼吸道感染",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "（二）慢性下呼吸道感染",
+        "level": 2,
+        "start": 11624,
+        "page": 5,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "（二）慢性下呼吸道感染",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "（三）病原学诊断和药敏检测",
+        "level": 2,
+        "start": 12020,
+        "page": 5,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "（三）病原学诊断和药敏检测",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "（四）感染和定植的鉴别",
+        "level": 2,
+        "start": 13042,
+        "page": 6,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "（四）感染和定植的鉴别",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "四、治疗",
+        "level": 1,
+        "start": 13595,
+        "page": 6,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "四、治疗",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "（一）PA下呼吸道感染的治疗原则",
+        "level": 2,
+        "start": 13791,
+        "page": 6,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "（一）PA下呼吸道感染的治疗原则",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "（二）具有抗PA活性的抗菌药物",
+        "level": 2,
+        "start": 14509,
+        "page": 6,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "（二）具有抗PA活性的抗菌药物",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "1. PAβ‑",
+        "level": 2,
+        "start": 14542,
+        "page": 6,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "1. PAβ‑",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "（三）抗菌药物的选择和合理使用",
+        "level": 2,
+        "start": 16967,
+        "page": 7,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "（三）抗菌药物的选择和合理使用",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "2.案应能够同时覆盖",
+        "level": 2,
+        "start": 18594,
+        "page": 8,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "2.案应能够同时覆盖",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "（四）综合治疗",
+        "level": 2,
+        "start": 20630,
+        "page": 9,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "（四）综合治疗",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      },
+      {
+        "title": "五、预防",
+        "level": 1,
+        "start": 23148,
+        "page": 11,
+        "sources": [
+          "judge"
+        ],
+        "evidence_text": "五、预防",
+        "decision": "accept",
+        "reason": "local_validated",
+        "confidence": 0.7
+      }
+    ]
+  },
+  "text_quality_report": {
+    "stage": "parsed_pdf_text_quality",
+    "enabled": true,
+    "status": "pass",
+    "skip": false,
+    "reasons": [],
+    "total_chars": 37309,
+    "cjk_chars": 14097,
+    "ascii_letter_chars": 17055,
+    "digit_chars": 2374,
+    "readable_chars": 36806,
+    "replacement_chars": 0,
+    "question_mark_chars": 5,
+    "control_chars": 0,
+    "symbol_chars": 82,
+    "private_use_chars": 0,
+    "cjk_ratio": 0.3778,
+    "ascii_letter_ratio": 0.4571,
+    "readable_ratio": 0.9865,
+    "weird_ratio": 0.0023,
+    "thresholds": {
+      "min_text_chars": 80,
+      "max_cjk_ratio": 0.02,
+      "min_ascii_letter_ratio": 0.2,
+      "min_readable_ratio": 0.55,
+      "max_weird_ratio": 0.35
+    }
+  },
+  "semantic_section_llm_report": {
+    "enabled": true,
+    "status": "failed",
+    "mode": "span_ops_v1",
+    "noise_fragments": [
+      {
+        "label": "噪声片段",
+        "start": 0,
+        "end": 124,
+        "excerpt": "中华结核和呼吸杂志年月第卷第期\n2022 8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\n中国铜绿假单胞菌下呼吸道感染诊治\n专家共识（ 年版）\n中华医学会呼吸病学分会感染学组\n： ；施毅，解放军",
+        "reason": "期刊标题与年卷期信息（含中英文混排），非正文内容"
+      },
+      {
+        "label": "噪声片段",
+        "start": 124,
+        "end": 298,
+        "excerpt": "东部战区总医院呼吸与危重症医学科，南京\nEmailjmqu0906@163.com\n， ：\n210002Emailshiyi56@126.com\n【摘要】铜绿假单胞菌是难治性下呼吸道感染最常见致病菌之一，由于其耐药严重和易形成生\n物被膜，特别是近10多年来碳青霉烯类耐药株的出现，使其治疗更为困难；同时新的治疗药物和治疗\n策略不断问世，有必要加以评",
+        "reason": "专家共识标题、学组署名、作者单位及邮箱（含重复地址与格式化噪音）"
+      },
+      {
+        "label": "噪声片段",
+        "start": 300,
+        "end": 376,
+        "excerpt": "指导临床合理应用。中华医学会呼吸病学分会感染学组在《铜绿假\n单胞菌下呼吸道感染诊治专家共识（2014年版）》的基础上进行更新，并以临床诊治和预防的思路和",
+        "reason": "摘要前导符号与国际指南注册号，非摘要正文"
+      },
+      {
+        "label": "噪声片段",
+        "start": 21266,
+        "end": 21352,
+        "excerpt": "表2结构性肺病合并\n结构性肺病清除治疗急性加重治疗\n慢阻肺急性无门诊患者：口服氟喹诺酮\n加重合并类（环丙沙星、左氧氟\n感染沙星、西他沙星）\nPA 住院患者：抗\n胺类、氟喹诺",
+        "reason": "页眉重复信息（年月第卷第期及英文刊名）"
+      },
+      {
+        "label": "噪声片段",
+        "start": 25843,
+        "end": 25929,
+        "excerpt": "pneumonia.Ameta‑analysis[J].JAMA,1996,275(2):\n[8] Cillóniz C, Gabarrús A, Ferrer M, et",
+        "reason": "页眉重复信息（年月第卷第期及英文刊名）"
+      },
+      {
+        "label": "噪声片段",
+        "start": 30069,
+        "end": 30155,
+        "excerpt": "中华结核和呼吸杂志年月第卷第期\n2022 8 45 8 ChinJTubercRespirDis,August2022,Vol.45,No.8\nmonotherapy ve",
+        "reason": "页眉重复信息（年月第卷第期及英文刊名）"
+      },
+      {
+        "label": "噪声片段",
+        "start": 34780,
+        "end": 34866,
+        "excerpt": "[58] O′NeillK,O′DonnellAE,BradleyJM,etal.Airway\nclearance, mucoactive therapies and pu",
+        "reason": "页眉重复信息（年月第卷第期及英文刊名）"
+      },
+      {
+        "label": "噪声片段",
+        "start": 38920,
+        "end": 39434,
+        "excerpt": "].InfectControlHospEpidemiol,\n[81] BussAJ,BeenMH,BorgersRP,etal.Endoscope\ndisinfectionanditspitfalls‑‑requirementforretrograde\nsurveillancecultures[J].Endoscopy,2008,40(4):327‑332.\n[82] 刘运喜,邢玉斌,巩玉秀.软式",
+        "reason": "文末参考文献列表起始段及冗余元数据（如DOI占位符、URL、EB/OL等），非正文"
+      }
+    ],
+    "reason": "noise_spans 区间疑似截断正文字符: [0, 124)。"
+  },
+  "figure_table_objects": [
+    {
+      "object_id": "T_p008_001",
+      "object_type": "table",
+      "page": 8,
+      "body": [
+        [
+          "经验性治疗",
+          null,
+          "目标治疗",
+          null
+        ],
+        [
+          "重症",
+          "非重症",
+          "首选",
+          "次选"
+        ]
+      ],
+      "body_bbox": [
+        106.31206,
+        429.01439999999997,
+        464.7774,
+        456.3528999999999
+      ],
+      "bbox": [
+        106.31206,
+        415.60545558329994,
+        464.7774,
+        456.3528999999999
+      ],
+      "source": "pdfplumber_find_tables",
+      "ocr_status": "recognized",
+      "caption": "表1 和",
+      "caption_bbox": [
+        211.50974032,
+        415.60545558329994,
+        275.54618891999996,
+        425.03388367839995
+      ],
+      "table_number": "1"
+    },
+    {
+      "object_id": "T_p008_002",
+      "object_type": "table",
+      "page": 8,
+      "body": [
+        [
+          "内酰胺酶抑制剂复合制",
+          null
+        ],
+        [
+          null,
+          "剂（哌拉西林他唑巴坦、"
+        ],
+        [
+          null,
+          "头孢哌酮舒巴/ 坦等）；碳"
+        ],
+        [
+          null,
+          "青霉烯类（/亚胺培南、美"
+        ],
+        [
+          null,
+          "罗培南、比阿培南等）"
+        ]
+      ],
+      "body_bbox": [
+        106.31206,
+        520.8569,
+        199.1511933333333,
+        560.8568333333334
+      ],
+      "bbox": [
+        106.31206,
+        520.8569,
+        199.1511933333333,
+        560.8568333333334
+      ],
+      "source": "pdfplumber_find_tables",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "T_p008_003",
+      "object_type": "table",
+      "page": 8,
+      "body": [
+        [
+          "（头孢他啶、头孢吡肟"
+        ],
+        [
+          "等）； 内酰胺酶抑制"
+        ],
+        [
+          "剂复β合‑制剂（哌拉西"
+        ],
+        [
+          "林他唑巴坦、头孢哌"
+        ],
+        [
+          "酮/舒巴坦等）；氧头孢"
+        ],
+        [
+          "烯/类（拉氧头孢、氟氧"
+        ],
+        [
+          "头孢等）；氟喹诺酮类"
+        ],
+        [
+          "（环丙沙星、左氧氟沙"
+        ],
+        [
+          "星等"
+        ]
+      ],
+      "body_bbox": [
+        218.9448,
+        544.85685,
+        293.39711304347827,
+        616.8567999999999
+      ],
+      "bbox": [
+        218.9448,
+        544.85685,
+        293.39711304347827,
+        616.8567999999999
+      ],
+      "source": "pdfplumber_find_tables",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "T_p008_004",
+      "object_type": "table",
+      "page": 8,
+      "body": [
+        [
+          "氟喹诺酮类（环丙沙星、",
+          null
+        ],
+        [
+          null,
+          "左氧氟沙星等）；氨基"
+        ],
+        [
+          null,
+          "糖苷类（阿米卡星、异帕"
+        ],
+        [
+          null,
+          "米星等）"
+        ]
+      ],
+      "body_bbox": [
+        106.31206,
+        576.8568,
+        199.1511933333333,
+        608.8568499999999
+      ],
+      "bbox": [
+        106.31206,
+        576.8568,
+        199.1511933333333,
+        608.8568499999999
+      ],
+      "source": "pdfplumber_find_tables",
+      "ocr_status": "not_required"
+    },
+    {
+      "object_id": "T_p008_005",
+      "object_type": "table",
+      "page": 8,
+      "body": [
+        [
+          "有 或 感染风",
+          null,
+          null
+        ],
+        [
+          null,
+          "险CR时PA可联D合T下R‑列PA药物",
+          "："
+        ],
+        [
+          "多黏菌素类（多黏菌素",
+          null,
+          null
+        ]
+      ],
+      "body_bbox": [
+        106.31206,
+        608.8568499999999,
+        199.1511933333333,
+        632.8567999999999
+      ],
+      "bbox": [
+        81.41863572,
+        608.8568499999999,
+        326.73795888,
+        758.80595334712
+      ],
+      "source": "pdfplumber_find_tables",
+      "ocr_status": "not_required",
+      "note": "注：PA：铜绿假单胞菌；CAP：社区获得性肺炎；HAP：医院获得性肺炎；",
+      "note_bbox": [
+        81.41863572,
+        745.0939040938,
+        326.73795888,
+        758.80595334712
+      ]
+    },
+    {
+      "object_id": "T_p008_006",
+      "object_type": "table",
+      "page": 8,
+      "body": [
+        [
+          "制剂（哌拉西林他唑"
+        ],
+        [
+          "巴坦、头孢哌酮/舒巴"
+        ],
+        [
+          "坦等）；头孢菌/素类"
+        ],
+        [
+          "（头孢他啶、头孢吡肟"
+        ],
+        [
+          "等）；碳青霉烯类（亚"
+        ],
+        [
+          "胺培南、美罗培南、比"
+        ],
+        [
+          "阿培南等）"
+        ]
+      ],
+      "body_bbox": [
+        218.9448,
+        640.8568333333333,
+        293.39711304347827,
+        696.8569
+      ],
+      "bbox": [
+        81.41863572,
+        640.8568333333333,
+        326.73795888,
+        758.80595334712
+      ],
+      "source": "pdfplumber_find_tables",
+      "ocr_status": "not_required",
+      "note": "注：PA：铜绿假单胞菌；CAP：社区获得性肺炎；HAP：医院获得性肺炎；",
+      "note_bbox": [
+        81.41863572,
+        745.0939040938,
+        326.73795888,
+        758.80595334712
+      ]
+    },
+    {
+      "object_id": "T_p008_007",
+      "object_type": "table",
+      "page": 8,
+      "body": [
+        [
+          "中的一种：氟喹诺酮类"
+        ],
+        [
+          "（环丙沙星、左氧氟沙星"
+        ],
+        [
+          "等）；氨基糖苷类（阿米"
+        ],
+        [
+          "卡星、异帕米星等）"
+        ]
+      ],
+      "body_bbox": [
+        218.9448,
+        704.8569,
+        293.39711304347827,
+        738.27415
+      ],
+      "bbox": [
+        81.41863572,
+        704.8569,
+        326.73795888,
+        758.80595334712
+      ],
+      "source": "pdfplumber_find_tables",
+      "ocr_status": "not_required",
+      "note": "注：PA：铜绿假单胞菌；CAP：社区获得性肺炎；HAP：医院获得性肺炎；",
+      "note_bbox": [
+        81.41863572,
+        745.0939040938,
+        326.73795888,
+        758.80595334712
+      ]
+    },
+    {
+      "object_id": "T_p010_001",
+      "object_type": "table",
+      "page": 10,
+      "body": [
+        [
+          "首次分离出 且病情进展的支",
+          null
+        ],
+        [
+          null,
+          "扩患者建议PA行 清除治疗；根"
+        ],
+        [
+          null,
+          "据症状是否超P过A基线水平，起"
+        ],
+        [
+          null,
+          "始 周分别推荐环丙沙星"
+        ],
+        [
+          null,
+          "（ 2 ，次 ）口服，或氨基"
+        ],
+        [
+          null,
+          "糖50苷0类mg联2合/d内酰胺类静脉"
+        ],
+        [
+          null,
+          "给药，继以 β‑ 周的妥布霉素"
+        ],
+        [
+          null,
+          "或多黏菌素4类~1吸2入治疗"
+        ]
+      ],
+      "body_bbox": [
+        113.9842,
+        107.84509999999995,
+        226.0837,
+        173.26239999999996
+      ],
+      "bbox": [
+        113.9842,
+        79.3495555833,
+        311.2333637392866,
+        173.26239999999996
+      ],
+      "source": "pdfplumber_find_tables",
+      "ocr_status": "recognized",
+      "caption": "表2结构性肺病合并",
+      "caption_bbox": [
+        224.78964132,
+        79.3495555833,
+        311.2333637392866,
+        88.7779836784
+      ],
+      "table_number": "2"
+    },
+    {
+      "object_id": "F_p001_002",
+      "object_type": "figure",
+      "page": 1,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "F_p002_001",
+      "object_type": "figure",
+      "page": 2,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "F_p003_001",
+      "object_type": "figure",
+      "page": 3,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "F_p004_001",
+      "object_type": "figure",
+      "page": 4,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "F_p005_001",
+      "object_type": "figure",
+      "page": 5,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "F_p006_001",
+      "object_type": "figure",
+      "page": 6,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "F_p007_001",
+      "object_type": "figure",
+      "page": 7,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "F_p008_001",
+      "object_type": "figure",
+      "page": 8,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "F_p009_001",
+      "object_type": "figure",
+      "page": 9,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "F_p010_001",
+      "object_type": "figure",
+      "page": 10,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "F_p011_001",
+      "object_type": "figure",
+      "page": 11,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "recognized"
+    },
+    {
+      "object_id": "F_p012_001",
+      "object_type": "figure",
+      "page": 12,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p013_001",
+      "object_type": "figure",
+      "page": 13,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p014_001",
+      "object_type": "figure",
+      "page": 14,
+      "bbox": [
+        170.0,
+        254.88199999999995,
+        442.0,
+        570.882
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    }
+  ]
+}

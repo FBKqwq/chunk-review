@@ -1,0 +1,1463 @@
+{
+  "meta": {
+    "doc_id": "Castleman病诊断与治疗指南(2025年版)",
+    "source_title": "中国Castleman病诊断与治疗指南（2025年版）",
+    "section_path": "指南全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_castleman_disease",
+        "name": "Castleman病",
+        "normalized_name": "Castleman病",
+        "aliases": [
+          "Castleman disease",
+          "CD"
+        ],
+        "source_document_ids": [
+          "中国Castleman病诊断与治疗指南（2025年版）"
+        ],
+        "evidence_ids": [
+          "Castleman病(Castleman disease, CD)是一种淋巴组织增殖性疾病，淋巴结病理是诊断该病的金标准"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_ucd",
+        "name": "单中心型Castleman病",
+        "parent_disease_id": "disease_castleman_disease",
+        "disease_subtype": "透明血管型、浆细胞型、混合型",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "UCD：累及单个淋巴结区域，多数患者除淋巴结肿大外无全身症状。少数患者可伴有与MCD类似的高炎症表现"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_mcd",
+        "name": "多中心型Castleman病",
+        "parent_disease_id": "disease_castleman_disease",
+        "disease_subtype": "HHV-8阳性、HHV-8阴性",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "MCD：有多个（≥2个）淋巴结区域受累（受累淋巴结短径≥1 cm) 的 CD 患者被归为 MCD 。根据HHV-8感染情况，MCD可分为HHV-8阳性MCD和HHV-8阴性MCD"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hhv8_positive_mcd",
+        "name": "HHV-8阳性多中心型Castleman病",
+        "parent_disease_id": "disease_castleman_disease",
+        "disease_subtype": "HHV-8阳性",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "HHV-8阳性MCD：前者在国内患者中所占比例低（国内回顾性研究中仅占所有 MCD 的1.6%[9）,对利妥昔单抗治疗反应好[10]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hhv8_negative_mcd",
+        "name": "HHV-8阴性多中心型Castleman病",
+        "parent_disease_id": "disease_castleman_disease",
+        "disease_subtype": "HHV-8阴性",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "HHV-8阴性MCD：后者若满足特发性多中心型Castleman病（idiopathic MCD,iMCD）的诊断标准则诊断为iMCD"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_imcd",
+        "name": "特发性多中心型Castleman病",
+        "parent_disease_id": "disease_castleman_disease",
+        "disease_subtype": "HHV-8阴性",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "对于 HHV-8 阴性 MCD, 若符合以下两条主要标准+至少两条次要标准（其中至少一条是实验室标准），且排除可能引起淋巴结 Castleman 样改变的基础疾病后，可诊断为 iMCD。主要标准：①淋巴结病理符合 CD ；②存在≥2个淋巴结区域受累（淋巴结短径≥1cm）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_amcd",
+        "name": "无症状性多中心型Castleman病",
+        "parent_disease_id": "disease_castleman_disease",
+        "disease_subtype": "HHV-8阴性",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "对于不存在症状和高炎症状态,从而不满足 iMCD 诊断标准的患者，则诊断为无症状性 MCD (asymptomatic MCD, aMCD)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_imcd_tafro",
+        "name": "iMCD-TAFRO综合征",
+        "parent_disease_id": "disease_castleman_disease",
+        "disease_subtype": "HHV-8阴性",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "iMCD-TAFRO ：符合 iMCD 诊断的前提下，满足以下所有主要标准和≥1个次要标准。主要标准：①血小板减少（治疗前PLT最低水平<100×10⁹/L）；②水肿或浆膜腔积液；③发热或高炎症状态：原因不明的发热（体温>37.5℃ ）或 CRP>20mg/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_imcd_ipl",
+        "name": "iMCD-特发性浆细胞性淋巴结病",
+        "parent_disease_id": "disease_castleman_disease",
+        "disease_subtype": "浆细胞型或混合型",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "iMCD-IPL：符合iMCD诊断标准且不符合 iMCD-TAFRO，同时满足下述3条标准：①外周血 IgG>17.4g/L 或超过正常上限；②淋巴结病理类型为浆细胞型或混合型；③血小板增多（PLT>350×10⁹/L)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_imcd_nos",
+        "name": "iMCD-非特指型",
+        "parent_disease_id": "disease_castleman_disease",
+        "disease_subtype": "HHV-8阴性",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "iMCD-NOS：符合iMCD诊断标准，且不符合 iMCD-TAFRO或iMCD-IPL诊断标准"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hv_cd",
+        "name": "透明血管型Castleman病",
+        "parent_disease_id": "disease_castleman_disease",
+        "disease_subtype": "透明血管型",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "HV-CD：淋巴结体积通常较大（数厘米至十余厘米），有完整包膜和丰富血供。镜下形态改变主要包括淋巴滤泡增多、生发中心缩小、套细胞区增宽及滤泡间区血管增生"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_pc_cd",
+        "name": "浆细胞型Castleman病",
+        "parent_disease_id": "disease_castleman_disease",
+        "disease_subtype": "浆细胞型",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "PC-CD ：肿大淋巴结的体积通常较小。镜下可见HV-CD样淋巴滤泡，但部分病例或部分病灶的滤泡生发中心萎缩不明显，甚至会出现生发中心增生和扩大，伴数量显著增多的浆细胞浸润"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_mixed_cd",
+        "name": "混合型Castleman病",
+        "parent_disease_id": "disease_castleman_disease",
+        "disease_subtype": "混合型",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "混合型CD：形态特点兼具HV-CD及 PC-CD 的特征，可理解为两者的过渡形态或组合形式"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "原因不明的发热（体温>37.5℃ ）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_weight_loss",
+        "name": "体重下降",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "体重下降（6个月下降≥10%）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_night_sweats",
+        "name": "盗汗",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "盗汗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "疲乏",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "疲乏"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_anorexia",
+        "name": "厌食",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "厌食"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dyspnea",
+        "name": "呼吸困难",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "呼吸困难"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_rash",
+        "name": "皮疹",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "皮疹"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_edema",
+        "name": "水肿",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "水肿或浆膜腔积液"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_cherry_angiomata",
+        "name": "皮肤樱桃血管瘤",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "皮肤樱桃血管瘤或紫罗兰样丘疹"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_violaceous_papules",
+        "name": "紫罗兰样丘疹",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "皮肤樱桃血管瘤或紫罗兰样丘疹"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hepatomegaly",
+        "name": "肝大",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "肝大和（或）脾大"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_splenomegaly",
+        "name": "脾大",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "肝大和（或）脾大"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_lymphadenopathy",
+        "name": "淋巴结肿大",
+        "body_site": "淋巴系统",
+        "symptom_category": "淋巴系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "淋巴结肿大"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_hhv8_dna",
+        "name": "外周血HHV-8 DNA检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "对于 MCD 患者，推荐采用外周血HHV-8DNA检测和（或）淋巴结病理免疫组化染色判断HHV-8状态"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_lana1_ihc",
+        "name": "LANA-1免疫组化染色",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "对于 MCD 患者，推荐采用外周血HHV-8DNA检测和（或）淋巴结病理免疫组化染色判断HHV-8状态"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_crp",
+        "name": "C反应蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "CRP>10 mg/L 或红细胞沉降率>20 mm/1 h（女性)或15 mm/1 h(男性)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_esr",
+        "name": "红细胞沉降率",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "CRP>10 mg/L 或红细胞沉降率>20 mm/1 h（女性)或15 mm/1 h(男性)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_hgb",
+        "name": "血红蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "贫血(HGB<100g/L)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_plt",
+        "name": "血小板计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血小板减少（ PLT<100×10⁹/L ）或增多（ PLT>350×10⁹/L ）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_albumin",
+        "name": "血清白蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血清白蛋白<35 g/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_egfr",
+        "name": "估算肾小球滤过率",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "估算肾小球滤过率（eGFR）<60ml·min⁻¹·（1.73m²）⁻¹或蛋白尿（尿总蛋白>150 mg/24h 或100 mg/L)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_igg",
+        "name": "血清IgG",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "外周血 IgG>17.4g/L 或超过正常上限"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_il6",
+        "name": "白细胞介素-6",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "白细胞介素-6(IL-6)"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_ucd_surgical_excision",
+        "content": "完整手术切除病灶是UCD最核心的治疗方式，对于所有UCD患者（无论是否合并高炎症状态、副肿瘤天疱疮、闭塞性细支气管炎或AA淀粉样变），都应该首先评估病灶的可切除性。",
+        "recommendation_strength": "B级推荐",
+        "source_section": "四,CD的治疗",
+        "evidence_ids": [
+          "完整手术切除病灶是UCD最核心的治疗方式6),对于所有UCD患者（无论是否合并高炎症状态、副肿瘤天疱疮、闭塞性细支气管炎或AA淀粉样变），都应该首先评估病灶的可切除性"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_mcd_rituximab_based",
+        "content": "对于 HHV-8 阳性 MCD, 推荐利妥昔单抗为基础的方案（如利妥昔单抗±脂质体阿霉素/阿霉素±糖皮质激素）",
+        "recommendation_strength": "证据等级2b,B级推荐",
+        "source_section": "四,CD的治疗",
+        "evidence_ids": [
+          "对于 HHV-8 阳性 MCD,推荐利妥昔单抗为基础的方案（如利妥昔单抗±脂质体阿霉素/阿霉素±糖皮质激素）2.14151（证据等级2b,B级推荐）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_imcd_siltuximab",
+        "content": "司妥昔单抗土泼尼松（证据等级1b，A级推荐）",
+        "recommendation_strength": "A级推荐",
+        "source_section": "四,CD的治疗",
+        "evidence_ids": [
+          "司妥昔单抗土泼尼松（证据等级1 b ，A级推荐）[17-18]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_imcd_tcp",
+        "content": "沙利度胺+环磷酰胺+泼尼松(TCP)方案（证据等级2b,B级推荐）",
+        "recommendation_strength": "B级推荐",
+        "source_section": "四,CD的治疗",
+        "evidence_ids": [
+          "沙利度胺+环磷酰胺+泼尼松(TCP)方案（证据等级2b,B级推荐）19)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_imcd_bcd",
+        "content": "硼替佐米+环磷酰胺+地塞米松（BCD)方案（证据等级2b,B级推荐）",
+        "recommendation_strength": "B级推荐",
+        "source_section": "四,CD的治疗",
+        "evidence_ids": [
+          "硼替佐米+环磷酰胺+地塞米松（BCD)方案（证据等级2b,B级推荐）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_imcd_tocilizumab",
+        "content": "托珠单抗±泼尼松（证据级别2b,B级推荐）",
+        "recommendation_strength": "B级推荐",
+        "source_section": "四,CD的治疗",
+        "evidence_ids": [
+          "托珠单抗±泼尼松（证据级别2 b,B级推荐）21]"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_siltuximab_plus_prednisone",
+        "content": "司妥昔单抗11mg/kg每3周1次静脉给药，治疗有效患者长期用药，直至疾病进展或不耐受，达到缓解后可酌情将给药间隔延长至6周；泼尼松1mg·kg⁻¹·d⁻¹起始，4~8周后逐渐减量并停用",
+        "plan_level": 1,
+        "applicable_condition": "非重型iMCD一线治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "司妥昔单抗11mg/kg每3周1次静脉给药，治疗有效患者长期用药，直至疾病进展或不耐受，达到缓解后可酌情将给药间隔延长至6周；泼尼松1mg·kg⁻¹·d⁻¹起始，4~8周后逐渐减量并停用"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_tcp",
+        "content": "沙利度胺100mg每晚1次口服，环磷酰胺300mg/m²每周1次口服，泼尼松1mg/kg每周2次口服，治疗有效患者用药满1年后改为沙利度胺单药维持治疗1年",
+        "plan_level": 1,
+        "applicable_condition": "非重型iMCD一线治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "沙利度胺100mg每晚1次口服，环磷酰胺300mg/m²每周1次口服，泼尼松1mg/kg每周2次口服，治疗有效患者用药满1年后改为沙利度胺单药维持治疗1年"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_bcd",
+        "content": "每4周为1个疗程，硼替佐米1.3mg/m²每周1次，皮下注射；环磷酰胺300mg/m²，每周1次，口服；地塞米松40mg，每周1次，口服。治疗9个疗程后调整为BD方案（硼替佐米1.3mg/m²，每2周1次，皮下注射；地塞米松20mg，每2周1次，口服）维持治疗一年",
+        "plan_level": 1,
+        "applicable_condition": "重型iMCD一线治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "每4周为1个疗程，硼替佐米1.3mg/m²每周1次，皮下注射；环磷酰胺300mg/m²，每周1次，口服；地塞米松40mg，每周1次，口服。治疗9个疗程后调整为BD方案（硼替佐米1.3mg/m²，每2周1次，皮下注射；地塞米松20mg，每2周1次，口服）维持治疗一年"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_tocilizumab_plus_prednisone",
+        "content": "托珠单抗8mg/kg每2周1次静脉给药，治疗有效患者长期用药，直至疾病进展或不耐受；泼尼松1mg·kg⁻¹·d⁻¹起始，4~8周后逐渐减量并停用",
+        "plan_level": 1,
+        "applicable_condition": "非重型iMCD一线治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "托珠单抗8mg/kg每2周1次静脉给药，治疗有效患者长期用药，直至疾病进展或不耐受；泼尼松1mg·kg⁻¹·d⁻¹起始，4~8周后逐渐减量并停用"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_rcvp",
+        "content": "每3~4周为1个疗程，利妥昔单抗375mg/m²，第1天，静脉输注；环磷酰胺750mg/m²，第1天，静脉输注；长春新碱1.4mg/m²（总剂量不超过2mg），第1天，静脉输注；泼尼松100mg/d，第1~5天，口服，4~6个疗程",
+        "plan_level": 2,
+        "applicable_condition": "非重型iMCD一线治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "每3~4周为1个疗程，利妥昔单抗375mg/m²，第1天，静脉输注；环磷酰胺750mg/m²，第1天，静脉输注；长春新碱1.4mg/m²（总剂量不超过2mg），第1天，静脉输注；泼尼松100mg/d，第1~5天，口服，4~6个疗程"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_hhv8_infection",
+        "content": "人类疱疹病毒8型感染",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "对于后者,根据是否感染人类疱疹病毒8型（HHV-8)可进一步分为HHV-8阳性MCD及HHV-8阴性MCD"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_hiv_infection",
+        "content": "人类免疫缺陷病毒感染",
+        "etiology_type": "感染因素",
+        "typicality": "排除因素",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "需除外的疾病：①感染性疾病：HIV、梅毒、EBV感染、结核等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_ebv_infection",
+        "content": "EB病毒感染",
+        "etiology_type": "感染因素",
+        "typicality": "排除因素",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "需除外的疾病：①感染性疾病：HIV、梅毒、EBV感染、结核等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_syphilis",
+        "content": "梅毒",
+        "etiology_type": "感染因素",
+        "typicality": "排除因素",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "需除外的疾病：①感染性疾病：HIV、梅毒、EBV感染、结核等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_tb",
+        "content": "结核",
+        "etiology_type": "感染因素",
+        "typicality": "排除因素",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "需除外的疾病：①感染性疾病：HIV、梅毒、EBV感染、结核等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_poems",
+        "content": "POEMS综合征",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "排除因素",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "②肿瘤性疾病：POEMS综合征、淋巴瘤、FDCS、浆细胞瘤等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_lymphoma",
+        "content": "淋巴瘤",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "排除因素",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "②肿瘤性疾病：POEMS综合征、淋巴瘤、FDCS、浆细胞瘤等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_fdcs",
+        "content": "滤泡树突细胞肉瘤",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "排除因素",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "②肿瘤性疾病：POEMS综合征、淋巴瘤、FDCS、浆细胞瘤等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_plasmacytoma",
+        "content": "浆细胞瘤",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "排除因素",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "②肿瘤性疾病：POEMS综合征、淋巴瘤、FDCS、浆细胞瘤等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_sle",
+        "content": "系统性红斑狼疮",
+        "etiology_type": "自身免疫因素",
+        "typicality": "排除因素",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "③自身免疫性疾病/其他：SLE、RA、ALPS等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_ra",
+        "content": "类风湿关节炎",
+        "etiology_type": "自身免疫因素",
+        "typicality": "排除因素",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "③自身免疫性疾病/其他：SLE、RA、ALPS等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_alps",
+        "content": "自身免疫性淋巴细胞增生综合征",
+        "etiology_type": "自身免疫因素",
+        "typicality": "排除因素",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "③自身免疫性疾病/其他：SLE、RA、ALPS等"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_lymphoid_hyperplasia",
+        "content": "淋巴组织增殖性疾病",
+        "evidence_ids": [
+          "Castleman病(Castleman disease, CD)是一种淋巴组织增殖性疾病"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_castleman_disease",
+        "to": "sub_disease_ucd",
+        "relation_id": "rel_castleman_has_ucd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "UCD：累及单个淋巴结区域，多数患者除淋巴结肿大外无全身症状"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_castleman_disease",
+        "to": "sub_disease_mcd",
+        "relation_id": "rel_castleman_has_mcd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "MCD：有多个（≥2个）淋巴结区域受累（受累淋巴结短径≥1 cm) 的 CD 患者被归为 MCD"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_castleman_disease",
+        "to": "sub_disease_hhv8_positive_mcd",
+        "relation_id": "rel_castleman_has_hhv8_positive_mcd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HHV-8阳性MCD：前者在国内患者中所占比例低（国内回顾性研究中仅占所有 MCD 的1.6%[9）,对利妥昔单抗治疗反应好[10]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_castleman_disease",
+        "to": "sub_disease_hhv8_negative_mcd",
+        "relation_id": "rel_castleman_has_hhv8_negative_mcd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HHV-8阴性MCD：后者若满足特发性多中心型Castleman病（idiopathic MCD,iMCD）的诊断标准则诊断为iMCD"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_castleman_disease",
+        "to": "sub_disease_imcd",
+        "relation_id": "rel_castleman_has_imcd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "对于 HHV-8 阴性 MCD, 若符合以下两条主要标准+至少两条次要标准（其中至少一条是实验室标准），且排除可能引起淋巴结 Castleman 样改变的基础疾病后，可诊断为 iMCD"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_castleman_disease",
+        "to": "sub_disease_amcd",
+        "relation_id": "rel_castleman_has_amcd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "对于不存在症状和高炎症状态,从而不满足 iMCD 诊断标准的患者，则诊断为无症状性 MCD (asymptomatic MCD, aMCD)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_castleman_disease",
+        "to": "sub_disease_imcd_tafro",
+        "relation_id": "rel_castleman_has_imcd_tafro",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "iMCD-TAFRO ：符合 iMCD 诊断的前提下，满足以下所有主要标准和≥1个次要标准"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_castleman_disease",
+        "to": "sub_disease_imcd_ipl",
+        "relation_id": "rel_castleman_has_imcd_ipl",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "iMCD-IPL：符合iMCD诊断标准且不符合 iMCD-TAFRO，同时满足下述3条标准"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_castleman_disease",
+        "to": "sub_disease_imcd_nos",
+        "relation_id": "rel_castleman_has_imcd_nos",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "iMCD-NOS：符合iMCD诊断标准，且不符合 iMCD-TAFRO或iMCD-IPL诊断标准"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_castleman_disease",
+        "to": "sub_disease_hv_cd",
+        "relation_id": "rel_castleman_has_hv_cd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HV-CD：淋巴结体积通常较大（数厘米至十余厘米），有完整包膜和丰富血供"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_castleman_disease",
+        "to": "sub_disease_pc_cd",
+        "relation_id": "rel_castleman_has_pc_cd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "PC-CD ：肿大淋巴结的体积通常较小。镜下可见HV-CD样淋巴滤泡，但部分病例或部分病灶的滤泡生发中心萎缩不明显"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_castleman_disease",
+        "to": "sub_disease_mixed_cd",
+        "relation_id": "rel_castleman_has_mixed_cd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "混合型CD：形态特点兼具HV-CD及 PC-CD 的特征，可理解为两者的过渡形态或组合形式"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_ucd",
+        "to": "symptom_lymphadenopathy",
+        "relation_id": "rel_ucd_manifests_as_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "UCD：累及单个淋巴结区域，多数患者除淋巴结肿大外无全身症状"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确‘UCD：累及单个淋巴结区域’，且‘淋巴结肿大’是其定义性临床表现，符合金标准级定义性 manifestation",
+        "evidence": "UCD：累及单个淋巴结区域，多数患者除淋巴结肿大外无全身症状。"
+      },
+      {
+        "from": "sub_disease_mcd",
+        "to": "symptom_fever",
+        "relation_id": "rel_mcd_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "全身症状：盗汗、发热（体温>38℃）、体重下降（6个月下降≥10%）或乏力"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文列为iMCD次要临床标准之一，属‘全身症状’，但非特异、非必备，权重应低于金标准但高于弱关联",
+        "evidence": "临床标准包括：①全身症状：盗汗、发热（体温>38℃）、体重下降（6个月下降≥10%）或乏力"
+      },
+      {
+        "from": "sub_disease_mcd",
+        "to": "symptom_weight_loss",
+        "relation_id": "rel_mcd_manifests_as_weight_loss",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "全身症状：盗汗、发热（体温>38℃）、体重下降（6个月下降≥10%）或乏力"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文列为iMCD次要临床标准中‘全身症状’项，与发热并列，同属非特异但明确纳入诊断框架的常见表现",
+        "evidence": "临床标准包括：①全身症状：盗汗、发热（体温>38℃）、体重下降（6个月下降≥10%）或乏力"
+      },
+      {
+        "from": "sub_disease_mcd",
+        "to": "symptom_night_sweats",
+        "relation_id": "rel_mcd_manifests_as_night_sweats",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "全身症状：盗汗、发热（体温>38℃）、体重下降（6个月下降≥10%）或乏力"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文列为iMCD次要临床标准中‘全身症状’项，与发热、体重下降并列，属明确纳入诊断框架的典型症状",
+        "evidence": "临床标准包括：①全身症状：盗汗、发热（体温>38℃）、体重下降（6个月下降≥10%）或乏力"
+      },
+      {
+        "from": "sub_disease_mcd",
+        "to": "symptom_fatigue",
+        "relation_id": "rel_mcd_manifests_as_fatigue",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "全身症状：盗汗、发热（体温>38℃）、体重下降（6个月下降≥10%）或乏力"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文列为iMCD次要临床标准中‘全身症状’末位项，与盗汗、发热、体重下降并列，属明确纳入诊断框架的症状",
+        "evidence": "临床标准包括：①全身症状：盗汗、发热（体温>38℃）、体重下降（6个月下降≥10%）或乏力"
+      },
+      {
+        "from": "sub_disease_imcd_tafro",
+        "to": "symptom_edema",
+        "relation_id": "rel_imcd_tafro_manifests_as_edema",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "主要标准：①血小板减少（治疗前PLT最低水平<100×10⁹/L）；②水肿或浆膜腔积液；③发热或高炎症状态：原因不明的发热（体温>37.5℃ ）或 CRP>20mg/L"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确定义iMCD-TAFRO主要标准第②条为‘水肿或浆膜腔积液’，属该亚型诊断所必需的核心表现，构成定义性 manifestation",
+        "evidence": "iMCD-TAFRO：符合iMCD诊断的前提下，满足以下所有主要标准和≥1个次要标准。主要标准：①血小板减少……；②水肿或浆膜腔积液；③发热或高炎症状态"
+      },
+      {
+        "from": "sub_disease_imcd_tafro",
+        "to": "symptom_fever",
+        "relation_id": "rel_imcd_tafro_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "主要标准：①血小板减少（治疗前PLT最低水平<100×10⁹/L）；②水肿或浆膜腔积液；③发热或高炎症状态：原因不明的发热（体温>37.5℃ ）或 CRP>20mg/L"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确定义iMCD-TAFRO主要标准第③条为‘发热或高炎症状态’，属该亚型诊断所必需的核心表现，构成定义性 manifestation",
+        "evidence": "主要标准：①血小板减少……；②水肿或浆膜腔积液；③发热或高炎症状态：原因不明的发热（体温>37.5℃）或CRP>20mg/L"
+      },
+      {
+        "from": "sub_disease_imcd_ipl",
+        "to": "symptom_lymphadenopathy",
+        "relation_id": "rel_imcd_ipl_manifests_as_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "②淋巴结病理类型为浆细胞型或混合型"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确‘iMCD-IPL：符合iMCD诊断标准’，而iMCD定义要求‘存在≥2个淋巴结区域受累’，故淋巴结肿大是其结构性前提，属定义性 manifestation",
+        "evidence": "iMCD：病理符合CD，存在≥2个淋巴结区域受累（淋巴结短径需≥1cm）。"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_ucd",
+        "to": "test_hhv8_dna",
+        "relation_id": "rel_ucd_requires_hhv8_dna",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "排除条件",
+        "diagnostic_role": "exclusion",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阴性",
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "negative",
+        "typicality": "common",
+        "section_priority": "定义",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "对于 MCD 患者，推荐采用外周血HHV-8DNA检测和（或）淋巴结病理免疫组化染色判断HHV-8状态"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_mcd",
+        "to": "test_hhv8_dna",
+        "relation_id": "rel_mcd_requires_hhv8_dna",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性或阴性",
+        "weight": 100,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "定义",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "对于 MCD 患者，推荐采用外周血HHV-8DNA检测和（或）淋巴结病理免疫组化染色判断HHV-8状态"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确‘对于MCD患者，推荐采用外周血HHV-8DNA检测……判断HHV-8状态’，‘推荐’+‘判断’表明该检测是分型确诊的必要步骤，属临床实践金标准级检测要求",
+        "evidence": "对于MCD患者，推荐采用外周血HHV-8DNA检测和（或）淋巴结病理免疫组化染色判断HHV-8状态，区分为HHV-8阳性和HHV-8阴性MCD。"
+      },
+      {
+        "from": "sub_disease_imcd",
+        "to": "test_crp",
+        "relation_id": "rel_imcd_requires_crp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": 10,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mg/L",
+        "result_text": null,
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "定义",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "CRP>10 mg/L 或红细胞沉降率>20 mm/1 h（女性)或15 mm/1 h(男性)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_imcd",
+        "to": "test_esr",
+        "relation_id": "rel_imcd_requires_esr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": 20,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mm/1 h",
+        "result_text": null,
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "定义",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "CRP>10 mg/L 或红细胞沉降率>20 mm/1 h（女性)或15 mm/1 h(男性)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_imcd_tafro",
+        "to": "test_plt",
+        "relation_id": "rel_imcd_tafro_requires_plt",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 100,
+        "operator": "<",
+        "unit": "×10⁹/L",
+        "result_text": null,
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "定义",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "主要标准：①血小板减少（治疗前PLT最低水平<100×10⁹/L）"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确定义iMCD-TAFRO主要标准第①条为‘血小板减少（治疗前PLT最低水平<100×10⁹/L）’，PLT检测是该亚型诊断的刚性前提，属金标准级检测",
+        "evidence": "主要标准：①血小板减少（治疗前PLT最低水平<100×10%L）；②水肿或浆膜腔积液；③发热或高炎症状态"
+      },
+      {
+        "from": "sub_disease_imcd_ipl",
+        "to": "test_igg",
+        "relation_id": "rel_imcd_ipl_requires_igg",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 17.4,
+        "value_max": null,
+        "operator": ">",
+        "unit": "g/L",
+        "result_text": null,
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "定义",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "①外周血 IgG>17.4g/L 或超过正常上限"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确定义iMCD-IPL诊断标准第①条为‘外周血IgG>17.4g/L或超过正常上限’，IgG检测是该亚型诊断的刚性前提，属金标准级检测",
+        "evidence": "iMCD-IPL：符合iMCD诊断标准且不符合iMCD-TAFRO，同时满足下述3条标准：①外周血IgG>17.4g/L或超过正常上限；②淋巴结病理类型为浆细胞型或混合型；③血小板增多（PLT>350×10/L）。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_ucd",
+        "to": "treatment_ucd_surgical_excision",
+        "relation_id": "rel_ucd_follows_surgical_excision",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "所有UCD患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "B级推荐",
+        "decision_basis": [
+          "临床分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四,CD的治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_hhv8_positive_mcd",
+        "to": "treatment_mcd_rituximab_based",
+        "relation_id": "rel_hhv8_positive_mcd_follows_rituximab",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "HHV-8阳性MCD患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "B级推荐",
+        "decision_basis": [
+          "HHV-8状态"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四,CD的治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_imcd",
+        "to": "treatment_imcd_siltuximab",
+        "relation_id": "rel_imcd_follows_siltuximab",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "非重型iMCD患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "A级推荐",
+        "decision_basis": [
+          "临床分型",
+          "严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四,CD的治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_imcd",
+        "to": "treatment_imcd_tcp",
+        "relation_id": "rel_imcd_follows_tcp",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "非重型iMCD患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "B级推荐",
+        "decision_basis": [
+          "临床分型",
+          "严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四,CD的治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_imcd",
+        "to": "treatment_imcd_bcd",
+        "relation_id": "rel_imcd_follows_bcd",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "重型iMCD患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "B级推荐",
+        "decision_basis": [
+          "临床分型",
+          "严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四,CD的治疗",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_ucd_surgical_excision",
+        "to": "plan_siltuximab_plus_prednisone",
+        "relation_id": "rel_treatment_ucd_surgical_excision_implements_by_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "所有UCD患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "完整手术切除病灶是UCD最核心的治疗方式6),对于所有UCD患者（无论是否合并高炎症状态、副肿瘤天疱疮、闭塞性细支气管炎或AA淀粉样变），都应该首先评估病灶的可切除性"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_imcd_siltuximab",
+        "to": "plan_siltuximab_plus_prednisone",
+        "relation_id": "rel_treatment_imcd_siltuximab_implements_by_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "非重型iMCD一线治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "司妥昔单抗11mg/kg每3周1次静脉给药，治疗有效患者长期用药，直至疾病进展或不耐受，达到缓解后可酌情将给药间隔延长至6周；泼尼松1mg·kg⁻¹·d⁻¹起始，4~8周后逐渐减量并停用"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_imcd_tcp",
+        "to": "plan_tcp",
+        "relation_id": "rel_treatment_imcd_tcp_implements_by_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "非重型iMCD一线治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "沙利度胺100mg每晚1次口服，环磷酰胺300mg/m²每周1次口服，泼尼松1mg/kg每周2次口服，治疗有效患者用药满1年后改为沙利度胺单药维持治疗1年"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_imcd_bcd",
+        "to": "plan_bcd",
+        "relation_id": "rel_treatment_imcd_bcd_implements_by_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "重型iMCD一线治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "每4周为1个疗程，硼替佐米1.3mg/m²每周1次，皮下注射；环磷酰胺300mg/m²，每周1次，口服；地塞米松40mg，每周1次，口服。治疗9个疗程后调整为BD方案（硼替佐米1.3mg/m²，每2周1次，皮下注射；地塞米松20mg，每2周1次，口服）维持治疗一年"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_hhv8_positive_mcd",
+        "to": "etiology_hhv8_infection",
+        "relation_id": "rel_hhv8_positive_mcd_causes_hhv8_infection",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "典型",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "对于后者,根据是否感染人类疱疹病毒8型（HHV-8)可进一步分为HHV-8阳性MCD及HHV-8阴性MCD"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_ucd",
+        "to": "pathogenesis_lymphoid_hyperplasia",
+        "relation_id": "rel_ucd_explained_by_lymphoid_hyperplasia",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "Castleman病(Castleman disease, CD)是一种淋巴组织增殖性疾病"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

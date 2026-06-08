@@ -1,0 +1,621 @@
+{
+  "meta": {
+    "doc_id": "XDR-GNB_Chinese_Consensus_2017",
+    "source_title": "广泛耐药革兰阴性菌感染的实验诊断、抗菌治疗及医院感染控制：中国专家共识",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_xdr_gnb_infection",
+        "name": "广泛耐药革兰阴性菌感染",
+        "normalized_name": "广泛耐药革兰阴性菌感染",
+        "aliases": [
+          "XDR-GNB感染"
+        ],
+        "source_document_ids": [
+          "广泛耐药革兰阴性菌感染的实验诊断、抗菌治疗及医院感染控制：中国专家共识"
+        ],
+        "evidence_ids": [
+          "广泛耐药革兰阴性杆菌 (XDR—GNB)，是指除 1～2类抗菌药物 (主要指多黏菌素和替加环素)外，几乎对所有类别抗菌药物均不敏感的革兰阴性杆菌。XDR-GNB常见于肠杆菌科细菌、鲍曼不动杆菌、铜绿假单胞菌和嗜麦芽窄食单胞菌等。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_xdr_enterobacteriaceae",
+        "name": "广泛耐药肠杆菌科细菌感染",
+        "parent_disease_id": "disease_xdr_gnb_infection",
+        "disease_subtype": "肠杆菌科细菌",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "有严重基础疾病、免疫缺陷和／或长期反复使用广谱抗菌药物的患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "最常见的XDR肠杆菌科细菌为肺炎克雷伯菌，其次为大肠埃希菌等。常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。出现XDR肠杆菌科细菌感染的危险因素包括 ：严重原发病、老年人、近期广谱抗菌药物 (特别是氟喹诺酮类和碳青霉烯类 )的使用、入住 ICU、血液肿瘤等疾患、实体脏器或造血干细胞移植、外科大手术及留置导管及引流管等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_xdr_acinetobacter_baumannii",
+        "name": "广泛耐药鲍曼不动杆菌感染",
+        "parent_disease_id": "disease_xdr_gnb_infection",
+        "disease_subtype": "鲍曼不动杆菌",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "ICU、烧伤科、神经外科和老年病房等患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "XDR不动杆菌属感染主要发生在 ICU使用机械通气的患者，不动杆菌属为医院获得性肺炎 (HAP)最常见分离菌，对碳青霉烯类耐药率高。痰培养检出不动杆菌属细菌需鉴别系感染或定植。鲍曼不动杆菌血流感染常继发于肺部感染、腹腔感染及留置导管感染等。XDR鲍曼不动杆菌感染的危险因素包括全身麻醉、入住ICU、以往住院史及前期多种抗菌药物的使用史。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_xdr_pseudomonas_aeruginosa",
+        "name": "广泛耐药铜绿假单胞菌感染",
+        "parent_disease_id": "disease_xdr_gnb_infection",
+        "disease_subtype": "铜绿假单胞菌",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "慢性阻塞性肺疾病 (COPD)、支气管扩张、住院时间长、使用机械通气、病情危重 (APACHEⅡ评分>16分 )、不合理的抗菌药物单药使用等患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "铜绿假单胞菌常引起肺部感染、血流感染、皮肤软组织感染 、腹腔感染和尿路感染等。XDR铜绿假单胞菌感染的易感因素包括慢性阻塞性肺疾病 (COPD)、支气管扩张、住院时间长、使用机械通气、病情危重 (APACHEⅡ评分>16分 )、不合理的抗菌药物单药使用等。氟喹诺酮类药物的使用是产生 XDR铜绿假单胞菌感染的独立危险因素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_xdr_stenotrophomonas_maltophilia",
+        "name": "广泛耐药嗜麦芽窄食单胞菌感染",
+        "parent_disease_id": "disease_xdr_gnb_infection",
+        "disease_subtype": "嗜麦芽窄食单胞菌",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "严重基础疾病、长期入住 ICU、辅助机械通气时间>7 d、气管切开以及使用广谱抗菌药物 (如碳青霉烯类、广谱头孢菌素和氟喹诺酮类 )等患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "嗜麦芽窄食单胞菌常引起肺部感染、腹腔感染、尿路感染等，感染危险因素包括严重基础疾病、长期入住 ICU、辅助机械通气时间>7 d、气管切开以及使用广谱抗菌药物 (如碳青霉烯类、广谱头孢菌素和氟喹诺酮类 )等，在抗菌药物使用过程中可筛选出嗜麦芽窄食单胞菌 XDR或 PDR菌株。氟喹诺酮类、哌拉西林一他唑巴坦、碳青霉烯类等抗菌药物的使用可增加细菌对氟喹诺酮类和甲氧苄啶一磺胺甲嘿唑等药物的耐药性。嗜麦芽窄食单胞菌对碳青霉烯类天然耐药，使用该类药物治疗会促进细菌生长、加重感染。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_pulmonary_infection",
+        "name": "肺部感染",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "XDR肠杆菌科细菌感染...常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_urinary_tract_infection",
+        "name": "尿路感染",
+        "body_site": "泌尿系统",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "XDR肠杆菌科细菌感染...常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_abdominal_infection",
+        "name": "腹腔感染",
+        "body_site": "腹腔",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "XDR肠杆菌科细菌感染...常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_bloodstream_infection",
+        "name": "血流感染",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "XDR肠杆菌科细菌感染...常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_skin_soft_tissue_infection",
+        "name": "皮肤软组织感染",
+        "body_site": "皮肤软组织",
+        "symptom_category": "皮肤软组织症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "XDR肠杆菌科细菌感染...常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_ast",
+        "name": "药敏试验",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "临床微生物实验室采用多种实验方法包括纸片扩散法、琼脂稀释法、微量肉汤稀释法或各种商品化检测系统，对临床分离菌进行药物敏感性检测。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_carbapenemase_detection",
+        "name": "碳青霉烯酶检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "碳青霉烯酶的检测方法分为表型检测及分子生物学检测，表型检测主要包括改良Hodge试验 、抑制剂法、双纸片协同法等...基于 PCR及其测序是 目前公认的检测碳青霉烯酶基因的 “金标准”"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_xdr_gnb_principles",
+        "content": "①临床标本中分离到XDR．GNB，特别是痰标本中培养出XDR鲍曼不动杆菌或嗜麦芽窄食单胞菌时，首先应结合临床表现区分是感染还是定植，或为混合感染的病原菌之一。②尽量根据药敏试验结果选择敏感抗菌药物 ；或选择呈中介或接近中介敏感或有较小抑菌圈的抗菌药物，大剂量联合治疗。③联合用药，XDR．GNB感染常需联合使用抗菌药物。④根据药动学／药效学 (PK／PD)原理优化给药方案，例如增加给药剂量、延长时间依赖性p内酰胺类抗生素的滴注时间。⑤肝、肾功能异常或老年患者，抗菌药物的剂量应适当减少 ；一些高血流动力学导致排泄快、高血容量患者需适当增加剂量。⑥消除感染危险因素，积极处理原发疾病。⑦抗菌药物治疗的疗程长短取决于感染的严重程度、患者的基础疾病、抗菌药物对XDR菌株的杀菌作用等多方面因素。",
+        "recommendation_strength": "strong",
+        "source_section": "6.1 XDR-GNB感染的抗菌治疗原则",
+        "evidence_ids": [
+          "①临床标本中分离到XDR．GNB，特别是痰标本中培养出XDR鲍曼不动杆菌或嗜麦芽窄食单胞菌时，首先应结合临床表现区分是感染还是定植，或为混合感染的病原菌之一。②尽量根据药敏试验结果选择敏感抗菌药物 ；或选择呈中介或接近中介敏感或有较小抑菌圈的抗菌药物，大剂量联合治疗。③联合用药，XDR．GNB感染常需联合使用抗菌药物。④根据药动学／药效学 (PK／PD)原理优化给药方案，例如增加给药剂量、延长时间依赖性p内酰胺类抗生素的滴注时间。⑤肝、肾功能异常或老年患者，抗菌药物的剂量应适当减少 ；一些高血流动力学导致排泄快、高血容量患者需适当增加剂量。⑥消除感染危险因素，积极处理原发疾病。⑦抗菌药物治疗的疗程长短取决于感染的严重程度、患者的基础疾病、抗菌药物对XDR菌株的杀菌作用等多方面因素。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_tigecycline_plus_colistin",
+        "content": "替加环素+多黏菌素",
+        "plan_level": 1,
+        "applicable_condition": "XDR肠杆菌科细菌感染",
+        "contraindication_note": "替加环素对铜绿假单胞菌无抗菌活性；多黏菌素类肾毒性及神经系统不良反应发生率较高，老年、肾功能减退患者需特别注意肾功能监测。",
+        "evidence_ids": [
+          "以替加环素为基础的联合：替加环素+氨基糖苷类；替加环素+碳青霉烯类；替加环素+磷霉素；替加环素+多黏菌素；以多黏菌素为基础的联合：多黏菌素+碳青霉烯类；多黏菌素+替加环素；多黏菌素+磷霉素；多黏菌素+氨基糖苷类"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_colistin_plus_carbapenem",
+        "content": "多黏菌素+碳青霉烯类",
+        "plan_level": 1,
+        "applicable_condition": "XDR肠杆菌科细菌、CRE及碳青霉烯类耐药鲍曼不动杆菌感染",
+        "contraindication_note": "多黏菌素类肾毒性及神经系统不良反应发生率较高，老年、肾功能减退患者需特别注意肾功能监测。",
+        "evidence_ids": [
+          "多黏菌素类与碳青霉烯类、替加环素、磷霉素、舒巴坦等联合，用于各类XDR—GNB包括 XDR铜绿假单胞菌、CRE及碳青霉烯类耐药鲍曼不动杆菌感染的治疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_sulbactam_plus_carbapenem",
+        "content": "舒巴坦+碳青霉烯类",
+        "plan_level": 2,
+        "applicable_condition": "XDR鲍曼不动杆菌感染",
+        "contraindication_note": "肾功能减退患者，需减少给药剂量。",
+        "evidence_ids": [
+          "(1)舒巴坦 ：目前我国也有舒巴坦单药制剂，舒巴坦可与其他抗菌药物如碳青霉烯类合用 治疗XDR鲍曼不动杆菌引起的感染。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_trimethoprim_sulfamethoxazole_plus_ceftazidime",
+        "content": "甲氧苄啶．磺胺甲嗯唑+头孢他啶",
+        "plan_level": 1,
+        "applicable_condition": "XDR嗜麦芽窄食单胞菌感染",
+        "contraindication_note": "用药期间，注意补充足够的水分 (多饮水或静脉补液 )，可与碳酸氢钠同服，碱化尿液 ；复查尿常规 (注意血尿情况 )。",
+        "evidence_ids": [
+          "以甲氧 啶一磺胺甲嗯唑为基础的联合 ：甲氧节啶一磺胺甲嗯I唑+ (许卡两林．克托维酸或 孢哌酮增f 坩)；甲氧节啶一磺胺甲嗯I唑+氟喹诺酮类；l{1钣苄啶一磺胺甲嗯唑十米诺环索；甲氧 啶．磺胺甲嗯唑+ 孢他啶；甲氧 啶 磺胺甲嗯唑+多黏菌素"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_long_term_broad_spectrum_antibiotics",
+        "content": "长疗程使用广谱抗菌药物",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "研究提示长疗程使用广谱抗菌药物是引发XDR—GNB感染最重要的危险因素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_icu_admission",
+        "content": "入住ICU",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "出现XDR肠杆菌科细菌感染的危险因素包括 ：严重原发病、老年人、近期广谱抗菌药物 (特别是氟喹诺酮类和碳青霉烯类 )的使用、入住 ICU、血液肿瘤等疾患..."
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_mechanical_ventilation",
+        "content": "使用机械通气",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "XDR不动杆菌属感染主要发生在 ICU使用机械通气的患者...XDR铜绿假单胞菌感染的易感因素包括...使用机械通气..."
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_carbapenemase_production",
+        "content": "产碳青霉烯酶是碳青霉烯类耐药肠杆菌科细菌 (CRE)的主要耐药机制",
+        "evidence_ids": [
+          "产碳青霉烯酶是碳青霉烯类耐药肠杆菌科细菌 (CRE)的主要耐药机制，通过碳青霉烯酶的检测可确定细菌是否为 CRE。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "pathogenesis_efflux_pump_overexpression",
+        "content": "外排泵高表达、靶位改变和外膜蛋白改变，生物膜的形成对抗菌药物的体内敏感性也有重要影响",
+        "evidence_ids": [
+          "XDR铜绿假单胞菌通常由多种耐药机制共同作用所致 … ，包括产生多种 B内酰胺酶 (尤其是碳青霉烯酶 )、外排泵高表达、靶位改变和外膜蛋白改变，生物膜的形成对抗菌药物的体内敏感性也有重要影响。"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_xdr_gnb_infection",
+        "to": "sub_disease_xdr_enterobacteriaceae",
+        "relation_id": "rel_xdr_gnb_has_enterobacteriaceae",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "XDR-GNB常见于肠杆菌科细菌、鲍曼不动杆菌、铜绿假单胞菌和嗜麦芽窄食单胞菌等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_xdr_gnb_infection",
+        "to": "sub_disease_xdr_acinetobacter_baumannii",
+        "relation_id": "rel_xdr_gnb_has_acinetobacter",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "XDR-GNB常见于肠杆菌科细菌、鲍曼不动杆菌、铜绿假单胞菌和嗜麦芽窄食单胞菌等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_xdr_gnb_infection",
+        "to": "sub_disease_xdr_pseudomonas_aeruginosa",
+        "relation_id": "rel_xdr_gnb_has_pseudomonas",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "XDR-GNB常见于肠杆菌科细菌、鲍曼不动杆菌、铜绿假单胞菌和嗜麦芽窄食单胞菌等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_xdr_gnb_infection",
+        "to": "sub_disease_xdr_stenotrophomonas_maltophilia",
+        "relation_id": "rel_xdr_gnb_has_stenotrophomonas",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "XDR-GNB常见于肠杆菌科细菌、鲍曼不动杆菌、铜绿假单胞菌和嗜麦芽窄食单胞菌等。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_xdr_enterobacteriaceae",
+        "to": "symptom_pulmonary_infection",
+        "relation_id": "rel_enterobacteriaceae_manifests_as_pulmonary",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确列举‘常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等’，‘肺部’为首位且无修饰限定，属直接、高频临床表现",
+        "evidence": "常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+      },
+      {
+        "from": "sub_disease_xdr_enterobacteriaceae",
+        "to": "symptom_urinary_tract_infection",
+        "relation_id": "rel_enterobacteriaceae_manifests_as_urinary",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文在‘常见感染部位’中并列列出‘尿路’，无修饰限定，与肺部同级，属直接、高频临床表现",
+        "evidence": "常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+      },
+      {
+        "from": "sub_disease_xdr_enterobacteriaceae",
+        "to": "symptom_abdominal_infection",
+        "relation_id": "rel_enterobacteriaceae_manifests_as_abdominal",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文在‘常见感染部位’中并列列出‘腹腔’，无修饰限定，属直接、高频临床表现",
+        "evidence": "常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+      },
+      {
+        "from": "sub_disease_xdr_enterobacteriaceae",
+        "to": "symptom_bloodstream_infection",
+        "relation_id": "rel_enterobacteriaceae_manifests_as_bloodstream",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文在‘常见感染部位’中并列列出‘血流’，无修饰限定，属直接、高频临床表现",
+        "evidence": "常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+      },
+      {
+        "from": "sub_disease_xdr_enterobacteriaceae",
+        "to": "symptom_skin_soft_tissue_infection",
+        "relation_id": "rel_enterobacteriaceae_manifests_as_skin",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文在‘常见感染部位’中并列列出‘皮肤软组织’，无修饰限定，属直接、高频临床表现",
+        "evidence": "常见感染部位为肺部、尿路、腹腔、血流及皮肤软组织等。"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_xdr_enterobacteriaceae",
+        "to": "test_ast",
+        "relation_id": "rel_enterobacteriaceae_requires_ast",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "药敏试验显示对除1～2类抗菌药物（多黏菌素和替加环素）外几乎所有类别抗菌药物不敏感",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "XDR-GNB，是指除 1～2类抗菌药物 (主要指多黏菌素和替加环素)外，几乎对所有类别抗菌药物均不敏感的革兰阴性杆菌。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出‘细菌药敏试验的抗菌药物品种及结果判定标准遵循……CLSI、EUCAST或FDA的指南’，且AST（药敏试验）是XDR判定的前提和唯一依据，符合‘确诊金标准’定义",
+        "evidence": "其中细菌药敏试验的抗菌药物品种及结果判定标准遵循美国临床和实验室标准化协会(CLSI)、欧洲抗菌药物敏感性试验委员会(EUCAST)或美国食品与药物监督管理局(FDA)的指南。"
+      },
+      {
+        "from": "sub_disease_xdr_enterobacteriaceae",
+        "to": "test_carbapenemase_detection",
+        "relation_id": "rel_enterobacteriaceae_requires_carbapenemase",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "碳青霉烯酶阳性",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "耐药机制",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "产碳青霉烯酶是碳青霉烯类耐药肠杆菌科细菌 (CRE)的主要耐药机制，通过碳青霉烯酶的检测可确定细菌是否为 CRE。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文称碳青霉烯酶检测‘可确定细菌是否为CRE’，而CRE是XDR肠杆菌科细菌的主要亚型，但该检测仅针对CRE亚群，非所有XDR肠杆菌科细菌均需此检，属强相关但非普适金标准",
+        "evidence": "碳青霉烯酶的检测可确定细菌是否为CRE。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_xdr_enterobacteriaceae",
+        "to": "treatment_xdr_gnb_principles",
+        "relation_id": "rel_enterobacteriaceae_follows_principles",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊XDR肠杆菌科细菌感染后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病原菌类型",
+          "药敏结果"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "6.1 XDR-GNB感染的抗菌治疗原则",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_xdr_gnb_principles",
+        "to": "plan_tigecycline_plus_colistin",
+        "relation_id": "rel_principles_implements_by_tigecycline_colistin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "XDR肠杆菌科细菌感染且药敏提示对替加环素和多黏菌素敏感",
+        "contraindication_note": "替加环素对铜绿假单胞菌无抗菌活性；多黏菌素类肾毒性及神经系统不良反应发生率较高，老年、肾功能减退患者需特别注意肾功能监测。",
+        "evidence_ids": [
+          "以替加环素为基础的联合：替加环素+氨基糖苷类；替加环素+碳青霉烯类；替加环素+磷霉素；替加环素+多黏菌素；以多黏菌素为基础的联合：多黏菌素+碳青霉烯类；多黏菌素+替加环素；多黏菌素+磷霉素；多黏菌素+氨基糖苷类"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_xdr_enterobacteriaceae",
+        "to": "etiology_long_term_broad_spectrum_antibiotics",
+        "relation_id": "rel_enterobacteriaceae_causes_by_antibiotics",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "研究提示长疗程使用广谱抗菌药物是引发XDR—GNB感染最重要的危险因素。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_xdr_enterobacteriaceae",
+        "to": "pathogenesis_carbapenemase_production",
+        "relation_id": "rel_enterobacteriaceae_explained_by_carbapenemase",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "产碳青霉烯酶是碳青霉烯类耐药肠杆菌科细菌 (CRE)的主要耐药机制，通过碳青霉烯酶的检测可确定细菌是否为 CRE。"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

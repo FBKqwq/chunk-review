@@ -1,0 +1,1112 @@
+{
+  "meta": {
+    "doc_id": "中国中性粒细胞缺乏伴发热患者抗菌药物临床应用指南",
+    "source_title": "中国中性粒细胞缺乏伴发热患者抗菌药物临床应用指南",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_neutropenic_fever",
+        "name": "中性粒细胞缺乏伴发热",
+        "normalized_name": "中性粒细胞缺乏伴发热",
+        "aliases": [
+          "FN",
+          "febrile neutropenia",
+          "发热伴中性粒细胞缺乏"
+        ],
+        "source_document_ids": [
+          "中国中性粒细胞缺乏伴发热患者抗菌药物临床应用指南"
+        ],
+        "evidence_ids": [
+          "中性粒细胞缺乏伴发热患者是一组特殊的疾病人群。由于免疫功能低下，炎症的症状和体征常不明显，病原菌及感染灶也不明确，发热可能是严重潜在感染的唯一征象，感染相关死亡率高。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_neutropenic_fever_high_risk",
+        "name": "高危中性粒细胞缺乏伴发热",
+        "parent_disease_id": "disease_neutropenic_fever",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "免疫功能低下患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（１）严重中性粒细胞缺乏（ＡＮＣ＜０．１×１０９／Ｌ）或预计中性粒细胞缺乏持续＞７ｄ。\n（２）有以下任一种临床合并症（包括但并不限于）：①血流动力学不稳定；②口腔或胃肠道黏膜炎，吞咽困难；③胃肠道症状，包括腹痛、恶心、呕吐或腹泻；④新发的神经系统改变或精神症状；⑤血管内导管感染，尤其是导管隧道感染；⑥新发的肺部浸润或低氧血症，或有潜在的慢性肺部疾病。\n（３）肝功能不全（定义为转氨酶水平＞５倍正常上限）或肾功能不全（定义为肌酐清除率＜３０ｍｌ／ｍｉｎ）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_neutropenic_fever_low_risk",
+        "name": "低危中性粒细胞缺乏伴发热",
+        "parent_disease_id": "disease_neutropenic_fever",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻中症",
+        "population": "免疫功能低下患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "低危患者是指中性粒细胞缺乏预计在７ｄ内消失，无活动性合并症，同时肝肾功能正常或损害较轻并且稳定。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_neutropenic_fever_severe",
+        "name": "严重中性粒细胞缺乏伴发热",
+        "parent_disease_id": "disease_neutropenic_fever",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "免疫功能低下患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "严重中性粒细胞缺乏指ＡＮＣ＜０．１×１０９／Ｌ。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "发热可能是严重潜在感染的唯一征象"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hypotension",
+        "name": "低血压",
+        "body_site": "循环系统",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "血流动力学不稳定"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_oral_mucositis",
+        "name": "口腔黏膜炎",
+        "body_site": "口腔",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "口腔或胃肠道黏膜炎，吞咽困难"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "胃肠道症状，包括腹痛、恶心、呕吐或腹泻"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_nausea",
+        "name": "恶心",
+        "body_site": "上腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "胃肠道症状，包括腹痛、恶心、呕吐或腹泻"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_vomiting",
+        "name": "呕吐",
+        "body_site": "上腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "胃肠道症状，包括腹痛、恶心、呕吐或腹泻"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_diarrhea",
+        "name": "腹泻",
+        "body_site": "下腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "胃肠道症状，包括腹痛、恶心、呕吐或腹泻"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_neurological_change",
+        "name": "神经系统改变",
+        "body_site": "中枢神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "新发的神经系统改变或精神症状"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_mental_symptom",
+        "name": "精神症状",
+        "body_site": "中枢神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "新发的神经系统改变或精神症状"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_pulmonary_infiltration",
+        "name": "肺部浸润",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "新发的肺部浸润或低氧血症，或有潜在的慢性肺部疾病"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hypoxemia",
+        "name": "低氧血症",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "新发的肺部浸润或低氧血症，或有潜在的慢性肺部疾病"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_catheter_infection",
+        "name": "血管内导管感染",
+        "body_site": "血管",
+        "symptom_category": "感染相关症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "血管内导管感染，尤其是导管隧道感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_cellulitis_around_catheter",
+        "name": "导管穿刺部位周围蜂窝织炎",
+        "body_site": "皮肤软组织",
+        "symptom_category": "皮肤软组织症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "导管穿刺部位周围蜂窝织炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_chills",
+        "name": "寒颤",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "经导管输液时出现发冷或寒颤"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_anc",
+        "name": "中性粒细胞绝对计数",
+        "normal_range_min": 1.8,
+        "normal_range_max": 7.5,
+        "is_digital": 1,
+        "evidence_ids": [
+          "中性粒细胞缺乏指外周血中性粒细胞绝对计数（ＡＮＣ）＜０．５×１０９／Ｌ，或预计４８ｄ后ＡＮＣ＜０．５×１０９／Ｌ；严重中性粒细胞缺乏指ＡＮＣ＜０．１×１０９／Ｌ。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_blood_culture",
+        "name": "血培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "微生物学检查应当重视血培养结果。做血培养时推荐至少同时行两套培养检查，如果存在中心静脉置管（ＣＶＣ），一套血标本从ＣＶＣ的管腔采集，另一套从外周静脉采集；如果没有ＣＶＣ，应采集不同部位静脉的两套血标本进行培养。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_urine_culture",
+        "name": "中段尿定量培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "有尿路感染的症状或体征、留置导尿管或尿液分析结果异常时行中段尿定量培养。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_sputum_culture",
+        "name": "痰细菌培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "如果患者有咯痰，应送检痰标本行常规涂片检查和细菌培养。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ct_chest",
+        "name": "胸部CT检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "对于有呼吸道症状和体征的患者应行胸部ＣＴ检查，以排除肺炎。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_liver_function",
+        "name": "肝脏转氨酶测定",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "实验室检查应包括完整血细胞计数（ＣＢＣ）、血肌酐和尿素氮水平、电解质、肝脏转氨酶和总胆红素测定等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_kidney_function",
+        "name": "肌酐清除率",
+        "normal_range_min": 80,
+        "normal_range_max": 120,
+        "is_digital": 1,
+        "evidence_ids": [
+          "肾功能不全（定义为肌酐清除率＜３０ｍｌ／ｍｉｎ）"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_empirical_antibiotics",
+        "content": "初始经验性抗菌药物治疗旨在降低细菌感染所致的严重并发症和病死率，其原则是覆盖可迅速引起严重并发症或威胁其生命的最常见和毒力较强的病原菌，直至获得准确的病原学培养结果。",
+        "recommendation_strength": "strong",
+        "source_section": "五、初始经验性抗菌药物治疗",
+        "evidence_ids": [
+          "初始经验性抗菌药物治疗旨在降低细菌感染所致的严重并发症和病死率，其原则是覆盖可迅速引起严重并发症或威胁其生命的最常见和毒力较强的病原菌，直至获得准确的病原学培养结果。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_risk_stratified",
+        "content": "应将危险分层作为中性粒细胞缺乏伴发热患者治疗开始前必要的工作。",
+        "recommendation_strength": "strong",
+        "source_section": "三、患者风险评估",
+        "evidence_ids": [
+          "应将危险分层作为中性粒细胞缺乏伴发热患者治疗开始前必要的工作。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_iv_piperacillin_tazobactam",
+        "content": "高危患者需要住院治疗，静脉应用可覆盖铜绿假单胞菌和其他严重革兰阴性菌的广谱抗菌药物。推荐单一使用抗假单胞菌β内酰胺类药物，包括哌拉西林他唑巴坦",
+        "plan_level": 1,
+        "applicable_condition": "高危患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "高危患者需要住院治疗，静脉应用可覆盖铜绿假单胞菌和其他严重革兰阴性菌的广谱抗菌药物。推荐单一使用抗假单胞菌β内酰胺类药物，包括哌拉西林他唑巴坦"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_iv_ceftazidime",
+        "content": "头孢他啶",
+        "plan_level": 1,
+        "applicable_condition": "高危患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐单一使用抗假单胞菌β内酰胺类药物，包括……头孢他啶。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_iv_imipenem_cilastatin",
+        "content": "亚胺培南西司他丁",
+        "plan_level": 1,
+        "applicable_condition": "高危患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐单一使用抗假单胞菌β内酰胺类药物，包括哌拉西林他唑巴坦、头孢哌酮舒巴坦、碳青霉烯类（亚胺培南西司他丁或美罗培南）或帕尼培南倍他米隆）、头孢吡肟或头孢他啶。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_iv_meropenem",
+        "content": "美罗培南",
+        "plan_level": 1,
+        "applicable_condition": "高危患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐单一使用抗假单胞菌β内酰胺类药物，包括哌拉西林他唑巴坦、头孢哌酮舒巴坦、碳青霉烯类（亚胺培南西司他丁或美罗培南）或帕尼培南倍他米隆）、头孢吡肟或头孢他啶。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_iv_ciprofloxacin_amoxicillin_clavulanate",
+        "content": "联合口服环丙沙星和阿莫西林克拉维酸",
+        "plan_level": 1,
+        "applicable_condition": "低危患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于低危患者，其初始治疗可以接受口服或静脉注射经验性抗菌药物治疗。推荐联合口服环丙沙星和阿莫西林克拉维酸，也可以单用左氧氟沙星。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_iv_levofloxacin",
+        "content": "单用左氧氟沙星",
+        "plan_level": 2,
+        "applicable_condition": "低危患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于低危患者，其初始治疗可以接受口服或静脉注射经验性抗菌药物治疗。推荐联合口服环丙沙星和阿莫西林克拉维酸，也可以单用左氧氟沙星。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_iv_vancomycin_for_specific_indications",
+        "content": "在特定情形下，在发热伴中性粒细胞缺乏患者的初始经验性用药中需要加入抗革兰阳性菌活性的药物，例如：①血液动力学不稳定或有其他严重血流感染证据；②Ｘ线影像学确诊的肺炎；③在最终鉴定结果及药敏试验结果报告前，血培养为革兰阳性菌；④临床疑有严重导管相关感染；⑤任一部位的皮肤或软组织感染；⑥耐甲氧西林金黄色葡萄球菌、耐万古霉素肠球菌或耐青霉素肺炎链球菌定植；⑦已预防应用氟喹诺酮类药物且经验性应用头孢他啶治疗时出现严重黏膜炎。可以选择的药物包括万古霉素或替考拉宁或利奈唑胺。",
+        "plan_level": 3,
+        "applicable_condition": "高危患者且符合特定情形之一",
+        "contraindication_note": "不推荐万古霉素作为标准初始治疗的一部分",
+        "evidence_ids": [
+          "然而，在一些特定情形下，在发热伴中性粒细胞缺乏患者的初始经验性用药中需要加入抗革兰阳性菌活性的药物……可以选择的药物包括万古霉素或替考拉宁或利奈唑胺。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_gram_negative_bacteria",
+        "content": "革兰阴性菌",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "我国目前中性粒细胞缺乏患者的常见细菌病原体分布：常见革兰阴性菌：大肠埃希菌、肺炎克雷伯菌、铜绿假单胞菌、鲍曼不动杆菌、嗜麦芽窄食单胞菌"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_gram_positive_bacteria",
+        "content": "革兰阳性菌",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "常见革兰阳性菌：凝固酶阴性葡萄球菌、金黄色葡萄球菌（包括ＭＲＳＡ）、肠球菌（包括ＶＲＥ）、链球菌属。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_esbl_ecoli",
+        "content": "超广谱β内酰胺酶（ESBL）阳性大肠埃希菌",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "我国耐药性革兰阴性和阳性菌属在中性粒细胞缺乏伴发热患者中引起的感染数量呈增加趋势，包括超广谱β内酰胺酶（ＥＳＢＬ）阳性大肠埃希菌和克雷伯菌属，阳性率分别达到５０％～６０％和４０％～５０％"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_esbl_klebsiella",
+        "content": "超广谱β内酰胺酶（ESBL）阳性克雷伯菌属",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "我国耐药性革兰阴性和阳性菌属在中性粒细胞缺乏伴发热患者中引起的感染数量呈增加趋势，包括超广谱β内酰胺酶（ＥＳＢＬ）阳性大肠埃希菌和克雷伯菌属，阳性率分别达到５０％～６０％和４０％～５０％"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_mrsa",
+        "content": "耐甲氧西林金黄色葡萄球菌（MRSA）",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "耐药革兰阳性菌，例如耐甲氧西林金黄色葡萄球菌（ＭＲＳＡ）和耐万古霉素肠球菌（ＶＲＥ）等。在一些血液病中心，ＭＲＳＡ的比例超过９０％，甚至达到１００％。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_vre",
+        "content": "耐万古霉素肠球菌（VRE）",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "耐药革兰阳性菌，例如耐甲氧西林金黄色葡萄球菌（ＭＲＳＡ）和耐万古霉素肠球菌（ＶＲＥ）等。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_neutropenia_immunosuppression",
+        "content": "由于免疫功能低下，炎症的症状和体征常不明显，病原菌及感染灶也不明确，发热可能是严重潜在感染的唯一征象，感染相关死亡率高。",
+        "evidence_ids": [
+          "由于免疫功能低下，炎症的症状和体征常不明显，病原菌及感染灶也不明确，发热可能是严重潜在感染的唯一征象，感染相关死亡率高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_mucosal_barrier_damage",
+        "content": "消化道感染发生率增加与黏膜屏障受损有关",
+        "evidence_ids": [
+          "消化道感染发生率增加与黏膜屏障受损有关，越来越受到重视。"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_neutropenic_fever",
+        "to": "sub_disease_neutropenic_fever_high_risk",
+        "relation_id": "rel_neutropenic_fever_has_high_risk",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（１）严重中性粒细胞缺乏（ＡＮＣ＜０．１×１０９／Ｌ）或预计中性粒细胞缺乏持续＞７ｄ。\n（２）有以下任一种临床合并症（包括但并不限于）：①血流动力学不稳定；②口腔或胃肠道黏膜炎，吞咽困难；③胃肠道症状，包括腹痛、恶心、呕吐或腹泻；④新发的神经系统改变或精神症状；⑤血管内导管感染，尤其是导管隧道感染；⑥新发的肺部浸润或低氧血症，或有潜在的慢性肺部疾病。\n（３）肝功能不全（定义为转氨酶水平＞５倍正常上限）或肾功能不全（定义为肌酐清除率＜３０ｍｌ／ｍｉｎ）。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_neutropenic_fever",
+        "to": "sub_disease_neutropenic_fever_low_risk",
+        "relation_id": "rel_neutropenic_fever_has_low_risk",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "低危患者是指中性粒细胞缺乏预计在７ｄ内消失，无活动性合并症，同时肝肾功能正常或损害较轻并且稳定。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_neutropenic_fever",
+        "to": "sub_disease_neutropenic_fever_severe",
+        "relation_id": "rel_neutropenic_fever_has_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "严重中性粒细胞缺乏指ＡＮＣ＜０．１×１０９／Ｌ。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_fever",
+        "relation_id": "rel_high_risk_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "发热可能是严重潜在感染的唯一征象"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将'发热'列为高危患者定义前提，且全文以'中性粒细胞缺乏伴发热'为统一病名，属核心必备表现",
+        "evidence": "中性粒细胞缺乏伴发热患者是一组特殊的疾病人群。"
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_hypotension",
+        "relation_id": "rel_high_risk_manifests_as_hypotension",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "血流动力学不稳定"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_oral_mucositis",
+        "relation_id": "rel_high_risk_manifests_as_oral_mucositis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "口腔或胃肠道黏膜炎，吞咽困难"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_abdominal_pain",
+        "relation_id": "rel_high_risk_manifests_as_abdominal_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "胃肠道症状，包括腹痛、恶心、呕吐或腹泻"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_nausea",
+        "relation_id": "rel_high_risk_manifests_as_nausea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "胃肠道症状，包括腹痛、恶心、呕吐或腹泻"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_vomiting",
+        "relation_id": "rel_high_risk_manifests_as_vomiting",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "胃肠道症状，包括腹痛、恶心、呕吐或腹泻"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_diarrhea",
+        "relation_id": "rel_high_risk_manifests_as_diarrhea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "胃肠道症状，包括腹痛、恶心、呕吐或腹泻"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_neurological_change",
+        "relation_id": "rel_high_risk_manifests_as_neurological_change",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 3,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "新发的神经系统改变或精神症状"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_mental_symptom",
+        "relation_id": "rel_high_risk_manifests_as_mental_symptom",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 3,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "新发的神经系统改变或精神症状"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_pulmonary_infiltration",
+        "relation_id": "rel_high_risk_manifests_as_pulmonary_infiltration",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "新发的肺部浸润或低氧血症，或有潜在的慢性肺部疾病"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_hypoxemia",
+        "relation_id": "rel_high_risk_manifests_as_hypoxemia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "新发的肺部浸润或低氧血症，或有潜在的慢性肺部疾病"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_catheter_infection",
+        "relation_id": "rel_high_risk_manifests_as_catheter_infection",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "血管内导管感染，尤其是导管隧道感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_cellulitis_around_catheter",
+        "relation_id": "rel_high_risk_manifests_as_cellulitis_around_catheter",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "导管穿刺部位周围蜂窝织炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "symptom_chills",
+        "relation_id": "rel_high_risk_manifests_as_chills",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "三、患者风险评估",
+        "evidence_ids": [
+          "经导管输液时出现发冷或寒颤"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "test_anc",
+        "relation_id": "rel_high_risk_requires_anc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 0.1,
+        "operator": "<=",
+        "unit": "×１０⁹／Ｌ",
+        "result_text": null,
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "二、定义",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "严重中性粒细胞缺乏指ＡＮＣ＜０．１×１０９／Ｌ。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确定义'中性粒细胞缺乏'即ANC<0.5×10⁹/L，并将ANC数值直接用于高危/低危分层（如ANC<0.1×10⁹/L为严重缺乏），是风险分层和诊断的量化金标准",
+        "evidence": "１．中性粒细胞缺乏指外周血中性粒细胞绝对计数（ＡＮＣ）＜０．５×１０９／Ｌ，或预计４８ｄ后ＡＮＣ＜０．５×１０９／Ｌ；严重中性粒细胞缺乏指ＡＮＣ＜０．１×１０９／Ｌ。"
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "test_blood_culture",
+        "relation_id": "rel_high_risk_requires_blood_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断推荐检查",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "四、门诊、体格检查、实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "微生物学检查应当重视血培养结果。做血培养时推荐至少同时行两套培养检查，如果存在中心静脉置管（ＣＶＣ），一套血标本从ＣＶＣ的管腔采集，另一套从外周静脉采集；如果没有ＣＶＣ，应采集不同部位静脉的两套血标本进行培养。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文强调血培养是微生物学检查重点，推荐至少两套培养，但未赋予其确诊高危状态的作用，仅用于感染源排查",
+        "evidence": "微生物学检查应当重视血培养结果。做血培养时推荐至少同时行两套培养检查"
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "test_kidney_function",
+        "relation_id": "rel_high_risk_requires_kidney_function",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 30,
+        "operator": "<",
+        "unit": "ｍｌ／ｍｉｎ",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "common",
+        "section_priority": "三、患者风险评估",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "肾功能不全（定义为肌酐清除率＜３０ｍｌ／ｍｉｎ）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将肾功能不全（肌酐清除率＜30ml/min）列为高危患者三大标准之一，实验室检查明确要求'血肌酐和尿素氮水平'，属高危判定必要指标",
+        "evidence": "（３）肝功能不全（定义为转氨酶水平＞５倍正常上限）或肾功能不全（定义为肌酐清除率＜３０ｍｌ／ｍｉｎ）。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "treatment_empirical_antibiotics",
+        "relation_id": "rel_high_risk_follows_empirical_antibiotics",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "高危患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "风险分层"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "五、初始经验性抗菌药物治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "treatment_risk_stratified",
+        "relation_id": "rel_high_risk_follows_risk_stratified",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "所有中性粒细胞缺乏伴发热患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "风险分层"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "三、患者风险评估",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_iv_piperacillin_tazobactam",
+        "relation_id": "rel_empirical_implements_by_piperacillin_tazobactam",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "高危患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "高危患者需要住院治疗，静脉应用可覆盖铜绿假单胞菌和其他严重革兰阴性菌的广谱抗菌药物。推荐单一使用抗假单胞菌β内酰胺类药物，包括哌拉西林他唑巴坦"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_iv_ceftazidime",
+        "relation_id": "rel_empirical_implements_by_ceftazidime",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "高危患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐单一使用抗假单胞菌β内酰胺类药物，包括……头孢他啶。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_iv_imipenem_cilastatin",
+        "relation_id": "rel_empirical_implements_by_imipenem_cilastatin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "高危患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐单一使用抗假单胞菌β内酰胺类药物，包括哌拉西林他唑巴坦、头孢哌酮舒巴坦、碳青霉烯类（亚胺培南西司他丁或美罗培南）或帕尼培南倍他米隆）、头孢吡肟或头孢他啶。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_iv_meropenem",
+        "relation_id": "rel_empirical_implements_by_meropenem",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "高危患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐单一使用抗假单胞菌β内酰胺类药物，包括哌拉西林他唑巴坦、头孢哌酮舒巴坦、碳青霉烯类（亚胺培南西司他丁或美罗培南）或帕尼培南倍他米隆）、头孢吡肟或头孢他啶。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "etiology_gram_negative_bacteria",
+        "relation_id": "rel_high_risk_caused_by_gram_negative_bacteria",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "典型",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "我国目前中性粒细胞缺乏患者的常见细菌病原体分布：常见革兰阴性菌：大肠埃希菌、肺炎克雷伯菌、铜绿假单胞菌、鲍曼不动杆菌、嗜麦芽窄食单胞菌"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "etiology_gram_positive_bacteria",
+        "relation_id": "rel_high_risk_caused_by_gram_positive_bacteria",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "常见",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "常见革兰阳性菌：凝固酶阴性葡萄球菌、金黄色葡萄球菌（包括ＭＲＳＡ）、肠球菌（包括ＶＲＥ）、链球菌属。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "pathogenesis_neutropenia_immunosuppression",
+        "relation_id": "rel_high_risk_explained_by_immunosuppression",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "由于免疫功能低下，炎症的症状和体征常不明显，病原菌及感染灶也不明确，发热可能是严重潜在感染的唯一征象，感染相关死亡率高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_neutropenic_fever_high_risk",
+        "to": "pathogenesis_mucosal_barrier_damage",
+        "relation_id": "rel_high_risk_explained_by_mucosal_damage",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "消化道感染发生率增加与黏膜屏障受损有关，越来越受到重视。"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

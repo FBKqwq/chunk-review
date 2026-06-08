@@ -1,0 +1,801 @@
+{
+  "meta": {
+    "doc_id": "成人系统性肥大细胞增多症诊断与治疗中国指南(2022年版)",
+    "source_title": "成人系统性肥大细胞增多症诊断与治疗中国指南(2022年版)",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_systemic_mastocytosis",
+        "name": "系统性肥大细胞增多症",
+        "normalized_name": "系统性肥大细胞增多症",
+        "aliases": [
+          "SM",
+          "systemic mastocytosis"
+        ],
+        "source_document_ids": [
+          "成人系统性肥大细胞增多症诊断与治疗中国指南(2022年版)"
+        ],
+        "evidence_ids": [
+          "系统性肥大细胞增多症(systemic mastocytosis, SM)是一种具有独特病理、临床特征和分子表达的髓系肿瘤类型。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_bmm",
+        "name": "骨髓肥大细胞增多症",
+        "parent_disease_id": "disease_systemic_mastocytosis",
+        "disease_subtype": "骨髓肥大细胞增多症（BMM）",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "SM可分为骨髓肥大细胞增多症（BMM）、ISM、冒烟型系统性肥大细胞增多症（SSM）、ASM、SM-AHN和MCL六个亚型（图1）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ism",
+        "name": "惰性系统性肥大细胞增多症",
+        "parent_disease_id": "disease_systemic_mastocytosis",
+        "disease_subtype": "惰性系统性肥大细胞增多症（ISM）",
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "ISM(ISM包括典型ISM及不伴有皮肤浸润的ISM）：(1)典型ISM：①符合SM的诊断标准；②有≤1项B-发现；③无C-发现；④无AHN、MCL证据；⑤有典型皮肤损害。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ssm",
+        "name": "冒烟型系统性肥大细胞增多症",
+        "parent_disease_id": "disease_systemic_mastocytosis",
+        "disease_subtype": "冒烟型系统性肥大细胞增多症（SSM）",
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "3.SSM:(1)符合SM的诊断标准；(2)有≥2项B-发现；(3）无C-发现；(4)无AHN、MCL证据。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_asm",
+        "name": "侵袭性系统性肥大细胞增多症",
+        "parent_disease_id": "disease_systemic_mastocytosis",
+        "disease_subtype": "侵袭性系统性肥大细胞增多症（ASM）",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "4.ASM：(1) 符合 SM 的诊断标准；(2)有≥1项C-发现；(3)不符合 MCL 的诊断标准；(4）通常无皮肤损害。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_sm_ahn",
+        "name": "系统性肥大细胞增多症合并相关血液肿瘤",
+        "parent_disease_id": "disease_systemic_mastocytosis",
+        "disease_subtype": "系统性肥大细胞增多症合并相关血液肿瘤（SM-AHN）",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "5.SM-AHN：(1)符合SM的诊断标准；(2)符合相关血液肿瘤的诊断标准(除外BMM合并的I期外周淋巴结或单个器官淋巴瘤）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_mcl",
+        "name": "肥大细胞白血病",
+        "parent_disease_id": "disease_systemic_mastocytosis",
+        "disease_subtype": "肥大细胞白血病（MCL）",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "6.MCL：(1)符合SM的诊断标准；(2）骨髓活检示不典型、幼稚肥大细胞弥漫浸润（常致密浸润）；(3）骨髓涂片示肥大细胞≥20%；(4）通常无皮肤损害。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（1）全身症状：发热、疲劳、体重减轻、盗汗等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "疲劳",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（1）全身症状：发热、疲劳、体重减轻、盗汗等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_weight_loss",
+        "name": "体重减轻",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（1）全身症状：发热、疲劳、体重减轻、盗汗等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_night_sweats",
+        "name": "盗汗",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（1）全身症状：发热、疲劳、体重减轻、盗汗等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_pruritus",
+        "name": "瘙痒",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "明确既往有无肥大细胞活化的症状，包括是否有皮肤肥大细胞增多的症状，是否有过敏性疾病、淋巴结肿大、关节肌肉疼痛、心肺和胃肠道症状，是否有乏力、发热、出汗、瘙痒、体重下降和酒精相关疼痛等介质症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_flushing",
+        "name": "潮红",
+        "body_site": "面部、颈部和胸部皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（2）肥大细胞活化症状：④皮肤：面部、颈部和胸部皮肤潮红，瘙痒伴或不伴皮疹，荨麻疹伴或不伴血管性水肿；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "③胃肠：胃部不适、腹泻、恶心、呕吐、腹痛、腹胀、胃食管反流病；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_diarrhea",
+        "name": "腹泻",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "③胃肠：胃部不适、腹泻、恶心、呕吐、腹痛、腹胀、胃食管反流病；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_headache",
+        "name": "头痛",
+        "body_site": "头部",
+        "symptom_category": "神经精神症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "③神经精神：头痛、脑雾、认知障碍、焦虑、抑郁、记忆力减退、注意力不集中；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_tachycardia",
+        "name": "心率快",
+        "body_site": "心血管系统",
+        "symptom_category": "心血管系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "③心血管：心率快、胸痛、低血压、高血压、血压不稳定；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_chest_pain",
+        "name": "胸痛",
+        "body_site": "胸部",
+        "symptom_category": "心血管系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "③心血管：心率快、胸痛、低血压、高血压、血压不稳定；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dyspnea",
+        "name": "气短",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "③呼吸：喘息和气短；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_musculoskeletal_pain",
+        "name": "骨骼肌肉疼痛",
+        "body_site": "骨骼肌肉",
+        "symptom_category": "骨骼肌肉症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "③骨骼肌肉：骨骼肌肉疼痛、骨质硬化、骨质减少、骨质疏松；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hepatomegaly",
+        "name": "肝肿大",
+        "body_site": "肝脏",
+        "symptom_category": "体征",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（4体征：肝肿大、脾肿大和淋巴结肿大等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_splenomegaly",
+        "name": "脾肿大",
+        "body_site": "脾脏",
+        "symptom_category": "体征",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（4体征：肝肿大、脾肿大和淋巴结肿大等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_lymphadenopathy",
+        "name": "淋巴结肿大",
+        "body_site": "淋巴结",
+        "symptom_category": "体征",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（4体征：肝肿大、脾肿大和淋巴结肿大等。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_serum_tryptase",
+        "name": "血清类胰蛋白酶",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "（2）血清类胰蛋白酶：类胰蛋白酶从分泌颗粒中大量释放是肥大细胞脱颗粒的特征。基线血清总类胰蛋白酶持续高于20 ng/ml 是诊断 SM 的次要标准。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_kit_d816v",
+        "name": "KIT D816V突变检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "（7)分子学检查：KIT突变阳性为SM次要诊断标准之一。90%以上的 SM 患者可检出 KIT 基因突变，以KITD816V突变最为常见，其他常见异常类型包括KITD816H/Y、N822K等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_cd25_expression",
+        "name": "CD25表达检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "（5)流式细胞术:CD117、CD25、CD2和CD30是流式细胞术检测SM的标准标志物。CD2和CD25的异常表达有助于鉴别SM中的肥大细胞与正常肥大细胞和反应性肥大细胞（表2）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_cd2_expression",
+        "name": "CD2表达检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "（5)流式细胞术:CD117、CD25、CD2和CD30是流式细胞术检测SM的标准标志物。CD2和CD25的异常表达有助于鉴别SM中的肥大细胞与正常肥大细胞和反应性肥大细胞（表2）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_cd30_expression",
+        "name": "CD30表达检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "（5)流式细胞术:CD117、CD25、CD2和CD30是流式细胞术检测SM的标准标志物。CD2和CD25的异常表达有助于鉴别SM中的肥大细胞与正常肥大细胞和反应性肥大细胞（表2）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_bone_marrow_biopsy",
+        "name": "骨髓组织病理学检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "（4)骨髓组织病理学[4]：应对肥大细胞聚集程度进行判定，关注肥大细胞浸润方式（多灶性致密浸润或弥散性间质浸润）。免疫组织化学标记应包括类胰蛋白酶、CD117、CD25、CD2和CD30。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_antimediatortreatment",
+        "content": "肥大细胞活化症状的抗介质治疗",
+        "recommendation_strength": "strong",
+        "source_section": "五、治疗",
+        "evidence_ids": [
+          "1.肥大细胞活化症状的抗介质治疗[1]（1）避免诱因；（2）局部应用润肤霜或色甘酸钠护理皮肤；（3）孤立肥大细胞瘤可考虑手术切除（例如：屈侧、足底、手掌或头皮的病变）；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_targeted_therapy",
+        "content": "靶向治疗",
+        "recommendation_strength": "strong",
+        "source_section": "五、治疗",
+        "evidence_ids": [
+          "6. KIT 靶向治疗[12]：近年来，靶向 KIT 的小分子激酶抑制剂的疗效令人鼓舞。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_allo_hsct",
+        "content": "异基因造血干细胞移植",
+        "recommendation_strength": "strong",
+        "source_section": "五、治疗",
+        "evidence_ids": [
+          "7.异基因造血干细胞移植(allo-HSCT)：allo-HSCT是目前唯一可以根治SM的治疗方式,对于AdvSM患者应评估allo-HSCT的可行性。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_avapritinib",
+        "content": "阿伐替尼(Avapritinib,BLU-285)：阿伐替尼可强效、高选择性地抑制KITexon17活化环突变（包括KITD816V)和PDGFRA类似突变（包括18号外显子的D842V），获FDA批准用于治疗成人AdvSM患者,推荐剂量为200 mg/d,口服给药。",
+        "plan_level": 1,
+        "applicable_condition": "进展型系统性肥大细胞增多症（AdvSM）",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "（1）阿伐替尼( Avapritinib,BLU-285)：阿伐替尼可强效、高选择性地抑制KITexon17活化环突变（包括KITD816V)和PDGFRA类似突变（包括18号外显子的D842V），获FDA批准用于治疗成人AdvSM患者,推荐剂量为200 mg/d,口服给药。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_midostaurin",
+        "content": "米哚妥林（Midostaurin）：可靶向野生型和突变型KIT，两项临床研究的数据显示，晚期SM患者的ORR为60%。米哚妥林的起始量为100 mg，每日2次（不能耐受者减量至50 mg，每日2次），随餐服用。",
+        "plan_level": 2,
+        "applicable_condition": "进展型系统性肥大细胞增多症（AdvSM）",
+        "contraindication_note": "米哚妥林与强CYP3A抑制剂联合使用可能会增加米哚妥林的浓度。",
+        "evidence_ids": [
+          "（3）米哚妥林（Midostaurin）：可靶向野生型和突变型KIT，两项临床研究的数据显示，晚期SM患者的ORR为60%。米哚妥林的起始量为100 mg，每日2次（不能耐受者减量至50 mg，每日2次），随餐服用。米哚妥林与强CYP3A抑制剂联合使用可能会影响其浓度。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_allo_hsct",
+        "content": "异基因造血干细胞移植(allo-HSCT)：一项国际多中心回顾性临床研究显示，AdvSM患者接受allo-HSCT后3年总生存率57%，其中SM-AHN为74%, ASM为43%, MCL为17%。",
+        "plan_level": 1,
+        "applicable_condition": "进展型系统性肥大细胞增多症（AdvSM）",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "7.异基因造血干细胞移植(allo-HSCT)：allo-HSCT是目前唯一可以根治SM的治疗方式,对于AdvSM患者应评估allo-HSCT的可行性。一项国际多中心回顾性临床研究显示，AdvSM患者接受allo-HSCT后3年总生存率57%，其中SM-AHN为74%, ASM为43%, MCL为17%。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_kit_mutation",
+        "content": "KIT基因突变",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "（7)分子学检查：KIT突变阳性为SM次要诊断标准之一。90%以上的 SM 患者可检出 KIT 基因突变，以KITD816V突变最为常见，其他常见异常类型包括KITD816H/Y、N822K等。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_clonal_mast_cell_proliferation",
+        "content": "侵袭性肥大细胞在真皮组织以外的一个或多个组织、器官或系统的克隆性增殖，并释放大量的血管活性介质，引起多器官功能障碍",
+        "evidence_ids": [
+          "2.SM是侵袭性肥大细胞在真皮组织以外的一个或多个组织、器官或系统的克隆性增殖，并释放大量的血管活性介质，引起多器官功能障碍，常见的受累部位包括骨髓、皮肤、脾脏、淋巴结、肝脏和（或）单核-巨噬细胞系统，约占肥大细胞增多症的10%[2]"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_systemic_mastocytosis",
+        "to": "sub_disease_bmm",
+        "relation_id": "rel_sm_has_bmm",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "SM可分为骨髓肥大细胞增多症（BMM）、ISM、冒烟型系统性肥大细胞增多症（SSM）、ASM、SM-AHN和MCL六个亚型（图1）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_systemic_mastocytosis",
+        "to": "sub_disease_ism",
+        "relation_id": "rel_sm_has_ism",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "SM可分为骨髓肥大细胞增多症（BMM）、ISM、冒烟型系统性肥大细胞增多症（SSM）、ASM、SM-AHN和MCL六个亚型（图1）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_systemic_mastocytosis",
+        "to": "sub_disease_ssm",
+        "relation_id": "rel_sm_has_ssm",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "SM可分为骨髓肥大细胞增多症（BMM）、ISM、冒烟型系统性肥大细胞增多症（SSM）、ASM、SM-AHN和MCL六个亚型（图1）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_systemic_mastocytosis",
+        "to": "sub_disease_asm",
+        "relation_id": "rel_sm_has_asm",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "SM可分为骨髓肥大细胞增多症（BMM）、ISM、冒烟型系统性肥大细胞增多症（SSM）、ASM、SM-AHN和MCL六个亚型（图1）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_systemic_mastocytosis",
+        "to": "sub_disease_sm_ahn",
+        "relation_id": "rel_sm_has_sm_ahn",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "SM可分为骨髓肥大细胞增多症（BMM）、ISM、冒烟型系统性肥大细胞增多症（SSM）、ASM、SM-AHN和MCL六个亚型（图1）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_systemic_mastocytosis",
+        "to": "sub_disease_mcl",
+        "relation_id": "rel_sm_has_mcl",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "SM可分为骨髓肥大细胞增多症（BMM）、ISM、冒烟型系统性肥大细胞增多症（SSM）、ASM、SM-AHN和MCL六个亚型（图1）。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_ism",
+        "to": "symptom_fever",
+        "relation_id": "rel_ism_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1）全身症状：发热、疲劳、体重减轻、盗汗等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ism",
+        "to": "symptom_fatigue",
+        "relation_id": "rel_ism_manifests_as_fatigue",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1）全身症状：发热、疲劳、体重减轻、盗汗等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ism",
+        "to": "symptom_weight_loss",
+        "relation_id": "rel_ism_manifests_as_weight_loss",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1）全身症状：发热、疲劳、体重减轻、盗汗等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ism",
+        "to": "symptom_night_sweats",
+        "relation_id": "rel_ism_manifests_as_night_sweats",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1）全身症状：发热、疲劳、体重减轻、盗汗等。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_ism",
+        "to": "test_serum_tryptase",
+        "relation_id": "rel_ism_requires_serum_tryptase",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": 20,
+        "value_max": null,
+        "operator": ">",
+        "unit": "ng/ml",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "基线血清总类胰蛋白酶持续高于20 ng/ml 是诊断 SM 的次要标准。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确将‘基线血清总类胰蛋白酶持续高于20 ng/ml’列为SM次要诊断标准，ISM作为SM亚型需满足SM诊断标准，且表1中B-发现包含‘血清类胰蛋白酶≥200ng/ml’，表明其为关键但非唯一指标",
+        "evidence": "基线血清总类胰蛋白酶持续高于20ng/ml是诊断SM的次要标准。"
+      },
+      {
+        "from": "sub_disease_ism",
+        "to": "test_kit_d816v",
+        "relation_id": "rel_ism_requires_kit_d816v",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "KITD816V突变阳性",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "KIT突变阳性为SM次要诊断标准之一。90%以上的 SM 患者可检出 KIT 基因突变，以KITD816V突变最为常见"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确‘KIT突变阳性为SM次要诊断标准之一’，且‘90%以上的SM患者可检出KIT基因突变，以KITD816V突变最为常见’，表3次要标准第②条直接列出‘KIT基因密码子816……突变’，对ISM具强诊断必要性",
+        "evidence": "KIT突变阳性为SM次要诊断标准之一。90%以上的SM患者可检出KIT基因突变，以KITD816V突变最为常见。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_ism",
+        "to": "treatment_antimediatortreatment",
+        "relation_id": "rel_ism_follows_antimediatortreatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "有症状BMM/情性ISM/SSM",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "五、治疗",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_antimediatortreatment",
+        "to": "plan_avapritinib",
+        "relation_id": "rel_antimediatortreatment_implements_by_avapritinib",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "进展型系统性肥大细胞增多症（AdvSM）",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "（1）阿伐替尼( Avapritinib,BLU-285)：阿伐替尼可强效、高选择性地抑制KITexon17活化环突变（包括KITD816V)和PDGFRA类似突变（包括18号外显子的D842V），获FDA批准用于治疗成人AdvSM患者,推荐剂量为200 mg/d,口服给药。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_ism",
+        "to": "etiology_kit_mutation",
+        "relation_id": "rel_ism_causes_kit_mutation",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "KIT突变阳性为SM次要诊断标准之一。90%以上的 SM 患者可检出 KIT 基因突变，以KITD816V突变最为常见"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_ism",
+        "to": "pathogenesis_clonal_mast_cell_proliferation",
+        "relation_id": "rel_ism_explained_by_clonal_mast_cell_proliferation",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "2.SM是侵袭性肥大细胞在真皮组织以外的一个或多个组织、器官或系统的克隆性增殖，并释放大量的血管活性介质，引起多器官功能障碍，常见的受累部位包括骨髓、皮肤、脾脏、淋巴结、肝脏和（或）单核-巨噬细胞系统，约占肥大细胞增多症的10%[2]"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

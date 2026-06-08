@@ -1,0 +1,891 @@
+{
+  "meta": {
+    "doc_id": "百日咳诊疗方案_2023年版",
+    "source_title": "百日咳诊疗方案（2023 年版）",
+    "section_path": "百日咳诊疗方案（2023 年版）",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_pertussis",
+        "name": "百日咳",
+        "normalized_name": "百日咳",
+        "aliases": [
+          "百日咳（Pertussis，Whooping Cough）",
+          "哮咳",
+          "疫咳"
+        ],
+        "source_document_ids": [
+          "百日咳诊疗方案（2023 年版）"
+        ],
+        "evidence_ids": [
+          "百日咳（Pertussis，Whooping Cough）是由百日咳鲍特菌（Bordetella Pertussis）感染引起的急性呼吸道传染病。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_pertussis_typical_infant",
+        "name": "典型婴幼儿百日咳",
+        "parent_disease_id": "disease_pertussis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "新生儿和6月龄以下婴儿",
+        "gender": "all",
+        "age_min": 0,
+        "age_max": 0,
+        "evidence_ids": [
+          "新生儿和 6 月龄以下婴儿咳嗽后常会引起发绀、呼吸暂停、惊厥、心动过缓或心脏停搏。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_pertussis_typical_child",
+        "name": "典型儿童百日咳",
+        "parent_disease_id": "disease_pertussis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": "婴幼儿及儿童",
+        "gender": "all",
+        "age_min": 1,
+        "age_max": 14,
+        "evidence_ids": [
+          "潜伏期 5~21 天，一般为 7~14 天。\n（一）卡他期。\n表现为流涕、打喷嚏、流泪、咽痛、阵发性咳嗽等上呼吸道感染症状。多无发热，或初期一过性发热。该期排菌量达高峰，具有极强传染性。持续 1~2 周。\n（二）痉咳期。\n表现为阵发性痉挛性咳嗽，伴咳嗽末吸气性吼声，反复多次，直至咳出黏痰，昼轻夜重，睡眠期间痉挛性咳嗽更为突出，影响睡眠。痉咳次数随病情发展而增多。常在咳嗽后出现呕吐，可致舌系带溃疡，面部、眼睑浮肿，眼结膜出血，鼻衄，重者颅内出血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_pertussis_atypical_adult",
+        "name": "非典型青少年及成人百日咳",
+        "parent_disease_id": "disease_pertussis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "青少年及成人",
+        "gender": "all",
+        "age_min": 14,
+        "age_max": null,
+        "evidence_ids": [
+          "青少年或成人百日咳患者，常无典型痉咳，表现为阵发性咳嗽和暂时性缓解交替。持续 2~3 周。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_pertussis_complicated",
+        "name": "百日咳并发症",
+        "parent_disease_id": "disease_pertussis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "新生儿和6月龄以下婴儿",
+        "gender": "all",
+        "age_min": 0,
+        "age_max": 0,
+        "evidence_ids": [
+          "多见于新生儿和 6 月龄以下婴儿，以肺炎最常见，亦可并发肺不张、气胸、纵隔气肿、皮下气肿、肺动脉高压、窒息和脑病等。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_paroxysmal_cough",
+        "name": "阵发性痉挛性咳嗽",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（二）痉咳期。\n表现为阵发性痉挛性咳嗽，伴咳嗽末吸气性吼声，反复多次，直至咳出黏痰，昼轻夜重，睡眠期间痉挛性咳嗽更为突出，影响睡眠。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_whooping_inspiratory_sound",
+        "name": "咳嗽末吸气性鸡鸣样吼声",
+        "body_site": "喉部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "痉咳时患者处于呼气状态，痉咳末，由于吸入大量空气通过痉挛的声门而发出高音调似鸡鸣样的吸气吼声。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_vomiting_after_cough",
+        "name": "咳嗽后呕吐",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常在咳嗽后出现呕吐，可致舌系带溃疡，面部、眼睑浮肿，眼结膜出血，鼻衄，重者颅内出血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_apnea",
+        "name": "呼吸暂停",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "新生儿和 6 月龄以下婴儿咳嗽后常会 引起发绀、呼吸暂停、惊厥、心动过缓或心脏停搏。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_cyanosis",
+        "name": "发绀",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "新生儿和 6 月龄以下婴儿咳嗽后常会 引起发绀、呼吸暂停、惊厥、心动过缓或心脏停搏。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_convulsion",
+        "name": "惊厥",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "新生儿和 6 月龄以下婴儿咳嗽后常会 引起发绀、呼吸暂停、惊厥、心动过缓或心脏停搏。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_bradycardia",
+        "name": "心动过缓",
+        "body_site": "心血管系统",
+        "symptom_category": "心血管系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "新生儿和 6 月龄以下婴儿咳嗽后常会 引起发绀、呼吸暂停、惊厥、心动过缓或心脏停搏。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_palpebral_edema",
+        "name": "眼睑浮肿",
+        "body_site": "头面部",
+        "symptom_category": "头面部症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常在咳嗽后出现呕吐，可致舌系带溃疡，面部、眼睑浮肿，眼结膜出血，鼻衄，重者颅内出血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_conjunctival_hemorrhage",
+        "name": "眼结膜出血",
+        "body_site": "眼部",
+        "symptom_category": "眼部症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常在咳嗽后出现呕吐，可致舌系带溃疡，面部、眼睑浮肿，眼结膜出血，鼻衄，重者颅内出血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_epistaxis",
+        "name": "鼻衄",
+        "body_site": "鼻部",
+        "symptom_category": "耳鼻喉症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常在咳嗽后出现呕吐，可致舌系带溃疡，面部、眼睑浮肿，眼结膜出血，鼻衄，重者颅内出血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_rhinorrhea",
+        "name": "流涕",
+        "body_site": "鼻部",
+        "symptom_category": "耳鼻喉症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "（一）卡他期。\n表现为流涕、打喷嚏、流泪、咽痛、阵发性咳嗽等上呼吸道感染症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_sneezing",
+        "name": "打喷嚏",
+        "body_site": "鼻部",
+        "symptom_category": "耳鼻喉症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "（一）卡他期。\n表现为流涕、打喷嚏、流泪、咽痛、阵发性咳嗽等上呼吸道感染症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_lacrimation",
+        "name": "流泪",
+        "body_site": "眼部",
+        "symptom_category": "眼部症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "（一）卡他期。\n表现为流涕、打喷嚏、流泪、咽痛、阵发性咳嗽等上呼吸道感染症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_sore_throat",
+        "name": "咽痛",
+        "body_site": "咽喉部",
+        "symptom_category": "耳鼻喉症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "（一）卡他期。\n表现为流涕、打喷嚏、流泪、咽痛、阵发性咳嗽等上呼吸道感染症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fever_absent",
+        "name": "无发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "absent",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（一）卡他期。\n表现为流涕、打喷嚏、流泪、咽痛、阵发性咳嗽等上呼吸道感染症状。多无发热，或初期一过性发热。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_wbc_count",
+        "name": "外周血白细胞计数",
+        "normal_range_min": 4.0,
+        "normal_range_max": 10.0,
+        "is_digital": 1,
+        "evidence_ids": [
+          "在卡他期末及痉咳期可见白细胞增多，痉咳期最明显，多为（20~50）×109/L，少数可达 70×109/L 以上，以淋巴细胞为主，多见于婴幼儿。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_lymphocyte_count",
+        "name": "外周血淋巴细胞计数",
+        "normal_range_min": 1.0,
+        "normal_range_max": 3.2,
+        "is_digital": 1,
+        "evidence_ids": [
+          "在卡他期末及痉咳期可见白细胞增多，痉咳期最明显，多为（20~50）×109/L，少数可达 70×109/L 以上，以淋巴细胞为主，多见于婴幼儿。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_bordetella_pertussis_culture",
+        "name": "百日咳鲍特菌培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "1.细菌培养：鼻咽部分泌物可培养到百日咳鲍特菌。卡他期或痉咳期早期鼻咽拭子标本阳性率高，病程 3 周以后阳性率较低。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_bordetella_pertussis_pcr",
+        "name": "百日咳鲍特菌核酸检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "2.核酸检测：鼻咽拭子或者鼻咽洗液标本中百日咳鲍特菌核酸检测阳性，发病3周内阳性率高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_pt_igg_serum",
+        "name": "百日咳毒素特异性IgG抗体（血清）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "3.血清学检查：末次接种含百日咳成分疫苗间隔超过 1 年的病例，单份血清百日咳鲍特菌 PT 特异性 IgG 浓度超过诊断急性感染的标准阈值，对于咳嗽≥2~3 周的百日咳病例诊断价值大。恢复期血清 PT-IgG 抗体滴度较急性期呈 4 倍及以上升高（排除近期接种过疫苗）适用于回顾性诊断。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_antibiotic_firstline",
+        "content": "百日咳的抗菌治疗首选大环内酯类抗生素，如阿奇霉素、红霉素、罗红霉素或克拉霉素等。",
+        "recommendation_strength": "strong",
+        "source_section": "九、治疗（二）病原治疗。",
+        "evidence_ids": [
+          "百日咳的抗菌治疗首选大环内酯类抗生素，如阿奇霉素、红霉素、罗红霉素或克拉霉素等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_antibiotic_alternative",
+        "content": "若存在使用大环内酯类的禁忌证、不能耐受大环内酯类或感染耐大环内酯类的菌株，可使用复方磺胺甲噁唑。",
+        "recommendation_strength": "weak",
+        "source_section": "九、治疗（二）病原治疗。",
+        "evidence_ids": [
+          "鉴于国内百日咳鲍特菌对大环内酯类抗菌药耐药率高，>2 月龄的儿童和成人，若存在使用大环内酯类的禁忌证、不能耐受大环内酯类或感染耐大环内酯类的菌株，可使用复方磺胺甲噁唑。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_complication_management",
+        "content": "出现百日咳脑病时，酌情应用镇静止痉剂及脱水剂，治疗同脑炎。继发细菌性肺炎时，根据致病菌和药敏结果，选择合适的抗菌药物治疗。",
+        "recommendation_strength": "strong",
+        "source_section": "九、治疗（三）并发症治疗。",
+        "evidence_ids": [
+          "出现百日咳脑病时，酌情应用镇静止痉剂及脱水剂，治疗同脑炎。继发细菌性肺炎时，根据致病菌和药敏结果，选择合适的抗菌药物治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_azithromycin_infant_lt6m",
+        "content": "<6 月龄婴儿 10 mg/kg/d，疗程 5 天；",
+        "plan_level": 1,
+        "applicable_condition": "确诊百日咳且年龄<6月龄",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "1.阿奇霉素：优先选择口服给药，口服不能耐受，选择静脉给药。<6 月龄婴儿 10 mg/kg/d，疗程 5 天；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_azithromycin_child_ge6m",
+        "content": "≥6 月龄儿童第一天 10mg/kg（最大剂量不超过 500mg），顿服，第 2~5 天，5mg/kg/d（最大剂量不超过 250mg），顿服，疗程 5 天；",
+        "plan_level": 1,
+        "applicable_condition": "确诊百日咳且年龄≥6月龄儿童",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "≥6 月龄儿童第一天 10mg/kg（最大剂量不超过 500mg），顿服，第 2~5 天，5mg/kg/d（最大剂量不超过 250mg），顿服，疗程 5 天；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_azithromycin_adult",
+        "content": "成人第一天 500mg，第 2~5 天，250mg/d，疗程 5 天。",
+        "plan_level": 1,
+        "applicable_condition": "确诊百日咳且为成人",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "成人第一天 500mg，第 2~5 天，250mg/d，疗程 5 天。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_erythromycin_child",
+        "content": "红霉素（口服）：儿童 10mg/kg/次（最大剂量不超过 2g/d），",
+        "plan_level": 2,
+        "applicable_condition": "确诊百日咳且年龄≥1月龄（非新生儿）",
+        "contraindication_note": "红霉素有引起新生儿肥厚性幽门狭窄风险，不推荐用于新生儿。",
+        "evidence_ids": [
+          "2.红霉素（口服）：儿童 10mg/kg/次（最大剂量不超过 2g/d），成人 500mg/次，q6h，疗程 14 天。红霉素有引起新生儿肥厚性幽门狭窄风险，不推荐用于新生儿。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_clarithromycin_child_adult",
+        "content": "克拉霉素（口服）：≥1 月龄儿童 7.5mg/kg/次（最大剂量不超过 1g/d），成人 500mg/次，q12h，疗程 7 天。",
+        "plan_level": 2,
+        "applicable_condition": "确诊百日咳且年龄≥1月龄",
+        "contraindication_note": "不推荐用于新生儿。",
+        "evidence_ids": [
+          "3.克拉霉素（口服）：≥1 月龄儿童 7.5mg/kg/次（最大剂量不超过 1g/d），成人 500mg/次，q12h，疗程 7 天。不推荐用于新生儿。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_tmp_smz_child_adult",
+        "content": "复方磺胺甲噁唑（TMP-SMZ）（口服）：≥2 月龄儿童 4/20 mg/kg/次，成人 160 /800mg/次，q12h，疗程 14 天。",
+        "plan_level": 3,
+        "applicable_condition": "确诊百日咳且年龄≥2月龄，且存在大环内酯类禁忌或耐药",
+        "contraindication_note": "用药期间注意肾损伤、结晶尿、皮疹等不良反应。",
+        "evidence_ids": [
+          "4.复方磺胺甲噁唑（TMP-SMZ）（口服）：≥2 月龄儿童 4/20 mg/kg/次，成人 160 /800mg/次，q12h，疗程 14 天。用药期间注意肾损伤、结晶尿、皮疹等不良反应。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_bordetella_pertussis",
+        "content": "百日咳鲍特菌（Bordetella Pertussis）感染",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "百日咳（Pertussis，Whooping Cough）是由百日咳鲍特菌（Bordetella Pertussis）感染引起的急性呼吸道传染病。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_pt_toxin_and_cilia_paralysis",
+        "content": "细菌侵入易感者呼吸道后，首先粘附于呼吸道上皮细胞纤毛上，在局部繁殖并产生 PT 等毒素，引起上皮细胞纤毛麻痹、细胞变性和上皮细胞坏死脱落，导致小支气管中黏液及坏死上皮细胞堆聚潴留，分泌物排出受阻，刺激呼吸道周围神经，传入延髓咳嗽中枢，反射性地引起连续痉挛性咳嗽，直至分泌物排出为止。",
+        "evidence_ids": [
+          "三、发病机制\n细菌侵入易感者呼吸道后，首先粘附于呼吸道上皮细胞纤毛上，在局部繁殖并产生 PT 等毒素，引起上皮细胞纤毛麻痹、细胞变性和上皮细胞坏死脱落，导致小支气管中黏液及坏死上皮细胞堆聚潴留，分泌物排出受阻，刺激呼吸道周围神经，传入延髓咳嗽中枢，反射性地引起连续痉挛性咳嗽，直至分泌物排出为止。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_pertussis",
+        "to": "sub_disease_pertussis_typical_infant",
+        "relation_id": "rel_pertussis_has_typical_infant",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "新生儿和 6 月龄以下婴儿咳嗽后常会引起发绀、呼吸暂停、惊厥、心动过缓或心脏停搏。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_pertussis",
+        "to": "sub_disease_pertussis_typical_child",
+        "relation_id": "rel_pertussis_has_typical_child",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（二）痉咳期。\n表现为阵发性痉挛性咳嗽，伴咳嗽末吸气性吼声，反复多次，直至咳出黏痰，昼轻夜重，睡眠期间痉挛性咳嗽更为突出，影响睡眠。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_pertussis",
+        "to": "sub_disease_pertussis_atypical_adult",
+        "relation_id": "rel_pertussis_has_atypical_adult",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "青少年或成人百日咳患者，常无典型痉咳，表现为阵发性咳嗽和暂时性缓解交替。持续 2~3 周。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_pertussis",
+        "to": "sub_disease_pertussis_complicated",
+        "relation_id": "rel_pertussis_has_complicated",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "多见于新生儿和 6 月龄以下婴儿，以肺炎最常见，亦可并发肺不张、气胸、纵隔气肿、皮下气肿、肺动脉高压、窒息和脑病等。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_pertussis_typical_infant",
+        "to": "symptom_apnea",
+        "relation_id": "rel_infant_manifests_as_apnea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "新生儿和 6 月龄以下婴儿咳嗽后常会 引起发绀、呼吸暂停、惊厥、心动过缓或心脏停搏。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将呼吸暂停列为新生儿和6月龄以下婴儿的典型表现，且与痉咳直接关联，属该人群特异性高权重临床表现",
+        "evidence": "新生儿和6月龄以下婴儿咳嗽后常会引起发绀、呼吸暂停、惊厥、心动过缓或心脏停搏。"
+      },
+      {
+        "from": "sub_disease_pertussis_typical_infant",
+        "to": "symptom_cyanosis",
+        "relation_id": "rel_infant_manifests_as_cyanosis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "新生儿和 6 月龄以下婴儿咳嗽后常会 引起发绀、呼吸暂停、惊厥、心动过缓或心脏停搏。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将发绀与呼吸暂停并列作为新生儿和6月龄以下婴儿的典型痉咳后果，属该人群特异性高权重临床表现",
+        "evidence": "新生儿和6月龄以下婴儿咳嗽后常会引起发绀、呼吸暂停、惊厥、心动过缓或心脏停搏。"
+      },
+      {
+        "from": "sub_disease_pertussis_typical_child",
+        "to": "symptom_paroxysmal_cough",
+        "relation_id": "rel_child_manifests_as_paroxysmal_cough",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "持续 ≥2 周",
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "（二）痉咳期。\n表现为阵发性痉挛性咳嗽，伴咳嗽末吸气性吼声，反复多次，直至咳出黏痰，昼轻夜重，睡眠期间痉挛性咳嗽更为突出，影响睡眠。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "痉挛性咳嗽是‘痉咳期’定义性症状，原文以‘表现为’句式直接定义，属典型儿童百日咳核心临床表现",
+        "evidence": "（二）痉咳期。表现为阵发性痉挛性咳嗽，伴咳嗽末吸气性吼声，反复多次，直至咳出黏痰，昼轻夜重"
+      },
+      {
+        "from": "sub_disease_pertussis_typical_child",
+        "to": "symptom_whooping_inspiratory_sound",
+        "relation_id": "rel_child_manifests_as_whooping",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "持续 ≥2 周",
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "痉咳时患者处于呼气状态，痉咳末，由于吸入大量空气通过痉挛的声门而发出高音调似鸡鸣样的吸气吼声。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "鸡鸣样吸气吼声与痉挛性咳嗽并列作为痉咳期定义性症状，原文以顿号连接，属同一层级核心表现",
+        "evidence": "（二）痉咳期。表现为阵发性痉挛性咳嗽，伴咳嗽末吸气性吼声，反复多次，直至咳出黏痰，昼轻夜重"
+      },
+      {
+        "from": "sub_disease_pertussis_atypical_adult",
+        "to": "symptom_paroxysmal_cough",
+        "relation_id": "rel_adult_manifests_as_paroxysmal_cough",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "持续 ≥2 周",
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "青少年或成人百日咳患者，常无典型痉咳，表现为阵发性咳嗽和暂时性缓解交替。持续 2~3 周。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将阵发性咳嗽列为青少年或成人百日咳‘常无典型痉咳’下的唯一核心表现，且强调其为交替特征",
+        "evidence": "青少年或成人百日咳患者，常无典型痉咳，表现为阵发性咳嗽和暂时性缓解交替。"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_pertussis_typical_child",
+        "to": "test_wbc_count",
+        "relation_id": "rel_child_requires_wbc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": 20.0,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "×10⁹/L",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "在卡他期末及痉咳期可见白细胞增多，痉咳期最明显，多为（20~50）×109/L，少数可达 70×109/L 以上，以淋巴细胞为主，多见于婴幼儿。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出卡他期末及痉咳期白细胞增多‘最明显’，但仅作为临床诊断依据之一，非确诊标准；权重低于病原学检测",
+        "evidence": "在卡他期末及痉咳期可见白细胞增多，痉咳期最明显，多为（20~50）×109/L，少数可达70×109/L以上，以淋巴细胞为主，多见于婴幼儿。"
+      },
+      {
+        "from": "sub_disease_pertussis_typical_child",
+        "to": "test_bordetella_pertussis_culture",
+        "relation_id": "rel_child_requires_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "1.细菌培养：鼻咽部分泌物可培养到百日咳鲍特菌。卡他期或痉咳期早期鼻咽拭子标本阳性率高，病程 3 周以后阳性率较低。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在‘确诊病例’条目下将‘培养到百日咳鲍特菌’列为第一项确诊依据，属明确金标准",
+        "evidence": "（三）确诊病例。疑似病例或临床诊断病例，具有以下任一项者：1.培养到百日咳鲍特菌；"
+      },
+      {
+        "from": "sub_disease_pertussis_typical_child",
+        "to": "test_bordetella_pertussis_pcr",
+        "relation_id": "rel_child_requires_pcr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "2.核酸检测：鼻咽拭子或者鼻咽洗液标本中百日咳鲍特菌核酸检测阳性，发病3周内阳性率高。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在‘确诊病例’条目下将‘百日咳鲍特菌核酸检测阳性’列为第二项确诊依据，属明确金标准",
+        "evidence": "（三）确诊病例。疑似病例或临床诊断病例，具有以下任一项者：2.百日咳鲍特菌核酸检测阳性；"
+      },
+      {
+        "from": "sub_disease_pertussis_atypical_adult",
+        "to": "test_pt_igg_serum",
+        "relation_id": "rel_adult_requires_pt_igg",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "单份血清PT-IgG浓度超过诊断急性感染的标准阈值，或恢复期较急性期呈4倍及以上升高",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "3.血清学检查：末次接种含百日咳成分疫苗间隔超过 1 年的病例，单份血清百日咳鲍特菌 PT 特异性 IgG 浓度超过诊断急性感染的标准阈值，对于咳嗽≥2~3 周的百日咳病例诊断价值大。恢复期血清 PT-IgG 抗体滴度较急性期呈 4 倍及以上升高（排除近期接种过疫苗）适用于回顾性诊断。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在‘确诊病例’条目下将‘PT-IgG抗体阳转或恢复期较急性期滴度呈4倍及以上升高’列为第三项确诊依据，属明确金标准；且特别注明适用于咳嗽≥2~3周病例，覆盖成人不典型表现",
+        "evidence": "（三）确诊病例。疑似病例或临床诊断病例，具有以下任一项者：3.PT-IgG抗体阳转或恢复期较急性期滴度呈4倍及以上升高（排除婴幼儿1年内接种含百日咳成分疫苗或既往感染）。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_pertussis_typical_child",
+        "to": "treatment_antibiotic_firstline",
+        "relation_id": "rel_child_follows_antibiotic_firstline",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊百日咳",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "年龄",
+          "病程"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "九、治疗（二）病原治疗。",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pertussis_complicated",
+        "to": "treatment_complication_management",
+        "relation_id": "rel_complicated_follows_complication_management",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊百日咳并出现并发症",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "并发症类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "九、治疗（三）并发症治疗。",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_antibiotic_firstline",
+        "to": "plan_azithromycin_infant_lt6m",
+        "relation_id": "rel_firstline_implements_azithromycin_infant",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "确诊百日咳且年龄<6月龄",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "1.阿奇霉素：优先选择口服给药，口服不能耐受，选择静脉给药。<6 月龄婴儿 10 mg/kg/d，疗程 5 天；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antibiotic_firstline",
+        "to": "plan_azithromycin_child_ge6m",
+        "relation_id": "rel_firstline_implements_azithromycin_child",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "确诊百日咳且年龄≥6月龄儿童",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "≥6 月龄儿童第一天 10mg/kg（最大剂量不超过 500mg），顿服，第 2~5 天，5mg/kg/d（最大剂量不超过 250mg），顿服，疗程 5 天；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antibiotic_firstline",
+        "to": "plan_azithromycin_adult",
+        "relation_id": "rel_firstline_implements_azithromycin_adult",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "确诊百日咳且为成人",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "成人第一天 500mg，第 2~5 天，250mg/d，疗程 5 天。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_pertussis_typical_child",
+        "to": "etiology_bordetella_pertussis",
+        "relation_id": "rel_child_causes_bordetella",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "百日咳（Pertussis，Whooping Cough）是由百日咳鲍特菌（Bordetella Pertussis）感染引起的急性呼吸道传染病。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_pertussis_typical_child",
+        "to": "pathogenesis_pt_toxin_and_cilia_paralysis",
+        "relation_id": "rel_child_explained_by_pathogenesis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "三、发病机制\n细菌侵入易感者呼吸道后，首先粘附于呼吸道上皮细胞纤毛上，在局部繁殖并产生 PT 等毒素，引起上皮细胞纤毛麻痹、细胞变性和上皮细胞坏死脱落，导致小支气管中黏液及坏死上皮细胞堆聚潴留，分泌物排出受阻，刺激呼吸道周围神经，传入延髓咳嗽中枢，反射性地引起连续痉挛性咳嗽，直至分泌物排出为止。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

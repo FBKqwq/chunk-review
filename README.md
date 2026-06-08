@@ -1,16 +1,11 @@
 # Chunk 人工复验
-，用于对 PDF 切分后的 chunk 和 LLM 预抽取 KG JSON 进行人工复验。
 
-前端为 **Vite + Vue3本地 **：
-
-- `frontend/package.json`：前端依赖声明
-- `frontend/node_modules/`：已随包提供，可离线运行前端构建产物或本地 Vite dev server
-- `frontend/dist/`：已构建好的静态页面，由 Flask 直接托管
+用于对 PDF 切分后的 chunk 和 LLM 预抽取 KG JSON 进行人工复验。
 
 ## 目录结构
 
 ```text
-chunk_review_demo/
+chunk_review/
 ├── backend/
 │   ├── app.py              # Flask API 服务，同时托管 frontend/dist
 │   ├── parser.py           # 解析 chunk.json 与 kg.json
@@ -19,16 +14,14 @@ chunk_review_demo/
 │   ├── storage.py          # 人工复验结果落盘逻辑
 │   └── requirements.txt
 ├── frontend/
-│   ├── package.json        # Vite + Vue3 本地依赖配置
-│   ├── package-lock.json
-│   ├── node_modules/       # 已打包，避免运行页面依赖 CDN
+│   ├── package.json        # Vite + Vue3 依赖配置
 │   ├── index.html
 │   ├── vite.config.js
 │   ├── src/
 │   │   ├── App.vue
 │   │   ├── main.js
 │   │   └── style.css
-│   └── dist/               # 已构建好的离线静态页面
+│   └── dist/               # 已构建好的静态页面（已提交到 git）
 ├── data/
 │   ├── input/
 │   │   ├── chunk/          # 放置 *.chunk.json
@@ -53,12 +46,12 @@ XXX.chunk.json
 XXX.kg.json
 ```
 
-## 推荐运行方式：Flask 直接托管已构建页面
+## 快速运行
 
-这种方式不需要启动 Vite dev server。
+只需安装后端依赖即可直接运行，前端 `dist/` 已预构建：
 
 ```bash
-cd chunk_review_demo
+cd chunk_review
 python -m venv .venv
 ```
 
@@ -84,23 +77,22 @@ python backend/app.py
 http://127.0.0.1:5000
 ```
 
-说明：Flask 会优先读取 `frontend/dist/index.html`，所以页面中的 Vue 代码已经是本地构建产物，不再请求 CDN。
+## 前端开发模式
 
-## 前端开发模式：Vite 本地依赖运行
+只在修改前端页面时使用，需要两个终端窗口。
 
-只在要改前端页面时使用。需要开两个终端。
-
-终端 1：启动后端 API。
+终端 1 — 启动后端 API：
 
 ```bash
-cd chunk_review_demo
+cd chunk_review
 python backend/app.py
 ```
 
-终端 2：启动 Vite。
+终端 2 — 启动 Vite：
 
 ```bash
-cd chunk_review_demo/frontend
+cd chunk_review/frontend
+npm install
 npm run dev
 ```
 
@@ -123,7 +115,7 @@ proxy: {
 ## 修改前端后重新构建
 
 ```bash
-cd chunk_review_demo/frontend
+cd chunk_review/frontend
 npm run build
 ```
 
@@ -209,7 +201,7 @@ data/output/《白塞综合征诊疗规范》.review.json
 
 - 这是人工复验 MVP，不包含用户登录、权限控制、多人并发锁、数据库。
 - 当前保存策略为 JSON 文件落盘，适合小样验证；正式系统建议改为 SQLite/PostgreSQL/MySQL。
-- 当前实体类型固定为 8 类；示例 KG 中的 `Etiology` 暂映射到“疾病”，正式版本建议将 Schema 扩展为 9 类或明确病因归属。
+- 当前实体类型固定为 8 类；示例 KG 中的 `Etiology` 暂映射到"疾病"，正式版本建议将 Schema 扩展为 9 类或明确病因归属。
 - 当前关系类型固定为示例 KG 中的 7 类：
   - `has_sub_disease`
   - `manifests_as`

@@ -1,0 +1,1328 @@
+{
+  "meta": {
+    "doc_id": "中国噬血细胞综合征诊断与治疗指南(2022年版)",
+    "source_title": "中国噬血细胞综合征诊断与治疗指南(2022年版)",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_hlh",
+        "name": "噬血细胞综合征",
+        "normalized_name": "噬血细胞综合征",
+        "aliases": [
+          "噬血细胞性淋巴组织细胞增多症",
+          "HPS",
+          "HLH"
+        ],
+        "source_document_ids": [
+          "中国噬血细胞综合征诊断与治疗指南(2022年版)"
+        ],
+        "evidence_ids": [
+          "噬血细胞综合征（HPS)又称为噬血细胞性淋巴组织细胞增多症(HLH),是一种遗传性或获得性免疫调节功能异常导致的严重炎症反应综合征"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_hlh_primary",
+        "name": "原发性噬血细胞综合征",
+        "parent_disease_id": "disease_hlh",
+        "disease_subtype": "遗传性免疫缺陷相关",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "儿童及家族史阳性者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "1. 原发性HLH:由遗传性淋巴细胞毒功能受损或炎症活性相关基因缺陷导致。遗传方式主要为性染色体和（或）常染色体隐性遗传。目前报道的HLH相关基因100余种，相对明确的HLH致病基因有17种。根据基因缺陷的特点，将原发性HLH归类如下：（1)家族性HLH (familial hemophagocytic lymphohistiocytosis, FHL)，共5个亚型，包括FHL-1~5。FHL-1相关的缺陷基因及编码蛋白至今仍未确定，FHL-2至FHL-5对应PRF1、UNC13D、STX11及 STXBP2 基因及编码蛋白。（2 )免疫缺陷综合征相关HLH，包括Griscelli综合征2 (GS-2)、Chediak-Higashi综合征（CHS)和Hermansky-Pudlak综合征2( HPS-2)，缺陷基因分别是RAB27A、LYST和AP3B1。（3)X连锁淋巴增生性疾病(X-linked lymphoproliferative disease, XLP)，包括XLP-1、XLP-2，缺陷基因分别是SH2D1A、XIAP，以及自身炎症性疾病相关NLRC4和CDC42基因。（4)EB病毒驱动型HLH，缺陷基因包括镁离子转运基因（magnesium transporter 1, MAGT1 )、白细胞介素-2诱导的T细胞激酶(IL-2-inducible T-cell kinase, ITK)、CD27、CD70、CTPS1 和 RASGRP1 基因。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hlh_secondary",
+        "name": "继发性噬血细胞综合征",
+        "parent_disease_id": "disease_hlh",
+        "disease_subtype": "获得性",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "成人及无明确家族史者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "2. 继发性HLH:由肿瘤、风湿免疫性疾病、感染等多种诱因所致的严重炎症反应综合征，通常无已知的HLH致病基因缺陷及家族史。随着基因突变鉴定及认识的不断进步，继发性HLH和原发性HLH二者之间的界限变得模糊，目前认为很多继发性HLH也存在一定的基因背景，如原发性HLH相关基因的杂合改变及多态性，并且在遭受外界触发因素（如病毒感染等）的“二次打击”后表现出HLH发病。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hlh_cns",
+        "name": "中枢神经系统受累噬血细胞综合征",
+        "parent_disease_id": "disease_hlh",
+        "disease_subtype": "CNS受累型",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "所有HLH患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(二） HLH中枢神经系统受累（central nervous system-HLH ， CNS-HLH):可为 HLH 首发临床表现，也可在HLH病程中发生：（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）；（2)中枢神经系统影像学异常:头颅MRI提示脑实质或脑膜异常；（3)脑脊液(cerebrospinal fluid, CSF)异常:脑脊液细胞增多和(或）蛋白质升高。HLH患者出现上述一项或多项异常时，需考虑诊断CNS-HLH。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hlh_malignancy_related",
+        "name": "恶性肿瘤相关噬血细胞综合征",
+        "parent_disease_id": "disease_hlh",
+        "disease_subtype": "肿瘤相关型",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "血液系统恶性肿瘤及实体瘤患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(1)恶性肿瘤相关HLH:常见于血液系统恶性肿瘤，包括淋巴瘤和急性白血病等。淋巴瘤相关HLH最常见，尤以自然杀伤(natural killer, NK)细胞和T细胞淋巴瘤多见。HLH也可继发于少数实体肿瘤，如胃癌、胸腺癌和胚胎细胞肿瘤等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hlh_rheumatic_immunologic",
+        "name": "风湿免疫性疾病相关噬血细胞综合征",
+        "parent_disease_id": "disease_hlh",
+        "disease_subtype": "巨噬细胞活化综合征",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "sJIA、AOSD、SLE等患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(2) 风湿免疫性疾病相关HLH，又称巨噬细胞活化综合征（macrophage activation syndrome, MAS):常见于全身性青少年特发性关节炎(systemic juvenile idiopathic arthritis，sJIA〉、成人 Still 病（adult onset still disease， AOSD )、系统性红斑狼疮（systemic lupus erythematosus, SLE)和坏死性淋巴结炎等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hlh_infection_related",
+        "name": "感染相关噬血细胞综合征",
+        "parent_disease_id": "disease_hlh",
+        "disease_subtype": "感染诱发型",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "各类感染患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(3) 感染相关HLH:继发性HLH的最常见诱因，包括细菌、真菌、病毒及原虫感染等，可以为感染触发和（或)宿主免疫功能受损时的机会性致病。病毒是感染相关HLH最常见的诱因，尤以EB病毒(epstein-barr virus, EBV)感染最常见。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "①发热：体温>38.5 °C，持续>7 d"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_splenomegaly",
+        "name": "脾大",
+        "body_site": "腹部",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "②脾大"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_cytopenia",
+        "name": "血细胞减少",
+        "body_site": "血液",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "③血细胞减少（累及外周血两系或三系）：血红蛋白<90 g/L( <4周婴儿，血红蛋白<100 g/L) 血小板<100x10^9/L,中性粒细胞<1.0x10^9/L且非骨髓造血功能减低所致"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hepatomegaly",
+        "name": "肝肿大",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "以发热、血细胞减少、肝脾肿大及肝、脾、淋巴结和骨髓组织发现噬血现象为主要临床特征。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_lymphadenopathy",
+        "name": "淋巴结肿大",
+        "body_site": "全身淋巴结",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "以发热、血细胞减少、肝脾肿大及肝、脾、淋巴结和骨髓组织发现噬血现象为主要临床特征。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_irritability",
+        "name": "易激惹",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_altered_mentation",
+        "name": "意识改变",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_seizure",
+        "name": "癫痫",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_convulsion",
+        "name": "惊厥",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_meningeal_sign",
+        "name": "脑膜刺激征",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_ataxia",
+        "name": "共济失调",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hemiplegia",
+        "name": "偏瘫",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_ferritin",
+        "name": "血清铁蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "⑦血清铁蛋白升高：铁蛋白>500 μg/L"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_triglyceride",
+        "name": "甘油三酯",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "④高甘油三酯(triglyceride ， TG)血症和(或)低纤维蛋白原血症:甘油三酯>3 mmol/L 或高于同年龄的3个标准差"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_fibrinogen",
+        "name": "纤维蛋白原",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "④高甘油三酯(triglyceride ， TG)血症和(或)低纤维蛋白原血症:...纤维蛋白原<1.5 g/L 或低于同年龄的3个标准差"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_nk_activity",
+        "name": "NK细胞活性",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "⑥NK细胞活性降低或缺如"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_scd25",
+        "name": "可溶性白细胞介素-2受体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "⑧ sCD25(可溶性白细胞介素-2受体)升高。国际组织细胞协会曾定义为sCD25水平>2 400 U/ml。据国内协作组和梅奥医学中心的研究结果推荐：sCD25水平>6 400 Pg/ml可以作为诊断指标之一。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_hemophagocytosis",
+        "name": "噬血现象",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "⑤在骨髓、脾脏、肝脏或淋巴结中发现噬血现象"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_csf_cell_count",
+        "name": "脑脊液细胞计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "（3)脑脊液(cerebrospinal fluid, CSF)异常:脑脊液细胞增多和(或）蛋白质升高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_csf_protein",
+        "name": "脑脊液蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "（3)脑脊液(cerebrospinal fluid, CSF)异常:脑脊液细胞增多和(或）蛋白质升高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ebv_dna",
+        "name": "EBV-DNA",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "EBV-DNA(单个核细胞和血浆)检测对协助寻找HLH的病因或诱发因素具有重要意义。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_hlh_induction",
+        "content": "诱导缓解治疗主要针对过度的炎症状态以控制HLH活化进展",
+        "recommendation_strength": "A级推荐，Ib级证据",
+        "source_section": "四、HLH的治疗路径",
+        "evidence_ids": [
+          "HLH的治疗主要分为两个阶段:首先，诱导缓解治疗主要针对过度的炎症状态以控制HLH活化进展；然后，病因治疗主要纠正潜在的免疫缺陷和控制原发病以防止HLH复发。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_hlh_etiology_targeted",
+        "content": "病因治疗主要纠正潜在的免疫缺陷和控制原发病以防止HLH复发",
+        "recommendation_strength": "A级推荐，Ib级证据",
+        "source_section": "四、HLH的治疗路径",
+        "evidence_ids": [
+          "HLH的治疗主要分为两个阶段:首先，诱导缓解治疗主要针对过度的炎症状态以控制HLH活化进展；然后，病因治疗主要纠正潜在的免疫缺陷和控制原发病以防止HLH复发。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_hlh_1994",
+        "content": "HLH-1994方案适用于各种类型HLH的一线诱导治疗(A级推荐， I b级证据） 8周诱导治疗包括依托泊苷(etoposide, VP-丨6)和地塞米松，以及鞘内注射甲氨蝶呤和地塞米松。HI.H-1994方案：VP-16: 150mg/m2, 1 周 2次，第 1~2 周；150mg/m2，1周1次，第3~8周。地塞米松 :10 mg.m-2.d-1,第 1~2周；5 mg.m-2.d-1,第 3~4 周；2.5 mg.m-2.d-1,第5~6周；1.25 mg.m-2.d-1,第7~8周：基于年龄调整的VP-16使用剂量已逐步得到认可：15岁以下患者75~150 mg/m2; 15~39岁患者 75~100 mg/m2;40岁及以上患者50〜75mg/m2。",
+        "plan_level": 1,
+        "applicable_condition": "一线诱导治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "HLH-1994方案适用于各种类型HLH的一线诱导治疗(A级推荐， I b级证据） 8周诱导治疗包括依托泊苷(etoposide, VP-丨6)和地塞米松，以及鞘内注射甲氨蝶呤和地塞米松。HI.H-1994方案：VP-16: 150mg/m2, 1 周 2次，第 1~2 周；150mg/m2，1周1次，第3~8周。地塞米松 :10 mg.m-2.d-1,第 1~2周；5 mg.m-2.d-1,第 3~4 周；2.5 mg.m-2.d-1,第5~6周；1.25 mg.m-2.d-1,第7~8周：基于年龄调整的VP-16使用剂量已逐步得到认可：15岁以下患者75~150 mg/m2; 15~39岁患者 75~100 mg/m2;40岁及以上患者50〜75mg/m2。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_hlh_2004",
+        "content": "HLH-2004方案推荐从治疗初始就同时加用环孢霉素A(cyclosporine, CsA)",
+        "plan_level": 2,
+        "applicable_condition": "一线诱导治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "HLH-2004方案推荐从治疗初始就同时加用环孢霉素A(cyclosporine, CsA)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_de_p",
+        "content": "DEP方案：一种由脂质体多柔比星、依托泊苷和甲泼尼龙组成的联合治疗方案(B级推荐， II b级证据），成人难治性HLH总应答率达到76.2%,其中完全应答(complete response，CR)率27% 。起始剂量为脂质体多柔比星25 mg/m2 第1天。依托泊苷 100 mg/m2. d-1 第 1天（年龄剂量调整原则参照HLH-1994诱导方案）。甲泼尼龙2 mg.kg-1 .d-1,第 1~3天；0.2 mg.kg-1 .d-1,第4~14天（风湿免疫性疾病相关HLH可予更高剂量甲泼尼龙维持治疗）。该方案每2周重复一次。",
+        "plan_level": 3,
+        "applicable_condition": "难治性HLH挽救治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "DEP方案：一种由脂质体多柔比星、依托泊苷和甲泼尼龙组成的联合治疗方案(B级推荐， II b级证据），成人难治性HLH总应答率达到76.2%,其中完全应答(complete response，CR)率27% 。起始剂量为脂质体多柔比星25 mg/m2 第1天。依托泊苷 100 mg/m2. d-1 第 1天（年龄剂量调整原则参照HLH-1994诱导方案）。甲泼尼龙2 mg.kg-1 .d-1,第 1~3天；0.2 mg.kg-1 .d-1,第4~14天（风湿免疫性疾病相关HLH可予更高剂量甲泼尼龙维持治疗）。该方案每2周重复一次。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_ruxolitinib_mono",
+        "content": "芦可替尼（ruxolitinib):一种JAK1/2抑制剂(A级推荐，lb 级证据）。单药治疗推荐用量为：（1) 14岁以下，根据体重U 10 kg、≤20 kg或> 20 kg )，剂量分别为 2.5 mg、5 mg 或 10 mg，2 次/d；(2)14岁及以上，剂量为10mg, 2次/d。",
+        "plan_level": 4,
+        "applicable_condition": "难治性/复发性HLH",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "芦可替尼（ruxolitinib):一种JAK1/2抑制剂(A级推荐，lb 级证据）。单药治疗推荐用量为：（1) 14岁以下，根据体重U 10 kg、≤20 kg或> 20 kg )，剂量分别为 2.5 mg、5 mg 或 10 mg，2 次/d；(2)14岁及以上，剂量为10mg, 2次/d。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_emapalumab",
+        "content": "依帕伐单抗（emapalumab):一种干扰素(lFN)-γ的单克隆抗体(B级推荐， II b级证据），能有效中和IFN-γ且控制过度炎症反应，原发性HLH经治患者有效率63%。依帕伐单抗起始剂量为1 mg/kg，3 d-1，根据临床和药代动力学评估调整剂量 ，随后剂量可递增至3 mg/kg, 6 mg/kg，最大10 mg/kg。治疗时间初步设计为8周，可根据实际情况延长（等待接受造血干细胞移植)或缩短(不少于4周）。可与地塞米松联用，地塞米松剂量为5〜10 mg*m-2• d-1，依帕伐单抗给药前I天开始，可根据患者情况评估减量。",
+        "plan_level": 5,
+        "applicable_condition": "原发性HLH挽救治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "依帕伐单抗（emapalumab):一种干扰素(lFN)-γ的单克隆抗体(B级推荐， II b级证据），能有效中和IFN-γ且控制过度炎症反应，原发性HLH经治患者有效率63%。依帕伐单抗起始剂量为1 mg/kg，3 d-1，根据临床和药代动力学评估调整剂量 ，随后剂量可递增至3 mg/kg, 6 mg/kg，最大10 mg/kg。治疗时间初步设计为8周，可根据实际情况延长（等待接受造血干细胞移植)或缩短(不少于4周）。可与地塞米松联用，地塞米松剂量为5〜10 mg*m-2• d-1，依帕伐单抗给药前I天开始，可根据患者情况评估减量。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_itmt",
+        "content": "确诊CNS-HLH的患者，病情允许时应尽早给予鞘内注射甲氨蝶呤(methotrexate，MTX)和地塞米松(<lexamethasone,Dex)。根据年龄调整的剂量如下：年龄<1 岁，MTX 6 mg/Dex 2 mg; I 〜2 岁，MTX 8 mg/Dex 2 mg;2〜3 岁，MTX 10 mg/Dex 4 mg;>3岁，MTX 12 mg/Dex 5 mg。每周鞘内注射治疗持续到中枢神经系统(临床和CSF指标)恢复正常至少1周后。",
+        "plan_level": 6,
+        "applicable_condition": "CNS-HLH",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "确诊CNS-HLH的患者，病情允许时应尽早给予鞘内注射甲氨蝶呤(methotrexate，MTX)和地塞米松(<lexamethasone,Dex)。根据年龄调整的剂量如下：年龄<1 岁，MTX 6 mg/Dex 2 mg; I 〜2 岁，MTX 8 mg/Dex 2 mg;2〜3 岁，MTX 10 mg/Dex 4 mg;>3岁，MTX 12 mg/Dex 5 mg。每周鞘内注射治疗持续到中枢神经系统(临床和CSF指标)恢复正常至少1周后。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_genetic_defect",
+        "content": "遗传性淋巴细胞毒功能受损或炎症活性相关基因缺陷",
+        "etiology_type": "遗传因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "1. 原发性HLH:由遗传性淋巴细胞毒功能受损或炎症活性相关基因缺陷导致。遗传方式主要为性染色体和（或）常染色体隐性遗传。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_malignancy",
+        "content": "恶性肿瘤",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "(1)恶性肿瘤相关HLH:常见于血液系统恶性肿瘤，包括淋巴瘤和急性白血病等。淋巴瘤相关HLH最常见，尤以自然杀伤(natural killer, NK)细胞和T细胞淋巴瘤多见。HLH也可继发于少数实体肿瘤，如胃癌、胸腺癌和胚胎细胞肿瘤等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_rheumatic_immunologic_disease",
+        "content": "风湿免疫性疾病",
+        "etiology_type": "自身免疫因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "(2) 风湿免疫性疾病相关HLH，又称巨噬细胞活化综合征（macrophage activation syndrome, MAS):常见于全身性青少年特发性关节炎(systemic juvenile idiopathic arthritis，sJIA〉、成人 Still 病（adult onset still disease， AOSD )、系统性红斑狼疮（systemic lupus erythematosus, SLE)和坏死性淋巴结炎等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_infection",
+        "content": "感染",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "(3) 感染相关HLH:继发性HLH的最常见诱因，包括细菌、真菌、病毒及原虫感染等，可以为感染触发和（或)宿主免疫功能受损时的机会性致病。病毒是感染相关HLH最常见的诱因，尤以EB病毒(epstein-barr virus, EBV)感染最常见。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_transplant",
+        "content": "器官和造血干细胞移植",
+        "etiology_type": "医源性因素",
+        "typicality": "少见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "(4)其他：器官和造血干细胞移植、嵌合抗原受体T细胞免疫治疗、妊娠和药物等也可诱发HLH。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_car_t",
+        "content": "嵌合抗原受体T细胞免疫治疗",
+        "etiology_type": "医源性因素",
+        "typicality": "少见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "(4)其他：器官和造血干细胞移植、嵌合抗原受体T细胞免疫治疗、妊娠和药物等也可诱发HLH。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_pregnancy",
+        "content": "妊娠",
+        "etiology_type": "生理因素",
+        "typicality": "少见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "(4)其他：器官和造血干细胞移植、嵌合抗原受体T细胞免疫治疗、妊娠和药物等也可诱发HLH。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_drug",
+        "content": "药物",
+        "etiology_type": "医源性因素",
+        "typicality": "少见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "(4)其他：器官和造血干细胞移植、嵌合抗原受体T细胞免疫治疗、妊娠和药物等也可诱发HLH。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_immunoregulatory_dysfunction",
+        "content": "遗传性或获得性免疫调节功能异常导致的淋巴细胞、单核细胞和巨噬细胞异常激活、增殖和分泌大量炎性细胞因子引起的过度炎症反应综合征。",
+        "evidence_ids": [
+          "一种遗传性或获得性免疫调节功能异常导致的淋巴细胞、单核细胞和巨噬细胞异常激活、增殖和分泌大量炎性细胞因子引起的过度炎症反应综合征。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_hlh",
+        "to": "sub_disease_hlh_primary",
+        "relation_id": "rel_hlh_has_primary",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "1. 原发性HLH:由遗传性淋巴细胞毒功能受损或炎症活性相关基因缺陷导致。遗传方式主要为性染色体和（或）常染色体隐性遗传。目前报道的HLH相关基因100余种，相对明确的HLH致病基因有17种。根据基因缺陷的特点，将原发性HLH归类如下：（1)家族性HLH (familial hemophagocytic lymphohistiocytosis, FHL)，共5个亚型，包括FHL-1~5。FHL-1相关的缺陷基因及编码蛋白至今仍未确定，FHL-2至FHL-5对应PRF1、UNC13D、STX11及 STXBP2 基因及编码蛋白。（2 )免疫缺陷综合征相关HLH，包括Griscelli综合征2 (GS-2)、Chediak-Higashi综合征（CHS)和Hermansky-Pudlak综合征2( HPS-2)，缺陷基因分别是RAB27A、LYST和AP3B1。（3)X连锁淋巴增生性疾病(X-linked lymphoproliferative disease, XLP)，包括XLP-1、XLP-2，缺陷基因分别是SH2D1A、XIAP，以及自身炎症性疾病相关NLRC4和CDC42基因。（4)EB病毒驱动型HLH，缺陷基因包括镁离子转运基因（magnesium transporter 1, MAGT1 )、白细胞介素-2诱导的T细胞激酶(IL-2-inducible T-cell kinase, ITK)、CD27、CD70、CTPS1 和 RASGRP1 基因。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hlh",
+        "to": "sub_disease_hlh_secondary",
+        "relation_id": "rel_hlh_has_secondary",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "2. 继发性HLH:由肿瘤、风湿免疫性疾病、感染等多种诱因所致的严重炎症反应综合征，通常无已知的HLH致病基因缺陷及家族史。随着基因突变鉴定及认识的不断进步，继发性HLH和原发性HLH二者之间的界限变得模糊，目前认为很多继发性HLH也存在一定的基因背景，如原发性HLH相关基因的杂合改变及多态性，并且在遭受外界触发因素（如病毒感染等）的“二次打击”后表现出HLH发病。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hlh",
+        "to": "sub_disease_hlh_cns",
+        "relation_id": "rel_hlh_has_cns",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(二） HLH中枢神经系统受累（central nervous system-HLH ， CNS-HLH):可为 HLH 首发临床表现，也可在HLH病程中发生：（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）；（2)中枢神经系统影像学异常:头颅MRI提示脑实质或脑膜异常；（3)脑脊液(cerebrospinal fluid, CSF)异常:脑脊液细胞增多和(或）蛋白质升高。HLH患者出现上述一项或多项异常时，需考虑诊断CNS-HLH。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hlh",
+        "to": "sub_disease_hlh_malignancy_related",
+        "relation_id": "rel_hlh_has_malignancy_related",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(1)恶性肿瘤相关HLH:常见于血液系统恶性肿瘤，包括淋巴瘤和急性白血病等。淋巴瘤相关HLH最常见，尤以自然杀伤(natural killer, NK)细胞和T细胞淋巴瘤多见。HLH也可继发于少数实体肿瘤，如胃癌、胸腺癌和胚胎细胞肿瘤等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hlh",
+        "to": "sub_disease_hlh_rheumatic_immunologic",
+        "relation_id": "rel_hlh_has_rheumatic_immunologic",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(2) 风湿免疫性疾病相关HLH，又称巨噬细胞活化综合征（macrophage activation syndrome, MAS):常见于全身性青少年特发性关节炎(systemic juvenile idiopathic arthritis，sJIA〉、成人 Still 病（adult onset still disease， AOSD )、系统性红斑狼疮（systemic lupus erythematosus, SLE)和坏死性淋巴结炎等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hlh",
+        "to": "sub_disease_hlh_infection_related",
+        "relation_id": "rel_hlh_has_infection_related",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(3) 感染相关HLH:继发性HLH的最常见诱因，包括细菌、真菌、病毒及原虫感染等，可以为感染触发和（或)宿主免疫功能受损时的机会性致病。病毒是感染相关HLH最常见的诱因，尤以EB病毒(epstein-barr virus, EBV)感染最常见。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "symptom_fever",
+        "relation_id": "rel_primary_hlh_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "HLH_2004_5_of_8",
+        "required_count": 5,
+        "typicality": "typical",
+        "duration_condition": "持续>7 d",
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "①发热：体温>38.5 °C，持续>7 d"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将发热列为HLH-2004诊断标准第①项，且为8项中首项，属确诊必要指标之一；全文多处强调其为‘主要临床特征’",
+        "evidence": "①发热：体温>38.5°C，持续>7d;"
+      },
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "symptom_splenomegaly",
+        "relation_id": "rel_primary_hlh_manifests_as_splenomegaly",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "HLH_2004_5_of_8",
+        "required_count": 5,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "②脾大"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将脾大列为HLH-2004诊断标准第②项，且为8项中核心体征；并定义HLH‘以发热、血细胞减少、肝脾肿大……为主要临床特征’",
+        "evidence": "②脾大;"
+      },
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "symptom_cytopenia",
+        "relation_id": "rel_primary_hlh_manifests_as_cytopenia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "HLH_2004_5_of_8",
+        "required_count": 5,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "③血细胞减少（累及外周血两系或三系）：血红蛋白<90 g/L( <4周婴儿，血红蛋白<100 g/L) 血小板<100x10^9/L,中性粒细胞<1.0x10^9/L且非骨髓造血功能减低所致"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将血细胞减少列为HLH-2004诊断标准第③项，且表述为‘累及外周血两系或三系’；并定义HLH‘以发热、血细胞减少、肝脾肿大……为主要临床特征’",
+        "evidence": "③血细胞减少（累及外周血两系或三系）：血红蛋白<90g/L"
+      },
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "symptom_hepatomegaly",
+        "relation_id": "rel_primary_hlh_manifests_as_hepatomegaly",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": "HLH_2004_5_of_8",
+        "required_count": 5,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "以发热、血细胞减少、肝脾肿大及肝、脾、淋巴结和骨髓组织发现噬血现象为主要临床特征。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将‘肝脾肿大’并列作为主要临床特征，但‘肝肿大’未单独列为HLH-2004八项诊断指标之一；仅‘脾大’单列，肝肿大属隐含在‘肝脾肿大’中，证据强度弱于脾大",
+        "evidence": "以发热、血细胞减少、肝脾肿大及肝、脾、淋巴结和骨髓组织发现噬血现象为主要临床特征。"
+      },
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "symptom_lymphadenopathy",
+        "relation_id": "rel_primary_hlh_manifests_as_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": "HLH_2004_5_of_8",
+        "required_count": 5,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "以发热、血细胞减少、肝脾肿大及肝、脾、淋巴结和骨髓组织发现噬血现象为主要临床特征。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将‘淋巴结’与肝脾并列出现在‘主要临床特征’句中，但未单列于HLH-2004八项标准；仅‘在骨髓、脾脏、肝脏或淋巴结中发现噬血现象’提及淋巴结，属间接支持",
+        "evidence": "以发热、血细胞减少、肝脾肿大及肝、脾、淋巴结和骨髓组织发现噬血现象为主要临床特征。"
+      },
+      {
+        "from": "sub_disease_hlh_cns",
+        "to": "symptom_irritability",
+        "relation_id": "rel_cns_hlh_manifests_as_irritability",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "CNS_HLH_1_of_3",
+        "required_count": 1,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在CNS-HLH症状/体征条目下明确列举‘易激惹’为首发表现之一，属直接定义性描述",
+        "evidence": "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）；"
+      },
+      {
+        "from": "sub_disease_hlh_cns",
+        "to": "symptom_altered_mentation",
+        "relation_id": "rel_cns_hlh_manifests_as_altered_mentation",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "CNS_HLH_1_of_3",
+        "required_count": 1,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在CNS-HLH症状/体征条目下明确列举‘意识改变’为首发表现之一，属直接定义性描述",
+        "evidence": "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）；"
+      },
+      {
+        "from": "sub_disease_hlh_cns",
+        "to": "symptom_seizure",
+        "relation_id": "rel_cns_hlh_manifests_as_seizure",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "CNS_HLH_1_of_3",
+        "required_count": 1,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在CNS-HLH症状/体征条目下明确列举‘癫痫’为首发表现之一，属直接定义性描述",
+        "evidence": "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）；"
+      },
+      {
+        "from": "sub_disease_hlh_cns",
+        "to": "symptom_convulsion",
+        "relation_id": "rel_cns_hlh_manifests_as_convulsion",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "CNS_HLH_1_of_3",
+        "required_count": 1,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在CNS-HLH症状/体征条目下明确列举‘惊厥’为首发表现之一，属直接定义性描述",
+        "evidence": "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）；"
+      },
+      {
+        "from": "sub_disease_hlh_cns",
+        "to": "symptom_meningeal_sign",
+        "relation_id": "rel_cns_hlh_manifests_as_meningeal_sign",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "CNS_HLH_1_of_3",
+        "required_count": 1,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在CNS-HLH症状/体征条目下明确列举‘脑膜刺激征’为首发表现之一，属直接定义性描述",
+        "evidence": "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）；"
+      },
+      {
+        "from": "sub_disease_hlh_cns",
+        "to": "symptom_ataxia",
+        "relation_id": "rel_cns_hlh_manifests_as_ataxia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "CNS_HLH_1_of_3",
+        "required_count": 1,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在CNS-HLH症状/体征条目下明确列举‘共济失调’为首发表现之一，属直接定义性描述",
+        "evidence": "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）；"
+      },
+      {
+        "from": "sub_disease_hlh_cns",
+        "to": "symptom_hemiplegia",
+        "relation_id": "rel_cns_hlh_manifests_as_hemiplegia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "CNS_HLH_1_of_3",
+        "required_count": 1,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在CNS-HLH症状/体征条目下明确列举‘偏瘫’为首发表现之一，属直接定义性描述",
+        "evidence": "（1)症状/体征:表现为精神和(或)神经系统症状(如易激惹、意识改变、癫痫、惊厥、脑膜刺激征、共济失调、偏瘫等）；"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "test_ferritin",
+        "relation_id": "rel_primary_hlh_requires_ferritin",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 500,
+        "value_max": null,
+        "operator": ">",
+        "unit": "μg/L",
+        "result_text": null,
+        "weight": 100,
+        "gold_standard": false,
+        "criterion_group_id": "HLH_2004_5_of_8",
+        "required_count": 5,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "⑦血清铁蛋白升高：铁蛋白>500 μg/L"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘血清铁蛋白>500 μg/L’为HLH-2004诊断标准第⑦项，且称‘铁蛋白≥500 μg/L成为HLH的诊断标准之一’，属8项确诊指标之一",
+        "evidence": "⑦血清铁蛋白升高：铁蛋白>500g/L;"
+      },
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "test_triglyceride",
+        "relation_id": "rel_primary_hlh_requires_triglyceride",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 3,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mmol/L",
+        "result_text": null,
+        "weight": 100,
+        "gold_standard": false,
+        "criterion_group_id": "HLH_2004_5_of_8",
+        "required_count": 5,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "④高甘油三酯(triglyceride ， TG)血症和(或)低纤维蛋白原血症:甘油三酯>3 mmol/L 或高于同年龄的3个标准差"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘空腹TG>3.0 mmol/L’为HLH-2004诊断标准第④项（高甘油三酯血症），属8项确诊指标之一",
+        "evidence": "④高甘油三酯(triglyceride，TG)血症和(或)低纤维蛋白原血症:甘油三酯>3mmol/L"
+      },
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "test_fibrinogen",
+        "relation_id": "rel_primary_hlh_requires_fibrinogen",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 1.5,
+        "operator": "<",
+        "unit": "g/L",
+        "result_text": null,
+        "weight": 100,
+        "gold_standard": false,
+        "criterion_group_id": "HLH_2004_5_of_8",
+        "required_count": 5,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "④高甘油三酯(triglyceride ， TG)血症和(或)低纤维蛋白原血症:...纤维蛋白原<1.5 g/L 或低于同年龄的3个标准差"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘纤维蛋白原<1.5 g/L’为HLH-2004诊断标准第④项（低纤维蛋白原血症），属8项确诊指标之一",
+        "evidence": "④高甘油三酯(triglyceride，TG)血症和(或)低纤维蛋白原血症:甘油三酯>3mmol/L或高于同年龄的3个标准差，纤维蛋白原<1.5g/L"
+      },
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "test_nk_activity",
+        "relation_id": "rel_primary_hlh_requires_nk_activity",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "降低或缺如",
+        "weight": 100,
+        "gold_standard": false,
+        "criterion_group_id": "HLH_2004_5_of_8",
+        "required_count": 5,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "⑥NK细胞活性降低或缺如"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘NK细胞活性降低或缺如’为HLH-2004诊断标准第⑥项，属8项确诊指标之一",
+        "evidence": "⑥NK细胞活性降低或缺如；"
+      },
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "test_scd25",
+        "relation_id": "rel_primary_hlh_requires_scd25",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 6400,
+        "value_max": null,
+        "operator": ">",
+        "unit": "Pg/ml",
+        "result_text": null,
+        "weight": 100,
+        "gold_standard": false,
+        "criterion_group_id": "HLH_2004_5_of_8",
+        "required_count": 5,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "⑧ sCD25(可溶性白细胞介素-2受体)升高。国际组织细胞协会曾定义为sCD25水平>2 400 U/ml。据国内协作组和梅奥医学中心的研究结果推荐：sCD25水平>6 400 Pg/ml可以作为诊断指标之一。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘sCD25升高’为HLH-2004诊断标准第⑧项，且定义为‘sCD25水平>2400 U/ml’，属8项确诊指标之一",
+        "evidence": "®SCD25(可溶性白细胞介素-2受体)升高。"
+      },
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "test_hemophagocytosis",
+        "relation_id": "rel_primary_hlh_requires_hemophagocytosis",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "在骨髓、脾脏、肝脏或淋巴结中发现噬血现象",
+        "weight": 100,
+        "gold_standard": false,
+        "criterion_group_id": "HLH_2004_5_of_8",
+        "required_count": 5,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "⑤在骨髓、脾脏、肝脏或淋巴结中发现噬血现象"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘在骨髓、脾脏、肝脏或淋巴结中发现噬血现象’为HLH-2004诊断标准第⑤项，属8项确诊指标之一",
+        "evidence": "⑤在骨髓、脾脏、肝脏或淋巴结中发现噬血现象;"
+      },
+      {
+        "from": "sub_disease_hlh_cns",
+        "to": "test_csf_cell_count",
+        "relation_id": "rel_cns_hlh_requires_csf_cell_count",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": "细胞增多",
+        "weight": 100,
+        "gold_standard": false,
+        "criterion_group_id": "CNS_HLH_1_of_3",
+        "required_count": 1,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（3)脑脊液(cerebrospinal fluid, CSF)异常:脑脊液细胞增多和(或）蛋白质升高。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在CNS-HLH诊断依据中明确‘脑脊液细胞增多’为CSF异常的两项之一，且‘上述一项或多项异常时，需考虑诊断CNS-HLH’，属直接定义性检测要求",
+        "evidence": "（3)脑脊液(cerebrospinalfluid,CSF)异常:脑脊液细胞增多和(或）蛋白质升高。"
+      },
+      {
+        "from": "sub_disease_hlh_cns",
+        "to": "test_csf_protein",
+        "relation_id": "rel_cns_hlh_requires_csf_protein",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": "蛋白质升高",
+        "weight": 100,
+        "gold_standard": false,
+        "criterion_group_id": "CNS_HLH_1_of_3",
+        "required_count": 1,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（3)脑脊液(cerebrospinal fluid, CSF)异常:脑脊液细胞增多和(或）蛋白质升高。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在CNS-HLH诊断依据中明确‘蛋白质升高’为CSF异常的两项之一，且‘上述一项或多项异常时，需考虑诊断CNS-HLH’，属直接定义性检测要求",
+        "evidence": "（3)脑脊液(cerebrospinalfluid,CSF)异常:脑脊液细胞增多和(或）蛋白质升高。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "treatment_hlh_induction",
+        "relation_id": "rel_primary_hlh_follows_induction",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊后立即启动",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "A级推荐，Ib级证据",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四、HLH的治疗路径",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hlh_secondary",
+        "to": "treatment_hlh_induction",
+        "relation_id": "rel_secondary_hlh_follows_induction",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊后立即启动",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "A级推荐，Ib级证据",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四、HLH的治疗路径",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hlh_cns",
+        "to": "treatment_hlh_induction",
+        "relation_id": "rel_cns_hlh_follows_induction",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊后立即启动",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "A级推荐，Ib级证据",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四、HLH的治疗路径",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_hlh_induction",
+        "to": "plan_hlh_1994",
+        "relation_id": "rel_induction_implements_by_hlh1994",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "一线诱导治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "HLH-1994方案适用于各种类型HLH的一线诱导治疗(A级推荐， I b级证据） 8周诱导治疗包括依托泊苷(etoposide, VP-丨6)和地塞米松，以及鞘内注射甲氨蝶呤和地塞米松。HI.H-1994方案：VP-16: 150mg/m2, 1 周 2次，第 1~2 周；150mg/m2，1周1次，第3~8周。地塞米松 :10 mg.m-2.d-1,第 1~2周；5 mg.m-2.d-1,第 3~4 周；2.5 mg.m-2.d-1,第5~6周；1.25 mg.m-2.d-1,第7~8周：基于年龄调整的VP-16使用剂量已逐步得到认可：15岁以下患者75~150 mg/m2; 15~39岁患者 75~100 mg/m2;40岁及以上患者50〜75mg/m2。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_hlh_induction",
+        "to": "plan_hlh_2004",
+        "relation_id": "rel_induction_implements_by_hlh2004",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "一线诱导治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "HLH-2004方案推荐从治疗初始就同时加用环孢霉素A(cyclosporine, CsA)"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "etiology_genetic_defect",
+        "relation_id": "rel_primary_hlh_causes_genetic_defect",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "1. 原发性HLH:由遗传性淋巴细胞毒功能受损或炎症活性相关基因缺陷导致。遗传方式主要为性染色体和（或）常染色体隐性遗传。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hlh_secondary",
+        "to": "etiology_malignancy",
+        "relation_id": "rel_secondary_hlh_causes_malignancy",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "常见",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "(1)恶性肿瘤相关HLH:常见于血液系统恶性肿瘤，包括淋巴瘤和急性白血病等。淋巴瘤相关HLH最常见，尤以自然杀伤(natural killer, NK)细胞和T细胞淋巴瘤多见。HLH也可继发于少数实体肿瘤，如胃癌、胸腺癌和胚胎细胞肿瘤等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hlh_secondary",
+        "to": "etiology_rheumatic_immunologic_disease",
+        "relation_id": "rel_secondary_hlh_causes_rheumatic_immunologic_disease",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "常见",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "(2) 风湿免疫性疾病相关HLH，又称巨噬细胞活化综合征（macrophage activation syndrome, MAS):常见于全身性青少年特发性关节炎(systemic juvenile idiopathic arthritis，sJIA〉、成人 Still 病（adult onset still disease， AOSD )、系统性红斑狼疮（systemic lupus erythematosus, SLE)和坏死性淋巴结炎等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hlh_secondary",
+        "to": "etiology_infection",
+        "relation_id": "rel_secondary_hlh_causes_infection",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "典型",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "(3) 感染相关HLH:继发性HLH的最常见诱因，包括细菌、真菌、病毒及原虫感染等，可以为感染触发和（或)宿主免疫功能受损时的机会性致病。病毒是感染相关HLH最常见的诱因，尤以EB病毒(epstein-barr virus, EBV)感染最常见。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_hlh_primary",
+        "to": "pathogenesis_immunoregulatory_dysfunction",
+        "relation_id": "rel_primary_hlh_explained_by_immunoregulatory_dysfunction",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "一种遗传性或获得性免疫调节功能异常导致的淋巴细胞、单核细胞和巨噬细胞异常激活、增殖和分泌大量炎性细胞因子引起的过度炎症反应综合征。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

@@ -1,0 +1,947 @@
+{
+  "meta": {
+    "doc_id": "非结核分枝杆菌病诊断与治疗指南(2020年版)",
+    "source_title": "非结核分枝杆菌病诊断与治疗指南(2020年版）",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_ntm",
+        "name": "非结核分枝杆菌病",
+        "normalized_name": "非结核分枝杆菌病",
+        "aliases": [
+          "NTM病"
+        ],
+        "source_document_ids": [
+          "非结核分枝杆菌病诊断与治疗指南(2020年版）"
+        ],
+        "evidence_ids": [
+          "NTM病是指人体感染了 NTM,并引起相关组织、脏器的病变。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_ntm_pulmonary",
+        "name": "NTM肺病",
+        "parent_disease_id": "disease_ntm",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "NTM肺病是最常见的NTM病，在国外约占70%〜80%，我国没有这方面的具体数据。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ntm_lymphadenitis",
+        "name": "NTM淋巴结病",
+        "parent_disease_id": "disease_ntm",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "儿童",
+        "gender": "all",
+        "age_min": 1,
+        "age_max": 5,
+        "evidence_ids": [
+          "NTM淋巴结病多见于儿童，是儿童最常见的NTM病。儿童 NTM淋巴结病以1~5岁多见，10岁以上儿童少见。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ntm_cutaneous",
+        "name": "NTM皮肤病",
+        "parent_disease_id": "disease_ntm",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "NTM可引起皮肤及皮下软组织感染，引起皮肤病变的主要菌种有脓肿分枝杆菌、龟分枝杆菌、偶发分枝杆菌、海分枝杆菌、溃疡分枝杆菌等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ntm_disseminated",
+        "name": "播散性NTM病",
+        "parent_disease_id": "disease_ntm",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "免疫受损患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "播散性NTM病主要见于免疫受损患者，最常见于HIV感染的个体。播散性NTM病很少累及免疫功能正常人群。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_cough",
+        "name": "咳嗽",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "有些患者病起较快，出现咳嗽、咳痰、咯血、胸痛、胸闷、气喘、盗汗、低热、乏力、消瘦及萎靡不振等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hemoptysis",
+        "name": "咯血",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "有些患者病起较快，出现咳嗽、咳痰、咯血、胸痛、胸闷、气喘、盗汗、低热、乏力、消瘦及萎靡不振等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fever",
+        "name": "低热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "有些患者病起较快，出现咳嗽、咳痰、咯血、胸痛、胸闷、气喘、盗汗、低热、乏力、消瘦及萎靡不振等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_night_sweat",
+        "name": "盗汗",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "有些患者病起较快，出现咳嗽、咳痰、咯血、胸痛、胸闷、气喘、盗汗、低热、乏力、消瘦及萎靡不振等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "乏力",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "有些患者病起较快，出现咳嗽、咳痰、咯血、胸痛、胸闷、气喘、盗汗、低热、乏力、消瘦及萎靡不振等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_weight_loss",
+        "name": "消瘦",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "有些患者病起较快，出现咳嗽、咳痰、咯血、胸痛、胸闷、气喘、盗汗、低热、乏力、消瘦及萎靡不振等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_chronic_lymphadenopathy",
+        "name": "慢性淋巴结肿大",
+        "body_site": "淋巴系统",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "NTM淋巴结病多见于儿童，是儿童最常见的NTM病……最常累及的部位是上颈部和下颌下淋巴结……单侧累及多见，双侧少见。大多无全身症状及体征,仅有局部淋巴结受累的表现，无或有轻度压痛，可迅速软化、破溃形成慢性窦道，可长期迁延不愈。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_skin_induration",
+        "name": "皮肤硬结",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "NTM皮肤病开始表现为局部皮肤发红、肿痛和硬结，此阶段可以持续1〜2年；接着形成皮下及软组织脓肿并破溃……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_abscess",
+        "name": "脓肿",
+        "body_site": "皮肤及皮下组织",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "NTM皮肤病开始表现为局部皮肤发红、肿痛和硬结……接着形成皮下及软组织脓肿并破溃，脓肿为冷脓肿，脓液较为稀薄，干酪样坏死物较少……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fever_disseminated",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "播散性NTM病可表现为播散性淋巴结炎、皮肤病变、骨病、肝病、胃肠道感染、心内膜、心包炎及脑膜炎等……常见症状为发热（持续性或间歇性），多有进行性体重减轻、夜间盗汗……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "胃肠道症状表现为轻度腹痛，甚至持续性腹痛、腹泻不易缓解及消化不良等……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_diarrhea",
+        "name": "腹泻",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "胃肠道症状表现为轻度腹痛，甚至持续性腹痛、腹泻不易缓解及消化不良等……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_sputum_culture_ntm",
+        "name": "痰NTM培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "2份分开送检的痰标本NTM培养阳性并鉴定为同一致病菌，和（或）NTM分子生物学检测均为同一致病菌；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_bronchoalveolar_lavage_culture_ntm",
+        "name": "支气管肺泡灌洗液NTM培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "支气管冲洗液或支气管肺泡灌洗液NTM培养和（或）分子生物学检测1次阳性；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_tissue_biopsy_ntm",
+        "name": "肺活检组织NTM培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "经支气管镜或其他途径肺活组织检查发现分枝杆菌病组织病理学特征性改变（肉芽肿性炎症或抗酸染色阳性），并且NTM培养和（或）分子生物学检测阳性；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_molecular_detection_ntm",
+        "name": "NTM分子生物学检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "2份分开送检的痰标本NTM培养阳性并鉴定为同一致病菌，和（或）NTM分子生物学检测均为同一致病菌；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_blood_culture_ntm",
+        "name": "血NTM培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "血NTM培养和（或）分子生物学检测阳性，和（或)骨髓、肝脏、胸内或腹内淋巴结穿刺物NTM培养和（或）分子生物学检测阳性。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_ntm_principle",
+        "content": "确诊的NTM病需要进行抗分枝杆菌治疗，尤其是痰抗酸染色阳性和（或）影像学有空洞的NTM肺病。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗原则",
+        "evidence_ids": [
+          "确诊的NTM病需要进行抗分枝杆菌治疗，尤其是痰抗酸染色阳性和（或）影像学有空洞的NTM肺病。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_ntm_species_guided",
+        "content": "由于NTM的耐药模式因菌种不同而有所差异，所以治疗前的分枝杆菌菌种鉴定和药敏试验结果十分重要。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗原则",
+        "evidence_ids": [
+          "由于NTM的耐药模式因菌种不同而有所差异，所以治疗前的分枝杆菌菌种鉴定和药敏试验结果十分重要。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_ntm_drug_selection",
+        "content": "对于已经明确的相关性，如大环内酯类和阿米卡星耐药与MAC病和脓肿分枝杆菌病疗效相关性、利福平耐药与堪萨斯分枝杆菌病疗效相关性，在制定NTM病化疗方案时应根据这些药物的药敏试验结果选用药物。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗原则",
+        "evidence_ids": [
+          "对于已经明确的相关性，如大环内酯类和阿米卡星耐药与MAC病和脓肿分枝杆菌病疗效相关性、利福平耐药与堪萨斯分枝杆菌病疗效相关性，在制定NTM病化疗方案时应根据这些药物的药敏试验结果选用药物。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_mac_daily_regimen",
+        "content": "对于有纤维空洞的MAC肺病或严重的结节性病灶及支气管扩张症患者，建议每日治疗方案：阿奇霉素250~500 mg/d或克拉霉素500~1 000 mg/d(体重<50 kg时用500 mg/d)、利福平 450~600 mg/d(体重<50 kg 时用 450 mg/d)和乙胺丁醇15 mg*kg-1•d-1, 口服；治疗开始3个月应用阿米卡星肌内注射、静脉滴注或雾化吸入，疗程持续至痰培养阴转后至少1年。",
+        "plan_level": 1,
+        "applicable_condition": "有纤维空洞的MAC肺病或严重的结节性病灶及支气管扩张症患者",
+        "contraindication_note": "注意大环内酯类药物与利福布汀的相互作用",
+        "evidence_ids": [
+          "对于有纤维空洞的MAC肺病或严重的结节性病灶及支气管扩张症患者，建议每日治疗方案：阿奇霉素250~500 mg/d或克拉霉素500~1 000 mg/d(体重<50 kg时用500 mg/d)、利福平 450~600 mg/d(体重<50 kg 时用 450 mg/d)和乙胺丁醇15 mg*kg-1•d-1, 口服；治疗开始3个月应用阿米卡星肌内注射、静脉滴注或雾化吸入，疗程持续至痰培养阴转后至少1年。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_mac_intermittent_regimen",
+        "content": "对于肺部结节性病灶或支气管扩张不伴空洞以及不能耐受每日治疗方案的患者，建议采用每周3次的治疗方案：阿奇霉素500~600 mg/次或克拉霉素1000 mg/次、乙胺丁醇25 mg.kg-1.d-1和利福平600 mg/次，每周3次，口服，疗程持续至痰培养阴转后至少1年。",
+        "plan_level": 2,
+        "applicable_condition": "肺部结节性病灶或支气管扩张不伴空洞以及不能耐受每日治疗方案的患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于肺部结节性病灶或支气管扩张不伴空洞以及不能耐受每日治疗方案的患者，建议采用每周3次的治疗方案：阿奇霉素500~600 mg/次或克拉霉素1000 mg/次、乙胺丁醇25 mg.kg-1.d-1和利福平600 mg/次，每周3次，口服，疗程持续至痰培养阴转后至少1年。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_kansas_rifampin_sensitive",
+        "content": "利福平敏感的堪萨斯分枝杆菌肺病治疗方案:利福平 450~600 mg/d (体重<50 kg 时用 450 mg/d)、乙胺丁醇750~1000 mg_kg '_d 1和异烟肼300 mg/d或克拉霉素 500〜1 000 mg/d(体重<50 kg时用 500 mg/d)或阿奇霉素250~500 mg/d, 口服；疗程至少1年。",
+        "plan_level": 1,
+        "applicable_condition": "利福平敏感的堪萨斯分枝杆菌肺病",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "利福平敏感的堪萨斯分枝杆菌肺病治疗方案:利福平 450~600 mg/d (体重<50 kg 时用 450 mg/d)、乙胺丁醇750~1000 mg_kg '_d 1和异烟肼300 mg/d或克拉霉素 500〜1 000 mg/d(体重<50 kg时用 500 mg/d)或阿奇霉素250~500 mg/d, 口服；疗程至少1年。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_kansas_rifampin_resistant",
+        "content": "利福平耐药的堪萨斯分枝杆菌肺病治疗方案：克拉霉素500~1 000 mg/d(体重<50 kg时用500 mg/d)或阿奇霉素250~500 mg/d、莫西沙星400 mg/d、氯法齐明100〜200 mg/d 或利奈唑胺600 mg/d以及乙胺丁醇15 mg^kg' d-1, 口服；疗程持续至痰培养阴转后至少1年。",
+        "plan_level": 2,
+        "applicable_condition": "利福平耐药的堪萨斯分枝杆菌肺病",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "利福平耐药的堪萨斯分枝杆菌肺病治疗方案：克拉霉素500~1 000 mg/d(体重<50 kg时用500 mg/d)或阿奇霉素250~500 mg/d、莫西沙星400 mg/d、氯法齐明100〜200 mg/d 或利奈唑胺600 mg/d以及乙胺丁醇15 mg^kg' d-1, 口服；疗程持续至痰培养阴转后至少1年。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_mac_infection",
+        "content": "鸟分枝杆菌复合群（MAC）感染",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "临床样本中分离到MAC、脓肿分枝杆菌、堪萨斯分枝杆菌、玛尔摩分枝杆菌、蟾分枝杆菌、瘰疬分枝杆菌、龟分枝杆菌、偶发分枝杆菌及海分枝杆菌等，有致病的可能性。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_mabc_infection",
+        "content": "脓肿分枝杆菌复合群（MABC）感染",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "临床样本中分离到MAC、脓肿分枝杆菌、堪萨斯分枝杆菌、玛尔摩分枝杆菌、蟾分枝杆菌、瘰疬分枝杆菌、龟分枝杆菌、偶发分枝杆菌及海分枝杆菌等，有致病的可能性。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_m_kansasii_infection",
+        "content": "堪萨斯分枝杆菌感染",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "临床样本中分离到MAC、脓肿分枝杆菌、堪萨斯分枝杆菌、玛尔摩分枝杆菌、蟾分枝杆菌、瘰疬分枝杆菌、龟分枝杆菌、偶发分枝杆菌及海分枝杆菌等，有致病的可能性。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_host_immunocompromise",
+        "content": "免疫功能受损",
+        "etiology_type": "宿主因素",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "免疫受损人群也易患NTM病，如HIV感染、艾滋病、携带抗γ-干扰素（interferon-γ，IFN-γ)自身抗体的自身免疫性疾病、遗传性巨噬细胞和树突状细胞缺陷性疾病及肿瘤患者等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_environmental_exposure",
+        "content": "环境暴露增加（如热水器广泛使用、淋浴器气溶胶接触）",
+        "etiology_type": "环境因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "NTM病增加的原因尚不清楚，可能与……环境暴露的増加（如热水器的广泛使用以及与淋浴器气溶胶接触）……有一定的关系。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_ntm_immunopathology",
+        "content": "NTM通过呼吸道、胃肠道、皮肤等途径侵入人体后，其致病过程与结核病相似……在NTM感染开始时，中性粒细胞捕捉并杀灭大部分NTM，剩下的NTM被巨噬细胞吞噬并在巨噬细胞内生长繁殖……激活CD4+T细胞等介导的免疫反应（cell-mediated immunity, CMI）和迟发型变态反应（delayed-type hypersensitivity, DTH）。CD4+T细胞主要分泌IFN-γ和IL-12等，激活巨噬细胞杀灭NTM……",
+        "evidence_ids": [
+          "NTM通过呼吸道、胃肠道、皮肤等途径侵入人体后，其致病过程与结核病相似，但机体抗NTM免疫反应分子机制还未完全阐明。在NTM感染开始时，中性粒细胞捕捉并杀灭大部分NTM，剩下的NTM被巨噬细胞吞噬并在巨噬细胞内生长繁殖……激活CD4+T细胞等介导的免疫反应（cell-mediated immunity, CMI）和迟发型变态反应（delayed-type hypersensitivity, DTH）。CD4+T细胞主要分泌IFN-γ和IL-12等，激活巨噬细胞杀灭NTM……"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_ntm",
+        "to": "sub_disease_ntm_pulmonary",
+        "relation_id": "rel_ntm_has_pulmonary",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "NTM肺病是最常见的NTM病，在国外约占70%〜80%，我国没有这方面的具体数据。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_ntm",
+        "to": "sub_disease_ntm_lymphadenitis",
+        "relation_id": "rel_ntm_has_lymphadenitis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "NTM淋巴结病多见于儿童，是儿童最常见的NTM病。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_ntm",
+        "to": "sub_disease_ntm_cutaneous",
+        "relation_id": "rel_ntm_has_cutaneous",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "NTM可引起皮肤及皮下软组织感染，引起皮肤病变的主要菌种有脓肿分枝杆菌、龟分枝杆菌、偶发分枝杆菌、海分枝杆菌、溃疡分枝杆菌等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_ntm",
+        "to": "sub_disease_ntm_disseminated",
+        "relation_id": "rel_ntm_has_disseminated",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "播散性NTM病主要见于免疫受损患者，最常见于HIV感染的个体。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_ntm_pulmonary",
+        "to": "symptom_cough",
+        "relation_id": "rel_ntm_pulmonary_manifests_as_cough",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "有些患者病起较快，出现咳嗽、咳痰、咯血、胸痛、胸闷、气喘、盗汗、低热、乏力、消瘦及萎靡不振等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ntm_pulmonary",
+        "to": "symptom_hemoptysis",
+        "relation_id": "rel_ntm_pulmonary_manifests_as_hemoptysis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "有些患者病起较快，出现咳嗽、咳痰、咯血、胸痛、胸闷、气喘、盗汗、低热、乏力、消瘦及萎靡不振等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ntm_pulmonary",
+        "to": "symptom_fever",
+        "relation_id": "rel_ntm_pulmonary_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "有些患者病起较快，出现咳嗽、咳痰、咯血、胸痛、胸闷、气喘、盗汗、低热、乏力、消瘦及萎靡不振等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ntm_lymphadenitis",
+        "to": "symptom_chronic_lymphadenopathy",
+        "relation_id": "rel_ntm_lymphadenitis_manifests_as_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "长期迁延不愈",
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "NTM淋巴结病多见于儿童……大多无全身症状及体征,仅有局部淋巴结受累的表现，无或有轻度压痛，可迅速软化、破溃形成慢性窦道，可长期迁延不愈。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确描述NTM淋巴结病‘可迅速软化、破溃形成慢性窦道，可长期迁延不愈’，‘慢性’与‘迁延不愈’直接支持慢性淋巴结肿大表现",
+        "evidence": "可迅速软化、破溃形成慢性窦道，可长期迁延不愈"
+      },
+      {
+        "from": "sub_disease_ntm_cutaneous",
+        "to": "symptom_skin_induration",
+        "relation_id": "rel_ntm_cutaneous_manifests_as_induration",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "可持续1〜2年",
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "NTM皮肤病开始表现为局部皮肤发红、肿痛和硬结，此阶段可以持续1〜2年；接着形成皮下及软组织脓肿并破溃……"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出‘NTM皮肤病开始表现为局部皮肤发红、肿痛和硬结’，‘硬结’即皮肤硬结（induration）的直接同义表述",
+        "evidence": "NTM皮肤病开始表现为局部皮肤发红、肿痛和硬结"
+      },
+      {
+        "from": "sub_disease_ntm_cutaneous",
+        "to": "symptom_abscess",
+        "relation_id": "rel_ntm_cutaneous_manifests_as_abscess",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "NTM皮肤病开始表现为局部皮肤发红、肿痛和硬结……接着形成皮下及软组织脓肿并破溃，脓肿为冷脓肿，脓液较为稀薄，干酪样坏死物较少……"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出‘接着形成皮下及软组织脓肿并破溃’，‘脓肿’为abscess的直接对应词，且为典型进展阶段表现",
+        "evidence": "接着形成皮下及软组织脓肿并破溃"
+      },
+      {
+        "from": "sub_disease_ntm_disseminated",
+        "to": "symptom_fever_disseminated",
+        "relation_id": "rel_ntm_disseminated_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "持续性或间歇性",
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "播散性NTM病……常见症状为发热（持续性或间歇性），多有进行性体重减轻、夜间盗汗……"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确将‘发热（持续性或间歇性）’列为播散性NTM病‘常见症状’之首，且限定于‘播散性NTM病’语境，属强特异性表现",
+        "evidence": "播散性NTM病可表现为……常见症状为发热（持续性或间歇性）"
+      },
+      {
+        "from": "sub_disease_ntm_disseminated",
+        "to": "symptom_abdominal_pain",
+        "relation_id": "rel_ntm_disseminated_manifests_as_abdominal_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "胃肠道症状表现为轻度腹痛，甚至持续性腹痛、腹泻不易缓解及消化不良等……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_ntm_pulmonary",
+        "to": "test_sputum_culture_ntm",
+        "relation_id": "rel_ntm_pulmonary_requires_sputum_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "2份分开送检的痰标本NTM培养阳性并鉴定为同一致病菌",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "2份分开送检的痰标本NTM培养阳性并鉴定为同一致病菌，和（或）NTM分子生物学检测均为同一致病菌；"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文在‘NTM肺病’诊断标准第(1)条中明确要求‘2份分开送检的痰标本NTM培养阳性’，且该条为首条确诊条件，符合‘确诊金标准’定义",
+        "evidence": "（1)2份分开送检的痰标本NTM培养阳性并鉴定为同一致病菌"
+      },
+      {
+        "from": "sub_disease_ntm_pulmonary",
+        "to": "test_bronchoalveolar_lavage_culture_ntm",
+        "relation_id": "rel_ntm_pulmonary_requires_balf_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "支气管冲洗液或支气管肺泡灌洗液NTM培养和（或）分子生物学检测1次阳性",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "支气管冲洗液或支气管肺泡灌洗液NTM培养和（或）分子生物学检测1次阳性；"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文在‘NTM肺病’诊断标准第(2)条中明确将‘支气管冲洗液或支气管肺泡灌洗液NTM培养……阳性’列为独立确诊条件，与痰培养并列，属确诊金标准之一",
+        "evidence": "（2)支气管冲洗液或支气管肺泡灌洗液NTM培养和（或）分子生物学检测1次阳性"
+      },
+      {
+        "from": "sub_disease_ntm_pulmonary",
+        "to": "test_tissue_biopsy_ntm",
+        "relation_id": "rel_ntm_pulmonary_requires_tissue_biopsy",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "经支气管镜或其他途径肺活组织检查发现分枝杆菌病组织病理学特征性改变（肉芽肿性炎症或抗酸染色阳性），并且NTM培养和（或）分子生物学检测阳性",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "经支气管镜或其他途径肺活组织检查发现分枝杆菌病组织病理学特征性改变（肉芽肿性炎症或抗酸染色阳性），并且NTM培养和（或）分子生物学检测阳性；"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文在‘NTM肺病’诊断标准第(3)条中明确将‘经支气管镜……肺活组织检查发现分枝杆菌病组织病理学特征性改变，并且NTM培养……阳性’列为确诊条件，组织活检+培养阳性是组织学确诊金标准",
+        "evidence": "（3)经支气管镜或其他途径肺活组织检查发现分枝杆菌病组织病理学特征性改变……并且NTM培养和（或）分子生物学检测阳性"
+      },
+      {
+        "from": "sub_disease_ntm_disseminated",
+        "to": "test_blood_culture_ntm",
+        "relation_id": "rel_ntm_disseminated_requires_blood_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "血NTM培养和（或）分子生物学检测阳性，和（或)骨髓、肝脏、胸内或腹内淋巴结穿刺物NTM培养和（或）分子生物学检测阳性",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "血NTM培养和（或）分子生物学检测阳性，和（或)骨髓、肝脏、胸内或腹内淋巴结穿刺物NTM培养和（或）分子生物学检测阳性。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文在‘播散性NTM病’诊断标准中明确要求‘血NTM培养和（或）分子生物学检测阳性’，且该条件为三条确诊路径之一，与肺外穿刺/活检并列，属确诊金标准",
+        "evidence": "血NTM培养和（或）分子生物学检测阳性，和（或)骨髓、肝脏、胸内或腹内淋巴结穿刺物NTM培养和（或）分子生物学检测阳性"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_ntm_pulmonary",
+        "to": "treatment_ntm_principle",
+        "relation_id": "rel_ntm_pulmonary_follows_principle",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊的NTM肺病",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "痰抗酸染色阳性",
+          "影像学有空洞"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ntm_pulmonary",
+        "to": "treatment_ntm_species_guided",
+        "relation_id": "rel_ntm_pulmonary_follows_species_guided",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊的NTM肺病",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "菌种鉴定",
+          "药敏试验"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_ntm_principle",
+        "to": "plan_mac_daily_regimen",
+        "relation_id": "rel_treatment_implements_by_mac_daily",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "有纤维空洞的MAC肺病或严重的结节性病灶及支气管扩张症患者",
+        "contraindication_note": "注意大环内酯类药物与利福布汀的相互作用",
+        "evidence_ids": [
+          "对于有纤维空洞的MAC肺病或严重的结节性病灶及支气管扩张症患者，建议每日治疗方案：阿奇霉素250~500 mg/d或克拉霉素500~1 000 mg/d(体重<50 kg时用500 mg/d)、利福平 450~600 mg/d(体重<50 kg 时用 450 mg/d)和乙胺丁醇15 mg*kg-1•d-1, 口服；治疗开始3个月应用阿米卡星肌内注射、静脉滴注或雾化吸入，疗程持续至痰培养阴转后至少1年。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_ntm_principle",
+        "to": "plan_mac_intermittent_regimen",
+        "relation_id": "rel_treatment_implements_by_mac_intermittent",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "肺部结节性病灶或支气管扩张不伴空洞以及不能耐受每日治疗方案的患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于肺部结节性病灶或支气管扩张不伴空洞以及不能耐受每日治疗方案的患者，建议采用每周3次的治疗方案：阿奇霉素500~600 mg/次或克拉霉素1000 mg/次、乙胺丁醇25 mg.kg-1.d-1和利福平600 mg/次，每周3次，口服，疗程持续至痰培养阴转后至少1年。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_ntm_pulmonary",
+        "to": "etiology_mac_infection",
+        "relation_id": "rel_ntm_pulmonary_caused_by_mac",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "临床样本中分离到MAC、脓肿分枝杆菌、堪萨斯分枝杆菌、玛尔摩分枝杆菌、蟾分枝杆菌、瘰疬分枝杆菌、龟分枝杆菌、偶发分枝杆菌及海分枝杆菌等，有致病的可能性。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ntm_lymphadenitis",
+        "to": "etiology_mac_infection",
+        "relation_id": "rel_ntm_lymphadenitis_caused_by_mac",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "近50年来，引起NTM淋巴结病的菌种发生了很大变化，20世纪70年代以瘰疬分枝杆菌最为常见，随后被MAC所取代……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ntm_disseminated",
+        "to": "etiology_host_immunocompromise",
+        "relation_id": "rel_ntm_disseminated_caused_by_immunocompromise",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "播散性NTM病主要见于免疫受损患者，最常见于HIV感染的个体。播散性NTM病很少累及免疫功能正常人群。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_ntm_pulmonary",
+        "to": "pathogenesis_ntm_immunopathology",
+        "relation_id": "rel_ntm_pulmonary_explained_by_immunopathology",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "NTM通过呼吸道、胃肠道、皮肤等途径侵入人体后，其致病过程与结核病相似……在NTM感染开始时，中性粒细胞捕捉并杀灭大部分NTM，剩下的NTM被巨噬细胞吞噬并在巨噬细胞内生长繁殖……激活CD4+T细胞等介导的免疫反应（cell-mediated immunity, CMI）和迟发型变态反应（delayed-type hypersensitivity, DTH）。CD4+T细胞主要分泌IFN-γ和IL-12等，激活巨噬细胞杀灭NTM……"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

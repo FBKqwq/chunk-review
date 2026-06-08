@@ -1,0 +1,895 @@
+{
+  "meta": {
+    "doc_id": "混合性结缔组织病诊断及治疗指南",
+    "source_title": "混合性结缔组织病诊断及治疗指南",
+    "section_path": "",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_mctd",
+        "name": "混合性结缔组织病",
+        "normalized_name": "混合性结缔组织病",
+        "aliases": [
+          "MCTD",
+          "mixed connective tissue disease"
+        ],
+        "source_document_ids": [
+          "混合性结缔组织病诊断及治疗指南"
+        ],
+        "evidence_ids": [
+          "混合性结缔组织病(mixed connective tissue disease， MCTD)是一种血清中有高滴度的斑点型抗核抗体(ANA)和抗uIRNP(nRNP)抗体，临床f：有雷诺现象、双手肿胀、多关节痛或关节炎、肢端硬化、肌炎、食管运动功能障碍、肺动脉高压等特征的临床综合征。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_mctd_sharp",
+        "name": "Sharp标准定义的混合性结缔组织病",
+        "parent_disease_id": "disease_mctd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "Alarcon—Segovia (1986年)和Kahn(1991年)提出的2个诊断标准敏感性和特异性最高(分别为62．5％一81．3％和86．2％)，见表1。部分患者起病时倾向MCTD诊断．进一步发展的临床表现更符合SLE。目前尚无MCTD的美国风湿病学会(ACR)诊断标准，但对照研究显示：Alarcon—Segovia (1986年)和Kahn(1991年)提出的2个诊断标准敏感性和特异性最高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_mctd_kasukawa",
+        "name": "Kasukawa标准定义的混合性结缔组织病",
+        "parent_disease_id": "disease_mctd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "Alarcon—Segovia (1986年)和Kahn(1991年)提出的2个诊断标准敏感性和特异性最高(分别为62．5％一81．3％和86．2％)，见表1。部分患者起病时倾向MCTD诊断．进一步发展的临床表现更符合SLE。目前尚无MCTD的美国风湿病学会(ACR)诊断标准，但对照研究显示：Alarcon—Segovia (1986年)和Kahn(1991年)提出的2个诊断标准敏感性和特异性最高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_mctd_alarcon_segovia",
+        "name": "Alarcon-Segovia标准定义的混合性结缔组织病",
+        "parent_disease_id": "disease_mctd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "Alarcon—Segovia (1986年)和Kahn(1991年)提出的2个诊断标准敏感性和特异性最高(分别为62．5％一81．3％和86．2％)，见表1。部分患者起病时倾向MCTD诊断．进一步发展的临床表现更符合SLE。目前尚无MCTD的美国风湿病学会(ACR)诊断标准，但对照研究显示：Alarcon—Segovia (1986年)和Kahn(1991年)提出的2个诊断标准敏感性和特异性最高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_mctd_undifferentiated",
+        "name": "未分化结缔组织病进展为混合性结缔组织病",
+        "parent_disease_id": "disease_mctd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "未分化结缔组织病(UCTD)患者若出现高滴度抗u1RNP抗体预示以后可能进展为MCTD"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fatigue",
+        "name": "易疲劳",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "大多数患者有易疲劳、肌痛、关节痛和雷诺现象。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_myalgia",
+        "name": "肌痛",
+        "body_site": "肌肉",
+        "symptom_category": "肌肉骨骼系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "肌痛是MCTD常见的症状，但大多数患者没有明确的肌无力、肌电图异常或肌酶的改变。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_arthralgia",
+        "name": "关节痛",
+        "body_site": "关节",
+        "symptom_category": "肌肉骨骼系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "大多数患者有易疲劳、肌痛、关节痛和雷诺现象。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_raynauds_phenomenon",
+        "name": "雷诺现象",
+        "body_site": "肢端",
+        "symptom_category": "血管系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "雷诺现象是MCTD最常见和最甲‘期的表现之一，常伴有手指肿胀或全手肿胀。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hand_swelling",
+        "name": "双手肿胀",
+        "body_site": "手",
+        "symptom_category": "皮肤黏膜症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "混合性结缔组织病(mixed connective tissue disease， MCTD)是一种血清中有高滴度的斑点型抗核抗体(ANA)和抗uIRNP(nRNP)抗体，临床f：有雷诺现象、双手肿胀、多关节痛或关节炎、肢端硬化、肌炎、食管运动功能障碍、肺动脉高压等特征的临床综合征。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_arthritis",
+        "name": "关节炎",
+        "body_site": "关节",
+        "symptom_category": "肌肉骨骼系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "混合性结缔组织病(mixed connective tissue disease， MCTD)是一种血清中有高滴度的斑点型抗核抗体(ANA)和抗uIRNP(nRNP)抗体，临床f：有雷诺现象、双手肿胀、多关节痛或关节炎、肢端硬化、肌炎、食管运动功能障碍、肺动脉高压等特征的临床综合征。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_sclerodactyly",
+        "name": "指端硬化",
+        "body_site": "手指",
+        "symptom_category": "皮肤黏膜症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "混合性结缔组织病(mixed connective tissue disease， MCTD)是一种血清中有高滴度的斑点型抗核抗体(ANA)和抗uIRNP(nRNP)抗体，临床f：有雷诺现象、双手肿胀、多关节痛或关节炎、肢端硬化、肌炎、食管运动功能障碍、肺动脉高压等特征的临床综合征。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_esophageal_dysmotility",
+        "name": "食管运动功能障碍",
+        "body_site": "消化道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "混合性结缔组织病(mixed connective tissue disease， MCTD)是一种血清中有高滴度的斑点型抗核抗体(ANA)和抗uIRNP(nRNP)抗体，临床f：有雷诺现象、双手肿胀、多关节痛或关节炎、肢端硬化、肌炎、食管运动功能障碍、肺动脉高压等特征的临床综合征。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_pulmonary_hypertension",
+        "name": "肺动脉高压",
+        "body_site": "肺血管",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "混合性结缔组织病(mixed connective tissue disease， MCTD)是一种血清中有高滴度的斑点型抗核抗体(ANA)和抗uIRNP(nRNP)抗体，临床f：有雷诺现象、双手肿胀、多关节痛或关节炎、肢端硬化、肌炎、食管运动功能障碍、肺动脉高压等特征的临床综合征。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "不明原肉发热口T能是MCTD最显著的临床表现和首发症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dysphagia",
+        "name": "吞咽困难",
+        "body_site": "上消化道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "食管卜段和下段括约肌压力降低，食管远端2／3蠕动减弱，进食后发噎和吞咽困难。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dry_cough",
+        "name": "干咳",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "早期症状有干咳、呼吸困难、胸膜炎性胸痛。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dyspnea",
+        "name": "呼吸困难",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "早期症状有干咳、呼吸困难、胸膜炎性胸痛。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_chest_pain",
+        "name": "胸膜炎性胸痛",
+        "body_site": "胸部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "早期症状有干咳、呼吸困难、胸膜炎性胸痛。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_pericarditis",
+        "name": "心包炎",
+        "body_site": "心脏",
+        "symptom_category": "心血管系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "心包炎是心脏受累最常见的临床表现，见于10％．30％的患者，出现心包填塞少见。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_headache",
+        "name": "头痛",
+        "body_site": "头部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "头痛是常见症状，多数可能是血管性头痛。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_meningitis_aseptic",
+        "name": "无菌性脑膜炎",
+        "body_site": "中枢神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "有些患者中有些出现脑膜刺激征，脑脊液检查显示无菌性脑膜炎。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_ana_spotted",
+        "name": "斑点型抗核抗体(ANA)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "混合性结缔组织病(mixed connective tissue disease， MCTD)是一种血清中有高滴度的斑点型抗核抗体(ANA)和抗uIRNP(nRNP)抗体"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_antibody_ulrnp",
+        "name": "抗u1RNP抗体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "混合性结缔组织病(mixed connective tissue disease， MCTD)是一种血清中有高滴度的斑点型抗核抗体(ANA)和抗uIRNP(nRNP)抗体"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ecg_abnormality",
+        "name": "心电图(ECG)异常",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "20％的患者心电图(ECG)不正常，最常见的改变是右心室肥厚、右心房扩大和心脏传导异常。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_hrct_interstitial_lung_disease",
+        "name": "高分辨率CT(HRCT)示间质性肺病",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "高分辨率CT(HRCT)是诊断间质性肺病最敏感的检查方法"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_dtpa_lung_scan",
+        "name": "DTPA肺扫描",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "*rcm_-乙烯』胺戊乙酸(DTPA)肺扫描用于筛查和观察疗效。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_right_heart_catheterization",
+        "name": "右心导管检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "确定诊断需要通过右心导管显示休息时平均舒张期肺动脉压>25 mm Hg(1 mm Hg=0．133 kPa)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_rheumatoid_factor",
+        "name": "类风湿因子(RF)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "50％患者RF阳性，尤其是同时伴有抗一A2／RA33抗体存在者，常与严重的关节炎相关。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_mctd_general_principles",
+        "content": "本病的治疗以SLE、PM／DM、RA和SSe的治疗原则为基础。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗方案与原则",
+        "evidence_ids": [
+          "4治疗方案与原则\n4．1治疗：本病的治疗以SLE、PM／DM、RA和SSe的治疗原则为基础。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_nsaids_for_fatigue_arthralgia_myalgia",
+        "content": "疲劳、关节和肌肉痛者，可应用非甾体抗炎药、抗疟药、小剂量泼尼松(<10 mg/d)。",
+        "plan_level": 1,
+        "applicable_condition": "以疲劳、关节痛、肌痛为主要表现",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "①疲劳、关节和肌肉痛者，可应用非甾体抗炎药、抗疟药、小剂量泼尼松(<10 m州)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_nsaids_for_arthritis",
+        "content": "以关节炎为主要表现者，轻者可应用非甾体抗炎药，重症者加用抗疟药或甲氨蝶呤或肿瘤坏死因子(TNF)抑制剂。",
+        "plan_level": 2,
+        "applicable_condition": "以关节炎为主要表现",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "②以关节炎为丰要表现者，轻者可应用非甾体抗炎药，重症者加用抗疟药或甲氨蝶呤或肿瘤坏死因子(TNF)抑制剂。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_nifedipine_for_raynauds",
+        "content": "雷诺现象：注意保暖，避免手指外伤和使用B一受体阻滞剂、戒烟等。应用二氢吡啶类钙通道阻滞剂，如硝苯地平(nifedipine)，每日30 mg；a一受体阻滞剂，如哌唑嗪(prazosin)。",
+        "plan_level": 1,
+        "applicable_condition": "以雷诺现象为主要表现",
+        "contraindication_note": "避免使用B-受体阻滞剂",
+        "evidence_ids": [
+          "③雷诺现象：注意保暖，避免手指外伤和使用B一受体阻滞剂、戒烟等。应用二氢吡啶类钙通道阻滞剂，如硝苯地平(nifedipine)，每日30 mg；a一受体阻滞剂，如哌唑嗪(prazosin)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_corticosteroids_for_myositis",
+        "content": "以肌炎为主要表现者，给予泼尼松1～1．5 mg·kg⁻¹·d⁻¹，难治者加用甲氨蝶呤、静脉滴注免疫球蛋白(IVIG)治疗。",
+        "plan_level": 1,
+        "applicable_condition": "以肌炎为主要表现",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "⑤以肌炎为主要表现者，给予泼尼松1～1．5 mg·kg一一·d_l，难治者加用甲氨蝶呤、静脉滴注免疫球蛋白(IVIG)治疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_corticosteroids_and_cyclophosphamide_for_pulmonary_hypertension",
+        "content": "无症状的肺动脉高压：试用糖皮质激素和环磷酰胺、小剂量阿司匹林和血管紧张素转换酶抑制剂(ACEI)如卡托普利12．5～25 mg，每13 2-3次；酌情使用内皮素受体拮抗剂，口服波生坦。",
+        "plan_level": 1,
+        "applicable_condition": "无症状的肺动脉高压",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "⑥肺动脉高压是MCTD患者致死的主要原因。应该早期、积极治疗原发病。无症状的肺动脉高压：试用糖皮质激素和环磷酰胺、小剂量阿司匹林和血管紧张素转换酶抑制剂(ACEI)如卡托普利12．5～25 mg，每13 2-3次；酌情使用内皮素受体拮抗剂，口服波生坦。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_prostacyclin_and_acei_for_symptomatic_pulmonary_hypertension",
+        "content": "伴有症状的肺动脉高压：静脉注射前列环素、应用ACEI、抗凝、内皮素受体拮抗剂，口服波生坦；酌情使用西地那非。",
+        "plan_level": 1,
+        "applicable_condition": "伴有症状的肺动脉高压",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "伴有症状的肺动脉高压：静脉注射前列环素、应用ACEI、抗凝、内皮素受体拮抗剂，口服波生坦；酌情使用西地那非。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_acei_for_membranous_nephropathy",
+        "content": "肾脏病变者、膜性肾小球肾病：轻型不需要处理；进展性蛋白尿者试用ACEI或小剂量阿司匹林联合双嘧达莫；严重者酌情使用泼尼松15。60 mg，加环磷酰胺冲击治疗每个月1次或瘤可宁(chlorambucil)每日给药。",
+        "plan_level": 2,
+        "applicable_condition": "膜性肾小球肾病伴进展性蛋白尿",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "⑦肾脏病变者、膜性肾小球肾病：轻型不需要处理；进展性蛋白尿者试用ACEI或小剂量阿司匹林联合双嘧达莫；严重者酌情使用泼尼松15。60 m鲥，加环磷酰胺冲击治疗每个月1次或瘤可宁(chlorambucil)每日给药。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_ppi_for_esophageal_reflux",
+        "content": "食管功能障碍者，吞咽困难：轻者无需治疗；伴反流者应用质子泵抑制剂，严重者使用抑酸与促动药联和治疗；内科治疗无效者，可采取手术治疗。",
+        "plan_level": 2,
+        "applicable_condition": "食管功能障碍伴反流",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "⑧食管功能障碍者，吞咽困难：轻者无需治疗；伴反流者应用质子泵抑制荆，严重者使用抑酸与促动药联和治疗；内科治疗无效者，可采取手术治疗。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_antibody_ulrnp",
+        "content": "高滴度抗u1RNP抗体",
+        "etiology_type": "自身免疫因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "高滴度抗u1RNP抗体是诊断MCTD必不可少的条件。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_b_cell_hyperactivity",
+        "content": "B细胞的高反应性",
+        "etiology_type": "自身免疫因素",
+        "typicality": "typical",
+        "diagnostic_role": "病因",
+        "evidence_ids": [
+          "该病病因及发病机制尚不明确。目前认为B细胞的高反应性导致高滴度的抗ulRNP抗体及抗ul一70 000抗体，外周血中抗ul一70 000反应性T细胞的存在及T细胞的活化。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_apoptotic_modification_of_ul70000",
+        "content": "u1-70000抗原的凋亡修饰",
+        "etiology_type": "自身免疫因素",
+        "typicality": "common",
+        "diagnostic_role": "病因",
+        "evidence_ids": [
+          "u1—70 000抗原的凋亡修饰和针对修饰抗原的自身免疫以及与人类白细胞抗原(HLA)一DRBl水04／$15的遗传学相关闪素参与MCTD发病。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_hla_drbl_04_15",
+        "content": "HLA-DRB1*04/*15遗传易感性",
+        "etiology_type": "遗传因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "u1—70 000抗原的凋亡修饰和针对修饰抗原的自身免疫以及与人类白细胞抗原(HLA)一DRBl水04／$15的遗传学相关闪素参与MCTD发病。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_b_cell_hyperactivity_and_autoantibody_production",
+        "content": "B细胞的高反应性导致高滴度的抗ulRNP抗体及抗ul一70 000抗体，外周血中抗ul一70 000反应性T细胞的存在及T细胞的活化。",
+        "evidence_ids": [
+          "该病病因及发病机制尚不明确。目前认为B细胞的高反应性导致高滴度的抗ulRNP抗体及抗ul一70 000抗体，外周血中抗ul一70 000反应性T细胞的存在及T细胞的活化。"
+        ],
+        "confidence": 0.75
+      },
+      {
+        "id": "pathogenesis_apoptotic_ul70000_and_autoimmunity",
+        "content": "u1-70000抗原的凋亡修饰和针对修饰抗原的自身免疫以及与人类白细胞抗原(HLA)-DRB1*04/*15的遗传学相关因素参与MCTD发病。",
+        "evidence_ids": [
+          "u1—70 000抗原的凋亡修饰和针对修饰抗原的自身免疫以及与人类白细胞抗原(HLA)一DRBl水04／$15的遗传学相关闪素参与MCTD发病。"
+        ],
+        "confidence": 0.75
+      },
+      {
+        "id": "pathogenesis_endothelial_activation_by_antibody",
+        "content": "抗ulRNP抗体可诱导内皮细胞释放致炎细胞因子，在血管病变中起致病作用。",
+        "evidence_ids": [
+          "抗ulRNP抗体可诱导内皮细胞释放致炎细胞因子，在血管病变中起致病作用。"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_mctd",
+        "to": "sub_disease_mctd_sharp",
+        "relation_id": "rel_mctd_has_sharp_sub",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "Alarcon—Segovia (1986年)和Kahn(1991年)提出的2个诊断标准敏感性和特异性最高(分别为62．5％一81．3％和86．2％)，见表1。部分患者起病时倾向MCTD诊断．进一步发展的临床表现更符合SLE。目前尚无MCTD的美国风湿病学会(ACR)诊断标准，但对照研究显示：Alarcon—Segovia (1986年)和Kahn(1991年)提出的2个诊断标准敏感性和特异性最高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mctd",
+        "to": "sub_disease_mctd_kasukawa",
+        "relation_id": "rel_mctd_has_kasukawa_sub",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "Alarcon—Segovia (1986年)和Kahn(1991年)提出的2个诊断标准敏感性和特异性最高(分别为62．5％一81．3％和86．2％)，见表1。部分患者起病时倾向MCTD诊断．进一步发展的临床表现更符合SLE。目前尚无MCTD的美国风湿病学会(ACR)诊断标准，但对照研究显示：Alarcon—Segovia (1986年)和Kahn(1991年)提出的2个诊断标准敏感性和特异性最高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mctd",
+        "to": "sub_disease_mctd_alarcon_segovia",
+        "relation_id": "rel_mctd_has_alarcon_segovia_sub",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "Alarcon—Segovia (1986年)和Kahn(1991年)提出的2个诊断标准敏感性和特异性最高(分别为62．5％一81．3％和86．2％)，见表1。部分患者起病时倾向MCTD诊断．进一步发展的临床表现更符合SLE。目前尚无MCTD的美国风湿病学会(ACR)诊断标准，但对照研究显示：Alarcon—Segovia (1986年)和Kahn(1991年)提出的2个诊断标准敏感性和特异性最高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mctd",
+        "to": "sub_disease_mctd_undifferentiated",
+        "relation_id": "rel_mctd_has_undifferentiated_sub",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "未分化结缔组织病(UCTD)患者若出现高滴度抗u1RNP抗体预示以后可能进展为MCTD"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_mctd_sharp",
+        "to": "symptom_raynauds_phenomenon",
+        "relation_id": "rel_sharp_manifests_as_raynauds",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "对有雷诺现象、关节痛或关节炎、肌痛、手肿胀的患者，如果有高滴度斑点型ANA和高滴度抗UIRNP抗体阳性，而抗Sm抗体阴性者．要考虑MCTD的可能，高滴度抗u1RNP抗体是诊断MCTD必不可少的条件。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文称‘雷诺现象是MCTD最常见和最早期的表现之一’，属高频典型表现但非金标准",
+        "evidence": "雷诺现象是MCTD最常见和最早期的表现之一"
+      },
+      {
+        "from": "sub_disease_mctd_sharp",
+        "to": "symptom_arthralgia",
+        "relation_id": "rel_sharp_manifests_as_arthralgia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "对有雷诺现象、关节痛或关节炎、肌痛、手肿胀的患者，如果有高滴度斑点型ANA和高滴度抗UIRNP抗体阳性，而抗Sm抗体阴性者．要考虑MCTD的可能，高滴度抗u1RNP抗体是诊断MCTD必不可少的条件。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文称‘关节疼痛和僵硬几乎是所有患者的早期症状之一’，属高频典型表现但非金标准",
+        "evidence": "关节疼痛和僵硬几乎是所有患者的早期症状之一"
+      },
+      {
+        "from": "sub_disease_mctd_sharp",
+        "to": "symptom_myalgia",
+        "relation_id": "rel_sharp_manifests_as_myalgia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "对有雷诺现象、关节痛或关节炎、肌痛、手肿胀的患者，如果有高滴度斑点型ANA和高滴度抗UIRNP抗体阳性，而抗Sm抗体阴性者．要考虑MCTD的可能，高滴度抗u1RNP抗体是诊断MCTD必不可少的条件。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文称‘大多数患者有易疲劳、肌痛、关节痛和雷诺现象’，属常见早期症状但非金标准",
+        "evidence": "大多数患者有易疲劳、肌痛、关节痛和雷诺现象"
+      },
+      {
+        "from": "sub_disease_mctd_sharp",
+        "to": "symptom_hand_swelling",
+        "relation_id": "rel_sharp_manifests_as_hand_swelling",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "对有雷诺现象、关节痛或关节炎、肌痛、手肿胀的患者，如果有高滴度斑点型ANA和高滴度抗UIRNP抗体阳性，而抗Sm抗体阴性者．要考虑MCTD的可能，高滴度抗u1RNP抗体是诊断MCTD必不可少的条件。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文称‘若患者出现手或手指肿胀、高滴度斑点型ANA时，应仔细随诊’，且‘双手肿胀’列于‘与抗u1RNP抗体相关的常见临床表现’中，属常见但非金标准",
+        "evidence": "若患者出现手或手指肿胀、高滴度斑点型ANA时，应仔细随诊"
+      },
+      {
+        "from": "sub_disease_mctd_sharp",
+        "to": "symptom_fever",
+        "relation_id": "rel_sharp_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "不明原肉发热口T能是MCTD最显著的临床表现和首发症状。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_mctd_sharp",
+        "to": "test_ana_spotted",
+        "relation_id": "rel_sharp_requires_ana_spotted",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "高滴度斑点型",
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "对有雷诺现象、关节痛或关节炎、肌痛、手肿胀的患者，如果有高滴度斑点型ANA和高滴度抗UIRNP抗体阳性，而抗Sm抗体阴性者．要考虑MCTD的可能，高滴度抗u1RNP抗体是诊断MCTD必不可少的条件。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文称‘高滴度斑点型ANA’为必要条件之一，但未称其为金标准；诊断需联合抗u1RNP抗体及临床表现",
+        "evidence": "如果有高滴度斑点型ANA和高滴度抗UIRNP抗体阳性，而抗Sm抗体阴性者．要考虑MCTD的可能"
+      },
+      {
+        "from": "sub_disease_mctd_sharp",
+        "to": "test_antibody_ulrnp",
+        "relation_id": "rel_sharp_requires_ulrnp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "高滴度",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "对有雷诺现象、关节痛或关节炎、肌痛、手肿胀的患者，如果有高滴度斑点型ANA和高滴度抗UIRNP抗体阳性，而抗Sm抗体阴性者．要考虑MCTD的可能，高滴度抗u1RNP抗体是诊断MCTD必不可少的条件。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出‘高滴度抗u1RNP抗体是诊断MCTD必不可少的条件’，符合‘必不可少’即金标准级强制要求",
+        "evidence": "高滴度抗u1RNP抗体是诊断MCTD必不可少的条件"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_mctd_sharp",
+        "to": "treatment_mctd_general_principles",
+        "relation_id": "rel_sharp_follows_general_principles",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗方案与原则",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_mctd_general_principles",
+        "to": "plan_nsaids_for_fatigue_arthralgia_myalgia",
+        "relation_id": "rel_treatment_implements_by_nsaids",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "以疲劳、关节痛、肌痛为主要表现",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "①疲劳、关节和肌肉痛者，可应用非甾体抗炎药、抗疟药、小剂量泼尼松(<10 m州)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_mctd_general_principles",
+        "to": "plan_nsaids_for_arthritis",
+        "relation_id": "rel_treatment_implements_by_nsaids_arthritis",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "以关节炎为主要表现",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "②以关节炎为丰要表现者，轻者可应用非甾体抗炎药，重症者加用抗疟药或甲氨蝶呤或肿瘤坏死因子(TNF)抑制剂。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_mctd_sharp",
+        "to": "etiology_antibody_ulrnp",
+        "relation_id": "rel_sharp_caused_by_ulrnp",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "高滴度抗u1RNP抗体是诊断MCTD必不可少的条件。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_mctd_sharp",
+        "to": "pathogenesis_b_cell_hyperactivity_and_autoantibody_production",
+        "relation_id": "rel_sharp_explained_by_bcell",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "该病病因及发病机制尚不明确。目前认为B细胞的高反应性导致高滴度的抗ulRNP抗体及抗ul一70 000抗体，外周血中抗ul一70 000反应性T细胞的存在及T细胞的活化。"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

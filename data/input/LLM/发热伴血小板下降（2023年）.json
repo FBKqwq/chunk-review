@@ -1,0 +1,1087 @@
+{
+  "meta": {
+    "doc_id": "发热伴血小板减少综合征诊疗方案_2023年版",
+    "source_title": "发热伴血小板减少综合征诊疗方案（2023 年版）",
+    "section_path": "",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_sfts",
+        "name": "发热伴血小板减少综合征",
+        "normalized_name": "发热伴血小板减少综合征",
+        "aliases": [
+          "SFTS",
+          "Severe Fever with Thrombocytopenia Syndrome"
+        ],
+        "source_document_ids": [
+          "发热伴血小板减少综合征诊疗方案（2023 年版）"
+        ],
+        "evidence_ids": [
+          "发热伴血小板减少综合征（Severe Fever with Thrombocytopenia Syndrome，SFTS）是我国于 2009 年发现的新发病毒性传染病"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_sfts_light",
+        "name": "轻型发热伴血小板减少综合征",
+        "parent_disease_id": "disease_sfts",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "儿童和青壮年",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（一）轻型。多见于儿童和青壮年，体温 38.0℃以下，可有轻度乏力、周身不适及消化道症状，白细胞和血小板计数轻度降低，病情呈自限性，多在 1 周内恢复，易被忽视、漏诊及误诊。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_sfts_moderate",
+        "name": "中型发热伴血小板减少综合征",
+        "parent_disease_id": "disease_sfts",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": "中老年",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（二）中型。多见于中老年，体温 38~39℃，全身不适及肌肉酸痛明显，可有明显纳差、恶心、呕吐、腹泻等消化道症状，无神经系统症状及腔道出血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_sfts_severe",
+        "name": "重型发热伴血小板减少综合征",
+        "parent_disease_id": "disease_sfts",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "老年、有基础疾病或病后未及时就诊者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（三）重型。多见于老年、有基础疾病或病后未及时就诊者，体温 39~40℃甚至 40℃以上，极度乏力，食欲不振，表情淡漠，精神萎靡，皮肤瘀斑，可出现下颌、四肢等部位不自主运动，伴肌张力增高，嗜睡、神志恍惚或昏睡等神经系统症状，可合并肺部感染，消化道、肺、子宫等部位出血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_sfts_critical",
+        "name": "危重型发热伴血小板减少综合征",
+        "parent_disease_id": "disease_sfts",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "危重症",
+        "population": "重型基础上出现特定并发症者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（四）危重型。该型预后凶险，病死率极高。在重型基础上出现以下情况之一者：1.昏迷、谵妄或反复抽搐等明显神经系统症状；2.休克；3.合并其他器官功能衰竭需 ICU 监护治疗。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "起病急，发热，体温 38~40℃，伴乏力、食欲不振、恶心、呕吐等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "乏力",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "起病急，发热，体温 38~40℃，伴乏力、食欲不振、恶心、呕吐等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_anorexia",
+        "name": "食欲不振",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "起病急，发热，体温 38~40℃，伴乏力、食欲不振、恶心、呕吐等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_nausea",
+        "name": "恶心",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "起病急，发热，体温 38~40℃，伴乏力、食欲不振、恶心、呕吐等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_vomiting",
+        "name": "呕吐",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "起病急，发热，体温 38~40℃，伴乏力、食欲不振、恶心、呕吐等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_myalgia",
+        "name": "肌肉酸痛",
+        "body_site": "肌肉",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "部分病例有肌肉酸痛、腹泻，少数有神志淡漠。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_diarrhea",
+        "name": "腹泻",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "部分病例有肌肉酸痛、腹泻，少数有神志淡漠。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_lethargy",
+        "name": "神志淡漠",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "部分病例有肌肉酸痛、腹泻，少数有神志淡漠。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_lymphadenopathy",
+        "name": "浅表淋巴结肿大",
+        "body_site": "颈部/腋窝/腹股沟",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "体格检查常有单侧腹股沟或颈部、腋窝等浅表淋巴结肿大伴触痛，较大者局部红、肿、热、痛明显。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_tremor",
+        "name": "不自主抖动",
+        "body_site": "下颌/四肢",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "部分病例可出现下颌、四肢等不自主抖动伴肌张力增高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_purpura",
+        "name": "皮肤瘀斑",
+        "body_site": "皮肤",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "重症病例可出现皮肤瘀斑、消化道出血、肺出血、烦躁不安、谵妄，甚至抽搐、昏迷"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_gastrointestinal_bleeding",
+        "name": "消化道出血",
+        "body_site": "消化系统",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "重症病例可出现皮肤瘀斑、消化道出血、肺出血、烦躁不安、谵妄，甚至抽搐、昏迷"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_pulmonary_hemorrhage",
+        "name": "肺出血",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "重症病例可出现皮肤瘀斑、消化道出血、肺出血、烦躁不安、谵妄，甚至抽搐、昏迷"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_delirium",
+        "name": "谵妄",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "重症病例可出现皮肤瘀斑、消化道出血、肺出血、烦躁不安、谵妄，甚至抽搐、昏迷"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_seizure",
+        "name": "抽搐",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "重症病例可出现皮肤瘀斑、消化道出血、肺出血、烦躁不安、谵妄，甚至抽搐、昏迷"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_coma",
+        "name": "昏迷",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "重症病例可出现皮肤瘀斑、消化道出血、肺出血、烦躁不安、谵妄，甚至抽搐、昏迷"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_shock",
+        "name": "休克",
+        "body_site": "全身",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（四）危重型。……2.休克；"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_sftsv_rna",
+        "name": "SFTSV核酸检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "1.核酸检测：血液、呼吸道、尿液或粪便标本中 SFTSV 核酸检测阳性。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_sftsv_culture",
+        "name": "SFTSV病毒培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "2.病毒培养：从血液、呼吸道、尿液和粪便标本等培养分离到 SFTSV。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_sftsv_igm",
+        "name": "SFTSV-IgM检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.血清学检测：SFTSV-IgM 阳性；IgG 阳转或恢复期较急性期滴度呈 4 倍及以上升高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_sftsv_igg",
+        "name": "SFTSV-IgG检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.血清学检测：SFTSV-IgM 阳性；IgG 阳转或恢复期较急性期滴度呈 4 倍及以上升高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_wbc",
+        "name": "外周血白细胞计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "发病早期外周血白细胞轻度降低，血小板、谷丙转氨酶（ALT）、谷草转氨酶（AST）、乳酸脱氢酶（LDH）、肌酸激酶（CK）可轻度异常。通常外周血白细胞下降先于血小板减少。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_platelet_count",
+        "name": "血小板计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "发病早期外周血白细胞轻度降低，血小板、谷丙转氨酶（ALT）、谷草转氨酶（AST）、乳酸脱氢酶（LDH）、肌酸激酶（CK）可轻度异常。通常外周血白细胞下降先于血小板减少。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_alt",
+        "name": "谷丙转氨酶（ALT）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "发病早期外周血白细胞轻度降低，血小板、谷丙转氨酶（ALT）、谷草转氨酶（AST）、乳酸脱氢酶（LDH）、肌酸激酶（CK）可轻度异常。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ast",
+        "name": "谷草转氨酶（AST）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "发病早期外周血白细胞轻度降低，血小板、谷丙转氨酶（ALT）、谷草转氨酶（AST）、乳酸脱氢酶（LDH）、肌酸激酶（CK）可轻度异常。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ldh",
+        "name": "乳酸脱氢酶（LDH）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "发病早期外周血白细胞轻度降低，血小板、谷丙转氨酶（ALT）、谷草转氨酶（AST）、乳酸脱氢酶（LDH）、肌酸激酶（CK）可轻度异常。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ck",
+        "name": "肌酸激酶（CK）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "发病早期外周血白细胞轻度降低，血小板、谷丙转氨酶（ALT）、谷草转氨酶（AST）、乳酸脱氢酶（LDH）、肌酸激酶（CK）可轻度异常。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ferritin",
+        "name": "铁蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "重型、危重型病例铁蛋白、D-二聚体、CRP、淀粉酶、脂肪酶、炎症因子如白细胞介素-6（IL-6）等均可显著升高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_d_dimer",
+        "name": "D-二聚体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "重型、危重型病例铁蛋白、D-二聚体、CRP、淀粉酶、脂肪酶、炎症因子如白细胞介素-6（IL-6）等均可显著升高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_crp",
+        "name": "C反应蛋白（CRP）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "重型、危重型病例铁蛋白、D-二聚体、CRP、淀粉酶、脂肪酶、炎症因子如白细胞介素-6（IL-6）等均可显著升高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_amylase",
+        "name": "淀粉酶",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "重型、危重型病例铁蛋白、D-二聚体、CRP、淀粉酶、脂肪酶、炎症因子如白细胞介素-6（IL-6）等均可显著升高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_lipase",
+        "name": "脂肪酶",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "重型、危重型病例铁蛋白、D-二聚体、CRP、淀粉酶、脂肪酶、炎症因子如白细胞介素-6（IL-6）等均可显著升高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_il6",
+        "name": "白细胞介素-6（IL-6）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "重型、危重型病例铁蛋白、D-二聚体、CRP、淀粉酶、脂肪酶、炎症因子如白细胞介素-6（IL-6）等均可显著升高。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_sfts_supportive",
+        "content": "本病尚无特异性治疗方法，主要是对症支持治疗和针对并发症的治疗。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "本病尚无特异性治疗方法，主要是对症支持治疗和针对并发症的治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_sfts_isolation",
+        "content": "患者血液或血性分泌物具有传染性，有出血表现者尽量安排单间隔离。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "1.隔离。患者血液或血性分泌物具有传染性，有出血表现者尽量安排单间隔离。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_sfts_nutrition",
+        "content": "卧床休息，给予易消化、营养丰富的半流食或软食，保证热量供应及维持水、电解质和酸碱平衡。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "2.营养支持治疗。卧床休息，给予易消化、营养丰富的半流食或软食，保证热量供应及维持水、电解质和酸碱平衡。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_sfts_antipyretic",
+        "content": "发热患者予物理降温，高热时可药物退热。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "3.发热患者予物理降温，高热时可药物退热。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_sfts_transfusion",
+        "content": "有明显出血或血小板计数明显降低者（如低于 20×109/L），可输注血浆、血小板。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "4.有明显出血或血小板计数明显降低者（如低于 20×109/L），可输注血浆、血小板。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_sfts_steroid",
+        "content": "病情进行性恶化且机体炎症反应过度激活状态的重型、危重型患者，酌情早期、短期使用糖皮质激素。",
+        "recommendation_strength": "weak",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "5.病情进行性恶化且机体炎症反应过度激活状态的重型、危重型患者，酌情早期、短期使用糖皮质激素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_sfts_icu",
+        "content": "重型、危重型病例应转 ICU 治疗。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "7.重型、危重型病例应转 ICU 治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_isolation_single_room",
+        "content": "有出血表现者尽量安排单间隔离。",
+        "plan_level": 1,
+        "applicable_condition": "有出血表现者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "1.隔离。患者血液或血性分泌物具有传染性，有出血表现者尽量安排单间隔离。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_nutrition_half_fluid",
+        "content": "给予易消化、营养丰富的半流食或软食，保证热量供应及维持水、电解质和酸碱平衡。",
+        "plan_level": 1,
+        "applicable_condition": "所有患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "2.营养支持治疗。卧床休息，给予易消化、营养丰富的半流食或软食，保证热量供应及维持水、电解质和酸碱平衡。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_antipyretic_physical",
+        "content": "发热患者予物理降温，高热时可药物退热。",
+        "plan_level": 1,
+        "applicable_condition": "发热患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "3.发热患者予物理降温，高热时可药物退热。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_platelet_transfusion",
+        "content": "有明显出血或血小板计数明显降低者（如低于 20×109/L），可输注血浆、血小板。",
+        "plan_level": 1,
+        "applicable_condition": "血小板计数 < 20×10⁹/L 或明显出血者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "4.有明显出血或血小板计数明显降低者（如低于 20×109/L），可输注血浆、血小板。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_steroid_short_term",
+        "content": "病情进行性恶化且机体炎症反应过度激活状态的重型、危重型患者，酌情早期、短期使用糖皮质激素。",
+        "plan_level": 2,
+        "applicable_condition": "重型、危重型且炎症反应过度激活者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "5.病情进行性恶化且机体炎症反应过度激活状态的重型、危重型患者，酌情早期、短期使用糖皮质激素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_icu_transfer",
+        "content": "重型、危重型病例应转 ICU 治疗。",
+        "plan_level": 1,
+        "applicable_condition": "确诊为重型或危重型者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "7.重型、危重型病例应转 ICU 治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_sftsv_infection",
+        "content": "发热伴血小板减少综合征病毒（SFTSV）感染",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "发热伴血小板减少综合征病毒（SFTSV）属白蛉纤细病毒科（Phenuiviridae），班达病毒属（Bandavirus Genus），分类名为大别班达病毒（Dabie Banda Virus，DBV）。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_tick_bite",
+        "content": "带毒长角血蜱叮咬",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "SFTSV 主要经带毒长角血蜱等媒介生物叮咬传播"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_contact_with_infected_animals",
+        "content": "接触感染动物血液、分泌物、排泄物及其污染物",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "还可在无防护情况下通过接触感染动物或患者的血液、分泌物、排泄物及其污染物造成感染。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_contact_with_infected_patients",
+        "content": "接触患者血液、分泌物、排泄物及其污染物",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "还可在无防护情况下通过接触感染动物或患者的血液、分泌物、排泄物及其污染物造成感染。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_sfts_viral_cytotoxicity_and_immune_dysregulation",
+        "content": "SFTSV 直接作用于人体多种细胞引起组织、器官损伤。病毒攻击人体的淋巴结，引起淋巴结肿大及坏死性淋巴结炎。在淋巴结、脾脏快速复制后进入体循环，形成病毒血症，同时攻击多组织脏器。SFTSV 感染机体后导致免疫功能失调，严重者可诱发细胞因子风暴、内皮损伤，患者可因出血或多脏器功能衰竭死亡。",
+        "evidence_ids": [
+          "三、发病机制\nSFTSV 直接作用于人体多种细胞引起组织、器官损伤。病毒攻击人体的淋巴结，引起淋巴结肿大及坏死性淋巴结炎。在淋巴结、脾脏快速复制后进入体循环，形成病毒血症，同时攻击多组织脏器。SFTSV 感染机体后导致免疫功能失调，严重者可诱发细胞因子风暴、内皮损伤，患者可因出血或多脏器功能衰竭死亡。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_sfts",
+        "to": "sub_disease_sfts_light",
+        "relation_id": "rel_sfts_has_light",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（一）轻型。多见于儿童和青壮年，体温 38.0℃以下，可有轻度乏力、周身不适及消化道症状，白细胞和血小板计数轻度降低，病情呈自限性，多在 1 周内恢复，易被忽视、漏诊及误诊。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_sfts",
+        "to": "sub_disease_sfts_moderate",
+        "relation_id": "rel_sfts_has_moderate",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（二）中型。多见于中老年，体温 38~39℃，全身不适及肌肉酸痛明显，可有明显纳差、恶心、呕吐、腹泻等消化道症状，无神经系统症状及腔道出血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_sfts",
+        "to": "sub_disease_sfts_severe",
+        "relation_id": "rel_sfts_has_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（三）重型。多见于老年、有基础疾病或病后未及时就诊者，体温 39~40℃甚至 40℃以上，极度乏力，食欲不振，表情淡漠，精神萎靡，皮肤瘀斑，可出现下颌、四肢等部位不自主运动，伴肌张力增高，嗜睡、神志恍惚或昏睡等神经系统症状，可合并肺部感染，消化道、肺、子宫等部位出血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_sfts",
+        "to": "sub_disease_sfts_critical",
+        "relation_id": "rel_sfts_has_critical",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（四）危重型。该型预后凶险，病死率极高。在重型基础上出现以下情况之一者：1.昏迷、谵妄或反复抽搐等明显神经系统症状；2.休克；3.合并其他器官功能衰竭需 ICU 监护治疗。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_sfts_light",
+        "to": "symptom_fever",
+        "relation_id": "rel_sfts_light_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "（一）轻型。多见于儿童和青壮年，体温 38.0℃以下，可有轻度乏力、周身不适及消化道症状，白细胞和血小板计数轻度降低，病情呈自限性，多在 1 周内恢复，易被忽视、漏诊及误诊。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确描述轻型‘体温38.0℃以下’，发热为轻型核心临床表现，属高频、典型症状",
+        "evidence": "多见于儿童和青壮年，体温38.0℃以下，可有轻度乏力、周身不适及消化道症状"
+      },
+      {
+        "from": "sub_disease_sfts_light",
+        "to": "symptom_fatigue",
+        "relation_id": "rel_sfts_light_manifests_as_fatigue",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "（一）轻型。多见于儿童和青壮年，体温 38.0℃以下，可有轻度乏力、周身不适及消化道症状，白细胞和血小板计数轻度降低，病情呈自限性，多在 1 周内恢复，易被忽视、漏诊及误诊。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_sfts_severe",
+        "to": "symptom_purpura",
+        "relation_id": "rel_sfts_severe_manifests_as_purpura",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "（三）重型。……皮肤瘀斑，可出现下颌、四肢等部位不自主运动，伴肌张力增高，嗜睡、神志恍惚或昏睡等神经系统症状……"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在‘重型’条目中明确列出‘皮肤瘀斑’，‘瘀斑’即purpura的规范临床表述，属重型典型体征",
+        "evidence": "重型。……皮肤瘀斑，可出现下颌、四肢等部位不自主运动"
+      },
+      {
+        "from": "sub_disease_sfts_critical",
+        "to": "symptom_coma",
+        "relation_id": "rel_sfts_critical_manifests_as_coma",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床分型",
+        "evidence_ids": [
+          "（四）危重型。……1.昏迷、谵妄或反复抽搐等明显神经系统症状；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文‘危重型’定义中将‘昏迷’列为三项确诊指征之一（‘以下情况之一者’），且置于首位，构成诊断分型的刚性阈值标准",
+        "evidence": "危重型。该型预后凶险，病死率极高。在重型基础上出现以下情况之一者：1.昏迷、谵妄或反复抽搐等明显神经系统症状"
+      },
+      {
+        "from": "sub_disease_sfts_critical",
+        "to": "symptom_shock",
+        "relation_id": "rel_sfts_critical_manifests_as_shock",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床分型",
+        "evidence_ids": [
+          "（四）危重型。……2.休克；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文‘危重型’定义中将‘休克’列为三项确诊指征之一（‘以下情况之一者’），属分型金标准级判据",
+        "evidence": "危重型。该型预后凶险，病死率极高。在重型基础上出现以下情况之一者：2.休克"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_sfts_light",
+        "to": "test_wbc",
+        "relation_id": "rel_sfts_light_requires_wbc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "<",
+        "unit": "×10⁹/L",
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "common",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（一）轻型。……白细胞和血小板计数轻度降低……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_sfts_light",
+        "to": "test_platelet_count",
+        "relation_id": "rel_sfts_light_requires_platelet",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "<",
+        "unit": "×10⁹/L",
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "common",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（一）轻型。……白细胞和血小板计数轻度降低……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_sfts_critical",
+        "to": "test_sftsv_rna",
+        "relation_id": "rel_sfts_critical_requires_rna",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断金标准",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（三）确诊病例。\n疑似病例或临床诊断病例，具有以下任一项者：\n1.SFTSV 核酸阳性；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文‘确诊病例’定义中，‘SFTSV核酸阳性’为三项并列确诊依据之首，且‘确诊病例’是最高诊断级别，核酸阳性即为确诊金标准",
+        "evidence": "确诊病例。疑似病例或临床诊断病例，具有以下任一项者：1.SFTSV核酸阳性"
+      },
+      {
+        "from": "sub_disease_sfts_critical",
+        "to": "test_sftsv_culture",
+        "relation_id": "rel_sfts_critical_requires_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断金标准",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "分离到 SFTSV",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（三）确诊病例。\n疑似病例或临床诊断病例，具有以下任一项者：\n2.临床标本中培养分离到 SFTSV；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文‘确诊病例’定义中，‘临床标本中培养分离到SFTSV’为三项并列确诊依据之一，与核酸阳性同级，属确诊金标准",
+        "evidence": "确诊病例。疑似病例或临床诊断病例，具有以下任一项者：2.临床标本中培养分离到SFTSV"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_sfts_light",
+        "to": "treatment_sfts_supportive",
+        "relation_id": "rel_sfts_light_follows_supportive",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "所有患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_sfts_critical",
+        "to": "treatment_sfts_icu",
+        "relation_id": "rel_sfts_critical_follows_icu",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "危重型患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_sfts_supportive",
+        "to": "plan_nutrition_half_fluid",
+        "relation_id": "rel_supportive_implements_by_nutrition",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "所有患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "2.营养支持治疗。卧床休息，给予易消化、营养丰富的半流食或软食，保证热量供应及维持水、电解质和酸碱平衡。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_sfts_icu",
+        "to": "plan_icu_transfer",
+        "relation_id": "rel_icu_implements_by_transfer",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "危重型患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "7.重型、危重型病例应转 ICU 治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_sfts_light",
+        "to": "etiology_sftsv_infection",
+        "relation_id": "rel_sfts_light_causes_sftsv",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "典型",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "发热伴血小板减少综合征病毒（SFTSV）属白蛉纤细病毒科（Phenuiviridae），班达病毒属（Bandavirus Genus），分类名为大别班达病毒（Dabie Banda Virus，DBV）。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_sfts_critical",
+        "to": "pathogenesis_sfts_viral_cytotoxicity_and_immune_dysregulation",
+        "relation_id": "rel_sfts_critical_explained_by_pathogenesis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "三、发病机制\nSFTSV 直接作用于人体多种细胞引起组织、器官损伤。病毒攻击人体的淋巴结，引起淋巴结肿大及坏死性淋巴结炎。在淋巴结、脾脏快速复制后进入体循环，形成病毒血症，同时攻击多组织脏器。SFTSV 感染机体后导致免疫功能失调，严重者可诱发细胞因子风暴、内皮损伤，患者可因出血或多脏器功能衰竭死亡。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

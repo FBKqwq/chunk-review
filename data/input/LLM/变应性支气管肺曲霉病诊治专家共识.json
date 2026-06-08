@@ -1,0 +1,1314 @@
+{
+  "meta": {
+    "doc_id": "变应性支气管肺曲霉病诊治专家共识",
+    "source_title": "变应性支气管肺曲霉病诊治专家共识",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_abpa",
+        "name": "变应性支气管肺曲霉病",
+        "normalized_name": "变应性支气管肺曲霉病",
+        "aliases": [
+          "ABPA",
+          "变态反应性支气管肺曲霉病",
+          "变应性支气管肺真菌病（ABPM）"
+        ],
+        "source_document_ids": [
+          "变应性支气管肺曲霉病诊治专家共识"
+        ],
+        "evidence_ids": [
+          "变应性支气管肺曲霉病(allergic bronchopulmonary aspergillosis，ABPA)是烟曲霉致敏引起的一种变应性肺部疾病"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_abpa_serologic",
+        "name": "血清型ABPA",
+        "parent_disease_id": "disease_abpa",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "无支气管扩张，则诊断为血清型 ABPA(ABPA—S)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_abpa_bronchiectatic",
+        "name": "支气管扩张型ABPA",
+        "parent_disease_id": "disease_abpa",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "肺部 HRCT显示中心性支气管扩张或支气管黏液栓，即支气管扩张型 ABPA(ABPA—B)；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_abpa_stage_i",
+        "name": "I期ABPA",
+        "parent_disease_id": "disease_abpa",
+        "disease_subtype": null,
+        "clinical_stage": "I期",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "I期：新发的、活动性 ABPA；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_abpa_stage_ii",
+        "name": "II期ABPA",
+        "parent_disease_id": "disease_abpa",
+        "disease_subtype": null,
+        "clinical_stage": "II期",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "Ⅱ期：临床和血清学缓解期；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_abpa_stage_iii",
+        "name": "III期ABPA",
+        "parent_disease_id": "disease_abpa",
+        "disease_subtype": null,
+        "clinical_stage": "III期",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "m期：复发性活动性 ABPA；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_abpa_stage_iv",
+        "name": "IV期ABPA",
+        "parent_disease_id": "disease_abpa",
+        "disease_subtype": null,
+        "clinical_stage": "IV期",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "1V期：慢性激素依赖性哮喘；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_abpa_stage_v",
+        "name": "V期ABPA",
+        "parent_disease_id": "disease_abpa",
+        "disease_subtype": null,
+        "clinical_stage": "V期",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "V期：进行性炎症和气道扩张引起的纤维一空洞病变，可导致进行性呼吸衰竭和死亡。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_cough",
+        "name": "咳嗽",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "ABPA的临床表现多种多样，缺乏特异性，主要表现为咳嗽、咳痰、喘息"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_sputum",
+        "name": "咳痰",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "ABPA的临床表现多种多样，缺乏特异性，主要表现为咳嗽、咳痰、喘息"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_wheezing",
+        "name": "喘息",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "ABPA的临床表现多种多样，缺乏特异性，主要表现为咳嗽、咳痰、喘息"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_low_fever",
+        "name": "低热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "还可见低热、消瘦、乏力、胸痛等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_weight_loss",
+        "name": "消瘦",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "还可见低热、消瘦、乏力、胸痛等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "乏力",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "还可见低热、消瘦、乏力、胸痛等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_chest_pain",
+        "name": "胸痛",
+        "body_site": "胸部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "还可见低热、消瘦、乏力、胸痛等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_brown_mucoid_sputum_plug",
+        "name": "咳棕褐色黏冻样痰栓",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "咳棕褐色黏冻样痰栓为特征性表现。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hemoptysis",
+        "name": "咯血",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "存在支气管扩张时，可有不同程度的咯血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_no_symptom",
+        "name": "无明显症状",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "absent",
+        "typicality": "rare",
+        "evidence_ids": [
+          "少数患者可以没有明显症状。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_acute_exacerbation_cough",
+        "name": "急性加重时咳嗽",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "急性加重时出现咳嗽、喘息、咯血、咳大量黄黏痰等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_acute_exacerbation_wheezing",
+        "name": "急性加重时喘息",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "急性加重时出现咳嗽、喘息、咯血、咳大量黄黏痰等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_acute_exacerbation_hemoptysis",
+        "name": "急性加重时咯血",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "急性加重时出现咳嗽、喘息、咯血、咳大量黄黏痰等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_acute_exacerbation_yellow_sputum",
+        "name": "咳大量黄黏痰",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "急性加重时出现咳嗽、喘息、咯血、咳大量黄黏痰等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_rhonchi",
+        "name": "湿啰音",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "体检时肺部可闻及湿哕音或哮鸣音。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_wheezing_on_auscultation",
+        "name": "哮鸣音",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "体检时肺部可闻及湿哕音或哮鸣音。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_clubbing",
+        "name": "杵状指",
+        "body_site": "手指",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "晚期患者可出现杵状指和发绀。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_cyanosis",
+        "name": "发绀",
+        "body_site": "口唇/肢端",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "晚期患者可出现杵状指和发绀。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_decreased_breath_sound",
+        "name": "呼吸音减弱",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "由于黏液嵌塞可引起肺不张甚至肺萎缩，体格检查可发现呼吸音减弱或闻及管状呼吸音。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_tubular_breath_sound",
+        "name": "管状呼吸音",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "由于黏液嵌塞可引起肺不张甚至肺萎缩，体格检查可发现呼吸音减弱或闻及管状呼吸音。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_pleural_friction_rub",
+        "name": "胸膜摩擦音",
+        "body_site": "胸膜",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "肺部浸润累及肺外周时，可发生胸膜炎，吸气时可伴胸壁活动受限和胸膜摩擦音。"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_skin_prick_test",
+        "name": "皮肤点刺试验",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "建议首选皮肤点刺试验，若结果阴性，可继续进行皮内试验"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_intradermal_test",
+        "name": "皮内试验",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "建议首选皮肤点刺试验，若结果阴性，可继续进行皮内试验"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_serum_total_ige",
+        "name": "血清总IgE(TIgE)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血清 TIgE水平是 ABPA诊断及随访中最重要的免疫学指标之一。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_serum_specific_ige",
+        "name": "特异性IgE(sIgE)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "曲霉 slgE是 ABPA特征性的诊断指标"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_serum_specific_igg",
+        "name": "特异性IgG(sIgG)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "烟曲霉血清沉淀素或特异性 IgG(s|gG)测定"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_chest_hrct",
+        "name": "胸部高分辨CT(HRCT)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "胸部高分辨 CT (HRCT)上表现为指套征或牙膏征。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_peripheral_eosinophil_count",
+        "name": "外周血嗜酸粒细胞计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "ABPA患者常有外周 嗜酸粒细胞计数升高"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_abpa_systemic_corticosteroid",
+        "content": "口服激素是治疗 ABPA的基础治疗，不仅抑制过度免疫反应，同时可减轻曲霉引起的炎症损伤。",
+        "recommendation_strength": "strong",
+        "source_section": "第七部分 治疗",
+        "evidence_ids": [
+          "口服激素是治疗 ABPA的基础治疗，不仅抑制过度免疫反应，同时可减轻曲霉引起的炎症损伤。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_abpa_avoid_allergen",
+        "content": "ABPA患者应尽量避免接触曲霉等变应原，脱离过敏环境对于控制患者症状、减少急性发作非常重要。",
+        "recommendation_strength": "strong",
+        "source_section": "第七部分 治疗",
+        "evidence_ids": [
+          "ABPA患者应尽量避免接触曲霉等变应原，脱离过敏环境对于控制患者症状、减少急性发作非常重要。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_abpa_antifungal_therapy",
+        "content": "抗真菌药物可能通过减少真菌定植、减轻炎症反应而发挥治疗作用。",
+        "recommendation_strength": "weak",
+        "source_section": "第七部分 治疗",
+        "evidence_ids": [
+          "抗真菌药物可能通过减少真菌定植、减轻炎症反应而发挥治疗作用。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_prednisone_initial",
+        "content": "对于 I期和Ⅲ期患者，通常使用的泼尼松起始剂量为 0．5 mg／kg，1次／d，2周；继以 0．25 mg／kg，1次／d，4～6周。",
+        "plan_level": 1,
+        "applicable_condition": "I期或III期ABPA",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于 I期和Ⅲ期患者，通常使用的泼尼松起始剂量为 0．5 mg／kg，1次／d，2周；继以 0．25 mg／kg，1次／d，4～6周。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_prednisone_tapering",
+        "content": "然后根据病情试行减量，一般每 2周减 5～10 mg，建议采用隔 日给药方法。",
+        "plan_level": 2,
+        "applicable_condition": "I期或III期ABPA缓解后",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "然后根据病情试行减量，一般每 2周减 5～10 mg，建议采用隔 日给药方法。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_prednisone_maintenance",
+        "content": "对于Ⅳ期患者，可能需要长期口服小剂量激素维持治疗。",
+        "plan_level": 3,
+        "applicable_condition": "IV期ABPA",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于Ⅳ期患者，可能需要长期口服小剂量激素维持治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_itraconazole",
+        "content": "伊曲康唑 200 mg，1次／d，疗程4～6周；以后每6个月复查一次。",
+        "plan_level": 2,
+        "applicable_condition": "激素依赖患者、激素治疗效果不佳者",
+        "contraindication_note": "需与食物同服以利吸收，避免与质子泵抑制剂合用",
+        "evidence_ids": [
+          "伊曲康唑有『1川{胶 楚和几 每6个Jj- I 复A l玖 这一过 if 1，，液 fIl 利 Jj『《』i J胶 逝；li0剂 嘤 酸以利吸收，Itj - JT,ilhtl床缓解悄 ， 定每一心 ’个人的 J 线"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_voriconazole",
+        "content": "伏立康唑 200 mg，1次／d，疗程4～6周；以后每6个月复查一次。",
+        "plan_level": 2,
+        "applicable_condition": "激素依赖患者、激素治疗效果不佳者",
+        "contraindication_note": "需与食物同服以利吸收，避免与质子泵抑制剂合用",
+        "evidence_ids": [
+          "伏立康唑 200～300 mg／d），也可获得相应疗效"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_aspergillus_fumigatus_sensitization",
+        "content": "烟曲霉致敏",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "变应性支气管肺曲霉病(allergic bronchopulmonary aspergillosis，ABPA)是烟曲霉致敏引起的一种变应性肺部疾病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_other_fungi_sensitization",
+        "content": "其他真菌致敏",
+        "etiology_type": "感染因素",
+        "typicality": "少见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "少见情况下，其他真菌也可引起与 ABPA相似的表现，统称变应性支气管肺真菌病 (allergic bronchopulmonary mycosis，ABPM)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_asthma",
+        "content": "哮喘",
+        "etiology_type": "基础疾病",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "ABPA较常发生于哮喘患者，研究显示 ABPA在哮喘中所占比例为 1．0％ ～3．5％ 。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_cystic_fibrosis",
+        "content": "肺囊性纤维化",
+        "etiology_type": "基础疾病",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "在欧美国家，肺囊性纤维化并发 ABPA相对多见，病例汇总后所得患病率为 8．9％"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_bronchiectasis",
+        "content": "支气管扩张",
+        "etiology_type": "基础疾病",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "ABPA还可见于其他肺部疾病患者，例如支气管扩张"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_copd",
+        "content": "慢性阻塞性肺疾病",
+        "etiology_type": "基础疾病",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "ABPA还可见于其他肺部疾病患者，例如……慢性阻塞性肺疾病等"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_allergic_reaction_with_mucus_impaction",
+        "content": "烟曲霉致敏引起的一种变应性肺部疾病，表现为慢性支气管哮喘和反复出现的肺部阴影，可伴有支气管扩张。",
+        "evidence_ids": [
+          "变应性支气管肺曲霉病(allergic bronchopulmonary aspergillosis，ABPA)是烟曲霉致敏引起的一种变应性肺部疾病，表现为慢性支气管哮喘和反复出现的肺部阴影，可伴有支气管扩张。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_abpa",
+        "to": "sub_disease_abpa_serologic",
+        "relation_id": "rel_abpa_has_serologic_abpa",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "无支气管扩张，则诊断为血清型 ABPA(ABPA—S)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_abpa",
+        "to": "sub_disease_abpa_bronchiectatic",
+        "relation_id": "rel_abpa_has_bronchiectatic_abpa",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "肺部 HRCT显示中心性支气管扩张或支气管黏液栓，即支气管扩张型 ABPA(ABPA—B)；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_abpa",
+        "to": "sub_disease_abpa_stage_i",
+        "relation_id": "rel_abpa_has_stage_i",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "I期：新发的、活动性 ABPA；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_abpa",
+        "to": "sub_disease_abpa_stage_ii",
+        "relation_id": "rel_abpa_has_stage_ii",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "Ⅱ期：临床和血清学缓解期；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_abpa",
+        "to": "sub_disease_abpa_stage_iii",
+        "relation_id": "rel_abpa_has_stage_iii",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "m期：复发性活动性 ABPA；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_abpa",
+        "to": "sub_disease_abpa_stage_iv",
+        "relation_id": "rel_abpa_has_stage_iv",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "1V期：慢性激素依赖性哮喘；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_abpa",
+        "to": "sub_disease_abpa_stage_v",
+        "relation_id": "rel_abpa_has_stage_v",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "V期：进行性炎症和气道扩张引起的纤维一空洞病变，可导致进行性呼吸衰竭和死亡。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "symptom_cough",
+        "relation_id": "rel_abpa_serologic_manifests_as_cough",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "ABPA的临床表现多种多样，缺乏特异性，主要表现为咳嗽、咳痰、喘息"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为'主要表现为咳嗽、咳痰、喘息'，属核心临床表现之一，但非特异性",
+        "evidence": "ABPA的临床表现多种多样，缺乏特异性，主要表现为咳嗽、咳痰、喘息，还可见低热、消瘦、乏力、胸痛等。"
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "symptom_sputum",
+        "relation_id": "rel_abpa_serologic_manifests_as_sputum",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "ABPA的临床表现多种多样，缺乏特异性，主要表现为咳嗽、咳痰、喘息"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为'主要表现为咳嗽、咳痰、喘息'，属核心临床表现之一，但非特异性",
+        "evidence": "ABPA的临床表现多种多样，缺乏特异性，主要表现为咳嗽、咳痰、喘息，还可见低热、消瘦、乏力、胸痛等。"
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "symptom_wheezing",
+        "relation_id": "rel_abpa_serologic_manifests_as_wheezing",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "ABPA的临床表现多种多样，缺乏特异性，主要表现为咳嗽、咳痰、喘息"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为'主要表现为咳嗽、咳痰、喘息'，属核心临床表现之一，但非特异性",
+        "evidence": "ABPA的临床表现多种多样，缺乏特异性，主要表现为咳嗽、咳痰、喘息，还可见低热、消瘦、乏力、胸痛等。"
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "symptom_low_fever",
+        "relation_id": "rel_abpa_serologic_manifests_as_low_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "还可见低热、消瘦、乏力、胸痛等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "symptom_weight_loss",
+        "relation_id": "rel_abpa_serologic_manifests_as_weight_loss",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "还可见低热、消瘦、乏力、胸痛等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "symptom_fatigue",
+        "relation_id": "rel_abpa_serologic_manifests_as_fatigue",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "还可见低热、消瘦、乏力、胸痛等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "symptom_chest_pain",
+        "relation_id": "rel_abpa_serologic_manifests_as_chest_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "还可见低热、消瘦、乏力、胸痛等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "symptom_brown_mucoid_sputum_plug",
+        "relation_id": "rel_abpa_serologic_manifests_as_brown_mucoid_sputum_plug",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "咳棕褐色黏冻样痰栓为特征性表现。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文称'咳棕褐色黏冻样痰栓为特征性表现'，'特征性'即具有高度鉴别价值，权重高于一般症状",
+        "evidence": "咳棕褐色黏冻样痰栓为特征性表现。"
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "symptom_hemoptysis",
+        "relation_id": "rel_abpa_serologic_manifests_as_hemoptysis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "存在支气管扩张时，可有不同程度的咯血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "symptom_no_symptom",
+        "relation_id": "rel_abpa_serologic_manifests_as_no_symptom",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "exclusion",
+        "type_info": "排除条件",
+        "weight": 3,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "少数患者可以没有明显症状。"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "test_skin_prick_test",
+        "relation_id": "rel_abpa_serologic_requires_skin_prick_test",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "针对烟曲霉的阳性速发型皮肤反应",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "第三部分 实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "针对烟曲霉的阳性速发型皮肤反应是诊断 ABPA的必备条件之一。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确'针对烟曲霉的阳性速发型皮肤反应是诊断ABPA的必备条件之一'，'必备条件'对应高权重",
+        "evidence": "针对烟曲霉的阳性速发型皮肤反应是诊断ABPA的必备条件之一。"
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "test_serum_total_ige",
+        "relation_id": "rel_abpa_serologic_requires_tige",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 1000,
+        "value_max": null,
+        "operator": ">",
+        "unit": "U/ml",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "第三部分 实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "关于诊断 ABPA的血清TIgE界值，目前大多数学者建议为 > 1 000 U／ml"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确'血清TIgE水平是ABPA诊断及随访中最重要的免疫学指标之一'，'最重要'支持权重10",
+        "evidence": "血清TIgE水平是ABPA诊断及随访中最重要的免疫学指标之一。"
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "test_serum_specific_ige",
+        "relation_id": "rel_abpa_serologic_requires_sige",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 0.35,
+        "value_max": null,
+        "operator": ">",
+        "unit": "kUA/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "第三部分 实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "曲霉 slgE是 ABPA特征性的诊断指标，用于诊断 ABPA的界值为 > 0．35 kUA／L"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确'曲霉sIgE是ABPA特征性的诊断指标'，且'在诊断过程中建议联合检测'，'特征性'与'建议联合'共同支撑最高常规权重",
+        "evidence": "曲霉sIgE是ABPA特征性的诊断指标，用于诊断ABPA的界值为>0．35kUA／L。"
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "test_serum_specific_igg",
+        "relation_id": "rel_abpa_serologic_requires_sig_g",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "曲霉血清沉淀素阳性",
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "第三部分 实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "69％ ～90％的 ABPA患者可 出现 曲霉 血清沉淀素阳性"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "test_chest_hrct",
+        "relation_id": "rel_abpa_serologic_requires_hrct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": "指套征或牙膏征、树芽征、黏液嵌塞征",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "第三部分 实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "胸部高分辨 CT (HRCT)上表现为指套征或牙膏征。外周细支气管黏液阻塞可致 “树芽征”。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "test_peripheral_eosinophil_count",
+        "relation_id": "rel_abpa_serologic_requires_eosinophil_count",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断辅助条件",
+        "diagnostic_role": "supportive",
+        "value_min": 0.5,
+        "value_max": null,
+        "operator": ">",
+        "unit": "×10^9/L",
+        "result_text": null,
+        "weight": 4,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "第三部分 实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "目前建议外周血嗜酸粒细胞增多作为 ABPA辅助诊断指标，诊断界值为>0．5 X 10 个／L"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "treatment_abpa_systemic_corticosteroid",
+        "relation_id": "rel_abpa_serologic_follows_systemic_corticosteroid",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "第七部分 治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "treatment_abpa_avoid_allergen",
+        "relation_id": "rel_abpa_serologic_follows_avoid_allergen",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病因"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "第七部分 治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "treatment_abpa_antifungal_therapy",
+        "relation_id": "rel_abpa_serologic_follows_antifungal_therapy",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "激素依赖或治疗效果不佳者",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "weak",
+        "decision_basis": [
+          "治疗反应"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "第七部分 治疗",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_abpa_systemic_corticosteroid",
+        "to": "plan_prednisone_initial",
+        "relation_id": "rel_systemic_corticosteroid_implements_by_prednisone_initial",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "I期或III期ABPA",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于 I期和Ⅲ期患者，通常使用的泼尼松起始剂量为 0．5 mg／kg，1次／d，2周；继以 0．25 mg／kg，1次／d，4～6周。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_abpa_systemic_corticosteroid",
+        "to": "plan_prednisone_tapering",
+        "relation_id": "rel_systemic_corticosteroid_implements_by_prednisone_tapering",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "维持",
+        "applicable_condition": "I期或III期ABPA缓解后",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "然后根据病情试行减量，一般每 2周减 5～10 mg，建议采用隔 日给药方法。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_abpa_systemic_corticosteroid",
+        "to": "plan_prednisone_maintenance",
+        "relation_id": "rel_systemic_corticosteroid_implements_by_prednisone_maintenance",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "维持",
+        "applicable_condition": "IV期ABPA",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于Ⅳ期患者，可能需要长期口服小剂量激素维持治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_abpa_antifungal_therapy",
+        "to": "plan_itraconazole",
+        "relation_id": "rel_antifungal_therapy_implements_by_itraconazole",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "激素依赖患者、激素治疗效果不佳者",
+        "contraindication_note": "需与食物同服以利吸收，避免与质子泵抑制剂合用",
+        "evidence_ids": [
+          "伊曲康唑有『1川{胶 楚和几 每6个Jj- I 复A l玖 这一过 if 1，，液 fIl 利 Jj『《』i J胶 逝；li0剂 嘤 酸以利吸收，Itj - JT,ilhtl床缓解悄 ， 定每一心 ’个人的 J 线"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_abpa_antifungal_therapy",
+        "to": "plan_voriconazole",
+        "relation_id": "rel_antifungal_therapy_implements_by_voriconazole",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "激素依赖患者、激素治疗效果不佳者",
+        "contraindication_note": "需与食物同服以利吸收，避免与质子泵抑制剂合用",
+        "evidence_ids": [
+          "伏立康唑 200～300 mg／d），也可获得相应疗效"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "etiology_aspergillus_fumigatus_sensitization",
+        "relation_id": "rel_aspergillus_fumigatus_sensitization_causes_abpa_serologic",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "变应性支气管肺曲霉病(allergic bronchopulmonary aspergillosis，ABPA)是烟曲霉致敏引起的一种变应性肺部疾病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "etiology_other_fungi_sensitization",
+        "relation_id": "rel_other_fungi_sensitization_causes_abpa_serologic",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "weak",
+        "typicality": "少见",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "少见情况下，其他真菌也可引起与 ABPA相似的表现，统称变应性支气管肺真菌病 (allergic bronchopulmonary mycosis，ABPM)。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_abpa_serologic",
+        "to": "pathogenesis_allergic_reaction_with_mucus_impaction",
+        "relation_id": "rel_abpa_serologic_explained_by_allergic_reaction_with_mucus_impaction",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "变应性支气管肺曲霉病(allergic bronchopulmonary aspergillosis，ABPA)是烟曲霉致敏引起的一种变应性肺部疾病，表现为慢性支气管哮喘和反复出现的肺部阴影，可伴有支气管扩张。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

@@ -1,0 +1,994 @@
+{
+  "meta": {
+    "doc_id": "中国腹腔感染诊治指南（2019版）",
+    "source_title": "中国腹腔感染诊治指南（2019版）",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_iai",
+        "name": "腹腔感染",
+        "normalized_name": "腹腔感染",
+        "aliases": [
+          "intra-abdominal infection",
+          "IAI"
+        ],
+        "source_document_ids": [
+          "中国腹腔感染诊治指南（2019版）"
+        ],
+        "evidence_ids": [
+          "腹腔感染（intra-abdominal infection, IAI）是腹部外科常见病，可继发于消化道的穿孔、坏死与坏疽，如胃十二指肠消化性溃疡穿孔、胃肠道肿瘤因梗阻和放化疗合并的穿孔；化脓性阑尾炎与阑尾穿孔、肠梗阻与肠坏死也会引起IAI。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_ca_iai",
+        "name": "社区获得性腹腔感染",
+        "parent_disease_id": "disease_iai",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "将成人IAI分为社区获得性腹腔感染（community-acquired intraabdominal infection, CA-IAI）及医疗机构或医院获得性腹腔感染（healthcare- or hospital-associated intraabdominal infection, HA-IAI）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ha_iai",
+        "name": "医疗机构或医院获得性腹腔感染",
+        "parent_disease_id": "disease_iai",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "将成人IAI分为社区获得性腹腔感染（community-acquired intraabdominal infection, CA-IAI）及医疗机构或医院获得性腹腔感染（healthcare- or hospital-associated intraabdominal infection, HA-IAI）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ca_iai_mild_moderate",
+        "name": "轻中度社区获得性腹腔感染",
+        "parent_disease_id": "disease_iai",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻中度",
+        "population": null,
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "轻中度CA-IAI的起始经验性用药应覆盖非耐药的肠杆菌科细菌和厌氧菌，无需额外添加更广谱的抗生素或针对肠球菌、铜绿假单胞菌的药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ca_iai_severe",
+        "name": "重度社区获得性腹腔感染",
+        "parent_disease_id": "disease_iai",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重度",
+        "population": null,
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "重度CA-IAI病人多具有一项甚至多项预后不良或耐药菌感染的高危因素，因此，经验性治疗应选择广谱抗感染药物……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ha_iai_severe",
+        "name": "重度医疗机构或医院获得性腹腔感染",
+        "parent_disease_id": "disease_iai",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重度",
+        "population": null,
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "HA-IAI的病原微生物则有较大的不同：大部分病原菌仍以肠道菌群为主……HA-IAI中非细菌学病原菌，特别是念珠菌属更加常见……因此，HA-IAI应使用广谱抗生素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ciai",
+        "name": "复杂性腹腔感染",
+        "parent_disease_id": "disease_iai",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "2010 IDSA SIS联合发布的复杂腹腔感染（complicated intra-abdominal infection, cIAI）诊治指南"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_sap",
+        "name": "重症急性胰腺炎",
+        "parent_disease_id": "disease_iai",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": null,
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "重症急性胰腺炎（severe acute pancreatitis, SAP）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_msap",
+        "name": "中度重症急性胰腺炎",
+        "parent_disease_id": "disease_iai",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "中度重症",
+        "population": null,
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "中度重症急性胰腺炎（moderately severe acute pancreatitis, MSAP）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_acute_appendicitis",
+        "name": "急性阑尾炎",
+        "parent_disease_id": "disease_iai",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "急性阑尾炎是最常见的急腹症之一。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_simple_appendicitis",
+        "name": "单纯性阑尾炎",
+        "parent_disease_id": "disease_iai",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "将单纯性阑尾炎与复杂（穿孔）性阑尾炎分开讨论，单纯性阑尾炎行腹腔镜阑尾切除术术后切口感染的风险明显低于开腹阑尾切除术组"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_complicated_appendicitis",
+        "name": "复杂（穿孔）性阑尾炎",
+        "parent_disease_id": "disease_iai",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "将单纯性阑尾炎与复杂（穿孔）性阑尾炎分开讨论……复杂或穿孔的阑尾炎也观察到同样的趋势"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "腹痛、反跳痛、肛门停止排气排便、发热等症状及体征均对腹腔感染有较强的提示作用"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_rebound_tenderness",
+        "name": "反跳痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "腹痛、反跳痛、肛门停止排气排便、发热等症状及体征均对腹腔感染有较强的提示作用"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "腹痛、反跳痛、肛门停止排气排便、发热等症状及体征均对腹腔感染有较强的提示作用"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_ileus",
+        "name": "肛门停止排气排便",
+        "body_site": "消化道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "腹痛、反跳痛、肛门停止排气排便、发热等症状及体征均对腹腔感染有较强的提示作用"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_tachycardia",
+        "name": "心率增快",
+        "body_site": "循环系统",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "心率增快……与治疗失败相关"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hypotension",
+        "name": "低血压",
+        "body_site": "循环系统",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "在严重感染或脓毒症合并的脏器功能障碍中肺损伤发生较早，表现为难以纠正的低血压和呼吸困难。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dyspnea",
+        "name": "呼吸困难",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "在严重感染或脓毒症合并的脏器功能障碍中肺损伤发生较早，表现为难以纠正的低血压和呼吸困难。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_apacheii_score",
+        "name": "APACHEⅡ评分",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "APACHEⅡ评分为10分可作为区分IAI严重度的划分标准。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_sofa_score",
+        "name": "SOFA评分",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "SOFA评分≥1……与治疗失败相关"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_mpi_score",
+        "name": "曼海姆腹膜炎指数（MPI）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "MPI评分……预测死亡的灵敏度和特异度"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ct",
+        "name": "腹部CT检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "应用CT随机效应模型（存在显著异质性）进行诊断性Meta分析发现，CT诊断IAI的合并敏感度（95%CI：0.89-0.94），特异度（95%CI：0.95-0.98）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ultrasound",
+        "name": "腹部超声检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "超声诊断IAI的文献共检索到7篇……诊断性Meta分析提示超声诊断IAI的合并敏感度（95%CI：0.83-0.90），特异度（95%CI：0.93-0.97）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pcr",
+        "name": "C反应蛋白（CRP）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "C反应蛋白（C-reactive protein, CRP）……预示着感染进展的程度。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pct",
+        "name": "降钙素原（PCT）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "降钙素原（procalcitonin, PCT）……PCT对IAI病人的诊断合并灵敏度为0.794（95%CI：0.757-0.829），特异度为0.679（95%CI：0.655-0.702）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_wbc_count",
+        "name": "白细胞计数（WBC）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "白细胞（white blood cell, WBC）计数……预示着感染进展的程度。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_lactate_peak",
+        "name": "乳酸峰值水平",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "乳酸峰值水平……与治疗失败相关"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_albumin",
+        "name": "血清白蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "低白蛋白血症……与治疗失败相关"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_source_control",
+        "content": "控制感染源是IAI治疗中至关重要的环节，也是治疗成败的关键环节。",
+        "recommendation_strength": "strong",
+        "source_section": "感染源控制",
+        "evidence_ids": [
+          "控制感染源是IAI治疗中至关重要的环节，也是治疗成败的关键环节。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_antimicrobial_therapy",
+        "content": "抗感染治疗应在确诊为腹腔脓毒症病人后1小时内开始。",
+        "recommendation_strength": "strong",
+        "source_section": "抗感染治疗时机",
+        "evidence_ids": [
+          "确诊为腹腔脓毒症病人的起始治疗时机应严格控制在1h内，强调尽快用药。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_nutrition_support",
+        "content": "当病人存在营养不良或营养不良风险时，应给予肠内或肠外营养支持，而不能仅给予普通液体。肠外营养与肠内营养相比，优先考虑肠内营养。",
+        "recommendation_strength": "strong",
+        "source_section": "营养支持方式",
+        "evidence_ids": [
+          "本指南制定专家组认为当病人存在营养不良或营养不良风险时，应给予肠内或肠外营养支持，而不能仅给予普通液体。肠外营养与肠内营养相比，优先考虑肠内营养。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_deescalation",
+        "content": "推荐降阶梯策略。",
+        "recommendation_strength": "strong",
+        "source_section": "降阶梯策略",
+        "evidence_ids": [
+          "考虑到降阶梯策略在减少细菌耐药方面的作用，本指南制定专家组一致决定推荐降阶梯策略。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_ertapenem_monotherapy",
+        "content": "单药方案可选择厄他培南、莫西沙星、头孢哌酮/舒巴坦；联合用药方案可选择二代头孢菌素（头孢唑啉、头孢呋辛等）、三代头孢菌素（头孢曲松、头孢噻肟等），或喹诺酮（环丙沙星、左氧氟沙星等），均需要联合甲硝唑等硝基咪唑类的抗厌氧菌药物。",
+        "plan_level": 1,
+        "applicable_condition": "轻中度CA-IAI",
+        "contraindication_note": "喹诺酮类药物仅在β-内酰胺类药物过敏人群中使用。",
+        "evidence_ids": [
+          "轻中度CA-IAI的起始经验性用药应覆盖非耐药的肠杆菌科细菌和厌氧菌……网状Meta分析的排序结果显示，治疗轻中度CA-IAI的疗效依次是厄他培南、三代头孢菌素+甲硝唑、二代头孢菌素+甲硝唑、喹诺酮、酶抑制剂。因此，单药方案可选择厄他培南、莫西沙星、头孢哌酮/舒巴坦；联合用药方案可选择二代头孢菌素（头孢唑啉、头孢呋辛等）、三代头孢菌素（头孢曲松、头孢噻肟等），或喹诺酮（环丙沙星、左氧氟沙星等），均需要联合甲硝唑等硝基咪唑类的抗厌氧菌药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_imipenem_cilastatin",
+        "content": "针对重度CA-IAI，单一用药方案可选择亚胺培南/西司他丁、美罗培南等碳青霉烯类药物或哌拉西林/他唑巴坦等酶抑制剂。",
+        "plan_level": 1,
+        "applicable_condition": "重度CA-IAI",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "针对重度CA-IAI，单一用药方案可选择亚胺培南/西司他丁、美罗培南等碳青霉烯类药物或哌拉西林/他唑巴坦等酶抑制剂。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_meropenem",
+        "content": "美罗培南与亚胺培南/西司他丁在临床治愈率、细菌清除率、不良反应发生率的比较中效能相当。",
+        "plan_level": 2,
+        "applicable_condition": "重度CA-IAI",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "两两比较的Meta分析提示，美罗培南与亚胺培南/西司他丁在临床治愈率（RR=1.01）、细菌清除率（RR=1）、不良反应发生率（RR=1.17）的比较中效能相当……因此，本指南制定专家组考虑亚胺培南/西司他丁可与美罗培南排序等级相同。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_enteral_nutrition_within_24h",
+        "content": "建议在24~72h内对可耐受胃肠喂养的病人给予肠内营养。",
+        "plan_level": 1,
+        "applicable_condition": "所有IAI病人存在营养不良或营养不良风险且胃肠功能可耐受",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "本指南制定专家组推荐早期开展肠内营养，目前对早期尚无统一的定义，建议在24~72h内对可耐受胃肠喂养的病人给予肠内营养。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_gastrointestinal_perforation",
+        "content": "消化道穿孔",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "腹腔感染（intra-abdominal infection, IAI）是腹部外科常见病，可继发于消化道的穿孔、坏死与坏疽"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_gastrointestinal_necrosis",
+        "content": "消化道坏死与坏疽",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "腹腔感染（intra-abdominal infection, IAI）是腹部外科常见病，可继发于消化道的穿孔、坏死与坏疽"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_esbl_producing_enterobacteriaceae",
+        "content": "产超广谱β-内酰胺酶（ESBL）肠杆菌科细菌",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "产ESBL的大肠杆菌和肺炎克雷伯菌对阿米卡星、厄他培南、亚胺培南、哌拉西林/他唑巴坦有较好的敏感性，但对三代及四代头孢菌素敏感性则较差。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_carbapenem_resistant_bacteria",
+        "content": "耐碳青霉烯菌",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "HA-IAI的病原菌对各种常见抗生素的耐药性较为严重……这就导致HA-IAI使用碳青霉烯类的比例更高，与此同时带来更为严峻的耐碳青霉烯问题。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_gut_microbiota_mix_infection",
+        "content": "IAI通常为多种肠道微生物的混合感染，病原菌主要是肠道菌群，从感染的腹水或腹腔组织中培养的病原菌主要以大肠杆菌为主，其次是其他肠杆菌科（克雷伯菌属）、非发酵革兰阴性菌（铜绿假单胞菌）、链球菌。",
+        "evidence_ids": [
+          "CA-IAI通常为多种肠道微生物的混合感染，病原菌主要是肠道菌群，从感染的腹水或腹腔组织中培养的病原菌主要以大肠杆菌为主，其次是其他肠杆菌科（克雷伯菌属）、非发酵革兰阴性菌（铜绿假单胞菌）、链球菌。"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_iai",
+        "to": "sub_disease_ca_iai",
+        "relation_id": "rel_iai_has_ca_iai",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "将成人IAI分为社区获得性腹腔感染（community-acquired intraabdominal infection, CA-IAI）及医疗机构或医院获得性腹腔感染（healthcare- or hospital-associated intraabdominal infection, HA-IAI）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_iai",
+        "to": "sub_disease_ha_iai",
+        "relation_id": "rel_iai_has_ha_iai",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "将成人IAI分为社区获得性腹腔感染（community-acquired intraabdominal infection, CA-IAI）及医疗机构或医院获得性腹腔感染（healthcare- or hospital-associated intraabdominal infection, HA-IAI）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_iai",
+        "to": "sub_disease_ca_iai_mild_moderate",
+        "relation_id": "rel_iai_has_ca_iai_mild_moderate",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "轻中度CA-IAI的起始经验性用药应覆盖非耐药的肠杆菌科细菌和厌氧菌，无需额外添加更广谱的抗生素或针对肠球菌、铜绿假单胞菌的药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_iai",
+        "to": "sub_disease_ca_iai_severe",
+        "relation_id": "rel_iai_has_ca_iai_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "重度CA-IAI病人多具有一项甚至多项预后不良或耐药菌感染的高危因素，因此，经验性治疗应选择广谱抗感染药物……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_iai",
+        "to": "sub_disease_ha_iai_severe",
+        "relation_id": "rel_iai_has_ha_iai_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HA-IAI的病原微生物则有较大的不同：大部分病原菌仍以肠道菌群为主……HA-IAI中非细菌学病原菌，特别是念珠菌属更加常见……因此，HA-IAI应使用广谱抗生素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_iai",
+        "to": "sub_disease_ciai",
+        "relation_id": "rel_iai_has_ciai",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "2010 IDSA SIS联合发布的复杂腹腔感染（complicated intra-abdominal infection, cIAI）诊治指南"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_iai",
+        "to": "sub_disease_sap",
+        "relation_id": "rel_iai_has_sap",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "重症急性胰腺炎（severe acute pancreatitis, SAP）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_iai",
+        "to": "sub_disease_msap",
+        "relation_id": "rel_iai_has_msap",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "中度重症急性胰腺炎（moderately severe acute pancreatitis, MSAP）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_iai",
+        "to": "sub_disease_acute_appendicitis",
+        "relation_id": "rel_iai_has_acute_appendicitis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性阑尾炎是最常见的急腹症之一。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_iai",
+        "to": "sub_disease_simple_appendicitis",
+        "relation_id": "rel_iai_has_simple_appendicitis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "将单纯性阑尾炎与复杂（穿孔）性阑尾炎分开讨论，单纯性阑尾炎行腹腔镜阑尾切除术术后切口感染的风险明显低于开腹阑尾切除术组"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_iai",
+        "to": "sub_disease_complicated_appendicitis",
+        "relation_id": "rel_iai_has_complicated_appendicitis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "将单纯性阑尾炎与复杂（穿孔）性阑尾炎分开讨论……复杂或穿孔的阑尾炎也观察到同样的趋势"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_ca_iai",
+        "to": "symptom_abdominal_pain",
+        "relation_id": "rel_ca_iai_manifests_as_abdominal_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "腹痛、反跳痛、肛门停止排气排便、发热等症状及体征均对腹腔感染有较强的提示作用"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确列举‘腹痛’为强提示症状，且与反跳痛、肛门停止排气排便、发热并列，属高度一致临床表现",
+        "evidence": "腹痛、反跳痛、肛门停止排气排便、发热等症状及体征均对腹腔感染有较强的提示作用"
+      },
+      {
+        "from": "sub_disease_ca_iai",
+        "to": "symptom_rebound_tenderness",
+        "relation_id": "rel_ca_iai_manifests_as_rebound_tenderness",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "腹痛、反跳痛、肛门停止排气排便、发热等症状及体征均对腹腔感染有较强的提示作用"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将‘反跳痛’与腹痛等并列为‘对腹腔感染有较强的提示作用’的症状，属高度一致临床表现",
+        "evidence": "腹痛、反跳痛、肛门停止排气排便、发热等症状及体征均对腹腔感染有较强的提示作用"
+      },
+      {
+        "from": "sub_disease_ca_iai",
+        "to": "symptom_fever",
+        "relation_id": "rel_ca_iai_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "腹痛、反跳痛、肛门停止排气排便、发热等症状及体征均对腹腔感染有较强的提示作用"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将‘发热’与腹痛、反跳痛等并列为‘对腹腔感染有较强的提示作用’的症状，属高度一致临床表现",
+        "evidence": "腹痛、反跳痛、肛门停止排气排便、发热等症状及体征均对腹腔感染有较强的提示作用"
+      },
+      {
+        "from": "sub_disease_ca_iai",
+        "to": "symptom_ileus",
+        "relation_id": "rel_ca_iai_manifests_as_ileus",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "腹痛、反跳痛、肛门停止排气排便、发热等症状及体征均对腹腔感染有较强的提示作用"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文中‘肛门停止排气排便’即临床术语‘肠梗阻/麻痹性肠梗阻’的核心表现，等同于ileus（肠麻痹），属强提示症状",
+        "evidence": "腹痛、反跳痛、肛门停止排气排便、发热等症状及体征均对腹腔感染有较强的提示作用"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_ca_iai",
+        "to": "test_apacheii_score",
+        "relation_id": "rel_ca_iai_requires_apacheii_score",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 10,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "分",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "严重度分级",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "APACHEⅡ评分为10分可作为区分IAI严重度的划分标准。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出APACHEⅡ评分用于‘区分疾病严重度’并‘推荐优先使用’，但未称其为诊断或确诊工具；其作用是预后预测和分级，非直接诊断CA-IAI",
+        "evidence": "本指南制定专家组指出，由于APACHEⅡ评分在临床的应用最为广泛，推荐优先使用APACHEII评分，其次为MPI评分"
+      },
+      {
+        "from": "sub_disease_ca_iai",
+        "to": "test_ct",
+        "relation_id": "rel_ca_iai_requires_ct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断推荐项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "CT示弥漫性腹膜炎改变",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "应用CT随机效应模型（存在显著异质性）进行诊断性Meta分析发现，CT诊断IAI的合并敏感度（95%CI：0.89-0.94），特异度（95%CI：0.95-0.98）"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确CT为‘辅助诊断IAI’的影像学检查，且诊断性Meta分析显示其合并敏感度0.91、特异度0.97、AUC 0.9758，被指南推荐为首选影像学手段之一",
+        "evidence": "应用CT随机效应模型（存在显著异质性）进行诊断性Meta分析发现，CT诊断IAI的合并敏感度（95%CI0.89-0.94），特异度（95%CI0.95-0.98），AUC为0.9758"
+      },
+      {
+        "from": "sub_disease_ca_iai",
+        "to": "test_ultrasound",
+        "relation_id": "rel_ca_iai_requires_ultrasound",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断推荐项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "超声示腹腔积液伴回声增强",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "common",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "超声诊断IAI的文献共检索到7篇……诊断性Meta分析提示超声诊断IAI的合并敏感度（95%CI：0.83-0.90），特异度（95%CI：0.93-0.97）"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_ca_iai",
+        "to": "treatment_source_control",
+        "relation_id": "rel_ca_iai_follows_source_control",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "所有CA-IAI病人",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "感染源控制",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ca_iai",
+        "to": "treatment_antimicrobial_therapy",
+        "relation_id": "rel_ca_iai_follows_antimicrobial_therapy",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊为腹腔脓毒症的CA-IAI病人",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "是否脓毒症"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "抗感染治疗时机",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_source_control",
+        "to": "plan_ertapenem_monotherapy",
+        "relation_id": "rel_source_control_implements_by_ertapenem",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "轻中度CA-IAI且无耐药高危因素",
+        "contraindication_note": "喹诺酮类药物仅在β-内酰胺类药物过敏人群中使用。",
+        "evidence_ids": [
+          "轻中度CA-IAI的起始经验性用药应覆盖非耐药的肠杆菌科细菌和厌氧菌……网状Meta分析的排序结果显示，治疗轻中度CA-IAI的疗效依次是厄他培南、三代头孢菌素+甲硝唑、二代头孢菌素+甲硝唑、喹诺酮、酶抑制剂。因此，单药方案可选择厄他培南、莫西沙星、头孢哌酮/舒巴坦；联合用药方案可选择二代头孢菌素（头孢唑啉、头孢呋辛等）、三代头孢菌素（头孢曲松、头孢噻肟等），或喹诺酮（环丙沙星、左氧氟沙星等），均需要联合甲硝唑等硝基咪唑类的抗厌氧菌药物。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_ca_iai",
+        "to": "etiology_gastrointestinal_perforation",
+        "relation_id": "rel_ca_iai_causes_gastrointestinal_perforation",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "腹腔感染（intra-abdominal infection, IAI）是腹部外科常见病，可继发于消化道的穿孔、坏死与坏疽"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ca_iai",
+        "to": "etiology_gastrointestinal_necrosis",
+        "relation_id": "rel_ca_iai_causes_gastrointestinal_necrosis",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "腹腔感染（intra-abdominal infection, IAI）是腹部外科常见病，可继发于消化道的穿孔、坏死与坏疽"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_ca_iai",
+        "to": "pathogenesis_gut_microbiota_mix_infection",
+        "relation_id": "rel_ca_iai_explained_by_gut_microbiota_mix_infection",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "CA-IAI通常为多种肠道微生物的混合感染，病原菌主要是肠道菌群，从感染的腹水或腹腔组织中培养的病原菌主要以大肠杆菌为主，其次是其他肠杆菌科（克雷伯菌属）、非发酵革兰阴性菌（铜绿假单胞菌）、链球菌。"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

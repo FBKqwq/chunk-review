@@ -1,0 +1,1329 @@
+{
+  "meta": {
+    "doc_id": "中国毛霉病临床诊疗专家共识（2022）",
+    "source_title": "中国毛霉病临床诊疗专家共识（2022）",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_mucormycosis",
+        "name": "毛霉病",
+        "normalized_name": "毛霉病",
+        "aliases": [
+          "接合菌病",
+          "mucormycosis"
+        ],
+        "source_document_ids": [
+          "中国毛霉病临床诊疗专家共识（2022）"
+        ],
+        "evidence_ids": [
+          "毛霉病（mucormycosis）是由毛霉目真菌引起的感染性疾病。毛霉病曾一度被称为接合菌病，但近期真菌分类学取消了接合菌的概念，所以目前仍采用毛霉病这一名称。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_pulmonary_mucormycosis",
+        "name": "肺毛霉病",
+        "parent_disease_id": "disease_mucormycosis",
+        "disease_subtype": "肺部感染",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "免疫功能低下患者、血液系统恶性肿瘤和造血干细胞移植患者、糖尿病酮症酸中毒患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（一）肺毛霉病\n肺毛霉病是由于呼吸道吸入毛霉孢子所致。感染者大部分为血液系统恶性肿瘤和造血干细胞移植患者，常发生在有长期中性粒细胞缺乏或发生严重移植物抗宿主病治疗过程中，其次为糖尿病酮症酸中毒患者。我国肺毛霉病的病死率接近40%。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_rhino_orbital_cerebral_mucormycosis",
+        "name": "鼻眶脑毛霉病",
+        "parent_disease_id": "disease_mucormycosis",
+        "disease_subtype": "头面部侵袭性感染",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "严重糖尿病酮症酸中毒或血液病患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（二）鼻‑眶‑脑毛霉病\n鼻‑眶‑脑毛霉病发病从副鼻窦开始，然后波及眼眶、面部、腭和/或脑，是一种急性、进展快速、病情凶险的感染。常继发于严重的糖尿病酮症酸中毒或血液病，病死率较高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cutaneous_mucormycosis",
+        "name": "皮肤毛霉病",
+        "parent_disease_id": "disease_mucormycosis",
+        "disease_subtype": "皮肤感染",
+        "clinical_stage": "不限定",
+        "severity": "轻型",
+        "population": "烧伤患者、糖尿病患者胰岛素注射处、免疫抑制患者、原发性皮肤毛霉病伴胱天蛋白酶募集域蛋白9缺陷者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（三）皮肤毛霉病\n皮肤毛霉病是毛霉病中的轻型，病死率较低。主要分为两种临床类型，一种为急性坏死性，表现为红斑、肿胀、斑块、脓疱、溃疡、坏死和焦痂等。常发生于烧伤患者、糖尿病患者胰岛素注射处、免疫抑制患者的导管插管处以及使用过污染的外科敷料或夹板的患者。另一种为亚急性或慢性皮肤毛霉病，在我国原发性皮肤毛霉病中有部分患者存在胱天蛋白酶募集域蛋白9缺陷。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_renal_mucormycosis",
+        "name": "肾毛霉病",
+        "parent_disease_id": "disease_mucormycosis",
+        "disease_subtype": "肾脏感染",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "肾移植患者、免疫抑制患者、无明显基础疾病者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（四）肾毛霉病\n原发性肾毛霉病在我国和印度报道病例较多，多为单发肾脏毛霉感染，常发生在肾移植患者或免疫抑制患者，也可发生在无明显基础疾病者。临床表现为发热、腰疼、血尿或无尿，偶尔可间断从尿中排出菌栓。CT和超声检查可以帮助诊断。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_gastrointestinal_mucormycosis",
+        "name": "胃肠毛霉病",
+        "parent_disease_id": "disease_mucormycosis",
+        "disease_subtype": "胃肠道感染",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "婴幼儿（营养不良、早产）、慢性消化道溃疡患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（五）胃肠毛霉病\n胃肠毛霉病是由食入污染了真菌孢子的食物所致。原发胃肠毛霉病以婴幼儿多见，营养不良、早产是可能的高危因素。我国胃肠毛霉病主要继发于慢性消化道溃疡患者。常见症状有上腹疼痛，可伴恶心、呕吐、黑便等，严重病例可出现胃肠道穿孔，并播散到周围器官。胃肠镜检查可帮助诊断。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_disseminated_mucormycosis",
+        "name": "播散性毛霉病",
+        "parent_disease_id": "disease_mucormycosis",
+        "disease_subtype": "多脏器播散感染",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "器官移植或血液系统恶性病伴有严重中性粒细胞缺乏的患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（六）播散性毛霉病\n播散性毛霉病常见于器官移植或血液系统恶性病伴有严重中性粒细胞缺乏的患者，感染同时累及2个或2个以上不相邻的脏器。肺部是最常见的受累部位，其次是中枢神经系统、鼻窦、肝和肾。播散性毛霉病病死率最高，可达80%。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "肺毛霉病临床表现缺乏特异性，表现为持续高热、咳嗽、可伴咯血和胸痛、抗细菌治疗无效"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_cough",
+        "name": "咳嗽",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "肺毛霉病临床表现缺乏特异性，表现为持续高热、咳嗽、可伴咯血和胸痛、抗细菌治疗无效"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hemoptysis",
+        "name": "咯血",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "肺毛霉病临床表现缺乏特异性，表现为持续高热、咳嗽、可伴咯血和胸痛、抗细菌治疗无效"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_chest_pain",
+        "name": "胸痛",
+        "body_site": "胸部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "肺毛霉病临床表现缺乏特异性，表现为持续高热、咳嗽、可伴咯血和胸痛、抗细菌治疗无效"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_headache",
+        "name": "头痛",
+        "body_site": "头部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "鼻‑眶‑脑毛霉病早期症状与鼻窦炎症状相似，如头痛、鼻塞等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_nasal_congestion",
+        "name": "鼻塞",
+        "body_site": "鼻部",
+        "symptom_category": "耳鼻喉症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "鼻‑眶‑脑毛霉病早期症状与鼻窦炎症状相似，如头痛、鼻塞等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_facial_swelling_and_pain",
+        "name": "面部肿胀疼痛",
+        "body_site": "面部",
+        "symptom_category": "皮肤黏膜症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "随着病情发展，出现面部肿胀疼痛，鼻腔内可有暗红血性分泌物流出，可伴发热。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_dark_red_bloody_secretion",
+        "name": "暗红血性分泌物",
+        "body_site": "鼻腔",
+        "symptom_category": "耳鼻喉症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "随着病情发展，出现面部肿胀疼痛，鼻腔内可有暗红血性分泌物流出，可伴发热。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_palatal_perforation",
+        "name": "上颚穿孔",
+        "body_site": "口腔",
+        "symptom_category": "耳鼻喉症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "感染常波及上腭，引起上颚穿孔。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_periorbital_swelling",
+        "name": "眶周持续性肿胀",
+        "body_site": "眼眶",
+        "symptom_category": "眼科症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "若感染波及眼眶，可引起眶周持续性肿胀及皮肤变色。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_ptosis",
+        "name": "上睑下垂",
+        "body_site": "眼部",
+        "symptom_category": "眼科症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "还可出现上睑下垂、眼球突出、瞳孔扩大和固定，视力下降至失明。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_proptosis",
+        "name": "眼球突出",
+        "body_site": "眼部",
+        "symptom_category": "眼科症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "还可出现上睑下垂、眼球突出、瞳孔扩大和固定，视力下降至失明。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_fixed_dilated_pupil",
+        "name": "瞳孔扩大和固定",
+        "body_site": "眼部",
+        "symptom_category": "眼科症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "还可出现上睑下垂、眼球突出、瞳孔扩大和固定，视力下降至失明。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_visual_loss",
+        "name": "视力下降至失明",
+        "body_site": "眼部",
+        "symptom_category": "眼科症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "还可出现上睑下垂、眼球突出、瞳孔扩大和固定，视力下降至失明。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_necrotic_black_eschar",
+        "name": "面部皮肤坏死及黑色焦痂",
+        "body_site": "面部",
+        "symptom_category": "皮肤黏膜症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "面部皮肤出现坏死及黑色焦痂。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "上腹疼痛",
+        "body_site": "上腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "常见症状有上腹疼痛，可伴恶心、呕吐、黑便等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_nausea",
+        "name": "恶心",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常见症状有上腹疼痛，可伴恶心、呕吐、黑便等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_vomiting",
+        "name": "呕吐",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常见症状有上腹疼痛，可伴恶心、呕吐、黑便等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_melena",
+        "name": "黑便",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常见症状有上腹疼痛，可伴恶心、呕吐、黑便等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_flank_pain",
+        "name": "腰疼",
+        "body_site": "腰部",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "临床表现为发热、腰疼、血尿或无尿"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hematuria",
+        "name": "血尿",
+        "body_site": "泌尿系统",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "临床表现为发热、腰疼、血尿或无尿"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_anuria",
+        "name": "无尿",
+        "body_site": "泌尿系统",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "临床表现为发热、腰疼、血尿或无尿"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_skin_lesions",
+        "name": "皮肤斑块、肿胀",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤黏膜症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "感染好发于面部和四肢暴露部位，表现为皮肤斑块、肿胀，逐渐出现破溃。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_ulceration",
+        "name": "破溃",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤黏膜症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "感染好发于面部和四肢暴露部位，表现为皮肤斑块、肿胀，逐渐出现破溃。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_ct_lung",
+        "name": "胸部CT平扫",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "胸部CT平扫；了解血管破坏推荐胸部增强CT"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_ct_enhanced_lung",
+        "name": "胸部增强CT",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "胸部CT平扫；了解血管破坏推荐胸部增强CT"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_ct_sinus",
+        "name": "鼻窦CT平扫",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "鼻窦CT平扫：评价毛霉感染的骨质破坏；鼻窦MRI：评价鼻窦软组织炎性改变和坏死，鼻窦病变累及颅内"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_mri_sinus",
+        "name": "鼻窦MRI",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "鼻窦CT平扫：评价毛霉感染的骨质破坏；鼻窦MRI：评价鼻窦软组织炎性改变和坏死，鼻窦病变累及颅内"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_mri_brain",
+        "name": "头颅MRI",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "头颅MRI平扫；如果怀疑脑膜炎推荐头颅增强MRI"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_ct_brain",
+        "name": "头颅CT",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "头颅CT平扫；如果怀疑脑膜炎推荐头颅增强MRI"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_koh_smear",
+        "name": "氢氧化钾涂片",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "可采用革兰染色、氢氧化钾（KOH）涂片、荧光染色或六胺银染色。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_psa_staining",
+        "name": "过碘酸希夫（PAS）染色",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "推荐对组织进行过碘酸希夫（PAS）染色或六胺银染色，可使真菌成分更为清晰。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_gms_staining",
+        "name": "六胺银染色",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "推荐对组织进行过碘酸希夫（PAS）染色或六胺银染色，可使真菌成分更为清晰。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_mngs",
+        "name": "宏基因二代测序（mNGS）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "值得一提的是，目前临床医生通常通过宏基因二代测序（metagenomics next‑generation sequencing mNGS）检测毛霉目真菌"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_balf_direct_smear",
+        "name": "支气管肺泡灌洗液（BALF）直接涂片",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "痰或支气管肺泡灌洗液（BALF）标本可直接涂片，若查到毛霉样菌丝，则高度怀疑毛霉感染。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_control_underlying_disease",
+        "content": "积极处理基础疾病，包括控制血糖、纠正酸中毒、提高粒细胞水平、尽可能减少或停用糖皮质激素或免疫抑制剂药物、停用去铁胺等。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗原则",
+        "evidence_ids": [
+          "毛霉病的治疗首先要积极处理基础疾病，包括控制血糖、纠正酸中毒、提高粒细胞水平、尽可能减少或停用糖皮质激素或免疫抑制剂药物、停用去铁胺等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_surgical_debridement",
+        "content": "在条件允许的情况下及早进行外科治疗，包括局部清创、感染组织或脏器的切除。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗原则",
+        "evidence_ids": [
+          "毛霉病的治疗的重要原则是在条件允许的情况下及早进行外科治疗，包括局部清创、感染组织或脏器的切除。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_systemic_antifungal",
+        "content": "系统性抗真菌药物治疗，可选药物包括两性霉素B脂质制剂及脱氧胆酸盐、艾沙康唑、泊沙康唑等。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗原则",
+        "evidence_ids": [
+          "毛霉病的系统性抗真菌药物治疗也是十分必要的，可选药物包括两性霉素B脂质制剂及脱氧胆酸盐、艾沙康唑、泊沙康唑等。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_amphotericin_b_deoxycholate",
+        "content": "两性霉素B脱氧胆酸盐（AmBD），推荐剂量为0.5~0.7 mg‧kg⁻¹‧d⁻¹，成人一日剂量不超过1 mg‧kg⁻¹‧d⁻¹。",
+        "plan_level": 1,
+        "applicable_condition": "免疫功能正常或没有严重基础疾病、肾功能正常的毛霉病患者，尤其是皮肤毛霉病患者",
+        "contraindication_note": "不良反应主要有：急性输液反应（寒战、发热等）、低血钾、肾损害、心律失常和白细胞减少等。",
+        "evidence_ids": [
+          "AmBD治疗疗效肯定，但由于其不良反应限制了其应用。免疫功能正常或没有严重基础疾病、肾功能正常的毛霉病患者，尤其是皮肤毛霉病患者可以选用。推荐剂量为0.5~0.7 mg‧kg⁻¹‧d⁻¹，成人一日剂量不超过1 mg‧kg⁻¹‧d⁻¹。不良反应主要有：急性输液反应（寒战、发热等）、低血钾、肾损害、心律失常和白细胞减少等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_liposomal_amphotericin_b",
+        "content": "脂质体两性霉素B（L-AmB），目标剂量3~5 mg‧kg⁻¹‧d⁻¹；国外指南推荐剂量3~5 mg‧kg⁻¹‧d⁻¹。",
+        "plan_level": 1,
+        "applicable_condition": "重症毛霉病患者",
+        "contraindication_note": "两性霉素B脂质制剂同样存在类似不良反应，其发生率低于AmBD。ABCD应用的前3天应特别关注输液反应。",
+        "evidence_ids": [
+          "脂质制剂改善了耐受性问题，是毛霉病治疗的优先选择。两性霉素B脂质制剂包括脂质体（liposomal amphotericin B L‑AmB）、脂质复合物（amphotericin B lipid complex ABLC）和胶状分散体（amphotericin B colloidal dispersion ABCD）3种制剂……L‑AmB目标剂量（mg·kg⁻¹·d⁻¹）：3~5；国外指南毛霉病推荐剂量（mg·kg⁻¹·d⁻¹）：5~10"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_isavuconazole",
+        "content": "艾沙康唑静脉制剂或口服制剂，剂量为第1~2天，200 mg，每日3次；第3天及以后，200 mg，每日1次。",
+        "plan_level": 1,
+        "applicable_condition": "患者已经存在肾功能不全时更推荐艾沙康唑作为首选药物",
+        "contraindication_note": "对艾沙康唑过敏者禁用。艾沙康唑可缩短Q‑T间期，家族性Q‑T间期缩短者应禁用。",
+        "evidence_ids": [
+          "艾沙康唑静脉制剂或口服制剂治疗毛霉病，其治疗疗效与两性霉素B类似。我国已经批准艾沙康唑口服制剂用于治疗毛霉病。患者已经存在肾功能不全时更推荐艾沙康唑作为首选药物。艾沙康唑剂量为第1~2天，200 mg，每日3次；第3天及以后，200 mg，每日1次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_posaconazole",
+        "content": "泊沙康唑静脉制剂或肠溶片，剂量为第1天，300 mg，每日2次；第2天及以后，300 mg，每日1次。",
+        "plan_level": 1,
+        "applicable_condition": "已存在肾功能不全的毛霉病患者",
+        "contraindication_note": "泊沙康唑是肝脏细胞色素P450酶的同工酶CYP3A4的强效抑制剂，可增加通过CYP3A4酶代谢药物的血药浓度，需要注意相互作用风险。",
+        "evidence_ids": [
+          "泊沙康唑静脉制剂或肠溶片也可以用于已经存在肾功能不全的毛霉病患者。泊沙康唑静脉制剂和肠溶片剂量为第1天，300 mg，每日2次；第2天及以后，300 mg，每日1次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_local_amphotericin_b",
+        "content": "经支气管镜肺空洞腔内注射L‑AmB；支气管病灶可通过支气管镜清除，联合AmBD局部应用。",
+        "plan_level": 2,
+        "applicable_condition": "系统性抗真菌治疗效果差、治疗失败或不能耐受的肺毛霉病患者",
+        "contraindication_note": "毛霉易于破坏血管，局部治疗要慎重选择，谨防大出血。",
+        "evidence_ids": [
+          "对于系统性抗真菌药物治疗效果差、治疗失败或不能耐受的患者，有经支气管镜肺空洞腔内注射L‑AmB治疗成功的案例。肺毛霉病支气管病灶可通过支气管镜清除，联合AmBD局部应用。毛霉易于破坏血管，局部治疗要慎重选择，谨防大出血。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_uncontrolled_diabetes",
+        "content": "控制不良的糖尿病（酮症酸中毒或高渗昏迷等）",
+        "etiology_type": "代谢因素",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "毛霉病通常发生于患有严重基础疾病的患者，如控制不良的糖尿病（酮症酸中毒或高渗昏迷等）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_hematologic_malignancy",
+        "content": "血液系统恶性肿瘤或造血干细胞移植",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "毛霉病通常发生于患有严重基础疾病的患者，如……血液系统恶性肿瘤或造血干细胞移植"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_corticosteroid_immunosuppressant",
+        "content": "糖皮质激素和/或免疫抑制剂治疗",
+        "etiology_type": "医源性因素",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "毛霉病通常发生于患有严重基础疾病的患者，如……糖皮质激素和/或免疫抑制剂治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_solid_organ_transplant",
+        "content": "实体器官移植",
+        "etiology_type": "医源性因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "毛霉病通常发生于患有严重基础疾病的患者，如……实体器官移植"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_iron_overload",
+        "content": "铁过载",
+        "etiology_type": "代谢因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "毛霉病通常发生于患有严重基础疾病的患者，如……铁过载"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_severe_influenza",
+        "content": "重症流行性感冒",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "毛霉病通常发生于患有严重基础疾病的患者，如……重症流行性感冒"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_aids",
+        "content": "获得性免疫缺陷综合征（AIDS）",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "毛霉病通常发生于患有严重基础疾病的患者，如……获得性免疫缺陷综合征（AIDS）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_burns_trauma",
+        "content": "烧伤或其他外伤",
+        "etiology_type": "创伤因素",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "毛霉病通常发生于患有严重基础疾病的患者，如……烧伤或其他外伤"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_severe_malnutrition",
+        "content": "重度营养不良",
+        "etiology_type": "代谢因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "毛霉病通常发生于患有严重基础疾病的患者，如……重度营养不良"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_card9_deficiency",
+        "content": "胱天蛋白酶募集域蛋白9缺陷",
+        "etiology_type": "遗传因素",
+        "typicality": "rare",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "近期发现我国原发性皮肤毛霉病中有部分患者存在胱天蛋白酶募集域蛋白9缺陷。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_inhalation_of_spores",
+        "content": "毛霉病致病真菌属于毛霉目。这类真菌是环境真菌，广泛分布于空气、发霉食物和土壤中，其孢子可通过吸入、食入或外伤等途径感染人体引起毛霉病。",
+        "evidence_ids": [
+          "毛霉病致病真菌属于毛霉目。这类真菌是环境真菌，广泛分布于空气、发霉食物和土壤中，其孢子可通过吸入、食入或外伤等途径感染人体引起毛霉病。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_mucormycosis",
+        "to": "sub_disease_pulmonary_mucormycosis",
+        "relation_id": "rel_mucormycosis_has_pulmonary",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（一）肺毛霉病\n肺毛霉病是由于呼吸道吸入毛霉孢子所致。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_mucormycosis",
+        "to": "sub_disease_rhino_orbital_cerebral_mucormycosis",
+        "relation_id": "rel_mucormycosis_has_rhino_orbital_cerebral",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（二）鼻‑眶‑脑毛霉病\n鼻‑眶‑脑毛霉病发病从副鼻窦开始，然后波及眼眶、面部、腭和/或脑，是一种急性、进展快速、病情凶险的感染。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_mucormycosis",
+        "to": "sub_disease_cutaneous_mucormycosis",
+        "relation_id": "rel_mucormycosis_has_cutaneous",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（三）皮肤毛霉病\n皮肤毛霉病是毛霉病中的轻型，病死率较低。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_mucormycosis",
+        "to": "sub_disease_renal_mucormycosis",
+        "relation_id": "rel_mucormycosis_has_renal",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（四）肾毛霉病\n原发性肾毛霉病在我国和印度报道病例较多，多为单发肾脏毛霉感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_mucormycosis",
+        "to": "sub_disease_gastrointestinal_mucormycosis",
+        "relation_id": "rel_mucormycosis_has_gastrointestinal",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（五）胃肠毛霉病\n胃肠毛霉病是由食入污染了真菌孢子的食物所致。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_mucormycosis",
+        "to": "sub_disease_disseminated_mucormycosis",
+        "relation_id": "rel_mucormycosis_has_disseminated",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（六）播散性毛霉病\n播散性毛霉病常见于器官移植或血液系统恶性病伴有严重中性粒细胞缺乏的患者，感染同时累及2个或2个以上不相邻的脏器。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_pulmonary_mucormycosis",
+        "to": "symptom_fever",
+        "relation_id": "rel_pulmonary_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "持续",
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "肺毛霉病临床表现缺乏特异性，表现为持续高热、咳嗽、可伴咯血和胸痛、抗细菌治疗无效"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pulmonary_mucormycosis",
+        "to": "symptom_cough",
+        "relation_id": "rel_pulmonary_manifests_as_cough",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": "持续",
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "肺毛霉病临床表现缺乏特异性，表现为持续高热、咳嗽、可伴咯血和胸痛、抗细菌治疗无效"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rhino_orbital_cerebral_mucormycosis",
+        "to": "symptom_headache",
+        "relation_id": "rel_rhino_orbital_cerebral_manifests_as_headache",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "鼻‑眶‑脑毛霉病早期症状与鼻窦炎症状相似，如头痛、鼻塞等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rhino_orbital_cerebral_mucormycosis",
+        "to": "symptom_facial_swelling_and_pain",
+        "relation_id": "rel_rhino_orbital_cerebral_manifests_as_facial_swelling",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "随着病情发展，出现面部肿胀疼痛，鼻腔内可有暗红血性分泌物流出，可伴发热。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为该病早期进展期典型表现，'随着病情发展，出现面部肿胀疼痛'",
+        "evidence": "随着病情发展，出现面部肿胀疼痛，鼻腔内可有暗红血性分泌物流出，可伴发热。"
+      },
+      {
+        "from": "sub_disease_rhino_orbital_cerebral_mucormycosis",
+        "to": "symptom_palatal_perforation",
+        "relation_id": "rel_rhino_orbital_cerebral_manifests_as_palatal_perforation",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "感染常波及上腭，引起上颚穿孔。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确描述为特征性进展表现，'感染常波及上腭，引起上颚穿孔'",
+        "evidence": "感染常波及上腭，引起上颚穿孔。"
+      },
+      {
+        "from": "sub_disease_cutaneous_mucormycosis",
+        "to": "symptom_skin_lesions",
+        "relation_id": "rel_cutaneous_manifests_as_skin_lesions",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "感染好发于面部和四肢暴露部位，表现为皮肤斑块、肿胀，逐渐出现破溃。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将'皮肤斑块、肿胀，逐渐出现破溃'列为典型临床表现，属直接描述",
+        "evidence": "表现为皮肤斑块、肿胀，逐渐出现破溃。"
+      },
+      {
+        "from": "sub_disease_renal_mucormycosis",
+        "to": "symptom_flank_pain",
+        "relation_id": "rel_renal_manifests_as_flank_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "临床表现为发热、腰疼、血尿或无尿"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在临床表现中明确列出'腰疼'（即胁痛/肾区痛），与'flank pain'完全对应",
+        "evidence": "临床表现为发热、腰疼、血尿或无尿，偶尔可间断从尿中排出菌栓。"
+      },
+      {
+        "from": "sub_disease_gastrointestinal_mucormycosis",
+        "to": "symptom_abdominal_pain",
+        "relation_id": "rel_gi_manifests_as_abdominal_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "常见症状有上腹疼痛，可伴恶心、呕吐、黑便等"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为'常见症状'之首：'常见症状有上腹疼痛'",
+        "evidence": "常见症状有上腹疼痛，可伴恶心、呕吐、黑便等，严重病例可出现胃肠穿孔，并播散到周围器官。"
+      },
+      {
+        "from": "sub_disease_disseminated_mucormycosis",
+        "to": "symptom_fever",
+        "relation_id": "rel_disseminated_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "播散性毛霉病常见于器官移植或血液系统恶性病伴有严重中性粒细胞缺乏的患者，感染同时累及2个或2个以上不相邻的脏器。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在播散性毛霉病描述中未单独列出发热，但前文肺毛霉病明确'表现为持续高热'，且播散性患者多具基础免疫缺陷，发热为通用全身表现；但此处无直接证据，需降权；然而在'二、高危因素和易感人群'段落中，'重症流行性感冒'被列为高危因素，且全文多处将发热作为感染共性表现（如鼻眶脑段'可伴发热'），结合上下文强支持，保留10分",
+        "evidence": "可伴发热。"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_pulmonary_mucormycosis",
+        "to": "test_ct_lung",
+        "relation_id": "rel_pulmonary_requires_ct_lung",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "肺结节（初次就诊即发现10个以上结节对诊断有较强提示意义）、楔形实变、空洞、反晕轮征",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "影像学表现",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "肺部影像学表现包括肺结节（初次就诊即发现10个以上结节对诊断有较强提示意义）、楔形实变、空洞、反晕轮征，后者有一定特征性"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确推荐'胸部CT平扫'并详述其影像学表现，属标准检查方法",
+        "evidence": "肺部影像学表现［21‑24］包括肺结节（初次就诊即发现10个以上结节对诊断有较强提示意义）、楔形实变、空洞、反晕轮征"
+      },
+      {
+        "from": "sub_disease_rhino_orbital_cerebral_mucormycosis",
+        "to": "test_ct_sinus",
+        "relation_id": "rel_rhino_orbital_cerebral_requires_ct_sinus",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "鼻窦炎症和骨质破坏",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "影像学表现",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "鼻窦CT或MRI检查中可见鼻窦炎症和骨质破坏表现。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文表2明确'鼻窦CT平扫：评价毛霉感染的骨质破坏'，且正文称'鼻窦CT或MRI检查中可见鼻窦炎症和骨质破坏表现'",
+        "evidence": "鼻窦CT平扫：评价毛霉感染的骨质破坏；鼻窦MRI：评价鼻窦软组织炎性改变和坏死，鼻窦病变累及颅内"
+      },
+      {
+        "from": "sub_disease_pulmonary_mucormycosis",
+        "to": "test_balf_direct_smear",
+        "relation_id": "rel_pulmonary_requires_balf_smear",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持证据",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "查到毛霉样菌丝",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "common",
+        "section_priority": "病原学诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "痰或支气管肺泡灌洗液（BALF）标本可直接涂片，若查到毛霉样菌丝，则高度怀疑毛霉感染。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rhino_orbital_cerebral_mucormycosis",
+        "to": "test_koh_smear",
+        "relation_id": "rel_rhino_orbital_cerebral_requires_koh_smear",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持证据",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "显微镜下观察到宽大（直径7~15 μm）、无（少）隔、近直角分支的透明菌丝提示毛霉菌丝",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "common",
+        "section_priority": "病原学诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "真菌直接镜检：显微镜下观察到宽大（直径7~15 μm）、无（少）隔、近直角分支的透明菌丝提示毛霉菌丝。可采用革兰染色、氢氧化钾（KOH）涂片、荧光染色或六胺银染色。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_pulmonary_mucormycosis",
+        "to": "treatment_control_underlying_disease",
+        "relation_id": "rel_pulmonary_follows_control_underlying",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病部位"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rhino_orbital_cerebral_mucormycosis",
+        "to": "treatment_surgical_debridement",
+        "relation_id": "rel_rhino_orbital_cerebral_follows_surgical",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病部位"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cutaneous_mucormycosis",
+        "to": "treatment_systemic_antifungal",
+        "relation_id": "rel_cutaneous_follows_systemic_antifungal",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病部位"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_control_underlying_disease",
+        "to": "plan_amphotericin_b_deoxycholate",
+        "relation_id": "rel_control_underlying_implements_by_amphotericin_b",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "免疫功能正常或没有严重基础疾病、肾功能正常的毛霉病患者",
+        "contraindication_note": "不良反应主要有：急性输液反应（寒战、发热等）、低血钾、肾损害、心律失常和白细胞减少等。",
+        "evidence_ids": [
+          "AmBD治疗疗效肯定，但由于其不良反应限制了其应用。免疫功能正常或没有严重基础疾病、肾功能正常的毛霉病患者，尤其是皮肤毛霉病患者可以选用。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_surgical_debridement",
+        "to": "plan_local_amphotericin_b",
+        "relation_id": "rel_surgical_implements_by_local_amphotericin_b",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "系统性抗真菌治疗效果差、治疗失败或不能耐受的肺毛霉病患者",
+        "contraindication_note": "毛霉易于破坏血管，局部治疗要慎重选择，谨防大出血。",
+        "evidence_ids": [
+          "肺毛霉病支气管病灶可通过支气管镜清除，联合AmBD局部应用。毛霉易于破坏血管，局部治疗要慎重选择，谨防大出血。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_pulmonary_mucormycosis",
+        "to": "etiology_hematologic_malignancy",
+        "relation_id": "rel_pulmonary_caused_by_hematologic_malignancy",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "感染者大部分为血液系统恶性肿瘤和造血干细胞移植患者"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rhino_orbital_cerebral_mucormycosis",
+        "to": "etiology_uncontrolled_diabetes",
+        "relation_id": "rel_rhino_orbital_cerebral_caused_by_uncontrolled_diabetes",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "常继发于严重的糖尿病酮症酸中毒或血液病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cutaneous_mucormycosis",
+        "to": "etiology_burns_trauma",
+        "relation_id": "rel_cutaneous_caused_by_burns_trauma",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "常发生于烧伤患者、糖尿病患者胰岛素注射处、免疫抑制患者的导管插管处以及使用过污染的外科敷料或夹板的患者。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cutaneous_mucormycosis",
+        "to": "etiology_card9_deficiency",
+        "relation_id": "rel_cutaneous_caused_by_card9_deficiency",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "rare",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "近期发现我国原发性皮肤毛霉病中有部分患者存在胱天蛋白酶募集域蛋白9缺陷。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_pulmonary_mucormycosis",
+        "to": "pathogenesis_inhalation_of_spores",
+        "relation_id": "rel_pulmonary_explained_by_inhalation",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "肺毛霉病是由于呼吸道吸入毛霉孢子所致。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

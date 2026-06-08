@@ -1,0 +1,816 @@
+{
+  "meta": {
+    "doc_id": "耐甲氧西林金黄色葡萄球菌感染防治专家共识2011年更新版",
+    "source_title": "耐甲氧西林金黄色葡萄球菌感染防治专家共识 2011年更新版",
+    "section_path": "",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_mrsa_infection",
+        "name": "耐甲氧西林金黄色葡萄球菌感染",
+        "normalized_name": "耐甲氧西林金黄色葡萄球菌感染",
+        "aliases": [
+          "MRSA感染"
+        ],
+        "source_document_ids": [
+          "耐甲氧西林金黄色葡萄球菌感染防治专家共识2011年更新版"
+        ],
+        "evidence_ids": [
+          "耐甲氧西林金黄色葡萄球菌(Methicillin—resistant Staphylococcus aureus，MRSA)感染的流行是一个严重的临床及公共卫生问题。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_ha_mrsa",
+        "name": "医疗机构相关性耐甲氧西林金黄色葡萄球菌感染",
+        "parent_disease_id": "disease_mrsa_infection",
+        "disease_subtype": "医疗机构相关性MRSA",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "接触过医疗机构的个体",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(1)医疗机构相关性 MRSA(healthcare—associated MRSA，HA—MRSA)指在接触过医疗机构的个体间相互传播的MRSA菌株。HA—MRSA感染可以在医院内发病，也可在社区内发病。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ca_mrsa",
+        "name": "社区获得性耐甲氧西林金黄色葡萄球菌感染",
+        "parent_disease_id": "disease_mrsa_infection",
+        "disease_subtype": "社区相关性MRSA",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "门诊、住院48小时内患者，无MRSA感染和定植病史，无留置导管或经皮肤的医疗装置，无手术、血液透析病史，1年内未曾住院、疗养院及养老院",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(2)社区相关性 MRSA(community—associated MRSA，CA—MRSA)是从门诊、住院48小时内的患者中分离到的一种新型MRSA菌株。这些患者既往无MRSA感染和定植病史，无留置导管或经皮肤的医疗装置，无手术、血液透析病史，1年内未曾住人医院、疗养院及养老院。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_vrsa",
+        "name": "耐万古霉素金黄色葡萄球菌感染",
+        "parent_disease_id": "disease_mrsa_infection",
+        "disease_subtype": "耐万古霉素金黄色葡萄球菌",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "3．耐万古霉素的金黄色葡萄球菌：临床实验室标准学会(The Clinical and Laboratory Standards Institute，CLSI)2006的定义，金黄色葡萄球菌对万古霉素的 MIC<4 μg／ml为敏感(VSSA)，MIC 8～16 mg／L为万古霉素中介(Vancomycin—intermediate Staphylococcus aureus，VISA)，MIC>32 μg／ml为耐药(Vancomycin—resistant Staphylococcus aureus，VRSA)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_visa",
+        "name": "万古霉素中介金黄色葡萄球菌感染",
+        "parent_disease_id": "disease_mrsa_infection",
+        "disease_subtype": "万古霉素中介金黄色葡萄球菌",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "3．耐万古霉素的金黄色葡萄球菌：临床实验室标准学会(The Clinical and Laboratory Standards Institute，CLSI)2006的定义，金黄色葡萄球菌对万古霉素的 MIC<4 μg／ml为敏感(VSSA)，MIC 8～16 mg／L为万古霉素中介(Vancomycin—intermediate Staphylococcus aureus，VISA)，MIC>32 μg／ml为耐药(Vancomycin—resistant Staphylococcus aureus，VRSA)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_skin_and_soft_tissue_infection",
+        "name": "MRSA皮肤及软组织感染",
+        "parent_disease_id": "disease_mrsa_infection",
+        "disease_subtype": "皮肤及软组织感染",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(一)皮肤及软组织感染\n皮肤软组织感染多为社区感染，金黄色葡萄球菌是皮肤软组织感染的主要病原菌……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_bloodstream_infection",
+        "name": "MRSA菌血症",
+        "parent_disease_id": "disease_mrsa_infection",
+        "disease_subtype": "菌血症",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(四)菌血症和心内膜炎\n随着静脉导管、人工装置和外科手术的增多，葡萄球菌已经成为菌血症和心内膜炎等血流感染最常见的病原体。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_endocarditis",
+        "name": "MRSA感染性心内膜炎",
+        "parent_disease_id": "disease_mrsa_infection",
+        "disease_subtype": "感染性心内膜炎",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(四)菌血症和心内膜炎\n随着静脉导管、人工装置和外科手术的增多，葡萄球菌已经成为菌血症和心内膜炎等血流感染最常见的病原体。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_uti",
+        "name": "MRSA泌尿系统感染",
+        "parent_disease_id": "disease_mrsa_infection",
+        "disease_subtype": "泌尿系统感染",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(三)泌尿系统感染\n我国Mohnarin监测显示，泌尿系统感染的金黄色葡萄球菌中MRSA分离率为36.4％……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_osteomyelitis_and_arthritis",
+        "name": "MRSA骨及关节感染",
+        "parent_disease_id": "disease_mrsa_infection",
+        "disease_subtype": "骨及关节感染",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(五)骨及关节感染\n骨及关节感染需要外科治疗和抗感染相结合，抗感染疗程较长……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_pneumonia",
+        "name": "MRSA肺炎",
+        "parent_disease_id": "disease_mrsa_infection",
+        "disease_subtype": "肺炎",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(六)呼吸道感染\n万古霉素治疗 MRSA肺炎的临床失败率 40％以上……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cns_infection",
+        "name": "MRSA中枢神经系统感染",
+        "parent_disease_id": "disease_mrsa_infection",
+        "disease_subtype": "中枢神经系统感染",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "(六)眼部及中枢神经系统感染\n抗菌药物穿透血脑屏障的能力可影响药物疗效。万古霉素穿透血脑屏障能力很弱……利奈唑胺可以治疗中枢神经系统MRSA感染……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "有全身中毒症状和体征时，如切开和引流治疗效果不好者，建议应用抗菌药物治疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_cellulitis",
+        "name": "蜂窝组织炎",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤及软组织症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "脓肿周围出现蜂窝组织炎……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_necrotizing_pneumonia",
+        "name": "坏死性肺炎",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "CA—MRSA多引起皮肤软组织感染，少数可以进展为严重的坏死性肺炎或中毒休克综合征(TSS)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_toxic_shock_syndrome",
+        "name": "中毒休克综合征",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "CA—MRSA多引起皮肤软组织感染，少数可以进展为严重的坏死性肺炎或中毒休克综合征(TSS)。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_meca_gene_detection",
+        "name": "mecA基因检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "分子生物学方法：检测 MRSA的 mecA基因，快速且特异，尤其是实时PCR法可以在2～4小时内鉴定出MRSA。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_oxacillin_mic",
+        "name": "苯唑西林最低抑菌浓度",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "由于存在非mecA基因介导的苯唑西林耐药，如果苯唑西林纸片法结果为耐药，要检测苯唑西林最低抑菌浓度(MIC)，如MIC≥4 μg／ml，即使mecA基因和PBP2a检测为阴性，也要报苯唑西林耐药。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_cefoxitin_disk",
+        "name": "头孢西丁纸片扩散试验",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "1．纸片扩散法：常用 1μg苯唑西林和30μg头孢西丁纸片来预测 mecA基因介导的苯唑西林耐药。头孢西丁纸片检测 MRSA的敏感性和特异性高，终点容易判读，是首选的初筛方法。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_vancomycin_mic",
+        "name": "万古霉素最低抑菌浓度",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "3．耐万古霉素的金黄色葡萄球菌：临床实验室标准学会(The Clinical and Laboratory Standards Institute，CLSI)2006的定义，金黄色葡萄球菌对万古霉素的 MIC<4 μg／ml为敏感(VSSA)，MIC 8～16 mg／L为万古霉素中介(Vancomycin—intermediate Staphylococcus aureus，VISA)，MIC>32 μg／ml为耐药(Vancomycin—resistant Staphylococcus aureus，VRSA)"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_empirical_antimrsa",
+        "content": "对疑似重度MRSA感染的患者，在细菌学结果出来前针对MRSA进行经验性治疗",
+        "recommendation_strength": "strong",
+        "source_section": "推荐2",
+        "evidence_ids": [
+          "推荐2： 在MRSA高度流行的医院或科室，对疑似重度MRSA感染的患者，可先经验性选择抗 MRSA药物进行治疗，再根据药敏结果降级到敏感的其他药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_surgical_drainage",
+        "content": "切开和引流是主要治疗，不需要常规使用抗菌药物",
+        "recommendation_strength": "strong",
+        "source_section": "推荐4",
+        "evidence_ids": [
+          "推荐4： 单纯皮肤脓肿或者疖，切开和引流是主要治疗，不需要常规使用抗菌药物。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_vancomycin_iv",
+        "content": "万古霉素静脉注射",
+        "plan_level": 1,
+        "applicable_condition": "MRSA皮肤软组织感染、菌血症、心内膜炎、肺炎、骨关节感染、腹膜炎",
+        "contraindication_note": "万古霉素MIC>2μg/ml的分离株(如 VISA、VRSA)，应使用其他替代药物。",
+        "evidence_ids": [
+          "万古霉素(Vancomycin)是糖肽类抗生素的代表，是治疗 MRSA感染的经典药物。……对于复杂皮肤软组织感染的住院患者……可选择以下药物之一：万古霉素静脉注射……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_linezolid_oral_iv",
+        "content": "利奈唑胺口服或静脉注射",
+        "plan_level": 1,
+        "applicable_condition": "MRSA皮肤软组织感染、菌血症、心内膜炎、肺炎、骨关节感染、腹膜炎",
+        "contraindication_note": "孕妇和哺乳期禁用；长期应用须注意监测肝功能、血常规和凝血功能。",
+        "evidence_ids": [
+          "可选择以下药物之一：……利奈唑胺口服或静脉注射……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_daptomycin_iv",
+        "content": "达托霉素静脉注射",
+        "plan_level": 1,
+        "applicable_condition": "MRSA皮肤软组织感染、菌血症、右侧心内膜炎",
+        "contraindication_note": "不能用于MRSA所致的肺炎；不用于左侧心内膜炎的治疗；严重肾功能不全时需调整剂量。",
+        "evidence_ids": [
+          "可选择以下药物之一：……达托霉素静脉注射。……达托霉素治疗左侧心内膜炎的预后较差，因此不用于左侧心内膜炎的治疗。……达托霉素对金黄色葡萄球菌的敏感折点为≤1 μg／ml。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_smz_tmp_oral",
+        "content": "复方磺胺甲噁唑口服",
+        "plan_level": 1,
+        "applicable_condition": "门诊CA-MRSA皮肤软组织感染",
+        "contraindication_note": "禁用于再度肝肾功能损害者、妊娠妇女和2月以下儿童。",
+        "evidence_ids": [
+          "复方磺胺甲噁唑(SMZ—TMP)对95％～100％的CA—MRSA株敏感，是门诊治疗皮肤软组织感染(SSSIs)的主要选择药物之一。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_meca_gene",
+        "content": "携带mecA基因",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "1．耐甲氧西林金黄色葡萄球菌：含有mecA基因或者苯唑西林MIC≥2 μg／ml的金黄色葡萄球菌菌株，称为耐甲氧西林金黄色葡萄球菌(MRSA)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_healthcare_exposure",
+        "content": "接触医疗机构",
+        "etiology_type": "危险因素",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "(1)医疗机构相关性 MRSA(healthcare—associated MRSA，HA—MRSA)指在接触过医疗机构的个体间相互传播的MRSA菌株。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_community_exposure",
+        "content": "社区暴露（无医疗机构接触史）",
+        "etiology_type": "危险因素",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "(2)社区相关性 MRSA(community—associated MRSA，CA—MRSA)是从门诊、住院48小时内的患者中分离到的一种新型MRSA菌株。这些患者既往无MRSA感染和定植病史，无留置导管或经皮肤的医疗装置，无手术、血液透析病史，1年内未曾住人医院、疗养院及养老院。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_meca_pbp2a",
+        "content": "mecA基因编码青霉素结合蛋白2a(PBP2a)，与β内酰胺类抗菌药物亲和力极低，使抗菌药物不能阻碍细胞壁肽聚糖层合成，从而产生耐药性。",
+        "evidence_ids": [
+          "MRSA携带mecA基因在MRSA耐药中起决定性作用，它编码的青霉素结合蛋白2a(Penicillin—binding protein 2a，PBP2a)与β内酰胺类抗菌药物的亲和力极低，使抗菌药物不能阻碍细胞壁肽聚糖层合成，从而产生耐药性。"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_mrsa_infection",
+        "to": "sub_disease_ha_mrsa",
+        "relation_id": "rel_mrsa_has_ha_mrsa",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(1)医疗机构相关性 MRSA(healthcare—associated MRSA，HA—MRSA)指在接触过医疗机构的个体间相互传播的MRSA菌株。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mrsa_infection",
+        "to": "sub_disease_ca_mrsa",
+        "relation_id": "rel_mrsa_has_ca_mrsa",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(2)社区相关性 MRSA(community—associated MRSA，CA—MRSA)是从门诊、住院48小时内的患者中分离到的一种新型MRSA菌株。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mrsa_infection",
+        "to": "sub_disease_vrsa",
+        "relation_id": "rel_mrsa_has_vrsa",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "3．耐万古霉素的金黄色葡萄球菌：临床实验室标准学会(The Clinical and Laboratory Standards Institute，CLSI)2006的定义，金黄色葡萄球菌对万古霉素的 MIC<4 μg／ml为敏感(VSSA)，MIC 8～16 mg／L为万古霉素中介(Vancomycin—intermediate Staphylococcus aureus，VISA)，MIC>32 μg／ml为耐药(Vancomycin—resistant Staphylococcus aureus，VRSA)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mrsa_infection",
+        "to": "sub_disease_visa",
+        "relation_id": "rel_mrsa_has_visa",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "3．耐万古霉素的金黄色葡萄球菌：临床实验室标准学会(The Clinical and Laboratory Standards Institute，CLSI)2006的定义，金黄色葡萄球菌对万古霉素的 MIC<4 μg／ml为敏感(VSSA)，MIC 8～16 mg／L为万古霉素中介(Vancomycin—intermediate Staphylococcus aureus，VISA)，MIC>32 μg／ml为耐药(Vancomycin—resistant Staphylococcus aureus，VRSA)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mrsa_infection",
+        "to": "sub_disease_skin_and_soft_tissue_infection",
+        "relation_id": "rel_mrsa_has_skin_infection",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(一)皮肤及软组织感染\n皮肤软组织感染多为社区感染，金黄色葡萄球菌是皮肤软组织感染的主要病原菌……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mrsa_infection",
+        "to": "sub_disease_bloodstream_infection",
+        "relation_id": "rel_mrsa_has_bacteremia",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(四)菌血症和心内膜炎\n随着静脉导管、人工装置和外科手术的增多，葡萄球菌已经成为菌血症和心内膜炎等血流感染最常见的病原体。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mrsa_infection",
+        "to": "sub_disease_endocarditis",
+        "relation_id": "rel_mrsa_has_endocarditis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(四)菌血症和心内膜炎\n随着静脉导管、人工装置和外科手术的增多，葡萄球菌已经成为菌血症和心内膜炎等血流感染最常见的病原体。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mrsa_infection",
+        "to": "sub_disease_uti",
+        "relation_id": "rel_mrsa_has_uti",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(三)泌尿系统感染\n我国Mohnarin监测显示，泌尿系统感染的金黄色葡萄球菌中MRSA分离率为36.4％……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mrsa_infection",
+        "to": "sub_disease_osteomyelitis_and_arthritis",
+        "relation_id": "rel_mrsa_has_osteomyelitis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(五)骨及关节感染\n骨及关节感染需要外科治疗和抗感染相结合，抗感染疗程较长……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mrsa_infection",
+        "to": "sub_disease_pneumonia",
+        "relation_id": "rel_mrsa_has_pneumonia",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(六)呼吸道感染\n万古霉素治疗 MRSA肺炎的临床失败率 40％以上……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mrsa_infection",
+        "to": "sub_disease_cns_infection",
+        "relation_id": "rel_mrsa_has_cns_infection",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(六)眼部及中枢神经系统感染\n抗菌药物穿透血脑屏障的能力可影响药物疗效。万古霉素穿透血脑屏障能力很弱……利奈唑胺可以治疗中枢神经系统MRSA感染……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_ca_mrsa",
+        "to": "symptom_necrotizing_pneumonia",
+        "relation_id": "rel_ca_mrsa_manifests_as_necrotizing_pneumonia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "背景介绍",
+        "evidence_ids": [
+          "CA—MRSA多引起皮肤软组织感染，少数可以进展为严重的坏死性肺炎或中毒休克综合征(TSS)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ca_mrsa",
+        "to": "symptom_toxic_shock_syndrome",
+        "relation_id": "rel_ca_mrsa_manifests_as_tss",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "背景介绍",
+        "evidence_ids": [
+          "CA—MRSA多引起皮肤软组织感染，少数可以进展为严重的坏死性肺炎或中毒休克综合征(TSS)。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_ha_mrsa",
+        "to": "test_meca_gene_detection",
+        "relation_id": "rel_ha_mrsa_requires_meca",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "检测阳性",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "分子生物学方法：检测 MRSA的 mecA基因，快速且特异，尤其是实时PCR法可以在2～4小时内鉴定出MRSA。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确将mecA基因检测列为快速且特异的分子生物学方法，用于MRSA鉴定，但指出存在假阳性可能，故非金标准",
+        "evidence": "分子生物学方法：检测MRSA的mecA基因，快速且特异，尤其是实时PCR法可以在2～4小时内鉴定出MRSA。"
+      },
+      {
+        "from": "sub_disease_ha_mrsa",
+        "to": "test_oxacillin_mic",
+        "relation_id": "rel_ha_mrsa_requires_oxacillin_mic",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 4,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "μg/ml",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "由于存在非mecA基因介导的苯唑西林耐药，如果苯唑西林纸片法结果为耐药，要检测苯唑西林最低抑菌浓度(MIC)，如MIC≥4 μg／ml，即使mecA基因和PBP2a检测为阴性，也要报苯唑西林耐药。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文规定苯唑西林MIC≥4μg/ml即报苯唑西林耐药，且强调当苯唑西林纸片法耐药时须检测MIC以确认，属关键确证步骤",
+        "evidence": "由于存在非mecA基因介导的苯唑西林耐药，如果苯唑西林纸片法结果为耐药，要检测苯唑西林最低抑菌浓度(MIC)，如MIC≥4μg／ml，即使mecA基因和PBP2a检测为阴性，也要报苯唑西林耐药。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_skin_and_soft_tissue_infection",
+        "to": "treatment_empirical_antimrsa",
+        "relation_id": "rel_skin_infection_follows_empirical",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "疑似重度MRSA感染",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病情严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐2",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_skin_and_soft_tissue_infection",
+        "to": "treatment_surgical_drainage",
+        "relation_id": "rel_skin_infection_follows_surgical_drainage",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "单纯皮肤脓肿或者疖",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "感染类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐4",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_empirical_antimrsa",
+        "to": "plan_vancomycin_iv",
+        "relation_id": "rel_empirical_implements_by_vancomycin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "MRSA皮肤软组织感染、菌血症、心内膜炎、肺炎、骨关节感染、腹膜炎",
+        "contraindication_note": "万古霉素MIC>2μg/ml的分离株(如 VISA、VRSA)，应使用其他替代药物。",
+        "evidence_ids": [
+          "万古霉素(Vancomycin)是糖肽类抗生素的代表，是治疗 MRSA感染的经典药物。……对于复杂皮肤软组织感染的住院患者……可选择以下药物之一：万古霉素静脉注射……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_empirical_antimrsa",
+        "to": "plan_linezolid_oral_iv",
+        "relation_id": "rel_empirical_implements_by_linezolid",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "MRSA皮肤软组织感染、菌血症、心内膜炎、肺炎、骨关节感染、腹膜炎",
+        "contraindication_note": "孕妇和哺乳期禁用；长期应用须注意监测肝功能、血常规和凝血功能。",
+        "evidence_ids": [
+          "可选择以下药物之一：……利奈唑胺口服或静脉注射……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_empirical_antimrsa",
+        "to": "plan_daptomycin_iv",
+        "relation_id": "rel_empirical_implements_by_daptomycin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "MRSA皮肤软组织感染、菌血症、右侧心内膜炎",
+        "contraindication_note": "不能用于MRSA所致的肺炎；不用于左侧心内膜炎的治疗；严重肾功能不全时需调整剂量。",
+        "evidence_ids": [
+          "可选择以下药物之一：……达托霉素静脉注射。……达托霉素治疗左侧心内膜炎的预后较差，因此不用于左侧心内膜炎的治疗。……达托霉素对金黄色葡萄球菌的敏感折点为≤1 μg／ml。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_ha_mrsa",
+        "to": "etiology_healthcare_exposure",
+        "relation_id": "rel_ha_mrsa_causes_healthcare_exposure",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "(1)医疗机构相关性 MRSA(healthcare—associated MRSA，HA—MRSA)指在接触过医疗机构的个体间相互传播的MRSA菌株。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ca_mrsa",
+        "to": "etiology_community_exposure",
+        "relation_id": "rel_ca_mrsa_causes_community_exposure",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "(2)社区相关性 MRSA(community—associated MRSA，CA—MRSA)是从门诊、住院48小时内的患者中分离到的一种新型MRSA菌株。这些患者既往无MRSA感染和定植病史，无留置导管或经皮肤的医疗装置，无手术、血液透析病史，1年内未曾住人医院、疗养院及养老院。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_ha_mrsa",
+        "to": "pathogenesis_meca_pbp2a",
+        "relation_id": "rel_ha_mrsa_explained_by_meca_pbp2a",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "MRSA携带mecA基因在MRSA耐药中起决定性作用，它编码的青霉素结合蛋白2a(Penicillin—binding protein 2a，PBP2a)与β内酰胺类抗菌药物的亲和力极低，使抗菌药物不能阻碍细胞壁肽聚糖层合成，从而产生耐药性。"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

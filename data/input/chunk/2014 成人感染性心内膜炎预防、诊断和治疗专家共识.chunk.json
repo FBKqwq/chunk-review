@@ -1,0 +1,343 @@
+{
+  "doc_id": "DOC_17b6ab0d00a2",
+  "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\2014 成人感染性心内膜炎预防、诊断和治疗专家共识.pdf",
+  "source_title": "2014 成人感染性心内膜炎预防、诊断和治疗专家共识",
+  "chunking_method": "section_semantic_v1",
+  "total_pages": 11,
+  "total_chunks": 0,
+  "dropped_chunks": [],
+  "unit_exponent_corrections": [],
+  "chunks": [],
+  "toc_llm_report": {
+    "enabled": true,
+    "mode": "dual_toc_v1",
+    "rule_candidate_count": 0,
+    "llm_candidate_count": 0,
+    "local_accepted_title_count": 0,
+    "final_accepted_title_count": 0,
+    "llm_extract_report": {
+      "enabled": true,
+      "status": "ok",
+      "reason": "",
+      "truncated_input": false,
+      "model": "qwen-plus",
+      "candidate_count": 0
+    },
+    "llm_judge_report": {
+      "enabled": true,
+      "status": "failed",
+      "reason": "judge_returned_no_valid_sections",
+      "model": "qwen-plus"
+    },
+    "local_metrics": {
+      "candidate_count": 0,
+      "accepted_title_count": 0,
+      "title_match_rate": 0.0,
+      "heading_noise_rate": 0.0,
+      "page_density": 0.0,
+      "suspicious_density": true,
+      "page_monotonicity_rate": 0.0,
+      "level_jump_count": 0
+    },
+    "final_metrics": {
+      "candidate_count": 0,
+      "accepted_title_count": 0,
+      "title_match_rate": 0.0,
+      "heading_noise_rate": 0.0,
+      "page_density": 0.0,
+      "suspicious_density": true,
+      "page_monotonicity_rate": 0.0,
+      "level_jump_count": 0
+    },
+    "final_toc": []
+  },
+  "text_quality_report": {
+    "stage": "parsed_pdf_text_quality",
+    "enabled": true,
+    "status": "pass",
+    "skip": false,
+    "reasons": [],
+    "total_chars": 52834,
+    "cjk_chars": 0,
+    "ascii_letter_chars": 17073,
+    "digit_chars": 13274,
+    "readable_chars": 47566,
+    "replacement_chars": 0,
+    "question_mark_chars": 332,
+    "control_chars": 0,
+    "symbol_chars": 4232,
+    "private_use_chars": 0,
+    "cjk_ratio": 0.0,
+    "ascii_letter_ratio": 0.3231,
+    "readable_ratio": 0.9003,
+    "weird_ratio": 0.0863,
+    "thresholds": {
+      "min_text_chars": 80,
+      "max_cjk_ratio": 0.02,
+      "min_ascii_letter_ratio": 0.2,
+      "min_readable_ratio": 0.55,
+      "max_weird_ratio": 0.35
+    }
+  },
+  "semantic_section_llm_report": {
+    "enabled": true,
+    "status": "ok",
+    "mode": "span_ops_v1",
+    "noise_fragments": [
+      {
+        "label": "噪声片段",
+        "start": 0,
+        "end": 4859,
+        "excerpt": "!5%)! gŁ7Y(cid:153)pK(cid:247)2%$6\n23456789:;<%=>\n?@ABC$%\n!\"#$%&’()$*%C!\"&’()+,-./0%\nCC456789&/1B<+>/D<<1EA+-1>/>/0##7’DEFGHI\nJKLM#NOPQD7R989STU2VWX6YZ6\n789:$R98[Q\\]^_DY‘aU2bFc$XY\ndeYfgDWXhijbFcklmgno",
+        "reason": "页眉、乱码及无效字符块（含CID编码、控制字符、非文本符号），无医学正文内容"
+      },
+      {
+        "label": "噪声片段",
+        "start": 4879,
+        "end": 9256,
+        "excerpt": "gŁ7Y(cid:153)pK(cid:247)2%$6(cid:128)$%ˆł62øł$%‹CI=/1PI-QE/A8#\"+>AJ<Q2%$6\n¤R99œpR#ßTK(cid:252)R(cid:242)D(cid:253)6#U2(cid:254)sY(cid:176)>s\nD(cid:255)(cid:240)!_#\"(cid:255)#ı(cid:246)(cid:216)$(cid:1",
+        "reason": "页眉、乱码及无效字符块，位于PAGE_BREAK:2前，无有效正文"
+      },
+      {
+        "label": "噪声片段",
+        "start": 9276,
+        "end": 12868,
+        "excerpt": "!5%5! gŁ7Y(cid:153)pK(cid:247)2%$6\n+\"CYYZ(cid:221)6#7\npq> =>\n(cid:201)˚X¸ YYZ$Yz–(cid:154)(cid:136)$/(cid:253)(cid:145)g¿_(cid:240)\n´ˆ!,(cid:238)c> Yz–(cid:154)(cid:136)&˜y!#@]3>¯˘^$G5%%\n(cid:204)˝&>X",
+        "reason": "页眉、乱码及无效字符块，位于PAGE_BREAK:3前，无有效正文"
+      },
+      {
+        "label": "噪声片段",
+        "start": 12888,
+        "end": 16624,
+        "excerpt": "gŁ7Y(cid:153)pK(cid:247)2%$6(cid:128)$%ˆł62øł$%‹CI=/1PI-QE/A8#\"+>AJ<Q2%$6\n+$C#7DDM@A\np(cid:152)x3F4 (cid:229)ŁxŒ¥(cid:246)O\nSR7#(cid:201)d(cid:139))\nCŁØŒº- 2@%$c*6=£¯\nCm(cid:236)(cid:237)Œº ’@%$c*)=£¯",
+        "reason": "页眉、乱码及无效字符块，位于PAGE_BREAK:4前，无有效正文"
+      },
+      {
+        "label": "噪声片段",
+        "start": 16644,
+        "end": 20866,
+        "excerpt": "!5$%! gŁ7Y(cid:153)pK(cid:247)2%$6\nAB@A>(cid:239)ˇ˘)*fg(cid:181)¶\"(cid:210)(cid:211)Xc(cid:229)(cid:230)4D\n(cid:231)4M˘#@A>(cid:239)>(cid:252)•‚*(cid:229)(cid:230)4c(cid:181)¶\"(cid:210)(cid:211)X˝i\neX",
+        "reason": "页眉、乱码及无效字符块，位于PAGE_BREAK:5前，无有效正文"
+      },
+      {
+        "label": "噪声片段",
+        "start": 20886,
+        "end": 26653,
+        "excerpt": "gŁ7Y(cid:153)pK(cid:247)2%$6(cid:128)$%ˆł62øł$%‹CI=/1PI-QE/A8#\"+>AJ<Q2%$6\n$(cid:254)K(cid:230)42(cid:129)*(cid:133)-./T(cid:201)m(»@(cid:144)¥c*\n^%m˙pq>(cid:221)¤#7\n$OT]&a?<Q;B<D<Q’\"T]G¨_ˆ‘(cid:238)a>",
+        "reason": "页眉、乱码及无效字符块，位于PAGE_BREAK:6前，无有效正文"
+      },
+      {
+        "label": "噪声片段",
+        "start": 26673,
+        "end": 31757,
+        "excerpt": "!5$2! gŁ7Y(cid:153)pK(cid:247)2%$6\n+(C87R9789:D\n/(cid:253)AB&*@\n7(cid:237)(cid:238)(cid:239)\nCR9,6Y(cid:176)m⁄¥§¤““6Ed,m7q6«(cid:238)\nC´(cid:147)7(cid:145)m7N§¤““6Ed,m«(cid:238)\nCR9,6%˘Y(cid:176)m⁄¥#‰",
+        "reason": "页眉、乱码及无效字符块，位于PAGE_BREAK:7前，无有效正文"
+      },
+      {
+        "label": "噪声片段",
+        "start": 31777,
+        "end": 38003,
+        "excerpt": "gŁ7Y(cid:153)pK(cid:247)2%$6(cid:128)$%ˆł62øł$%‹CI=/1PI-QE/A8#\"+>AJ<Q2%$6\ndNO45(cid:158)E%7(cid:237)(cid:238)(cid:239)%(cid:181)/(cid:253)(cid:144)R¶(cid:145)(cid:150)x(cid:228)(cid:229)*\n$O45(cid:158",
+        "reason": "页眉、乱码及无效字符块，位于PAGE_BREAK:8前，无有效正文"
+      },
+      {
+        "label": "噪声片段",
+        "start": 38023,
+        "end": 43582,
+        "excerpt": "!5$6! gŁ7Y(cid:153)pK(cid:247)2%$6\n(cid:136)e3X@AT#jw2(cid:129)\"&’Œº(cid:231)4D(cid:149)-\"(cid:213)(cid:214)(cid:211)\nX%c@AY*~%u$(cid:238)45m+,%u78x7/kE\nd%u3(cid:142)m87(cid:231)(cid:210)R9æx%bFcd2%,,",
+        "reason": "页眉、乱码及无效字符块，位于PAGE_BREAK:9前，无有效正文"
+      },
+      {
+        "label": "噪声片段",
+        "start": 43603,
+        "end": 50007,
+        "excerpt": "gŁ7Y(cid:153)pK(cid:247)2%$6(cid:128)$%ˆł62øł$%‹CI=/1PI-QE/A8#\"+>AJ<Q2%$6\nI-QE/AD-0+?8-QW->=A8A@;&’QE<E’OS<ViAQN\"I=?Q+=/88\nc/D/1@0>A1<#2%%$\"66Y46)$O\n($’)X=?1;f#!/H-8DA]#L<88/-QE\"#<>-8OU/0NAB<,JA8/0,-1",
+        "reason": "页眉、乱码及无效字符块，位于PAGE_BREAK:10前，无有效正文"
+      },
+      {
+        "label": "噪声片段",
+        "start": 50028,
+        "end": 54224,
+        "excerpt": "!5$)! gŁ7Y(cid:153)pK(cid:247)2%$6\nXQ-10W8-1>#2%%%#$3\"$(524$(5(O\n(3’)X/1@g#H/8D<Q,-1SK#KQhA?,-1!K#<>-8OHW8<1/+0<W>/+\n<,JA8//1<1EA+-QE/>/0(P)OI/Q+?8->/A1#$YY%#52\"$%34$%YOO\n(36)H-1UA,-1PK#cAW<hP#R/8-+A0",
+        "reason": "页尾乱码、参考文献编号及无关符号，无正文语义"
+      }
+    ],
+    "reason": "",
+    "truncated_input": false,
+    "model": "qwen-plus",
+    "noise_fragment_count": 11,
+    "translation_span_count": 0,
+    "noise_span_count": 11
+  },
+  "figure_table_objects": [
+    {
+      "object_id": "F_p001_001",
+      "object_type": "figure",
+      "page": 1,
+      "bbox": [
+        195.57,
+        285.41999999999996,
+        399.57,
+        522.42
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p002_001",
+      "object_type": "figure",
+      "page": 2,
+      "bbox": [
+        227.006,
+        508.178,
+        538.683,
+        737.472
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p002_002",
+      "object_type": "figure",
+      "page": 2,
+      "bbox": [
+        195.57,
+        285.41999999999996,
+        399.57,
+        522.42
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p003_001",
+      "object_type": "figure",
+      "page": 3,
+      "bbox": [
+        56.613,
+        592.113,
+        368.29,
+        737.472
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p003_002",
+      "object_type": "figure",
+      "page": 3,
+      "bbox": [
+        195.57,
+        285.41999999999996,
+        399.57,
+        522.42
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p004_001",
+      "object_type": "figure",
+      "page": 4,
+      "bbox": [
+        195.57,
+        285.41999999999996,
+        399.57,
+        522.42
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p005_001",
+      "object_type": "figure",
+      "page": 5,
+      "bbox": [
+        195.57,
+        285.41999999999996,
+        399.57,
+        522.42
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p006_001",
+      "object_type": "figure",
+      "page": 6,
+      "bbox": [
+        195.57,
+        285.41999999999996,
+        399.57,
+        522.42
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p007_001",
+      "object_type": "figure",
+      "page": 7,
+      "bbox": [
+        195.57,
+        285.41999999999996,
+        399.57,
+        522.42
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p008_001",
+      "object_type": "figure",
+      "page": 8,
+      "bbox": [
+        195.57,
+        285.41999999999996,
+        399.57,
+        522.42
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p009_001",
+      "object_type": "figure",
+      "page": 9,
+      "bbox": [
+        195.57,
+        285.41999999999996,
+        399.57,
+        522.42
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p010_001",
+      "object_type": "figure",
+      "page": 10,
+      "bbox": [
+        195.57,
+        285.41999999999996,
+        399.57,
+        522.42
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    },
+    {
+      "object_id": "F_p011_001",
+      "object_type": "figure",
+      "page": 11,
+      "bbox": [
+        195.57,
+        285.41999999999996,
+        399.57,
+        522.42
+      ],
+      "source": "pdfplumber_page_images",
+      "ocr_status": "pending"
+    }
+  ]
+}

@@ -5,10 +5,63 @@ body { margin: 0; font-family: Arial, "Microsoft YaHei", sans-serif; color: #1f2
 .topbar h1 { font-size: 17px; margin: 0 18px 0 0; font-weight: 700; }
 .topbar select, .topbar button { height: 32px; border-radius: 6px; border: 1px solid #374151; padding: 0 8px; }
 .topbar button { cursor: pointer; background: #374151; color: #fff; }
+.topbar .program-select { min-width: 108px; background: #1f2937; color: #fff; }
 .main { flex: 1; display: grid; grid-template-columns: 50% 50%; gap: 0; min-height: 0; }
 .left, .right { min-width: 0; min-height: 0; padding: 12px; display: grid; gap: 12px; }
-.left { grid-template-rows: 80% 20%; border-right: 1px solid #d1d5db; }
-.right { grid-template-rows: 50% 50%; }
+.left { grid-template-rows: 1fr auto; border-right: 1px solid #d1d5db; }
+.panel-header-chunk { height: auto; min-height: 72px; padding: 8px 12px; flex-direction: column; align-items: stretch; gap: 6px; flex: 0 0 auto; }
+.panel-header-row { display: flex; justify-content: space-between; align-items: center; gap: 8px; height: 24px; flex: 0 0 24px; }
+.chunk-meta-bar { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(72px, auto) minmax(0, 1fr) minmax(88px, auto); gap: 6px; height: auto; font-size: 12px; font-weight: 400; align-items: stretch; }
+.meta-chip { display: block; background: #fff; border: 1px solid #e5e7eb; border-radius: 6px; padding: 4px 8px; color: #374151; min-width: 0; height: auto; min-height: 24px; line-height: 1.45; overflow: visible; white-space: normal; word-break: break-word; }
+.panel-actions .panel-body { padding: 10px 12px; flex: 0 0 auto; }
+.panel-chunk { min-height: 0; }
+.right { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-rows: 1fr; }
+.panel-entity, .panel-rel { container-type: inline-size; }
+.panel-entity .panel-header, .panel-rel .panel-header { font-size: clamp(11px, 3.2cqi, 14px); }
+.panel-entity .panel-header .small, .panel-rel .panel-header .small { font-size: clamp(9px, 2.6cqi, 12px); }
+.panel-entity .panel-header button, .panel-rel .panel-header button { font-size: clamp(10px, 2.8cqi, 13px); padding: clamp(3px, 1cqi, 6px) clamp(6px, 1.6cqi, 10px); }
+.panel-entity table, .panel-rel table { table-layout: fixed; width: 100%; font-size: clamp(9px, 2.8cqi, 13px); }
+.panel-entity th, .panel-entity td, .panel-rel th, .panel-rel td { padding: clamp(3px, 1cqi, 7px) clamp(2px, 0.8cqi, 6px); }
+.panel-entity td input, .panel-entity td select, .panel-rel td input, .panel-rel td select {
+  width: 100%;
+  height: clamp(24px, 7cqi, 30px);
+  font-size: clamp(9px, 2.8cqi, 13px);
+  padding: 0 clamp(2px, 0.8cqi, 6px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.panel-entity th:nth-child(1), .panel-entity td:nth-child(1) { width: clamp(72px, 22cqi, 108px); }
+.panel-entity th:nth-child(3), .panel-entity td:nth-child(3) { width: clamp(40px, 10cqi, 52px); }
+.panel-entity td:nth-child(3) button, .panel-rel td:nth-child(4) button {
+  width: 100%;
+  min-width: 0;
+  font-size: clamp(9px, 2.4cqi, 12px);
+  padding: clamp(2px, 0.8cqi, 5px) clamp(2px, 0.6cqi, 6px);
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.right .panel-rel .panel-body { padding: clamp(6px, 2cqi, 10px); }
+.right .panel-rel .placeholder { display: none; }
+.main.snorkel-mode .right .panel-rel .placeholder { display: block; }
+.panel-fulltext { min-height: 0; }
+.chunk-meta-bar--llm { grid-template-columns: minmax(0, 1.4fr) minmax(72px, auto) minmax(0, 1fr) minmax(72px, auto); }
+.panel-rel th:nth-child(1), .panel-rel td:nth-child(1) { width: 26%; }
+.panel-rel th:nth-child(4), .panel-rel td:nth-child(4) { width: 11%; }
+.panel-rel td:nth-child(1) select {
+  overflow: visible;
+  text-overflow: clip;
+  padding-right: 14px;
+}
+.panel-rel td:nth-child(2) select, .panel-rel td:nth-child(3) select {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@container (max-width: 280px) {
+  .panel-rel table { font-size: 10px; }
+  .panel-rel td input, .panel-rel td select { font-size: 10px; height: 26px; }
+  .panel-rel td:nth-child(4) button { font-size: 10px; padding: 2px 4px; }
+}
 .panel { background: #fff; border: 1px solid #d1d5db; border-radius: 10px; min-height: 0; display: flex; flex-direction: column; overflow: hidden; }
 .panel-header { height: 40px; flex: 0 0 auto; padding: 0 12px; border-bottom: 1px solid #e5e7eb; display: flex; justify-content: space-between; align-items: center; background: #f9fafb; font-weight: 700; }
 .panel-body { padding: 12px; overflow: auto; min-height: 0; }
@@ -48,10 +101,11 @@ button { cursor: pointer; border: 1px solid #d1d5db; border-radius: 6px; padding
 button.primary { background: #2563eb; color: #fff; border-color: #2563eb; }
 button.danger { background: #dc2626; color: #fff; border-color: #dc2626; }
 button.ghost { background: #f3f4f6; }
-table { width: 100%; border-collapse: collapse; font-size: 13px; }
-th, td { border-bottom: 1px solid #e5e7eb; padding: 7px; vertical-align: middle; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border-bottom: 1px solid #e5e7eb; vertical-align: middle; }
 th { position: sticky; top: 0; background: #f9fafb; z-index: 1; text-align: left; }
-td input, td select { width: 100%; height: 30px; border: 1px solid #d1d5db; border-radius: 5px; padding: 0 6px; }
+td input, td select { border: 1px solid #d1d5db; border-radius: 5px; }
+.panel-entity td input, .panel-entity td select, .panel-rel td input, .panel-rel td select { width: 100%; }
 .small { color: #d1d5db; font-size: 12px; font-weight: 400; }
 .panel .small { color: #6b7280; }
 .status { padding: 2px 8px; border-radius: 999px; font-size: 12px; background: #e5e7eb; color: #374151; }
@@ -59,3 +113,5 @@ td input, td select { width: 100%; height: 30px; border: 1px solid #d1d5db; bord
 .status.error { background: #fee2e2; color: #991b1b; }
 .placeholder { border: 1px dashed #cbd5e1; background: #f8fafc; color: #64748b; padding: 8px; border-radius: 8px; margin-bottom: 8px; }
 .loading { padding: 24px; }
+.load-error { color: #dc2626; }
+.kg-notice { border: 1px dashed #cbd5e1; background: #fffbeb; color: #92400e; padding: 8px; border-radius: 8px; margin-bottom: 8px; font-size: 12px; line-height: 1.5; }

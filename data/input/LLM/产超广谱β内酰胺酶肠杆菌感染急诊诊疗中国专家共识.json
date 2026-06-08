@@ -1,0 +1,967 @@
+{
+  "meta": {
+    "doc_id": "ESBL_E_Infection_Emergency_Consensus_2020",
+    "source_title": "产超广谱β内酰胺酶肠杆菌感染急诊诊疗中国专家共识",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_esbl_e_infection",
+        "name": "产超广谱β内酰胺酶肠杆菌感染",
+        "normalized_name": "产超广谱β内酰胺酶肠杆菌感染",
+        "aliases": [
+          "ESBL-E感染",
+          "产ESBLs肠杆菌感染"
+        ],
+        "source_document_ids": [
+          "产超广谱β内酰胺酶肠杆菌感染急诊诊疗中国专家共识"
+        ],
+        "evidence_ids": [
+          "产超广谱β内酰胺酶（extended-spectrum β-lactam, ESBLs）是由质粒介导的能水解青霉素类、头孢菌素及单环酰胺类等β-内酰胺类抗菌药物的β-内酰胺酶……产ESBLs肠杆菌（extended-spectrum β-lactam,enterobacteriaceae, ESBL-E）也成为急危重患者耐药菌感染的主要致病菌之一。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_esbl_e_urinary_tract_infection",
+        "name": "ESBL-E泌尿道感染",
+        "parent_disease_id": "disease_esbl_e_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻中度",
+        "population": "社区获得性患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "ESBL-E感染的危险因素主要包括高龄、反复应用抗菌药物史、侵袭性操作、医院或者养老院居住史、免疫抑制等……ESBL-E感染的常见危险因素包括高龄、反复应用抗菌药物史、留置导管（包括中心静脉/动脉置管、经皮胃或空肠造瘘管、导尿管等）……ESBL-E引起的急性单纯性下尿路感染可选用呋喃妥因或磷霉素氨丁三醇口服治疗。ESBL-E引起的复杂性尿路感染，可选用β-内酰胺类/β-内酰胺酶抑制剂或厄他培南，继发脓毒性休克的患者可直接选用碳青霉烯类抗菌药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_esbl_e_bloodstream_infection",
+        "name": "ESBL-E血流感染",
+        "parent_disease_id": "disease_esbl_e_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重度",
+        "population": "急诊患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "急诊ESBL-E的主要感染部位为泌尿道感染和血流感染……一个中心研究显示急诊感染患者产ESBLs大肠埃希菌和肺炎克雷伯菌的检出率分别高达62.0%和26.0%……另一研究发现急诊社区获得性血流感染产ESBLs大肠埃希菌和肺炎克雷伯菌的检出率也分别达到44.44%和12.29%……ESBL-E引起的菌血症的28 d病死率高达18.8%……碳青霉烯类抗菌药物是治疗重度ESBL-E血流感染的首选，在轻中度或低风险来源的血流感染，可以考虑使用β-内酰胺类/β-内酰胺酶抑制剂。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_esbl_e_respiratory_infection",
+        "name": "ESBL-E呼吸道感染",
+        "parent_disease_id": "disease_esbl_e_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻中度",
+        "population": "社区获得性患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "社区获得性ESBL-E肺炎治疗推荐使用哌拉西林/他唑巴坦或头孢哌酮/舒巴坦、厄他培南、头霉素类等……对于医院获得性和呼吸机相关性肺炎，非危重感染可采用β-内酰胺类/β-内酰胺酶抑制剂的联合用药方案，重症感染可选择碳青霉烯类药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_esbl_e_abdominal_infection",
+        "name": "ESBL-E腹腔感染",
+        "parent_disease_id": "disease_esbl_e_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "中重度",
+        "population": "社区获得性或医院获得性患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "医院获得性腹腔感染ESBL-E发生比例更高，对于轻、中度的社区获得性ESBL-E腹腔感染，可以选择单药治疗，推荐使用哌拉西林/他唑巴坦、阿米卡星或厄他培南；重度社区获得性和医院获得性ESBL-E腹腔感染应选用碳青霉烯类抗菌药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_esbl_e_cns_infection",
+        "name": "ESBL-E颅内感染",
+        "parent_disease_id": "disease_esbl_e_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重度",
+        "population": "急诊患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "针对ESBL-E颅内感染，可采用易透过血脑屏障的碳青霉烯类抗菌药物，如美罗培南疗效较好。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_esbl_e_community_acquired",
+        "name": "社区获得性ESBL-E感染",
+        "parent_disease_id": "disease_esbl_e_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "社区获得性患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "急诊社区获得性ESBL-E感染的比例逐年增高是ESBLs流行病学的新特点……社区获得性ESBL-E肺炎治疗推荐使用哌拉西林/他唑巴坦或头孢哌酮/舒巴坦、厄他培南、头霉素类等……社区获得性ESBL-E血流感染产ESBLs大肠埃希菌和肺炎克雷伯菌的检出率也分别达到44.44%和12.29%……CoMEB-ESBL评分系统是用来预测社区获得性肠杆菌科菌血症是否具有产ESBLs风险……Tumbarello/Johnson评分系统用来评估入院时社区获得性肠杆菌感染是否具有产ESBLs风险。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_esbl_e_hospital_acquired",
+        "name": "医院获得性ESBL-E感染",
+        "parent_disease_id": "disease_esbl_e_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重度",
+        "population": "住院患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "医院获得性腹腔感染ESBL-E发生比例更高……对于医院获得性和呼吸机相关性肺炎，非危重感染可采用β-内酰胺类/β-内酰胺酶抑制剂的联合用药方案，重症感染可选择碳青霉烯类药物……对可能ESBL-E的院内感染如呼吸机相关肺炎、泌尿道感染和血流感染，也均可经验性使用碳青霉烯类抗菌药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_esbl_e_septic_shock",
+        "name": "ESBL-E感染合并脓毒性休克",
+        "parent_disease_id": "disease_esbl_e_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重度",
+        "population": "急诊重症患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "合并脓毒性休克需要联合使用抗菌药物，碳青霉烯类或者β-内酰胺类/β-内酰胺酶抑制剂联合喹诺酮类或氨基糖苷类抗菌药物是急诊ESBL-E感染的主要联合用药方案……继发脓毒性休克的患者可直接选用碳青霉烯类抗菌药物……推荐以感染严重程度、感染源和宿主免疫状态等三方面对ESBL-E感染严重程度做出综合评估……具备以下三部分就可以确定为重症感染：（I）严重感染：具备以下任何一项：Pitt 评分 ≥ 4；APACHE II 评分 ＞10；入住 ICU；并表现为严重脓毒症或脓毒性休克。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "急诊患者有其独特的临床特点:（1）病情复杂，基础疾病和并发症多，病变可累及多个脏器……（2）多为老年慢性病、营养不良和免疫功能低下（肿瘤、免疫系统疾病、糖尿病等）患者……（3）病情危重，多需要有创抢救和治疗（机械通气、各种导管的留置，肾脏替代治疗等）……上述特点造成急诊患者ESBL-E感染发生率较高……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_sepsis_shock",
+        "name": "脓毒性休克",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "合并脓毒性休克需要联合使用抗菌药物……继发脓毒性休克的患者可直接选用碳青霉烯类抗菌药物……具备以下任何一项：……并表现为严重脓毒症或脓毒性休克。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_organ_failure",
+        "name": "急性或进展性器官功能不全",
+        "body_site": "多器官",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "急诊ESBL-E重症感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hemodynamic_instability",
+        "name": "血流动力学改变",
+        "body_site": "循环系统",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "急诊ESBL-E重症感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_mechanical_ventilation_requirement",
+        "name": "需要机械通气支持",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "急诊ESBL-E重症感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_esbl_detection",
+        "name": "ESBL检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "鉴于ESBL-E感染率居高不下，对常规抗菌治疗无反应并伴危险因素的患者，建议针对ESBL-E进行检测。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pitt_score",
+        "name": "Pitt评分",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "（I）严重感染：具备以下任何一项：Pitt 评分 ≥ 4；APACHE II 评分 ＞10；入住 ICU；并表现为严重脓毒症或脓毒性休克。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_apache_ii_score",
+        "name": "APACHE II评分",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "（I）严重感染：具备以下任何一项：Pitt 评分 ≥ 4；APACHE II 评分 ＞10；入住 ICU；并表现为严重脓毒症或脓毒性休克。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_increment_esbl_score",
+        "name": "INCREMENT-ESBL评分",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "也有研究推荐了针对ESBL-E血流感染患者的死亡风险评分—INCREMENT-ESBL评分……当INCREMENT-ESBL评分≥ 11分就提示患者处于高死亡风险。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_combeb_esbl_score",
+        "name": "CoMEB-ESBL评分",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "（1）CoMEB-ESBL评分系统：是用来预测社区获得性肠杆菌科菌血症是否具有产ESBLs风险……当CoMEB-ESBL评分≥3分，诊断ESBL-E感染敏感性为84.6%，特异性可达到92.5%。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_tumbarello_score",
+        "name": "Tumbarello评分",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "（2）Tumbarello/Johnson评分系统：用来评估入院时社区获得性肠杆菌感染是否具有产ESBLs风险……当Tumbarello评分≥ 8分，特异性:100%；阳性预测率:98%；阴性预测率:88%……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_johnson_score",
+        "name": "Johnson评分",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "（2）Tumbarello/Johnson评分系统……当Johnson评分≥ 8分，特异性：95%；阳性预测率:79%；阴性预测率:87%。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_esbl_e_empirical_antibiotic",
+        "content": "对常规抗菌治疗无反应并伴危险因素的患者，建议针对ESBL-E进行检测；急诊ESBL-E感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。",
+        "recommendation_strength": "strong",
+        "source_section": "推荐意见1、4",
+        "evidence_ids": [
+          "鉴于ESBL-E感染率居高不下，对常规抗菌治疗无反应并伴危险因素的患者，建议针对ESBL-E进行检测。急诊ESBL-E感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_esbl_e_risk_assessment",
+        "content": "急诊ESBL-E感染的危险因素主要包括高龄、反复应用抗菌药物史、侵袭性操作、医院或者养老院居住史、免疫抑制等，CoMEB-ESBL 和 Tumbarello/Johnson评分系统可作为急诊ESBL-E感染风险评估的主要工具。",
+        "recommendation_strength": "strong",
+        "source_section": "推荐意见2",
+        "evidence_ids": [
+          "推荐意见2 :急诊ESBL-E感染的危险因素主要包括高龄、反复应用抗菌药物史、侵袭性操作、医院或者养老院居住史、免疫抑制等，CoMEB-ESBL 和 Tumbarello/Johnson评分系统可作为急诊ESBL-E感染风险评估的主要工具。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_esbl_e_severity_assessment",
+        "content": "除传统脓毒症3.0指南标准定义的重度脓毒症和脓毒性休克以外，推荐以感染严重程度、感染源和宿主免疫状态等三方面对ESBL-E感染严重程度做出综合评估，INCREMENT-ESBL评分可用于ESBL-E血流感染患者严重程度的分层。",
+        "recommendation_strength": "strong",
+        "source_section": "推荐意见3",
+        "evidence_ids": [
+          "推荐意见3:除传统脓毒症3.0指南标准定义的重度脓毒症和脓毒性休克以外，推荐以感染严重程度、感染源和宿主免疫状态等三方面对ESBL-E感染严重程度做出综合评估，INCREMENT-ESBL评分可用于ESBL-E血流感染患者严重程度的分层。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_esbl_e_combination_therapy",
+        "content": "合并脓毒性休克需要联合使用抗菌药物，碳青霉烯类或者β-内酰胺类/β-内酰胺酶抑制剂联合喹诺酮类或氨基糖苷类抗菌药物是急诊ESBL-E感染的主要联合用药方案。",
+        "recommendation_strength": "strong",
+        "source_section": "推荐意见7",
+        "evidence_ids": [
+          "推荐意见7 ：合并脓毒性休克需要联合使用抗菌药物，碳青霉烯类或者β-内酰胺类/β-内酰胺酶抑制剂联合喹诺酮类或氨基糖苷类抗菌药物是急诊ESBL-E感染的主要联合用药方案。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_carbapenems_imipenem_cilastatin",
+        "content": "亚胺培南/西司他丁",
+        "plan_level": 1,
+        "applicable_condition": "重度ESBL-E感染、脓毒性休克、需机械通气支持",
+        "contraindication_note": "肾功能不全者需调整剂量",
+        "evidence_ids": [
+          "急诊ESBL-E感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。首选亚胺培南/西司他丁或美罗培南等碳青霉烯类抗菌药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_carbapenems_meropenem",
+        "content": "美罗培南",
+        "plan_level": 1,
+        "applicable_condition": "重度ESBL-E感染、脓毒性休克、需机械通气支持、颅内感染",
+        "contraindication_note": "肾功能不全者需调整剂量",
+        "evidence_ids": [
+          "急诊ESBL-E感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。首选亚胺培南/西司他丁或美罗培南等碳青霉烯类抗菌药物。针对ESBL-E颅内感染，可采用易透过血脑屏障的碳青霉烯类抗菌药物，如美罗培南疗效较好。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_beta_lactam_beta_lactamase_inhibitor_piperacillin_tazobactam",
+        "content": "哌拉西林/他唑巴坦",
+        "plan_level": 2,
+        "applicable_condition": "社区获得性或轻中度ESBL-E呼吸道和血流感染、腹腔感染",
+        "contraindication_note": "肾功能不全者需调整剂量",
+        "evidence_ids": [
+          "社区获得性或轻中度：ESBL-E呼吸道和血流感染可以应用β-内酰胺/β-内酰胺酶抑制复合制剂，腹腔和泌尿道感染可以应用β-内酰胺/β-内酰胺酶抑制复合制剂、厄他培南或氨基糖苷等……社区获得性ESBL-E肺炎治疗推荐使用哌拉西林/他唑巴坦或头孢哌酮/舒巴坦、厄他培南、头霉素类等……对于轻、中度的社区获得性ESBL-E腹腔感染，可以选择单药治疗，推荐使用哌拉西林/他唑巴坦……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_beta_lactam_beta_lactamase_inhibitor_ceftazidime_avibactam",
+        "content": "头孢他啶/阿维巴坦",
+        "plan_level": 3,
+        "applicable_condition": "ESBL-E感染（不推荐首选）",
+        "contraindication_note": "不建议首选用于ESBL-E感染",
+        "evidence_ids": [
+          "新型β内酰胺酶抑制剂(阿维巴坦)对ESBLs有抑制作用外，临床主要用来治疗碳青霉烯耐药肺炎克雷伯菌的感染，不建议首选头孢他定/阿维巴坦治疗ESBL-E感染。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_cephamycin_cefmetazole",
+        "content": "头孢美唑",
+        "plan_level": 2,
+        "applicable_condition": "轻症ESBL-E感染",
+        "contraindication_note": "如疗效不满意应果断调整治疗方案",
+        "evidence_ids": [
+          "头霉素类及氧头孢烯类：对于ESBL-E具有良好的抗菌作用，可用作轻症感染的治疗选择。临床常用药物包括头孢美唑、头孢米诺、头孢西丁和拉氧头孢等……在使用此类药物抗感染治疗过程中，如临床观察到疗效不满意，尽管体外药敏试验显示敏感，也应果断调整治疗方案，避免治疗失败。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_quinolone_levofloxacin",
+        "content": "左氧氟沙星",
+        "plan_level": 2,
+        "applicable_condition": "ESBL-E所致的轻、中度的尿路感染和腹腔感染，也可用于重症感染的联合用药",
+        "contraindication_note": "需结合体外药敏结果",
+        "evidence_ids": [
+          "喹诺酮类：临床常用药物包括环丙沙星、左氧氟沙星和莫西沙星。如体外药敏试验显示敏感，可用于治疗ESBL-E引起的轻、中度的尿路感染和腹腔感染，也可用于重症感染的联合用药。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_aminoglycoside_amikacin",
+        "content": "阿米卡星",
+        "plan_level": 2,
+        "applicable_condition": "ESBL-E尿路感染轻症",
+        "contraindication_note": "支气管分泌物、胆汁及组织浓度不高，限制治疗范围",
+        "evidence_ids": [
+          "氨基糖苷类：常用药物有阿米卡星、依替米星、异帕米星、妥布霉素等……可作为ESBL-E尿路感染轻症的用药。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_glycylcycline_tigecycline",
+        "content": "替加环素",
+        "plan_level": 3,
+        "applicable_condition": "一线药物不能耐受患者、常规抗菌药物疗效不佳时的联合用药",
+        "contraindication_note": "不适用于铜绿假单胞菌感染",
+        "evidence_ids": [
+          "甘氨酰环素类：目前已在我国上市的品种仅有替加环素……可以用来作为对一线药物不能耐受患者的ESBL-E治疗选择。替加环素对ESBL-E有较好疗效，在常规抗菌药物疗效不佳的情况下，可选择作为联合用药。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_esbl_production",
+        "content": "产超广谱β内酰胺酶（ESBLs）",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "产超广谱β内酰胺酶（extended-spectrum β-lactam, ESBLs）是由质粒介导的能水解青霉素类、头孢菌素及单环酰胺类等β-内酰胺类抗菌药物的β-内酰胺酶……ESBLs主要由肠杆菌科细菌产生，以肺炎克雷伯菌、大肠埃希菌、变形杆菌最为常见。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_advanced_age",
+        "content": "高龄",
+        "etiology_type": "危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "ESBL-E感染的常见危险因素包括高龄、反复应用抗菌药物史、留置导管（包括中心静脉/动脉置管、经皮胃或空肠造瘘管、导尿管等）……CoMEB-ESBL评分系统……居住于养老院（1分）；……Tumbarello/Johnson评分系统……年龄≥ 70岁；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_antibiotic_exposure",
+        "content": "反复应用抗菌药物史",
+        "etiology_type": "危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "ESBL-E感染的常见危险因素包括高龄、反复应用抗菌药物史、留置导管（包括中心静脉/动脉置管、经皮胃或空肠造瘘管、导尿管等）……CoMEB-ESBL评分系统……发生菌血症前4周内，曾接受抗菌治疗（1分）……Tumbarello/Johnson评分系统……近3个月曾使用过β-内酰胺类或喹诺酮类；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_invasive_procedure",
+        "content": "侵袭性操作",
+        "etiology_type": "危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "ESBL-E感染的常见危险因素包括高龄、反复应用抗菌药物史、留置导管（包括中心静脉/动脉置管、经皮胃或空肠造瘘管、导尿管等）、有结石或梗阻（如胆道、泌尿道）、既往曾有ESBL-E感染、反复住院、曾入住过ICU史……CoMEB-ESBL评分系统……发生菌血症前4周内，曾接受侵袭性操作（1分）……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_healthcare_exposure",
+        "content": "医院或者养老院居住史",
+        "etiology_type": "危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "ESBL-E感染的危险因素主要包括高龄、反复应用抗菌药物史、侵袭性操作、医院或者养老院居住史、免疫抑制等……CoMEB-ESBL评分系统……居住于养老院（1分）……Tumbarello/Johnson评分系统……由医疗保健机构转诊；近期（1年内）,曾住院治疗；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_immunosuppression",
+        "content": "免疫抑制",
+        "etiology_type": "危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "ESBL-E感染的危险因素主要包括高龄、反复应用抗菌药物史、侵袭性操作、医院或者养老院居住史、免疫抑制等……Tumbarello/Johnson评分系统……存在免疫抑制……宿主免疫抑制：具备以下任何一项：中性粒细胞减少症（＜500/mL）；白血病；淋巴瘤；HIV感染（CD4＜200/mL）；实体器官或造血干细胞移植；细胞毒性化学疗法；类固醇（泼尼松15mg/d,疗程2周以上）。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_esbl_enzyme_mediated_hydrolysis",
+        "content": "ESBLs是由质粒介导的能水解青霉素类、头孢菌素及单环酰胺类等β-内酰胺类抗菌药物的β-内酰胺酶，其对碳青霉烯类和头霉素类水解能力弱。",
+        "evidence_ids": [
+          "超广谱β内酰胺酶（extended-spectrum β-lactam, ESBLs）是由质粒介导的能水解青霉素类、头孢菌素及单环酰胺类等β-内酰胺类抗菌药物的β-内酰胺酶，其对碳青霉烯类和头霉素类水解能力弱。"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_esbl_e_infection",
+        "to": "sub_disease_esbl_e_urinary_tract_infection",
+        "relation_id": "rel_esbl_e_infection_has_urinary_tract_infection",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急诊ESBL-E的主要感染部位为泌尿道感染和血流感染……ESBL-E引起的急性单纯性下尿路感染可选用呋喃妥因或磷霉素氨丁三醇口服治疗。ESBL-E引起的复杂性尿路感染，可选用β-内酰胺类/β-内酰胺酶抑制剂或厄他培南，继发脓毒性休克的患者可直接选用碳青霉烯类抗菌药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_esbl_e_infection",
+        "to": "sub_disease_esbl_e_bloodstream_infection",
+        "relation_id": "rel_esbl_e_infection_has_bloodstream_infection",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急诊ESBL-E的主要感染部位为泌尿道感染和血流感染……一个中心研究显示急诊感染患者产ESBLs大肠埃希菌和肺炎克雷伯菌的检出率分别高达62.0%和26.0%……另一研究发现急诊社区获得性血流感染产ESBLs大肠埃希菌和肺炎克雷伯菌的检出率也分别达到44.44%和12.29%……ESBL-E引起的菌血症的28 d病死率高达18.8%……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_esbl_e_infection",
+        "to": "sub_disease_esbl_e_respiratory_infection",
+        "relation_id": "rel_esbl_e_infection_has_respiratory_infection",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "社区获得性ESBL-E肺炎治疗推荐使用哌拉西林/他唑巴坦或头孢哌酮/舒巴坦、厄他培南、头霉素类等……对于医院获得性和呼吸机相关性肺炎，非危重感染可采用β-内酰胺类/β-内酰胺酶抑制剂的联合用药方案，重症感染可选择碳青霉烯类药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_esbl_e_infection",
+        "to": "sub_disease_esbl_e_abdominal_infection",
+        "relation_id": "rel_esbl_e_infection_has_abdominal_infection",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "医院获得性腹腔感染ESBL-E发生比例更高，对于轻、中度的社区获得性ESBL-E腹腔感染，可以选择单药治疗，推荐使用哌拉西林/他唑巴坦、阿米卡星或厄他培南；重度社区获得性和医院获得性ESBL-E腹腔感染应选用碳青霉烯类抗菌药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_esbl_e_infection",
+        "to": "sub_disease_esbl_e_cns_infection",
+        "relation_id": "rel_esbl_e_infection_has_cns_infection",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "针对ESBL-E颅内感染，可采用易透过血脑屏障的碳青霉烯类抗菌药物，如美罗培南疗效较好。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_esbl_e_infection",
+        "to": "sub_disease_esbl_e_community_acquired",
+        "relation_id": "rel_esbl_e_infection_has_community_acquired",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急诊社区获得性ESBL-E感染的比例逐年增高是ESBLs流行病学的新特点……社区获得性ESBL-E肺炎治疗推荐使用哌拉西林/他唑巴坦或头孢哌酮/舒巴坦、厄他培南、头霉素类等……社区获得性ESBL-E血流感染产ESBLs大肠埃希菌和肺炎克雷伯菌的检出率也分别达到44.44%和12.29%……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_esbl_e_infection",
+        "to": "sub_disease_esbl_e_hospital_acquired",
+        "relation_id": "rel_esbl_e_infection_has_hospital_acquired",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "医院获得性腹腔感染ESBL-E发生比例更高……对于医院获得性和呼吸机相关性肺炎，非危重感染可采用β-内酰胺类/β-内酰胺酶抑制剂的联合用药方案，重症感染可选择碳青霉烯类药物……对可能ESBL-E的院内感染如呼吸机相关肺炎、泌尿道感染和血流感染，也均可经验性使用碳青霉烯类抗菌药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_esbl_e_infection",
+        "to": "sub_disease_esbl_e_septic_shock",
+        "relation_id": "rel_esbl_e_infection_has_septic_shock",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "合并脓毒性休克需要联合使用抗菌药物，碳青霉烯类或者β-内酰胺类/β-内酰胺酶抑制剂联合喹诺酮类或氨基糖苷类抗菌药物是急诊ESBL-E感染的主要联合用药方案……继发脓毒性休克的患者可直接选用碳青霉烯类抗菌药物……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_esbl_e_septic_shock",
+        "to": "symptom_sepsis_shock",
+        "relation_id": "rel_esbl_e_septic_shock_manifests_as_sepsis_shock",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "合并脓毒性休克需要联合使用抗菌药物……继发脓毒性休克的患者可直接选用碳青霉烯类抗菌药物……具备以下任何一项：……并表现为严重脓毒症或脓毒性休克。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确将'脓毒性休克'列为ESBL-E感染的诊断标准之一，且与'重度脓毒症'并列作为共识推荐的定义层级",
+        "evidence": "推荐意见3:除传统脓毒症3.0指南标准定义的重度脓毒症和脓毒性休克以外，推荐以感染严重程度、感染源和宿主免疫状态等三方面对ESBL-E感染严重程度做出综合评估"
+      },
+      {
+        "from": "sub_disease_esbl_e_septic_shock",
+        "to": "symptom_organ_failure",
+        "relation_id": "rel_esbl_e_septic_shock_manifests_as_organ_failure",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "急诊ESBL-E重症感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出'急性或进展性器官功能不全'是急诊ESBL-E感染患者选用碳青霉烯类的指征，属高度相关临床表现",
+        "evidence": "急诊ESBL-E感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。"
+      },
+      {
+        "from": "sub_disease_esbl_e_septic_shock",
+        "to": "symptom_hemodynamic_instability",
+        "relation_id": "rel_esbl_e_septic_shock_manifests_as_hemodynamic_instability",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "急诊ESBL-E重症感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将'血流动力学改变'与'急性器官功能不全''机械通气需求'并列作为重度感染核心指征，属高度相关临床表现",
+        "evidence": "急诊ESBL-E感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。"
+      },
+      {
+        "from": "sub_disease_esbl_e_septic_shock",
+        "to": "symptom_mechanical_ventilation_requirement",
+        "relation_id": "rel_esbl_e_septic_shock_manifests_as_mechanical_ventilation_requirement",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "急诊ESBL-E重症感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将'需要机械通气支持'与'急性器官功能不全''血流动力学改变'并列作为重度感染核心指征，属高度相关临床表现",
+        "evidence": "急诊ESBL-E感染患者出现急性或进展性器官功能不全、血流动力学改变和需要机械通气支持等重度感染时，首选碳青霉烯类药物。"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_esbl_e_bloodstream_infection",
+        "to": "test_esbl_detection",
+        "relation_id": "rel_esbl_e_bloodstream_infection_requires_esbl_detection",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "产ESBLs",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "鉴于ESBL-E感染率居高不下，对常规抗菌治疗无反应并伴危险因素的患者，建议针对ESBL-E进行检测。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确将ESBL检测作为针对'对常规抗菌治疗无反应并伴危险因素的患者'的直接建议，且在诊疗流程中列为病原学确认关键步骤",
+        "evidence": "鉴于ESBL-E感染率居高不下，对常规抗菌治疗无反应并伴危险因素的患者，建议针对ESBL-E进行检测。"
+      },
+      {
+        "from": "sub_disease_esbl_e_septic_shock",
+        "to": "test_pitt_score",
+        "relation_id": "rel_esbl_e_septic_shock_requires_pitt_score",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 4,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "分",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（I）严重感染：具备以下任何一项：Pitt 评分 ≥ 4；APACHE II 评分 ＞10；入住 ICU；并表现为严重脓毒症或脓毒性休克。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文在表2中将Pitt评分≥4列为'严重感染'判定条件之一，属分层评估工具，非特异性诊断指标",
+        "evidence": "严重感染：以下任何一项：Pitt评分M4,APACHEII评分＞10.入住ICU.并表现为严重脓毒症或脓毒性休克"
+      },
+      {
+        "from": "sub_disease_esbl_e_septic_shock",
+        "to": "test_apache_ii_score",
+        "relation_id": "rel_esbl_e_septic_shock_requires_apache_ii_score",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 10,
+        "value_max": null,
+        "operator": ">",
+        "unit": "分",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（I）严重感染：具备以下任何一项：Pitt 评分 ≥ 4；APACHE II 评分 ＞10；入住 ICU；并表现为严重脓毒症或脓毒性休克。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文在表2中将APACHE II评分＞10列为'严重感染'判定条件之一，属分层评估工具，非特异性诊断指标",
+        "evidence": "严重感染：以下任何一项：Pitt评分M4,APACHEII评分＞10.入住ICU.并表现为严重脓毒症或脓毒性休克"
+      },
+      {
+        "from": "sub_disease_esbl_e_bloodstream_infection",
+        "to": "test_increment_esbl_score",
+        "relation_id": "rel_esbl_e_bloodstream_infection_requires_increment_esbl_score",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": 11,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "分",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "也有研究推荐了针对ESBL-E血流感染患者的死亡风险评分—INCREMENT-ESBL评分……当INCREMENT-ESBL评分≥ 11分就提示患者处于高死亡风险。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确说明INCREMENT-ESBL评分仅适用于'ESBL-E血流感染患者严重程度的分层'，且限定为死亡风险预测，非诊断或常规评估必需",
+        "evidence": "也有研究推荐了针对ESBL-E血流感染患者的死亡风险评分—INCREMENT-ESBL评分［,8］,该评分系统……当INCREMENT-ESBL评分M11分就提示患者处于高死亡风险。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_esbl_e_septic_shock",
+        "to": "treatment_esbl_e_combination_therapy",
+        "relation_id": "rel_esbl_e_septic_shock_follows_combination_therapy",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断为ESBL-E感染合并脓毒性休克后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "感染严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐意见7",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_esbl_e_bloodstream_infection",
+        "to": "treatment_esbl_e_empirical_antibiotic",
+        "relation_id": "rel_esbl_e_bloodstream_infection_follows_empirical_antibiotic",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断为ESBL-E血流感染后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "感染部位",
+          "严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐意见1、4",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_esbl_e_combination_therapy",
+        "to": "plan_carbapenems_imipenem_cilastatin",
+        "relation_id": "rel_combination_therapy_implements_by_imipenem_cilastatin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "ESBL-E感染合并脓毒性休克",
+        "contraindication_note": "肾功能不全者需调整剂量",
+        "evidence_ids": [
+          "合并脓毒性休克需要联合使用抗菌药物，碳青霉烯类或者β-内酰胺类/β-内酰胺酶抑制剂联合喹诺酮类或氨基糖苷类抗菌药物是急诊ESBL-E感染的主要联合用药方案。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_esbl_e_combination_therapy",
+        "to": "plan_carbapenems_meropenem",
+        "relation_id": "rel_combination_therapy_implements_by_meropenem",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "ESBL-E感染合并脓毒性休克、颅内感染",
+        "contraindication_note": "肾功能不全者需调整剂量",
+        "evidence_ids": [
+          "合并脓毒性休克需要联合使用抗菌药物，碳青霉烯类或者β-内酰胺类/β-内酰胺酶抑制剂联合喹诺酮类或氨基糖苷类抗菌药物是急诊ESBL-E感染的主要联合用药方案。针对ESBL-E颅内感染，可采用易透过血脑屏障的碳青霉烯类抗菌药物，如美罗培南疗效较好。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_esbl_e_bloodstream_infection",
+        "to": "etiology_esbl_production",
+        "relation_id": "rel_esbl_e_bloodstream_infection_caused_by_esbl_production",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "ESBLs主要由肠杆菌科细菌产生，以肺炎克雷伯菌、大肠埃希菌、变形杆菌最为常见，产ESBLs肠杆菌（ESBL-E）也成为急危重患者耐药菌感染的主要致病菌之一。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_esbl_e_bloodstream_infection",
+        "to": "etiology_advanced_age",
+        "relation_id": "rel_esbl_e_bloodstream_infection_caused_by_advanced_age",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "ESBL-E感染的常见危险因素包括高龄、反复应用抗菌药物史、留置导管（包括中心静脉/动脉置管、经皮胃或空肠造瘘管、导尿管等）……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_esbl_e_bloodstream_infection",
+        "to": "pathogenesis_esbl_enzyme_mediated_hydrolysis",
+        "relation_id": "rel_esbl_e_bloodstream_infection_explained_by_esbl_enzyme_mediated_hydrolysis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "超广谱β内酰胺酶（extended-spectrum β-lactam, ESBLs）是由质粒介导的能水解青霉素类、头孢菌素及单环酰胺类等β-内酰胺类抗菌药物的β-内酰胺酶，其对碳青霉烯类和头霉素类水解能力弱。"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

@@ -1,0 +1,1222 @@
+{
+  "meta": {
+    "doc_id": "器官移植受者EB病毒感染和移植后淋巴组织增生性疾病临床诊疗规范（2019版）",
+    "source_title": "器官移植受者EB病毒感染和移植后淋巴组织增生性疾病临床诊疗规范（2019版）",
+    "section_path": "",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_ptld",
+        "name": "移植后淋巴组织增生性疾病",
+        "normalized_name": "移植后淋巴组织增生性疾病（PTLD）",
+        "aliases": [
+          "PTLD",
+          "posttransplant lymphoproliferative disease"
+        ],
+        "source_document_ids": [
+          "器官移植受者EB病毒感染和移植后淋巴组织增生性疾病临床诊疗规范（2019版）"
+        ],
+        "evidence_ids": [
+          "移植后淋巴组织增生性疾病（posttransplant lymphoproliferative disease，PTLD）是SOT受者的严重并发症"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_ebv_infection",
+        "name": "EB病毒感染",
+        "normalized_name": "EB病毒感染",
+        "aliases": [
+          "EBV感染",
+          "Epstein-Barr virus infection"
+        ],
+        "source_document_ids": [
+          "器官移植受者EB病毒感染和移植后淋巴组织增生性疾病临床诊疗规范（2019版）"
+        ],
+        "evidence_ids": [
+          "EBV感染多指人群感染EBV后的一种携带状态，可无临床症状"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_ptld_early_lesion",
+        "name": "早期病变PTLD",
+        "parent_disease_id": "disease_ptld",
+        "disease_subtype": "早期病变",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "3.3.1 早期病变PTLD 多表现为非破坏性淋巴浆细胞增生，包括浆细胞增生和传染性单核细胞增多症样副皮质区增生（图1A）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ptld_polymorphic",
+        "name": "多形性PTLD",
+        "parent_disease_id": "disease_ptld",
+        "disease_subtype": "多形性PTLD",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "3.3.2 多形性PTLD 此期组织学特征对诊断最具挑战性，表现为结构破坏性的淋巴浆细胞增殖，但又不符合严格意义上的恶性淋巴瘤的诊断标准（图1B）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ptld_monomorphic",
+        "name": "单形性PTLD",
+        "parent_disease_id": "disease_ptld",
+        "disease_subtype": "单形性PTLD",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "3.3.3 单形性PTLD 该类型最符合淋巴瘤的组织病理学特点，也是PTLD最容易被诊断的阶段。大多数单形性PTLD表现为常见的B细胞淋巴瘤的特征（如弥漫大B细胞淋巴瘤、Burkitt细胞淋巴瘤和浆细胞淋巴瘤等，图1C）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ptld_hodgkin_lymphoma_type",
+        "name": "经典霍奇金淋巴瘤型PTLD",
+        "parent_disease_id": "disease_ptld",
+        "disease_subtype": "经典霍奇金淋巴瘤型",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "3.3.4 经典霍奇金淋巴瘤型PTLD 少数情况下，PTLD患者可表现为经典霍奇金淋巴瘤的病理特征，在大量小淋巴细胞及一定的嗜酸性粒细胞、浆细胞和组织细胞背景中，可见到典型的HRS细胞（图1D）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ebv_infection_syndrome",
+        "name": "EBV感染综合征",
+        "parent_disease_id": "disease_ebv_infection",
+        "disease_subtype": "EBV感染综合征",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "2.1 非PTLD EBV感染综合征 EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大、非典型性淋巴细胞增多），器官特异性疾病（如肝炎、肺炎、胃肠道症状）及血液系统异常（如白细胞减少、血小板减少、溶血性贫血和噬血细胞综合征等）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ptld_b_cell_lymphoma",
+        "name": "B细胞淋巴瘤型PTLD",
+        "parent_disease_id": "disease_ptld",
+        "disease_subtype": "B细胞淋巴瘤",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "表1 2008年WHO的PTLD组织学分类 ... B细胞淋巴瘤 弥漫性大B细胞淋巴瘤 Burkitt淋巴瘤 浆细胞骨髓瘤 浆细胞瘤样 其他"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ptld_t_cell_lymphoma",
+        "name": "T细胞淋巴瘤型PTLD",
+        "parent_disease_id": "disease_ptld",
+        "disease_subtype": "T细胞淋巴瘤",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "表1 2008年WHO的PTLD组织学分类 ... T细胞淋巴瘤 外周T细胞淋巴瘤，非特指型 肝脾T细胞淋巴瘤 其他"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "2.1 非PTLD EBV感染综合征 EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大、非典型性淋巴细胞增多）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "乏力",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "2.1 非PTLD EBV感染综合征 EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大、非典型性淋巴细胞增多）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_exudative_pharyngitis",
+        "name": "渗出性咽炎",
+        "body_site": "咽喉",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "2.1 非PTLD EBV感染综合征 EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大、非典型性淋巴细胞增多）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_lymphadenopathy",
+        "name": "淋巴结肿大",
+        "body_site": "全身淋巴结",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "2.1 非PTLD EBV感染综合征 EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大、非典型性淋巴细胞增多）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hepatosplenomegaly",
+        "name": "肝脾肿大",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "2.1 非PTLD EBV感染综合征 EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大、非典型性淋巴细胞增多）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_night_sweats",
+        "name": "盗汗",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 常见非特异性症状包括无法解释的发热或盗汗、消瘦、乏力、厌食、嗜睡、咽痛等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_weight_loss",
+        "name": "消瘦",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 常见非特异性症状包括无法解释的发热或盗汗、消瘦、乏力、厌食、嗜睡、咽痛等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_anorexia",
+        "name": "厌食",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 常见非特异性症状包括无法解释的发热或盗汗、消瘦、乏力、厌食、嗜睡、咽痛等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_somnolence",
+        "name": "嗜睡",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 常见非特异性症状包括无法解释的发热或盗汗、消瘦、乏力、厌食、嗜睡、咽痛等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_sore_throat",
+        "name": "咽痛",
+        "body_site": "咽喉",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 常见非特异性症状包括无法解释的发热或盗汗、消瘦、乏力、厌食、嗜睡、咽痛等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_jaundice",
+        "name": "黄疸",
+        "body_site": "全身",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 移植物受累可能出现相关的黄疸、腹痛、恶心、呕吐、消化道出血或穿孔、气急、咳嗽等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 移植物受累可能出现相关的黄疸、腹痛、恶心、呕吐、消化道出血或穿孔、气急、咳嗽等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_nausea",
+        "name": "恶心",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 移植物受累可能出现相关的黄疸、腹痛、恶心、呕吐、消化道出血或穿孔、气急、咳嗽等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_vomiting",
+        "name": "呕吐",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 移植物受累可能出现相关的黄疸、腹痛、恶心、呕吐、消化道出血或穿孔、气急、咳嗽等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_gastrointestinal_bleeding",
+        "name": "消化道出血",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 移植物受累可能出现相关的黄疸、腹痛、恶心、呕吐、消化道出血或穿孔、气急、咳嗽等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_perforation",
+        "name": "穿孔",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 移植物受累可能出现相关的黄疸、腹痛、恶心、呕吐、消化道出血或穿孔、气急、咳嗽等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dyspnea",
+        "name": "气急",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 移植物受累可能出现相关的黄疸、腹痛、恶心、呕吐、消化道出血或穿孔、气急、咳嗽等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_cough",
+        "name": "咳嗽",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 移植物受累可能出现相关的黄疸、腹痛、恶心、呕吐、消化道出血或穿孔、气急、咳嗽等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_lymphadenopathy_physical",
+        "name": "淋巴结肿大",
+        "body_site": "全身淋巴结",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 阳性体征包括淋巴结肿大、肝脾肿大、扁桃腺肿大或炎症、皮下结节、局灶性神经系统体征或多发肿块等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hepatosplenomegaly_physical",
+        "name": "肝脾肿大",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 阳性体征包括淋巴结肿大、肝脾肿大、扁桃腺肿大或炎症、皮下结节、局灶性神经系统体征或多发肿块等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_tonsillar_enlargement",
+        "name": "扁桃腺肿大",
+        "body_site": "咽喉",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 阳性体征包括淋巴结肿大、肝脾肿大、扁桃腺肿大或炎症、皮下结节、局灶性神经系统体征或多发肿块等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_subcutaneous_nodule",
+        "name": "皮下结节",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 阳性体征包括淋巴结肿大、肝脾肿大、扁桃腺肿大或炎症、皮下结节、局灶性神经系统体征或多发肿块等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_neurologic_focal_sign",
+        "name": "局灶性神经系统体征",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 阳性体征包括淋巴结肿大、肝脾肿大、扁桃腺肿大或炎症、皮下结节、局灶性神经系统体征或多发肿块等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_multiple_masses",
+        "name": "多发肿块",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 阳性体征包括淋巴结肿大、肝脾肿大、扁桃腺肿大或炎症、皮下结节、局灶性神经系统体征或多发肿块等"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_ebv_antibody_panel",
+        "name": "EBV特异性抗体检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.1.1 血清学检测 EBV特异性抗体可用于判断移植前供、受者EBV血清学状态，以评估PTLD的发生风险。目前临床检测的EBV抗体包括早期抗原（early antigen，EA）、病毒衣壳抗原（viral capsid antigen, VCA） IgA、VCA IgM、VCA IgG"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_eber_ish",
+        "name": "EBER原位杂交",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.1.2 组织检测 原位杂交方法可以直接检查病变组织或细胞中EBV感染情况，具有较高的特异性和敏感性。EBV编码的小RNA（EBV-encoded small RNA，EBER）原位杂交检测EBV感染细胞更敏感"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_ebv_dna_qpcr",
+        "name": "EBV DNA荧光定量PCR",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "3.1.3 病毒载量监测 监测EBV DNA载量对于EBV相关的PTLD诊断、了解疾病状态及疗效判断具有指导意义。常规采用荧光定量聚合酶链反应（polymerase chain reaction，PCR）方法监测EBV DNA载量"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_peripheral_blood_atypical_lymphocyte",
+        "name": "外周血异形淋巴细胞计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "3.1.4 血常规及骨髓检测 外周血中异形淋巴细胞及单个核样淋巴细胞增多对诊断传染性单核细胞增多症样PTLD有帮助"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ct_scan",
+        "name": "颈、胸、腹及盆腔CT扫描",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.2 影像学评估 患者应行颈、胸、腹及盆腔CT扫描"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_pet_ct",
+        "name": "PET/CT检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.2 影像学评估 正电子发射计算机体层显像仪（positron emission tomography and computed tomography，PET/CT）检查可进一步明确病变的范围及性质"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_mri_head",
+        "name": "头部MRI检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.2 影像学评估 如有头痛、局灶神经系统异常表现或视力改变时，需行头部MRI检查"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_endoscopy_gi",
+        "name": "消化道内镜检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.2 影像学评估 由于胃肠道受累较常见，如有消化道出血、持续腹泻、原因不明的腹痛、消瘦等症状，应及时考虑行消化道内镜检查"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_histopathology",
+        "name": "组织病理学检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.3 组织病理学 组织病理学检查是诊断PTLD的金标准"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_reduce_immunosuppression",
+        "content": "减少免疫抑制剂剂量是PTLD治疗的第一步，应尽早开始。",
+        "recommendation_strength": "strong",
+        "source_section": "5.1 减少免疫抑制剂剂量",
+        "evidence_ids": [
+          "5.1 减少免疫抑制剂剂量 减少免疫抑制剂剂量是PTLD治疗的第一步，应尽早开始"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_surgery_or_radiotherapy",
+        "content": "对单一病灶PTLD（Ann Arbor分期Ⅰ期）的SOT受者，手术切除和（或）放疗联合减少免疫抑制剂剂量是一种有效的治疗方案。",
+        "recommendation_strength": "moderate",
+        "source_section": "5.2 手术切除或局部放疗",
+        "evidence_ids": [
+          "5.2 手术切除或局部放疗 对单一病灶PTLD（Ann Arbor分期Ⅰ期）的SOT受者，手术切除和（或）放疗联合减少免疫抑制剂剂量是一种有效的治疗方案"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_rituximab",
+        "content": "多数EBV相关PTLD来源于B细胞并表达CD20，提供了抗B细胞单克隆抗体（抗CD20单抗）RTX的治疗靶点。",
+        "recommendation_strength": "moderate",
+        "source_section": "5.3 抗B细胞单克隆抗体（抗CD20单抗）",
+        "evidence_ids": [
+          "5.3 抗B细胞单克隆抗体（抗CD20单抗） 多数EBV相关PTLD来源于B细胞并表达CD20，提供了抗B细胞单克隆抗体（抗CD20单抗）RTX的治疗靶点"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_chemotherapy",
+        "content": "化疗不但可以杀伤异常增殖的淋巴细胞，且具有免疫抑制作用，能够防治移植物排斥反应。",
+        "recommendation_strength": "moderate",
+        "source_section": "5.4 细胞毒性化疗方案",
+        "evidence_ids": [
+          "5.4 细胞毒性化疗方案 化疗不但可以杀伤异常增殖的淋巴细胞，且具有免疫抑制作用，能够防治移植物排斥反应"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_antiviral_and_ivig",
+        "content": "静脉注射用免疫球蛋白联合更昔洛韦或阿昔洛韦可作为治疗早期PTLD一种辅助治疗手段。",
+        "recommendation_strength": "weak",
+        "source_section": "5.5.1 抗病毒药物和静脉注射用免疫球蛋白",
+        "evidence_ids": [
+          "5.5.1 抗病毒药物和静脉注射用免疫球蛋白 更昔洛韦抑制EBV的作用是阿昔洛韦的10倍。不支持单用阿昔洛韦或更昔洛韦治疗PTLD。有研究将静脉注射用免疫球蛋白联合更昔洛韦或阿昔洛韦作为一种辅助治疗手段治疗早期PTLD"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_reduce_immunosuppression_immediately",
+        "content": "如情况许可，应将免疫抑制剂减少至最低允许剂量。",
+        "plan_level": 1,
+        "applicable_condition": "确诊PTLD后立即启动",
+        "contraindication_note": "心肺移植受者尤其常见排斥反应，有时甚至是致命性的",
+        "evidence_ids": [
+          "5.1 减少免疫抑制剂剂量 如情况许可，应将免疫抑制剂减少至最低允许剂量"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_surgery_or_radiotherapy_for_stage_i",
+        "content": "对单一病灶PTLD（Ann Arbor分期Ⅰ期）的SOT受者，手术切除和（或）放疗联合减少免疫抑制剂剂量。",
+        "plan_level": 2,
+        "applicable_condition": "Ann Arbor分期Ⅰ期",
+        "contraindication_note": "若病变类型属高侵袭性，如Burkitt PTLD的仍首选化学药物治疗（化疗）",
+        "evidence_ids": [
+          "5.2 手术切除或局部放疗 对单一病灶PTLD（Ann Arbor分期Ⅰ期）的SOT受者，手术切除和（或）放疗联合减少免疫抑制剂剂量是一种有效的治疗方案"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_rituximab_for_cd20_positive",
+        "content": "对于CD20阳性的成人PTLD患者，在减少免疫抑制剂剂量后可使用RTX治疗。",
+        "plan_level": 2,
+        "applicable_condition": "CD20阳性、成人、减少免疫抑制无效",
+        "contraindication_note": "存在RTX单药治疗预后不良因素者，应选用RTX联合化疗方案",
+        "evidence_ids": [
+          "5.3 抗B细胞单克隆抗体（抗CD20单抗） ... 对于CD20阳性的成人PTLD患者，在减少免疫抑制剂剂量后可使用RTX治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_rituximab_plus_chemo",
+        "content": "对于减少免疫抑制剂剂量干预失败同时存在RTX单药治疗预后不良因素者，可选用RTX联合化疗方案治疗。",
+        "plan_level": 3,
+        "applicable_condition": "减少免疫抑制无效且存在RTX单药治疗预后不良因素",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "5.3 抗B细胞单克隆抗体（抗CD20单抗） ... 对于减少免疫抑制剂剂量干预失败同时存在RTX单药治疗预后不良因素者，可选用RTX联合化疗方案治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_chemo_for_t_cell_or_burkitt",
+        "content": "对RTX治疗反应差的病例以及病理类型为T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤的病例均应积极考虑化疗，或RTX联合化疗。",
+        "plan_level": 3,
+        "applicable_condition": "T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "5.4 细胞毒性化疗方案 ... 对RTX治疗反应差的病例以及病理类型为T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤的病例均应积极考虑化疗，或RTX联合化疗"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_ebv_infection",
+        "content": "EB病毒感染",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "PTLD在SOT受者中具有较特异的流行病学和临床特征，其诊断、治疗及预后均有别于其他人群的淋巴组织增生性疾病。... PTLD为SOT或造血干细胞移植受者因免疫抑制状态而发生的淋巴组织或浆细胞由良性组织增生为恶性肿瘤的淋巴系统增殖性疾病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_immunosuppression",
+        "content": "免疫抑制治疗",
+        "etiology_type": "治疗相关因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "PTLD为SOT或造血干细胞移植受者因免疫抑制状态而发生的淋巴组织或浆细胞由良性组织增生为恶性肿瘤的淋巴系统增殖性疾病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_ebv_serostatus_d_plus_r_minus",
+        "content": "EBV血清学D+/R－",
+        "etiology_type": "危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "EBV血清学D+/R－是发生PTLD的高危因素"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_age_less_than_5",
+        "content": "年龄<5岁的婴儿和儿童",
+        "etiology_type": "危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "移植后1年内发生PTLD还与以下危险因素有关：（1）移植时受者EBV血清学阴性；（2）年龄<5岁的婴儿和儿童"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_strong_immunosuppression",
+        "content": "接受强效免疫抑制方案、接受抗CD3单克隆抗体和多克隆抗淋巴细胞抗体",
+        "etiology_type": "危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "（3）接受强效免疫抑制方案、接受抗CD3单克隆抗体和多克隆抗淋巴细胞抗体"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_cmv_serostatus_d_plus_r_minus",
+        "content": "巨细胞病毒（CMV）血清学D+/R－或合并CMV病",
+        "etiology_type": "危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "（4）巨细胞病毒（cytomegalovirus，CMV）血清学 D+/R－或合并 CMV 病"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_ebv_driven_b_cell_proliferation",
+        "content": "人体感染EBV后可导致体内被感染的B细胞克隆性增生。此活化增殖的过程在免疫功能正常的个体中会受到B细胞凋亡触发机制（主要由EBV特异性细胞毒T细胞诱导）的调控，但对于接受免疫抑制治疗的SOT受者，上述B细胞凋亡触发过程受到抑制，使得EBV诱发的B细胞增殖与免疫系统（增殖、凋亡）间的平衡被破坏，异常B细胞克隆性增生，造成PTLD。",
+        "evidence_ids": [
+          "人体感染EBV后可导致体内被感染的B细胞克隆性增生。此活化增殖的过程在免疫功能正常的个体中会受到B细胞凋亡触发机制（主要由EBV特异性细胞毒T细胞诱导）的调控，但对于接受免疫抑制治疗的SOT受者，上述B细胞凋亡触发过程受到抑制，使得EBV诱发的B细胞增殖与免疫系统（增殖、凋亡）间的平衡被破坏，异常B细胞克隆性增生，造成PTLD"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_ptld",
+        "to": "sub_disease_ptld_early_lesion",
+        "relation_id": "rel_ptld_has_early_lesion",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "3.3.1 早期病变PTLD 多表现为非破坏性淋巴浆细胞增生，包括浆细胞增生和传染性单核细胞增多症样副皮质区增生（图1A）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_ptld",
+        "to": "sub_disease_ptld_polymorphic",
+        "relation_id": "rel_ptld_has_polymorphic",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "3.3.2 多形性PTLD 此期组织学特征对诊断最具挑战性，表现为结构破坏性的淋巴浆细胞增殖，但又不符合严格意义上的恶性淋巴瘤的诊断标准（图1B）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_ptld",
+        "to": "sub_disease_ptld_monomorphic",
+        "relation_id": "rel_ptld_has_monomorphic",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "3.3.3 单形性PTLD 该类型最符合淋巴瘤的组织病理学特点，也是PTLD最容易被诊断的阶段。大多数单形性PTLD表现为常见的B细胞淋巴瘤的特征（如弥漫大B细胞淋巴瘤、Burkitt细胞淋巴瘤和浆细胞淋巴瘤等，图1C）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_ptld",
+        "to": "sub_disease_ptld_hodgkin_lymphoma_type",
+        "relation_id": "rel_ptld_has_hodgkin_lymphoma_type",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "3.3.4 经典霍奇金淋巴瘤型PTLD 少数情况下，PTLD患者可表现为经典霍奇金淋巴瘤的病理特征，在大量小淋巴细胞及一定的嗜酸性粒细胞、浆细胞和组织细胞背景中，可见到典型的HRS细胞（图1D）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_ptld",
+        "to": "sub_disease_ptld_b_cell_lymphoma",
+        "relation_id": "rel_ptld_has_b_cell_lymphoma",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "表1 2008年WHO的PTLD组织学分类 ... B细胞淋巴瘤 弥漫性大B细胞淋巴瘤 Burkitt淋巴瘤 浆细胞骨髓瘤 浆细胞瘤样 其他"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_ptld",
+        "to": "sub_disease_ptld_t_cell_lymphoma",
+        "relation_id": "rel_ptld_has_t_cell_lymphoma",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "表1 2008年WHO的PTLD组织学分类 ... T细胞淋巴瘤 外周T细胞淋巴瘤，非特指型 肝脾T细胞淋巴瘤 其他"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_ebv_infection_syndrome",
+        "to": "symptom_fever",
+        "relation_id": "rel_ebv_syndrome_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "2.1 非PTLD EBV感染综合征 EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大、非典型性淋巴细胞增多）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为EBV感染后传染性单核细胞增多症的首发症状之一，属直接、典型临床表现",
+        "evidence": "EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大）"
+      },
+      {
+        "from": "sub_disease_ebv_infection_syndrome",
+        "to": "symptom_fatigue",
+        "relation_id": "rel_ebv_syndrome_manifests_as_fatigue",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "2.1 非PTLD EBV感染综合征 EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大、非典型性淋巴细胞增多）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为EBV感染后传染性单核细胞增多症的首发症状之一，属直接、典型临床表现",
+        "evidence": "EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大）"
+      },
+      {
+        "from": "sub_disease_ebv_infection_syndrome",
+        "to": "symptom_exudative_pharyngitis",
+        "relation_id": "rel_ebv_syndrome_manifests_as_exudative_pharyngitis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "2.1 非PTLD EBV感染综合征 EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大、非典型性淋巴细胞增多）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为EBV感染后传染性单核细胞增多症的首发症状之一，属直接、典型临床表现",
+        "evidence": "EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大）"
+      },
+      {
+        "from": "sub_disease_ebv_infection_syndrome",
+        "to": "symptom_lymphadenopathy",
+        "relation_id": "rel_ebv_syndrome_manifests_as_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "2.1 非PTLD EBV感染综合征 EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大、非典型性淋巴细胞增多）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为EBV感染后传染性单核细胞增多症的首发症状之一，属直接、典型临床表现",
+        "evidence": "EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大）"
+      },
+      {
+        "from": "sub_disease_ebv_infection_syndrome",
+        "to": "symptom_hepatosplenomegaly",
+        "relation_id": "rel_ebv_syndrome_manifests_as_hepatosplenomegaly",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "2.1 非PTLD EBV感染综合征 EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大、非典型性淋巴细胞增多）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为EBV感染后传染性单核细胞增多症的首发症状之一，属直接、典型临床表现",
+        "evidence": "EBV感染后可表现为传染性单核细胞增多症（发热、乏力、渗出性咽炎、淋巴结肿大、肝脾肿大）"
+      },
+      {
+        "from": "sub_disease_ptld_early_lesion",
+        "to": "symptom_lymphadenopathy_physical",
+        "relation_id": "rel_early_lesion_manifests_as_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 阳性体征包括淋巴结肿大、肝脾肿大、扁桃腺肿大或炎症、皮下结节、局灶性神经系统体征或多发肿块等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ptld_polymorphic",
+        "to": "symptom_fever",
+        "relation_id": "rel_polymorphic_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 常见非特异性症状包括无法解释的发热或盗汗、消瘦、乏力、厌食、嗜睡、咽痛等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ptld_monomorphic",
+        "to": "symptom_night_sweats",
+        "relation_id": "rel_monomorphic_manifests_as_night_sweats",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "2.2 EBV相关PTLD 常见非特异性症状包括无法解释的发热或盗汗、消瘦、乏力、厌食、嗜睡、咽痛等"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_ptld_early_lesion",
+        "to": "test_histopathology",
+        "relation_id": "rel_early_lesion_requires_histopathology",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": null,
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "3.3 组织病理学 组织病理学检查是诊断PTLD的金标准"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出‘组织病理学检查是诊断PTLD的金标准’，且早期病变属于PTLD亚型，故该检测对其亦为金标准",
+        "evidence": "组织病理学检查是诊断PTLD的金标准[3]"
+      },
+      {
+        "from": "sub_disease_ptld_polymorphic",
+        "to": "test_eber_ish",
+        "relation_id": "rel_polymorphic_requires_eber_ish",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "3.1.2 组织检测 原位杂交方法可以直接检查病变组织或细胞中EBV感染情况，具有较高的特异性和敏感性。EBV编码的小RNA（EBV-encoded small RNA，EBER）原位杂交检测EBV感染细胞更敏感"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文仅说明EBER原位杂交‘更敏感’，用于‘明确与治疗相关的重要标志物’，未赋予其对多形性PTLD的诊断必要性或特异性",
+        "evidence": "EBV编码的小RNA（EBV-encodedsmallRNA，EBER）原位杂交检测EBV感染细胞更敏感[3]"
+      },
+      {
+        "from": "sub_disease_ptld_monomorphic",
+        "to": "test_ebv_dna_qpcr",
+        "relation_id": "rel_monomorphic_requires_ebv_dna_qpcr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": ">",
+        "unit": "copies/ml",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "3.1.3 病毒载量监测 监测EBV DNA载量对于EBV相关的PTLD诊断、了解疾病状态及疗效判断具有指导意义"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出病毒载量监测‘对于EBV相关的PTLD诊断、了解疾病状态及疗效判断具有指导意义’，属辅助性、非必需检测",
+        "evidence": "监测EBVDNA载量对于EBV相关的PTLD诊断、了解疾病状态及疗效判断具有指导意义"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_ptld_early_lesion",
+        "to": "treatment_reduce_immunosuppression",
+        "relation_id": "rel_early_lesion_follows_reduce_immunosuppression",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊后立即启动",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": "心肺移植受者尤其常见排斥反应，有时甚至是致命性的",
+        "evidence_level": "expert_consensus",
+        "source_section": "5.1 减少免疫抑制剂剂量",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_ptld_polymorphic",
+        "to": "treatment_rituximab",
+        "relation_id": "rel_polymorphic_follows_rituximab",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "CD20阳性、减少免疫抑制无效",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "moderate",
+        "decision_basis": [
+          "CD20表达",
+          "疾病分型"
+        ],
+        "contraindication_note": "存在RTX单药治疗预后不良因素者，应选用RTX联合化疗方案",
+        "evidence_level": "expert_consensus",
+        "source_section": "5.3 抗B细胞单克隆抗体（抗CD20单抗）",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_reduce_immunosuppression",
+        "to": "plan_reduce_immunosuppression_immediately",
+        "relation_id": "rel_reduce_immunosuppression_implements_by_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "确诊PTLD后立即启动",
+        "contraindication_note": "心肺移植受者尤其常见排斥反应，有时甚至是致命性的",
+        "evidence_ids": [
+          "5.1 减少免疫抑制剂剂量 如情况许可，应将免疫抑制剂减少至最低允许剂量"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_rituximab",
+        "to": "plan_rituximab_for_cd20_positive",
+        "relation_id": "rel_rituximab_implements_by_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "CD20阳性、成人、减少免疫抑制无效",
+        "contraindication_note": "存在RTX单药治疗预后不良因素者，应选用RTX联合化疗方案",
+        "evidence_ids": [
+          "5.3 抗B细胞单克隆抗体（抗CD20单抗） ... 对于CD20阳性的成人PTLD患者，在减少免疫抑制剂剂量后可使用RTX治疗"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_ptld_early_lesion",
+        "to": "etiology_ebv_infection",
+        "relation_id": "rel_early_lesion_caused_by_ebv_infection",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "PTLD为SOT或造血干细胞移植受者因免疫抑制状态而发生的淋巴组织或浆细胞由良性组织增生为恶性肿瘤的淋巴系统增殖性疾病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_ptld_polymorphic",
+        "to": "etiology_immunosuppression",
+        "relation_id": "rel_polymorphic_caused_by_immunosuppression",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "PTLD为SOT或造血干细胞移植受者因免疫抑制状态而发生的淋巴组织或浆细胞由良性组织增生为恶性肿瘤的淋巴系统增殖性疾病"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_ptld_early_lesion",
+        "to": "pathogenesis_ebv_driven_b_cell_proliferation",
+        "relation_id": "rel_early_lesion_explained_by_pathogenesis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "人体感染EBV后可导致体内被感染的B细胞克隆性增生。此活化增殖的过程在免疫功能正常的个体中会受到B细胞凋亡触发机制（主要由EBV特异性细胞毒T细胞诱导）的调控，但对于接受免疫抑制治疗的SOT受者，上述B细胞凋亡触发过程受到抑制，使得EBV诱发的B细胞增殖与免疫系统（增殖、凋亡）间的平衡被破坏，异常B细胞克隆性增生，造成PTLD"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

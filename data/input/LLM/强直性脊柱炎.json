@@ -1,0 +1,1213 @@
+{
+  "meta": {
+    "doc_id": "强直性脊柱炎诊疗规范",
+    "source_title": "强直性脊柱炎诊疗规范",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_as",
+        "name": "强直性脊柱炎",
+        "normalized_name": "强直性脊柱炎",
+        "aliases": [
+          "AS",
+          "Ankylosing Spondylitis"
+        ],
+        "source_document_ids": [
+          "强直性脊柱炎诊疗规范"
+        ],
+        "evidence_ids": [
+          "强直性脊柱炎（AS）是一种主要侵犯骶髂关节、脊柱和外周关节的慢性炎症性疾病。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_as",
+        "name": "强直性脊柱炎",
+        "parent_disease_id": "disease_as",
+        "disease_subtype": "脊柱关节炎（SpA）原型",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": 15,
+        "age_max": 40,
+        "evidence_ids": [
+          "强直性脊柱炎（AS）是一种主要侵犯骶髂关节、脊柱和外周关节的慢性炎症性疾病。发病年龄15~40岁，10%~20%的AS患者在16岁前发病，发病高峰年龄在18~35岁，而50岁以上及8岁以下发病者少见。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_as_radiographic_negative",
+        "name": "放射学阴性中轴型脊柱关节炎",
+        "parent_disease_id": "disease_as",
+        "disease_subtype": "中轴型SpA",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "2009年国际脊柱关节炎评估协会（ASAS）将主要累及中轴的SpA称为中轴型SpA,包括AS及X线检查未明确骶髂关节炎改变的中轴型SpA,后者称为放射学阴性中轴型SpA。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_as_peripheral_spA",
+        "name": "外周型脊柱关节炎",
+        "parent_disease_id": "disease_as",
+        "disease_subtype": "外周型SpA",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "2011年ASAS制定的外周型SpA分类标准，覆盖了无影像学表现和有影像学表现的临床类型……对目前无炎性背痛、仅存在中轴以外的外周症状的患者，出现有关节炎、附着点炎或指（趾）炎中任意一项时，加上下述其中一种情况，即可确诊为外周型SpA。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_inflammatory_back_pain",
+        "name": "炎性背痛",
+        "body_site": "腰背部/骶髂部",
+        "symptom_category": "骨骼肌肉系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "腰背痛是普通人群中极为常见的一种症状，但大多数为机械性背痛，而AS则为炎性背痛。2009年ASAS炎性背痛专家组推荐炎性背痛的诊断标准为：（1）发病年龄<40岁；(2)隐匿起病；（3)活动后症状好转；（4）休息时加重；（5）夜间痛（起床后好转）；符合上述5项中的4项,诊断AS炎性背痛，其敏感度为79.6%，特异度为72.4%。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_sacroiliac_joint_tenderness",
+        "name": "骶髂关节压痛",
+        "body_site": "骶髂关节",
+        "symptom_category": "骨骼肌肉系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "骶髂关节和椎旁肌肉压痛为AS早期的阳性体征。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_enthesitis_pain",
+        "name": "附着点疼痛",
+        "body_site": "附着点",
+        "symptom_category": "骨骼肌肉系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "附着点炎是AS的典型特征，表现为附着点疼、硬和压痛，通常无明显肿胀。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_heel_pain",
+        "name": "足跟痛",
+        "body_site": "足跟",
+        "symptom_category": "骨骼肌肉系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "跟腱附着点炎症时，肿胀可能是突出特征。除跟腱附着点外，足底筋膜、髂骨、肩部、肋软骨连接、胸骨胸骨柄关节、胸锁关节及髂上等处附着点部位的压痛常提示附着点炎。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hip_pain",
+        "name": "髋部疼痛",
+        "body_site": "髋部",
+        "symptom_category": "骨骼肌肉系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "导致髋关节疼痛的髋部受累见于25%~35%的AS患者……表现为腹股沟、髋部疼痛及关节屈伸、旋转、内收和外展活动受限，负重体位（站立、行走或持重时）疼痛症状加重。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_uveitis",
+        "name": "前葡萄膜炎",
+        "body_site": "眼部",
+        "symptom_category": "眼科症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "AS关节外表现包括前葡萄膜炎、银屑病及炎症性肠病。25%~35%的AS患者发生葡萄膜炎……局部疼痛难忍、充血、畏光、流泪及视物模糊。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_psoriasis",
+        "name": "银屑病",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "约50%的AS患者经肠道组织学检查可检出回肠和结肠黏膜炎症……多达约10%的AS患者存在银屑病，而伴银屑病者比无银屑病者病情更严重，更易出现外周关节受累。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_crohns_disease",
+        "name": "克罗恩病",
+        "body_site": "肠道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "AS患者显性炎症性肠病如克罗恩病和溃疡性结肠炎的发生率分别为约6.4%和4.1%。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_ulcerative_colitis",
+        "name": "溃疡性结肠炎",
+        "body_site": "肠道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "AS患者显性炎症性肠病如克罗恩病和溃疡性结肠炎的发生率分别为约6.4%和4.1%。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_morning_stiffness",
+        "name": "晨僵",
+        "body_site": "脊柱/关节",
+        "symptom_category": "骨骼肌肉系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "AS起病隐袭，患者逐渐出现腰背部或骶髂部疼痛和/或僵硬，可有半夜痛醒、翻身困难，晨起或久坐后起立时下腰部僵硬明显，但活动后减轻。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_night_pain",
+        "name": "夜间痛",
+        "body_site": "腰背部",
+        "symptom_category": "骨骼肌肉系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "（5）夜间痛（起床后好转）；符合上述5项中的4项,诊断AS炎性背痛，其敏感度为79.6%，特异度为72.4%。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_restricted_spinal_mobility",
+        "name": "脊柱活动受限",
+        "body_site": "脊柱",
+        "symptom_category": "骨骼肌肉系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "随病情进展可见腰椎前凸变平，脊柱各个方向活动受限，胸廓扩展范围缩小，颈椎后凸。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_reduced_chest_expansion",
+        "name": "胸廓扩展范围缩小",
+        "body_site": "胸廓",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "随病情进展可见腰椎前凸变平，脊柱各个方向活动受限，胸廓扩展范围缩小，颈椎后凸。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_esr",
+        "name": "红细胞沉降率（ESR）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "50%~70%的活动性AS患者可能出现急性期炎性指标升高，包括红细胞沉降率（ESR）和C反应蛋白（CRP)升高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_crp",
+        "name": "C反应蛋白（CRP）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "50%~70%的活动性AS患者可能出现急性期炎性指标升高，包括红细胞沉降率（ESR）和C反应蛋白（CRP)升高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_hla_b27",
+        "name": "人类白细胞抗原-B27（HLA-B27）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "已证实,AS的发病与人类白细胞抗原（HLA）-B27密切相关……我国AS患者HLA-B27阳性率高达90%左右。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_sacroiliac_xray",
+        "name": "骶髂关节X线检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "骶髂关节X线改变具有确诊意义。骶髂关节炎在X线片上显示为骶髂关节软骨下骨缘模糊、骨质糜烂、关节间隙模糊、骨密度增高及关节融合。通常依据X线骶髂关节的病变程度，放射学分为5级：0级正常；I级可疑变化；Ⅱ级轻度异常，可见局限性侵蚀、硬化，但无关节间隙的改变；Ⅲ级明显异常，为中度或进行性骶髂关节炎，伴有以下1项或1项以上改变（侵蚀、硬化、关节间隙增宽或狭窄，或部分强直）；IV级严重异常，完全性关节强直。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_sacroiliac_mri",
+        "name": "骶髂关节MRI",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "骶髂关节MRI可显示急性炎症性改变和结构损伤改变，从而更早发现SpA患者的骶髂关节病变……2009年ASAS制定的中轴型SpA分类标准，将MRI发现的活动性骶髂关节炎作为中轴型SpA的主要诊断依据之一，着重强调骨髓水肿与SpA高度相关，是诊断活动性骶髂关节炎的标准。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_sacroiliac_ct",
+        "name": "骶髂关节CT",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "高分辨率CT比X线片更清晰显示骶髂关节的结构性改变，如侵蚀、硬化和强直。在临床工作中如X线检查结果不明确，尤其怀疑有结构性改变，或无法行磁共振成像（MRI）检查时，可行CT检查。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_as_non_drug",
+        "content": "非药物治疗：疾病知识教育、保持正确姿势、坚持体育锻炼、物理治疗、戒烟。",
+        "recommendation_strength": "strong",
+        "source_section": "六、治疗方案及原则（一）治疗目标",
+        "evidence_ids": [
+          "（一）治疗目标 1.缓解症状和体征：应达到临床缓解或低疾病活动度。……（二）治疗方案 1.非药物治疗：（1）对AS患者及其家属进行疾病知识的教育是整个治疗计划中不可缺少的一部分……（2）站立时应尽量保持挺胸、收腹和双眼平视前方的姿势。坐位应保持胸部直立。应睡稍硬的床垫，多取仰卧位，避免促进屈曲畸形的体位。枕头要矮，一旦出现胸或颈椎受累应停用枕头。（3）合理和坚持体育锻炼……（4）对疼痛或炎性关节或软组织给予必要的物理治疗。（5）戒烟，吸烟是功能预后不良危险因素之一。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_as_nsaids",
+        "content": "NSAIDs是AS患者控制症状的一线药物，用于迅速改善腰背部疼痛和晨僵，减轻关节肿胀和疼痛及增加活动范围。",
+        "recommendation_strength": "strong",
+        "source_section": "六、治疗方案及原则",
+        "evidence_ids": [
+          "（2）药物治疗：（1）NSAIDs：可迅速改善AS患者腰背部疼痛相关的晨僵，减轻关节肿胀和疼痛及增加活动范围，对早期或晚期AS患者的症状治疗均为首选。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_as_biologics",
+        "content": "对NSAIDs治疗后病情仍持续活动的AS患者应考虑使用生物DMARDs，包括TNFα抑制剂和IL-17抑制剂。",
+        "recommendation_strength": "strong",
+        "source_section": "六、治疗方案及原则",
+        "evidence_ids": [
+          "（2）生物DMARDs:对NSAIDs治疗后病情仍持续活动的AS患者应考虑使用生物DMARDs,目前可供选择的药物包括肿瘤坏死因子（TNF）α抑制剂和白细胞介素（IL）-17抑制剂。推荐使用生物DMARDs的时机：使用至少2种NSAIDs治疗超过4周,症状仍未缓解和/或出现不良反应，ASDAS≥2.1或Bath强直性脊柱炎疾病活动指数（BASDAI)≥4。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_as_conventional_dmards",
+        "content": "传统合成DMARDs对AS的中轴病变无效，但可用于改善外周关节炎。",
+        "recommendation_strength": "weak",
+        "source_section": "六、治疗方案及原则",
+        "evidence_ids": [
+          "（3)传统合成DMARDs：如甲氨蝶呤，来氟米特，柳氮磺吡啶等。目前未证实传统合成DMARDs对AS的中轴病变有效。如果临床医生和患者无法获得更有效的治疗，可以尝试使用传统合成DMARDs。①柳氮磺吡啶：可改善AS的关节疼痛、肿胀和发，并可降低血清IgA水平及其他活动性指标（如ESR、CRP），特别适用于改善AS患者的外周关节炎。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_nsaids_max_dose",
+        "content": "应针对每例患者的具体情况选用一种NSAIDs，通常需用最大剂量。",
+        "plan_level": 1,
+        "applicable_condition": "AS患者症状控制",
+        "contraindication_note": "同时使用≥2种NSAIDs不仅不会增加疗效，反而会增加药物不良反应，甚至带来严重后果。",
+        "evidence_ids": [
+          "NSAIDs：可迅速改善AS患者腰背部疼痛相关的晨僵，减轻关节肿胀和疼痛及增加活动范围……应针对每例患者的具体情况选用一种NSAIDs,通常需用最大剂量。同时使用≥2种NSAIDs不仅不会增加疗效，反而会增加药物不良反应，甚至带来严重后果。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_nsaids_2_week_trial",
+        "content": "要评估某个特定NSAIDs是否有效，应持续规则使用稳定剂量至少2周。",
+        "plan_level": 2,
+        "applicable_condition": "NSAIDs疗效评估",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "要评估某个特定NSAIDs是否有效，应持续规则使用稳定剂量至少2周。如1种NSAIDs治疗2~4周疗效不明显，应改用其他不同类别的NSAIDs。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_etanercept",
+        "content": "依那西普/可溶性TNF受体-IgG，Fc段融合蛋白，25mg，每周2次（间隔72~96h）或50mg每周1次，皮下注射。",
+        "plan_level": 1,
+        "applicable_condition": "TNF抑制剂治疗AS",
+        "contraindication_note": "用药期间要定期复查血常规、尿常规、肝肾功能等。",
+        "evidence_ids": [
+          "TNF抑制剂包括依那西普可溶性TNF受体-IgG，Fc段融合蛋白、英夫利西单抗、阿达木单抗和戈利木单抗等。用法用量：依那西普/可溶性TNF受体-IgG，Fc段融合蛋白，25mg，每周2次（间隔72~96h）或50mg每周1次，皮下注射；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_infliximab",
+        "content": "英夫利西单抗，首剂5 mg/kg,之后在第2周和第6周以及以后每隔6周各给予1次相同剂量，静脉注射（输注时间≥2h）。",
+        "plan_level": 1,
+        "applicable_condition": "TNF抑制剂治疗AS",
+        "contraindication_note": "用药期间要定期复查血常规、尿常规、肝肾功能等。",
+        "evidence_ids": [
+          "英夫利西单抗，首剂5 mg/kg,之后在第2周和第6周以及以后每隔6周各给予1次相同剂量，静脉注射（输注时间≥2h）;"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_adalimumab",
+        "content": "阿达木单抗,40mg,每2周1次,皮下注射。",
+        "plan_level": 1,
+        "applicable_condition": "TNF抑制剂治疗AS",
+        "contraindication_note": "用药期间要定期复查血常规、尿常规、肝肾功能等。",
+        "evidence_ids": [
+          "阿达木单抗,40mg,每2周1次,皮下注射；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_golimumab",
+        "content": "戈利木单抗,50mg，每月1次，皮下注射。",
+        "plan_level": 1,
+        "applicable_condition": "TNF抑制剂治疗AS",
+        "contraindication_note": "用药期间要定期复查血常规、尿常规、肝肾功能等。",
+        "evidence_ids": [
+          "戈利木单抗,50mg，每月1次，皮下注射。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_secukinumab",
+        "content": "司库奇尤单抗，每次150mg，在第0、1、2、3和4周皮下注射，随后每4周给药1次。",
+        "plan_level": 1,
+        "applicable_condition": "IL-17抑制剂治疗AS",
+        "contraindication_note": "患有活动性葡萄膜炎和炎症性肠病（如克罗恩病、溃疡性结肠炎）者应慎用司库奇尤单抗。",
+        "evidence_ids": [
+          "司库奇尤单抗是一种IL-17抑制剂,可缓解AS的症状和体征，降低疾病活动度。用法用量：每次150mg，在第0、1、2、3和4周皮下注射，随后每4周给药1次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_sulfasalazine",
+        "content": "柳氮磺吡啶，推荐用量为每日2.0g，分2~3次口服。",
+        "plan_level": 2,
+        "applicable_condition": "AS外周关节炎",
+        "contraindication_note": "磺胺类药物过敏者禁用。",
+        "evidence_ids": [
+          "①柳氮磺吡啶：可改善AS的关节疼痛、肿胀和发，并可降低血清IgA水平及其他活动性指标（如ESR、CRP），特别适用于改善AS患者的外周关节炎。推荐用量为每日2.0g，分2~3次口服。剂量增至3.0g/d,疗效虽可增加，但不良反应亦明显增多。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_hla_b27",
+        "content": "人类白细胞抗原-B27（HLA-B27）阳性",
+        "etiology_type": "遗传因素",
+        "typicality": "typical",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "已证实,AS的发病与人类白细胞抗原（HLA）-B27密切相关，并有明显家族聚集倾向。健康人群HLA-B27阳性率因种族和地区不同而差别很大……我国AS患者HLA-B27阳性率高达90%左右。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_smoking",
+        "content": "吸烟",
+        "etiology_type": "环境因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "戒烟，吸烟是功能预后不良危险因素之一。……另外诊断延迟、治疗不及时和不合理，以及不坚持长期功能锻炼者预后差。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_enthesitis",
+        "content": "附着点炎为本病的特征性病理改变。",
+        "evidence_ids": [
+          "附着点炎为本病的特征性病理改变，脊柱受累晚期的典型表现为“竹节样改变”。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_sacroiliitis",
+        "content": "骶髂关节炎是AS的特征性标志和早期表现之一。",
+        "evidence_ids": [
+          "AS的特征性标志和早期表现之一为骶髂关节炎，附着点炎为本病的特征性病理改变，脊柱受累晚期的典型表现为“竹节样改变”。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_as",
+        "to": "sub_disease_as",
+        "relation_id": "rel_as_has_as",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "强直性脊柱炎（AS）是一种主要侵犯骶髂关节、脊柱和外周关节的慢性炎症性疾病。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_as",
+        "to": "sub_disease_as_radiographic_negative",
+        "relation_id": "rel_as_has_radiographic_negative",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "2009年国际脊柱关节炎评估协会（ASAS）将主要累及中轴的SpA称为中轴型SpA,包括AS及X线检查未明确骶髂关节炎改变的中轴型SpA,后者称为放射学阴性中轴型SpA。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_as",
+        "to": "sub_disease_as_peripheral_spA",
+        "relation_id": "rel_as_has_peripheral_spA",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "2011年ASAS制定的外周型SpA分类标准，覆盖了无影像学表现和有影像学表现的临床类型……对目前无炎性背痛、仅存在中轴以外的外周症状的患者，出现有关节炎、附着点炎或指（趾）炎中任意一项时，加上下述其中一种情况，即可确诊为外周型SpA。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_inflammatory_back_pain",
+        "relation_id": "rel_as_manifests_as_inflammatory_back_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "ASAS_Inflammatory_Back_Pain_5_of_4",
+        "required_count": 4,
+        "typicality": "typical",
+        "duration_condition": "持续至少3个月",
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "2009年ASAS炎性背痛专家组推荐炎性背痛的诊断标准为：（1）发病年龄<40岁；(2)隐匿起病；（3)活动后症状好转；（4）休息时加重；（5）夜间痛（起床后好转）；符合上述5项中的4项,诊断AS炎性背痛，其敏感度为79.6%，特异度为72.4%。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将‘炎性背痛’列为AS核心临床表现，并给出5项诊断标准，且在诊疗要点第1条中强调‘45岁前发作的慢性炎性背痛……则可诊断为AS’，构成诊断必要条件",
+        "evidence": "腰背痛是普通人群中极为常见的一种症状，但大多数为机械性背痛，而AS则为炎性背痛。"
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_sacroiliac_joint_tenderness",
+        "relation_id": "rel_as_manifests_as_sacroiliac_tenderness",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "骶髂关节和椎旁肌肉压痛为AS早期的阳性体征。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出‘骶髂关节和椎旁肌肉压痛为AS早期的阳性体征’，属直接、特异性体征，且在诊断性检查首句即列出，具强临床确认性",
+        "evidence": "骶髂关节和椎旁肌肉压痛为AS早期的阳性体征。"
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_enthesitis_pain",
+        "relation_id": "rel_as_manifests_as_enthesitis_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "附着点炎是AS的典型特征，表现为附着点疼、硬和压痛，通常无明显肿胀。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确定义‘附着点炎为本病的特征性病理改变’，并多次强调其典型性（‘典型特征’‘典型表现’），且列为SpA核心特征之一",
+        "evidence": "附着点炎为本病的特征性病理改变，脊柱受累晚期的典型表现为“竹节样改变”。"
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_heel_pain",
+        "relation_id": "rel_as_manifests_as_heel_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "跟腱附着点炎症时，肿胀可能是突出特征。除跟腱附着点外，足底筋膜、髂骨、肩部、肋软骨连接、胸骨胸骨柄关节、胸锁关节及髂上等处附着点部位的压痛常提示附着点炎。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_hip_pain",
+        "relation_id": "rel_as_manifests_as_hip_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "导致髋关节疼痛的髋部受累见于25%~35%的AS患者……表现为腹股沟、髋部疼痛及关节屈伸、旋转、内收和外展活动受限，负重体位（站立、行走或持重时）疼痛症状加重。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_uveitis",
+        "relation_id": "rel_as_manifests_as_uveitis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "AS关节外表现包括前葡萄膜炎、银屑病及炎症性肠病。25%~35%的AS患者发生葡萄膜炎……局部疼痛难忍、充血、畏光、流泪及视物模糊。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_psoriasis",
+        "relation_id": "rel_as_manifests_as_psoriasis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "多达约10%的AS患者存在银屑病，而伴银屑病者比无银屑病者病情更严重，更易出现外周关节受累。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_crohns_disease",
+        "relation_id": "rel_as_manifests_as_crohns_disease",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 4,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "AS患者显性炎症性肠病如克罗恩病和溃疡性结肠炎的发生率分别为约6.4%和4.1%。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_ulcerative_colitis",
+        "relation_id": "rel_as_manifests_as_ulcerative_colitis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 4,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "AS患者显性炎症性肠病如克罗恩病和溃疡性结肠炎的发生率分别为约6.4%和4.1%。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_morning_stiffness",
+        "relation_id": "rel_as_manifests_as_morning_stiffness",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "NY_1984_Criteria",
+        "required_count": 1,
+        "typicality": "typical",
+        "duration_condition": "持续至少3个月",
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "1.1984年修订的AS纽约标准：（1）下腰背痛持续至少3个月，疼痛随活动改善，但休息不减轻；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在‘一、临床表现’首段明确描述‘晨起或久坐后起立时下腰部僵硬明显，但活动后减轻’，且‘僵硬’与‘晨僵’为同义临床术语，属AS标志性症状",
+        "evidence": "晨起或久坐后起立时下腰部僵明显，但活动后减轻。"
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_night_pain",
+        "relation_id": "rel_as_manifests_as_night_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "ASAS_Inflammatory_Back_Pain_5_of_4",
+        "required_count": 4,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（5）夜间痛（起床后好转）；符合上述5项中的4项,诊断AS炎性背痛，其敏感度为79.6%，特异度为72.4%。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在炎性背痛5项标准中第(5)项明确列出‘夜间痛（起床后好转）’，且在临床表现首段描述‘半夜痛醒、翻身困难’，属诊断标准级症状",
+        "evidence": "（5）夜间痛（起床后好转）；符合上述5项中的4项,诊断AS炎性背痛"
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_restricted_spinal_mobility",
+        "relation_id": "rel_as_manifests_as_restricted_spinal_mobility",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "NY_1984_Criteria",
+        "required_count": 1,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（2）腰椎在前后和侧屈方向活动受限；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在纽约标准第(2)条明确列为诊断必备条件：‘腰椎在前后和侧屈方向活动受限’，且在体征检查中详述‘脊柱各个方向活动受限’",
+        "evidence": "（2）腰椎在前后和侧屈方向活动受限；"
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "symptom_reduced_chest_expansion",
+        "relation_id": "rel_as_manifests_as_reduced_chest_expansion",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": "NY_1984_Criteria",
+        "required_count": 1,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（3）胸廓扩展范围小于同年龄和性别的正常参考值；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在纽约标准第(3)条明确列为诊断必备条件：‘胸廓扩展范围小于同年龄和性别的正常参考值’，且在体征检查中定义‘两者之差的正常参考值不小于2.5cm’",
+        "evidence": "（3）胸廓扩展范围小于同年龄和性别的正常参考值；"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_as",
+        "to": "test_sacroiliac_xray",
+        "relation_id": "rel_as_requires_sacroiliac_xray",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "双侧骶髂关节炎Ⅱ~IV级，或单侧骶髂关节炎Ⅲ~IV级",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": "NY_1984_Criteria",
+        "required_count": 1,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（4）双侧骶髂关节炎Ⅱ~IV级，或单侧骶髂关节炎Ⅲ~IV级。如患者符合第4条，并符合第1~3条中的任意1条可诊断AS。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在‘四、分类诊断标准’开篇即称‘目前仍采用1984年修订的AS纽约标准’，其第(4)条明确要求‘双侧骶髂关节炎Ⅱ~IV级，或单侧Ⅲ~IV级’，X线是该标准唯一影像学依据；诊疗要点第1条亦强调‘应行骶髂关节X线检查，如符合骶髂关节炎标准……则可诊断为AS’",
+        "evidence": "如患者符合第4条，并符合第1~3条中的任意1条可诊断AS。"
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "test_sacroiliac_mri",
+        "relation_id": "rel_as_requires_sacroiliac_mri",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": "MRI提示骶髂关节活动性（急性）炎症，高度提示与SpA相关的骶髂关节炎",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "ASAS_2009_Axial_SpA",
+        "required_count": 1,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "2009年ASAS制定的中轴型SpA分类标准，将MRI发现的活动性骶髂关节炎作为中轴型SpA的主要诊断依据之一，着重强调骨髓水肿与SpA高度相关，是诊断活动性骶髂关节炎的标准。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出MRI‘可显示急性炎症性改变’‘更早发现’病变，但强调其用于‘中轴型SpA分类标准’而非AS确诊；且明确说明‘影像学提示骶髂关节炎为：（1）MRI提示骶髂关节活动性（急性）炎症……或（2）明确的骶髂关节炎影像学改变（根据1984年修订的AS纽约标准）’，即MRI仅为替代性/补充性证据，非金标准",
+        "evidence": "与X线和CT不同，骶髂关节MRI可显示急性炎症性改变和结构损伤改变，从而更早发现SpA患者的骶髂关节病变。"
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "test_hla_b27",
+        "relation_id": "rel_as_requires_hla_b27",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "HLA-B27阳性",
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": "ASAS_2009_Axial_SpA",
+        "required_count": 1,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（2）HLA-B27阳性，加上≥2个下述其他SpA特征。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "test_esr",
+        "relation_id": "rel_as_requires_esr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病活动性监测",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mm/h",
+        "result_text": null,
+        "weight": 3,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "一般辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "50%~70%的活动性AS患者可能出现急性期炎性指标升高，包括红细胞沉降率（ESR）和C反应蛋白（CRP)升高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "test_crp",
+        "relation_id": "rel_as_requires_crp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病活动性监测",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mg/L",
+        "result_text": null,
+        "weight": 3,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "一般辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "50%~70%的活动性AS患者可能出现急性期炎性指标升高，包括红细胞沉降率（ESR）和C反应蛋白（CRP)升高。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_as",
+        "to": "treatment_as_non_drug",
+        "relation_id": "rel_as_follows_non_drug",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "所有AS患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "六、治疗方案及原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "treatment_as_nsaids",
+        "relation_id": "rel_as_follows_nsaids",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "所有AS患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "六、治疗方案及原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "treatment_as_biologics",
+        "relation_id": "rel_as_follows_biologics",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "NSAIDs治疗失败且病情持续活动",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "NSAIDs疗效",
+          "疾病活动度"
+        ],
+        "contraindication_note": "治疗前需筛查肺结核、乙型肝炎病毒（HBV）、丙型肝炎病毒（HCV）和人类免疫缺陷病毒（HIV）",
+        "evidence_level": "expert_consensus",
+        "source_section": "六、治疗方案及原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "treatment_as_conventional_dmards",
+        "relation_id": "rel_as_follows_conventional_dmards",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线或三线",
+        "applicable_condition": "外周关节炎为主且无法获得生物制剂",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "weak",
+        "decision_basis": [
+          "疾病表现"
+        ],
+        "contraindication_note": "磺胺类药物过敏者禁用（柳氮磺吡啶）",
+        "evidence_level": "expert_consensus",
+        "source_section": "六、治疗方案及原则",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_as_non_drug",
+        "to": "plan_nsaids_max_dose",
+        "relation_id": "rel_non_drug_implements_by_nsaids_max_dose",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "AS患者症状控制",
+        "contraindication_note": "同时使用≥2种NSAIDs不仅不会增加疗效，反而会增加药物不良反应，甚至带来严重后果。",
+        "evidence_ids": [
+          "应针对每例患者的具体情况选用一种NSAIDs,通常需用最大剂量。同时使用≥2种NSAIDs不仅不会增加疗效，反而会增加药物不良反应，甚至带来严重后果。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_as_nsaids",
+        "to": "plan_nsaids_2_week_trial",
+        "relation_id": "rel_nsaids_implements_by_2_week_trial",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "监测",
+        "applicable_condition": "NSAIDs疗效评估",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "要评估某个特定NSAIDs是否有效，应持续规则使用稳定剂量至少2周。如1种NSAIDs治疗2~4周疗效不明显，应改用其他不同类别的NSAIDs。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_as_biologics",
+        "to": "plan_etanercept",
+        "relation_id": "rel_biologics_implements_by_etanercept",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "TNF抑制剂治疗AS",
+        "contraindication_note": "用药期间要定期复查血常规、尿常规、肝肾功能等。",
+        "evidence_ids": [
+          "依那西普/可溶性TNF受体-IgG，Fc段融合蛋白，25mg，每周2次（间隔72~96h）或50mg每周1次，皮下注射；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_as_biologics",
+        "to": "plan_infliximab",
+        "relation_id": "rel_biologics_implements_by_infliximab",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "TNF抑制剂治疗AS",
+        "contraindication_note": "用药期间要定期复查血常规、尿常规、肝肾功能等。",
+        "evidence_ids": [
+          "英夫利西单抗，首剂5 mg/kg,之后在第2周和第6周以及以后每隔6周各给予1次相同剂量，静脉注射（输注时间≥2h）;"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_as_biologics",
+        "to": "plan_adalimumab",
+        "relation_id": "rel_biologics_implements_by_adalimumab",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "TNF抑制剂治疗AS",
+        "contraindication_note": "用药期间要定期复查血常规、尿常规、肝肾功能等。",
+        "evidence_ids": [
+          "阿达木单抗,40mg,每2周1次,皮下注射；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_as_biologics",
+        "to": "plan_golimumab",
+        "relation_id": "rel_biologics_implements_by_golimumab",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "TNF抑制剂治疗AS",
+        "contraindication_note": "用药期间要定期复查血常规、尿常规、肝肾功能等。",
+        "evidence_ids": [
+          "戈利木单抗,50mg，每月1次，皮下注射。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_as_biologics",
+        "to": "plan_secukinumab",
+        "relation_id": "rel_biologics_implements_by_secukinumab",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "IL-17抑制剂治疗AS",
+        "contraindication_note": "患有活动性葡萄膜炎和炎症性肠病（如克罗恩病、溃疡性结肠炎）者应慎用司库奇尤单抗。",
+        "evidence_ids": [
+          "司库奇尤单抗是一种IL-17抑制剂,可缓解AS的症状和体征，降低疾病活动度。用法用量：每次150mg，在第0、1、2、3和4周皮下注射，随后每4周给药1次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_as_conventional_dmards",
+        "to": "plan_sulfasalazine",
+        "relation_id": "rel_conventional_dmards_implements_by_sulfasalazine",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "AS外周关节炎",
+        "contraindication_note": "磺胺类药物过敏者禁用。",
+        "evidence_ids": [
+          "柳氮磺吡啶，推荐用量为每日2.0g，分2~3次口服。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_as",
+        "to": "etiology_hla_b27",
+        "relation_id": "rel_as_causes_hla_b27",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "已证实,AS的发病与人类白细胞抗原（HLA）-B27密切相关，并有明显家族聚集倾向。健康人群HLA-B27阳性率因种族和地区不同而差别很大……我国AS患者HLA-B27阳性率高达90%左右。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "etiology_smoking",
+        "relation_id": "rel_as_causes_smoking",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "戒烟，吸烟是功能预后不良危险因素之一。……另外诊断延迟、治疗不及时和不合理，以及不坚持长期功能锻炼者预后差。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_as",
+        "to": "pathogenesis_enthesitis",
+        "relation_id": "rel_as_explained_by_enthesitis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "附着点炎为本病的特征性病理改变，脊柱受累晚期的典型表现为“竹节样改变”。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_as",
+        "to": "pathogenesis_sacroiliitis",
+        "relation_id": "rel_as_explained_by_sacroiliitis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "AS的特征性标志和早期表现之一为骶髂关节炎，附着点炎为本病的特征性病理改变，脊柱受累晚期的典型表现为“竹节样改变”。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

@@ -1,0 +1,846 @@
+{
+  "meta": {
+    "doc_id": "两性霉素B不同剂型临床合理应用多学科专家共识（2024版）",
+    "source_title": "两性霉素B不同剂型临床合理应用多学科专家共识（2024版）",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_ifd",
+        "name": "侵袭性真菌病",
+        "normalized_name": "侵袭性真菌病",
+        "aliases": [
+          "IFD"
+        ],
+        "source_document_ids": [
+          "两性霉素B不同剂型临床合理应用多学科专家共识（2024版）"
+        ],
+        "evidence_ids": [
+          "两性霉素 B (AmB)是临床治疗侵袭性真菌病（IFD）广谱强效的多烯类抗真菌药物。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_aspergillosis",
+        "name": "曲霉病",
+        "normalized_name": "曲霉病",
+        "aliases": [
+          "IA",
+          "侵袭性曲霉病"
+        ],
+        "source_document_ids": [
+          "两性霉素B不同剂型临床合理应用多学科专家共识（2024版）"
+        ],
+        "evidence_ids": [
+          "侵袭性曲霉病（invasive aspergillosis，IA）常见部位为肺，可播散至眼、中枢神经系统等器官。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_candidiasis",
+        "name": "念珠菌病",
+        "normalized_name": "念珠菌病",
+        "aliases": [
+          "IC",
+          "侵袭性念珠菌病"
+        ],
+        "source_document_ids": [
+          "两性霉素B不同剂型临床合理应用多学科专家共识（2024版）"
+        ],
+        "evidence_ids": [
+          "侵袭性念珠菌病（invasive candidiasis，IC）最常 见的致病真菌是白念珠菌……"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_cryptococcosis",
+        "name": "隐球菌病",
+        "normalized_name": "隐球菌病",
+        "aliases": [
+          "隐球菌感染"
+        ],
+        "source_document_ids": [
+          "两性霉素B不同剂型临床合理应用多学科专家共识（2024版）"
+        ],
+        "evidence_ids": [
+          "隐球菌病（cryptococcosis）常由新型隐球菌或格特隐球菌导致，以肺和中枢神经系统受累最为常见。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_mucormycosis",
+        "name": "毛霉病",
+        "normalized_name": "毛霉病",
+        "aliases": [
+          "mucormycosis"
+        ],
+        "source_document_ids": [
+          "两性霉素B不同剂型临床合理应用多学科专家共识（2024版）"
+        ],
+        "evidence_ids": [
+          "毛霉病（mucormycosis）的常见致病真菌为毛霉目真菌……"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_talaromycosis",
+        "name": "马尔尼菲篮状菌病",
+        "normalized_name": "马尔尼菲篮状菌病",
+        "aliases": [
+          "talaromycosis",
+          "马尔尼菲篮状菌感染"
+        ],
+        "source_document_ids": [
+          "两性霉素B不同剂型临床合理应用多学科专家共识（2024版）"
+        ],
+        "evidence_ids": [
+          "马尔尼菲篮状菌病（talaromycosis marneffei）是一种流行于亚洲热带和亚热带地区的侵袭性真菌病……"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_histoplasmosis",
+        "name": "组织胞浆菌病",
+        "normalized_name": "组织胞浆菌病",
+        "aliases": [
+          "histoplasmosis"
+        ],
+        "source_document_ids": [
+          "两性霉素B不同剂型临床合理应用多学科专家共识（2024版）"
+        ],
+        "evidence_ids": [
+          "组织胞浆菌病（histoplasmosis）是由双相型组织细胞浆菌所引起的侵袭性真菌感染。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_ifd",
+        "name": "侵袭性真菌病",
+        "parent_disease_id": "disease_ifd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "两性霉素 B (AmB)是临床治疗侵袭性真菌病（IFD）广谱强效的多烯类抗真菌药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ia",
+        "name": "侵袭性曲霉病",
+        "parent_disease_id": "disease_aspergillosis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "侵袭性曲霉病（invasive aspergillosis，IA）常见部位为肺，可播散至眼、中枢神经系统等器官。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ia_cns",
+        "name": "中枢神经系统侵袭性曲霉病",
+        "parent_disease_id": "disease_aspergillosis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "中枢神经系统受累患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "对于中枢神经系统的 IA，伏立康唑、艾沙康唑或L‑AmB均为初始治疗的首选药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ic",
+        "name": "侵袭性念珠菌病",
+        "parent_disease_id": "disease_candidiasis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "侵袭性念珠菌病（invasive candidiasis，IC）最常 见的致病真菌是白念珠菌……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ic_candidemia",
+        "name": "念珠菌血症",
+        "parent_disease_id": "disease_candidiasis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "念珠菌血症患者初始治疗的首选推荐药物为棘白菌素……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ic_cns",
+        "name": "中枢神经系统念珠菌病",
+        "parent_disease_id": "disease_candidiasis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "中枢神经系统受累患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "中枢神经系统念珠菌病患者初始治疗首选L‑AmB（AmBisome）（3~5 mg·kg-1·d-1）或AmB‑D（0.5~0.7 mg·kg-1·d-1）……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cryptococcosis_cns",
+        "name": "中枢神经系统隐球菌病",
+        "parent_disease_id": "disease_cryptococcosis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "中枢神经系统受累患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "对于人类免疫缺陷病毒（HIV）阳性宿主中枢神经系统隐球菌病，如何使用AmB不同剂型行诱导治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cryptococcosis_pulmonary",
+        "name": "肺隐球菌病",
+        "parent_disease_id": "disease_cryptococcosis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻中度",
+        "population": "非重症患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "轻中度肺隐球菌病或其他非播散性隐球菌病首选氟康唑（400~800 mg/d）治疗，一般不推荐用AmB不同剂型。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_mucormycosis_cns",
+        "name": "中枢神经系统毛霉病",
+        "parent_disease_id": "disease_mucormycosis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "中枢神经系统受累患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "对于中枢神经系统毛霉病者和实体器官移植后继发毛霉感染者，国际指南建议L‑AmB（AmBisome）采用10 mg·kg-1·d-1的最高起始剂量。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_talaromycosis_cns",
+        "name": "中枢神经系统马尔尼菲篮状菌病",
+        "parent_disease_id": "disease_talaromycosis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "中枢神经系统受累患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "伴有中枢神经系统感染的马尔尼菲篮状菌病治疗难度大，预后差……建议采用更高剂量的L‑AmB（AmBisome）（5 mg·kg-1·d-1）进行诱导治疗……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_histoplasmosis_cns",
+        "name": "中枢神经系统组织胞浆菌病",
+        "parent_disease_id": "disease_histoplasmosis",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "中枢神经系统受累患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "对于中枢神经系统组织胞浆菌病，IDSA指南建议的诱导治疗方案为L‑AmB（AmBisome）5 mg·kg-1·d-1，持续4~6周……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "输液过程中可引起寒战、发热、恶心、呕吐、头痛等不良反应。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_chills",
+        "name": "寒战",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "输液过程中可引起寒战、发热、恶心、呕吐、头痛等不良反应。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_nausea",
+        "name": "恶心",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "输液过程中可引起寒战、发热、恶心、呕吐、头痛等不良反应。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_vomiting",
+        "name": "呕吐",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "输液过程中可引起寒战、发热、恶心、呕吐、头痛等不良反应。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_headache",
+        "name": "头痛",
+        "body_site": "头部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "输液过程中可引起寒战、发热、恶心、呕吐、头痛等不良反应。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_cough",
+        "name": "咳嗽",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "AmB及其脂质剂型经气道给药常见不良反应包括发热、咳嗽、咳痰、胸痛、恶心、呕吐、味觉异常……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_chest_pain",
+        "name": "胸痛",
+        "body_site": "胸部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "AmB及其脂质剂型经气道给药常见不良反应包括发热、咳嗽、咳痰、胸痛、恶心、呕吐、味觉异常……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_mic",
+        "name": "最低抑菌浓度",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "其中个别菌种对AmB天然耐药或耐药变异率较高，包括葡萄牙念珠菌、解脂念珠菌……黄曲霉的最低抑菌浓度（MICs）也较高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_mic50",
+        "name": "抑制50%菌株生长的最低药物浓度",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "临床分离烟曲霉和黑曲霉对AmB比较敏感，抑制50%菌株生长的最低药物浓度（MIC50）分别为1.0 mg/L和0.5 mg/L……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_mic90",
+        "name": "抑制90%菌株生长的最低药物浓度",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "临床分离烟曲霉和黑曲霉对AmB比较敏感……抑制90%菌株生长的最低药物浓度（MIC90）均为1.0 mg/L……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_ifd_antifungal",
+        "content": "根据临床在选择不同剂型方面关注与困惑的问题，本共识结合国内外最新临床研究证据、指南、共识以及临床经验，针对4种不同剂型的药剂学特点、抗真菌作用机制、药代动力学药效学、药物相互作用、适应证、用法用量、局部用药、不良反应防治等特点，明确AmB在IFD目标治疗的剂型与剂量选择，并对特殊人群的用法用量加以规范。",
+        "recommendation_strength": "strong",
+        "source_section": "摘要",
+        "evidence_ids": [
+          "根据临床在选择不同剂型方面关注与困惑的问题，本共识结合国内外最新临床研究证据、指南、共识以及临床经验，针对4种不同剂型的药剂学特点、抗真菌作用机制、药代动力学药效学、药物相互作用、适应证、用法用量、局部用药、不良反应防治等特点，明确AmB在IFD目标治疗的剂型与剂量选择，并对特殊人群的用法用量加以规范。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_lamb_ia_initial",
+        "content": "L‑AmB（AmBisome）（3~5 mg·kg-1·d-1）为IA患者初始治疗的备选药物，但对于中枢神经系统IA，伏立康唑、艾沙康唑或L‑AmB均为初始治疗的首选药物。",
+        "plan_level": 1,
+        "applicable_condition": "侵袭性曲霉病患者，尤其中枢神经系统受累者",
+        "contraindication_note": "肾功能不全患者需监测肾功能",
+        "evidence_ids": [
+          "L‑AmB（AmBisome）（3~5 mg·kg-1·d-1）为IA患者初始治疗的备选药物，但对于中枢神经系统IA，伏立康唑、艾沙康唑或L‑AmB均为初始治疗的首选药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_ablc_ia_initial",
+        "content": "ABLC 5 mg·kg-1·d-1可作为IA患者初始治疗的备选药物。",
+        "plan_level": 2,
+        "applicable_condition": "侵袭性曲霉病患者",
+        "contraindication_note": "肾毒性低于AmB‑D但高于L‑AmB",
+        "evidence_ids": [
+          "ABLC 5 mg·kg-1·d-1可作为IA患者初始治疗的备选药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_abcd_ia_initial",
+        "content": "ABCD 3~4 mg·kg-1·d-1可作为IA患者初始治疗的备选药物。",
+        "plan_level": 2,
+        "applicable_condition": "侵袭性曲霉病患者",
+        "contraindication_note": "发热、寒颤、缺氧等严重不良反应发生率较高",
+        "evidence_ids": [
+          "ABCD 3~4 mg·kg-1·d-1可作为IA患者初始治疗的备选药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_lamb_ic_initial",
+        "content": "L‑AmB（AmBisome）（3~5 mg·kg-1·d-1）为治疗念珠菌血症初始治疗的备选推荐用药，尤其适用于光滑念珠菌、克柔念珠菌感染，以及唑类或棘白菌素类抗真菌药物治疗失败患者。",
+        "plan_level": 1,
+        "applicable_condition": "念珠菌血症患者，尤其光滑/克柔念珠菌感染或治疗失败者",
+        "contraindication_note": "安全性好而优先推荐",
+        "evidence_ids": [
+          "L‑AmB（AmBisome）（3~5 mg·kg-1·d-1）为治疗念珠菌血症初始治疗的备选推荐用药，尤其适用于光滑念珠菌、克柔念珠菌感染，以及唑类或棘白菌素类抗真菌药物治疗失败患者。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_lamb_cryptococcosis_cns_induction",
+        "content": "L‑AmB（AmBisome）（3~4 mg·kg-1·d-1）+氟胞嘧啶（25 mg/kg体重，每日4次），14 d诱导治疗，尤其是对于已有肾损害或存在致肾损害高危因素的患者。",
+        "plan_level": 1,
+        "applicable_condition": "HIV阳性宿主中枢神经系统隐球菌病患者",
+        "contraindication_note": "无法获得氟胞嘧啶时，替代方案为L‑AmB（AmBisome）3~4 mg·kg-1·d-1，14 d+氟康唑600~800 mg/d，14 d。",
+        "evidence_ids": [
+          "建议首选L‑AmB（AmBisome）3~4 mg·kg-1·d-1+氟胞嘧啶 25 mg/kg体重，每日4次，14 d诱导治疗，尤其是对于已有肾损害或存在致肾损害高危因素的患者。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_lamb_mucormycosis_initial",
+        "content": "L‑AmB（AmBisome）5~10 mg·kg-1·d-1为毛霉病一线抗真菌治疗的首选药物；对于中枢神经系统毛霉病者和实体器官移植后继发毛霉感染者，国际指南建议L‑AmB（AmBisome）采用10 mg·kg-1·d-1的最高起始剂量。",
+        "plan_level": 1,
+        "applicable_condition": "毛霉病患者，尤其中枢神经系统或实体器官移植后继发者",
+        "contraindication_note": "高剂量主要问题是增加肾损伤风险",
+        "evidence_ids": [
+          "L‑AmB（AmBisome）5~10 mg·kg-1·d-1为毛霉病一线抗真菌治疗的首选药物；对于中枢神经系统毛霉病者和实体器官移植后继发毛霉感染者，国际指南建议L‑AmB（AmBisome）采用10 mg·kg-1·d-1的最高起始剂量。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_aspergillus",
+        "content": "曲霉属",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "曲霉病常见致病曲霉有烟曲霉、黄曲霉、黑曲霉、土曲霉和构巢曲霉等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_candida",
+        "content": "念珠菌属",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "侵袭性念珠菌病（IC）最常 见的致病真菌是白念珠菌，而非白念珠菌如热带念珠菌、光滑念珠菌……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_cryptococcus",
+        "content": "新型隐球菌或格特隐球菌",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "隐球菌病（cryptococcosis）常由新型隐球菌或格特隐球菌导致……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_mucorales",
+        "content": "毛霉目真菌",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "毛霉病（mucormycosis）的常见致病真菌为毛霉目真菌，以根霉属、横梗霉属、毛霉属、根毛霉属、小克银汉霉属、壶霉属、鳞质霉属等较为常见……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_ampho_mechanism",
+        "content": "AmB通过结合真菌细胞膜麦角固醇形成孔隙和通道，以及对细胞膜的脂质过氧化损伤双重机制导致真菌细胞死亡，发挥杀真菌作用。",
+        "evidence_ids": [
+          "AmB通过结合真菌细胞膜麦角固醇形成孔隙和通道，以及对细胞膜的脂质过氧化损伤双重机制导致真菌细胞死亡，发挥杀真菌作用。"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_ifd",
+        "to": "sub_disease_ifd",
+        "relation_id": "rel_ifd_has_ifd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "两性霉素 B (AmB)是临床治疗侵袭性真菌病（IFD）广谱强效的多烯类抗真菌药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_aspergillosis",
+        "to": "sub_disease_ia",
+        "relation_id": "rel_aspergillosis_has_ia",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "侵袭性曲霉病（invasive aspergillosis，IA）常见部位为肺，可播散至眼、中枢神经系统等器官。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_aspergillosis",
+        "to": "sub_disease_ia_cns",
+        "relation_id": "rel_aspergillosis_has_ia_cns",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "对于中枢神经系统的 IA，伏立康唑、艾沙康唑或L‑AmB均为初始治疗的首选药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_candidiasis",
+        "to": "sub_disease_ic",
+        "relation_id": "rel_candidiasis_has_ic",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "侵袭性念珠菌病（invasive candidiasis，IC）最常 见的致病真菌是白念珠菌……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_candidiasis",
+        "to": "sub_disease_ic_candidemia",
+        "relation_id": "rel_candidiasis_has_ic_candidemia",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "念珠菌血症患者初始治疗的首选推荐药物为棘白菌素……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_candidiasis",
+        "to": "sub_disease_ic_cns",
+        "relation_id": "rel_candidiasis_has_ic_cns",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "中枢神经系统念珠菌病患者初始治疗首选L‑AmB（AmBisome）（3~5 mg·kg-1·d-1）或AmB‑D（0.5~0.7 mg·kg-1·d-1）……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_cryptococcosis",
+        "to": "sub_disease_cryptococcosis_cns",
+        "relation_id": "rel_cryptococcosis_has_cns",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "对于人类免疫缺陷病毒（HIV）阳性宿主中枢神经系统隐球菌病，如何使用AmB不同剂型行诱导治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_cryptococcosis",
+        "to": "sub_disease_cryptococcosis_pulmonary",
+        "relation_id": "rel_cryptococcosis_has_pulmonary",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "轻中度肺隐球菌病或其他非播散性隐球菌病首选氟康唑（400~800 mg/d）治疗，一般不推荐用AmB不同剂型。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_mucormycosis",
+        "to": "sub_disease_mucormycosis_cns",
+        "relation_id": "rel_mucormycosis_has_cns",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "对于中枢神经系统毛霉病者和实体器官移植后继发毛霉感染者，国际指南建议L‑AmB（AmBisome）采用10 mg·kg-1·d-1的最高起始剂量。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_talaromycosis",
+        "to": "sub_disease_talaromycosis_cns",
+        "relation_id": "rel_talaromycosis_has_cns",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "伴有中枢神经系统感染的马尔尼菲篮状菌病治疗难度大，预后差……建议采用更高剂量的L‑AmB（AmBisome）（5 mg·kg-1·d-1）进行诱导治疗……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_histoplasmosis",
+        "to": "sub_disease_histoplasmosis_cns",
+        "relation_id": "rel_histoplasmosis_has_cns",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "对于中枢神经系统组织胞浆菌病，IDSA指南建议的诱导治疗方案为L‑AmB（AmBisome）5 mg·kg-1·d-1，持续4~6周……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_ifd",
+        "to": "symptom_fever",
+        "relation_id": "rel_ifd_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "背景介绍",
+        "evidence_ids": [
+          "输液过程中可引起寒战、发热、恶心、呕吐、头痛等不良反应。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_ifd",
+        "to": "test_mic",
+        "relation_id": "rel_ifd_requires_mic",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "支持证据",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": "mg/L",
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "体外抗菌活性",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "其中个别菌种对AmB天然耐药或耐药变异率较高，包括葡萄牙念珠菌、解脂念珠菌……黄曲霉的最低抑菌浓度（MICs）也较高。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_ifd",
+        "to": "treatment_ifd_antifungal",
+        "relation_id": "rel_ifd_follows_antifungal_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后制定治疗方案",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "摘要",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_ifd_antifungal",
+        "to": "plan_lamb_ia_initial",
+        "relation_id": "rel_treatment_implements_by_lamb_ia",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "侵袭性曲霉病患者，尤其中枢神经系统受累者",
+        "contraindication_note": "肾功能不全患者需监测肾功能",
+        "evidence_ids": [
+          "L‑AmB（AmBisome）（3~5 mg·kg-1·d-1）为IA患者初始治疗的备选药物，但对于中枢神经系统IA，伏立康唑、艾沙康唑或L‑AmB均为初始治疗的首选药物。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_ia",
+        "to": "etiology_aspergillus",
+        "relation_id": "rel_ia_causes_aspergillus",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "曲霉病常见致病曲霉有烟曲霉、黄曲霉、黑曲霉、土曲霉和构巢曲霉等。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_ifd",
+        "to": "pathogenesis_ampho_mechanism",
+        "relation_id": "rel_ifd_explained_by_ampho_mechanism",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "AmB通过结合真菌细胞膜麦角固醇形成孔隙和通道，以及对细胞膜的脂质过氧化损伤双重机制导致真菌细胞死亡，发挥杀真菌作用。"
+        ],
+        "confidence": 0.75
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

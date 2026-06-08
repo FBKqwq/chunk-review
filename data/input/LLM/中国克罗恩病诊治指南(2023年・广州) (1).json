@@ -1,0 +1,1104 @@
+{
+  "meta": {
+    "doc_id": "中国克罗恩病诊治指南（2023年·广州）",
+    "source_title": "中国克罗恩病诊治指南（2023年·广州）",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_cd",
+        "name": "克罗恩病",
+        "normalized_name": "克罗恩病",
+        "aliases": [
+          "Crohn's disease",
+          "CD"
+        ],
+        "source_document_ids": [
+          "中国克罗恩病诊治指南（2023年·广州）"
+        ],
+        "evidence_ids": [
+          "克罗恩病（Crohn's disease, CD）病情复杂，涉及多个学科，规范化诊疗对提高CD的疗效和改善预后非常重要。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_cd_montreal_a2l3b1p",
+        "name": "克罗恩病（A2L3B1p，中度活动期）",
+        "parent_disease_id": "disease_cd",
+        "disease_subtype": "不限定",
+        "clinical_stage": "不限定",
+        "severity": "中度",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "标准的CD诊断举例：克罗恩病（A2L3B1p，中度活动期）＋并发症（如合并下肢静脉血栓）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cd_montreal_a1l1b1",
+        "name": "克罗恩病（A1L1B1）",
+        "parent_disease_id": "disease_cd",
+        "disease_subtype": "不限定",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "儿童患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": 16,
+        "evidence_ids": [
+          "A1 ≤16岁；L1 回肠末段；B1 非狭窄非穿透"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cd_montreal_a2l2b2",
+        "name": "克罗恩病（A2L2B2）",
+        "parent_disease_id": "disease_cd",
+        "disease_subtype": "不限定",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人患者",
+        "gender": "all",
+        "age_min": 17,
+        "age_max": 40,
+        "evidence_ids": [
+          "A2 17~40岁；L2 结肠；B2 狭窄"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cd_montreal_a3l4b3p",
+        "name": "克罗恩病（A3L4B3p）",
+        "parent_disease_id": "disease_cd",
+        "disease_subtype": "不限定",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": 41,
+        "age_max": null,
+        "evidence_ids": [
+          "A3 >40岁；L4 上消化道；B3 穿透；p 肛周病变"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cd_fistulizing",
+        "name": "瘘管型克罗恩病",
+        "parent_disease_id": "disease_cd",
+        "disease_subtype": "穿透型",
+        "clinical_stage": "不限定",
+        "severity": "中重度",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "【推荐意见29】CD合并肛周脓肿或复杂型肛瘘，需内外科联合评估和治疗。",
+          "一项多中心（PISA‑Ⅱ研究）比较了短期抗TNF治疗联合手术闭合瘘口和单纯抗TNF治疗对肛瘘的疗效差异（CD的受试者按偏好分组）。该研究纳入94例合并活动性高位肛瘘且仅有一个内口的CD患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cd_stricturing",
+        "name": "狭窄型克罗恩病",
+        "parent_disease_id": "disease_cd",
+        "disease_subtype": "狭窄型",
+        "clinical_stage": "不限定",
+        "severity": "中重度",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "肠梗阻是CD最常见的手术原因。狭窄型如伴有内瘘、小肠扩张>3 cm、炎性包块或脓肿，则被认为是高风险狭窄，通常需要手术治疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cd_postoperative",
+        "name": "术后克罗恩病",
+        "parent_disease_id": "disease_cd",
+        "disease_subtype": "不限定",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "接受肠切除术后的患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "【推荐意见36】对于有复发危险因素的CD患者，建议在肠切除术后进行积极的预防性治疗。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "临床表现多样，腹痛、腹泻、体质量下降是最常见的症状"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_diarrhea",
+        "name": "腹泻",
+        "body_site": "肠道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "临床表现多样，腹痛、腹泻、体质量下降是最常见的症状"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_weight_loss",
+        "name": "体质量下降",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "临床表现多样，腹痛、腹泻、体质量下降是最常见的症状"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "乏力",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "其他重要临床表现包括乏力、发热、生长发育迟缓、贫血、反复瘘管形成、肛周脓肿或肛瘘以及肠外表现。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "其他重要临床表现包括乏力、发热、生长发育迟缓、贫血、反复瘘管形成、肛周脓肿或肛瘘以及肠外表现。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_growth_delay",
+        "name": "生长发育迟缓",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "其他重要临床表现包括乏力、发热、生长发育迟缓、贫血、反复瘘管形成、肛周脓肿或肛瘘以及肠外表现。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_anemia",
+        "name": "贫血",
+        "body_site": "血液系统",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "其他重要临床表现包括乏力、发热、生长发育迟缓、贫血、反复瘘管形成、肛周脓肿或肛瘘以及肠外表现。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fistula",
+        "name": "瘘管",
+        "body_site": "肠道/肛周",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "其他重要临床表现包括乏力、发热、生长发育迟缓、贫血、反复瘘管形成、肛周脓肿或肛瘘以及肠外表现。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_perianal_abscess",
+        "name": "肛周脓肿",
+        "body_site": "肛周",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "其他重要临床表现包括乏力、发热、生长发育迟缓、贫血、反复瘘管形成、肛周脓肿或肛瘘以及肠外表现。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_anal_fistula",
+        "name": "肛瘘",
+        "body_site": "肛周",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "其他重要临床表现包括乏力、发热、生长发育迟缓、贫血、反复瘘管形成、肛周脓肿或肛瘘以及肠外表现。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_arthritis",
+        "name": "关节炎",
+        "body_site": "关节",
+        "symptom_category": "风湿免疫系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常见的肠外表现包括IBD相关关节炎、外周或中轴关节炎、附着点炎、结节性红斑、口腔阿弗他样溃疡、前葡萄膜炎、血栓栓塞症"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_erythema_nodosum",
+        "name": "结节性红斑",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常见的肠外表现包括IBD相关关节炎、外周或中轴关节炎、附着点炎、结节性红斑、口腔阿弗他样溃疡、前葡萄膜炎、血栓栓塞症"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_aphthous_ulcer",
+        "name": "口腔阿弗他样溃疡",
+        "body_site": "口腔",
+        "symptom_category": "口腔症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常见的肠外表现包括IBD相关关节炎、外周或中轴关节炎、附着点炎、结节性红斑、口腔阿弗他样溃疡、前葡萄膜炎、血栓栓塞症"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_uveitis",
+        "name": "前葡萄膜炎",
+        "body_site": "眼部",
+        "symptom_category": "眼科症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常见的肠外表现包括IBD相关关节炎、外周或中轴关节炎、附着点炎、结节性红斑、口腔阿弗他样溃疡、前葡萄膜炎、血栓栓塞症"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_thromboembolism",
+        "name": "血栓栓塞症",
+        "body_site": "血管",
+        "symptom_category": "血管系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常见的肠外表现包括IBD相关关节炎、外周或中轴关节炎、附着点炎、结节性红斑、口腔阿弗他样溃疡、前葡萄膜炎、血栓栓塞症"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_fc",
+        "name": "粪便钙卫蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "不推荐血清学筛查用于CD的疾病诊断。行粪便钙卫蛋白（fecal calprotectin, FC）检查。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_crp",
+        "name": "C反应蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "实验室检查主要包括炎性指标和营养状态评估，如血常规、C反应蛋白（C‑reactive protein, CRP）、红细胞沉降率、白蛋白等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_esr",
+        "name": "红细胞沉降率",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "实验室检查主要包括炎性指标和营养状态评估，如血常规、C反应蛋白（C‑reactive protein, CRP）、红细胞沉降率、白蛋白等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_albumin",
+        "name": "白蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "实验室检查主要包括炎性指标和营养状态评估，如血常规、C反应蛋白（C‑reactive protein, CRP）、红细胞沉降率、白蛋白等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_cte",
+        "name": "CT小肠成像",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "肠道炎症的影像学检查包括CD CT小肠成像（CT enterography, CTE）、磁共振小肠成像（magnetic resonance enterography, MRE）、肠道超声等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_mre",
+        "name": "磁共振小肠成像",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "肠道炎症的影像学检查包括CD CT小肠成像（CT enterography, CTE）、磁共振小肠成像（magnetic resonance enterography, MRE）、肠道超声等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_us",
+        "name": "肠道超声",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "肠道炎症的影像学检查包括CD CT小肠成像（CT enterography, CTE）、磁共振小肠成像（magnetic resonance enterography, MRE）、肠道超声等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_colonoscopy",
+        "name": "结肠镜",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "【推荐意见3】结肠镜应作为常规检查方法用于CD诊断、疗效评估和疾病监测。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_gastroscopy",
+        "name": "胃十二指肠镜",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "【推荐意见4】CD拟诊患者应常规行胃十二指肠镜和活检病理检查，以明确炎症有无累及上消化道。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_capsule_endoscopy",
+        "name": "胶囊内镜",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "【推荐意见5】胶囊内镜检查主要用于疑诊CD但结肠镜和小肠放射影像学检查未能明确诊断者。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_balloon_endoscopy",
+        "name": "气囊辅助小肠镜",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "【推荐意见6】经CTE/MRE/小肠胶囊内镜检查怀疑而结肠镜检查无法确诊的CD患者，可行气囊辅助小肠镜检查并行黏膜活检。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_perianal_mri",
+        "name": "肛周MRI",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "【推荐意见8】肛周MRI检查是CD肛瘘诊断的首选方法，应作为疑诊CD以及合并肛周病变患者的常规检查项目"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_perianal_us",
+        "name": "肛周超声",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "肛周超声检查可作为肛周MRI检查的替代选择。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_cd_induction",
+        "content": "诱导疾病缓解",
+        "recommendation_strength": "强",
+        "source_section": "三、治疗",
+        "evidence_ids": [
+          "【推荐意见13】CD患者的治疗原则是诱导疾病缓解、维持缓解；近期目标为临床症状缓解、血清/粪便炎性指标正常；远期目标为临床症状缓解、血清/粪便炎性指标正常、内镜下黏膜愈合。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_cd_maintenance",
+        "content": "维持缓解",
+        "recommendation_strength": "强",
+        "source_section": "三、治疗",
+        "evidence_ids": [
+          "【推荐意见13】CD患者的治疗原则是诱导疾病缓解、维持缓解；近期目标为临床症状缓解、血清/粪便炎性指标正常；远期目标为临床症状缓解、血清/粪便炎性指标正常、内镜下黏膜愈合。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_cd_treat_to_target",
+        "content": "达标治疗（treat-to-target）",
+        "recommendation_strength": "弱",
+        "source_section": "三、治疗",
+        "evidence_ids": [
+          "“达标治疗”（treat‑to‑target）是当前CD治疗普遍采用的策略，即预先设定治疗目标，随后开始治疗，并定期评估是否达到预设的治疗目标，如未达标则调整治疗策略，直至最终达到预设目标。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_ifx_induction",
+        "content": "英夫利西单抗（infliximab, IFX）5 mg/kg，分别于第0、2、6周静脉输注诱导缓解，之后每8周1次维持治疗。",
+        "plan_level": 1,
+        "applicable_condition": "中重度活动期CD诱导缓解",
+        "contraindication_note": "存在制衡因素时需谨慎使用",
+        "evidence_ids": [
+          "IFX推荐的常规用法、用量为5 mg/kg，分别于第0、2、6周静脉输注诱导缓解，之后每8周1次维持治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ada_induction",
+        "content": "阿达木单抗（adalimumab, ADA）首次160 mg，第2次80 mg，后续每次40 mg，每2周1次皮下注射。",
+        "plan_level": 2,
+        "applicable_condition": "中重度活动期CD诱导缓解",
+        "contraindication_note": "既往生物制剂治疗失败的相对难治CD患者",
+        "evidence_ids": [
+          "ADA常规推荐的用法、用量为每2周1次皮下注射，首次160 mg，第2次80 mg，后续每次40 mg。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_vdz_induction",
+        "content": "维得利珠单抗（vedolizumab, VDZ）第0、2、6周静脉输注，之后每4周或每8周1次维持治疗。",
+        "plan_level": 3,
+        "applicable_condition": "中重度活动期CD诱导缓解，尤其IFX或ADA治疗失败或不耐受者",
+        "contraindication_note": "无明确禁忌说明",
+        "evidence_ids": [
+          "VDZ治疗CD的临床决策支持工具（CDST）显示，早期疾病特征如既往未接受过肠道手术、未接受过抗TNF药物治疗、无瘘管、基线白蛋白水平高和基线CRP水平低，是VDZ疗效更佳的预测因素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_ust_induction",
+        "content": "乌司奴单抗（ustekinumab, UST）第0、8周皮下注射，之后每8周或每12周1次维持治疗。",
+        "plan_level": 4,
+        "applicable_condition": "中重度活动期CD诱导缓解，尤其免疫抑制剂治疗失败或不耐受者",
+        "contraindication_note": "尚无证据表明UST治疗过程中联用免疫抑制剂可有更高获益",
+        "evidence_ids": [
+          "UST治疗CD的临床决策支持工具（CDST）显示，早期疾病特征如既往未接受过肠道手术、未接受过抗TNF药物治疗、无瘘管、基线白蛋白水平高和基线CRP水平低，是UST疗效更佳的预测因素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_upa_induction",
+        "content": "乌帕替尼（upadacitinib, UPA）15 mg或30 mg每日口服，治疗12周诱导缓解。",
+        "plan_level": 5,
+        "applicable_condition": "抗TNF治疗失败中重度活动期CD患者的诱导缓解",
+        "contraindication_note": "妊娠期禁用",
+        "evidence_ids": [
+          "乌帕替尼是目前国内唯一获批适应证的口服小分子药物，其为高选择性JAK1抑制剂。上市前全球多中心Ⅲ期RCT结果显示，在U‑EXCEL研究中，乌帕替尼组治疗12周诱导缓解率达49.5%，显著高于安慰剂组的29.1%。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_een",
+        "content": "全肠内营养（exclusive enteral nutrition, EEN）",
+        "plan_level": 6,
+        "applicable_condition": "活动期CD患者的诱导缓解，尤其儿童和青少年",
+        "contraindication_note": "依从性差于糖皮质激素，是临床实施的最大障碍",
+        "evidence_ids": [
+          "EEN可作为儿童和青少年轻度活动性CD诱导缓解的一线治疗。一篇评估EEN治疗儿童活动性CD的meta分析结果提示，EEN对儿童活动性CD的诱导缓解率可达80%，与系统性糖皮质激素的诱导缓解率相当。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_smoking",
+        "content": "吸烟",
+        "etiology_type": "生活方式因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "吸烟是CD疾病预后不良的危险因素。吸烟与停用抗TNF单抗后疾病复发、手术、住院风险均有相关性，还可能增加穿透型疾病的发生。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_young_age_onset",
+        "content": "发病年龄低",
+        "etiology_type": "人口学因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "较低的发病年龄是CD疾病进展的高危因素之一。纳入49项青少年起病CD和15项成人CD人群研究的文献综述显示，青少年起病的CD疾病进展更迅速"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_extensive_disease",
+        "content": "广泛肠道病变",
+        "etiology_type": "疾病特征因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "初诊时病变范围是CD疾病预后的重要影响因素，广泛肠道病变提示疾病预后不良。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_penetrating_disease",
+        "content": "穿透型疾病表型",
+        "etiology_type": "疾病行为因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "CD进展的高危因素包括发病年龄低、吸烟、肠道受累范围广、穿透型或狭窄型疾病表型、肛周病变。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_stricturing_disease",
+        "content": "狭窄型疾病表型",
+        "etiology_type": "疾病行为因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "CD进展的高危因素包括发病年龄低、吸烟、肠道受累范围广、穿透型或狭窄型疾病表型、肛周病变。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_perianal_disease",
+        "content": "肛周病变",
+        "etiology_type": "疾病部位因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "CD进展的高危因素包括发病年龄低、吸烟、肠道受累范围广、穿透型或狭窄型疾病表型、肛周病变。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_transmural_inflammation",
+        "content": "透壁性、节段性分布的慢性炎症，并引起相应肠壁上皮和间质结构改变、小肉芽肿形成等。",
+        "evidence_ids": [
+          "诊断最重要的病理特点包括透壁性、节段性分布的慢性炎症，并引起相应肠壁上皮和间质结构改变、小肉芽肿形成等。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_cd",
+        "to": "sub_disease_cd_montreal_a2l3b1p",
+        "relation_id": "rel_cd_has_montreal_a2l3b1p",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "标准的CD诊断举例：克罗恩病（A2L3B1p，中度活动期）＋并发症（如合并下肢静脉血栓）。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_cd",
+        "to": "sub_disease_cd_montreal_a1l1b1",
+        "relation_id": "rel_cd_has_montreal_a1l1b1",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "A1 ≤16岁；L1 回肠末段；B1 非狭窄非穿透"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_cd",
+        "to": "sub_disease_cd_montreal_a2l2b2",
+        "relation_id": "rel_cd_has_montreal_a2l2b2",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "A2 17~40岁；L2 结肠；B2 狭窄"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_cd",
+        "to": "sub_disease_cd_montreal_a3l4b3p",
+        "relation_id": "rel_cd_has_montreal_a3l4b3p",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "A3 >40岁；L4 上消化道；B3 穿透；p 肛周病变"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_cd",
+        "to": "sub_disease_cd_fistulizing",
+        "relation_id": "rel_cd_has_fistulizing",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "【推荐意见29】CD合并肛周脓肿或复杂型肛瘘，需内外科联合评估和治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_cd",
+        "to": "sub_disease_cd_stricturing",
+        "relation_id": "rel_cd_has_stricturing",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "肠梗阻是CD最常见的手术原因。狭窄型如伴有内瘘、小肠扩张>3 cm、炎性包块或脓肿，则被认为是高风险狭窄，通常需要手术治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_cd",
+        "to": "sub_disease_cd_postoperative",
+        "relation_id": "rel_cd_has_postoperative",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "【推荐意见36】对于有复发危险因素的CD患者，建议在肠切除术后进行积极的预防性治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_cd_montreal_a2l3b1p",
+        "to": "symptom_abdominal_pain",
+        "relation_id": "rel_cd_a2l3b1p_manifests_as_abdominal_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "临床表现多样，腹痛、腹泻、体质量下降是最常见的症状"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为'最常见症状'，与腹泻、体质量下降并列，属高频核心临床表现",
+        "evidence": "腹痛、腹泻、体质量下降是最常见的症状"
+      },
+      {
+        "from": "sub_disease_cd_montreal_a2l3b1p",
+        "to": "symptom_diarrhea",
+        "relation_id": "rel_cd_a2l3b1p_manifests_as_diarrhea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "临床表现多样，腹痛、腹泻、体质量下降是最常见的症状"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为'最常见症状'，与腹痛、体质量下降并列，属高频核心临床表现",
+        "evidence": "腹痛、腹泻、体质量下降是最常见的症状"
+      },
+      {
+        "from": "sub_disease_cd_montreal_a2l3b1p",
+        "to": "symptom_weight_loss",
+        "relation_id": "rel_cd_a2l3b1p_manifests_as_weight_loss",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "临床表现多样，腹痛、腹泻、体质量下降是最常见的症状"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为'最常见症状'，与腹痛、腹泻并列，属高频核心临床表现",
+        "evidence": "腹痛、腹泻、体质量下降是最常见的症状"
+      },
+      {
+        "from": "sub_disease_cd_fistulizing",
+        "to": "symptom_fistula",
+        "relation_id": "rel_cd_fistulizing_manifests_as_fistula",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "其他重要临床表现包括乏力、发热、生长发育迟缓、贫血、反复瘘管形成、肛周脓肿或肛瘘以及肠外表现。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将'瘘管'列为CD'常见的并发症'，且'穿透型病变'定义即含瘘管，属该表型直接、典型表现",
+        "evidence": "常见的并发症包括瘘管、腹腔脓肿、肠道狭窄"
+      },
+      {
+        "from": "sub_disease_cd_fistulizing",
+        "to": "symptom_perianal_abscess",
+        "relation_id": "rel_cd_fistulizing_manifests_as_perianal_abscess",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "其他重要临床表现包括乏力、发热、生长发育迟缓、贫血、反复瘘管形成、肛周脓肿或肛瘘以及肠外表现。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在【推荐意见29】实施建议中明确将'肛周脓肿'与'复杂型肛瘘'并列作为'CD合并'的处理对象，属该表型典型临床表现",
+        "evidence": "CD合并肛周脓肿或复杂型肛瘘，需内外科联合评估和治疗"
+      },
+      {
+        "from": "sub_disease_cd_fistulizing",
+        "to": "symptom_anal_fistula",
+        "relation_id": "rel_cd_fistulizing_manifests_as_anal_fistula",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "其他重要临床表现包括乏力、发热、生长发育迟缓、贫血、反复瘘管形成、肛周脓肿或肛瘘以及肠外表现。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在【推荐意见8】推荐理由中指出'至少25%的CD患者存在肛瘘'，且'肛瘘的评估影响后续治疗方案选择'，属该表型高度特异性表现",
+        "evidence": "至少25%的CD患者存在肛瘘，是疾病进展的危险因素"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_cd_montreal_a2l3b1p",
+        "to": "test_fc",
+        "relation_id": "rel_cd_a2l3b1p_requires_fc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": "μg/g",
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "【推荐意见2】FC浓度可用于评估CD患者的肠道炎症水平。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cd_montreal_a2l3b1p",
+        "to": "test_crp",
+        "relation_id": "rel_cd_a2l3b1p_requires_crp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "实验室检查主要包括炎性指标和营养状态评估，如血常规、C反应蛋白（C‑reactive protein, CRP）、红细胞沉降率、白蛋白等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cd_fistulizing",
+        "to": "test_perianal_mri",
+        "relation_id": "rel_cd_fistulizing_requires_perianal_mri",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "诊断肛瘘",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "【推荐意见8】肛周MRI检查是CD肛瘘诊断的首选方法，应作为疑诊CD以及合并肛周病变患者的常规检查项目"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文【推荐意见8】明确'肛周MRI检查是CD肛瘘诊断的首选方法'，'应作为疑诊CD以及合并肛周病变患者的常规检查项目'",
+        "evidence": "肛周MRI检查是CD肛瘘诊断的首选方法，应作为疑诊CD以及合并肛周病变患者的常规检查项目"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_cd_montreal_a2l3b1p",
+        "to": "treatment_cd_induction",
+        "relation_id": "rel_cd_a2l3b1p_follows_induction",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "中重度活动期",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强",
+        "decision_basis": [
+          "疾病活动程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "三、治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cd_fistulizing",
+        "to": "treatment_cd_induction",
+        "relation_id": "rel_cd_fistulizing_follows_induction",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "瘘管型CD",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强",
+        "decision_basis": [
+          "疾病行为"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "三、治疗",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_cd_induction",
+        "to": "plan_ifx_induction",
+        "relation_id": "rel_treatment_induction_implements_by_ifx",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "中重度活动期CD诱导缓解",
+        "contraindication_note": "存在制衡因素时需谨慎使用",
+        "evidence_ids": [
+          "IFX推荐的常规用法、用量为5 mg/kg，分别于第0、2、6周静脉输注诱导缓解，之后每8周1次维持治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_cd_induction",
+        "to": "plan_ada_induction",
+        "relation_id": "rel_treatment_induction_implements_by_ada",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "中重度活动期CD诱导缓解",
+        "contraindication_note": "既往生物制剂治疗失败的相对难治CD患者",
+        "evidence_ids": [
+          "ADA常规推荐的用法、用量为每2周1次皮下注射，首次160 mg，第2次80 mg，后续每次40 mg。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_cd_montreal_a2l3b1p",
+        "to": "etiology_smoking",
+        "relation_id": "rel_cd_a2l3b1p_caused_by_smoking",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "吸烟是CD疾病预后不良的危险因素。吸烟与停用抗TNF单抗后疾病复发、手术、住院风险均有相关性，还可能增加穿透型疾病的发生。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cd_montreal_a2l3b1p",
+        "to": "etiology_young_age_onset",
+        "relation_id": "rel_cd_a2l3b1p_caused_by_young_age_onset",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "较低的发病年龄是CD疾病进展的高危因素之一。纳入49项青少年起病CD和15项成人CD人群研究的文献综述显示，青少年起病的CD疾病进展更迅速"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_cd_montreal_a2l3b1p",
+        "to": "pathogenesis_transmural_inflammation",
+        "relation_id": "rel_cd_a2l3b1p_explained_by_transmural_inflammation",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "诊断最重要的病理特点包括透壁性、节段性分布的慢性炎症，并引起相应肠壁上皮和间质结构改变、小肉芽肿形成等。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

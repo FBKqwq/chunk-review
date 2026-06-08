@@ -1,0 +1,891 @@
+{
+  "meta": {
+    "doc_id": "中国成人艰难梭菌感染诊断和治疗专家共识",
+    "source_title": "中国成人艰难梭菌感染诊断和治疗专家共识",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_cd_infection",
+        "name": "艰难梭菌感染",
+        "normalized_name": "艰难梭菌感染",
+        "aliases": [
+          "CDI",
+          "Clostridium difficile infection"
+        ],
+        "source_document_ids": [
+          "中国成人艰难梭菌感染诊断和治疗专家共识"
+        ],
+        "evidence_ids": [
+          "艰难梭菌感染（Clostridium difficile infection， CDI )"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_cd_infection_uncomplicated",
+        "name": "轻-中度艰难梭菌感染",
+        "parent_disease_id": "disease_cd_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻-中度",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "(2) 轻-中度感染：CDI患者有腹泻等肠炎样症状，但没有重症感染表现。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cd_infection_severe",
+        "name": "重症艰难梭菌感染",
+        "parent_disease_id": "disease_cd_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "(3) 重症感染：CDI患者有腹泻，且存在以下任一项因CDI导致的异常：白细胞〉15×10⁹/L、血肌酐较基线升高>50%、内镜发现伪膜。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cd_infection_severe_complicated",
+        "name": "重症艰难梭菌感染伴并发症",
+        "parent_disease_id": "disease_cd_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症伴并发症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "(4) 重症感染伴并发症：CDI患者符合重症感染诊断标准，且存在以下至少一项因CDI导致的异常: 低血压、肠梗阻、中毒性巨结肠或弥漫性结肠炎、肠穿孔、需结肠切除、因CDI入住重症监护病房治疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cd_infection_recurrent",
+        "name": "复发性艰难梭菌感染",
+        "parent_disease_id": "disease_cd_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "(5) 复发性CDI: 即使完成疗程的CDI患者，仍有20%左右的复发可能[25]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cd_carrier_asymptomatic",
+        "name": "无症状艰难梭菌携带者",
+        "parent_disease_id": "disease_cd_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "无症状",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "(1) 无症状CD携带者：不存在腹泻、肠梗阻、结肠炎等临床症状的患者。不推荐进行CD实验室检测及治疗。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "主要临床症状为发热、腹痛、水样便腹泻。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "主要临床症状为发热、腹痛、水样便腹泻。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_diarrhea",
+        "name": "水样便腹泻",
+        "body_site": "肠道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "主要临床症状为发热、腹痛、水样便腹泻。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_abdominal_distension",
+        "name": "腹胀",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "症状可由单一腹泻到中、重度感染包括发热、腹痛、腹胀，腹泻初期为水样便"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_leukocytosis",
+        "name": "白细胞增多",
+        "body_site": "血液",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "重症患者白细胞增多。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dehydration",
+        "name": "脱水",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "严重感染表现为水样便伴有脱水、中毒性结肠炎和脓毒血症"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_toxic_megacolon",
+        "name": "中毒性巨结肠",
+        "body_site": "结肠",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者引发伪膜性肠炎，且常伴有中毒性巨结肠、肠穿孔、感染性休克等并发症"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_perforation",
+        "name": "肠穿孔",
+        "body_site": "结肠",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者引发伪膜性肠炎，且常伴有中毒性巨结肠、肠穿孔、感染性休克等并发症"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_shock",
+        "name": "感染性休克",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者引发伪膜性肠炎，且常伴有中毒性巨结肠、肠穿孔、感染性休克等并发症"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_stool_toxin_a_b",
+        "name": "粪便毒素A/B检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "(3)毒素免疫检测 目前常用EIAs直接检测腹泻粪便标本中的CD毒素，用单克隆抗体特异性结合A/B毒素蛋白进行检测"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_stool_gdh",
+        "name": "粪便谷氨酸脱氢酶检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "(2)谷氨酸脱氢酶检测（glutamate dehydrogenase， GDH）可用EIAs检测固体培养基上菌落产毒素能力"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_stool_ccta",
+        "name": "细胞毒性试验",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "细胞毒性试验（cell cytotoxicity assay， CCTA），即细胞毒性中和试验（cell cytotoxin neutralization assay， CCNA），用于直接检测粪便标本中存在的CD毒素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_stool_naat",
+        "name": "粪便毒素基因核酸检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "4.艰难梭菌毒素基因检测 可采用实时PCR或环介导等温扩增法（LAMP）等分子生物学技术，定性检测粪便样本中的CD毒素基因。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_stool_culture",
+        "name": "艰难梭菌培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "2. 艰难梭菌菌株检测 (1)培养 常米用CCFA培养基或显色培养基进行厌氧培养。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_wbc_count",
+        "name": "外周血白细胞计数",
+        "normal_range_min": 4.0,
+        "normal_range_max": 10.0,
+        "is_digital": 1,
+        "evidence_ids": [
+          "轻至中度感染患者外周血白细胞可正常，严重感染者白细胞可达15×10⁹/L以上。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_creatinine",
+        "name": "血肌酐",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "重症感染：CDI患者有腹泻，且存在以下任一项因CDI导致的异常：……血肌酐较基线升高>50%"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pct",
+        "name": "血清降钙素原",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血清降钙素原（procalcitonin，PCT）对诊断CDI意义不大，但PCT >0.2ng/ml时，提示CDI有重症化趋势。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ct_colon_wall_thickening",
+        "name": "CT结肠壁增厚",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "CT检查对于诊断CDI缺乏特异性和敏感度。若发现结肠壁增厚、结节状结肠袋增厚、水肿厚度>4 cm，特别是炎症部位在升结肠时，对于重症CDI感染患者有一定辅助诊断意义。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "test_endoscopy_pseudomembrane",
+        "name": "内镜下伪膜",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "CDI诊断标准为：……（2) 内镜下或组织病理检查显示伪膜性肠炎。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_cd_stop_antibiotics",
+        "content": "尽可能停止正在使用的抗菌药物",
+        "recommendation_strength": "首要原则",
+        "source_section": "艰难梭菌感染的治疗",
+        "evidence_ids": [
+          "CDI治疗的首要原则是尽可能停止正在使用的抗菌药物；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_cd_oral_therapy",
+        "content": "口服有效治疗药物",
+        "recommendation_strength": "首要原则",
+        "source_section": "艰难梭菌感染的治疗",
+        "evidence_ids": [
+          "其次，口服有效治疗药物。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_metronidazole_500mg_q8h",
+        "content": "甲硝唑500 mg (口服或胃管入），每8 h一次。",
+        "plan_level": 1,
+        "applicable_condition": "轻-中度感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "(2) 轻-中度感染：CDI患者有腹泻等肠炎样症状，但没有重症感染表现。给予甲硝唑500 mg (口服或胃管入），每8 h一次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_vancomycin_125mg_q6h",
+        "content": "万古霉素125 mg 溶液（口服或胃管入），每6 h一次。",
+        "plan_level": 1,
+        "applicable_condition": "重症感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "(3) 重症感染：……给予万古霉素125 mg 溶液（口服或胃管入），每6 h一次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_vancomycin_500mg_q6h_with_metronidazole",
+        "content": "万古霉素500 mg，每6 h一次，配伍甲硝唑500 mg，每8 h一次。",
+        "plan_level": 1,
+        "applicable_condition": "重症感染伴并发症",
+        "contraindication_note": "该项治疗存在结肠穿孔的风险。",
+        "evidence_ids": [
+          "(4) 重症感染伴并发症：……给予万古霉素500 mg ，每6 h —次，配伍甲硝唑500 mg ，每 8 h —次；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_fecal_microbiota_transplantation",
+        "content": "粪便菌群移植",
+        "plan_level": 2,
+        "applicable_condition": "复发性CDI，尤其是第三次发作以后。",
+        "contraindication_note": "对于接受结肠次全切除术的患者，效果不确定。",
+        "evidence_ids": [
+          "1. 适应症：仅适用于复发性CDI，尤其是第三次发作以后。治愈率可高达90%以上[35-36]，但对于接受结肠次全切除术的患者，效果不确定。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_antibiotic_use",
+        "content": "长期或不规范使用抗菌药物",
+        "etiology_type": "感染因素相关危险因素",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "通常由长期或不规范使用抗菌药物引起"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_clindamycin",
+        "content": "克林霉素",
+        "etiology_type": "感染因素相关危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "长期暴露于广谱抗菌药物，尤其是克林霉素、氟喹诺酮类和第三代头孢菌素患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_fluoroquinolone",
+        "content": "氟喹诺酮类",
+        "etiology_type": "感染因素相关危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "长期暴露于广谱抗菌药物，尤其是克林霉素、氟喹诺酮类和第三代头孢菌素患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_third_generation_cephalosporin",
+        "content": "第三代头孢菌素",
+        "etiology_type": "感染因素相关危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "长期暴露于广谱抗菌药物，尤其是克林霉素、氟喹诺酮类和第三代头孢菌素患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_proton_pump_inhibitor",
+        "content": "质子泵抑制剂",
+        "etiology_type": "药物相关危险因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "长期使用质子泵抑制剂和抗组胺剂（如比受体阻滞剂）等患者容易发生CDI"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_cd_toxin_action",
+        "content": "毒素作用的分子机理为：（1) 毒素受体结合区（C端重复序列）与细胞受体特异结合；（2) 毒素-受体形成复合物并引发细胞内吞噬作用；（3) 酸性环境使毒素构象发生变化，使毒素的跨膜区插入到细胞膜中并形成孔道；（4) 毒素在某些细胞因子的共同作用下，发生自我切割，产生易位作用，将毒素的GTD释放到胞质内；（5) GTD发挥催化作用使Rho GTP酶家族糖基化，GTP结合蛋白失活，靶细胞肌动蛋白细胞骨架解聚，细胞通透性增加，细胞内物质外流，产生炎症，最终导致细胞死亡、肠壁坏死、液体积蓄、出现水样腹泻，坏死的肠壁细胞和炎症细胞在肠黏膜上形成伪膜。",
+        "evidence_ids": [
+          "其毒素作用的分子机理为：（1) 毒素受体结合区（C端重复序列）与细胞受体特异结合；（2) 毒素-受体形成复合物并引发细胞内吞噬作用；（3) 酸性环境使毒素构象发生变化，使毒素的跨膜区插入到细胞膜中并形成孔道；（4) 毒素在某些细胞因子的共同作用下，发生自我切割，产生易位作用，将毒素的GTD释放到胞质内；（5) GTD发挥催化作用使Rho GTP酶家族糖基化，GTP结合蛋白失活，靶细胞肌动蛋白细胞骨架解聚，细胞通透性增加，细胞内物质外流，产生炎症，最终导致细胞死亡、肠壁坏死、液体积蓄、出现水样腹泻，坏死的肠壁细胞和炎症细胞在肠黏膜上形成伪膜。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_cd_infection",
+        "to": "sub_disease_cd_infection_uncomplicated",
+        "relation_id": "rel_cd_infection_has_uncomplicated",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(2) 轻-中度感染：CDI患者有腹泻等肠炎样症状，但没有重症感染表现。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_cd_infection",
+        "to": "sub_disease_cd_infection_severe",
+        "relation_id": "rel_cd_infection_has_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(3) 重症感染：CDI患者有腹泻，且存在以下任一项因CDI导致的异常：白细胞〉15×10⁹/L、血肌酐较基线升高>50%、内镜发现伪膜。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_cd_infection",
+        "to": "sub_disease_cd_infection_severe_complicated",
+        "relation_id": "rel_cd_infection_has_severe_complicated",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(4) 重症感染伴并发症：CDI患者符合重症感染诊断标准，且存在以下至少一项因CDI导致的异常: 低血压、肠梗阻、中毒性巨结肠或弥漫性结肠炎、肠穿孔、需结肠切除、因CDI入住重症监护病房治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_cd_infection",
+        "to": "sub_disease_cd_infection_recurrent",
+        "relation_id": "rel_cd_infection_has_recurrent",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(5) 复发性CDI: 即使完成疗程的CDI患者，仍有20%左右的复发可能[25]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_cd_infection",
+        "to": "sub_disease_cd_carrier_asymptomatic",
+        "relation_id": "rel_cd_infection_has_asymptomatic_carrier",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "(1) 无症状CD携带者：不存在腹泻、肠梗阻、结肠炎等临床症状的患者。不推荐进行CD实验室检测及治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_cd_infection_uncomplicated",
+        "to": "symptom_fever",
+        "relation_id": "rel_uncomplicated_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "主要临床症状为发热、腹痛、水样便腹泻。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_cd_infection_uncomplicated",
+        "to": "symptom_abdominal_pain",
+        "relation_id": "rel_uncomplicated_manifests_as_abdominal_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "主要临床症状为发热、腹痛、水样便腹泻。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_cd_infection_uncomplicated",
+        "to": "symptom_diarrhea",
+        "relation_id": "rel_uncomplicated_manifests_as_diarrhea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": ">24 h",
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "主要临床症状为发热、腹痛、水样便腹泻。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将‘水样便腹泻’列为CDI主要临床症状，且轻者仅引起腹泻，对应uncomplicated表型",
+        "evidence": "CDI主要临床症状为发热、腹痛、水样便腹泻。通常由长期或不规范使用抗菌药物引起，轻者引起腹泻"
+      },
+      {
+        "from": "sub_disease_cd_infection_severe",
+        "to": "symptom_leukocytosis",
+        "relation_id": "rel_severe_manifests_as_leukocytosis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "重症患者白细胞增多。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确定义重症感染标准之一为‘白细胞〉15×10⁹/L’，即 leukocytosis 是重症CDI的诊断性表现",
+        "evidence": "重症感染：CDI患者有腹泻，且存在以下任一项目：白细胞〉15×10⁹/L、血肌酐较基线升高>50%、内镜发现伪膜"
+      },
+      {
+        "from": "sub_disease_cd_infection_severe",
+        "to": "symptom_dehydration",
+        "relation_id": "rel_severe_manifests_as_dehydration",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "严重感染表现为水样便伴有脱水、中毒性结肠炎和脓毒血症"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_cd_infection_uncomplicated",
+        "to": "test_stool_toxin_a_b",
+        "relation_id": "rel_uncomplicated_requires_toxin_a_b",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 1,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "CDI诊断标准为：患者出现中至重度腹泻或肠梗阻，并满足以下任一条件：（1) 粪便检测CD毒素或产毒素CD结果阳性；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "毒素EIAs检测用于确证，但仅在GDH初筛阳性后进行；对uncomplicated无直接推荐，且其敏感度低（39%~76%），不适用于单独诊断",
+        "evidence": "毒素EIAs检测...缺点是敏感度较低（39%~76%），不能单独用于CDI感染的实验室诊断"
+      },
+      {
+        "from": "sub_disease_cd_infection_severe",
+        "to": "test_wbc_count",
+        "relation_id": "rel_severe_requires_wbc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 15.0,
+        "value_max": null,
+        "operator": ">",
+        "unit": "×10⁹/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "重症感染：CDI患者有腹泻，且存在以下任一项因CDI导致的异常：白细胞〉15×10⁹/L"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将‘白细胞〉15×10⁹/L’列为重症感染三项诊断标准之一，属必需检验指标",
+        "evidence": "重症感染：CDI患者有腹泻，且存在以下任一项目：白细胞〉15×10⁹/L、血肌酐较基线升高>50%、内镜发现伪膜"
+      },
+      {
+        "from": "sub_disease_cd_infection_severe",
+        "to": "test_creatinine",
+        "relation_id": "rel_severe_requires_creatinine",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": ">",
+        "unit": "%",
+        "result_text": "较基线升高>50%",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "重症感染：CDI患者有腹泻，且存在以下任一项因CDI导致的异常：……血肌酐较基线升高>50%"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将‘血肌酐较基线升高>50%’列为重症感染三项诊断标准之一，属必需检验指标",
+        "evidence": "重症感染：CDI患者有腹泻，且存在以下任一项目：白细胞〉15×10⁹/L、血肌酐较基线升高>50%、内镜发现伪膜"
+      },
+      {
+        "from": "sub_disease_cd_infection_severe",
+        "to": "test_endoscopy_pseudomembrane",
+        "relation_id": "rel_severe_requires_endoscopy_pseudomembrane",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "内镜发现伪膜",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "CDI诊断标准为：患者出现中至重度腹泻或肠梗阻，并满足以下任一条件：……（2) 内镜下或组织病理检查显示伪膜性肠炎。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘内镜下或组织病理检查显示伪膜性肠炎’为CDI诊断标准之一，且该条与‘粪便检测CD毒素或产毒素结果阳性’并列，构成双轨确诊路径；‘伪膜性肠炎’即endoscopy_pseudomembrane的直接证据",
+        "evidence": "CDI诊断标准为：患者出现中至重度腹泻或肠梗阻，并满足以下任一条件：（1)粪便检测CD毒素或产毒素结果阳性；（2)内镜下或组织病理检查显示伪膜性肠炎。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_cd_infection_uncomplicated",
+        "to": "treatment_cd_stop_antibiotics",
+        "relation_id": "rel_uncomplicated_follows_stop_antibiotics",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "首要原则",
+        "decision_basis": [
+          "疾病严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "艰难梭菌感染的治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cd_infection_severe",
+        "to": "treatment_cd_oral_therapy",
+        "relation_id": "rel_severe_follows_oral_therapy",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "首要原则",
+        "decision_basis": [
+          "疾病严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "艰难梭菌感染的治疗",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_cd_stop_antibiotics",
+        "to": "plan_metronidazole_500mg_q8h",
+        "relation_id": "rel_stop_antibiotics_implements_by_metronidazole",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "轻-中度感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "(2) 轻-中度感染：CDI患者有腹泻等肠炎样症状，但没有重症感染表现。给予甲硝唑500 mg (口服或胃管入），每8 h一次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_cd_oral_therapy",
+        "to": "plan_vancomycin_125mg_q6h",
+        "relation_id": "rel_oral_therapy_implements_by_vancomycin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "重症感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "(3) 重症感染：……给予万古霉素125 mg 溶液（口服或胃管入），每6 h一次。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_cd_infection_uncomplicated",
+        "to": "etiology_antibiotic_use",
+        "relation_id": "rel_uncomplicated_caused_by_antibiotic_use",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "通常由长期或不规范使用抗菌药物引起"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_cd_infection_uncomplicated",
+        "to": "pathogenesis_cd_toxin_action",
+        "relation_id": "rel_uncomplicated_explained_by_toxin_action",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "其毒素作用的分子机理为：（1) 毒素受体结合区（C端重复序列）与细胞受体特异结合；（2) 毒素-受体形成复合物并引发细胞内吞噬作用；（3) 酸性环境使毒素构象发生变化，使毒素的跨膜区插入到细胞膜中并形成孔道；（4) 毒素在某些细胞因子的共同作用下，发生自我切割，产生易位作用，将毒素的GTD释放到胞质内；（5) GTD发挥催化作用使Rho GTP酶家族糖基化，GTP结合蛋白失活，靶细胞肌动蛋白细胞骨架解聚，细胞通透性增加，细胞内物质外流，产生炎症，最终导致细胞死亡、肠壁坏死、液体积蓄、出现水样腹泻，坏死的肠壁细胞和炎症细胞在肠黏膜上形成伪膜。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

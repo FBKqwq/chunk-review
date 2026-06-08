@@ -1,0 +1,859 @@
+{
+  "meta": {
+    "doc_id": "风湿性多肌痛和巨细胞动脉炎的诊疗规范",
+    "source_title": "风湿性多肌痛和巨细胞动脉炎的诊疗规范",
+    "section_path": "",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_pmr_gca",
+        "name": "风湿性多肌痛和巨细胞动脉炎",
+        "normalized_name": "风湿性多肌痛和巨细胞动脉炎",
+        "aliases": [
+          "PMR和GCA",
+          "风湿性多肌痛与巨细胞动脉炎"
+        ],
+        "source_document_ids": [
+          "风湿性多肌痛和巨细胞动脉炎的诊疗规范"
+        ],
+        "evidence_ids": [
+          "风湿性多肌痛和巨细胞动脉炎的诊疗规范"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_pmr",
+        "name": "风湿性多肌痛",
+        "parent_disease_id": "disease_pmr_gca",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "50岁以上人群",
+        "gender": "all",
+        "age_min": 50,
+        "age_max": null,
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_gca",
+        "name": "巨细胞动脉炎",
+        "parent_disease_id": "disease_pmr_gca",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "50岁以上人群",
+        "gender": "all",
+        "age_min": 50,
+        "age_max": null,
+        "evidence_ids": [
+          "巨细胞动脉炎（CCA）是一种原因不明的几乎全身血管均可受累的系统性血管炎，主要侵犯大、中动脉，病变呈节段性、坏死性，组织病理学呈肉芽肿样炎症。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_neck_pain",
+        "name": "颈部疼痛",
+        "body_site": "颈部",
+        "symptom_category": "肌肉骨骼症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_shoulder_pain",
+        "name": "肩部疼痛",
+        "body_site": "肩部",
+        "symptom_category": "肌肉骨骼症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_pelvic_girdle_pain",
+        "name": "骨盆带疼痛",
+        "body_site": "骨盆带",
+        "symptom_category": "肌肉骨骼症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_morning_stiffness",
+        "name": "晨僵",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_headache",
+        "name": "头痛",
+        "body_site": "头部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "巨细胞动脉炎( 曾称giantcell arteritis,GCA) 动脉炎、颅动脉炎、肉芽肿性动脉炎，后逐渐认识到体内任何较大动脉均可受累，是一种以病理特征命名的原因不明的系统性血管炎……临床表现复杂多变，可隐匿或急性起病。最常见表现为全身症状，新近出现头痛、视觉受累症状、间歇性下颌运动障碍三联症及风湿性多肌痛。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_visual_loss",
+        "name": "视觉丧失",
+        "body_site": "眼部",
+        "symptom_category": "眼部症状",
+        "polarity": "present",
+        "typicality": "severe",
+        "evidence_ids": [
+          "CCA较为严重的并发症是不可逆的视觉丧失及脑血管事件。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_jaw_claudication",
+        "name": "间歇性下颌运动障碍",
+        "body_site": "下颌",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "临床表现复杂多变，可隐匿或急性起病。最常见表现为全身症状，新近出现头痛、视觉受累症状、间歇性下颌运动障碍三联症及风湿性多肌痛。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_scalp_tenderness",
+        "name": "头皮触痛",
+        "body_site": "头皮",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "50%的患者有头皮触压痛或可触及的痛性结节，结节如沿题动脉走向分布更具诊断价值。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "乏力",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "几乎所有的患者至少有一种全身症状，包括疲劳、乏力、食欲下降、体重下降、低热等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_weight_loss",
+        "name": "体重下降",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "几乎所有的患者至少有一种全身症状，包括疲劳、乏力、食欲下降、体重下降、低热等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_stroke",
+        "name": "卒中",
+        "body_site": "脑部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "severe",
+        "evidence_ids": [
+          "CCA较为严重的并发症是不可逆的视觉丧失及脑血管事件。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_esr",
+        "name": "红细胞沉降率",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_crp",
+        "name": "C反应蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "ESR显著增快（>40mm/1h魏氏法）;C反应蛋白（CRP)升高，且与病情活动性一致"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_il6",
+        "name": "白细胞介素6",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "PMR疾病活动期血清白细胞介素6(IL-6)水平可升高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_ana",
+        "name": "抗核抗体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "抗核抗体、类风湿因子及其他自身抗体通常均为阴性。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_rf",
+        "name": "类风湿因子",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "抗核抗体、类风湿因子及其他自身抗体通常均为阴性。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_pmr_gca_corticosteroid_first_line",
+        "content": "激素治疗为首选用药",
+        "recommendation_strength": "strong",
+        "source_section": "治疗原则",
+        "evidence_ids": [
+          "激素治疗为首选用药，目前尚无激素治疗PMR的标准方案"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_pmr_gca_immunosuppressant_add_on",
+        "content": "可酌情考虑在激素治疗的基础上早期加用免疫抑制剂，如甲氨蝶呤",
+        "recommendation_strength": "weak",
+        "source_section": "治疗原则",
+        "evidence_ids": [
+          "可酌情考虑在激素治疗的基础上早期加用免疫抑制剂，如甲氨蝶呤，尤其是使用激素有禁忌证者、激素疗效不足者、复发风险高或激素减量难者、存在发生激素不良反应的危险因素或出现激素不良反应者，均可联用免疫抑制剂。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_prednisone_initial_pmr",
+        "content": "一般醋酸泼尼松片12.5~25 mg/d口服，推荐激素顿服。",
+        "plan_level": 1,
+        "applicable_condition": "风湿性多肌痛初始治疗",
+        "contraindication_note": "不鼓励激素（泼尼松）起始剂量≤7.5 mg/d 及强烈不推荐激素（泼尼松）起始剂量>30mg/d。",
+        "evidence_ids": [
+          "一般醋酸泼尼松片12.5~25 mg/d口服[3]，推荐激素顿服。病情较重、发热、肌痛、活动明显受限、存在复发高危因素且不良事件发生率较低的情况下，可选择药量范围内较高剂量的激素用量"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_prednisone_initial_gca",
+        "content": "首选泼尼松40~60 mg/d作为初始剂量。",
+        "plan_level": 1,
+        "applicable_condition": "巨细胞动脉炎初始治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "如未出现缺血性器官损害的症状或体征时，首选泼尼松40~60 mg/d 作为初始剂量。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_methylprednisolone_pulse_gca",
+        "content": "如高度怀疑急性视力丧失系GCA引起，出现脑血管缺血事件，可使用甲泼尼龙500~1000mg静脉冲击治疗3 d，序贯口服泼尼松。",
+        "plan_level": 2,
+        "applicable_condition": "巨细胞动脉炎伴急性视力丧失或脑血管缺血事件",
+        "contraindication_note": "冲击治疗能否在疗效上获益需进一步研究，且高龄患者居多，需严密注意其不良反应。",
+        "evidence_ids": [
+          "如高度怀疑急性视力丧失系CCA引起，出现脑血管缺血事件，可使用甲泼尼龙500~1000mg 静脉冲击治疗3 d ，序贯口服泼尼松。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_methotrexate_add_on",
+        "content": "可选甲氨蝶呤7.5~10 mg/周。",
+        "plan_level": 2,
+        "applicable_condition": "激素疗效不足、复发风险高、激素减量难或存在激素不良反应风险者",
+        "contraindication_note": "需根据患者病情，警惕甲氨蝶呤潜在不良反应，逐步加量。",
+        "evidence_ids": [
+          "可选甲氨蝶呤7.5~10 mg/ 周[3]。亦有研究显示了高剂量甲氨蝶呤（25 mg/周）在缓解疾病/减少激素用量的有效性。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_autoimmune_inflammation_pmr",
+        "content": "自身炎症性疾病或自身免疫病",
+        "etiology_type": "自身免疫因素",
+        "typicality": "typical",
+        "diagnostic_role": "病因",
+        "evidence_ids": [
+          "PMR 发病机制目前尚不明确，认为是自身炎症性疾病或自身免疫病，其发病机制涉及遗传易感性、环境（如季节、感染等）、年龄、免疫系统异常等因素。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_unknown_etiology_gca",
+        "content": "原因不明",
+        "etiology_type": "未知因素",
+        "typicality": "typical",
+        "diagnostic_role": "病因",
+        "evidence_ids": [
+          "巨细胞动脉炎（CCA）是一种原因不明的几乎全身血管均可受累的系统性血管炎"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_granulomatous_vasculitis_gca",
+        "content": "病变呈节段性、坏死性，组织病理学呈肉芽肿样炎症。",
+        "evidence_ids": [
+          "巨细胞动脉炎（CCA）是一种原因不明的几乎全身血管均可受累的系统性血管炎，主要侵犯大、中动脉，病变呈节段性、坏死性，组织病理学呈肉芽肿样炎症。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_inflammatory_muscle_pain_pmr",
+        "content": "以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率升高，伴或不伴发热等全身反应为表现的综合征。",
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_pmr_gca",
+        "to": "sub_disease_pmr",
+        "relation_id": "rel_pmr_gca_has_pmr",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_pmr_gca",
+        "to": "sub_disease_gca",
+        "relation_id": "rel_pmr_gca_has_gca",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "巨细胞动脉炎（CCA）是一种原因不明的几乎全身血管均可受累的系统性血管炎，主要侵犯大、中动脉，病变呈节段性、坏死性，组织病理学呈肉芽肿样炎症。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_pmr",
+        "to": "symptom_neck_pain",
+        "relation_id": "rel_pmr_manifests_as_neck_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为PMR典型表现，与肩/骨盆带并列，属核心临床特征",
+        "evidence": "一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ESR）升高，伴或不伴发热等全身反应为表现的综合征。"
+      },
+      {
+        "from": "sub_disease_pmr",
+        "to": "symptom_shoulder_pain",
+        "relation_id": "rel_pmr_manifests_as_shoulder_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为PMR典型表现，与颈/骨盆带并列，属核心临床特征",
+        "evidence": "一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ESR）升高，伴或不伴发热等全身反应为表现的综合征。"
+      },
+      {
+        "from": "sub_disease_pmr",
+        "to": "symptom_pelvic_girdle_pain",
+        "relation_id": "rel_pmr_manifests_as_pelvic_girdle_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为PMR典型表现，与颈/肩带并列，属核心临床特征",
+        "evidence": "一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ESR）升高，伴或不伴发热等全身反应为表现的综合征。"
+      },
+      {
+        "from": "sub_disease_pmr",
+        "to": "symptom_morning_stiffness",
+        "relation_id": "rel_pmr_manifests_as_morning_stiffness",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在定义句中与疼痛并列作为PMR基本表现，属核心临床特征",
+        "evidence": "一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ESR）升高，伴或不伴发热等全身反应为表现的综合征。"
+      },
+      {
+        "from": "sub_disease_gca",
+        "to": "symptom_headache",
+        "relation_id": "rel_gca_manifests_as_headache",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "临床表现复杂多变，可隐匿或急性起病。最常见表现为全身症状，新近出现头痛、视觉受累症状、间歇性下颌运动障碍三联症及风湿性多肌痛。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文称头痛为GCA‘最常见的症状’‘高达85%’‘约50%以头痛为首发’，属强关联核心表现",
+        "evidence": "以头痛最为常见，是GCA全身症状以外最常见的症状，高达85%的患者可出现头痛，约50%的患者以头痛为首发症状。"
+      },
+      {
+        "from": "sub_disease_gca",
+        "to": "symptom_visual_loss",
+        "relation_id": "rel_gca_manifests_as_visual_loss",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "severe_complication",
+        "type_info": "严重并发症",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "severe",
+        "duration_condition": null,
+        "section_priority": "摘要",
+        "evidence_ids": [
+          "CCA较为严重的并发症是不可逆的视觉丧失及脑血管事件。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将‘不可逆的视觉丧失’列为GCA‘较为严重的并发症’，且在摘要首段即强调‘不可逆的视觉丧失及脑血管事件’为严重并发症，符合权重100的‘严重终末并发症’判定标准（非诊断金标准但属最高危结局）",
+        "evidence": "CCA较为严重的并发症是不可逆的视觉丧失及脑血管事件。"
+      },
+      {
+        "from": "sub_disease_gca",
+        "to": "symptom_jaw_claudication",
+        "relation_id": "rel_gca_manifests_as_jaw_claudication",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "临床表现复杂多变，可隐匿或急性起病。最常见表现为全身症状，新近出现头痛、视觉受累症状、间歇性下颌运动障碍三联症及风湿性多肌痛。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文称‘约60%的GCA患者’出现，且‘对CCA诊断具有较高的特异性’，属高发+高特异性表现",
+        "evidence": "约60%的GCA患者因面动脉炎、血管狭窄、局部血供不良，引致下颌肌痉挛，出现间歇性咀嚼不适、咀嚼疼痛、咀嚼停顿和下颌偏斜等，亦称下颌跛行，对CCA诊断具有较高特异性。"
+      },
+      {
+        "from": "sub_disease_gca",
+        "to": "symptom_scalp_tenderness",
+        "relation_id": "rel_gca_manifests_as_scalp_tenderness",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断支持条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "50%的患者有头皮触压痛或可触及的痛性结节，结节如沿题动脉走向分布更具诊断价值。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_pmr",
+        "to": "test_esr",
+        "relation_id": "rel_pmr_requires_esr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 40,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mm/1h",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "ESR显著增快（>40mm/1h魏氏法）;C反应蛋白（CRP)升高，且与病情活动性一致"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在PMR定义句中直接列出‘ESR升高’，并在分类标准中列为必要条件及评分项，属强制性检查",
+        "evidence": "一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ESR）升高，伴或不伴发热等全身反应为表现的综合征。"
+      },
+      {
+        "from": "sub_disease_pmr",
+        "to": "test_crp",
+        "relation_id": "rel_pmr_requires_crp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mg/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "ESR显著增快（>40mm/1h魏氏法）;C反应蛋白（CRP)升高，且与病情活动性一致"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在PMR定义句后紧接‘C反应蛋白（CRP）升高’，并在2012年ACR/EULAR标准中列为‘必要条件’，属强制性检查",
+        "evidence": "C反应蛋白（CRP)升高，且与病情活动性一致，需注意排除感染等。"
+      },
+      {
+        "from": "sub_disease_gca",
+        "to": "test_esr",
+        "relation_id": "rel_gca_requires_esr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 50,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "mm/1h",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "GCA诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（4)ESR增快,ESR≥50mm/1h（魏氏法）；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在GCA定义段明确‘ESR增快’，并在1990年ACR标准及2022年ACR/EULAR标准中均列为必备指标，属强制性检查",
+        "evidence": "ESR显著增快（>40mm/1h魏氏法）;C反应蛋白（CRP)升高，且与病情活动性一致，需注意排除感染等。"
+      },
+      {
+        "from": "sub_disease_gca",
+        "to": "test_crp",
+        "relation_id": "rel_gca_requires_crp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 10,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mg/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "GCA诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "红细胞沉降率≥50mm/1h或 C反应蛋白>10mg/L"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在GCA定义段明确‘CRP升高’，并在1990年ACR标准及2022年ACR/EULAR标准中均列为必备指标，属强制性检查",
+        "evidence": "ESR显著增快（>40mm/1h魏氏法）;C反应蛋白（CRP)升高，且与病情活动性一致，需注意排除感染等。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_pmr",
+        "to": "treatment_pmr_gca_corticosteroid_first_line",
+        "relation_id": "rel_pmr_follows_corticosteroid_first_line",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_gca",
+        "to": "treatment_pmr_gca_corticosteroid_first_line",
+        "relation_id": "rel_gca_follows_corticosteroid_first_line",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "高度怀疑GCA时",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_pmr_gca_corticosteroid_first_line",
+        "to": "plan_prednisone_initial_pmr",
+        "relation_id": "rel_corticosteroid_implements_by_prednisone_pmr",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "风湿性多肌痛初始治疗",
+        "contraindication_note": "不鼓励激素（泼尼松）起始剂量≤7.5 mg/d 及强烈不推荐激素（泼尼松）起始剂量>30mg/d。",
+        "evidence_ids": [
+          "一般醋酸泼尼松片12.5~25 mg/d口服[3]，推荐激素顿服。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_pmr_gca_corticosteroid_first_line",
+        "to": "plan_prednisone_initial_gca",
+        "relation_id": "rel_corticosteroid_implements_by_prednisone_gca",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "巨细胞动脉炎初始治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "如未出现缺血性器官损害的症状或体征时，首选泼尼松40~60 mg/d 作为初始剂量。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_pmr",
+        "to": "etiology_autoimmune_inflammation_pmr",
+        "relation_id": "rel_pmr_causes_autoimmune_inflammation",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "PMR 发病机制目前尚不明确，认为是自身炎症性疾病或自身免疫病，其发病机制涉及遗传易感性、环境（如季节、感染等）、年龄、免疫系统异常等因素。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_gca",
+        "to": "etiology_unknown_etiology_gca",
+        "relation_id": "rel_gca_causes_unknown_etiology",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "unknown",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "巨细胞动脉炎（CCA）是一种原因不明的几乎全身血管均可受累的系统性血管炎"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_gca",
+        "to": "pathogenesis_granulomatous_vasculitis_gca",
+        "relation_id": "rel_gca_explained_by_granulomatous_vasculitis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "巨细胞动脉炎（CCA）是一种原因不明的几乎全身血管均可受累的系统性血管炎，主要侵犯大、中动脉，病变呈节段性、坏死性，组织病理学呈肉芽肿样炎症。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pmr",
+        "to": "pathogenesis_inflammatory_muscle_pain_pmr",
+        "relation_id": "rel_pmr_explained_by_inflammatory_muscle_pain",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "风湿性多肌痛( polymyalgiarheumatic,PMR) 是一种以颈部、肩胛带和骨盆带肌肉疼痛、晨僵，红细胞沉降率（ ESR ）升高，伴或不伴发热等全身反应为表现的综合征。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

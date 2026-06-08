@@ -1,0 +1,1150 @@
+{
+  "meta": {
+    "doc_id": "人血白蛋白临床应用管理中国专家共识",
+    "source_title": "人血白蛋白临床应用管理中国专家共识",
+    "section_path": "",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_human_albumin_use",
+        "name": "人血白蛋白临床应用",
+        "normalized_name": "人血白蛋白临床应用",
+        "aliases": [
+          "HA临床应用",
+          "人血白蛋白用药"
+        ],
+        "source_document_ids": [
+          "人血白蛋白临床应用管理中国专家共识"
+        ],
+        "evidence_ids": [
+          "人血白蛋白（human albumin，HA）是从健康人的血液中提取分离的一种血液制品，在临床救治危急、重症患者中广泛应用。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_ha_for_spontaneous_bacterial_peritonitis",
+        "name": "肝硬化合并自发性细菌性腹膜炎",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "肝硬化患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "HA可用于肝硬化合并自发性细菌性腹膜炎的治疗（证据等级：A）[16, 17]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ha_for_ascites_post_lvp",
+        "name": "肝硬化腹水患者接受大容量穿刺后循环功能障碍",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "中重度",
+        "population": "肝硬化腹水患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "肝硬化腹水患者在接受大容量穿刺（LVP，≥5 L）治疗时，HA可用于穿刺后循环功能障碍的预防（证据等级：A）[16, 20]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ha_for_hepatic_encephalopathy",
+        "name": "肝硬化合并肝性脑病",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "中重度",
+        "population": "肝硬化患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "HA可用于肝硬化合并肝性脑病的治疗（证据等级：A）[16, 17, 24-26]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ha_for_hepatorenal_syndrome",
+        "name": "肝硬化合并肝肾综合征",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "肝硬化患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "HA可用于肝硬化合并肝肾综合征的治疗（证据等级：A）[16, 20, 27, 28]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ha_for_artificial_liver_support",
+        "name": "肝硬化人工肝支持系统应用",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "肝硬化患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "HA可用于肝硬化的人工肝支持系统（证据等级：B）[21]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ha_for_plasma_exchange",
+        "name": "大量血浆置换辅助治疗",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "需血浆置换患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "HA可用于大量血浆置换（单次>20 mL·kg-1 或累计>20 mL·kg-1·w-1），少量血浆置换首选晶体液（证据等级：C）[2, 29]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ha_for_sepsis_shock",
+        "name": "脓毒性休克",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "脓毒症患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "HA在脓毒症的部分情况下可使用，如脓毒性休克、接受大量晶体液或合并肝硬化（证据等级：B）[30, 31, 33, 39, 40]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ha_for_traumatic_brain_injury",
+        "name": "重度创伤性脑损伤",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重度",
+        "population": "创伤性脑损伤患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "相比晶体液，20%~25% HA可能降低重度创伤性脑损伤的死亡率（证据等级：B）[32, 41, 42]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ha_for_burns",
+        "name": "重度烧伤",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重度",
+        "population": "烧伤患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "HA不首选用于烧伤患者的液体复苏（证据等级：A）[34, 43]，在特定情况下可使用HA，如重度烧伤、血流动力学不稳定或使用大量晶体液等（证据等级：B）[33, 43-45]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ha_for_hypoalbuminemia",
+        "name": "显著低白蛋白血症（≤30 g·L⁻¹）",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "各类疾病患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "显著的低白蛋白血症（≤30 g·L-1）的治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ha_for_neonatal_hyperbilirubinemia",
+        "name": "新生儿高胆红素血症",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "新生儿",
+        "gender": "all",
+        "age_min": 0,
+        "age_max": 28,
+        "evidence_ids": [
+          "新生儿高胆红素血症的治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ha_for_ards",
+        "name": "急性呼吸窘迫综合征",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "ARDS患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "急性呼吸窘迫综合征的治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ha_for_cardiopulmonary_bypass",
+        "name": "心肺分流术辅助治疗",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "心肺分流术患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "心肺分流术、特殊类型血液透析、血浆置换的辅助治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ha_for_ovarian_hyperstimulation_syndrome",
+        "name": "中重度卵巢过度刺激综合征",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "中重度",
+        "population": "卵巢过度刺激综合征患者",
+        "gender": "female",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "HA不首选用于预防和治疗卵巢过度刺激综合征，当其他治疗措施无效或不能耐受时，HA可用于中、重度卵巢过度刺激综合征（证据等级：A）[78-83]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ha_for_hypovolemia_emergency",
+        "name": "血容量不足的紧急治疗",
+        "parent_disease_id": "disease_human_albumin_use",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "紧急",
+        "population": "血容量不足患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "血容量不足的紧急治疗"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_hypovolemia",
+        "name": "血容量不足",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "血容量不足的紧急治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_ascites",
+        "name": "腹水",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "肝硬化腹水患者在接受大容量穿刺（LVP，≥5 L）治疗时"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hepatic_encephalopathy",
+        "name": "肝性脑病",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "HA可用于肝硬化合并肝性脑病的治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_azotemia",
+        "name": "氮质血症",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "肝肾综合征"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hypotension",
+        "name": "低血压",
+        "body_site": "循环系统",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "血液透析中低血压"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hyperbilirubinemia",
+        "name": "高胆红素血症",
+        "body_site": "全身",
+        "symptom_category": "代谢性症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "新生儿高胆红素血症"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_respiratory_distress",
+        "name": "呼吸窘迫",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "急性呼吸窘迫综合征"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_circulatory_dysfunction_post_lvp",
+        "name": "穿刺后循环功能障碍",
+        "body_site": "循环系统",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "肝硬化腹水患者在接受大容量穿刺（LVP，≥5 L）治疗时，HA可用于穿刺后循环功能障碍的预防"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_serum_albumin_level",
+        "name": "血清白蛋白水平",
+        "normal_range_min": 35,
+        "normal_range_max": 50,
+        "is_digital": 1,
+        "evidence_ids": [
+          "在健康人体中，血浆 ALB 水平为 35~50 g·L-1[7]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_serum_creatinine",
+        "name": "血清肌酐",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "直至完全缓解（即血清肌酐水平<15 mg·L-1）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_total_bilirubin",
+        "name": "总胆红素",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "当血清胆红素水平接近换血值，且血浆ALB水平<25 g·L-1的新生儿"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_ha_for_sbp",
+        "content": "HA可用于肝硬化合并自发性细菌性腹膜炎的治疗",
+        "recommendation_strength": "强推荐",
+        "source_section": "表 2 优先使用人血白蛋白的适应证",
+        "evidence_ids": [
+          "HA可用于肝硬化合并自发性细菌性腹膜炎的治疗（证据等级：A）[16, 17]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_ha_for_ascites_prevention",
+        "content": "HA可用于肝硬化腹水患者大容量穿刺后循环功能障碍的预防",
+        "recommendation_strength": "强推荐",
+        "source_section": "表 2 优先使用人血白蛋白的适应证",
+        "evidence_ids": [
+          "肝硬化腹水患者在接受大容量穿刺（LVP，≥5 L）治疗时，HA可用于穿刺后循环功能障碍的预防（证据等级：A）[16, 20]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_ha_for_hepatic_encephalopathy",
+        "content": "HA可用于肝硬化合并肝性脑病的治疗",
+        "recommendation_strength": "强推荐",
+        "source_section": "表 2 优先使用人血白蛋白的适应证",
+        "evidence_ids": [
+          "HA可用于肝硬化合并肝性脑病的治疗（证据等级：A）[16, 17, 24-26]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_ha_for_hepatorenal_syndrome",
+        "content": "HA可用于肝硬化合并肝肾综合征的治疗",
+        "recommendation_strength": "强推荐",
+        "source_section": "表 2 优先使用人血白蛋白的适应证",
+        "evidence_ids": [
+          "HA可用于肝硬化合并肝肾综合征的治疗（证据等级：A）[16, 20, 27, 28]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_ha_for_artificial_liver",
+        "content": "HA可用于肝硬化的人工肝支持系统",
+        "recommendation_strength": "弱推荐",
+        "source_section": "表 2 优先使用人血白蛋白的适应证",
+        "evidence_ids": [
+          "HA可用于肝硬化的人工肝支持系统（证据等级：B）[21]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_ha_for_plasma_exchange",
+        "content": "HA可用于大量血浆置换的辅助治疗",
+        "recommendation_strength": "弱推荐",
+        "source_section": "表 2 优先使用人血白蛋白的适应证",
+        "evidence_ids": [
+          "HA可用于大量血浆置换（单次>20 mL·kg-1 或累计>20 mL·kg-1·w-1），少量血浆置换首选晶体液（证据等级：C）[2, 29]"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_ha_20_or_25_percent_1_5g_kg_day1",
+        "content": "20%或25%的HA，第1天剂量为1.5 g·kg-1，第3天剂量为1 g·kg-1",
+        "plan_level": 1,
+        "applicable_condition": "肝硬化合并自发性细菌性腹膜炎",
+        "contraindication_note": "避免用于严重过敏者；高血压、心力衰竭患者慎用",
+        "evidence_ids": [
+          "20%或25%的HA，第1天剂量为1.5 g·kg-1，第3天剂量为1 g·kg-1[18, 19]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ha_20_or_25_percent_6_to_8g_L_ascites",
+        "content": "20%或25%的HA，6~8 g·L-1（腹水）",
+        "plan_level": 1,
+        "applicable_condition": "肝硬化腹水患者大容量穿刺后循环功能障碍预防",
+        "contraindication_note": "避免用于严重过敏者；高血压、心力衰竭患者慎用",
+        "evidence_ids": [
+          "20%或25%的HA，6~8 g·L-1（腹水）[19, 21]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ha_20_to_40g_d_hepatic_encephalopathy",
+        "content": "20~40 g·d-1",
+        "plan_level": 1,
+        "applicable_condition": "肝硬化合并肝性脑病",
+        "contraindication_note": "避免用于严重过敏者；高血压、心力衰竭患者慎用",
+        "evidence_ids": [
+          "20~40 g·d-1[16]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ha_1g_kg_day1_then_20_to_40g_d_hepatorenal_syndrome",
+        "content": "第1天剂量为1 g·kg-1（最大剂量100 g），随后为20~40 g·d-1，直至完全缓解（即血清肌酐水平<15 mg·L-1）或最长持续14 d",
+        "plan_level": 1,
+        "applicable_condition": "肝硬化合并肝肾综合征",
+        "contraindication_note": "避免用于严重过敏者；高血压、心力衰竭患者慎用",
+        "evidence_ids": [
+          "第1 天剂量为1 g·kg-1（最大剂量100 g），随后为20~40 g·d-1，直至完全缓解（即血清肌酐水平<15 mg·L-1）或最长持续14 d[16]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ha_5_percent_for_plasma_exchange",
+        "content": "可使用5%的HA",
+        "plan_level": 2,
+        "applicable_condition": "大量血浆置换辅助治疗",
+        "contraindication_note": "禁用灭菌注射用水稀释；应补充凝血因子并监测凝血功能",
+        "evidence_ids": [
+          "可使用5%的HA[19]，一般血浆置换疗法的频度是间隔1～2 d，一般5～7次为1个疗程"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_cirrhosis",
+        "content": "肝硬化",
+        "etiology_type": "慢性肝病",
+        "typicality": "typical",
+        "diagnostic_role": "基础疾病",
+        "evidence_ids": [
+          "肝硬化及其并发症"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_sepsis",
+        "content": "脓毒症",
+        "etiology_type": "感染因素",
+        "typicality": "common",
+        "diagnostic_role": "基础疾病",
+        "evidence_ids": [
+          "HA在脓毒症的部分情况下可使用，如脓毒性休克、接受大量晶体液或合并肝硬化"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_trauma",
+        "content": "创伤",
+        "etiology_type": "物理损伤",
+        "typicality": "common",
+        "diagnostic_role": "基础疾病",
+        "evidence_ids": [
+          "创伤性休克的部分情况下可使用，如血流动力学不稳定或不能耐受大量晶体液"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_burns",
+        "content": "烧伤",
+        "etiology_type": "物理损伤",
+        "typicality": "common",
+        "diagnostic_role": "基础疾病",
+        "evidence_ids": [
+          "HA不首选用于烧伤患者的液体复苏……在特定情况下可使用HA，如重度烧伤"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_ha_colloid_osmotic_pressure",
+        "content": "ALB是维持血液胶体渗透压的主要来源，具有调节血管内外液体平衡以及维持血容量的作用，1 g ALB的胶体活性约能吸引 18 mL水，输注 25 g ALB 可使血浆扩容约 450 mL。",
+        "evidence_ids": [
+          "ALB 是维持血液胶体渗透压的主要来源，具有调节血管内外液体平衡以及维持血容量的作用，1 g ALB的胶体活性约能吸引 18 mL水，输注 25 g ALB 可使血浆扩容约 450 mL。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_spontaneous_bacterial_peritonitis",
+        "relation_id": "rel_ha_use_has_sbp",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HA可用于肝硬化合并自发性细菌性腹膜炎的治疗（证据等级：A）[16, 17]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_ascites_post_lvp",
+        "relation_id": "rel_ha_use_has_ascites_post_lvp",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "肝硬化腹水患者在接受大容量穿刺（LVP，≥5 L）治疗时，HA可用于穿刺后循环功能障碍的预防（证据等级：A）[16, 20]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_hepatic_encephalopathy",
+        "relation_id": "rel_ha_use_has_hepatic_encephalopathy",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HA可用于肝硬化合并肝性脑病的治疗（证据等级：A）[16, 17, 24-26]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_hepatorenal_syndrome",
+        "relation_id": "rel_ha_use_has_hepatorenal_syndrome",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HA可用于肝硬化合并肝肾综合征的治疗（证据等级：A）[16, 20, 27, 28]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_artificial_liver_support",
+        "relation_id": "rel_ha_use_has_artificial_liver",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HA可用于肝硬化的人工肝支持系统（证据等级：B）[21]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_plasma_exchange",
+        "relation_id": "rel_ha_use_has_plasma_exchange",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HA可用于大量血浆置换（单次>20 mL·kg-1 或累计>20 mL·kg-1·w-1），少量血浆置换首选晶体液（证据等级：C）[2, 29]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_sepsis_shock",
+        "relation_id": "rel_ha_use_has_sepsis_shock",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HA在脓毒症的部分情况下可使用，如脓毒性休克、接受大量晶体液或合并肝硬化（证据等级：B）[30, 31, 33, 39, 40]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_traumatic_brain_injury",
+        "relation_id": "rel_ha_use_has_traumatic_brain_injury",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "相比晶体液，20%~25% HA可能降低重度创伤性脑损伤的死亡率（证据等级：B）[32, 41, 42]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_burns",
+        "relation_id": "rel_ha_use_has_burns",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HA不首选用于烧伤患者的液体复苏（证据等级：A）[34, 43]，在特定情况下可使用HA，如重度烧伤、血流动力学不稳定或使用大量晶体液等（证据等级：B）[33, 43-45]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_hypoalbuminemia",
+        "relation_id": "rel_ha_use_has_hypoalbuminemia",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "显著的低白蛋白血症（≤30 g·L-1）的治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_neonatal_hyperbilirubinemia",
+        "relation_id": "rel_ha_use_has_neonatal_hyperbilirubinemia",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "新生儿高胆红素血症的治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_ards",
+        "relation_id": "rel_ha_use_has_ards",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性呼吸窘迫综合征的治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_cardiopulmonary_bypass",
+        "relation_id": "rel_ha_use_has_cardiopulmonary_bypass",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "心肺分流术、特殊类型血液透析、血浆置换的辅助治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_ovarian_hyperstimulation_syndrome",
+        "relation_id": "rel_ha_use_has_ovarian_hyperstimulation",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HA不首选用于预防和治疗卵巢过度刺激综合征，当其他治疗措施无效或不能耐受时，HA可用于中、重度卵巢过度刺激综合征（证据等级：A）[78-83]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_human_albumin_use",
+        "to": "sub_disease_ha_for_hypovolemia_emergency",
+        "relation_id": "rel_ha_use_has_hypovolemia_emergency",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "血容量不足的紧急治疗"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_ha_for_spontaneous_bacterial_peritonitis",
+        "to": "symptom_ascites",
+        "relation_id": "rel_sbp_manifests_as_ascites",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "表 2",
+        "evidence_ids": [
+          "肝硬化腹水患者在接受大容量穿刺（LVP，≥5 L）治疗时"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将‘自发性细菌性腹膜炎’列为肝硬化并发症，且表2中‘肝硬化及其并发症’下首项即为‘自发性细菌性腹膜炎’，其对应适应证场景天然包含腹水；但未直接陈述该病‘表现为’腹水，属强临床共识性关联",
+        "evidence": "肝硬化及其并发症自发性细菌性腹膜炎"
+      },
+      {
+        "from": "sub_disease_ha_for_ascites_post_lvp",
+        "to": "symptom_circulatory_dysfunction_post_lvp",
+        "relation_id": "rel_ascites_post_lvp_manifests_as_circulatory_dysfunction",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "表 2",
+        "evidence_ids": [
+          "肝硬化腹水患者在接受大容量穿刺（LVP，≥5 L）治疗时，HA可用于穿刺后循环功能障碍的预防"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文表2明确‘肝硬化腹水患者在接受大容量穿刺（LVP，≥5 L）治疗时，HA可用于穿刺后循环功能障碍的预防’，‘穿刺后循环功能障碍’即symptom_circulatory_dysfunction_post_lvp的规范表述",
+        "evidence": "肝硬化腹水患者在接受大容量穿刺（LVP，≥5L）治疗时，HA可用于穿刺后循环功能障碍的预防"
+      },
+      {
+        "from": "sub_disease_ha_for_hepatic_encephalopathy",
+        "to": "symptom_hepatic_encephalopathy",
+        "relation_id": "rel_hepatic_encephalopathy_manifests_as_hepatic_encephalopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "表 2",
+        "evidence_ids": [
+          "HA可用于肝硬化合并肝性脑病的治疗"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文表2标题及条目‘肝性脑病’与‘HA可用于肝硬化合并肝性脑病的治疗’构成直接疾病-表现映射，‘肝性脑病’即symptom_hepatic_encephalopathy的临床标准命名",
+        "evidence": "肝性脑病HA可用于肝硬化合并肝性脑病的治疗"
+      },
+      {
+        "from": "sub_disease_ha_for_hepatorenal_syndrome",
+        "to": "symptom_azotemia",
+        "relation_id": "rel_hepatorenal_syndrome_manifests_as_azotemia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "表 2",
+        "evidence_ids": [
+          "肝肾综合征"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文表2中‘肝肾综合征’条目注明‘直至完全缓解（即血清肌酐水平<15 mg·L-1）’，肌酐升高即氮质血症（azotemia）的核心指标；但未直接使用‘azotemia’一词，属间接强支持",
+        "evidence": "直至完全缓解（即血清肌酐水平<15mg·L-1）"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_ha_for_hypoalbuminemia",
+        "to": "test_serum_albumin_level",
+        "relation_id": "rel_hypoalbuminemia_requires_serum_albumin_level",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 30,
+        "operator": "<=",
+        "unit": "g·L⁻¹",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "正文及表2/3",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "显著的低白蛋白血症（≤30 g·L-1）的治疗"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文多处强制要求：‘开具HA处方前应查看患者3 d内的血浆ALB水平’；‘血浆ALB水平是HA是否使用以及停药的重要参考指标’；表3、4中所有适应证均以ALB≤30 g·L⁻¹等数值为阈值",
+        "evidence": "开具HA处方前应查看患者3d内的血浆ALB水平"
+      },
+      {
+        "from": "sub_disease_ha_for_hepatorenal_syndrome",
+        "to": "test_serum_creatinine",
+        "relation_id": "rel_hepatorenal_syndrome_requires_serum_creatinine",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "治疗监测项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": 15,
+        "operator": "<",
+        "unit": "mg·L⁻¹",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "表 2",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "直至完全缓解（即血清肌酐水平<15 mg·L-1）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文表2明确将‘血清肌酐水平<15 mg·L-1’作为肝肾综合征治疗终点指标，且‘肝肾综合征’定义即以进行性氮质血症（血清肌酐升高）为核心，test_serum_creatinine为其直接量化检测",
+        "evidence": "直至完全缓解（即血清肌酐水平<15mg·L-1）"
+      },
+      {
+        "from": "sub_disease_ha_for_neonatal_hyperbilirubinemia",
+        "to": "test_total_bilirubin",
+        "relation_id": "rel_neonatal_hyperbilirubinemia_requires_total_bilirubin",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": "血清胆红素水平接近换血值",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "表 3",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "当血清胆红素水平接近换血值，且血浆ALB水平<25 g·L-1的新生儿"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文表3明确‘当血清胆红素水平接近换血值，且血浆ALB水平<25 g·L-1的新生儿，可补充HA’，‘血清胆红素水平’即test_total_bilirubin的标准临床术语",
+        "evidence": "当血清胆红素水平接近换血值，且血浆ALB水平<25g·L-1的新生儿，可补充HA"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_ha_for_spontaneous_bacterial_peritonitis",
+        "to": "treatment_ha_for_sbp",
+        "relation_id": "rel_sbp_follows_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强推荐",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": "严重过敏者禁用；高血压、心力衰竭患者慎用",
+        "evidence_level": "expert_consensus",
+        "source_section": "表 2",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_ha_for_ascites_post_lvp",
+        "to": "treatment_ha_for_ascites_prevention",
+        "relation_id": "rel_ascites_post_lvp_follows_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "大容量穿刺后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强推荐",
+        "decision_basis": [
+          "操作指征"
+        ],
+        "contraindication_note": "严重过敏者禁用；高血压、心力衰竭患者慎用",
+        "evidence_level": "expert_consensus",
+        "source_section": "表 2",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_ha_for_hepatic_encephalopathy",
+        "to": "treatment_ha_for_hepatic_encephalopathy",
+        "relation_id": "rel_hepatic_encephalopathy_follows_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强推荐",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": "严重过敏者禁用；高血压、心力衰竭患者慎用",
+        "evidence_level": "expert_consensus",
+        "source_section": "表 2",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_ha_for_hepatorenal_syndrome",
+        "to": "treatment_ha_for_hepatorenal_syndrome",
+        "relation_id": "rel_hepatorenal_syndrome_follows_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强推荐",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": "严重过敏者禁用；高血压、心力衰竭患者慎用",
+        "evidence_level": "expert_consensus",
+        "source_section": "表 2",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_ha_for_sbp",
+        "to": "plan_ha_20_or_25_percent_1_5g_kg_day1",
+        "relation_id": "rel_treatment_sbp_implements_by_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "肝硬化合并自发性细菌性腹膜炎",
+        "contraindication_note": "避免用于严重过敏者；高血压、心力衰竭患者慎用",
+        "evidence_ids": [
+          "20%或25%的HA，第1天剂量为1.5 g·kg-1，第3天剂量为1 g·kg-1[18, 19]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_ha_for_ascites_prevention",
+        "to": "plan_ha_20_or_25_percent_6_to_8g_L_ascites",
+        "relation_id": "rel_treatment_ascites_prevention_implements_by_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "肝硬化腹水患者大容量穿刺后循环功能障碍预防",
+        "contraindication_note": "避免用于严重过敏者；高血压、心力衰竭患者慎用",
+        "evidence_ids": [
+          "20%或25%的HA，6~8 g·L-1（腹水）[19, 21]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_ha_for_hepatic_encephalopathy",
+        "to": "plan_ha_20_to_40g_d_hepatic_encephalopathy",
+        "relation_id": "rel_treatment_hepatic_encephalopathy_implements_by_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "肝硬化合并肝性脑病",
+        "contraindication_note": "避免用于严重过敏者；高血压、心力衰竭患者慎用",
+        "evidence_ids": [
+          "20~40 g·d-1[16]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_ha_for_hepatorenal_syndrome",
+        "to": "plan_ha_1g_kg_day1_then_20_to_40g_d_hepatorenal_syndrome",
+        "relation_id": "rel_treatment_hepatorenal_syndrome_implements_by_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "肝硬化合并肝肾综合征",
+        "contraindication_note": "避免用于严重过敏者；高血压、心力衰竭患者慎用",
+        "evidence_ids": [
+          "第1 天剂量为1 g·kg-1（最大剂量100 g），随后为20~40 g·d-1，直至完全缓解（即血清肌酐水平<15 mg·L-1）或最长持续14 d[16]"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_ha_for_spontaneous_bacterial_peritonitis",
+        "to": "etiology_cirrhosis",
+        "relation_id": "rel_sbp_causes_by_cirrhosis",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "肝硬化及其并发症"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_ha_for_hepatic_encephalopathy",
+        "to": "etiology_cirrhosis",
+        "relation_id": "rel_hepatic_encephalopathy_causes_by_cirrhosis",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "肝硬化及其并发症"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_ha_for_hypovolemia_emergency",
+        "to": "pathogenesis_ha_colloid_osmotic_pressure",
+        "relation_id": "rel_hypovolemia_emergency_explained_by_colloid_pressure",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "ALB 是维持血液胶体渗透压的主要来源，具有调节血管内外液体平衡以及维持血容量的作用，1 g ALB的胶体活性约能吸引 18 mL水，输注 25 g ALB 可使血浆扩容约 450 mL。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

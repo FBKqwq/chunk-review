@@ -1,0 +1,997 @@
+{
+  "meta": {
+    "doc_id": "风湿热诊疗规范",
+    "source_title": "风湿热诊疗规范",
+    "section_path": "根节点",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_rheumatic_fever",
+        "name": "风湿热",
+        "normalized_name": "风湿热",
+        "aliases": [
+          "RF"
+        ],
+        "source_document_ids": [
+          "风湿热诊疗规范"
+        ],
+        "evidence_ids": [
+          "风湿热是一种因A组链球菌咽部感染后反复发作的急性或慢性全身结缔组织炎症，属自身免疫病。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_rheumatic_fever_typical",
+        "name": "典型风湿热",
+        "parent_disease_id": "disease_rheumatic_fever",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": 3,
+        "age_max": 15,
+        "evidence_ids": [
+          "风湿热有5个主要表现，游走性多发性关节炎、心脏炎症、皮下结节、环形红斑、舞蹈病，这些表现可以单独出现或合并出现……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_rheumatic_fever_recurrent_with_rhd",
+        "name": "伴风湿性心脏病的复发性风湿热",
+        "parent_disease_id": "disease_rheumatic_fever",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "对伴有风湿性心脏病的复发性风湿热的诊断明显放宽，只需具有两项次要表现及前驱链球菌感染证据即可诊断"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_rheumatic_fever_latent_carditis",
+        "name": "隐匿发病的风湿性心脏炎",
+        "parent_disease_id": "disease_rheumatic_fever",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "隐匿发病或缓慢发生的心脏炎症；有风湿热史或现患风湿性心脏病，当再感染A组链球菌时,有风湿热复发高度危险者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_rheumatic_fever_chorea_only",
+        "name": "以舞蹈病为唯一表现的风湿热",
+        "parent_disease_id": "disease_rheumatic_fever",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "4~7岁儿童",
+        "gender": "all",
+        "age_min": 4,
+        "age_max": 7,
+        "evidence_ids": [
+          "以舞蹈病为唯一表现者；隐匿发病或缓慢发生的心脏炎症；有风湿热史或现患风湿性心脏病，当再感染A组链球菌时,有风湿热复发高度危险者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_rheumatic_fever_low_risk_population",
+        "name": "低风险人群风湿热",
+        "parent_disease_id": "disease_rheumatic_fever",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "风湿热发病率在学龄儿童（5~14岁）中小于2/10万人每年，或所有风湿性心脏病患病率小于1/1000人每年",
+        "gender": "all",
+        "age_min": 5,
+        "age_max": 14,
+        "evidence_ids": [
+          "低风险人群[风湿热发病率在学龄儿童（5~14岁）中小于2/10万人每年，或所有风湿性心脏病患病率小于1/1000人每年]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_rheumatic_fever_medium_high_risk_population",
+        "name": "中高风险人群风湿热",
+        "parent_disease_id": "disease_rheumatic_fever",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "风湿热发病率在学龄儿童（5~14岁）中≥2/10万人每年，或所有风湿性心脏病患病率≥1/1000人每年",
+        "gender": "all",
+        "age_min": 5,
+        "age_max": 14,
+        "evidence_ids": [
+          "中高风险人群：①心脏炎症（临床或亚临床）；②关节炎：a.单发性关节炎或多发性关节炎；b.多发性关节痛……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "50%~70%的患者有不规则发热，轻、中度发热较常见，亦可有高热。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_migratory_polyarthritis",
+        "name": "游走性多发性关节炎",
+        "body_site": "关节",
+        "symptom_category": "运动系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "风湿热有5个主要表现，游走性多发性关节炎、心脏炎症、皮下结节、环形红斑、舞蹈病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_carditis",
+        "name": "心脏炎症",
+        "body_site": "心脏",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "风湿热有5个主要表现，游走性多发性关节炎、心脏炎症、皮下结节、环形红斑、舞蹈病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_subcutaneous_nodules",
+        "name": "皮下结节",
+        "body_site": "皮下组织",
+        "symptom_category": "皮肤及皮下组织症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "皮下结节：为稍硬、无痛性小结节，位于关节伸侧的皮下组织……发生率为2%~16%。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_erythema_marginatum",
+        "name": "环形红斑",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤及皮下组织症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "环形红斑：发生率为6%~25%。皮疹为淡红色环状红斑，中央苍白，时隐时现，骤起，数小时或1~2d消退……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_sydenham_chorea",
+        "name": "舞蹈病",
+        "body_site": "中枢神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "舞蹈病：常发生于4~7岁儿童。是一种无目的、不自主的躯干或肢体动作……国内外报告发生率3%~30%左右。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_tachycardia",
+        "name": "窦性心动过速",
+        "body_site": "心脏",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "窦性心动过速（人睡后心率仍>100次/min)常是心脏炎症的早期表现，心率增快与体温升高不成比例"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_arthralgia",
+        "name": "关节痛",
+        "body_site": "关节",
+        "symptom_category": "运动系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "（2）关节痛；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_palpitation",
+        "name": "心悸",
+        "body_site": "心脏",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "心脏炎症：表现为运动后心悸、气短、心前区不适。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dyspnea",
+        "name": "气短",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "心脏炎症：表现为运动后心悸、气短、心前区不适。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_chest_discomfort",
+        "name": "心前区不适",
+        "body_site": "心脏",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "心脏炎症：表现为运动后心悸、气短、心前区不适。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_sweating",
+        "name": "多汗",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "其他：多汗、鼻出血、瘀斑、腹痛亦不少见。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_aso_titer",
+        "name": "抗链球菌溶血素“O”滴度",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "抗链球菌溶血素“0\"（ AS0) 滴度超过1:400为阳性，在感染后2周左右出现"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_antidnase_b",
+        "name": "抗DNA酶-B滴度",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "抗 DNA 酶- B 阳性率在80%以上，两者联合阳性率可提高至90%。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_esr",
+        "name": "红细胞沉降率",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "常规实验室检查包括血、尿、粪常规、肝肾功能、血糖、电解质、血脂、心肌酶、红细胞沉降率(ESR）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_crp",
+        "name": "C反应蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "常规实验室检查包括血、尿、粪常规、肝肾功能、血糖、电解质、血脂、心肌酶、红细胞沉降率(ESR）C反应蛋白（CRP)等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_ecg_pr_interval",
+        "name": "心电图PR间期",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "心电图示PR或QT间期延长。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_echo_carditis",
+        "name": "超声心动图检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "超声心动图检查可发现早期、轻度心脏炎症和亚临床型心脏炎症，对轻度心包积液较敏感。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_general_principle",
+        "content": "治疗原则包括四方面：去除病因，消灭链球菌感染灶；抗风湿热治疗，迅速控制关节炎、心脏炎症、舞蹈病等临床症状；治疗并发症和合并症,改善患者预后；实施个别化处理原则。",
+        "recommendation_strength": "strong",
+        "source_section": "四、治疗方案及原则",
+        "evidence_ids": [
+          "治疗原则包括四方面：去除病因，消灭链球菌感染灶；抗风湿热治疗，迅速控制关节炎、心脏炎症、舞蹈病等临床症状；治疗并发症和合并症,改善患者预后；实施个别化处理原则。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_antibiotic",
+        "content": "抗生素应用：目的是消除咽部链球菌感染，避免风湿热反复发作或迁延不愈。",
+        "recommendation_strength": "strong",
+        "source_section": "四、治疗方案及原则",
+        "evidence_ids": [
+          "抗生素应用：目的是消除咽部链球菌感染，避免风湿热反复发作或迁延不愈。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_antirheumatic",
+        "content": "抗风湿治疗：对单纯关节受累者，首选非甾体抗炎药，常用阿司匹林……对已发生心脏炎症者，一般采用糖皮质激素治疗……",
+        "recommendation_strength": "strong",
+        "source_section": "四、治疗方案及原则",
+        "evidence_ids": [
+          "抗风湿治疗：对单纯关节受累者，首选非留体抗炎药，常用阿司匹林……对已发生心脏炎症者，一般采用糖皮质激素（以下简称激素)治疗，常用泼尼松……"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_benzathine_penicillin_primary",
+        "content": "对初发链球菌感染，体重在10 kg 以下者可肌肉注射苄星青霉素45万 U/ 次，体重在10~20 kg 者剂量为60万 U/ 次，体重>20 kg 者剂量为120万 U/ 次，每3周1次。",
+        "plan_level": 1,
+        "applicable_condition": "初发链球菌感染",
+        "contraindication_note": "青霉素过敏者禁用",
+        "evidence_ids": [
+          "对初发链球菌感染，体重在10 kg 以下者可肌肉注射苄星青霉素45万 U/ 次，体重在10~20 kg 者剂量为60万 U/ 次，体重>20 kg 者剂量为120万 U/ 次，每3周1次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_aspirin_joint",
+        "content": "对单纯关节受累者，首选非甾体抗炎药，常用阿司匹林，开始剂量成人为3~4g/d ，小儿为80~100 mg·kg⁻¹·d⁻¹ ，分3~4次口服。",
+        "plan_level": 1,
+        "applicable_condition": "单纯关节受累",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对单纯关节受累者，首选非留体抗炎药，常用阿司匹林，开始剂量成人为3~4g/d ，小儿为80~100 mgkg.d-\" ，分3~4次口服。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_prednisone_carditis",
+        "content": "对已发生心脏炎症者，一般采用糖皮质激素（以下简称激素)治疗，常用泼尼松,开始剂量成人为30~40 mg/d ，小儿为1.0~1.5 mg·kg⁻¹·d⁻¹，每日1次口服，病情缓解后减量至10~15 mg/d 维持治疗。",
+        "plan_level": 1,
+        "applicable_condition": "已发生心脏炎症",
+        "contraindication_note": "为防止停用激素后出现反跳现象，可于停用激素前2周或更早时间加用阿司匹林",
+        "evidence_ids": [
+          "对已发生心脏炎症者，一般采用糖皮质激素（以下简称激素)治疗，常用泼尼松,开始剂量成人为30~40 ，小儿为1.0~1.5 分次口服，病情缓解后减量至10~15 维持治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_valproic_acid_chorea",
+        "content": "舞蹈病：尽量避免强光噪声刺激。治疗首选丙戊酸，该药无效或严重舞蹈病如瘫痪的患者，可应用卡马西平治疗。",
+        "plan_level": 1,
+        "applicable_condition": "舞蹈病",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "舞蹈病：尽量避免强光噪声刺激。治疗首选丙戊酸，该药无效或严重舞蹈病如瘫痪的患者，可应用卡马西平治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_group_a_streptococcus_infection",
+        "content": "A组链球菌（GAS）咽部感染",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "风湿热是一种因A组链球菌（GAS)咽部感染后反复发作的急性或慢性全身结缔组织炎症……链球菌咽部感染是本病发病的必要条件。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_autoimmune_response",
+        "content": "风湿热是一种……属自身免疫病。",
+        "evidence_ids": [
+          "风湿热是一种因A组链球菌咽部感染后反复发作的急性或慢性全身结缔组织炎症，属自身免疫病。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_rheumatic_fever",
+        "to": "sub_disease_rheumatic_fever_typical",
+        "relation_id": "rel_rf_has_typical",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "风湿热有5个主要表现，游走性多发性关节炎、心脏炎症、皮下结节、环形红斑、舞蹈病，这些表现可以单独出现或合并出现，并可产生许多临床亚型。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_rheumatic_fever",
+        "to": "sub_disease_rheumatic_fever_recurrent_with_rhd",
+        "relation_id": "rel_rf_has_recurrent_with_rhd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "对伴有风湿性心脏病的复发性风湿热的诊断明显放宽，只需具有两项次要表现及前驱链球菌感染证据即可诊断"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_rheumatic_fever",
+        "to": "sub_disease_rheumatic_fever_latent_carditis",
+        "relation_id": "rel_rf_has_latent_carditis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "隐匿发病或缓慢发生的心脏炎症；有风湿热史或现患风湿性心脏病，当再感染A组链球菌时,有风湿热复发高度危险者"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_rheumatic_fever",
+        "to": "sub_disease_rheumatic_fever_chorea_only",
+        "relation_id": "rel_rf_has_chorea_only",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "以舞蹈病为唯一表现者；隐匿发病或缓慢发生的心脏炎症；有风湿热史或现患风湿性心脏病，当再感染A组链球菌时,有风湿热复发高度危险者"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_rheumatic_fever",
+        "to": "sub_disease_rheumatic_fever_low_risk_population",
+        "relation_id": "rel_rf_has_low_risk",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "低风险人群[风湿热发病率在学龄儿童（5~14岁）中小于2/10万人每年，或所有风湿性心脏病患病率小于1/1000人每年]"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_rheumatic_fever",
+        "to": "sub_disease_rheumatic_fever_medium_high_risk_population",
+        "relation_id": "rel_rf_has_medium_high_risk",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "中高风险人群：①心脏炎症（临床或亚临床）；②关节炎：a.单发性关节炎或多发性关节炎；b.多发性关节痛……"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "symptom_fever",
+        "relation_id": "rel_typical_rf_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": "Jones_1992_secondary",
+        "required_count": 2,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1）发热；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "symptom_migratory_polyarthritis",
+        "relation_id": "rel_typical_rf_manifests_as_arthritis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "Jones_1992_primary",
+        "required_count": 2,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（2）多发性关节炎；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为‘5个主要表现’之首，且称‘是最常见的典型表现’",
+        "evidence": "风湿热有5个主要表现，游走性多发性关节炎、心脏炎症、皮下结节、环形红斑、舞蹈病"
+      },
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "symptom_carditis",
+        "relation_id": "rel_typical_rf_manifests_as_carditis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "Jones_1992_primary",
+        "required_count": 2,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1）心脏炎症：①杂音；②心脏增大；③心包炎；④充血性心力衰竭；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为‘5个主要表现’之一，且强调‘初次发病的有关节炎的风湿热患者中约50%有心脏炎症’",
+        "evidence": "风湿热有5个主要表现，游走性多发性关节炎、心脏炎症、皮下结节、环形红斑、舞蹈病"
+      },
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "symptom_sydenham_chorea",
+        "relation_id": "rel_typical_rf_manifests_as_chorea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "Jones_1992_primary",
+        "required_count": 2,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（3）舞蹈症；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为‘5个主要表现’之一，且单独设小节‘5.舞蹈病’详述",
+        "evidence": "风湿热有5个主要表现，游走性多发性关节炎、心脏炎症、皮下结节、环形红斑、舞蹈病"
+      },
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "symptom_erythema_marginatum",
+        "relation_id": "rel_typical_rf_manifests_as_erythema",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "Jones_1992_primary",
+        "required_count": 2,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（4）环形红斑；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为‘5个主要表现’之一，且在‘(二)典型表现’下分项编号列出",
+        "evidence": "风湿热有5个主要表现，游走性多发性关节炎、心脏炎症、皮下结节、环形红斑、舞蹈病"
+      },
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "symptom_subcutaneous_nodules",
+        "relation_id": "rel_typical_rf_manifests_as_nodules",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "Jones_1992_primary",
+        "required_count": 2,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（5）皮下结节。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为‘5个主要表现’之一，且描述为‘是风湿活动的表现之一’",
+        "evidence": "风湿热有5个主要表现，游走性多发性关节炎、心脏炎症、皮下结节、环形红斑、舞蹈病"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "test_aso_titer",
+        "relation_id": "rel_typical_rf_requires_aso",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持证据",
+        "diagnostic_role": "supportive",
+        "value_min": 400,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "1:400",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": "Jones_1992_laboratory_evidence",
+        "required_count": 1,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "抗链球菌溶血素“0\"（ AS0) 滴度超过1:400为阳性，在感染后2周左右出现"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出ASO滴度升高是‘链球菌感染证据’之一，但阳性率已低至50%，非特异",
+        "evidence": "ASO滴度或抗DNA酶-B滴度升高；以上检查只能证实患者在近期内有链球菌感染，不能提示体内是否存在链球菌感染诱发的自身免疫反应"
+      },
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "test_antidnase_b",
+        "relation_id": "rel_typical_rf_requires_antidnase_b",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持证据",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": "Jones_1992_laboratory_evidence",
+        "required_count": 1,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "抗 DNA 酶- B 阳性率在80%以上，两者联合阳性率可提高至90%。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出抗DNA酶-B阳性率在80%以上，与ASO联合可提高至90%，但仍属‘链球菌感染证据’而非确诊依据",
+        "evidence": "抗DNA酶-B阳性率在80%以上，两者联合阳性率可提高至90%。以上检查只能证实患者在近期内有链球菌感染，不能提示体内是否存在链球菌感染诱发的自身免疫反应"
+      },
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "test_esr",
+        "relation_id": "rel_typical_rf_requires_esr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持证据",
+        "diagnostic_role": "supportive",
+        "value_min": 30,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "mm/1h",
+        "result_text": null,
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": "Jones_1992_secondary",
+        "required_count": 2,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（3)ESR≥30mm/1h和/或 CRP≥3.0mg/dl;"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "test_crp",
+        "relation_id": "rel_typical_rf_requires_crp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持证据",
+        "diagnostic_role": "supportive",
+        "value_min": 3.0,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "mg/dl",
+        "result_text": null,
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": "Jones_1992_secondary",
+        "required_count": 2,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（3)ESR≥30mm/1h和/或 CRP≥3.0mg/dl;"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "test_ecg_pr_interval",
+        "relation_id": "rel_typical_rf_requires_ecg_pr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持证据",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "PR间期延长",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": "Jones_1992_secondary",
+        "required_count": 2,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（4）心电图示PR或QT间期延长。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "test_echo_carditis",
+        "relation_id": "rel_typical_rf_requires_echo",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "提示心脏瓣膜炎",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "Jones_2015_primary",
+        "required_count": 1,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "亚临床心脏炎症指瓣膜区听诊无反流杂音，但超声心动图提示有心脏瓣膜炎"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将超声心动图列为心脏炎症诊断工具，2015年Jones标准‘将超声心动图和多普勒彩色血流图作为心脏炎症的诊断工具’",
+        "evidence": "2015年Jones诊断标准提高了风湿热诊断的特异性……将超声心动图和多普勒彩色血流图作为心脏炎症的诊断工具"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "treatment_general_principle",
+        "relation_id": "rel_typical_rf_follows_general_principle",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四、治疗方案及原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "treatment_antibiotic",
+        "relation_id": "rel_typical_rf_follows_antibiotic",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病因"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四、治疗方案及原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "treatment_antirheumatic",
+        "relation_id": "rel_typical_rf_follows_antirheumatic",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "临床表现"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四、治疗方案及原则",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_antibiotic",
+        "to": "plan_benzathine_penicillin_primary",
+        "relation_id": "rel_antibiotic_implements_by_benzathine",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "初发链球菌感染",
+        "contraindication_note": "青霉素过敏者禁用",
+        "evidence_ids": [
+          "对初发链球菌感染，体重在10 kg 以下者可肌肉注射苄星青霉素45万 U/ 次，体重在10~20 kg 者剂量为60万 U/ 次，体重>20 kg 者剂量为120万 U/ 次，每3周1次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antirheumatic",
+        "to": "plan_aspirin_joint",
+        "relation_id": "rel_antirheumatic_implements_by_aspirin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "单纯关节受累",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对单纯关节受累者，首选非留体抗炎药，常用阿司匹林，开始剂量成人为3~4g/d ，小儿为80~100 mgkg.d-\" ，分3~4次口服。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antirheumatic",
+        "to": "plan_prednisone_carditis",
+        "relation_id": "rel_antirheumatic_implements_by_prednisone",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "已发生心脏炎症",
+        "contraindication_note": "为防止停用激素后出现反跳现象，可于停用激素前2周或更早时间加用阿司匹林",
+        "evidence_ids": [
+          "对已发生心脏炎症者，一般采用糖皮质激素（以下简称激素)治疗，常用泼尼松,开始剂量成人为30~40 ，小儿为1.0~1.5 分次口服，病情缓解后减量至10~15 维持治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antirheumatic",
+        "to": "plan_valproic_acid_chorea",
+        "relation_id": "rel_antirheumatic_implements_by_valproic",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "舞蹈病",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "舞蹈病：尽量避免强光噪声刺激。治疗首选丙戊酸，该药无效或严重舞蹈病如瘫痪的患者，可应用卡马西平治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "etiology_group_a_streptococcus_infection",
+        "relation_id": "rel_typical_rf_causes_ga_strep",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "风湿热是一种因A组链球菌（GAS)咽部感染后反复发作的急性或慢性全身结缔组织炎症，属自身免疫病。……链球菌咽部感染是本病发病的必要条件。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_rheumatic_fever_typical",
+        "to": "pathogenesis_autoimmune_response",
+        "relation_id": "rel_typical_rf_explained_by_autoimmunity",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "风湿热是一种因A组链球菌咽部感染后反复发作的急性或慢性全身结缔组织炎症，属自身免疫病。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

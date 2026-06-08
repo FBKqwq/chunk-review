@@ -1,0 +1,1262 @@
+{
+  "meta": {
+    "doc_id": "成人斯蒂尔病诊断及治疗指南",
+    "source_title": "成人斯蒂尔病诊断及治疗指南",
+    "section_path": "",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_aosd",
+        "name": "成人斯蒂尔病",
+        "normalized_name": "成人斯蒂尔病",
+        "aliases": [
+          "AOSD",
+          "变应性亚败血症",
+          "adult onset Still disease"
+        ],
+        "source_document_ids": [
+          "成人斯蒂尔病诊断及治疗指南"
+        ],
+        "evidence_ids": [
+          "成人斯蒂尔病(aduIt onset Still S disease，AOSD)。本病曾称为“变应性亚败血症”，1987年以后统一称为AOSD。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_aosd_typical",
+        "name": "典型成人斯蒂尔病",
+        "parent_disease_id": "disease_aosd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": 16,
+        "age_max": 35,
+        "evidence_ids": [
+          "好发年龄为 16～35岁，亦可见到高龄发病。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "发热：是本病最常见、最早出现的症状。80％以上的患者呈典型的弛张热，体温常达39℃以上。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_rash",
+        "name": "皮疹",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "皮疹：是本病的另一主要表现，约见于85％以上患者，典型皮疹为橘红色斑疹或斑丘疹，有时皮疹形态多变，可呈荨麻疹样皮疹。皮疹主要分布于躯干、四肢，也可见于面部。本病皮疹的特征是常与发热伴行，常在傍晚开始发热时出现，次日晨热退后皮疹亦消失。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_arthralgia",
+        "name": "关节痛",
+        "body_site": "关节",
+        "symptom_category": "肌肉骨骼系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "几乎 100％患者有关节疼痛，关节炎在90％以上。膝、腕关节最常累及，其次为踝、肩、肘关节，近端指间关节、掌指关节及远端指间关节亦可受累。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_arthritis",
+        "name": "关节炎",
+        "body_site": "关节",
+        "symptom_category": "肌肉骨骼系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "几乎 100％患者有关节疼痛，关节炎在90％以上。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_pharyngodynia",
+        "name": "咽痛",
+        "body_site": "咽部",
+        "symptom_category": "耳鼻喉系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "咽痛：多数患者在疾病早期有咽痛，有时存在于整个病程中，发热时咽痛出现或加重，退热后缓解。可有咽部充血，咽后壁淋巴滤泡增生及扁桃体肿大，咽拭子培养阴性，抗生素治疗无效。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_myalgia",
+        "name": "肌痛",
+        "body_site": "肌肉",
+        "symptom_category": "肌肉骨骼系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "肌肉疼痛常见，约占80％以上。多数患者发热时出现不同程度肌肉酸痛，部分患者出现肌无力及肌酶轻度增高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_lymphadenopathy",
+        "name": "淋巴结肿大",
+        "body_site": "全身淋巴结",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "可出现周围淋巴结肿大、肝脾大、腹痛(少数似急腹症)、胸膜炎、心包积液、心肌炎和肺炎。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hepatosplenomegaly",
+        "name": "肝脾大",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "可出现周围淋巴结肿大、肝脾大、腹痛(少数似急腹症)、胸膜炎、心包积液、心肌炎和肺炎。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_pleuritis",
+        "name": "胸膜炎",
+        "body_site": "胸膜",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "可出现周围淋巴结肿大、肝脾大、腹痛(少数似急腹症)、胸膜炎、心包积液、心肌炎和肺炎。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_pericarditis",
+        "name": "心包炎",
+        "body_site": "心包",
+        "symptom_category": "心血管系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "可出现周围淋巴结肿大、肝脾大、腹痛(少数似急腹症)、胸膜炎、心包积液、心肌炎和肺炎。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_pericardial_effusion",
+        "name": "心包积液",
+        "body_site": "心包",
+        "symptom_category": "心血管系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "可出现周围淋巴结肿大、肝脾大、腹痛(少数似急腹症)、胸膜炎、心包积液、心肌炎和肺炎。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_myocarditis",
+        "name": "心肌炎",
+        "body_site": "心肌",
+        "symptom_category": "心血管系统症状",
+        "polarity": "present",
+        "typicality": "less_common",
+        "evidence_ids": [
+          "可出现周围淋巴结肿大、肝脾大、腹痛(少数似急腹症)、胸膜炎、心包积液、心肌炎和肺炎。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_pneumonia",
+        "name": "肺炎",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "less_common",
+        "evidence_ids": [
+          "可出现周围淋巴结肿大、肝脾大、腹痛(少数似急腹症)、胸膜炎、心包积液、心肌炎和肺炎。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "less_common",
+        "evidence_ids": [
+          "可出现周围淋巴结肿大、肝脾大、腹痛(少数似急腹症)、胸膜炎、心包积液、心肌炎和肺炎。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_neurological_abnormality",
+        "name": "中枢神经系统异常",
+        "body_site": "中枢神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者可伴系统损害。少数患者可出现急性呼吸衰竭、充血性心力衰竭、心包填塞、缩窄性心包炎、弥漫性血管内凝血、严重贫血及坏死性淋巴结病。"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "symptom_peripheral_neuropathy",
+        "name": "周围神经系统损害",
+        "body_site": "周围神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者可伴系统损害。少数患者可出现急性呼吸衰竭、充血性心力衰竭、心包填塞、缩窄性心包炎、弥漫性血管内凝血、严重贫血及坏死性淋巴结病。"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "symptom_acute_respiratory_failure",
+        "name": "急性呼吸衰竭",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者可伴系统损害。少数患者可出现急性呼吸衰竭、充血性心力衰竭、心包填塞、缩窄性心包炎、弥漫性血管内凝血、严重贫血及坏死性淋巴结病。"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "symptom_congestive_heart_failure",
+        "name": "充血性心力衰竭",
+        "body_site": "心血管系统",
+        "symptom_category": "心血管系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者可伴系统损害。少数患者可出现急性呼吸衰竭、充血性心力衰竭、心包填塞、缩窄性心包炎、弥漫性血管内凝血、严重贫血及坏死性淋巴结病。"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "symptom_cardiac_tamponade",
+        "name": "心包填塞",
+        "body_site": "心包",
+        "symptom_category": "心血管系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者可伴系统损害。少数患者可出现急性呼吸衰竭、充血性心力衰竭、心包填塞、缩窄性心包炎、弥漫性血管内凝血、严重贫血及坏死性淋巴结病。"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "symptom_constrictive_pericarditis",
+        "name": "缩窄性心包炎",
+        "body_site": "心包",
+        "symptom_category": "心血管系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者可伴系统损害。少数患者可出现急性呼吸衰竭、充血性心力衰竭、心包填塞、缩窄性心包炎、弥漫性血管内凝血、严重贫血及坏死性淋巴结病。"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "symptom_dic",
+        "name": "弥漫性血管内凝血",
+        "body_site": "全身",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者可伴系统损害。少数患者可出现急性呼吸衰竭、充血性心力衰竭、心包填塞、缩窄性心包炎、弥漫性血管内凝血、严重贫血及坏死性淋巴结病。"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "symptom_severe_anemia",
+        "name": "严重贫血",
+        "body_site": "血液",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者可伴系统损害。少数患者可出现急性呼吸衰竭、充血性心力衰竭、心包填塞、缩窄性心包炎、弥漫性血管内凝血、严重贫血及坏死性淋巴结病。"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "symptom_necrotizing_lymphadenopathy",
+        "name": "坏死性淋巴结病",
+        "body_site": "淋巴结",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "严重者可伴系统损害。少数患者可出现急性呼吸衰竭、充血性心力衰竭、心包填塞、缩窄性心包炎、弥漫性血管内凝血、严重贫血及坏死性淋巴结病。"
+        ],
+        "confidence": 0.8
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_wbc",
+        "name": "白细胞计数",
+        "normal_range_min": 4.0,
+        "normal_range_max": 10.0,
+        "is_digital": 1,
+        "evidence_ids": [
+          "在疾病活动期，90％以上患者中性粒细胞增高，80％左右的患者血白细胞计数≥15xlO9／L。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_neutrophil_count",
+        "name": "中性粒细胞计数",
+        "normal_range_min": 2.0,
+        "normal_range_max": 7.0,
+        "is_digital": 1,
+        "evidence_ids": [
+          "在疾病活动期，90％以上患者中性粒细胞增高，80％左右的患者血白细胞计数≥15xlO9／L。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_platelet_count",
+        "name": "血小板计数",
+        "normal_range_min": 100,
+        "normal_range_max": 300,
+        "is_digital": 1,
+        "evidence_ids": [
+          "约 50％患者血小板计数升高，嗜酸粒细胞无改变。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_hemoglobin",
+        "name": "血红蛋白",
+        "normal_range_min": 120,
+        "normal_range_max": 160,
+        "is_digital": 1,
+        "evidence_ids": [
+          "可合并正细胞正色素性贫血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_esr",
+        "name": "红细胞沉降率",
+        "normal_range_min": 0,
+        "normal_range_max": 20,
+        "is_digital": 1,
+        "evidence_ids": [
+          "几乎 100％患者红细胞沉降率(ESR)增快。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_alt",
+        "name": "丙氨酸氨基转移酶",
+        "normal_range_min": 0,
+        "normal_range_max": 40,
+        "is_digital": 1,
+        "evidence_ids": [
+          "部分患者肝酶轻度增高。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "test_ast",
+        "name": "天冬氨酸氨基转移酶",
+        "normal_range_min": 0,
+        "normal_range_max": 40,
+        "is_digital": 1,
+        "evidence_ids": [
+          "部分患者肝酶轻度增高。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "test_blood_culture",
+        "name": "血液细菌培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "血液细菌培养：阴性。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_rf",
+        "name": "类风湿因子",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "类风湿因子(RF)和抗核抗体(ANA)：阴性，仅少数患者可呈低滴度阳性。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_ana",
+        "name": "抗核抗体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "类风湿因子(RF)和抗核抗体(ANA)：阴性，仅少数患者可呈低滴度阳性。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_serum_ferritin",
+        "name": "血清铁蛋白",
+        "normal_range_min": 30,
+        "normal_range_max": 400,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血清铁蛋白(SF)和糖化铁蛋白：SF升高和糖化铁蛋白比值下降对诊断AOSD有重要意义。本病sF水平增高，且其水平与病情活动呈正相关。因此SF不仅有助于本病诊断，而且对判断病情是否活动及评价治疗效果有一定意义。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_glycosylated_ferritin_ratio",
+        "name": "糖化铁蛋白比值",
+        "normal_range_min": 20,
+        "normal_range_max": 100,
+        "is_digital": 1,
+        "evidence_ids": [
+          "糖化铁蛋白比值下降是本病的另一个实验室特征，比sF更具特异性。为了防止铁蛋白被蛋白水解酶降解，健康人铁蛋白的50％～80％被糖基化，本病由于糖基化的饱和作用使糖化铁蛋白下降至<2O％，但是糖化铁蛋白不能作为评价疾病活动和疗效的指标，因为它在疾病缓解很多个月后仍然是减低的。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_joint_fluid_wbc",
+        "name": "关节滑液白细胞计数",
+        "normal_range_min": 0,
+        "normal_range_max": 200,
+        "is_digital": 1,
+        "evidence_ids": [
+          "滑液和浆膜腔积液：白细胞增高，呈炎性改变，其中以中性粒细胞增高为主。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_aosd_initial_management",
+        "content": "急性发热炎症期的治疗可首先单独使用非甾类抗炎药(NSAIDs)；对单用NSAIDs不缓解，加用糖皮质激素；仍不缓解或激素减量复发，加用改变病情抗风湿药物 (DMARDs)，首选甲氨蝶呤。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "急性发热炎症期的治疗可首先单独使用非甾类抗炎药(NSAIDs)；对单用NSAIDs不缓解，加用糖皮质激素，常用泼尼松0．5～1 nag·kg ·d-t；仍不缓解或激素减量复发，加用改变病情抗风湿药物 (DMARDs)，首选甲氨蝶呤。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_aosd_disease_control",
+        "content": "如能及早诊断、合理治疗，可以控制发作、防止复发。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "本病尚无根治方法，但如能及早诊断、合理治疗，可以控制发作、防止复发。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_nsaids_initial",
+        "content": "急性发热炎症期的治疗可首先单独使用非甾类抗炎药(NSAIDs)。",
+        "plan_level": 1,
+        "applicable_condition": "急性发热炎症期",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "急性发热炎症期的治疗可首先单独使用非甾类抗炎药(NSAIDs)。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_prednisone_standard",
+        "content": "常用泼尼松0．5～1 mg·kg⁻¹·d⁻¹。",
+        "plan_level": 2,
+        "applicable_condition": "单用NSAIDs无效，症状控制不好",
+        "contraindication_note": "长期服用激素者应注意感染、骨质疏松等并发症。",
+        "evidence_ids": [
+          "对单用NSAIDs无效，症状控制不好，常用泼尼松0．5～1 mg·kg⁻¹·d⁻¹，待症状控制、病情稳定 1-3个月以后可逐渐减量，然后以最小有效量维持。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_prednisone_high_dose",
+        "content": "病情严重者如顽固发热、重要脏器损害、严重血管炎、ESR极快、常规DMARDs联合治疗半年以上效果差，需用大剂量激素(泼尼松≥1．0 mg·kg⁻¹·d⁻¹)，也可用甲泼尼龙冲击治疗，通常剂量每次500～1000 mg,缓慢静脉滴注，可连用3 d。",
+        "plan_level": 2,
+        "applicable_condition": "病情严重者如顽固发热、重要脏器损害、严重血管炎、ESR极快、常规DMARDs联合治疗半年以上效果差",
+        "contraindication_note": "必要时卜3周后可重复使用，间隔期和冲击后继续口服泼尼松。",
+        "evidence_ids": [
+          "病情严重者如顽固发热、重要脏器损害、严重血管炎、ESR极快、常规DMARDs联合治疗半年以上效果差，需用大剂量激素(泼尼松≥1．0 mg·kg⁻¹·d⁻¹)，也可用甲泼尼龙冲击治疗，通常剂量每次500～1000 mg,缓慢静脉滴注，可连用3 d。必要时卜3周后可重复使用，间隔期和冲击后继续口服泼尼松。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_methotrexate_first_line",
+        "content": "激素仍不能控制发热或激素减量即复发者，或关节炎表现明显者，应尽早加用 DMARDs。使用 DMARDs时首选甲氨蝶呤(MTX)。",
+        "plan_level": 3,
+        "applicable_condition": "激素仍不能控制发热或激素减量即复发者，或关节炎表现明显者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "激素仍不能控制发热或激素减量即复发者，或关节炎表现明显者，应尽早加用 DMARDs。使用 DMARDs时首选甲氨蝶呤(MTX)；单用 MTX仍不缓解，或转入以关节炎为主要表现的慢性期时，在此基础上，采用联合其他DMARDs策略。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_methotrexate_dose",
+        "content": "常用剂量为7．5～20 mg／周，个别重症患者可以酌情加大剂量。",
+        "plan_level": 3,
+        "applicable_condition": "使用甲氨蝶呤治疗",
+        "contraindication_note": "服药期间，应定期查血常规和肝功能。",
+        "evidence_ids": [
+          "常用剂量为7．5～20 mg／周，个别重症患者可以酌情加大剂量。常见的不良反应有恶心、口腔炎、腹泻、脱发、皮疹，少数出现骨髓抑制、肝功能受损和肺间质病变，也可引起流产、畸胎和影响生育能力。服药期间，应定期查血常规和肝功能。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_leflunomide",
+        "content": "如患者对 MTX不能耐受或疗效不佳可改用或联合使用来氟米特(LEF)，在使用LEF基础上还可与其他 DMARDs联合。",
+        "plan_level": 4,
+        "applicable_condition": "MTX不能耐受或疗效不佳",
+        "contraindication_note": "因有致畸作用，故孕妇禁服。",
+        "evidence_ids": [
+          "如患者对 MTX不能耐受或疗效不佳可改用或联合使用来氟米特(LEF)，在使用LEF基础上还可与其他 DMARDs联合。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_hydroxychloroquine",
+        "content": "氯喹250 mg／d，羟氯喹200～400 mg／d。",
+        "plan_level": 4,
+        "applicable_condition": "慢性期，以关节炎为主要表现时",
+        "contraindication_note": "为防止心肌损害，用药前应常规查心电图，有窦房结功能不全、心率缓慢、传导阻滞等心脏患者应禁用。",
+        "evidence_ids": [
+          "该药起效慢，服用后3~4个月疗效达高峰，至少连服6个月后才能宣布无效，有效后可减量维持。用法为：氯喹250 mg／d，羟氯喹200 400 mg／d。本药有蓄积作用，服药半年左右应查眼底。另外，为防止心肌损害，用药前应常规查心电图，有窦房结功能不全、心率缓慢、传导阻滞等心脏患者应禁用。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_azathioprine",
+        "content": "硫唑嘌呤(AZA)：口服后约50％吸收。常用剂量 1～2 mg·kg⁻¹·d⁻¹，一般 100 mg／d，维持量为50 mg／d。",
+        "plan_level": 4,
+        "applicable_condition": "其他DMARDs疗效不佳时",
+        "contraindication_note": "服药期间应定期查血常规和肝功能等，用药最初前 8周，应每周至少复查全血细胞计数 1次。",
+        "evidence_ids": [
+          "硫唑嘌呤(AZA)：口服后约50％吸收。常用剂量 1～2 mg·kg⁻¹·d⁻¹，一般 100 mg／d，维持量为50 mg／d。不良反应有脱发、皮疹、骨髓抑制(包括白细胞及血小板减少、贫血)。胃肠道反应有恶心、呕吐，可有肝损害等。服药期间应定期查血常规和肝功能等，用药最初前 8周，应每周至少复查全血细胞计数 1次。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_sulfasalazine",
+        "content": "柳氮磺吡啶(SASP)：一般服用4～8周后起效。从小剂量逐渐加量有助于减少不良反应，使用方法：每日250～500 mg开始，之后每周增加 500 mg，直至每日2．0 g，如疗效不明显可增至每日3．0 g，如 4个月内无明显疗效 ，应改变治疗方案。",
+        "plan_level": 4,
+        "applicable_condition": "其他DMARDs疗效不佳时",
+        "contraindication_note": "对磺胺过敏者禁用。",
+        "evidence_ids": [
+          "柳氮磺吡啶(SASP)：一般服用4～8周后起效。从小剂量逐渐加量有助于减少不良反应，使用方法：每日250～500 mg开始，之后每周增加 500 mg，直至每日2．0 g，如疗效不明显可增至每日3．0 g，如 4个月内无明显疗效 ，应改变治疗方案。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_cyclosporine_a",
+        "content": "环孢素A(CsA)：口服起始量为3～5 mg·kg⁻¹·d⁻¹，维持量为 2-3 mg·kg⁻¹·d⁻¹。",
+        "plan_level": 4,
+        "applicable_condition": "重症患者",
+        "contraindication_note": "常见的不良反应包括：高血压、肝毒性、肾毒性、神经系统损害、继发感染及胃肠道反应等。",
+        "evidence_ids": [
+          "环孢素A(CsA)：LI服起始量为3～5 mg·kg⁻¹·d⁻¹，维持量为 2-3 mg·kg⁻¹·d⁻¹。常见的不良反应包括：高血压、肝毒性、肾毒性、神经系统损害、继发感染及胃肠道反应等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_cyclophosphamide",
+        "content": "重症患者还可使用环磷酰胺(CTX)治疗。CTX有冲击疗法及小剂量用法，两者相比较，冲击疗法不良反应较小。冲击疗法为500～1000 mg／m²体表面积，每 3～4周 1次，均经静脉滴注。小剂量为 1～2 mg·kg⁻¹·d⁻¹，一般 100 mg／d，维持量为50 mg／d。",
+        "plan_level": 4,
+        "applicable_condition": "重症患者",
+        "contraindication_note": "常见的不良反应包括：恶心呕吐、骨髓抑制、出血性膀胱炎及膀胱癌(我国较少见)、肝损害及黄疸、脱发、感染、致畸和性腺抑制。",
+        "evidence_ids": [
+          "重症患者还可使用环磷酰胺(CTX)治疗。CTX有冲击疗法及小剂量用法，两者相比较，冲击疗法不良反应较小。冲击疗法为500～1000 mg／m²体表面积，每 3～4周 1次，均经静脉滴注。小剂量为 1～2 mg·kg⁻¹·d⁻¹，一般 100 mg／d，维持量为50 mg／d。常见的不良反应包括：恶心呕吐、骨髓抑制、出血性膀胱炎及膀胱癌(我国较少见)、肝损害及黄疸、脱发、感染、致畸和性腺抑制。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_unknown",
+        "content": "本病病因尚不清楚。",
+        "etiology_type": "未知因素",
+        "typicality": "unknown",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "本病病因尚不清楚。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_infection_exclusion",
+        "content": "感染性疾病（败血症、脓肿、病毒感染、亚急性细菌性心内膜炎、脑膜炎双球菌菌血症、淋球菌菌血症、结核病、莱姆病、布鲁杆菌病、梅毒、风湿热）",
+        "etiology_type": "感染因素",
+        "typicality": "exclusion",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "在诊断AOSD之前应注意排除下列疾病。3．2．2．2 感染性疾病：在感染性疾病中要特别注意败血症、组织器官的脓肿和某些病毒感染。病毒感染(乙型肝炎病毒、风疹病毒、微小病毒、柯萨奇病毒、EB病毒、巨细胞病毒、人类免疫缺陷病毒等)，亚急性细菌性心内膜炎，脑膜炎双球菌菌血症，淋球菌菌血症及其他细菌引起的菌血症或败血症，结核病，莱姆病(Lyme病)，布鲁杆菌病，梅毒和风湿热等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_malignancy_exclusion",
+        "content": "恶性肿瘤（白血病、淋巴瘤、恶性组织细胞病、支气管肺癌、纵隔肉瘤样癌、腹膜后网织细胞肉瘤）",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "exclusion",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "3．2．2．1 恶性肿瘤：白血病、淋巴瘤、恶性组织细胞病等血液系统肿瘤。……还有随访报道支气管肺癌、纵隔肉瘤样癌、腹膜后网织细胞肉瘤等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_ctd_exclusion",
+        "content": "其他结缔组织病（类风湿关节炎、系统性红斑狼疮、原发性干燥综合征、皮肌炎／多肌炎、混合性结缔组织病）、血管炎（结节性多动脉炎、韦格纳肉芽肿病、血栓性血小板减少性紫癜、大动脉炎）",
+        "etiology_type": "自身免疫因素",
+        "typicality": "exclusion",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "3．2．2．3 其他结缔组织病：RA、SLE、原发陛SS、PM、混合性结缔组织病等，还有血管炎：如结节性多动脉炎、韦格纳肉芽肿病、血栓性血小板减少性紫癜、大动脉炎等。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_unknown",
+        "content": "本病病因尚不清楚。",
+        "evidence_ids": [
+          "本病病因尚不清楚。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_aosd",
+        "to": "sub_disease_aosd_typical",
+        "relation_id": "rel_aosd_has_typical_aosd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "好发年龄为 16～35岁，亦可见到高龄发病。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "symptom_fever",
+        "relation_id": "rel_aosd_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "Cush_1",
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "发热：是本病最常见、最早出现的症状。80％以上的患者呈典型的弛张热，体温常达39℃以上。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘发热是本病最常见、最早出现的症状’，且‘80％以上患者呈典型的弛张热’，属核心典型表现",
+        "evidence": "发热：是本病最常见、最早出现的症状。80％以上的患者呈典型的弛张热，体温常达39℃以上。"
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "symptom_rash",
+        "relation_id": "rel_aosd_manifests_as_rash",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "Cush_2",
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "皮疹：是本病的另一主要表现，约见于85％以上患者，典型皮疹为橘红色斑疹或斑丘疹，有时皮疹形态多变，可呈荨麻疹样皮疹。皮疹主要分布于躯干、四肢，也可见于面部。本病皮疹的特征是常与发热伴行，常在傍晚开始发热时出现，次日晨热退后皮疹亦消失。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘皮疹是本病的另一主要表现，约见于85％以上患者’，并详述典型形态与伴行规律",
+        "evidence": "皮疹：是本病的另一主要表现，约见于85％以上患者，典型皮疹为橘红色斑疹或斑丘疹"
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "symptom_arthralgia",
+        "relation_id": "rel_aosd_manifests_as_arthralgia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "Cush_3",
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "几乎 100％患者有关节疼痛，关节炎在90％以上。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘几乎100％患者有关节疼痛’，属极高频、近乎普遍症状",
+        "evidence": "几乎100％患者有关节疼痛，关节炎在90％以上。"
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "symptom_arthritis",
+        "relation_id": "rel_aosd_manifests_as_arthritis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "Cush_3",
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "几乎 100％患者有关节疼痛，关节炎在90％以上。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文紧接上句‘关节炎在90％以上’，与关节痛并列为核心临床表现",
+        "evidence": "几乎100％患者有关节疼痛，关节炎在90％以上。"
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "symptom_pharyngodynia",
+        "relation_id": "rel_aosd_manifests_as_pharyngodynia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": "Japanese_1",
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "咽痛：多数患者在疾病早期有咽痛，有时存在于整个病程中，发热时咽痛出现或加重，退热后缓解。可有咽部充血，咽后壁淋巴滤泡增生及扁桃体肿大，咽拭子培养阴性，抗生素治疗无效。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "symptom_myalgia",
+        "relation_id": "rel_aosd_manifests_as_myalgia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": "Japanese_2",
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "肌肉疼痛常见，约占80％以上。多数患者发热时出现不同程度肌肉酸痛，部分患者出现肌无力及肌酶轻度增高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "symptom_lymphadenopathy",
+        "relation_id": "rel_aosd_manifests_as_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": "Cush_4",
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "可出现周围淋巴结肿大、肝脾大、腹痛(少数似急腹症)、胸膜炎、心包积液、心肌炎和肺炎。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "symptom_hepatosplenomegaly",
+        "relation_id": "rel_aosd_manifests_as_hepatosplenomegaly",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": "Cush_4",
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "可出现周围淋巴结肿大、肝脾大、腹痛(少数似急腹症)、胸膜炎、心包积液、心肌炎和肺炎。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "symptom_pleuritis",
+        "relation_id": "rel_aosd_manifests_as_pleuritis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": "Cush_4",
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "可出现周围淋巴结肿大、肝脾大、腹痛(少数似急腹症)、胸膜炎、心包积液、心肌炎和肺炎。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "symptom_pericarditis",
+        "relation_id": "rel_aosd_manifests_as_pericarditis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": "Cush_4",
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "可出现周围淋巴结肿大、肝脾大、腹痛(少数似急腹症)、胸膜炎、心包积液、心肌炎和肺炎。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "test_wbc",
+        "relation_id": "rel_aosd_requires_wbc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 15.0,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "×10⁹/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "Cush_1",
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "80％左右的患者血白细胞计数≥15xlO9／L。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘外周血白细胞显著增高’且列为Cush标准必备条件之一，诊断要点中列为第④项",
+        "evidence": "外周血白细胞显著增高，主要为中性粒细胞增高，血培养阴性。"
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "test_esr",
+        "relation_id": "rel_aosd_requires_esr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mm/h",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "Cush_1",
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "几乎 100％患者红细胞沉降率(ESR)增快。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘几乎100％患者红细胞沉降率(ESR)增快’，且诊断要点中列为关键阳性指标",
+        "evidence": "几乎100％患者红细胞沉降率(ESR)增快。"
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "test_rf",
+        "relation_id": "rel_aosd_requires_rf",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阴性",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "Cush_1",
+        "required_count": null,
+        "polarity": "negative",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "类风湿因子(RF)和抗核抗体(ANA)：阴性，仅少数患者可呈低滴度阳性。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确RF为Cush标准必备条件③，且诊断要点中强调‘多数患者RF和ANA均阴性’，属强制排除性检测",
+        "evidence": "必备条件：①发热≥39℃；②关节痛或关节炎；③RF<1：80；④ANA<1：100。"
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "test_ana",
+        "relation_id": "rel_aosd_requires_ana",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阴性",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "Cush_1",
+        "required_count": null,
+        "polarity": "negative",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "类风湿因子(RF)和抗核抗体(ANA)：阴性，仅少数患者可呈低滴度阳性。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确ANA为Cush标准必备条件④，且诊断要点中强调‘多数患者RF和ANA均阴性’，属强制排除性检测",
+        "evidence": "必备条件：①发热≥39℃；②关节痛或关节炎；③RF<1：80；④ANA<1：100。"
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "test_serum_ferritin",
+        "relation_id": "rel_aosd_requires_serum_ferritin",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持证据",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": ">",
+        "unit": "ng/mL",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "Japanese_3",
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "血清铁蛋白(SF)和糖化铁蛋白：SF升高和糖化铁蛋白比值下降对诊断AOSD有重要意义。本病sF水平增高，且其水平与病情活动呈正相关。因此SF不仅有助于本病诊断，而且对判断病情是否活动及评价治疗效果有一定意义。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘SF升高……对诊断AOSD有重要意义’，且‘SF不仅有助于本病诊断，而且对判断病情是否活动及评价治疗效果有一定意义’",
+        "evidence": "血清铁蛋白(SF)和糖化铁蛋白：SF升高和糖化铁蛋白比值下降对诊断AOSD有重要意义。"
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "test_glycosylated_ferritin_ratio",
+        "relation_id": "rel_aosd_requires_glycosylated_ferritin_ratio",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持证据",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": 20.0,
+        "operator": "<",
+        "unit": "%",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "Japanese_3",
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "糖化铁蛋白比值下降是本病的另一个实验室特征，比sF更具特异性。为了防止铁蛋白被蛋白水解酶降解，健康人铁蛋白的50％～80％被糖基化，本病由于糖基化的饱和作用使糖化铁蛋白下降至<2O％，但是糖化铁蛋白不能作为评价疾病活动和疗效的指标，因为它在疾病缓解很多个月后仍然是减低的。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确‘糖化铁蛋白比值下降是本病的另一个实验室特征，比SF更具特异性’，且列为同一子条目下核心指标",
+        "evidence": "糖化铁蛋白比值下降是本病的另一个实验室特征，比sF更具特异性。"
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "test_blood_culture",
+        "relation_id": "rel_aosd_requires_blood_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "排除条件",
+        "diagnostic_role": "exclusion",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阴性",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "negative",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "血液细菌培养：阴性。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在‘2.2.3 血液细菌培养：阴性’单独成条，且诊断要点中强调‘多种抗生素治疗无效，而糖皮质激素治疗有效’，阴性结果为排除感染的关键依据",
+        "evidence": "2．2．3血液细菌培养：阴性。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "treatment_aosd_initial_management",
+        "relation_id": "rel_aosd_follows_initial_management",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "急性发热炎症期",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "临床表现"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "treatment_aosd_disease_control",
+        "relation_id": "rel_aosd_follows_disease_control",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "不限定",
+        "applicable_condition": "确诊后全程管理",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病性质"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_aosd_initial_management",
+        "to": "plan_nsaids_initial",
+        "relation_id": "rel_treatment_implements_by_nsaids",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "急性发热炎症期",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "急性发热炎症期的治疗可首先单独使用非甾类抗炎药(NSAIDs)。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_aosd_initial_management",
+        "to": "plan_prednisone_standard",
+        "relation_id": "rel_treatment_implements_by_prednisone_standard",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "二线",
+        "applicable_condition": "单用NSAIDs无效，症状控制不好",
+        "contraindication_note": "长期服用激素者应注意感染、骨质疏松等并发症。",
+        "evidence_ids": [
+          "对单用NSAIDs无效，症状控制不好，常用泼尼松0．5～1 mg·kg⁻¹·d⁻¹，待症状控制、病情稳定 1-3个月以后可逐渐减量，然后以最小有效量维持。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_aosd_initial_management",
+        "to": "plan_prednisone_high_dose",
+        "relation_id": "rel_treatment_implements_by_prednisone_high_dose",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "三线",
+        "applicable_condition": "病情严重者如顽固发热、重要脏器损害、严重血管炎、ESR极快、常规DMARDs联合治疗半年以上效果差",
+        "contraindication_note": "必要时卜3周后可重复使用，间隔期和冲击后继续口服泼尼松。",
+        "evidence_ids": [
+          "病情严重者如顽固发热、重要脏器损害、严重血管炎、ESR极快、常规DMARDs联合治疗半年以上效果差，需用大剂量激素(泼尼松≥1．0 mg·kg⁻¹·d⁻¹)，也可用甲泼尼龙冲击治疗，通常剂量每次500～1000 mg,缓慢静脉滴注，可连用3 d。必要时卜3周后可重复使用，间隔期和冲击后继续口服泼尼松。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_aosd_initial_management",
+        "to": "plan_methotrexate_first_line",
+        "relation_id": "rel_treatment_implements_by_methotrexate",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "二线/三线",
+        "applicable_condition": "激素仍不能控制发热或激素减量即复发者，或关节炎表现明显者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "激素仍不能控制发热或激素减量即复发者，或关节炎表现明显者，应尽早加用 DMARDs。使用 DMARDs时首选甲氨蝶呤(MTX)；单用 MTX仍不缓解，或转入以关节炎为主要表现的慢性期时，在此基础上，采用联合其他DMARDs策略。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "etiology_unknown",
+        "relation_id": "rel_aosd_causes_unknown",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "unknown",
+        "typicality": "unknown",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "本病病因尚不清楚。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_aosd_typical",
+        "to": "pathogenesis_unknown",
+        "relation_id": "rel_aosd_explained_by_unknown",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "本病病因尚不清楚。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

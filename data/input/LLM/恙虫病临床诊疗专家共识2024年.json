@@ -1,0 +1,945 @@
+{
+  "meta": {
+    "doc_id": "恙虫病临床诊疗专家共识",
+    "source_title": "恙虫病临床诊疗专家共识",
+    "section_path": "",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_scrub_typhus",
+        "name": "恙虫病",
+        "normalized_name": "恙虫病",
+        "aliases": [
+          "丛林斑疹伤寒",
+          "洪水热",
+          "日本江河热",
+          "恙螨传立克次体病"
+        ],
+        "source_document_ids": [
+          "恙虫病临床诊疗专家共识"
+        ],
+        "evidence_ids": [
+          "恙虫病，又名丛林斑疹伤寒（Scrub Typhus或 Tsutsugamushi Disease）、洪水热（Floodfever）、日本江河热（Japanese River Fever）、恙螨传立克次体病（Chigger-borne Rickettsioses），是一种由恙虫病东方体（Orientia tsutsugamushi）感染引起的急性自然疫源性传染病"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "name": "临床诊断恙虫病",
+        "parent_disease_id": "disease_scrub_typhus",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "四、临床诊断病例：疑似病例加 2.4；或同时具备 1.、2.1 和 2.4三项。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_scrub_typhus_laboratory_diagnosis",
+        "name": "实验室诊断恙虫病",
+        "parent_disease_id": "disease_scrub_typhus",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "五、实验室诊断病例：疑似病例加 3.2、3.3、3.4、3.5 中的任何一项；或临床诊断病例加 3.中的任何一项；或皮疹加三、四和五的任意一项。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_scrub_typhus_suspected",
+        "name": "疑似恙虫病",
+        "parent_disease_id": "disease_scrub_typhus",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "三、疑似病例：具备 1.和 2.1，加 2.2、2.3 任何一条，且明确排除其他疾病；或无明确流行病学史，在流行季节同时具备 2.1、2.2和 2.3三项。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "临床以发热、皮疹、特征性焦痂与溃疡、淋巴结及肝脾肿大为特征"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_eschar",
+        "name": "焦痂",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "焦痂与溃疡，是恙螨叮咬后局部组织坏死形成的特异性体征，是临床诊断恙虫病的重要线索，可见于 70%～100％的患者"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_ulcer",
+        "name": "溃疡",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "焦痂与溃疡，是恙螨叮咬后局部组织坏死形成的特异性体征，是临床诊断恙虫病的重要线索"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_lymphadenopathy",
+        "name": "淋巴结肿大",
+        "body_site": "全身淋巴结",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "临床以发热、皮疹、特征性焦痂与溃疡、淋巴结及肝脾肿大为特征"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_rash",
+        "name": "皮疹",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "临床以发热、皮疹、特征性焦痂与溃疡、淋巴结及肝脾肿大为特征"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hepatosplenomegaly",
+        "name": "肝脾肿大",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "临床以发热、皮疹、特征性焦痂与溃疡、淋巴结及肝脾肿大为特征"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_headache",
+        "name": "头痛",
+        "body_site": "头部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "多伴有畏寒、寒战、剧烈头痛、全身酸痛、疲乏、嗜睡、食欲下降、恶心、呕吐、颜面潮红、眼结膜充血、畏光、失眠等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_myalgia",
+        "name": "全身酸痛",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "多伴有畏寒、寒战、剧烈头痛、全身酸痛、疲乏、嗜睡、食欲下降、恶心、呕吐、颜面潮红、眼结膜充血、畏光、失眠等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "疲乏",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "多伴有畏寒、寒战、剧烈头痛、全身酸痛、疲乏、嗜睡、食欲下降、恶心、呕吐、颜面潮红、眼结膜充血、畏光、失眠等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_nausea",
+        "name": "恶心",
+        "body_site": "消化道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "多伴有畏寒、寒战、剧烈头痛、全身酸痛、疲乏、嗜睡、食欲下降、恶心、呕吐、颜面潮红、眼结膜充血、畏光、失眠等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_vomiting",
+        "name": "呕吐",
+        "body_site": "消化道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "多伴有畏寒、寒战、剧烈头痛、全身酸痛、疲乏、嗜睡、食欲下降、恶心、呕吐、颜面潮红、眼结膜充血、畏光、失眠等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_conjunctival_hyperemia",
+        "name": "眼结膜充血",
+        "body_site": "眼部",
+        "symptom_category": "五官症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "多伴有畏寒、寒战、剧烈头痛、全身酸痛、疲乏、嗜睡、食欲下降、恶心、呕吐、颜面潮红、眼结膜充血、畏光、失眠等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_photophobia",
+        "name": "畏光",
+        "body_site": "眼部",
+        "symptom_category": "五官症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "多伴有畏寒、寒战、剧烈头痛、全身酸痛、疲乏、嗜睡、食欲下降、恶心、呕吐、颜面潮红、眼结膜充血、畏光、失眠等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_coma",
+        "name": "昏迷",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "病程第 2 周时病情常加重，可出现表情淡漠、重听、谵妄、甚至抽搐或昏迷、颈强直等神经系统症状"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_seizure",
+        "name": "抽搐",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "病程第 2 周时病情常加重，可出现表情淡漠、重听、谵妄、甚至抽搐或昏迷、颈强直等神经系统症状"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_meningismus",
+        "name": "颈强直",
+        "body_site": "颈部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "病程第 2 周时病情常加重，可出现表情淡漠、重听、谵妄、甚至抽搐或昏迷、颈强直等神经系统症状"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_cough",
+        "name": "咳嗽",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "还可出现咳嗽、胸痛等肺炎症状"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_chest_pain",
+        "name": "胸痛",
+        "body_site": "胸部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "还可出现咳嗽、胸痛等肺炎症状"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_epistaxis",
+        "name": "鼻出血",
+        "body_site": "鼻部",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "少数患者可有广泛出血现象，如鼻出血、胃肠道出血等"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_gastrointestinal_bleeding",
+        "name": "胃肠道出血",
+        "body_site": "消化道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "少数患者可有广泛出血现象，如鼻出血、胃肠道出血等"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_weil_felix_test",
+        "name": "外斐试验",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.1 外斐试验阳性：单份血清 OX 效价≥1:160；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_ifa_igm",
+        "name": "IFA IgM检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.2 IFA IgM≥12 800，或双份血清 IFA检测 IgM 滴度 4倍及以上升高；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_pcr_56kda",
+        "name": "56 kDa基因PCR",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.3 针对靶基因 56 kDa，47 kDa，groEL的 PCR反应至少 2个阳性；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_pcr_47kda",
+        "name": "47 kDa基因PCR",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.3 针对靶基因 56 kDa，47 kDa，groEL的 PCR反应至少 2个阳性；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_pcr_groel",
+        "name": "groEL基因PCR",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.3 针对靶基因 56 kDa，47 kDa，groEL的 PCR反应至少 2个阳性；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_pathogen_isolation",
+        "name": "病原体分离",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.4 分离到病原体；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_gica_igm",
+        "name": "胶体金免疫层析试验（GICA）IgM检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3.5 胶体金免疫层析试验（GICA）中 IgM 阳性。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_scrub_typhus_etiology",
+        "content": "恙虫病治疗措施包括一般治疗、病因治疗以及对症支持治疗。",
+        "recommendation_strength": "unknown",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "恙虫病治疗措施包括一般治疗、病因治疗以及对症支持治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_doxycycline_adult_oral",
+        "content": "多西环素推荐剂量：成人 0.1 g，每日 2 次，首剂加倍；抗感染疗程至少持续到体温复常后 3 d，临床症状改善并稳定，一般 7～10 d。",
+        "plan_level": 1,
+        "applicable_condition": "轻症患者口服抗菌药治疗即可有效",
+        "contraindication_note": "多西环素可能导致胎儿骨骼畸形，妊娠妇女不宜使用；哺乳期妇女如需用药，应暂停哺乳。考虑对骨骼生长和牙齿的影响，四环素类药物一般不用 8 岁以下儿童，仅在出现严重、甚至危及生命的感染且无其它替代治疗情况下才考虑使用。",
+        "evidence_ids": [
+          "多西环素推荐剂量：成人 0.1 g，每日 2 次，首剂加倍；抗感染疗程至少持续到体温复常后 3 d，临床症状改善并稳定，一般 7～10 d。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_doxycycline_child_oral",
+        "content": "体重在≤45 kg 的儿童 2.2 mg/kg，每日 2 次，体重＞45 kg，用法用量同成人。",
+        "plan_level": 1,
+        "applicable_condition": "轻症患者口服抗菌药治疗即可有效",
+        "contraindication_note": "四环素类药物一般不用 8 岁以下儿童，仅在出现严重、甚至危及生命的感染且无其它替代治疗情况下才考虑使用。",
+        "evidence_ids": [
+          "体重在≤45 kg 的儿童 2.2 mg/kg，每日 2 次，体重＞45 kg，用法用量同成人。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_doxycycline_adult_iv",
+        "content": "重症患者可选择静脉滴注给药，成人第 1天 0.2 mg，分 1～2次静滴，以后根据感染程度每日 0.1～0.2 g静滴；",
+        "plan_level": 1,
+        "applicable_condition": "重症患者建议采用肠外途径给药",
+        "contraindication_note": "多西环素可能导致胎儿骨骼畸形，妊娠妇女不宜使用；哺乳期妇女如需用药，应暂停哺乳。",
+        "evidence_ids": [
+          "重症患者可选择静脉滴注给药，成人第 1天 0.2 mg，分 1～2次静滴，以后根据感染程度每日 0.1～0.2 g静滴；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_doxycycline_child_iv",
+        "content": "体重≤45kg儿童第 1天 4 mg/kg，分 1～2次静滴，以后根据感染程度，每日 2～4 mg/kg，体重＞45 kg 者，用法用量同成人。",
+        "plan_level": 1,
+        "applicable_condition": "重症患者建议采用肠外途径给药",
+        "contraindication_note": "四环素类药物一般不用 8 岁以下儿童，仅在出现严重、甚至危及生命的感染且无其它替代治疗情况下才考虑使用。",
+        "evidence_ids": [
+          "体重≤45kg儿童第 1天 4 mg/kg，分 1～2次静滴，以后根据感染程度，每日 2～4 mg/kg，体重＞45 kg 者，用法用量同成人。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_azithromycin_adult_oral",
+        "content": "阿奇霉素成人 0.5 g，每日 1 次，退热后 0.25 g，每日 1 次；",
+        "plan_level": 2,
+        "applicable_condition": "孕妇或儿童可使用阿奇霉素或氯霉素替代",
+        "contraindication_note": "孕妇及哺乳期妇女需慎用。",
+        "evidence_ids": [
+          "阿奇霉素成人 0.5 g，每日 1 次，退热后 0.25 g，每日 1 次；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_azithromycin_child_oral",
+        "content": "儿童 10 mg/kg (每天最多不超过 0.5g），顿服，退热后剂量减半；",
+        "plan_level": 2,
+        "applicable_condition": "孕妇或儿童可使用阿奇霉素或氯霉素替代",
+        "contraindication_note": "孕妇及哺乳期妇女需慎用。",
+        "evidence_ids": [
+          "儿童 10 mg/kg (每天最多不超过 0.5g），顿服，退热后剂量减半；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_azithromycin_iv",
+        "content": "亦可静脉滴注阿奇霉素，用 5 mL 注射用水充分溶解阿奇霉素 0.5 g，配制成 0.1 g/mL，再加入至 250 mL 或 500 mL 的生理氯化钠或 5％葡萄糖液中，阿奇霉素浓度为 1～2 mg/ mL，滴注时间 1～3 h，每日静脉滴注 1次，退热后改为口服，剂量减半。",
+        "plan_level": 2,
+        "applicable_condition": "孕妇或儿童可使用阿奇霉素或氯霉素替代",
+        "contraindication_note": "孕妇及哺乳期妇女需慎用。",
+        "evidence_ids": [
+          "亦可静脉滴注阿奇霉素，用 5 mL 注射用水充分溶解阿奇霉素 0.5 g，配制成 0.1 g/mL，再加入至 250 mL 或 500 mL 的生理氯化钠或 5％葡萄糖液中，阿奇霉素浓度为 1～2 mg/ mL，滴注时间 1～3 h，每日静脉滴注 1次，退热后改为口服，剂量减半。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_chloramphenicol_adult_oral",
+        "content": "氯霉素成人每日 2.0 g，分 4 次口服，危重患者亦可予静脉滴注，患者体温多于 1d后恢复正常；退热后每日 0.5 g，分 2次口服，疗程 7～10 d。",
+        "plan_level": 2,
+        "applicable_condition": "孕妇或儿童可使用阿奇霉素或氯霉素替代",
+        "contraindication_note": "氯霉素可引起外周血白细胞和血小板减少，有可能诱发不可逆性再生障碍性贫血，而发生再障者可有数周至数月的潜伏期，不易被早期发现；此外，尚可发生溶血性贫血、过敏反应等。",
+        "evidence_ids": [
+          "氯霉素成人每日 2.0 g，分 4 次口服，危重患者亦可予静脉滴注，患者体温多于 1d后恢复正常；退热后每日 0.5 g，分 2次口服，疗程 7～10 d。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_chloramphenicol_child_oral",
+        "content": "小儿每日 25～40 mg/kg ，分 3～4 次服用；新生儿每日不超过 25 mg/ kg，分 4 次服用。",
+        "plan_level": 2,
+        "applicable_condition": "孕妇或儿童可使用阿奇霉素或氯霉素替代",
+        "contraindication_note": "氯霉素可引起外周血白细胞和血小板减少，有可能诱发不可逆性再生障碍性贫血，而发生再障者可有数周至数月的潜伏期，不易被早期发现；此外，尚可发生溶血性贫血、过敏反应等。",
+        "evidence_ids": [
+          "小儿每日 25～40 mg/kg ，分 3～4 次服用；新生儿每日不超过 25 mg/ kg，分 4 次服用。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_rifampicin_oral",
+        "content": "推荐 600 mg 标准剂量每日 1 次治疗。",
+        "plan_level": 3,
+        "applicable_condition": "仅在排除活动性结核病后，才可以考虑利福平作为二线治疗选择。",
+        "contraindication_note": "鉴于中国是结核病高发地区，单用利福平有诱发耐药风险，临床医生应谨慎将利福平作为恙虫病的一线治疗选择。",
+        "evidence_ids": [
+          "因此，推荐 600 mg 标准剂量每日 1 次治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_orientia_tsutsugamushi",
+        "content": "恙虫病东方体（Orientia tsutsugamushi）",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "恙虫病是由恙虫病东方体感染引起的一种自然疫源性疾病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_chigger_bite",
+        "content": "恙螨幼虫叮咬",
+        "etiology_type": "传播途径",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "经恙螨幼虫叮咬传播"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_rodent_reservoir",
+        "content": "啮齿动物",
+        "etiology_type": "传染源",
+        "typicality": "common",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "啮齿动物，是恙虫病的主要传染源。城镇以家鼠为主，农村以社鼠、黄毛鼠为主。兔、猪、猫等也能感染。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_intracellular_parasitism",
+        "content": "恙虫病东方体专性细胞内寄生，革兰染色阴性。",
+        "evidence_ids": [
+          "恙虫病东方体专性细胞内寄生，革兰染色阴性。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_scrub_typhus",
+        "to": "sub_disease_scrub_typhus_suspected",
+        "relation_id": "rel_scrub_typhus_has_suspected",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "三、疑似病例：具备 1.和 2.1，加 2.2、2.3 任何一条，且明确排除其他疾病；或无明确流行病学史，在流行季节同时具备 2.1、2.2和 2.3三项。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_scrub_typhus",
+        "to": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "relation_id": "rel_scrub_typhus_has_clinical_diagnosis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "四、临床诊断病例：疑似病例加 2.4；或同时具备 1.、2.1 和 2.4三项。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_scrub_typhus",
+        "to": "sub_disease_scrub_typhus_laboratory_diagnosis",
+        "relation_id": "rel_scrub_typhus_has_laboratory_diagnosis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "五、实验室诊断病例：疑似病例加 3.2、3.3、3.4、3.5 中的任何一项；或临床诊断病例加 3.中的任何一项；或皮疹加三、四和五的任意一项。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "to": "symptom_fever",
+        "relation_id": "rel_clinical_diagnosis_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "临床以发热、皮疹、特征性焦痂与溃疡、淋巴结及肝脾肿大为特征"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列为临床表现第一条，且‘发热’在诊断流程2.1中单列，属核心必现症状",
+        "evidence": "2.1发热"
+      },
+      {
+        "from": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "to": "symptom_eschar",
+        "relation_id": "rel_clinical_diagnosis_manifests_as_eschar",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "焦痂与溃疡，是恙螨叮咬后局部组织坏死形成的特异性体征，是临床诊断恙虫病的重要线索，可见于 70%～100％的患者"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文称‘焦痂与溃疡’为‘特异性体征’‘临床诊断恙虫病的重要线索’，且发生率70%～100%，在诊断流程2.4中单列",
+        "evidence": "焦痂与溃疡，是恙螨叮咬后局部组织坏死形成的特异性体征，是临床诊断恙虫病的重要线索"
+      },
+      {
+        "from": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "to": "symptom_ulcer",
+        "relation_id": "rel_clinical_diagnosis_manifests_as_ulcer",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "焦痂与溃疡，是恙螨叮咬后局部组织坏死形成的特异性体征，是临床诊断恙虫病的重要线索"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "与eschar同属‘焦痂与溃疡’复合体征，原文明确‘焦皮脱落后，中央凹陷形成溃疡’，为同一病理过程连续阶段，共享同一证据链",
+        "evidence": "焦皮脱落后，中央凹陷形成溃疡，基底部呈现淡红色肉芽创面"
+      },
+      {
+        "from": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "to": "symptom_lymphadenopathy",
+        "relation_id": "rel_clinical_diagnosis_manifests_as_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "临床以发热、皮疹、特征性焦痂与溃疡、淋巴结及肝脾肿大为特征"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "to": "symptom_rash",
+        "relation_id": "rel_clinical_diagnosis_manifests_as_rash",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "临床以发热、皮疹、特征性焦痂与溃疡、淋巴结及肝脾肿大为特征"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "to": "symptom_hepatosplenomegaly",
+        "relation_id": "rel_clinical_diagnosis_manifests_as_hepatosplenomegaly",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "临床以发热、皮疹、特征性焦痂与溃疡、淋巴结及肝脾肿大为特征"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_scrub_typhus_suspected",
+        "to": "test_weil_felix_test",
+        "relation_id": "rel_suspected_requires_weil_felix_test",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 160,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "1:160",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "3.1 外斐试验阳性：单份血清 OX 效价≥1:160；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "外斐试验列为实验室辅助检查3.1项，要求‘单份血清OXK效价≥1:160’，但原文未称其为金标准，且后文指出其存在局限性（如伤寒鉴别中‘外斐试验阴性’）",
+        "evidence": "3.1外斐试验阳性：单份血清OXK效价≥1:160"
+      },
+      {
+        "from": "sub_disease_scrub_typhus_suspected",
+        "to": "test_ifa_igm",
+        "relation_id": "rel_suspected_requires_ifa_igm",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 12800,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "3.2 IFA IgM≥12 800，或双份血清 IFA检测 IgM 滴度 4倍及以上升高；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "IFA IgM列为实验室辅助检查3.2项，标准为‘≥12800’或‘双份血清滴度4倍及以上升高’，是唯一含定量阈值和动态变化要求的血清学方法，原文隐含其较外斐试验更可靠",
+        "evidence": "3.2IFAIgM≥12800，或双份血清IFA检测IgM滴度4倍及以上升高"
+      },
+      {
+        "from": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "to": "test_weil_felix_test",
+        "relation_id": "rel_clinical_diagnosis_requires_weil_felix_test",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": "",
+        "result_text": "阳性",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "3.1 外斐试验阳性：单份血清 OX 效价≥1:160；"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "to": "treatment_scrub_typhus_etiology",
+        "relation_id": "rel_clinical_diagnosis_follows_etiology_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后制定治疗方案",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "unknown",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_scrub_typhus_etiology",
+        "to": "plan_doxycycline_adult_oral",
+        "relation_id": "rel_etiology_treatment_implements_by_doxycycline_oral",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "轻症患者口服抗菌药治疗即可有效",
+        "contraindication_note": "多西环素可能导致胎儿骨骼畸形，妊娠妇女不宜使用；哺乳期妇女如需用药，应暂停哺乳。考虑对骨骼生长和牙齿的影响，四环素类药物一般不用 8 岁以下儿童，仅在出现严重、甚至危及生命的感染且无其它替代治疗情况下才考虑使用。",
+        "evidence_ids": [
+          "多西环素推荐剂量：成人 0.1 g，每日 2 次，首剂加倍；抗感染疗程至少持续到体温复常后 3 d，临床症状改善并稳定，一般 7～10 d。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "to": "etiology_orientia_tsutsugamushi",
+        "relation_id": "rel_clinical_diagnosis_caused_by_orientia",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "恙虫病是由恙虫病东方体感染引起的一种自然疫源性疾病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "to": "etiology_chigger_bite",
+        "relation_id": "rel_clinical_diagnosis_caused_by_chigger_bite",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "经恙螨幼虫叮咬传播"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_scrub_typhus_clinical_diagnosis",
+        "to": "pathogenesis_intracellular_parasitism",
+        "relation_id": "rel_clinical_diagnosis_explained_by_intracellular_parasitism",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "恙虫病东方体专性细胞内寄生，革兰染色阴性。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

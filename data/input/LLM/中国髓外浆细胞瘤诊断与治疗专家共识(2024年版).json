@@ -1,0 +1,789 @@
+{
+  "meta": {
+    "doc_id": "中国髓外浆细胞瘤诊断与治疗专家共识（2024年版）",
+    "source_title": "中国髓外浆细胞瘤诊断与治疗专家共识（2024年版）",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_emp",
+        "name": "髓外浆细胞瘤",
+        "normalized_name": "髓外浆细胞瘤",
+        "aliases": [
+          "extramedullary plasmacytoma",
+          "EMP"
+        ],
+        "source_document_ids": [
+          "中国髓外浆细胞瘤诊断与治疗专家共识（2024年版）"
+        ],
+        "evidence_ids": [
+          "髓外浆细胞瘤（extramedullary plasmacytoma,EMP)是恶性浆细胞病的一种特殊类型,指发生于骨髓外的浆细胞恶性肿瘤"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_emp_isolated",
+        "name": "孤立性髓外浆细胞瘤",
+        "parent_disease_id": "disease_emp",
+        "disease_subtype": "孤立性浆细胞瘤",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "单个软组织或器官的浆细胞瘤,称为孤立性髓外浆细胞瘤(SEP)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_emp_sbp",
+        "name": "孤立性骨浆细胞瘤",
+        "parent_disease_id": "disease_emp",
+        "disease_subtype": "孤立性浆细胞瘤",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "一个骨骼的浆细胞瘤称为孤立性骨浆细胞瘤（solitary bone plasmacytoma, SBP）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_emp_emm",
+        "name": "多发性骨髓瘤髓外浸润",
+        "parent_disease_id": "disease_emp",
+        "disease_subtype": "多发性骨髓瘤继发髓外病变",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "多发性骨髓瘤髓外浸润。主要见于两种方式：①肿瘤破坏骨皮质后直接向骨髓外生长，称为骨旁浸润（extramedullary bone related，EMB）；②肿瘤脱离骨髓微环境，经过血行播散后在软组织或器官中生长，不与骨骼结构接触，称为非骨旁浸润（extramedullary extraosseous，EME）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_emp_eme",
+        "name": "非骨旁浸润型多发性骨髓瘤髓外浸润",
+        "parent_disease_id": "sub_disease_emp_emm",
+        "disease_subtype": "非骨旁浸润",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "非骨旁浸润（extramedullary extraosseous，EME），亦有称为 extramedullary disease（EMD）或 extramedullary soft tissue（EMS）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_emp_emb",
+        "name": "骨旁浸润型多发性骨髓瘤髓外浸润",
+        "parent_disease_id": "sub_disease_emp_emm",
+        "disease_subtype": "骨旁浸润",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "肿瘤破坏骨皮质后直接向骨髓外生长，称为骨旁浸润（extramedullary bone related，EMB），亦有称为 paraskeletal with tumor masses arising from skeletal lesions（PS）或 paraosseous plasmocytoma（PO）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_emp_cns_involvement",
+        "name": "多发性骨髓瘤中枢神经系统浸润",
+        "parent_disease_id": "sub_disease_emp_emm",
+        "disease_subtype": "中枢神经系统浸润",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "多发性骨髓瘤中枢神经系统浸润是一种罕见的髓外浸润，指通过常规细胞学和流式细胞术或直接组织取样和（或）影像学（MRI、CT或PET-CT)证实的软脑膜、硬脑膜或脑实质受累"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_bone_pain",
+        "name": "骨痛",
+        "body_site": "骨骼",
+        "symptom_category": "骨骼肌肉系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "主要表现是受累部位的骨痛、肿胀、病理性骨折等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_swelling",
+        "name": "肿胀",
+        "body_site": "受累部位",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "主要表现是受累部位的骨痛、肿胀、病理性骨折等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_pathologic_fracture",
+        "name": "病理性骨折",
+        "body_site": "骨骼",
+        "symptom_category": "骨骼肌肉系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "主要表现是受累部位的骨痛、肿胀、病理性骨折等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_head_neck_mass",
+        "name": "头颈部肿块",
+        "body_site": "头颈区域",
+        "symptom_category": "肿瘤相关症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "SEP最常位于头颈区域（73%~76%），特别是上呼吸道，包括鼻腔、口咽、唾液腺及喉部"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_gi_symptom",
+        "name": "胃肠道症状",
+        "body_site": "胃肠道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "SEP可见于胃肠道（3.6%~7.4%）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_respiratory_symptom",
+        "name": "下呼吸道症状",
+        "body_site": "下呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "SEP可见于下呼吸道（7%）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_lymphadenopathy",
+        "name": "淋巴结肿大",
+        "body_site": "淋巴结",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "SEP可见于淋巴结和脾脏（4.6%~5.3%）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_skin_nodule",
+        "name": "皮肤结节",
+        "body_site": "皮肤和皮下区域",
+        "symptom_category": "皮肤黏膜症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "SEP可见于皮肤和皮下区域（5.5%）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_endocrine_symptom",
+        "name": "内分泌腺症状",
+        "body_site": "内分泌腺",
+        "symptom_category": "内分泌系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "SEP可见于内分泌腺（3%）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_testicular_mass",
+        "name": "睾丸肿块",
+        "body_site": "睾丸",
+        "symptom_category": "泌尿生殖系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "SEP可见于睾丸、膀胱、尿道、卵巢等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_asymptomatic",
+        "name": "无症状",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "absent",
+        "typicality": "common",
+        "evidence_ids": [
+          "部分患者早期无症状，仅通过影像学检查发现"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_serum_m_protein",
+        "name": "血清M蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "在血清和(或)尿液中可检测到少量单克隆免疫球蛋白"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_urine_m_protein",
+        "name": "尿M蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "在血清和(或)尿液中可检测到少量单克隆免疫球蛋白"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_serum_flc_ratio",
+        "name": "血清游离轻链比值",
+        "normal_range_min": 0.26,
+        "normal_range_max": 1.65,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血清游离轻链比例超出正常范围（<0.26或>1.65）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_bone_marrow_biopsy",
+        "name": "骨髓活检",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "骨髓中没有克隆性浆细胞增殖的证据"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pet_ct",
+        "name": "全身PET-CT",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "全身骨骼检查（推荐全身 PET-CT 或全身 MRI 检查）未发现除原发孤立病灶外的其他病变"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_mri_brain",
+        "name": "头颅MRI",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "在评估中枢神经系统MM方面,MRI是比头颅CT具有更高的灵敏度"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ki67_index",
+        "name": "Ki-67抗原表达",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "EMM髓外病灶的增殖指数Ki-67抗原表达显著高于髓内浆细胞"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_cd56_expression",
+        "name": "CD56表达",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "髓外浆细胞CD56表达水平降低"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_cd38_expression",
+        "name": "CD38表达",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "髓外浆细胞CD38表达水平降低"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_emp_radiotherapy_first_line",
+        "content": "放疗是治疗孤立性浆细胞瘤的首选方案。",
+        "recommendation_strength": "strong",
+        "source_section": "四、EMP治疗建议（一）孤立性浆细胞瘤",
+        "evidence_ids": [
+          "放疗是治疗孤立性浆细胞瘤的首选方案。推荐放疗剂量为35~50 Gy ，周期为4~5周。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_emp_systemic_chemo_high_risk",
+        "content": "对于肿瘤直径>5cm或对放疗反应差的患者，以及骨髓中出现克隆浆细胞等具有高风险特征的SP患者，也可考虑联合全身化疗和（或）影响。",
+        "recommendation_strength": "weak",
+        "source_section": "四、EMP治疗建议（一）孤立性浆细胞瘤",
+        "evidence_ids": [
+          "对于肿瘤直径>5cm或对放疗反应差的患者，以及骨髓中出现克隆浆细胞等具有高风险特征的SP患者，也可考虑联合全身化疗和（或）影响。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_eme_aggressive_therapy",
+        "content": "EME预后更差，诊断和治疗上按EME处理。",
+        "recommendation_strength": "strong",
+        "source_section": "二、EMP的分类、流行病学、临床表现和预后",
+        "evidence_ids": [
+          "由于EME预后更差，诊断和治疗上按EME处理"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_cns_involvement_clinical_trial",
+        "content": "中枢神经系统浸润MM患者首先推荐进入临床试验。",
+        "recommendation_strength": "strong",
+        "source_section": "四、EMP治疗建议（三）特殊部位髓外浸润（中枢神经系统浸润）",
+        "evidence_ids": [
+          "中枢神经系统浸润MM患者首先推荐进人临床试验。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_radiotherapy_35_50gy",
+        "content": "推荐放疗剂量为35~50 Gy ，周期为4~5周。",
+        "plan_level": 1,
+        "applicable_condition": "孤立性浆细胞瘤（SBP和SEP）",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐放疗剂量为35~50 Gy ，周期为4~5周。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_radiotherapy_low_dose",
+        "content": "对于<5 cm的肿瘤，可给予较低剂量（如35~40 Gy)放疗。",
+        "plan_level": 2,
+        "applicable_condition": "肿瘤直径<5 cm",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于<5 cm的肿瘤，可给予较低剂量（如35~40 Gy)放疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_radiotherapy_high_dose",
+        "content": "但对于>5 cm肿瘤，倾向给予较高剂量（如40~50 Gy)放疗。",
+        "plan_level": 2,
+        "applicable_condition": "肿瘤直径>5 cm",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "但对于>5 cm肿瘤，倾向给予较高剂量（如40~50 Gy)放疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_vdt_pace",
+        "content": "VDT-PACE方案及其类似方案。",
+        "plan_level": 3,
+        "applicable_condition": "R/RMM伴EMM",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "另有研究表明使用 VDT-PACE 方案及其类似方案治疗的 R/RMM 伴 EMM 患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_bpd",
+        "content": "苯达莫司汀、泊马度胺联合地塞米松（BPD）",
+        "plan_level": 3,
+        "applicable_condition": "R/RMM合并EMM",
+        "contraindication_note": "苯达莫司汀对干细胞有一定抑制作用，需序贯auto-HSCT的患者慎用。",
+        "evidence_ids": [
+          "苯达莫司汀、泊马度胺联合地塞米松 (BPD) 治疗21例 R/RMM 合并 EMM 患者的临床研究"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_dara_vcd",
+        "content": "达雷妥尤单抗联合硼替佐米、环磷酰胺和地塞米松（Dara-VCd）",
+        "plan_level": 3,
+        "applicable_condition": "新诊断以及首次复发的 MM 伴髓外病变",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "Dara-VCd 治疗新诊断以及首次复发的 MM 伴髓外病变患者的疗效和安全性"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_clonal_plasma_cell",
+        "content": "克隆性浆细胞增殖",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "活检证实的骨或软组织浆细胞瘤"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_mapk_mutation",
+        "content": "MAPK通路突变",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "common",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "EMM患者中有80%发生MAPK通路突变"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_tp53_deletion",
+        "content": "TP53缺失",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "common",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "20%存在高频突变，其中40%存在TP53缺失"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_myc_translocation",
+        "content": "MYC易位",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "common",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "20%存在高频突变，其中40%存在TP53缺失；40%获得继发性MYC/易位"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_cytokine_dysregulation",
+        "content": "各种细胞因子和趋化因子的改变，促使肿瘤细胞生长不再需要依赖于骨髓微环境，从而向骨髓外扩散，如趋化因子受体和黏附分子表达量降低、CD81/CD82低表达、肝素酶高表达、生长因子和缺氧导致CXCR4上调等，这些改变使骨髓瘤细胞获得了EMM表型，容易发生髓外浸润。",
+        "evidence_ids": [
+          "①各种细胞因子和趋化因子的改变，促使肿瘤细胞生长不再需要依赖于骨髓微环境，从而向骨髓外扩散，如趋化因子受体和黏附分子表达量降低、CD81/CD82低表达、肝素酶高表达、生长因子和缺氧导致CXCR4上调等，这些改变使骨髓瘤细胞获得了EMM表型，容易发生髓外浸润。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "pathogenesis_genomic_instability",
+        "content": "基因组结构变异：有报道EMM患者中有80%发生MAPK通路突变；20%存在高频突变，其中40%存在TP53缺失；40%获得继发性MYC/易位。此外，EMM患者还容易发生3q扩增、1q扩增、1p缺失、13q缺失等，这些分子改变促使肿瘤细胞容易发生髓外浸润。",
+        "evidence_ids": [
+          "②基因组结构变异：有报道EMM患者中有80%发生MAPK通路突变；20%存在高频突变，其中40%存在TP53缺失；40%获得继发性MYC/易位。此外，EMM患者还容易发生3q扩增、1q扩增、1p缺失、13q缺失等，这些分子改变促使肿瘤细胞容易发生髓外浸润。"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_emp",
+        "to": "sub_disease_emp_isolated",
+        "relation_id": "rel_emp_has_isolated",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "单个软组织或器官的浆细胞瘤,称为孤立性髓外浆细胞瘤(SEP)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_emp",
+        "to": "sub_disease_emp_sbp",
+        "relation_id": "rel_emp_has_sbp",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "一个骨骼的浆细胞瘤称为孤立性骨浆细胞瘤（solitary bone plasmacytoma, SBP）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_emp",
+        "to": "sub_disease_emp_emm",
+        "relation_id": "rel_emp_has_emm",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "多发性骨髓瘤髓外浸润。主要见于两种方式：①肿瘤破坏骨皮质后直接向骨髓外生长，称为骨旁浸润（extramedullary bone related，EMB）；②肿瘤脱离骨髓微环境，经过血行播散后在软组织或器官中生长，不与骨骼结构接触，称为非骨旁浸润（extramedullary extraosseous，EME）"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_emp_sbp",
+        "to": "symptom_bone_pain",
+        "relation_id": "rel_sbp_manifests_as_bone_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "主要表现是受累部位的骨痛、肿胀、病理性骨折等"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确将骨痛列为SBP主要表现，使用‘主要表现’属强临床关联表述，但非唯一/特异性症状",
+        "evidence": "主要表现是受累部位的骨痛、肿胀、病理性骨折等，部分患者早期无症状，仅通过影像学检查发现。"
+      },
+      {
+        "from": "sub_disease_emp_isolated",
+        "to": "symptom_head_neck_mass",
+        "relation_id": "rel_sep_manifests_as_head_neck_mass",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "SEP最常位于头颈区域（73%~76%），特别是上呼吸道，包括鼻腔、口咽、唾液腺及喉部"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确‘SEP最常位于头颈区域（73%~76%）’，且‘大多数患者的症状与肿块位置相关’，‘肿块’即mass的直接对应，频率+症状因果链构成最高强度支持",
+        "evidence": "SEP最常位于头颈区域（73%~76%），特别是上呼吸道，包括鼻腔、口咽、唾液腺及喉部；大多数患者的症状与肿块位置相关，部分患者早期无症状。"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_emp_isolated",
+        "to": "test_serum_m_protein",
+        "relation_id": "rel_sep_requires_serum_m_protein",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": "检测到少量单克隆免疫球蛋白",
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "common",
+        "section_priority": "临床表现",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "在血清和(或)尿液中可检测到少量单克隆免疫球蛋白"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_emp_isolated",
+        "to": "test_pet_ct",
+        "relation_id": "rel_sep_requires_pet_ct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "未发现除原发孤立病灶外的其他病变",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "absent",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "全身骨骼检查（推荐全身 PET-CT 或全身 MRI 检查）未发现除原发孤立病灶外的其他病变"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文在诊断标准中明确要求‘全身PET-CT或全身MRI检查’以排除其他病变，属强制性检查手段，且PET-CT被标注为‘推荐’和‘敏感度最佳’",
+        "evidence": "③全身骨骼检查（推荐全身PET-CT或全身MRI检查）未发现除原发孤立病灶外的其他病变；诊断EMM时PET-CT敏感度最佳。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_emp_isolated",
+        "to": "treatment_emp_radiotherapy_first_line",
+        "relation_id": "rel_sep_follows_radiotherapy",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "孤立性浆细胞瘤",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四、EMP治疗建议（一）孤立性浆细胞瘤",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_emp_radiotherapy_first_line",
+        "to": "plan_radiotherapy_35_50gy",
+        "relation_id": "rel_radiotherapy_implements_by_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "孤立性浆细胞瘤",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐放疗剂量为35~50 Gy ，周期为4~5周。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_emp_emm",
+        "to": "etiology_clonal_plasma_cell",
+        "relation_id": "rel_emm_causes_clonal_plasma_cell",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "活检证实的骨或软组织浆细胞瘤"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_emp_emm",
+        "to": "pathogenesis_cytokine_dysregulation",
+        "relation_id": "rel_emm_explained_by_cytokine_dysregulation",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "①各种细胞因子和趋化因子的改变，促使肿瘤细胞生长不再需要依赖于骨髓微环境，从而向骨髓外扩散，如趋化因子受体和黏附分子表达量降低、CD81/CD82低表达、肝素酶高表达、生长因子和缺氧导致CXCR4上调等，这些改变使骨髓瘤细胞获得了EMM表型，容易发生髓外浸润。"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

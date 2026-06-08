@@ -1,0 +1,1258 @@
+{
+  "meta": {
+    "doc_id": "降钙素原在成人下呼吸道感染性疾病分级管理中的应用专家共识",
+    "source_title": "降钙素原在成人下呼吸道感染性疾病分级管理中的应用专家共识",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_lrti",
+        "name": "下呼吸道感染性疾病",
+        "normalized_name": "下呼吸道感染性疾病",
+        "aliases": [
+          "LRTI",
+          "lower respiratory tract infections"
+        ],
+        "source_document_ids": [
+          "降钙素原在成人下呼吸道感染性疾病分级管理中的应用专家共识"
+        ],
+        "evidence_ids": [
+          "成人下呼吸道感染性疾病（ lower respiratory tract infections, LRTI)"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_lrti_mild_moderate",
+        "name": "轻中度下呼吸道感染",
+        "parent_disease_id": "disease_lrti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻中度",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "对于轻中度社区、门急诊及住院的LRTI患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_lrti_severe",
+        "name": "重度下呼吸道感染",
+        "parent_disease_id": "disease_lrti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重度",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "对于需要入住ICU的重度LRTI患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_lrti_atb",
+        "name": "急性气管-支气管炎",
+        "parent_disease_id": "disease_lrti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "急性气管-支气管炎（ acute tracheobronchitis, ATB )"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_lrti_cap_mild_moderate",
+        "name": "轻中度社区获得性肺炎",
+        "parent_disease_id": "disease_lrti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻中度",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "4.2.1.1 轻中症CAP : PCT阈值为0.25 ng/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_lrti_cap_severe",
+        "name": "重症社区获得性肺炎",
+        "parent_disease_id": "disease_lrti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "4.2.1.2重症CAP:PCT阈值为0.5ng/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_lrti_hap_mild_moderate",
+        "name": "轻中度院内获得性肺炎",
+        "parent_disease_id": "disease_lrti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻中度",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "4.2.2.1 轻中症HAP : PCT阈值为0.25 ng/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_lrti_hap_severe",
+        "name": "重症院内获得性肺炎",
+        "parent_disease_id": "disease_lrti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "4.2.2.2重症HAP : PCT阈值为0.5 ng/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_lrti_vap",
+        "name": "呼吸机相关性肺炎",
+        "parent_disease_id": "disease_lrti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "呼吸机相关性肺炎（ventilator-associated pneumonia, VAP )"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_lrti_aecb_aecopd",
+        "name": "慢性支气管炎急性发作/慢性阻塞性肺疾病急性加重",
+        "parent_disease_id": "disease_lrti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "慢性支气管炎急性发作（ acute exacerbation of chronic bronchitis, AECB )/ 慢性阻塞性肺疾病急性加重（ acute exacerbation of chronic obstructive pulmonary disease, AECOPD)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_lrti_bronchiectasis",
+        "name": "支气管扩张合并细菌感染",
+        "parent_disease_id": "disease_lrti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "支气管扩张合并细菌感染"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "此类疾病患者常见症状为发热、咳嗽.咳痰、气急等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_cough",
+        "name": "咳嗽",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "此类疾病患者常见症状为发热、咳嗽.咳痰、气急等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_sputum_production",
+        "name": "咳痰",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "此类疾病患者常见症状为发热、咳嗽.咳痰、气急等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dyspnea",
+        "name": "气急",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "此类疾病患者常见症状为发热、咳嗽.咳痰、气急等"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_pct",
+        "name": "降钙素原",
+        "normal_range_min": 0.0,
+        "normal_range_max": 0.05,
+        "is_digital": 1,
+        "evidence_ids": [
+          "健康人的血清PCT浓度低于0.05 ng/L"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_lrti_antibiotic_management",
+        "content": "依据LRTI不同感染类型和严重程度，采用不同PCT阈值进行感染分级管理",
+        "recommendation_strength": "强烈推荐",
+        "source_section": "推荐1",
+        "evidence_ids": [
+          "【推荐 1】依据LRTI不同感染类型和严重程度，应采用不同PCT阈值进行感染分级管理。轻中度LRTI患者抗菌药物管理采用PCT 0.25 pg/L阈值指导，重度LRT丨患者则采用PCT0.5 jig/L阈值指导"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_lrti_bacterial_exclusion",
+        "content": "排除典型细菌性LRTI的诊断阈值采用PCT 0.25 μg/L",
+        "recommendation_strength": "推荐",
+        "source_section": "推荐2",
+        "evidence_ids": [
+          "【推荐2 】排除典型细菌性LRTI的诊断阈值采用PCT 0.25 (jug/L, 此阈值同时可作为启用和终止抗菌药物治疗的参考指标。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_lrti_viral_support",
+        "content": "结合临床症状采用PCT < 0.25 μg/L 阈值有助于支持单纯病毒所致LRTI的诊断",
+        "recommendation_strength": "推荐",
+        "source_section": "推荐3",
+        "evidence_ids": [
+          "【推荐3 】结合临床症状采用PCT < O.25 |xg/L 阈值有助于支持单纯病毒所致LRT丨的诊断"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_lrti_atb_guidance",
+        "content": "PCT 0.25 μg/L 阈值可为急性气管-支气管炎患者应用抗菌药物提供指导作用",
+        "recommendation_strength": "推荐",
+        "source_section": "推荐4",
+        "evidence_ids": [
+          "【推荐4 】 PCT O.25 gg/L 阈值可为急性气管-支气管炎患者应用抗菌药物提供指导作用，同时减少抗菌药物处方。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_lrti_pneumonia_guidance",
+        "content": "PCT阈值可为不同严重程度的肺炎患者提供抗菌药物指导。轻中度肺炎患者采用0.25 μg/L阈值、重度肺炎患者采用0.5 μg/L阈值。当PCT下降幅度> 80%时，鼓励停用抗菌药物。",
+        "recommendation_strength": "推荐",
+        "source_section": "推荐5",
+        "evidence_ids": [
+          "【推荐5 】PCT阈值可为不同严重程度的肺炎患者提供抗菌药物指导。轻中度肺炎患者采用0.25 ^g/L阈值、重度肺炎患者采用0.5 (x g/L阈值。当PCT下降幅度> 80%时，鼓励停用抗菌药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_lrti_aecb_aecopd_etiology_discrimination",
+        "content": "PCT有助于识别AECB/AECOPD细菌与病毒或非感染性病因",
+        "recommendation_strength": "推荐",
+        "source_section": "推荐6",
+        "evidence_ids": [
+          "【推荐6 】PCT有助于识别AECB/AECOPD细菌与病毒或非感染性病因；PCT < 0.25 ng/L不推荐启动抗菌药物治疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_lrti_bronchiectasis_guidance",
+        "content": "支气管扩张合并细菌感染患者PCT < 0.25 μg/L不建议应用抗菌药物",
+        "recommendation_strength": "推荐",
+        "source_section": "推荐7",
+        "evidence_ids": [
+          "【推荐7 】支气管扩张合并细菌感染患者PCT < (U 5 Pg/L不建议应用抗菌药物。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_lrti_pct_assay_standardization",
+        "content": "PCT检测尚未实现国际公认的标准化，各厂家PCT需自行建立阈值；以确保提供安全有效的临床决策，临床采用的PCT阈值应基于大量临床研究和证据。",
+        "recommendation_strength": "推荐",
+        "source_section": "推荐8",
+        "evidence_ids": [
+          "【推荐8 】PCT检测尚未实现国际公认的标准化，各厂 家PCT需自行建立阈值；以确保提供安全有效的临床决策，临床采用的PCT阈值应基于大量临床研究和证据。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_pct_0_25_start_antibiotics",
+        "content": "PCT ≥ 0.25 μg/L建议应用抗菌药物",
+        "plan_level": 1,
+        "applicable_condition": "轻中度LRTI患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "同时结合临床资料，如PCT多0.25 |x g/L建议应用抗菌药物"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_pct_0_25_stop_antibiotics",
+        "content": "PCT < 0.25 μg/L或从峰值下降≥80%建议停用抗菌药物",
+        "plan_level": 1,
+        "applicable_condition": "轻中度LRTI患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "初始PCT水平高者，如经治疗降低到PCT<0.5 pg/L或PCT从峰值下降彡80%建议停用抗菌药物"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_pct_0_5_start_antibiotics",
+        "content": "PCT ≥ 0.5 μg/L建议应用抗菌药物",
+        "plan_level": 1,
+        "applicable_condition": "重度LRTI患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于需要入住ICU的重度LRTI患者...结合临床资料，如PCT多0.5|x g/L建议应用抗菌药物"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_pct_0_5_stop_antibiotics",
+        "content": "PCT < 0.5 μg/L或从峰值下降≥80%建议停用抗菌药物",
+        "plan_level": 1,
+        "applicable_condition": "重度LRTI患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "初始PCT水平高者，如经治疗PCT<0.25 jxg/L或从峰值下降多80%建议停用抗菌药物"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_pct_dynamic_monitoring_48_72h",
+        "content": "动态监测PCT，采用每隔48 ~ 72 h的监测频率",
+        "plan_level": 2,
+        "applicable_condition": "轻中度LRTI患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "建议动态监测PCT,采用每隔48 ~ 72 h的监测频率"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_pct_dynamic_monitoring_6_24h",
+        "content": "动态监测PCT，可采用每隔6 〜24 h的监测频率",
+        "plan_level": 2,
+        "applicable_condition": "重度LRTI患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于需要人住ICU的重度LRTI患者，进行经验性抗菌药物治疗同时应动态监测PCT, 可采用每隔6 〜24 h的监测频率"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_bacterial_infection",
+        "content": "细菌感染",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "PCT有助于区分细菌性和非细菌性感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_viral_infection",
+        "content": "病毒感染",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "PCT具有较高的细菌感染阴性预测值...用于发热门诊及急诊患者的筛查和快速分流"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_atypical_pathogen_infection",
+        "content": "非典型病原体感染",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "PCT在支原体、衣原体感染的LRTI患者中一般无明显升高...如果0.25 pg/L 彡PCT彡0.5 A g/L提示可能存在细菌感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_fungal_infection",
+        "content": "真菌感染",
+        "etiology_type": "感染因素",
+        "typicality": "少见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "PCT对真菌感染的诊断或鉴别诊断具有一定的临床价值"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_tuberculosis",
+        "content": "结核感染",
+        "etiology_type": "感染因素",
+        "typicality": "少见",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "PCT在活动性结核病患者中有可能轻度升高...有助于细菌性和真菌性下呼吸道感染与肺结核鉴别诊断"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_parasitic_infection",
+        "content": "寄生虫感染",
+        "etiology_type": "感染因素",
+        "typicality": "少见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "对疟疾患者动态监测PCT可以作为疾病严重程度的监测指标"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_pct_bacterial_response",
+        "content": "细菌感染时，肝脏巨噬细胞和单核细胞、肺及肠道组织的淋巴细胞及神经内分泌细胞，在内毒素、肿瘤坏死因子-a (TNF-o〇及 IL-6等作用下会产生大量PCT；且细菌刺激机体后3 h即可测得，6 ~ 12 h后达到峰值。",
+        "evidence_ids": [
+          "细菌感染时，肝脏巨噬细胞和单核细胞、肺及肠道组织的淋巴细胞及神经内分泌细胞，在内毒素、肿瘤坏死因子-a (TNF-o〇及 IL-6等作用下会产生大量PCT1141 ;且细菌刺激机体后3 h即可测得， 6 ~ 12 h后 达 到 峰 值 。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_lrti",
+        "to": "sub_disease_lrti_mild_moderate",
+        "relation_id": "rel_lrti_has_mild_moderate",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "对于轻中度社区、门急诊及住院的LRTI患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lrti",
+        "to": "sub_disease_lrti_severe",
+        "relation_id": "rel_lrti_has_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "对于需要入住ICU的重度LRTI患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lrti",
+        "to": "sub_disease_lrti_atb",
+        "relation_id": "rel_lrti_has_atb",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性气管-支气管炎（ acute tracheobronchitis, ATB )"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lrti",
+        "to": "sub_disease_lrti_cap_mild_moderate",
+        "relation_id": "rel_lrti_has_cap_mild_moderate",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "4.2.1.1 轻中症CAP : PCT阈值为0.25 ng/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lrti",
+        "to": "sub_disease_lrti_cap_severe",
+        "relation_id": "rel_lrti_has_cap_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "4.2.1.2重症CAP:PCT阈值为0.5ng/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lrti",
+        "to": "sub_disease_lrti_hap_mild_moderate",
+        "relation_id": "rel_lrti_has_hap_mild_moderate",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "4.2.2.1 轻中症HAP : PCT阈值为0.25 ng/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lrti",
+        "to": "sub_disease_lrti_hap_severe",
+        "relation_id": "rel_lrti_has_hap_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "4.2.2.2重症HAP : PCT阈值为0.5 ng/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lrti",
+        "to": "sub_disease_lrti_vap",
+        "relation_id": "rel_lrti_has_vap",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "呼吸机相关性肺炎（ventilator-associated pneumonia, VAP )"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lrti",
+        "to": "sub_disease_lrti_aecb_aecopd",
+        "relation_id": "rel_lrti_has_aecb_aecopd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "慢性支气管炎急性发作（ acute exacerbation of chronic bronchitis, AECB )/ 慢性阻塞性肺疾病急性加重（ acute exacerbation of chronic obstructive pulmonary disease, AECOPD)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lrti",
+        "to": "sub_disease_lrti_bronchiectasis",
+        "relation_id": "rel_lrti_has_bronchiectasis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "支气管扩张合并细菌感染"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_lrti_atb",
+        "to": "symptom_fever",
+        "relation_id": "rel_atb_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "此类疾病患者常见症状为发热、咳嗽.咳痰、气急等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_lrti_atb",
+        "to": "symptom_cough",
+        "relation_id": "rel_atb_manifests_as_cough",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "此类疾病患者常见症状为发热、咳嗽.咳痰、气急等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_lrti_atb",
+        "to": "symptom_sputum_production",
+        "relation_id": "rel_atb_manifests_as_sputum",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "此类疾病患者常见症状为发热、咳嗽.咳痰、气急等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_lrti_atb",
+        "to": "symptom_dyspnea",
+        "relation_id": "rel_atb_manifests_as_dyspnea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "此类疾病患者常见症状为发热、咳嗽.咳痰、气急等"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_lrti_mild_moderate",
+        "to": "test_pct",
+        "relation_id": "rel_mild_moderate_requires_pct_0_25",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 0.25,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "μg/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "建议动态监测PCT,采用每隔48 ~ 72 h的监测频率,同时结合临床资料，如PCT多0.25 |x g/L建议应用抗菌药物"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确推荐对轻中度LRTI患者采用PCT 0.25 μg/L阈值指导抗菌药物应用，属强临床指导依据",
+        "evidence": "轻中度LRTI患者抗菌药物管理采用PCT0.25μg/L阈值指导"
+      },
+      {
+        "from": "sub_disease_lrti_severe",
+        "to": "test_pct",
+        "relation_id": "rel_severe_requires_pct_0_5",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 0.5,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "μg/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "对于需要人住ICU的重度LRTI患者，进行经验性抗菌药物治疗同时应动态监测PCT...结合临床资料，如PCT多0.5|x g/L建议应用抗菌药物"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确推荐对重度LRTI患者采用PCT 0.5 μg/L阈值指导抗菌药物应用，属强临床指导依据",
+        "evidence": "重度LRTI患者则采用PCT0.5μg/L阈值指导"
+      },
+      {
+        "from": "sub_disease_lrti_cap_mild_moderate",
+        "to": "test_pct",
+        "relation_id": "rel_cap_mild_moderate_requires_pct_0_25",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 0.25,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "ng/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "4.2.1.1 轻中症CAP : PCT阈值为0.25 ng/L"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文表4及正文明确‘轻中度CAP: PCT阈值为0.25 ng/L’，并给出多项RCT证据支持",
+        "evidence": "4.2.1.1轻中症CAP:PCT阈值为0.25ng/L"
+      },
+      {
+        "from": "sub_disease_lrti_cap_severe",
+        "to": "test_pct",
+        "relation_id": "rel_cap_severe_requires_pct_0_5",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 0.5,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "ng/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "4.2.1.2重症CAP:PCT阈值为0.5ng/L"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文表4及正文明确‘重症CAP: PCT阈值为0.5 ng/L’，并指出其可缩短治疗时间、降低病死率",
+        "evidence": "4.2.1.2重症CAP:PCT阈值为0.5ng/L"
+      },
+      {
+        "from": "sub_disease_lrti_hap_mild_moderate",
+        "to": "test_pct",
+        "relation_id": "rel_hap_mild_moderate_requires_pct_0_25",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 0.25,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "ng/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "4.2.2.1 轻中症HAP : PCT阈值为0.25 ng/L"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文表4及正文明确‘轻中症HAP: PCT阈值为0.25 ng/L’，并说明其可减少抗菌药物使用时间",
+        "evidence": "4.2.2.1轻中症HAP:PCT阈值为0.25ng/L"
+      },
+      {
+        "from": "sub_disease_lrti_hap_severe",
+        "to": "test_pct",
+        "relation_id": "rel_hap_severe_requires_pct_0_5",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 0.5,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "ng/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "4.2.2.2重症HAP : PCT阈值为0.5 ng/L"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文表4及正文明确‘重症HAP: PCT阈值为0.5 ng/L’，并指出其在区分细菌感染方面更具优势",
+        "evidence": "4.2.2.2重症HAP:PCT阈值为0.5ng/L"
+      },
+      {
+        "from": "sub_disease_lrti_vap",
+        "to": "test_pct",
+        "relation_id": "rel_vap_requires_pct_dynamic",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "治疗监测项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": "ng/L",
+        "result_text": "PCT在0.25 ~ 0.5ng/L之间或下降≥80%",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "治疗监测",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "PCT在0.25 ~ 0.5ng/L之间或下降彡80% , 鼓励停用抗菌药物"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文表4及正文明确VAP需‘动态监测PCT水平’，并以0.25/0.5/1.0 ng/L等多级阈值指导停药决策，属强操作规范",
+        "evidence": "呼吸机相关性肺炎动态监测PCT水平减少抗菌药物使用天数和总持续治疗时间"
+      },
+      {
+        "from": "sub_disease_lrti_aecb_aecopd",
+        "to": "test_pct",
+        "relation_id": "rel_aecb_aecopd_requires_pct_0_25",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 0.25,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "ng/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "PCT彡0.25 ng/L建议启动抗菌药物治疗"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文4.3节明确建议AECOPD患者‘在24 h 内检测PCT浓度’，并依PCT<0.25 ng/L或≥0.25 ng/L启动/不启动抗菌药物",
+        "evidence": "该方案推荐对于AECOPD人院患者，建议在24h内检测PCT浓度：PCT<0.25ng/L不启动抗菌药物治疗"
+      },
+      {
+        "from": "sub_disease_lrti_bronchiectasis",
+        "to": "test_pct",
+        "relation_id": "rel_bronchiectasis_requires_pct_0_25",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 0.25,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "μg/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "PCT彡0.25 a g/L建议应用抗菌药物"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文4.4节明确‘支气管扩张合并细菌感染患者PCT < 0.25 μg/L不建议应用抗菌药物’，并给出具体阈值与行动建议",
+        "evidence": "【推荐7】支气管扩张合并细菌感染患者PCT<0.25μg/L不建议应用抗菌药物。"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_lrti_mild_moderate",
+        "to": "treatment_lrti_antibiotic_management",
+        "relation_id": "rel_mild_moderate_follows_antibiotic_management",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后制定治疗方案",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强烈推荐",
+        "decision_basis": [
+          "疾病严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐1",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_lrti_severe",
+        "to": "treatment_lrti_antibiotic_management",
+        "relation_id": "rel_severe_follows_antibiotic_management",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后制定治疗方案",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强烈推荐",
+        "decision_basis": [
+          "疾病严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐1",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_lrti_cap_mild_moderate",
+        "to": "treatment_lrti_pneumonia_guidance",
+        "relation_id": "rel_cap_mild_moderate_follows_pneumonia_guidance",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后制定治疗方案",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "疾病严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐5",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_lrti_cap_severe",
+        "to": "treatment_lrti_pneumonia_guidance",
+        "relation_id": "rel_cap_severe_follows_pneumonia_guidance",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后制定治疗方案",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "疾病严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐5",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_lrti_atb",
+        "to": "treatment_lrti_atb_guidance",
+        "relation_id": "rel_atb_follows_atb_guidance",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后制定治疗方案",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "疾病类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐4",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_lrti_aecb_aecopd",
+        "to": "treatment_lrti_aecb_aecopd_etiology_discrimination",
+        "relation_id": "rel_aecb_aecopd_follows_etiology_discrimination",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后制定治疗方案",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "疾病类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐6",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_lrti_bronchiectasis",
+        "to": "treatment_lrti_bronchiectasis_guidance",
+        "relation_id": "rel_bronchiectasis_follows_guidance",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后制定治疗方案",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "疾病类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐7",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_lrti_antibiotic_management",
+        "to": "plan_pct_0_25_start_antibiotics",
+        "relation_id": "rel_antibiotic_management_implements_by_0_25_start",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "轻中度LRTI患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "同时结合临床资料，如PCT多0.25 |x g/L建议应用抗菌药物"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_lrti_antibiotic_management",
+        "to": "plan_pct_0_25_stop_antibiotics",
+        "relation_id": "rel_antibiotic_management_implements_by_0_25_stop",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "轻中度LRTI患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "初始PCT水平高者，如经治疗降低到PCT<0.5 pg/L或PCT从峰值下降彡80%建议停用抗菌药物"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_lrti_antibiotic_management",
+        "to": "plan_pct_0_5_start_antibiotics",
+        "relation_id": "rel_antibiotic_management_implements_by_0_5_start",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "重度LRTI患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "结合临床资料，如PCT多0.5|x g/L建议应用抗菌药物"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_lrti_antibiotic_management",
+        "to": "plan_pct_0_5_stop_antibiotics",
+        "relation_id": "rel_antibiotic_management_implements_by_0_5_stop",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "重度LRTI患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "初始PCT水平高者，如经治疗PCT<0.25 jxg/L或从峰值下降多80%建议停用抗菌药物"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_lrti_pneumonia_guidance",
+        "to": "plan_pct_dynamic_monitoring_48_72h",
+        "relation_id": "rel_pneumonia_guidance_implements_by_48_72h",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "监测",
+        "applicable_condition": "轻中度LRTI患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "建议动态监测PCT,采用每隔48 ~ 72 h的监测频率"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_lrti_pneumonia_guidance",
+        "to": "plan_pct_dynamic_monitoring_6_24h",
+        "relation_id": "rel_pneumonia_guidance_implements_by_6_24h",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "监测",
+        "applicable_condition": "重度LRTI患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于需要人住ICU的重度LRTI患者，进行经验性抗菌药物治疗同时应动态监测PCT, 可采用每隔6 〜24 h的监测频率"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_lrti_mild_moderate",
+        "to": "etiology_bacterial_infection",
+        "relation_id": "rel_mild_moderate_caused_by_bacterial",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "PCT有助于区分细菌性和非细菌性感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_lrti_severe",
+        "to": "etiology_bacterial_infection",
+        "relation_id": "rel_severe_caused_by_bacterial",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "PCT有助于区分细菌性和非细菌性感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_lrti_atb",
+        "to": "etiology_viral_infection",
+        "relation_id": "rel_atb_caused_by_viral",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "本病最常见的病原体是病毒"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_lrti_mild_moderate",
+        "to": "pathogenesis_pct_bacterial_response",
+        "relation_id": "rel_mild_moderate_explained_by_pct_response",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "细菌感染时，肝脏巨噬细胞和单核细胞、肺及肠道组织的淋巴细胞及神经内分泌细胞，在内毒素、肿瘤坏死因子-a (TNF-o〇及 IL-6等作用下会产生大量PCT1141 ;且细菌刺激机体后3 h即可测得， 6 ~ 12 h后 达 到 峰 值 。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

@@ -1,0 +1,855 @@
+{
+  "meta": {
+    "doc_id": "中国淋巴瘤治疗指南（2023年版）",
+    "source_title": "中国淋巴瘤治疗指南（2023年版）",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_lymphoma",
+        "name": "淋巴瘤",
+        "normalized_name": "淋巴瘤",
+        "aliases": [
+          "恶性淋巴瘤"
+        ],
+        "source_document_ids": [
+          "中国淋巴瘤治疗指南（2023年版）"
+        ],
+        "evidence_ids": [
+          "淋巴瘤又称“恶性淋巴瘤”，是一组起源于淋巴造血系统的恶性肿瘤，是中国常见恶性肿瘤之一。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_hodgkin_lymphoma",
+        "name": "霍奇金淋巴瘤",
+        "parent_disease_id": "disease_lymphoma",
+        "disease_subtype": "霍奇金淋巴瘤",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "HL分为经典型霍奇金淋巴瘤（classic Hodgkin lymphoma，cHL）和结节性淋巴细胞为主型霍奇金淋巴瘤（nodular lymphocyte predominant Hodgkin lymphoma，NLPHL)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_diffuse_large_b_cell_lymphoma",
+        "name": "弥漫大B细胞淋巴瘤",
+        "parent_disease_id": "disease_lymphoma",
+        "disease_subtype": "弥漫大B细胞淋巴瘤",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "DLBCL是所有NHL中最常见的类型，在西方国家约占成人NHL的30%，在中国约占成人NHL的40%。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_follicular_lymphoma",
+        "name": "滤泡淋巴瘤",
+        "parent_disease_id": "disease_lymphoma",
+        "disease_subtype": "滤泡淋巴瘤",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "FL是一类较为常见的惰性NHL，在西方国家约占NHL患者的22%，在中国占NHL患者的2.5%～6.6%。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_marginal_zone_lymphoma",
+        "name": "边缘区淋巴瘤",
+        "parent_disease_id": "disease_lymphoma",
+        "disease_subtype": "边缘区淋巴瘤",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "MZL是一组异质性疾病，包括黏膜相关淋巴组织（mucosa-associated lymphoid tissues, MALT）结外边缘区淋巴瘤（简称“MALT淋巴瘤”）、淋巴结边缘区淋巴瘤及脾边缘区淋巴瘤（splenic marginal zone lymphoma，SMZL）三类亚型。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_chronic_lymphocytic_leukemia_small_lymphocytic_lymphoma",
+        "name": "慢性淋巴细胞白血病／小淋巴细胞淋巴瘤",
+        "parent_disease_id": "disease_lymphoma",
+        "disease_subtype": "慢性淋巴细胞白血病／小淋巴细胞淋巴瘤",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "CLL/SLL属于惰性B细胞淋巴瘤，CLL和SLL是同一种疾病的不同表现，CLL以骨髓和外周血受累为主要特征，SLL通常以淋巴结病变为主。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_mantle_cell_lymphoma",
+        "name": "套细胞淋巴瘤",
+        "parent_disease_id": "disease_lymphoma",
+        "disease_subtype": "套细胞淋巴瘤",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "MCL在美国和欧洲约占成人NHL的7%，在中国约占所有NHL的5%，是一类兼具有惰性和侵袭性淋巴瘤特征的NHL。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_burkitt_lymphoma",
+        "name": "伯基特淋巴瘤",
+        "parent_disease_id": "disease_lymphoma",
+        "disease_subtype": "伯基特淋巴瘤",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "BL占所有NHL的1%～3%，占儿童NHL的40%。BL属于高度侵袭性NHL，可分为地方流行型、散发型和免疫缺陷相关型等3个变异型。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_peripheral_t_cell_lymphoma_not_otherwise_specified",
+        "name": "外周T细胞淋巴瘤，非特指型",
+        "parent_disease_id": "disease_lymphoma",
+        "disease_subtype": "外周T细胞淋巴瘤，非特指型",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "PTCL-NOS常见于中老年人，中国医学科学院肿瘤医院2006—2017年240例PTCL患者的回顾性分析结果显示，中位发病年龄为51（12～84）岁，无明显性别差异，PTCL-NOS约占PTCL患者的42.5%。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_extranodal_nk_t_cell_lymphoma_nasal_type",
+        "name": "结外NK/T细胞淋巴瘤，鼻型",
+        "parent_disease_id": "disease_lymphoma",
+        "disease_subtype": "结外NK/T细胞淋巴瘤，鼻型",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "ENKTL是EBV相关淋巴瘤，90%以上的患者肿瘤组织中EBV呈阳性。ENKTL在亚洲和南美洲较常见，欧美极少见，绝大部分原发于结外。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_mycosis_fungoides_sezary_syndrome",
+        "name": "蕈样肉芽肿和Sézary综合征",
+        "parent_disease_id": "disease_lymphoma",
+        "disease_subtype": "蕈样肉芽肿和Sézary综合征",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "MF（又名“蕈样霉菌病”）和SS是最常见的皮肤T细胞淋巴瘤（cutaneous T cell lymphoma，CTCL）。MF约占CTCL的50%，SS约占CTCL的5%。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_lymphadenopathy",
+        "name": "淋巴结肿大",
+        "body_site": "浅表淋巴结",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "90%的HL以淋巴结肿大为首发症状，颈部淋巴结是最常见的受累部位，多表现为质韧、无痛的淋巴结肿大。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "淋巴瘤常见的全身症状有发热、盗汗、体重减轻、皮肤瘙痒和乏力等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_night_sweats",
+        "name": "盗汗",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "淋巴瘤常见的全身症状有发热、盗汗、体重减轻、皮肤瘙痒和乏力等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_weight_loss",
+        "name": "体重减轻",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "淋巴瘤常见的全身症状有发热、盗汗、体重减轻、皮肤瘙痒和乏力等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_pruritus",
+        "name": "皮肤瘙痒",
+        "body_site": "皮肤",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "淋巴瘤常见的全身症状有发热、盗汗、体重减轻、皮肤瘙痒和乏力等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "乏力",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "淋巴瘤常见的全身症状有发热、盗汗、体重减轻、皮肤瘙痒和乏力等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_b_symptom",
+        "name": "B症状",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "以下3种情况中出现任何1种即可诊断为B症状：（1）不明原因发热>38℃，连续3天以上，排除感染的原因；（2）夜间盗汗；（3）体重于诊断前半年内下降>10%。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_ldh",
+        "name": "乳酸脱氢酶",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "实验室检查：患者在治疗前应行血常规、生化常规［包括肝肾功能、乳酸脱氢酶（lactate dehydrogenase，LDH）、碱性磷酸酶、β2-微球蛋白、电解质等］……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_beta2_microglobulin",
+        "name": "β2-微球蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "实验室检查：患者在治疗前应行血常规、生化常规［包括肝肾功能、乳酸脱氢酶（lactate dehydrogenase，LDH）、碱性磷酸酶、β2-微球蛋白、电解质等］……"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ebv_dna",
+        "name": "EBV DNA定量检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "对于NK/T细胞淋巴瘤和其他EBV相关淋巴瘤，应行外周血EBV DNA定量检测。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_hpv",
+        "name": "幽门螺杆菌检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "对于胃淋巴瘤，应行幽门螺杆菌（helicobacter pylori，Hp）检查；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pet_ct",
+        "name": "正电子发射计算机断层扫描",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "影像学检查包括电子计算机断层扫描（computed tomography，CT）、磁共振成像（magnetic resonance imaging，MRI）、正电子发射计算机断层扫描（positron emission tomography-computed tomography，PET-CT）和超声等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ct",
+        "name": "电子计算机断层扫描",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "影像学检查包括电子计算机断层扫描（computed tomography，CT）、磁共振成像（magnetic resonance imaging，MRI）、正电子发射计算机断层扫描（positron emission tomography-computed tomography，PET-CT）和超声等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_mri",
+        "name": "磁共振成像",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "影像学检查包括电子计算机断层扫描（computed tomography，CT）、磁共振成像（magnetic resonance imaging，MRI）、正电子发射计算机断层扫描（positron emission tomography-computed tomography，PET-CT）和超声等。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_hodgkin_lymphoma_first_line",
+        "content": "早期cHL患者推荐化放疗综合治疗，晚期cHL患者采用化疗为主的综合治疗。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "早期cHL患者推荐化放疗综合治疗，单纯化疗的局部复发率高，但化放疗综合治疗与单纯化疗患者的总生存（overall survival，OS）相似。晚期cHL患者采用化疗为主的综合治疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_diffuse_large_b_cell_lymphoma_first_line",
+        "content": "DLBCL的治疗模式是以内科治疗为主的综合治疗。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "DLBCL的治疗模式是以内科治疗为主的综合治疗。内科治疗包括化疗、靶向治疗和免疫治疗，应综合考虑患者年龄、疾病分期、病理类型和分子遗传学特征等来制定治疗方案。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_follicular_lymphoma_observation",
+        "content": "观察等待是无治疗指征Ⅲ～IV期FL的首先推荐治疗策略。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "观察等待是无治疗指征Ⅲ～IV期FL的首先推荐治疗策略，采取观察等待的患者应每3～6个月复查随诊1次。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_abvd_chemotherapy",
+        "content": "ABVD方案（多柔比星+博来霉素+长春花碱+达卡巴嗪）化疗",
+        "plan_level": 1,
+        "applicable_condition": "早期预后良好cHL",
+        "contraindication_note": "博来霉素可能引起肺毒性，拟使用博来霉素或既往存在肺基础疾病者建议行肺功能检查。",
+        "evidence_ids": [
+          "（a）早期cHL：在无PET-CT指导治疗时代，早期预后良好cHL的标准治疗为2个周期ABVD方案（多柔比星+博来霉素+长春花碱+达卡巴嗪）化疗+20 Gy放疗；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_r_chop_chemotherapy",
+        "content": "R-CHOP方案（利妥昔单抗+环磷酰胺+多柔比星+长春新碱+泼尼松）",
+        "plan_level": 1,
+        "applicable_condition": "DLBCL一线治疗",
+        "contraindication_note": "左心室功能不全的患者初始治疗可选择DA-EPOCH-R方案。",
+        "evidence_ids": [
+          "①I～Ⅱ期DLBCL的一线治疗：I～Ⅱ期无大肿块（肿块最大径<7.5 cm）的DLBCL患者可选择4个周期R-CHOP（利妥昔单抗+环磷酰胺+多柔比星+长春新碱+泼尼松）或化疗后序贯2个周期利妥昔单抗单药[89]，或4～6个周期R-CHOP方案±ISRT[90]。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_isrt",
+        "content": "受累部位放疗（involved site radiotherapy，ISRT）",
+        "plan_level": 2,
+        "applicable_condition": "I期或局限Ⅱ期MALT淋巴瘤",
+        "contraindication_note": "如存在ISRT禁忌证，可选择利妥昔单抗治疗。",
+        "evidence_ids": [
+          "I期或局限Ⅱ期的非胃MALT淋巴瘤，ISRT具有良好疗效[171-172]；利妥昔单抗也可以作为治疗选择[173]；"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_ebv_infection",
+        "content": "EBV感染",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "病因不详，部分与EBV感染有关。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_helicobacter_pylori_infection",
+        "content": "幽门螺杆菌感染",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "（1）病因学：MZL的病因与慢性感染或炎症所致的持续免疫刺激有关，胃MALT淋巴瘤与Hp的慢性感染有关……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_lymphoma_immunopathogenesis",
+        "content": "淋巴瘤是一组起源于淋巴造血系统的恶性肿瘤，其病理类型复杂，异质性强，不同病理类型具有独特的组织形态、免疫表型、基因特征、临床表现和预后。",
+        "evidence_ids": [
+          "淋巴瘤又称“恶性淋巴瘤”，是一组起源于淋巴造血系统的恶性肿瘤，是中国常见恶性肿瘤之一。……REAL分类囊括了整个淋巴造血系统恶性肿瘤，包括HL、NHL和B细胞白血病，并将NHL分为T/NK细胞来源和B细胞来源。……每一种病理类型的淋巴瘤均为一个独立疾病，这将有助于制定淋巴瘤个体化治疗方案和判断预后。"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_lymphoma",
+        "to": "sub_disease_hodgkin_lymphoma",
+        "relation_id": "rel_lymphoma_has_hodgkin_lymphoma",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "HL分为经典型霍奇金淋巴瘤（classic Hodgkin lymphoma，cHL）和结节性淋巴细胞为主型霍奇金淋巴瘤（nodular lymphocyte predominant Hodgkin lymphoma，NLPHL)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lymphoma",
+        "to": "sub_disease_diffuse_large_b_cell_lymphoma",
+        "relation_id": "rel_lymphoma_has_diffuse_large_b_cell_lymphoma",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "DLBCL是所有NHL中最常见的类型，在西方国家约占成人NHL的30%，在中国约占成人NHL的40%。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lymphoma",
+        "to": "sub_disease_follicular_lymphoma",
+        "relation_id": "rel_lymphoma_has_follicular_lymphoma",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "FL是一类较为常见的惰性NHL，在西方国家约占NHL患者的22%，在中国占NHL患者的2.5%～6.6%。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lymphoma",
+        "to": "sub_disease_marginal_zone_lymphoma",
+        "relation_id": "rel_lymphoma_has_marginal_zone_lymphoma",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "MZL是一组异质性疾病，包括黏膜相关淋巴组织（mucosa-associated lymphoid tissues, MALT）结外边缘区淋巴瘤（简称“MALT淋巴瘤”）、淋巴结边缘区淋巴瘤及脾边缘区淋巴瘤（splenic marginal zone lymphoma，SMZL）三类亚型。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lymphoma",
+        "to": "sub_disease_chronic_lymphocytic_leukemia_small_lymphocytic_lymphoma",
+        "relation_id": "rel_lymphoma_has_cll_sll",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "CLL/SLL属于惰性B细胞淋巴瘤，CLL和SLL是同一种疾病的不同表现，CLL以骨髓和外周血受累为主要特征，SLL通常以淋巴结病变为主。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lymphoma",
+        "to": "sub_disease_mantle_cell_lymphoma",
+        "relation_id": "rel_lymphoma_has_mantle_cell_lymphoma",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "MCL在美国和欧洲约占成人NHL的7%，在中国约占所有NHL的5%，是一类兼具有惰性和侵袭性淋巴瘤特征的NHL。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lymphoma",
+        "to": "sub_disease_burkitt_lymphoma",
+        "relation_id": "rel_lymphoma_has_burkitt_lymphoma",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "BL占所有NHL的1%～3%，占儿童NHL的40%。BL属于高度侵袭性NHL，可分为地方流行型、散发型和免疫缺陷相关型等3个变异型。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lymphoma",
+        "to": "sub_disease_peripheral_t_cell_lymphoma_not_otherwise_specified",
+        "relation_id": "rel_lymphoma_has_ptcl_nos",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "PTCL-NOS常见于中老年人，中国医学科学院肿瘤医院2006—2017年240例PTCL患者的回顾性分析结果显示，中位发病年龄为51（12～84）岁，无明显性别差异，PTCL-NOS约占PTCL患者的42.5%。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lymphoma",
+        "to": "sub_disease_extranodal_nk_t_cell_lymphoma_nasal_type",
+        "relation_id": "rel_lymphoma_has_enktl",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "ENKTL是EBV相关淋巴瘤，90%以上的患者肿瘤组织中EBV呈阳性。ENKTL在亚洲和南美洲较常见，欧美极少见，绝大部分原发于结外。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_lymphoma",
+        "to": "sub_disease_mycosis_fungoides_sezary_syndrome",
+        "relation_id": "rel_lymphoma_has_mf_ss",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "MF（又名“蕈样霉菌病”）和SS是最常见的皮肤T细胞淋巴瘤（cutaneous T cell lymphoma，CTCL）。MF约占CTCL的50%，SS约占CTCL的5%。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_hodgkin_lymphoma",
+        "to": "symptom_lymphadenopathy",
+        "relation_id": "rel_hl_manifests_as_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断",
+        "evidence_ids": [
+          "90%的HL以淋巴结肿大为首发症状，颈部淋巴结是最常见的受累部位，多表现为质韧、无痛的淋巴结肿大。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出‘90%的HL以淋巴结肿大为首发症状’，且‘淋巴结肿大’即lymphadenopathy，属高频、核心、首发表现，符合权重100的强首发症状标准（非金标准但按规则3允许100）",
+        "evidence": "90%的HL以淋巴结肿大为首发症状，颈部淋巴结是最常见的受累部位"
+      },
+      {
+        "from": "sub_disease_hodgkin_lymphoma",
+        "to": "symptom_b_symptom",
+        "relation_id": "rel_hl_manifests_as_b_symptom",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断",
+        "evidence_ids": [
+          "以下3种情况中出现任何1种即可诊断为B症状：（1）不明原因发热>38℃，连续3天以上，排除感染的原因；（2）夜间盗汗；（3）体重于诊断前半年内下降>10%。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确将B症状列为‘以下3种情况中出现任何1种即可诊断为B症状’，并说明‘部分患者可伴有B症状’，属明确提及但非必然/高频表现，符合weight=10",
+        "evidence": "部分患者可伴有B症状、乏力、皮肤瘙痒等症状"
+      },
+      {
+        "from": "sub_disease_diffuse_large_b_cell_lymphoma",
+        "to": "symptom_lymphadenopathy",
+        "relation_id": "rel_dlbcl_manifests_as_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断",
+        "evidence_ids": [
+          "DLBCL患者主要表现为多发淋巴结肿大，也可累及骨髓、外周血、脾脏、韦氏环、胃肠道和软组织等，原发结外者少见。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出‘患者主要表现为多发淋巴结肿大’，‘多发’+‘主要表现’构成强首发核心症状，符合weight=100标准",
+        "evidence": "患者主要表现为多发淋巴结肿大，也可累及骨髓、外周血、脾脏、韦氏环"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_hodgkin_lymphoma",
+        "to": "test_pet_ct",
+        "relation_id": "rel_hl_requires_pet_ct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "PET-CT评价代谢缓解的依据是Deauville标准（5PS）",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "主要采用Lugano淋巴瘤治疗效果评价标准（表4）[15]评价疗效，治疗效果分为基于CT评价的影像学缓解和基于PET-CT评价的代谢缓解，PET-CT评价代谢缓解的依据是Deauville标准（Deauville criteria PET5 five-point scale，5PS）（表5）。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文在‘三、疗效评价’首句明确‘主要采用Lugano淋巴瘤治疗效果评价标准（表4）评价疗效’，而表4标题及全文均以PET-CT为影像学评价核心，且‘PET-CT评价代谢缓解的依据是Deauville标准’，PET-CT是疗效评价的强制性、主导性检查，符合weight=100",
+        "evidence": "主要采用Lugano淋巴瘤治疗效果评价标准（表4）评价疗效，治疗效果分为基于CT评价的影像学缓解和基于PET-CT评价的代谢缓解"
+      },
+      {
+        "from": "sub_disease_diffuse_large_b_cell_lymphoma",
+        "to": "test_ldh",
+        "relation_id": "rel_dlbcl_requires_ldh",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": ">",
+        "unit": null,
+        "result_text": null,
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "实验室检查：患者在治疗前应行血常规、生化常规［包括肝肾功能、乳酸脱氢酶（lactate dehydrogenase，LDH）、碱性磷酸酶、β2-微球蛋白、电解质等］……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_hodgkin_lymphoma",
+        "to": "treatment_hodgkin_lymphoma_first_line",
+        "relation_id": "rel_hl_follows_first_line_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_diffuse_large_b_cell_lymphoma",
+        "to": "treatment_diffuse_large_b_cell_lymphoma_first_line",
+        "relation_id": "rel_dlbcl_follows_first_line_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_hodgkin_lymphoma_first_line",
+        "to": "plan_abvd_chemotherapy",
+        "relation_id": "rel_hl_treatment_implements_by_abvd",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "早期预后良好cHL",
+        "contraindication_note": "博来霉素可能引起肺毒性，拟使用博来霉素或既往存在肺基础疾病者建议行肺功能检查。",
+        "evidence_ids": [
+          "（a）早期cHL：在无PET-CT指导治疗时代，早期预后良好cHL的标准治疗为2个周期ABVD方案（多柔比星+博来霉素+长春花碱+达卡巴嗪）化疗+20 Gy放疗；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_diffuse_large_b_cell_lymphoma_first_line",
+        "to": "plan_r_chop_chemotherapy",
+        "relation_id": "rel_dlbcl_treatment_implements_by_r_chop",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "DLBCL一线治疗",
+        "contraindication_note": "左心室功能不全的患者初始治疗可选择DA-EPOCH-R方案。",
+        "evidence_ids": [
+          "①I～Ⅱ期DLBCL的一线治疗：I～Ⅱ期无大肿块（肿块最大径<7.5 cm）的DLBCL患者可选择4个周期R-CHOP（利妥昔单抗+环磷酰胺+多柔比星+长春新碱+泼尼松）或化疗后序贯2个周期利妥昔单抗单药[89]，或4～6个周期R-CHOP方案±ISRT[90]。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_hodgkin_lymphoma",
+        "to": "etiology_ebv_infection",
+        "relation_id": "rel_hl_causes_by_ebv",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "病因不详，部分与EBV感染有关。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_marginal_zone_lymphoma",
+        "to": "etiology_helicobacter_pylori_infection",
+        "relation_id": "rel_mzl_causes_by_hp",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "（1）病因学：MZL的病因与慢性感染或炎症所致的持续免疫刺激有关，胃MALT淋巴瘤与Hp的慢性感染有关……"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_hodgkin_lymphoma",
+        "to": "pathogenesis_lymphoma_immunopathogenesis",
+        "relation_id": "rel_hl_explained_by_pathogenesis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "淋巴瘤又称“恶性淋巴瘤”，是一组起源于淋巴造血系统的恶性肿瘤，是中国常见恶性肿瘤之一。……REAL分类囊括了整个淋巴造血系统恶性肿瘤，包括HL、NHL和B细胞白血病，并将NHL分为T/NK细胞来源和B细胞来源。……每一种病理类型的淋巴瘤均为一个独立疾病，这将有助于制定淋巴瘤个体化治疗方案和判断预后。"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

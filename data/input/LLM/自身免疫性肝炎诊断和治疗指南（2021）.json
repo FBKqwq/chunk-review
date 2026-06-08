@@ -1,0 +1,917 @@
+{
+  "meta": {
+    "doc_id": "自身免疫性肝炎诊断和治疗指南(2021)",
+    "source_title": "自身免疫性肝炎诊断和治疗指南(2021)",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_autoimmune_hepatitis",
+        "name": "自身免疫性肝炎",
+        "normalized_name": "自身免疫性肝炎",
+        "aliases": [
+          "AIH",
+          "autoimmune hepatitis"
+        ],
+        "source_document_ids": [
+          "自身免疫性肝炎诊断和治疗指南(2021)"
+        ],
+        "evidence_ids": [
+          "自身免疫性肝炎(autoimmune hepatitis，AIH )患者的临床特点包括血清氨基转移酶水平升高、高免疫球蛋白G 血症、血清自身抗体阳性，肝组织学上存在中重度界面性肝炎等"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_aih_type1",
+        "name": "1型自身免疫性肝炎",
+        "parent_disease_id": "disease_autoimmune_hepatitis",
+        "disease_subtype": "1型",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "抗核抗体（antinuclear antibodies， ANA)和 域 抗 平 滑 肌 抗 体 （anti-smooth muscle antibodies, ASMA)阳性者为1型AIH，约占AIH病例的 90%"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_aih_type2",
+        "name": "2型自身免疫性肝炎",
+        "parent_disease_id": "disease_autoimmune_hepatitis",
+        "disease_subtype": "2型",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "抗肝肾微粒体抗体-1型 （anti-liver kidney microsome-l，抗LKM-1 )和/或抗月干细胞溶质抗原-1 型（anti-liver cytosol-1，抗 LC-1)阳性者为2型AIH"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_aih_acute_severe",
+        "name": "急性重症自身免疫性肝炎",
+        "parent_disease_id": "disease_autoimmune_hepatitis",
+        "disease_subtype": "急性重症",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "急性重症AIH是指起病30 d内，出现黄疸及INR延长（> 1.5,且<2.0)，无肝性脑病表现且无既往慢性肝病基础的AIH患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_aih_acute_liver_failure",
+        "name": "自身免疫性肝炎相关急性肝衰竭",
+        "parent_disease_id": "disease_autoimmune_hepatitis",
+        "disease_subtype": "急性肝衰竭",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "AIH相关急性肝衰竭是指在黄疸、出凝血异常 (INR >1.5)的基础上，于起病26周内出现肝性脑病且否认既往慢性肝病基础"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_aih_antibody_negative",
+        "name": "抗体阴性自身免疫性肝炎",
+        "parent_disease_id": "disease_autoimmune_hepatitis",
+        "disease_subtype": "抗体阴性",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "我国一项单中心临床研究提示约10.2%的AIH患者起病时ANA、ASMA阴性，后续随访期间有患者出现ANA抗体阳性。抗体阴性的AIH患者相较于经典AIH患者，其血清IgG水平更低且起病时可能处在纤维化进展期"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_aih_cirrhosis_decompensated",
+        "name": "自身免疫性肝炎相关失代偿期肝硬化",
+        "parent_disease_id": "disease_autoimmune_hepatitis",
+        "disease_subtype": "失代偿期肝硬化",
+        "clinical_stage": "终末期",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "AIH相关肝硬化早期失代偿期患者（无肝性脑病、顽固性腹水或细菌性腹膜炎等）可谨慎使用小剂量糖皮质激素（起始剂量为15~20 mg/d) 口服，疾病好转后应快速减量至维持量（一般剂量为5.0〜7.5 mg/d)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_aih_pediatric",
+        "name": "儿童自身免疫性肝炎",
+        "parent_disease_id": "disease_autoimmune_hepatitis",
+        "disease_subtype": "儿童",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "儿童",
+        "gender": "all",
+        "age_min": 0,
+        "age_max": 18,
+        "evidence_ids": [
+          "儿童AIH年发病率为0.23/10万〜0.4/10万，高峰年龄在10岁左右"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fatigue",
+        "name": "乏力",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "多数AIH患者无明显症状或仅出现乏力等非特异性症状"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_jaundice",
+        "name": "黄疸",
+        "body_site": "皮肤巩膜",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "急性重症AIH是指起病30 d内，出现黄疸及INR延长（> 1.5,且<2.0)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hepatic_encephalopathy",
+        "name": "肝性脑病",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "AIH相关急性肝衰竭是指在黄疸、出凝血异常 (INR >1.5)的基础上，于起病26周内出现肝性脑病"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_variceal_bleeding",
+        "name": "食管胃底静脉曲张破裂出血",
+        "body_site": "消化道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "失代偿期肝硬化患者的移植指征与其他病因导致的肝硬化相似，包括反复食管胃底静脉曲张破裂出血"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_ascites",
+        "name": "腹水",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "失代偿期肝硬化患者的移植指征与其他病因导致的肝硬化相似，包括顽固性腹水"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_spontaneous_bacterial_peritonitis",
+        "name": "自发性细菌性腹膜炎",
+        "body_site": "腹部",
+        "symptom_category": "感染相关症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "失代偿期肝硬化患者的移植指征与其他病因导致的肝硬化相似，包括自发性细菌性腹膜炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hepatorenal_syndrome",
+        "name": "肝肾综合征",
+        "body_site": "肾脏",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "失代偿期肝硬化患者的移植指征与其他病因导致的肝硬化相似，包括肝肾综合征"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_alt",
+        "name": "丙氨酸转氨酶",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血清丙氨酸转氨酶(ALT)和天冬氨酸转氨酶(AST)水平升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ast",
+        "name": "天冬氨酸转氨酶",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血清丙氨酸转氨酶(ALT)和天冬氨酸转氨酶(AST)水平升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_alp",
+        "name": "碱性磷酸酶",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血清碱性磷酸酶(ALP)和γ-谷氨酰转移酶(GGT)水平基本正常或轻微升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ggt",
+        "name": "γ-谷氨酰转移酶",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血清碱性磷酸酶(ALP)和γ-谷氨酰转移酶(GGT)水平基本正常或轻微升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_tbil",
+        "name": "总胆红素",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "病情严重或急性发作时血清总胆红素(TBil)水平可显著升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_inr",
+        "name": "国际标准化比率",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "重症AIH患者（伴国际标准化比率> 1.5)应及时启动免疫抑制治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_igg",
+        "name": "免疫球蛋白G",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "高免疫球蛋白G 血症"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ana",
+        "name": "抗核抗体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "抗核抗体（antinuclear antibodies， ANA)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_asma",
+        "name": "抗平滑肌抗体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "域 抗 平 滑 肌 抗 体 （anti-smooth muscle antibodies, ASMA)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_lkm1",
+        "name": "抗肝肾微粒体抗体-1型",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "抗肝肾微粒体抗体-1型 （anti-liver kidney microsome-l，抗LKM-1 )"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_lc1",
+        "name": "抗肝细胞溶质抗原-1型",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "抗月干细胞溶质抗原-1 型（anti-liver cytosol-1，抗 LC-1)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_sla",
+        "name": "抗可溶性肝抗原抗体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "抗可溶性肝抗原抗体（anti-soluble liver antigen,抗SLA )"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_hai_score",
+        "name": "Ishak评分系统肝炎活动度",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "Ishak评分系统中肝炎活动度（hepatitis activity index, HAI)<4分时停药相对安全"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_meld_score",
+        "name": "终末期肝病模型评分",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "终末期肝病模型（MELD)评分>15 分或Child-Pugh评分>10分"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_child_pugh_score",
+        "name": "Child-Pugh评分",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "终末期肝病模型（MELD)评分>15 分或Child-Pugh评分>10分"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_aih_immunosuppression",
+        "content": "所有活动性AIH患者均需接受免疫抑制治疗，并可根据疾病活动度调整治疗方案和药物剂量",
+        "recommendation_strength": "强",
+        "source_section": "四、治疗",
+        "evidence_ids": [
+          "所有活动性AIH患者均需接受免疫抑制治疗，并可根据疾病活动度调整治疗方案和药物剂量"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_aih_induction_and_maintenance",
+        "content": "泼尼松(龙)用于诱导缓解，AZA用于维持缓解",
+        "recommendation_strength": "强",
+        "source_section": "四、治疗",
+        "evidence_ids": [
+          "泼尼松(龙)用于诱导缓解，AZA用于维持缓解"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_prednisone_initial",
+        "content": "泼尼松(龙)初始剂量为0.5~1 mg·kg⁻¹·d⁻¹ (通常30~40 mg/d)",
+        "plan_level": 1,
+        "applicable_condition": "未经治疗的AIH成人患者，若非肝硬化或急性重症者",
+        "contraindication_note": "脆性糖尿病、高血压病、严重骨质疏松等不能耐受泼尼松龙的非肝硬化患者可考虑使用布地奈德",
+        "evidence_ids": [
+          "泼尼松(龙)初始剂量为0.5~1 mg·kg⁻¹·d⁻¹ (通常30~40 mg/d)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_azathioprine_addition",
+        "content": "泼尼松(龙)基础上再加用硫唑嘌呤1 mg·kg⁻¹·d⁻¹ (通常50 mg/d)",
+        "plan_level": 1,
+        "applicable_condition": "联合治疗时",
+        "contraindication_note": "建议有条件时在加用硫唑嘌呤前监测TPMT和NUDT15基因型",
+        "evidence_ids": [
+          "联合治疗时可在泼尼松(龙)基础上再加用硫唑嘌呤1 mg·kg⁻¹·d⁻¹ (通常50 mg/d)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_budesonide",
+        "content": "布地奈德作为第2代糖皮质激素，适用于需长期应用糖皮质激素维持治疗的AIH患者以减少副作用",
+        "plan_level": 2,
+        "applicable_condition": "需长期应用糖皮质激素维持治疗的AIH患者",
+        "contraindication_note": "不宜用于肝硬化患者，布地奈德可通过肝硬化患者门静脉侧支循环直接进入体循环而失去首过效应的优势",
+        "evidence_ids": [
+          "布地奈德（Budesonide)作为第2代糖皮质激素，特点为肝脏首过清除率约90%，主要部位为肠道和肝脏，所以全身不良反应较少：布地奈德可作为AIH的一线治疗方案，适用于需长期应用糖皮质激素维持治疗的AIH患者以减少副作用：但不宜用于肝硬化患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_mmf",
+        "content": "吗替麦考酚酯（常用剂量为500~1000 mg/d)用于一线治疗应答欠佳或不耐受糖皮质激素或硫唑嘌呤副作用的AIH患者",
+        "plan_level": 2,
+        "applicable_condition": "一线治疗应答欠佳或不耐受糖皮质激素或硫唑嘌呤副作用的AIH患者",
+        "contraindication_note": "MMF初期需定期（每2周1次）监测血常规检查",
+        "evidence_ids": [
+          "对一线治疗应答欠佳或不耐受糖皮质激素或硫唑嘌呤副作用的AIH患者，可选择二线治疗方案，药物包括：吗替麦考酚酯（mycophenolate mofetil， MMF）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_tacrolimus",
+        "content": "他克莫司用于治疗失败、不完全应答和对AZA不耐受患者",
+        "plan_level": 2,
+        "applicable_condition": "治疗失败、不完全应答和对AZA不耐受患者",
+        "contraindication_note": "最常见的副作用是神经系统症状(震颤、头痛）、肾脏并发症(高血压、肾功能不全)和脱发",
+        "evidence_ids": [
+          "他克莫司在治疗失败、不完全应答和对AZA不耐受患者中具有补救治疗价值"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_autoimmunity",
+        "content": "自身免疫异常",
+        "etiology_type": "自身免疫因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "自身免疫性肝炎(autoimmune hepatitis，AIH )患者的临床特点包括血清氨基转移酶水平升高、高免疫球蛋白G 血症、血清自身抗体阳性"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_drug_induced_aih_like",
+        "content": "米诺环素、呋喃妥因、英夫利昔单抗等药物",
+        "etiology_type": "药物因素",
+        "typicality": "rare",
+        "diagnostic_role": "排除因素",
+        "evidence_ids": [
+          "米诺环素、呋喃妥因、英夫利昔单抗是目前最常报道的引起AIH样肝损伤的药物"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_interface_hepatitis",
+        "content": "界面性肝炎：炎症细胞由门管区/纤维间隔交界处（界板）向小叶内延伸，导致相邻肝细胞呈单个或小簇状坏死、脱落",
+        "evidence_ids": [
+          "界面性肝炎:在组织学上，肝细胞和门管区/纤维间隔交界处称为“界板”，炎症细胞由该区域向小叶内延伸，导致相邻肝细胞呈单个或小簇状坏死、脱落，称为界面性肝炎"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_autoimmune_hepatitis",
+        "to": "sub_disease_aih_type1",
+        "relation_id": "rel_aih_has_type1",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "抗核抗体（antinuclear antibodies， ANA)和 域 抗 平 滑 肌 抗 体 （anti-smooth muscle antibodies, ASMA)阳性者为1型AIH，约占AIH病例的 90%"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_autoimmune_hepatitis",
+        "to": "sub_disease_aih_type2",
+        "relation_id": "rel_aih_has_type2",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "抗肝肾微粒体抗体-1型 （anti-liver kidney microsome-l，抗LKM-1 )和/或抗月干细胞溶质抗原-1 型（anti-liver cytosol-1，抗 LC-1)阳性者为2型AIH"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_autoimmune_hepatitis",
+        "to": "sub_disease_aih_acute_severe",
+        "relation_id": "rel_aih_has_acute_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性重症AIH是指起病30 d内，出现黄疸及INR延长（> 1.5,且<2.0)，无肝性脑病表现且无既往慢性肝病基础的AIH患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_autoimmune_hepatitis",
+        "to": "sub_disease_aih_acute_liver_failure",
+        "relation_id": "rel_aih_has_acute_liver_failure",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "AIH相关急性肝衰竭是指在黄疸、出凝血异常 (INR >1.5)的基础上，于起病26周内出现肝性脑病且否认既往慢性肝病基础"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_autoimmune_hepatitis",
+        "to": "sub_disease_aih_antibody_negative",
+        "relation_id": "rel_aih_has_antibody_negative",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "我国一项单中心临床研究提示约10.2%的AIH患者起病时ANA、ASMA阴性，后续随访期间有患者出现ANA抗体阳性。抗体阴性的AIH患者相较于经典AIH患者，其血清IgG水平更低且起病时可能处在纤维化进展期"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_autoimmune_hepatitis",
+        "to": "sub_disease_aih_cirrhosis_decompensated",
+        "relation_id": "rel_aih_has_cirrhosis_decompensated",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "AIH相关肝硬化早期失代偿期患者（无肝性脑病、顽固性腹水或细菌性腹膜炎等）可谨慎使用小剂量糖皮质激素（起始剂量为15~20 mg/d) 口服，疾病好转后应快速减量至维持量（一般剂量为5.0〜7.5 mg/d)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_autoimmune_hepatitis",
+        "to": "sub_disease_aih_pediatric",
+        "relation_id": "rel_aih_has_pediatric",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "儿童AIH年发病率为0.23/10万〜0.4/10万，高峰年龄在10岁左右"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_aih_type1",
+        "to": "symptom_fatigue",
+        "relation_id": "rel_type1_manifests_as_fatigue",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "多数AIH患者无明显症状或仅出现乏力等非特异性症状"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_aih_acute_severe",
+        "to": "symptom_jaundice",
+        "relation_id": "rel_acute_severe_manifests_as_jaundice",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "起病30 d内",
+        "section_priority": "特殊类型处理",
+        "evidence_ids": [
+          "急性重症AIH是指起病30 d内，出现黄疸及INR延长（> 1.5,且<2.0)"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确将‘黄疸’列为急性重症AIH的首发临床表现之一，且与INR延长并列作为定义要素",
+        "evidence": "急性重症AIH是指起病30d内，出现黄疸及INR延长（>1.5,且<2.0)"
+      },
+      {
+        "from": "sub_disease_aih_acute_liver_failure",
+        "to": "symptom_hepatic_encephalopathy",
+        "relation_id": "rel_acute_liver_failure_manifests_as_hepatic_encephalopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "起病26周内",
+        "section_priority": "特殊类型处理",
+        "evidence_ids": [
+          "AIH相关急性肝衰竭是指在黄疸、出凝血异常 (INR >1.5)的基础上，于起病26周内出现肝性脑病"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确定义AIH相关急性肝衰竭需‘于起病26周内出现肝性脑病’，为诊断必要条件",
+        "evidence": "AIH相关急性肝衰竭是指在黄疸、出凝血异常(INR>1.5)的基础上，于起病26周内出现肝性脑病"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_aih_type1",
+        "to": "test_ana",
+        "relation_id": "rel_type1_requires_ana",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断与鉴别诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "抗核抗体（antinuclear antibodies， ANA)和 域 抗 平 滑 肌 抗 体 （anti-smooth muscle antibodies, ASMA)阳性者为1型AIH"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出1型AIH由ANA和ASMA阳性定义，且表3中ANA≥1:40即计分，属核心诊断指标",
+        "evidence": "抗核抗体（antinuclearantibodies，ANA)和域抗平滑肌抗体（anti-smoothmuscleantibodies,ASMA)阳性者为1型AIH"
+      },
+      {
+        "from": "sub_disease_aih_type1",
+        "to": "test_asma",
+        "relation_id": "rel_type1_requires_asma",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断与鉴别诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "抗核抗体（antinuclear antibodies， ANA)和 域 抗 平 滑 肌 抗 体 （anti-smooth muscle antibodies, ASMA)阳性者为1型AIH"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确将ASMA与ANA并列为1型AIH定义性自身抗体，且表3中SMA≥1:40即计分",
+        "evidence": "抗核抗体（antinuclearantibodies，ANA)和域抗平滑肌抗体（anti-smoothmuscleantibodies,ASMA)阳性者为1型AIH"
+      },
+      {
+        "from": "sub_disease_aih_type2",
+        "to": "test_lkm1",
+        "relation_id": "rel_type2_requires_lkm1",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断与鉴别诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "抗肝肾微粒体抗体-1型 （anti-liver kidney microsome-l，抗LKM-1 )和/或抗月干细胞溶质抗原-1 型（anti-liver cytosol-1，抗 LC-1)阳性者为2型AIH"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确定义2型AIH为抗LKM-1和/或抗LC-1阳性，且表3中LKM-1≥1:40即计2分",
+        "evidence": "抗肝肾微粒体抗体-1型（anti-liverkidneymicrosome-l，抗LKM-1)和/或抗月干细胞溶质抗原-1型（anti-livercytosol-1，抗LC-1)阳性者为2型AIH"
+      },
+      {
+        "from": "sub_disease_aih_acute_severe",
+        "to": "test_inr",
+        "relation_id": "rel_acute_severe_requires_inr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 1.5,
+        "value_max": 2.0,
+        "operator": "between",
+        "unit": null,
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "特殊类型处理",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "急性重症AIH是指起病30 d内，出现黄疸及INR延长（> 1.5,且<2.0)"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将INR延长（>1.5且<2.0）与黄疸并列作为急性重症AIH的定义性实验室指标",
+        "evidence": "急性重症AIH是指起病30d内，出现黄疸及INR延长（>1.5,且<2.0)"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_aih_type1",
+        "to": "treatment_aih_immunosuppression",
+        "relation_id": "rel_type1_follows_immunosuppression",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "所有活动性AIH患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强",
+        "decision_basis": [
+          "疾病活动度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四、治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_aih_acute_severe",
+        "to": "treatment_aih_induction_and_maintenance",
+        "relation_id": "rel_acute_severe_follows_induction_and_maintenance",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "未经治疗的AIH成人患者，若非肝硬化或急性重症者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强",
+        "decision_basis": [
+          "疾病分型",
+          "严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "四、治疗",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_aih_immunosuppression",
+        "to": "plan_prednisone_initial",
+        "relation_id": "rel_immunosuppression_implements_by_prednisone",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "未经治疗的AIH成人患者，若非肝硬化或急性重症者",
+        "contraindication_note": "脆性糖尿病、高血压病、严重骨质疏松等不能耐受泼尼松龙的非肝硬化患者可考虑使用布地奈德",
+        "evidence_ids": [
+          "泼尼松(龙)初始剂量为0.5~1 mg·kg⁻¹·d⁻¹ (通常30~40 mg/d)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_aih_induction_and_maintenance",
+        "to": "plan_azathioprine_addition",
+        "relation_id": "rel_induction_and_maintenance_implements_by_azathioprine",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "联合治疗时",
+        "contraindication_note": "建议有条件时在加用硫唑嘌呤前监测TPMT和NUDT15基因型",
+        "evidence_ids": [
+          "联合治疗时可在泼尼松(龙)基础上再加用硫唑嘌呤1 mg·kg⁻¹·d⁻¹ (通常50 mg/d)"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_aih_type1",
+        "to": "etiology_autoimmunity",
+        "relation_id": "rel_type1_causes_autoimmunity",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "自身免疫性肝炎(autoimmune hepatitis，AIH )患者的临床特点包括血清氨基转移酶水平升高、高免疫球蛋白G 血症、血清自身抗体阳性"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_aih_type1",
+        "to": "pathogenesis_interface_hepatitis",
+        "relation_id": "rel_type1_explained_by_interface_hepatitis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "界面性肝炎:在组织学上，肝细胞和门管区/纤维间隔交界处称为“界板”，炎症细胞由该区域向小叶内延伸，导致相邻肝细胞呈单个或小簇状坏死、脱落，称为界面性肝炎"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

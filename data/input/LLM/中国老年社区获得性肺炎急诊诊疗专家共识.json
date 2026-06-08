@@ -1,0 +1,1385 @@
+{
+  "meta": {
+    "doc_id": "中国老年社区获得性肺炎急诊诊疗专家共识",
+    "source_title": "中国老年社区获得性肺炎急诊诊疗专家共识",
+    "section_path": "",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_cap",
+        "name": "社区获得性肺炎",
+        "normalized_name": "社区获得性肺炎",
+        "aliases": [
+          "CAP"
+        ],
+        "source_document_ids": [
+          "中国老年社区获得性肺炎急诊诊疗专家共识"
+        ],
+        "evidence_ids": [
+          "社区获得性肺炎（community-acquired pneumonia，CAP）是下呼吸道感染的常见类型之一，全球发病率较高，危害较大。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_elderly_cap",
+        "name": "老年社区获得性肺炎",
+        "parent_disease_id": "disease_cap",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "老年患者（≥65岁）",
+        "gender": "all",
+        "age_min": 65,
+        "age_max": null,
+        "evidence_ids": [
+          "我国老年患者（≥65岁）因高龄、合并多种基础病以及宿主免疫受损常发生社区获得性肺炎（community-acquired pneumonia，CAP）。老年CAP已经成为我国老年人的主要疾病之一，特别在高龄（80岁以上）老年人群中达到峰值。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_elderly_cap_severe",
+        "name": "重症老年社区获得性肺炎",
+        "parent_disease_id": "disease_cap",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "老年患者（≥65岁）",
+        "gender": "all",
+        "age_min": 65,
+        "age_max": null,
+        "evidence_ids": [
+          "对于合并有基础病或者需要住院的重症老年CAP患者，革兰阴性杆菌和耐药菌较为常见。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_elderly_cap_viral",
+        "name": "老年病毒性社区获得性肺炎",
+        "parent_disease_id": "disease_cap",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "老年患者（≥65岁）",
+        "gender": "all",
+        "age_min": 65,
+        "age_max": null,
+        "evidence_ids": [
+          "老年病毒性CAP发病率较高，主要包括呼吸道合胞病毒、流感病毒、副流感病毒、鼻病毒、腺病毒等。自2019年底全球开始出现了新型冠状病毒的大流行，老年患者成为主要的易感人群，特别在2022年底新型冠状病毒超越流感病毒成为老年CAP首要的致病病毒。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_elderly_cap_aspiration",
+        "name": "老年吸入性社区获得性肺炎",
+        "parent_disease_id": "disease_cap",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "老年患者（≥65岁）",
+        "gender": "all",
+        "age_min": 65,
+        "age_max": null,
+        "evidence_ids": [
+          "吸人性肺炎是老年CAP的主要病因之一，有研究显示吸入性肺炎占老年CAP的近70%。老年人多存在意识障碍、吞咽困难、咳嗽反射受损等，隐形误吸是老年吸入性肺炎的主要原因。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "通常通过临床症状（呼吸道症状、发热和呼吸困难等）体征（肺部听诊湿性啰音等）实验室和影像学检查对CAP做出诊断。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dyspnea",
+        "name": "呼吸困难",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "通常通过临床症状（呼吸道症状、发热和呼吸困难等）体征（肺部听诊湿性啰音等）实验室和影像学检查对CAP做出诊断。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_cough",
+        "name": "咳嗽",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "老年CAP患者胸痛、咳嗽、发热和白细胞增多等临床表现并不常见。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_chest_pain",
+        "name": "胸痛",
+        "body_site": "胸部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "老年CAP患者胸痛、咳嗽、发热和白细胞增多等临床表现并不常见。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_altered_mentation",
+        "name": "意识改变",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状）。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_fatigue",
+        "name": "疲劳",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_fall",
+        "name": "跌倒",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_urinary_incontinence",
+        "name": "尿失禁",
+        "body_site": "泌尿系统",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_anorexia",
+        "name": "食欲下降",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_vomiting",
+        "name": "呕吐",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_diarrhea",
+        "name": "腹泻",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_tachypnea",
+        "name": "呼吸频率增快",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "高龄 CAP 老人易出现“隐匿性”呼吸衰竭，呼吸频率增快（大于30次/min）可作为鉴别诊断的一个敏感指标。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_tachycardia",
+        "name": "心率增快",
+        "body_site": "循环系统",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "此外，老年人不明原因心率增快也需要警惕CAP的可能，急诊医师应重视老年患者相关体格检查，对于CAP的诊断和鉴别诊断具有重要作用。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_chest_ct",
+        "name": "胸部CT",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "肺部CT作为一种精度更高的影像技术，敏感性要明显好于胸部X线片，推荐作为CAP诊断的首要检查工具，特别对肺水肿、肺梗死、肺间质纤维化、肺血管炎等具有良好的鉴别作用。此外，肺CT对老年CAP的预后也具有很好的评估作用，肺CT显示双肺浸润性改变是老年CAP死亡的独立预测因素。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_crp",
+        "name": "C-反应蛋白（CRP）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "传统的炎症指标如白细胞计数、C反应蛋白（CRP）等联合检测有助于评估CAP的病情变化、预后结局和制定治疗方案。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pct",
+        "name": "降钙素原（PCT）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "传统的炎症指标如白细胞计数、C反应蛋白（CRP）等联合检测有助于评估CAP的病情变化、预后结局和制定治疗方案。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_nlr",
+        "name": "中性粒细胞与淋巴细胞比率（NLR）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "肾功能、D-二聚体、C-反应蛋白（CRP）、血糖、低蛋白血症、中性粒细胞与淋巴细胞比率（NLR）、胸腔积液、双侧病变、多叶段受累是评估老年CAP病情严重程度和预后的主要指标。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_d_dimer",
+        "name": "D-二聚体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "肾功能、D-二聚体、C-反应蛋白（CRP）、血糖、低蛋白血症、中性粒细胞与淋巴细胞比率（NLR）、胸腔积液、双侧病变、多叶段受累是评估老年CAP病情严重程度和预后的主要指标。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_blood_gas_analysis",
+        "name": "血气分析",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "急诊医师应根据病情监测患者的血常规、C-反应蛋白、PCT、血气分析、生化、影像学和病原学等检查、应加强气道管理和痰液引流；"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_empirical_antibiotics",
+        "content": "初始经验性抗菌治疗",
+        "recommendation_strength": "strong",
+        "source_section": "推荐意见9",
+        "evidence_ids": [
+          "推荐意见9：急诊医师需要根据老年CAP患者的自身因素、基础病、病情严重程度、营养免疫状态、器官功能、并发症、抗菌药物的药动学/药效学特点、致病微生物特性和当地微生物流行病学特点等因素，制定合理的经验性抗菌治疗方案。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_targeted_antibiotics",
+        "content": "抗菌药物的目标性治疗",
+        "recommendation_strength": "strong",
+        "source_section": "图1",
+        "evidence_ids": [
+          "抗菌药物的目标性治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_corticosteroids",
+        "content": "糖皮质激素治疗",
+        "recommendation_strength": "moderate",
+        "source_section": "推荐意见12",
+        "evidence_ids": [
+          "推荐意见12：激素治疗老年CAP时，应根据病情严重度、并发症、免疫功能、器官功能和有无禁忌证等做出综合评估。合并脓毒症性休克的重症CAP患者，建议小剂量和短疗程激素治疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_antiviral",
+        "content": "抗病毒治疗",
+        "recommendation_strength": "strong",
+        "source_section": "7.4 抗病毒治疗",
+        "evidence_ids": [
+          "流感病毒A和B对神经氨酸酶抑制剂奥司他韦和扎那米韦均敏感，抗病毒药物可以降低流感病毒肺炎的严重程度、持续时间、以及与流感相关的并发症和病死率。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_amoxicillin_clavulanate",
+        "content": "阿莫西林/克拉维酸",
+        "plan_level": 1,
+        "applicable_condition": "无合并其他基础疾病的老年CAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "无合并其他基础疾病的老年CAP患者，感染病原体以肺炎链球菌、肺炎支原体、肺炎衣原体、流感嗜血杆菌、嗜肺军团菌及呼吸道病毒为常见，通常可选用阿莫西林/克拉维酸、二/三代头孢菌素或联合大环内酯类（例如阿奇霉素）、呼吸喹诺酮（例如左氧氟沙星、莫西沙星）、奥马环素。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_cephalosporin_2nd_3rd",
+        "content": "二/三代头孢菌素或联合大环内酯类（例如阿奇霉素）",
+        "plan_level": 1,
+        "applicable_condition": "无合并其他基础疾病的老年CAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "无合并其他基础疾病的老年CAP患者，感染病原体以肺炎链球菌、肺炎支原体、肺炎衣原体、流感嗜血杆菌、嗜肺军团菌及呼吸道病毒为常见，通常可选用阿莫西林/克拉维酸、二/三代头孢菌素或联合大环内酯类（例如阿奇霉素）、呼吸喹诺酮（例如左氧氟沙星、莫西沙星）、奥马环素。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_respiratory_quinolone",
+        "content": "呼吸喹诺酮（例如左氧氟沙星、莫西沙星）",
+        "plan_level": 1,
+        "applicable_condition": "无合并其他基础疾病的老年CAP患者",
+        "contraindication_note": "老年人中有诱发QT间期延长、导致失眠、头痛及精神症状等不良反应",
+        "evidence_ids": [
+          "无合并其他基础疾病的老年CAP患者，感染病原体以肺炎链球菌、肺炎支原体、肺炎衣原体、流感嗜血杆菌、嗜肺军团菌及呼吸道病毒为常见，通常可选用阿莫西林/克拉维酸、二/三代头孢菌素或联合大环内酯类（例如阿奇霉素）、呼吸喹诺酮（例如左氧氟沙星、莫西沙星）、奥马环素。我国多项细菌耐药监测数据显示，肺炎链球菌和肺炎支原体对大环内脂类药物耐药率在80%以上，而喹诺酮类药物在老年人中有诱发QT间期延长、导致失眠、头痛及精神症状等不良反应，不耐受的患者可以使用新一代四环素类药物奥马环素替代。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_omadacycline",
+        "content": "奥马环素",
+        "plan_level": 1,
+        "applicable_condition": "无合并其他基础疾病的老年CAP患者且不耐受喹诺酮类药物者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "无合并其他基础疾病的老年CAP患者，感染病原体以肺炎链球菌、肺炎支原体、肺炎衣原体、流感嗜血杆菌、嗜肺军团菌及呼吸道病毒为常见，通常可选用阿莫西林/克拉维酸、二/三代头孢菌素或联合大环内酯类（例如阿奇霉素）、呼吸喹诺酮（例如左氧氟沙星、莫西沙星）、奥马环素。我国多项细菌耐药监测数据显示，肺炎链球菌和肺炎支原体对大环内脂类药物耐药率在80%以上，而喹诺酮类药物在老年人中有诱发QT间期延长、导致失眠、头痛及精神症状等不良反应，不耐受的患者可以使用新一代四环素类药物奥马环素替代。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_piperacillin_tazobactam",
+        "content": "哌拉西林他唑巴坦",
+        "plan_level": 2,
+        "applicable_condition": "急诊门诊治疗有基础病和留观或者住院的老年CAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "急诊门诊治疗有基础病和留观或者住院 肠杆菌科细菌、铜绿假单胞菌、呼吸道病毒、肺炎链球菌、金黄色葡萄球菌、厌氧菌、混合感染等 建议静脉抗菌药物治疗，二、三代头孢菌素/或酶抑制剂复合剂（哌拉西林他唑巴坦、头孢哌酮钠舒巴坦钠等）或联合大环内酯类；呼吸喹诺酮类药物（莫西沙星、左氧氟沙星）；奥马环素或者厄他培南；结构性肺病需要覆盖铜绿假单胞菌可根据病情严重程度和耐药情况考虑使用亚胺培南西司他丁或者美罗培南；覆盖MRSA可考虑加用万古霉素、替考拉宁或者利奈唑胺。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_meropenem",
+        "content": "美罗培南",
+        "plan_level": 2,
+        "applicable_condition": "结构性肺病需覆盖铜绿假单胞菌的老年CAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "急诊门诊治疗有基础病和留观或者住院 肠杆菌科细菌、铜绿假单胞菌、呼吸道病毒、肺炎链球菌、金黄色葡萄球菌、厌氧菌、混合感染等 建议静脉抗菌药物治疗，二、三代头孢菌素/或酶抑制剂复合剂（哌拉西林他唑巴坦、头孢哌酮钠舒巴坦钠等）或联合大环内酯类；呼吸喹诺酮类药物（莫西沙星、左氧氟沙星）；奥马环素或者厄他培南；结构性肺病需要覆盖铜绿假单胞菌可根据病情严重程度和耐药情况考虑使用亚胺培南西司他丁或者美罗培南；覆盖MRSA可考虑加用万古霉素、替考拉宁或者利奈唑胺。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_vancomycin",
+        "content": "万古霉素",
+        "plan_level": 2,
+        "applicable_condition": "需覆盖MRSA的老年CAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "急诊门诊治疗有基础病和留观或者住院 肠杆菌科细菌、铜绿假单胞菌、呼吸道病毒、肺炎链球菌、金黄色葡萄球菌、厌氧菌、混合感染等 建议静脉抗菌药物治疗，二、三代头孢菌素/或酶抑制剂复合剂（哌拉西林他唑巴坦、头孢哌酮钠舒巴坦钠等）或联合大环内酯类；呼吸喹诺酮类药物（莫西沙星、左氧氟沙星）；奥马环素或者厄他培南；结构性肺病需要覆盖铜绿假单胞菌可根据病情严重程度和耐药情况考虑使用亚胺培南西司他丁或者美罗培南；覆盖MRSA可考虑加用万古霉素、替考拉宁或者利奈唑胺。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_oseltamivir",
+        "content": "奥司他韦",
+        "plan_level": 1,
+        "applicable_condition": "老年病毒性CAP患者，特别是65岁以上、免疫受损、有慢性肾脏、心血管或呼吸系统疾病、糖尿病或肥胖等患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "根据现行建议，奥司他韦适用于65岁以上，免疫受损的宿主，有慢性肾脏、心血管或呼吸系统疾病、糖尿病或肥胖等患者，每12h服用75mg，持续时间为5d。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_aspiration",
+        "content": "吸入性肺炎",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "吸人性肺炎是老年CAP的主要病因之一，有研究显示吸入性肺炎占老年CAP的近70%。老年人多存在意识障碍、吞咽困难、咳嗽反射受损等，隐形误吸是老年吸入性肺炎的主要原因。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_immunosenescence",
+        "content": "免疫功能低下",
+        "etiology_type": "宿主因素",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "由于老年人基础疾病多，全身器官功能减退，呼吸免疫系统及防御功能低下，CAP患者有更高的病死率，与年龄呈明显相关性，年龄越大则病死率相应增大，特别是65岁以上患者的病死率明显上升。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_dysphagia",
+        "content": "吞咽功能障碍",
+        "etiology_type": "宿主因素",
+        "typicality": "typical",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "推荐意见2：高龄、基础病、吞咽功能障碍、免疫功能低下、肌少症和居住于养老院是老年CAP发生的主要危险因素。推荐意见3：吞咽困难和咳嗽反射障碍导致的隐形误吸是老年吸入性肺炎的主要原因。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_muscle_wasting",
+        "content": "肌少症",
+        "etiology_type": "宿主因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "推荐意见2：高龄、基础病、吞咽功能障碍、免疫功能低下、肌少症和居住于养老院是老年CAP发生的主要危险因素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_nursing_home_residence",
+        "content": "居住于养老院",
+        "etiology_type": "宿主因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "推荐意见2：高龄、基础病、吞咽功能障碍、免疫功能低下、肌少症和居住于养老院是老年CAP发生的主要危险因素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_cardiovascular_disease",
+        "content": "心血管疾病",
+        "etiology_type": "基础疾病",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "推荐意见1：老年CAP发病率呈明显的季节波动和地域差异；心血管疾病、慢性呼吸疾病和脑血管病是老年CAP最常见的合并症；随着年龄和合并症的增加，发病率和病死率均明显升高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_chronic_respiratory_disease",
+        "content": "慢性呼吸疾病",
+        "etiology_type": "基础疾病",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "推荐意见1：老年CAP发病率呈明显的季节波动和地域差异；心血管疾病、慢性呼吸疾病和脑血管病是老年CAP最常见的合并症；随着年龄和合并症的增加，发病率和病死率均明显升高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_cerebrovascular_disease",
+        "content": "脑血管病",
+        "etiology_type": "基础疾病",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "推荐意见1：老年CAP发病率呈明显的季节波动和地域差异；心血管疾病、慢性呼吸疾病和脑血管病是老年CAP最常见的合并症；随着年龄和合并症的增加，发病率和病死率均明显升高。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_immunosenescence_and_aspiration",
+        "content": "老年人免疫功能随着年龄增长而逐渐降低，免疫功能是决定老年CAP预后的主要因素；老年人多存在意识障碍、吞咽困难、咳嗽反射受损等，隐形误吸是老年吸入性肺炎的主要原因。",
+        "evidence_ids": [
+          "老年人免疫功能随着年龄增长而逐渐降低，免疫功能是决定老年CAP预后的主要因素。老年人很多疾病（实体瘤或血液系统恶性肿瘤，放疗、激素用药等）存在多种危险因素均可并发CAP。有研究证实CD4+T淋巴细胞有助于识别老年CAP高风险患者，它的减少与住院死亡风险增加相关。吸人性肺炎是老年CAP的主要病因之一，有研究显示吸入性肺炎占老年CAP的近70%。老年人多存在意识障碍、吞咽困难、咳嗽反射受损等，隐形误吸是老年吸入性肺炎的主要原因。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_cap",
+        "to": "sub_disease_elderly_cap",
+        "relation_id": "rel_cap_has_elderly_cap",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "我国老年患者（≥65岁）因高龄、合并多种基础病以及宿主免疫受损常发生社区获得性肺炎（community-acquired pneumonia，CAP）。老年CAP已经成为我国老年人的主要疾病之一，特别在高龄（80岁以上）老年人群中达到峰值。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_cap",
+        "to": "sub_disease_elderly_cap_severe",
+        "relation_id": "rel_cap_has_elderly_cap_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "对于合并有基础病或者需要住院的重症老年CAP患者，革兰阴性杆菌和耐药菌较为常见。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_cap",
+        "to": "sub_disease_elderly_cap_viral",
+        "relation_id": "rel_cap_has_elderly_cap_viral",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "老年病毒性CAP发病率较高，主要包括呼吸道合胞病毒、流感病毒、副流感病毒、鼻病毒、腺病毒等。自2019年底全球开始出现了新型冠状病毒的大流行，老年患者成为主要的易感人群，特别在2022年底新型冠状病毒超越流感病毒成为老年CAP首要的致病病毒。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_cap",
+        "to": "sub_disease_elderly_cap_aspiration",
+        "relation_id": "rel_cap_has_elderly_cap_aspiration",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "吸人性肺炎是老年CAP的主要病因之一，有研究显示吸入性肺炎占老年CAP的近70%。老年人多存在意识障碍、吞咽困难、咳嗽反射受损等，隐形误吸是老年吸入性肺炎的主要原因。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_fever",
+        "relation_id": "rel_elderly_cap_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "通常通过临床症状（呼吸道症状、发热和呼吸困难等）体征（肺部听诊湿性啰音等）实验室和影像学检查对CAP做出诊断。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_dyspnea",
+        "relation_id": "rel_elderly_cap_manifests_as_dyspnea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "通常通过临床症状（呼吸道症状、发热和呼吸困难等）体征（肺部听诊湿性啰音等）实验室和影像学检查对CAP做出诊断。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_cough",
+        "relation_id": "rel_elderly_cap_manifests_as_cough",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "老年CAP患者胸痛、咳嗽、发热和白细胞增多等临床表现并不常见。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_altered_mentation",
+        "relation_id": "rel_elderly_cap_manifests_as_altered_mentation",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出‘常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现’，属高频不典型首发表现，强度强于一般相关但未达金标准",
+        "evidence": "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现"
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_fatigue",
+        "relation_id": "rel_elderly_cap_manifests_as_fatigue",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_fall",
+        "relation_id": "rel_elderly_cap_manifests_as_fall",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_urinary_incontinence",
+        "relation_id": "rel_elderly_cap_manifests_as_urinary_incontinence",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_anorexia",
+        "relation_id": "rel_elderly_cap_manifests_as_anorexia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_vomiting",
+        "relation_id": "rel_elderly_cap_manifests_as_vomiting",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_abdominal_pain",
+        "relation_id": "rel_elderly_cap_manifests_as_abdominal_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_diarrhea",
+        "relation_id": "rel_elderly_cap_manifests_as_diarrhea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "老年CAP患者常以意识改变和精神症状（谵妄、意识模糊）为首发症状出现，特别是高龄CAP老人常出现跌倒、尿失禁、消化道症状（食欲下降、呕吐、腹痛、腹泻等）、全身症状（疲劳、乏力等肺外不典型症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_tachypnea",
+        "relation_id": "rel_elderly_cap_manifests_as_tachypnea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "高龄 CAP 老人易出现“隐匿性”呼吸衰竭，呼吸频率增快（大于30次/min）可作为鉴别诊断的一个敏感指标。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文称‘呼吸频率增快（大于30次/min）可作为鉴别诊断的一个敏感指标’，且强调‘应重视高龄老年CAP呼吸困难症状的评估，警惕呼吸衰竭的发生’，属高敏、具临床行动指引性的关键体征",
+        "evidence": "呼吸频率增快（大于30次/min）可作为鉴别诊断的一个敏感指标"
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "symptom_tachycardia",
+        "relation_id": "rel_elderly_cap_manifests_as_tachycardia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "此外，老年人不明原因心率增快也需要警惕CAP的可能，急诊医师应重视老年患者相关体格检查，对于CAP的诊断和鉴别诊断具有重要作用。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文仅提‘不明原因心率增快也需要警惕CAP的可能’，属警示性提示（‘需要警惕’），强度低于tachypnea的‘敏感指标’，但高于普通相关",
+        "evidence": "老年人不明原因心率增快也需要警惕CAP的可能"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "test_chest_ct",
+        "relation_id": "rel_elderly_cap_requires_chest_ct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "肺CT显示双肺浸润性改变",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "肺部CT作为一种精度更高的影像技术，敏感性要明显好于胸部X线片，推荐作为CAP诊断的首要检查工具，特别对肺水肿、肺梗死、肺间质纤维化、肺血管炎等具有良好的鉴别作用。此外，肺CT对老年CAP的预后也具有很好的评估作用，肺CT显示双肺浸润性改变是老年CAP死亡的独立预测因素。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确推荐‘肺部CT……推荐作为CAP诊断的首要检查工具’，且强调‘特别对……具有良好的鉴别作用’，‘首选’+‘首要检查工具’构成强临床路径级要求",
+        "evidence": "肺部CT作为一种精度更高的影像技术……推荐作为CAP诊断的首要检查工具"
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "test_crp",
+        "relation_id": "rel_elderly_cap_requires_crp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "传统的炎症指标如白细胞计数、C反应蛋白（CRP）等联合检测有助于评估CAP的病情变化、预后结局和制定治疗方案。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "test_pct",
+        "relation_id": "rel_elderly_cap_requires_pct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "传统的炎症指标如白细胞计数、C反应蛋白（CRP）等联合检测有助于评估CAP的病情变化、预后结局和制定治疗方案。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "test_nlr",
+        "relation_id": "rel_elderly_cap_requires_nlr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "肾功能、D-二聚体、C-反应蛋白（CRP）、血糖、低蛋白血症、中性粒细胞与淋巴细胞比率（NLR）、胸腔积液、双侧病变、多叶段受累是评估老年CAP病情严重程度和预后的主要指标。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "test_d_dimer",
+        "relation_id": "rel_elderly_cap_requires_d_dimer",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "肾功能、D-二聚体、C-反应蛋白（CRP）、血糖、低蛋白血症、中性粒细胞与淋巴细胞比率（NLR）、胸腔积液、双侧病变、多叶段受累是评估老年CAP病情严重程度和预后的主要指标。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "treatment_empirical_antibiotics",
+        "relation_id": "rel_elderly_cap_follows_empirical_antibiotics",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "初始经验性抗菌治疗无效、急诊留观、抢救、EICU和来自养老院的老年CAP患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病情严重程度",
+          "基础病",
+          "病原学特征"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐意见9",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "treatment_targeted_antibiotics",
+        "relation_id": "rel_elderly_cap_follows_targeted_antibiotics",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "病原学结果明确后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病原学结果"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "图1",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_elderly_cap_severe",
+        "to": "treatment_corticosteroids",
+        "relation_id": "rel_elderly_cap_severe_follows_corticosteroids",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "合并脓毒症性休克",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "moderate",
+        "decision_basis": [
+          "病情严重度",
+          "并发症",
+          "免疫功能",
+          "器官功能",
+          "禁忌证"
+        ],
+        "contraindication_note": "不适用于患有重症病毒性（流感、SARS和中东呼吸综合征）CAP和未控制糖尿病的患者",
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐意见12",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap_viral",
+        "to": "treatment_antiviral",
+        "relation_id": "rel_elderly_cap_viral_follows_antiviral",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "老年病毒性CAP患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病毒类型",
+          "年龄",
+          "基础病"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "7.4 抗病毒治疗",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_amoxicillin_clavulanate",
+        "relation_id": "rel_empirical_antibiotics_implements_by_amoxicillin_clavulanate",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "无合并其他基础疾病的老年CAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "无合并其他基础疾病的老年CAP患者，感染病原体以肺炎链球菌、肺炎支原体、肺炎衣原体、流感嗜血杆菌、嗜肺军团菌及呼吸道病毒为常见，通常可选用阿莫西林/克拉维酸、二/三代头孢菌素或联合大环内酯类（例如阿奇霉素）、呼吸喹诺酮（例如左氧氟沙星、莫西沙星）、奥马环素。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_cephalosporin_2nd_3rd",
+        "relation_id": "rel_empirical_antibiotics_implements_by_cephalosporin_2nd_3rd",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "无合并其他基础疾病的老年CAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "无合并其他基础疾病的老年CAP患者，感染病原体以肺炎链球菌、肺炎支原体、肺炎衣原体、流感嗜血杆菌、嗜肺军团菌及呼吸道病毒为常见，通常可选用阿莫西林/克拉维酸、二/三代头孢菌素或联合大环内酯类（例如阿奇霉素）、呼吸喹诺酮（例如左氧氟沙星、莫西沙星）、奥马环素。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_respiratory_quinolone",
+        "relation_id": "rel_empirical_antibiotics_implements_by_respiratory_quinolone",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "无合并其他基础疾病的老年CAP患者",
+        "contraindication_note": "老年人中有诱发QT间期延长、导致失眠、头痛及精神症状等不良反应",
+        "evidence_ids": [
+          "无合并其他基础疾病的老年CAP患者，感染病原体以肺炎链球菌、肺炎支原体、肺炎衣原体、流感嗜血杆菌、嗜肺军团菌及呼吸道病毒为常见，通常可选用阿莫西林/克拉维酸、二/三代头孢菌素或联合大环内酯类（例如阿奇霉素）、呼吸喹诺酮（例如左氧氟沙星、莫西沙星）、奥马环素。我国多项细菌耐药监测数据显示，肺炎链球菌和肺炎支原体对大环内脂类药物耐药率在80%以上，而喹诺酮类药物在老年人中有诱发QT间期延长、导致失眠、头痛及精神症状等不良反应，不耐受的患者可以使用新一代四环素类药物奥马环素替代。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_omadacycline",
+        "relation_id": "rel_empirical_antibiotics_implements_by_omadacycline",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "无合并其他基础疾病的老年CAP患者且不耐受喹诺酮类药物者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "无合并其他基础疾病的老年CAP患者，感染病原体以肺炎链球菌、肺炎支原体、肺炎衣原体、流感嗜血杆菌、嗜肺军团菌及呼吸道病毒为常见，通常可选用阿莫西林/克拉维酸、二/三代头孢菌素或联合大环内酯类（例如阿奇霉素）、呼吸喹诺酮（例如左氧氟沙星、莫西沙星）、奥马环素。我国多项细菌耐药监测数据显示，肺炎链球菌和肺炎支原体对大环内脂类药物耐药率在80%以上，而喹诺酮类药物在老年人中有诱发QT间期延长、导致失眠、头痛及精神症状等不良反应，不耐受的患者可以使用新一代四环素类药物奥马环素替代。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_piperacillin_tazobactam",
+        "relation_id": "rel_empirical_antibiotics_implements_by_piperacillin_tazobactam",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "急诊门诊治疗有基础病和留观或者住院的老年CAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "急诊门诊治疗有基础病和留观或者住院 肠杆菌科细菌、铜绿假单胞菌、呼吸道病毒、肺炎链球菌、金黄色葡萄球菌、厌氧菌、混合感染等 建议静脉抗菌药物治疗，二、三代头孢菌素/或酶抑制剂复合剂（哌拉西林他唑巴坦、头孢哌酮钠舒巴坦钠等）或联合大环内酯类；呼吸喹诺酮类药物（莫西沙星、左氧氟沙星）；奥马环素或者厄他培南；结构性肺病需要覆盖铜绿假单胞菌可根据病情严重程度和耐药情况考虑使用亚胺培南西司他丁或者美罗培南；覆盖MRSA可考虑加用万古霉素、替考拉宁或者利奈唑胺。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_meropenem",
+        "relation_id": "rel_empirical_antibiotics_implements_by_meropenem",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "结构性肺病需覆盖铜绿假单胞菌的老年CAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "急诊门诊治疗有基础病和留观或者住院 肠杆菌科细菌、铜绿假单胞菌、呼吸道病毒、肺炎链球菌、金黄色葡萄球菌、厌氧菌、混合感染等 建议静脉抗菌药物治疗，二、三代头孢菌素/或酶抑制剂复合剂（哌拉西林他唑巴坦、头孢哌酮钠舒巴坦钠等）或联合大环内酯类；呼吸喹诺酮类药物（莫西沙星、左氧氟沙星）；奥马环素或者厄他培南；结构性肺病需要覆盖铜绿假单胞菌可根据病情严重程度和耐药情况考虑使用亚胺培南西司他丁或者美罗培南；覆盖MRSA可考虑加用万古霉素、替考拉宁或者利奈唑胺。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_vancomycin",
+        "relation_id": "rel_empirical_antibiotics_implements_by_vancomycin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "需覆盖MRSA的老年CAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "急诊门诊治疗有基础病和留观或者住院 肠杆菌科细菌、铜绿假单胞菌、呼吸道病毒、肺炎链球菌、金黄色葡萄球菌、厌氧菌、混合感染等 建议静脉抗菌药物治疗，二、三代头孢菌素/或酶抑制剂复合剂（哌拉西林他唑巴坦、头孢哌酮钠舒巴坦钠等）或联合大环内酯类；呼吸喹诺酮类药物（莫西沙星、左氧氟沙星）；奥马环素或者厄他培南；结构性肺病需要覆盖铜绿假单胞菌可根据病情严重程度和耐药情况考虑使用亚胺培南西司他丁或者美罗培南；覆盖MRSA可考虑加用万古霉素、替考拉宁或者利奈唑胺。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antiviral",
+        "to": "plan_oseltamivir",
+        "relation_id": "rel_antiviral_implements_by_oseltamivir",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "老年病毒性CAP患者，特别是65岁以上、免疫受损、有慢性肾脏、心血管或呼吸系统疾病、糖尿病或肥胖等患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "根据现行建议，奥司他韦适用于65岁以上，免疫受损的宿主，有慢性肾脏、心血管或呼吸系统疾病、糖尿病或肥胖等患者，每12h服用75mg，持续时间为5d。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "etiology_aspiration",
+        "relation_id": "rel_elderly_cap_causes_aspiration",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "吸人性肺炎是老年CAP的主要病因之一，有研究显示吸入性肺炎占老年CAP的近70%。老年人多存在意识障碍、吞咽困难、咳嗽反射受损等，隐形误吸是老年吸入性肺炎的主要原因。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "etiology_immunosenescence",
+        "relation_id": "rel_elderly_cap_causes_immunosenescence",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "由于老年人基础疾病多，全身器官功能减退，呼吸免疫系统及防御功能低下，CAP患者有更高的病死率，与年龄呈明显相关性，年龄越大则病死率相应增大，特别是65岁以上患者的病死率明显上升。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "etiology_dysphagia",
+        "relation_id": "rel_elderly_cap_causes_dysphagia",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "推荐意见2：高龄、基础病、吞咽功能障碍、免疫功能低下、肌少症和居住于养老院是老年CAP发生的主要危险因素。推荐意见3：吞咽困难和咳嗽反射障碍导致的隐形误吸是老年吸入性肺炎的主要原因。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "etiology_muscle_wasting",
+        "relation_id": "rel_elderly_cap_causes_muscle_wasting",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "推荐意见2：高龄、基础病、吞咽功能障碍、免疫功能低下、肌少症和居住于养老院是老年CAP发生的主要危险因素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "etiology_nursing_home_residence",
+        "relation_id": "rel_elderly_cap_causes_nursing_home_residence",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "推荐意见2：高龄、基础病、吞咽功能障碍、免疫功能低下、肌少症和居住于养老院是老年CAP发生的主要危险因素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "etiology_cardiovascular_disease",
+        "relation_id": "rel_elderly_cap_causes_cardiovascular_disease",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "推荐意见1：老年CAP发病率呈明显的季节波动和地域差异；心血管疾病、慢性呼吸疾病和脑血管病是老年CAP最常见的合并症；随着年龄和合并症的增加，发病率和病死率均明显升高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "etiology_chronic_respiratory_disease",
+        "relation_id": "rel_elderly_cap_causes_chronic_respiratory_disease",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "推荐意见1：老年CAP发病率呈明显的季节波动和地域差异；心血管疾病、慢性呼吸疾病和脑血管病是老年CAP最常见的合并症；随着年龄和合并症的增加，发病率和病死率均明显升高。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "etiology_cerebrovascular_disease",
+        "relation_id": "rel_elderly_cap_causes_cerebrovascular_disease",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "推荐意见1：老年CAP发病率呈明显的季节波动和地域差异；心血管疾病、慢性呼吸疾病和脑血管病是老年CAP最常见的合并症；随着年龄和合并症的增加，发病率和病死率均明显升高。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_elderly_cap",
+        "to": "pathogenesis_immunosenescence_and_aspiration",
+        "relation_id": "rel_elderly_cap_explained_by_immunosenescence_and_aspiration",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "老年人免疫功能随着年龄增长而逐渐降低，免疫功能是决定老年CAP预后的主要因素。老年人很多疾病（实体瘤或血液系统恶性肿瘤，放疗、激素用药等）存在多种危险因素均可并发CAP。有研究证实CD4+T淋巴细胞有助于识别老年CAP高风险患者，它的减少与住院死亡风险增加相关。吸人性肺炎是老年CAP的主要病因之一，有研究显示吸入性肺炎占老年CAP的近70%。老年人多存在意识障碍、吞咽困难、咳嗽反射受损等，隐形误吸是老年吸入性肺炎的主要原因。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

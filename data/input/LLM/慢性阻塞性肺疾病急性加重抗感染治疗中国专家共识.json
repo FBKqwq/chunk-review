@@ -1,0 +1,1132 @@
+{
+  "meta": {
+    "doc_id": "慢性阻塞性肺疾病急性加重抗感染治疗中国专家共识",
+    "source_title": "慢性阻塞性肺疾病急性加重抗感染治疗中国专家共识",
+    "section_path": "",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_copd",
+        "name": "慢性阻塞性肺疾病",
+        "normalized_name": "慢性阻塞性肺疾病",
+        "aliases": [
+          "慢阻肺",
+          "COPD"
+        ],
+        "source_document_ids": [
+          "慢性阻塞性肺疾病急性加重抗感染治疗中国专家共识"
+        ],
+        "evidence_ids": [
+          "慢性阻塞性肺疾病简称慢阻肺，在我国总患病人数约1亿其中40岁以上人群慢阻肺患病率为13.7%, 60岁以上人群患病率超过27%,男性患者数为女性的2.2倍。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_aecopd",
+        "name": "慢性阻塞性肺疾病急性加重",
+        "parent_disease_id": "disease_copd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。当上述症状加重程度超出日常的变异，达到需要加强治疗甚至就诊的程度即为AECOPD。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_aecopd_mild",
+        "name": "轻度慢性阻塞性肺疾病急性加重",
+        "parent_disease_id": "disease_copd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻度",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（1）轻度：仅使用短效支气管扩张剂治疗；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_aecopd_moderate",
+        "name": "中度慢性阻塞性肺疾病急性加重",
+        "parent_disease_id": "disease_copd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "中度",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（2）中度：需要短效支气管扩张剂联合抗菌药物，部分患者需加用口服糖皮质激素治疗；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_aecopd_severe",
+        "name": "重度慢性阻塞性肺疾病急性加重",
+        "parent_disease_id": "disease_copd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重度",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（3）重度：需要住院或急诊就诊，可能合并急性呼吸衰竭。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_aecopd_complicated",
+        "name": "复杂性慢性阻塞性肺疾病急性加重",
+        "parent_disease_id": "disease_copd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "具备1项及以上预后不良危险因素者为复杂慢阻肺，否则为单纯慢阻肺。预后不良危险因素包括：年龄≥65岁；FEV₁%pred<50%；每年急性加重次数≥2次；合并心脏疾病；需持续氧疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_aecopd_uncomplicated",
+        "name": "单纯性慢性阻塞性肺疾病急性加重",
+        "parent_disease_id": "disease_copd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "具备1项及以上预后不良危险因素者为复杂慢阻肺，否则为单纯慢阻肺。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_aecopd_pa_risk",
+        "name": "有铜绿假单胞菌感染风险的慢性阻塞性肺疾病急性加重",
+        "parent_disease_id": "disease_copd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "铜绿假单胞菌感染危险因素包括：（1）近1年住院史；（2）经常（>4次/年）或近期（近3个月内）抗菌药物应用史；（3）极重度慢阻肺（FEV₁%pred<30%）；（4）应用口服糖皮质激素（近2周服用泼尼松>10mg/d）；（5）既往分离培养出铜绿假单胞菌。如出现上述危险因素中任何1项，则考虑有铜绿假单胞菌感染可能。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_aecopd_hap_vap",
+        "name": "慢性阻塞性肺疾病急性加重继发医院获得性肺炎/呼吸机相关性肺炎",
+        "parent_disease_id": "disease_copd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "AECOPD继发医院获得性肺炎/呼吸机相关性肺炎，经验性抗感染治疗策略需依据所在医院的医院获得性肺炎/呼吸机相关性肺炎病原谱及药敏结果制定，根据后续微生物资料调整目标治疗，常需要联合用药。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_aecopd_invasive_pulmonary_aspergillosis",
+        "name": "慢性阻塞性肺疾病急性加重继发侵袭性肺曲霉病",
+        "parent_disease_id": "disease_copd",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "AECOPD继发侵袭性支气管-肺曲霉病。后者病死率高，需积极治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_dyspnea_worsening",
+        "name": "呼吸困难加重",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_sputum_volume_increase",
+        "name": "痰量增多",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_purulent_sputum",
+        "name": "脓痰",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_cough",
+        "name": "咳嗽",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_wheezing",
+        "name": "喘息加剧",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "AECOPD患者住院48 h后新出现发热超过38.0 °C、脓性气道分泌物或外周血白细胞计数＞10×10⁹/L或＜4×10⁹/L等感染表现"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_absent_purulent_sputum",
+        "name": "无脓痰",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "absent",
+        "typicality": "typical",
+        "evidence_ids": [
+          "轻度AECOPD患者、无脓痰者暂不给予抗菌药物，但应严密观察病情变化，出现脓痰时应实施抗感染治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_pct",
+        "name": "降钙素原",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "PCT明显升高的AECOPD患者往往伴随有较高的急性加重频率、住院风险及病死率；CRP明显升高也可以作为AECOPD病情变化和预后评估指标，但其对AECOPD感染的预测价值不如PCT。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_crp",
+        "name": "C反应蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "PCT明显升高的AECOPD患者往往伴随有较高的急性加重频率、住院风险及病死率；CRP明显升高也可以作为AECOPD病情变化和预后评估指标，但其对AECOPD感染的预测价值不如PCT。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_gm_bronchoalveolar_lavage",
+        "name": "支气管肺泡灌洗液半乳甘露聚糖",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "以0.8 μg/L为临界值检测支气管肺泡灌洗液GM,其诊断敏感度可达88.9%,特异度可达100%；此外，支气管肺泡灌洗液GM较下呼吸道标本曲霉培养阳性提前约3 d,有助于早期侵袭性曲霉病的诊断。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_gm_serum",
+        "name": "血清半乳甘露聚糖",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "以0.5 μg/L为临界值检测血GM,以单次阳性作为诊断标准的敏感度为57.9%,特异度为87.3%；而若以连续2次检测中1次阳性作为诊断标准则敏感度可提高至70.6%。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_fev1_percent_pred",
+        "name": "第1秒用力呼气容积占预测值百分比",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "预后不良危险因素包括：年龄≥65岁；FEV₁%pred<50%；每年急性加重次数≥2次；合并心脏疾病；需持续氧疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_aecopd_antibiotic_indication",
+        "content": "轻度AECOPD患者、无脓痰者暂不给予抗菌药物，但应严密观察病情变化，出现脓痰时应实施抗感染治疗。",
+        "recommendation_strength": "strong",
+        "source_section": "推荐意见",
+        "evidence_ids": [
+          "（1）轻度AECOPD患者、无脓痰者暂不给予抗菌药物，但应严密观察病情变化，出现脓痰时应实施抗感染治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_aecopd_risk_stratified_therapy",
+        "content": "应结合疾病危险分层和铜绿假单胞菌感染风险制定抗感染方案。",
+        "recommendation_strength": "strong",
+        "source_section": "推荐意见",
+        "evidence_ids": [
+          "（2）应结合疾病危险分层和铜绿假单胞菌感染风险制定抗感染方案。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_aecopd_duration",
+        "content": "一般感染抗感染疗程5〜7 d,复杂感染(合并肺炎、支气管扩张及耐药菌感染等)适当延长至10〜14 d。",
+        "recommendation_strength": "strong",
+        "source_section": "推荐意见",
+        "evidence_ids": [
+          "（3）一般感染抗感染疗程5〜7 d,复杂感染(合并肺炎、支气管扩张及耐药菌感染等)适当延长至10〜14 d。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_mild_aecopd_no_antibiotics",
+        "content": "轻度AECOPD患者、无脓痰者暂不给予抗菌药物，但应严密观察病情变化，出现脓痰时应实施抗感染治疗。",
+        "plan_level": 1,
+        "applicable_condition": "轻度AECOPD且无脓痰",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "（1）轻度AECOPD患者、无脓痰者暂不给予抗菌药物，但应严密观察病情变化，出现脓痰时应实施抗感染治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_uncomplicated_aecopd_macrolide_or_cephalosporin",
+        "content": "单纯慢性阻塞性肺疾病患者可选用大环内酯类、第一代或第二代头孢菌素等治疗。",
+        "plan_level": 1,
+        "applicable_condition": "单纯慢阻肺，无铜绿假单胞菌感染风险",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "除高度耐药地区外，单纯慢性阻塞性肺疾病患者可选用大环内酯类、第一代或第二代头抱菌素等治疗；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_complicated_aecopd_amoxicillin_clavulanate",
+        "content": "复杂慢性阻塞性肺疾病无铜绿假单胞菌感染风险者可选用阿莫西林/克拉维酸，也可选用左氧氟沙星或莫西沙星口服或静脉治疗。",
+        "plan_level": 1,
+        "applicable_condition": "复杂慢阻肺，无铜绿假单胞菌感染风险",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "复杂慢性阻塞性肺疾病无铜绿假单胞菌感染风险者可选用阿莫西林/克拉维酸，也可选用左氧氟沙星或莫西沙星口服或静脉治疗；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_pa_risk_oral_ciprofloxacin_or_levo",
+        "content": "有铜绿假单胞菌感染风险患者如能口服则可选用环丙沙星或左氧氟沙星，需要静脉用药时可选择抗铜绿假单胞菌的β-内酰胺类或联合左氧氟沙星。",
+        "plan_level": 1,
+        "applicable_condition": "有铜绿假单胞菌感染风险",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "有铜绿假单胞菌感染风险患者如能口服则可选用环丙沙星或左氧氟沙星，需要静脉用药时可选择抗铜绿假单胞菌的β-内酰胺类或联合左氧氟沙星；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_aecopd_hap_vap_empirical",
+        "content": "AECOPD继发医院获得性肺炎/呼吸机相关性肺炎，经验性抗感染治疗策略需依据所在医院的医院获得性肺炎/呼吸机相关性肺炎病原谱及药敏结果制定，根据后续微生物资料调整目标治疗，常需要联合用药。",
+        "plan_level": 1,
+        "applicable_condition": "AECOPD继发HAP/VAP",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "AECOPD继发医院获得性肺炎/呼吸机相关性肺炎，经验性抗感染治疗策略需依据所在医院的医院获得性肺炎/呼吸机相关性肺炎病原谱及药敏结果制定，根据后续微生物资料调整目标治疗，常需要联合用药。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_aecopd_antibiotic_duration_5_to_7_days",
+        "content": "一般感染抗感染疗程5〜7 d",
+        "plan_level": 1,
+        "applicable_condition": "一般感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "（3）一般感染抗感染疗程5〜7 d,复杂感染(合并肺炎、支气管扩张及耐药菌感染等)适当延长至10〜14 d。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_aecopd_antibiotic_duration_10_to_14_days",
+        "content": "复杂感染(合并肺炎、支气管扩张及耐药菌感染等)适当延长至10〜14 d",
+        "plan_level": 2,
+        "applicable_condition": "复杂感染（合并肺炎、支气管扩张及耐药菌感染等）",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "（3）一般感染抗感染疗程5〜7 d,复杂感染(合并肺炎、支气管扩张及耐药菌感染等)适当延长至10〜14 d。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_bacterial_infection",
+        "content": "细菌感染",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "细菌感染是导致慢性阻塞性肺疾病急性加重(AECOPD)的重要诱因。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_viral_infection",
+        "content": "病毒感染",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "常见诱因",
+        "evidence_ids": [
+          "上呼吸道病毒感染是AECOPD最早、最常见的诱因。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_pseudomonas_aeruginosa_colonization",
+        "content": "铜绿假单胞菌定植或感染",
+        "etiology_type": "感染因素",
+        "typicality": "常见于复杂患者",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "对于频繁加重、需应用激素治疗的重度AECOPD住院患者，分离培养出铜绿假单胞菌的概率更高，如果不及时治疗预后更差。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_non_infectious_factors",
+        "content": "非感染性因素",
+        "etiology_type": "非感染因素",
+        "typicality": "common",
+        "diagnostic_role": "诱因",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_aecopd_airway_inflammation_and_obstruction",
+        "content": "气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_copd",
+        "to": "sub_disease_aecopd",
+        "relation_id": "rel_copd_has_aecopd",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。当上述症状加重程度超出日常的变异，达到需要加强治疗甚至就诊的程度即为AECOPD。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_copd",
+        "to": "sub_disease_aecopd_mild",
+        "relation_id": "rel_copd_has_aecopd_mild",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（1）轻度：仅使用短效支气管扩张剂治疗；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_copd",
+        "to": "sub_disease_aecopd_moderate",
+        "relation_id": "rel_copd_has_aecopd_moderate",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（2）中度：需要短效支气管扩张剂联合抗菌药物，部分患者需加用口服糖皮质激素治疗；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_copd",
+        "to": "sub_disease_aecopd_severe",
+        "relation_id": "rel_copd_has_aecopd_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（3）重度：需要住院或急诊就诊，可能合并急性呼吸衰竭。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_copd",
+        "to": "sub_disease_aecopd_complicated",
+        "relation_id": "rel_copd_has_aecopd_complicated",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "具备1项及以上预后不良危险因素者为复杂慢阻肺，否则为单纯慢阻肺。预后不良危险因素包括：年龄≥65岁；FEV₁%pred<50%；每年急性加重次数≥2次；合并心脏疾病；需持续氧疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_copd",
+        "to": "sub_disease_aecopd_uncomplicated",
+        "relation_id": "rel_copd_has_aecopd_uncomplicated",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "具备1项及以上预后不良危险因素者为复杂慢阻肺，否则为单纯慢阻肺。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_copd",
+        "to": "sub_disease_aecopd_pa_risk",
+        "relation_id": "rel_copd_has_aecopd_pa_risk",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "铜绿假单胞菌感染危险因素包括：（1）近1年住院史；（2）经常（>4次/年）或近期（近3个月内）抗菌药物应用史；（3）极重度慢阻肺（FEV₁%pred<30%）；（4）应用口服糖皮质激素（近2周服用泼尼松>10mg/d）；（5）既往分离培养出铜绿假单胞菌。如出现上述危险因素中任何1项，则考虑有铜绿假单胞菌感染可能。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_copd",
+        "to": "sub_disease_aecopd_hap_vap",
+        "relation_id": "rel_copd_has_aecopd_hap_vap",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "AECOPD继发医院获得性肺炎/呼吸机相关性肺炎，经验性抗感染治疗策略需依据所在医院的医院获得性肺炎/呼吸机相关性肺炎病原谱及药敏结果制定，根据后续微生物资料调整目标治疗，常需要联合用药。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_copd",
+        "to": "sub_disease_aecopd_invasive_pulmonary_aspergillosis",
+        "relation_id": "rel_copd_has_aecopd_invasive_pulmonary_aspergillosis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "AECOPD继发侵袭性支气管-肺曲霉病。后者病死率高，需积极治疗。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_aecopd",
+        "to": "symptom_dyspnea_worsening",
+        "relation_id": "rel_aecopd_manifests_as_dyspnea_worsening",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将呼吸困难加重列为AECOPD核心症状之一，与痰量增多、脓痰并列作为Anthonisen I/II型诊断依据",
+        "evidence": "Anthonisen等〔如根据患者是否出现呼吸困难加重、痰量增加、脓痰等症状将AECOPD分为3组，咳脓痰同时合并呼吸困难加重、痰量增加其中1项或2项（AnthonisenI型或II型）患者应用抗菌药物受益明显"
+      },
+      {
+        "from": "sub_disease_aecopd",
+        "to": "symptom_sputum_volume_increase",
+        "relation_id": "rel_aecopd_manifests_as_sputum_volume_increase",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将痰量增多列为AECOPD核心症状之一，与呼吸困难加重、脓痰并列作为Anthonisen I/II型诊断依据",
+        "evidence": "Anthonisen等〔如根据患者是否出现呼吸困难加重、痰量增加、脓痰等症状将AECOPD分为3组，咳脓痰同时合并呼吸困难加重、痰量增加其中1项或2项（AnthonisenI型或II型）患者应用抗菌药物受益明显"
+      },
+      {
+        "from": "sub_disease_aecopd",
+        "to": "symptom_purulent_sputum",
+        "relation_id": "rel_aecopd_manifests_as_purulent_sputum",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将脓痰列为AECOPD核心症状之一，与呼吸困难加重、痰量增多并列作为Anthonisen I/II型诊断依据；且摘要中强调‘出现脓痰时应实施抗感染治疗’",
+        "evidence": "Anthonisen等〔如根据患者是否出现呼吸困难加重、痰量增加、脓痰等症状将AECOPD分为3组，咳脓痰同时合并呼吸困难加重、痰量增加其中1项或2项（AnthonisenI型或II型）患者应用抗菌药物受益明显"
+      },
+      {
+        "from": "sub_disease_aecopd",
+        "to": "symptom_cough",
+        "relation_id": "rel_aecopd_manifests_as_cough",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aecopd",
+        "to": "symptom_wheezing",
+        "relation_id": "rel_aecopd_manifests_as_wheezing",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "定义",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aecopd_mild",
+        "to": "symptom_absent_purulent_sputum",
+        "relation_id": "rel_aecopd_mild_manifests_as_absent_purulent_sputum",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "exclusion",
+        "type_info": "排除条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "推荐意见",
+        "evidence_ids": [
+          "轻度AECOPD患者、无脓痰者暂不给予抗菌药物，但应严密观察病情变化，出现脓痰时应实施抗感染治疗。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出轻度AECOPD患者‘无脓痰者暂不给予抗菌药物’，表明无脓痰是轻度患者的典型特征，但非绝对排除标准（需严密观察），故权重略低于核心三症",
+        "evidence": "轻度AECOPD患者、无脓痰者暂不给予抗菌药物，但应严密观察病情变化，出现脓痰时应实施抗感染治疗"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_aecopd",
+        "to": "test_pct",
+        "relation_id": "rel_aecopd_requires_pct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "预后评估指标",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "病原学检测及其意义",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "PCT明显升高的AECOPD患者往往伴随有较高的急性加重频率、住院风险及病死率；CRP明显升高也可以作为AECOPD病情变化和预后评估指标，但其对AECOPD感染的预测价值不如PCT。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aecopd",
+        "to": "test_crp",
+        "relation_id": "rel_aecopd_requires_crp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "预后评估指标",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "病原学检测及其意义",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "PCT明显升高的AECOPD患者往往伴随有较高的急性加重频率、住院风险及病死率；CRP明显升高也可以作为AECOPD病情变化和预后评估指标，但其对AECOPD感染的预测价值不如PCT。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aecopd_invasive_pulmonary_aspergillosis",
+        "to": "test_gm_bronchoalveolar_lavage",
+        "relation_id": "rel_aecopd_ipa_requires_gm_balf",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 0.8,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "μg/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "病原学检测及其意义",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "以0.8 μg/L为临界值检测支气管肺泡灌洗液GM,其诊断敏感度可达88.9%,特异度可达100%；此外，支气管肺泡灌洗液GM较下呼吸道标本曲霉培养阳性提前约3 d,有助于早期侵袭性曲霉病的诊断。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确支气管肺泡灌洗液GM试验对侵袭性肺曲霉病诊断敏感度达88.9%、特异度100%，且‘意义更大’，属强推荐检测方法",
+        "evidence": "以0.8Mg/L为临界值检测支气管肺泡灌洗液GM,其诊断敏感度可达88.9%,特异度可达100%；此外，支气管肺泡灌洗液GM较下呼吸道标本曲霉培养阳性提前约3d,有助于早期侵袭性曲霉病的诊断"
+      },
+      {
+        "from": "sub_disease_aecopd_invasive_pulmonary_aspergillosis",
+        "to": "test_gm_serum",
+        "relation_id": "rel_aecopd_ipa_requires_gm_serum",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断支持条件",
+        "diagnostic_role": "supportive",
+        "value_min": 0.5,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "μg/L",
+        "result_text": null,
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "病原学检测及其意义",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "以0.5 μg/L为临界值检测血GM,以单次阳性作为诊断标准的敏感度为57.9%,特异度为87.3%；而若以连续2次检测中1次阳性作为诊断标准则敏感度可提高至70.6%。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aecopd_complicated",
+        "to": "test_fev1_percent_pred",
+        "relation_id": "rel_aecopd_complicated_requires_fev1_pred",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "危险分层指标",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 50,
+        "operator": "<",
+        "unit": "%",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "抗感染治疗",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "预后不良危险因素包括：年龄≥65岁；FEV₁%pred<50%；每年急性加重次数≥2次；合并心脏疾病；需持续氧疗。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确定义‘预后不良危险因素’包括‘FEV1%pred<50%’，且该指标用于区分单纯/复杂慢阻肺，是分层治疗的关键依据",
+        "evidence": "预后不良危险因素包括：年龄265岁；第1秒用力呼气容积占预测值百分比(percentageofforcedexpiratoryvolumeinonesecondinpredictedvalue,FEV1%pred)<50%；每年急性加重次数M2次；合并心脏疾病；需持续氧疗等"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_aecopd",
+        "to": "treatment_aecopd_antibiotic_indication",
+        "relation_id": "rel_aecopd_follows_antibiotic_indication",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确AECOPD诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "症状表现"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐意见",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aecopd",
+        "to": "treatment_aecopd_risk_stratified_therapy",
+        "relation_id": "rel_aecopd_follows_risk_stratified_therapy",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确AECOPD诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "危险分层",
+          "铜绿假单胞菌感染风险"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐意见",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aecopd",
+        "to": "treatment_aecopd_duration",
+        "relation_id": "rel_aecopd_follows_duration",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确AECOPD诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "感染复杂性"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐意见",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_aecopd_antibiotic_indication",
+        "to": "plan_mild_aecopd_no_antibiotics",
+        "relation_id": "rel_antibiotic_indication_implements_by_no_antibiotics",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "轻度AECOPD且无脓痰",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "（1）轻度AECOPD患者、无脓痰者暂不给予抗菌药物，但应严密观察病情变化，出现脓痰时应实施抗感染治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_aecopd_risk_stratified_therapy",
+        "to": "plan_uncomplicated_aecopd_macrolide_or_cephalosporin",
+        "relation_id": "rel_risk_stratified_therapy_implements_by_macrolide_or_cephalosporin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "单纯慢阻肺，无铜绿假单胞菌感染风险",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "除高度耐药地区外，单纯慢性阻塞性肺疾病患者可选用大环内酯类、第一代或第二代头抱菌素等治疗；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_aecopd_risk_stratified_therapy",
+        "to": "plan_complicated_aecopd_amoxicillin_clavulanate",
+        "relation_id": "rel_risk_stratified_therapy_implements_by_amoxicillin_clavulanate",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "复杂慢阻肺，无铜绿假单胞菌感染风险",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "复杂慢性阻塞性肺疾病无铜绿假单胞菌感染风险者可选用阿莫西林/克拉维酸，也可选用左氧氟沙星或莫西沙星口服或静脉治疗；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_aecopd_risk_stratified_therapy",
+        "to": "plan_pa_risk_oral_ciprofloxacin_or_levo",
+        "relation_id": "rel_risk_stratified_therapy_implements_by_ciprofloxacin_or_levo",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "有铜绿假单胞菌感染风险",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "有铜绿假单胞菌感染风险患者如能口服则可选用环丙沙星或左氧氟沙星，需要静脉用药时可选择抗铜绿假单胞菌的β-内酰胺类或联合左氧氟沙星；"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_aecopd_risk_stratified_therapy",
+        "to": "plan_aecopd_hap_vap_empirical",
+        "relation_id": "rel_risk_stratified_therapy_implements_by_hap_vap_empirical",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "AECOPD继发HAP/VAP",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "AECOPD继发医院获得性肺炎/呼吸机相关性肺炎，经验性抗感染治疗策略需依据所在医院的医院获得性肺炎/呼吸机相关性肺炎病原谱及药敏结果制定，根据后续微生物资料调整目标治疗，常需要联合用药。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_aecopd_duration",
+        "to": "plan_aecopd_antibiotic_duration_5_to_7_days",
+        "relation_id": "rel_duration_implements_by_5_to_7_days",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "一般感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "（3）一般感染抗感染疗程5〜7 d,复杂感染(合并肺炎、支气管扩张及耐药菌感染等)适当延长至10〜14 d。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_aecopd_duration",
+        "to": "plan_aecopd_antibiotic_duration_10_to_14_days",
+        "relation_id": "rel_duration_implements_by_10_to_14_days",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "复杂感染（合并肺炎、支气管扩张及耐药菌感染等）",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "（3）一般感染抗感染疗程5〜7 d,复杂感染(合并肺炎、支气管扩张及耐药菌感染等)适当延长至10〜14 d。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_aecopd",
+        "to": "etiology_bacterial_infection",
+        "relation_id": "rel_aecopd_caused_by_bacterial_infection",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "细菌感染是导致慢性阻塞性肺疾病急性加重(AECOPD)的重要诱因。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aecopd",
+        "to": "etiology_viral_infection",
+        "relation_id": "rel_aecopd_caused_by_viral_infection",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "上呼吸道病毒感染是AECOPD最早、最常见的诱因。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aecopd_complicated",
+        "to": "etiology_pseudomonas_aeruginosa_colonization",
+        "relation_id": "rel_aecopd_complicated_caused_by_pa_colonization",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "对于频繁加重、需应用激素治疗的重度AECOPD住院患者，分离培养出铜绿假单胞菌的概率更高，如果不及时治疗预后更差。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aecopd",
+        "to": "etiology_non_infectious_factors",
+        "relation_id": "rel_aecopd_caused_by_non_infectious_factors",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_aecopd",
+        "to": "pathogenesis_aecopd_airway_inflammation_and_obstruction",
+        "relation_id": "rel_aecopd_explained_by_airway_inflammation_and_obstruction",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "慢阻肺患者因气道感染或非感染因素引起气道黏液分泌增多、气流阻塞加剧，表现为呼吸困难加重、痰量增多、痰液变为脓性，常伴有咳嗽、喘息加剧。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

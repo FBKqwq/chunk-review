@@ -1,0 +1,1498 @@
+{
+  "meta": {
+    "doc_id": "肾综合征出血热防治专家共识",
+    "source_title": "肾综合征出血热防治专家共识",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_hfrs",
+        "name": "肾综合征出血热",
+        "normalized_name": "肾综合征出血热",
+        "aliases": [
+          "流行性出血热",
+          "hemorrhagic fever with renal syndrome",
+          "HFRS"
+        ],
+        "source_document_ids": [
+          "肾综合征出血热防治专家共识"
+        ],
+        "evidence_ids": [
+          "肾综合征出血热（ hemorrhagic fever with renal syndrome，HFRS)又称流行性出血热，是由汉坦病毒(Hantavims)引起的以啮齿类动物为主要传染源的自然疫源性疾病。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_hfrs_adult",
+        "name": "成人肾综合征出血热",
+        "parent_disease_id": "disease_hfrs",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 16,
+        "age_max": 60,
+        "evidence_ids": [
+          "本共识以成人为主要患者人群进行编写，儿童、老年人、妊娠期妇女等特殊人群的诊疗应根据患者的具体情况进行个体化处理。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hfrs_child",
+        "name": "儿童肾综合征出血热",
+        "parent_disease_id": "disease_hfrs",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "儿童",
+        "gender": "all",
+        "age_min": null,
+        "age_max": 15,
+        "evidence_ids": [
+          "儿童HFRS:发病率低，约占HFRS发病总人数的1〇%[34]。儿童HFRS的全身中毒症状轻，临床表现不典型，可有消化系统、心脏、肺脏等损伤[35]。儿童HFRS出血倾向和低血压休克较少，恢复快，预后较好[36]。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hfrs_elderly",
+        "name": "老年人肾综合征出血热",
+        "parent_disease_id": "disease_hfrs",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "老年人",
+        "gender": "all",
+        "age_min": 60,
+        "age_max": null,
+        "evidence_ids": [
+          "老年人HFRS:早期临床表现不典型，多为中、低热，少数患者无明显发热。老年人HFRS常合并其他基础疾病，易出现并发症，重型及危重型的发生率高，病情重，恢复慢，病死率高[37]。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hfrs_pregnancy",
+        "name": "妊娠合并肾综合征出血热",
+        "parent_disease_id": "disease_hfrs",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "妊娠期妇女",
+        "gender": "female",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "妊娠合并HFRS:妊娠期妇女患HFRS的病情常较重，容易出现并发症，部分患者可因流产、死胎、D1C、阴道大出血而死亡[38]。汉坦病毒可通过胎盘垂直传播使胎儿宫内感染，可导致流产、死胎[3~°]。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hfrs_mild",
+        "name": "轻型肾综合征出血热",
+        "parent_disease_id": "disease_hfrs",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 16,
+        "age_max": 60,
+        "evidence_ids": [
+          "1.轻型：体温为39 以下，有皮肤黏膜出血点，尿蛋白为“ + 至 ++”，无少尿和低血压休克。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hfrs_moderate",
+        "name": "中型肾综合征出血热",
+        "parent_disease_id": "disease_hfrs",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "中症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 16,
+        "age_max": 60,
+        "evidence_ids": [
+          "2•中型：体温为39 ~40T ，球结膜水肿明显，皮肤、黏膜有明显瘀斑，病程中出现过收缩压低于90 mmHg ( 1 mmHg = 0. 133 kPa )或脉压差小于30 irnnHg,少尿，尿蛋白为“ ++至 + + + ”。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hfrs_severe",
+        "name": "重型肾综合征出血热",
+        "parent_disease_id": "disease_hfrs",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 16,
+        "age_max": 60,
+        "evidence_ids": [
+          "3. 重型：体温为40 1 以上，有神经系统症状，休克，少尿达5 d或无尿2 d 以内。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hfrs_critical",
+        "name": "危重型肾综合征出血热",
+        "parent_disease_id": "disease_hfrs",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "危重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 16,
+        "age_max": 60,
+        "evidence_ids": [
+          "4. 危重型：在重型基础上出现下列情况之一者，难治性休克，重要脏器出血，无尿2 d 以上，其他严重合并症如心力衰竭、肺水肿、呼吸衰竭、昏迷、继发严重感染。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "潜伏期一般为4 ~ 45 (1,多为7 ~ 14 d。典型病例的病程分为5 期，包括发热期、低血压休克期、少尿期、多尿期和恢复期。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_headache",
+        "name": "头痛",
+        "body_site": "头部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_lumbago",
+        "name": "腰痛",
+        "body_site": "腰部",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_periorbital_pain",
+        "name": "眼眶痛",
+        "body_site": "眼部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_myalgia",
+        "name": "肌肉酸痛",
+        "body_site": "全身肌肉",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_arthralgia",
+        "name": "关节酸痛",
+        "body_site": "关节",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_nausea",
+        "name": "恶心",
+        "body_site": "消化道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_vomiting",
+        "name": "呕吐",
+        "body_site": "消化道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_conjunctival_hyperemia",
+        "name": "眼结合膜充血",
+        "body_site": "眼部",
+        "symptom_category": "五官症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "第 2 ~3病日起，患者可出现眼结合膜及颜面部、颈部和上胸部皮肤充血、潮红。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_facial_flush",
+        "name": "颜面部潮红",
+        "body_site": "面部",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "第 2 ~3病日起，患者可出现眼结合膜及颜面部、颈部和上胸部皮肤充血、潮红。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_neck_flush",
+        "name": "颈部潮红",
+        "body_site": "颈部",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "第 2 ~3病日起，患者可出现眼结合膜及颜面部、颈部和上胸部皮肤充血、潮红。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_upper_chest_flush",
+        "name": "上胸部潮红",
+        "body_site": "胸部",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "第 2 ~3病日起，患者可出现眼结合膜及颜面部、颈部和上胸部皮肤充血、潮红。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_palatal_hyperemia",
+        "name": "软腭充血",
+        "body_site": "口腔",
+        "symptom_category": "五官症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "软腭、腭垂及咽后壁黏膜充血、出血，眼结合膜出血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_palatal_bleeding",
+        "name": "软腭出血",
+        "body_site": "口腔",
+        "symptom_category": "五官症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "软腭、腭垂及咽后壁黏膜充血、出血，眼结合膜出血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_pharyngeal_wall_bleeding",
+        "name": "咽后壁出血",
+        "body_site": "咽喉",
+        "symptom_category": "五官症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "软腭、腭垂及咽后壁黏膜充血、出血，眼结合膜出血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_conjunctival_bleeding",
+        "name": "眼结合膜出血",
+        "body_site": "眼部",
+        "symptom_category": "五官症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "软腭、腭垂及咽后壁黏膜充血、出血，眼结合膜出血。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_axillary_petechiae",
+        "name": "腋下皮肤出血",
+        "body_site": "腋下",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "双侧腋下、前胸和肩背部等皮肤出血，针刺部位可有瘀斑。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_anterior_chest_petechiae",
+        "name": "前胸皮肤出血",
+        "body_site": "胸部",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "双侧腋下、前胸和肩背部等皮肤出血，针刺部位可有瘀斑。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_scapular_petechiae",
+        "name": "肩背部皮肤出血",
+        "body_site": "背部",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "双侧腋下、前胸和肩背部等皮肤出血，针刺部位可有瘀斑。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_conjunctival_edema",
+        "name": "眼结合膜水肿",
+        "body_site": "眼部",
+        "symptom_category": "五官症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "常出现眼结合膜和颜面部水肿，可有渗出性腹水、胸腔积液和心包积液。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_facial_edema",
+        "name": "颜面部水肿",
+        "body_site": "面部",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "常出现眼结合膜和颜面部水肿，可有渗出性腹水、胸腔积液和心包积液。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_flank_tenderness",
+        "name": "肾区叩击痛",
+        "body_site": "腰部",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "大部分患者有肾区叩击痛。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_palpitations",
+        "name": "心慌",
+        "body_site": "心脏",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "表现为心慌气短、头昏无力、四肢发凉、脉搏细速，甚至意识障碍，渗出体征突出，出血倾向明显，可合并DIC，少部分患者发生呼吸衰竭。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dyspnea",
+        "name": "气短",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "表现为心慌气短、头昏无力、四肢发凉、脉搏细速，甚至意识障碍，渗出体征突出，出血倾向明显，可合并DIC，少部分患者发生呼吸衰竭。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dizziness",
+        "name": "头昏",
+        "body_site": "头部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "表现为心慌气短、头昏无力、四肢发凉、脉搏细速，甚至意识障碍，渗出体征突出，出血倾向明显，可合并DIC，少部分患者发生呼吸衰竭。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_weakness",
+        "name": "无力",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "表现为心慌气短、头昏无力、四肢发凉、脉搏细速，甚至意识障碍，渗出体征突出，出血倾向明显，可合并DIC，少部分患者发生呼吸衰竭。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_cold_extremities",
+        "name": "四肢发凉",
+        "body_site": "四肢",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "表现为心慌气短、头昏无力、四肢发凉、脉搏细速，甚至意识障碍，渗出体征突出，出血倾向明显，可合并DIC，少部分患者发生呼吸衰竭。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_thready_pulse",
+        "name": "脉搏细速",
+        "body_site": "循环系统",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "表现为心慌气短、头昏无力、四肢发凉、脉搏细速，甚至意识障碍，渗出体征突出，出血倾向明显，可合并DIC，少部分患者发生呼吸衰竭。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_altered_mentation",
+        "name": "意识障碍",
+        "body_site": "中枢神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "表现为心慌气短、头昏无力、四肢发凉、脉搏细速，甚至意识障碍，渗出体征突出，出血倾向明显，可合并DIC，少部分患者发生呼吸衰竭。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_agitation",
+        "name": "烦躁不安",
+        "body_site": "中枢神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "③烦躁不安、谵妄等精神异常或意识障碍；"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_delirium",
+        "name": "谵妄",
+        "body_site": "中枢神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "③烦躁不安、谵妄等精神异常或意识障碍；"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_wbc_count",
+        "name": "白细胞计数",
+        "normal_range_min": 4.0,
+        "normal_range_max": 10.0,
+        "is_digital": 1,
+        "evidence_ids": [
+          "早期白细胞计数正常或偏低，第3 〜4 病日后多明显增高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_platelet_count",
+        "name": "血小板计数",
+        "normal_range_min": 100,
+        "normal_range_max": 300,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血小板计数在第2 病日开始减低。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_urine_protein",
+        "name": "尿蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "在第2~4病日即可出现尿蛋白，且迅速增加，早期尿蛋白为“ + 至 ++”，重症患者可达“ +++至++++”，在少尿期达高峰，可在多尿期和恢复期转阴。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_bun",
+        "name": "血尿素氮",
+        "normal_range_min": 2.5,
+        "normal_range_max": 7.1,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血尿素氮、血肌酐在发热期和低血压休克期即可上升，少尿期达高峰，估算肾小球滤过率（ estimated glomerular filtration rate, eGFR)明显降低。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_scr",
+        "name": "血肌酐",
+        "normal_range_min": 44,
+        "normal_range_max": 133,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血尿素氮、血肌酐在发热期和低血压休克期即可上升，少尿期达高峰，估算肾小球滤过率（ estimated glomerular filtration rate, eGFR)明显降低。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_albumin",
+        "name": "血清白蛋白",
+        "normal_range_min": 35,
+        "normal_range_max": 55,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血清白蛋白降低。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_hantavirus_igm",
+        "name": "汉坦病毒特异性IgM抗体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "5. 血清学检查：汉坦病毒特异性IgM抗体阳性可以确诊为现症或近期感染。但检测阴性亦不能排除 HFRS,检测阴性的疑似病例可每日或隔日重复检测。随着病程进展，IgM检出率明显增加，第 4 ~ 6 病日阳性率超过90%，第 7 病日接近100%。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_hantavirus_rna",
+        "name": "汉坦病毒RNA",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "6.病原学检查：血清汉坦病毒RNA检测具有重要的临床意义[42]。HFRS患者发病1周内血清汉坦病毒RNA的阳性检出率近乎100%[43]。 HFRS患者发热期和低血压休克期病毒载量明显高于少尿期，多尿期或恢复期检测多为阴性。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_hantavirus_igg",
+        "name": "汉坦病毒特异性IgG抗体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "推荐意见4:确诊病例需在疑似或临床诊断的基础上，有血清特异性IgM抗体阳性，或从患者样本中检出汉坦病毒RNA,或恢复期血清特异性IgG抗体效价比急性期有4 倍以上增高，或从患者中分离到旦病毒。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_hfrs_early_intervention",
+        "content": "早发现、早诊断、早治疗，结合我国各级医疗机构的救治能力，建议在就近的二级或三级医院治疗。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗原则",
+        "evidence_ids": [
+          "早发现、早诊断、早治疗，结合我国各级医疗机 构的救治能力，建议在就近的二级或三级医院治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_hfrs_fluid_therapy",
+        "content": "以液体疗法和对症支持治疗为主，休克、少尿、出血和其他脏器损伤的防治是救治成功的关键。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗原则",
+        "evidence_ids": [
+          "以液体疗法和对症支持治疗为主，休克、少尿、出血和其他脏器损伤的防治是救治成功的关键。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_hfrs_antiviral",
+        "content": "发病早期可选用利巴韦林抗病毒治疗。",
+        "recommendation_strength": "recommended",
+        "source_section": "抗病毒",
+        "evidence_ids": [
+          "6. 抗病毒：汉坦病毒感染尚无特效抗病毒药物，发病早期可选用利巴韦林抗病毒治疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_hfrs_corticosteroid",
+        "content": "发热期渗出症状明显的患者可使用糖皮质激素抗炎，以减少渗出。",
+        "recommendation_strength": "cautious",
+        "source_section": "糖皮质激素",
+        "evidence_ids": [
+          "5. 糖皮质激素：糖皮质激素有强大的抗炎作用，但也会引起免疫抑制等不良反应，应权衡利弊，慎重使用。发热期渗出症状明显的患者可使用糖皮质激素抗炎，以减少渗出。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_fluid_resuscitation",
+        "content": "应在 1 h 内快速输人液体1 〇〇〇 mL，如血压回升至基本正常，其后2 h 内输液1 000 mL。",
+        "plan_level": 1,
+        "applicable_condition": "休克患者液体复苏",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "液体复苏：液体复苏是抢救HFRS休克的首要措施。应在 1 h 内快速输人液体1 〇〇〇 mL，如血压回升至基本正常，其后2 h 内输液1 000 mL。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ribavirin_iv",
+        "content": "利巴韦林按每日10〜15 mg/kg,分 2 次加人10%葡萄糖注射液250 mL中静脉滴注，每日总量不超过1 500 mg,疗程一般不超过7 d。",
+        "plan_level": 1,
+        "applicable_condition": "HFRS早期患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "利巴韦林按每日10〜15 mg/kg,分 2 次加人10%葡萄糖注射液250 mL中静脉滴注，每日总量不超过1 500 mg,疗程一般不超过7 d。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_furosemide_iv",
+        "content": "首选呋塞米，宜从小剂量开始，以20〜40 mg静脉推注，若 2 ~4 h 未排尿，可加大呋塞米用量至1〇〇 ~ 200 mg/次，每日2 ~4次。",
+        "plan_level": 2,
+        "applicable_condition": "少尿期患者",
+        "contraindication_note": "曾发生休克的患者，宜在血压稳定12 ~24 h后开始利尿。",
+        "evidence_ids": [
+          "7. 促进利尿：利尿剂被广泛应用于严重AK1患者……HFRS少尿期患者可使用利尿剂，首选呋塞米，宜从小剂量开始，以20〜40 mg静脉推注，若 2 ~4 h 未排尿，可加大呋塞米用量至1〇〇 ~ 200 mg/次，每日2 ~4次 。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_hydrocortisone_iv",
+        "content": "可用氢化可的松1〇〇 mg静脉滴注，1 ~2次/d;地塞米松5 ~ 10 mg,肌内注射或静脉滴注，丨~2次/d;甲泼尼龙20~40 mg静脉滴注，1 ~2次/d;疗程根据患者的病情而定，通常使用3 ~5 d,—般不超过7 d。",
+        "plan_level": 3,
+        "applicable_condition": "发热期渗出症状明显患者",
+        "contraindication_note": "慎用糖皮质激素",
+        "evidence_ids": [
+          "可用氢化可的松1〇〇 mg静脉滴注，1 ~2次/d;地塞米松5 ~ 10 mg,肌内注射或静脉滴注，丨~2次/d;甲泼尼龙20~40 mg静脉滴注，1 ~2次/d;疗程根据患者的病情而定，通常使用3 ~5 d,—般不超过7 d。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_hantavirus",
+        "content": "汉坦病毒",
+        "etiology_type": "感染因素",
+        "typicality": "typical",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "肾综合征出血热（ hemorrhagic fever with renal syndrome，HFRS)又称流行性出血热，是由汉坦病毒(Hantavims)引起的以啮齿类动物为主要传染源的自然疫源性疾病。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_rodent_exposure",
+        "content": "鼠类啮齿动物接触史",
+        "etiology_type": "危险因素",
+        "typicality": "typical",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "① 发病前2 个月内有疫区旅居史，或有鼠类或其排泄物、分泌物等的接触史；"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_vascular_endothelial_damage",
+        "content": "血管内皮受损导致的血管通透性增加和出血是最基本的病理变化，小血管内皮损伤导致血管壁的通透性增加，从而引起血管渗漏、血浆外渗，产生组织水肿、血液浓缩、低血容量、低血压、弥散性血管内凝血（disseminated intravascular coagulation，DIC)、休克等一系列病理生理变化。",
+        "evidence_ids": [
+          "血管内皮受损导致的血管通透性增加和出血是最基本的病理变化，小血管内皮损伤导致血管壁的通透性增加，从而引起血管渗漏、血浆外渗，产生组织水肿、血液浓缩、低血容量、低血压、弥散性血管内凝血（disseminated intravascular coagulation，DIC)、休克等一系列病理生理变化。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_hfrs",
+        "to": "sub_disease_hfrs_adult",
+        "relation_id": "rel_hfrs_has_adult",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "本共识以成人为主要患者人群进行编写，儿童、老年人、妊娠期妇女等特殊人群的诊疗应根据患者的具体情况进行个体化处理。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hfrs",
+        "to": "sub_disease_hfrs_child",
+        "relation_id": "rel_hfrs_has_child",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "儿童HFRS:发病率低，约占HFRS发病总人数的1〇%[34]。儿童HFRS的全身中毒症状轻，临床表现不典型，可有消化系统、心脏、肺脏等损伤[35]。儿童HFRS出血倾向和低血压休克较少，恢复快，预后较好[36]。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hfrs",
+        "to": "sub_disease_hfrs_elderly",
+        "relation_id": "rel_hfrs_has_elderly",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "老年人HFRS:早期临床表现不典型，多为中、低热，少数患者无明显发热。老年人HFRS常合并其他基础疾病，易出现并发症，重型及危重型的发生率高，病情重，恢复慢，病死率高[37]。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hfrs",
+        "to": "sub_disease_hfrs_pregnancy",
+        "relation_id": "rel_hfrs_has_pregnancy",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "妊娠合并HFRS:妊娠期妇女患HFRS的病情常较重，容易出现并发症，部分患者可因流产、死胎、D1C、阴道大出血而死亡[38]。汉坦病毒可通过胎盘垂直传播使胎儿宫内感染，可导致流产、死胎[3~°]。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hfrs",
+        "to": "sub_disease_hfrs_mild",
+        "relation_id": "rel_hfrs_has_mild",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "1.轻型：体温为39 以下，有皮肤黏膜出血点，尿蛋白为“ + 至 ++”，无少尿和低血压休克。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hfrs",
+        "to": "sub_disease_hfrs_moderate",
+        "relation_id": "rel_hfrs_has_moderate",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "2•中型：体温为39 ~40T ，球结膜水肿明显，皮肤、黏膜有明显瘀斑，病程中出现过收缩压低于90 mmHg ( 1 mmHg = 0. 133 kPa )或脉压差小于30 irnnHg,少尿，尿蛋白为“ ++至 + + + ”。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hfrs",
+        "to": "sub_disease_hfrs_severe",
+        "relation_id": "rel_hfrs_has_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "3. 重型：体温为40 1 以上，有神经系统症状，休克，少尿达5 d或无尿2 d 以内。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_hfrs",
+        "to": "sub_disease_hfrs_critical",
+        "relation_id": "rel_hfrs_has_critical",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "4. 危重型：在重型基础上出现下列情况之一者，难治性休克，重要脏器出血，无尿2 d 以上，其他严重合并症如心力衰竭、肺水肿、呼吸衰竭、昏迷、继发严重感染。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_fever",
+        "relation_id": "rel_adult_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "持续4 ~ 6 d",
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "潜伏期一般为4 ~ 45 (1,多为7 ~ 14 d。典型病例的病程分为5 期，包括发热期、低血压休克期、少尿期、多尿期和恢复期。发热期一般持续4 ~ 6 d。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将发热列为典型病程‘发热期’的起始核心表现，且临床诊断标准中‘②有发热、乏力、恶心等消化道症状’为必备条件之一",
+        "evidence": "典型病例的病程分为5期，包括发热期、低血压休克期、少尿期、多尿期和恢复期。"
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_headache",
+        "relation_id": "rel_adult_manifests_as_headache",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_lumbago",
+        "relation_id": "rel_adult_manifests_as_lumbago",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_periorbital_pain",
+        "relation_id": "rel_adult_manifests_as_periorbital_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_myalgia",
+        "relation_id": "rel_adult_manifests_as_myalgia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_arthralgia",
+        "relation_id": "rel_adult_manifests_as_arthralgia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_nausea",
+        "relation_id": "rel_adult_manifests_as_nausea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_vomiting",
+        "relation_id": "rel_adult_manifests_as_vomiting",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_abdominal_pain",
+        "relation_id": "rel_adult_manifests_as_abdominal_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "大部分患者伴头痛、腰痛、眼眶痛、全身肌肉关节酸痛，部分患者有恶心、呕吐和腹痛等消化道症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_conjunctival_hyperemia",
+        "relation_id": "rel_adult_manifests_as_conjunctival_hyperemia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "第2~3病日起",
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "第 2 ~3病日起，患者可出现眼结合膜及颜面部、颈部和上胸部皮肤充血、潮红。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在临床诊断标准第④条明确列出‘球结膜充血’为支持HFRS诊断的关键体征，且在发热期描述中列为‘可出现’的典型表现",
+        "evidence": "④球结膜充血、水肿，皮肤黏膜出血点，有肾区叩击痛等体征；"
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_facial_flush",
+        "relation_id": "rel_adult_manifests_as_facial_flush",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "第2~3病日起",
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "第 2 ~3病日起，患者可出现眼结合膜及颜面部、颈部和上胸部皮肤充血、潮红。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在临床诊断标准第③条明确列出‘颜面……皮肤潮红’为必备临床表现，且在发热期描述中列为‘可出现’的典型体征",
+        "evidence": "③颜面、颈部和胸部皮肤潮红，有头痛、腰痛和眼眶痛等症状，球结膜充血、水肿，皮肤黏膜出血点，有肾区叩击痛等体征；"
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_neck_flush",
+        "relation_id": "rel_adult_manifests_as_neck_flush",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "第2~3病日起",
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "第 2 ~3病日起，患者可出现眼结合膜及颜面部、颈部和上胸部皮肤充血、潮红。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在临床诊断标准第③条明确列出‘颈部……皮肤潮红’为必备临床表现，且与颜面、胸部并列，属同一复合体征的组成部分",
+        "evidence": "③颜面、颈部和胸部皮肤潮红，有头痛、腰痛和眼眶痛等症状，球结膜充血、水肿，皮肤黏膜出血点，有肾区叩击痛等体征；"
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_upper_chest_flush",
+        "relation_id": "rel_adult_manifests_as_upper_chest_flush",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "第2~3病日起",
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "第 2 ~3病日起，患者可出现眼结合膜及颜面部、颈部和上胸部皮肤充血、潮红。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在临床诊断标准第③条明确列出‘胸部皮肤潮红’为必备临床表现，且与颜面、颈部并列，属同一复合体征的组成部分",
+        "evidence": "③颜面、颈部和胸部皮肤潮红，有头痛、腰痛和眼眶痛等症状，球结膜充血、水肿，皮肤黏膜出血点，有肾区叩击痛等体征；"
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_conjunctival_edema",
+        "relation_id": "rel_adult_manifests_as_conjunctival_edema",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "常出现眼结合膜和颜面部水肿，可有渗出性腹水、胸腔积液和心包积液。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_facial_edema",
+        "relation_id": "rel_adult_manifests_as_facial_edema",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "常出现眼结合膜和颜面部水肿，可有渗出性腹水、胸腔积液和心包积液。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "symptom_flank_tenderness",
+        "relation_id": "rel_adult_manifests_as_flank_tenderness",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 100,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床特征",
+        "evidence_ids": [
+          "大部分患者有肾区叩击痛。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在临床诊断标准第③条明确列出‘肾区叩击痛’为必备体征，‘flank_tenderness’即肾区叩击痛的临床同义表述",
+        "evidence": "③颜面、颈部和胸部皮肤潮红，有头痛、腰痛和眼眶痛等症状，球结膜充血、水肿，皮肤黏膜出血点，有肾区叩击痛等体征；"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "test_hantavirus_igm",
+        "relation_id": "rel_adult_requires_igm",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "5. 血清学检查：汉坦病毒特异性IgM抗体阳性可以确诊为现症或近期感染。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将‘血清特异性IgM抗体阳性’列为确诊病例的三项金标准之一，且标注为‘需在疑似或临床诊断的基础上’，符合金标准定义",
+        "evidence": "确诊病例需在疑似或临床诊断的基础上，有血清特异性IgM抗体阳性，或从患者标本中检出汉坦病毒RNA,或恢复期血清特异性IgG抗体效价比急性期有4倍以上增高，或从患者中分离到汉坦病毒。"
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "test_hantavirus_rna",
+        "relation_id": "rel_adult_requires_rna",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "检出",
+        "weight": 100,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "实验室诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "6.病原学检查：血清汉坦病毒RNA检测具有重要的临床意义[42]。HFRS患者发病1周内血清汉坦病毒RNA的阳性检出率近乎100%[43]。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确将‘从患者标本中检出汉坦病毒RNA’列为确诊病例的三项金标准之一，且与IgM并列，符合金标准定义",
+        "evidence": "确诊病例需在疑似或临床诊断的基础上，有血清特异性IgM抗体阳性，或从患者标本中检出汉坦病毒RNA,或恢复期血清特异性IgG抗体效价比急性期有4倍以上增高，或从患者中分离到汉坦病毒。"
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "test_wbc_count",
+        "relation_id": "rel_adult_requires_wbc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": 30,
+        "value_max": null,
+        "operator": ">",
+        "unit": "x10^9/L",
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "实验室诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "⑤白细胞计数> 30 x 10VL，血小板计数< 20 x 10VL，血清白蛋白<15g/L。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "test_platelet_count",
+        "relation_id": "rel_adult_requires_platelet",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": 20,
+        "operator": "<",
+        "unit": "x10^9/L",
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "common",
+        "section_priority": "实验室诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "⑤白细胞计数> 30 x 10VL，血小板计数< 20 x 10VL，血清白蛋白<15g/L。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "test_albumin",
+        "relation_id": "rel_adult_requires_albumin",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": 15,
+        "operator": "<",
+        "unit": "g/L",
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "common",
+        "section_priority": "实验室诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "⑤白细胞计数> 30 x 10VL，血小板计数< 20 x 10VL，血清白蛋白<15g/L。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "treatment_hfrs_early_intervention",
+        "relation_id": "rel_adult_follows_early_intervention",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊后立即启动",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分期"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "treatment_hfrs_fluid_therapy",
+        "relation_id": "rel_adult_follows_fluid_therapy",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "所有阶段",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分期"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "treatment_hfrs_antiviral",
+        "relation_id": "rel_adult_follows_antiviral",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "早期",
+        "treatment_line": "一线",
+        "applicable_condition": "发病早期",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "recommended",
+        "decision_basis": [
+          "病程时间"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "抗病毒",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_hfrs_early_intervention",
+        "to": "plan_fluid_resuscitation",
+        "relation_id": "rel_early_implements_by_fluid",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "休克患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "液体复苏：液体复苏是抢救HFRS休克的首要措施。应在 1 h 内快速输人液体1 〇〇〇 mL，如血压回升至基本正常，其后2 h 内输液1 000 mL。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_hfrs_antiviral",
+        "to": "plan_ribavirin_iv",
+        "relation_id": "rel_antiviral_implements_by_ribavirin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "HFRS早期患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "利巴韦林按每日10〜15 mg/kg,分 2 次加人10%葡萄糖注射液250 mL中静脉滴注，每日总量不超过1 500 mg,疗程一般不超过7 d。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "etiology_hantavirus",
+        "relation_id": "rel_adult_causes_hantavirus",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "肾综合征出血热（ hemorrhagic fever with renal syndrome，HFRS)又称流行性出血热，是由汉坦病毒(Hantavims)引起的以啮齿类动物为主要传染源的自然疫源性疾病。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "etiology_rodent_exposure",
+        "relation_id": "rel_adult_causes_rodent_exposure",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "① 发病前2 个月内有疫区旅居史，或有鼠类或其排泄物、分泌物等的接触史；"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_hfrs_adult",
+        "to": "pathogenesis_vascular_endothelial_damage",
+        "relation_id": "rel_adult_explained_by_vascular_damage",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "血管内皮受损导致的血管通透性增加和出血是最基本的病理变化，小血管内皮损伤导致血管壁的通透性增加，从而引起血管渗漏、血浆外渗，产生组织水肿、血液浓缩、低血容量、低血压、弥散性血管内凝血（disseminated intravascular coagulation，DIC)、休克等一系列病理生理变化。"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}
