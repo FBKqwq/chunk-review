@@ -1,8 +1,8 @@
 {
   "meta": {
     "doc_id": "布鲁氏菌病诊疗方案（2023年版）",
-    "source_title": "布鲁氏菌病诊疗方案（2023 年版）",
-    "section_path": "",
+    "source_title": "布鲁氏菌病诊疗方案（2023年版）",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -15,11 +15,11 @@
         "name": "布鲁氏菌病",
         "normalized_name": "布鲁氏菌病",
         "aliases": [
-          "布病",
-          "波状热"
+          "波状热",
+          "布病"
         ],
         "source_document_ids": [
-          "布鲁氏菌病诊疗方案（2023 年版）"
+          "布鲁氏菌病诊疗方案（2023年版）"
         ],
         "evidence_ids": [
           "布鲁氏菌病（Brucellosis，简称布病）又称“波状热”，是由布鲁氏菌（Brucella）感染引起的人畜共患传染病"
@@ -32,10 +32,10 @@
         "id": "sub_disease_brucellosis_acute",
         "name": "急性期布鲁氏菌病",
         "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": null,
+        "disease_subtype": "急性期",
         "clinical_stage": "急性期",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": null,
+        "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
@@ -48,10 +48,10 @@
         "id": "sub_disease_brucellosis_subacute",
         "name": "亚急性期布鲁氏菌病",
         "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": null,
+        "disease_subtype": "亚急性期",
         "clinical_stage": "亚急性期",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": null,
+        "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
@@ -64,10 +64,10 @@
         "id": "sub_disease_brucellosis_chronic",
         "name": "慢性期布鲁氏菌病",
         "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": null,
+        "disease_subtype": "慢性期",
         "clinical_stage": "慢性期",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": null,
+        "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
@@ -77,87 +77,115 @@
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_brucellosis_complicated",
-        "name": "并发症型布鲁氏菌病",
-        "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "多见于早期未得到规范有效治疗的患者。1.骨关节：脊柱炎（多为胸椎和腰椎）最为常见……6.皮肤：包括斑疹、丘疹、结节性红斑、皮肤溃疡、紫癜、肉芽肿性血管炎及局部脓肿形成。脑脊髓膜炎和心内膜炎是造成死亡的主要原因。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_brucellosis_suspected",
-        "name": "疑似布鲁氏菌病",
-        "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "（一）疑似病例。符合上述临床表现，且有相关流行病学史。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_brucellosis_clinical_diagnosis",
-        "name": "临床诊断布鲁氏菌病",
-        "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "（二）临床诊断病例。疑似病例，血清学初筛试验任一项阳性者。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_brucellosis_confirmed",
-        "name": "确诊布鲁氏菌病",
-        "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "（三）确诊病例。疑似或临床诊断病例，病原学或血清学确证试验中任一项阳性者。"
-        ],
-        "confidence": 0.9
-      },
-      {
         "id": "sub_disease_brucellosis_latent",
-        "name": "隐性感染布鲁氏菌病",
+        "name": "隐性感染",
         "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": null,
+        "disease_subtype": "隐性感染",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": null,
+        "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（四）隐性感染。有流行病学史，符合确诊病例病原学和血清学检查标准，但无临床表现。"
+          "有流行病学史，符合确诊病例病原学和血清学检查标准，但无临床表现。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_brucellosis_osteoarticular",
+        "name": "合并骨关节并发症布鲁氏菌病",
+        "parent_disease_id": "disease_brucellosis",
+        "disease_subtype": "并发症",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "骨关节：脊柱炎（多为胸椎和腰椎）最为常见，还可表现为外周关节炎（通常累及膝关节、髋关节和踝关节）和骶髂关节炎 。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_brucellosis_meningitis",
+        "name": "合并脑膜炎/脑膜脑炎布鲁氏菌病",
+        "parent_disease_id": "disease_brucellosis",
+        "disease_subtype": "并发症",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "神经系统：表现为脑脊髓膜炎、颅神经病变、周围神经病、舞蹈症等，也可引起脑脓肿。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_brucellosis_endocarditis",
+        "name": "合并心内膜炎布鲁氏菌病",
+        "parent_disease_id": "disease_brucellosis",
+        "disease_subtype": "并发症",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "心血管系统：表现为心内膜炎、血管炎、心肌炎等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_brucellosis_pregnant",
+        "name": "孕妇和哺乳期女性布鲁氏菌病",
+        "parent_disease_id": "disease_brucellosis",
+        "disease_subtype": "特殊人群",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "孕妇和哺乳期女性",
+        "gender": "female",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "孕妇和哺乳期女性。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_brucellosis_children",
+        "name": "儿童布鲁氏菌病",
+        "parent_disease_id": "disease_brucellosis",
+        "disease_subtype": "特殊人群",
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "儿童",
+        "gender": "all",
+        "age_min": 0,
+        "age_max": 18,
+        "evidence_ids": [
+          "儿童。"
         ],
         "confidence": 0.9
       }
     ],
     "symptoms": [
+      {
+        "id": "symptom_chills",
+        "name": "寒颤",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。"
+        ],
+        "confidence": 0.9
+      },
       {
         "id": "symptom_fever",
         "name": "发热",
@@ -166,13 +194,13 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。发热多发生在午后或夜间，体温下降时可出现大汗。"
+          "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "symptom_chills",
-        "name": "寒颤",
+        "id": "symptom_hyperhidrosis",
+        "name": "多汗",
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
@@ -180,19 +208,7 @@
         "evidence_ids": [
           "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_sweating",
-        "name": "多汗",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。发热多发生在午后或夜间，体温下降时可出现大汗。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_fatigue",
@@ -200,159 +216,108 @@
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_muscle_joint_pain",
+        "name": "肌肉关节疼痛",
+        "body_site": "肌肉、关节",
+        "symptom_category": "骨关节症状",
+        "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
           "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_muscle_pain",
-        "name": "肌肉疼痛",
-        "body_site": "大腿、臀部",
-        "symptom_category": "肌肉骨骼系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "肌肉疼痛多见于两侧大腿和臀部，可呈痉挛性疼痛。"
-        ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_joint_pain",
-        "name": "关节痛",
-        "body_site": "脊柱、骶髂、膝、肩",
-        "symptom_category": "肌肉骨骼系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "关节痛多见于脊柱、骶髂、膝、肩等大关节，可为游走性刺痛。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_hepatosplenomegaly",
-        "name": "肝脾肿大",
-        "body_site": "肝、脾",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "可有肝、脾及淋巴结肿大。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_lymphadenopathy",
-        "name": "淋巴结肿大",
-        "body_site": "淋巴结",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "可有肝、脾及淋巴结肿大。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_low_grade_fever",
-        "name": "低热",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "部分病例可仅有低热。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_wave_fever",
+        "id": "symptom_undulant_fever",
         "name": "波状热",
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "在此期间若未能得到规范有效治疗，在数天至 2 周无热期后可再次出现发热表现，呈现出“波状热”。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_testiculitis",
-        "name": "睾丸炎",
-        "body_site": "泌尿生殖系统",
-        "symptom_category": "泌尿生殖系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "可有……睾丸肿痛……表现为睾丸炎、附睾炎、卵巢炎、子宫内膜炎等相关病理表现。"
+          "在数天至 2 周无热期后可再次出现发热表现，呈现出“波状热”。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_epididymitis",
-        "name": "附睾炎",
-        "body_site": "泌尿生殖系统",
-        "symptom_category": "泌尿生殖系统症状",
+        "id": "symptom_hepatosplenomegaly",
+        "name": "肝、脾及淋巴结肿大",
+        "body_site": "肝、脾、淋巴结",
+        "symptom_category": "消化系统/免疫系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "可有……睾丸肿痛……表现为睾丸炎、附睾炎、卵巢炎、子宫内膜炎等相关病理表现。"
+          "可有肝、脾及淋巴结肿大。"
         ],
         "confidence": 0.9
-      },
-      {
-        "id": "symptom_encephalomyelitis",
-        "name": "脑脊髓膜炎",
-        "body_site": "中枢神经系统",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "主要表现为脑脊髓膜炎……病理改变为神经细胞变性、坏死、肉芽组织增生和硬化，神经纤维脱髓鞘。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_endocarditis",
-        "name": "心内膜炎",
-        "body_site": "心血管系统",
-        "symptom_category": "心血管系统症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "心脏病变相对少见，主要侵犯主动脉瓣、二尖瓣……还可累及心脏内膜、心肌和心包膜……脑脊髓膜炎和心内膜炎是造成死亡的主要原因。"
-        ],
-        "confidence": 0.85
       }
     ],
     "tests": [
       {
-        "id": "test_blood_culture",
-        "name": "血液培养",
+        "id": "test_wbc",
+        "name": "白细胞计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "白细胞计数多正常或偏低"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_lymphocyte",
+        "name": "淋巴细胞",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "淋巴细胞相对增多"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_esr",
+        "name": "血沉",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "急性期可出现血沉增快"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_crp",
+        "name": "C 反应蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "C 反应蛋白升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_bacterial_culture",
+        "name": "细菌培养",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "血液、骨髓、乳汁、脓性分泌物、关节液、脑脊液、泌尿系统受累时的尿液等标本可培养到布鲁氏菌。由于布鲁氏菌生长缓慢，应适当延长培养时间至少到 1 周。"
+          "血液、骨髓、乳汁、脓性分泌物、关节液、脑脊液、泌尿系统受累时的尿液等标本可培养到布鲁氏菌。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_bone_marrow_culture",
-        "name": "骨髓培养",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "血液、骨髓、乳汁、脓性分泌物、关节液、脑脊液、泌尿系统受累时的尿液等标本可培养到布鲁氏菌。由于布鲁氏菌生长缓慢，应适当延长培养时间至少到 1 周。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_brucella_pcr",
-        "name": "布鲁氏菌核酸检测",
+        "id": "test_nucleic_acid",
+        "name": "核酸检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
@@ -368,9 +333,9 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "（1）虎红平板凝集试验（RBT）阳性；"
+          "虎红平板凝集试验（RBT）阳性"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_gica",
@@ -379,9 +344,9 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "（2）胶体金免疫层析试验（GICA）阳性；"
+          "胶体金免疫层析试验（GICA）阳性"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_elisa",
@@ -390,18 +355,18 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "（3）酶联免疫吸附试验（ELISA）阳性。"
+          "酶联免疫吸附试验（ELISA）阳性"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_sat",
         "name": "试管凝集试验（SAT）",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "（1）试管凝集试验（SAT）滴度为 1:100++及以上，或病程持续一年以上仍有临床症状者且滴度为 1:50++及以上；"
+          "试管凝集试验（SAT）滴度为 1:100++及以上"
         ],
         "confidence": 0.95
       },
@@ -410,198 +375,153 @@
         "name": "补体结合试验（CFT）",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "（2）补体结合试验（CFT）滴度为 1:10++及以上；"
+          "补体结合试验（CFT）滴度为 1:10++及以上"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_coomb_s",
+        "id": "test_coombs",
         "name": "抗人免疫球蛋白试验（Coomb’s）",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "（3）抗人免疫球蛋白试验（Coomb’s）滴度为 1:400++及以上。"
+          "抗人免疫球蛋白试验（Coomb’s）滴度为 1:400++及以上"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_esr",
-        "name": "血沉",
+        "id": "test_imaging",
+        "name": "骨关节影像学检查",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 1,
+        "is_digital": 0,
         "evidence_ids": [
-          "急性期可出现血沉增快、C 反应蛋白升高，降钙素原升高不明显。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_crp",
-        "name": "C反应蛋白",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "急性期可出现血沉增快、C 反应蛋白升高，降钙素原升高不明显。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_pct",
-        "name": "降钙素原",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "急性期可出现血沉增快、C 反应蛋白升高，降钙素原升高不明显。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_liver_enzymes",
-        "name": "肝酶",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "累及肝脏者可有肝酶升高。"
+          "骨关节影像学检查，脊柱炎时可见椎体骨质呈虫蚀状破坏"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_brucellosis_general_principle",
-        "content": "早期、联合、足量、足疗程，必要时延长疗程。根据有无并发症及并发症类型来选择药物及疗程。",
+        "id": "treatment_general",
+        "content": "注意休息，注意水、电解质及营养补充，给予高热量、足量 B 族维生素以及易于消化的饮食。高热者物理降温，必要时适当使用退热剂等。",
         "recommendation_strength": "strong",
-        "source_section": "九、治疗",
+        "source_section": "一般治疗",
+        "evidence_ids": [
+          "注意休息，注意水、电解质及营养补充，给予高热量、足量 B 族维生素以及易于消化的饮食。高热者物理降温，必要时适当使用退热剂等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_antimicrobial_principle",
+        "content": "治疗原则为早期、联合、足量、足疗程，必要时延长疗程。根据有无并发症及并发症类型来选择药物及疗程。",
+        "recommendation_strength": "strong",
+        "source_section": "病原治疗",
         "evidence_ids": [
           "治疗原则为早期、联合、足量、足疗程，必要时延长疗程。根据有无并发症及并发症类型来选择药物及疗程。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_brucellosis_general_care",
-        "content": "注意休息，注意水、电解质及营养补充，给予高热量、足量 B 族维生素以及易于消化的饮食。高热者物理降温，必要时适当使用退热剂等。",
+        "id": "treatment_tcm",
+        "content": "布病之核心病机为湿热疫邪痹阻经筋、肌肉、关节，耗伤肝肾阴血。临床分急性期、亚急性期、慢性期三期论治。",
         "recommendation_strength": "strong",
-        "source_section": "九、治疗",
+        "source_section": "中医治疗",
         "evidence_ids": [
-          "（一）一般治疗。注意休息，注意水、电解质及营养补充，给予高热量、足量 B 族维生素以及易于消化的饮食。高热者物理降温，必要时适当使用退热剂等。"
+          "布病之核心病机为湿热疫邪痹阻经筋、肌肉、关节，耗伤肝肾阴血。临床分急性期、亚急性期、慢性期三期论治。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_doxycycline_rifampin_acute",
-        "content": "多西环素（100mg/次，2 次/天，6周）＋利福平（600 ~ 900mg/次，1次/天，6周）",
+        "id": "plan_doxycycline_rifampin",
+        "content": "多西环素（100mg/次，2次/天，6周）＋利福平（600 ~ 900mg/次，1次/天，6周）",
         "plan_level": 1,
-        "applicable_condition": "急性期和亚急性期无并发症患者",
+        "applicable_condition": "无并发症患者（成人）急性期和亚急性期一线方案",
         "contraindication_note": "在结核病高负担地区，如不能排除结核杆菌感染，不建议使用利福平治疗。",
         "evidence_ids": [
-          "一线药物：多西环素联合利福平或链霉素。"
+          "多西环素（100mg/次，2次/天，6周）＋利福平（600 ~ 900mg/次，1次/天，6周）"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_doxycycline_streptomycin_acute",
+        "id": "plan_doxycycline_streptomycin",
         "content": "多西环素（100mg/次，2次/天，6周）＋链霉素（肌注，15mg/kg，1次/天，2~3周）",
         "plan_level": 1,
-        "applicable_condition": "急性期和亚急性期无并发症患者",
-        "contraindication_note": "在结核病高负担地区，如不能排除结核杆菌感染，不建议使用利福平治疗。",
+        "applicable_condition": "无并发症患者（成人）急性期和亚急性期一线方案",
+        "contraindication_note": null,
         "evidence_ids": [
-          "一线药物：多西环素联合利福平或链霉素。"
+          "多西环素（100mg/次，2次/天，6周）＋链霉素（肌注，15mg/kg，1次/天，2~3周）"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_doxycycline_sxt_acute",
-        "content": "多西环素（100mg/次，2 次/天，6周）＋复方磺胺甲噁唑（2片/次，2次/天，6周）",
-        "plan_level": 2,
-        "applicable_condition": "因药物过敏或可及性等原因不能使用一线药物或效果不佳的急性期和亚急性期无并发症患者",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "二线药物：因药物过敏或可及性等原因不能使用一线药物或效果不佳的，可酌情选用以下方案：多西环素合用复方磺胺甲噁唑；利福平合用氟喹诺酮类。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_rifampin_fq_acute",
-        "content": "利福平（600 ~ 900mg/次，1次/天，6周）＋左氧氟沙星（500mg/次，1次/天，6周）",
-        "plan_level": 2,
-        "applicable_condition": "因药物过敏或可及性等原因不能使用一线药物或效果不佳的急性期和亚急性期无并发症患者",
-        "contraindication_note": "在结核病高负担地区，如不能排除结核杆菌感染，不建议使用利福平治疗。",
-        "evidence_ids": [
-          "二线药物：因药物过敏或可及性等原因不能使用一线药物或效果不佳的，可酌情选用以下方案：多西环素合用复方磺胺甲噁唑；利福平合用氟喹诺酮类。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_doxycycline_rifampin_spinal",
+        "id": "plan_spine_arthritis",
         "content": "多西环素（100mg/次，2次/天，至少3个月）＋利福平（600 ~ 900mg/次，1次/天，至少3个月）＋头孢曲松（静脉滴注，2g/次，1次/12小时，1个月）",
         "plan_level": 1,
-        "applicable_condition": "合并脊柱炎、骶髂关节炎患者",
+        "applicable_condition": "合并脊柱炎、骶髂关节炎一线方案",
         "contraindication_note": null,
         "evidence_ids": [
-          "合并脊柱炎、骶髂关节炎：多西环素（100mg/次，2次/天，至少3个月）＋利福平（600 ~ 900mg/次，1次/天，至少3个月）＋头孢曲松（静脉滴注，2g/次，1次/12小时，1个月）"
+          "多西环素（100mg/次，2次/天，至少3个月）＋利福平（600 ~ 900mg/次，1次/天，至少3个月）＋头孢曲松（静脉滴注，2g/次，1次/12小时，1个月）"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_doxycycline_rifampin_meningitis",
+        "id": "plan_meningitis",
         "content": "多西环素（100mg/次，2次/天，4~6 个月）＋利福平（600 ~ 900mg/次，1次/天，4~6个月）＋头孢曲松（静脉滴注，2g/次，1次/12小时，1个月）",
         "plan_level": 1,
-        "applicable_condition": "合并脑膜炎、脑膜脑炎患者",
+        "applicable_condition": "合并脑膜炎、脑膜脑炎一线方案",
         "contraindication_note": null,
         "evidence_ids": [
-          "合并脑膜炎、脑膜脑炎：多西环素（100mg/次，2次/天，4~6 个月）＋利福平（600 ~ 900mg/次，1次/天，4~6个月）＋头孢曲松（静脉滴注，2g/次，1次/12小时，1个月）"
+          "多西环素（100mg/次，2次/天，4~6 个月）＋利福平（600 ~ 900mg/次，1次/天，4~6个月）＋头孢曲松（静脉滴注，2g/次，1次/12小时，1个月）"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_doxycycline_rifampin_endocarditis",
+        "id": "plan_endocarditis",
         "content": "多西环素（100mg/次，2 次/天，3~6 个月）＋利福平（600 ~ 900mg/次，1次/天，3~6个月）＋左氧氟沙星（500mg/次，1次/天，3~6个月）或复方磺胺甲噁唑（2 片/次，2 次/天，3~6个月）",
         "plan_level": 1,
-        "applicable_condition": "合并心内膜炎患者",
-        "contraindication_note": "在结核病高负担地区，如不能排除结核杆菌感染，不建议使用利福平治疗。",
+        "applicable_condition": "合并心内膜炎一线方案",
+        "contraindication_note": null,
         "evidence_ids": [
-          "合并心内膜炎：① 多西环素（100mg/次，2 次/天，3~6 个月）＋利福平（600 ~ 900mg/次，1次/天，3~6个月）＋左氧氟沙星（500mg/次，1次/天，3~6个月）或复方磺胺甲噁唑（2 片/次，2 次/天，3~6个月）"
+          "多西环素（100mg/次，2 次/天，3~6 个月）＋利福平（600 ~ 900mg/次，1次/天，3~6个月）＋左氧氟沙星（500mg/次，1次/天，3~6个月）或复方磺胺甲噁唑（2 片/次，2 次/天，3~6个月）"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_rifampin_ceftriaxone_pregnancy",
+        "id": "plan_pregnant",
         "content": "利福平（600～900mg/次，1 次/天）6 周，联合头孢曲松（1～2g/次，1 次/天）2～3 周。",
         "plan_level": 1,
         "applicable_condition": "孕妇和哺乳期女性",
         "contraindication_note": null,
         "evidence_ids": [
-          "（1）孕妇和哺乳期女性。利福平（600～900mg/次，1 次/天）6 周，联合头孢曲松（1～2g/次，1 次/天）2～3 周。"
+          "利福平（600～900mg/次，1 次/天）6 周，联合头孢曲松（1～2g/次，1 次/天）2～3 周。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_sxt_rifampin_child",
-        "content": "复方磺胺甲噁唑（24~36mg/kg/d，分两次口服，6 周）＋利福平（15~20mg/kg，1 次/天，口服 6 周）",
+        "id": "plan_tcm_acute",
+        "content": "宣痹汤加减。生石膏 30g（先煎)、知母 20g、苍术 15g、厚朴 10g、生薏米 30g、青蒿 12g、黄芩 10g、忍冬藤 12g、汉防己 10g、杏仁 10g、广地龙 9g、六一散20g（包煎）。",
         "plan_level": 1,
-        "applicable_condition": "2 月龄至 8 岁儿童",
+        "applicable_condition": "急性期",
         "contraindication_note": null,
         "evidence_ids": [
-          "2 月龄至 8 岁儿童：复方磺胺甲噁唑（24~36mg/kg/d，分两次口服，6 周）＋利福平（15~20mg/kg，1 次/天，口服 6 周）或者复方磺胺甲噁唑（24~36mg/kg/d，分两次口服，6 周）＋庆大霉素（5mg/kg，1 次/天，静脉注射 7~10 天）。"
+          "推荐方剂：宣痹汤加减。常用药物与参考剂量：生石膏 30g（先煎)、知母 20g、苍术 15g、厚朴 10g、生薏米 30g、青蒿 12g、黄芩 10g、忍冬藤 12g、汉防己 10g、杏仁 10g、广地龙 9g、六一散20g（包煎）。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_sxt_gentamicin_child",
-        "content": "复方磺胺甲噁唑（24~36mg/kg/d，分两次口服，6 周）＋庆大霉素（5mg/kg，1 次/天，静脉注射 7~10 天）",
+        "id": "plan_pep",
+        "content": "利福平（600mg/次，1 次/天，口服）联合多西环素（100mg/次，2 次/天，口服）或复方磺胺甲噁唑片（2 片/次，2 次/天，口服），21 天。",
         "plan_level": 1,
-        "applicable_condition": "2 月龄至 8 岁儿童",
+        "applicable_condition": "暴露后预防",
         "contraindication_note": null,
         "evidence_ids": [
-          "2 月龄至 8 岁儿童：复方磺胺甲噁唑（24~36mg/kg/d，分两次口服，6 周）＋利福平（15~20mg/kg，1 次/天，口服 6 周）或者复方磺胺甲噁唑（24~36mg/kg/d，分两次口服，6 周）＋庆大霉素（5mg/kg，1 次/天，静脉注射 7~10 天）。"
+          "暴露后预防：利福平（600mg/次，1 次/天，口服）联合多西环素（100mg/次，2 次/天，口服）或复方磺胺甲噁唑片（2 片/次，2 次/天，口服），21 天。"
         ],
         "confidence": 0.95
       }
@@ -609,9 +529,9 @@
     "etiologies": [
       {
         "id": "etiology_brucella_infection",
-        "content": "布鲁氏菌感染",
+        "content": "布鲁氏菌（Brucella）感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
           "是由布鲁氏菌（Brucella）感染引起的人畜共患传染病"
@@ -619,33 +539,63 @@
         "confidence": 0.95
       },
       {
-        "id": "etiology_sheep_cattle_swine_dog",
-        "content": "羊种、牛种、猪种和犬种布鲁氏菌感染",
+        "id": "etiology_contact",
+        "content": "接触传播：主要通过皮肤黏膜直接接触带菌动物的组织、血液、尿液或乳汁等感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "常见",
         "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "其中羊种、牛种、猪种和犬种布鲁氏菌可造成人感染。"
-        ],
-        "confidence": 0.95
-      }
-    ],
-    "pathogenesis": [
-      {
-        "id": "pathogenesis_brucella_macrophage_survival",
-        "content": "布鲁氏菌在巨噬细胞内有特定的生存机制，通过阻断巨噬细胞凋亡、抑制 Th1 特异性免疫反应和抑制肿瘤坏死因子-α (TNF-α) 的产生等免疫逃逸机制而受到保护，使病原体不易被清除。",
-        "evidence_ids": [
-          "布鲁氏菌在巨噬细胞内有特定的生存机制，通过阻断巨噬细胞凋亡、抑制 Th1 特异性免疫反应和抑制肿瘤坏死因子-α (TNF-α) 的产生等免疫逃逸机制而受到保护，使病原体不易被清除。"
+          "接触传播：主要通过皮肤黏膜直接接触带菌动物的组织（如胎盘或流产物等）、血液、尿液或乳汁等感染"
         ],
         "confidence": 0.9
       },
       {
-        "id": "pathogenesis_brucella_systemic_dissemination",
-        "content": "布鲁氏菌侵入人体后，被巨噬细胞吞噬，在局部淋巴结生长繁殖并形成感染灶，约 2~3 周后突破淋巴结屏障而侵入血液循环产生菌血症，表现出发热、乏力等感染中毒症状。进入血液循环的布鲁氏菌在肝、脾、骨髓、淋巴结等单核-吞噬细胞系统中形成新的感染灶，细菌繁殖再次入血，发热等症状再现，可在全身各脏器引起迁徙性病灶，累及的脏器出现相应病变。",
+        "id": "etiology_digestive",
+        "content": "消化道传播：食用含菌的生奶、水及未加工熟的肉制品等食物感染",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "布鲁氏菌侵入人体后，被巨噬细胞吞噬，在局部淋巴结生长繁殖并形成感染灶，约 2~3 周后突破淋巴结屏障而侵入血液循环产生菌血症，表现出发热、乏力等感染中毒症状。进入血液循环的布鲁氏菌在肝、脾、骨髓、淋巴结等单核-吞噬细胞系统中形成新的感染灶，细菌繁殖再次入血，发热等症状再现，可在全身各脏器引起迁徙性病灶，累及的脏器出现相应病变。"
+          "消化道传播：食用含菌的生奶、水及未加工熟的肉制品等食物感染。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_respiratory",
+        "content": "呼吸道传播：可通过吸入病菌污染环境中的气溶胶感染",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "呼吸道传播：可通过吸入病菌污染环境中的气溶胶感染。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_macrophage",
+        "content": "布鲁氏菌侵入人体后，被巨噬细胞吞噬，在局部淋巴结生长繁殖并形成感染灶",
+        "evidence_ids": [
+          "布鲁氏菌侵入人体后，被巨噬细胞吞噬，在局部淋巴结生长繁殖并形成感染灶"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_bacteremia",
+        "content": "约 2~3 周后突破淋巴结屏障而侵入血液循环产生菌血症，表现出发热、乏力等感染中毒症状",
+        "evidence_ids": [
+          "约 2~3 周后突破淋巴结屏障而侵入血液循环产生菌血症，表现出发热、乏力等感染中毒症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_immune_evasion",
+        "content": "通过阻断巨噬细胞凋亡、抑制 Th1 特异性免疫反应和抑制肿瘤坏死因子-α (TNF-α) 的产生等免疫逃逸机制而受到保护",
+        "evidence_ids": [
+          "通过阻断巨噬细胞凋亡、抑制 Th1 特异性免疫反应和抑制肿瘤坏死因子-α (TNF-α) 的产生等免疫逃逸机制而受到保护"
+        ],
+        "confidence": 0.9
       }
     ]
   },
@@ -686,56 +636,67 @@
       },
       {
         "from": "disease_brucellosis",
-        "to": "sub_disease_brucellosis_complicated",
-        "relation_id": "rel_brucellosis_has_complicated",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "多见于早期未得到规范有效治疗的患者。1.骨关节：脊柱炎（多为胸椎和腰椎）最为常见……6.皮肤：包括斑疹、丘疹、结节性红斑、皮肤溃疡、紫癜、肉芽肿性血管炎及局部脓肿形成。脑脊髓膜炎和心内膜炎是造成死亡的主要原因。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_brucellosis",
-        "to": "sub_disease_brucellosis_suspected",
-        "relation_id": "rel_brucellosis_has_suspected",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "（一）疑似病例。符合上述临床表现，且有相关流行病学史。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_brucellosis",
-        "to": "sub_disease_brucellosis_clinical_diagnosis",
-        "relation_id": "rel_brucellosis_has_clinical_diagnosis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "（二）临床诊断病例。疑似病例，血清学初筛试验任一项阳性者。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_brucellosis",
-        "to": "sub_disease_brucellosis_confirmed",
-        "relation_id": "rel_brucellosis_has_confirmed",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "（三）确诊病例。疑似或临床诊断病例，病原学或血清学确证试验中任一项阳性者。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_brucellosis",
         "to": "sub_disease_brucellosis_latent",
         "relation_id": "rel_brucellosis_has_latent",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（四）隐性感染。有流行病学史，符合确诊病例病原学和血清学检查标准，但无临床表现。"
+          "隐性感染。有流行病学史，符合确诊病例病原学和血清学检查标准，但无临床表现。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_brucellosis",
+        "to": "sub_disease_brucellosis_osteoarticular",
+        "relation_id": "rel_brucellosis_has_osteoarticular",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "骨关节：脊柱炎（多为胸椎和腰椎）最为常见"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_brucellosis",
+        "to": "sub_disease_brucellosis_meningitis",
+        "relation_id": "rel_brucellosis_has_meningitis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "神经系统：表现为脑脊髓膜炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_brucellosis",
+        "to": "sub_disease_brucellosis_endocarditis",
+        "relation_id": "rel_brucellosis_has_endocarditis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "心血管系统：表现为心内膜炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_brucellosis",
+        "to": "sub_disease_brucellosis_pregnant",
+        "relation_id": "rel_brucellosis_has_pregnant",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "孕妇和哺乳期女性。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_brucellosis",
+        "to": "sub_disease_brucellosis_children",
+        "relation_id": "rel_brucellosis_has_children",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "儿童。"
         ],
         "confidence": 0.9
       }
@@ -744,209 +705,93 @@
       {
         "from": "sub_disease_brucellosis_acute",
         "to": "symptom_fever",
-        "relation_id": "rel_acute_manifests_as_fever",
+        "relation_id": "rel_acute_manifests_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。发热多发生在午后或夜间，体温下降时可出现大汗。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确列为‘主要表现’，且‘发热多发生在午后或夜间’，属核心典型症状",
-        "evidence": "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。"
-      },
-      {
-        "from": "sub_disease_brucellosis_acute",
-        "to": "symptom_chills",
-        "relation_id": "rel_acute_manifests_as_chills",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "临床表现",
         "evidence_ids": [
           "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文与‘发热’并列置于‘主要表现’首位，属核心典型症状",
-        "evidence": "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。"
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出急性期以发热为主要表现",
+        "evidence": "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现"
       },
       {
         "from": "sub_disease_brucellosis_acute",
-        "to": "symptom_sweating",
-        "relation_id": "rel_acute_manifests_as_sweating",
+        "to": "symptom_hyperhidrosis",
+        "relation_id": "rel_acute_manifests_hyperhidrosis",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。发热多发生在午后或夜间，体温下降时可出现大汗。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文与‘发热’‘寒颤’并列置于‘主要表现’，且强调‘体温下降时可出现大汗’，属核心典型症状",
-        "evidence": "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。发热多发生在午后或夜间，体温下降时可出现大汗。"
-      },
-      {
-        "from": "sub_disease_brucellosis_acute",
-        "to": "symptom_fatigue",
-        "relation_id": "rel_acute_manifests_as_fatigue",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "临床表现",
         "evidence_ids": [
           "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文与‘寒颤’‘发热’‘多汗’并列置于‘主要表现’，属核心典型症状",
-        "evidence": "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。"
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出急性期以多汗为主要表现",
+        "evidence": "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现"
       },
       {
         "from": "sub_disease_brucellosis_acute",
-        "to": "symptom_muscle_pain",
-        "relation_id": "rel_acute_manifests_as_muscle_pain",
+        "to": "symptom_muscle_joint_pain",
+        "relation_id": "rel_acute_manifests_muscle_joint_pain",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "肌肉疼痛多见于两侧大腿和臀部，可呈痉挛性疼痛。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_brucellosis_acute",
-        "to": "symptom_joint_pain",
-        "relation_id": "rel_acute_manifests_as_joint_pain",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "关节痛多见于脊柱、骶髂、膝、肩等大关节，可为游走性刺痛。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_brucellosis_acute",
-        "to": "symptom_hepatosplenomegaly",
-        "relation_id": "rel_acute_manifests_as_hepatosplenomegaly",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "可有肝、脾及淋巴结肿大。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_brucellosis_acute",
-        "to": "symptom_lymphadenopathy",
-        "relation_id": "rel_acute_manifests_as_lymphadenopathy",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "可有肝、脾及淋巴结肿大。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_brucellosis_acute",
-        "to": "symptom_low_grade_fever",
-        "relation_id": "rel_acute_manifests_as_low_grade_fever",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 4,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "部分病例可仅有低热。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_brucellosis_acute",
-        "to": "symptom_wave_fever",
-        "relation_id": "rel_acute_manifests_as_wave_fever",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "临床表现",
         "evidence_ids": [
-          "在此期间若未能得到规范有效治疗，在数天至 2 周无热期后可再次出现发热表现，呈现出“波状热”。"
+          "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现。"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确称布病为‘波状热’，并在临床表现中指出‘可再次出现发热表现，呈现出“波状热”’，属疾病特异性命名级表现",
-        "evidence": "布鲁氏菌病（Brucellosis，简称布病）又称“波状热”。...在此期间若未能得到规范有效治疗，在数天至2周无热期后可再次出现发热表现，呈现出“波状热”。"
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出急性期以肌肉关节疼痛为主要表现",
+        "evidence": "以寒颤、发热、多汗、乏力、肌肉关节疼痛等为主要表现"
+      },
+      {
+        "from": "sub_disease_brucellosis_acute",
+        "to": "symptom_undulant_fever",
+        "relation_id": "rel_acute_manifests_undulant_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "在数天至 2 周无热期后可再次出现发热表现，呈现出“波状热”。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出未规范治疗可再次发热呈现波状热，为典型表现",
+        "evidence": "在数天至2周无热期后可再次出现发热表现，呈现出“波状热”"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_brucellosis_confirmed",
-        "to": "test_blood_culture",
-        "relation_id": "rel_confirmed_requires_blood_culture",
+        "from": "sub_disease_brucellosis_acute",
+        "to": "test_bacterial_culture",
+        "relation_id": "rel_acute_requires_culture",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -956,224 +801,168 @@
         "operator": "equals",
         "unit": null,
         "result_text": "培养到布鲁氏菌",
-        "weight": 100,
+        "weight": 9,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "实验室检查",
+        "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "血液、骨髓、乳汁、脓性分泌物、关节液、脑脊液、泌尿系统受累时的尿液等标本可培养到布鲁氏菌。由于布鲁氏菌生长缓慢，应适当延长培养时间至少到 1 周。"
+          "血液、骨髓、乳汁、脓性分泌物、关节液、脑脊液、泌尿系统受累时的尿液等标本可培养到布鲁氏菌。"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文在‘病原学检查’条目下首项即列‘细菌培养’，并明确‘血液...等标本可培养到布鲁氏菌’，且诊断标准中‘确诊病例’定义为‘病原学或血清学确证试验中任一项阳性者’，病原学培养为直接检出活菌，符合金标准定义",
-        "evidence": "细菌培养：血液、骨髓、乳汁、脓性分泌物、关节液、脑脊液、泌尿系统受累时的尿液等标本可培养到布鲁氏菌。"
+        "weight_reason": "细菌培养属于病原学检查，是确诊病例的依据之一",
+        "evidence": "病原学或血清学确证试验中任一项阳性者"
       },
       {
-        "from": "sub_disease_brucellosis_confirmed",
-        "to": "test_brucella_pcr",
-        "relation_id": "rel_confirmed_requires_pcr",
+        "from": "sub_disease_brucellosis_acute",
+        "to": "test_sat",
+        "relation_id": "rel_acute_requires_sat",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断支持证据",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": 100,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "滴度",
+        "result_text": "试管凝集试验（SAT）滴度为 1:100++及以上",
+        "weight": 9,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "试管凝集试验（SAT）滴度为 1:100++及以上"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "试管凝集试验属于血清学确证实验，是确诊病例的依据",
+        "evidence": "病原学或血清学确证试验中任一项阳性者"
+      },
+      {
+        "from": "sub_disease_brucellosis_acute",
+        "to": "test_rbt",
+        "relation_id": "rel_acute_requires_rbt",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
         "diagnostic_role": "supportive",
         "value_min": null,
         "value_max": null,
         "operator": "equals",
         "unit": null,
-        "result_text": "核酸检测阳性",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "common",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "上述标本布鲁氏菌核酸检测阳性，可协助菌株鉴定。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文将核酸检测列为‘病原学检查’第二项，表述为‘可协助菌株鉴定’，属辅助性检测，非确诊必需或金标准",
-        "evidence": "核酸检测：上述标本布鲁氏菌核酸检测阳性，可协助菌株鉴定。"
-      },
-      {
-        "from": "sub_disease_brucellosis_clinical_diagnosis",
-        "to": "test_rbt",
-        "relation_id": "rel_clinical_diagnosis_requires_rbt",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 10,
+        "result_text": "虎红平板凝集试验（RBT）阳性",
+        "weight": 7,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "实验室检查",
+        "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（1）虎红平板凝集试验（RBT）阳性；"
+          "虎红平板凝集试验（RBT）阳性"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文在‘血清学检查’‘初筛实验’中列为第一项，明确为‘初筛’，非确诊依据",
-        "evidence": "（1）虎红平板凝集试验（RBT）阳性；"
-      },
-      {
-        "from": "sub_disease_brucellosis_clinical_diagnosis",
-        "to": "test_gica",
-        "relation_id": "rel_clinical_diagnosis_requires_gica",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "（2）胶体金免疫层析试验（GICA）阳性；"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文在‘血清学检查’‘初筛实验’中列为第二项，明确为‘初筛’，非确诊依据",
-        "evidence": "（2）胶体金免疫层析试验（GICA）阳性；"
-      },
-      {
-        "from": "sub_disease_brucellosis_clinical_diagnosis",
-        "to": "test_elisa",
-        "relation_id": "rel_clinical_diagnosis_requires_elisa",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "（3）酶联免疫吸附试验（ELISA）阳性。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文在‘血清学检查’‘初筛实验’中列为第三项，明确为‘初筛’，非确诊依据",
-        "evidence": "（3）酶联免疫吸附试验（ELISA）阳性。"
-      },
-      {
-        "from": "sub_disease_brucellosis_confirmed",
-        "to": "test_sat",
-        "relation_id": "rel_confirmed_requires_sat",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断确证条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "between",
-        "unit": null,
-        "result_text": "滴度为 1:100++及以上，或病程持续一年以上仍有临床症状者且滴度为 1:50++及以上",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "elevated",
-        "typicality": "typical",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "（1）试管凝集试验（SAT）滴度为 1:100++及以上，或病程持续一年以上仍有临床症状者且滴度为 1:50++及以上；"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文在‘确证实验’中列为第一项，但需满足‘滴度为1:100++及以上’等严格条件，且诊断标准明确‘病原学或血清学确证试验中任一项阳性者’即可确诊，SAT仅为确证手段之一，非唯一/金标准",
-        "evidence": "（1）试管凝集试验（SAT）滴度为1:100++及以上，或病程持续一年以上仍有临床症状者且滴度为1:50++及以上；"
+        "confidence": 0.9,
+        "weight_reason": "虎红平板凝集试验属于血清学初筛实验，用于临床诊断病例",
+        "evidence": "疑似病例，血清学初筛试验任一项阳性者"
       }
     ],
     "follows_treatment": [
       {
         "from": "sub_disease_brucellosis_acute",
-        "to": "treatment_brucellosis_general_principle",
-        "relation_id": "rel_acute_follows_general_principle",
+        "to": "treatment_antimicrobial_principle",
+        "relation_id": "rel_acute_follows_antimicrobial",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "急性期",
         "treatment_line": "一线",
-        "applicable_condition": "明确诊断后制定治疗方案",
+        "applicable_condition": "明确诊断后",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "临床分期"
+          "疾病分期"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "九、治疗",
+        "source_section": "病原治疗",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_brucellosis_acute",
-        "to": "treatment_brucellosis_general_care",
-        "relation_id": "rel_acute_follows_general_care",
+        "from": "sub_disease_brucellosis_osteoarticular",
+        "to": "treatment_antimicrobial_principle",
+        "relation_id": "rel_osteoarticular_follows_antimicrobial",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
-        "clinical_stage": "急性期",
+        "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "明确诊断后制定治疗方案",
+        "applicable_condition": "合并骨关节炎者建议三联治疗",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "临床分期"
+          "并发症类型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "九、治疗",
+        "source_section": "病原治疗",
         "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_brucellosis_general_principle",
-        "to": "plan_doxycycline_rifampin_acute",
-        "relation_id": "rel_general_principle_implements_by_doxycycline_rifampin",
+        "from": "treatment_antimicrobial_principle",
+        "to": "plan_doxycycline_rifampin",
+        "relation_id": "rel_antimicrobial_implements_doxycycline_rifampin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "急性期和亚急性期无并发症患者",
+        "applicable_condition": "无并发症患者（成人）急性期和亚急性期",
         "contraindication_note": "在结核病高负担地区，如不能排除结核杆菌感染，不建议使用利福平治疗。",
         "evidence_ids": [
           "一线药物：多西环素联合利福平或链霉素。"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "treatment_antimicrobial_principle",
+        "to": "plan_spine_arthritis",
+        "relation_id": "rel_antimicrobial_implements_spine_arthritis",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "合并脊柱炎、骶髂关节炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "合并骨关节炎者建议三联治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_tcm",
+        "to": "plan_tcm_acute",
+        "relation_id": "rel_tcm_implements_acute",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "急性期",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：宣痹汤加减。"
+        ],
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
         "from": "sub_disease_brucellosis_acute",
         "to": "etiology_brucella_infection",
-        "relation_id": "rel_acute_causes_brucella_infection",
-        "relation_name": "相关",
+        "relation_id": "rel_acute_caused_by_brucella",
+        "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
@@ -1183,19 +972,56 @@
           "是由布鲁氏菌（Brucella）感染引起的人畜共患传染病"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_brucellosis_acute",
+        "to": "etiology_contact",
+        "relation_id": "rel_acute_caused_by_contact",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "接触传播：主要通过皮肤黏膜直接接触带菌动物的组织"
+        ],
+        "confidence": 0.9
       }
     ],
     "explained_by": [
       {
         "from": "sub_disease_brucellosis_acute",
-        "to": "pathogenesis_brucella_systemic_dissemination",
-        "relation_id": "rel_acute_explained_by_systemic_dissemination",
+        "to": "pathogenesis_macrophage",
+        "relation_id": "rel_acute_explained_by_macrophage",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "布鲁氏菌侵入人体后，被巨噬细胞吞噬，在局部淋巴结生长繁殖并形成感染灶，约 2~3 周后突破淋巴结屏障而侵入血液循环产生菌血症，表现出发热、乏力等感染中毒症状。进入血液循环的布鲁氏菌在肝、脾、骨髓、淋巴结等单核-吞噬细胞系统中形成新的感染灶，细菌繁殖再次入血，发热等症状再现，可在全身各脏器引起迁徙性病灶，累及的脏器出现相应病变。"
+          "布鲁氏菌侵入人体后，被巨噬细胞吞噬，在局部淋巴结生长繁殖并形成感染灶"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_brucellosis_acute",
+        "to": "pathogenesis_bacteremia",
+        "relation_id": "rel_acute_explained_by_bacteremia",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "约 2~3 周后突破淋巴结屏障而侵入血液循环产生菌血症，表现出发热、乏力等感染中毒症状"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_brucellosis_acute",
+        "to": "pathogenesis_immune_evasion",
+        "relation_id": "rel_acute_explained_by_immune_evasion",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "通过阻断巨噬细胞凋亡、抑制 Th1 特异性免疫反应和抑制肿瘤坏死因子-α (TNF-α) 的产生等免疫逃逸机制而受到保护"
+        ],
+        "confidence": 0.9
       }
     ]
   },

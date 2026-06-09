@@ -11,150 +11,120 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_long_covid_syndrome",
+        "id": "disease_long_covid",
         "name": "长新冠综合征",
         "normalized_name": "长新冠综合征",
         "aliases": [
           "长新冠",
-          "post-COVID-19 syndrome",
-          "PASC",
-          "long COVID"
+          "新型冠状病毒感染急性后遗症",
+          "PASC"
         ],
         "source_document_ids": [
           "长新冠综合征临床诊治专家共识"
         ],
         "evidence_ids": [
-          "长新冠综合征临床诊治专家共识"
+          "与COVID-19相关的“长新冠”可以出现全身多系统症状并带来长期的影响",
+          "本共识采用WHO对“长新冠”的定义。"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_long_covid_syndrome",
-        "name": "长新冠综合征",
-        "parent_disease_id": "disease_long_covid_syndrome",
-        "disease_subtype": null,
+        "id": "sub_disease_long_covid_general",
+        "name": "长新冠综合征（整体）",
+        "parent_disease_id": "disease_long_covid",
+        "disease_subtype": "多系统受累综合征",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "新冠病毒感染后人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "“长新冠”的症状呈多样化，包括疲劳、呼吸困难、关节疼痛、胸痛、心悸、嗅觉或味觉缺失或减退、脑雾（认知功能障碍）、头痛、肌肉疼痛、持续性咳嗽、消化问题及睡眠问题等……因此，“长新冠”不是一种具有明确病因、发病机制和临床病程的简单疾病，而是一种同时涉及多个器官的复杂疾病，因此将其称为长新冠综合征更为恰当。"
+          "新冠病毒感染3个月后，持续存在的症状或出现新的症状，症状至少持续2个月，且无法用其他诊断解释"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "sub_disease_long_covid_respiratory",
+        "id": "sub_disease_respiratory_long_covid",
         "name": "呼吸系统长新冠综合征",
-        "parent_disease_id": "disease_long_covid_syndrome",
-        "disease_subtype": "呼吸系统受累型",
+        "parent_disease_id": "disease_long_covid",
+        "disease_subtype": "呼吸系统受累",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "有呼吸道症状的长新冠患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "呼吸系统 长新冠综合征常见的呼吸道症状包括胸闷、呼吸困难、慢性咳嗽和运动能力下降［43］等，部分症状甚至可能持续长达3年［44］。呼吸困难是最常见的长新冠综合征相关症状［43］……长新冠综合征常遗留肺功能异常，包括限制性通气功能障碍、弥散功能下降［48-49］……长新冠综合征部分患者存在包括炎症改变（磨玻璃影和实变）和纤维化改变（网状结构、肺结构扭曲、小叶间隔增厚、牵拉性支气管扩张）的胸部影像学异常［51］……"
+          "长新冠综合征常见的呼吸道症状包括胸闷、呼吸困难、慢性咳嗽和运动能力下降"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_long_covid_cardiovascular",
+        "id": "sub_disease_cardiovascular_long_covid",
         "name": "心血管系统长新冠综合征",
-        "parent_disease_id": "disease_long_covid_syndrome",
-        "disease_subtype": "心血管系统受累型",
+        "parent_disease_id": "disease_long_covid",
+        "disease_subtype": "心血管系统受累",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "有心血管症状的长新冠患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "心血管系统 - 患者的心血管疾病的风险及负担较大［59］……心肺耐力显著下降是心血管系统长新冠综合征的标志性特征。新冠病毒感染后的心脏症状包括胸痛、胸闷、气短、心悸、呼吸困难、站立时头晕、运动不耐受［定义为运动后症状恶化（即便是轻度身体活动），常在数小时后或第2天开始，可持续数天或数周］，以及体位性心动过速综合征［（postural orthostatic tachycardia syndrome, POTS）……直立性低血压的定义是在站立后3 min内收缩压至少下降20 mm Hg或舒张压至少下降10 mmHg……"
+          "COVID-19患者的心血管疾病的风险及负担较大",
+          "新冠病毒感染后的心脏症状包括胸痛、胸闷、气短、心悸、呼吸困难、站立时头晕、运动不耐受"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_long_covid_neuropsychiatric",
+        "id": "sub_disease_neuropsychiatric_long_covid",
         "name": "神经精神系统长新冠综合征",
-        "parent_disease_id": "disease_long_covid_syndrome",
-        "disease_subtype": "神经精神系统受累型",
+        "parent_disease_id": "disease_long_covid",
+        "disease_subtype": "神经精神系统受累",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "有神经精神症状的长新冠患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "神经精神系统 大量研究表明，一部分- 患者会长时间存在不同程度的神经系统症状，如头痛、疲乏和焦虑抑郁等……睡眠障碍是长新冠综合征常见的神经精神系统症状之一，亦称“新冠失眠”……疲乏是长新冠综合征常见症状，主要表现为休息后也无法显著缓解的严重疲劳……“脑雾”又称认知功能障碍，表现为注意力不集中、失语及健忘等……精神症状可表现为抑郁（情绪低落、悲伤）、焦虑（担心、恐惧）、创伤后应激障碍（PTSD）和其他神经精神症状（包括强迫症、失眠等）……"
+          "一部分COVID-19患者会长时间存在不同程度的神经系统症状，如头痛、疲乏和焦虑抑郁等",
+          "睡眠障碍是长新冠综合征常见的神经精神系统症状之一"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_long_covid_digestive",
+        "id": "sub_disease_digestive_long_covid",
         "name": "消化系统长新冠综合征",
-        "parent_disease_id": "disease_long_covid_syndrome",
-        "disease_subtype": "消化系统受累型",
+        "parent_disease_id": "disease_long_covid",
+        "disease_subtype": "消化系统受累",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "有消化道症状的长新冠患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "消化系统 大约有11%~22%的患者在新冠病毒感染急性期过后会出现消化系统症状［89］，常见症状包括：腹泻（10%）、腹痛（14%）、味觉减退（20%）、食欲不振（6%）、恶心呕吐（6%）、消化不良（20%）和肠易激综合征（17%）［89］……关于长新冠综合征胃肠道症状的发病机制尚未明确……"
+          "大约有11%~22%的患者在新冠病毒感染急性期过后会出现消化系统症状"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_long_covid_endocrine",
-        "name": "内分泌系统长新冠综合征",
-        "parent_disease_id": "disease_long_covid_syndrome",
-        "disease_subtype": "内分泌系统受累型",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "内分泌系统 长新冠综合征患者可能出现腺垂体功能减退症，肾上腺皮质轴、生长激素轴和性激素轴均可受损……一项研究报道肾上腺受累尤其是肾上腺功能不全，很少影响- 的临床转归，- 对肾上腺没有长期影响［100］……- 可能与短期和可逆性甲状腺损伤有关……- 可能增加糖尿病的发病风险……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_long_covid_urinary_genital",
-        "name": "泌尿生殖系统长新冠综合征",
-        "parent_disease_id": "disease_long_covid_syndrome",
-        "disease_subtype": "泌尿生殖系统受累型",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "泌尿系统 长新冠综合征在泌尿系统常表现为肾脏的并发症和下尿路症状（lower urinary tract symptoms, LUTS）……急性肾损伤（acute kidney injury, AKI）在- 患者中是常见的并发症……在住院的- 患者中很常见，但它往往在康复后消失……生殖系统 勃起功能障碍（erectile dysfunction, ED）是- 男性患者报告的最常见性功能障碍……新冠病毒感染影响月经期间的卵巢激素产生和子宫内膜反应……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_long_covid_rheumatic_immunologic",
+        "id": "sub_disease_rheumatology_long_covid",
         "name": "风湿免疫系统长新冠综合征",
-        "parent_disease_id": "disease_long_covid_syndrome",
-        "disease_subtype": "风湿免疫系统受累型",
+        "parent_disease_id": "disease_long_covid",
+        "disease_subtype": "风湿免疫系统受累",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "有关节肌肉疼痛或自身免疫反应的长新冠患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "风湿免疫系统 - 可能诱发患者自身免疫反应，部分患者新冠病毒感染后持续存在关节、肌肉疼痛，自身抗体持续阳性，甚至诱发自身免疫性疾病……关节疼痛、肌肉疼痛的症状在长新冠综合征患者中普遍存在……纤维肌痛综合征是一种以弥漫性肌肉骨骼疼痛为特征的慢性疾病……- 患者体内存在多种自身免疫性疾病相关的自身抗体，如抗核抗体（ANA）、抗磷脂抗体（APL）……"
+          "COVID-19可能诱发患者自身免疫反应，部分患者新冠病毒感染后持续存在关节、肌肉疼痛"
         ],
         "confidence": 0.9
       }
@@ -166,88 +136,64 @@
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "疲劳、呼吸困难、关节疼痛、胸痛、心悸、嗅觉或味觉缺失或减退、脑雾（认知功能障碍）、头痛、肌肉疼痛、持续性咳嗽、消化问题及睡眠问题等"
+          "“长新冠”的症状呈多样化，包括疲劳、呼吸困难、关节疼痛"
         ],
         "confidence": 0.95
       },
       {
         "id": "symptom_dyspnea",
         "name": "呼吸困难",
-        "body_site": "呼吸系统",
+        "body_site": "肺部/胸部",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "呼吸困难是最常见的长新冠综合征相关症状［43］"
+          "呼吸困难是最常见的长新冠综合征相关症状"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "symptom_cough",
+        "name": "持续性咳嗽",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "咳嗽是长新冠综合征常见症状，6.9%~34%的长新冠综合征患者出现慢性咳嗽"
+        ],
+        "confidence": 0.9
       },
       {
         "id": "symptom_chest_pain",
         "name": "胸痛",
         "body_site": "胸部",
-        "symptom_category": "心血管系统症状",
+        "symptom_category": "心血管/呼吸系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "胸痛、胸闷、气短、心悸、呼吸困难、站立时头晕、运动不耐受"
+          "新冠病毒感染后的心脏症状包括胸痛、胸闷、气短"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_palpitation",
+        "id": "symptom_palpitations",
         "name": "心悸",
         "body_site": "心脏",
         "symptom_category": "心血管系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "胸痛、胸闷、气短、心悸、呼吸困难、站立时头晕、运动不耐受"
+          "新冠病毒感染后的心脏症状包括胸痛、胸闷、气短、心悸"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_joint_pain",
-        "name": "关节疼痛",
-        "body_site": "关节",
-        "symptom_category": "风湿免疫系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "疲劳、呼吸困难、关节疼痛、胸痛、心悸、嗅觉或味觉缺失或减退、脑雾（认知功能障碍）、头痛、肌肉疼痛、持续性咳嗽、消化问题及睡眠问题等"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_muscle_pain",
-        "name": "肌肉疼痛",
-        "body_site": "肌肉",
-        "symptom_category": "风湿免疫系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "疲劳、呼吸困难、关节疼痛、胸痛、心悸、嗅觉或味觉缺失或减退、脑雾（认知功能障碍）、头痛、肌肉疼痛、持续性咳嗽、消化问题及睡眠问题等"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_headache",
-        "name": "头痛",
-        "body_site": "头部",
-        "symptom_category": "神经精神系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "头痛、疲乏和焦虑抑郁等……头痛好发于中年女性，多出现在午后；可表现为偏头痛样发作、紧张型头痛发作等……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_cognitive_impairment",
-        "name": "认知功能障碍",
-        "body_site": "中枢神经系统",
+        "id": "symptom_brain_fog",
+        "name": "脑雾（认知功能障碍）",
+        "body_site": "大脑",
         "symptom_category": "神经精神系统症状",
         "polarity": "present",
         "typicality": "common",
@@ -257,162 +203,91 @@
         "confidence": 0.9
       },
       {
-        "id": "symptom_anosmia",
-        "name": "嗅觉缺失",
-        "body_site": "鼻部",
-        "symptom_category": "感觉障碍",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "嗅觉或味觉缺失或减退"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_ageusia",
-        "name": "味觉缺失",
-        "body_site": "口腔",
-        "symptom_category": "感觉障碍",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "嗅觉或味觉缺失或减退"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_cough",
-        "name": "咳嗽",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "持续性咳嗽"
-        ],
-        "confidence": 0.9
-      },
-      {
         "id": "symptom_insomnia",
         "name": "失眠",
-        "body_site": "全身",
+        "body_site": "全身/神经系统",
         "symptom_category": "神经精神系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "睡眠问题……睡眠障碍是长新冠综合征常见的神经精神系统症状之一，亦称“新冠失眠”"
+          "睡眠障碍是长新冠综合征常见的神经精神系统症状之一，亦称“新冠失眠”，主要表现为失眠以及睡眠质量的降低"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_depression",
-        "name": "抑郁",
-        "body_site": "全身",
-        "symptom_category": "神经精神系统症状",
+        "id": "symptom_headache",
+        "name": "头痛",
+        "body_site": "头部",
+        "symptom_category": "神经系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "精神症状可表现为抑郁（情绪低落、悲伤）"
+          "新冠病毒感染1年后，仍有超过20%的患者头痛症状未得到改善"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_anxiety",
-        "name": "焦虑",
-        "body_site": "全身",
-        "symptom_category": "神经精神系统症状",
+        "id": "symptom_anxiety_depression",
+        "name": "焦虑和抑郁",
+        "body_site": "精神/心理",
+        "symptom_category": "精神心理症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "精神症状可表现为……焦虑（担心、恐惧）"
+          "患者可能还会经历焦虑和抑郁等精神健康问题"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_ptsd",
-        "name": "创伤后应激障碍",
-        "body_site": "中枢神经系统",
-        "symptom_category": "神经精神系统症状",
+        "id": "symptom_smell_taste_loss",
+        "name": "嗅觉或味觉缺失或减退",
+        "body_site": "鼻/口腔",
+        "symptom_category": "感觉障碍",
         "polarity": "present",
-        "typicality": "rare",
+        "typicality": "common",
         "evidence_ids": [
-          "精神症状可表现为……创伤后应激障碍（PTSD）"
+          "约11.7%~12.2%的COVID-19患者可出现持续超过12周以上的完全嗅觉丧失和味觉丧失"
         ],
-        "confidence": 0.85
+        "confidence": 0.9
       },
       {
         "id": "symptom_diarrhea",
         "name": "腹泻",
-        "body_site": "消化系统",
+        "body_site": "胃肠道",
         "symptom_category": "消化系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "腹泻（10%）"
+          "常见的症状包括：腹泻（10%）、腹痛（14%）"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_abdominal_pain",
-        "name": "腹痛",
-        "body_site": "腹部",
-        "symptom_category": "消化系统症状",
+        "id": "symptom_arthralgia",
+        "name": "关节疼痛",
+        "body_site": "关节",
+        "symptom_category": "风湿免疫/运动系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "腹痛（14%）"
+          "关节疼痛、肌肉疼痛的症状在长新冠综合症患者中普遍存在"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_loss_of_appetite",
-        "name": "食欲不振",
-        "body_site": "消化系统",
-        "symptom_category": "消化系统症状",
+        "id": "symptom_myalgia",
+        "name": "肌肉疼痛",
+        "body_site": "肌肉",
+        "symptom_category": "风湿免疫/运动系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "食欲不振（6%）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_nausea_vomiting",
-        "name": "恶心呕吐",
-        "body_site": "消化系统",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "恶心呕吐（6%）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_dysgeusia",
-        "name": "味觉减退",
-        "body_site": "口腔",
-        "symptom_category": "感觉障碍",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "味觉减退（20%）"
+          "关节疼痛、肌肉疼痛的症状在长新冠综合症患者中普遍存在"
         ],
         "confidence": 0.9
       }
     ],
     "tests": [
-      {
-        "id": "test_pulmonary_function_test",
-        "name": "肺功能检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "完善血气电解质分析、肺功能检测（pulmonary function tests, PFT）和胸部影像学检查"
-        ],
-        "confidence": 0.9
-      },
       {
         "id": "test_chest_ct",
         "name": "胸部CT",
@@ -420,67 +295,45 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "复查胸部CT及肺功能检查是最重要的评估肺纤维化的诊断依据"
+          "完善高分辨胸部计算机断层扫描（HRCT）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
+      },
+      {
+        "id": "test_pft",
+        "name": "肺功能检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "肺功能检测（pulmonary function tests，PFT）"
+        ],
+        "confidence": 0.95
       },
       {
         "id": "test_6mwt",
         "name": "6分钟步行试验",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "6分钟步行试验（6 min walk test, 6MWT）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_bnp",
-        "name": "B型利钠肽",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "基本检查，如血常规、电解质、肌钙蛋白、B型利钠肽或N末端B型利钠肽原"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_nt_pro_bnp",
-        "name": "N末端B型利钠肽原",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "基本检查，如血常规、电解质、肌钙蛋白、B型利钠肽或N末端B型利钠肽原"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_troponin",
-        "name": "肌钙蛋白",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "基本检查，如血常规、电解质、肌钙蛋白、B型利钠肽或N末端B型利钠肽原"
+          "6分钟步行试验（6-min walk test，6MWT）"
         ],
         "confidence": 0.9
       },
       {
         "id": "test_ecg",
-        "name": "心电图",
+        "name": "十二导联心电图",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
           "十二导联或十八导联心电图"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "test_echo",
+        "id": "test_echocardiography",
         "name": "超声心动图",
         "normal_range_min": null,
         "normal_range_max": null,
@@ -488,243 +341,306 @@
         "evidence_ids": [
           "超声心动图"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "test_cmr",
-        "name": "心脏磁共振成像",
+        "name": "心脏磁共振",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
           "心血管磁共振成像（CMR）是诊断心脏受累的最敏感的成像方式"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "test_mri_brain",
-        "name": "脑部MRI",
+        "id": "test_brain_mri",
+        "name": "脑磁共振成像",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "脑部MR等影像学检查"
+          "脑核磁共振成像评估神经系统和认知障碍"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_psg",
-        "name": "多导睡眠图",
+        "id": "test_d_dimer",
+        "name": "D-二聚体",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "多导睡眠图（PSG）"
+          "凝血和炎症标志物［D-二聚体"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_csf_analysis",
-        "name": "脑脊液检查",
+        "id": "test_crp",
+        "name": "C-反应蛋白",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "脑脊液检查（常规、生化、病原学、脑炎相关抗体及寡克隆区带等）"
+          "C-反应蛋白（CRP）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_il_6",
+        "name": "白细胞介素-6",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "白细胞介素（IL）-6"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_long_covid_multidisciplinary",
-        "content": "以专科治疗为主，必要时多学科会诊；以对症治疗、营养支持等综合治疗为主；有肺纤维化、低皮质醇水平等证据时可采用小剂量糖皮质激素治疗；积极治疗基础疾病，并给予心理治疗、中医治疗，以及早期积极康复治疗",
-        "recommendation_strength": "C4",
-        "source_section": "推荐意见9",
+        "id": "treatment_general_support",
+        "content": "以专科治疗为主，必要时多学科会诊；以对症治疗、营养支持等综合治疗为主；积极治疗基础疾病，并给予心理治疗、中医治疗，以及早期积极康复治疗",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
         "evidence_ids": [
-          "推荐意见9：长新冠综合征的治疗，以专科治疗为主，必要时多学科会诊；以对症治疗、营养支持等综合治疗为主；有肺纤维化、低皮质醇水平等证据时可采用小剂量糖皮质激素治疗；积极治疗基础疾病，并给予心理治疗、中医治疗，以及早期积极康复治疗（C4）"
+          "长新冠综合征的治疗，以专科治疗为主，必要时多学科会诊；以对症治疗、营养支持等综合治疗为主"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_respiratory_rehab",
+        "content": "实施呼吸训练和呼吸急促处理策略；考虑行肺康复治疗；必要时使用非处方止咳药；短期小剂量激素可考虑用于慢性咳嗽或有明显呼吸道症状的患者；肺纤维化患者抗纤维化治疗可能临床获益",
+        "recommendation_strength": "strong",
+        "source_section": "呼吸系统长新冠综合征的治疗",
+        "evidence_ids": [
+          "建议实施呼吸训练和呼吸急促处理策略",
+          "短期小剂量激素可考虑用于慢性咳嗽或有明显呼吸道症状的患者"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_long_covid_respiratory",
-        "content": "对于症状轻（如呼吸困难Borg评分≤3）、不需要吸氧且无心脏疾病的患者，建议实施呼吸训练和呼吸急促处理策略。出现中至重度呼吸困难（如Borg评分>3）、持续低氧饱和度（SpO2≤92%）、持续有新的辅助供氧需求或有其他呼吸系统症状，建议去呼吸科做进一步检查并考虑行肺康复治疗",
-        "recommendation_strength": "D5",
-        "source_section": "推荐意见6",
+        "id": "treatment_cardiovascular_support",
+        "content": "严格遵循健康生活方式，接受规范的心血管疾病一级或二级预防；治疗以经验性支持和对症处理为主",
+        "recommendation_strength": "strong",
+        "source_section": "心血管系统长新冠综合征的治疗",
         "evidence_ids": [
-          "推荐意见6：对于可疑呼吸系统长新冠综合征症状，应监测血氧饱和度和呼吸频率，完善血气电解质分析、肺功能检测和胸部影像学检查，并排除其他疾病（D5）"
+          "有心血管症状的长新冠综合征患者应严格遵循健康生活方式，接受规范的心血管疾病一级或二级预防"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_long_covid_cardiovascular",
-        "content": "有心血管症状的长新冠综合征患者应严格遵循健康生活方式，接受规范的心血管疾病一级或二级预防；治疗以经验性支持和对症处理为主",
-        "recommendation_strength": "A1a",
-        "source_section": "推荐意见11",
+        "id": "treatment_neuropsychiatric_cbt",
+        "content": "神经精神系统症状的治疗以认知疗法、分级运动疗法和针灸治疗等为主，辅以抗焦虑、镇静催眠药物治疗",
+        "recommendation_strength": "strong",
+        "source_section": "神经精神系统长新冠综合征的治疗",
         "evidence_ids": [
-          "推荐意见11：有心血管症状的长新冠综合征患者应严格遵循健康生活方式，接受规范的心血管疾病一级或二级预防（A1a）；治疗以经验性支持和对症处理为主"
+          "长新冠综合征患者神经精神系统症状的治疗以认知疗法、分级运动疗法和针灸治疗等为主"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_long_covid_neuropsychiatric",
-        "content": "长新冠综合征患者神经精神系统症状的治疗以认知疗法、分级运动疗法和针灸治疗等为主，辅以抗焦虑、镇静催眠药物治疗",
-        "recommendation_strength": "C4",
-        "source_section": "推荐意见12",
+        "id": "treatment_digestive_symptomatic",
+        "content": "治疗上以对症治疗为主。鼓励患者少食多餐，补充蛋白质和热量。明确为PCC的患者建议给予熊去氧胆酸治疗",
+        "recommendation_strength": "moderate",
+        "source_section": "消化系统长新冠综合征的治疗",
         "evidence_ids": [
-          "推荐意见12：长新冠综合征患者神经精神系统症状的治疗以认知疗法、分级运动疗法和针灸治疗等为主，辅以抗焦虑、镇静催眠药物治疗（C4）"
+          "治疗上以对症治疗为主。鼓励患者少食多餐，补充蛋白质和热量"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_long_covid_digestive",
-        "content": "目前对- 恢复期新发的消化道症状仍缺乏特效治疗手段，治疗上以对症治疗为主。鼓励患者少食多餐，补充蛋白质和热量。体质量严重减轻和持续食欲不振的患者进行营养咨询。明确为PCC的患者建议给予熊去氧胆酸治疗",
-        "recommendation_strength": "B3b",
-        "source_section": "推荐意见14",
+        "id": "treatment_rheumatology_immunosuppress",
+        "content": "主要通过NSAIDs和激素治疗关节炎相关症状；自身抗体阳性患者建议动态监测抗体；已确诊为自身免疫性疾病患者进行专科治疗",
+        "recommendation_strength": "strong",
+        "source_section": "风湿免疫系统的长新冠综合症的治疗",
         "evidence_ids": [
-          "推荐意见14：主要通过NSAIDs和激素治疗关节炎相关症状；自身抗体阳性患者建议动态监测抗体；已确诊为自身免疫性疾病患者进行专科治疗（B3b）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_long_covid_endocrine",
-        "content": "二甲双胍最有可能被推荐用于- 恢复后的糖尿病治疗，但仍需要更多临床试验进行进一步验证。针对长新冠综合征患者的慢性低皮质醇血症，目前是否需要使用糖皮质激素替代治疗，尚未形成统一意见",
-        "recommendation_strength": "B3b",
-        "source_section": "推荐意见13",
-        "evidence_ids": [
-          "推荐意见13：二甲双胍可能降低超重及肥胖患者长新冠综合征的发生风险（A1b）。对于乏力、食欲减退、恶心、腹泻、体质量减轻、低血压及低钠血症的患者，应考虑肾上腺皮质功能减退症的可能，使用糖皮质激素治疗（D5）"
+          "主要通过NSAIDs和激素治疗关节炎相关症状"
         ],
         "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_respiratory_training",
-        "content": "对于症状轻（如呼吸困难Borg评分≤3）、不需要吸氧且无心脏疾病的患者，建议实施呼吸训练和呼吸急促处理策略",
+        "id": "plan_breathing_exercises",
+        "content": "实施呼吸训练和呼吸急促处理策略",
         "plan_level": 1,
-        "applicable_condition": "症状轻、无需吸氧、无心脏疾病",
+        "applicable_condition": "症状轻、不需要吸氧且无心脏疾病的患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于症状轻（如呼吸困难Borg评分≤3）、不需要吸氧且无心脏疾病的患者，建议实施呼吸训练和呼吸急促处理策略"
+          "建议实施呼吸训练和呼吸急促处理策略"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_pulmonary_rehabilitation",
-        "content": "出现中至重度呼吸困难（如Borg评分>3）、持续低氧饱和度（SpO2≤92%）、持续有新的辅助供氧需求或有其他呼吸系统症状，建议去呼吸科做进一步检查并考虑行肺康复治疗",
+        "id": "plan_antitussives",
+        "content": "必要时使用非处方止咳药，如苯佐那酯、愈创甘油醚、右美沙芬等",
         "plan_level": 2,
-        "applicable_condition": "中至重度呼吸困难、持续低氧、需供氧或其他呼吸系统症状",
-        "contraindication_note": null,
+        "applicable_condition": "持续性咳嗽",
+        "contraindication_note": "阿片类药物很少用于治疗咳嗽，仅用于严重、无法耐受、干扰睡眠和/或降低生存质量的顽固性咳嗽患者",
         "evidence_ids": [
-          "出现中至重度呼吸困难（如Borg评分>3）、持续低氧饱和度（SpO2≤92%）、持续有新的辅助供氧需求或有其他呼吸系统症状，建议去呼吸科做进一步检查并考虑行肺康复治疗"
+          "必要时使用非处方止咳药，如苯佐那酯、愈创甘油醚、右美沙芬等"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_cognitive_therapy",
-        "content": "认知疗法［175-176］：帮助患者正确认知新冠病毒感染后的疲乏，缓解对病情的恐惧，树立治愈疾病的信心",
-        "plan_level": 1,
-        "applicable_condition": "神经精神系统症状",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "（1）认知疗法［175-176］：帮助患者正确认知新冠病毒感染后的疲乏，缓解对病情的恐惧，树立治愈疾病的信心"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_graded_exercise",
-        "content": "分级运动疗法［176］：使用主观疲劳感知评估量表的自我感觉疲乏量表，对运动功能进行评估。根据该量表的评分选择不同强度的运动量，并循序渐进增加运动量",
+        "id": "plan_corticosteroids",
+        "content": "短期小剂量糖皮质激素治疗",
         "plan_level": 2,
-        "applicable_condition": "神经精神系统症状",
-        "contraindication_note": null,
+        "applicable_condition": "慢性咳嗽或有明显呼吸道症状、疾病进展和存在严重呼吸系统炎症",
+        "contraindication_note": "考虑到糖皮质激素不良反应，建议皮质类固醇的使用应仅限于疾病进展和存在严重呼吸系统炎症",
         "evidence_ids": [
-          "（2）分级运动疗法［176］：使用主观疲劳感知评估量表的自我感觉疲乏量表，对运动功能进行评估。根据该量表的评分选择不同强度的运动量，并循序渐进增加运动量"
+          "短期小剂量激素可考虑用于慢性咳嗽或有明显呼吸道症状的患者"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_acupuncture",
-        "content": "中医针灸、腹部推拿治疗［177］",
+        "id": "plan_antifibrotics",
+        "content": "抗纤维化药物尼达尼布和吡非尼酮",
         "plan_level": 3,
-        "applicable_condition": "神经精神系统症状",
+        "applicable_condition": "新冠病毒感染后肺纤维化",
+        "contraindication_note": "目前抗纤维化药物尼达尼布和吡非尼酮的作用，尚缺乏大型临床研究数据支持",
+        "evidence_ids": [
+          "肺纤维化患者抗纤维化治疗可能临床获益"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "plan_beta_blockers",
+        "content": "加入低剂量的β-阻滞剂（如比索洛尔、美托洛尔、普萘洛尔）或非双氢吡啶类钙通道阻滞剂",
+        "plan_level": 2,
+        "applicable_condition": "心悸明显的患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "（3）中医针灸、腹部推拿治疗［177］"
+          "对心悸明显的患者，可加入低剂量的β-阻滞剂（如比索洛尔、美托洛尔、普萘洛尔）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_nsaids",
+        "content": "非甾体类抗炎药物（NSAIDs）试验性治疗",
+        "plan_level": 2,
+        "applicable_condition": "胸痛排除缺血性心脏病、关节痛、肌肉疼痛",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "如排除缺血性心脏病，可考虑予非甾体类抗炎药物（NSAIDs）试验性治疗",
+          "大多使用NSAIDs或激素治疗关节痛、肌肉疼痛及关节炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_cbt_graded_exercise",
+        "content": "认知疗法与分级运动疗法",
+        "plan_level": 1,
+        "applicable_condition": "疲乏、认知功能障碍、精神症状",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "认知疗法：帮助患者正确认知新冠病毒感染后的疲乏",
+          "分级运动疗法：使用主观疲劳感知评估量表的自我感觉疲乏量表"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_udca",
+        "content": "熊去氧胆酸治疗",
+        "plan_level": 2,
+        "applicable_condition": "明确为新冠病毒后胆道病（PCC）的患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "明确为PCC的患者建议给予熊去氧胆酸治疗"
         ],
         "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_sars_cov2_infection",
-        "content": "新型冠状病毒感染",
+        "id": "etiology_sars_cov_2",
+        "content": "新型冠状病毒（SARS-CoV-2）感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "确诊或可能感染过新冠病毒"
+          "新型冠状病毒感染（COVID-19）是由新型冠状病毒（简称新冠病毒）引起的一种严重的新发呼吸道病毒性传染病"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_advanced_age",
-        "content": "高龄",
-        "etiology_type": "危险因素",
-        "typicality": "common",
+        "id": "etiology_severe_acute_phase",
+        "content": "急性期病情严重（危重症、机械通气和多器官损害）",
+        "etiology_type": "临床特征",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "长新冠综合征的高危因素包括高龄、肥胖、合并基础疾病、急性期病情严重和感染初期较多临床症状（C4）"
+          "危重症、机械通气和多器官损害等均与长新冠综合征的发生相关"
         ],
         "confidence": 0.9
       },
       {
         "id": "etiology_obesity",
-        "content": "肥胖",
-        "etiology_type": "危险因素",
-        "typicality": "common",
+        "content": "超重和肥胖",
+        "etiology_type": "人口/代谢特征",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "长新冠综合征的高危因素包括高龄、肥胖、合并基础疾病、急性期病情严重和感染初期较多临床症状（C4）"
+          "超重和肥胖使长新冠综合征发生的风险增加"
         ],
         "confidence": 0.9
       },
       {
-        "id": "etiology_severe_acute_illness",
-        "content": "急性期病情严重",
-        "etiology_type": "危险因素",
-        "typicality": "common",
+        "id": "etiology_multiple_infections",
+        "content": "多次感染",
+        "etiology_type": "感染特征",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "长新冠综合征的高危因素包括高龄、肥胖、合并基础疾病、急性期病情严重和感染初期较多临床症状（C4）"
+          "长新冠综合征发生的累积风险与感染次数呈正相关"
         ],
         "confidence": 0.9
       },
       {
-        "id": "etiology_multiple_symptoms_initially",
-        "content": "感染初期较多临床症状",
-        "etiology_type": "危险因素",
-        "typicality": "common",
+        "id": "etiology_unvaccinated",
+        "content": "未接种疫苗",
+        "etiology_type": "免疫状态",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "长新冠综合征的高危因素包括高龄、肥胖、合并基础疾病、急性期病情严重和感染初期较多临床症状（C4）"
+          "疫苗接种与减少长新冠综合征症状的发生密切相关"
         ],
         "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_viral_persistence_and_autoimmunity",
-        "content": "新冠病毒可能诱导与宿主自身抗原的交叉反应，进而导致自身抗体的产生；新冠病毒感染使人体内肾素-血管紧张素-醛固酮系统发生紊乱，导致血压调节失调；新冠病毒可以直接感染心肌细胞，造成心肌细胞的坏死以及炎症的发生，使心脏功能受损；新冠病毒感染可以导致免疫系统的紊乱，这是长新冠综合征发生的重要因素之一",
+        "id": "pathogenesis_ace2_infection",
+        "content": "新冠病毒主要通过血管紧张素转化酶2（ACE2）蛋白的介导感染细胞，其可以感染人体的大部分细胞以及多个器官，并对其造成损伤，诱发相关症状的出现",
         "evidence_ids": [
-          "新冠病毒感染可以导致免疫系统的紊乱，这是长新冠综合征发生的重要因素之一［33］。新冠病毒的包膜、刺突蛋白，以及核蛋白作为抗原诱导过度炎症反应，打破患者体内免疫应答平衡，大量的炎症因子释放，同时进一步诱发血栓、肺部纤维化形成，导致长新冠综合征的发生、患者病情的迁延不愈［33-34］……"
+          "新冠病毒主要通过血管紧张素转化酶2（ACE2）蛋白的介导感染细胞"
         ],
-        "confidence": 0.85
+        "confidence": 0.95
       },
       {
         "id": "pathogenesis_pulmonary_fibrosis",
-        "content": "肺泡损伤后，位于肺泡间质的成纤维细胞在成纤维细胞生长因子（FGF）、PDGF、TGF-β和趋化因子的刺激下向损伤部位迁移，并分化为肌成纤维细胞，其可以分泌胶原蛋白、纤维连接蛋白，形成比较复杂的细胞外基质",
+        "content": "新冠病毒感染可以导致肺部纤维化、微血管损伤，造成肺通气/换气功能受损",
         "evidence_ids": [
-          "肺泡损伤后，位于肺泡间质的成纤维细胞在成纤维细胞生长因子（FGF）、PDGF、TGF-β和趋化因子的刺激下向损伤部位迁移，并分化为肌成纤维细胞，其可以分泌胶原蛋白、纤维连接蛋白，形成比较复杂的细胞外基质［19-20］"
+          "新冠病毒感染可以导致肺部纤维化、微血管损伤，造成肺通气/换气功能受损"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_immune_dysregulation",
+        "content": "新冠病毒感染使人体内免疫系统发生紊乱，打破患者体内免疫应答平衡，大量的炎症因子释放，同时进一步诱发血栓、肺部纤维化形成",
+        "evidence_ids": [
+          "新冠病毒感染可以导致免疫系统的紊乱，这是长新冠综合征发生的重要因素之一"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_neuroinflammation",
+        "content": "新冠病毒可以感染神经系统，造成神经系统微循环血栓形成，导致部分神经细胞缺血性坏死，具有嗜神经性",
+        "evidence_ids": [
+          "病毒可造成神经系统微循环血栓形成，导致部分神经细胞缺血性坏死，具有嗜神经性"
         ],
         "confidence": 0.9
       }
@@ -733,278 +649,434 @@
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_long_covid_syndrome",
-        "to": "sub_disease_long_covid_syndrome",
+        "from": "disease_long_covid",
+        "to": "sub_disease_long_covid_general",
         "relation_id": "rel_long_covid_has_general",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "因此，“长新冠”不是一种具有明确病因、发病机制和临床病程的简单疾病，而是一种同时涉及多个器官的复杂疾病，因此将其称为长新冠综合征更为恰当。"
+          "“长新冠”不是一种具有明确病因、发病机制和临床病程的简单疾病，而是一种同时涉及多个器官的复杂疾病，因此将其称为长新冠综合征更为恰当"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_long_covid_syndrome",
-        "to": "sub_disease_long_covid_respiratory",
+        "from": "disease_long_covid",
+        "to": "sub_disease_respiratory_long_covid",
         "relation_id": "rel_long_covid_has_respiratory",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "呼吸系统 长新冠综合征常见的呼吸道症状包括胸闷、呼吸困难、慢性咳嗽和运动能力下降［43］等"
+          "呼吸系统 长新冠综合征常见的呼吸道症状包括胸闷、呼吸困难"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_long_covid_syndrome",
-        "to": "sub_disease_long_covid_cardiovascular",
+        "from": "disease_long_covid",
+        "to": "sub_disease_cardiovascular_long_covid",
         "relation_id": "rel_long_covid_has_cardiovascular",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "心血管系统 - 患者的心血管疾病的风险及负担较大［59］"
+          "心血管系统 COVID-19患者的心血管疾病的风险及负担较大"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_long_covid_syndrome",
-        "to": "sub_disease_long_covid_neuropsychiatric",
+        "from": "disease_long_covid",
+        "to": "sub_disease_neuropsychiatric_long_covid",
         "relation_id": "rel_long_covid_has_neuropsychiatric",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "神经精神系统 大量研究表明，一部分- 患者会长时间存在不同程度的神经系统症状，如头痛、疲乏和焦虑抑郁等"
+          "神经精神系统 大量研究表明，一部分COVID-19患者会长时间存在不同程度的神经系统症状"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_long_covid_syndrome",
-        "to": "sub_disease_long_covid_digestive",
+        "from": "disease_long_covid",
+        "to": "sub_disease_digestive_long_covid",
         "relation_id": "rel_long_covid_has_digestive",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "消化系统 大约有11%~22%的患者在新冠病毒感染急性期过后会出现消化系统症状［89］"
+          "消化系统 大约有11%~22%的患者在新冠病毒感染急性期过后会出现消化系统症状"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_long_covid_syndrome",
-        "to": "sub_disease_long_covid_endocrine",
-        "relation_id": "rel_long_covid_has_endocrine",
+        "from": "disease_long_covid",
+        "to": "sub_disease_rheumatology_long_covid",
+        "relation_id": "rel_long_covid_has_rheumatology",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "内分泌系统 长新冠综合征患者可能出现腺垂体功能减退症，肾上腺皮质轴、生长激素轴和性激素轴均可受损"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_long_covid_syndrome",
-        "to": "sub_disease_long_covid_urinary_genital",
-        "relation_id": "rel_long_covid_has_urinary_genital",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "泌尿系统 长新冠综合征在泌尿系统常表现为肾脏的并发症和下尿路症状（lower urinary tract symptoms, LUTS）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_long_covid_syndrome",
-        "to": "sub_disease_long_covid_rheumatic_immunologic",
-        "relation_id": "rel_long_covid_has_rheumatic_immunologic",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "风湿免疫系统 - 可能诱发患者自身免疫反应，部分患者新冠病毒感染后持续存在关节、肌肉疼痛，自身抗体持续阳性，甚至诱发自身免疫性疾病"
+          "风湿免疫系统 COVID-19可能诱发患者自身免疫反应"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_long_covid_syndrome",
+        "from": "sub_disease_long_covid_general",
         "to": "symptom_fatigue",
-        "relation_id": "rel_long_covid_manifests_as_fatigue",
+        "relation_id": "rel_general_manifests_fatigue",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": "持续2个月以上",
-        "section_priority": "诊断标准",
+        "section_priority": "临床特点",
         "evidence_ids": [
-          "对于新冠病毒感染12周后仍然存在疲劳、胸痛、咳嗽、呼吸困难、失眠、肌痛和认知障碍等症状，并持续2个月以上，且排除其他疾病，应考虑长新冠综合征"
+          "“长新冠”的症状呈多样化，包括疲劳"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确列为‘常见症状’且在推荐意见1中作为核心诊断依据之一",
-        "evidence": "长新冠综合征常见症状为疲劳、胸痛、咳嗽和呼吸困难"
+        "weight_reason": "原文明确指出疲乏是长新冠综合征常见症状",
+        "evidence": "疲乏是长新冠综合征常见症状"
       },
       {
-        "from": "sub_disease_long_covid_syndrome",
+        "from": "sub_disease_respiratory_long_covid",
         "to": "symptom_dyspnea",
-        "relation_id": "rel_long_covid_manifests_as_dyspnea",
+        "relation_id": "rel_resp_manifests_dyspnea",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
-        "duration_condition": "持续2个月以上",
-        "section_priority": "诊断标准",
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特点",
         "evidence_ids": [
-          "对于新冠病毒感染12周后仍然存在疲劳、胸痛、咳嗽、呼吸困难、失眠、肌痛和认知障碍等症状，并持续2个月以上，且排除其他疾病，应考虑长新冠综合征"
+          "呼吸困难是最常见的长新冠综合征相关症状"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确列为‘最常见’相关症状，且在推荐意见1中作为核心诊断依据之一",
-        "evidence": "呼吸困难是长新冠综合征最常见的相关症状"
+        "weight_reason": "原文明确指出呼吸困难是最常见的长新冠综合征相关症状",
+        "evidence": "呼吸困难是最常见的长新冠综合征相关症状"
       },
       {
-        "from": "sub_disease_long_covid_syndrome",
-        "to": "symptom_chest_pain",
-        "relation_id": "rel_long_covid_manifests_as_chest_pain",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": "持续2个月以上",
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "对于新冠病毒感染12周后仍然存在疲劳、胸痛、咳嗽、呼吸困难、失眠、肌痛和认知障碍等症状，并持续2个月以上，且排除其他疾病，应考虑长新冠综合征"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确列为‘常见症状’且在推荐意见1中作为核心诊断依据之一",
-        "evidence": "长新冠综合征常见症状为疲劳、胸痛、咳嗽和呼吸困难"
-      },
-      {
-        "from": "sub_disease_long_covid_syndrome",
+        "from": "sub_disease_respiratory_long_covid",
         "to": "symptom_cough",
-        "relation_id": "rel_long_covid_manifests_as_cough",
+        "relation_id": "rel_resp_manifests_cough",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
-        "duration_condition": "持续2个月以上",
-        "section_priority": "诊断标准",
+        "duration_condition": null,
+        "section_priority": "临床特点",
         "evidence_ids": [
-          "对于新冠病毒感染12周后仍然存在疲劳、胸痛、咳嗽、呼吸困难、失眠、肌痛和认知障碍等症状，并持续2个月以上，且排除其他疾病，应考虑长新冠综合征"
+          "咳嗽是长新冠综合征常见症状"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确列为‘常见症状’且在推荐意见1中作为核心诊断依据之一",
-        "evidence": "长新冠综合征常见症状为疲劳、胸痛、咳嗽和呼吸困难"
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_long_covid_syndrome",
+        "from": "sub_disease_cardiovascular_long_covid",
+        "to": "symptom_palpitations",
+        "relation_id": "rel_cardio_manifests_palpitations",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特点",
+        "evidence_ids": [
+          "新冠病毒感染后的心脏症状包括胸痛、胸闷、气短、心悸"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_cardiovascular_long_covid",
+        "to": "symptom_chest_pain",
+        "relation_id": "rel_cardio_manifests_chest_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特点",
+        "evidence_ids": [
+          "新冠病毒感染后的心脏症状包括胸痛"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neuropsychiatric_long_covid",
+        "to": "symptom_brain_fog",
+        "relation_id": "rel_neuro_manifests_brain_fog",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特点",
+        "evidence_ids": [
+          "“脑雾”又称认知功能障碍，表现为注意力不集中、失语及健忘等"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将脑雾列为神经精神系统症状并解释其为认知功能障碍",
+        "evidence": "“脑雾”又称认知功能障碍"
+      },
+      {
+        "from": "sub_disease_neuropsychiatric_long_covid",
         "to": "symptom_insomnia",
-        "relation_id": "rel_long_covid_manifests_as_insomnia",
+        "relation_id": "rel_neuro_manifests_insomnia",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 9,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
-        "duration_condition": "持续2个月以上",
-        "section_priority": "诊断标准",
+        "duration_condition": null,
+        "section_priority": "临床特点",
         "evidence_ids": [
-          "对于新冠病毒感染12周后仍然存在疲劳、胸痛、咳嗽、呼吸困难、失眠、肌痛和认知障碍等症状，并持续2个月以上，且排除其他疾病，应考虑长新冠综合征"
+          "睡眠障碍是长新冠综合征常见的神经精神系统症状之一"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文称‘常见症状之一’并单列小节‘新冠失眠’，但未与疲劳/呼吸困难并列于同一最高频次句式中",
-        "evidence": "睡眠障碍是长新冠综合征常见的神经精神系统症状之一"
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_long_covid_syndrome",
-        "to": "symptom_muscle_pain",
-        "relation_id": "rel_long_covid_manifests_as_muscle_pain",
+        "from": "sub_disease_neuropsychiatric_long_covid",
+        "to": "symptom_headache",
+        "relation_id": "rel_neuro_manifests_headache",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 9,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
-        "duration_condition": "持续2个月以上",
-        "section_priority": "诊断标准",
+        "duration_condition": null,
+        "section_priority": "临床特点",
         "evidence_ids": [
-          "对于新冠病毒感染12周后仍然存在疲劳、胸痛、咳嗽、呼吸困难、失眠、肌痛和认知障碍等症状，并持续2个月以上，且排除其他疾病，应考虑长新冠综合征"
+          "新冠病毒感染1年后，仍有超过20%的患者头痛症状未得到改善"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文描述为‘普遍存在’，且与关节痛并列，但未进入推荐意见1的7项核心症状列表",
-        "evidence": "关节疼痛、肌肉疼痛的症状在长新冠综合征患者中普遍存在"
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_long_covid_syndrome",
-        "to": "symptom_cognitive_impairment",
-        "relation_id": "rel_long_covid_manifests_as_cognitive_impairment",
+        "from": "sub_disease_digestive_long_covid",
+        "to": "symptom_diarrhea",
+        "relation_id": "rel_digest_manifests_diarrhea",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
-        "duration_condition": "持续2个月以上",
-        "section_priority": "诊断标准",
+        "duration_condition": null,
+        "section_priority": "临床特点",
         "evidence_ids": [
-          "对于新冠病毒感染12周后仍然存在疲劳、胸痛、咳嗽、呼吸困难、失眠、肌痛和认知障碍等症状，并持续2个月以上，且排除其他疾病，应考虑长新冠综合征"
+          "常见的症状包括：腹泻（10%）"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确列为‘常见症状’且在推荐意见1中作为核心诊断依据之一；‘脑雾’即认知功能障碍被多次强调为典型表现",
-        "evidence": "长新冠综合征常见症状为疲劳、胸痛、咳嗽和呼吸困难，其他不典型症状包括认知障碍"
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_rheumatology_long_covid",
+        "to": "symptom_arthralgia",
+        "relation_id": "rel_rheum_manifests_arthralgia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特点",
+        "evidence_ids": [
+          "关节疼痛、肌肉疼痛的症状在长新冠综合症患者中普遍存在"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_rheumatology_long_covid",
+        "to": "symptom_myalgia",
+        "relation_id": "rel_rheum_manifests_myalgia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床特点",
+        "evidence_ids": [
+          "关节疼痛、肌肉疼痛的症状在长新冠综合症患者中普遍存在"
+        ],
+        "confidence": 0.9
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_long_covid_syndrome",
-        "to": "test_pulmonary_function_test",
-        "relation_id": "rel_long_covid_requires_pft",
+        "from": "sub_disease_respiratory_long_covid",
+        "to": "test_chest_ct",
+        "relation_id": "rel_resp_requires_chest_ct",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
+        "type_info": "推荐诊断项",
         "diagnostic_role": "recommended",
         "value_min": null,
         "value_max": null,
         "operator": null,
         "unit": null,
+        "result_text": "毛玻璃样改变和纤维条纹阴影",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "common",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "复查胸部CT及肺功能检查是最重要的评估肺纤维化的诊断依据"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出复查胸部CT是评估肺纤维化最重要的诊断依据",
+        "evidence": "复查胸部CT及肺功能检查是最重要的评估肺纤维化的诊断依据"
+      },
+      {
+        "from": "sub_disease_respiratory_long_covid",
+        "to": "test_pft",
+        "relation_id": "rel_resp_requires_pft",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "限制性通气功能障碍、弥散功能下降",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "common",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "长新冠综合征常遗留肺功能异常，包括限制性通气功能障碍、弥散功能下降"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文推荐意见明确建议定期复查肺功能",
+        "evidence": "建议定期复查肺功能，尤其是弥散功能和胸部CT"
+      },
+      {
+        "from": "sub_disease_cardiovascular_long_covid",
+        "to": "test_ecg",
+        "relation_id": "rel_cardio_requires_ecg",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
         "result_text": null,
-        "weight": 5,
+        "weight": 7,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": null,
-        "typicality": "common",
-        "section_priority": "诊断标准",
+        "typicality": "typical",
+        "section_priority": "辅助检查",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "完善血气电解质分析、肺功能检测（pulmonary function tests, PFT）和胸部影像学检查"
+          "十二导联或十八导联心电图"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_long_covid_syndrome",
-        "to": "test_chest_ct",
-        "relation_id": "rel_long_covid_requires_chest_ct",
+        "from": "sub_disease_cardiovascular_long_covid",
+        "to": "test_cmr",
+        "relation_id": "rel_cardio_requires_cmr",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
+        "type_info": "推荐诊断项",
         "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "诊断心脏受累、排除缺血和早期心肌病",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": null,
+        "typicality": "typical",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "心血管磁共振成像（CMR）是诊断心脏受累的最敏感的成像方式"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出CMR是诊断心脏受累及排除缺血等最敏感的方法",
+        "evidence": "CMR是诊断心脏受累、排除缺血和早期心肌病的最敏感方法"
+      },
+      {
+        "from": "sub_disease_neuropsychiatric_long_covid",
+        "to": "test_brain_mri",
+        "relation_id": "rel_neuro_requires_brain_mri",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "大脑结构改变，包括海马、岛叶和嗅觉皮层、大脑皮层灰质变薄",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "common",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "脑核磁共振成像评估神经系统和认知障碍"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_long_covid_general",
+        "to": "test_d_dimer",
+        "relation_id": "rel_general_requires_d_dimer",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
         "value_min": null,
         "value_max": null,
         "operator": null,
@@ -1014,58 +1086,266 @@
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": null,
+        "polarity": "elevated",
         "typicality": "common",
-        "section_priority": "诊断标准",
+        "section_priority": "辅助检查",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "完善血气电解质分析、肺功能检测（pulmonary function tests, PFT）和胸部影像学检查"
+          "D-二聚体、LDH的升高和淋巴细胞绝对值减少与长新冠综合征的疲劳症状相关"
         ],
-        "confidence": 0.9
+        "confidence": 0.8
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_long_covid_syndrome",
-        "to": "treatment_long_covid_multidisciplinary",
-        "relation_id": "rel_long_covid_follows_multidisciplinary",
+        "from": "sub_disease_long_covid_general",
+        "to": "treatment_general_support",
+        "relation_id": "rel_general_follows_support",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后",
+        "applicable_condition": "所有长新冠综合征患者",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "C4",
+        "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病分型"
+          "多系统受累"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见9",
+        "source_section": "治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_respiratory_long_covid",
+        "to": "treatment_respiratory_rehab",
+        "relation_id": "rel_resp_follows_rehab",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "有呼吸道症状的患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "症状严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "呼吸系统长新冠综合征的治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_cardiovascular_long_covid",
+        "to": "treatment_cardiovascular_support",
+        "relation_id": "rel_cardio_follows_support",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "有心血管症状的患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "心血管症状"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "心血管系统长新冠综合征的治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neuropsychiatric_long_covid",
+        "to": "treatment_neuropsychiatric_cbt",
+        "relation_id": "rel_neuro_follows_cbt",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "有神经精神症状的患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "神经精神症状"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "神经精神系统长新冠综合征的治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_digestive_long_covid",
+        "to": "treatment_digestive_symptomatic",
+        "relation_id": "rel_digest_follows_symptomatic",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "有消化道症状的患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "moderate",
+        "decision_basis": [
+          "消化道症状"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "消化系统长新冠综合征的治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_rheumatology_long_covid",
+        "to": "treatment_rheumatology_immunosuppress",
+        "relation_id": "rel_rheum_follows_immuno",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "有关节肌肉疼痛或自身免疫反应的患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "风湿免疫症状"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "风湿免疫系统的长新冠综合症的治疗",
         "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_long_covid_multidisciplinary",
-        "to": "plan_respiratory_training",
-        "relation_id": "rel_treatment_implements_by_respiratory_training",
+        "from": "treatment_respiratory_rehab",
+        "to": "plan_breathing_exercises",
+        "relation_id": "rel_resp_rehab_implements_breathing",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "症状轻、无需吸氧、无心脏疾病",
+        "applicable_condition": "症状轻、不需要吸氧且无心脏疾病的患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于症状轻（如呼吸困难Borg评分≤3）、不需要吸氧且无心脏疾病的患者，建议实施呼吸训练和呼吸急促处理策略"
+          "建议实施呼吸训练和呼吸急促处理策略"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_respiratory_rehab",
+        "to": "plan_antitussives",
+        "relation_id": "rel_resp_rehab_implements_antitussives",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "持续性咳嗽",
+        "contraindication_note": "阿片类药物很少用于治疗咳嗽",
+        "evidence_ids": [
+          "必要时使用非处方止咳药，如苯佐那酯、愈创甘油醚、右美沙芬等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_respiratory_rehab",
+        "to": "plan_corticosteroids",
+        "relation_id": "rel_resp_rehab_implements_corticosteroids",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "慢性咳嗽或有明显呼吸道症状",
+        "contraindication_note": "建议皮质类固醇的使用应仅限于疾病进展和存在严重呼吸系统炎症",
+        "evidence_ids": [
+          "短期小剂量激素可考虑用于慢性咳嗽或有明显呼吸道症状的患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_respiratory_rehab",
+        "to": "plan_antifibrotics",
+        "relation_id": "rel_resp_rehab_implements_antifibrotics",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "肺纤维化",
+        "contraindication_note": "尚缺乏大型临床研究数据支持",
+        "evidence_ids": [
+          "肺纤维化患者抗纤维化治疗可能临床获益"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "from": "treatment_cardiovascular_support",
+        "to": "plan_beta_blockers",
+        "relation_id": "rel_cardio_support_implements_beta",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "心悸明显的患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对心悸明显的患者，可加入低剂量的β-阻滞剂"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_cardiovascular_support",
+        "to": "plan_nsaids",
+        "relation_id": "rel_cardio_support_implements_nsaids",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "胸痛排除缺血性心脏病",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "如排除缺血性心脏病，可考虑予非甾体类抗炎药物（NSAIDs）试验性治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_neuropsychiatric_cbt",
+        "to": "plan_cbt_graded_exercise",
+        "relation_id": "rel_neuro_cbt_implements_cbt",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "疲乏、认知功能障碍",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "认知疗法：帮助患者正确认知新冠病毒感染后的疲乏",
+          "分级运动疗法"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_digestive_symptomatic",
+        "to": "plan_udca",
+        "relation_id": "rel_digest_symptomatic_implements_udca",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "明确为PCC的患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "明确为PCC的患者建议给予熊去氧胆酸治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_rheumatology_immunosuppress",
+        "to": "plan_nsaids",
+        "relation_id": "rel_rheum_immuno_implements_nsaids",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "关节痛、肌肉疼痛",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "大多使用NSAIDs或激素治疗关节痛、肌肉疼痛及关节炎"
         ],
         "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_long_covid_syndrome",
-        "to": "etiology_sars_cov2_infection",
-        "relation_id": "rel_long_covid_causes_by_sars_cov2",
+        "from": "sub_disease_long_covid_general",
+        "to": "etiology_sars_cov_2",
+        "relation_id": "rel_general_causes_sars",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -1073,22 +1353,115 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "确诊或可能感染过新冠病毒"
+          "新型冠状病毒感染（COVID-19）是由新型冠状病毒（简称新冠病毒）引起的"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_long_covid_general",
+        "to": "etiology_severe_acute_phase",
+        "relation_id": "rel_general_causes_severe",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "危重症、机械通气和多器官损害等均与长新冠综合征的发生相关"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_long_covid_general",
+        "to": "etiology_obesity",
+        "relation_id": "rel_general_causes_obesity",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "超重和肥胖使长新冠综合征发生的风险增加"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_long_covid_general",
+        "to": "etiology_multiple_infections",
+        "relation_id": "rel_general_causes_multiple",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "长新冠综合征发生的累积风险与感染次数呈正相关"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_long_covid_general",
+        "to": "etiology_unvaccinated",
+        "relation_id": "rel_general_causes_unvaccinated",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "疫苗接种与减少长新冠综合征症状的发生密切相关"
+        ],
+        "confidence": 0.9
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_long_covid_syndrome",
-        "to": "pathogenesis_viral_persistence_and_autoimmunity",
-        "relation_id": "rel_long_covid_explained_by_viral_persistence_and_autoimmunity",
+        "from": "sub_disease_long_covid_general",
+        "to": "pathogenesis_ace2_infection",
+        "relation_id": "rel_general_explained_ace2",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "新冠病毒感染可以导致免疫系统的紊乱，这是长新冠综合征发生的重要因素之一［33］。新冠病毒的包膜、刺突蛋白，以及核蛋白作为抗原诱导过度炎症反应，打破患者体内免疫应答平衡，大量的炎症因子释放，同时进一步诱发血栓、肺部纤维化形成，导致长新冠综合征的发生、患者病情的迁延不愈［33-34］……"
+          "新冠病毒主要通过血管紧张素转化酶2（ACE2）蛋白的介导感染细胞"
         ],
-        "confidence": 0.85
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_respiratory_long_covid",
+        "to": "pathogenesis_pulmonary_fibrosis",
+        "relation_id": "rel_resp_explained_fibrosis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "新冠病毒感染可以导致肺部纤维化、微血管损伤，造成肺通气/换气功能受损"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_long_covid_general",
+        "to": "pathogenesis_immune_dysregulation",
+        "relation_id": "rel_general_explained_immune",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "新冠病毒感染可以导致免疫系统的紊乱，这是长新冠综合征发生的重要因素之一"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_neuropsychiatric_long_covid",
+        "to": "pathogenesis_neuroinflammation",
+        "relation_id": "rel_neuro_explained_neuroinflam",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "病毒可造成神经系统微循环血栓形成，导致部分神经细胞缺血性坏死，具有嗜神经性"
+        ],
+        "confidence": 0.9
       }
     ]
   },

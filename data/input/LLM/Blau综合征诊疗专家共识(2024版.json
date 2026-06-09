@@ -15,45 +15,43 @@
         "name": "Blau综合征",
         "normalized_name": "Blau综合征",
         "aliases": [
+          "BS",
           "早发型结节病",
           "EOS",
-          "儿童结节病",
-          "家族性肉芽肿性关节炎、虹膜炎和皮疹"
+          "儿童结节病"
         ],
         "source_document_ids": [
           "Blau综合征诊疗专家共识（2024版）"
         ],
         "evidence_ids": [
-          "Blau综合征是一种罕见的单基因突变导致的自身炎症性疾病,以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征",
-          "早发型结节病（ early-onset sarcoidosis,EOS ； OMIM#186580）又称儿童结节病，临床特征与BS高度相似",
-          "BS最早于1985年由Blau[4]描述，是一种罕见的慢性肉芽肿性自身炎症性疾病"
+          "Blau综合征(Blau syndrome,BS;OMIM #186580)是一种罕见的单基因突变导致的自身炎症性疾病",
+          "早发型结节病（ early-onset sarcoidosis,EOS ；OMIM#186580）又称儿童结节病，临床特征与BS高度相似"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_blau_syndrome_typical_triad",
-        "name": "典型三联征型Blau综合征",
+        "id": "sub_disease_blau_default",
+        "name": "Blau综合征",
         "parent_disease_id": "disease_blau_syndrome",
-        "disease_subtype": "自身炎症性肉芽肿病",
+        "disease_subtype": "自身炎症性疾病",
         "clinical_stage": "不限定",
         "severity": "不限定",
         "population": "儿童",
         "gender": "all",
-        "age_min": 0,
+        "age_min": null,
         "age_max": 5,
         "evidence_ids": [
-          "本病幼年发生，典型特征为皮疹、肉芽肿性关节炎和葡萄膜炎三联征",
-          "多发人群为儿童,发病年龄通常<5岁,中国的一项多中心研究中平均发病年龄为14.3个月"
+          "多发人群为儿童,发病年龄通常<5岁"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_blau_syndrome_mild",
+        "id": "sub_disease_blau_mild",
         "name": "轻度Blau综合征",
         "parent_disease_id": "disease_blau_syndrome",
-        "disease_subtype": "自身炎症性肉芽肿病",
+        "disease_subtype": "自身炎症性疾病",
         "clinical_stage": "不限定",
         "severity": "轻度",
         "population": "不限定",
@@ -66,10 +64,10 @@
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_blau_syndrome_moderate",
+        "id": "sub_disease_blau_moderate",
         "name": "中度Blau综合征",
         "parent_disease_id": "disease_blau_syndrome",
-        "disease_subtype": "自身炎症性肉芽肿病",
+        "disease_subtype": "自身炎症性疾病",
         "clinical_stage": "不限定",
         "severity": "中度",
         "population": "不限定",
@@ -77,15 +75,15 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "总分为6~10分为中度"
+          "6~10分为中度"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_blau_syndrome_severe",
+        "id": "sub_disease_blau_severe",
         "name": "重度Blau综合征",
         "parent_disease_id": "disease_blau_syndrome",
-        "disease_subtype": "自身炎症性肉芽肿病",
+        "disease_subtype": "自身炎症性疾病",
         "clinical_stage": "不限定",
         "severity": "重度",
         "population": "不限定",
@@ -93,15 +91,15 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "总分为11~15分为重度"
+          "11~15分为重度"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_blau_syndrome_extreme",
+        "id": "sub_disease_blau_extreme",
         "name": "极重度Blau综合征",
         "parent_disease_id": "disease_blau_syndrome",
-        "disease_subtype": "自身炎症性肉芽肿病",
+        "disease_subtype": "自身炎症性疾病",
         "clinical_stage": "不限定",
         "severity": "极重度",
         "population": "不限定",
@@ -109,7 +107,7 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "总分为>16分为极重度"
+          ">16分为极重度"
         ],
         "confidence": 0.9
       }
@@ -119,12 +117,11 @@
         "id": "symptom_rash",
         "name": "皮疹",
         "body_site": "皮肤",
-        "symptom_category": "皮肤表现",
+        "symptom_category": "皮肤症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征",
-          "70%~90%的BS患者出现皮损"
+          "以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征"
         ],
         "confidence": 0.95
       },
@@ -132,27 +129,49 @@
         "id": "symptom_granulomatous_polyarthritis",
         "name": "肉芽肿性多关节炎",
         "body_site": "关节",
-        "symptom_category": "关节表现",
+        "symptom_category": "关节症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征",
-          "73%~90%的 BS 患者出现关节受累"
+          "以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征"
         ],
         "confidence": 0.95
       },
       {
         "id": "symptom_uveitis",
         "name": "葡萄膜炎",
-        "body_site": "眼部",
-        "symptom_category": "眼部表现",
+        "body_site": "眼",
+        "symptom_category": "眼部症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征",
-          "60%~80%的BS患者发生葡萄膜炎"
+          "以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "symptom_lichenoid_papules",
+        "name": "苔藓样丘疹",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "最常见的皮损为泛发肤色或淡红色针头至栗粒大小苔藓样丘疹"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_flexion_contracture",
+        "name": "屈曲畸形",
+        "body_site": "关节",
+        "symptom_category": "关节症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "累及关节内滑膜和腱鞘的肉芽肿性炎症易导致显著的软组织肿胀，可导致屈曲畸形"
+        ],
+        "confidence": 0.9
       },
       {
         "id": "symptom_fever",
@@ -162,391 +181,293 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "1/3～1/2的BS患者还表现出典型三联征之外多系统受累的情况，如发热"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_lymphadenopathy",
-        "name": "全身淋巴结肿大",
-        "body_site": "淋巴系统",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "1/3～1/2的BS患者还表现出典型三联征之外多系统受累的情况，如...全身淋巴结肿大"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_interstitial_lung_disease",
-        "name": "间质性肺病",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "1/3～1/2的BS患者还表现出典型三联征之外多系统受累的情况，如...间质性肺病"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_hypertension",
-        "name": "高血压",
-        "body_site": "心血管系统",
-        "symptom_category": "心血管系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "1/3～1/2的BS患者还表现出典型三联征之外多系统受累的情况，如...高血压"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_hepatosplenomegaly",
-        "name": "肝脾肿大",
-        "body_site": "消化系统",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "1/3～1/2的BS患者还表现出典型三联征之外多系统受累的情况，如...肝脾肿大"
+          "如发热、全身淋巴结肿大、间质性肺病"
         ],
         "confidence": 0.85
       },
       {
-        "id": "symptom_granulomatous_hepatic_cirrhosis",
-        "name": "肉芽肿性肝硬化",
-        "body_site": "肝脏",
-        "symptom_category": "消化系统症状",
+        "id": "symptom_blindness",
+        "name": "失明",
+        "body_site": "眼",
+        "symptom_category": "眼部症状",
         "polarity": "present",
         "typicality": "rare",
         "evidence_ids": [
-          "1/3～1/2的BS患者还表现出典型三联征之外多系统受累的情况，如...肉芽肿性肝硬化"
+          "可致失明、关节残毁等并发症而严重影响患者生活质量"
         ],
         "confidence": 0.85
-      },
-      {
-        "id": "symptom_nephrogranuloma",
-        "name": "肾肉芽肿",
-        "body_site": "泌尿系统",
-        "symptom_category": "泌尿系统症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "1/3～1/2的BS患者还表现出典型三联征之外多系统受累的情况，如...肾肉芽肿"
-        ],
-        "confidence": 0.85
-      },
-      {
-        "id": "symptom_sialadenitis_granulomatous",
-        "name": "唾液腺肉芽肿",
-        "body_site": "头颈部",
-        "symptom_category": "头颈部症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "1/3～1/2的BS患者还表现出典型三联征之外多系统受累的情况，如...唾液腺肉芽肿"
-        ],
-        "confidence": 0.85
-      },
-      {
-        "id": "symptom_cns_involvement",
-        "name": "中枢神经系统损害",
-        "body_site": "神经系统",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "1/3～1/2的BS患者还表现出典型三联征之外多系统受累的情况，如...中枢神经系统损害"
-        ],
-        "confidence": 0.85
-      },
-      {
-        "id": "symptom_lichenoid_papules",
-        "name": "苔藓样丘疹",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤表现",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "最常见的皮损为泛发肤色或淡红色针头至栗粒大小苔藓样丘疹"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_skin_ulceration",
-        "name": "皮肤溃疡",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤表现",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "少见皮损如鱼鳞病样、结节性红斑样、青斑样血管炎样等均有报道，也有患者出现皮肤溃疡"
-        ],
-        "confidence": 0.85
-      },
-      {
-        "id": "symptom_skin_atrophy",
-        "name": "皮肤异色",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤表现",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "少见皮损如鱼鳞病样、结节性红斑样、青斑样血管炎样等均有报道，也有患者出现皮肤异色"
-        ],
-        "confidence": 0.85
-      },
-      {
-        "id": "symptom_joint_deformity",
-        "name": "关节畸形",
-        "body_site": "关节",
-        "symptom_category": "关节表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "可造成腕关节发育不良、第二掌骨畸形、桡骨双凹、尺骨肥大等表现"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_uveitis_complication",
-        "name": "葡萄膜炎并发症",
-        "body_site": "眼部",
-        "symptom_category": "眼部表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "严重的BS也会造成眼部炎症后遗症如带状角膜病变、白内障、青光眼、黄斑水肿、视网膜脱离、视神经萎缩甚至失明等"
-        ],
-        "confidence": 0.9
       }
     ],
     "tests": [
       {
         "id": "test_esr",
-        "name": "红细胞沉降率",
+        "name": "红细胞沉降率（ESR）",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "红细胞沉降率（ESR）、C反应蛋白（CRP）、血清细胞因子［白细胞介素6 (IL-6）、TNF-α、IFN-]等指标水平升高可反映BS疾病活动程度"
+          "红细胞沉降率（ESR）、C反应蛋白（CRP）"
         ],
         "confidence": 0.9
       },
       {
         "id": "test_crp",
-        "name": "C反应蛋白",
+        "name": "C反应蛋白（CRP）",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "红细胞沉降率（ESR）、C反应蛋白（CRP）、血清细胞因子［白细胞介素6 (IL-6）、TNF-α、IFN-]等指标水平升高可反映BS疾病活动程度"
+          "红细胞沉降率（ESR）、C反应蛋白（CRP）"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_il6",
-        "name": "白细胞介素6",
+        "id": "test_cytokines",
+        "name": "血清细胞因子（IL-6、TNF-α、IFN-γ）",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "红细胞沉降率（ESR）、C反应蛋白（CRP）、血清细胞因子［白细胞介素6 (IL-6）、TNF-α、IFN-]等指标水平升高可反映BS疾病活动程度"
+          "血清细胞因子［白细胞介素6(IL-6）、TNF-α、IFN-γ]等指标水平升高可反映BS疾病活动程度"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_tnf_alpha",
-        "name": "肿瘤坏死因子α",
+        "id": "test_xray",
+        "name": "X线",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 1,
+        "is_digital": 0,
         "evidence_ids": [
-          "红细胞沉降率（ESR）、C反应蛋白（CRP）、血清细胞因子［白细胞介素6 (IL-6）、TNF-α、IFN-]等指标水平升高可反映BS疾病活动程度"
+          "对可疑受累关节进行X线、超声、核磁共振成像等检查"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_ifn_gamma",
-        "name": "干扰素γ",
+        "id": "test_ultrasound",
+        "name": "超声",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 1,
+        "is_digital": 0,
         "evidence_ids": [
-          "红细胞沉降率（ESR）、C反应蛋白（CRP）、血清细胞因子［白细胞介素6 (IL-6）、TNF-α、IFN-]等指标水平升高可反映BS疾病活动程度"
+          "对可疑受累关节进行X线、超声、核磁共振成像等检查"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_nod2_gene_test",
+        "id": "test_mri",
+        "name": "核磁共振成像",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "对可疑受累关节进行X线、超声、核磁共振成像等检查"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_fundus",
+        "name": "眼底检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "眼底检查、视力检查等评估是否患有眼部葡萄膜炎及其他眼部受累"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_vision",
+        "name": "视力检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "眼底检查、视力检查等评估是否患有眼部葡萄膜炎及其他眼部受累"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pathology",
+        "name": "组织病理",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "受累组织（皮损或受累骨关节囊壁、内脏系统)均呈现非干酪样肉芽肿改变"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_nod2_gene",
         "name": "NOD2基因检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "患者外周血或病变组织进行基因突变检测,有助于明确诊断",
-          "NOD2基因被认为是BS的致病基因"
+          "患者外周血或病变组织进行基因突变检测,有助于明确诊断"
         ],
         "confidence": 0.95
       }
     ],
     "treatments": [
       {
-        "id": "treatment_early_intervention",
-        "content": "早期发现、早期干预、延缓疾病进展、减少多器官损害、提高生活质量",
-        "recommendation_strength": "strong",
-        "source_section": "治疗",
-        "evidence_ids": [
-          "早期发现、早期干预、延缓疾病进展、减少多器官损害、提高生活质量是BS患者的治疗目标"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "treatment_systemic_corticosteroids",
-        "content": "系统应用糖皮质激素控制皮损发展和病情进展",
+        "id": "treatment_glucocorticoids",
+        "content": "系统应用糖皮质激素以控制皮损发展和病情进展",
         "recommendation_strength": "B",
         "source_section": "治疗",
         "evidence_ids": [
-          "可考虑系统应用糖皮质激素（泼尼松1~1.5mg·kg\".d\",好转后逐渐减量[37]，以控制皮损发展和病情进展"
+          "对于单纯皮肤损害以及轻中度BS患者,可考虑系统应用糖皮质激素"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_methotrexate_combination",
-        "content": "甲氨蝶呤与糖皮质激素联用改善皮损、关节炎和预防关节畸形及眼部并发症",
+        "id": "treatment_immunosuppressants",
+        "content": "免疫抑制剂与糖皮质激素联用控制皮损及合并关节炎症状",
         "recommendation_strength": "B",
         "source_section": "治疗",
         "evidence_ids": [
-          "低剂量MTX（每周10~15 mg/m²）对于治疗改善BS的皮损、关节炎和预防关节畸形及眼部并发症有效"
+          "对于多系统受累 BS患者， MTX 与中小剂量糖皮质激素联用是目前最常用的传统疗法"
         ],
         "confidence": 0.9
       },
       {
         "id": "treatment_biologics",
-        "content": "使用TNF-α拮抗剂、IL-1拮抗剂、IL-6拮抗剂等生物制剂治疗传统药物无法控制的BS",
+        "content": "联合应用生物制剂改善预后",
         "recommendation_strength": "B",
         "source_section": "治疗",
         "evidence_ids": [
-          "推荐联合应用生物制剂（证据等级2a；推荐级别B）",
-          "TNF-α拮抗剂（阿达木单抗、英夫利西单抗、注射用重组人Ⅱ型肿瘤坏死因子受体-抗体融合蛋白等）可有效改善BS预后",
-          "使用抗IL-1药物如阿那白滞素、卡纳单抗等和抗IL-6药物如托珠单抗等也显示出不同程度的疗效"
+          "对于传统用药无法控制病情的BS患者,或存在重要脏器受累或预后不良因素的情况，推荐联合应用生物制剂"
         ],
         "confidence": 0.9
       },
       {
         "id": "treatment_jak_inhibitors",
-        "content": "JAK抑制剂用于传统治疗和生物制剂治疗反应不佳的BS患者",
+        "content": "联合应用JAK抑制剂",
         "recommendation_strength": "C",
         "source_section": "治疗",
         "evidence_ids": [
-          "JAK抑制剂如托法替布、巴瑞替尼等对BS患者有较好的治疗效果...推荐联合应用JAK抑制剂[49（证据级别4；推荐级别C）"
+          "对传统治疗和生物制剂治疗反应不佳的BS患者,是一种潜在的治疗药物，推荐联合应用 JAK 抑制剂"
         ],
-        "confidence": 0.85
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_prednisone_1_to_1_5_mg_kg_d",
-        "content": "泼尼松1~1.5mg·kg⁻¹·d⁻¹，好转后逐渐减量",
+        "id": "plan_prednisone",
+        "content": "泼尼松1~1.5mg·kg-1·d-1，好转后逐渐减量",
         "plan_level": 1,
-        "applicable_condition": "单纯皮肤损害以及轻中度病情",
+        "applicable_condition": "单纯皮肤损害以及轻中度BS患者",
         "contraindication_note": "应考虑长期应用糖皮质激素带来的不良反应及并发症",
         "evidence_ids": [
-          "可考虑系统应用糖皮质激素（泼尼松1~1.5mg·kg\".d\",好转后逐渐减量[37]，以控制皮损发展和病情进展"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_methotrexate_10_to_15_mg_m2_weekly",
-        "content": "甲氨蝶呤每周10~15 mg/m²",
-        "plan_level": 2,
-        "applicable_condition": "多系统受累患者",
-        "contraindication_note": "无明确禁忌说明",
-        "evidence_ids": [
-          "低剂量MTX（每周10~15 mg/m²）对于治疗改善BS的皮损、关节炎和预防关节畸形及眼部并发症有效"
+          "泼尼松1~1.5mg·kg-1·d-1，好转后逐渐减量"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_adalimumab",
-        "content": "阿达木单抗",
+        "id": "plan_mtx",
+        "content": "低剂量MTX（每周10~15 mg/m²）",
+        "plan_level": 2,
+        "applicable_condition": "多系统受累BS患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "低剂量MTX （每周10~15 mg/m² ）对于治疗改善 BS 的皮损、关节炎和预防关节畸形及眼部并发症有效"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_thalidomide",
+        "content": "沙利度胺",
         "plan_level": 3,
-        "applicable_condition": "传统用药无法控制或多系统受累、疾病进展较快患者",
-        "contraindication_note": "无禁忌情况下建议及早应用",
+        "applicable_condition": "控制皮肤损害",
+        "contraindication_note": "病例数量有限，还需进一步临床研究评估其治疗效果和不良反应",
+        "evidence_ids": [
+          "有报道沙利度胺可较好地控制皮肤损害"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "plan_tnf_inhibitors",
+        "content": "TNF-α拮抗剂（阿达木单抗、英夫利西单抗、注射用重组人Ⅱ型肿瘤坏死因子受体-抗体融合蛋白等）",
+        "plan_level": 1,
+        "applicable_condition": "传统用药无法控制病情或存在重要脏器受累",
+        "contraindication_note": null,
         "evidence_ids": [
           "TNF-α拮抗剂（阿达木单抗、英夫利西单抗、注射用重组人Ⅱ型肿瘤坏死因子受体-抗体融合蛋白等）可有效改善BS预后"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_canakinumab",
-        "content": "卡纳单抗",
-        "plan_level": 3,
-        "applicable_condition": "传统用药无法控制或多系统受累、疾病进展较快患者",
-        "contraindication_note": "无禁忌情况下建议及早应用",
+        "id": "plan_il1_inhibitors",
+        "content": "抗IL-1药物（阿那白滞素、卡纳单抗等）",
+        "plan_level": 2,
+        "applicable_condition": "传统用药无法控制病情或存在重要脏器受累",
+        "contraindication_note": null,
         "evidence_ids": [
-          "使用抗IL-1药物如阿那白滞素、卡纳单抗等...也显示出不同程度的疗效"
+          "使用抗IL-1药物如阿那白滞素、卡纳单抗等"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_tocilizumab",
-        "content": "托珠单抗",
-        "plan_level": 3,
-        "applicable_condition": "传统用药无法控制或多系统受累、疾病进展较快患者",
-        "contraindication_note": "无禁忌情况下建议及早应用",
+        "id": "plan_il6_inhibitors",
+        "content": "抗IL-6药物（托珠单抗等）",
+        "plan_level": 2,
+        "applicable_condition": "传统用药无法控制病情或存在重要脏器受累",
+        "contraindication_note": null,
         "evidence_ids": [
-          "抗IL-6药物如托珠单抗等也显示出不同程度的疗效"
+          "抗 IL-6 药物如托珠单抗等也显示出不同程度的疗效"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_tofacitinib",
-        "content": "托法替布",
-        "plan_level": 4,
-        "applicable_condition": "传统治疗和生物制剂治疗反应不佳的BS患者",
-        "contraindication_note": "需积累更多循证医学数据",
+        "id": "plan_jak_inhibitors",
+        "content": "JAK抑制剂（托法替布、巴瑞替尼等）",
+        "plan_level": 3,
+        "applicable_condition": "对传统治疗和生物制剂治疗反应不佳的BS患者",
+        "contraindication_note": null,
         "evidence_ids": [
-          "JAK抑制剂如托法替布、巴瑞替尼等对BS患者有较好的治疗效果...推荐联合应用JAK抑制剂"
+          "JAK抑制剂如托法替布、巴瑞替尼等对 BS 患者有较好的治疗效果"
         ],
-        "confidence": 0.85
+        "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_nod2_gain_of_function_mutation",
+        "id": "etiology_nod2_mutation",
         "content": "NOD2基因功能获得性突变",
         "etiology_type": "遗传因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "目前研究已明确BS系NOD2基因功能获得性突变导致",
-          "NOD2基因被认为是BS的致病基因,为常染色体显性遗传模式"
+          "目前研究已明确BS系NOD2基因功能获得性突变导致"
         ],
         "confidence": 0.95
-      },
-      {
-        "id": "etiology_infection_trigger",
-        "content": "感染（如结核分枝杆菌、鸟分枝杆菌副结核亚种、痤疮丙酸杆菌）",
-        "etiology_type": "感染因素",
-        "typicality": "unknown",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "另外曾有文献提出本病与卡介苗(BCG)疫苗接种[14.18]、鸟分枝杆菌副结核亚种感染[19]、痤疮丙酸杆菌[20]等有关，但尚缺乏确定依据支持"
-        ],
-        "confidence": 0.7
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_nod2_nfkb_mapk_activation",
-        "content": "NOD2基因功能获得性突变导致NF-kB和MAPK通路异常活化，释放干扰素（IFN-γ）等细胞因子，引起机体自身炎症性反应，表现出多系统症状",
+        "id": "pathogenesis_nfkb_activation",
+        "content": "NOD2基因突变导致NF-κB信号通路异常活化，释放干扰素（IFN-γ），引起机体自身炎症性反应",
         "evidence_ids": [
-          "患者在基因突变背景下,多种因素如感染可激发NF-kB通路异常活化，释放干扰素（IFN-γ），引起机体自身炎症性反应，表现出多系统症状"
+          "患者在基因突变背景下,多种因素如感染可激发NF-kB通路异常活化，释放干扰素（IFN-γ），引起机体自身炎症性反应"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_mapk_nfkb",
+        "content": "MAPK和NF-κB通路的异常激活，引起TNF-α等细胞因子水平升高，导致肉芽肿的发展",
+        "evidence_ids": [
+          "BS发病机制中存在MAPK和NF-kB通路的异常激活，引起TNF-α等细胞因子水平升高，导致肉芽肿的发展"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_jak_stat",
+        "content": "JAK-STAT信号传导及转录激活蛋白通路激活可刺激BS炎症细胞因子产生，引起炎症信号通路活化",
+        "evidence_ids": [
+          "JAK-STAT信号传导及转录激活蛋白通路激活可刺激 BS 炎症细胞因子产生，引起炎症信号通路活化"
+        ],
+        "confidence": 0.9
       }
     ]
   },
@@ -554,18 +475,18 @@
     "has_sub_disease": [
       {
         "from": "disease_blau_syndrome",
-        "to": "sub_disease_blau_syndrome_typical_triad",
-        "relation_id": "rel_blau_has_typical_triad",
+        "to": "sub_disease_blau_default",
+        "relation_id": "rel_blau_has_default",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "本病幼年发生，典型特征为皮疹、肉芽肿性关节炎和葡萄膜炎三联征"
+          "Blau综合征(Blau syndrome,BS;OMIM #186580)是一种罕见的单基因突变导致的自身炎症性疾病"
         ],
         "confidence": 0.95
       },
       {
         "from": "disease_blau_syndrome",
-        "to": "sub_disease_blau_syndrome_mild",
+        "to": "sub_disease_blau_mild",
         "relation_id": "rel_blau_has_mild",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
@@ -576,175 +497,651 @@
       },
       {
         "from": "disease_blau_syndrome",
-        "to": "sub_disease_blau_syndrome_moderate",
+        "to": "sub_disease_blau_moderate",
         "relation_id": "rel_blau_has_moderate",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "总分为6~10分为中度"
+          "6~10分为中度"
         ],
         "confidence": 0.9
       },
       {
         "from": "disease_blau_syndrome",
-        "to": "sub_disease_blau_syndrome_severe",
+        "to": "sub_disease_blau_severe",
         "relation_id": "rel_blau_has_severe",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "总分为11~15分为重度"
+          "11~15分为重度"
         ],
         "confidence": 0.9
       },
       {
         "from": "disease_blau_syndrome",
-        "to": "sub_disease_blau_syndrome_extreme",
+        "to": "sub_disease_blau_extreme",
         "relation_id": "rel_blau_has_extreme",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "总分为>16分为极重度"
+          ">16分为极重度"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_blau_syndrome_typical_triad",
+        "from": "sub_disease_blau_default",
         "to": "symptom_rash",
-        "relation_id": "rel_triad_manifests_as_rash",
+        "relation_id": "rel_blau_manifests_rash",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": "triad_3_choose_3",
-        "required_count": 3,
+        "weight": 10,
+        "criterion_group_id": "triad_3_choose_2",
+        "required_count": 2,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "定义",
+        "section_priority": "诊断与鉴别诊断",
         "evidence_ids": [
-          "以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征"
+          "主要特征（三联征）：①皮肤损害：泛发、肤色或淡红色的苔藓样斑丘疹"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确定义三联征为‘皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征’，且‘皮疹’为第一项核心临床特征",
+        "weight_reason": "原文明确指出皮疹是Blau综合征三联征主要临床特征之一",
         "evidence": "以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征"
       },
       {
-        "from": "sub_disease_blau_syndrome_typical_triad",
+        "from": "sub_disease_blau_default",
         "to": "symptom_granulomatous_polyarthritis",
-        "relation_id": "rel_triad_manifests_as_arthritis",
+        "relation_id": "rel_blau_manifests_arthritis",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": "triad_3_choose_3",
-        "required_count": 3,
+        "weight": 10,
+        "criterion_group_id": "triad_3_choose_2",
+        "required_count": 2,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "定义",
+        "section_priority": "诊断与鉴别诊断",
         "evidence_ids": [
-          "以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征"
+          "主要特征（三联征）：②肉芽肿性关节炎"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确定义三联征为‘皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征’，且‘肉芽肿性多关节炎’为第二项核心临床特征",
+        "weight_reason": "原文明确指出肉芽肿性多关节炎是Blau综合征三联征主要临床特征之一",
         "evidence": "以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征"
       },
       {
-        "from": "sub_disease_blau_syndrome_typical_triad",
+        "from": "sub_disease_blau_default",
         "to": "symptom_uveitis",
-        "relation_id": "rel_triad_manifests_as_uveitis",
+        "relation_id": "rel_blau_manifests_uveitis",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": "triad_3_choose_3",
-        "required_count": 3,
+        "weight": 10,
+        "criterion_group_id": "triad_3_choose_2",
+        "required_count": 2,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "定义",
+        "section_priority": "诊断与鉴别诊断",
         "evidence_ids": [
-          "以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征"
+          "主要特征（三联征）：③眼部葡萄膜炎"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确定义三联征为‘皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征’，且‘葡萄膜炎’为第三项核心临床特征",
+        "weight_reason": "原文明确指出葡萄膜炎是Blau综合征三联征主要临床特征之一",
         "evidence": "以皮疹、肉芽肿性多关节炎和葡萄膜炎的三联征为主要临床特征"
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "symptom_lichenoid_papules",
+        "relation_id": "rel_blau_manifests_papules",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "最常见的皮损为泛发肤色或淡红色针头至栗粒大小苔藓样丘疹"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出苔藓样丘疹是最常见的皮损表现",
+        "evidence": "最常见的皮损为泛发肤色或淡红色针头至栗粒大小苔藓样丘疹"
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "symptom_flexion_contracture",
+        "relation_id": "rel_blau_manifests_contracture",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "可导致屈曲畸形,并伴随功能障碍"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "symptom_fever",
+        "relation_id": "rel_blau_manifests_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "如发热、全身淋巴结肿大、间质性肺病"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "symptom_blindness",
+        "relation_id": "rel_blau_manifests_blindness",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 4,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "可致失明、关节残毁等并发症而严重影响患者生活质量"
+        ],
+        "confidence": 0.8
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_blau_syndrome_typical_triad",
-        "to": "test_nod2_gene_test",
-        "relation_id": "rel_triad_requires_nod2_test",
+        "from": "sub_disease_blau_default",
+        "to": "test_nod2_gene",
+        "relation_id": "rel_blau_requires_nod2",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "NOD2基因突变",
+        "weight": 9,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断与鉴别诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "确诊BS：具备2条或以上主要临床特征+ NOD2 基因突变"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出NOD2基因突变检测有助于明确诊断，但未称为金标准",
+        "evidence": "患者外周血或病变组织进行基因突变检测,有助于明确诊断"
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "test_pathology",
+        "relation_id": "rel_blau_requires_pathology",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "检出NOD2基因功能获得性突变",
-        "weight": 10,
-        "gold_standard": true,
+        "result_text": "非干酪样肉芽肿改变",
+        "weight": 9,
+        "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "present",
+        "polarity": "positive",
         "typicality": "typical",
         "section_priority": "诊断与鉴别诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "确诊BS：具备2条或以上主要临床特征+ NOD2基因突变"
+          "拟诊 BS ：具备3条主要临床特征+典型组织病理改变"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文指出‘确诊BS：具备2条或以上主要临床特征+NOD2基因突变’，基因检测是确诊必要条件之一，但非独立金标准；未出现‘金标准’等同义表述",
-        "evidence": "确诊BS：具备2条或以上主要临床特征+NOD2基因突变"
+        "weight_reason": "原文指出非干酪样肉芽肿改变是BS诊断中的重要依据",
+        "evidence": "均呈现非干酪样肉芽肿改变,是BS诊断中的重要依据"
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "test_esr",
+        "relation_id": "rel_blau_requires_esr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "水平升高",
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "红细胞沉降率（ESR）等指标水平升高可反映BS疾病活动程度"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "test_crp",
+        "relation_id": "rel_blau_requires_crp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "水平升高",
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "C反应蛋白（CRP）等指标水平升高可反映BS疾病活动程度"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "test_cytokines",
+        "relation_id": "rel_blau_requires_cytokines",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "水平升高",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "血清细胞因子［白细胞介素6(IL-6）、TNF-α、IFN-γ]等指标水平升高可反映BS疾病活动程度"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "test_xray",
+        "relation_id": "rel_blau_requires_xray",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "囊样骨关节破坏性改变",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "受累关节的影像学特征为“囊样”骨关节破坏性改变"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "test_ultrasound",
+        "relation_id": "rel_blau_requires_ultrasound",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "对可疑受累关节进行X线、超声、核磁共振成像等检查评估是否有肉芽肿性关节炎及骨质受累情况"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "test_mri",
+        "relation_id": "rel_blau_requires_mri",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "对可疑受累关节进行X线、超声、核磁共振成像等检查评估是否有肉芽肿性关节炎及骨质受累情况"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "test_fundus",
+        "relation_id": "rel_blau_requires_fundus",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "眼底检查、视力检查等评估是否患有眼部葡萄膜炎及其他眼部受累"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "test_vision",
+        "relation_id": "rel_blau_requires_vision",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "眼底检查、视力检查等评估是否患有眼部葡萄膜炎及其他眼部受累"
+        ],
+        "confidence": 0.85
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_blau_syndrome_typical_triad",
-        "to": "treatment_early_intervention",
-        "relation_id": "rel_triad_follows_early_intervention",
+        "from": "sub_disease_blau_mild",
+        "to": "treatment_glucocorticoids",
+        "relation_id": "rel_blau_mild_follows_glucocorticoids",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
+        "clinical_stage": "轻度",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后",
+        "applicable_condition": "单纯皮肤损害以及轻中度BS患者",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "B",
         "decision_basis": [
-          "疾病定义"
+          "疾病严重程度"
+        ],
+        "contraindication_note": "应考虑长期应用糖皮质激素带来的不良反应及并发症",
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_blau_moderate",
+        "to": "treatment_immunosuppressants",
+        "relation_id": "rel_blau_moderate_follows_immunosuppressants",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "中度",
+        "treatment_line": "一线",
+        "applicable_condition": "多系统受累BS患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "B",
+        "decision_basis": [
+          "疾病严重程度"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
         "source_section": "治疗",
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_blau_severe",
+        "to": "treatment_biologics",
+        "relation_id": "rel_blau_severe_follows_biologics",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "重度",
+        "treatment_line": "二线",
+        "applicable_condition": "传统用药无法控制病情或存在重要脏器受累",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "B",
+        "decision_basis": [
+          "疾病严重程度",
+          "治疗反应"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_blau_extreme",
+        "to": "treatment_biologics",
+        "relation_id": "rel_blau_extreme_follows_biologics",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "极重度",
+        "treatment_line": "二线",
+        "applicable_condition": "传统用药无法控制病情或存在重要脏器受累",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "B",
+        "decision_basis": [
+          "疾病严重程度",
+          "治疗反应"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "treatment_jak_inhibitors",
+        "relation_id": "rel_blau_default_follows_jak",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "三线",
+        "applicable_condition": "对传统治疗和生物制剂治疗反应不佳的BS患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "C",
+        "decision_basis": [
+          "治疗反应"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_early_intervention",
-        "to": "plan_prednisone_1_to_1_5_mg_kg_d",
-        "relation_id": "rel_early_intervention_implements_by_prednisone",
+        "from": "treatment_glucocorticoids",
+        "to": "plan_prednisone",
+        "relation_id": "rel_glucocorticoids_implements_prednisone",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "单纯皮肤损害以及轻中度病情",
+        "applicable_condition": "单纯皮肤损害以及轻中度BS患者",
         "contraindication_note": "应考虑长期应用糖皮质激素带来的不良反应及并发症",
         "evidence_ids": [
-          "可考虑系统应用糖皮质激素（泼尼松1~1.5mg·kg\".d\",好转后逐渐减量[37]，以控制皮损发展和病情进展"
+          "泼尼松1~1.5mg·kg-1·d-1，好转后逐渐减量"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_immunosuppressants",
+        "to": "plan_mtx",
+        "relation_id": "rel_immunosuppressants_implements_mtx",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "多系统受累BS患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "低剂量MTX （每周10~15 mg/m² ）对于治疗改善 BS 的皮损、关节炎和预防关节畸形及眼部并发症有效"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_immunosuppressants",
+        "to": "plan_thalidomide",
+        "relation_id": "rel_immunosuppressants_implements_thalidomide",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "控制皮肤损害",
+        "contraindication_note": "病例数量有限，还需进一步临床研究评估其治疗效果和不良反应",
+        "evidence_ids": [
+          "有报道沙利度胺可较好地控制皮肤损害"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "treatment_biologics",
+        "to": "plan_tnf_inhibitors",
+        "relation_id": "rel_biologics_implements_tnf",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "传统用药无法控制病情或存在重要脏器受累",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "TNF-α拮抗剂（阿达木单抗、英夫利西单抗、注射用重组人Ⅱ型肿瘤坏死因子受体-抗体融合蛋白等）可有效改善BS预后"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_biologics",
+        "to": "plan_il1_inhibitors",
+        "relation_id": "rel_biologics_implements_il1",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "传统用药无法控制病情或存在重要脏器受累",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "使用抗IL-1药物如阿那白滞素、卡纳单抗等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_biologics",
+        "to": "plan_il6_inhibitors",
+        "relation_id": "rel_biologics_implements_il6",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "传统用药无法控制病情或存在重要脏器受累",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "抗 IL-6 药物如托珠单抗等也显示出不同程度的疗效"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_jak_inhibitors",
+        "to": "plan_jak_inhibitors",
+        "relation_id": "rel_jak_implements_jak",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "补救",
+        "applicable_condition": "对传统治疗和生物制剂治疗反应不佳的BS患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "JAK抑制剂如托法替布、巴瑞替尼等对 BS 患者有较好的治疗效果"
+        ],
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_blau_syndrome_typical_triad",
-        "to": "etiology_nod2_gain_of_function_mutation",
-        "relation_id": "rel_triad_causes_by_nod2_mutation",
+        "from": "sub_disease_blau_default",
+        "to": "etiology_nod2_mutation",
+        "relation_id": "rel_blau_caused_by_nod2",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -759,15 +1156,37 @@
     ],
     "explained_by": [
       {
-        "from": "sub_disease_blau_syndrome_typical_triad",
-        "to": "pathogenesis_nod2_nfkb_mapk_activation",
-        "relation_id": "rel_triad_explained_by_nod2_pathway",
+        "from": "sub_disease_blau_default",
+        "to": "pathogenesis_nfkb_activation",
+        "relation_id": "rel_blau_explained_by_nfkb",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "患者在基因突变背景下,多种因素如感染可激发NF-kB通路异常活化，释放干扰素（IFN-γ），引起机体自身炎症性反应，表现出多系统症状"
+          "患者在基因突变背景下,多种因素如感染可激发NF-kB通路异常活化，释放干扰素（IFN-γ），引起机体自身炎症性反应"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "pathogenesis_mapk_nfkb",
+        "relation_id": "rel_blau_explained_by_mapk",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "BS发病机制中存在MAPK和NF-kB通路的异常激活，引起TNF-α等细胞因子水平升高，导致肉芽肿的发展"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_blau_default",
+        "to": "pathogenesis_jak_stat",
+        "relation_id": "rel_blau_explained_by_jak",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "JAK-STAT信号传导及转录激活蛋白通路激活可刺激 BS 炎症细胞因子产生，引起炎症信号通路活化"
+        ],
+        "confidence": 0.9
       }
     ]
   },

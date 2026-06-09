@@ -1,8 +1,8 @@
 {
   "meta": {
     "doc_id": "尿路感染诊断与治疗中国专家共识(2015版)",
-    "source_title": "尿路感染诊断与治疗中国专家共识 (2015版)",
-    "section_path": "全文",
+    "source_title": "尿路感染诊断与治疗中国专家共识(2015版)",
+    "section_path": "复杂性尿路感染",
     "text_span": {
       "start": null,
       "end": null
@@ -15,10 +15,10 @@
         "name": "尿路感染",
         "normalized_name": "尿路感染",
         "aliases": [
-          "UTI"
+          "泌尿系感染"
         ],
         "source_document_ids": [
-          "尿路感染诊断与治疗中国专家共识 (2015版)"
+          "尿路感染诊断与治疗中国专家共识(2015版)"
         ],
         "evidence_ids": [
           "尿路感染是临床常见的感染性疾病"
@@ -31,10 +31,10 @@
         "id": "sub_disease_complicated_uti",
         "name": "复杂性尿路感染",
         "parent_disease_id": "disease_uti",
-        "disease_subtype": "不限定",
+        "disease_subtype": null,
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": null,
+        "population": "伴有复杂因素的患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
@@ -44,102 +44,118 @@
         "confidence": 0.95
       },
       {
-        "id": "sub_disease_complicated_uti_with_stone",
-        "name": "合并尿路结石的复杂性尿路感染",
+        "id": "sub_disease_uti_with_stone_infection",
+        "name": "结石合并感染",
         "parent_disease_id": "disease_uti",
-        "disease_subtype": "结石相关",
+        "disease_subtype": "合并尿路结石的复杂性尿路感染",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": null,
+        "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "(一)合并尿路结石的复杂性尿路感染"
+          "结石并发尿路感染，通常为代谢性结石(含钙结石或非含钙结石)同时合并细菌侵袭出现尿路感染"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "sub_disease_infectious_stone",
         "name": "感染性结石",
         "parent_disease_id": "disease_uti",
-        "disease_subtype": "结石类型",
+        "disease_subtype": "合并尿路结石的复杂性尿路感染",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": null,
+        "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "(2)感染性结石：尿路感染引起的尿路结石，感染通常由产尿素酶的革兰阴性菌引起"
+          "尿路感染引起的尿路结石，感染通常由产尿素酶的革兰阴性菌引起"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "sub_disease_catheter_related_uti",
-        "name": "尿路导管相关的尿路感染",
+        "id": "sub_disease_urosepsis_post_surgery",
+        "name": "尿路结石相关手术的术后发热和尿脓毒血症",
         "parent_disease_id": "disease_uti",
-        "disease_subtype": "医源性",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
+        "disease_subtype": null,
+        "clinical_stage": "术后",
+        "severity": "重症",
+        "population": "尿路结石相关手术患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "(三)尿路导管相关的尿路感染"
+          "尿路感染伴发全身炎症反应征象(SIRS)即可诊断为尿源性脓毒血症"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cauti",
+        "name": "尿路导管相关的尿路感染",
+        "parent_disease_id": "disease_uti",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": "留置导尿管患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "在泌尿外科及手术后的患者中，40％的医院感染发生在泌尿系统，其中80％与留置导尿管有关"
+        ],
+        "confidence": 0.9
       }
     ],
     "symptoms": [
       {
-        "id": "symptom_urinary_frequency",
+        "id": "symptom_frequency",
         "name": "尿频",
         "body_site": "泌尿系统",
-        "symptom_category": "泌尿系统症状",
+        "symptom_category": "下尿路症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
           "下尿路感染常见症状为尿频、尿急、尿痛等"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "symptom_urinary_urgency",
+        "id": "symptom_urgency",
         "name": "尿急",
         "body_site": "泌尿系统",
-        "symptom_category": "泌尿系统症状",
+        "symptom_category": "下尿路症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
           "下尿路感染常见症状为尿频、尿急、尿痛等"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_dysuria",
         "name": "尿痛",
         "body_site": "泌尿系统",
-        "symptom_category": "泌尿系统症状",
+        "symptom_category": "下尿路症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
           "下尿路感染常见症状为尿频、尿急、尿痛等"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_flank_pain",
         "name": "肾区疼痛",
-        "body_site": "腰部",
-        "symptom_category": "泌尿系统症状",
+        "body_site": "肾区",
+        "symptom_category": "上尿路症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
           "上尿路感染则以肾区疼痛、发热较为多见"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_fever",
@@ -147,68 +163,90 @@
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "上尿路感染则以肾区疼痛、发热较为多见"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_suprapubic_pain",
-        "name": "耻骨上疼痛",
-        "body_site": "下腹部",
-        "symptom_category": "泌尿系统症状",
-        "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "与泌尿系结石相关的尿路感染临床表现多样，可以从单纯的脓尿、尿急、尿频、腰痛、肋脊角压痛、耻骨上疼痛和发热"
+          "上尿路感染则以肾区疼痛、发热较为多见"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_costovertebral_angle_tenderness",
-        "name": "肋脊角压痛",
-        "body_site": "背部",
+        "id": "symptom_pyuria",
+        "name": "脓尿",
+        "body_site": "泌尿系统",
         "symptom_category": "泌尿系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "与泌尿系结石相关的尿路感染临床表现多样，可以从单纯的脓尿、尿急、尿频、腰痛、肋脊角压痛、耻骨上疼痛和发热"
+          "可以从单纯的脓尿、尿急、尿频、腰痛、肋脊角压痛、耻骨上疼痛和发热到严重的梗阻性急性肾盂肾炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_suprapubic_pain",
+        "name": "耻骨上疼痛",
+        "body_site": "耻骨上",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "可以从单纯的脓尿、尿急、尿频、腰痛、肋脊角压痛、耻骨上疼痛和发热到严重的梗阻性急性肾盂肾炎"
         ],
         "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_urine_culture_colony_count",
-        "name": "尿培养菌落计数",
+        "id": "test_urine_culture_female",
+        "name": "清洁中段尿培养菌落计数(女性)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "尿培养：对于复杂性尿路感染，清洁中段尿培养菌落计数女性>10 cfu／ml、男性>10 cfu／ml，或所有患者导尿留取的尿标本细菌菌落计数>10 cfu／ml具有诊断价值"
+          "清洁中段尿培养菌落计数女性>10 cfu／ml"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_urine_ph",
-        "name": "尿pH值测定",
+        "id": "test_urine_culture_male",
+        "name": "清洁中段尿培养菌落计数(男性)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "尿 pH值测定对感染性结石的判断有意义，因为对感染性结石来说，尿 pH值为 6．8时碳酸磷灰石开始结晶，而在尿 pH>7．2时磷酸镁铵结石开始沉积形成"
+          "男性>10 cfu／ml"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_urine_analysis",
-        "name": "尿液分析",
+        "id": "test_urine_culture_catheter",
+        "name": "导尿留取尿标本细菌菌落计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "所有患者导尿留取的尿标本细菌菌落计数>10 cfu／ml"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_imaging",
+        "name": "影像学检查",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "尿液分析应常规进行"
+          "影像学检查如超声、腹部平片、尿路造影和泌尿系 CT主要 目的是寻找泌尿生殖道结构、功能异常或者其他存在易发感染的疾病"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_urine_ph",
+        "name": "尿pH值",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "尿 pH值测定对感染性结石的判断有意义"
         ],
         "confidence": 0.9
       },
@@ -221,14 +259,14 @@
         "evidence_ids": [
           "发热患者应该同时做血培养"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_crp",
         "name": "C反应蛋白",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
           "一些感染指标包括 C反应蛋白、降钙素原均应在检查之列"
         ],
@@ -239,300 +277,293 @@
         "name": "降钙素原",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
           "一些感染指标包括 C反应蛋白、降钙素原均应在检查之列"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_wbc",
+        "name": "血常规白细胞",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "术后 2 h血常规白细胞的下降是尿脓毒血症的早期预警因子"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_complicated_uti_antibiotic",
-        "content": "推荐根据尿培养和药敏试验结果选择敏感抗菌药物。对于有症状复杂尿路感染的经验治疗需要了解可能的病原菌谱和当地的耐药情况，还要对基础泌尿系统疾病的严重程度进行评估（包括对肾功能的评估）。抗菌药物的经验性治疗需根据临床反应和尿培养结果及时进行修正。",
-        "recommendation_strength": "strong",
-        "source_section": "三、治疗 (一)抗菌药物治疗",
+        "id": "treatment_antibiotic_empirical",
+        "content": "推荐根据尿培养和药敏试验结果选择敏感抗菌药物。对于有症状复杂尿路感染的经验治疗需要了解可能的病原菌谱和当地的耐药情况，还要对基础泌尿系统疾病的严重程度进行评估。",
+        "recommendation_strength": "推荐",
+        "source_section": "治疗",
         "evidence_ids": [
-          "推荐根据尿培养和药敏试验结果选择敏感抗菌药物。对于有症状复杂尿路感染的经验治疗需要了解可能的病原菌谱和当地的耐药情况．还要对基础泌尿系统疾病的严重程度进行评估(包括对肾功能的评估)。抗菌药物的经验性治疗需根据临床反应和尿培养结果及时进行修正。"
+          "推荐根据尿培养和药敏试验结果选择敏感抗菌药物。对于有症状复杂尿路感染的经验治疗需要了解可能的病原菌谱和当地的耐药情况"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_complicated_uti_surgical",
+        "id": "treatment_surgical",
         "content": "积极手术治疗引起或加重尿路感染的尿路梗阻性疾病，包括结石、肿瘤、狭窄、先天性畸形或神经源性膀胱等。在施行手术前要控制好感染以免手术时继发尿源性脓毒血症。",
-        "recommendation_strength": "strong",
-        "source_section": "三、治疗 (二)外科手术治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "外科手术治疗",
         "evidence_ids": [
-          "积极手术治疗引起或加重尿路感染的尿路梗阻性疾病，包括结石、肿瘤、狭窄、先天性畸形或神经源性膀胱等。在施行手术前要控制好感染以免手术时继发尿源性脓毒血症。"
+          "积极手术治疗引起或加重尿路感染的尿路梗阻性疾病"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_stone_infection",
+        "content": "感染和梗阻性尿石症患者需要即刻的肾脏集合系统减压。在进行减压后立即开始抗菌药物治疗。",
+        "recommendation_strength": "推荐",
+        "source_section": "结石合并感染的治疗",
+        "evidence_ids": [
+          "感染和梗阻性尿石症患者需要即刻的肾脏集合系统减压"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_infectious_stone",
+        "content": "应用内镜手术或体外冲击波碎石清除所有结石并做结石成分分析。对感染性结石在进行外科干预前后均应进行抗菌药物治疗。",
+        "recommendation_strength": "推荐",
+        "source_section": "感染性结石的治疗",
+        "evidence_ids": [
+          "应用内镜手术或体外冲击波碎石清除所有结石并做结石成分分析"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_urosepsis",
+        "content": "依据相关指南，进行病因治疗、支持疗法和相应的辅助治疗，需要和重症监护医生配合共同进行治疗。",
+        "recommendation_strength": "推荐",
+        "source_section": "尿脓毒血症治疗",
+        "evidence_ids": [
+          "依据相关指南，进行病因治疗、支持疗法和相应的辅助治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_cauti",
+        "content": "大多数无症状者不推荐使用抗菌药物。当出现感染症状时，首先应对导管进行相关处理，移除导管推荐作为治疗的一部分。",
+        "recommendation_strength": "推荐",
+        "source_section": "尿路导管相关的尿路感染治疗",
+        "evidence_ids": [
+          "大多数无症状者不推荐使用抗菌药物。当出现感染症状时，首先应对导管进行相关处理，移除导管推荐作为治疗的一部分"
+        ],
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_levofloxacin_500mg_qd",
+        "id": "plan_levofloxacin",
         "content": "左氧氟沙星(500 mg静脉或口服，每日1次)",
         "plan_level": 1,
-        "applicable_condition": "轻中度患者或初始经验治疗；近期未用过氟喹诺酮类",
-        "contraindication_note": "无明确禁忌说明",
+        "applicable_condition": "轻中度患者或初始经验治疗，近期未用过氟喹诺酮类",
+        "contraindication_note": null,
         "evidence_ids": [
-          "(1)氟喹诺酮类：近期未用过氟喹诺酮类可选择左氧氟沙星(500 mg静脉或口服，每日1次)"
+          "近期未用过氟喹诺酮类可选择左氧氟沙星(500 mg静脉或口服，每日1次)"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_ciprofloxacin_200mg_q12h",
+        "id": "plan_ciprofloxacin",
         "content": "环丙沙星(200 mg静滴，每日2次)",
         "plan_level": 1,
         "applicable_condition": "轻中度患者或初始经验治疗",
-        "contraindication_note": "无明确禁忌说明",
+        "contraindication_note": null,
         "evidence_ids": [
-          "也可使用环丙沙星(200 mg静滴，每 日2次)，对大肠埃希菌和铜绿假单胞菌具有很好的杀菌效果"
+          "也可使用环丙沙星(200 mg静滴，每 日2次)"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_fosfomycin_trometamol_3g_qod",
+        "id": "plan_cephalosporin_2_3a",
+        "content": "头孢菌素(2代或3a代)",
+        "plan_level": 1,
+        "applicable_condition": "轻中度患者或初始经验治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "头孢菌素(2代或 3a代)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_fosfomycin",
         "content": "磷霉素氨丁三醇(3 g，口服隔日1次)",
         "plan_level": 1,
         "applicable_condition": "非发热性尿路感染的经验性治疗",
-        "contraindication_note": "无明确禁忌说明",
+        "contraindication_note": null,
         "evidence_ids": [
-          "(3)磷霉素氨丁三醇：(3 g，口服隔 日1次)对复杂性尿路感染的大肠埃希菌、粪肠球菌、肺炎克雷伯菌等均有很好的抗菌活性，可用于非发热性尿路感染的经验性治疗"
+          "磷霉素氨丁三醇：(3 g，口服隔 日1次)对复杂性尿路感染的大肠埃希菌、粪肠球菌、肺炎克雷伯菌等均有很好的抗菌活性，可用于非发热性尿路感染的经验性治疗"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_piperacillin_tazobactam_3_375g_q6h",
-        "content": "哌拉西林／他唑巴坦(3．375～4．5 g，静脉滴注，每6小时 1次)",
-        "plan_level": 2,
+        "id": "plan_piperacillin_tazobactam",
+        "content": "哌拉西林/他唑巴坦(3.375～4.5 g，静脉滴注，每6小时1次)",
+        "plan_level": 1,
         "applicable_condition": "重症患者或初始经验性治疗失败患者",
-        "contraindication_note": "无明确禁忌说明",
+        "contraindication_note": null,
         "evidence_ids": [
-          "(2)脲基青霉素(哌拉西林)+B内酰胺酶抑制剂：可选用哌拉西林／他唑巴坦(3．375～4．5 g，静脉滴注，每6小时 1次)"
+          "可选用哌拉西林／他唑巴坦(3．375～4．5 g，静脉滴注，每6小时 1次)"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_ceftazidime_2g_q8h",
-        "content": "头孢他啶(2 g，静脉滴注，每 8小时 1次)",
-        "plan_level": 2,
+        "id": "plan_cephalosporin_3b",
+        "content": "头孢菌素(3b代，如头孢他啶2g q8h或头孢吡肟2g q8h)",
+        "plan_level": 1,
         "applicable_condition": "重症患者或初始经验性治疗失败患者",
-        "contraindication_note": "无明确禁忌说明",
+        "contraindication_note": null,
         "evidence_ids": [
-          "(3)头孢菌素(3b代)：增加了对假单胞菌的抗菌活性，如头孢他啶(2 g，静脉滴注，每 8小时 1次)"
+          "头孢菌素(3b代)：增加了对假单胞菌的抗菌活性，如头孢他啶(2 g，静脉滴注，每 8小时 1次)和头孢吡肟(2 g，静脉滴注，每 8小时 1次)"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_imipenem_0_5g_q6h",
-        "content": "亚胺培南(0．5 g，静脉滴注，每 6小时 1次)",
-        "plan_level": 2,
-        "applicable_condition": "重症患者或初始经验性治疗失败患者",
-        "contraindication_note": "无明确禁忌说明",
+        "id": "plan_carbapenems",
+        "content": "碳青霉烯类(如亚胺培南、美罗培南等)",
+        "plan_level": 1,
+        "applicable_condition": "重症患者或敏感菌所致的各类感染",
+        "contraindication_note": null,
         "evidence_ids": [
-          "(4)碳青霉烯类 ：如亚胺培南、美罗培南、帕尼培南及比阿培南，可用于敏感菌所致的各类感染，亚胺培南的剂量为0．5 g，静脉滴注，每 6小时 1次或1 g，每8小时 1次"
+          "碳青霉烯类 ：如亚胺培南、美罗培南、帕尼培南及比阿培南，可用于敏感菌所致的各类感染"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_vancomycin_1g_q12h",
+        "id": "plan_vancomycin",
         "content": "万古霉素(1 g，静脉滴注，每12小时1次)",
-        "plan_level": 2,
+        "plan_level": 1,
         "applicable_condition": "病情严重且尿培养提示革兰阳性球菌",
         "contraindication_note": "应检测血药浓度，肾功能不全者根据肌酐清除率调整剂量",
         "evidence_ids": [
-          "3．如果患者病情严重且尿培养提示革兰阳性球菌，应经验性选择万古霉素(1 g，静脉滴注，每 l2小时1次)，但应检测血药浓度，肾功能不全者根据肌酐清除率调整剂量"
+          "如果患者病情严重且尿培养提示革兰阳性球菌，应经验性选择万古霉素(1 g，静脉滴注，每 l2小时1次)"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_decompression",
+        "content": "肾脏集合系统减压(逆行输尿管插管或经皮肾造瘘)",
+        "plan_level": 1,
+        "applicable_condition": "感染和梗阻性尿石症患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "感染和梗阻性尿石症患者需要即刻的肾脏集合系统减压。如果逆行输尿管插管成功则可以达到和经皮肾造瘘一样的对肾脏集合系统的减压效果"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_endoscopic_eswl",
+        "content": "应用内镜手术或体外冲击波碎石清除所有结石并做结石成分分析",
+        "plan_level": 1,
+        "applicable_condition": "感染性结石",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "应用内镜手术或体外冲击波碎石清除所有结石并做结石成分分析"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_catheter_removal",
+        "content": "移除导管或更换留置时间超过7 d的导管",
+        "plan_level": 1,
+        "applicable_condition": "出现感染症状的导管相关尿路感染",
+        "contraindication_note": "如没有必要继续留置导管，应不再插管",
+        "evidence_ids": [
+          "移除导管推荐作为治疗的一部分。如没有必要继续留置导管，应不再插管：如果导管无法去除，在取尿样培养前和应用抗菌药物治疗前应更换留置时间超过7 d的导管"
+        ],
+        "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_indwelling_catheter",
-        "content": "留置导尿管",
-        "etiology_type": "医源性因素",
-        "typicality": "typical",
+        "id": "etiology_structural_functional_abnormality",
+        "content": "泌尿生殖道的结构或功能异常，或其他潜在疾病",
+        "etiology_type": "解剖/功能异常",
+        "typicality": "常见",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：留置导尿管、支架管或间歇性膀胱导尿"
+          "如泌尿生殖道的结构或功能异常，或其他潜在疾病"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "etiology_indwelling_stent",
-        "content": "支架管",
+        "id": "etiology_catheter_stent",
+        "content": "留置导尿管、支架管或间歇性膀胱导尿",
         "etiology_type": "医源性因素",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：留置导尿管、支架管或间歇性膀胱导尿"
+          "留置导尿管、支架管或间歇性膀胱导尿"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "etiology_intermittent_catheterization",
-        "content": "间歇性膀胱导尿",
-        "etiology_type": "医源性因素",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：留置导尿管、支架管或间歇性膀胱导尿"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_residual_urine_gt100ml",
+        "id": "etiology_residual_urine",
         "content": "残余尿>100 ml",
-        "etiology_type": "解剖/功能异常",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
+        "etiology_type": "功能异常",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：……残余尿>100 ml"
+          "残余尿>100 ml"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "etiology_obstructive_uropathy",
-        "content": "梗阻性尿路疾病",
-        "etiology_type": "解剖/功能异常",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
+        "id": "etiology_obstruction",
+        "content": "任何原因引起的梗阻性尿路疾病，如膀胱出口梗阻、神经源性膀胱、结石和肿瘤",
+        "etiology_type": "梗阻因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：……任何原因引起的梗阻性尿路疾病，如膀胱出口梗阻、神经源性膀胱、结石和肿瘤"
+          "任何原因引起的梗阻性尿路疾病，如膀胱出口梗阻、神经源性膀胱、结石和肿瘤"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "etiology_vesicoureteral_reflux",
-        "content": "膀胱输尿管反流",
-        "etiology_type": "解剖/功能异常",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：……膀胱输尿管反流或其他功能异常"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_urinary_diversion",
-        "content": "尿流改道",
-        "etiology_type": "解剖/功能异常",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：……尿流改道"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_chemoradiation_injury",
-        "content": "化疗或放疗损伤尿路上皮",
-        "etiology_type": "医源性因素",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：……化疗或放疗损伤尿路上皮"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_perioperative_uti",
-        "content": "围手术期和术后尿路感染",
-        "etiology_type": "医源性因素",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：……围手术期和术后尿路感染"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_renal_insufficiency",
-        "content": "肾功能不全",
-        "etiology_type": "基础疾病",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：……肾功能不全、移植肾、糖尿病和免疫缺陷等"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_transplanted_kidney",
-        "content": "移植肾",
-        "etiology_type": "基础疾病",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：……肾功能不全、移植肾、糖尿病和免疫缺陷等"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_diabetes_mellitus",
-        "content": "糖尿病",
-        "etiology_type": "基础疾病",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：……肾功能不全、移植肾、糖尿病和免疫缺陷等"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_immunodeficiency",
-        "content": "免疫缺陷",
-        "etiology_type": "基础疾病",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：……肾功能不全、移植肾、糖尿病和免疫缺陷等"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_proteus_mirabilis",
-        "content": "变形杆菌",
+        "id": "etiology_urease_bacteria",
+        "content": "产尿素酶的革兰阴性菌(主要是变形杆菌、雷氏普罗威登斯菌和摩氏摩根菌)",
         "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "病因",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "感染性结石的形成与产尿素酶的细菌(主要是变形杆菌、雷氏普罗威登斯菌和摩氏摩根菌，尿路感染常见)"
+          "感染通常由产尿素酶的革兰阴性菌引起，这些细菌在结石的形成中起到关键作用"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "etiology_providencia_rettgeri",
-        "content": "雷氏普罗威登斯菌",
+        "id": "etiology_stone_endotoxin",
+        "content": "结石内高水平的细菌内毒素(脂多糖类)被释放入循环系统",
         "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "病因",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "感染性结石的形成与产尿素酶的细菌(主要是变形杆菌、雷氏普罗威登斯菌和摩氏摩根菌，尿路感染常见)"
+          "感染性结石和非感染性结石内高水平的细菌内毒素(脂多糖类)被释放人循环系统"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_morganella_morganii",
-        "content": "摩氏摩根菌",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "病因",
-        "evidence_ids": [
-          "感染性结石的形成与产尿素酶的细菌(主要是变形杆菌、雷氏普罗威登斯菌和摩氏摩根菌，尿路感染常见)"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_urease_mediated_stone_formation",
-        "content": "感染性结石的形成与产尿素酶的细菌(主要是变形杆菌、雷氏普罗威登斯菌和摩氏摩根菌，尿路感染常见)水解尿素有关，尿素酶将尿素分解为二氧化碳和氨，升高尿液 pH值，促进了磷酸镁铵和碳酸磷灰石的形成",
+        "id": "pathogenesis_infectious_stone",
+        "content": "尿素酶将尿素分解为二氧化碳和氨，升高尿液pH值，促进了磷酸镁铵和碳酸磷灰石的形成",
         "evidence_ids": [
-          "感染性结石的形成与产尿素酶的细菌(主要是变形杆菌、雷氏普罗威登斯菌和摩氏摩根菌，尿路感染常见)水解尿素有关，尿素酶将尿素分解为二氧化碳和氨，升高尿液 pH值，促进了磷酸镁铵和碳酸磷灰石的形成"
+          "尿素酶将尿素分解为二氧化碳和氨，升高尿液 pH值，促进了磷酸镁铵和碳酸磷灰石的形成"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_urosepsis",
+        "content": "细菌内毒素释放入循环系统触发系统炎症应答反应，因为尿路的梗阻开放了肾盂淋巴和静脉的通路，这一过程被尿路存在的梗阻性疾病放大",
+        "evidence_ids": [
+          "随后触发系统炎症应答反应，因为尿路的梗阻开放了肾盂淋巴和静脉的通路，这一过程被尿路存在的梗阻性疾病放大"
+        ],
+        "confidence": 0.9
       }
     ]
   },
@@ -551,14 +582,14 @@
       },
       {
         "from": "disease_uti",
-        "to": "sub_disease_complicated_uti_with_stone",
-        "relation_id": "rel_uti_has_complicated_uti_with_stone",
+        "to": "sub_disease_uti_with_stone_infection",
+        "relation_id": "rel_uti_has_stone_infection",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "(一)合并尿路结石的复杂性尿路感染"
+          "结石并发尿路感染"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_uti",
@@ -567,27 +598,38 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "(2)感染性结石：尿路感染引起的尿路结石，感染通常由产尿素酶的革兰阴性菌引起"
+          "尿路感染引起的尿路结石"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_uti",
-        "to": "sub_disease_catheter_related_uti",
-        "relation_id": "rel_uti_has_catheter_related_uti",
+        "to": "sub_disease_urosepsis_post_surgery",
+        "relation_id": "rel_uti_has_urosepsis",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "(三)尿路导管相关的尿路感染"
+          "尿路结石相关手术的术后发热和尿脓毒血症"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_uti",
+        "to": "sub_disease_cauti",
+        "relation_id": "rel_uti_has_cauti",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "尿路导管相关的尿路感染"
+        ],
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
         "from": "sub_disease_complicated_uti",
-        "to": "symptom_urinary_frequency",
-        "relation_id": "rel_complicated_uti_manifests_as_urinary_frequency",
+        "to": "symptom_frequency",
+        "relation_id": "rel_complicated_uti_manifests_frequency",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -595,18 +637,18 @@
         "weight": 6,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床评估",
         "evidence_ids": [
           "下尿路感染常见症状为尿频、尿急、尿痛等"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "sub_disease_complicated_uti",
-        "to": "symptom_urinary_urgency",
-        "relation_id": "rel_complicated_uti_manifests_as_urinary_urgency",
+        "to": "symptom_urgency",
+        "relation_id": "rel_complicated_uti_manifests_urgency",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -614,18 +656,18 @@
         "weight": 6,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床评估",
         "evidence_ids": [
           "下尿路感染常见症状为尿频、尿急、尿痛等"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "sub_disease_complicated_uti",
         "to": "symptom_dysuria",
-        "relation_id": "rel_complicated_uti_manifests_as_dysuria",
+        "relation_id": "rel_complicated_uti_manifests_dysuria",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -633,37 +675,56 @@
         "weight": 6,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床评估",
         "evidence_ids": [
           "下尿路感染常见症状为尿频、尿急、尿痛等"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "sub_disease_complicated_uti",
         "to": "symptom_flank_pain",
-        "relation_id": "rel_complicated_uti_manifests_as_flank_pain",
+        "relation_id": "rel_complicated_uti_manifests_flank_pain",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
+        "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床评估",
         "evidence_ids": [
           "上尿路感染则以肾区疼痛、发热较为多见"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "sub_disease_complicated_uti",
         "to": "symptom_fever",
-        "relation_id": "rel_complicated_uti_manifests_as_fever",
+        "relation_id": "rel_complicated_uti_manifests_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床评估",
+        "evidence_ids": [
+          "上尿路感染则以肾区疼痛、发热较为多见"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_uti_with_stone_infection",
+        "to": "symptom_pyuria",
+        "relation_id": "rel_stone_infection_manifests_pyuria",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -671,56 +732,47 @@
         "weight": 6,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
-        "section_priority": "临床评估",
+        "section_priority": "诊断",
         "evidence_ids": [
-          "上尿路感染则以肾区疼痛、发热较为多见"
+          "可以从单纯的脓尿、尿急、尿频、腰痛、肋脊角压痛、耻骨上疼痛和发热到严重的梗阻性急性肾盂肾炎"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_uti_with_stone_infection",
+        "to": "symptom_suprapubic_pain",
+        "relation_id": "rel_stone_infection_manifests_suprapubic_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断",
+        "evidence_ids": [
+          "可以从单纯的脓尿、尿急、尿频、腰痛、肋脊角压痛、耻骨上疼痛和发热到严重的梗阻性急性肾盂肾炎"
+        ],
+        "confidence": 0.9
       }
     ],
     "requires_test": [
       {
         "from": "sub_disease_complicated_uti",
-        "to": "test_urine_culture_colony_count",
-        "relation_id": "rel_complicated_uti_requires_urine_culture",
+        "to": "test_urine_culture_female",
+        "relation_id": "rel_complicated_uti_requires_urine_culture_female",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
-        "value_min": 10000,
+        "value_min": 10,
         "value_max": null,
         "operator": ">",
         "unit": "cfu/ml",
-        "result_text": null,
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "临床评估",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "尿培养：对于复杂性尿路感染，清洁中段尿培养菌落计数女性>10 cfu／ml、男性>10 cfu／ml，或所有患者导尿留取的尿标本细菌菌落计数>10 cfu／ml具有诊断价值"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将该菌落计数标准表述为‘具有诊断价值’，且在复杂性尿路感染诊断标准中作为阳性判定的唯一量化依据，符合金标准定义",
-        "evidence": "尿培养：对于复杂性尿路感染，清洁中段尿培养菌落计数女性>10cfu／ml、男性>10cfu／ml，或所有患者导尿留取的尿标本细菌菌落计数>10cfu／ml具有诊断价值[2]。"
-      },
-      {
-        "from": "sub_disease_complicated_uti_with_stone",
-        "to": "test_urine_ph",
-        "relation_id": "rel_complicated_uti_with_stone_requires_urine_ph",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断支持条件",
-        "diagnostic_role": "supportive",
-        "value_min": 7.2,
-        "value_max": null,
-        "operator": ">",
-        "unit": "pH",
         "result_text": null,
         "weight": 8,
         "gold_standard": false,
@@ -728,94 +780,448 @@
         "required_count": null,
         "polarity": "elevated",
         "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "清洁中段尿培养菌落计数女性>10 cfu／ml"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出清洁中段尿培养对女性复杂性尿路感染具有诊断价值，但未明确为金标准。",
+        "evidence": "对于复杂性尿路感染，清洁中段尿培养"
+      },
+      {
+        "from": "sub_disease_complicated_uti",
+        "to": "test_urine_culture_male",
+        "relation_id": "rel_complicated_uti_requires_urine_culture_male",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 10,
+        "value_max": null,
+        "operator": ">",
+        "unit": "cfu/ml",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "男性>10 cfu／ml"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出清洁中段尿培养对男性复杂性尿路感染具有诊断价值，但未明确为金标准。",
+        "evidence": "对于复杂性尿路感染，清洁中段尿培养"
+      },
+      {
+        "from": "sub_disease_complicated_uti",
+        "to": "test_urine_culture_catheter",
+        "relation_id": "rel_complicated_uti_requires_urine_culture_catheter",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 10,
+        "value_max": null,
+        "operator": ">",
+        "unit": "cfu/ml",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "所有患者导尿留取的尿标本细菌菌落计数>10 cfu／ml"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出导尿留取标本培养对复杂性尿路感染具有诊断价值，但未明确为金标准。",
+        "evidence": "对于复杂性尿路感染，清洁中段尿培养"
+      },
+      {
+        "from": "sub_disease_complicated_uti",
+        "to": "test_imaging",
+        "relation_id": "rel_complicated_uti_requires_imaging",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "寻找泌尿生殖道结构、功能异常或者其他存在易发感染的疾病",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
         "section_priority": "临床评估",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "影像学检查如超声、腹部平片、尿路造影和泌尿系 CT主要 目的是寻找泌尿生殖道结构、功能异常或者其他存在易发感染的疾病"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_infectious_stone",
+        "to": "test_urine_ph",
+        "relation_id": "rel_infectious_stone_requires_urine_ph",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": 6.8,
+        "value_max": null,
+        "operator": ">=",
+        "unit": null,
+        "result_text": "尿pH值为6.8时碳酸磷灰石开始结晶，而在尿pH>7.2时磷酸镁铵结石开始沉积形成",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
           "尿 pH值测定对感染性结石的判断有意义，因为对感染性结石来说，尿 pH值为 6．8时碳酸磷灰石开始结晶，而在尿 pH>7．2时磷酸镁铵结石开始沉积形成"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文指出尿pH值测定‘对感染性结石的判断有意义’，并给出具体临界值（pH>7.2时磷酸镁铵结石开始沉积），属强相关但非确诊依据",
-        "evidence": "尿pH值测定对感染性结石的判断有意义，因为对感染性结石来说，尿pH值为6．8时碳酸磷灰石开始结晶，而在尿pH>7．2时磷酸镁铵结石开始沉积形成¨2]。"
+        "confidence": 0.9,
+        "weight_reason": "原文指出尿pH值测定对感染性结石的判断有意义，属于重要辅助诊断，非确诊金标准。",
+        "evidence": "尿pH值测定对感染性结石的判断有意义"
+      },
+      {
+        "from": "sub_disease_urosepsis_post_surgery",
+        "to": "test_wbc",
+        "relation_id": "rel_urosepsis_requires_wbc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 2.85,
+        "operator": "<=",
+        "unit": "×10^9/L",
+        "result_text": "术后2h血白细胞降至2.85×10^9/L时，出现尿源性感染中毒性休克的敏感性为95.9％",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "术后的早期预警",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "术后 2 h血常规白细胞的下降是尿脓毒血症的早期预警因子，文献报道尿路结石术后 2 h血白细胞降至 2．85×10 ／L时。出现尿源性感染中毒性休克的敏感性为 95．9％"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出术后血常规白细胞下降是尿脓毒血症的早期预警因子，非确诊金标准。",
+        "evidence": "术后2h血常规白细胞的下降是尿脓毒血症的早期预警因子"
+      },
+      {
+        "from": "sub_disease_uti_with_stone_infection",
+        "to": "test_blood_culture",
+        "relation_id": "rel_stone_infection_requires_blood_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "common",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "发热患者应该同时做血培养"
+        ],
+        "confidence": 0.9
       }
     ],
     "follows_treatment": [
       {
         "from": "sub_disease_complicated_uti",
-        "to": "treatment_complicated_uti_antibiotic",
-        "relation_id": "rel_complicated_uti_follows_antibiotic_treatment",
+        "to": "treatment_antibiotic_empirical",
+        "relation_id": "rel_complicated_uti_follows_antibiotic",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后即启动",
+        "applicable_condition": "有症状复杂尿路感染",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "推荐",
         "decision_basis": [
-          "尿培养结果",
-          "药敏试验",
-          "基础疾病"
+          "尿培养和药敏试验结果",
+          "病原菌谱",
+          "当地耐药情况"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "三、治疗 (一)抗菌药物治疗",
+        "source_section": "治疗",
         "confidence": 0.95
       },
       {
         "from": "sub_disease_complicated_uti",
-        "to": "treatment_complicated_uti_surgical",
-        "relation_id": "rel_complicated_uti_follows_surgical_treatment",
+        "to": "treatment_surgical",
+        "relation_id": "rel_complicated_uti_follows_surgical",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "引起或加重尿路感染的尿路梗阻性疾病",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "梗阻性疾病"
+        ],
+        "contraindication_note": "在施行手术前要控制好感染以免手术时继发尿源性脓毒血症",
+        "evidence_level": "expert_consensus",
+        "source_section": "外科手术治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_uti_with_stone_infection",
+        "to": "treatment_stone_infection",
+        "relation_id": "rel_stone_infection_follows_treatment",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "存在尿路梗阻性疾病",
+        "applicable_condition": "感染和梗阻性尿石症",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "推荐",
         "decision_basis": [
-          "影像学检查",
-          "梗阻证据"
+          "梗阻",
+          "感染"
         ],
-        "contraindication_note": "术前需控制感染",
+        "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "三、治疗 (二)外科手术治疗",
-        "confidence": 0.95
+        "source_section": "结石合并感染的治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_infectious_stone",
+        "to": "treatment_infectious_stone",
+        "relation_id": "rel_infectious_stone_follows_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "感染性结石",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "结石成分",
+          "药敏结果"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "感染性结石的治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_urosepsis_post_surgery",
+        "to": "treatment_urosepsis",
+        "relation_id": "rel_urosepsis_follows_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "术后",
+        "treatment_line": "一线",
+        "applicable_condition": "尿源性脓毒血症",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "相关指南"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "尿脓毒血症治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_cauti",
+        "to": "treatment_cauti",
+        "relation_id": "rel_cauti_follows_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "导管相关尿路感染",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "感染症状",
+          "导管留置时间"
+        ],
+        "contraindication_note": "大多数无症状者不推荐使用抗菌药物",
+        "evidence_level": "expert_consensus",
+        "source_section": "尿路导管相关的尿路感染治疗",
+        "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_complicated_uti_antibiotic",
-        "to": "plan_levofloxacin_500mg_qd",
-        "relation_id": "rel_antibiotic_treatment_implements_by_levofloxacin",
+        "from": "treatment_antibiotic_empirical",
+        "to": "plan_levofloxacin",
+        "relation_id": "rel_antibiotic_implements_levofloxacin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "轻中度患者或初始经验治疗；近期未用过氟喹诺酮类",
+        "applicable_condition": "轻中度患者或初始经验治疗，近期未用过氟喹诺酮类",
         "contraindication_note": null,
         "evidence_ids": [
-          "(1)氟喹诺酮类：近期未用过氟喹诺酮类可选择左氧氟沙星(500 mg静脉或口服，每日1次)"
+          "近期未用过氟喹诺酮类可选择左氧氟沙星(500 mg静脉或口服，每日1次)"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "treatment_complicated_uti_antibiotic",
-        "to": "plan_ciprofloxacin_200mg_q12h",
-        "relation_id": "rel_antibiotic_treatment_implements_by_ciprofloxacin",
+        "from": "treatment_antibiotic_empirical",
+        "to": "plan_ciprofloxacin",
+        "relation_id": "rel_antibiotic_implements_ciprofloxacin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
-        "plan_role": "首选",
+        "plan_role": "替代",
         "applicable_condition": "轻中度患者或初始经验治疗",
         "contraindication_note": null,
         "evidence_ids": [
-          "也可使用环丙沙星(200 mg静滴，每 日2次)，对大肠埃希菌和铜绿假单胞菌具有很好的杀菌效果"
+          "也可使用环丙沙星(200 mg静滴，每 日2次)"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antibiotic_empirical",
+        "to": "plan_cephalosporin_2_3a",
+        "relation_id": "rel_antibiotic_implements_cephalosporin_2_3a",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "轻中度患者或初始经验治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "头孢菌素(2代或 3a代)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antibiotic_empirical",
+        "to": "plan_fosfomycin",
+        "relation_id": "rel_antibiotic_implements_fosfomycin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "非发热性尿路感染的经验性治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "磷霉素氨丁三醇：(3 g，口服隔 日1次)对复杂性尿路感染的大肠埃希菌、粪肠球菌、肺炎克雷伯菌等均有很好的抗菌活性，可用于非发热性尿路感染的经验性治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antibiotic_empirical",
+        "to": "plan_piperacillin_tazobactam",
+        "relation_id": "rel_antibiotic_implements_piperacillin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "重症患者或初始经验性治疗失败患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "可选用哌拉西林／他唑巴坦(3．375～4．5 g，静脉滴注，每6小时 1次)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antibiotic_empirical",
+        "to": "plan_carbapenems",
+        "relation_id": "rel_antibiotic_implements_carbapenems",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "重症患者或敏感菌所致的各类感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "碳青霉烯类 ：如亚胺培南、美罗培南、帕尼培南及比阿培南，可用于敏感菌所致的各类感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antibiotic_empirical",
+        "to": "plan_vancomycin",
+        "relation_id": "rel_antibiotic_implements_vancomycin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "病情严重且尿培养提示革兰阳性球菌",
+        "contraindication_note": "应检测血药浓度，肾功能不全者根据肌酐清除率调整剂量",
+        "evidence_ids": [
+          "如果患者病情严重且尿培养提示革兰阳性球菌，应经验性选择万古霉素(1 g，静脉滴注，每 l2小时1次)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_stone_infection",
+        "to": "plan_decompression",
+        "relation_id": "rel_stone_infection_implements_decompression",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "感染和梗阻性尿石症患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "感染和梗阻性尿石症患者需要即刻的肾脏集合系统减压"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_infectious_stone",
+        "to": "plan_endoscopic_eswl",
+        "relation_id": "rel_infectious_stone_implements_endoscopic",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "感染性结石",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "应用内镜手术或体外冲击波碎石清除所有结石并做结石成分分析"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_cauti",
+        "to": "plan_catheter_removal",
+        "relation_id": "rel_cauti_implements_catheter_removal",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "出现感染症状的导管相关尿路感染",
+        "contraindication_note": "如没有必要继续留置导管，应不再插管",
+        "evidence_ids": [
+          "移除导管推荐作为治疗的一部分。如没有必要继续留置导管，应不再插管"
+        ],
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
         "from": "sub_disease_complicated_uti",
-        "to": "etiology_indwelling_catheter",
-        "relation_id": "rel_complicated_uti_caused_by_indwelling_catheter",
+        "to": "etiology_structural_functional_abnormality",
+        "relation_id": "rel_complicated_uti_caused_by_structural",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -823,22 +1229,108 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "诊断复杂性尿路感染有 2条标准。尿培养阳性以及包括以下至少 1条合并因素：留置导尿管、支架管或间歇性膀胱导尿"
+          "如泌尿生殖道的结构或功能异常，或其他潜在疾病"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_complicated_uti",
+        "to": "etiology_catheter_stent",
+        "relation_id": "rel_complicated_uti_caused_by_catheter",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "留置导尿管、支架管或间歇性膀胱导尿"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_complicated_uti",
+        "to": "etiology_residual_urine",
+        "relation_id": "rel_complicated_uti_caused_by_residual",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "残余尿>100 ml"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_complicated_uti",
+        "to": "etiology_obstruction",
+        "relation_id": "rel_complicated_uti_caused_by_obstruction",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "任何原因引起的梗阻性尿路疾病，如膀胱出口梗阻、神经源性膀胱、结石和肿瘤"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_infectious_stone",
+        "to": "etiology_urease_bacteria",
+        "relation_id": "rel_infectious_stone_caused_by_urease",
+        "relation_name": "导致",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "感染通常由产尿素酶的革兰阴性菌引起，这些细菌在结石的形成中起到关键作用"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_urosepsis_post_surgery",
+        "to": "etiology_stone_endotoxin",
+        "relation_id": "rel_urosepsis_caused_by_endotoxin",
+        "relation_name": "导致",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "感染性结石和非感染性结石内高水平的细菌内毒素(脂多糖类)被释放人循环系统"
+        ],
+        "confidence": 0.9
       }
     ],
     "explained_by": [
       {
         "from": "sub_disease_infectious_stone",
-        "to": "pathogenesis_urease_mediated_stone_formation",
-        "relation_id": "rel_infectious_stone_explained_by_urease",
+        "to": "pathogenesis_infectious_stone",
+        "relation_id": "rel_infectious_stone_explained_by_ph",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "感染性结石的形成与产尿素酶的细菌(主要是变形杆菌、雷氏普罗威登斯菌和摩氏摩根菌，尿路感染常见)水解尿素有关，尿素酶将尿素分解为二氧化碳和氨，升高尿液 pH值，促进了磷酸镁铵和碳酸磷灰石的形成"
+          "尿素酶将尿素分解为二氧化碳和氨，升高尿液 pH值，促进了磷酸镁铵和碳酸磷灰石的形成"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_urosepsis_post_surgery",
+        "to": "pathogenesis_urosepsis",
+        "relation_id": "rel_urosepsis_explained_by_inflammation",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "随后触发系统炎症应答反应，因为尿路的梗阻开放了肾盂淋巴和静脉的通路，这一过程被尿路存在的梗阻性疾病放大"
+        ],
+        "confidence": 0.9
       }
     ]
   },

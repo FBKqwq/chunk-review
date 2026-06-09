@@ -11,12 +11,12 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_fever_of_unknown_origin",
+        "id": "disease_fu",
         "name": "发热待查",
         "normalized_name": "发热待查",
         "aliases": [
-          "fever of unknown origin",
           "FUO",
+          "fever of unknown origin",
           "不明原因发热",
           "原因不明的发热"
         ],
@@ -25,7 +25,6 @@
         ],
         "evidence_ids": [
           "“发热待查”是感染科疑难疾病诊治中的难点。",
-          "“发热待查”这一概念在我国最早于 1962年见诸于文献_】]，笼统指代“开始症状或物征不典型以致诊断不明确”的发热。",
           "建议 1：统一将“fever of unknown origin”命名为发热待查。"
         ],
         "confidence": 0.95
@@ -33,28 +32,28 @@
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_classic_fever_of_unknown_origin",
+        "id": "sub_disease_classic_fu",
         "name": "经典型发热待查",
-        "parent_disease_id": "disease_fever_of_unknown_origin",
-        "disease_subtype": null,
+        "parent_disease_id": "disease_fu",
+        "disease_subtype": "经典型",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": "无免疫缺陷相关疾病史者",
+        "severity": "不限定",
+        "population": "无免疫缺陷相关疾病史患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "1．经典型发热待查：发热持续 3周以上，口腔体温至少 3次>38．3。C(或至少 3次体温在 1 d内波动>1．2℃)，经过至少 1周在门诊或住院的系统全面的检查仍不能确诊的一组疾病。系统全面的检查应至少包括 3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部 X线片和腹部 B超。且患者无免疫缺陷相关疾病史。"
+          "1．经典型发热待查：发热持续 3周以上，口腔体温至少 3次>38．3。C(或至少 3次体温在 1 d内波动>1．2℃)，经过至少 1周在门诊或住院的系统全面的检查仍不能确诊的一组疾病。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "sub_disease_hospitalized_fever_of_unknown_origin",
+        "id": "sub_disease_nosocomial_fu",
         "name": "住院患者的发热待查",
-        "parent_disease_id": "disease_fever_of_unknown_origin",
-        "disease_subtype": null,
+        "parent_disease_id": "disease_fu",
+        "disease_subtype": "特殊人群",
         "clinical_stage": "不限定",
-        "severity": null,
+        "severity": "不限定",
         "population": "住院患者",
         "gender": "all",
         "age_min": null,
@@ -65,12 +64,12 @@
         "confidence": 0.95
       },
       {
-        "id": "sub_disease_neutropenic_fever_of_unknown_origin",
+        "id": "sub_disease_neutropenic_fu",
         "name": "粒细胞缺乏患者的发热待查",
-        "parent_disease_id": "disease_fever_of_unknown_origin",
-        "disease_subtype": null,
+        "parent_disease_id": "disease_fu",
+        "disease_subtype": "特殊人群",
         "clinical_stage": "不限定",
-        "severity": null,
+        "severity": "不限定",
         "population": "粒细胞缺乏患者",
         "gender": "all",
         "age_min": null,
@@ -81,12 +80,12 @@
         "confidence": 0.95
       },
       {
-        "id": "sub_disease_hiv_fever_of_unknown_origin",
+        "id": "sub_disease_hiv_fu",
         "name": "HIV感染者的发热待查",
-        "parent_disease_id": "disease_fever_of_unknown_origin",
-        "disease_subtype": null,
+        "parent_disease_id": "disease_fu",
+        "disease_subtype": "特殊人群",
         "clinical_stage": "不限定",
-        "severity": null,
+        "severity": "不限定",
         "population": "HIV感染者",
         "gender": "all",
         "age_min": null,
@@ -106,7 +105,7 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "发热持续 3周以上，口腔体温至少 3次>38．3。C(或至少 3次体温在 1 d内波动>1．2℃)"
+          "发热持续 3周以上，口腔体温至少 3次>38．3。C"
         ],
         "confidence": 0.95
       },
@@ -118,31 +117,7 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "有乏力、寒战等毒性症状者"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_sweating",
-        "name": "出汗",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "按系统顺序询问伴随症状 发热的伴随症状有重要的诊断参考价值。初学者为防止遗漏，可按照系统顺序逐一询问：①常见全身症状：畏寒、寒战、出汗、消瘦、皮疹、皮肤颜色改变"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_weight_loss",
-        "name": "消瘦",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "按系统顺序询问伴随症状 发热的伴随症状有重要的诊断参考价值。初学者为防止遗漏，可按照系统顺序逐一询问：①常见全身症状：畏寒、寒战、出汗、消瘦、皮疹、皮肤颜色改变"
+          "常见全身症状：畏寒、寒战、出汗、消瘦、皮疹、皮肤颜色改变"
         ],
         "confidence": 0.9
       },
@@ -154,19 +129,31 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "按系统顺序询问伴随症状 发热的伴随症状有重要的诊断参考价值。初学者为防止遗漏，可按照系统顺序逐一询问：①常见全身症状：畏寒、寒战、出汗、消瘦、皮疹、皮肤颜色改变"
+          "皮疹是发热待查患者的重要伴随体征，很有可能为发热待查的病因诊断提供重要线索。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_headache",
-        "name": "头痛",
-        "body_site": "头部",
-        "symptom_category": "神经系统症状",
+        "id": "symptom_lymphadenopathy",
+        "name": "淋巴结肿大",
+        "body_site": "淋巴结",
+        "symptom_category": "血液系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "头痛或意识障碍 颅内疾病(感染、肿瘤、血管病变)、颞动脉炎等"
+          "淋巴结肿大分为局限性和全身性。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_splenomegaly",
+        "name": "脾肿大",
+        "body_site": "脾脏",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "临床上将脾脏肿大分为轻、中、高度肿大。"
         ],
         "confidence": 0.9
       },
@@ -178,67 +165,20 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "关节疼痛 血流感染、布鲁菌病、兔热病、Whipple病、系统性红斑狼疮、结节病、成人still病、类风湿关节炎、痛风、家族性地中海热等"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_myalgia",
-        "name": "肌痛",
-        "body_site": "肌肉",
-        "symptom_category": "运动系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "肌痛 Q热、钩端螺旋体病、立克次体病、旋毛虫病、心内膜炎、结节性多动脉炎、类风湿关节炎、家族性地中海热、多发性肌炎等"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_abdominal_pain",
-        "name": "腹痛",
-        "body_site": "腹部",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "腹痛 腹腔内疾病(感染、肿瘤)、螺旋体病、沙门菌感染、旋毛虫病、系统性红斑狼疮、结节性多动脉炎、成人 still病、克罗恩病、家族性地中海热、卟啉病等"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_back_pain",
-        "name": "背痛",
-        "body_site": "背部",
-        "symptom_category": "运动系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "背痛 心内膜炎、布鲁菌病 、椎体感染等"
+          "关节疼痛在发热待查中十分常见。"
         ],
         "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_temperature_oral",
-        "name": "口腔测体温",
-        "normal_range_min": 36.0,
-        "normal_range_max": 37.2,
-        "is_digital": 1,
+        "id": "test_blood_routine",
+        "name": "血常规",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
         "evidence_ids": [
-          "口腔体温至少 3次>38．3。C(或至少 3次体温在 1 d内波动>1．2℃)"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_neutrophil_count",
-        "name": "中性粒细胞计数",
-        "normal_range_min": 1.8,
-        "normal_range_max": 7.0,
-        "is_digital": 1,
-        "evidence_ids": [
-          "患者存在粒细胞缺乏(中性粒细胞计数<O．5×10。个／i )"
+          "系统全面的检查应至少包括 3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部 X线片和腹部 B超。"
         ],
         "confidence": 0.95
       },
@@ -249,151 +189,112 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "血培养、胸部 X线片和腹部 B超。",
           "血培养(3次不同部位不同时间抽取)"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_chest_xray",
-        "name": "胸部X线片",
+        "id": "test_pet_ct",
+        "name": "PET-CT",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "血培养、胸部 X线片和腹部 B超。"
+          "氟一18一脱氧葡萄糖 ( F—FDG)PET—CT在发热待查 中的地位也逐渐被重视。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_abdominal_ultrasound",
-        "name": "腹部B超",
+        "id": "test_esr",
+        "name": "红细胞沉降率",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "血培养、胸部 X线片和腹部 B超。",
-          "腹部 B超(肝、胆、胰、脾、肾)"
+          "红细胞沉降率、c反应蛋白、铁蛋白、免疫固定电泳"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_complete_blood_count",
-        "name": "血常规",
+        "id": "test_crp",
+        "name": "C反应蛋白",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "系统全面的检查应至少包括 3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部 X线片和腹部 B超。",
-          "建议 4：系统全面的检查应包括：血常规、尿常规、粪便常规+隐血、肝功能、。肾功能、电解质、血培养(3次不同部位不同时问抽取)、胸片和腹部 B超(肝、胆、胰、脾、肾)。"
+          "红细胞沉降率、c反应蛋白、铁蛋白、免疫固定电泳"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_urine_routine",
-        "name": "尿常规",
+        "id": "test_ana",
+        "name": "自身抗体谱",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "建议 4：系统全面的检查应包括：血常规、尿常规、粪便常规+隐血、肝功能、。肾功能、电解质、血培养(3次不同部位不同时问抽取)、胸片和腹部 B超(肝、胆、胰、脾、肾)。"
+          "自身抗体谱、肿瘤标志物、HIV、RPR、TPPA"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_stool_occult_blood",
-        "name": "粪便隐血试验",
+        "id": "test_bone_marrow_culture",
+        "name": "骨髓培养",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "系统全面的检查应至少包括 3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部 X线片和腹部 B超。"
+          "血培养阴性时，骨髓培养可提高阳性率"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_liver_function",
-        "name": "肝功能",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "系统全面的检查应至少包括 3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部 X线片和腹部 B超。",
-          "建议 4：系统全面的检查应包括：血常规、尿常规、粪便常规+隐血、肝功能、。肾功能、电解质、血培养(3次不同部位不同时问抽取)、胸片和腹部 B超(肝、胆、胰、脾、肾)。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_kidney_function",
-        "name": "肾功能",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "系统全面的检查应至少包括 3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部 X线片和腹部 B超。",
-          "建议 4：系统全面的检查应包括：血常规、尿常规、粪便常规+隐血、肝功能、。肾功能、电解质、血培养(3次不同部位不同时问抽取)、胸片和腹部 B超(肝、胆、胰、脾、肾)。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_electrolytes",
-        "name": "电解质",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "系统全面的检查应至少包括 3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部 X线片和腹部 B超。",
-          "建议 4：系统全面的检查应包括：血常规、尿常规、粪便常规+隐血、肝功能、。肾功能、电解质、血培养(3次不同部位不同时问抽取)、胸片和腹部 B超(肝、胆、胰、脾、肾)。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_fever_control",
-        "content": "体温≤39℃的发热维持水、电解质的平衡而无需处理发热。",
-        "recommendation_strength": "strong",
-        "source_section": "治疗原则",
+        "id": "treatment_temp_control_le_39",
+        "content": "体温≤39℃的发热，维持水、电解质的平衡而无需处理发热。",
+        "recommendation_strength": "推荐",
+        "source_section": "发热待查的治疗原则",
         "evidence_ids": [
-          "(1)体温≤39℃的发热 维持水、电解质的平衡而无需处理发热。退热治疗会干扰热型、掩盖体温与脉搏之间的关系(如相对缓脉)等，不但影响诊断及对预后的判断，更影响对治疗效果的评估。"
+          "(1)体温≤39℃的发热 维持水、电解质的平衡而无需处理发热。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_fever_control_above_39c",
-        "content": "体温在39～40℃的发热，应积极使用物理降温及退热药物使核心体温降至39℃以下；同时维持水电解质的平衡。",
-        "recommendation_strength": "strong",
-        "source_section": "治疗原则",
+        "id": "treatment_temp_control_39_40",
+        "content": "体温在39~40℃的发热，应积极使用物理降温及退热药物使核心体温降至39℃以下；同时维持水电解质的平衡。",
+        "recommendation_strength": "推荐",
+        "source_section": "发热待查的治疗原则",
         "evidence_ids": [
-          "建议 13：对于体温在 39～40 C的发热，应积极使用物理降温及退热药物使核心体温降至 39。c以下；同时维持水电解质的平衡。"
+          "(2)>39 C的过高温或高热持续时间过长...此时应积极使用物理降温及退热药物使核心体温降至 39 C以下；同时维持水电解质的平衡"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_fever_control_above_40c",
-        "content": "体温>40℃的发热，或可能有脑组织损伤或感染性休克风险的患者，可在退热药物的基础上，用冷水或冰水擦拭皮肤或擦拭皮肤后使用风扇、冰毯和冰袋增加水份的蒸发。",
-        "recommendation_strength": "strong",
-        "source_section": "治疗原则",
+        "id": "treatment_temp_control_gt_40",
+        "content": "对于>40℃或可能有脑组织损伤或感染性休克风险的超高热患者，可在应用退热药物的基础上，用冷水或冰水擦拭皮肤或擦拭皮肤后使用风扇、冰毯和冰袋增加水份的蒸发。",
+        "recommendation_strength": "推荐",
+        "source_section": "发热待查的治疗原则",
         "evidence_ids": [
-          "建议 14：对于体温>4O℃的发热，或可能有脑组织损伤或感染性休克风险的患者，可在退热药物的基础上，用冷水或冰水擦拭皮肤或擦拭皮肤后使用风扇、冰毯和冰袋增加水份的蒸发。"
+          "对于>4O℃或可能有脑组织损伤或感染性休克风险的超高热患者，可在应用退热药物的基础上，用冷水或冰水擦拭皮肤或擦拭皮肤后使用风扇、冰毯和冰袋增加水份的蒸发"
         ],
         "confidence": 0.95
       },
       {
         "id": "treatment_diagnostic_therapy",
         "content": "诊断性治疗应局限于疟疾、结核感染等可凭借疗效做出临床诊断的特定疾病，不应作为常规治疗手段。",
-        "recommendation_strength": "strong",
-        "source_section": "治疗原则",
+        "recommendation_strength": "推荐",
+        "source_section": "发热待查的治疗原则",
         "evidence_ids": [
-          "建议 15：诊断性治疗应局限于疟疾 、结核感染 等可凭借疗效做出临床诊断的特定疾病，不应作为常规治疗手段。"
+          "建议 15：诊断性治疗应局 限于疟疾 、结核感染等可凭借疗效做出临床诊断的特定疾病，不应作为常规治疗手段。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_antibiotic_use",
+        "id": "treatment_antimicrobial_use",
         "content": "抗感染药物的应用不应作为常规诊断性治疗的手段。",
-        "recommendation_strength": "strong",
-        "source_section": "治疗原则",
+        "recommendation_strength": "推荐",
+        "source_section": "发热待查的治疗原则",
         "evidence_ids": [
           "建议 16：抗感染药物的应用不应作为常规诊断性治疗的手段。"
         ],
@@ -402,8 +303,8 @@
       {
         "id": "treatment_glucocorticoid_use",
         "content": "原则上不建议在病因未明的发热患者中使用激素，尤其不应作为退热药物使用。",
-        "recommendation_strength": "strong",
-        "source_section": "治疗原则",
+        "recommendation_strength": "推荐",
+        "source_section": "发热待查的治疗原则",
         "evidence_ids": [
           "建议 17：原则上不建议在病因未明的发热患者中使用激素，尤其不应作为退热药物使用。"
         ],
@@ -412,99 +313,110 @@
     ],
     "plans": [
       {
-        "id": "plan_physical_cooling_and_antipyretics_for_39c_to_40c",
-        "content": "使用物理降温及退热药物使核心体温降至39℃以下；同时维持水电解质的平衡。",
+        "id": "plan_maintain_balance",
+        "content": "维持水、电解质的平衡而无需处理发热",
         "plan_level": 1,
-        "applicable_condition": "体温在39～40℃的发热",
-        "contraindication_note": "不推荐在体温调控机制正常时单独使用物理降温。",
+        "applicable_condition": "体温≤39℃",
+        "contraindication_note": null,
         "evidence_ids": [
-          "建议 13：对于体温在 39～40 C的发热，应积极使用物理降温及退热药物使核心体温降至 39。c以下；同时维持水电解质的平衡。不推荐在体温调控机制正常时单独使用物理降温。"
+          "维持水、电解质的平衡而无需处理发热。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_physical_cooling_with_fan_ice_blanket_for_above_40c",
-        "content": "在退热药物的基础上，用冷水或冰水擦拭皮肤或擦拭皮肤后使用风扇、冰毯和冰袋增加水份的蒸发。",
+        "id": "plan_physical_antipyretic",
+        "content": "积极使用物理降温及退热药物使核心体温降至39℃以下",
+        "plan_level": 1,
+        "applicable_condition": "体温>39℃",
+        "contraindication_note": "不推荐在体温调控机制正常时单独使用物理降温",
+        "evidence_ids": [
+          "应积极使用物理降温及退热药物使核心体温降至 39 C以下"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_cold_water_wipe",
+        "content": "用冷水或冰水擦拭皮肤或擦拭皮肤后使用风扇、冰毯和冰袋增加水份的蒸发",
         "plan_level": 1,
         "applicable_condition": "体温>40℃或可能有脑组织损伤或感染性休克风险",
         "contraindication_note": null,
         "evidence_ids": [
-          "建议 14：对于体温>4O℃的发热，或可能有脑组织损伤或感染性休克风险的患者，可在退热药物的基础上，用冷水或冰水擦拭皮肤或擦拭皮肤后使用风扇、冰毯和冰袋增加水份的蒸发。"
+          "用冷水或冰水擦拭皮肤或擦拭皮肤后使用风扇、冰毯和冰袋增加水份的蒸发"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_diagnostic_antimalarial_therapy",
-        "content": "对于有流行病学史，疑为疟疾的患者，若多次血涂片或骨髓涂片中未能查见疟原虫，可试用抗疟疾药物进行治疗，治疗成功后可做出疟疾的临床诊断。",
+        "id": "plan_diagnostic_antimalarial",
+        "content": "试用抗疟疾药物进行治疗",
         "plan_level": 2,
-        "applicable_condition": "疑似疟疾但病原学证据不足",
-        "contraindication_note": "必须选用特异性强、疗效确切及安全性大的治疗药物，剂量充足并完成整个疗程。",
+        "applicable_condition": "疑为疟疾且多次血涂片或骨髓涂片中未能查见疟原虫",
+        "contraindication_note": null,
         "evidence_ids": [
-          "例如，对于有流行病学史，疑为疟疾的患者，若多次血涂片或骨髓涂片中未能查见疟原虫，可试用抗疟疾药物进行治疗，治疗成功后可做出疟疾的临床诊断。必须指出，诊断性治疗应选用特异性强、疗效确切及安全性大的治疗药物，剂量应充足并完成整个疗程，无特殊原因不得随便更换治疗药物。只有这样，诊断治疗有效后方可作为临床诊断的依据 。"
+          "对于有流行病学史，疑为疟疾的患者，若多次血涂片或骨髓涂片中未能查见疟原虫，可试用抗疟疾药物进行治疗"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_diagnostic_antituberculosis_therapy",
-        "content": "对于疑为结核感染的患者，可进行诊断性抗结核治疗，观察时间应足够长，一般以3～4周以上为宜。",
+        "id": "plan_diagnostic_antitubercular",
+        "content": "诊断性抗结核治疗",
         "plan_level": 2,
-        "applicable_condition": "疑似结核感染但病原学证据不足",
-        "contraindication_note": "期间需注意抗结核药物的不良反应和病情的变化。",
+        "applicable_condition": "疑为结核感染",
+        "contraindication_note": "观察时间应足够长，一般以 3～4周以上为宜，期间需注意抗结核药物的不良反应和病情的变化",
         "evidence_ids": [
-          "对于疑为结核感染的患者，也可进行诊断性抗结核治疗。但需要指出的是对结核疑似患者进行诊断性治疗时观察时间应足够长，一般以 3～4周以上为宜，期间需注意抗结核药物的不良反应和病情的变化。"
+          "对于疑为结核感染的患者，也可进行诊断性抗结核治疗。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_infection",
+        "id": "etiology_infectious",
         "content": "感染性疾病",
         "etiology_type": "感染因素",
-        "typicality": "典型",
-        "diagnostic_role": "必要条件",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "引起经典型发热待查的病因超过 200种，可以归纳为以下 4类：感染性疾病、肿瘤性疾病、非感染性炎症性疾病、其他疾病"
+          "1．感染性疾病：长期以来一直是引起发热待查的最主要的病因，以细菌感染占多数，病毒次之。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_tumor",
+        "id": "etiology_niid",
+        "content": "非感染性炎症性疾病",
+        "etiology_type": "自身免疫/炎症因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "2．非 感 染 性 炎 症 性 疾 病 (non—infectious inflammatory disease，NIID)：该组疾病在发热待查中所占的比例近年来有所上升，占2O ～3O 。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_neoplasm",
         "content": "肿瘤性疾病",
         "etiology_type": "肿瘤相关因素",
         "typicality": "常见",
         "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "引起经典型发热待查的病因超过 200种，可以归纳为以下 4类：感染性疾病、肿瘤性疾病、非感染性炎症性疾病、其他疾病"
+          "3．肿瘤性疾病：血液系统肿瘤、实体肿瘤中的肾上腺样瘤、胃肠道肿瘤(尤其是结直肠肿瘤)和中枢系统肿瘤相对常见。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_non_infectious_inflammatory_disease",
-        "content": "非感染性炎症性疾病",
-        "etiology_type": "自身免疫因素",
-        "typicality": "常见",
-        "diagnostic_role": "支持证据",
-        "evidence_ids": [
-          "引起经典型发热待查的病因超过 200种，可以归纳为以下 4类：感染性疾病、肿瘤性疾病、非感染性炎症性疾病、其他疾病"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_other",
+        "id": "etiology_others",
         "content": "其他疾病",
         "etiology_type": "其他因素",
         "typicality": "少见",
-        "diagnostic_role": "排除因素",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "引起经典型发热待查的病因超过 200种，可以归纳为以下 4类：感染性疾病、肿瘤性疾病、非感染性炎症性疾病、其他疾病"
+          "4．其他疾病：约占10 ，包括药物热、肉芽肿性疾病、栓塞性静脉炎、溶血发作、隐匿性血肿、周期热、伪装热等。"
         ],
         "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_fever_as_defense_mechanism",
+        "id": "pathogenesis_fever_defense",
         "content": "发热被认为是机体重要的防御机制，无论是物理降温或是药物退热都会减少甚至消除炎性介质的合成，减弱机体的防御过程所必须的。",
         "evidence_ids": [
           "发热被认为是机体重要的防御机制，无论是物理降温或是药物退热都会减少甚至消除炎性介质的合成，减弱机体的防御过程所必须的。"
@@ -516,80 +428,76 @@
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_fever_of_unknown_origin",
-        "to": "sub_disease_classic_fever_of_unknown_origin",
-        "relation_id": "rel_fever_of_unknown_origin_has_classic",
+        "from": "disease_fu",
+        "to": "sub_disease_classic_fu",
+        "relation_id": "rel_fu_has_classic_fu",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "结合国内外文献和临床实践，可将发热待查分为4类：经典型发热待查和特殊人群的发热待查，特殊人群的发热待查又包括住院患者的发热待查、粒细胞缺乏患者的发热待查和 HIV感染者的发热待查_8 ，见表 1。",
-          "建议 2：将发热待查分为经典型发热待查、住院患者的发热待查、粒细胞缺乏患者的发热待查和 HIV感染者的发热待查 4类。"
+          "可将发热待查分为4类：经典型发热待查和特殊人群的发热待查"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_fever_of_unknown_origin",
-        "to": "sub_disease_hospitalized_fever_of_unknown_origin",
-        "relation_id": "rel_fever_of_unknown_origin_has_hospitalized",
+        "from": "disease_fu",
+        "to": "sub_disease_nosocomial_fu",
+        "relation_id": "rel_fu_has_nosocomial_fu",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "结合国内外文献和临床实践，可将发热待查分为4类：经典型发热待查和特殊人群的发热待查，特殊人群的发热待查又包括住院患者的发热待查、粒细胞缺乏患者的发热待查和 HIV感染者的发热待查_8 ，见表 1。",
-          "建议 2：将发热待查分为经典型发热待查、住院患者的发热待查、粒细胞缺乏患者的发热待查和 HIV感染者的发热待查 4类。"
+          "特殊人群的发热待查又包括住院患者的发热待查"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_fever_of_unknown_origin",
-        "to": "sub_disease_neutropenic_fever_of_unknown_origin",
-        "relation_id": "rel_fever_of_unknown_origin_has_neutropenic",
+        "from": "disease_fu",
+        "to": "sub_disease_neutropenic_fu",
+        "relation_id": "rel_fu_has_neutropenic_fu",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "结合国内外文献和临床实践，可将发热待查分为4类：经典型发热待查和特殊人群的发热待查，特殊人群的发热待查又包括住院患者的发热待查、粒细胞缺乏患者的发热待查和 HIV感染者的发热待查_8 ，见表 1。",
-          "建议 2：将发热待查分为经典型发热待查、住院患者的发热待查、粒细胞缺乏患者的发热待查和 HIV感染者的发热待查 4类。"
+          "粒细胞缺乏患者的发热待查"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_fever_of_unknown_origin",
-        "to": "sub_disease_hiv_fever_of_unknown_origin",
-        "relation_id": "rel_fever_of_unknown_origin_has_hiv",
+        "from": "disease_fu",
+        "to": "sub_disease_hiv_fu",
+        "relation_id": "rel_fu_has_hiv_fu",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "结合国内外文献和临床实践，可将发热待查分为4类：经典型发热待查和特殊人群的发热待查，特殊人群的发热待查又包括住院患者的发热待查、粒细胞缺乏患者的发热待查和 HIV感染者的发热待查_8 ，见表 1。",
-          "建议 2：将发热待查分为经典型发热待查、住院患者的发热待查、粒细胞缺乏患者的发热待查和 HIV感染者的发热待查 4类。"
+          "HIV感染者的发热待查"
         ],
         "confidence": 0.95
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
+        "from": "sub_disease_classic_fu",
         "to": "symptom_fever",
-        "relation_id": "rel_classic_fever_manifests_as_fever",
+        "relation_id": "rel_classic_fu_manifests_as_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
+        "weight": 10,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
-        "duration_condition": "持续3周以上",
-        "section_priority": "定义",
+        "duration_condition": "持续 3周以上",
+        "section_priority": "诊断标准",
         "evidence_ids": [
-          "1．经典型发热待查：发热持续 3周以上，口腔体温至少 3次>38．3。C(或至少 3次体温在 1 d内波动>1．2℃)，经过至少 1周在门诊或住院的系统全面的检查仍不能确诊的一组疾病。"
+          "发热持续 3周以上，口腔体温至少 3次>38．3。C"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确定义经典型发热待查以‘发热’为核心临床表现，且为诊断必要条件",
-        "evidence": "“发热待查”是感染科疑难疾病诊治中的难点。合理临床诊治流程可以提高发热待查的诊断水平。"
+        "weight_reason": "发热是经典型发热待查定义中的核心临床表现和必要条件。",
+        "evidence": "经典型发热待查：发热"
       },
       {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
+        "from": "sub_disease_classic_fu",
         "to": "symptom_chills",
-        "relation_id": "rel_classic_fever_manifests_as_chills",
+        "relation_id": "rel_classic_fu_manifests_as_chills",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -599,279 +507,474 @@
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
-        "section_priority": "病因分析",
+        "section_priority": "临床表现",
         "evidence_ids": [
-          "一般来说，热程短(数周)，有乏力、寒战等毒性症状者，在抗菌药物应用、病灶切除、脓肿引流后发热即终止，全身情况也随之改善，有利于感染性疾病的诊断。"
+          "常见全身症状：畏寒、寒战、出汗、消瘦、皮疹、皮肤颜色改变"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
-        "to": "symptom_sweating",
-        "relation_id": "rel_classic_fever_manifests_as_sweating",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "伴随症状询问",
-        "evidence_ids": [
-          "按系统顺序询问伴随症状 发热的伴随症状有重要的诊断参考价值。初学者为防止遗漏，可按照系统顺序逐一询问：①常见全身症状：畏寒、寒战、出汗、消瘦、皮疹、皮肤颜色改变"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
-        "to": "symptom_weight_loss",
-        "relation_id": "rel_classic_fever_manifests_as_weight_loss",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "伴随症状询问",
-        "evidence_ids": [
-          "按系统顺序询问伴随症状 发热的伴随症状有重要的诊断参考价值。初学者为防止遗漏，可按照系统顺序逐一询问：①常见全身症状：畏寒、寒战、出汗、消瘦、皮疹、皮肤颜色改变"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
+        "from": "sub_disease_classic_fu",
         "to": "symptom_rash",
-        "relation_id": "rel_classic_fever_manifests_as_rash",
+        "relation_id": "rel_classic_fu_manifests_as_rash",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 5,
+        "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
-        "section_priority": "伴随症状询问",
+        "section_priority": "临床表现",
         "evidence_ids": [
-          "按系统顺序询问伴随症状 发热的伴随症状有重要的诊断参考价值。初学者为防止遗漏，可按照系统顺序逐一询问：①常见全身症状：畏寒、寒战、出汗、消瘦、皮疹、皮肤颜色改变"
+          "皮疹是发热待查患者的重要伴随体征"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "symptom_lymphadenopathy",
+        "relation_id": "rel_classic_fu_manifests_as_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "淋巴结肿大分为局限性和全身性。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "symptom_splenomegaly",
+        "relation_id": "rel_classic_fu_manifests_as_splenomegaly",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "临床上将脾脏肿大分为轻、中、高度肿大。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "symptom_joint_pain",
+        "relation_id": "rel_classic_fu_manifests_as_joint_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "关节疼痛在发热待查中十分常见。"
         ],
         "confidence": 0.9
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
-        "to": "test_temperature_oral",
-        "relation_id": "rel_classic_fever_requires_temperature_oral",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": 38.3,
-        "value_max": null,
-        "operator": ">=",
-        "unit": "℃",
-        "result_text": null,
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": 3,
-        "polarity": "elevated",
-        "typicality": "typical",
-        "section_priority": "定义",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "1．经典型发热待查：发热持续 3周以上，口腔体温至少 3次>38．3。C(或至少 3次体温在 1 d内波动>1．2℃)，经过至少 1周在门诊或住院的系统全面的检查仍不能确诊的一组疾病。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将‘口腔测体温至少3次>38.3℃’列为经典型发热待查定义的刚性诊断标准之一",
-        "evidence": "1．经典型发热待查：发热持续3周以上，口腔体温至少3次>38．3。C(或至少3次体温在1d内波动>1．2℃)"
-      },
-      {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
-        "to": "test_blood_culture",
-        "relation_id": "rel_classic_fever_requires_blood_culture",
+        "from": "sub_disease_classic_fu",
+        "to": "test_blood_routine",
+        "relation_id": "rel_classic_fu_requires_blood_routine",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "阳性",
-        "weight": 10,
+        "result_text": null,
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "系统全面的检查应至少包括 3大常规"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "血常规属于经典型发热待查系统全面检查及第一阶段初筛的必查项目。",
+        "evidence": "系统全面的检查包括：血常规"
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "test_blood_culture",
+        "relation_id": "rel_classic_fu_requires_blood_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "血培养(3次不同部位不同时间抽取)"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "血培养属于经典型发热待查系统全面检查及第一阶段初筛的常规必查项目。",
+        "evidence": "血培养(3次不同部位不同时间抽取)"
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "test_pet_ct",
+        "relation_id": "rel_classic_fu_requires_pet_ct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "common",
+        "section_priority": "针对性检查阶段",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "氟一18一脱氧葡萄糖 ( F—FDG)PET—CT在发热待查 中的地位也逐渐被重视。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "test_esr",
+        "relation_id": "rel_classic_fu_requires_esr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "病因初筛",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "红细胞沉降率、c反应蛋白、铁蛋白、免疫固定电泳"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "test_crp",
+        "relation_id": "rel_classic_fu_requires_crp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "病因初筛",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "红细胞沉降率、c反应蛋白、铁蛋白、免疫固定电泳"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "test_ana",
+        "relation_id": "rel_classic_fu_requires_ana",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 7,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "common",
-        "section_priority": "定义",
+        "section_priority": "病因初筛",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "系统全面的检查应至少包括 3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部 X线片和腹部 B超。"
+          "自身抗体谱、肿瘤标志物、HIV、RPR、TPPA"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将血培养列为‘系统全面的检查应至少包括’项目之一，属强制初筛项",
-        "evidence": "系统全面的检查应至少包括3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部X线片和腹部B超。"
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
-        "to": "test_chest_xray",
-        "relation_id": "rel_classic_fever_requires_chest_xray",
+        "from": "sub_disease_classic_fu",
+        "to": "test_bone_marrow_culture",
+        "relation_id": "rel_classic_fu_requires_bone_marrow_culture",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "异常",
-        "weight": 10,
+        "result_text": null,
+        "weight": 6,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "present",
+        "polarity": "positive",
         "typicality": "common",
-        "section_priority": "定义",
+        "section_priority": "针对性检查阶段",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "系统全面的检查应至少包括 3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部 X线片和腹部 B超。"
+          "血培养阴性时，骨髓培养可提高阳性率"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将胸部X线片列为‘系统全面的检查应至少包括’项目之一，属强制初筛项",
-        "evidence": "系统全面的检查应至少包括3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部X线片和腹部B超。"
-      },
-      {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
-        "to": "test_abdominal_ultrasound",
-        "relation_id": "rel_classic_fever_requires_abdominal_ultrasound",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "异常",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "present",
-        "typicality": "common",
-        "section_priority": "定义",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "系统全面的检查应至少包括 3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部 X线片和腹部 B超。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将腹部B超列为‘系统全面的检查应至少包括’项目之一，属强制初筛项",
-        "evidence": "系统全面的检查应至少包括3大常规，粪便隐血试验、肝功能、肾功能、电解质、血培养、胸部X线片和腹部B超。"
+        "confidence": 0.9,
+        "weight_reason": "骨髓培养并非经典型发热待查的常规初筛项目，仅在血培养阴性或怀疑特定感染时作为第二阶段针对性检查。",
+        "evidence": "血培养阴性时，骨髓培养可提高阳性率"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
-        "to": "treatment_fever_control",
-        "relation_id": "rel_classic_fever_follows_fever_control",
+        "from": "sub_disease_classic_fu",
+        "to": "treatment_temp_control_le_39",
+        "relation_id": "rel_classic_fu_follows_temp_le_39",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
         "applicable_condition": "体温≤39℃",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "推荐",
         "decision_basis": [
           "体温"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗原则",
+        "source_section": "发热待查的治疗原则",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
-        "to": "treatment_fever_control_above_39c",
-        "relation_id": "rel_classic_fever_follows_fever_control_above_39c",
+        "from": "sub_disease_classic_fu",
+        "to": "treatment_temp_control_39_40",
+        "relation_id": "rel_classic_fu_follows_temp_39_40",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "体温在39～40℃",
+        "applicable_condition": "体温在39~40℃",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "推荐",
         "decision_basis": [
           "体温"
         ],
-        "contraindication_note": "不推荐在体温调控机制正常时单独使用物理降温。",
+        "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗原则",
+        "source_section": "发热待查的治疗原则",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
-        "to": "treatment_fever_control_above_40c",
-        "relation_id": "rel_classic_fever_follows_fever_control_above_40c",
+        "from": "sub_disease_classic_fu",
+        "to": "treatment_temp_control_gt_40",
+        "relation_id": "rel_classic_fu_follows_temp_gt_40",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
         "applicable_condition": "体温>40℃或可能有脑组织损伤或感染性休克风险",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "推荐",
         "decision_basis": [
           "体温",
           "并发症风险"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗原则",
+        "source_section": "发热待查的治疗原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "treatment_diagnostic_therapy",
+        "relation_id": "rel_classic_fu_follows_diagnostic_therapy",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "怀疑特定疾病但缺乏证据",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "流行病学史",
+          "临床怀疑"
+        ],
+        "contraindication_note": "不应作为常规治疗手段",
+        "evidence_level": "expert_consensus",
+        "source_section": "发热待查的治疗原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "treatment_antimicrobial_use",
+        "relation_id": "rel_classic_fu_follows_antimicrobial",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确病原学证据或高度怀疑感染",
+        "recommendation_polarity": "不推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "病原学证据"
+        ],
+        "contraindication_note": "不应作为常规诊断性治疗的手段",
+        "evidence_level": "expert_consensus",
+        "source_section": "发热待查的治疗原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "treatment_glucocorticoid_use",
+        "relation_id": "rel_classic_fu_follows_glucocorticoid",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "病因未明",
+        "recommendation_polarity": "不推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "病因是否明确"
+        ],
+        "contraindication_note": "尤其不应作为退热药物使用",
+        "evidence_level": "expert_consensus",
+        "source_section": "发热待查的治疗原则",
         "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_fever_control_above_39c",
-        "to": "plan_physical_cooling_and_antipyretics_for_39c_to_40c",
-        "relation_id": "rel_treatment_implements_by_plan_39c_to_40c",
+        "from": "treatment_temp_control_le_39",
+        "to": "plan_maintain_balance",
+        "relation_id": "rel_temp_le_39_implements_maintain",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "体温在39～40℃的发热",
-        "contraindication_note": "不推荐在体温调控机制正常时单独使用物理降温。",
+        "applicable_condition": "体温≤39℃",
+        "contraindication_note": null,
         "evidence_ids": [
-          "建议 13：对于体温在 39～40 C的发热，应积极使用物理降温及退热药物使核心体温降至 39。c以下；同时维持水电解质的平衡。不推荐在体温调控机制正常时单独使用物理降温。"
+          "维持水、电解质的平衡而无需处理发热。"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_fever_control_above_40c",
-        "to": "plan_physical_cooling_with_fan_ice_blanket_for_above_40c",
-        "relation_id": "rel_treatment_implements_by_plan_above_40c",
+        "from": "treatment_temp_control_39_40",
+        "to": "plan_physical_antipyretic",
+        "relation_id": "rel_temp_39_40_implements_physical",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "体温>39℃",
+        "contraindication_note": "不推荐在体温调控机制正常时单独使用物理降温",
+        "evidence_ids": [
+          "应积极使用物理降温及退热药物使核心体温降至 39 C以下"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_temp_control_gt_40",
+        "to": "plan_cold_water_wipe",
+        "relation_id": "rel_temp_gt_40_implements_cold_water",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
         "applicable_condition": "体温>40℃或可能有脑组织损伤或感染性休克风险",
         "contraindication_note": null,
         "evidence_ids": [
-          "建议 14：对于体温>4O℃的发热，或可能有脑组织损伤或感染性休克风险的患者，可在退热药物的基础上，用冷水或冰水擦拭皮肤或擦拭皮肤后使用风扇、冰毯和冰袋增加水份的蒸发。"
+          "用冷水或冰水擦拭皮肤或擦拭皮肤后使用风扇、冰毯和冰袋增加水份的蒸发"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "treatment_diagnostic_therapy",
+        "to": "plan_diagnostic_antimalarial",
+        "relation_id": "rel_diagnostic_implements_antimalarial",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "疑为疟疾且多次血涂片或骨髓涂片中未能查见疟原虫",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于有流行病学史，疑为疟疾的患者，若多次血涂片或骨髓涂片中未能查见疟原虫，可试用抗疟疾药物进行治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_diagnostic_therapy",
+        "to": "plan_diagnostic_antitubercular",
+        "relation_id": "rel_diagnostic_implements_antitubercular",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "疑为结核感染",
+        "contraindication_note": "观察时间应足够长，一般以 3～4周以上为宜，期间需注意抗结核药物的不良反应和病情的变化",
+        "evidence_ids": [
+          "对于疑为结核感染的患者，也可进行诊断性抗结核治疗。"
+        ],
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
-        "to": "etiology_infection",
-        "relation_id": "rel_classic_fever_causes_infection",
+        "from": "sub_disease_classic_fu",
+        "to": "etiology_infectious",
+        "relation_id": "rel_classic_fu_causes_infectious",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -879,14 +982,29 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "引起经典型发热待查的病因超过 200种，可以归纳为以下 4类：感染性疾病、肿瘤性疾病、非感染性炎症性疾病、其他疾病"
+          "1．感染性疾病：长期以来一直是引起发热待查的最主要的病因"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
-        "to": "etiology_tumor",
-        "relation_id": "rel_classic_fever_causes_tumor",
+        "from": "sub_disease_classic_fu",
+        "to": "etiology_niid",
+        "relation_id": "rel_classic_fu_causes_niid",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "2．非 感 染 性 炎 症 性 疾 病 (non—infectious inflammatory disease，NIID)：该组疾病在发热待查中所占的比例近年来有所上升"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "etiology_neoplasm",
+        "relation_id": "rel_classic_fu_causes_neoplasm",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "moderate",
@@ -894,16 +1012,31 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "引起经典型发热待查的病因超过 200种，可以归纳为以下 4类：感染性疾病、肿瘤性疾病、非感染性炎症性疾病、其他疾病"
+          "3．肿瘤性疾病：血液系统肿瘤、实体肿瘤中的肾上腺样瘤、胃肠道肿瘤(尤其是结直肠肿瘤)和中枢系统肿瘤相对常见。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_classic_fu",
+        "to": "etiology_others",
+        "relation_id": "rel_classic_fu_causes_others",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "weak",
+        "typicality": "rare",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "4．其他疾病：约占10 ，包括药物热、肉芽肿性疾病、栓塞性静脉炎、溶血发作、隐匿性血肿、周期热、伪装热等。"
         ],
         "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_classic_fever_of_unknown_origin",
-        "to": "pathogenesis_fever_as_defense_mechanism",
-        "relation_id": "rel_classic_fever_explained_by_defense_mechanism",
+        "from": "sub_disease_classic_fu",
+        "to": "pathogenesis_fever_defense",
+        "relation_id": "rel_classic_fu_explained_by_fever_defense",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [

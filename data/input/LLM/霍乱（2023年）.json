@@ -1,8 +1,8 @@
 {
   "meta": {
     "doc_id": "霍乱诊疗方案（2023年版）",
-    "source_title": "霍乱诊疗方案（2023 年版）",
-    "section_path": "",
+    "source_title": "霍乱诊疗方案（2023年版）",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -18,7 +18,7 @@
           "Cholera"
         ],
         "source_document_ids": [
-          "霍乱诊疗方案（2023 年版）"
+          "霍乱诊疗方案（2023年版）"
         ],
         "evidence_ids": [
           "霍乱（Cholera）是由霍乱弧菌（Vibrio cholerae）感染引起的急性肠道传染病"
@@ -28,116 +28,100 @@
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_cholera_typical",
-        "name": "典型霍乱病例",
-        "parent_disease_id": "disease_cholera",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "典型霍乱病例的病程分为三期。"
-        ],
-        "confidence": 0.95
-      },
-      {
         "id": "sub_disease_cholera_mild",
         "name": "轻型霍乱",
         "parent_disease_id": "disease_cholera",
-        "disease_subtype": null,
+        "disease_subtype": "轻型",
         "clinical_stage": "不限定",
-        "severity": "轻型",
-        "population": null,
+        "severity": "轻症",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "1.轻型：腹泻每天多不超过 10 次，为软便、稀便或稀水样便，个别为黏液血便，无腹痛或仅有腹部不适感，多无发热，无脱水表现，尿量正常，血压正常。"
+          "轻型：腹泻每天多不超过 10 次，为软便、稀便或稀水样便"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "sub_disease_cholera_moderate",
         "name": "中型霍乱",
         "parent_disease_id": "disease_cholera",
-        "disease_subtype": null,
+        "disease_subtype": "中型",
         "clinical_stage": "不限定",
-        "severity": "中型",
-        "population": null,
+        "severity": "中症",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "2.中型：有典型泻吐症状，腹泻次数多、量大，轻到中度脱水，可有少尿。血压可下降，但无明显休克表现。"
+          "中型：有典型泻吐症状，腹泻次数多、量大，轻到中度脱水"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "sub_disease_cholera_severe",
         "name": "重型霍乱",
         "parent_disease_id": "disease_cholera",
-        "disease_subtype": null,
+        "disease_subtype": "重型",
         "clinical_stage": "不限定",
-        "severity": "重型",
-        "population": null,
+        "severity": "重症",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "3.重型：腹泻数十次或不可计数，重度脱水，少尿、无尿，休克。出现极度烦躁甚至昏迷，皮肤弹性消失，眼窝深凹，指纹干瘪，明显发绀，严重肌肉痉挛，脉搏微弱或无法触及。部分病例以休克为首发症状，泻吐较轻或缺如，可因循环衰竭危及生命，又称“中毒型”或“干性霍乱”。"
+          "重型：腹泻数十次或不可计数，重度脱水，少尿、无尿，休克"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "sub_disease_cholera_toxigenic_o1",
-        "name": "O1群霍乱弧菌产毒株感染",
+        "id": "sub_disease_cholera_suspected",
+        "name": "疑似霍乱",
         "parent_disease_id": "disease_cholera",
-        "disease_subtype": "O1群",
+        "disease_subtype": "疑似病例",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": null,
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "1.粪便、呕吐物或肛拭子培养到 O1 群或 O139 群霍乱弧菌产毒株；"
+          "具有上述霍乱临床表现，符合以下任一项者"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "sub_disease_cholera_toxigenic_o139",
-        "name": "O139群霍乱弧菌产毒株感染",
+        "id": "sub_disease_cholera_clinical",
+        "name": "临床诊断霍乱",
         "parent_disease_id": "disease_cholera",
-        "disease_subtype": "O139群",
+        "disease_subtype": "临床诊断病例",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": null,
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "1.粪便、呕吐物或肛拭子培养到 O1 群或 O139 群霍乱弧菌产毒株；"
+          "疑似病例日常生活用品或家居环境中培养到 O1 群或O139 群霍乱弧菌产毒株"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "sub_disease_cholera_carrier",
-        "name": "霍乱带菌者",
+        "id": "sub_disease_cholera_confirmed",
+        "name": "确诊霍乱",
         "parent_disease_id": "disease_cholera",
-        "disease_subtype": null,
+        "disease_subtype": "确诊病例",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": null,
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（四）带菌者。无霍乱临床表现，但细菌培养到 O1 群或 O139 群霍乱弧菌产毒株。"
+          "疑似或临床诊断病例符合以下任一项者"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "symptoms": [
@@ -154,64 +138,40 @@
         "confidence": 0.95
       },
       {
+        "id": "symptom_watery_stool",
+        "name": "水样便",
+        "body_site": "肠道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "初始为水样，带粪质，有鱼腥味"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_rice_water_stool",
+        "name": "米泔水样便",
+        "body_site": "肠道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "迅速变为米泔水样或无色透明水样"
+        ],
+        "confidence": 0.9
+      },
+      {
         "id": "symptom_vomiting",
         "name": "呕吐",
-        "body_site": "胃肠道",
+        "body_site": "胃部",
         "symptom_category": "消化系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "呕吐多在腹泻后出现，常为喷射性和连续性，呕吐物先为胃内容物，后为清水样。"
+          "呕吐多在腹泻后出现，常为喷射性和连续性"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_abdominal_discomfort",
-        "name": "腹部不适",
-        "body_site": "腹部",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "以腹泻、腹部不适起病"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_fever_absent",
-        "name": "发热",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "absent",
-        "typicality": "typical",
-        "evidence_ids": [
-          "多无发热、里急后重"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_ileus_absent",
-        "name": "里急后重",
-        "body_site": "直肠",
-        "symptom_category": "消化系统症状",
-        "polarity": "absent",
-        "typicality": "typical",
-        "evidence_ids": [
-          "多无发热、里急后重"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_abdominal_cramp",
-        "name": "腹直肌痉挛",
-        "body_site": "腹部",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "少数可因腹直肌痉挛导致腹痛。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_dehydration",
@@ -221,57 +181,21 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "频繁的腹泻和呕吐导致大量水和电解质丢失，患者迅速出现脱水和微循环衰竭。"
+          "严重者可在短时间内出现脱水、电解质失衡"
         ],
         "confidence": 0.95
       },
       {
-        "id": "symptom_shock",
-        "name": "休克",
-        "body_site": "循环系统",
-        "symptom_category": "循环系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "休克。出现极度烦躁甚至昏迷，皮肤弹性消失，眼窝深凹，指纹干瘪，明显发绀，严重肌肉痉挛，脉搏微弱或无法触及。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_altered_mentation",
-        "name": "神志丧失",
-        "body_site": "神经系统",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "严重脱水的典型表现为脉搏微弱或缺失，呼吸窘迫、窒息，甚至神志丧失。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_muscle_spasm",
+        "id": "symptom_muscle_cramp",
         "name": "肌肉痉挛",
-        "body_site": "骨骼肌",
-        "symptom_category": "神经系统症状",
+        "body_site": "四肢/腹部",
+        "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
           "严重肌肉痉挛"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_anuria",
-        "name": "无尿",
-        "body_site": "泌尿系统",
-        "symptom_category": "泌尿系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "少尿、无尿"
-        ],
-        "confidence": 0.95
+        "confidence": 0.85
       },
       {
         "id": "symptom_oliguria",
@@ -279,495 +203,190 @@
         "body_site": "泌尿系统",
         "symptom_category": "泌尿系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
           "少尿、无尿"
         ],
-        "confidence": 0.95
+        "confidence": 0.85
       },
       {
-        "id": "symptom_skin_turgor_loss",
-        "name": "皮肤弹性消失",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
+        "id": "symptom_anuria",
+        "name": "无尿",
+        "body_site": "泌尿系统",
+        "symptom_category": "泌尿系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "皮肤弹性消失，眼窝深凹，指纹干瘪"
+          "少尿、无尿"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_cyanosis",
-        "name": "发绀",
-        "body_site": "皮肤/黏膜",
-        "symptom_category": "循环系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "明显发绀"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_kussmaul_respiration",
-        "name": "Kussmaul呼吸",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "患者常表现为 Kussmaul 呼吸（深大呼吸、过度通气）。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.85
       }
     ],
     "tests": [
       {
-        "id": "test_motility_braking_test",
+        "id": "test_motility_inhibition",
         "name": "动力-制动试验",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "1.动力-制动试验：粪便悬滴显微镜检查动力-制动试验阳性，常作为快速筛查手段。"
+          "粪便悬滴显微镜检查动力-制动试验阳性"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_cholera_antigen_rapid_test",
+        "id": "test_rapid_antigen",
         "name": "霍乱弧菌快速抗原检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "2.霍乱弧菌快速抗原检测：粪便、呕吐物或肛拭子标本霍乱弧菌抗原检测阳性，可作为快速筛查的辅助手段。"
+          "粪便、呕吐物或肛拭子标本霍乱弧菌抗原检测阳性"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_culture_o1_or_o139",
-        "name": "O1群或O139群霍乱弧菌培养",
+        "id": "test_bacterial_culture",
+        "name": "细菌培养",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "3.培养：粪便、呕吐物或肛拭子标本中培养到霍乱弧菌。"
+          "粪便、呕吐物或肛拭子标本中培养到霍乱弧菌"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_ct_gene_pcr",
-        "name": "霍乱毒素CT基因核酸检测",
+        "id": "test_nucleic_acid",
+        "name": "核酸检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "4.核酸检测：粪便、呕吐物或肛拭子标本中霍乱弧菌 CT 基因、种特异性基因、O1 群或 O139 群脂多糖特异性基因核酸检测阳性。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_lps_specific_gene_pcr",
-        "name": "O1群或O139群脂多糖特异性基因核酸检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "4.核酸检测：粪便、呕吐物或肛拭子标本中霍乱弧菌 CT 基因、种特异性基因、O1 群或 O139 群脂多糖特异性基因核酸检测阳性。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_species_specific_gene_pcr",
-        "name": "霍乱弧菌种特异性基因核酸检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "4.核酸检测：粪便、呕吐物或肛拭子标本中霍乱弧菌 CT 基因、种特异性基因、O1 群或 O139 群脂多糖特异性基因核酸检测阳性。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_blood_routine_hct_elevated",
-        "name": "血常规红细胞计数升高",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "1.血常规：脱水患者红细胞、白细胞计数升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_blood_routine_wbc_elevated",
-        "name": "血常规白细胞计数升高",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "1.血常规：脱水患者红细胞、白细胞计数升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_urine_routine_protein_trace",
-        "name": "尿常规蛋白少量",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "2.尿常规：尿中可有少量蛋白、红细胞、白细胞及管型，脱水严重者有尿比重增高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_urine_routine_rbc_trace",
-        "name": "尿常规红细胞少量",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "2.尿常规：尿中可有少量蛋白、红细胞、白细胞及管型，脱水严重者有尿比重增高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_urine_routine_wbc_trace",
-        "name": "尿常规白细胞少量",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "2.尿常规：尿中可有少量蛋白、红细胞、白细胞及管型，脱水严重者有尿比重增高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_urine_routine_cast_trace",
-        "name": "尿常规管型少量",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "2.尿常规：尿中可有少量蛋白、红细胞、白细胞及管型，脱水严重者有尿比重增高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_stool_routine_mucus",
-        "name": "便常规黏液",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "3.便常规：可见黏液和少许红、白细胞。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_stool_routine_rbc_few",
-        "name": "便常规红细胞少许",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "3.便常规：可见黏液和少许红、白细胞。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_stool_routine_wbc_few",
-        "name": "便常规白细胞少许",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "3.便常规：可见黏液和少许红、白细胞。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_blood_biochemistry_k_decreased",
-        "name": "血钾下降",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "4.血生化：血钾、血钠、血氯、血钙下降，尿素氮和肌酐升高，二氧化碳结合力升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_blood_biochemistry_na_decreased",
-        "name": "血钠下降",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "4.血生化：血钾、血钠、血氯、血钙下降，尿素氮和肌酐升高，二氧化碳结合力升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_blood_biochemistry_cl_decreased",
-        "name": "血氯下降",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "4.血生化：血钾、血钠、血氯、血钙下降，尿素氮和肌酐升高，二氧化碳结合力升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_blood_biochemistry_ca_decreased",
-        "name": "血钙下降",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "4.血生化：血钾、血钠、血氯、血钙下降，尿素氮和肌酐升高，二氧化碳结合力升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_blood_biochemistry_bun_elevated",
-        "name": "尿素氮升高",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "4.血生化：血钾、血钠、血氯、血钙下降，尿素氮和肌酐升高，二氧化碳结合力升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_blood_biochemistry_creatinine_elevated",
-        "name": "肌酐升高",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "4.血生化：血钾、血钠、血氯、血钙下降，尿素氮和肌酐升高，二氧化碳结合力升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_blood_biochemistry_co2cp_elevated",
-        "name": "二氧化碳结合力升高",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "4.血生化：血钾、血钠、血氯、血钙下降，尿素氮和肌酐升高，二氧化碳结合力升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_blood_biochemistry_plasma_protein_elevated",
-        "name": "血浆蛋白增高",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "4.血生化：血钾、血钠、血氯、血钙下降，尿素氮和肌酐升高，二氧化碳结合力升高。血浆蛋白及血浆比重等增高，血液黏稠度增加。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_blood_biochemistry_hematocrit_elevated",
-        "name": "血浆比重增高",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "4.血生化：血钾、血钠、血氯、血钙下降，尿素氮和肌酐升高，二氧化碳结合力升高。血浆蛋白及血浆比重等增高，血液黏稠度增加。"
+          "粪便、呕吐物或肛拭子标本中霍乱弧菌 CT 基因、种特异性基因、O1 群或 O139 群脂多糖特异性基因核酸检测阳性"
         ],
         "confidence": 0.95
       }
     ],
     "treatments": [
       {
-        "id": "treatment_cholera_isolation",
-        "content": "按甲类传染病相关要求隔离。",
+        "id": "treatment_isolation",
+        "content": "按甲类传染病相关要求隔离",
         "recommendation_strength": "strong",
-        "source_section": "治疗",
+        "source_section": "治疗原则",
         "evidence_ids": [
-          "治疗原则：按甲类传染病相关要求隔离。"
+          "按甲类传染病相关要求隔离"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_cholera_rehydration",
-        "content": "及时补液，辅以抗菌及其他对症治疗。",
+        "id": "treatment_rehydration",
+        "content": "及时正确补液是治疗霍乱的关键",
         "recommendation_strength": "strong",
-        "source_section": "治疗",
+        "source_section": "补液治疗",
         "evidence_ids": [
-          "治疗原则：按甲类传染病相关要求隔离。及时补液，辅以抗菌及其他对症治疗。"
+          "及时正确补液是治疗霍乱的关键"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "treatment_antimicrobial",
+        "content": "抗菌药物治疗能缩短腹泻及排菌时间，减少液体丢失量",
+        "recommendation_strength": "strong",
+        "source_section": "病原治疗",
+        "evidence_ids": [
+          "抗菌药物治疗能缩短腹泻及排菌时间，减少液体丢失量"
+        ],
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_oral_rehydration_salt_adult",
-        "content": "治疗最初 6 小时，口服补液盐（ORS）成人 750ml/h，20kg 以下儿童 250ml/h。以后每 6 小时的口服补液量为前 6 小时泻吐量的 1.5 倍。",
+        "id": "plan_oral_rehydration",
+        "content": "口服补液盐（ORS）成人750ml/h，20kg 以下儿童 250ml/h",
         "plan_level": 1,
         "applicable_condition": "轻、中度及不伴有休克的重度脱水患者",
-        "contraindication_note": "无法接受口服补液者禁用",
+        "contraindication_note": null,
         "evidence_ids": [
-          "1.口服补液：治疗最初 6 小时，口服补液盐（ORS）成人 750ml/h，20kg 以下儿童 250ml/h。以后每 6 小时的口服补液量为前 6 小时泻吐量的 1.5 倍。"
+          "口服补液盐（ORS）成人750ml/h，20kg 以下儿童 250ml/h"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_iv_rehydration_541_solution",
-        "content": "首选 541 液（生理盐水 550ml+5%碳酸氢钠 80ml+10%葡萄糖 360ml+10%氯化钾 10ml），也可选林格液。",
+        "id": "plan_iv_541",
+        "content": "首选 541 液（生理盐水 550ml+5%碳酸氢钠80ml+10%葡萄糖 360ml+10%氯化钾 10ml）",
         "plan_level": 1,
         "applicable_condition": "无法接受口服补液和重度脱水伴有休克患者",
-        "contraindication_note": "心肺功能不全者慎用",
+        "contraindication_note": "对老人、婴幼儿及心肺功能不全的患者补液不宜过快",
         "evidence_ids": [
-          "2.静脉补液：首选 541 液（生理盐水 550ml+5%碳酸氢钠 80ml+10%葡萄糖 360ml+10%氯化钾 10ml），也可选林格液。"
+          "首选 541 液（生理盐水 550ml+5%碳酸氢钠80ml+10%葡萄糖 360ml+10%氯化钾 10ml）"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_iv_rehydration_initial_dose",
-        "content": "初始（3 小时，婴儿 6 小时）补液量 100ml/kg，其中最初半小时（婴儿 1 小时）为 30ml/kg。",
-        "plan_level": 2,
-        "applicable_condition": "静脉补液初始阶段",
-        "contraindication_note": "老人、婴幼儿及心肺功能不全者不宜过快",
-        "evidence_ids": [
-          "初始（3 小时，婴儿 6 小时）补液量 100ml/kg，其中最初半小 时（婴儿 1 小时）为 30ml/kg。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_ciprofloxacin_oral_single_dose",
-        "content": "环丙沙星：成人 1g，单次口服；8 岁以上儿童：15mg/kg/次（最大剂量不超过 500mg），口服，2 次/天，疗程 3 天。",
+        "id": "plan_ciprofloxacin",
+        "content": "环丙沙星：成人 1g，单次口服；8 岁以上儿童：15mg/kg/次（最大剂量不超过 500mg），口服，2 次/天，疗程 3 天",
         "plan_level": 1,
-        "applicable_condition": "霍乱病原治疗，口服给药适用者",
-        "contraindication_note": "8岁以下儿童禁用",
+        "applicable_condition": "抗菌药物治疗",
+        "contraindication_note": null,
         "evidence_ids": [
-          "环丙沙星：成人 1g，单次口服；8 岁以上儿童：15mg/kg/次（最大剂量不超过 500mg），口服，2 次/天，疗程 3 天。"
+          "环丙沙星：成人 1g，单次口服；8 岁以上儿童：15mg/kg/次（最大剂量不超过 500mg），口服，2 次/天，疗程 3 天"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_levo_floxacin_oral",
-        "content": "左氧氟沙星：成人 500~750mg/次，口服或静滴，1 次/天，疗程 3 天。",
+        "id": "plan_doxycycline",
+        "content": "多西环素：成人 100mg/次，口服，2 次/天；8 岁以上儿童2~3mg/kg/次（最大剂量不超过 100mg），口服，2 次/天。疗程 3 天",
         "plan_level": 1,
-        "applicable_condition": "霍乱病原治疗，口服或静滴适用者",
-        "contraindication_note": "孕妇、哺乳期妇女及18岁以下青少年慎用",
+        "applicable_condition": "抗菌药物治疗",
+        "contraindication_note": null,
         "evidence_ids": [
-          "左氧氟沙星：成人 500~750mg/次，口服或静滴，1 次/天，疗程 3 天。"
+          "多西环素：成人 100mg/次，口服，2 次/天；8 岁以上儿童2~3mg/kg/次（最大剂量不超过 100mg），口服，2 次/天。疗程 3 天"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_doxycycline_oral",
-        "content": "多西环素：成人 100mg/次，口服，2 次/天；8 岁以上儿童 2~3mg/kg/次（最大剂量不超过 100mg），口服，2 次/天。疗程 3 天。",
+        "id": "plan_azithromycin",
+        "content": "阿奇霉素：成人 1g，儿童 20mg/kg，单次口服",
         "plan_level": 1,
-        "applicable_condition": "霍乱病原治疗，口服给药适用者",
-        "contraindication_note": "8岁以下儿童禁用",
+        "applicable_condition": "抗菌药物治疗",
+        "contraindication_note": null,
         "evidence_ids": [
-          "多西环素：成人 100mg/次，口服，2 次/天；8 岁以上儿童 2~3mg/kg/次（最大剂量不超过 100mg），口服，2 次/天。疗程 3 天。"
+          "阿奇霉素：成人 1g，儿童 20mg/kg，单次口服"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_azithromycin_oral_single",
-        "content": "阿奇霉素：成人 1g，儿童 20mg/kg，单次口服。",
-        "plan_level": 1,
-        "applicable_condition": "霍乱病原治疗，单次口服适用者",
-        "contraindication_note": "肝功能不全者慎用",
-        "evidence_ids": [
-          "阿奇霉素：成人 1g，儿童 20mg/kg，单次口服。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_azithromycin_iv_3day",
-        "content": "成人 500mg，静脉滴注，1 次/天，疗程 3 天，或第 1 天 500mg，第 2~5 天 250mg，静脉滴注，1 次/天。儿童 10mg/kg，静脉滴注，1 次/天，疗程 3 天，或第 1 天 10mg/kg，第 2~5 天 5mg/kg，静脉滴注，1 次/天。",
-        "plan_level": 1,
-        "applicable_condition": "霍乱病原治疗，静脉给药适用者",
-        "contraindication_note": "肝功能不全者慎用",
-        "evidence_ids": [
-          "阿奇霉素：成人 1g，儿童 20mg/kg，单次口服。成人 500mg，静脉滴注，1 次/天，疗程 3 天，或第 1 天 500mg，第 2~5 天 250mg，静脉滴注，1 次/天。儿童 10mg/kg，静脉滴注，1 次/天，疗程 3 天，或第 1 天 10mg/kg，第 2~5 天 5mg/kg，静脉滴注，1 次/天。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_erythromycin_oral",
-        "content": "红霉素：成人 250~500mg/次，口服，4 次/天；儿童 10mg/kg/次（最大剂量不超过 500mg），口服，4 次/天。疗程 3 天。",
-        "plan_level": 2,
-        "applicable_condition": "霍乱病原治疗，替代方案",
-        "contraindication_note": "肝功能不全者慎用",
-        "evidence_ids": [
-          "红霉素：成人 250~500mg/次，口服，4 次/天；儿童 10mg/kg/次（最大剂量不超过 500mg），口服，4 次/天。疗程 3 天。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_vibrio_cholerae_o1",
-        "content": "O1群霍乱弧菌",
+        "id": "etiology_vibrio_cholerae",
+        "content": "霍乱弧菌感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "目前引起霍乱暴发流行的主要是 O1 群和 O139 群的霍乱弧菌。"
+          "霍乱（Cholera）是由霍乱弧菌（Vibrio cholerae）感染引起的急性肠道传染病"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_vibrio_cholerae_o139",
-        "content": "O139群霍乱弧菌",
+        "id": "etiology_contaminated_water_food",
+        "content": "不洁饮水或饮食史",
         "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "目前引起霍乱暴发流行的主要是 O1 群和 O139 群的霍乱弧菌。"
+          "不洁饮水或饮食史"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_cholera_toxin",
-        "content": "霍乱毒素（Cholera Toxin，CT）",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "主要通过霍乱弧菌产生的霍乱毒素（Cholera Toxin，CT）引起腹泻。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.85
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_cholera_toxin_ct_activation",
-        "content": "霍乱毒素由一个 A 亚单位和五个 B 亚单位组成，霍乱毒素与肠黏膜接触后，B 亚基与小肠黏膜上皮细胞中的神经节苷脂（GM）受体结合，促使 A 亚单位通过内吞作用进入细胞内。A 亚单位激活腺苷酸环化酶，导致细胞内环磷酸腺苷（cAMP）水平显著升高，刺激肠黏膜细胞过度分泌水、氯化物和碳酸氢盐，同时抑制绒毛膜细胞对钠、氯离子重吸收，使水和氯化钠等在肠腔内聚集，引起特征性的水样腹泻。",
+        "id": "pathogenesis_cholera_toxin",
+        "content": "霍乱弧菌产生的霍乱毒素（CT）为主要致泻因子。霍乱毒素由一个 A 亚单位和五个 B 亚单位组成，霍乱毒素与肠黏膜接触后，B 亚基与小肠黏膜上皮细胞中的神经节苷脂（GM）受体结合，促使 A 亚单位通过内吞作用进入细胞内。A 亚单位激活腺苷酸环化酶，导致细胞内环磷酸腺苷（cAMP）水平显著升高，刺激肠黏膜细胞过度分泌水、氯化物和碳酸氢盐，同时抑制绒毛膜细胞对钠、氯离子重吸收，使水和氯化钠等在肠腔内聚集，引起特征性的水样腹泻",
         "evidence_ids": [
-          "霍乱毒素由一个 A 亚单位和五个 B 亚单位组成，霍乱毒素与肠黏膜接触后，B 亚基与小肠黏膜上皮细胞中的神经节苷脂（GM）受体结合，促使 A 亚单位通过内吞作用进入细胞内。A 亚单位激活腺苷酸环化酶，导致细胞内环磷酸腺苷（cAMP）水平显著升高，刺激肠黏膜细胞过度分泌水、氯化物和碳酸氢盐，同时抑制绒毛膜细胞对钠、氯离子重吸收，使水和氯化钠等在肠腔内聚集，引起特征性的水样腹泻。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "pathogenesis_cholera_toxin_mucus_secretion",
-        "content": "CT 还能促使杯状细胞分泌黏液，使水样便中含有大量黏液。",
-        "evidence_ids": [
-          "CT 还能促使杯状细胞分泌黏液，使水样便中含有大量黏液。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "pathogenesis_toxr_regulation",
-        "content": "霍乱弧菌的直接转录激活因子如 ToxR，能够调控霍乱毒素 A 亚单位和 B 亚单位、毒素共调菌毛 TCP 等毒力和毒力相关因子基因的转录表达，促进疾病进展。",
-        "evidence_ids": [
-          "霍乱弧菌的直接转录激活因子如 ToxR，能够调控霍乱毒素 A 亚单位和 B 亚单位、毒素共调菌毛 TCP 等毒力和毒力相关因子基因的转录表达，促进疾病进展。"
+          "霍乱弧菌产生的霍乱毒素（CT）为主要致泻因子"
         ],
         "confidence": 0.95
       }
@@ -777,25 +396,14 @@
     "has_sub_disease": [
       {
         "from": "disease_cholera",
-        "to": "sub_disease_cholera_typical",
-        "relation_id": "rel_cholera_has_typical",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "典型霍乱病例的病程分为三期。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_cholera",
         "to": "sub_disease_cholera_mild",
         "relation_id": "rel_cholera_has_mild",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "1.轻型：腹泻每天多不超过 10 次，为软便、稀便或稀水样便，个别为黏液血便，无腹痛或仅有腹部不适感，多无发热，无脱水表现，尿量正常，血压正常。"
+          "根据临床表现及病情严重程度，将霍乱分为轻、中、重三型"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_cholera",
@@ -804,9 +412,9 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "2.中型：有典型泻吐症状，腹泻次数多、量大，轻到中度脱水，可有少尿。血压可下降，但无明显休克表现。"
+          "根据临床表现及病情严重程度，将霍乱分为轻、中、重三型"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_cholera",
@@ -815,329 +423,114 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "3.重型：腹泻数十次或不可计数，重度脱水，少尿、无尿，休克。出现极度烦躁甚至昏迷，皮肤弹性消失，眼窝深凹，指纹干瘪，明显发绀，严重肌肉痉挛，脉搏微弱或无法触及。部分病例以休克为首发症状，泻吐较轻或缺如，可因循环衰竭危及生命，又称“中毒型”或“干性霍乱”。"
+          "根据临床表现及病情严重程度，将霍乱分为轻、中、重三型"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_cholera",
-        "to": "sub_disease_cholera_toxigenic_o1",
-        "relation_id": "rel_cholera_has_toxigenic_o1",
+        "to": "sub_disease_cholera_suspected",
+        "relation_id": "rel_cholera_has_suspected",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "1.粪便、呕吐物或肛拭子培养到 O1 群或 O139 群霍乱弧菌产毒株；"
+          "（一）疑似病例"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_cholera",
-        "to": "sub_disease_cholera_toxigenic_o139",
-        "relation_id": "rel_cholera_has_toxigenic_o139",
+        "to": "sub_disease_cholera_clinical",
+        "relation_id": "rel_cholera_has_clinical",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "1.粪便、呕吐物或肛拭子培养到 O1 群或 O139 群霍乱弧菌产毒株；"
+          "（二）临床诊断病例"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_cholera",
-        "to": "sub_disease_cholera_carrier",
-        "relation_id": "rel_cholera_has_carrier",
+        "to": "sub_disease_cholera_confirmed",
+        "relation_id": "rel_cholera_has_confirmed",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（四）带菌者。无霍乱临床表现，但细菌培养到 O1 群或 O139 群霍乱弧菌产毒株。"
+          "（三）确诊病例"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_cholera_typical",
+        "from": "sub_disease_cholera_mild",
         "to": "symptom_diarrhea",
-        "relation_id": "rel_typical_manifests_as_diarrhea",
+        "relation_id": "rel_mild_manifests_diarrhea",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
+        "weight": 10,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "典型病例以急性水样腹泻为主要症状"
+          "轻型：腹泻每天多不超过 10 次"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将‘急性水样腹泻’列为‘典型病例’的‘主要症状’，构成诊断核心表现，符合金标准级临床定义",
-        "evidence": "典型病例以急性水样腹泻为主要症状"
-      },
-      {
-        "from": "sub_disease_cholera_typical",
-        "to": "symptom_vomiting",
-        "relation_id": "rel_typical_manifests_as_vomiting",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "呕吐多在腹泻后出现，常为喷射性和连续性，呕吐物先为胃内容物，后为清水样。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文在‘泻吐期’标题下并列描述‘腹泻、腹部不适起病’和‘呕吐多在腹泻后出现’，且‘泻吐期’为典型霍乱病程第一期，呕吐与腹泻共同构成典型病程起始标志",
-        "evidence": "典型霍乱病例的病程分为三期。1.泻吐期。以腹泻、腹部不适起病……呕吐多在腹泻后出现"
-      },
-      {
-        "from": "sub_disease_cholera_typical",
-        "to": "symptom_abdominal_discomfort",
-        "relation_id": "rel_typical_manifests_as_abdominal_discomfort",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "以腹泻、腹部不适起病"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_cholera_typical",
-        "to": "symptom_fever_absent",
-        "relation_id": "rel_typical_manifests_as_fever_absent",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "exclusion",
-        "type_info": "排除条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "多无发热、里急后重"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_cholera_typical",
-        "to": "symptom_ileus_absent",
-        "relation_id": "rel_typical_manifests_as_ileus_absent",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "exclusion",
-        "type_info": "排除条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "多无发热、里急后重"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出轻型霍乱的临床表现包含腹泻。",
+        "evidence": "轻型：腹泻每天多不超过10次"
       },
       {
         "from": "sub_disease_cholera_severe",
         "to": "symptom_dehydration",
-        "relation_id": "rel_severe_manifests_as_dehydration",
+        "relation_id": "rel_severe_manifests_dehydration",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
+        "weight": 10,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "频繁的腹泻和呕吐导致大量水和电解质丢失，患者迅速出现脱水和微循环衰竭。"
+          "重型：腹泻数十次或不可计数，重度脱水"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确定义‘重型’霍乱时，将‘重度脱水’列为首要特征，且‘脱水期’为典型病程第二期，‘重度脱水’直接对应‘重型’分型标准",
-        "evidence": "3.重型：腹泻数十次或不可计数，重度脱水，少尿、无尿，休克。"
-      },
-      {
-        "from": "sub_disease_cholera_severe",
-        "to": "symptom_shock",
-        "relation_id": "rel_severe_manifests_as_shock",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "休克。出现极度烦躁甚至昏迷，皮肤弹性消失，眼窝深凹，指纹干瘪，明显发绀，严重肌肉痉挛，脉搏微弱或无法触及。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文在‘重型’定义中将‘休克’与‘重度脱水’并列作为核心判别项，且单独指出‘部分病例以休克为首发症状’，属重型霍乱确诊性表现",
-        "evidence": "3.重型：腹泻数十次或不可计数，重度脱水，少尿、无尿，休克。"
-      },
-      {
-        "from": "sub_disease_cholera_severe",
-        "to": "symptom_altered_mentation",
-        "relation_id": "rel_severe_manifests_as_altered_mentation",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 8,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "严重脱水的典型表现为脉搏微弱或缺失，呼吸窘迫、窒息，甚至神志丧失。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文描述为‘极度烦躁甚至昏迷’，属重度脱水/休克导致的继发性神经精神改变，非原发核心表现，但属重型明确列出的症状",
-        "evidence": "极度烦躁甚至昏迷"
-      },
-      {
-        "from": "sub_disease_cholera_severe",
-        "to": "symptom_muscle_spasm",
-        "relation_id": "rel_severe_manifests_as_muscle_spasm",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "严重肌肉痉挛"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_cholera_severe",
-        "to": "symptom_anuria",
-        "relation_id": "rel_severe_manifests_as_anuria",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "少尿、无尿"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出重型霍乱的临床表现包含重度脱水。",
+        "evidence": "重型：腹泻数十次或不可计数，重度脱水"
       },
       {
         "from": "sub_disease_cholera_severe",
         "to": "symptom_oliguria",
-        "relation_id": "rel_severe_manifests_as_oliguria",
+        "relation_id": "rel_severe_manifests_oliguria",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 7,
+        "weight": 10,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "少尿、无尿"
+          "少尿、无尿，休克"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_cholera_severe",
-        "to": "symptom_skin_turgor_loss",
-        "relation_id": "rel_severe_manifests_as_skin_turgor_loss",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 8,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "皮肤弹性消失，眼窝深凹，指纹干瘪"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文在‘重型’表现中描述‘皮肤弹性消失’，是重度脱水的典型体征，属明确列出但非定义性核心项",
-        "evidence": "皮肤弹性消失"
-      },
-      {
-        "from": "sub_disease_cholera_severe",
-        "to": "symptom_cyanosis",
-        "relation_id": "rel_severe_manifests_as_cyanosis",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "明显发绀"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_cholera_severe",
-        "to": "symptom_kussmaul_respiration",
-        "relation_id": "rel_severe_manifests_as_kussmaul_respiration",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "患者常表现为 Kussmaul 呼吸（深大呼吸、过度通气）。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出重型霍乱的临床表现包含少尿。",
+        "evidence": "重型：腹泻数十次或不可计数，重度脱水，少尿、无尿"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_cholera_typical",
-        "to": "test_motility_braking_test",
-        "relation_id": "rel_typical_requires_motility_braking_test",
+        "from": "sub_disease_cholera_suspected",
+        "to": "test_motility_inhibition",
+        "relation_id": "rel_suspected_requires_motility",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断次要条件",
@@ -1146,116 +539,36 @@
         "value_max": null,
         "operator": "equals",
         "unit": null,
-        "result_text": "阳性",
-        "weight": 5,
+        "result_text": "动力-制动试验阳性",
+        "weight": 10,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
-        "typicality": "common",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "1.动力-制动试验：粪便悬滴显微镜检查动力-制动试验阳性，常作为快速筛查手段。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_cholera_typical",
-        "to": "test_cholera_antigen_rapid_test",
-        "relation_id": "rel_typical_requires_antigen_test",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "common",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "2.霍乱弧菌快速抗原检测：粪便、呕吐物或肛拭子标本霍乱弧菌抗原检测阳性，可作为快速筛查的辅助手段。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_cholera_toxigenic_o1",
-        "to": "test_culture_o1_or_o139",
-        "relation_id": "rel_toxigenic_o1_requires_culture",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "contains",
-        "unit": null,
-        "result_text": "O1群霍乱弧菌产毒株",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "present",
         "typicality": "typical",
         "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "1.粪便、呕吐物或肛拭子培养到 O1 群或 O139 群霍乱弧菌产毒株；"
+          "粪便、呕吐物或肛拭子标本霍乱弧菌抗原检测或动力-制动试验阳性"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文‘确诊病例’定义中，第1项为‘培养到O1群或O139群霍乱弧菌产毒株’，O1产毒株培养阳性即为确诊金标准",
-        "evidence": "1.粪便、呕吐物或肛拭子培养到O1群或O139群霍乱弧菌产毒株；"
+        "confidence": 0.9,
+        "weight_reason": "原文明确将动力-制动试验阳性作为疑似病例的诊断标准之一。",
+        "evidence": "粪便、呕吐物或肛拭子标本霍乱弧菌抗原检测或动力-制动试验阳性"
       },
       {
-        "from": "sub_disease_cholera_toxigenic_o139",
-        "to": "test_culture_o1_or_o139",
-        "relation_id": "rel_toxigenic_o139_requires_culture",
+        "from": "sub_disease_cholera_confirmed",
+        "to": "test_bacterial_culture",
+        "relation_id": "rel_confirmed_requires_culture",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "contains",
-        "unit": null,
-        "result_text": "O139群霍乱弧菌产毒株",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "present",
-        "typicality": "typical",
-        "section_priority": "诊断",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "1.粪便、呕吐物或肛拭子培养到 O1 群或 O139 群霍乱弧菌产毒株；"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文‘确诊病例’定义中，第1项为‘培养到O1群或O139群霍乱弧菌产毒株’，O139产毒株培养阳性即为确诊金标准",
-        "evidence": "1.粪便、呕吐物或肛拭子培养到O1群或O139群霍乱弧菌产毒株；"
-      },
-      {
-        "from": "sub_disease_cholera_toxigenic_o1",
-        "to": "test_ct_gene_pcr",
-        "relation_id": "rel_toxigenic_o1_requires_ct_pcr",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
         "operator": "equals",
         "unit": null,
-        "result_text": "CT基因核酸检测阳性",
-        "weight": 100,
+        "result_text": "培养到 O1 群或 O139 群霍乱弧菌产毒株",
+        "weight": 10,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
@@ -1264,26 +577,26 @@
         "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "2.粪便、呕吐物或肛拭子霍乱弧菌 CT 基因、种特异性基因、O1 群或 O139 群脂多糖特异性基因核酸检测阳性。"
+          "粪便、呕吐物或肛拭子培养到 O1 群或 O139 群霍乱弧菌产毒株"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文‘确诊病例’定义中，第2项为‘CT基因核酸检测阳性’，且明确限定于O1群样本，构成O1产毒株确诊金标准",
-        "evidence": "2.粪便、呕吐物或肛拭子霍乱弧菌CT基因、种特异性基因、O1群或O139群脂多糖特异性基因核酸检测阳性。"
+        "weight_reason": "原文明确将培养出霍乱弧菌产毒株作为确诊病例的标准之一，但未提及金标准。",
+        "evidence": "粪便、呕吐物或肛拭子培养到O1群或O139群霍乱弧菌产毒株"
       },
       {
-        "from": "sub_disease_cholera_toxigenic_o139",
-        "to": "test_ct_gene_pcr",
-        "relation_id": "rel_toxigenic_o139_requires_ct_pcr",
+        "from": "sub_disease_cholera_confirmed",
+        "to": "test_nucleic_acid",
+        "relation_id": "rel_confirmed_requires_nucleic_acid",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
         "operator": "equals",
         "unit": null,
-        "result_text": "CT基因核酸检测阳性",
-        "weight": 100,
+        "result_text": "核酸检测阳性",
+        "weight": 10,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
@@ -1292,88 +605,149 @@
         "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "2.粪便、呕吐物或肛拭子霍乱弧菌 CT 基因、种特异性基因、O1 群或 O139 群脂多糖特异性基因核酸检测阳性。"
+          "粪便、呕吐物或肛拭子霍乱弧菌 CT 基因、种特异性基因、O1 群或 O139 群脂多糖特异性基因核酸检测阳性"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文‘确诊病例’定义中，第2项为‘CT基因核酸检测阳性’，且明确包含O139群，构成O139产毒株确诊金标准",
-        "evidence": "2.粪便、呕吐物或肛拭子霍乱弧菌CT基因、种特异性基因、O1群或O139群脂多糖特异性基因核酸检测阳性。"
+        "weight_reason": "原文明确将核酸检测阳性作为确诊病例的标准之一，但未提及金标准。",
+        "evidence": "粪便、呕吐物或肛拭子霍乱弧菌CT基因、种特异性基因、O1群或O139群脂多糖特异性基因核酸检测阳性"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_cholera_typical",
-        "to": "treatment_cholera_isolation",
-        "relation_id": "rel_typical_follows_isolation",
+        "from": "sub_disease_cholera_confirmed",
+        "to": "treatment_isolation",
+        "relation_id": "rel_confirmed_follows_isolation",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后立即执行",
+        "applicable_condition": "明确诊断后",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病类型"
+          "疾病分型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗",
+        "source_section": "治疗原则",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_cholera_typical",
-        "to": "treatment_cholera_rehydration",
-        "relation_id": "rel_typical_follows_rehydration",
+        "from": "sub_disease_cholera_confirmed",
+        "to": "treatment_rehydration",
+        "relation_id": "rel_confirmed_follows_rehydration",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后立即执行",
+        "applicable_condition": "明确诊断后",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病类型"
+          "脱水程度"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗",
+        "source_section": "补液治疗",
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cholera_confirmed",
+        "to": "treatment_antimicrobial",
+        "relation_id": "rel_confirmed_follows_antimicrobial",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "病原治疗",
+        "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_cholera_rehydration",
-        "to": "plan_oral_rehydration_salt_adult",
-        "relation_id": "rel_rehydration_implements_by_oral",
+        "from": "treatment_rehydration",
+        "to": "plan_oral_rehydration",
+        "relation_id": "rel_rehydration_implements_oral",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
         "applicable_condition": "轻、中度及不伴有休克的重度脱水患者",
-        "contraindication_note": "无法接受口服补液者禁用",
+        "contraindication_note": null,
         "evidence_ids": [
-          "1.口服补液：治疗最初 6 小时，口服补液盐（ORS）成人 750ml/h，20kg 以下儿童 250ml/h。以后每 6 小时的口服补液量为前 6 小时泻吐量的 1.5 倍。"
+          "轻、中度及不伴有休克的重度脱水患者口服补液为主"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "treatment_cholera_rehydration",
-        "to": "plan_iv_rehydration_541_solution",
-        "relation_id": "rel_rehydration_implements_by_iv",
+        "from": "treatment_rehydration",
+        "to": "plan_iv_541",
+        "relation_id": "rel_rehydration_implements_iv",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
         "applicable_condition": "无法接受口服补液和重度脱水伴有休克患者",
-        "contraindication_note": "心肺功能不全者慎用",
+        "contraindication_note": "对老人、婴幼儿及心肺功能不全的患者补液不宜过快",
         "evidence_ids": [
-          "2.静脉补液：首选 541 液（生理盐水 550ml+5%碳酸氢钠 80ml+10%葡萄糖 360ml+10%氯化钾 10ml），也可选林格液。"
+          "无法接受口服补液和重度脱水伴有休克患者应采用静脉补液"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_ciprofloxacin",
+        "relation_id": "rel_antimicrobial_implements_cipro",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "抗菌药物治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "抗菌药物包括氟喹诺酮类、四环素类和大环内酯类"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_doxycycline",
+        "relation_id": "rel_antimicrobial_implements_doxy",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "抗菌药物治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "抗菌药物包括氟喹诺酮类、四环素类和大环内酯类"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_azithromycin",
+        "relation_id": "rel_antimicrobial_implements_azith",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "抗菌药物治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "抗菌药物包括氟喹诺酮类、四环素类和大环内酯类"
+        ],
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_cholera_typical",
-        "to": "etiology_vibrio_cholerae_o1",
-        "relation_id": "rel_typical_causes_by_o1",
+        "from": "sub_disease_cholera_confirmed",
+        "to": "etiology_vibrio_cholerae",
+        "relation_id": "rel_confirmed_caused_by_vibrio",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -1381,72 +755,35 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "目前引起霍乱暴发流行的主要是 O1 群和 O139 群的霍乱弧菌。"
+          "霍乱（Cholera）是由霍乱弧菌（Vibrio cholerae）感染引起的急性肠道传染病"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_cholera_typical",
-        "to": "etiology_vibrio_cholerae_o139",
-        "relation_id": "rel_typical_causes_by_o139",
+        "from": "sub_disease_cholera_suspected",
+        "to": "etiology_contaminated_water_food",
+        "relation_id": "rel_suspected_caused_by_water_food",
         "relation_name": "相关",
         "relation_type": "causes",
-        "causal_strength": "strong",
-        "typicality": "typical",
+        "causal_strength": "moderate",
+        "typicality": "common",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "目前引起霍乱暴发流行的主要是 O1 群和 O139 群的霍乱弧菌。"
+          "不洁饮水或饮食史"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_cholera_typical",
-        "to": "etiology_cholera_toxin",
-        "relation_id": "rel_typical_causes_by_toxin",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "strong",
-        "typicality": "typical",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "主要通过霍乱弧菌产生的霍乱毒素（Cholera Toxin，CT）引起腹泻。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.85
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_cholera_typical",
-        "to": "pathogenesis_cholera_toxin_ct_activation",
-        "relation_id": "rel_typical_explained_by_ct_activation",
+        "from": "sub_disease_cholera_confirmed",
+        "to": "pathogenesis_cholera_toxin",
+        "relation_id": "rel_confirmed_explained_by_toxin",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "霍乱毒素由一个 A 亚单位和五个 B 亚单位组成，霍乱毒素与肠黏膜接触后，B 亚基与小肠黏膜上皮细胞中的神经节苷脂（GM）受体结合，促使 A 亚单位通过内吞作用进入细胞内。A 亚单位激活腺苷酸环化酶，导致细胞内环磷酸腺苷（cAMP）水平显著升高，刺激肠黏膜细胞过度分泌水、氯化物和碳酸氢盐，同时抑制绒毛膜细胞对钠、氯离子重吸收，使水和氯化钠等在肠腔内聚集，引起特征性的水样腹泻。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_cholera_typical",
-        "to": "pathogenesis_cholera_toxin_mucus_secretion",
-        "relation_id": "rel_typical_explained_by_mucus_secretion",
-        "relation_name": "由机制解释",
-        "relation_type": "explained_by",
-        "evidence_ids": [
-          "CT 还能促使杯状细胞分泌黏液，使水样便中含有大量黏液。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_cholera_typical",
-        "to": "pathogenesis_toxr_regulation",
-        "relation_id": "rel_typical_explained_by_toxr_regulation",
-        "relation_name": "由机制解释",
-        "relation_type": "explained_by",
-        "evidence_ids": [
-          "霍乱弧菌的直接转录激活因子如 ToxR，能够调控霍乱毒素 A 亚单位和 B 亚单位、毒素共调菌毛 TCP 等毒力和毒力相关因子基因的转录表达，促进疾病进展。"
+          "霍乱弧菌产生的霍乱毒素（CT）为主要致泻因子"
         ],
         "confidence": 0.95
       }

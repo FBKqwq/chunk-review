@@ -2,7 +2,7 @@
   "meta": {
     "doc_id": "人腺病毒呼吸道感染预防控制技术指南(2019年版)",
     "source_title": "人腺病毒呼吸道感染预防控制技术指南(2019年版)",
-    "section_path": "",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -11,85 +11,132 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_adenovirus_respiratory_infection",
+        "id": "disease_hadv_respiratory_infection",
         "name": "人腺病毒呼吸道感染",
         "normalized_name": "人腺病毒呼吸道感染",
         "aliases": [
-          "HAdV呼吸道感染",
-          "人腺病毒感染"
+          "人腺病毒感染",
+          "HAdV感染"
         ],
         "source_document_ids": [
           "人腺病毒呼吸道感染预防控制技术指南(2019年版)"
         ],
         "evidence_ids": [
-          "人腺病毒是人呼吸道感染常见的病原体之一，其感染可引起多种疾病。",
-          "人腺病毒呼吸道感染预防控制技术指南(2019年版)"
+          "人腺病毒(human adenovirus, HAdV)感染可引起多种疾病，包括肺炎、支气管炎、膀胱炎、眼结膜炎、胃肠道疾病及脑炎等，是人呼吸道感染常见的病原体之一。"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_adenovirus_lab_confirmed_case",
-        "name": "实验室确诊病例",
-        "parent_disease_id": "disease_adenovirus_respiratory_infection",
-        "disease_subtype": null,
+        "id": "sub_disease_hadv_latent",
+        "name": "隐性感染",
+        "parent_disease_id": "disease_hadv_respiratory_infection",
+        "disease_subtype": "隐性感染",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "所有人群",
+        "severity": "轻症",
+        "population": "全人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "具有呼吸道感染临床表现，并具备以下任一检测结果的病例可作为实验室确诊病例：（1）呼吸道标本检测人腺病毒特异性核酸阳性；（2）呼吸道标本检测人腺病毒特异性抗原阳性；（3）呼吸道标本中分离培养到人腺病毒；（4）急性期与恢复期双份血清标本（采样间隔应为2~4周）人腺病毒特异性IgG抗体由阴性转为阳性，或呈4倍及以上升高。"
+          "隐性感染：无任何临床症状，但具有传染性。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_adenovirus_clinically_diagnosed_case",
-        "name": "临床诊断病例",
-        "parent_disease_id": "disease_adenovirus_respiratory_infection",
-        "disease_subtype": null,
+        "id": "sub_disease_hadv_urti",
+        "name": "急性上呼吸道感染",
+        "parent_disease_id": "disease_hadv_respiratory_infection",
+        "disease_subtype": "急性呼吸道感染",
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "全人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hadv_pneumonia",
+        "name": "人腺病毒肺炎",
+        "parent_disease_id": "disease_hadv_respiratory_infection",
+        "disease_subtype": "下呼吸道感染",
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": "全人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "部分患者可出现下呼吸道感染（人腺病毒肺炎）。患者多持续高热（38.5℃以上），同时可伴呼吸急促、胸闷，胸部X线片或CT检查发现肺部病变，肺部听诊无明显湿啰音。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hadv_severe_pneumonia",
+        "name": "重症人腺病毒肺炎",
+        "parent_disease_id": "disease_hadv_respiratory_infection",
+        "disease_subtype": "重症肺炎",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "免疫系统较弱或具有基础性疾病患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "少数发展为重症肺炎的患者，除肺炎症状以外，还出现持续高热、呼吸困难、胸闷、心率增加等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_hadv_critical_pneumonia",
+        "name": "危重症人腺病毒肺炎",
+        "parent_disease_id": "disease_hadv_respiratory_infection",
+        "disease_subtype": "危重症肺炎",
+        "clinical_stage": "不限定",
+        "severity": "危重症",
+        "population": "全人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "具有人腺病毒肺炎临床表现，并符合以下任一项主要标准或≥3项次要标准的患者，可诊断为危重症人腺病毒肺炎病例"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_hadv_lab_confirmed",
+        "name": "实验室确诊病例",
+        "parent_disease_id": "disease_hadv_respiratory_infection",
+        "disease_subtype": "确诊病例",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "所有人群",
+        "population": "全人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "具有呼吸道感染临床表现，并具备以下任一检测结果的病例可作为实验室确诊病例"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_hadv_clinical_diagnosed",
+        "name": "临床诊断病例",
+        "parent_disease_id": "disease_hadv_respiratory_infection",
+        "disease_subtype": "临床诊断病例",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "全人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
           "具有呼吸道感染临床表现，并在发病前8天内与人腺病毒确诊病例有密切接触史的病例，可诊断为人腺病毒感染临床诊断病例。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_adenovirus_severe_pneumonia",
-        "name": "重症人腺病毒肺炎病例",
-        "parent_disease_id": "disease_adenovirus_respiratory_infection",
-        "disease_subtype": "肺炎",
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "所有人群",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "对于出现人腺病毒肺炎临床表现的临床诊断或实验室确诊病例，可诊断为重症人腺病毒感染病例。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_adenovirus_critical_pneumonia",
-        "name": "危重症人腺病毒肺炎病例",
-        "parent_disease_id": "disease_adenovirus_respiratory_infection",
-        "disease_subtype": "肺炎",
-        "clinical_stage": "不限定",
-        "severity": "危重症",
-        "population": "所有人群",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "具有人腺病毒肺炎临床表现，并符合以下任一项主要标准或≥3项次要标准的患者，可诊断为危重症人腺病毒肺炎病例：1. 主要标准：（1）需要气管插管行机械通气治疗；（2）脓毒性休克经积极液体复苏后仍需要血管活性药物治疗。2. 次要标准：（1）呼吸频率（respiratory rate, RR）增快：成人及5岁以上儿童≥30次/分，1岁以下婴幼儿RR>70次/min, 1~5岁儿童RR>50次/min;（2）氧合指数≤250 mmHg；（3）多肺叶浸润；（4）意识障碍和（或）定向障碍；（5）血尿素氮≥7.14 mmol/L;（6）收缩压<90 mmHg需要积极的液体复苏。"
         ],
         "confidence": 0.9
       }
@@ -103,94 +150,69 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等；",
-          "患者多持续高热（38.5℃以上）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_cough",
-        "name": "咳嗽",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_sputum_production",
-        "name": "咳痰",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等；"
+          "表现为急性发热起病"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_pharyngeal_discomfort",
-        "name": "咽部不适",
-        "body_site": "呼吸系统",
+        "id": "symptom_cough",
+        "name": "咳嗽",
+        "body_site": "呼吸道",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等；"
+          "同时伴咳嗽、咳痰、咽部不适、咽痛等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_sputum",
+        "name": "咳痰",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "同时伴咳嗽、咳痰、咽部不适、咽痛等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_throat_discomfort",
+        "name": "咽部不适",
+        "body_site": "咽部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "同时伴咳嗽、咳痰、咽部不适、咽痛等"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_sore_throat",
         "name": "咽痛",
-        "body_site": "呼吸系统",
+        "body_site": "咽部",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_dyspnea",
-        "name": "呼吸急促",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "患者多持续高热（38.5℃以上），同时可伴呼吸急促、胸闷，胸部X线片或CT检查发现肺部病变"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_chest_tightness",
-        "name": "胸闷",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "患者多持续高热（38.5℃以上），同时可伴呼吸急促、胸闷，胸部X线片或CT检查发现肺部病变"
+          "同时伴咳嗽、咳痰、咽部不适、咽痛等"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_diarrhea",
         "name": "腹泻",
-        "body_site": "消化系统",
+        "body_site": "消化道",
         "symptom_category": "消化系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
           "可出现腹泻、乏力、恶心、食欲减退等消化系统症状"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
         "id": "symptom_fatigue",
@@ -202,124 +224,231 @@
         "evidence_ids": [
           "可出现腹泻、乏力、恶心、食欲减退等消化系统症状"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
         "id": "symptom_nausea",
         "name": "恶心",
-        "body_site": "消化系统",
+        "body_site": "消化道",
         "symptom_category": "消化系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
           "可出现腹泻、乏力、恶心、食欲减退等消化系统症状"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
-        "id": "symptom_anorexia",
+        "id": "symptom_loss_of_appetite",
         "name": "食欲减退",
-        "body_site": "消化系统",
+        "body_site": "消化道",
         "symptom_category": "消化系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
           "可出现腹泻、乏力、恶心、食欲减退等消化系统症状"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
         "id": "symptom_headache",
         "name": "头痛",
-        "body_site": "神经系统",
+        "body_site": "头部",
         "symptom_category": "神经系统症状",
         "polarity": "present",
         "typicality": "rare",
         "evidence_ids": [
-          "少数患者出现头痛、头晕；"
+          "少数患者出现头痛、头晕"
         ],
         "confidence": 0.8
       },
       {
         "id": "symptom_dizziness",
         "name": "头晕",
+        "body_site": "头部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "少数患者出现头痛、头晕"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "symptom_tachypnea",
+        "name": "呼吸急促",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "同时可伴呼吸急促、胸闷"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_chest_tightness",
+        "name": "胸闷",
+        "body_site": "胸部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "同时可伴呼吸急促、胸闷"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dyspnea",
+        "name": "呼吸困难",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "还出现持续高热、呼吸困难、胸闷、心率增加等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_tachycardia",
+        "name": "心率增加",
+        "body_site": "心脏",
+        "symptom_category": "心血管系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "还出现持续高热、呼吸困难、胸闷、心率增加等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_shock",
+        "name": "休克",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "危重患者出现休克、呼吸衰竭、弥散性血管内凝血等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_respiratory_failure",
+        "name": "呼吸衰竭",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "危重患者出现休克、呼吸衰竭、弥散性血管内凝血等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dic",
+        "name": "弥散性血管内凝血",
+        "body_site": "血液系统",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "危重患者出现休克、呼吸衰竭、弥散性血管内凝血等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_consciousness_disorder",
+        "name": "意识障碍",
         "body_site": "神经系统",
         "symptom_category": "神经系统症状",
         "polarity": "present",
         "typicality": "rare",
         "evidence_ids": [
-          "少数患者出现头痛、头晕；"
+          "意识障碍和（或）定向障碍"
         ],
-        "confidence": 0.8
+        "confidence": 0.9
       },
       {
-        "id": "symptom_implicit_infection",
-        "name": "隐性感染",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
+        "id": "symptom_disorientation",
+        "name": "定向障碍",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "rare",
         "evidence_ids": [
-          "（1）隐性感染：无任何临床症状，但具有传染性。"
+          "意识障碍和（或）定向障碍"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_adenovirus_nucleic_acid",
-        "name": "人腺病毒特异性核酸检测",
+        "id": "test_hadv_nucleic_acid",
+        "name": "呼吸道标本检测人腺病毒特异性核酸",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "（1）呼吸道标本检测人腺病毒特异性核酸阳性；"
+          "呼吸道标本检测人腺病毒特异性核酸阳性"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_adenovirus_antigen",
-        "name": "人腺病毒特异性抗原检测",
+        "id": "test_hadv_antigen",
+        "name": "呼吸道标本检测人腺病毒特异性抗原",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "（2）呼吸道标本检测人腺病毒特异性抗原阳性；"
+          "呼吸道标本检测人腺病毒特异性抗原阳性"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_adenovirus_culture",
-        "name": "人腺病毒分离培养",
+        "id": "test_hadv_culture",
+        "name": "呼吸道标本中分离培养到人腺病毒",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "（3）呼吸道标本中分离培养到人腺病毒；"
+          "呼吸道标本中分离培养到人腺病毒"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_adenovirus_igg_serology",
-        "name": "人腺病毒特异性IgG抗体检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "（4）急性期与恢复期双份血清标本（采样间隔应为2~4周）人腺病毒特异性IgG抗体由阴性转为阳性，或呈4倍及以上升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_rr",
-        "name": "呼吸频率",
+        "id": "test_hadv_igg",
+        "name": "急性期与恢复期双份血清标本人腺病毒特异性IgG抗体",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "（1）呼吸频率（respiratory rate, RR）增快：成人及5岁以上儿童≥30次/分，1岁以下婴幼儿RR>70次/min, 1~5岁儿童RR>50次/min;"
+          "急性期与恢复期双份血清标本（采样间隔应为2~4周）人腺病毒特异性IgG抗体由阴性转为阳性，或呈4倍及以上升高。"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "test_chest_imaging",
+        "name": "胸部X线片或CT检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "胸部X线片或CT检查发现肺部病变"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_rr",
+        "name": "呼吸频率(RR)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "呼吸频率（respiratory rate, RR）增快：成人及5岁以上儿童≥30次/分，1岁以下婴幼儿RR>70次/min, 1~5岁儿童RR>50次/min"
+        ],
+        "confidence": 0.9
       },
       {
         "id": "test_oxygenation_index",
@@ -328,9 +457,9 @@
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "（2）氧合指数≤250 mmHg"
+          "氧合指数≤250 mmHg"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_bun",
@@ -339,9 +468,9 @@
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "（5）血尿素氮≥7.14 mmol/L;"
+          "血尿素氮≥7.14 mmol/L"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_sbp",
@@ -350,77 +479,128 @@
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "（6）收缩压<90 mmHg需要积极的液体复苏。"
+          "收缩压<90 mmHg需要积极的液体复苏"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_supportive_therapy",
-        "content": "临床上以对症支持、免疫调节治疗和针对并发症的治疗为主。",
-        "recommendation_strength": "unknown",
+        "id": "treatment_symptomatic_support",
+        "content": "对症支持治疗",
+        "recommendation_strength": "推荐",
         "source_section": "治疗原则",
         "evidence_ids": [
           "目前国内尚无针对人腺病毒感染的特异性抗病毒药物，临床上以对症支持、免疫调节治疗和针对并发症的治疗为主。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_immunomodulation",
+        "content": "免疫调节治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "治疗原则",
+        "evidence_ids": [
+          "目前国内尚无针对人腺病毒感染的特异性抗病毒药物，临床上以对症支持、免疫调节治疗和针对并发症的治疗为主。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_complications",
+        "content": "针对并发症的治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "治疗原则",
+        "evidence_ids": [
+          "目前国内尚无针对人腺病毒感染的特异性抗病毒药物，临床上以对症支持、免疫调节治疗和针对并发症的治疗为主。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_mechanical_ventilation",
+        "content": "气管插管行机械通气治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "病例定义",
+        "evidence_ids": [
+          "需要气管插管行机械通气治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_vasoactive_drugs",
+        "content": "血管活性药物治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "病例定义",
+        "evidence_ids": [
+          "脓毒性休克经积极液体复苏后仍需要血管活性药物治疗"
+        ],
+        "confidence": 0.9
       }
     ],
-    "plans": [],
+    "plans": [
+      {
+        "id": "plan_children_guideline",
+        "content": "儿童腺病毒肺炎病例治疗参见《儿童腺病毒肺炎诊疗规范（2019年版）》",
+        "plan_level": 1,
+        "applicable_condition": "儿童腺病毒肺炎病例",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "儿童腺病毒肺炎病例治疗参见《儿童腺病毒肺炎诊疗规范（2019年版）》"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_fluid_resuscitation",
+        "content": "积极液体复苏",
+        "plan_level": 1,
+        "applicable_condition": "脓毒性休克",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "脓毒性休克经积极液体复苏后仍需要血管活性药物治疗"
+        ],
+        "confidence": 0.9
+      }
+    ],
     "etiologies": [
       {
-        "id": "etiology_human_adenovirus",
-        "content": "人腺病毒",
+        "id": "etiology_hadv_infection",
+        "content": "人腺病毒感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "人腺病毒是人呼吸道感染常见的病原体之一",
-          "人腺病毒属于哺乳动物腺病毒属，为无包膜的双链DNA病毒"
+          "人腺病毒(human adenovirus, HAdV)感染可引起多种疾病"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_immunosuppression",
-        "content": "免疫系统功能较弱",
-        "etiology_type": "危险因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
+        "id": "etiology_hadv_3_7",
+        "content": "HAdV-3和HAdV-7型",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "免疫系统较弱，或具有慢性呼吸系统疾病、心脏病等基础性疾病的患者，感染人腺病毒后引发严重情况的风险较高。"
+          "HAdV-3和HAdV-7型是儿童下呼吸道感染最重要的人腺病毒型别"
         ],
         "confidence": 0.9
       },
       {
-        "id": "etiology_chronic_respiratory_disease",
-        "content": "慢性呼吸系统疾病",
-        "etiology_type": "危险因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
+        "id": "etiology_hadv_55",
+        "content": "HAdV-55型",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "免疫系统较弱，或具有慢性呼吸系统疾病、心脏病等基础性疾病的患者，感染人腺病毒后引发严重情况的风险较高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_cardiovascular_disease",
-        "content": "心脏病",
-        "etiology_type": "危险因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "免疫系统较弱，或具有慢性呼吸系统疾病、心脏病等基础性疾病的患者，感染人腺病毒后引发严重情况的风险较高。"
+          "HAdV-55型自首次在我国发现以来，已在全国形成广泛流行，成为我国成人社区获得性肺炎的重要病原体之一"
         ],
         "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_adenovirus_replication_in_respiratory_epithelium",
-        "content": "人腺病毒常与其他呼吸道病毒共同感染，也有不同型别人腺病毒共同感染的报道。",
+        "id": "pathogenesis_tissue_tropism",
+        "content": "不同人腺病毒对人体的组织嗜性不同，可导致多种人类疾病",
         "evidence_ids": [
-          "人腺病毒常与其他呼吸道病毒共同感染，也有不同型别人腺病毒共同感染的报道。"
+          "由于不同人腺病毒对人体的组织嗜性不同，人腺病毒可导致多种人类疾病"
         ],
         "confidence": 0.85
       }
@@ -429,76 +609,128 @@
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_adenovirus_respiratory_infection",
-        "to": "sub_disease_adenovirus_lab_confirmed_case",
-        "relation_id": "rel_adenovirus_has_lab_confirmed_case",
+        "from": "disease_hadv_respiratory_infection",
+        "to": "sub_disease_hadv_latent",
+        "relation_id": "rel_hadv_has_latent",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "具有呼吸道感染临床表现，并具备以下任一检测结果的病例可作为实验室确诊病例：（1）呼吸道标本检测人腺病毒特异性核酸阳性；（2）呼吸道标本检测人腺病毒特异性抗原阳性；（3）呼吸道标本中分离培养到人腺病毒；（4）急性期与恢复期双份血清标本（采样间隔应为2~4周）人腺病毒特异性IgG抗体由阴性转为阳性，或呈4倍及以上升高。"
+          "呼吸道感染人腺病毒后主要表现为隐性感染、急性上呼吸道和下呼吸道感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_hadv_respiratory_infection",
+        "to": "sub_disease_hadv_urti",
+        "relation_id": "rel_hadv_has_urti",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "多数患者以急性上呼吸道感染为主"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_hadv_respiratory_infection",
+        "to": "sub_disease_hadv_pneumonia",
+        "relation_id": "rel_hadv_has_pneumonia",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "部分患者可出现下呼吸道感染（人腺病毒肺炎）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_hadv_respiratory_infection",
+        "to": "sub_disease_hadv_severe_pneumonia",
+        "relation_id": "rel_hadv_has_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "少数发展为重症肺炎的患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_hadv_respiratory_infection",
+        "to": "sub_disease_hadv_critical_pneumonia",
+        "relation_id": "rel_hadv_has_critical",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "可诊断为危重症人腺病毒肺炎病例"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_hadv_respiratory_infection",
+        "to": "sub_disease_hadv_lab_confirmed",
+        "relation_id": "rel_hadv_has_lab_confirmed",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "可作为实验室确诊病例"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_adenovirus_respiratory_infection",
-        "to": "sub_disease_adenovirus_clinically_diagnosed_case",
-        "relation_id": "rel_adenovirus_has_clinically_diagnosed_case",
+        "from": "disease_hadv_respiratory_infection",
+        "to": "sub_disease_hadv_clinical_diagnosed",
+        "relation_id": "rel_hadv_has_clinical",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "具有呼吸道感染临床表现，并在发病前8天内与人腺病毒确诊病例有密切接触史的病例，可诊断为人腺病毒感染临床诊断病例。"
+          "可诊断为人腺病毒感染临床诊断病例"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_adenovirus_respiratory_infection",
-        "to": "sub_disease_adenovirus_severe_pneumonia",
-        "relation_id": "rel_adenovirus_has_severe_pneumonia",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "对于出现人腺病毒肺炎临床表现的临床诊断或实验室确诊病例，可诊断为重症人腺病毒感染病例。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_adenovirus_respiratory_infection",
-        "to": "sub_disease_adenovirus_critical_pneumonia",
-        "relation_id": "rel_adenovirus_has_critical_pneumonia",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "具有人腺病毒肺炎临床表现，并符合以下任一项主要标准或≥3项次要标准的患者，可诊断为危重症人腺病毒肺炎病例：1. 主要标准：（1）需要气管插管行机械通气治疗；（2）脓毒性休克经积极液体复苏后仍需要血管活性药物治疗。2. 次要标准：（1）呼吸频率（respiratory rate, RR）增快：成人及5岁以上儿童≥30次/分，1岁以下婴幼儿RR>70次/min, 1~5岁儿童RR>50次/min;（2）氧合指数≤250 mmHg；（3）多肺叶浸润；（4）意识障碍和（或）定向障碍；（5）血尿素氮≥7.14 mmol/L;（6）收缩压<90 mmHg需要积极的液体复苏。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_adenovirus_lab_confirmed_case",
+        "from": "sub_disease_hadv_urti",
         "to": "symptom_fever",
-        "relation_id": "rel_lab_confirmed_manifests_as_fever",
+        "relation_id": "rel_urti_manifests_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 8,
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等；"
+          "表现为急性发热起病"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确列为急性上呼吸道感染‘主要表现’，且‘急性发热起病’为首要症状",
-        "evidence": "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等"
+        "confidence": 0.9,
+        "weight_reason": "原文指出急性上呼吸道感染主要表现为急性发热起病",
+        "evidence": "多数患者以急性上呼吸道感染为主，表现为急性发热起病"
       },
       {
-        "from": "sub_disease_adenovirus_lab_confirmed_case",
+        "from": "sub_disease_hadv_urti",
         "to": "symptom_cough",
-        "relation_id": "rel_lab_confirmed_manifests_as_cough",
+        "relation_id": "rel_urti_manifests_cough",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "同时伴咳嗽、咳痰、咽部不适、咽痛等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_hadv_pneumonia",
+        "to": "symptom_tachypnea",
+        "relation_id": "rel_pneumonia_manifests_tachypnea",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -506,464 +738,364 @@
         "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等；"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文将‘咳嗽’与‘急性发热起病’并列作为急性上呼吸道感染的典型伴随症状",
-        "evidence": "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等"
-      },
-      {
-        "from": "sub_disease_adenovirus_lab_confirmed_case",
-        "to": "symptom_sputum_production",
-        "relation_id": "rel_lab_confirmed_manifests_as_sputum",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
         "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等；"
+          "同时可伴呼吸急促、胸闷"
         ],
-        "confidence": 0.9
+        "confidence": 0.9,
+        "weight_reason": "原文指出人腺病毒肺炎患者多持续高热，同时可伴呼吸急促",
+        "evidence": "部分患者可出现下呼吸道感染（人腺病毒肺炎）。患者多持续高热（38.5七以上），同时可伴呼吸急促"
       },
       {
-        "from": "sub_disease_adenovirus_lab_confirmed_case",
-        "to": "symptom_pharyngeal_discomfort",
-        "relation_id": "rel_lab_confirmed_manifests_as_pharyngeal_discomfort",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_adenovirus_lab_confirmed_case",
-        "to": "symptom_sore_throat",
-        "relation_id": "rel_lab_confirmed_manifests_as_sore_throat",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "多数患者以急性上呼吸道感染为主，表现为急性发热起病，同时伴咳嗽、咳痰、咽部不适、咽痛等；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_adenovirus_severe_pneumonia",
-        "to": "symptom_fever",
-        "relation_id": "rel_severe_pneumonia_manifests_as_fever",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": "持续 >48 h",
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "患者多持续高热（38.5℃以上）"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文定义重症肺炎时强调‘持续高热（38.5℃以上）’为关键临床特征，属强制性诊断要素",
-        "evidence": "部分患者可出现下呼吸道感染（人腺病毒肺炎）。患者多持续高热（38.5℃以上），同时可伴呼吸急促、胸闷"
-      },
-      {
-        "from": "sub_disease_adenovirus_severe_pneumonia",
+        "from": "sub_disease_hadv_severe_pneumonia",
         "to": "symptom_dyspnea",
-        "relation_id": "rel_severe_pneumonia_manifests_as_dyspnea",
+        "relation_id": "rel_severe_manifests_dyspnea",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "患者多持续高热（38.5℃以上），同时可伴呼吸急促、胸闷，胸部X线片或CT检查发现肺部病变"
+          "还出现持续高热、呼吸困难、胸闷、心率增加等"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文定义重症肺炎时‘呼吸急促’与‘持续高热’并列为核心表现，且‘呼吸困难’在危重症标准中进一步强化",
-        "evidence": "患者多持续高热（38.5℃以上），同时可伴呼吸急促、胸闷，胸部X线片或CT检查发现肺部病变"
+        "confidence": 0.9,
+        "weight_reason": "原文明确少数发展为重症肺炎的患者会出现呼吸困难",
+        "evidence": "少数发展为重症肺炎的患者，除肺炎症状以外，还出现持续高热、呼吸困难"
       },
       {
-        "from": "sub_disease_adenovirus_severe_pneumonia",
-        "to": "symptom_chest_tightness",
-        "relation_id": "rel_severe_pneumonia_manifests_as_chest_tightness",
+        "from": "sub_disease_hadv_critical_pneumonia",
+        "to": "symptom_shock",
+        "relation_id": "rel_critical_manifests_shock",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
+        "typicality": "rare",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "患者多持续高热（38.5℃以上），同时可伴呼吸急促、胸闷，胸部X线片或CT检查发现肺部病变"
+          "危重患者出现休克、呼吸衰竭、弥散性血管内凝血等"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出危重患者会出现休克等严重并发症",
+        "evidence": "危重患者出现休克、呼吸衰竭、弥散性血管内凝血等，甚至导致死亡"
+      },
+      {
+        "from": "sub_disease_hadv_critical_pneumonia",
+        "to": "symptom_consciousness_disorder",
+        "relation_id": "rel_critical_manifests_consciousness",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": "critical_minor_criteria",
+        "required_count": 3,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "病例定义",
+        "evidence_ids": [
+          "意识障碍和（或）定向障碍"
         ],
         "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_adenovirus_critical_pneumonia",
-        "to": "symptom_dyspnea",
-        "relation_id": "rel_critical_pneumonia_manifests_as_dyspnea",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "危重症诊断标准",
-        "evidence_ids": [
-          "（1）呼吸频率（respiratory rate, RR）增快：成人及5岁以上儿童≥30次/分，1岁以下婴幼儿RR>70次/min, 1~5岁儿童RR>50次/min;"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文危重症标准中‘呼吸困难’直接对应‘次要标准’第1项‘呼吸频率增快’，且‘主要标准’含机械通气需求，属刚性指征",
-        "evidence": "具有人腺病毒肺炎临床表现，并符合以下任一项主要标准或≥3项次要标准的患者，可诊断为危重症人腺病毒肺炎病例：1.主要标准：（1）需要气管插管行机械通气治疗"
-      },
-      {
-        "from": "sub_disease_adenovirus_critical_pneumonia",
-        "to": "symptom_fever",
-        "relation_id": "rel_critical_pneumonia_manifests_as_fever",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": "持续 >48 h",
-        "section_priority": "危重症诊断标准",
-        "evidence_ids": [
-          "患者多持续高热（38.5℃以上）"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文对危重症的描述继承自重症定义，‘持续高热’是重症肺炎基础表现，危重症必含此核心症状",
-        "evidence": "患者多持续高热（38.5℃以上），同时可伴呼吸急促、胸闷，胸部X线片或CT检查发现肺部病变，少数发展为重症肺炎的患者，除肺炎症状以外，还出现持续高热、呼吸困难、胸闷、心率增加等"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_adenovirus_lab_confirmed_case",
-        "to": "test_adenovirus_nucleic_acid",
-        "relation_id": "rel_lab_confirmed_requires_nucleic_acid",
+        "from": "sub_disease_hadv_lab_confirmed",
+        "to": "test_hadv_nucleic_acid",
+        "relation_id": "rel_lab_requires_nucleic_acid",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
         "operator": "equals",
         "unit": null,
         "result_text": "阳性",
-        "weight": 100,
+        "weight": 10,
         "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "lab_confirm_criteria",
+        "required_count": 1,
         "polarity": "positive",
         "typicality": "typical",
         "section_priority": "病例定义",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（1）呼吸道标本检测人腺病毒特异性核酸阳性；"
+          "呼吸道标本检测人腺病毒特异性核酸阳性"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确定义‘实验室确诊病例’四条标准之首即为‘呼吸道标本检测人腺病毒特异性核酸阳性’，属并列确诊路径之一，符合‘确诊标准’层级",
-        "evidence": "（一）实验室确诊病例：具有呼吸道感染临床表现，并具备以下任一检测结果的病例可作为实验室确诊病例：（1）呼吸道标本检测人腺病毒特异性核酸阳性"
+        "weight_reason": "原文将呼吸道标本检测人腺病毒特异性核酸阳性作为实验室确诊病例的标准之一",
+        "evidence": "具备以下任一检测结果的病例可作为实验室确诊病例：（1）呼吸道标本检测人腺病毒特异性核酸阳性"
       },
       {
-        "from": "sub_disease_adenovirus_lab_confirmed_case",
-        "to": "test_adenovirus_antigen",
-        "relation_id": "rel_lab_confirmed_requires_antigen",
+        "from": "sub_disease_hadv_lab_confirmed",
+        "to": "test_hadv_igg",
+        "relation_id": "rel_lab_requires_igg",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
+        "diagnostic_role": "gold_standard",
+        "value_min": 4,
         "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 100,
+        "operator": ">=",
+        "unit": "倍",
+        "result_text": "由阴性转为阳性，或呈4倍及以上升高",
+        "weight": 10,
         "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "病例定义",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "（2）呼吸道标本检测人腺病毒特异性抗原阳性；"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文将‘特异性抗原阳性’列为实验室确诊病例四条并列标准之一，属同等效力的确诊依据",
-        "evidence": "（1）呼吸道标本检测人腺病毒特异性核酸阳性；（2）呼吸道标本检测人腺病毒特异性抗原阳性"
-      },
-      {
-        "from": "sub_disease_adenovirus_lab_confirmed_case",
-        "to": "test_adenovirus_culture",
-        "relation_id": "rel_lab_confirmed_requires_culture",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "分离培养到人腺病毒",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "present",
-        "typicality": "typical",
-        "section_priority": "病例定义",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "（3）呼吸道标本中分离培养到人腺病毒；"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文将‘分离培养到人腺病毒’列为实验室确诊病例四条并列标准之一，属同等效力的确诊依据",
-        "evidence": "（3）呼吸道标本中分离培养到人腺病毒"
-      },
-      {
-        "from": "sub_disease_adenovirus_lab_confirmed_case",
-        "to": "test_adenovirus_igg_serology",
-        "relation_id": "rel_lab_confirmed_requires_igg_serology",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "between",
-        "unit": null,
-        "result_text": "急性期与恢复期双份血清标本（采样间隔应为2~4周）人腺病毒特异性IgG抗体由阴性转为阳性，或呈4倍及以上升高。",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "lab_confirm_criteria",
+        "required_count": 1,
         "polarity": "elevated",
         "typicality": "typical",
         "section_priority": "病例定义",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（4）急性期与恢复期双份血清标本（采样间隔应为2~4周）人腺病毒特异性IgG抗体由阴性转为阳性，或呈4倍及以上升高。"
+          "急性期与恢复期双份血清标本（采样间隔应为2~4周）人腺病毒特异性IgG抗体由阴性转为阳性，或呈4倍及以上升高。"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文将‘双份血清IgG抗体由阴转阳或4倍升高’列为实验室确诊病例四条并列标准之一，属同等效力的确诊依据",
-        "evidence": "（4）急性期与恢复期双份血清标本（采样间隔应为2~4周）人腺病毒特异性IgG抗体由阴性转为阳性，或呈4倍及以上升高"
+        "weight_reason": "原文将特异性IgG抗体由阴性转为阳性或呈4倍及以上升高作为实验室确诊病例的标准之一",
+        "evidence": "人腺病毒特异性IgG抗体由阴性转为阳性，或呈4倍及以上升高"
       },
       {
-        "from": "sub_disease_adenovirus_critical_pneumonia",
+        "from": "sub_disease_hadv_pneumonia",
+        "to": "test_chest_imaging",
+        "relation_id": "rel_pneumonia_requires_imaging",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "发现肺部病变",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "临床表现",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "胸部X线片或CT检查发现肺部病变"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出人腺病毒肺炎需通过胸部X线片或CT检查发现肺部病变",
+        "evidence": "胸部X线片或CT检查发现肺部病变"
+      },
+      {
+        "from": "sub_disease_hadv_critical_pneumonia",
         "to": "test_rr",
-        "relation_id": "rel_critical_pneumonia_requires_rr",
+        "relation_id": "rel_critical_requires_rr",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "supportive",
         "value_min": 30,
         "value_max": null,
         "operator": ">=",
         "unit": "次/分",
-        "result_text": null,
-        "weight": 8,
+        "result_text": "成人及5岁以上儿童≥30次/分，1岁以下婴幼儿RR>70次/min, 1~5岁儿童RR>50次/min",
+        "weight": 7,
         "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "critical_minor_criteria",
+        "required_count": 3,
         "polarity": "elevated",
-        "typicality": "typical",
-        "section_priority": "危重症诊断标准",
+        "typicality": "common",
+        "section_priority": "病例定义",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（1）呼吸频率（respiratory rate, RR）增快：成人及5岁以上儿童≥30次/分，1岁以下婴幼儿RR>70次/min, 1~5岁儿童RR>50次/min;"
+          "呼吸频率（respiratory rate, RR）增快：成人及5岁以上儿童≥30次/分，1岁以下婴幼儿RR>70次/min, 1~5岁儿童RR>50次/min"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文危重症次要标准第1项明确定义‘呼吸频率（RR）增快’为量化诊断指标，具临床操作性",
-        "evidence": "2.次要标准：（1）呼吸频率（respiratoryrate,RR）增快：成人及5岁以上儿童≥30次/分，1岁以下婴幼儿RR>70次/min,1~5岁儿童RR>50次/min"
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_adenovirus_critical_pneumonia",
+        "from": "sub_disease_hadv_critical_pneumonia",
         "to": "test_oxygenation_index",
-        "relation_id": "rel_critical_pneumonia_requires_oxygenation_index",
+        "relation_id": "rel_critical_requires_oi",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "supportive",
         "value_min": null,
         "value_max": 250,
         "operator": "<=",
         "unit": "mmHg",
         "result_text": null,
-        "weight": 8,
+        "weight": 10,
         "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "critical_minor_criteria",
+        "required_count": 3,
         "polarity": "decreased",
-        "typicality": "typical",
-        "section_priority": "危重症诊断标准",
+        "typicality": "common",
+        "section_priority": "病例定义",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（2）氧合指数≤250 mmHg"
+          "氧合指数≤250 mmHg"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文危重症次要标准第2项明确定义‘氧合指数≤250 mmHg’为量化诊断指标，具临床操作性",
-        "evidence": "（2）氧合指数≤250mmHg（1mmHg=0.133kPa）"
+        "confidence": 0.9,
+        "weight_reason": "原文将氧合指数异常列为诊断危重症人腺病毒肺炎病例的次要标准之一",
+        "evidence": "符合以下任一项主要标准或》3项次要标准的患者，可诊断为危重症人腺病毒肺炎病例"
       },
       {
-        "from": "sub_disease_adenovirus_critical_pneumonia",
+        "from": "sub_disease_hadv_critical_pneumonia",
         "to": "test_bun",
-        "relation_id": "rel_critical_pneumonia_requires_bun",
+        "relation_id": "rel_critical_requires_bun",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "supportive",
         "value_min": 7.14,
         "value_max": null,
         "operator": ">=",
         "unit": "mmol/L",
         "result_text": null,
-        "weight": 7,
+        "weight": 6,
         "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "critical_minor_criteria",
+        "required_count": 3,
         "polarity": "elevated",
         "typicality": "common",
-        "section_priority": "危重症诊断标准",
+        "section_priority": "病例定义",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（5）血尿素氮≥7.14 mmol/L;"
+          "血尿素氮≥7.14 mmol/L"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_adenovirus_critical_pneumonia",
+        "from": "sub_disease_hadv_critical_pneumonia",
         "to": "test_sbp",
-        "relation_id": "rel_critical_pneumonia_requires_sbp",
+        "relation_id": "rel_critical_requires_sbp",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "supportive",
         "value_min": null,
         "value_max": 90,
         "operator": "<",
         "unit": "mmHg",
-        "result_text": null,
+        "result_text": "需要积极的液体复苏",
         "weight": 7,
         "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "critical_minor_criteria",
+        "required_count": 3,
         "polarity": "decreased",
         "typicality": "common",
-        "section_priority": "危重症诊断标准",
+        "section_priority": "病例定义",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（6）收缩压<90 mmHg需要积极的液体复苏。"
+          "收缩压<90 mmHg需要积极的液体复苏"
         ],
         "confidence": 0.9
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_adenovirus_lab_confirmed_case",
-        "to": "treatment_supportive_therapy",
-        "relation_id": "rel_lab_confirmed_follows_supportive_therapy",
+        "from": "sub_disease_hadv_pneumonia",
+        "to": "treatment_symptomatic_support",
+        "relation_id": "rel_pneumonia_follows_symptomatic",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后",
+        "applicable_condition": "确诊人腺病毒感染",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "unknown",
+        "recommendation_strength": "推荐",
         "decision_basis": [
-          "疾病确诊"
+          "疾病分型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
         "source_section": "治疗原则",
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_adenovirus_severe_pneumonia",
-        "to": "treatment_supportive_therapy",
-        "relation_id": "rel_severe_pneumonia_follows_supportive_therapy",
+        "from": "sub_disease_hadv_critical_pneumonia",
+        "to": "treatment_mechanical_ventilation",
+        "relation_id": "rel_critical_follows_ventilation",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后",
+        "applicable_condition": "危重症呼吸衰竭",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "unknown",
+        "recommendation_strength": "推荐",
         "decision_basis": [
-          "疾病确诊"
+          "严重程度"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗原则",
-        "confidence": 0.95
+        "source_section": "病例定义",
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_adenovirus_critical_pneumonia",
-        "to": "treatment_supportive_therapy",
-        "relation_id": "rel_critical_pneumonia_follows_supportive_therapy",
+        "from": "sub_disease_hadv_critical_pneumonia",
+        "to": "treatment_vasoactive_drugs",
+        "relation_id": "rel_critical_follows_vasoactive",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后",
+        "applicable_condition": "脓毒性休克经积极液体复苏后",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "unknown",
+        "recommendation_strength": "推荐",
         "decision_basis": [
-          "疾病确诊"
+          "严重程度"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗原则",
-        "confidence": 0.95
+        "source_section": "病例定义",
+        "confidence": 0.9
       }
     ],
-    "implements_by": [],
+    "implements_by": [
+      {
+        "from": "treatment_symptomatic_support",
+        "to": "plan_children_guideline",
+        "relation_id": "rel_symptomatic_implements_children",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "儿童腺病毒肺炎病例",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "儿童腺病毒肺炎病例治疗参见《儿童腺病毒肺炎诊疗规范（2019年版）》"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_vasoactive_drugs",
+        "to": "plan_fluid_resuscitation",
+        "relation_id": "rel_vasoactive_implements_fluid",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "脓毒性休克",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "脓毒性休克经积极液体复苏后仍需要血管活性药物治疗"
+        ],
+        "confidence": 0.9
+      }
+    ],
     "causes": [
       {
-        "from": "sub_disease_adenovirus_lab_confirmed_case",
-        "to": "etiology_human_adenovirus",
-        "relation_id": "rel_lab_confirmed_caused_by_human_adenovirus",
+        "from": "sub_disease_hadv_pneumonia",
+        "to": "etiology_hadv_3_7",
+        "relation_id": "rel_pneumonia_causes_3_7",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -971,65 +1103,35 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "人腺病毒是人呼吸道感染常见的病原体之一"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_adenovirus_severe_pneumonia",
-        "to": "etiology_immunosuppression",
-        "relation_id": "rel_severe_pneumonia_caused_by_immunosuppression",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "免疫系统较弱，或具有慢性呼吸系统疾病、心脏病等基础性疾病的患者，感染人腺病毒后引发严重情况的风险较高。"
+          "HAdV-3和HAdV-7型是儿童下呼吸道感染最重要的人腺病毒型别"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_adenovirus_severe_pneumonia",
-        "to": "etiology_chronic_respiratory_disease",
-        "relation_id": "rel_severe_pneumonia_caused_by_chronic_respiratory_disease",
+        "from": "sub_disease_hadv_pneumonia",
+        "to": "etiology_hadv_55",
+        "relation_id": "rel_pneumonia_causes_55",
         "relation_name": "相关",
         "relation_type": "causes",
-        "causal_strength": "moderate",
+        "causal_strength": "strong",
         "typicality": "common",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "免疫系统较弱，或具有慢性呼吸系统疾病、心脏病等基础性疾病的患者，感染人腺病毒后引发严重情况的风险较高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_adenovirus_severe_pneumonia",
-        "to": "etiology_cardiovascular_disease",
-        "relation_id": "rel_severe_pneumonia_caused_by_cardiovascular_disease",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "免疫系统较弱，或具有慢性呼吸系统疾病、心脏病等基础性疾病的患者，感染人腺病毒后引发严重情况的风险较高。"
+          "HAdV-55型自首次在我国发现以来，已在全国形成广泛流行，成为我国成人社区获得性肺炎的重要病原体之一"
         ],
         "confidence": 0.9
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_adenovirus_lab_confirmed_case",
-        "to": "pathogenesis_adenovirus_replication_in_respiratory_epithelium",
-        "relation_id": "rel_lab_confirmed_explained_by_replication",
+        "from": "sub_disease_hadv_pneumonia",
+        "to": "pathogenesis_tissue_tropism",
+        "relation_id": "rel_pneumonia_explained_tropism",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "人腺病毒常与其他呼吸道病毒共同感染，也有不同型别人腺病毒共同感染的报道。"
+          "由于不同人腺病毒对人体的组织嗜性不同，人腺病毒可导致多种人类疾病"
         ],
         "confidence": 0.85
       }

@@ -16,7 +16,7 @@
         "normalized_name": "系统性红斑狼疮",
         "aliases": [
           "SLE",
-          "systemic lupus erythematosus"
+          "红斑狼疮"
         ],
         "source_document_ids": [
           "中国系统性红斑狼疮诊疗指南（2025版）"
@@ -29,66 +29,34 @@
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_sle_diagnosis",
-        "name": "系统性红斑狼疮确诊",
+        "id": "sub_disease_sle_general",
+        "name": "系统性红斑狼疮（一般）",
         "parent_disease_id": "disease_sle",
-        "disease_subtype": "不限定",
+        "disease_subtype": "自身免疫性疾病",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "不限定",
+        "population": "确诊的SLE患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "推荐使用2012年国际狼疮研究临床协作组（SLICC）或2019年EULAR/ACR制定的SLE分类标准对疑似SLE者进行诊断"
+          "指南推荐意见的应用目标人群为确诊的SLE患者。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_lupus_nephritis",
+        "id": "sub_disease_ln",
         "name": "狼疮肾炎",
         "parent_disease_id": "disease_sle",
-        "disease_subtype": "狼疮肾炎",
+        "disease_subtype": "肾脏受累",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "SLE患者",
+        "population": "SLE合并肾脏受累患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "狼疮肾炎(LN)患者进行初始治疗时（诱导缓解期），相对单用激素而言，联合使用免疫抑制剂可显著提高临床缓解率"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_sle_itp",
-        "name": "SLE合并免疫相关血小板减少症",
-        "parent_disease_id": "disease_sle",
-        "disease_subtype": "血液系统受累",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "SLE患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "SLE合并严重免疫相关血小板减少症(ITP)的治疗目标是减少出血事件"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_sle_aps",
-        "name": "SLE合并抗磷脂综合征",
-        "parent_disease_id": "disease_sle",
-        "disease_subtype": "抗磷脂综合征",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "SLE患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "建议参照2023年ACR/EULAR制定的APS分类标准进行诊断"
+          "狼疮肾炎（LN）患者进行初始治疗时（诱导缓解期），相对单用激素而言，联合使用免疫抑制剂可显著提高临床缓解率"
         ],
         "confidence": 0.9
       },
@@ -96,44 +64,52 @@
         "id": "sub_disease_npsle",
         "name": "神经精神狼疮",
         "parent_disease_id": "disease_sle",
-        "disease_subtype": "神经系统受累",
+        "disease_subtype": "神经精神系统受累",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "SLE患者",
+        "population": "SLE合并神经精神系统受累患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "对于已确诊的活动性NPSLE推荐使用激素联合免疫抑制剂治疗"
+          "对于已确诊的活动性NPSLE推荐使用激素联合免疫抑制剂治疗（1B）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_sle_itp",
+        "name": "SLE合并严重免疫相关血小板减少症",
+        "parent_disease_id": "disease_sle",
+        "disease_subtype": "血液系统受累",
+        "clinical_stage": "急性期/重症",
+        "severity": "重症",
+        "population": "SLE合并ITP患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "SLE合并严重免疫相关血小板减少症（ITP）的治疗目标是减少出血事件。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_sle_aps",
+        "name": "SLE合并抗磷脂综合征",
+        "parent_disease_id": "disease_sle",
+        "disease_subtype": "合并APS",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "SLE合并APS患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "建议参照2023年ACR/EULAR制定的APS分类标准进行诊断（1A）。"
         ],
         "confidence": 0.9
       }
     ],
     "symptoms": [
-      {
-        "id": "symptom_fever",
-        "name": "发热",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "SLE的临床特点包括全身多个系统和脏器受累、反复复发与缓解"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_arthralgia",
-        "name": "关节痛",
-        "body_site": "关节",
-        "symptom_category": "肌肉骨骼症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "在标准治疗下仍未得到充分控制的活动性SLE患者的症状和体征，如关节炎或皮疹得到缓解"
-        ],
-        "confidence": 0.9
-      },
       {
         "id": "symptom_rash",
         "name": "皮疹",
@@ -142,43 +118,55 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "在标准治疗下仍未得到充分控制的活动性SLE患者的症状和体征，如关节炎或皮疹得到缓解"
+          "SLE合并活动性皮肤病变对于局部治疗（激素或他克莫司软膏）及羟氯喹疗效不佳时，可加用口服激素联合免疫抑制剂治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_hemolytic_anemia",
-        "name": "溶血性贫血",
+        "id": "symptom_arthritis",
+        "name": "关节炎",
+        "body_site": "关节",
+        "symptom_category": "肌肉骨骼症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "在改善SLE患者皮肤、关节炎症和整体情况方面具有较好的疗效"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_proteinuria",
+        "name": "蛋白尿",
+        "body_site": "肾脏",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "持续大量蛋白尿是V型LN发生终末期肾病（ESKD）、心血管疾病和血栓事件的高危因素"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_seizure",
+        "name": "癫痫",
+        "body_site": "中枢神经系统",
+        "symptom_category": "神经精神症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "当NPSLE患者合并癫痫时，应采用丙戊酸、拉莫三嗪或左乙拉西坦治疗，终止癫痫持续状态首选地西泮"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_thrombocytopenia",
+        "name": "血小板减少",
         "body_site": "血液系统",
         "symptom_category": "血液系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "SLE-DAS包含17项临床和实验室指标，例如溶血性贫血"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_pulmonary_manifestation",
-        "name": "心肺表现",
-        "body_site": "心肺",
-        "symptom_category": "心肺症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "SLE-DAS包含17项临床和实验室指标，例如溶血性贫血、心肺表现和胃肠道受累"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_gastrointestinal_involvement",
-        "name": "胃肠道受累",
-        "body_site": "胃肠道",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "SLE-DAS包含17项临床和实验室指标，例如溶血性贫血、心肺表现和胃肠道受累"
+          "ITP是SLE患者常见的血液系统损害，连续2次血常规检查血小板计数少于100×10^9/L即可诊断"
         ],
         "confidence": 0.9
       }
@@ -186,34 +174,23 @@
     "tests": [
       {
         "id": "test_ana",
-        "name": "抗核抗体",
+        "name": "抗核抗体（ANA）",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "为避免持续抗核抗体（ANA)检测阴性个体漏诊，可同时使用2012年SLICC分类标准对SLE患者进行诊断"
+          "为避免持续抗核抗体（ANA）检测阴性个体漏诊，可同时使用2012年SLICC分类标准对SLE患者进行诊断。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_dsDNA",
-        "name": "抗双链DNA抗体",
+        "id": "test_anti_dsdna",
+        "name": "抗dsDNA抗体",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "改良血清学活动[抗dsDNA升高和（或)低补体血症]"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_complement",
-        "name": "补体水平",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "改良血清学活动[抗dsDNA升高和（或)低补体血症]"
+          "符合改良血清学活动[抗dsDNA升高和（或）低补体血症]"
         ],
         "confidence": 0.9
       },
@@ -221,156 +198,208 @@
         "id": "test_sledai_2000",
         "name": "SLEDAI-2000评分",
         "normal_range_min": 0,
-        "normal_range_max": 105,
+        "normal_range_max": 0,
         "is_digital": 1,
         "evidence_ids": [
-          "SLEDAI-2000的结果为0~105分"
+          "建议采用SLE疾病活动指数（SLEDAI-2000）评分标准，并结合临床医师的综合判断对SLE进行疾病活动度评估"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_urine_protein_24h",
+        "name": "24h尿蛋白定量",
+        "normal_range_min": null,
+        "normal_range_max": 0.15,
+        "is_digital": 1,
+        "evidence_ids": [
+          "24h尿蛋白定量≤0.5g且无重要脏器损害者，方可考虑妊娠"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_sle_das",
-        "name": "SLE疾病活动评分(SLE-DAS)",
-        "normal_range_min": null,
-        "normal_range_max": null,
+        "id": "test_platelet_count",
+        "name": "血小板计数",
+        "normal_range_min": 100,
+        "normal_range_max": 300,
         "is_digital": 1,
         "evidence_ids": [
-          "SLE-DAS包含17项临床和实验室指标...其评分通过数学公式计算"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_sdi",
-        "name": "器官损害指数(SDI)",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "器官损害指数(SDI)增加的风险比（OR）为0.49~0.75"
+          "连续2次血常规检查血小板计数少于100×10^9/L即可诊断"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_sle_early_intervention",
-        "content": "早期干预和达标治疗",
+        "id": "treatment_sle_early_t2t",
+        "content": "SLE的治疗原则是早期干预和达标治疗。短期目标是控制疾病活动，尽快达到临床缓解或至少达到低疾病活动度状态；长期目标是维持病情持续缓解，预防和减少复发，减少药物不良反应，预防和减少器官损害，提高生活质量，最终降低病死率。",
         "recommendation_strength": "1C",
-        "source_section": "推荐意见2",
+        "source_section": "临床问题2：SLE的治疗原则和目标是什么？",
         "evidence_ids": [
-          "SLE的治疗原则是早期干预和达标治疗(1C)"
+          "SLE的治疗原则是早期干预和达标治疗(1C)。SLE治疗的短期目标是控制疾病活动，尽快达到临床缓解或至少达到低疾病活动度状态（1C）；长期目标是维持病情持续缓解，预防和减少复发，减少药物不良反应，预防和减少器官损害，提高生活质量，最终降低病死率（1C）。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "treatment_sle_glucocorticoid_based",
-        "content": "激素是治疗SLE的基础用药",
+        "id": "treatment_sle_hcq",
+        "content": "推荐持续使用羟氯喹作为基础治疗。",
         "recommendation_strength": "1A",
-        "source_section": "推荐意见4",
+        "source_section": "临床问题5：如何使用羟氯喹进行治疗？",
         "evidence_ids": [
-          "激素是治疗SLE的基础用药（1A）"
+          "推荐持续使用羟氯喹作为基础治疗（1A）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "treatment_sle_hydroxychloroquine",
-        "content": "推荐持续使用羟氯喹作为基础治疗",
-        "recommendation_strength": "1A",
-        "source_section": "推荐意见5",
+        "id": "treatment_sle_glucocorticoid",
+        "content": "激素是治疗SLE的基础用药；应根据疾病活动度及受累器官的类型及其受累严重程度制定个体化的激素治疗方案，应采用能控制疾病所需的最低剂量。",
+        "recommendation_strength": "1A/1B",
+        "source_section": "临床问题4：如何使用糖皮质激素进行治疗？",
         "evidence_ids": [
-          "推荐持续使用羟氯喹作为基础治疗（1A)"
+          "激素是治疗SLE的基础用药（1A）；应根据疾病活动度及受累器官的类型及其受累严重程度制定个体化的激素治疗方案，应采用能控制疾病所需的最低剂量（1B）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "treatment_ln_induction",
-        "content": "LN诱导治疗推荐激素联合MMF或静脉注射CTX",
-        "recommendation_strength": "1B",
-        "source_section": "推荐意见7.1",
+        "content": "活动性Ⅲ型/IV型，伴或不伴V型LN者的诱导治疗推荐：激素联合MMF或静脉注射CTX，可联合贝利尤单抗；或激素联合CNI；或激素联合MMF与CNI。",
+        "recommendation_strength": "1B/1C",
+        "source_section": "临床问题7.1：如何治疗LN？",
         "evidence_ids": [
-          "活动性Ⅲ型/IV型，伴或不伴V型LN者的诱导治疗推荐：（1）激素联合MMF或静脉注射CTX(IV-CTX)（1B）"
+          "活动性Ⅲ型/IV型，伴或不伴V型LN者的诱导治疗推荐：（1）激素联合MMF或静脉注射CTX（IV-CTX）（1B），可联合贝利尤单抗进行治疗（1B）；（2）激素联合钙调磷酸酶抑制剂（CNI）（1C）；（3）激素联合MMF与CNI（1C）"
         ],
         "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_prednisone_0_5_1mg_kg_d",
-        "content": "中度活动的SLE患者，可使用激素[0.5~1mg/(kg·d) 泼尼松或等效剂量的其他激素］联合免疫抑制剂进行治疗",
+        "id": "plan_hcq_base",
+        "content": "推荐剂量为5mg/(kg·d)（真实体重），且不超过400mg/d，具体剂量可根据患者复发风险和视网膜毒性风险进行个体化调整。",
         "plan_level": 1,
+        "applicable_condition": "所有SLE患者基础治疗",
+        "contraindication_note": "对羟氯喹或其类似物过敏，以及既往因类似药引发的视网膜病变者禁用。",
+        "evidence_ids": [
+          "推荐剂量为5mg/(kg·d)（真实体重），且不超过400mg/d，具体剂量可根据患者复发风险和视网膜毒性风险进行个体化调整。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_prednisone_mild",
+        "content": "小剂量激素（≤10mg/d泼尼松或等效剂量的其他激素）",
+        "plan_level": 2,
+        "applicable_condition": "轻度活动的SLE患者，羟氯喹或非甾体抗炎药疗效不佳时",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对轻度活动的SLE患者，羟氯喹或非甾体抗炎药疗效不佳时，可考虑使用小剂量激素（≤10mg/d泼尼松或等效剂量的其他激素）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_prednisone_moderate",
+        "content": "中等剂量激素[0.5~1mg/(kg·d)泼尼松或等效剂量的其他激素]联合免疫抑制剂",
+        "plan_level": 2,
         "applicable_condition": "中度活动的SLE患者",
-        "contraindication_note": "对激素过敏者禁用",
+        "contraindication_note": null,
         "evidence_ids": [
-          "对中度活动的SLE患者，可使用激素[0.5~1mg/(kg·d) 泼尼松或等效剂量的其他激素］联合免疫抑制剂进行治疗（2C)"
+          "对中度活动的SLE患者，可使用激素[0.5~1mg/(kg·d)泼尼松或等效剂量的其他激素]联合免疫抑制剂进行治疗（2C）"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_prednisone_1mg_kg_d",
-        "content": "重度活动的SLE患者，可使用激素[≥1mg/(kg·d) 泼尼松或等效剂量的其他激素|联合免疫抑制剂进行治疗",
+        "id": "plan_methylprednisolone_pulse",
+        "content": "静脉滴注甲泼尼龙250~1000mg/d，通常连续使用3d为1个疗程，病情需要可考虑再次冲击，疗程间隔5~30d。冲击治疗后改口服泼尼松0.5~1mg/(kg·d)。",
         "plan_level": 1,
-        "applicable_condition": "重度活动的SLE患者",
-        "contraindication_note": "对激素过敏者禁用",
+        "applicable_condition": "合并狼疮危象或重度NPSLE炎症表现的SLE患者",
+        "contraindication_note": null,
         "evidence_ids": [
-          "对重度活动的SLE患者，可使用激素[≥1mg/(kg·d) 泼尼松或等效剂量的其他激素|联合免疫抑制剂进行治疗（2C）"
+          "激素冲击治疗为静脉滴注甲泼尼龙250~1000mg/d,通常连续使用3d为1个疗程，病情需要可考虑再次冲击，疗程间隔5~30d。冲击治疗后改口服泼尼松0.5~1mg/(kg·d)"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_mmf_for_ln",
-        "content": "狼疮肾炎患者，MMF为诱导期和维持期的有效治疗",
-        "plan_level": 1,
-        "applicable_condition": "中重度狼疮肾炎患者",
-        "contraindication_note": "妊娠期慎用",
+        "id": "plan_belimumab",
+        "content": "在标准治疗基础上联合贝利尤单抗治疗",
+        "plan_level": 2,
+        "applicable_condition": "活动性SLE或LN患者，经激素和传统免疫抑制剂治疗仍不能达标或疾病复发者",
+        "contraindication_note": null,
         "evidence_ids": [
-          "中重度狼疮肾炎患者，MMF为诱导期和维持期的有效治疗"
+          "经激素和传统免疫抑制剂治疗仍不能达标或疾病复发者，可考虑使用生物制剂治疗（1B）。...活动性LN患者在标准治疗基础上联合贝利尤单抗治疗可显著增加肾脏缓解率"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_ln_multitarget",
+        "content": "多靶点方案（激素+MMF+CNI，如固定剂量他克莫司、减量MMF和激素）",
+        "plan_level": 1,
+        "applicable_condition": "广泛足细胞损伤导致大量蛋白尿的LN患者，或V型LN伴大量蛋白尿者",
+        "contraindication_note": "对重度慢性肾脏损伤的患者，建议慎用CNI",
+        "evidence_ids": [
+          "由激素、MMF和CNI组成的三联免疫抑制方案尤其适用于广泛足细胞损伤导致大量蛋白尿的LN患者。采用包括固定剂量他克莫司、减量MMF和激素的“多靶点”方案治疗"
         ],
         "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_genetic_factor",
+        "id": "etiology_genetic",
         "content": "遗传因素",
         "etiology_type": "自身免疫因素",
-        "typicality": "typical",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "SLE的病因复杂,与遗传、性激素、环境（如病毒与细菌感染)等多种因素有关"
+          "SLE的病因复杂，与遗传、性激素、环境（如病毒与细菌感染）等多种因素有关"
         ],
         "confidence": 0.9
       },
       {
-        "id": "etiology_sex_hormone",
+        "id": "etiology_hormone",
         "content": "性激素",
-        "etiology_type": "自身免疫因素",
-        "typicality": "typical",
+        "etiology_type": "内分泌因素",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "SLE的病因复杂,与遗传、性激素、环境（如病毒与细菌感染)等多种因素有关"
+          "SLE的病因复杂，与遗传、性激素、环境（如病毒与细菌感染）等多种因素有关"
         ],
         "confidence": 0.9
       },
       {
-        "id": "etiology_environmental_infection",
-        "content": "环境（病毒与细菌感染）",
+        "id": "etiology_environment",
+        "content": "环境因素（如病毒与细菌感染）",
         "etiology_type": "感染因素",
-        "typicality": "common",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "SLE的病因复杂,与遗传、性激素、环境（如病毒与细菌感染)等多种因素有关"
+          "SLE的病因复杂，与遗传、性激素、环境（如病毒与细菌感染）等多种因素有关"
         ],
         "confidence": 0.9
+      },
+      {
+        "id": "etiology_uv",
+        "content": "紫外线照射",
+        "etiology_type": "环境因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "紫外线照射可诱发SLE，防晒（如防晒霜）可避免紫外线对SLE患者皮肤的刺激，减轻患者的皮肤炎症，减少疾病复发。"
+        ],
+        "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_autoimmunity",
-        "content": "自身免疫异常导致多系统炎症和组织损伤",
+        "id": "pathogenesis_autoimmune",
+        "content": "系统性自身免疫性疾病，体内存在大量自身抗体，导致全身多个系统和脏器受累、反复复发与缓解。",
         "evidence_ids": [
-          "SLE是一种系统性自身免疫性疾病，其诊断和治疗均很复杂"
+          "系统性红斑狼疮（SLE）是一种系统性自身免疫性疾病，以全身多个系统和脏器受累、反复复发与缓解、体内存在大量自身抗体为主要临床特点"
         ],
-        "confidence": 0.85
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_apls_thrombosis",
+        "content": "APLs影响血管内皮细胞功能、活化血小板、激活补体系统、促进炎症及氧化应激、促进凝血及干扰纤溶系统，最终导致动、静脉血栓事件。",
+        "evidence_ids": [
+          "APLs可影响血管内皮细胞功能、活化血小板、激活补体系统、促进炎症及氧化应激、促进凝血及干扰纤溶系统，最终导致SLE患者出现动、静脉血栓事件"
+        ],
+        "confidence": 0.9
       }
     ]
   },
@@ -378,45 +407,23 @@
     "has_sub_disease": [
       {
         "from": "disease_sle",
-        "to": "sub_disease_sle_diagnosis",
-        "relation_id": "rel_sle_has_diagnosis",
+        "to": "sub_disease_sle_general",
+        "relation_id": "rel_sle_has_general",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "推荐使用2012年国际狼疮研究临床协作组（SLICC）或2019年EULAR/ACR制定的SLE分类标准对疑似SLE者进行诊断"
+          "指南推荐意见的应用目标人群为确诊的SLE患者。"
         ],
         "confidence": 0.9
       },
       {
         "from": "disease_sle",
-        "to": "sub_disease_lupus_nephritis",
-        "relation_id": "rel_sle_has_lupus_nephritis",
+        "to": "sub_disease_ln",
+        "relation_id": "rel_sle_has_ln",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "狼疮肾炎(LN)患者进行初始治疗时（诱导缓解期），相对单用激素而言，联合使用免疫抑制剂可显著提高临床缓解率"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_sle",
-        "to": "sub_disease_sle_itp",
-        "relation_id": "rel_sle_has_itp",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "SLE合并严重免疫相关血小板减少症(ITP)的治疗目标是减少出血事件"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_sle",
-        "to": "sub_disease_sle_aps",
-        "relation_id": "rel_sle_has_aps",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "建议参照2023年ACR/EULAR制定的APS分类标准进行诊断"
+          "狼疮肾炎（LN）患者进行初始治疗时（诱导缓解期）"
         ],
         "confidence": 0.9
       },
@@ -430,70 +437,136 @@
           "对于已确诊的活动性NPSLE推荐使用激素联合免疫抑制剂治疗"
         ],
         "confidence": 0.9
+      },
+      {
+        "from": "disease_sle",
+        "to": "sub_disease_sle_itp",
+        "relation_id": "rel_sle_has_itp",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "SLE合并严重免疫相关血小板减少症（ITP）的治疗目标是减少出血事件。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_sle",
+        "to": "sub_disease_sle_aps",
+        "relation_id": "rel_sle_has_aps",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "建议参照2023年ACR/EULAR制定的APS分类标准进行诊断"
+        ],
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_sle_diagnosis",
-        "to": "symptom_fever",
-        "relation_id": "rel_sle_manifests_as_fever",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "背景介绍",
-        "evidence_ids": [
-          "SLE的临床特点包括全身多个系统和脏器受累、反复复发与缓解"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_sle_diagnosis",
-        "to": "symptom_arthralgia",
-        "relation_id": "rel_sle_manifests_as_arthralgia",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "背景介绍",
-        "evidence_ids": [
-          "在标准治疗下仍未得到充分控制的活动性SLE患者的症状和体征，如关节炎或皮疹得到缓解"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_sle_diagnosis",
+        "from": "sub_disease_sle_general",
         "to": "symptom_rash",
-        "relation_id": "rel_sle_manifests_as_rash",
+        "relation_id": "rel_sle_manifests_rash",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
+        "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
-        "section_priority": "背景介绍",
+        "section_priority": "临床表现",
         "evidence_ids": [
-          "在标准治疗下仍未得到充分控制的活动性SLE患者的症状和体征，如关节炎或皮疹得到缓解"
+          "SLE合并活动性皮肤病变"
         ],
         "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_sle_general",
+        "to": "symptom_arthritis",
+        "relation_id": "rel_sle_manifests_arthritis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "在改善SLE患者皮肤、关节炎症和整体情况方面具有较好的疗效"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ln",
+        "to": "symptom_proteinuria",
+        "relation_id": "rel_ln_manifests_proteinuria",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "持续大量蛋白尿是V型LN发生终末期肾病（ESKD）、心血管疾病和血栓事件的高危因素"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出LN的治疗和分型高度依赖蛋白尿水平，蛋白尿是LN的核心临床表现。",
+        "evidence": "V型LN初始治疗取决于蛋白尿的严重程度"
+      },
+      {
+        "from": "sub_disease_npsle",
+        "to": "symptom_seizure",
+        "relation_id": "rel_npsle_manifests_seizure",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "当NPSLE患者合并癫痫时，应采用丙戊酸、拉莫三嗪或左乙拉西坦治疗"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文提及NPSLE患者可合并癫痫，且癫痫发作是NPSLE的临床表现之一。",
+        "evidence": "当NPSLE患者合并癫痫时，应采用丙戊酸"
+      },
+      {
+        "from": "sub_disease_sle_itp",
+        "to": "symptom_thrombocytopenia",
+        "relation_id": "rel_itp_manifests_thrombocytopenia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "ITP是SLE患者常见的血液系统损害，连续2次血常规检查血小板计数少于100×10^9/L即可诊断"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "ITP全称为免疫相关血小板减少症，血小板减少是其定义性核心症状。",
+        "evidence": "SLE合并严重免疫相关血小板减少症(ITP)"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_sle_diagnosis",
+        "from": "sub_disease_sle_general",
         "to": "test_ana",
         "relation_id": "rel_sle_requires_ana",
         "relation_name": "需要检查",
@@ -504,9 +577,9 @@
         "value_max": null,
         "operator": "equals",
         "unit": null,
-        "result_text": "阳性",
-        "weight": 100,
-        "gold_standard": true,
+        "result_text": "ANA阳性",
+        "weight": 9,
+        "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
@@ -514,26 +587,54 @@
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "为避免持续抗核抗体（ANA)检测阴性个体漏诊，可同时使用2012年SLICC分类标准对SLE患者进行诊断"
+          "为避免持续抗核抗体（ANA）检测阴性个体漏诊，可同时使用2012年SLICC分类标准对SLE患者进行诊断。"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确将ANA检测作为SLE分类标准的入围标准，且所有标准均需排除其他原因后计分，符合金标准定义",
-        "evidence": "该标准包括1条入围标准，涉及10个方面的18条标准，每条标准均需排除感染、恶性肿瘤、药物等原因所致，既往符合某条标准者亦可计分"
+        "confidence": 0.95,
+        "weight_reason": "原文强调ANA检测在SLE诊断中的重要性，为避免阴性漏诊需结合其他标准。",
+        "evidence": "为避免持续抗核抗体（ANA)检测阴性个体漏诊"
       },
       {
-        "from": "sub_disease_sle_diagnosis",
-        "to": "test_dsDNA",
-        "relation_id": "rel_sle_requires_dsDNA",
+        "from": "sub_disease_sle_general",
+        "to": "test_sledai_2000",
+        "relation_id": "rel_sle_requires_sledai",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
+        "type_info": "治疗监测项",
+        "diagnostic_role": "recommended",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "升高",
-        "weight": 8,
+        "operator": null,
+        "unit": "分",
+        "result_text": null,
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": null,
+        "typicality": "typical",
+        "section_priority": "疾病评估",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "建议采用SLE疾病活动指数（SLEDAI-2000）评分标准，并结合临床医师的综合判断对SLE进行疾病活动度评估"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "指南明确建议采用SLEDAI-2000评分标准对SLE进行疾病活动度评估。",
+        "evidence": "建议采用SLE疾病活动指数(SLEDAI-2000)评分标准"
+      },
+      {
+        "from": "sub_disease_ln",
+        "to": "test_urine_protein_24h",
+        "relation_id": "rel_ln_requires_urine_protein",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 0.5,
+        "value_max": null,
+        "operator": ">",
+        "unit": "g/24h",
+        "result_text": null,
+        "weight": 9,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
@@ -542,23 +643,51 @@
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "改良血清学活动[抗dsDNA升高和（或)低补体血症]"
+          "24h尿蛋白定量≤0.5g且无重要脏器损害者，方可考虑妊娠"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确将抗dsDNA抗体列为2019年EULAR/ACR分类标准中18条标准之一，且为特异性高、关键性指标",
-        "evidence": "2019年EULAR和ACR共同推出了SLE分类标准，该标准包括1条入围标准，涉及10个方面的18条标准"
+        "weight_reason": "24h尿蛋白定量是评估LN病情、制定治疗方案及妊娠条件的关键检测指标。",
+        "evidence": "24h尿蛋白定量≤0.5g且无重要脏器损害者"
+      },
+      {
+        "from": "sub_disease_sle_itp",
+        "to": "test_platelet_count",
+        "relation_id": "rel_itp_requires_platelet",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": 100,
+        "operator": "<",
+        "unit": "10^9/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "连续2次血常规检查血小板计数少于100×10^9/L即可诊断"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "血小板计数是诊断ITP及进行严重度分级的核心必查指标，但原文未称其为金标准。",
+        "evidence": "ITP的严重度分级需结合血小板计数及出血症状进行评分"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_sle_diagnosis",
-        "to": "treatment_sle_early_intervention",
-        "relation_id": "rel_sle_follows_early_intervention",
+        "from": "sub_disease_sle_general",
+        "to": "treatment_sle_early_t2t",
+        "relation_id": "rel_sle_follows_t2t",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后",
+        "applicable_condition": "确诊SLE后",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "1C",
         "decision_basis": [
@@ -566,73 +695,225 @@
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见2",
-        "confidence": 0.9
+        "source_section": "临床问题2：SLE的治疗原则和目标是什么？",
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_sle_diagnosis",
-        "to": "treatment_sle_glucocorticoid_based",
-        "relation_id": "rel_sle_follows_glucocorticoid_based",
+        "from": "sub_disease_sle_general",
+        "to": "treatment_sle_hcq",
+        "relation_id": "rel_sle_follows_hcq",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后",
+        "applicable_condition": "无禁忌症的所有SLE患者",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "1A",
         "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": "对羟氯喹过敏或既往视网膜病变者禁用",
+        "evidence_level": "expert_consensus",
+        "source_section": "临床问题5：如何使用羟氯喹进行治疗？",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_sle_general",
+        "to": "treatment_sle_glucocorticoid",
+        "relation_id": "rel_sle_follows_glucocorticoid",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "疾病活动期",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "1A",
+        "decision_basis": [
+          "疾病活动度",
+          "受累器官类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "临床问题4：如何使用糖皮质激素进行治疗？",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_ln",
+        "to": "treatment_ln_induction",
+        "relation_id": "rel_ln_follows_induction",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "诱导缓解期",
+        "treatment_line": "一线",
+        "applicable_condition": "活动性Ⅲ型/IV型，伴或不伴V型LN",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "1B/1C",
+        "decision_basis": [
+          "病理类型",
           "疾病活动度"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见4",
+        "source_section": "临床问题7.1：如何治疗LN？",
         "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_sle_glucocorticoid_based",
-        "to": "plan_prednisone_0_5_1mg_kg_d",
-        "relation_id": "rel_treatment_implements_by_prednisone_0_5_1mg_kg_d",
+        "from": "treatment_sle_hcq",
+        "to": "plan_hcq_base",
+        "relation_id": "rel_hcq_implements_base",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "所有SLE患者基础治疗",
+        "contraindication_note": "视网膜病变高风险者需密切监测",
+        "evidence_ids": [
+          "推荐剂量为5mg/(kg·d)（真实体重），且不超过400mg/d"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_sle_glucocorticoid",
+        "to": "plan_prednisone_mild",
+        "relation_id": "rel_glucocorticoid_implements_mild",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "轻度活动的SLE患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "可考虑使用小剂量激素（≤10mg/d泼尼松或等效剂量的其他激素）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_sle_glucocorticoid",
+        "to": "plan_prednisone_moderate",
+        "relation_id": "rel_glucocorticoid_implements_moderate",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
         "applicable_condition": "中度活动的SLE患者",
-        "contraindication_note": "对激素过敏者禁用",
+        "contraindication_note": null,
         "evidence_ids": [
-          "对中度活动的SLE患者，可使用激素[0.5~1mg/(kg·d) 泼尼松或等效剂量的其他激素］联合免疫抑制剂进行治疗（2C)"
+          "可使用激素[0.5~1mg/(kg·d)泼尼松或等效剂量的其他激素]联合免疫抑制剂进行治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_sle_glucocorticoid",
+        "to": "plan_methylprednisolone_pulse",
+        "relation_id": "rel_glucocorticoid_implements_pulse",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "补救",
+        "applicable_condition": "合并狼疮危象或重度NPSLE",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "激素冲击治疗为静脉滴注甲泼尼龙250~1000mg/d,通常连续使用3d为1个疗程"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_ln_induction",
+        "to": "plan_ln_multitarget",
+        "relation_id": "rel_ln_implements_multitarget",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "广泛足细胞损伤导致大量蛋白尿的LN患者",
+        "contraindication_note": "对重度慢性肾脏损伤的患者，建议慎用CNI",
+        "evidence_ids": [
+          "采用包括固定剂量他克莫司、减量MMF和激素的“多靶点”方案治疗"
         ],
         "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_sle_diagnosis",
-        "to": "etiology_genetic_factor",
-        "relation_id": "rel_sle_causes_genetic_factor",
+        "from": "sub_disease_sle_general",
+        "to": "etiology_genetic",
+        "relation_id": "rel_genetic_causes_sle",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "SLE的病因复杂，与遗传、性激素、环境（如病毒与细菌感染）等多种因素有关"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_sle_general",
+        "to": "etiology_hormone",
+        "relation_id": "rel_hormone_causes_sle",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
         "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "SLE的病因复杂,与遗传、性激素、环境（如病毒与细菌感染)等多种因素有关"
+          "SLE的病因复杂，与遗传、性激素、环境（如病毒与细菌感染）等多种因素有关"
         ],
         "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_sle_general",
+        "to": "etiology_environment",
+        "relation_id": "rel_environment_causes_sle",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "SLE的病因复杂，与遗传、性激素、环境（如病毒与细菌感染）等多种因素有关"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_sle_general",
+        "to": "etiology_uv",
+        "relation_id": "rel_uv_causes_sle",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "紫外线照射可诱发SLE，防晒（如防晒霜）可避免紫外线对SLE患者皮肤的刺激"
+        ],
+        "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_sle_diagnosis",
-        "to": "pathogenesis_autoimmunity",
-        "relation_id": "rel_sle_explained_by_autoimmunity",
+        "from": "sub_disease_sle_general",
+        "to": "pathogenesis_autoimmune",
+        "relation_id": "rel_sle_explained_by_autoimmune",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "SLE是一种系统性自身免疫性疾病，其诊断和治疗均很复杂"
+          "系统性红斑狼疮（SLE）是一种系统性自身免疫性疾病，以全身多个系统和脏器受累、反复复发与缓解、体内存在大量自身抗体为主要临床特点"
         ],
-        "confidence": 0.85
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_sle_aps",
+        "to": "pathogenesis_apls_thrombosis",
+        "relation_id": "rel_aps_explained_by_thrombosis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "APLs可影响血管内皮细胞功能、活化血小板、激活补体系统、促进炎症及氧化应激、促进凝血及干扰纤溶系统，最终导致SLE患者出现动、静脉血栓事件"
+        ],
+        "confidence": 0.9
       }
     ]
   },

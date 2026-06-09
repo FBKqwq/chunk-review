@@ -1,7 +1,7 @@
 {
   "meta": {
-    "doc_id": "中国溃疡性结肠炎诊治指南(2023·西安)",
-    "source_title": "《中国溃疡性结肠炎诊治指南(2023·西安)》",
+    "doc_id": "中国溃疡性结肠炎诊治指南(2023年·西安)治疗部分解读",
+    "source_title": "《中国溃疡性结肠炎诊治指南(2023年·西安)》治疗部分解读",
     "section_path": "治疗部分解读",
     "text_span": {
       "start": null,
@@ -19,129 +19,92 @@
           "ulcerative colitis"
         ],
         "source_document_ids": [
-          "《中国溃疡性结肠炎诊治指南(2023·西安)》"
+          "《中国溃疡性结肠炎诊治指南(2023年·西安)》"
         ],
         "evidence_ids": [
-          "溃疡性结肠炎(ulcerative colitis,UC) 是一类慢性炎症性肠道疾病"
+          "溃疡性结肠炎(ulcerativecolitis,UC)是一类慢性炎症性肠道疾病"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_uc_mild",
-        "name": "轻度溃疡性结肠炎",
+        "id": "sub_disease_mild_moderate_uc",
+        "name": "轻中度溃疡性结肠炎",
         "parent_disease_id": "disease_uc",
         "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "轻症",
+        "clinical_stage": "活动期",
+        "severity": "轻中度",
         "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "年 指南 提出早期治疗和高危因素的理念……应用轻中度 中重度 和急性重度 进行治疗建议的阐述",
-          "对于轻度活动性 患者在 和 剂量组之间差异无统计学意义"
+          "应用轻中度、中重度UC和急性重度UC进行治疗建议的阐述"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_uc_moderate",
-        "name": "中度溃疡性结肠炎",
+        "id": "sub_disease_moderate_severe_uc",
+        "name": "中重度溃疡性结肠炎",
         "parent_disease_id": "disease_uc",
         "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重症",
+        "clinical_stage": "活动期",
+        "severity": "中重度",
         "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "年 指南 提出早期治疗和高危因素的理念……应用轻中度 中重度 和急性重度 进行治疗建议的阐述",
-          "中度活动性 患者 的临床应答优于"
+          "应用轻中度、中重度UC和急性重度UC进行治疗建议的阐述"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_uc_severe",
-        "name": "重度溃疡性结肠炎",
-        "parent_disease_id": "disease_uc",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "年 指南 提出早期治疗和高危因素的理念……应用轻中度 中重度 和急性重度 进行治疗建议的阐述"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_uc_acute_severe",
+        "id": "sub_disease_acute_severe_uc",
         "name": "急性重度溃疡性结肠炎",
         "parent_disease_id": "disease_uc",
         "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "急性重度",
+        "clinical_stage": "急性重度",
+        "severity": "重度",
         "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "年 指南 新提出了急性重度 部分",
-          "急性重度 初治患者首选糖皮质激素诱导缓解"
+          "2023《指南》新提出了急性重度UC部分,提醒临床医生这部分患者需要高度重视和积极治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_uc_extensive_colitis",
-        "name": "广泛结肠型溃疡性结肠炎",
-        "parent_disease_id": "disease_uc",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "确诊时年龄小于 岁 广泛结肠炎 内镜疾病活动严重 (Mayo3 分 反应蛋白高 低白蛋白血症"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_uc_left_sided",
-        "name": "左半结肠型溃疡性结肠炎",
-        "parent_disease_id": "disease_uc",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "对于轻中度左半结肠型活动性 建议口服 联合灌肠治疗",
-          "对于轻中度左半结肠型活动性 建议口服 联合灌肠治疗 灌肠药物包括中药"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_uc_proctitis",
+        "id": "sub_disease_ulcerative_proctitis",
         "name": "溃疡性直肠炎",
         "parent_disease_id": "disease_uc",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
+        "disease_subtype": "直肠型",
+        "clinical_stage": "活动期",
+        "severity": "轻度",
         "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "对于轻度活动性溃疡性直肠炎 建议应用 直肠给药诱导缓解",
-          "对于轻度直肠型 诱导缓解后建议选择 美沙拉嗪栓或 美沙拉嗪口服"
+          "对于轻度活动性溃疡性直肠炎,建议应用1g/d5-ASA直肠给药诱导缓解"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_left_sided_uc",
+        "name": "左半结肠型溃疡性结肠炎",
+        "parent_disease_id": "disease_uc",
+        "disease_subtype": "左半结肠型",
+        "clinical_stage": "活动期",
+        "severity": "轻中度",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "对于轻中度左半结肠型活动性UC,建议口服5-ASA联合灌肠治疗"
         ],
         "confidence": 0.9
       }
@@ -155,9 +118,9 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "患者报告结局直肠出血和大便频率至少下降 50%"
+          "患者报告结局直肠出血和大便频率至少下降50%"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_stool_frequency",
@@ -167,36 +130,33 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "患者报告结局直肠出血和大便频率至少下降 50%"
+          "患者报告结局直肠出血和大便频率至少下降50%"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_mayo_endoscopic_score",
-        "name": "Mayo内镜评分",
+        "id": "test_mayo_score",
+        "name": "内镜Mayo评分",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "既往黏膜愈合定义为 内镜评分 分",
-          "Mayo ≤1",
-          "Mayo0 分和 Mayo1 分之间患者的复发风险有显著差异"
+          "内镜疾病活动严重(Mayo3分,UCEIS≥7)"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_uceis",
+        "id": "test_uceis_score",
         "name": "UCEIS评分",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "内镜疾病活动严重 (Mayo3 分 反应蛋白高 低白蛋白血症",
-          "UCEIS≥7"
+          "内镜疾病活动严重(Mayo3分,UCEIS≥7)"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_crp",
@@ -205,10 +165,9 @@
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "内镜疾病活动严重 (Mayo3 分 反应蛋白高 低白蛋白血症",
-          "C 反应蛋白高"
+          "C反应蛋白高、低白蛋白血症"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_albumin",
@@ -217,172 +176,132 @@
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "内镜疾病活动严重 (Mayo3 分 反应蛋白高 低白蛋白血症",
-          "低白蛋白血症"
+          "C反应蛋白高、低白蛋白血症"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_uc_induction",
-        "content": "诱导缓解",
+        "id": "treatment_induction_remission",
+        "content": "诱导缓解治疗",
         "recommendation_strength": "strong",
-        "source_section": "治疗部分",
+        "source_section": "治疗原则",
         "evidence_ids": [
-          "短期以临床应答为主要目标 患者报告结局直肠出血和大便频率至少下降 50%"
+          "美沙拉嗪在轻中度UC诱导和维持缓解中仍然是一线地位"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "treatment_uc_maintenance",
-        "content": "维持缓解",
+        "id": "treatment_maintenance_remission",
+        "content": "维持缓解治疗",
         "recommendation_strength": "strong",
-        "source_section": "治疗部分",
+        "source_section": "治疗原则",
         "evidence_ids": [
-          "中期以临床缓解和炎症指标正常化为主要目标 长期以达到黏膜愈合为目标",
-          "将维持治疗单独进行阐述 包括维持治疗的药物剂量 用药时长以及药物的选择"
+          "美沙拉嗪在轻中度UC诱导和维持缓解中仍然是一线地位"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "treatment_uc_mucosal_healing",
-        "content": "黏膜愈合",
+        "id": "treatment_early_active",
+        "content": "早期应用生物制剂进行积极治疗，需要和高危因素进行匹配",
         "recommendation_strength": "strong",
-        "source_section": "治疗部分",
+        "source_section": "推荐意见",
         "evidence_ids": [
-          "长期以达到黏膜愈合为目标",
-          "在 年 指南 中黏膜愈合的标准更严格"
+          "早期应用生物制剂进行积极治疗,需要和高危因素进行匹配"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_mesalamine_2g_to_4g_daily_oral",
-        "content": "美沙拉嗪口服 2~4 g/d",
+        "id": "plan_5asa_oral_2_4g",
+        "content": "口服5-ASA(2~4g/d)诱导缓解",
         "plan_level": 1,
-        "applicable_condition": "轻度初治活动性溃疡性结肠炎诱导缓解",
+        "applicable_condition": "轻中度、初治、活动性UC",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于轻度初治活动性 建议口服 5-ASA(2~4g/d) 诱导缓解"
+          "对于轻中度、初治、活动性UC,建议口服5-ASA(2~4g/d)诱导缓解"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_mesalamine_1g_daily_rectal",
-        "content": "美沙拉嗪直肠给药 1 g/d",
+        "id": "plan_5asa_rectal_1g",
+        "content": "应用1g/d5-ASA直肠给药诱导缓解",
         "plan_level": 1,
-        "applicable_condition": "轻度活动性溃疡性直肠炎诱导缓解",
+        "applicable_condition": "轻度活动性溃疡性直肠炎",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于轻度活动性溃疡性直肠炎 建议应用 1g/d5-ASA 直肠给药诱导缓解"
+          "对于轻度活动性溃疡性直肠炎,建议应用1g/d5-ASA直肠给药诱导缓解"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_mesalamine_2g_to_4g_daily_oral_plus_enema",
-        "content": "美沙拉嗪口服联合灌肠治疗",
+        "id": "plan_5asa_oral_enema",
+        "content": "口服5-ASA联合灌肠治疗",
         "plan_level": 1,
-        "applicable_condition": "左半结肠型活动性溃疡性结肠炎诱导缓解",
+        "applicable_condition": "轻中度左半结肠型活动性UC",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于左半结肠型活动性 建议口服 5-ASA 联合灌肠治疗"
+          "对于轻中度左半结肠型活动性UC,建议口服5-ASA联合灌肠治疗"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_prednisolone_oral_iv",
-        "content": "口服或静脉注射糖皮质激素",
+        "id": "plan_corticosteroid",
+        "content": "口服或静脉注射糖皮质激素诱导缓解",
         "plan_level": 1,
-        "applicable_condition": "中重度及急性重度溃疡性结肠炎诱导缓解",
+        "applicable_condition": "中重度UC和急性重度UC",
+        "contraindication_note": "考量糖皮质激素的药物不良反应以及无维持缓解的作用",
+        "evidence_ids": [
+          "糖皮质激素仍然是中重度UC和急性重度UC的一线治疗药物"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_biologics",
+        "content": "生物制剂(英夫利西单抗或维得利珠单抗)",
+        "plan_level": 1,
+        "applicable_condition": "中重度UC的一线治疗或轻中度5-ASA无效",
         "contraindication_note": null,
         "evidence_ids": [
-          "重度活动性 推荐给予口服或静脉注射糖皮质激素诱导缓解",
-          "急性重度 初治患者首选糖皮质激素诱导缓解"
+          "英夫利西单抗或维得利珠单抗可考虑作为中重度UC的一线治疗方案"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_infliximab_or_vedolizumab",
-        "content": "英夫利西单抗或维得利珠单抗",
-        "plan_level": 1,
-        "applicable_condition": "中重度溃疡性结肠炎一线治疗；足量美沙拉嗪无效或不耐受者",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "英夫利西单抗或维得利珠单抗可考虑作为中重度 的一线治疗方案",
-          "若足量 治疗无效 可选择糖皮质激素或生物制剂来诱导缓解"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_tcm_for_uc",
-        "content": "中药治疗（如清肠化湿方）",
+        "id": "plan_tcm_qingchang",
+        "content": "中药(清肠化湿方)治疗",
         "plan_level": 2,
-        "applicable_condition": "轻中度活动性溃疡性结肠炎无效或不耐受，特别是合并机会感染的患者",
+        "applicable_condition": "轻中度活动性UC,5-ASA无效或不耐受,特别是合并机会感染的患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于轻中度活动性 无效或不耐受 特别是合并机会感染的患者 可考虑中药治疗"
+          "对于轻中度活动性UC,5-ASA无效或不耐受,特别是合并机会感染的患者,可考虑中药治疗"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_younger_age_at_diagnosis",
-        "content": "确诊时年龄小于40岁",
-        "etiology_type": "危险因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
+        "id": "etiology_immune_related",
+        "content": "肠道免疫相关",
+        "etiology_type": "自身免疫因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "确诊时年龄小于 岁 广泛结肠炎 内镜疾病活动严重 (Mayo3 分 反应蛋白高 低白蛋白血症"
+          "UC是一类肠道免疫相关的疾病"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_extensive_colitis",
-        "content": "广泛结肠炎",
-        "etiology_type": "危险因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "确诊时年龄小于 岁 广泛结肠炎 内镜疾病活动严重 (Mayo3 分 反应蛋白高 低白蛋白血症"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_high_crp",
-        "content": "C反应蛋白升高",
-        "etiology_type": "危险因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "确诊时年龄小于 岁 广泛结肠炎 内镜疾病活动严重 (Mayo3 分 反应蛋白高 低白蛋白血症",
-          "C 反应蛋白高"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_hypoalbuminemia",
-        "content": "低白蛋白血症",
-        "etiology_type": "危险因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "确诊时年龄小于 岁 广泛结肠炎 内镜疾病活动严重 (Mayo3 分 反应蛋白高 低白蛋白血症",
-          "低白蛋白血症"
-        ],
-        "confidence": 0.95
+        "confidence": 0.85
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_immunological_dysregulation",
-        "content": "肠道免疫相关的疾病",
+        "id": "pathogenesis_chronic_inflammation",
+        "content": "慢性炎症性肠道疾病，由于病情易于反复发作，且合并多种并发症和肠外表现",
         "evidence_ids": [
-          "是一类肠道免疫相关的疾病 一旦确诊 大部分患者属于反复发作的疾病模式"
+          "溃疡性结肠炎(ulcerativecolitis,UC)是一类慢性炎症性肠道疾病,由于病情易于反复发作,且合并多种并发症和肠外表现"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ]
   },
@@ -390,160 +309,115 @@
     "has_sub_disease": [
       {
         "from": "disease_uc",
-        "to": "sub_disease_uc_mild",
-        "relation_id": "rel_uc_has_mild",
+        "to": "sub_disease_mild_moderate_uc",
+        "relation_id": "rel_uc_has_mild_moderate",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "年 指南 提出早期治疗和高危因素的理念……应用轻中度 中重度 和急性重度 进行治疗建议的阐述"
+          "应用轻中度、中重度UC和急性重度UC进行治疗建议的阐述"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_uc",
-        "to": "sub_disease_uc_moderate",
-        "relation_id": "rel_uc_has_moderate",
+        "to": "sub_disease_moderate_severe_uc",
+        "relation_id": "rel_uc_has_moderate_severe",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "年 指南 提出早期治疗和高危因素的理念……应用轻中度 中重度 和急性重度 进行治疗建议的阐述"
+          "应用轻中度、中重度UC和急性重度UC进行治疗建议的阐述"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_uc",
-        "to": "sub_disease_uc_severe",
-        "relation_id": "rel_uc_has_severe",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "年 指南 提出早期治疗和高危因素的理念……应用轻中度 中重度 和急性重度 进行治疗建议的阐述"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_uc",
-        "to": "sub_disease_uc_acute_severe",
+        "to": "sub_disease_acute_severe_uc",
         "relation_id": "rel_uc_has_acute_severe",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "年 指南 新提出了急性重度 部分"
+          "2023《指南》新提出了急性重度UC部分"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_uc",
-        "to": "sub_disease_uc_extensive_colitis",
-        "relation_id": "rel_uc_has_extensive_colitis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "确诊时年龄小于 岁 广泛结肠炎 内镜疾病活动严重 (Mayo3 分 反应蛋白高 低白蛋白血症"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_uc",
-        "to": "sub_disease_uc_left_sided",
-        "relation_id": "rel_uc_has_left_sided",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "对于轻中度左半结肠型活动性 建议口服 联合灌肠治疗"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_uc",
-        "to": "sub_disease_uc_proctitis",
-        "relation_id": "rel_uc_has_proctitis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "对于轻度活动性溃疡性直肠炎 建议应用 直肠给药诱导缓解"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_uc_mild",
+        "from": "sub_disease_mild_moderate_uc",
         "to": "symptom_rectal_bleeding",
-        "relation_id": "rel_uc_mild_manifests_as_rectal_bleeding",
+        "relation_id": "rel_mild_moderate_manifests_bleeding",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "治疗目标",
         "evidence_ids": [
-          "患者报告结局直肠出血和大便频率至少下降 50%"
+          "患者报告结局直肠出血和大便频率至少下降50%"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将直肠出血列为患者报告结局的核心指标，与轻度活动性UC直接关联",
-        "evidence": "患者报告结局直肠出血和大便频率至少下降50%"
+        "confidence": 0.9,
+        "weight_reason": "原文提及使用5-ASA治疗后患者排便频率和直肠出血停止的中位时间，表明直肠出血是轻中度UC的常见症状。",
+        "evidence": "患者排便频率和直肠出血"
       },
       {
-        "from": "sub_disease_uc_mild",
+        "from": "sub_disease_mild_moderate_uc",
         "to": "symptom_stool_frequency",
-        "relation_id": "rel_uc_mild_manifests_as_stool_frequency",
+        "relation_id": "rel_mild_moderate_manifests_frequency",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "治疗目标",
         "evidence_ids": [
-          "患者报告结局直肠出血和大便频率至少下降 50%"
+          "患者报告结局直肠出血和大便频率至少下降50%"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将大便频率列为患者报告结局的核心指标，与轻度活动性UC直接关联",
-        "evidence": "患者报告结局直肠出血和大便频率至少下降50%"
+        "confidence": 0.9,
+        "weight_reason": "原文提及使用5-ASA治疗后患者排便频率和直肠出血停止的中位时间，表明排便频率异常是轻中度UC的常见症状。",
+        "evidence": "患者排便频率和直肠出血"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_uc_mild",
-        "to": "test_mayo_endoscopic_score",
-        "relation_id": "rel_uc_mild_requires_mayo_score",
+        "from": "sub_disease_moderate_severe_uc",
+        "to": "test_mayo_score",
+        "relation_id": "rel_moderate_severe_requires_mayo",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
-        "value_min": null,
+        "value_min": 3,
         "value_max": null,
-        "operator": "equals",
+        "operator": ">=",
         "unit": "分",
-        "result_text": "Mayo ≤1",
+        "result_text": null,
         "weight": 8,
         "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "present",
+        "criterion_group_id": "high_risk_factors",
+        "required_count": 1,
+        "polarity": "elevated",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "推荐意见",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "既往黏膜愈合定义为 内镜评分 分",
-          "Mayo ≤1"
+          "内镜疾病活动严重(Mayo3分,UCEIS≥7)"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文指出Mayo内镜评分≤1为黏膜愈合标准，用于评估轻中度UC治疗效果，属关键但非唯一评估工具",
-        "evidence": "既往黏膜愈合定义为内镜评分Mayo≤1"
+        "confidence": 0.9,
+        "weight_reason": "原文指出高危因素包括内镜疾病活动严重(Mayo3分)，表明中重度UC需要评估Mayo评分以判断高危因素。",
+        "evidence": "Mayo3"
       },
       {
-        "from": "sub_disease_uc_acute_severe",
-        "to": "test_uceis",
-        "relation_id": "rel_uc_acute_severe_requires_uceis",
+        "from": "sub_disease_moderate_severe_uc",
+        "to": "test_uceis_score",
+        "relation_id": "rel_moderate_severe_requires_uceis",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -553,266 +427,228 @@
         "operator": ">=",
         "unit": "分",
         "result_text": null,
-        "weight": 10,
+        "weight": 8,
         "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "high_risk_factors",
+        "required_count": 1,
         "polarity": "elevated",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "推荐意见",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "UCEIS≥7"
+          "内镜疾病活动严重(Mayo3分,UCEIS≥7)"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文将UCEIS≥7列为急性重度UC高危因素之一，属该分型的明确、直接判定依据",
-        "evidence": "高危因素包括以下几点：确诊时年龄小于40岁、广泛结肠炎、内镜疾病活动严重(Mayo3分、UCEIS≥7)"
+        "confidence": 0.9,
+        "weight_reason": "原文指出高危因素包括内镜疾病活动严重(UCEIS≥7)，表明中重度UC需要评估UCEIS评分以判断高危因素。",
+        "evidence": "UCEIS≥7"
       },
       {
-        "from": "sub_disease_uc_acute_severe",
+        "from": "sub_disease_moderate_severe_uc",
         "to": "test_crp",
-        "relation_id": "rel_uc_acute_severe_requires_crp",
+        "relation_id": "rel_moderate_severe_requires_crp",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断支持条件",
+        "type_info": "疾病诊断次要条件",
         "diagnostic_role": "supportive",
         "value_min": null,
         "value_max": null,
-        "operator": "contains",
+        "operator": null,
         "unit": null,
-        "result_text": "C 反应蛋白高",
-        "weight": 6,
+        "result_text": "C反应蛋白高",
+        "weight": 7,
         "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "high_risk_factors",
+        "required_count": 1,
         "polarity": "elevated",
         "typicality": "common",
-        "section_priority": "诊断标准",
+        "section_priority": "推荐意见",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "C 反应蛋白高"
+          "C反应蛋白高、低白蛋白血症"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_uc_acute_severe",
+        "from": "sub_disease_moderate_severe_uc",
         "to": "test_albumin",
-        "relation_id": "rel_uc_acute_severe_requires_albumin",
+        "relation_id": "rel_moderate_severe_requires_albumin",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断支持条件",
+        "type_info": "疾病诊断次要条件",
         "diagnostic_role": "supportive",
         "value_min": null,
         "value_max": null,
-        "operator": "contains",
+        "operator": null,
         "unit": null,
         "result_text": "低白蛋白血症",
-        "weight": 6,
+        "weight": 7,
         "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "high_risk_factors",
+        "required_count": 1,
         "polarity": "decreased",
         "typicality": "common",
-        "section_priority": "诊断标准",
+        "section_priority": "推荐意见",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "低白蛋白血症"
+          "C反应蛋白高、低白蛋白血症"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_uc_mild",
-        "to": "treatment_uc_induction",
-        "relation_id": "rel_uc_mild_follows_induction",
+        "from": "sub_disease_mild_moderate_uc",
+        "to": "treatment_induction_remission",
+        "relation_id": "rel_mild_moderate_follows_induction",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
+        "clinical_stage": "活动期",
         "treatment_line": "一线",
-        "applicable_condition": "轻度活动性溃疡性结肠炎",
+        "applicable_condition": "轻中度、初治、活动性UC",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病严重程度"
+          "疾病分度"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗部分",
-        "confidence": 0.95
+        "source_section": "治疗原则",
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_uc_moderate",
-        "to": "treatment_uc_induction",
-        "relation_id": "rel_uc_moderate_follows_induction",
+        "from": "sub_disease_moderate_severe_uc",
+        "to": "treatment_early_active",
+        "relation_id": "rel_moderate_severe_follows_early",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
+        "clinical_stage": "活动期",
         "treatment_line": "一线",
-        "applicable_condition": "中度活动性溃疡性结肠炎",
+        "applicable_condition": "存在高危因素的中重度UC",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病严重程度"
+          "高危因素"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗部分",
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_uc_acute_severe",
-        "to": "treatment_uc_induction",
-        "relation_id": "rel_uc_acute_severe_follows_induction",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "急性重度溃疡性结肠炎",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "疾病严重程度"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "治疗部分",
-        "confidence": 0.95
+        "source_section": "推荐意见",
+        "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_uc_induction",
-        "to": "plan_mesalamine_2g_to_4g_daily_oral",
-        "relation_id": "rel_induction_implements_by_mesalamine_oral",
+        "from": "treatment_induction_remission",
+        "to": "plan_5asa_oral_2_4g",
+        "relation_id": "rel_induction_implements_5asa_oral",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "轻度初治活动性溃疡性结肠炎",
+        "applicable_condition": "轻中度、初治、活动性UC",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于轻度初治活动性 建议口服 5-ASA(2~4g/d) 诱导缓解"
+          "对于轻中度、初治、活动性UC,建议口服5-ASA(2~4g/d)诱导缓解"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "treatment_uc_induction",
-        "to": "plan_mesalamine_1g_daily_rectal",
-        "relation_id": "rel_induction_implements_by_mesalamine_rectal",
+        "from": "treatment_induction_remission",
+        "to": "plan_5asa_rectal_1g",
+        "relation_id": "rel_induction_implements_5asa_rectal",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
         "applicable_condition": "轻度活动性溃疡性直肠炎",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于轻度活动性溃疡性直肠炎 建议应用 1g/d5-ASA 直肠给药诱导缓解"
+          "对于轻度活动性溃疡性直肠炎,建议应用1g/d5-ASA直肠给药诱导缓解"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "treatment_uc_induction",
-        "to": "plan_prednisolone_oral_iv",
-        "relation_id": "rel_induction_implements_by_prednisolone",
+        "from": "treatment_induction_remission",
+        "to": "plan_5asa_oral_enema",
+        "relation_id": "rel_induction_implements_5asa_enema",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "中重度及急性重度溃疡性结肠炎",
+        "applicable_condition": "轻中度左半结肠型活动性UC",
         "contraindication_note": null,
         "evidence_ids": [
-          "重度活动性 推荐给予口服或静脉注射糖皮质激素诱导缓解",
-          "急性重度 初治患者首选糖皮质激素诱导缓解"
+          "对于轻中度左半结肠型活动性UC,建议口服5-ASA联合灌肠治疗"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "treatment_uc_induction",
-        "to": "plan_infliximab_or_vedolizumab",
-        "relation_id": "rel_induction_implements_by_biologics",
+        "from": "treatment_induction_remission",
+        "to": "plan_corticosteroid",
+        "relation_id": "rel_induction_implements_corticosteroid",
         "relation_name": "落实为",
         "relation_type": "implements_by",
-        "plan_role": "一线",
-        "applicable_condition": "中重度溃疡性结肠炎；足量美沙拉嗪无效或不耐受者",
+        "plan_role": "首选",
+        "applicable_condition": "中重度UC和急性重度UC",
+        "contraindication_note": "考量糖皮质激素的药物不良反应以及无维持缓解的作用",
+        "evidence_ids": [
+          "糖皮质激素仍然是中重度UC和急性重度UC的一线治疗药物"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_early_active",
+        "to": "plan_biologics",
+        "relation_id": "rel_early_implements_biologics",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "中重度UC的一线治疗或轻中度5-ASA无效",
         "contraindication_note": null,
         "evidence_ids": [
-          "英夫利西单抗或维得利珠单抗可考虑作为中重度 的一线治疗方案",
-          "若足量 治疗无效 可选择糖皮质激素或生物制剂来诱导缓解"
+          "英夫利西单抗或维得利珠单抗可考虑作为中重度UC的一线治疗方案"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_induction_remission",
+        "to": "plan_tcm_qingchang",
+        "relation_id": "rel_induction_implements_tcm",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "轻中度活动性UC,5-ASA无效或不耐受,特别是合并机会感染的患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于轻中度活动性UC,5-ASA无效或不耐受,特别是合并机会感染的患者,可考虑中药治疗"
+        ],
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_uc_acute_severe",
-        "to": "etiology_younger_age_at_diagnosis",
-        "relation_id": "rel_uc_acute_severe_causes_younger_age",
+        "from": "sub_disease_mild_moderate_uc",
+        "to": "etiology_immune_related",
+        "relation_id": "rel_mild_moderate_caused_by_immune",
         "relation_name": "相关",
         "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
+        "causal_strength": "strong",
+        "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "确诊时年龄小于 岁 广泛结肠炎 内镜疾病活动严重 (Mayo3 分 反应蛋白高 低白蛋白血症"
+          "UC是一类肠道免疫相关的疾病"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_uc_acute_severe",
-        "to": "etiology_extensive_colitis",
-        "relation_id": "rel_uc_acute_severe_causes_extensive_colitis",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "确诊时年龄小于 岁 广泛结肠炎 内镜疾病活动严重 (Mayo3 分 反应蛋白高 低白蛋白血症"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_uc_acute_severe",
-        "to": "etiology_high_crp",
-        "relation_id": "rel_uc_acute_severe_causes_high_crp",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "C 反应蛋白高"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_uc_acute_severe",
-        "to": "etiology_hypoalbuminemia",
-        "relation_id": "rel_uc_acute_severe_causes_hypoalbuminemia",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "低白蛋白血症"
-        ],
-        "confidence": 0.95
+        "confidence": 0.85
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_uc_mild",
-        "to": "pathogenesis_immunological_dysregulation",
-        "relation_id": "rel_uc_mild_explained_by_immunological_dysregulation",
+        "from": "sub_disease_mild_moderate_uc",
+        "to": "pathogenesis_chronic_inflammation",
+        "relation_id": "rel_mild_moderate_explained_by_inflammation",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "是一类肠道免疫相关的疾病 一旦确诊 大部分患者属于反复发作的疾病模式"
+          "溃疡性结肠炎(ulcerativecolitis,UC)是一类慢性炎症性肠道疾病,由于病情易于反复发作,且合并多种并发症和肠外表现"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ]
   },

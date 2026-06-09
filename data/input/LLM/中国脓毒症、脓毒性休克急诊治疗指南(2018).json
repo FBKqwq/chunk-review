@@ -1,6 +1,6 @@
 {
   "meta": {
-    "doc_id": "中国脓毒症/脓毒性休克急诊治疗指南（2018）",
+    "doc_id": "中国脓毒症_脓毒性休克急诊治疗指南_2018",
     "source_title": "中国脓毒症 / 脓毒性休克急诊治疗指南（2018）",
     "section_path": "全文",
     "text_span": {
@@ -15,14 +15,14 @@
         "name": "脓毒症",
         "normalized_name": "脓毒症",
         "aliases": [
-          "sepsis",
-          "脓毒性综合征"
+          "Sepsis",
+          "严重脓毒症"
         ],
         "source_document_ids": [
-          "中国脓毒症/脓毒性休克急诊治疗指南（2018）"
+          "中国脓毒症 / 脓毒性休克急诊治疗指南（2018）"
         ],
         "evidence_ids": [
-          "脓毒症是指因感染引起的宿主反应失调导致的危及生命的器官功能障碍[6-8]。"
+          "脓毒症是指因感染引起的宿主反应失调导致的危及生命的器官功能障碍"
         ],
         "confidence": 0.95
       },
@@ -31,26 +31,25 @@
         "name": "脓毒性休克",
         "normalized_name": "脓毒性休克",
         "aliases": [
-          "septic shock",
-          "脓毒症休克"
+          "Septic Shock"
         ],
         "source_document_ids": [
-          "中国脓毒症/脓毒性休克急诊治疗指南（2018）"
+          "中国脓毒症 / 脓毒性休克急诊治疗指南（2018）"
         ],
         "evidence_ids": [
-          "脓毒性休克定义为脓毒症合并严重的循环、细胞和代谢紊乱，其死亡风险较单纯脓毒症更高[6]。脓毒性休克是在脓毒症的基础上，出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压（MAP）≥ 65 mm Hg，以及血乳酸水平＞2 mmol/L[6]。"
+          "脓毒性休克定义为脓毒症合并严重的循环、细胞和代谢紊乱，其死亡风险较单纯脓毒症更高"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_sepsis_sofa2",
-        "name": "SOFA评分≥2分的脓毒症",
+        "id": "sub_disease_sepsis",
+        "name": "脓毒症",
         "parent_disease_id": "disease_sepsis",
         "disease_subtype": null,
         "clinical_stage": "不限定",
-        "severity": "中重症",
+        "severity": "重症",
         "population": "感染或疑似感染患者",
         "gender": "all",
         "age_min": null,
@@ -58,29 +57,29 @@
         "evidence_ids": [
           "对于感染或疑似感染的患者，当脓毒症相关序贯器官衰竭［sequential（sepsis-related）organ failure assessment,SOFA,见表6］评分较基线上升≥２分可诊断为脓毒症。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "sub_disease_sepsis_qsofa2",
-        "name": "qSOFA≥2分的脓毒症",
-        "parent_disease_id": "disease_sepsis",
+        "id": "sub_disease_septic_shock",
+        "name": "脓毒性休克",
+        "parent_disease_id": "disease_septic_shock",
         "disease_subtype": null,
         "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "感染或疑似感染患者",
+        "severity": "危重症",
+        "population": "脓毒症患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "临床上也可以使用床旁快速 SOFA（quick SOFA,qSOFA, 见表７）标准识别重症患者，如果符合qSOFA标准中的至少２项时，应进一步评估患者是否存在脏器功能障碍[6]。"
+          "脓毒性休克是在脓毒症的基础上，出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压（MAP）≥ 65 mm Hg，以及血乳酸水平＞2 mmol/L"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "sub_disease_septic_shock_map65_lactate2",
-        "name": "脓毒性休克（MAP≥65 mmHg且乳酸＞2 mmol/L）",
-        "parent_disease_id": "disease_septic_shock",
-        "disease_subtype": null,
+        "id": "sub_disease_sepsis_with_aki",
+        "name": "脓毒症合并急性肾损伤",
+        "parent_disease_id": "disease_sepsis",
+        "disease_subtype": "合并AKI",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "脓毒症患者",
@@ -88,183 +87,294 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "脓毒性休克是在脓毒症的基础上，出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压（MAP）≥ 65 mm Hg，以及血乳酸水平＞2 mmol/L[6]。"
+          "对于脓毒症合并急性肾损伤（AKI）的患者，如需行 RRT，CRRT 和间歇性RRT 均可"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_sepsis_with_ards",
+        "name": "脓毒症诱发急性呼吸窘迫综合征",
+        "parent_disease_id": "disease_sepsis",
+        "disease_subtype": "合并ARDS",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "脓毒症患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "对脓毒症诱发急性呼吸窘迫综合征（ARDS）患者进行机械通气时，推荐设定潮气量为６ ml/kg"
         ],
         "confidence": 0.9
       }
     ],
     "symptoms": [
       {
-        "id": "symptom_tachypnea",
-        "name": "呼吸频率 ≥22次／min",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
+        "id": "symptom_hypotension",
+        "name": "持续性低血压",
+        "body_site": "全身循环",
+        "symptom_category": "循环系统症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
-          "qSOFA标准：呼吸频率 ≥22次／min"
+          "出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_altered_mentation",
+        "id": "symptom_altered_mental_status",
         "name": "意识改变",
         "body_site": "中枢神经系统",
         "symptom_category": "神经系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "qSOFA标准：意识改变"
+          "qSOFA标准...意识 改变"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_hypotension",
-        "name": "收缩压 ≤100 mm Hg",
-        "body_site": "循环系统",
-        "symptom_category": "循环系统症状",
+        "id": "symptom_tachypnea",
+        "name": "呼吸频率增快",
+        "body_site": "呼吸系统",
+        "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "qSOFA标准：收缩压 ≤100 mm Hg"
+          "qSOFA标准...呼吸频率 ≥22次／min"
         ],
         "confidence": 0.9
+      },
+      {
+        "id": "symptom_oliguria",
+        "name": "少尿",
+        "body_site": "泌尿系统",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "如果仅有肌酐升高或少尿而无其他透析指征时，不建议进行RRT"
+        ],
+        "confidence": 0.85
       }
     ],
     "tests": [
       {
-        "id": "test_sofa_score",
+        "id": "test_sofa",
         "name": "SOFA评分",
-        "normal_range_min": 0,
-        "normal_range_max": 24,
+        "normal_range_min": null,
+        "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "脓毒症相关序贯器官衰竭［sequential（sepsis-related）organ failure assessment,SOFA,见表6］评分较基线上升≥２分可诊断为脓毒症。"
+          "脓毒症相关序贯器官衰竭［sequential（sepsis-related）organ failure assessment,SOFA,见表6］评分"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "test_qsofa_score",
+        "id": "test_qsofa",
         "name": "qSOFA评分",
-        "normal_range_min": 0,
-        "normal_range_max": 3,
+        "normal_range_min": null,
+        "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "qSOFA标准（表7）：qSOFA≥2"
+          "床旁快速 SOFA（quick SOFA,qSOFA, 见表７）标准"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "test_lactate",
-        "name": "动脉血乳酸",
-        "normal_range_min": 0.5,
-        "normal_range_max": 2.2,
+        "id": "test_blood_lactate",
+        "name": "血乳酸",
+        "normal_range_min": null,
+        "normal_range_max": 2.0,
         "is_digital": 1,
         "evidence_ids": [
-          "脓毒性休克是在脓毒症的基础上，出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压（MAP）≥ 65 mm Hg，以及血乳酸水平＞2 mmol/L[6]。"
+          "血乳酸水平＞2 mmol/L"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "test_map",
-        "name": "平均动脉压",
-        "normal_range_min": 70,
-        "normal_range_max": 105,
+        "name": "平均动脉压(MAP)",
+        "normal_range_min": 65.0,
+        "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "脓毒性休克是在脓毒症的基础上，出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压（MAP）≥ 65 mm Hg，以及血乳酸水平＞2 mmol/L[6]。"
+          "维持平均动脉压（MAP）≥ 65 mm Hg"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_pao2_fio2",
+        "name": "氧合指数(PaO2/FiO2)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "PaO2/FiO2 ＜150 mmHg"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_blood_glucose",
+        "name": "血糖",
+        "normal_range_min": 3.9,
+        "normal_range_max": 10.0,
+        "is_digital": 1,
+        "evidence_ids": [
+          "连续两次测定血糖＞ 10 mmol/L 时启用胰岛素治疗，目标血糖为≤10 mmol/L"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_sepsis_antimicrobial_early",
-        "content": "推荐抗菌药物在入院后或判断脓毒症以后尽快使用，最佳在1 h 内，延迟不超过3 h。",
+        "id": "treatment_fluid_resuscitation",
+        "content": "脓毒性休克患者的液体复苏应尽早开始；对脓毒症所致的低灌注，推荐在拟诊为脓毒性休克起 3 h 内输注至少 30 ml/kg 的晶体溶液进行初始复苏",
         "recommendation_strength": "强推荐",
-        "source_section": "推荐意见 11",
+        "source_section": "液体复苏",
         "evidence_ids": [
-          "推荐抗菌药物在入院后或判断脓毒症以后尽快使用，最佳在1 h 内，延迟不超过3 h（强推荐 ,中等证据质量）。"
+          "推荐意见２：脓毒性休克患者的液体复苏应尽早开始（BPS）；对脓毒症所致的低灌注，推荐在拟诊为脓毒性休克起 3 h 内输注至少 30 ml/kg 的晶体溶液进行初始复苏（强推荐，低证据质量）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_antimicrobial",
+        "content": "推荐抗菌药物在入院后或判断脓毒症以后尽快使用，最佳在1 h 内，延迟不超过3 h；经验性使用可能覆盖所有病原体的抗菌药物",
+        "recommendation_strength": "强推荐",
+        "source_section": "抗感染治疗",
+        "evidence_ids": [
+          "推荐意见 11：推荐抗菌药物在入院后或判断脓毒症以后尽快使用，最佳在1 h 内，延迟不超过3 h（强推荐 ,中等证据质量）。",
+          "推荐意见12：对于脓毒症或脓毒性休克患者，推荐经验性使用可能覆盖所有病原体的抗菌药物（强推荐，中等证据质量）。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_vasoactive",
+        "content": "推荐去甲肾上腺素作为首选血管加压药",
+        "recommendation_strength": "强推荐",
+        "source_section": "血管活性药物",
+        "evidence_ids": [
+          "推荐意见 18：推荐去甲肾上腺素作为首选血管加压药（强推荐，中等证据质量）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_corticosteroid",
+        "content": "对于脓毒性休克患者，在经过充分的液体复苏及血管活性药物治疗后，如果血流动力学仍不稳定，建议静脉使用氢化可的松，剂量为每天200 mg",
+        "recommendation_strength": "弱推荐",
+        "source_section": "糖皮质激素",
+        "evidence_ids": [
+          "推荐意见 23：对于脓毒性休克患者，在经过充分的液体复苏及血管活性药物治疗后，如果血流动力学仍不稳定，建议静脉使用氢化可的松，剂量为每天200 mg（弱推荐，低证据质量）。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_septic_shock_fluid_resuscitation",
-        "content": "脓毒性休克患者的液体复苏应尽早开始；对脓毒症所致的低灌注，推荐在拟诊为脓毒性休克起3 h 内输注至少30 ml/kg 的晶体溶液进行初始复苏。",
+        "id": "treatment_mechanical_ventilation",
+        "content": "对脓毒症诱发急性呼吸窘迫综合征（ARDS）患者进行机械通气时，推荐设定潮气量为６ ml/kg；推荐设定平台压上限为30 cmH2O",
         "recommendation_strength": "强推荐",
-        "source_section": "推荐意见２",
+        "source_section": "机械通气",
         "evidence_ids": [
-          "推荐意见２：脓毒性休克患者的液体复苏应尽早开始（BPS）；对脓毒症所致的低灌注，推荐在拟诊为脓毒性休克起 3 h 内输注至少 30 ml/kg 的晶体溶液进行初始复苏（强推荐，低证据质量）；完成初始复苏后，评估血流动力学状态以指导下一步的液体使用（BPS）。"
+          "推荐意见27：对脓毒症诱发急性呼吸窘迫综合征（ARDS）患者进行机械通气时，推荐设定潮气量为６ ml/kg（强推荐，高证据质量）。推荐设定平台压上限为30 cmH2O（强推荐，中等证据质量）。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "treatment_septic_shock_vasopressor",
-        "content": "推荐去甲肾上腺素作为首选血管加压药；推荐以MAP 65 mmHg 作为初始复苏目标。",
+        "id": "treatment_glucose_management",
+        "content": "对于 ICU脓毒症患者，推荐采用程序化血糖管理方案，连续两次测定血糖＞ 10 mmol/L 时启用胰岛素治疗，目标血糖为≤10 mmol/L",
         "recommendation_strength": "强推荐",
-        "source_section": "推荐意见 18、4",
+        "source_section": "血糖管理",
         "evidence_ids": [
-          "推荐意见 18：推荐去甲肾上腺素作为首选血管加压药（强推荐，中等证据质量）；……推荐意见４：对于需使用血管活性药物的脓毒性休克患者，推荐以MAP 65 mmHg 作为初始复苏目标（强推荐，中等证据质量）；……"
+          "推荐意见 35：对于 ICU脓毒症患者，推荐采用程序化血糖管理方案，推荐每1～2 h 监测一次血糖，连续两次测定血糖＞ 10 mmol/L 时启用胰岛素治疗，目标血糖为≤10 mmol/L（强推荐，高证据质量）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "plans": [
       {
-        "id": "plan_antimicrobial_within1h",
-        "content": "抗菌药物在入院后或判断脓毒症以后尽快使用，最佳在1 h 内，延迟不超过3 h。",
+        "id": "plan_crystalloid_30ml_kg",
+        "content": "在拟诊为脓毒性休克起 3 h 内输注至少 30 ml/kg 的晶体溶液进行初始复苏",
         "plan_level": 1,
-        "applicable_condition": "怀疑脓毒症或脓毒性休克",
+        "applicable_condition": "拟诊为脓毒性休克起3h内",
         "contraindication_note": null,
         "evidence_ids": [
-          "推荐抗菌药物在入院后或判断脓毒症以后尽快使用，最佳在1 h 内，延迟不超过3 h（强推荐 ,中等证据质量）。"
+          "推荐在拟诊为脓毒性休克起 3 h 内输注至少 30 ml/kg 的晶体溶液进行初始复苏"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "plan_crystalloid_30mlkg_3h",
-        "content": "在拟诊为脓毒性休克起3 h 内输注至少30 ml/kg 的晶体溶液进行初始复苏。",
-        "plan_level": 1,
-        "applicable_condition": "脓毒性休克患者",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "对脓毒症所致的低灌注，推荐在拟诊为脓毒性休克起 3 h 内输注至少 30 ml/kg 的晶体溶液进行初始复苏（强推荐，低证据质量）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_norepinephrine_target_map65",
-        "content": "使用去甲肾上腺素维持平均动脉压（MAP）≥ 65 mm Hg。",
+        "id": "plan_norepinephrine",
+        "content": "去甲肾上腺素作为首选血管加压药",
         "plan_level": 1,
         "applicable_condition": "需使用血管活性药物的脓毒性休克患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于需使用血管活性药物的脓毒性休克患者，推荐以MAP 65 mmHg 作为初始复苏目标（强推荐，中等证据质量）"
+          "推荐去甲肾上腺素作为首选血管加压药"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_hydrocortisone_200mg",
+        "content": "静脉使用氢化可的松，剂量为每天200 mg",
+        "plan_level": 2,
+        "applicable_condition": "经过充分的液体复苏及血管活性药物治疗后，血流动力学仍不稳定",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "建议静脉使用氢化可的松，剂量为每天200 mg"
         ],
         "confidence": 0.9
+      },
+      {
+        "id": "plan_low_tidal_volume",
+        "content": "设定潮气量为６ ml/kg",
+        "plan_level": 1,
+        "applicable_condition": "脓毒症诱发ARDS患者进行机械通气时",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐设定潮气量为６ ml/kg"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_insulin_target",
+        "content": "启用胰岛素治疗，目标血糖为≤10 mmol/L",
+        "plan_level": 1,
+        "applicable_condition": "连续两次测定血糖＞ 10 mmol/L",
+        "contraindication_note": "避免严重低血糖",
+        "evidence_ids": [
+          "连续两次测定血糖＞ 10 mmol/L 时启用胰岛素治疗，目标血糖为≤10 mmol/L"
+        ],
+        "confidence": 0.95
       }
     ],
     "etiologies": [
       {
         "id": "etiology_infection",
-        "content": "感染或疑似感染",
+        "content": "感染",
         "etiology_type": "感染因素",
         "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "对于感染或疑似感染的患者，当脓毒症相关序贯器官衰竭［sequential（sepsis-related）organ failure assessment,SOFA,见表6］评分较基线上升≥２分可诊断为脓毒症。"
+          "脓毒症是指因感染引起的宿主反应失调导致的危及生命的器官功能障碍"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
         "id": "pathogenesis_host_response_dysregulation",
-        "content": "因感染引起的宿主反应失调导致的危及生命的器官功能障碍。",
+        "content": "感染引起的宿主反应失调导致的危及生命的器官功能障碍",
         "evidence_ids": [
-          "脓毒症是指因感染引起的宿主反应失调导致的危及生命的器官功能障碍[6-8]。"
+          "脓毒症是指因感染引起的宿主反应失调导致的危及生命的器官功能障碍"
         ],
-        "confidence": 0.85
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_circulatory_metabolic_abnormalities",
+        "content": "脓毒症合并严重的循环、细胞和代谢紊乱",
+        "evidence_ids": [
+          "脓毒性休克定义为脓毒症合并严重的循环、细胞和代谢紊乱，其死亡风险较单纯脓毒症更高"
+        ],
+        "confidence": 0.95
       }
     ]
   },
@@ -272,118 +382,125 @@
     "has_sub_disease": [
       {
         "from": "disease_sepsis",
-        "to": "sub_disease_sepsis_sofa2",
-        "relation_id": "rel_sepsis_has_sofa2",
+        "to": "sub_disease_sepsis",
+        "relation_id": "rel_sepsis_has_sub_sepsis",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "对于感染或疑似感染的患者，当脓毒症相关序贯器官衰竭［sequential（sepsis-related）organ failure assessment,SOFA,见表6］评分较基线上升≥２分可诊断为脓毒症。"
+          "对于感染或疑似感染的患者，当脓毒症相关序贯器官衰竭评分较基线上升≥２分可诊断为脓毒症"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_septic_shock",
+        "to": "sub_disease_septic_shock",
+        "relation_id": "rel_septic_shock_has_sub_septic_shock",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "脓毒性休克是在脓毒症的基础上，出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压（MAP）≥ 65 mm Hg，以及血乳酸水平＞2 mmol/L"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_sepsis",
+        "to": "sub_disease_sepsis_with_aki",
+        "relation_id": "rel_sepsis_has_sub_aki",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "对于脓毒症合并急性肾损伤（AKI）的患者"
         ],
         "confidence": 0.9
       },
       {
         "from": "disease_sepsis",
-        "to": "sub_disease_sepsis_qsofa2",
-        "relation_id": "rel_sepsis_has_qsofa2",
+        "to": "sub_disease_sepsis_with_ards",
+        "relation_id": "rel_sepsis_has_sub_ards",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "临床上也可以使用床旁快速 SOFA（quick SOFA,qSOFA, 见表７）标准识别重症患者，如果符合qSOFA标准中的至少２项时，应进一步评估患者是否存在脏器功能障碍[6]。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_septic_shock",
-        "to": "sub_disease_septic_shock_map65_lactate2",
-        "relation_id": "rel_septic_shock_has_map65_lactate2",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "脓毒性休克是在脓毒症的基础上，出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压（MAP）≥ 65 mm Hg，以及血乳酸水平＞2 mmol/L[6]。"
+          "对脓毒症诱发急性呼吸窘迫综合征（ARDS）患者"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_sepsis_qsofa2",
-        "to": "symptom_tachypnea",
-        "relation_id": "rel_qsofa2_manifests_as_tachypnea",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "qSOFA_3_choose_2",
-        "required_count": 2,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "qSOFA标准：呼吸频率 ≥22次／min"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确将呼吸频率≥22次/min列为qSOFA标准之一，属直接诊断依据",
-        "evidence": "qSOFA≥2（表7）呼吸频率≥22次／min"
-      },
-      {
-        "from": "sub_disease_sepsis_qsofa2",
-        "to": "symptom_altered_mentation",
-        "relation_id": "rel_qsofa2_manifests_as_altered_mentation",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "qSOFA_3_choose_2",
-        "required_count": 2,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "qSOFA标准：意识改变"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确将意识改变列为qSOFA标准之一，属直接诊断依据",
-        "evidence": "qSOFA≥2（表7）意识改变"
-      },
-      {
-        "from": "sub_disease_sepsis_qsofa2",
+        "from": "sub_disease_septic_shock",
         "to": "symptom_hypotension",
-        "relation_id": "rel_qsofa2_manifests_as_hypotension",
+        "relation_id": "rel_septic_shock_manifests_hypotension",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "持续性",
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出脓毒性休克是在脓毒症基础上出现持续性低血压，为诊断标准之一，非金标准表述。",
+        "evidence": "出现持续性低血压"
+      },
+      {
+        "from": "sub_disease_sepsis",
+        "to": "symptom_altered_mental_status",
+        "relation_id": "rel_sepsis_manifests_altered_mental",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "推荐诊断项",
+        "weight": 7,
         "criterion_group_id": "qSOFA_3_choose_2",
         "required_count": 2,
         "typicality": "common",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
-          "qSOFA标准：收缩压 ≤100 mm Hg"
+          "qSOFA标准...意识 改变"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确将收缩压≤100 mm Hg列为qSOFA标准之一，属直接诊断依据",
-        "evidence": "qSOFA≥2（表7）收缩压≤100mmHg"
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_sepsis",
+        "to": "symptom_tachypnea",
+        "relation_id": "rel_sepsis_manifests_tachypnea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "推荐诊断项",
+        "weight": 7,
+        "criterion_group_id": "qSOFA_3_choose_2",
+        "required_count": 2,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "qSOFA标准...呼吸频率 ≥22次／min"
+        ],
+        "confidence": 0.9
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_sepsis_sofa2",
-        "to": "test_sofa_score",
-        "relation_id": "rel_sepsis_sofa2_requires_sofa",
+        "from": "sub_disease_sepsis",
+        "to": "test_sofa",
+        "relation_id": "rel_sepsis_requires_sofa",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
-        "value_min": 2,
+        "value_min": 2.0,
         "value_max": null,
         "operator": ">=",
         "unit": "分",
-        "result_text": null,
-        "weight": 100,
+        "result_text": "较基线上升≥2分",
+        "weight": 9,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
@@ -392,83 +509,55 @@
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "当脓毒症相关序贯器官衰竭［sequential（sepsis-related）organ failure assessment,SOFA,见表6］评分较基线上升≥２分可诊断为脓毒症。"
+          "当脓毒症相关序贯器官衰竭［sequential（sepsis-related）organ failure assessment,SOFA,见表6］评分较基线上升≥２分可诊断为脓毒症"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确‘SOFA评分较基线上升≥２分可诊断为脓毒症’，且SOFA为定义性诊断工具，符合金标准语义",
-        "evidence": "对于感染或疑似感染的患者，当脓毒症相关序贯器官衰竭［sequential（sepsis-related）organfailureassessment,SOFA,见表6］评分较基线上升≥２分可诊断为脓毒症。"
+        "confidence": 0.95,
+        "weight_reason": "原文指出SOFA评分较基线上升≥2分可诊断为脓毒症，为重要诊断依据，非金标准表述。",
+        "evidence": "评分较基线上升≥２分可诊断为脓毒症"
       },
       {
-        "from": "sub_disease_sepsis_qsofa2",
-        "to": "test_qsofa_score",
-        "relation_id": "rel_sepsis_qsofa2_requires_qsofa",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": 2,
-        "value_max": null,
-        "operator": ">=",
-        "unit": "分",
-        "result_text": null,
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "elevated",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "qSOFA标准（表7）：qSOFA≥2"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确‘qSOFA≥2可识别重症患者’并用于脓毒症筛查，且在临床诊断流程图中作为前置判断节点，具操作性确诊功能",
-        "evidence": "对于感染或疑似感染的患者，当脓毒症相关序贯器官衰竭［sequential（sepsis-related）organfailureassessment,SOFA,见表6］评分较基线上升≥２分可诊断为脓毒症。由于SOFA评分操作起来比较复杂，临床上也可以使用床旁快速SOFA（quickSOFA,qSOFA,见表７）标准识别重症患者，如果符合qSOFA标准中的至少２项时，应进一步评估患者是否存在脏器功能障碍[6]。"
-      },
-      {
-        "from": "sub_disease_septic_shock_map65_lactate2",
+        "from": "sub_disease_septic_shock",
         "to": "test_map",
         "relation_id": "rel_septic_shock_requires_map",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
-        "value_min": 65,
+        "value_min": 65.0,
         "value_max": null,
         "operator": ">=",
-        "unit": "mm Hg",
-        "result_text": null,
-        "weight": 10,
-        "gold_standard": false,
+        "unit": "mmHg",
+        "result_text": "需血管活性药来维持MAP≥65 mmHg",
+        "weight": 9,
+        "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "elevated",
+        "polarity": "decreased",
         "typicality": "typical",
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "脓毒性休克是在脓毒症的基础上，出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压（MAP）≥ 65 mm Hg，以及血乳酸水平＞2 mmol/L[6]。"
+          "在充分容量复苏后仍需血管活性药来维持平均动脉压（MAP）≥ 65 mm Hg"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文将MAP≥65 mm Hg作为脓毒性休克复苏目标，属治疗监测指标而非诊断必需检测",
-        "evidence": "脓毒性休克是在脓毒症的基础上，出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压（MAP）≥65mmHg，以及血乳酸水平＞2mmol/L[6]。"
+        "confidence": 0.95,
+        "weight_reason": "原文指出脓毒性休克诊断需血管活性药维持平均动脉压，为重要诊断指标，非金标准表述。",
+        "evidence": "仍需血管活性药来维持平均动脉压"
       },
       {
-        "from": "sub_disease_septic_shock_map65_lactate2",
-        "to": "test_lactate",
+        "from": "sub_disease_septic_shock",
+        "to": "test_blood_lactate",
         "relation_id": "rel_septic_shock_requires_lactate",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
-        "value_min": 2,
+        "value_min": 2.0,
         "value_max": null,
         "operator": ">",
         "unit": "mmol/L",
-        "result_text": null,
-        "weight": 10,
-        "gold_standard": false,
+        "result_text": "血乳酸水平＞2 mmol/L",
+        "weight": 9,
+        "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "elevated",
@@ -476,121 +565,168 @@
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "脓毒性休克是在脓毒症的基础上，出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压（MAP）≥ 65 mm Hg，以及血乳酸水平＞2 mmol/L[6]。"
+          "以及血乳酸水平＞2 mmol/L"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文将血乳酸＞2 mmol/L与持续性低血压并列作为脓毒性休克定义条件，属诊断必要组成，但非独立金标准",
-        "evidence": "脓毒性休克是在脓毒症的基础上，出现持续性低血压，在充分容量复苏后仍需血管活性药来维持平均动脉压（MAP）≥65mmHg，以及血乳酸水平＞2mmol/L[6]。"
+        "confidence": 0.95,
+        "weight_reason": "原文指出脓毒性休克诊断包含血乳酸水平升高，为重要诊断指标，非金标准表述。",
+        "evidence": "以及血乳酸水平＞2"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_sepsis_sofa2",
-        "to": "treatment_sepsis_antimicrobial_early",
-        "relation_id": "rel_sepsis_sofa2_follows_antimicrobial_early",
+        "from": "sub_disease_septic_shock",
+        "to": "treatment_fluid_resuscitation",
+        "relation_id": "rel_septic_shock_follows_fluid",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "怀疑脓毒症或脓毒性休克",
+        "applicable_condition": "拟诊为脓毒性休克",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "强推荐",
         "decision_basis": [
-          "诊断标准"
+          "疾病分型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见 11",
-        "confidence": 0.9
+        "source_section": "液体复苏",
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_septic_shock_map65_lactate2",
-        "to": "treatment_septic_shock_fluid_resuscitation",
-        "relation_id": "rel_septic_shock_follows_fluid_resuscitation",
+        "from": "sub_disease_sepsis",
+        "to": "treatment_antimicrobial",
+        "relation_id": "rel_sepsis_follows_antimicrobial",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "脓毒性休克患者",
+        "applicable_condition": "判断脓毒症以后",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "强推荐",
         "decision_basis": [
-          "诊断标准"
+          "疾病分型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见２",
-        "confidence": 0.9
+        "source_section": "抗感染治疗",
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_septic_shock_map65_lactate2",
-        "to": "treatment_septic_shock_vasopressor",
-        "relation_id": "rel_septic_shock_follows_vasopressor",
+        "from": "sub_disease_septic_shock",
+        "to": "treatment_vasoactive",
+        "relation_id": "rel_septic_shock_follows_vasoactive",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "需使用血管活性药物的脓毒性休克患者",
+        "applicable_condition": "充分液体复苏后仍低血压",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "强推荐",
         "decision_basis": [
-          "诊断标准"
+          "血流动力学状态"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见 18、4",
-        "confidence": 0.9
+        "source_section": "血管活性药物",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_sepsis_with_ards",
+        "to": "treatment_mechanical_ventilation",
+        "relation_id": "rel_ards_follows_ventilation",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "诱发ARDS",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强推荐",
+        "decision_basis": [
+          "并发症"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "机械通气",
+        "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_sepsis_antimicrobial_early",
-        "to": "plan_antimicrobial_within1h",
-        "relation_id": "rel_treatment_implements_by_antimicrobial_within1h",
+        "from": "treatment_fluid_resuscitation",
+        "to": "plan_crystalloid_30ml_kg",
+        "relation_id": "rel_fluid_implements_crystalloid",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "怀疑脓毒症或脓毒性休克",
+        "applicable_condition": "初始复苏",
         "contraindication_note": null,
         "evidence_ids": [
-          "推荐抗菌药物在入院后或判断脓毒症以后尽快使用，最佳在1 h 内，延迟不超过3 h（强推荐 ,中等证据质量）。"
+          "推荐在拟诊为脓毒性休克起 3 h 内输注至少 30 ml/kg 的晶体溶液进行初始复苏"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_vasoactive",
+        "to": "plan_norepinephrine",
+        "relation_id": "rel_vasoactive_implements_norepinephrine",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "需使用血管活性药物",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐去甲肾上腺素作为首选血管加压药"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_corticosteroid",
+        "to": "plan_hydrocortisone_200mg",
+        "relation_id": "rel_corticosteroid_implements_hydrocortisone",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "血流动力学仍不稳定",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "建议静脉使用氢化可的松，剂量为每天200 mg"
         ],
         "confidence": 0.9
       },
       {
-        "from": "treatment_septic_shock_fluid_resuscitation",
-        "to": "plan_crystalloid_30mlkg_3h",
-        "relation_id": "rel_treatment_implements_by_crystalloid_30mlkg_3h",
+        "from": "treatment_mechanical_ventilation",
+        "to": "plan_low_tidal_volume",
+        "relation_id": "rel_ventilation_implements_low_tv",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "脓毒性休克患者",
+        "applicable_condition": "ARDS患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "对脓毒症所致的低灌注，推荐在拟诊为脓毒性休克起 3 h 内输注至少 30 ml/kg 的晶体溶液进行初始复苏（强推荐，低证据质量）"
+          "推荐设定潮气量为６ ml/kg"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "treatment_septic_shock_vasopressor",
-        "to": "plan_norepinephrine_target_map65",
-        "relation_id": "rel_treatment_implements_by_norepinephrine_target_map65",
+        "from": "treatment_glucose_management",
+        "to": "plan_insulin_target",
+        "relation_id": "rel_glucose_implements_insulin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "需使用血管活性药物的脓毒性休克患者",
-        "contraindication_note": null,
+        "applicable_condition": "血糖＞ 10 mmol/L",
+        "contraindication_note": "避免严重低血糖",
         "evidence_ids": [
-          "对于需使用血管活性药物的脓毒性休克患者，推荐以MAP 65 mmHg 作为初始复苏目标（强推荐，中等证据质量）"
+          "连续两次测定血糖＞ 10 mmol/L 时启用胰岛素治疗，目标血糖为≤10 mmol/L"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_sepsis_sofa2",
+        "from": "sub_disease_sepsis",
         "to": "etiology_infection",
-        "relation_id": "rel_sepsis_sofa2_causes_infection",
+        "relation_id": "rel_sepsis_caused_by_infection",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -598,22 +734,33 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "对于感染或疑似感染的患者，当脓毒症相关序贯器官衰竭［sequential（sepsis-related）organ failure assessment,SOFA,见表6］评分较基线上升≥２分可诊断为脓毒症。"
+          "脓毒症是指因感染引起的宿主反应失调导致的危及生命的器官功能障碍"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_sepsis_sofa2",
+        "from": "sub_disease_sepsis",
         "to": "pathogenesis_host_response_dysregulation",
-        "relation_id": "rel_sepsis_sofa2_explained_by_host_response_dysregulation",
+        "relation_id": "rel_sepsis_explained_by_host_response",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "脓毒症是指因感染引起的宿主反应失调导致的危及生命的器官功能障碍[6-8]。"
+          "脓毒症是指因感染引起的宿主反应失调导致的危及生命的器官功能障碍"
         ],
-        "confidence": 0.85
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_septic_shock",
+        "to": "pathogenesis_circulatory_metabolic_abnormalities",
+        "relation_id": "rel_septic_shock_explained_by_circulatory",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "脓毒性休克定义为脓毒症合并严重的循环、细胞和代谢紊乱"
+        ],
+        "confidence": 0.95
       }
     ]
   },

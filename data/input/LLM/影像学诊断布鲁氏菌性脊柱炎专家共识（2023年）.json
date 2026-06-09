@@ -2,7 +2,7 @@
   "meta": {
     "doc_id": "影像学诊断布鲁氏菌性脊柱炎专家共识",
     "source_title": "影像学诊断布鲁氏菌性脊柱炎专家共识",
-    "section_path": "",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -11,47 +11,28 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_brucellosis",
-        "name": "布鲁氏菌病",
-        "normalized_name": "布鲁氏菌病",
+        "id": "disease_bs",
+        "name": "布鲁氏菌性脊柱炎",
+        "normalized_name": "布鲁氏菌性脊柱炎",
         "aliases": [
-          "布氏杆菌病",
-          "波状热",
-          "地中海热",
-          "马尔他热"
+          "BS",
+          "Brucella spondylitis"
         ],
         "source_document_ids": [
           "影像学诊断布鲁氏菌性脊柱炎专家共识"
         ],
         "evidence_ids": [
-          "［关键词］ 布鲁氏菌病；脊柱炎；诊断显像",
-          "布鲁氏菌性脊柱炎（Ｂｒｕｃｅｌｌａ ｓｐｏｎｄｙｌｉｔｉｓ，ＢＳ）指 増加，近年我国（尤其西北地区）及全世界均有小范围 ＢＳ发病率增长趋势［３－４］。"
+          "布鲁氏菌性脊柱炎（Ｂｒｕｃｅｌｌａ ｓｐｏｎｄｙｌｉｔｉｓ，ＢＳ）指布鲁氏菌侵袭脊柱所致感染性脊柱炎"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_brucella_spondylitis",
-        "name": "布鲁氏菌性脊柱炎",
-        "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": "感染性脊柱炎",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "布鲁氏菌性脊柱炎（Ｂｒｕｃｅｌｌａ ｓｐｏｎｄｙｌｉｔｉｓ，ＢＳ）指 布鲁氏菌侵袭脊柱所致感染性脊柱炎，发病率２％～５３％［１－２］，常见于腰骶部；病程长，合并症多，致残率高且易复发。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "sub_disease_brucella_spondylitis_early",
-        "name": "布鲁氏菌性脊柱炎早期",
-        "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": "感染性脊柱炎",
+        "id": "sub_disease_bs_early",
+        "name": "早期布鲁氏菌性脊柱炎",
+        "parent_disease_id": "disease_bs",
+        "disease_subtype": "早期",
         "clinical_stage": "早期",
         "severity": null,
         "population": null,
@@ -61,13 +42,13 @@
         "evidence_ids": [
           "５．２．１ 早期 以炎性水肿及充血改变为主，骨质破坏较轻微，椎体形态无明显异常；此时ＤＲ和ＣＴ常难以检出，而 ＭＲＩ具有明显优势。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "sub_disease_brucella_spondylitis_progressive",
-        "name": "布鲁氏菌性脊柱炎进展期",
-        "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": "感染性脊柱炎",
+        "id": "sub_disease_bs_progressive",
+        "name": "进展期布鲁氏菌性脊柱炎",
+        "parent_disease_id": "disease_bs",
+        "disease_subtype": "进展期",
         "clinical_stage": "进展期",
         "severity": null,
         "population": null,
@@ -75,15 +56,15 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "５．２．２ 进展期 骨质破坏与修复并存，前者程度大于后者（图７），呈“虫蚀状”或“刀锯样”，可伴炎性肉芽肿和脓肿形成，椎体中央骨质亦可出现骨质破坏；随病程进展，病灶边缘发生硬化，骨质缺损区多较表浅，且其边缘可见新生骨，椎体无明显压缩，可见轻度骨质增生、硬化及骨赘形成，呈“鸟嘴样”改变。此期ＤＲ、ＣＴ和 ＭＲＩ均可用于诊断，首选ＤＲ，ＣＴ和ＭＲＩ可作为补充。"
+          "５．２．２ 进展期 骨质破坏与修复并存，前者程度大于后者"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "sub_disease_brucella_spondylitis_reparative",
-        "name": "布鲁氏菌性脊柱炎修复期",
-        "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": "感染性脊柱炎",
+        "id": "sub_disease_bs_repair",
+        "name": "修复期布鲁氏菌性脊柱炎",
+        "parent_disease_id": "disease_bs",
+        "disease_subtype": "修复期",
         "clinical_stage": "修复期",
         "severity": null,
         "population": null,
@@ -91,9 +72,9 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "５．２．３ 修复期 此期骨质破坏与修复并存，且后者程度大于前者（图８）。椎体边缘呈“花边征”或“鸟嘴征”，或见椎体中央骨质破坏，伴边缘增生、硬化；相邻椎体缘可伴明显骨赘或骨桥形成。此期ＤＲ、ＣＴ和 ＭＲＩ均可用于诊断，首选ＤＲ，ＣＴ可作为必要补充。"
+          "５．２．３ 修复期 此期骨质破坏与修复并存，且后者程度大于前者"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "symptoms": [
@@ -105,21 +86,21 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
+          "早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "symptom_night_sweat",
+        "id": "symptom_night_sweats",
         "name": "盗汗",
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
+          "早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_fatigue",
@@ -129,9 +110,9 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
+          "早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_anemia",
@@ -141,9 +122,9 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
+          "早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_weight_loss",
@@ -153,21 +134,21 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
+          "早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "symptom_anorexia",
+        "id": "symptom_loss_of_appetite",
         "name": "食欲减退",
-        "body_site": "全身",
+        "body_site": "消化系统",
         "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
+          "早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_chronic_fatigue_syndrome",
@@ -177,65 +158,98 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
+          "早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "symptom_low_back_pain",
-        "name": "腰背部疼痛",
+        "id": "symptom_persistent_lumbodorsal_pain",
+        "name": "持续性腰背部疼痛",
         "body_site": "腰背部",
-        "symptom_category": "骨骼肌肉系统症状",
+        "symptom_category": "骨骼肌肉症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "随疾病进展，可逐渐出现疼痛，以持续性腰背部疼痛较常见。"
+          "随疾病进展，可逐渐出现疼痛，以持续性腰背部疼痛较常见"
         ],
         "confidence": 0.95
       }
     ],
     "tests": [
       {
-        "id": "test_serum_agglutination_test",
-        "name": "血清凝集试验",
+        "id": "test_dr",
+        "name": "DR",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "３．４ 实验室检查 血清凝集试验 （ｓｅｒｕｍ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＳＡＴ）滴度＞１∶１６０、虎红平板凝集试验 （ｒｏｓｅ－ｂｅｎｇａｌ ｐｌａｔｅ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＲＢＰＴ）及补体结合试验 （ｃｏｍｐｌｅｍｅｎｔ ｆｉｘａｔｉｏｎ ｔｅｓｔ，ＣＦＴ）阳性有助于确诊［７］。"
+          "ＤＲ经济便捷、应用广泛，空间分辨率良好，既可作为筛选ＢＳ的首选方法"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_mri",
+        "name": "MRI",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "ＭＲＩ既可作为诊断ＢＳ的最佳影像学方法，亦可作为治疗后随访的首选影像学手段"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_rose_bengal_plate_agglutination_test",
-        "name": "虎红平板凝集试验",
+        "id": "test_ct",
+        "name": "CT",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "３．４ 实验室检查 血清凝集试验 （ｓｅｒｕｍ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＳＡＴ）滴度＞１∶１６０、虎红平板凝集试验 （ｒｏｓｅ－ｂｅｎｇａｌ ｐｌａｔｅ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＲＢＰＴ）及补体结合试验 （ｃｏｍｐｌｅｍｅｎｔ ｆｉｘａｔｉｏｎ ｔｅｓｔ，ＣＦＴ）阳性有助于确诊［７］。"
+          "螺旋ＣＴ重建技术具有强大后处理功能，可较敏感地检出ＢＳ所致椎体及附件骨质破坏"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_sat",
+        "name": "血清凝集试验(SAT)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血清凝集试验 （ｓｅｒｕｍ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＳＡＴ）滴度＞１∶１６０"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_complement_fixation_test",
-        "name": "补体结合试验",
+        "id": "test_rbpt",
+        "name": "虎红平板凝集试验(RBPT)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "３．４ 实验室检查 血清凝集试验 （ｓｅｒｕｍ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＳＡＴ）滴度＞１∶１６０、虎红平板凝集试验 （ｒｏｓｅ－ｂｅｎｇａｌ ｐｌａｔｅ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＲＢＰＴ）及补体结合试验 （ｃｏｍｐｌｅｍｅｎｔ ｆｉｘａｔｉｏｎ ｔｅｓｔ，ＣＦＴ）阳性有助于确诊［７］。"
+          "虎红平板凝集试验 （ｒｏｓｅ－ｂｅｎｇａｌ ｐｌａｔｅ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＲＢＰＴ）及补体结合试验 （ｃｏｍｐｌｅｍｅｎｔ ｆｉｘａｔｉｏｎ ｔｅｓｔ，ＣＦＴ）阳性有助于确诊"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_polymerase_chain_reaction",
-        "name": "聚合酶链反应",
+        "id": "test_cft",
+        "name": "补体结合试验(CFT)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "③布鲁氏菌血清ＳＡＴ滴度＞１∶１６０，ＲＢＰＴ阳性，聚合酶链反应（ｐｏｌｙｍｅｒａｓｅ ｃｈａｉｎ ｒｅａｃｔｉｏｎ，ＰＣＲ）阳性；"
+          "虎红平板凝集试验 （ｒｏｓｅ－ｂｅｎｇａｌ ｐｌａｔｅ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＲＢＰＴ）及补体结合试验 （ｃｏｍｐｌｅｍｅｎｔ ｆｉｘａｔｉｏｎ ｔｅｓｔ，ＣＦＴ）阳性有助于确诊"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_pcr",
+        "name": "聚合酶链反应(PCR)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "聚合酶链反应（ｐｏｌｙｍｅｒａｓｅ ｃｈａｉｎ ｒｅａｃｔｉｏｎ，ＰＣＲ）阳性"
         ],
         "confidence": 0.95
       },
@@ -246,121 +260,77 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "④细菌培养（脓液、血液、骨髓）阳性；"
+          "细菌培养（脓液、血液、骨髓）阳性"
         ],
         "confidence": 0.95
       },
       {
         "id": "test_pathology",
-        "name": "病理学检查",
+        "name": "病理学诊断",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "⑤病理学诊断ＢＳ。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_dr",
-        "name": "数字X线摄影",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "４．１ ＤＲ（证据级别：Ⅲ；推荐强度：强） ＤＲ经济便捷、应用广泛，空间分辨率良好，既可作为筛选ＢＳ的首选方法，亦可用于术后随访，其诊断脊柱骨髓炎的特异度和准确率分别为５７％和７３％［８］，易漏诊和误诊早期ＢＳ。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_mri",
-        "name": "磁共振成像",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "４．２ ＭＲＩ（证据级别：Ⅳ；推荐强度：强） ＭＲＩ具有多方位、多参数、多序列扫描等优点，可清晰显示ＢＳ早期椎体骨质充血水肿、椎旁软组织水肿及受累椎体异常信号，较好地检出椎旁脓肿、肉芽肿、椎间盘破坏及骨膜改变等；增强 ＭＲＩ可作为常规序列的补充。ＭＲＩ既可作为诊断ＢＳ的最佳影像学方法，亦可作为治疗后随访的首选影像学手段，其诊断ＢＳ的敏感度、特异度和准确率分别为９６％、９２％和９４％［９］。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_ct",
-        "name": "计算机断层扫描",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "４．３ ＣＴ（证据级别：Ⅲ；推荐强度：强） 螺旋ＣＴ重建技术具有强大后处理功能，可较敏感地检出ＢＳ所致椎体及附件骨质破坏、椎间隙变窄、椎间盘破坏及椎旁脓肿等，且能显示病变内钙化及韧带钙化，可作为ＢＳ常规检查方法，其诊断ＢＳ的敏感度和特异度分别为６７％和９４％［１０］。"
+          "病理学诊断ＢＳ"
         ],
         "confidence": 0.95
       }
     ],
     "treatments": [
       {
-        "id": "treatment_imaging_diagnosis_standardization",
-        "content": "标准化影像学诊断布鲁氏菌性脊柱炎",
-        "recommendation_strength": "强",
+        "id": "treatment_imaging_monitoring",
+        "content": "影像学监测在早期诊断、术前评价、评估疗效及随访中具有重要作用",
+        "recommendation_strength": "strong",
         "source_section": "摘要",
         "evidence_ids": [
-          "旨在提升影像学诊断ＢＳ规范化水平。",
-          "本共识，旨在为影像学诊断ＢＳ提供依据。"
+          "影像学对早期诊断、术前评价、评估疗效及随访等具有重要作用"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_dr_mri_followup",
+        "content": "确诊后定期以DR及MRI进行随访和评估",
+        "plan_level": 1,
+        "applicable_condition": "确诊后",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "确诊后定期以ＤＲ及 ＭＲ进行随访和评估。"
         ],
         "confidence": 0.95
       }
     ],
-    "plans": [],
     "etiologies": [
       {
         "id": "etiology_brucella_infection",
         "content": "布鲁氏菌感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "布鲁氏菌性脊柱炎（Ｂｒｕｃｅｌｌａ ｓｐｏｎｄｙｌｉｔｉｓ，ＢＳ）指 布鲁氏菌侵袭脊柱所致感染性脊柱炎"
+          "布鲁氏菌性脊柱炎（Ｂｒｕｃｅｌｌａ ｓｐｏｎｄｙｌｉｔｉｓ，ＢＳ）指布鲁氏菌侵袭脊柱所致感染性脊柱炎"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_contact_with_livestock",
+        "id": "etiology_animal_contact",
         "content": "与牛、羊等家畜或其皮毛接触史",
         "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "危险因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "３．１ 流行病学史 患者有明确的与牛、羊等家畜或其皮毛接触史，流行地区居住、工作及旅游史，或与生产、使用和研究布鲁氏菌疫苗等存在密切关联。"
+          "患者有明确的与牛、羊等家畜或其皮毛接触史"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_endemic_area_residence",
-        "content": "流行地区居住、工作及旅游史",
-        "etiology_type": "感染因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "３．１ 流行病学史 患者有明确的与牛、羊等家畜或其皮毛接触史，流行地区居住、工作及旅游史，或与生产、使用和研究布鲁氏菌疫苗等存在密切关联。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_brucella_vaccine_exposure",
-        "content": "与生产、使用和研究布鲁氏菌疫苗存在密切关联",
-        "etiology_type": "感染因素",
-        "typicality": "rare",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "３．１ 流行病学史 患者有明确的与牛、羊等家畜或其皮毛接触史，流行地区居住、工作及旅游史，或与生产、使用和研究布鲁氏菌疫苗等存在密切关联。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_brucella_spondylitis",
-        "content": "布鲁氏菌经皮肤黏膜或消化道侵入人体后先至附近淋巴结，突破淋巴防御功能后进入血液循环并不断释放内毒素，侵犯椎体终板，之后累及邻近骨质、椎间盘及周围组织，继而形成脊柱炎性病变；其主要病理特征为渗出、增生及肉芽肿的病理损害与免疫保护共存，即破坏、修复交替出现。",
+        "id": "pathogenesis_brucella_invasion",
+        "content": "布鲁氏菌经皮肤黏膜或消化道侵入人体后先至附近淋巴结，突破淋巴防御功能后进入血液循环并不断释放内毒素，侵犯椎体终板，之后累及邻近骨质、椎间盘及周围组织，继而形成脊柱炎性病变；其主要病理特征为渗出、增生及肉芽肿的病理损害与免疫保护共存，即破坏、修复交替出现",
         "evidence_ids": [
-          "２ 发病机制及病理变化 布鲁氏菌经皮肤黏膜或消化道侵入人体后先至附近淋巴结，突破淋巴防御功能后进入血液循环并不断释放内毒素，侵犯椎体终板，之后累及邻近骨质、椎间盘及周围组织，继而形成脊柱炎性病变；其主要病理特征为渗出、增生及肉芽肿的病理损害与免疫保护共存，即破坏、修复交替出现［６］。"
+          "布鲁氏菌经皮肤黏膜或消化道侵入人体后先至附近淋巴结，突破淋巴防御功能后进入血液循环并不断释放内毒素，侵犯椎体终板，之后累及邻近骨质、椎间盘及周围组织，继而形成脊柱炎性病变；其主要病理特征为渗出、增生及肉芽肿的病理损害与免疫保护共存，即破坏、修复交替出现"
         ],
         "confidence": 0.95
       }
@@ -369,498 +339,271 @@
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_brucellosis",
-        "to": "sub_disease_brucella_spondylitis",
-        "relation_id": "rel_brucellosis_has_brucella_spondylitis",
+        "from": "disease_bs",
+        "to": "sub_disease_bs_early",
+        "relation_id": "rel_bs_has_early",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "布鲁氏菌性脊柱炎（Ｂｒｕｃｅｌｌａ ｓｐｏｎｄｙｌｉｔｉｓ，ＢＳ）指 布鲁氏菌侵袭脊柱所致感染性脊柱炎"
+          "５．２．１ 早期 以炎性水肿及充血改变为主"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_brucellosis",
-        "to": "sub_disease_brucella_spondylitis_early",
-        "relation_id": "rel_brucellosis_has_brucella_spondylitis_early",
+        "from": "disease_bs",
+        "to": "sub_disease_bs_progressive",
+        "relation_id": "rel_bs_has_progressive",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "５．２．１ 早期 以炎性水肿及充血改变为主，骨质破坏较轻微，椎体形态无明显异常；此时ＤＲ和ＣＴ常难以检出，而 ＭＲＩ具有明显优势。"
+          "５．２．２ 进展期 骨质破坏与修复并存"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_brucellosis",
-        "to": "sub_disease_brucella_spondylitis_progressive",
-        "relation_id": "rel_brucellosis_has_brucella_spondylitis_progressive",
+        "from": "disease_bs",
+        "to": "sub_disease_bs_repair",
+        "relation_id": "rel_bs_has_repair",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "５．２．２ 进展期 骨质破坏与修复并存，前者程度大于后者（图７），呈“虫蚀状”或“刀锯样”，可伴炎性肉芽肿和脓肿形成，椎体中央骨质亦可出现骨质破坏；随病程进展，病灶边缘发生硬化，骨质缺损区多较表浅，且其边缘可见新生骨，椎体无明显压缩，可见轻度骨质增生、硬化及骨赘形成，呈“鸟嘴样”改变。此期ＤＲ、ＣＴ和 ＭＲＩ均可用于诊断，首选ＤＲ，ＣＴ和ＭＲＩ可作为补充。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_brucellosis",
-        "to": "sub_disease_brucella_spondylitis_reparative",
-        "relation_id": "rel_brucellosis_has_brucella_spondylitis_reparative",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "５．２．３ 修复期 此期骨质破坏与修复并存，且后者程度大于前者（图８）。椎体边缘呈“花边征”或“鸟嘴征”，或见椎体中央骨质破坏，伴边缘增生、硬化；相邻椎体缘可伴明显骨赘或骨桥形成。此期ＤＲ、ＣＴ和 ＭＲＩ均可用于诊断，首选ＤＲ，ＣＴ可作为必要补充。"
+          "５．２．３ 修复期 此期骨质破坏与修复并存"
         ],
         "confidence": 0.95
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_brucella_spondylitis",
+        "from": "sub_disease_bs_early",
         "to": "symptom_fever",
-        "relation_id": "rel_brucella_spondylitis_manifests_as_fever",
+        "relation_id": "rel_early_manifests_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
+        "weight": 5,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
+          "早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "symptom_night_sweat",
-        "relation_id": "rel_brucella_spondylitis_manifests_as_night_sweat",
+        "from": "sub_disease_bs_early",
+        "to": "symptom_night_sweats",
+        "relation_id": "rel_early_manifests_night_sweats",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
+        "weight": 5,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
+          "早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "symptom_fatigue",
-        "relation_id": "rel_brucella_spondylitis_manifests_as_fatigue",
+        "from": "sub_disease_bs_progressive",
+        "to": "symptom_persistent_lumbodorsal_pain",
+        "relation_id": "rel_progressive_manifests_pain",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "symptom_anemia",
-        "relation_id": "rel_brucella_spondylitis_manifests_as_anemia",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "symptom_weight_loss",
-        "relation_id": "rel_brucella_spondylitis_manifests_as_weight_loss",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "symptom_anorexia",
-        "relation_id": "rel_brucella_spondylitis_manifests_as_anorexia",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "symptom_chronic_fatigue_syndrome",
-        "relation_id": "rel_brucella_spondylitis_manifests_as_chronic_fatigue_syndrome",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "３．２ 临床表现 早期多无临床症状，或出现发热、盗汗、乏力、贫血、消瘦、食欲减退、慢性疲劳综合征等全身症状；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "symptom_low_back_pain",
-        "relation_id": "rel_brucella_spondylitis_manifests_as_low_back_pain",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
         "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
-        "duration_condition": "持续性",
+        "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "随疾病进展，可逐渐出现疼痛，以持续性腰背部疼痛较常见。"
+          "随疾病进展，可逐渐出现疼痛，以持续性腰背部疼痛较常见"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确‘随疾病进展，可逐渐出现疼痛，以持续性腰背部疼痛较常见’，属典型但非特异性表现",
-        "evidence": "随疾病进展，可逐渐出现疼痛，以持续性腰背部疼痛较常见。"
+        "weight_reason": "原文指出随疾病进展以持续性腰背部疼痛较常见，未提及金标准或强相关",
+        "evidence": "随疾病进展，可逐渐出现疼痛，以持续性腰背部疼痛较常见"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "test_serum_agglutination_test",
-        "relation_id": "rel_brucella_spondylitis_requires_sat",
+        "from": "sub_disease_bs_early",
+        "to": "test_mri",
+        "relation_id": "rel_early_requires_mri",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "滴度＞１∶１６０",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "３．４ 实验室检查 血清凝集试验 （ｓｅｒｕｍ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＳＡＴ）滴度＞１∶１６０、虎红平板凝集试验 （ｒｏｓｅ－ｂｅｎｇａｌ ｐｌａｔｅ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＲＢＰＴ）及补体结合试验 （ｃｏｍｐｌｅｍｅｎｔ ｆｉｘａｔｉｏｎ ｔｅｓｔ，ＣＦＴ）阳性有助于确诊［７］。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确‘血清凝集试验（SAT）滴度＞１∶１６０……有助于确诊’，属确诊必要实验室依据之一",
-        "evidence": "血清凝集试验（serumagglutinationtest，SAT）滴度＞１∶１６０、虎红平板凝集试验……阳性有助于确诊［７］。"
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "test_rose_bengal_plate_agglutination_test",
-        "relation_id": "rel_brucella_spondylitis_requires_rbpt",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "３．４ 实验室检查 血清凝集试验 （ｓｅｒｕｍ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＳＡＴ）滴度＞１∶１６０、虎红平板凝集试验 （ｒｏｓｅ－ｂｅｎｇａｌ ｐｌａｔｅ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＲＢＰＴ）及补体结合试验 （ｃｏｍｐｌｅｍｅｎｔ ｆｉｘａｔｉｏｎ ｔｅｓｔ，ＣＦＴ）阳性有助于确诊［７］。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文将RBPT与SAT、CFT并列列为‘有助于确诊’的实验室检查，地位等同",
-        "evidence": "血清凝集试验（serumagglutinationtest，SAT）滴度＞１∶１６０、虎红平板凝集试验（rose-bengalplateagglutinationtest，RBPT）及补体结合试验……阳性有助于确诊［７］。"
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "test_complement_fixation_test",
-        "relation_id": "rel_brucella_spondylitis_requires_cft",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "３．４ 实验室检查 血清凝集试验 （ｓｅｒｕｍ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＳＡＴ）滴度＞１∶１６０、虎红平板凝集试验 （ｒｏｓｅ－ｂｅｎｇａｌ ｐｌａｔｅ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＲＢＰＴ）及补体结合试验 （ｃｏｍｐｌｅｍｅｎｔ ｆｉｘａｔｉｏｎ ｔｅｓｔ，ＣＦＴ）阳性有助于确诊［７］。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文将CFT与SAT、RBPT并列列为‘有助于确诊’的实验室检查，属确诊必要依据之一",
-        "evidence": "血清凝集试验（serumagglutinationtest，SAT）滴度＞１∶１６０、虎红平板凝集试验（rose-bengalplateagglutinationtest，RBPT）及补体结合试验（complementfixationtest，CFT）阳性有助于确诊［７］。"
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "test_polymerase_chain_reaction",
-        "relation_id": "rel_brucella_spondylitis_requires_pcr",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "③布鲁氏菌血清ＳＡＴ滴度＞１∶１６０，ＲＢＰＴ阳性，聚合酶链反应（ｐｏｌｙｍｅｒａｓｅ ｃｈａｉｎ ｒｅａｃｔｉｏｎ，ＰＣＲ）阳性；"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文诊断标准第③条明确列出‘聚合酶链反应（PCR）阳性’为确诊条件之一",
-        "evidence": "③布鲁氏菌血清SAT滴度＞１∶１６０，RBPＴ阳性，聚合酶链反应（polymerasechainreaction，PCR）阳性；"
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "test_bacterial_culture",
-        "relation_id": "rel_brucella_spondylitis_requires_bacterial_culture",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "④细菌培养（脓液、血液、骨髓）阳性；"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文诊断标准第④条明确‘细菌培养（脓液、血液、骨髓）阳性’为确诊条件之一",
-        "evidence": "④细菌培养（脓液、血液、骨髓）阳性；"
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "test_pathology",
-        "relation_id": "rel_brucella_spondylitis_requires_pathology",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "诊断ＢＳ",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "⑤病理学诊断ＢＳ。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文诊断标准第⑤条明确‘病理学诊断BS’为确诊条件之一",
-        "evidence": "⑤病理学诊断BS。"
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "test_dr",
-        "relation_id": "rel_brucella_spondylitis_requires_dr",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断辅助条件",
-        "diagnostic_role": "supportive",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
         "value_min": null,
         "value_max": null,
         "operator": null,
         "unit": null,
-        "result_text": "作为筛选ＢＳ的首选方法",
-        "weight": 5,
+        "result_text": "MRI具有明显优势",
+        "weight": 9,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "present",
-        "typicality": "common",
-        "section_priority": "影像学检查方法",
+        "typicality": "typical",
+        "section_priority": "影像学分期",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "４．１ ＤＲ（证据级别：Ⅲ；推荐强度：强） ＤＲ经济便捷、应用广泛，空间分辨率良好，既可作为筛选ＢＳ的首选方法，亦可用于术后随访，其诊断脊柱骨髓炎的特异度和准确率分别为５７％和７３％［８］，易漏诊和误诊早期ＢＳ。"
+          "此时ＤＲ和ＣＴ常难以检出，而 ＭＲＩ具有明显优势。"
         ],
-        "confidence": 0.95
+        "confidence": 0.95,
+        "weight_reason": "原文指出早期DR和CT难以检出，MRI具有明显优势，属于强相关",
+        "evidence": "此时DR和CT常难以检出，而MRI具有明显优势"
       },
       {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "test_mri",
-        "relation_id": "rel_brucella_spondylitis_requires_mri",
+        "from": "sub_disease_bs_early",
+        "to": "test_sat",
+        "relation_id": "rel_early_requires_sat",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断金标准",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 160,
+        "value_max": null,
+        "operator": ">",
+        "unit": "滴度",
+        "result_text": "SAT滴度＞1∶160",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": "lab_criteria",
+        "required_count": 1,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断依据",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "血清凝集试验 （ｓｅｒｕｍ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＳＡＴ）滴度＞１∶１６０"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出SAT滴度大于1比160有助于确诊，为诊断标准之一",
+        "evidence": "血清凝集试验（SAT）滴度＞1∶160"
+      },
+      {
+        "from": "sub_disease_bs_early",
+        "to": "test_rbpt",
+        "relation_id": "rel_early_requires_rbpt",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": "lab_criteria",
+        "required_count": 1,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断依据",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "虎红平板凝集试验 （ｒｏｓｅ－ｂｅｎｇａｌ ｐｌａｔｅ ａｇｇｌｕｔｉｎａｔｉｏｎ ｔｅｓｔ，ＲＢＰＴ）及补体结合试验 （ｃｏｍｐｌｅｍｅｎｔ ｆｉｘａｔｉｏｎ ｔｅｓｔ，ＣＦＴ）阳性有助于确诊"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出RBPT阳性有助于确诊，为诊断标准之一",
+        "evidence": "虎红平板凝集试验（RBPT）及补体结合试验（CFT）阳性有助于确诊"
+      },
+      {
+        "from": "sub_disease_bs_early",
+        "to": "test_pathology",
+        "relation_id": "rel_early_requires_pathology",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
         "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": null,
+        "operator": "equals",
         "unit": null,
-        "result_text": "诊断ＢＳ的最佳影像学方法",
+        "result_text": "病理学诊断BS",
         "weight": 10,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "present",
+        "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "影像学检查方法",
+        "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "４．２ ＭＲＩ（证据级别：Ⅳ；推荐强度：强） ＭＲＩ具有多方位、多参数、多序列扫描等优点，可清晰显示ＢＳ早期椎体骨质充血水肿、椎旁软组织水肿及受累椎体异常信号，较好地检出椎旁脓肿、肉芽肿、椎间盘破坏及骨膜改变等；增强 ＭＲＩ可作为常规序列的补充。ＭＲＩ既可作为诊断ＢＳ的最佳影像学方法，亦可作为治疗后随访的首选影像学手段，其诊断ＢＳ的敏感度、特异度和准确率分别为９６％、９２％和９４％［９］。"
+          "病理学诊断ＢＳ"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文称MRI为‘最佳影像学方法’而非金标准；金标准未被提及，且诊断需结合流行病史、实验室等综合判断",
-        "evidence": "MRI既可作为诊断BS的最佳影像学方法，亦可作为治疗后随访的首选影像学手段，其诊断BS的敏感度、特异度和准确率分别为９６％、９２％和９４％［９］。"
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "test_ct",
-        "relation_id": "rel_brucella_spondylitis_requires_ct",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断辅助条件",
-        "diagnostic_role": "supportive",
-        "value_min": null,
-        "value_max": null,
-        "operator": null,
-        "unit": null,
-        "result_text": "可作为ＢＳ常规检查方法",
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "present",
-        "typicality": "common",
-        "section_priority": "影像学检查方法",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "４．３ ＣＴ（证据级别：Ⅲ；推荐强度：强） 螺旋ＣＴ重建技术具有强大后处理功能，可较敏感地检出ＢＳ所致椎体及附件骨质破坏、椎间隙变窄、椎间盘破坏及椎旁脓肿等，且能显示病变内钙化及韧带钙化，可作为ＢＳ常规检查方法，其诊断ＢＳ的敏感度和特异度分别为６７％和９４％［１０］。"
-        ],
-        "confidence": 0.95
+        "weight_reason": "原文指出病理学诊断BS即可确诊，为确诊标准之一，但未明确提及金标准字眼",
+        "evidence": "病理学诊断BS"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "treatment_imaging_diagnosis_standardization",
-        "relation_id": "rel_brucella_spondylitis_follows_imaging_standardization",
+        "from": "sub_disease_bs_early",
+        "to": "treatment_imaging_monitoring",
+        "relation_id": "rel_early_follows_imaging",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "影像学诊断阶段",
+        "applicable_condition": "明确诊断后",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "强",
+        "recommendation_strength": "strong",
         "decision_basis": [
-          "影像学诊断目标"
+          "疾病分期"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
         "source_section": "摘要",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_imaging_monitoring",
+        "to": "plan_dr_mri_followup",
+        "relation_id": "rel_imaging_implements_followup",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "确诊后",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "确诊后定期以ＤＲ及 ＭＲ进行随访和评估。"
+        ],
         "confidence": 0.95
       }
     ],
-    "implements_by": [],
     "causes": [
       {
-        "from": "sub_disease_brucella_spondylitis",
+        "from": "sub_disease_bs_early",
         "to": "etiology_brucella_infection",
-        "relation_id": "rel_brucella_spondylitis_causes_brucella_infection",
-        "relation_name": "相关",
+        "relation_id": "rel_brucella_causes_bs",
+        "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "布鲁氏菌性脊柱炎（Ｂｒｕｃｅｌｌａ ｓｐｏｎｄｙｌｉｔｉｓ，ＢＳ）指 布鲁氏菌侵袭脊柱所致感染性脊柱炎"
+          "布鲁氏菌性脊柱炎（Ｂｒｕｃｅｌｌａ ｓｐｏｎｄｙｌｉｔｉｓ，ＢＳ）指布鲁氏菌侵袭脊柱所致感染性脊柱炎"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "etiology_contact_with_livestock",
-        "relation_id": "rel_brucella_spondylitis_causes_contact_with_livestock",
+        "from": "sub_disease_bs_early",
+        "to": "etiology_animal_contact",
+        "relation_id": "rel_animal_contact_causes_bs",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "moderate",
@@ -868,50 +611,20 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "３．１ 流行病学史 患者有明确的与牛、羊等家畜或其皮毛接触史，流行地区居住、工作及旅游史，或与生产、使用和研究布鲁氏菌疫苗等存在密切关联。"
+          "患者有明确的与牛、羊等家畜或其皮毛接触史"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "etiology_endemic_area_residence",
-        "relation_id": "rel_brucella_spondylitis_causes_endemic_area_residence",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "３．１ 流行病学史 患者有明确的与牛、羊等家畜或其皮毛接触史，流行地区居住、工作及旅游史，或与生产、使用和研究布鲁氏菌疫苗等存在密切关联。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "etiology_brucella_vaccine_exposure",
-        "relation_id": "rel_brucella_spondylitis_causes_brucella_vaccine_exposure",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "weak",
-        "typicality": "rare",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "３．１ 流行病学史 患者有明确的与牛、羊等家畜或其皮毛接触史，流行地区居住、工作及旅游史，或与生产、使用和研究布鲁氏菌疫苗等存在密切关联。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_brucella_spondylitis",
-        "to": "pathogenesis_brucella_spondylitis",
-        "relation_id": "rel_brucella_spondylitis_explained_by_pathogenesis",
+        "from": "sub_disease_bs_early",
+        "to": "pathogenesis_brucella_invasion",
+        "relation_id": "rel_bs_explained_by_invasion",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "２ 发病机制及病理变化 布鲁氏菌经皮肤黏膜或消化道侵入人体后先至附近淋巴结，突破淋巴防御功能后进入血液循环并不断释放内毒素，侵犯椎体终板，之后累及邻近骨质、椎间盘及周围组织，继而形成脊柱炎性病变；其主要病理特征为渗出、增生及肉芽肿的病理损害与免疫保护共存，即破坏、修复交替出现［６］。"
+          "布鲁氏菌经皮肤黏膜或消化道侵入人体后先至附近淋巴结，突破淋巴防御功能后进入血液循环并不断释放内毒素，侵犯椎体终板，之后累及邻近骨质、椎间盘及周围组织，继而形成脊柱炎性病变；其主要病理特征为渗出、增生及肉芽肿的病理损害与免疫保护共存，即破坏、修复交替出现"
         ],
         "confidence": 0.95
       }

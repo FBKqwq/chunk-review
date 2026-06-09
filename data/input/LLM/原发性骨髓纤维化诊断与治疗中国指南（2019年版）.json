@@ -11,7 +11,7 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_pm_fibrosis",
+        "id": "disease_pmf",
         "name": "原发性骨髓纤维化",
         "normalized_name": "原发性骨髓纤维化",
         "aliases": [
@@ -29,120 +29,46 @@
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_pm_fibrosis_prefibrotic",
+        "id": "sub_disease_pmf_prefibrotic",
         "name": "纤维化前/早期原发性骨髓纤维化",
-        "parent_disease_id": "disease_pm_fibrosis",
+        "parent_disease_id": "disease_pmf",
         "disease_subtype": "纤维化前/早期",
-        "clinical_stage": "不限定",
+        "clinical_stage": "早期",
         "severity": null,
         "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "纤维化前/早期PMF (表2)和明显纤维化期 PMF(表3)。",
-          "表2 纤维化前/早期原发性骨髓纤维化诊断标准"
+          "采用WHO (2016)诊断标准，包括纤维化前(prefibrotic)/早(early)期PMF (表2)和明显纤维化(overt fibrotic)期 PMF(表3)。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_pm_fibrosis_overt_fibrotic",
+        "id": "sub_disease_pmf_overt",
         "name": "明显纤维化期原发性骨髓纤维化",
-        "parent_disease_id": "disease_pm_fibrosis",
+        "parent_disease_id": "disease_pmf",
         "disease_subtype": "明显纤维化期",
-        "clinical_stage": "不限定",
+        "clinical_stage": "中晚期",
         "severity": null,
         "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "纤维化前/早期PMF (表2)和明显纤维化期 PMF(表3)。",
-          "表3 明显纤维化期原发性骨髓纤维化诊断标准"
+          "采用WHO (2016)诊断标准，包括纤维化前(prefibrotic)/早(early)期PMF (表2)和明显纤维化(overt fibrotic)期 PMF(表3)。"
         ],
         "confidence": 0.9
       }
     ],
     "symptoms": [
       {
-        "id": "symptom_thromboembolism_history",
-        "name": "血栓栓塞病史",
-        "body_site": null,
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "必须仔细询问患者年龄、有无血栓栓塞病史"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_hypertension",
-        "name": "高血压",
-        "body_site": null,
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "有无心血管高危因素（如高血压、高血脂、糖尿病、吸烟和充血性心力衰竭）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_hyperlipidemia",
-        "name": "高血脂",
-        "body_site": null,
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "有无心血管高危因素（如高血压、高血脂、糖尿病、吸烟和充血性心力衰竭）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_diabetes_mellitus",
-        "name": "糖尿病",
-        "body_site": null,
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "有无心血管高危因素（如高血压、高血脂、糖尿病、吸烟和充血性心力衰竭）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_smoking",
-        "name": "吸烟",
-        "body_site": null,
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "有无心血管高危因素（如高血压、高血脂、糖尿病、吸烟和充血性心力衰竭）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_congestive_heart_failure",
-        "name": "充血性心力衰竭",
-        "body_site": null,
-        "symptom_category": "循环系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "有无心血管高危因素（如高血压、高血脂、糖尿病、吸烟和充血性心力衰竭）"
-        ],
-        "confidence": 0.9
-      },
-      {
         "id": "symptom_fatigue",
         "name": "疲劳",
-        "body_site": null,
+        "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
           "有无疲劳、早饱感、腹部不适、皮肤瘙痒和骨痛"
         ],
@@ -151,182 +77,65 @@
       {
         "id": "symptom_early_satiety",
         "name": "早饱感",
-        "body_site": null,
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "有无疲劳、早饱感、腹部不适、皮肤瘙痒和骨痛"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_abdominal_discomfort",
-        "name": "腹部不适",
         "body_site": "腹部",
         "symptom_category": "消化系统症状",
         "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "有无疲劳、早饱感、腹部不适、皮肤瘙痒和骨痛"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_pruritus",
-        "name": "皮肤瘙痒",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "有无疲劳、早饱感、腹部不适、皮肤瘙痒和骨痛"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_bone_pain",
-        "name": "骨痛",
-        "body_site": "骨骼",
-        "symptom_category": "骨骼肌肉症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "有无疲劳、早饱感、腹部不适、皮肤瘙痒和骨痛"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_decreased_activity",
-        "name": "活动力下降",
-        "body_site": null,
-        "symptom_category": "全身症状",
-        "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "以及活动力、注意力、此前1年内体重下降情况"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_impaired_attention",
-        "name": "注意力下降",
-        "body_site": null,
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "以及活动力、注意力、此前1年内体重下降情况"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_weight_loss",
-        "name": "体重下降",
-        "body_site": null,
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "以及活动力、注意力、此前1年内体重下降情况"
+          "有无疲劳、早饱感、腹部不适、皮肤瘙痒和骨痛"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_fever",
         "name": "发热",
-        "body_site": null,
+        "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "有无不能解释的发热或重度盗汗"
+          "有无不能解释的发热或重度盗汗及持续时间"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_night_sweats",
-        "name": "盗汗",
-        "body_site": null,
+        "name": "重度盗汗",
+        "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "有无不能解释的发热或重度盗汗"
+          "有无不能解释的发热或重度盗汗及持续时间"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_weight_loss",
+        "name": "体重下降",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "此前1年内体重下降情况"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_splenomegaly",
         "name": "脾脏肿大",
-        "body_site": "脾脏",
-        "symptom_category": "血液系统体征",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
           "可触及的脾脏肿大"
         ],
         "confidence": 0.9
-      },
-      {
-        "id": "symptom_hepatomegaly",
-        "name": "肝脏肿大",
-        "body_site": "肝脏",
-        "symptom_category": "血液系统体征",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "肝脏、脾脏超声或CT检查"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_leukoerythroblastic_blood_picture",
-        "name": "幼粒幼红血象",
-        "body_site": "外周血",
-        "symptom_category": "血液系统体征",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "幼粒幼红血象"
-        ],
-        "confidence": 0.9
       }
     ],
     "tests": [
-      {
-        "id": "test_peripheral_blood_count",
-        "name": "外周血细胞计数",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "①外周血细胞计数;"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_bone_marrow_aspiration",
-        "name": "骨髓穿刺涂片",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "②骨髓穿刺涂片和外周血涂片分类汁数;"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_peripheral_blood_smear",
-        "name": "外周血涂片分类计数",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "②骨髓穿刺涂片和外周血涂片分类汁数;"
-        ],
-        "confidence": 0.9
-      },
       {
         "id": "test_bone_marrow_biopsy",
         "name": "骨髓活检活组织切片病理细胞学分析",
@@ -334,656 +143,416 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "③骨髓活检活组织切片病理细胞学分析"
+          "PMF的诊断有赖于骨髓活检"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "test_karyotype_analysis",
-        "name": "染色体核型分析",
+        "id": "test_jak2_mpl_calr",
+        "name": "JAK2、MPL和CALR基因突变",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "④染色体核型分析(±F1SH)(如果骨髓“干柚”，可用外周血标本）;"
+          "JAK2、MPL和CALR基因突变和BCR-ABL1融合基因检测"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "test_jak2_mutation",
-        "name": "JAK2基因突变检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "⑤JAK2、MPL和CALR基因突变和BCR-ABL1融合基因检测（如果骨髓“干抽”，可用外周血标本）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_mpl_mutation",
-        "name": "MPL基因突变检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "⑤JAK2、MPL和CALR基因突变和BCR-ABL1融合基因检测（如果骨髓“干抽”，可用外周血标本）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_calr_mutation",
-        "name": "CALR基因突变检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "⑤JAK2、MPL和CALR基因突变和BCR-ABL1融合基因检测（如果骨髓“干抽”，可用外周血标本）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_bcr_abl1_fusion",
-        "name": "BCR-ABL1融合基因检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "⑤JAK2、MPL和CALR基因突变和BCR-ABL1融合基因检测（如果骨髓“干抽”，可用外周血标本）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_serum_epo",
-        "name": "血清红细胞生成素(EPO)水平",
-        "normal_range_min": null,
-        "normal_range_max": null,
+        "id": "test_hgb",
+        "name": "血红蛋白(HGB)",
+        "normal_range_min": 110,
+        "normal_range_max": 160,
         "is_digital": 1,
         "evidence_ids": [
-          "⑥血清红细胞生成素(EPO)水平、尿酸、乳酸脱氢酶、肝功能、血清铁、铁蛋白等生化检查；"
+          "HGB< 100 g/L"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_uric_acid",
-        "name": "尿酸",
-        "normal_range_min": null,
-        "normal_range_max": null,
+        "id": "test_wbc",
+        "name": "白细胞计数(WBC)",
+        "normal_range_min": 4,
+        "normal_range_max": 10,
         "is_digital": 1,
         "evidence_ids": [
-          "⑥血清红细胞生成素(EPO)水平、尿酸、乳酸脱氢酶、肝功能、血清铁、铁蛋白等生化检查；"
+          "WBC>25xl0^9/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_plt",
+        "name": "血小板计数(PLT)",
+        "normal_range_min": 100,
+        "normal_range_max": 300,
+        "is_digital": 1,
+        "evidence_ids": [
+          "PLT<100xl0^9/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pb_blasts",
+        "name": "外周血原始细胞比例",
+        "normal_range_min": 0,
+        "normal_range_max": 0,
+        "is_digital": 1,
+        "evidence_ids": [
+          "外周血原始细胞比例> 1 %"
         ],
         "confidence": 0.9
       },
       {
         "id": "test_ldh",
-        "name": "乳酸脱氢酶",
+        "name": "血清乳酸脱氢酶",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "⑥血清红细胞生成素(EPO)水平、尿酸、乳酸脱氢酶、肝功能、血清铁、铁蛋白等生化检查；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_liver_function",
-        "name": "肝功能",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "⑥血清红细胞生成素(EPO)水平、尿酸、乳酸脱氢酶、肝功能、血清铁、铁蛋白等生化检查；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_serum_iron",
-        "name": "血清铁",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "⑥血清红细胞生成素(EPO)水平、尿酸、乳酸脱氢酶、肝功能、血清铁、铁蛋白等生化检查；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_ferritin",
-        "name": "铁蛋白",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "⑥血清红细胞生成素(EPO)水平、尿酸、乳酸脱氢酶、肝功能、血清铁、铁蛋白等生化检查；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_ultrasound_spleen",
-        "name": "肝脏、脾脏超声",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "⑦肝脏、脾脏超声或CT检查，有条件单位推荐MRK检测测定患者脾脏容积;"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_ct_spleen",
-        "name": "肝脏、脾脏CT",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "⑦肝脏、脾脏超声或CT检查，有条件单位推荐MRK检测测定患者脾脏容积;"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_mri_spleen_volume",
-        "name": "MRI测定脾脏容积",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "⑦肝脏、脾脏超声或CT检查，有条件单位推荐MRK检测测定患者脾脏容积;"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_hla_typing",
-        "name": "HLA配型",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "⑧有 可能接受造血干细胞移植(HSCT)的患者进行HLA配型。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_mpn_saf_tss",
-        "name": "MPN-SAF-TSS症状总积分",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "采用骨髓增殖性肿瘤总症状评估量表(MPN-SAF-TSS，简称MPN-10) 2对患者进行症状负荷评估"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_fibrosis_grade_mf0",
-        "name": "骨髓纤维化MF-0级",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "MF-0 散在线性网状纤维,无交叉，相当于正常骨髓"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_fibrosis_grade_mf1",
-        "name": "骨髓纤维化MF-1级",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "MF-1 疏松的网状纤维,伴有很多交叉，特别是血管周围区"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_fibrosis_grade_mf2",
-        "name": "骨髓纤维化MF-2级",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "MF-2 弥漫且浓密的网状纤维增多，伴有广泛交叉,偶尔仅有局灶性胶原纤维和(或)局灶性骨硬化"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_fibrosis_grade_mf3",
-        "name": "骨髓纤维化MF-3级",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "MF-3 弥漫且浓密的网状纤维增多，伴有广泛交叉，有粗胶原纤维束，常伴有显著的骨硬化"
+          "血清乳酸脱氢酶水平增高"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_pm_fibrosis_anemia_management",
-        "content": "血红蛋白水平低于100 g/L 时应开始贫血治疗。",
-        "recommendation_strength": "strong",
-        "source_section": "四、治疗 (一)如何治疗贫血",
+        "id": "treatment_anemia",
+        "content": "血红蛋白水平低于100 g/L 时应开始贫血治疗。现今已证实，对PMF贫血有效的药物有糖皮质激素、雄激素、EPO和免疫调节剂",
+        "recommendation_strength": "推荐",
+        "source_section": "如何治疗贫血",
         "evidence_ids": [
-          "血红蛋白水平低于100 g/L 时应开始贫血治疗。"
+          "血红蛋白水平低于100 g/L 时应开始贫血治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_pm_fibrosis_splenomegaly_management",
-        "content": "芦可替尼可作为有脾肿大的IPSS/DIPSS/DIPSS-Plus中危-2和高危患者的一线治疗,对那些有严重症状性脾肿大(如左上腹疼或出于早饱而影响进食量）的中危-1患者亦可以作为一线治疗，其他患者首选药物是羟基脲。",
-        "recommendation_strength": "strong",
-        "source_section": "四、治疗 (二)如何治疗脾大",
+        "id": "treatment_splenomegaly",
+        "content": "芦可替尼可作为有脾肿大的IPSS/DIPSS/DIPSS-Plus中危-2和高危患者的一线治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "如何治疗脾大",
         "evidence_ids": [
-          "芦可替尼可作为有脾肿大的IPSS/DIPSS/DIPSS-Plus中危-2和高危患者的一线治疗,对那些有严重症状性脾肿大(如左上腹疼或出于早饱而影响进食量）的中危-1患者亦可以作为一线治疗，其他患者首选药物是羟基脲s"
+          "芦可替尼可作为有脾肿大的IPSS/DIPSS/DIPSS-Plus中危-2和高危患者的一线治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_pm_fibrosis_constitutional_symptoms",
-        "content": "芦可替尼可以作为一线治疗:5 针对脾脏肿大的治疗常可部分缓解体质性症状；芦可替尼可改善PMF的体质性症状。",
-        "recommendation_strength": "strong",
-        "source_section": "四、治疗 (三)如何治疗体质性症状",
+        "id": "treatment_cytoreduction",
+        "content": "如有降细胞治疗指征，首选羟基脲治疗，IFN-a亦是一个有效的降细胞药物",
+        "recommendation_strength": "推荐",
+        "source_section": "治疗",
         "evidence_ids": [
-          "芦可替尼可以作为一线治疗:5",
-          "针对脾脏肿大的治疗常可部分缓解体质性症状芦可替圮可苫改善PMF的体质性症状"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_pm_fibrosis_emh",
-        "content": "低剂量放疗是PMF相关非肝脾EMH的治疗选择。",
-        "recommendation_strength": "strong",
-        "source_section": "四、治疗 (四)如何治疗非肝脾内的造血",
-        "evidence_ids": [
-          "现时，低剂童放疗足 PMF 相关非肝睥 EMH 的治疗选择"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_pm_fibrosis_allo_hsc_transplant",
-        "content": "allo-HSCT是目前唯一可能治愈PMF的治疗方法。",
-        "recommendation_strength": "strong",
-        "source_section": "四、治疗 (五)异基因造血干细胞移植",
-        "evidence_ids": [
-          "allo HSCT - 是0 前唯一可能治愈 PMF 的治疗方法"
+          "如有降细胞治疗指征，首选羟基脲治疗，IFN-a亦是一个有效的降细胞药物"
         ],
         "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_ruxolitinib_for_splenomegaly",
-        "content": "芦可替尼的起始剂量主要依据患者的血小板计数水平：治疗前PLT > 200x 10^9/L患者的推荐起始剂量为20 mg每日 2次，PLT(100~200)x10^9/L患者的推荐起始剂量为15 mg每日2 次 ， PLT(50〜< 100)x10^9/L患者的推荐起始剂量为5 mg每日2次。",
+        "id": "plan_hydroxyurea",
+        "content": "首选羟基脲治疗",
         "plan_level": 1,
-        "applicable_condition": "有脾肿大且符合IPSS/DIPSS/DIPSS-Plus中危-2或高危，或中危-1伴严重症状性脾肿大",
-        "contraindication_note": "PLT<50x10^9/L 或中性粒细胞绝对计数< 0.5 x 10^9/L应停药",
+        "applicable_condition": "有降细胞治疗指征",
+        "contraindication_note": null,
         "evidence_ids": [
-          "芦可替尼的起始剂量主要依据患#的血小板计数水平：治疗前PLT > 200x 107L患者的推荐起始剂量为20 mg每日 2次，PLT(100~200)xl〇7L 吋患者的推荐起始剂量为15 mg每日2 次 ， PLT(50〜< 100)xl07L患者的推荐起始剂量为5 mg每"
+          "如有降细胞治疗指征，首选羟基脲治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_hydroxyurea_for_splenomegaly",
-        "content": "羟基脲:缩睥的有效率约为40%。羟基脲治疗无效的患者可川其他骨髓抑制剂替换，如静脉克拉屈滨(5 mg-m--'-d- d，每次输注2 h,每月1个疗程，重复4〜6个月）、口服美法仑(2.5 mg每周3次）或口服白消安(2 ~ 6 mg/d，密切监测血常规）。",
+        "id": "plan_ruxolitinib",
+        "content": "芦可替尼的起始剂量主要依据患者的血小板计数水平：治疗前PLT > 200x 10^9/L患者的推荐起始剂量为20 mg每日 2次",
+        "plan_level": 1,
+        "applicable_condition": "有脾肿大的中危-2和高危患者",
+        "contraindication_note": "PLT<50x10^9/L 或中性粒细胞绝对计数< 0.5 x 10^9/L应停药",
+        "evidence_ids": [
+          "芦可替尼的起始剂量主要依据患者的血小板计数水平"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_androgen_corticosteroid",
+        "content": "伴贫血和（或）血小板减少的患者初治时可联合雄激素（司坦唑醇6 mg/d或达那唑200 mg每 8 h 1次）和糖皮质激素（泼尼松30 mg/d),至少3个月",
         "plan_level": 2,
-        "applicable_condition": "脾肿大但不符合芦可替尼使用条件者",
-        "contraindication_note": "需密切监测血常规",
+        "applicable_condition": "伴贫血和（或）血小板减少的患者",
+        "contraindication_note": "有前列腺疾患或有肝病患者不宜选用雄激素治疗",
         "evidence_ids": [
-          "羟基脲:缩睥的有效率约为40%。羟基脲治疗无效的患者||丨川其他骨髓抑制剂替换，如静脉克 拉屈滨(5 mg-m--'-d- d，每次输注2 h,每月1个疗 程，重复4〜6个月）、口服美法仑(2.5 mg每周3次） 或口服白消安(2 ~ 6 mg/d，密切监测血常规）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_splenic_irradiation",
-        "content": "脾IX照射:放射治疗可缓解肝、脾肿大所致的饱胀症状，似症状缓解时间较短（中位时间 3 ~ 6个月） 脾K 照射的总剂量为0.1 ~ 0.5 Gy(分为5 ~ 10次照射）",
-        "plan_level": 3,
-        "applicable_condition": "药物治疗无效的脾肿大患者",
-        "contraindication_note": "主要不良反应是血细胞减少，由此导致的死亡率可达10%以上。",
-        "evidence_ids": [
-          "脾IX照射:放射治疗可缓解肝、脾肿大所致的饱胀症状，似症状缓解时间较短（中位时丨'||] 3 ~ 6个月） 脾K 照射的总剂量为0.1 ~ 0.5 Gy(分为5 ~ 10次照射）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_splenectomy",
-        "content": "脾切除术的指征包括：有症状的门脉高压（如静脉曲张出血、腹水），药物难治的显著脾肿大伴有疼痛或合并严重恶病质，以及依赖输血的贫血相反，严重的血小板减少是即将发生白血病转化的标志，切肿对此类患者的预后不会心良好的影响。",
-        "plan_level": 4,
-        "applicable_condition": "药物及放疗无效、有严重并发症的脾肿大患者",
-        "contraindication_note": "围手术期死亡率为5% ~ 10%，术后并发症发生率约为50%",
-        "evidence_ids": [
-          "脾切除术的指征包括：有症状的门脉高压（如静脉曲张出血、腹水），药物难治的显著脾肿大伴有疼痛或合并严. 恶病质，以及依赖输血的贫血相 反，严 !:的血小板减少是即将发生丨' 血病转化的标 志，切肿对此类患者的预后不会心良好的影响。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_ruxolitinib_for_constitutional_symptoms",
-        "content": "芦可替尼可以作为一线治疗:5 针对脾脏肿大的治疗常可部分缓解体质性症状芦可替圮可苫改善PMF的体质性症状，那些MPN-10总积分> 44分或难治且严重(单项评分> 6分)的皮肤瘙痒或不是I丨彳其他原因导致的超预期的体重下降(过去6个月下降> 10% )或小能解释的发热的患者,芦可替尼可以作为一线治疗:5",
-        "plan_level": 1,
-        "applicable_condition": "MPN-10总积分> 44分或单项评分> 6分的体质性症状患者",
-        "contraindication_note": "PLT<50x10^9/L 或中性粒细胞绝对计数< 0.5 x 10^9/L应停药",
-        "evidence_ids": [
-          "芦可替尼可以作为一线治疗:5 针对脾脏肿大的治疗常可部分缓解体质性症状芦可替圮可苫改善PMF的体质性症状，那些MPN-10总积分> 44分或难治且严重(单项评分> 6分)的皮肤瘙痒或不是I丨彳其他原因导致的超预期的体重下降(过去6个月下降> 10% )或小能解释的发热的患者,芦可替尼可以作为一线治疗:5"
+          "伴贫血和（或）血小板减少的患者初治时可联合雄激素和糖皮质激素"
         ],
         "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_jak2_mutation",
-        "content": "JAK2基因突变",
-        "etiology_type": "肿瘤相关因素",
+        "id": "etiology_gene_mutations",
+        "content": "JAK2、CALR和MPL基因突变，或无这些突变但有其他克隆性标志",
+        "etiology_type": "基因突变",
         "typicality": "typical",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "③ 有JAK2、CALR或MPL基因突变，或无这些突变但有其他克隆性标志,或无继发性骨髓纤维化证据"
+          "有JAK2、CALR或MPL基因突变，或无这些突变但有其他克隆性标志,或无继发性骨髓纤维化证据"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_calr_mutation",
-        "content": "CALR基因突变",
-        "etiology_type": "肿瘤相关因素",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "③ 有JAK2、CALR或MPL基因突变，或无这些突变但有其他克隆性标志,或无继发性骨髓纤维化证据"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_mpl_mutation",
-        "content": "MPL基因突变",
-        "etiology_type": "肿瘤相关因素",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "③ 有JAK2、CALR或MPL基因突变，或无这些突变但有其他克隆性标志,或无继发性骨髓纤维化证据"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_cytokine_dysregulation",
-        "content": "当前推断细胞因子的异常产生与PMF相关体质性症状和恶病质有因果关系",
+        "id": "pathogenesis_cytokines",
+        "content": "细胞因子的异常产生与PMF相关体质性症状和恶病质有因果关系",
         "evidence_ids": [
           "当前推断细胞因子的异常产生与PMF相关体质性症状和恶病质有因果关系"
         ],
-        "confidence": 0.8
+        "confidence": 0.85
       }
     ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_pm_fibrosis",
-        "to": "sub_disease_pm_fibrosis_prefibrotic",
-        "relation_id": "rel_pm_fibrosis_has_prefibrotic",
+        "from": "disease_pmf",
+        "to": "sub_disease_pmf_prefibrotic",
+        "relation_id": "rel_pmf_has_prefibrotic",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "纤维化前/早期PMF (表2)和明显纤维化期 PMF(表3)。"
+          "包括纤维化前(prefibrotic)/早(early)期PMF (表2)和明显纤维化(overt fibrotic)期 PMF(表3)"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "disease_pm_fibrosis",
-        "to": "sub_disease_pm_fibrosis_overt_fibrotic",
-        "relation_id": "rel_pm_fibrosis_has_overt_fibrotic",
+        "from": "disease_pmf",
+        "to": "sub_disease_pmf_overt",
+        "relation_id": "rel_pmf_has_overt",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "纤维化前/早期PMF (表2)和明显纤维化期 PMF(表3)。"
+          "包括纤维化前(prefibrotic)/早(early)期PMF (表2)和明显纤维化(overt fibrotic)期 PMF(表3)"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_pm_fibrosis_prefibrotic",
-        "to": "symptom_thromboembolism_history",
-        "relation_id": "rel_prefibrotic_manifests_as_thromboembolism_history",
+        "from": "sub_disease_pmf_prefibrotic",
+        "to": "symptom_splenomegaly",
+        "relation_id": "rel_prefibrotic_manifests_splenomegaly",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
         "weight": 6,
+        "criterion_group_id": "minor_criteria",
+        "required_count": 1,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "可触及的脾脏肿大"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_pmf_overt",
+        "to": "symptom_weight_loss",
+        "relation_id": "rel_overt_manifests_weight_loss",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "预后评估指标",
+        "weight": 5,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断程序",
+        "duration_condition": "过去6个月下降> 10%",
+        "section_priority": "预后判断标准",
         "evidence_ids": [
-          "必须仔细询问患者年龄、有无血栓栓塞病史"
+          "在确诊PMF前 1年内体重下降 10 %"
         ],
         "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_pm_fibrosis_prefibrotic",
-        "to": "symptom_fatigue",
-        "relation_id": "rel_prefibrotic_manifests_as_fatigue",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断程序",
-        "evidence_ids": [
-          "有无疲劳、早饱感、腹部不适、皮肤瘙痒和骨痛"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_pm_fibrosis_prefibrotic",
-        "to": "symptom_early_satiety",
-        "relation_id": "rel_prefibrotic_manifests_as_early_satiety",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断程序",
-        "evidence_ids": [
-          "有无疲劳、早饱感、腹部不适、皮肤瘙痒和骨痛"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_pm_fibrosis_overt_fibrotic",
-        "to": "symptom_splenomegaly",
-        "relation_id": "rel_overt_fibrotic_manifests_as_splenomegaly",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "③ 可触及的脾脏肿大"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确列为‘明显纤维化期PMF’诊断的次要标准之一，属高频、特异性临床表现",
-        "evidence": "表3明显纤维化期原发性骨髓纤维化诊断标准...次要标准③可触及的脾脏肿大"
-      },
-      {
-        "from": "sub_disease_pm_fibrosis_overt_fibrotic",
-        "to": "symptom_leukoerythroblastic_blood_picture",
-        "relation_id": "rel_overt_fibrotic_manifests_as_leukoerythroblastic_blood_picture",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "④ 幼粒幼红血象"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确列为‘明显纤维化期PMF’诊断的次要标准之一，术语‘幼粒幼红血象’即leukoerythroblastic blood picture的规范中文表述",
-        "evidence": "表3明显纤维化期原发性骨髓纤维化诊断标准...次要标准④幼粒幼红血象"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_pm_fibrosis_prefibrotic",
-        "to": "test_jak2_mutation",
-        "relation_id": "rel_prefibrotic_requires_jak2_mutation",
+        "from": "sub_disease_pmf_prefibrotic",
+        "to": "test_bone_marrow_biopsy",
+        "relation_id": "rel_prefibrotic_requires_biopsy",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "阳性",
-        "weight": 100,
+        "result_text": "有巨核细胞增生和异形巨核细胞,无明显网状纤维增多(≤MF-1),骨髓增生程度年龄调整后呈增高",
+        "weight": 9,
         "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "③ 有JAK2、CALR或MPL基因突变，或无这些突变但有其他克隆性标志,或无继发性骨髓纤维化证据"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文在表2‘纤维化前/早期PMF诊断标准’主要标准③中将JAK2/CALR/MPL突变列为三项并列的‘克隆性标志’之一，且该条为确诊所必需（需符合3条主要标准），构成诊断金标准组成部分",
-        "evidence": "表2纤维化前/早期原发性骨髓纤维化诊断标准...主要标准③有JAK2、CALR或MPL基因突变，或无这些突变但有其他克隆性标志,或无继发性骨髓纤维化证据"
-      },
-      {
-        "from": "sub_disease_pm_fibrosis_overt_fibrotic",
-        "to": "test_fibrosis_grade_mf2",
-        "relation_id": "rel_overt_fibrotic_requires_mf2",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "MF-2或MF-3",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "major_criteria",
+        "required_count": 3,
         "polarity": "present",
         "typicality": "typical",
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "①巨核细胞增生和异形巨核细胞,常伴有网状纤维或胶原纤维(MF-2或MF-3)"
+          "有巨核细胞增生和异形巨核细胞,无明显网状纤维增多(≤MF-1),骨髓增生程度年龄调整后呈增高"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文在表3‘明显纤维化期PMF诊断标准’主要标准①中明确要求‘常伴有网状纤维或胶原纤维(MF-2或MF-3)’，MF-2为该期诊断的刚性结构学门槛，属确诊金标准核心指标",
-        "evidence": "表3明显纤维化期原发性骨髓纤维化诊断标准...主要标准①巨核细胞增生和异形巨核细胞,常伴有网状纤维或胶原纤维(MF-2或MF-3)"
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出PMF的诊断有赖于骨髓活检，为诊断核心依据，但未提及金标准字眼",
+        "evidence": "PMF的诊断有赖于骨髓活检"
+      },
+      {
+        "from": "sub_disease_pmf_prefibrotic",
+        "to": "test_jak2_mpl_calr",
+        "relation_id": "rel_prefibrotic_requires_mutations",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": "有JAK2、CALR或MPL基因突变，或无这些突变但有其他克隆性标志",
+        "weight": 8,
+        "gold_standard": true,
+        "criterion_group_id": "major_criteria",
+        "required_count": 3,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "有JAK2、CALR或MPL基因突变，或无这些突变但有其他克隆性标志,或无继发性骨髓纤维化证据"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "基因突变检测为纤维化前/早期PMF诊断的主要标准之一，但无突变时若有其他克隆性标志亦可",
+        "evidence": "有JAK2、CALR或MPL基因突变，或无这些突变但有其他克隆性标志"
+      },
+      {
+        "from": "sub_disease_pmf_overt",
+        "to": "test_hgb",
+        "relation_id": "rel_overt_requires_hgb",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": 100,
+        "operator": "<",
+        "unit": "g/L",
+        "result_text": "非合并疾病导致的贫血",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": "minor_criteria",
+        "required_count": 1,
+        "polarity": "decreased",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "非合并疾病导致的贫血"
+        ],
+        "confidence": 0.9
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_pm_fibrosis_prefibrotic",
-        "to": "treatment_pm_fibrosis_anemia_management",
-        "relation_id": "rel_prefibrotic_follows_anemia_management",
+        "from": "sub_disease_pmf_overt",
+        "to": "treatment_splenomegaly",
+        "relation_id": "rel_overt_follows_splenomegaly_treatment",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
+        "clinical_stage": "明显纤维化期",
+        "treatment_line": "一线",
+        "applicable_condition": "有脾肿大的IPSS/DIPSS/DIPSS-Plus中危-2和高危患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "预后分组",
+          "脾脏肿大"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "如何治疗脾大",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_pmf_prefibrotic",
+        "to": "treatment_anemia",
+        "relation_id": "rel_prefibrotic_follows_anemia_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "早期",
         "treatment_line": "一线",
         "applicable_condition": "血红蛋白水平低于100 g/L",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "贫血程度"
+          "血红蛋白水平"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "四、治疗 (一)如何治疗贫血",
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_pm_fibrosis_overt_fibrotic",
-        "to": "treatment_pm_fibrosis_splenomegaly_management",
-        "relation_id": "rel_overt_fibrotic_follows_splenomegaly_management",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "有脾肿大且符合IPSS/DIPSS/DIPSS-Plus中危-2或高危，或中危-1伴严重症状性脾肿大",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "脾脏大小",
-          "预后分组"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "四、治疗 (二)如何治疗脾大",
+        "source_section": "如何治疗贫血",
         "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_pm_fibrosis_splenomegaly_management",
-        "to": "plan_ruxolitinib_for_splenomegaly",
-        "relation_id": "rel_treatment_splenomegaly_implements_by_ruxolitinib",
+        "from": "treatment_splenomegaly",
+        "to": "plan_ruxolitinib",
+        "relation_id": "rel_splenomegaly_implements_ruxolitinib",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "有脾肿大且符合IPSS/DIPSS/DIPSS-Plus中危-2或高危，或中危-1伴严重症状性脾肿大",
+        "applicable_condition": "有脾肿大的中危-2和高危患者",
         "contraindication_note": "PLT<50x10^9/L 或中性粒细胞绝对计数< 0.5 x 10^9/L应停药",
         "evidence_ids": [
-          "芦可替尼的起始剂量主要依据患#的血小板计数水平：治疗前PLT > 200x 107L患者的推荐起始剂量为20 mg每日 2次，PLT(100~200)xl〇7L 吋患者的推荐起始剂量为15 mg每日2 次 ， PLT(50〜< 100)xl07L患者的推荐起始剂量为5 mg每"
+          "芦可替尼可作为有脾肿大的IPSS/DIPSS/DIPSS-Plus中危-2和高危患者的一线治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_anemia",
+        "to": "plan_androgen_corticosteroid",
+        "relation_id": "rel_anemia_implements_androgen",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "伴贫血和（或）血小板减少的患者初治",
+        "contraindication_note": "有前列腺疾患或有肝病患者不宜选用雄激素治疗",
+        "evidence_ids": [
+          "伴贫血和（或）血小板减少的患者初治时可联合雄激素和糖皮质激素"
         ],
         "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_pm_fibrosis_prefibrotic",
-        "to": "etiology_jak2_mutation",
-        "relation_id": "rel_prefibrotic_causes_jak2_mutation",
+        "from": "sub_disease_pmf_prefibrotic",
+        "to": "etiology_gene_mutations",
+        "relation_id": "rel_prefibrotic_caused_by_mutations",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "major_criteria",
+        "required_count": 3,
         "evidence_ids": [
-          "③ 有JAK2、CALR或MPL基因突变，或无这些突变但有其他克隆性标志,或无继发性骨髓纤维化证据"
+          "有JAK2、CALR或MPL基因突变，或无这些突变但有其他克隆性标志"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_pm_fibrosis_prefibrotic",
-        "to": "pathogenesis_cytokine_dysregulation",
-        "relation_id": "rel_prefibrotic_explained_by_cytokine_dysregulation",
+        "from": "sub_disease_pmf_overt",
+        "to": "pathogenesis_cytokines",
+        "relation_id": "rel_overt_explained_by_cytokines",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
           "当前推断细胞因子的异常产生与PMF相关体质性症状和恶病质有因果关系"
         ],
-        "confidence": 0.8
+        "confidence": 0.85
       }
     ]
   },

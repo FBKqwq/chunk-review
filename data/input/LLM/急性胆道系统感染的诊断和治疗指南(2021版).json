@@ -1,0 +1,1305 @@
+{
+  "meta": {
+    "doc_id": "急性胆道系统感染的诊断和治疗指南(2021版)",
+    "source_title": "急性胆道系统感染的诊断和治疗指南(2021版)",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_acute_biliary_tract_infection",
+        "name": "急性胆道系统感染",
+        "normalized_name": "急性胆道系统感染",
+        "aliases": [
+          "急性胆道感染"
+        ],
+        "source_document_ids": [
+          "急性胆道系统感染的诊断和治疗指南(2021版)"
+        ],
+        "evidence_ids": [
+          "急性胆道系统感染主要包括急性胆囊炎和急性胆管炎。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_acute_cholecystitis",
+        "name": "急性胆囊炎",
+        "parent_disease_id": "disease_acute_biliary_tract_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "急性胆道系统感染主要包括急性胆囊炎和急性胆管炎。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_acute_cholecystitis_mild",
+        "name": "轻度急性胆囊炎",
+        "parent_disease_id": "disease_acute_biliary_tract_infection",
+        "disease_subtype": "急性胆囊炎",
+        "clinical_stage": "不限定",
+        "severity": "轻度",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "Grade I（轻度）急性胆囊炎不伴随Grade II和Grade III局部或全身炎症表现"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_acute_cholecystitis_moderate",
+        "name": "中度急性胆囊炎",
+        "parent_disease_id": "disease_acute_biliary_tract_infection",
+        "disease_subtype": "急性胆囊炎",
+        "clinical_stage": "不限定",
+        "severity": "中度",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "Grade II（中度）急性胆囊炎合并以下中的2项可诊断"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_acute_cholecystitis_severe",
+        "name": "重度急性胆囊炎",
+        "parent_disease_id": "disease_acute_biliary_tract_infection",
+        "disease_subtype": "急性胆囊炎",
+        "clinical_stage": "不限定",
+        "severity": "重度",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "Grade III（重度）急性胆囊炎合并以下≥1个器官功能不全"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_acute_cholangitis",
+        "name": "急性胆管炎",
+        "parent_disease_id": "disease_acute_biliary_tract_infection",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "急性胆管炎指肝内外胆管的急性炎症。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_acute_cholangitis_mild",
+        "name": "轻度急性胆管炎",
+        "parent_disease_id": "disease_acute_biliary_tract_infection",
+        "disease_subtype": "急性胆管炎",
+        "clinical_stage": "不限定",
+        "severity": "轻度",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "Grade I（轻度）急性胆管炎不符合Grade II和Grade III诊断标准"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_acute_cholangitis_moderate",
+        "name": "中度急性胆管炎",
+        "parent_disease_id": "disease_acute_biliary_tract_infection",
+        "disease_subtype": "急性胆管炎",
+        "clinical_stage": "不限定",
+        "severity": "中度",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "Grade II（中度）急性胆管炎合并以下2项可诊断"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_acute_cholangitis_severe",
+        "name": "重度急性胆管炎",
+        "parent_disease_id": "disease_acute_biliary_tract_infection",
+        "disease_subtype": "急性胆管炎",
+        "clinical_stage": "不限定",
+        "severity": "重度",
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "Grade III（重度）急性胆管炎合并以下≥1个器官功能不全"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_murphy_sign",
+        "name": "Murphy征",
+        "body_site": "右上腹",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "A. 局部炎症表现（1）Murphy征；（2）右上腹包块、疼痛和(或)压痛"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_ruq_pain_mass",
+        "name": "右上腹包块、疼痛和(或)压痛",
+        "body_site": "右上腹",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "A. 局部炎症表现（1）Murphy征；（2）右上腹包块、疼痛和(或)压痛"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "B. 全身炎症表现（1）发热"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_chills",
+        "name": "寒战",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "1. 发热(体温>38 ℃)和(或)寒战"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_jaundice",
+        "name": "黄疸",
+        "body_site": "全身",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "1. 黄疸(总胆红素>34.2 μmol/L)"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_consciousness_disorder",
+        "name": "意识障碍",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "2. 神经系统功能障碍:意识障碍"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_oliguria",
+        "name": "少尿",
+        "body_site": "泌尿系统",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "4. 肾功能障碍:少尿，血肌酐>176.8 μmol/L"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_crp",
+        "name": "C反应蛋白",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "B. 全身炎症表现（2）C反应蛋白升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_wbc",
+        "name": "白细胞计数",
+        "normal_range_min": 4,
+        "normal_range_max": 10,
+        "is_digital": 1,
+        "evidence_ids": [
+          "B. 全身炎症表现（3）白细胞计数升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ultrasound",
+        "name": "超声检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "1.超声检查：为急性胆囊炎的首选检查方法"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_ct",
+        "name": "CT检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "2. CT检查：腹部CT扫描可清晰显示胆囊周围液体聚集、胆囊增大、胆囊壁增厚等征象"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_mri_mrcp",
+        "name": "MRI和MRCP",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "3. MRI和磁共振胰胆管成像（magnetic resonance cholangiopancreatography,MRCP)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_tbil",
+        "name": "总胆红素",
+        "normal_range_min": null,
+        "normal_range_max": 34.2,
+        "is_digital": 1,
+        "evidence_ids": [
+          "1. 黄疸(总胆红素>34.2 μmol/L)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_alp",
+        "name": "碱性磷酸酶",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "2. 实验室检查:碱性磷酸酶(U/L)>1.5×正常值上限"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ggt",
+        "name": "γ-谷氨酰转肽酶",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "γ-谷氨酰转肽酶（U/L）>1.5×正常值上限"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_creatinine",
+        "name": "血肌酐",
+        "normal_range_min": null,
+        "normal_range_max": 176.8,
+        "is_digital": 1,
+        "evidence_ids": [
+          "4. 肾功能障碍:少尿，血肌酐>176.8 μmol/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pt_inr",
+        "name": "PT-INR",
+        "normal_range_min": null,
+        "normal_range_max": 1.5,
+        "is_digital": 1,
+        "evidence_ids": [
+          "5. 肝功能不全:PT-INR>1.5"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_platelet",
+        "name": "血小板计数",
+        "normal_range_min": 100,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "6. 凝血功能障碍:血小板计数<100×10^9/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_oxygenation_index",
+        "name": "氧合指数",
+        "normal_range_min": 300,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "3. 呼吸功能障碍:氧合指数<300 mmHg"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_bile_culture",
+        "name": "胆汁培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "建议在任何有创性诊疗操作开始时抽取胆汁送细菌培养"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_blood_culture",
+        "name": "血培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "对于怀疑急性胆管炎的患者，建议行血液培养"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_basic_support",
+        "content": "禁食，并充分补液，维持水、电解质、酸碱平衡。早期应用抗菌药物和镇痛药物，持续监测生命体征和血流动力学指标",
+        "recommendation_strength": "强烈推荐",
+        "source_section": "急性胆囊炎的治疗",
+        "evidence_ids": [
+          "急性胆囊炎一旦诊断明确，在评估是否需手术切除或紧急引流的同时，应禁食，并充分补液，维持水、电解质、酸碱平衡。早期应用抗菌药物和镇痛药物，持续监测生命体征和血流动力学指标"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_cholecystectomy",
+        "content": "胆囊切除术",
+        "recommendation_strength": "推荐",
+        "source_section": "急性胆囊炎的治疗",
+        "evidence_ids": [
+          "对于符合手术指征、手术风险评估合适的急性胆囊炎患者，推荐在急性胆囊炎起病的72 h内行胆囊切除术"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_cholecystostomy",
+        "content": "胆囊引流术",
+        "recommendation_strength": "强烈推荐",
+        "source_section": "急性胆囊炎的治疗",
+        "evidence_ids": [
+          "抗菌药物和全身支持治疗无效时，需及时行胆囊引流（穿刺、造瘘），同时行胆汁培养。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_biliary_drainage",
+        "content": "胆管引流",
+        "recommendation_strength": "强烈推荐",
+        "source_section": "急性胆管炎的治疗",
+        "evidence_ids": [
+          "重度急性胆管炎患者多数病情严重，应强调尽早行胆管引流，同时行全身器官功能支持治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_antimicrobial",
+        "content": "抗菌药物治疗",
+        "recommendation_strength": "强烈推荐",
+        "source_section": "急性胆道感染的抗菌治疗",
+        "evidence_ids": [
+          "轻度和中度急性胆道感染应在诊断明确后6 h内使用抗菌药物。重度急性胆道感染，通常合并感染性休克的表现，需在诊断明确1 h内使用抗菌药物"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_lc",
+        "content": "腹腔镜胆囊切除术（LC）",
+        "plan_level": 1,
+        "applicable_condition": "手术风险为低风险或中度风险且具备条件",
+        "contraindication_note": "操作困难者需及时中转开腹",
+        "evidence_ids": [
+          "在有条件的单位，手术方式可优先选择腹腔镜胆囊切除术（laparoscopic cholecystectomy, LC）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_open_cholecystectomy",
+        "content": "开腹胆囊切除术",
+        "plan_level": 2,
+        "applicable_condition": "LC操作困难或中转开腹",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于操作困难者需及时中转开腹，并采取合适的术式"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_ptcd",
+        "content": "经皮经肝穿刺胆道引流术（PTCD）",
+        "plan_level": 2,
+        "applicable_condition": "无法行内镜下胆道引流或肝门部以上胆道梗阻",
+        "contraindication_note": "疼痛、出血、胆管炎、胆瘘等风险高于内镜下胆道引流术",
+        "evidence_ids": [
+          "PTCD可作为急性胆管炎无法行内镜下胆道引流时的替代方案，建议作为肝门部以上胆道梗阻进行胆道引流的首选方式。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_erbd",
+        "content": "内镜下胆道支架内引流术（ERBD）",
+        "plan_level": 1,
+        "applicable_condition": "多数由结石、肿瘤或炎性狭窄造成的肝外胆道梗阻",
+        "contraindication_note": "存在支架脱落和堵塞的风险",
+        "evidence_ids": [
+          "ERBD和ENBD对于多数由结石、肿瘤或炎性狭窄造成的肝外胆道梗阻均具有良好的引流作用，在条件允许的前提下，可作为这类急性胆管炎患者胆道引流的首选方式"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_enbd",
+        "content": "内镜下鼻胆管引流术（ENBD）",
+        "plan_level": 1,
+        "applicable_condition": "多数由结石、肿瘤或炎性狭窄造成的肝外胆道梗阻",
+        "contraindication_note": "患者的不适感强",
+        "evidence_ids": [
+          "ERBD和ENBD对于多数由结石、肿瘤或炎性狭窄造成的肝外胆道梗阻均具有良好的引流作用"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_abx_mild_moderate",
+        "content": "第二、三代头孢菌素联合硝基咪唑类或β-内酰胺酶抑制剂复合制剂",
+        "plan_level": 1,
+        "applicable_condition": "轻度和中度急性胆道感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "轻度和中度急性胆道感染可给予第二、三代头孢菌素，如头孢呋辛、头孢曲松等，同时联合硝基咪唑类药物;或直接选择头孢哌酮/舒巴坦、哌拉西林/他唑巴坦"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_abx_severe",
+        "content": "第三、四代头孢类联合硝基咪唑类或碳青霉烯类",
+        "plan_level": 1,
+        "applicable_condition": "重度急性胆道感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "重度急性胆道感染可给予第三、四代头孢类，如头孢他啶、头孢吡肟等，同时联合硝基咪唑类药物;或直接使用β-内酰胺酶抑制剂复合制剂或碳青霉烯类"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_cystic_duct_obstruction",
+        "content": "胆囊管梗阻",
+        "etiology_type": "解剖/物理因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "急性胆囊炎的病因包括胆囊管梗阻、胆汁淤积和细菌感染等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_bile_stasis",
+        "content": "胆汁淤积",
+        "etiology_type": "病理生理因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "急性胆囊炎的病因包括胆囊管梗阻、胆汁淤积和细菌感染等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_bacterial_infection",
+        "content": "细菌感染",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "引起胆囊炎的细菌主要包括革兰阴性杆菌和厌氧菌。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_biliary_stones",
+        "content": "胆道结石",
+        "etiology_type": "解剖/物理因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "常见病因包括胆道结石、胆管良性狭窄、胆道恶性肿瘤"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_biliary_stricture",
+        "content": "胆管良性狭窄",
+        "etiology_type": "解剖/物理因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "常见病因包括胆道结石、胆管良性狭窄、胆道恶性肿瘤"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_biliary_malignancy",
+        "content": "胆道恶性肿瘤",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "常见病因包括胆道结石、胆管良性狭窄、胆道恶性肿瘤"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_gallstone_impaction",
+        "content": "结石嵌顿导致胆汁排出受阻、淤积和浓缩，高浓度的胆盐可损伤胆囊黏膜。",
+        "evidence_ids": [
+          "多由结石嵌顿引起，导致胆汁排出受阻、淤积和浓缩，高浓度的胆盐可损伤胆囊黏膜。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_bacterial_invasion",
+        "content": "细菌通过胆道逆行进入胆囊、血液途径和淋巴途径引起感染。",
+        "evidence_ids": [
+          "感染途径为通过胆道逆行进入胆囊、血液途径和淋巴途径。"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_acute_biliary_tract_infection",
+        "to": "sub_disease_acute_cholecystitis",
+        "relation_id": "rel_abti_has_ac",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性胆道系统感染主要包括急性胆囊炎和急性胆管炎。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_acute_biliary_tract_infection",
+        "to": "sub_disease_acute_cholangitis",
+        "relation_id": "rel_abti_has_ach",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性胆道系统感染主要包括急性胆囊炎和急性胆管炎。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "sub_disease_acute_cholecystitis_mild",
+        "relation_id": "rel_ac_has_mild",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性胆囊炎的严重程度可分为轻度、中度、重度三级"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "sub_disease_acute_cholecystitis_moderate",
+        "relation_id": "rel_ac_has_moderate",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性胆囊炎的严重程度可分为轻度、中度、重度三级"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "sub_disease_acute_cholecystitis_severe",
+        "relation_id": "rel_ac_has_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "急性胆囊炎的严重程度可分为轻度、中度、重度三级"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_acute_cholangitis",
+        "to": "sub_disease_acute_cholangitis_mild",
+        "relation_id": "rel_ach_has_mild",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "本指南将急性胆管炎分为轻度、中度、重度三级"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_acute_cholangitis",
+        "to": "sub_disease_acute_cholangitis_moderate",
+        "relation_id": "rel_ach_has_moderate",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "本指南将急性胆管炎分为轻度、中度、重度三级"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_acute_cholangitis",
+        "to": "sub_disease_acute_cholangitis_severe",
+        "relation_id": "rel_ach_has_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "本指南将急性胆管炎分为轻度、中度、重度三级"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "symptom_murphy_sign",
+        "relation_id": "rel_ac_manifests_murphy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "AC_local_inflammation",
+        "required_count": 1,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "A. 局部炎症表现（1）Murphy征；（2）右上腹包块、疼痛和(或)压痛"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将其列为急性胆囊炎诊断标准的局部炎症表现",
+        "evidence": "A.局部炎症表现（l)Minphy征"
+      },
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "symptom_ruq_pain_mass",
+        "relation_id": "rel_ac_manifests_ruq",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "AC_local_inflammation",
+        "required_count": 1,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "A. 局部炎症表现（1）Murphy征；（2）右上腹包块、疼痛和(或)压痛"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将其列为急性胆囊炎诊断标准的局部炎症表现",
+        "evidence": "（2)右上腹包块、疼痛和(或)压痛"
+      },
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "symptom_fever",
+        "relation_id": "rel_ac_manifests_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "AC_systemic_inflammation",
+        "required_count": 1,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "B. 全身炎症表现（1）发热"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将其列为急性胆囊炎诊断标准的全身炎症表现",
+        "evidence": "B.全身炎症表现（1)发热"
+      },
+      {
+        "from": "sub_disease_acute_cholangitis",
+        "to": "symptom_fever",
+        "relation_id": "rel_ach_manifests_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "ACH_systemic_inflammation",
+        "required_count": 1,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "1. 发热(体温>38 ℃)和(或)寒战"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将其列为急性胆管炎诊断标准的全身炎症表现",
+        "evidence": "1.发热(体温>38T)和(或)寒战"
+      },
+      {
+        "from": "sub_disease_acute_cholangitis",
+        "to": "symptom_chills",
+        "relation_id": "rel_ach_manifests_chills",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "ACH_systemic_inflammation",
+        "required_count": 1,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "1. 发热(体温>38 ℃)和(或)寒战"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将其列为急性胆管炎诊断标准的全身炎症表现",
+        "evidence": "1.发热(体温>38T)和(或)寒战"
+      },
+      {
+        "from": "sub_disease_acute_cholangitis",
+        "to": "symptom_jaundice",
+        "relation_id": "rel_ach_manifests_jaundice",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": "ACH_bile_stasis",
+        "required_count": 1,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "1. 黄疸(总胆红素>34.2 μmol/L)"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将其列为急性胆管炎诊断标准的胆汁淤积表现",
+        "evidence": "1.黄疸(总胆红素>34.2ixmol/L)"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "test_ultrasound",
+        "relation_id": "rel_ac_requires_us",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "胆囊壁增厚（厚度>4 mm)，胆囊增大(宽>4 cm)；存在胆囊结石；胆囊周围积液",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "AC_imaging",
+        "required_count": 1,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "1.超声检查：为急性胆囊炎的首选检查方法...诊断依据包括：（1）胆囊壁增厚（厚度>4 mm)，胆囊增大(宽>4 cm); (2)存在胆囊结石...（3）胆囊周围积液"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出超声检查为急性胆囊炎的首选检查方法",
+        "evidence": "超声检查：为急性胆囊炎的首选检查方法"
+      },
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "test_wbc",
+        "relation_id": "rel_ac_requires_wbc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": 10,
+        "value_max": null,
+        "operator": ">",
+        "unit": "×10^9/L",
+        "result_text": null,
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": "AC_systemic_inflammation",
+        "required_count": 1,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "B. 全身炎症表现（3）白细胞计数升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_acute_cholangitis",
+        "to": "test_tbil",
+        "relation_id": "rel_ach_requires_tbil",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 34.2,
+        "value_max": null,
+        "operator": ">",
+        "unit": "μmol/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "ACH_bile_stasis",
+        "required_count": 1,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "1. 黄疸(总胆红素>34.2 μmol/L)"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将其列为急性胆管炎诊断标准中胆汁淤积的实验室检查指标",
+        "evidence": "1.黄疸(总胆红素>34.2ixmol/L)"
+      },
+      {
+        "from": "sub_disease_acute_cholangitis",
+        "to": "test_ct",
+        "relation_id": "rel_ach_requires_ct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "胆管扩张、发现病因（狭窄、结石、肿瘤等）",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "ACH_imaging",
+        "required_count": 1,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "推荐作为急性胆管炎的首选影像学检查。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确推荐腹部CT作为急性胆管炎的首选影像学检查",
+        "evidence": "推荐作为急性胆管炎的首选影像学检查"
+      },
+      {
+        "from": "sub_disease_acute_cholecystitis_severe",
+        "to": "test_creatinine",
+        "relation_id": "rel_ac_severe_requires_cr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 176.8,
+        "value_max": null,
+        "operator": ">",
+        "unit": "μmol/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "AC_severe_organ_dysfunction",
+        "required_count": 1,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "严重程度分级",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "4. 肾功能障碍:少尿，血肌酐>176.8 μmol/L"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将其列为重度急性胆囊炎合并肾功能障碍的诊断标准",
+        "evidence": "4.肾功能障碍:少尿，血肌酐>176.8(imol/L"
+      },
+      {
+        "from": "sub_disease_acute_cholecystitis_severe",
+        "to": "test_platelet",
+        "relation_id": "rel_ac_severe_requires_plt",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 100,
+        "operator": "<",
+        "unit": "×10^9/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "AC_severe_organ_dysfunction",
+        "required_count": 1,
+        "polarity": "decreased",
+        "typicality": "common",
+        "section_priority": "严重程度分级",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "6. 凝血功能障碍:血小板计数<100×10^9/L"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将其列为重度急性胆囊炎合并凝血功能障碍的诊断标准",
+        "evidence": "6.凝血功能障碍:血小板计数<100X109/L"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "treatment_basic_support",
+        "relation_id": "rel_ac_follows_basic",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "诊断明确后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强烈推荐",
+        "decision_basis": [
+          "疾病确诊"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "急性胆囊炎的治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_acute_cholecystitis_mild",
+        "to": "treatment_cholecystectomy",
+        "relation_id": "rel_ac_mild_follows_cholecystectomy",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "手术风险为低风险",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "疾病严重程度",
+          "手术风险"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "急性胆囊炎的治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_acute_cholangitis_severe",
+        "to": "treatment_biliary_drainage",
+        "relation_id": "rel_ach_severe_follows_drainage",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊重度急性胆管炎",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强烈推荐",
+        "decision_basis": [
+          "疾病严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "急性胆管炎的治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_acute_cholangitis",
+        "to": "treatment_antimicrobial",
+        "relation_id": "rel_ach_follows_antimicrobial",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊急性胆管炎",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强烈推荐",
+        "decision_basis": [
+          "疾病确诊"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "急性胆道感染的抗菌治疗",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_cholecystectomy",
+        "to": "plan_lc",
+        "relation_id": "rel_cholecystectomy_implements_lc",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "具备条件的医疗机构",
+        "contraindication_note": "操作困难者需及时中转开腹",
+        "evidence_ids": [
+          "在有条件的单位，手术方式可优先选择腹腔镜胆囊切除术（laparoscopic cholecystectomy, LC）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_cholecystectomy",
+        "to": "plan_open_cholecystectomy",
+        "relation_id": "rel_cholecystectomy_implements_open",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "LC操作困难或中转开腹",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于操作困难者需及时中转开腹，并采取合适的术式"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_biliary_drainage",
+        "to": "plan_erbd",
+        "relation_id": "rel_drainage_implements_erbd",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "多数由结石、肿瘤或炎性狭窄造成的肝外胆道梗阻",
+        "contraindication_note": "存在支架脱落和堵塞的风险",
+        "evidence_ids": [
+          "ERBD和ENBD对于多数由结石、肿瘤或炎性狭窄造成的肝外胆道梗阻均具有良好的引流作用，在条件允许的前提下，可作为这类急性胆管炎患者胆道引流的首选方式"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_biliary_drainage",
+        "to": "plan_ptcd",
+        "relation_id": "rel_drainage_implements_ptcd",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "无法行内镜下胆道引流或肝门部以上胆道梗阻",
+        "contraindication_note": "疼痛、出血、胆管炎、胆瘘等风险高于内镜下胆道引流术",
+        "evidence_ids": [
+          "PTCD可作为急性胆管炎无法行内镜下胆道引流时的替代方案，建议作为肝门部以上胆道梗阻进行胆道引流的首选方式。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_abx_mild_moderate",
+        "relation_id": "rel_antimicrobial_implements_mild_mod",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "轻度和中度急性胆道感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "轻度和中度急性胆道感染可给予第二、三代头孢菌素，如头孢呋辛、头孢曲松等，同时联合硝基咪唑类药物"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_abx_severe",
+        "relation_id": "rel_antimicrobial_implements_severe",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "重度急性胆道感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "重度急性胆道感染可给予第三、四代头孢类，如头孢他啶、头孢吡肟等，同时联合硝基咪唑类药物"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "etiology_cystic_duct_obstruction",
+        "relation_id": "rel_ac_caused_by_obstruction",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "急性胆囊炎的病因包括胆囊管梗阻、胆汁淤积和细菌感染等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "etiology_bacterial_infection",
+        "relation_id": "rel_ac_caused_by_bacteria",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "引起胆囊炎的细菌主要包括革兰阴性杆菌和厌氧菌。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_acute_cholangitis",
+        "to": "etiology_biliary_stones",
+        "relation_id": "rel_ach_caused_by_stones",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "常见病因包括胆道结石、胆管良性狭窄、胆道恶性肿瘤"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_acute_cholangitis",
+        "to": "etiology_biliary_malignancy",
+        "relation_id": "rel_ach_caused_by_malignancy",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "常见病因包括胆道结石、胆管良性狭窄、胆道恶性肿瘤"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "pathogenesis_gallstone_impaction",
+        "relation_id": "rel_ac_explained_by_impaction",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "多由结石嵌顿引起，导致胆汁排出受阻、淤积和浓缩，高浓度的胆盐可损伤胆囊黏膜。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_acute_cholecystitis",
+        "to": "pathogenesis_bacterial_invasion",
+        "relation_id": "rel_ac_explained_by_invasion",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "感染途径为通过胆道逆行进入胆囊、血液途径和淋巴途径。"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

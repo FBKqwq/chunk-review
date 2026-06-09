@@ -22,55 +22,7 @@
           "成人抗感染药物下呼吸道局部应用专家共识"
         ],
         "evidence_ids": [
-          "呼吸机相关性肺炎（，）［］"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_cf",
-        "name": "囊性纤维化",
-        "normalized_name": "囊性纤维化",
-        "aliases": [
-          "CF",
-          "cystic fibrosis"
-        ],
-        "source_document_ids": [
-          "成人抗感染药物下呼吸道局部应用专家共识"
-        ],
-        "evidence_ids": [
-          "肺囊性纤维化（，）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_cpa",
-        "name": "慢性肺曲霉病",
-        "normalized_name": "慢性肺曲霉病",
-        "aliases": [
-          "CPA",
-          "chronic pulmonary aspergillosis"
-        ],
-        "source_document_ids": [
-          "成人抗感染药物下呼吸道局部应用专家共识"
-        ],
-        "evidence_ids": [
-          "慢性肺曲霉病：对于全身抗真菌治疗效果差、治疗失败或不能耐受的患者，可考虑联合病灶空腔内注射两性霉素。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_ipa",
-        "name": "侵袭性肺曲霉病",
-        "normalized_name": "侵袭性肺曲霉病",
-        "aliases": [
-          "IPA",
-          "invasive pulmonary aspergillosis"
-        ],
-        "source_document_ids": [
-          "成人抗感染药物下呼吸道局部应用专家共识"
-        ],
-        "evidence_ids": [
-          "急性支气管肺曲霉病：对于实体器官（肺、心脏）或造血干细胞移植受者、血液系统恶性肿瘤、粒细胞缺乏患者，可雾化吸入两性霉素预防肺部真菌病。"
+          "呼吸机相关性肺炎（ventilator‐associated pneumonia，VAP）"
         ],
         "confidence": 0.95
       },
@@ -86,55 +38,22 @@
           "成人抗感染药物下呼吸道局部应用专家共识"
         ],
         "evidence_ids": [
-          "变应性支气管肺曲霉病（allergic bronchopulmonary aspergillosis，ABPA）：推荐意见：对于糖皮质激素（简称激素）依赖或因不良反应不能耐受长期服用激素的患者，可考虑单用或在原有治疗方案上雾化吸入两性霉素治疗。"
+          "变应性支气管肺曲霉病（allergic bronchopulmonary aspergillosis，ABPA）"
         ],
         "confidence": 0.95
       },
       {
-        "id": "disease_ntm",
-        "name": "非结核分枝杆菌肺病",
-        "normalized_name": "非结核分枝杆菌肺病",
+        "id": "disease_tracheobronchial_tuberculosis",
+        "name": "气管、支气管结核",
+        "normalized_name": "气管、支气管结核",
         "aliases": [
-          "NTM",
-          "non-tuberculous mycobacterial lung disease"
+          "气管支气管结核"
         ],
         "source_document_ids": [
           "成人抗感染药物下呼吸道局部应用专家共识"
         ],
         "evidence_ids": [
-          "非结核分枝杆菌（Myobacteria，）肺病：在的治疗中，雾化吸入阿米卡星可用于全身给药存在困难者、需要长期治疗者及治疗目标是改善临床症状而不是治愈疾病时。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_tb",
-        "name": "肺结核病",
-        "normalized_name": "肺结核病",
-        "aliases": [
-          "TB",
-          "tuberculosis"
-        ],
-        "source_document_ids": [
-          "成人抗感染药物下呼吸道局部应用专家共识"
-        ],
-        "evidence_ids": [
-          "肺结核病的基础治疗是药物治疗，气道内局部给药应在有效的全身用药的基础上进行，其适应证包括气管、支气管结核和全身治疗疗效不佳的难治性结核病，后者包括空洞型和耐药性肺结核。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_pjp",
-        "name": "肺孢子菌肺炎",
-        "normalized_name": "肺孢子菌肺炎",
-        "aliases": [
-          "PJP",
-          "Pneumocystis jiroveci pneumonia"
-        ],
-        "source_document_ids": [
-          "成人抗感染药物下呼吸道局部应用专家共识"
-        ],
-        "evidence_ids": [
-          "喷他脒雾化吸入：次，次周；或次，次月用于磺胺不耐受的高危人群的预防，无治疗适应证。"
+          "气管、支气管结核"
         ],
         "confidence": 0.95
       },
@@ -143,24 +62,23 @@
         "name": "流行性感冒",
         "normalized_name": "流行性感冒",
         "aliases": [
-          "流感",
-          "influenza"
+          "流感"
         ],
         "source_document_ids": [
           "成人抗感染药物下呼吸道局部应用专家共识"
         ],
         "evidence_ids": [
-          "流行性感冒：吸入扎那米韦推荐用于非重症流感的治疗和流感并发症高风险以及未经有效疫苗接种者的预防。"
+          "流行性感冒（简称“流感”）"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_vap_mdr_gnb",
-        "name": "多重耐药革兰阴性杆菌所致呼吸机相关性肺炎",
+        "id": "sub_disease_mdr_gnb_vap",
+        "name": "MDR GNB所致VAP",
         "parent_disease_id": "disease_vap",
-        "disease_subtype": null,
+        "disease_subtype": "多重耐药革兰阴性杆菌感染",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "机械通气患者",
@@ -168,365 +86,226 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "对于所致的，如果致病菌仅对氨基糖苷类药物或多黏菌素等抗感染药物敏感，而又由于剂量相关的毒性反应无法通过增加这些药物的全身剂量来确保抗感染疗效时，可考虑在全身抗感染治疗的基础上辅助性吸入此类抗感染药物。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_cf_pa",
-        "name": "囊性纤维化合并铜绿假单胞菌感染",
-        "parent_disease_id": "disease_cf",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "稳定期",
-        "population": "6岁及以上患者",
-        "gender": "all",
-        "age_min": 6,
-        "age_max": null,
-        "evidence_ids": [
-          "妥布霉素吸入溶液雾化吸入次，次，个周期均为（即用药、停药为周期），总疗程按周期数或直至无明显获益"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_noncf_bronchiectasis_pa",
-        "name": "非囊性纤维化支气管扩张症合并铜绿假单胞菌感染",
-        "parent_disease_id": "disease_cf",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": "稳定期患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "对痰培养阳性的稳定期中重度非支气管扩张症患者，推荐妥布霉素雾化吸入治疗，长期雾化吸入治疗时建议间歇给药。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_cpa_systemic_failure",
-        "name": "系统性抗真菌治疗效果差/失败/不能耐受的慢性肺曲霉病",
-        "parent_disease_id": "disease_cpa",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "对于系统性抗真菌治疗效果差、治疗失败或不能耐受的患者，可考虑联合腔内注射两性霉素。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_ipa_transplant_immunosuppressed",
-        "name": "实体器官或造血干细胞移植受者、血液系统恶性肿瘤、粒细胞缺乏患者的侵袭性肺曲霉病",
-        "parent_disease_id": "disease_ipa",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "实体器官（肺、心脏）或造血干细胞移植受者、血液系统恶性肿瘤、粒细胞缺乏患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "对于实体器官（肺、心脏）或造血干细胞移植受者、血液系统恶性肿瘤、粒细胞缺乏患者，可雾化吸入两性霉素预防肺部真菌病。"
+          "对于MDR GNB所致的VAP，如果致病菌仅对氨基糖苷类药物或多黏菌素等抗感染药物敏感，而又由于剂量相关的毒性反应无法通过增加这些药物的全身剂量来确保抗感染疗效时"
         ],
         "confidence": 0.9
       },
       {
         "id": "sub_disease_abpa_steroid_dependent",
-        "name": "激素依赖或不能耐受长期服用激素的变应性支气管肺曲霉病",
+        "name": "激素依赖或不耐受的ABPA",
         "parent_disease_id": "disease_abpa",
-        "disease_subtype": null,
+        "disease_subtype": "变应性肺部疾病",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "患者",
+        "severity": "中重症",
+        "population": "糖皮质激素依赖或因不良反应不能耐受长期服用激素的患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "对于糖皮质激素（简称激素）依赖或因不良反应不能耐受长期服用激素的患者，可考虑单用或在原有治疗方案上雾化吸入两性霉素治疗。"
+          "对于糖皮质激素（简称激素）依赖或因不良反应不能耐受长期服用激素的ABPA患者"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_ntm_difficult_to_treat",
-        "name": "全身给药存在困难、需长期治疗或以改善症状为目标的非结核分枝杆菌肺病",
-        "parent_disease_id": "disease_ntm",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "在的治疗中，雾化吸入阿米卡星可用于全身给药存在困难者、需要长期治疗者及治疗目标是改善临床症状而不是治愈疾病时。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_tb_tracheobronchial",
+        "id": "sub_disease_active_tracheobronchial_tb",
         "name": "活动性气管、支气管结核",
-        "parent_disease_id": "disease_tb",
-        "disease_subtype": null,
+        "parent_disease_id": "disease_tracheobronchial_tuberculosis",
+        "disease_subtype": "炎症浸润型、溃疡坏死型、肉芽增殖型、淋巴结瘘型",
         "clinical_stage": "活动期",
         "severity": "不限定",
-        "population": "患者",
+        "population": "结核病患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "活动性气管、支气管结核可在化疗强化期同时进行雾化吸入治疗，在支气管镜介入治疗时行镜下灌注治疗，常用药物为异烟肼和阿米卡星。"
+          "活动性气管、支气管结核可在化疗强化期同时进行雾化吸入治疗，在支气管镜介入治疗时行镜下灌注治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_tb_cavitary_or_drug_resistant",
-        "name": "空洞型或耐药性肺结核",
-        "parent_disease_id": "disease_tb",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "空洞型或耐药性肺结核：空洞或耐药性肺结核如全身化疗疗效不佳，可尝试加用支气管镜下灌注异烟肼、阿米卡星或利福平治疗。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_pjp_sulfonamide_intolerance",
-        "name": "磺胺不耐受的肺孢子菌肺炎高危人群",
-        "parent_disease_id": "disease_pjp",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "高危人群",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "吸入喷他脒推荐用于磺胺不耐受的感染高危人群的预防。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_influenza_non_severe",
-        "name": "非重症流行性感冒",
+        "id": "sub_disease_non_severe_influenza",
+        "name": "非重症流感",
         "parent_disease_id": "disease_influenza",
-        "disease_subtype": null,
+        "disease_subtype": "病毒感染",
         "clinical_stage": "不限定",
-        "severity": "非重症",
-        "population": "成人及12岁以上患者",
+        "severity": "轻症",
+        "population": "无其他合并症的非复杂性流感患者",
         "gender": "all",
-        "age_min": 12,
+        "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "吸入扎那米韦推荐用于非重症流感的治疗和流感并发症高风险以及未经有效疫苗接种者的预防。"
+          "吸入扎那米韦推荐用于非重症流感的治疗和流感并发症高风险以及未经有效疫苗接种者的预防"
         ],
         "confidence": 0.9
       }
     ],
     "symptoms": [
       {
-        "id": "symptom_fever",
-        "name": "发热",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "常见不良反应包括咳嗽、呼吸困难、发热、喘息、鼻塞、疲劳、鼻漏及咯血等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_wheezing",
-        "name": "喘息",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "常见不良反应包括咳嗽、呼吸困难、发热、喘息、鼻塞、疲劳、鼻漏及咯血等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_cough",
-        "name": "咳嗽",
-        "body_site": "呼吸系统",
+        "id": "symptom_asthma",
+        "name": "哮喘",
+        "body_site": "气道",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "气管支气管局部用药后可能会出现咳嗽、喘息、咯血、原有肺部基础疾病加重甚至死亡等不良事件"
+          "表现为哮喘和反复出现的肺部阴影"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_hemoptysis",
-        "name": "咯血",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
+        "id": "symptom_recurrent_lung_shadows",
+        "name": "反复出现的肺部阴影",
+        "body_site": "肺部",
+        "symptom_category": "影像学表现",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
-          "气管支气管局部用药后可能会出现咳嗽、喘息、咯血、原有肺部基础疾病加重甚至死亡等不良事件"
+          "表现为哮喘和反复出现的肺部阴影"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_dyspnea",
-        "name": "呼吸困难",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
+        "id": "symptom_inflammatory_infiltration",
+        "name": "炎症浸润",
+        "body_site": "气管支气管",
+        "symptom_category": "病理表现",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
-          "常见不良反应包括咳嗽、呼吸困难、发热、喘息、鼻塞、疲劳、鼻漏及咯血等。"
+          "Ⅰ型（炎症浸润型）"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_ulcer_necrosis",
+        "name": "溃疡坏死",
+        "body_site": "气管支气管",
+        "symptom_category": "病理表现",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "Ⅱ型（溃疡坏死型）"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_granuloma_proliferation",
+        "name": "肉芽增殖",
+        "body_site": "气管支气管",
+        "symptom_category": "病理表现",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "Ⅲ型（肉芽增殖型）"
+        ],
+        "confidence": 0.85
       }
     ],
     "tests": [
       {
-        "id": "test_pa_culture_positive",
-        "name": "痰培养铜绿假单胞菌阳性",
+        "id": "test_sputum_culture_mdr_gnb",
+        "name": "痰培养MDR GNB",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "对痰培养阳性的稳定期中重度非支气管扩张症患者"
+          "致病菌仅对氨基糖苷类药物或多黏菌素等抗感染药物敏感"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_serum_total_ige",
+        "name": "血清总IgE",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "总IgE水平"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_acq7",
+        "name": "哮喘控制问卷（ACQ7）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "哮喘控制问卷（ACQ7）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_bronchoscopy",
+        "name": "支气管镜检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "支气管镜介入治疗"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_vap_local_antibiotic",
-        "content": "在全身抗感染治疗基础上辅助性吸入氨基糖苷类或多黏菌素类药物",
-        "recommendation_strength": "strong",
+        "id": "treatment_vap_adjunctive_inhalation",
+        "content": "在全身抗感染药物治疗的基础上辅助性吸入此类抗感染药物",
+        "recommendation_strength": "可考虑",
         "source_section": "推荐意见",
         "evidence_ids": [
-          "对于所致的，如果致病菌仅对氨基糖苷类药物或多黏菌素等抗感染药物敏感，而又由于剂量相关的毒性反应无法通过增加这些药物的全身剂量来确保抗感染疗效时，可考虑在全身抗感染治疗的基础上辅助性吸入此类抗感染药物。"
+          "可考虑在全身抗感染药物治疗的基础上辅助性吸入此类抗感染药物"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_cf_pa_tobramycin",
-        "content": "妥布霉素雾化吸入治疗，长期雾化吸入治疗时建议以28天为周期间歇给药",
-        "recommendation_strength": "strong",
-        "source_section": "推荐意见",
-        "evidence_ids": [
-          "对痰培养阳性的稳定期中重度非支气管扩张症患者，推荐妥布霉素雾化吸入治疗，长期雾化吸入治疗时建议以28d为周期间歇给药。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_cpa_amphotericin_b_injection",
-        "content": "联合腔内注射两性霉素B",
-        "recommendation_strength": "recommended",
-        "source_section": "推荐意见",
-        "evidence_ids": [
-          "对于系统性抗真菌治疗效果差、治疗失败或不能耐受的患者，可以考虑联合腔内注射两性霉素。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_ipa_amphotericin_b_inhalation",
-        "content": "雾化吸入两性霉素B预防肺部真菌病",
-        "recommendation_strength": "recommended",
-        "source_section": "推荐意见",
-        "evidence_ids": [
-          "对于实体器官（肺、心脏）或造血干细胞移植受者、血液系统恶性肿瘤、粒细胞缺乏患者，可雾化吸入两性霉素预防肺部真菌病。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_abpa_amphotericin_b_inhalation",
+        "id": "treatment_abpa_inhaled_amphotericin_b",
         "content": "单用或在原有治疗方案上雾化吸入两性霉素B治疗",
-        "recommendation_strength": "recommended",
+        "recommendation_strength": "可考虑",
         "source_section": "推荐意见",
         "evidence_ids": [
-          "对于糖皮质激素（简称激素）依赖或因不良反应不能耐受长期服用激素的患者，可考虑单用或在原有治疗方案上雾化吸入两性霉素治疗。"
+          "可考虑单用或在原有治疗方案上雾化吸入两性霉素B治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_ntm_amikacin_inhalation",
-        "content": "雾化吸入阿米卡星用于全身给药存在困难者、需要长期治疗者及治疗目标是改善临床症状而不是治愈疾病时",
-        "recommendation_strength": "recommended",
+        "id": "treatment_tb_systemic_plus_local",
+        "content": "全身联合局部用药治疗气管、支气管结核",
+        "recommendation_strength": "推荐",
         "source_section": "推荐意见",
         "evidence_ids": [
-          "在的治疗中，雾化吸入阿米卡星可用于全身给药存在困难者、需要长期治疗者及治疗目标是改善临床症状而不是治愈疾病时。"
+          "全身联合局部用药治疗气管、支气管结核疗效较明确"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_tb_tracheobronchial_local",
-        "content": "在化疗强化期同时进行雾化吸入治疗或支气管镜下灌注治疗",
-        "recommendation_strength": "strong",
+        "id": "treatment_influenza_zanamivir",
+        "content": "吸入扎那米韦用于非重症流感的治疗和预防",
+        "recommendation_strength": "推荐",
         "source_section": "推荐意见",
         "evidence_ids": [
-          "活动性气管、支气管结核可在化疗强化期同时进行雾化吸入治疗，在支气管镜介入治疗时行镜下灌注治疗，常用药物为异烟肼和阿米卡星。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_tb_cavitary_or_drug_resistant_local",
-        "content": "加用支气管镜下灌注异烟肼、阿米卡星或利福平治疗",
-        "recommendation_strength": "recommended",
-        "source_section": "推荐意见",
-        "evidence_ids": [
-          "空洞型或耐药性肺结核：空洞或耐药性肺结核如全身化疗疗效不佳，可尝试加用支气管镜下灌注异烟肼、阿米卡星或利福平治疗。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_pjp_pentamidine_inhalation",
-        "content": "吸入喷他脒用于磺胺不耐受的高危人群的预防",
-        "recommendation_strength": "strong",
-        "source_section": "推荐意见",
-        "evidence_ids": [
-          "吸入喷他脒推荐用于磺胺不耐受的感染高危人群的预防。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_influenza_zanamivir_inhalation",
-        "content": "吸入扎那米韦用于非重症流感的治疗和高风险人群预防",
-        "recommendation_strength": "strong",
-        "source_section": "推荐意见",
-        "evidence_ids": [
-          "吸入扎那米韦推荐用于非重症流感的治疗和流感并发症高风险以及未经有效疫苗接种者的预防。"
+          "吸入扎那米韦推荐用于非重症流感的治疗和流感并发症高风险以及未经有效疫苗接种者的预防"
         ],
         "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_vap_tobramycin_300mg_2xd",
+        "id": "plan_vap_tobramycin",
         "content": "妥布霉素雾化吸入，300mg/次，2次/d",
         "plan_level": 1,
-        "applicable_condition": "多重耐药革兰阴性杆菌所致呼吸机相关性肺炎",
-        "contraindication_note": "不推荐雾化吸入抗感染药物经验性治疗",
+        "applicable_condition": "MDR GNB所致VAP",
+        "contraindication_note": null,
         "evidence_ids": [
           "妥布霉素雾化吸入，300mg/次，2次/d"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_vap_amikacin_400mg_2to3xd",
+        "id": "plan_vap_amikacin",
         "content": "阿米卡星雾化吸入，400mg/次，2~3次/d",
         "plan_level": 1,
-        "applicable_condition": "多重耐药革兰阴性杆菌所致呼吸机相关性肺炎",
+        "applicable_condition": "MDR GNB所致VAP",
         "contraindication_note": null,
         "evidence_ids": [
           "阿米卡星雾化吸入，400mg/次，2~3次/d"
@@ -534,181 +313,104 @@
         "confidence": 0.9
       },
       {
-        "id": "plan_cf_pa_tobramycin_solution_300mg_2xd",
-        "content": "妥布霉素吸入溶液雾化吸入300mg/次，2次/d",
+        "id": "plan_abpa_amphotericin_b",
+        "content": "两性霉素B 10mg，雾化15~20min，2次/d，1周3d，疗程为4个月",
         "plan_level": 1,
-        "applicable_condition": "囊性纤维化合并铜绿假单胞菌感染",
+        "applicable_condition": "激素依赖或不耐受的ABPA",
         "contraindication_note": null,
         "evidence_ids": [
-          "妥布霉素吸入溶液雾化吸入300mg/次，2次/d"
+          "联合布地奈德和两性霉素B雾化吸入（10mg，雾化15~20min，2次/d，1周3d，疗程为4个月）"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_cf_pa_tobramycin_concentrate_170mg_2xd",
-        "content": "妥布霉素浓缩雾化液雾化吸入170mg/次，2次/d",
-        "plan_level": 1,
-        "applicable_condition": "囊性纤维化合并铜绿假单胞菌感染",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "妥布霉素浓缩雾化液雾化吸入170mg/次，2次/d"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_noncf_bronchiectasis_pa_tobramycin_300mg_2xd_28d",
-        "content": "妥布霉素雾化吸入，300mg/次，2次/d，疗程28d，可延长至6个月",
-        "plan_level": 1,
-        "applicable_condition": "非囊性纤维化支气管扩张症合并铜绿假单胞菌感染",
-        "contraindication_note": "长期雾化吸入治疗时建议间歇给药",
-        "evidence_ids": [
-          "妥布霉素雾化吸入，300mg/次，2次/d，28d，可延长至6个月"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_cpa_amphotericin_b_injection_5mg_initial",
-        "content": "两性霉素B脱氧胆酸盐经支气管镜注入曲霉病灶内，起始剂量5mg，溶于10~20ml 5%葡萄糖溶液，注射3~5min；随后每日25~50mg，根据空腔大小调整注药体积",
-        "plan_level": 1,
-        "applicable_condition": "系统性抗真菌治疗效果差/失败/不能耐受的慢性肺曲霉病",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "两性霉素B脱氧胆酸盐经支气管镜注入曲霉病灶内，起始剂量5mg，溶于10~20ml 5%葡萄糖溶液，注射3~5min；随后每日25~50mg，根据空腔大小调整注药体积"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_ipa_amphotericin_b_inhalation_25mg_d",
-        "content": "两性霉素B雾化吸入25mg/d ±口服唑类药物，用于预防肺移植、延迟恢复的粒缺患者、造血干细胞移植或其他实体器官移植后患者的肺真菌病",
-        "plan_level": 1,
-        "applicable_condition": "实体器官或造血干细胞移植受者、血液系统恶性肿瘤、粒细胞缺乏患者的侵袭性肺曲霉病",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "两性霉素B雾化吸入25mg/d ±口服唑类药物，用于预防肺移植、延迟恢复的粒缺患者、造血干细胞移植或其他实体器官移植后患者的肺真菌病"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_abpa_amphotericin_b_inhalation_10mg_2xd_3d",
-        "content": "两性霉素B雾化吸入10mg/次，2次/d，每周3d，疗程为4个月",
-        "plan_level": 1,
-        "applicable_condition": "激素依赖或不能耐受长期服用激素的变应性支气管肺曲霉病",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "联合布地奈德和两性霉素B雾化吸入（10mg，雾化15~20min，2次/d，1周，疗程为4个月）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_ntm_amikacin_inhalation_250mg_1xd_then_500mg_2xd",
-        "content": "吸入阿米卡星初始剂量为250mg/次，1次/d，周后增加到250mg/次，2次/d，如果耐受性良好，周后再增加至500mg/次，2次/d",
-        "plan_level": 1,
-        "applicable_condition": "全身给药存在困难、需长期治疗或以改善症状为目标的非结核分枝杆菌肺病",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "最初的治疗剂量为250mg/次，1次/d，周后增加到250mg/次，2次/d，如果耐受性良好，周后再增加至500mg/次，2次/d"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_tb_tracheobronchial_inhalation_200mg_ish_200mg_amk_20ml_ns",
-        "content": "雾化吸入：异烟肼200mg+阿米卡星200mg加入20ml生理盐水中，雾化吸入，1~2次/d，10~20min/次，疗程为1~2个月",
+        "id": "plan_tb_nebulization",
+        "content": "异烟肼200mg+阿米卡星200mg加入20ml生理盐水中，雾化吸入，1~2次/d，10~20min/次",
         "plan_level": 1,
         "applicable_condition": "活动性气管、支气管结核",
         "contraindication_note": null,
         "evidence_ids": [
-          "雾化吸入：异烟肼200mg+阿米卡星200mg加入20ml生理盐水中，雾化吸入，1~2次/d，10~20min/次，疗程为1~2个月"
+          "异烟肼200mg+阿米卡星200mg加入20ml生理盐水中，雾化吸入，1~2次/d，10~20min/次"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_tb_cavitary_or_drug_resistant_injection_200to300mg_ish_200to400mg_amk",
-        "content": "支气管内给药：异烟肼注射剂200~300mg，可联合阿米卡星200~400mg，经支气管镜注入，1次/周，疗程为4~8周",
-        "plan_level": 1,
-        "applicable_condition": "空洞型或耐药性肺结核",
-        "contraindication_note": "不推荐利福平粉针剂用于局部治疗，必要时可使用凝胶制剂（未获批上市）",
+        "id": "plan_tb_bronchoscopic",
+        "content": "阿米卡星200~400mg+异烟肼200~300mg，经支气管镜气管内注射，1次/周",
+        "plan_level": 2,
+        "applicable_condition": "支气管镜介入治疗时",
+        "contraindication_note": null,
         "evidence_ids": [
-          "支气管内给药：异烟肼注射剂200~300mg，可联合阿米卡星200~400mg，经支气管镜注入，1次/周，疗程为4~8周"
+          "阿米卡星200~400mg+异烟肼200~300mg，经支气管镜气管内注射，1次/周"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_pjp_pentamidine_60to150mg_1x2w",
-        "content": "喷他脒雾化吸入：60~150mg/次，1次/2周",
+        "id": "plan_influenza_zanamivir_treatment",
+        "content": "扎那米韦DPI 10mg/次，2次/d，连续5d",
         "plan_level": 1,
-        "applicable_condition": "磺胺不耐受的肺孢子菌肺炎高危人群",
-        "contraindication_note": "吸入喷他脒之前应预先使用支气管舒张剂；此外，吸入喷他脒的不良反应为食欲下降、眩晕、乏力、发热，偶见双侧气胸致死及中毒性表皮坏死。",
-        "evidence_ids": [
-          "喷他脒雾化吸入：60~150mg/次，1次/2周"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_influenza_zanamivir_dpi_10mg_2xd_5d",
-        "content": "扎那米韦DPI治疗剂量为10mg/次，2次/d，连续5d",
-        "plan_level": 1,
-        "applicable_condition": "非重症流行性感冒",
+        "applicable_condition": "非重症流感的治疗",
         "contraindication_note": "对牛奶过敏的患者应避免使用；不推荐应用于慢性气道疾病患者",
         "evidence_ids": [
-          "扎那米韦DPI治疗剂量为10mg/次，2次/d，连续5d"
+          "治疗剂量为10mg/次，2次/d，连续5d"
         ],
         "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_pa_infection",
-        "content": "铜绿假单胞菌感染",
+        "id": "etiology_mdr_gnb",
+        "content": "多重耐药革兰阴性杆菌（MDR GNB）感染",
         "etiology_type": "感染因素",
         "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "对痰培养阳性的稳定期中重度非支气管扩张症患者"
+          "MDR GNB所致的VAP"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "etiology_aspergillus_sensitization",
         "content": "曲霉致敏",
-        "etiology_type": "感染因素",
+        "etiology_type": "自身免疫因素",
         "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "是由曲霉致敏引起的一种表现为哮喘和反复出现的肺部阴影，伴或不伴有支气管扩张的变应性肺部疾病。"
+          "由曲霉致敏引起"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "etiology_mtb_infection",
+        "id": "etiology_mycobacterium_tuberculosis",
         "content": "结核分枝杆菌感染",
         "etiology_type": "感染因素",
         "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "气管和支气管结核一般分为Ⅰ型（炎症浸润型）、Ⅱ型（溃疡坏死型）、Ⅲ型（肉芽增殖型）"
+          "气管、支气管结核"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "etiology_ntm_infection",
-        "content": "非结核分枝杆菌感染",
+        "id": "etiology_influenza_virus",
+        "content": "流感病毒感染",
         "etiology_type": "感染因素",
         "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "非结核分枝杆菌（Myobacteria，）肺病"
+          "流行性感冒"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_abpa_type1_inflammation",
-        "content": "过敏反应导致气道炎症和黏液栓形成",
+        "id": "pathogenesis_abpa_allergic",
+        "content": "由曲霉致敏引起的一种表现为哮喘和反复出现的肺部阴影，伴或不伴有支气管扩张的变应性肺部疾病",
         "evidence_ids": [
-          "是由曲霉致敏引起的一种表现为哮喘和反复出现的肺部阴影，伴或不伴有支气管扩张的变应性肺部疾病。全身应用激素是基础治疗药物"
+          "ABPA是由曲霉致敏引起的一种表现为哮喘和反复出现的肺部阴影，伴或不伴有支气管扩张的变应性肺部疾病"
         ],
-        "confidence": 0.75
+        "confidence": 0.9
       }
     ]
   },
@@ -716,56 +418,12 @@
     "has_sub_disease": [
       {
         "from": "disease_vap",
-        "to": "sub_disease_vap_mdr_gnb",
-        "relation_id": "rel_vap_has_mdr_gnb",
+        "to": "sub_disease_mdr_gnb_vap",
+        "relation_id": "rel_vap_has_mdr_gnb_vap",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "对于所致的，如果致病菌仅对氨基糖苷类药物或多黏菌素等抗感染药物敏感"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_cf",
-        "to": "sub_disease_cf_pa",
-        "relation_id": "rel_cf_has_pa",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "妥布霉素吸入溶液雾化吸入次，次，个周期均为（即用药、停药为周期）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_cf",
-        "to": "sub_disease_noncf_bronchiectasis_pa",
-        "relation_id": "rel_cf_has_noncf_pa",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "对痰培养阳性的稳定期中重度非支气管扩张症患者"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_cpa",
-        "to": "sub_disease_cpa_systemic_failure",
-        "relation_id": "rel_cpa_has_systemic_failure",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "对于系统性抗真菌治疗效果差、治疗失败或不能耐受的患者"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_ipa",
-        "to": "sub_disease_ipa_transplant_immunosuppressed",
-        "relation_id": "rel_ipa_has_transplant_immunosuppressed",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "对于实体器官（肺、心脏）或造血干细胞移植受者、血液系统恶性肿瘤、粒细胞缺乏患者"
+          "对于MDR GNB所致的VAP"
         ],
         "confidence": 0.9
       },
@@ -776,90 +434,80 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "对于糖皮质激素（简称激素）依赖或因不良反应不能耐受长期服用激素的患者"
+          "对于糖皮质激素（简称激素）依赖或因不良反应不能耐受长期服用激素的ABPA患者"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_ntm",
-        "to": "sub_disease_ntm_difficult_to_treat",
-        "relation_id": "rel_ntm_has_difficult_to_treat",
+        "from": "disease_tracheobronchial_tuberculosis",
+        "to": "sub_disease_active_tracheobronchial_tb",
+        "relation_id": "rel_tb_has_active",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "在的治疗中，雾化吸入阿米卡星可用于全身给药存在困难者、需要长期治疗者及治疗目标是改善临床症状而不是治愈疾病时。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_tb",
-        "to": "sub_disease_tb_tracheobronchial",
-        "relation_id": "rel_tb_has_tracheobronchial",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "活动性气管、支气管结核可在化疗强化期同时进行雾化吸入治疗"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_tb",
-        "to": "sub_disease_tb_cavitary_or_drug_resistant",
-        "relation_id": "rel_tb_has_cavitary_or_drug_resistant",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "空洞型或耐药性肺结核：空洞或耐药性肺结核如全身化疗疗效不佳"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_pjp",
-        "to": "sub_disease_pjp_sulfonamide_intolerance",
-        "relation_id": "rel_pjp_has_sulfonamide_intolerance",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "吸入喷他脒推荐用于磺胺不耐受的感染高危人群的预防。"
+          "活动性气管、支气管结核"
         ],
         "confidence": 0.9
       },
       {
         "from": "disease_influenza",
-        "to": "sub_disease_influenza_non_severe",
+        "to": "sub_disease_non_severe_influenza",
         "relation_id": "rel_influenza_has_non_severe",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "吸入扎那米韦推荐用于非重症流感的治疗和流感并发症高风险以及未经有效疫苗接种者的预防。"
+          "非重症流感"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_vap_mdr_gnb",
-        "to": "symptom_fever",
-        "relation_id": "rel_vap_mdr_gnb_manifests_as_fever",
+        "from": "sub_disease_abpa_steroid_dependent",
+        "to": "symptom_asthma",
+        "relation_id": "rel_abpa_manifests_as_asthma",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
+        "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
+        "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "背景介绍",
+        "section_priority": "疾病概述",
         "evidence_ids": [
-          "常见不良反应包括咳嗽、呼吸困难、发热、喘息、鼻塞、疲劳、鼻漏及咯血等。"
+          "表现为哮喘和反复出现的肺部阴影"
         ],
-        "confidence": 0.9
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出ABPA的临床表现为哮喘",
+        "evidence": "ABPA是由曲霉致敏引起的一种表现为哮喘和反复出现的肺部阴影"
       },
       {
-        "from": "sub_disease_vap_mdr_gnb",
-        "to": "symptom_cough",
-        "relation_id": "rel_vap_mdr_gnb_manifests_as_cough",
+        "from": "sub_disease_abpa_steroid_dependent",
+        "to": "symptom_recurrent_lung_shadows",
+        "relation_id": "rel_abpa_manifests_as_shadows",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "疾病概述",
+        "evidence_ids": [
+          "表现为哮喘和反复出现的肺部阴影"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出ABPA的临床表现为反复出现的肺部阴影",
+        "evidence": "ABPA是由曲霉致敏引起的一种表现为哮喘和反复出现的肺部阴影"
+      },
+      {
+        "from": "sub_disease_active_tracheobronchial_tb",
+        "to": "symptom_inflammatory_infiltration",
+        "relation_id": "rel_tb_manifests_as_infiltration",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -869,18 +517,16 @@
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "背景介绍",
+        "section_priority": "疾病分型",
         "evidence_ids": [
-          "气管支气管局部用药后可能会出现咳嗽、喘息、咯血、原有肺部基础疾病加重甚至死亡等不良事件"
+          "Ⅰ型（炎症浸润型）"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确将咳嗽列为局部用药后常见不良反应，且VAP患者接受雾化吸入治疗时易诱发气道刺激和咳嗽，属治疗相关性表现而非疾病原发核心症状",
-        "evidence": "常见的不良反应为：（1）口咽刺激和咳嗽，快速吸入高浓度溶液或吸入干粉更易引起咳嗽［81］。"
+        "confidence": 0.85
       },
       {
-        "from": "sub_disease_vap_mdr_gnb",
-        "to": "symptom_hemoptysis",
-        "relation_id": "rel_vap_mdr_gnb_manifests_as_hemoptysis",
+        "from": "sub_disease_active_tracheobronchial_tb",
+        "to": "symptom_ulcer_necrosis",
+        "relation_id": "rel_tb_manifests_as_ulcer",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -888,20 +534,39 @@
         "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
+        "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "背景介绍",
+        "section_priority": "疾病分型",
         "evidence_ids": [
-          "气管支气管局部用药后可能会出现咳嗽、喘息、咯血、原有肺部基础疾病加重甚至死亡等不良事件"
+          "Ⅱ型（溃疡坏死型）"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_active_tracheobronchial_tb",
+        "to": "symptom_granuloma_proliferation",
+        "relation_id": "rel_tb_manifests_as_granuloma",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "疾病分型",
+        "evidence_ids": [
+          "Ⅲ型（肉芽增殖型）"
+        ],
+        "confidence": 0.85
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_vap_mdr_gnb",
-        "to": "test_pa_culture_positive",
-        "relation_id": "rel_vap_mdr_gnb_requires_pa_culture",
+        "from": "sub_disease_mdr_gnb_vap",
+        "to": "test_sputum_culture_mdr_gnb",
+        "relation_id": "rel_vap_requires_culture",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -910,9 +575,9 @@
         "value_max": null,
         "operator": "equals",
         "unit": null,
-        "result_text": "痰培养铜绿假单胞菌阳性",
+        "result_text": "MDR GNB阳性且仅对氨基糖苷类或多黏菌素敏感",
         "weight": 3,
-        "gold_standard": false,
+        "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
@@ -920,46 +585,108 @@
         "section_priority": "推荐意见",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "对于所致的，如果致病菌仅对氨基糖苷类药物或多黏菌素等抗感染药物敏感"
+          "致病菌仅对氨基糖苷类药物或多黏菌素等抗感染药物敏感"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文未将PA培养阳性作为MDR-GNB所致VAP的诊断依据；PA仅为其中一种可能病原体，而MDR-GNB涵盖鲍曼不动杆菌、铜绿假单胞菌等多类菌，PA培养阳性仅提示PA感染，不等同于MDR-GNB-VAP确诊",
-        "evidence": "雾化吸入多黏菌素或氨基糖苷类药物目标性治疗MDRGNB、VAP或HAP证据最为充分。"
+        "weight_reason": "原文仅提及MDRGNB所致VAP的用药条件，未明确要求痰培养",
+        "evidence": "对于MDRGNB所致的VAP，如果致病菌仅对氨基糖苷类药物或多黏菌素等抗感染药物敏感"
+      },
+      {
+        "from": "sub_disease_abpa_steroid_dependent",
+        "to": "test_serum_total_ige",
+        "relation_id": "rel_abpa_requires_ige",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "总IgE水平",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "疾病概述",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "总IgE水平"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_abpa_steroid_dependent",
+        "to": "test_acq7",
+        "relation_id": "rel_abpa_requires_acq7",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "治疗监测项",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "哮喘控制问卷（ACQ7）",
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": null,
+        "typicality": "common",
+        "section_priority": "治疗评估",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "哮喘控制问卷（ACQ7）"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_active_tracheobronchial_tb",
+        "to": "test_bronchoscopy",
+        "relation_id": "rel_tb_requires_bronchoscopy",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "支气管镜下分型为Ⅰ~Ⅲ型及Ⅵ型",
+        "weight": 4,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "推荐意见",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "Ⅰ~Ⅲ型及Ⅵ型为临床活动期，可给予抗结核药物雾化吸入或气管内给药"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文中支气管镜主要用于介入治疗和局部注药，未明确作为必须的诊断性检查",
+        "evidence": "在支气管镜介入治疗时行镜下灌注治疗"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_vap_mdr_gnb",
-        "to": "treatment_vap_local_antibiotic",
-        "relation_id": "rel_vap_mdr_gnb_follows_local_antibiotic",
+        "from": "sub_disease_mdr_gnb_vap",
+        "to": "treatment_vap_adjunctive_inhalation",
+        "relation_id": "rel_vap_follows_adjunctive",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "明确诊断后",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "treatment_line": "联合",
+        "applicable_condition": "全身用药毒性大或疗效不佳时",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "可考虑",
         "decision_basis": [
-          "病原学"
-        ],
-        "contraindication_note": "不推荐雾化吸入抗感染药物经验性治疗",
-        "evidence_level": "expert_consensus",
-        "source_section": "推荐意见",
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_cf_pa",
-        "to": "treatment_cf_pa_tobramycin",
-        "relation_id": "rel_cf_pa_follows_tobramycin",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "明确诊断后",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "病原学"
+          "致病菌敏感性",
+          "药物毒性"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
@@ -967,20 +694,58 @@
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_cpa_systemic_failure",
-        "to": "treatment_cpa_amphotericin_b_injection",
-        "relation_id": "rel_cpa_systemic_failure_follows_amphotericin_b_injection",
+        "from": "sub_disease_abpa_steroid_dependent",
+        "to": "treatment_abpa_inhaled_amphotericin_b",
+        "relation_id": "rel_abpa_follows_amphotericin",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "二线",
-        "applicable_condition": "系统性抗真菌治疗失败后",
+        "applicable_condition": "激素依赖或不耐受",
         "recommendation_polarity": "可考虑",
-        "recommendation_strength": "recommended",
+        "recommendation_strength": "可考虑",
         "decision_basis": [
-          "疗效评估"
+          "激素耐受性"
         ],
         "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐意见",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_active_tracheobronchial_tb",
+        "to": "treatment_tb_systemic_plus_local",
+        "relation_id": "rel_tb_follows_systemic_local",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "活动期",
+        "treatment_line": "一线",
+        "applicable_condition": "化疗强化期",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐意见",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_non_severe_influenza",
+        "to": "treatment_influenza_zanamivir",
+        "relation_id": "rel_influenza_follows_zanamivir",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "出现症状2d内",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "疾病严重程度"
+        ],
+        "contraindication_note": "对牛奶过敏的患者应避免使用；不推荐应用于慢性气道疾病患者",
         "evidence_level": "expert_consensus",
         "source_section": "推荐意见",
         "confidence": 0.9
@@ -988,62 +753,163 @@
     ],
     "implements_by": [
       {
-        "from": "treatment_vap_local_antibiotic",
-        "to": "plan_vap_tobramycin_300mg_2xd",
-        "relation_id": "rel_treatment_vap_local_implements_by_tobramycin",
+        "from": "treatment_vap_adjunctive_inhalation",
+        "to": "plan_vap_tobramycin",
+        "relation_id": "rel_vap_implements_tobramycin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "多重耐药革兰阴性杆菌所致呼吸机相关性肺炎",
-        "contraindication_note": "不推荐雾化吸入抗感染药物经验性治疗",
+        "applicable_condition": "MDR GNB所致VAP",
+        "contraindication_note": null,
         "evidence_ids": [
           "妥布霉素雾化吸入，300mg/次，2次/d"
         ],
         "confidence": 0.9
       },
       {
-        "from": "treatment_cf_pa_tobramycin",
-        "to": "plan_cf_pa_tobramycin_solution_300mg_2xd",
-        "relation_id": "rel_treatment_cf_pa_implements_by_tobramycin_solution",
+        "from": "treatment_vap_adjunctive_inhalation",
+        "to": "plan_vap_amikacin",
+        "relation_id": "rel_vap_implements_amikacin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "囊性纤维化合并铜绿假单胞菌感染",
+        "applicable_condition": "MDR GNB所致VAP",
         "contraindication_note": null,
         "evidence_ids": [
-          "妥布霉素吸入溶液雾化吸入300mg/次，2次/d"
+          "阿米卡星雾化吸入，400mg/次，2~3次/d"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_abpa_inhaled_amphotericin_b",
+        "to": "plan_abpa_amphotericin_b",
+        "relation_id": "rel_abpa_implements_amphotericin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "激素依赖或不耐受的ABPA",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "联合布地奈德和两性霉素B雾化吸入（10mg，雾化15~20min，2次/d，1周3d，疗程为4个月）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_tb_systemic_plus_local",
+        "to": "plan_tb_nebulization",
+        "relation_id": "rel_tb_implements_nebulization",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "活动性气管、支气管结核",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "异烟肼200mg+阿米卡星200mg加入20ml生理盐水中，雾化吸入，1~2次/d，10~20min/次"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_tb_systemic_plus_local",
+        "to": "plan_tb_bronchoscopic",
+        "relation_id": "rel_tb_implements_bronchoscopic",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "支气管镜介入治疗时",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "阿米卡星200~400mg+异烟肼200~300mg，经支气管镜气管内注射，1次/周"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_influenza_zanamivir",
+        "to": "plan_influenza_zanamivir_treatment",
+        "relation_id": "rel_influenza_implements_zanamivir",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "非重症流感的治疗",
+        "contraindication_note": "对牛奶过敏的患者应避免使用；不推荐应用于慢性气道疾病患者",
+        "evidence_ids": [
+          "治疗剂量为10mg/次，2次/d，连续5d"
         ],
         "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_vap_mdr_gnb",
-        "to": "etiology_pa_infection",
-        "relation_id": "rel_vap_mdr_gnb_causes_pa_infection",
-        "relation_name": "相关",
+        "from": "sub_disease_mdr_gnb_vap",
+        "to": "etiology_mdr_gnb",
+        "relation_id": "rel_vap_caused_by_mdr_gnb",
+        "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "对于所致的"
+          "MDR GNB所致的VAP"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_abpa_steroid_dependent",
+        "to": "etiology_aspergillus_sensitization",
+        "relation_id": "rel_abpa_caused_by_aspergillus",
+        "relation_name": "导致",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "由曲霉致敏引起"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_active_tracheobronchial_tb",
+        "to": "etiology_mycobacterium_tuberculosis",
+        "relation_id": "rel_tb_caused_by_mtb",
+        "relation_name": "导致",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "气管、支气管结核"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_non_severe_influenza",
+        "to": "etiology_influenza_virus",
+        "relation_id": "rel_influenza_caused_by_virus",
+        "relation_name": "导致",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "流行性感冒"
+        ],
+        "confidence": 0.95
       }
     ],
     "explained_by": [
       {
         "from": "sub_disease_abpa_steroid_dependent",
-        "to": "pathogenesis_abpa_type1_inflammation",
-        "relation_id": "rel_abpa_steroid_dependent_explained_by_inflammation",
+        "to": "pathogenesis_abpa_allergic",
+        "relation_id": "rel_abpa_explained_by_allergic",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "是由曲霉致敏引起的一种表现为哮喘和反复出现的肺部阴影，伴或不伴有支气管扩张的变应性肺部疾病。全身应用激素是基础治疗药物"
+          "ABPA是由曲霉致敏引起的一种表现为哮喘和反复出现的肺部阴影，伴或不伴有支气管扩张的变应性肺部疾病"
         ],
-        "confidence": 0.8
+        "confidence": 0.9
       }
     ]
   },

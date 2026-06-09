@@ -11,28 +11,29 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_infectious_diarrhea",
-        "name": "感染性腹泻",
-        "normalized_name": "感染性腹泻",
+        "id": "disease_adult_acute_infectious_diarrhea",
+        "name": "成人急性感染性腹泻",
+        "normalized_name": "成人急性感染性腹泻",
         "aliases": [
           "急性感染性腹泻",
-          "成人急性感染性腹泻"
+          "感染性腹泻"
         ],
         "source_document_ids": [
           "成人急性感染性腹泻诊疗专家共识"
         ],
         "evidence_ids": [
-          "本共识定义急性腹泻为：每天排便3次或3次以上，总量超过250 g，持续时间不超过2周的腹泻。"
+          "本共识定义急性腹泻为：每天排便3次或3次以上，总量超过250 g，持续时间不超过2周的腹泻。",
+          "成人急性感染性腹泻病在流行病学、病原学、临床表现、治疗和预后等方面均有显著差别。"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_acute_infectious_diarrhea_adult",
-        "name": "成人急性感染性腹泻",
-        "parent_disease_id": "disease_infectious_diarrhea",
-        "disease_subtype": null,
+        "id": "sub_disease_bacterial_diarrhea",
+        "name": "细菌感染性腹泻",
+        "parent_disease_id": "disease_adult_acute_infectious_diarrhea",
+        "disease_subtype": "细菌感染",
         "clinical_stage": "不限定",
         "severity": "不限定",
         "population": "成人",
@@ -40,155 +41,57 @@
         "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "本共识定义急性腹泻为：每天排便3次或3次以上，总量超过250 g，持续时间不超过2周的腹泻。",
-          "与儿童感染性腹泻病、功能性腹泻病和IBD等比较，成人急性感染性腹泻病在流行病学、病原学、临床表现、治疗和预后等方面均有显著差别。"
+          "引起感染性腹泻的病原体包括细菌、病毒、寄生虫和真菌等。",
+          "光学显微镜高倍视野下见多个RBC和大量脓细胞，或WBC≥15／高倍视野者，有助于确定急性细菌性腹泻"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_cholera",
-        "name": "霍乱",
-        "parent_disease_id": "disease_infectious_diarrhea",
-        "disease_subtype": "细菌性感染",
+        "id": "sub_disease_viral_diarrhea",
+        "name": "病毒感染性腹泻",
+        "parent_disease_id": "disease_adult_acute_infectious_diarrhea",
+        "disease_subtype": "病毒感染",
         "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "1．霍乱：霍乱弧菌污染水和食物而引起本病传播，患者和携带者为传染源。",
-          "霍乱弧菌感染可有严重脱水和电解质紊乱。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_bacillary_dysentery",
-        "name": "细菌性痢疾",
-        "parent_disease_id": "disease_infectious_diarrhea",
-        "disease_subtype": "细菌性感染",
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "2．痢疾：分为细菌性痢疾(志贺菌感染)和阿米巴痢疾，通过粪一口途径传播...",
-          "细菌性痢疾多表现为黏液脓血便。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_amebic_dysentery",
-        "name": "阿米巴痢疾",
-        "parent_disease_id": "disease_infectious_diarrhea",
-        "disease_subtype": "寄生虫感染",
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "2．痢疾：分为细菌性痢疾(志贺菌感染)和阿米巴痢疾...",
-          "溶组织内阿米巴为阿米巴痢疾的病原体。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_norovirus_gastroenteritis",
-        "name": "诺如病毒性胃肠炎",
-        "parent_disease_id": "disease_infectious_diarrhea",
-        "disease_subtype": "病毒性感染",
-        "clinical_stage": "不限定",
-        "severity": "轻症",
+        "severity": "不限定",
         "population": "成人",
         "gender": "all",
-        "age_min": null,
+        "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "1．诺如病毒：属于杯状病毒科、无包膜单股正链RNA病毒。该病毒可以通过食品、水及患者呕吐物造成的气溶胶传播，很容易引起暴发，是成人病毒性腹泻最常见病原。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_rotavirus_gastroenteritis_group_b",
-        "name": "B组轮状病毒性胃肠炎",
-        "parent_disease_id": "disease_infectious_diarrhea",
-        "disease_subtype": "病毒性感染",
-        "clinical_stage": "不限定",
-        "severity": "轻症",
-        "population": "成人",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "2．B组轮状病毒：能导致成年人腹泻病的暴发，对成年散发腹泻患者中轮状病毒的监测和研究资料少见，有监测报告成人腹泻病患者阳性率为5～23％。"
+          "病毒感染导致急性腹泻病的比例远超过其他病原体，在急性感染性腹泻病中，自限性的病毒感染超过50％。",
+          "导致成人急性腹泻的病毒主要是诺如病毒和B组轮状病毒。"
         ],
         "confidence": 0.9
       },
       {
         "id": "sub_disease_aad",
         "name": "抗菌药物相关性腹泻",
-        "parent_disease_id": "disease_infectious_diarrhea",
+        "parent_disease_id": "disease_adult_acute_infectious_diarrhea",
         "disease_subtype": "特殊感染性腹泻",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "接受抗菌药物治疗者",
+        "population": "应用抗菌药物者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "AAD：是指应用抗菌药物后发生的、与抗菌药物有关的腹泻，尤其多见于长期、大量和使用广谱抗菌药物者。通常在开始使用抗菌药物后5～10 d发病。"
+          "AAD：是指应用抗菌药物后发生的、与抗菌药物有关的腹泻，尤其多见于长期、大量和使用广谱抗菌药物者。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_clostridium_difficile_infection",
+        "id": "sub_disease_cdi",
         "name": "艰难梭菌感染",
-        "parent_disease_id": "disease_infectious_diarrhea",
+        "parent_disease_id": "disease_adult_acute_infectious_diarrhea",
         "disease_subtype": "特殊感染性腹泻",
         "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "住院患者、免疫功能抑制者",
+        "severity": "不限定",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
           "AAD中，艰难梭菌感染(Clostridium difficile infection，CDI)占20％～30％，而在医院获得性AAD中，CDI占15％～25％。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_hospital_acquired_diarrhea",
-        "name": "医院获得性腹泻",
-        "parent_disease_id": "disease_infectious_diarrhea",
-        "disease_subtype": "特殊感染性腹泻",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "住院患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "医院获得性腹泻：以腹泻为主要症状的医院感染的主要致病菌为大肠埃希菌、金黄色葡萄球菌、肠球菌和铜绿假单胞菌，其次为白念珠菌、变形杆菌属、克雷伯菌属、沙门菌属等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_immunodeficiency_related_diarrhea",
-        "name": "免疫缺陷相关腹泻",
-        "parent_disease_id": "disease_infectious_diarrhea",
-        "disease_subtype": "特殊感染性腹泻",
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "先天性和获得性免疫缺陷人群",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "免疫缺陷相关腹泻：先天性和获得性免疫缺陷人群容易发生感染性腹泻，且不易治愈，易发展为慢性腹泻，如HIV感染相关腹泻和老年人群的腹泻等。"
         ],
         "confidence": 0.9
       }
@@ -202,33 +105,31 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "本共识定义急性腹泻为：每天排便3次或3次以上，总量超过250 g，持续时间不超过2周的腹泻。"
+          "每天排便3次或3次以上，总量超过250 g，持续时间不超过2周的腹泻。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "symptom_fever",
-        "name": "发热",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "伴有恶心、呕吐、腹痛或发热等全身症状。",
-          "腹泻伴发热很常见；中毒性菌痢患者可能仅有高热而无腹泻。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_vomiting",
-        "name": "呕吐",
-        "body_site": "胃肠道",
+        "id": "symptom_watery_stool",
+        "name": "水样便",
+        "body_site": "肠道",
         "symptom_category": "消化系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "伴有恶心、呕吐、腹痛或发热等全身症状。",
-          "呕吐的表现多见于细菌性食物中毒，系细菌毒素所致。"
+          "粪便性状可为稀便、水样便、黏液便、脓血便或血样便"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_purulent_bloody_stool",
+        "name": "脓血便",
+        "body_site": "肠道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "细菌性痢疾多表现为黏液脓血便。"
         ],
         "confidence": 0.9
       },
@@ -240,69 +141,19 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "伴有恶心、呕吐、腹痛或发热等全身症状。",
           "腹痛是仅次于腹泻的另一症状，根据感染肠道部位和病原体的不同，腹痛的部位和轻重有所不同。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_tenemus",
-        "name": "里急后重",
-        "body_site": "直肠",
-        "symptom_category": "消化系统症状",
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "如果细菌侵犯直肠，可出现里急后重的症状。",
-          "侵犯结直肠者，多有左下腹痛和里急后重。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_rice_water_stool",
-        "name": "米泔水样便",
-        "body_site": "肠道",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "霍乱可以先出现米泔水样便，后为水样便。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_wash_meat_water_stool",
-        "name": "洗肉水样便",
-        "body_site": "肠道",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "副溶血弧菌感染表现为洗肉水样便。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_bloody_stool",
-        "name": "血便",
-        "body_site": "肠道",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "极少数EHEC感染患者表现为血便而无腹泻的表现。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_mucopurulent_bloody_stool",
-        "name": "黏液脓血便",
-        "body_site": "肠道",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "细菌性痢疾多表现为黏液脓血便。"
+          "可伴有恶心、呕吐、腹痛或发热等全身症状"
         ],
         "confidence": 0.9
       },
@@ -314,8 +165,7 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "⑤脱水、电解质紊乱和酸碱失衡：成人急性感染性腹泻病一般无严重的脱水症状。",
-          "一旦出现严重脱水表现，多提示病情严重，或有基础疾病，或未及时就诊、未及时有效补液。"
+          "成人急性感染性腹泻病一般无严重的脱水症状。一旦出现严重脱水表现，多提示病情严重"
         ],
         "confidence": 0.9
       }
@@ -328,29 +178,18 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "1．粪便常规检测：简便易行，临床实用价值大。肉眼观腹泻物性状，如是否为水样便、有否脓血和黏液便等，即可大致判断腹泻的病因；光学显微镜高倍视野下见多个RBC和大量脓细胞，或WBC≥15／高倍视野者，有助于确定急性细菌性腹泻。"
+          "粪便常规检测：简便易行，临床实用价值大。肉眼观腹泻物性状，如是否为水样便、有否脓血和黏液便等，即可大致判断腹泻的病因"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_stool_microscopy_wbc",
-        "name": "粪便光学显微镜检查WBC",
+        "id": "test_stool_wbc",
+        "name": "粪便WBC",
         "normal_range_min": null,
-        "normal_range_max": null,
+        "normal_range_max": 15,
         "is_digital": 1,
         "evidence_ids": [
-          "光学显微镜高倍视野下见多个RBC和大量脓细胞，或WBC≥15／高倍视野者，有助于确定急性细菌性腹泻。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_stool_microscopy_rbc",
-        "name": "粪便光学显微镜检查RBC",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "光学显微镜高倍视野下见多个RBC和大量脓细胞，或WBC≥15／高倍视野者，有助于确定急性细菌性腹泻。"
+          "光学显微镜高倍视野下见多个RBC和大量脓细胞，或WBC≥15／高倍视野者，有助于确定急性细菌性腹泻"
         ],
         "confidence": 0.9
       },
@@ -361,483 +200,270 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "3．粪便细菌培养：应根据流行病学、临床表现、腹泻物性状、病情轻重和粪便常规检查结果，初步判断后再决定是否做细菌培养。对疑似霍乱的患者，必须采集腹泻标本检测霍乱弧菌；对发热和(或)脓血便的患者，应采集腹泻标本分离病原体并做药物敏感试验，有助于经验治疗后调整治疗方案。"
+          "粪便细菌培养：应根据流行病学、临床表现、腹泻物性状、病情轻重和粪便常规检查结果，初步判断后再决定是否做细菌培养。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_stool_norovirus_pcr",
-        "name": "粪便诺如病毒PCR检测",
+        "id": "test_pcr",
+        "name": "分子生物学诊断技术",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "粪便提取物检测轮状病毒和诺如病毒特异性基因，不仅有助于诊断，也是病毒性腹泻病分子流行病学调查的主要手段。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_stool_rotavirus_pcr",
-        "name": "粪便轮状病毒PCR检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "粪便提取物检测轮状病毒和诺如病毒特异性基因，不仅有助于诊断，也是病毒性腹泻病分子流行病学调查的主要手段。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_stool_lactoferrin",
-        "name": "粪便乳铁蛋白检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "2．乳铁蛋白和钙卫蛋白检测：乳铁蛋白是中性粒细胞颗粒中具有杀菌活性的单体糖蛋白，其在粪便中含量升高，提示结肠炎性反应。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_stool_calprotectin",
-        "name": "粪便钙卫蛋白检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "钙卫蛋白是中性粒细胞和巨噬细胞中的一种含钙蛋白，因此粪便钙卫蛋白含量与粪便中WBC数呈正比，也是结肠炎性反应的重要指标。"
+          "基于PCR的基因诊断技术，具有快速、特异和敏感的特点。粪便提取物检测轮状病毒和诺如病毒特异性基因，不仅有助于诊断"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_oral_rehydration",
-        "content": "口服补液治疗（ORT）适用于轻度脱水患者及无临床脱水证据的腹泻患者；水样泻及已发生临床脱水的患者应积极补液治疗。",
+        "id": "treatment_rehydration",
+        "content": "补液治疗：轻度脱水患者及无临床脱水证据的腹泻患者也可正常饮水，同时适当予以口服补液治疗。水样泻及已发生临床脱水的患者应积极补液治疗。",
         "recommendation_strength": "strong",
-        "source_section": "三、治疗 (二)补液治疗",
+        "source_section": "治疗-补液治疗",
         "evidence_ids": [
-          "轻度脱水患者及无临床脱水证据的腹泻患者也可正常饮水，同时适当予以口服补液治疗(oral rehydration therapy，ORT)。水样泻及已发生临床脱水的患者应积极补液治疗，尤其在霍乱流行地区。"
+          "轻度脱水患者及无临床脱水证据的腹泻患者也可正常饮水，同时适当予以口服补液治疗(oral rehydration therapy，ORT)。水样泻及已发生临床脱水的患者应积极补液治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_antidiarrheal",
+        "content": "止泻治疗：使用肠黏膜保护剂和吸附剂、益生菌、抑制肠道分泌药物及肠动力抑制剂。",
+        "recommendation_strength": "strong",
+        "source_section": "治疗-止泻治疗",
+        "evidence_ids": [
+          "肠黏膜保护剂和吸附剂：蒙脱石、果胶和活性炭等，有吸附肠道毒素和保护肠黏膜的作用。",
+          "益生菌能显著降低CDI的发生率"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_antibiotic_avoidance_viral",
-        "content": "急性水样泻患者，排除霍乱后，多为病毒性或产肠毒素性细菌感染，不应常规使用抗菌药物；轻、中度腹泻患者一般不用抗菌药物。",
+        "id": "treatment_antimicrobial",
+        "content": "抗感染治疗：急性水样泻患者，排除霍乱后，多为病毒性或产肠毒素性细菌感染，不应常规使用抗菌药物；轻、中度腹泻患者一般不用抗菌药物。",
         "recommendation_strength": "strong",
-        "source_section": "三、治疗 (四)抗感染治疗",
+        "source_section": "治疗-抗感染治疗",
         "evidence_ids": [
           "急性水样泻患者，排除霍乱后，多为病毒性或产肠毒素性细菌感染，不应常规使用抗菌药物；轻、中度腹泻患者一般不用抗菌药物。"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_antibiotic_for_bacterial_dysentery",
-        "content": "发热伴有黏液脓血便的急性腹泻；持续的志贺菌、沙门菌、弯曲菌感染或原虫感染；感染发生在老年人、免疫功能低下者、败血症或有假体患者；中、重度的旅行者腹泻患者应考虑使用抗感染药物。",
-        "recommendation_strength": "strong",
-        "source_section": "三、治疗 (四)抗感染治疗",
-        "evidence_ids": [
-          "以下情况考虑使用抗感染药物：①发热伴有黏液脓血便的急性腹泻；②持续的志贺菌、沙门菌、弯曲菌感染或原虫感染；③感染发生在老年人、免疫功能低下者、败血症或有假体患者；④中、重度的旅行者腹泻患者。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_cdi_stop_antibiotics",
-        "content": "CDI治疗首先应停止正在使用中的抗菌药物，但对于不能停用抗菌药物治疗的患者，最好能改用与CDI相关性相对较小的抗菌药物。",
-        "recommendation_strength": "strong",
-        "source_section": "三、治疗 (四)抗感染治疗 3．CDI的治疗",
-        "evidence_ids": [
-          "3．CDI的治疗：首先应停止正在使用中的抗菌药物，但对于不能停用抗菌药物治疗的患者，最好能改用与CDI相关性相对较小的抗菌药物，如氨苄西林、磺胺类药物、红霉素、四环素、第一代头孢菌素等。"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "plans": [
       {
-        "id": "plan_oral_rehydration_salts_standard",
-        "content": "WHO推荐的标准ORS配方为：氯化钠3．5 g、柠檬酸钠2．9 g或碳酸氢钠2．5 g、氯化钾1．5 g、蔗糖40 g或葡萄糖20 g，加水至1 L。",
+        "id": "plan_ors_low_osmolarity",
+        "content": "低渗透压ORS，其中含Na+75 mmol/L、K+20 mmol/L、Cl- 65 mmol/L、无水葡萄糖75 mmol/L、柠檬酸盐10 mmol/L，总渗透压245 mmol/L。",
         "plan_level": 1,
-        "applicable_condition": "轻度脱水及无脱水证据的水样泻患者",
+        "applicable_condition": "成人急性水样腹泻",
         "contraindication_note": null,
         "evidence_ids": [
-          "WHO推荐的标准ORS配方为：氯化钠3．5 g、柠檬酸钠2．9 g或碳酸氢钠2．5 g、氯化钾1．5 g、蔗糖40 g或葡萄糖20 g，加水至1 L。"
+          "近年来WHO推荐一种更加有效的低渗透压ORS，其中含Na+75 mmol／L、K+20 mmol／L、Cl- 65 mmol／L、无水葡萄糖75 mmol／L、柠檬酸盐10 mmol／L，总渗透压245 mmol／L。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "plan_oral_rehydration_salts_low_osmolarity",
-        "content": "低渗透压ORS，其中含Na+75 mmol／L、K+20 mmol／L、Cl 65 mmol／L、无水葡萄糖75 mmol／L、柠檬酸盐10 mmol／L，总渗透压245 mmol／L。",
+        "id": "plan_diosmectite",
+        "content": "蒙脱石 3.0 g/次，3次/d口服。",
         "plan_level": 1,
-        "applicable_condition": "水样泻及已发生临床脱水的患者",
-        "contraindication_note": "服用低渗ORS导致的低钠相关癫痫或意识障碍的发生率(0．03％～0．05％)比标准ORS(0．10％)明显降低。",
+        "applicable_condition": "急性感染性腹泻",
+        "contraindication_note": null,
         "evidence_ids": [
-          "近年来WHO推荐一种更加有效的低渗透压ORS，其中含Na+75 mmol／L、K+20 mmol／L、Cl 65 mmol／L、无水葡萄糖75 mmol／L柠檬酸盐10 mmol／L，总渗透压245 mmol／L。"
+          "成人用量和用法为3．0 g／次，3次／d口服。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_ciprofloxacin_for_bacterial_dysentery",
-        "content": "喹诺酮类药物为首选抗菌药物，复方磺胺甲噁唑为次选。具体方案为诺氟沙星400 mg，2次／d口服；或左氧氟沙星500 mg，1次／d口服，疗程3～5 d；复方磺胺甲噁唑的用法为甲氧苄啶160 mg、磺胺甲基异噁唑800 mg，每日分2次口服。",
+        "id": "plan_norfloxacin",
+        "content": "诺氟沙星 400 mg，2次/d口服，疗程3～5 d。",
         "plan_level": 1,
         "applicable_condition": "有适应证的社区获得性细菌感染性腹泻病",
-        "contraindication_note": "鉴于细菌对喹诺酮类耐药情况越来越严重，对于严重感染者，以及免疫功能低下者的腹泻，在获得细菌培养结果并对大环内酯类敏感的患者，仍可以考虑使用红霉素或阿奇霉素。",
+        "contraindication_note": null,
         "evidence_ids": [
-          "喹诺酮类药物为首选抗菌药物，复方磺胺甲噁唑为次选。具体方案为诺氟沙星400 mg，2次／d口服；或左氧氟沙星500 mg，1次／d口服，疗程3～5 d；复方磺胺甲噁唑的用法为甲氧苄啶160 mg、磺胺甲基异噁唑800 mg，每日分2次口服。"
+          "具体方案为诺氟沙星400 mg，2次／d口服；或左氧氟沙星500 mg，1次／d口服，疗程3～5 d"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_metronidazole_for_cdi",
-        "content": "甲硝唑是轻中型CDI治疗的首选药物，用法为500 mg，3次／d口服，疗程10～14 d。",
+        "id": "plan_levofloxacin",
+        "content": "左氧氟沙星 500 mg，1次/d口服，疗程3～5 d。",
         "plan_level": 1,
-        "applicable_condition": "轻中型艰难梭菌感染",
-        "contraindication_note": "抗动力止泻药(如洛哌丁胺)可能增加发生中毒性巨结肠的风险，应避免使用。",
+        "applicable_condition": "有适应证的社区获得性细菌感染性腹泻病",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "具体方案为诺氟沙星400 mg，2次／d口服；或左氧氟沙星500 mg，1次／d口服，疗程3～5 d"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_metronidazole_cdi",
+        "content": "甲硝唑 500 mg，3次/d口服，疗程10～14 d。",
+        "plan_level": 1,
+        "applicable_condition": "轻中型CDI",
+        "contraindication_note": null,
         "evidence_ids": [
           "甲硝唑是轻中型CDI治疗的首选药物，用法为500 mg，3次／d口服，疗程10～14 d。"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_vancomycin_for_severe_cdi",
-        "content": "对于重型CDI，或甲硝唑治疗5～7 d失败的患者应改为万古霉素治疗，用法为万古霉素125 mg，4次／d口服；合并肠梗阻、中毒性巨结肠、严重腹胀的重症患者，建议增加万古霉素剂量，并联合甲硝唑。",
-        "plan_level": 1,
-        "applicable_condition": "重型艰难梭菌感染或甲硝唑治疗失败者",
-        "contraindication_note": "合并肠梗阻、中毒性巨结肠、严重腹胀的重症患者，建议增加万古霉素剂量，并联合甲硝唑。",
-        "evidence_ids": [
-          "对于重型CDI，或甲硝唑治疗5～7 d失败的患者应改为万古霉素治疗，用法为万古霉素125 mg，4次／d口服；合并肠梗阻、中毒性巨结肠、严重腹胀的重症患者，建议增加万古霉素剂量，并联合甲硝唑。"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_vibrio_cholerae",
-        "content": "霍乱弧菌",
-        "etiology_type": "感染因素",
-        "typicality": "典型",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "1．霍乱：霍乱弧菌污染水和食物而引起本病传播，患者和携带者为传染源。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_shigella",
-        "content": "志贺菌",
-        "etiology_type": "感染因素",
-        "typicality": "典型",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "2．痢疾：分为细菌性痢疾(志贺菌感染)和阿米巴痢疾..."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_entamoeba_histolytica",
-        "content": "溶组织内阿米巴",
-        "etiology_type": "感染因素",
-        "typicality": "典型",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "2．溶组织内阿米巴：为阿米巴痢疾的病原体。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_norovirus",
-        "content": "诺如病毒",
-        "etiology_type": "感染因素",
-        "typicality": "典型",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "1．诺如病毒：属于杯状病毒科、无包膜单股正链RNA病毒。该病毒可以通过食品、水及患者呕吐物造成的气溶胶传播，很容易引起暴发，是成人病毒性腹泻最常见病原。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_rotavirus_group_b",
-        "content": "B组轮状病毒",
+        "id": "etiology_bacteria",
+        "content": "细菌感染（如霍乱弧菌、志贺菌、大肠埃希菌、沙门菌等）",
         "etiology_type": "感染因素",
         "typicality": "常见",
-        "diagnostic_role": "支持证据",
+        "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "2．B组轮状病毒：能导致成年人腹泻病的暴发，对成年散发腹泻患者中轮状病毒的监测和研究资料少见，有监测报告成人腹泻病患者阳性率为5～23％。"
+          "引起感染性腹泻的病原体包括细菌、病毒、寄生虫和真菌等。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_virus",
+        "content": "病毒感染（如诺如病毒、B组轮状病毒等）",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "导致成人急性腹泻的病毒主要是诺如病毒和B组轮状病毒。"
+        ],
+        "confidence": 0.95
       },
       {
         "id": "etiology_antibiotics",
-        "content": "抗菌药物使用",
-        "etiology_type": "危险因素",
-        "typicality": "典型",
+        "content": "应用抗菌药物",
+        "etiology_type": "药物因素",
+        "typicality": "常见",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
           "AAD：是指应用抗菌药物后发生的、与抗菌药物有关的腹泻，尤其多见于长期、大量和使用广谱抗菌药物者。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_cholera_toxin_induced_secretion",
-        "content": "霍乱弧菌产生的霍乱毒素激活腺苷酸环化酶，导致肠黏膜细胞分泌大量液体而致腹泻。",
+        "id": "pathogenesis_enterotoxin",
+        "content": "产生不耐热的肠毒素和(或)耐热肠毒素，导致肠黏膜细胞分泌大量液体而致腹泻",
         "evidence_ids": [
-          "霍乱弧菌污染水和食物而引起本病传播...",
-          "霍乱弧菌感染可有严重脱水和电解质紊乱。"
+          "产生不耐热的肠毒素和(或)耐热肠毒素，导致肠黏膜细胞分泌大量液体而致腹泻，腹泻物中含大量蛋白质。"
         ],
-        "confidence": 0.75
+        "confidence": 0.85
       },
       {
-        "id": "pathogenesis_shigella_invasion",
-        "content": "志贺菌通过侵袭基因编码的蛋白介导侵袭和破坏肠上皮细胞，引起炎性反应和溃疡。",
+        "id": "pathogenesis_invasion",
+        "content": "通过侵袭基因编码的蛋白介导侵袭和破坏肠上皮细胞，引起炎性反应和溃疡",
         "evidence_ids": [
-          "志贺菌可分为4个血清群...志贺菌都能产生内毒素。痢疾志贺菌能产生志贺外毒素，患者病情常较重；宋内志贺菌感染通常病情较轻；福氏志贺菌感染则易转为慢性迁延性腹泻。"
+          "通过侵袭基因编码的蛋白介导侵袭和破坏肠上皮细胞，引起炎性反应和溃疡，症状与痢疾很难区分。"
         ],
-        "confidence": 0.75
-      },
-      {
-        "id": "pathogenesis_norovirus_enterocyte_damage",
-        "content": "诺如病毒通过感染小肠上皮细胞，导致细胞损伤和分泌功能紊乱，引发水样腹泻。",
-        "evidence_ids": [
-          "诺如病毒：属于杯状病毒科、无包膜单股正链RNA病毒。该病毒可以通过食品、水及患者呕吐物造成的气溶胶传播，很容易引起暴发，是成人病毒性腹泻最常见病原。"
-        ],
-        "confidence": 0.75
+        "confidence": 0.85
       }
     ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_infectious_diarrhea",
-        "to": "sub_disease_acute_infectious_diarrhea_adult",
-        "relation_id": "rel_infectious_diarrhea_has_acute_adult",
+        "from": "disease_adult_acute_infectious_diarrhea",
+        "to": "sub_disease_bacterial_diarrhea",
+        "relation_id": "rel_has_bacterial_diarrhea",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "本共识定义急性腹泻为：每天排便3次或3次以上，总量超过250 g，持续时间不超过2周的腹泻。"
+          "引起感染性腹泻的病原体包括细菌、病毒、寄生虫和真菌等。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "disease_infectious_diarrhea",
-        "to": "sub_disease_cholera",
-        "relation_id": "rel_infectious_diarrhea_has_cholera",
+        "from": "disease_adult_acute_infectious_diarrhea",
+        "to": "sub_disease_viral_diarrhea",
+        "relation_id": "rel_has_viral_diarrhea",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "1．霍乱：霍乱弧菌污染水和食物而引起本病传播，患者和携带者为传染源。"
+          "病毒感染导致急性腹泻病的比例远超过其他病原体"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "disease_infectious_diarrhea",
-        "to": "sub_disease_bacillary_dysentery",
-        "relation_id": "rel_infectious_diarrhea_has_bacillary_dysentery",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "2．痢疾：分为细菌性痢疾(志贺菌感染)和阿米巴痢疾..."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_infectious_diarrhea",
-        "to": "sub_disease_amebic_dysentery",
-        "relation_id": "rel_infectious_diarrhea_has_amebic_dysentery",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "2．痢疾：分为细菌性痢疾(志贺菌感染)和阿米巴痢疾...",
-          "溶组织内阿米巴为阿米巴痢疾的病原体。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_infectious_diarrhea",
-        "to": "sub_disease_norovirus_gastroenteritis",
-        "relation_id": "rel_infectious_diarrhea_has_norovirus_gastroenteritis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "1．诺如病毒：属于杯状病毒科、无包膜单股正链RNA病毒。该病毒可以通过食品、水及患者呕吐物造成的气溶胶传播，很容易引起暴发，是成人病毒性腹泻最常见病原。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_infectious_diarrhea",
-        "to": "sub_disease_rotavirus_gastroenteritis_group_b",
-        "relation_id": "rel_infectious_diarrhea_has_rotavirus_group_b",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "2．B组轮状病毒：能导致成年人腹泻病的暴发，对成年散发腹泻患者中轮状病毒的监测和研究资料少见，有监测报告成人腹泻病患者阳性率为5～23％。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_infectious_diarrhea",
+        "from": "disease_adult_acute_infectious_diarrhea",
         "to": "sub_disease_aad",
-        "relation_id": "rel_infectious_diarrhea_has_aad",
+        "relation_id": "rel_has_aad",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "AAD：是指应用抗菌药物后发生的、与抗菌药物有关的腹泻，尤其多见于长期、大量和使用广谱抗菌药物者。通常在开始使用抗菌药物后5～10 d发病。"
+          "特殊的感染性腹泻病 1．AAD：是指应用抗菌药物后发生的、与抗菌药物有关的腹泻"
         ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_infectious_diarrhea",
-        "to": "sub_disease_clostridium_difficile_infection",
-        "relation_id": "rel_infectious_diarrhea_has_cdi",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "AAD中，艰难梭菌感染(Clostridium difficile infection，CDI)占20％～30％，而在医院获得性AAD中，CDI占15％～25％。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_infectious_diarrhea",
-        "to": "sub_disease_hospital_acquired_diarrhea",
-        "relation_id": "rel_infectious_diarrhea_has_hospital_acquired",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "医院获得性腹泻：以腹泻为主要症状的医院感染的主要致病菌为大肠埃希菌、金黄色葡萄球菌、肠球菌和铜绿假单胞菌，其次为白念珠菌、变形杆菌属、克雷伯菌属、沙门菌属等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_infectious_diarrhea",
-        "to": "sub_disease_immunodeficiency_related_diarrhea",
-        "relation_id": "rel_infectious_diarrhea_has_immunodeficiency",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "免疫缺陷相关腹泻：先天性和获得性免疫缺陷人群容易发生感染性腹泻，且不易治愈，易发展为慢性腹泻，如HIV感染相关腹泻和老年人群的腹泻等。"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_acute_infectious_diarrhea_adult",
-        "to": "symptom_diarrhea",
-        "relation_id": "rel_acute_adult_manifests_as_diarrhea",
+        "from": "sub_disease_bacterial_diarrhea",
+        "to": "symptom_purulent_bloody_stool",
+        "relation_id": "rel_bacterial_manifests_purulent_bloody",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 100,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
-        "duration_condition": "持续时间不超过2周",
-        "section_priority": "定义",
-        "evidence_ids": [
-          "本共识定义急性腹泻为：每天排便3次或3次以上，总量超过250 g，持续时间不超过2周的腹泻。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确定义‘急性腹泻’为本病核心临床表型，且诊断标准以排便次数/性状/持续时间量化，构成该病的定义性表现",
-        "evidence": "本共识定义急性腹泻为：每天排便3次或3次以上，总量超过250g，持续时间不超过2周的腹泻。"
-      },
-      {
-        "from": "sub_disease_cholera",
-        "to": "symptom_rice_water_stool",
-        "relation_id": "rel_cholera_manifests_as_rice_water_stool",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
-        "section_priority": "病原学和流行病学",
-        "evidence_ids": [
-          "霍乱可以先出现米泔水样便，后为水样便。"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文描述为‘霍乱可以先出现米泔水样便’，属特征性但非必然表现，且‘先出现’暗示阶段性、非全程特异性",
-        "evidence": "霍乱可以先出现米泔水样便，后为水样便。"
-      },
-      {
-        "from": "sub_disease_bacillary_dysentery",
-        "to": "symptom_mucopurulent_bloody_stool",
-        "relation_id": "rel_bacillary_dysentery_manifests_as_mucopurulent_bloody_stool",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "病原学和流行病学",
+        "section_priority": "临床表现",
         "evidence_ids": [
           "细菌性痢疾多表现为黏液脓血便。"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确‘细菌性痢疾多表现为黏液脓血便’，‘多表现为’属高频强关联，非绝对，不满足金标准条件",
-        "evidence": "细菌性痢疾多表现为黏液脓血便。"
+        "weight_reason": "原文明确指出细菌性痢疾多表现为黏液脓血便，属于细菌性腹泻的常见症状。",
+        "evidence": "细菌性痢疾多表现为黏液脓血便"
       },
       {
-        "from": "sub_disease_norovirus_gastroenteritis",
-        "to": "symptom_diarrhea",
-        "relation_id": "rel_norovirus_manifests_as_diarrhea",
+        "from": "sub_disease_viral_diarrhea",
+        "to": "symptom_watery_stool",
+        "relation_id": "rel_viral_manifests_watery",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "病原学和流行病学",
+        "section_priority": "临床表现",
         "evidence_ids": [
-          "诺如病毒：属于杯状病毒科、无包膜单股正链RNA病毒。该病毒可以通过食品、水及患者呕吐物造成的气溶胶传播，很容易引起暴发，是成人病毒性腹泻最常见病原。"
+          "病毒性腹泻一开始表现为黏液便，继之为水样便，一般无脓血，次数较多，量较大。"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文指出诺如病毒是‘成人病毒性腹泻最常见病原’，而病毒性腹泻以腹泻为主要症状，属强因果链中的必要表现，但未定义为唯一/必然表现",
-        "evidence": "诺如病毒是成人病毒性腹泻最常见病原。"
+        "weight_reason": "原文明确描述病毒性腹泻继之为水样便，为该疾病的典型临床表现。",
+        "evidence": "病毒性腹泻一开始表现为黏液便，继之为水样便"
+      },
+      {
+        "from": "sub_disease_bacterial_diarrhea",
+        "to": "symptom_fever",
+        "relation_id": "rel_bacterial_manifests_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "病毒血症和细菌毒素可干扰体温调节中枢，因此腹泻伴发热很常见"
+        ],
+        "confidence": 0.85
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_cholera",
-        "to": "test_stool_culture",
-        "relation_id": "rel_cholera_requires_stool_culture",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "检出霍乱弧菌",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "实验室诊断",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "对疑似霍乱的患者，必须采集腹泻标本检测霍乱弧菌；"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确‘对疑似霍乱的患者，必须采集腹泻标本检测霍乱弧菌’，‘必须’构成强制性确诊路径，符合金标准操作要求",
-        "evidence": "对疑似霍乱的患者，必须采集腹泻标本检测霍乱弧菌；"
-      },
-      {
-        "from": "sub_disease_bacillary_dysentery",
-        "to": "test_stool_microscopy_wbc",
-        "relation_id": "rel_bacillary_dysentery_requires_wbc",
+        "from": "sub_disease_bacterial_diarrhea",
+        "to": "test_stool_wbc",
+        "relation_id": "rel_bacterial_requires_wbc",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -845,9 +471,9 @@
         "value_min": 15,
         "value_max": null,
         "operator": ">=",
-        "unit": "／高倍视野",
+        "unit": "/高倍视野",
         "result_text": null,
-        "weight": 10,
+        "weight": 9,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
@@ -856,23 +482,118 @@
         "section_priority": "实验室诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "光学显微镜高倍视野下见多个RBC和大量脓细胞，或WBC≥15／高倍视野者，有助于确定急性细菌性腹泻。"
+          "光学显微镜高倍视野下见多个RBC和大量脓细胞，或WBC≥15／高倍视野者，有助于确定急性细菌性腹泻"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出WBC≥15/高倍视野者有助于确定急性细菌性腹泻，具有高度提示意义。",
+        "evidence": "WBC≥15／高倍视野者，有助于确定急性细菌性腹泻"
+      },
+      {
+        "from": "sub_disease_bacterial_diarrhea",
+        "to": "test_stool_culture",
+        "relation_id": "rel_bacterial_requires_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "分离出病原体",
+        "weight": 8,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "对发热和(或)脓血便的患者，应采集腹泻标本分离病原体并做药物敏感试验"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文建议应用抗菌药物前应首先行粪便标本的细菌培养，是重要的病原学检测手段。",
+        "evidence": "应用抗菌药物前应首先行粪便标本的细菌培养"
+      },
+      {
+        "from": "sub_disease_viral_diarrhea",
+        "to": "test_pcr",
+        "relation_id": "rel_viral_requires_pcr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "检测轮状病毒和诺如病毒特异性基因阳性",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "粪便提取物检测轮状病毒和诺如病毒特异性基因，不仅有助于诊断，也是病毒性腹泻病分子流行病学调查的主要手段。"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文称WBC≥15／高倍视野‘有助于确定急性细菌性腹泻’，属支持性证据而非确诊必需，且未特指细菌性痢疾",
-        "evidence": "光学显微镜高倍视野下见多个RBC和大量脓细胞，或WBC≥15／高倍视野者，有助于确定急性细菌性腹泻。"
+        "weight_reason": "原文指出基于PCR检测病毒特异性基因不仅有助于诊断，也是主要调查手段。",
+        "evidence": "粪便提取物检测轮状病毒和诺如病毒特异性基因，不仅有助于诊断"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_acute_infectious_diarrhea_adult",
-        "to": "treatment_oral_rehydration",
-        "relation_id": "rel_acute_adult_follows_oral_rehydration",
+        "from": "sub_disease_bacterial_diarrhea",
+        "to": "treatment_antimicrobial",
+        "relation_id": "rel_bacterial_follows_antimicrobial",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "轻度脱水及无临床脱水证据者",
+        "applicable_condition": "发热伴有黏液脓血便的急性腹泻等适应证",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "临床表现",
+          "病原学"
+        ],
+        "contraindication_note": "EHEC引起的腹泻患者不主张使用抗菌药物",
+        "evidence_level": "expert_consensus",
+        "source_section": "抗感染治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cdi",
+        "to": "treatment_antimicrobial",
+        "relation_id": "rel_cdi_follows_antimicrobial",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊CDI",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": "抗动力止泻药可能增加发生中毒性巨结肠的风险，应避免使用",
+        "evidence_level": "expert_consensus",
+        "source_section": "CDI的治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_adult_acute_infectious_diarrhea",
+        "to": "treatment_rehydration",
+        "relation_id": "rel_diarrhea_follows_rehydration",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "所有腹泻患者",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
@@ -880,103 +601,151 @@
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "三、治疗 (二)补液治疗",
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_cholera",
-        "to": "treatment_oral_rehydration",
-        "relation_id": "rel_cholera_follows_oral_rehydration",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "所有霍乱患者，尤其在霍乱流行地区",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "流行病学史"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "三、治疗 (二)补液治疗",
-        "confidence": 0.9
+        "source_section": "补液治疗",
+        "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_oral_rehydration",
-        "to": "plan_oral_rehydration_salts_standard",
-        "relation_id": "rel_oral_rehydration_implements_by_standard_ors",
+        "from": "treatment_rehydration",
+        "to": "plan_ors_low_osmolarity",
+        "relation_id": "rel_rehydration_implements_ors",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "轻度脱水及无脱水证据的水样泻患者",
+        "applicable_condition": "轻中度脱水或无脱水",
         "contraindication_note": null,
         "evidence_ids": [
-          "WHO推荐的标准ORS配方为：氯化钠3．5 g、柠檬酸钠2．9 g或碳酸氢钠2．5 g、氯化钾1．5 g、蔗糖40 g或葡萄糖20 g，加水至1 L。"
+          "近年来WHO推荐一种更加有效的低渗透压ORS"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antidiarrheal",
+        "to": "plan_diosmectite",
+        "relation_id": "rel_antidiarrheal_implements_diosmectite",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "急性水样泻",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "蒙脱石制剂被证实在急性腹泻中能够缩短腹泻病程，降低腹泻频度。"
         ],
         "confidence": 0.9
       },
       {
-        "from": "treatment_oral_rehydration",
-        "to": "plan_oral_rehydration_salts_low_osmolarity",
-        "relation_id": "rel_oral_rehydration_implements_by_low_osmolarity_ors",
+        "from": "treatment_antimicrobial",
+        "to": "plan_norfloxacin",
+        "relation_id": "rel_antimicrobial_implements_norfloxacin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "水样泻及已发生临床脱水的患者",
-        "contraindication_note": "服用低渗ORS导致的低钠相关癫痫或意识障碍的发生率(0．03％～0．05％)比标准ORS(0．10％)明显降低。",
+        "applicable_condition": "社区获得性细菌感染性腹泻",
+        "contraindication_note": null,
         "evidence_ids": [
-          "近年来WHO推荐一种更加有效的低渗透压ORS，其中含Na+75 mmol／L、K+20 mmol／L、Cl 65 mmol／L、无水葡萄糖75 mmol／L柠檬酸盐10 mmol／L，总渗透压245 mmol／L。"
+          "喹诺酮类药物为首选抗菌药物...具体方案为诺氟沙星400 mg，2次／d口服"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_levofloxacin",
+        "relation_id": "rel_antimicrobial_implements_levofloxacin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "社区获得性细菌感染性腹泻",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "或左氧氟沙星500 mg，1次／d口服，疗程3～5 d"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_metronidazole_cdi",
+        "relation_id": "rel_antimicrobial_implements_metronidazole",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "轻中型CDI",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "甲硝唑是轻中型CDI治疗的首选药物，用法为500 mg，3次／d口服"
+        ],
+        "confidence": 0.95
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_cholera",
-        "to": "etiology_vibrio_cholerae",
-        "relation_id": "rel_cholera_caused_by_vibrio_cholerae",
-        "relation_name": "相关",
+        "from": "sub_disease_bacterial_diarrhea",
+        "to": "etiology_bacteria",
+        "relation_id": "rel_bacterial_caused_by_bacteria",
+        "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "1．霍乱：霍乱弧菌污染水和食物而引起本病传播，患者和携带者为传染源。"
+          "引起感染性腹泻的病原体包括细菌"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_bacillary_dysentery",
-        "to": "etiology_shigella",
-        "relation_id": "rel_bacillary_dysentery_caused_by_shigella",
-        "relation_name": "相关",
+        "from": "sub_disease_viral_diarrhea",
+        "to": "etiology_virus",
+        "relation_id": "rel_viral_caused_by_virus",
+        "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "2．痢疾：分为细菌性痢疾(志贺菌感染)和阿米巴痢疾..."
+          "导致成人急性腹泻的病毒主要是诺如病毒和B组轮状病毒。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aad",
+        "to": "etiology_antibiotics",
+        "relation_id": "rel_aad_caused_by_antibiotics",
+        "relation_name": "导致",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "AAD：是指应用抗菌药物后发生的、与抗菌药物有关的腹泻"
+        ],
+        "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_cholera",
-        "to": "pathogenesis_cholera_toxin_induced_secretion",
-        "relation_id": "rel_cholera_explained_by_toxin_secretion",
+        "from": "sub_disease_bacterial_diarrhea",
+        "to": "pathogenesis_enterotoxin",
+        "relation_id": "rel_bacterial_explained_by_enterotoxin",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "霍乱弧菌污染水和食物而引起本病传播...",
-          "霍乱弧菌感染可有严重脱水和电解质紊乱。"
+          "产生不耐热的肠毒素和(或)耐热肠毒素，导致肠黏膜细胞分泌大量液体而致腹泻"
         ],
-        "confidence": 0.75
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_bacterial_diarrhea",
+        "to": "pathogenesis_invasion",
+        "relation_id": "rel_bacterial_explained_by_invasion",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "通过侵袭基因编码的蛋白介导侵袭和破坏肠上皮细胞，引起炎性反应和溃疡"
+        ],
+        "confidence": 0.85
       }
     ]
   },

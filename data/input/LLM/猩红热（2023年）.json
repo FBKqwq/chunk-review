@@ -1,8 +1,8 @@
 {
   "meta": {
-    "doc_id": "猩红热诊疗方案_2023年版",
-    "source_title": "猩红热诊疗方案（2023 年版）",
-    "section_path": "",
+    "doc_id": "猩红热诊疗方案（2023年版）",
+    "source_title": "猩红热诊疗方案（2023年版）",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -18,7 +18,7 @@
           "Scarlet Fever"
         ],
         "source_document_ids": [
-          "猩红热诊疗方案（2023 年版）"
+          "猩红热诊疗方案（2023年版）"
         ],
         "evidence_ids": [
           "猩红热（Scarlet Fever）为 A 族β型溶血性链球菌（Group A Streptococcus，GAS）感染引起的急性呼吸道传染病"
@@ -28,10 +28,10 @@
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_scarlet_fever_common_type",
+        "id": "sub_disease_scarlet_fever_common",
         "name": "普通型猩红热",
         "parent_disease_id": "disease_scarlet_fever",
-        "disease_subtype": null,
+        "disease_subtype": "普通型",
         "clinical_stage": "不限定",
         "severity": "轻症",
         "population": "幼托及学龄儿童",
@@ -39,111 +39,79 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（一）普通型。\n急性起病，可表现为高热伴咽痛，发病后次日出现皮疹，皮疹始见于耳后、颈及上胸部，1 天内蔓延至全身。典型的皮疹为在皮肤充血的基础上有猩红色弥漫细小斑丘疹，压之褪色，皮疹隆起如“鸡皮疙瘩”，顶端可见粟粒状小疱疹；面部皮肤充血，口、鼻周围充血不明显，形成“口周苍白圈”；在腋下、肘部及腹股沟的皮肤皱褶处，皮疹密集，色深红，间或有出血点，呈横线状，称之为“帕氏线”。皮疹多在 1 周内消退，1 周末至第 2 周开始脱屑，躯干常呈糠样脱屑，皮疹严重者四肢、手掌、足底可出现片状脱皮。\n部分患者在病程 1~2 天出现舌苔厚白，舌乳头红肿，突出于白苔之上，以舌尖及边缘处显著，称为“草莓舌”。2~3 天后白苔脱落，舌面光滑呈牛肉色，味蕾仍较明显，称为“杨梅舌”。"
+          "（一）普通型。急性起病，可表现为高热伴咽痛，发病后次日出现皮疹"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_scarlet_fever_purulent_type",
+        "id": "sub_disease_scarlet_fever_septic",
         "name": "脓毒型猩红热",
         "parent_disease_id": "disease_scarlet_fever",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "幼托及学龄儿童",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "（二）脓毒型。\n在上述临床表现基础上，咽峡出现严重化脓性炎症，渗出物多，形成脓性假膜，局部粘膜可坏死、形成溃疡。细菌扩散到附近组织，导致化脓性中耳炎、鼻窦炎、乳突炎及颈淋巴结炎甚至颈部蜂窝织炎，亦可引起败血症及迁延性化脓性病灶。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_scarlet_fever_toxic_type",
-        "name": "中毒型猩红热",
-        "parent_disease_id": "disease_scarlet_fever",
-        "disease_subtype": null,
+        "disease_subtype": "脓毒型",
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": "幼托及学龄儿童",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（三）中毒型。\n全身中毒症状明显，高热、头痛、剧烈呕吐，惊厥、神志不清，甚至昏迷，可出现中毒性心肌炎、中毒型肝炎及中毒性休克综合征。"
+          "（二）脓毒型。在上述临床表现基础上，咽峡出现严重化脓性炎症"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_scarlet_fever_surgical_obstetric_type",
+        "id": "sub_disease_scarlet_fever_toxic",
+        "name": "中毒型猩红热",
+        "parent_disease_id": "disease_scarlet_fever",
+        "disease_subtype": "中毒型",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（三）中毒型。全身中毒症状明显，高热、头痛、剧烈呕吐，惊厥、神志不清"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_scarlet_fever_surgical_obstetric",
         "name": "外科型或产科型猩红热",
         "parent_disease_id": "disease_scarlet_fever",
-        "disease_subtype": null,
+        "disease_subtype": "外科型或产科型",
         "clinical_stage": "不限定",
         "severity": "中重症",
-        "population": "有皮肤创伤或产道暴露者",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（四）外科型或产科型。\n病原菌从皮肤创伤处或产道侵入而致病，皮疹首先出现在伤口周围，可有局部化脓病灶，然后向全身蔓延，常无咽峡炎。"
+          "（四）外科型或产科型。病原菌从皮肤创伤处或产道侵入而致病"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_scarlet_fever_complication_rheumatic_fever",
-        "name": "猩红热后风湿热",
+        "id": "sub_disease_scarlet_fever_confirmed",
+        "name": "猩红热确诊病例",
         "parent_disease_id": "disease_scarlet_fever",
-        "disease_subtype": null,
+        "disease_subtype": "确诊病例",
         "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "儿童",
+        "severity": "不限定",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（五）并发症。\n1.感染直接蔓延侵袭临近组织器官……\n2.细菌通过血行播散引起败血症及迁徙性病灶……\n3.非化脓性并发症发病与变态反应有关，主要有：\n（1）风湿热：通常发生在感染后 3 周左右。"
+          "（三）确诊病例。疑似或临床诊断病例，具有以下任一项者"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_scarlet_fever_complication_glomerulonephritis",
-        "name": "猩红热后肾小球肾炎",
-        "parent_disease_id": "disease_scarlet_fever",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "儿童",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "（3）肾小球肾炎：多发生在感染后 2~3 周。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_scarlet_fever_complication_reactive_arthritis",
-        "name": "猩红热后反应性关节炎",
-        "parent_disease_id": "disease_scarlet_fever",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "轻症",
-        "population": "儿童",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "（3）反应性关节炎：多发生在感染后 10 天内。"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "symptoms": [
       {
         "id": "symptom_fever",
-        "name": "发热",
+        "name": "高热",
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
@@ -151,53 +119,29 @@
         "evidence_ids": [
           "急性起病，可表现为高热伴咽痛"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "symptom_pharyngitis",
+        "id": "symptom_sore_throat",
         "name": "咽痛",
-        "body_site": "咽部",
+        "body_site": "咽喉",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
           "急性起病，可表现为高热伴咽痛"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "symptom_scarlatiniform_rash",
-        "name": "猩红热样皮疹",
+        "id": "symptom_rash",
+        "name": "猩红色弥漫细小斑丘疹",
         "body_site": "皮肤",
-        "symptom_category": "皮肤黏膜症状",
+        "symptom_category": "皮肤症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "发病后次日出现皮疹，皮疹始见于耳后、颈及上胸部，1 天内蔓延至全身。典型的皮疹为在皮肤充血的基础上有猩红色弥漫细小斑丘疹，压之褪色，皮疹隆起如“鸡皮疙瘩”，顶端可见粟粒状小疱疹"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_perioral_pallor",
-        "name": "口周苍白圈",
-        "body_site": "面部",
-        "symptom_category": "皮肤黏膜症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "面部皮肤充血，口、鼻周围充血不明显，形成“口周苍白圈”"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_pastia_line",
-        "name": "帕氏线",
-        "body_site": "皮肤皱褶处",
-        "symptom_category": "皮肤黏膜症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "在腋下、肘部及腹股沟的皮肤皱褶处，皮疹密集，色深红，间或有出血点，呈横线状，称之为“帕氏线”"
+          "典型的皮疹为在皮肤充血的基础上有猩红色弥漫细小斑丘疹"
         ],
         "confidence": 0.95
       },
@@ -205,144 +149,88 @@
         "id": "symptom_strawberry_tongue",
         "name": "草莓舌",
         "body_site": "口腔",
-        "symptom_category": "消化系统症状",
+        "symptom_category": "消化系统/口腔症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "部分患者在病程 1~2 天出现舌苔厚白，舌乳头红肿，突出于白苔之上，以舌尖及边缘处显著，称为“草莓舌”"
+          "舌乳头红肿，突出于白苔之上，以舌尖及边缘处显著，称为“草莓舌”"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_raspberry_tongue",
         "name": "杨梅舌",
         "body_site": "口腔",
-        "symptom_category": "消化系统症状",
+        "symptom_category": "消化系统/口腔症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "2~3 天后白苔脱落，舌面光滑呈牛肉色，味蕾仍较明显，称为“杨梅舌”"
+          "舌面光滑呈牛肉色，味蕾仍较明显，称为“杨梅舌”"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_circumoral_pallor",
+        "name": "口周苍白圈",
+        "body_site": "面部",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "面部皮肤充血，口、鼻周围充血不明显，形成“口周苍白圈”"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_pastia_lines",
+        "name": "帕氏线",
+        "body_site": "皮肤皱褶处",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "在腋下、肘部及腹股沟的皮肤皱褶处，皮疹密集，色深红，间或有出血点，呈横线状，称之为“帕氏线”"
+        ],
+        "confidence": 0.9
       },
       {
         "id": "symptom_desquamation",
         "name": "脱屑",
         "body_site": "皮肤",
-        "symptom_category": "皮肤黏膜症状",
+        "symptom_category": "皮肤症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "皮疹多在 1 周内消退，1 周末至第 2 周开始脱屑，躯干常呈糠样脱屑，皮疹严重者四肢、手掌、足底可出现片状脱皮"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_headache",
-        "name": "头痛",
-        "body_site": "头部",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "全身中毒症状明显，高热、头痛、剧烈呕吐"
+          "1 周末至第 2 周开始脱屑，躯干常呈糠样脱屑"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_vomiting",
-        "name": "呕吐",
-        "body_site": "消化系统",
-        "symptom_category": "消化系统症状",
+        "id": "symptom_purulent_pharyngitis",
+        "name": "咽峡严重化脓性炎症",
+        "body_site": "咽喉",
+        "symptom_category": "呼吸系统症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
-          "全身中毒症状明显，高热、头痛、剧烈呕吐"
+          "咽峡出现严重化脓性炎症，渗出物多，形成脓性假膜"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_convulsion",
-        "name": "惊厥",
-        "body_site": "神经系统",
-        "symptom_category": "神经系统症状",
+        "id": "symptom_systemic_toxicity",
+        "name": "全身中毒症状",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
-          "惊厥、神志不清，甚至昏迷"
+          "全身中毒症状明显，高热、头痛、剧烈呕吐，惊厥、神志不清，甚至昏迷"
         ],
         "confidence": 0.9
-      },
-      {
-        "id": "symptom_altered_mentation",
-        "name": "神志不清",
-        "body_site": "神经系统",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "惊厥、神志不清，甚至昏迷"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_coma",
-        "name": "昏迷",
-        "body_site": "神经系统",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "惊厥、神志不清，甚至昏迷"
-        ],
-        "confidence": 0.85
       }
     ],
     "tests": [
-      {
-        "id": "test_blood_culture_gasp",
-        "name": "咽扁桃体或伤口分泌物培养检出A族β型溶血性链球菌",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "1.细菌培养：咽扁桃体或伤口等处分泌物或渗出物培养到 GAS。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_pcr_gasp_nucleic_acid",
-        "name": "咽拭子等标本GAS核酸检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "2.核酸检测：PCR 法检测咽拭子等标本中 GAS 核酸阳性。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_radt_gasp_antigen",
-        "name": "快速GAS抗原检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "3.抗原检测：快速 GAS 抗原检测（RADT），敏感性可达 60%~95%，特异性在 95%以上。阴性结果不能排除诊断。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_aso_titer",
-        "name": "抗链球菌溶血素O（ASO）滴度",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "4.血清学检查：抗链球菌溶血素 O（Antistreptolysin O，ASO）阳转或恢复期较急性期滴度呈 2 倍及以上升高，具有诊断价值。"
-        ],
-        "confidence": 0.95
-      },
       {
         "id": "test_wbc_count",
         "name": "外周血白细胞计数",
@@ -350,108 +238,235 @@
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "1.血常规：外周血白细胞计数升高，以中性粒细胞计数升高为主，可出现核左移。"
+          "外周血白细胞计数升高，以中性粒细胞计数升高为主"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_neutrophil_count",
+        "name": "中性粒细胞计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "外周血白细胞计数升高，以中性粒细胞计数升高为主"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_gas_culture",
+        "name": "GAS细菌培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "咽扁桃体或伤口等处分泌物或渗出物培养到 GAS"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_urine_protein",
-        "name": "尿蛋白",
+        "id": "test_gas_pcr",
+        "name": "GAS核酸检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "2.尿常规：急性期或恢复早期，尿中可出现一过性蛋白尿、镜下血尿，感染 2 周后出现蛋白尿、血尿等急性肾炎表现提示变态反应并发症可能。"
+          "PCR 法检测咽拭子等标本中 GAS 核酸阳性"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_gas_antigen",
+        "name": "快速GAS抗原检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "快速 GAS 抗原检测（RADT），敏感性可达 60%~95%，特异性在 95%以上"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_urine_hematuria",
-        "name": "镜下血尿",
+        "id": "test_aso",
+        "name": "抗链球菌溶血素O（ASO）",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "2.尿常规：急性期或恢复早期，尿中可出现一过性蛋白尿、镜下血尿，感染 2 周后出现蛋白尿、血尿等急性肾炎表现提示变态反应并发症可能。"
+          "抗链球菌溶血素 O（Antistreptolysin O，ASO）阳转或恢复期较急性期滴度呈 2 倍及以上升高"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "treatments": [
       {
-        "id": "treatment_scarlet_fever_control_infection",
-        "content": "治疗原则为控制感染，抗菌药物应足量、全程，有助于缩短病程，预防风湿热、肾小球肾炎等并发症。",
+        "id": "treatment_symptomatic_support",
+        "content": "按呼吸道传染病隔离。做好皮肤和口腔护理，补充水、电解质，给予必要的营养，高热可予非甾体类抗炎药等退热",
         "recommendation_strength": "strong",
-        "source_section": "八、治疗",
+        "source_section": "对症支持治疗",
         "evidence_ids": [
-          "治疗原则为控制感染，抗菌药物应足量、全程，有助于缩短病程，预防风湿热、肾小球肾炎等并发症。"
+          "按呼吸道传染病隔离。做好皮肤和口腔护理，补充水、电解质，给予必要的营养，高热可予非甾体类抗炎药等退热"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_antimicrobial_first_line",
+        "content": "青霉素类：阿莫西林或青霉素G，疗程为7~10天",
+        "recommendation_strength": "strong",
+        "source_section": "病原治疗",
+        "evidence_ids": [
+          "1.一线药物。青霉素类：阿莫西林...青霉素 G...疗程为7~10 天"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "treatment_antimicrobial_second_line",
+        "content": "青霉素过敏史者，可选用头孢羟氨苄、头孢呋辛酯或红霉素，疗程7~10天",
+        "recommendation_strength": "strong",
+        "source_section": "病原治疗",
+        "evidence_ids": [
+          "2.二线药物。青霉素过敏史者，可选用头孢羟氨苄...头孢呋辛酯...红霉素...疗程7~10 天"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_tcm_common",
+        "content": "普通型：解肌透痧汤",
+        "recommendation_strength": "strong",
+        "source_section": "中医治疗",
+        "evidence_ids": [
+          "1.普通型。...推荐方剂：解肌透痧汤"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_tcm_severe",
+        "content": "重型：凉营清气汤，推荐中成药：喜炎平注射液、血必净注射液",
+        "recommendation_strength": "strong",
+        "source_section": "中医治疗",
+        "evidence_ids": [
+          "2.重型。...推荐方剂：凉营清气汤。...推荐中成药：喜炎平注射液、血必净注射液"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_tcm_recovery",
+        "content": "恢复期：沙参麦冬汤",
+        "recommendation_strength": "strong",
+        "source_section": "中医治疗",
+        "evidence_ids": [
+          "3.恢复期。...推荐方剂：沙参麦冬汤"
+        ],
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_amoxicillin_pediatric",
-        "content": "阿莫西林：儿童 50mg/(kg·d)，最大剂量 1000mg /d，分 3 次，8 小时 1 次",
+        "id": "plan_isolation",
+        "content": "按呼吸道传染病隔离",
         "plan_level": 1,
-        "applicable_condition": "一线药物，青霉素类敏感者",
+        "applicable_condition": "所有猩红热患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "青霉素类：阿莫西林：儿童 50mg/(kg·d)，最大剂量 1000mg /d，分 3 次，8 小时 1 次，成人 500mg/次，2 次/天，口服"
+          "按呼吸道传染病隔离"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_penicillin_g_pediatric",
-        "content": "青霉素 G：儿童 4 万~8 万 U/(kg·d)，分 2 次，12 小时 1 次",
+        "id": "plan_amoxicillin",
+        "content": "阿莫西林：儿童 50mg/(kg·d)，最大剂量1000mg /d，分 3 次，8 小时 1 次，成人 500mg/次，2 次/天，口服",
         "plan_level": 1,
-        "applicable_condition": "一线药物，青霉素类敏感者",
+        "applicable_condition": "一线治疗",
         "contraindication_note": null,
         "evidence_ids": [
-          "青霉素 G：儿童 4 万~8 万 U/(kg·d)，分 2 次，12 小时 1 次，成人 120~240 万 U/次，2~3 次/天，肌内注射。疗程为 7~10 天。"
+          "阿莫西林：儿童 50mg/(kg·d)，最大剂量1000mg /d，分 3 次，8 小时 1 次，成人 500mg/次，2 次/天，口服"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_cephradine_pediatric",
-        "content": "头孢羟氨苄：儿童 30mg/(kg·d)，12 小时 1 次",
-        "plan_level": 2,
-        "applicable_condition": "青霉素过敏史者",
+        "id": "plan_penicillin_g",
+        "content": "青霉素 G：儿童 4 万~8 万 U/(kg·d)，分 2 次，12 小时1 次，成人 120~240 万 U/次，2~3 次/天，肌内注射",
+        "plan_level": 1,
+        "applicable_condition": "一线治疗",
         "contraindication_note": null,
         "evidence_ids": [
-          "青霉素过敏史者，可选用头孢羟氨苄：儿童 30mg/(kg·d)，12 小时 1 次；成人 1g/次，一天 1 次，口服。"
+          "青霉素 G：儿童 4 万~8 万 U/(kg·d)，分 2 次，12 小时1 次，成人 120~240 万 U/次，2~3 次/天，肌内注射"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_cefuroxime_axetil_pediatric",
-        "content": "头孢呋辛酯：儿童 20~30mg/(kg·d)，12 小时 1 次",
+        "id": "plan_cefadroxil",
+        "content": "头孢羟氨苄：儿童 30mg/(kg·d)，12 小时 1 次；成人 1g/次，一天 1 次，口服",
         "plan_level": 2,
         "applicable_condition": "青霉素过敏史者",
         "contraindication_note": null,
         "evidence_ids": [
-          "头孢呋辛酯：儿童 20~30mg/(kg·d)，12 小时 1 次；成人 250mg/次，12 小时 1 次，口服。"
+          "头孢羟氨苄：儿童 30mg/(kg·d)，12 小时 1 次；成人 1g/次，一天 1 次，口服"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_erythromycin_pediatric",
-        "content": "红霉素：儿童 30~40mg/(kg·d)，分 4 次，6 小时 1 次",
+        "id": "plan_cefuroxime",
+        "content": "头孢呋辛酯：儿童 20~30mg/(kg·d)，12 小时 1 次；成人 250mg/次，12 小时 1 次，口服",
         "plan_level": 2,
         "applicable_condition": "青霉素过敏史者",
         "contraindication_note": null,
         "evidence_ids": [
-          "红霉素：儿童 30~40mg/(kg·d)，分 4 次，6 小时 1 次；成人 1~2g/d，分 3 次，8 小时 1 次，口服。疗程 7~10 天。"
+          "头孢呋辛酯：儿童 20~30mg/(kg·d)，12 小时 1 次；成人 250mg/次，12 小时 1 次，口服"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_erythromycin",
+        "content": "红霉素：儿童 30~40mg/(kg·d)，分 4 次，6小时 1 次；成人 1~2g/d，分 3 次，8 小时 1 次，口服",
+        "plan_level": 2,
+        "applicable_condition": "青霉素过敏史者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "红霉素：儿童 30~40mg/(kg·d)，分 4 次，6小时 1 次；成人 1~2g/d，分 3 次，8 小时 1 次，口服"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_jiejitousha_decoction",
+        "content": "解肌透痧汤。常用药物与参考剂量：荆芥穗 9g、牛蒡子 12g、蝉蜕 6g、浮萍 15g、僵蚕 10g、射干 6g、淡豆豉 10g、马勃 6g、葛根12g、甘草 3g、桔梗 6g、金银花 10g、连翘 12g、薄荷 6g（后下）",
+        "plan_level": 1,
+        "applicable_condition": "中医普通型",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：解肌透痧汤。常用药物与参考剂量：荆芥穗 9g、牛蒡子 12g、蝉蜕 6g、浮萍 15g、僵蚕 10g、射干 6g、淡豆豉 10g、马勃 6g、葛根12g、甘草 3g、桔梗 6g、金银花 10g、连翘 12g、薄荷 6g（后下）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_liangyingqingqi_decoction",
+        "content": "凉营清气汤。常用药物与参考剂量：水牛角 30g（先煎）、赤芍 12g、牡丹皮 12g、生石膏 30g（先煎）、知母 10g、黄连 5g、黄芩 10g、栀子 10g、桔梗 6g、连翘 12g、玄参 15g、甘草 5g",
+        "plan_level": 1,
+        "applicable_condition": "中医重型",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：凉营清气汤。常用药物与参考剂量：水牛角 30g（先煎）、赤芍 12g、牡丹皮 12g、生石膏 30g（先煎）、知母 10g、黄连 5g、黄芩 10g、栀子 10g、桔梗 6g、连翘 12g、玄参 15g、甘草 5g"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_shashenmaidong_decoction",
+        "content": "沙参麦冬汤。常用药物与参考剂量：南沙参 30g、麦冬 12g、玉竹 12g、天花粉 30g、玄参 15g、桔梗 6g、白扁豆 10g、桑叶 6g、甘草 5g",
+        "plan_level": 1,
+        "applicable_condition": "中医恢复期",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：沙参麦冬汤。常用药物与参考剂量：南沙参 30g、麦冬 12g、玉竹 12g、天花粉 30g、玄参 15g、桔梗 6g、白扁豆 10g、桑叶 6g、甘草 5g"
+        ],
+        "confidence": 0.9
       }
     ],
     "etiologies": [
       {
         "id": "etiology_gas_infection",
-        "content": "A族β型溶血性链球菌（Group A Streptococcus，GAS）感染",
+        "content": "A族β型溶血性链球菌（GAS）感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
           "猩红热（Scarlet Fever）为 A 族β型溶血性链球菌（Group A Streptococcus，GAS）感染引起的急性呼吸道传染病"
@@ -461,10 +476,18 @@
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_gas_toxin_mediated",
-        "content": "GAS产生的致热外毒素（红疹毒素）可致发热、猩红热皮疹、抑制吞噬系统和T细胞功能，触发Schwartzman反应；致热外毒素充当超抗原与抗原提呈细胞MHC-Ⅱ及T细胞受体β链V区结合，刺激T细胞应答，产生介导组织损伤和休克的细胞因子，如IL-1、TNF-α、TNF-β、IL-6和干扰素-γ，导致坏死性筋膜炎、中毒性休克综合征（STSS）、川崎病和急性风湿热（ARF）。",
+        "id": "pathogenesis_toxin_release",
+        "content": "GAS进入呼吸道黏膜后迅速繁殖，产生多种毒力因子，致热外毒素入血后引起发热，红疹毒素使皮肤血管充血、水肿，形成典型的猩红热样皮疹",
         "evidence_ids": [
-          "致热外毒素即红疹毒素，可致发热、猩红热皮疹、抑制吞噬系统和 T 细胞功能，触发 Schwartzman 反应。……致热外毒素充当超抗原与抗原提呈细胞主要组织相容性复合体Ⅱ类（MHC-Ⅱ）及 T 细胞受体β链 V 区结合，刺激 T 细胞应答，产生介导组织损伤和休克的细胞因子，如 IL-1、TNF-α、TNF-β、IL-6 和干扰素-γ，导致坏死性筋膜炎、中毒性休克综合征（Streptococcal Toxic-Shock Syndrome，STSS）、川崎病和急性风湿热（Acute Rheumatic Fever，ARF）"
+          "GAS 进入呼吸道黏膜后迅速繁殖， 产生多种毒力因子...致热外毒素入血后引起发热...红疹毒素使皮肤血管充血、水肿，上皮细胞增殖，白细胞浸润，以毛囊周围最明显，形成典型的猩红热样皮疹"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_superantigen",
+        "content": "致热外毒素充当超抗原与MHC-Ⅱ及T细胞受体结合，刺激T细胞应答，产生介导组织损伤和休克的细胞因子",
+        "evidence_ids": [
+          "致热外毒素充当超抗原与抗原提呈细胞主要组织相容性复合物Ⅱ类（MHC-Ⅱ）及 T 细胞受体β链 V 区结合，刺激 T细胞应答，产生介导组织损伤和休克的细胞因子"
         ],
         "confidence": 0.9
       }
@@ -474,92 +497,70 @@
     "has_sub_disease": [
       {
         "from": "disease_scarlet_fever",
-        "to": "sub_disease_scarlet_fever_common_type",
-        "relation_id": "rel_scarlet_fever_has_common_type",
+        "to": "sub_disease_scarlet_fever_common",
+        "relation_id": "rel_scarlet_fever_has_common",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（一）普通型。\n急性起病，可表现为高热伴咽痛……"
+          "（一）普通型"
         ],
         "confidence": 0.95
       },
       {
         "from": "disease_scarlet_fever",
-        "to": "sub_disease_scarlet_fever_purulent_type",
-        "relation_id": "rel_scarlet_fever_has_purulent_type",
+        "to": "sub_disease_scarlet_fever_septic",
+        "relation_id": "rel_scarlet_fever_has_septic",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（二）脓毒型。\n在上述临床表现基础上，咽峡出现严重化脓性炎症……"
+          "（二）脓毒型"
         ],
         "confidence": 0.95
       },
       {
         "from": "disease_scarlet_fever",
-        "to": "sub_disease_scarlet_fever_toxic_type",
-        "relation_id": "rel_scarlet_fever_has_toxic_type",
+        "to": "sub_disease_scarlet_fever_toxic",
+        "relation_id": "rel_scarlet_fever_has_toxic",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（三）中毒型。\n全身中毒症状明显，高热、头痛、剧烈呕吐……"
+          "（三）中毒型"
         ],
         "confidence": 0.95
       },
       {
         "from": "disease_scarlet_fever",
-        "to": "sub_disease_scarlet_fever_surgical_obstetric_type",
-        "relation_id": "rel_scarlet_fever_has_surgical_obstetric_type",
+        "to": "sub_disease_scarlet_fever_surgical_obstetric",
+        "relation_id": "rel_scarlet_fever_has_surgical_obstetric",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（四）外科型或产科型。\n病原菌从皮肤创伤处或产道侵入而致病……"
+          "（四）外科型或产科型"
         ],
         "confidence": 0.95
       },
       {
         "from": "disease_scarlet_fever",
-        "to": "sub_disease_scarlet_fever_complication_rheumatic_fever",
-        "relation_id": "rel_scarlet_fever_has_rheumatic_fever",
+        "to": "sub_disease_scarlet_fever_confirmed",
+        "relation_id": "rel_scarlet_fever_has_confirmed",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（五）并发症。\n……（1）风湿热：通常发生在感染后 3 周左右。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_scarlet_fever",
-        "to": "sub_disease_scarlet_fever_complication_glomerulonephritis",
-        "relation_id": "rel_scarlet_fever_has_glomerulonephritis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "（3）肾小球肾炎：多发生在感染后 2~3 周。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_scarlet_fever",
-        "to": "sub_disease_scarlet_fever_complication_reactive_arthritis",
-        "relation_id": "rel_scarlet_fever_has_reactive_arthritis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "（3）反应性关节炎：多发生在感染后 10 天内。"
+          "（三）确诊病例"
         ],
         "confidence": 0.95
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_scarlet_fever_common_type",
+        "from": "sub_disease_scarlet_fever_common",
         "to": "symptom_fever",
-        "relation_id": "rel_common_type_manifests_as_fever",
+        "relation_id": "rel_common_manifests_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
@@ -568,19 +569,19 @@
         "evidence_ids": [
           "急性起病，可表现为高热伴咽痛"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确列为普通型首要临床表现：'急性起病，可表现为高热伴咽痛'",
+        "confidence": 0.9,
+        "weight_reason": "原文指出普通型急性起病可表现为高热",
         "evidence": "急性起病，可表现为高热伴咽痛"
       },
       {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "symptom_pharyngitis",
-        "relation_id": "rel_common_type_manifests_as_pharyngitis",
+        "from": "sub_disease_scarlet_fever_common",
+        "to": "symptom_sore_throat",
+        "relation_id": "rel_common_manifests_sore_throat",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
@@ -589,14 +590,14 @@
         "evidence_ids": [
           "急性起病，可表现为高热伴咽痛"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确列为普通型首要临床表现：'急性起病，可表现为高热伴咽痛'，'咽痛'即咽峡炎核心症状",
+        "confidence": 0.9,
+        "weight_reason": "原文指出普通型急性起病可表现为咽痛",
         "evidence": "急性起病，可表现为高热伴咽痛"
       },
       {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "symptom_scarlatiniform_rash",
-        "relation_id": "rel_common_type_manifests_as_scarlatiniform_rash",
+        "from": "sub_disease_scarlet_fever_common",
+        "to": "symptom_rash",
+        "relation_id": "rel_common_manifests_rash",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
@@ -608,41 +609,62 @@
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "发病后次日出现皮疹，皮疹始见于耳后、颈及上胸部，1 天内蔓延至全身。典型的皮疹为在皮肤充血的基础上有猩红色弥漫细小斑丘疹"
+          "典型的皮疹为在皮肤充血的基础上有猩红色弥漫细小斑丘疹"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确描述为'典型的猩红热样皮疹'，且在普通型中作为标志性表现独立列出",
-        "evidence": "典型的猩红热样皮疹"
+        "weight_reason": "原文指出普通型发病后次日出现皮疹，为典型核心表现",
+        "evidence": "发病后次日出现皮疹"
       },
       {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "symptom_perioral_pallor",
-        "relation_id": "rel_common_type_manifests_as_perioral_pallor",
+        "from": "sub_disease_scarlet_fever_common",
+        "to": "symptom_strawberry_tongue",
+        "relation_id": "rel_common_manifests_strawberry_tongue",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 10,
+        "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "面部皮肤充血，口、鼻周围充血不明显，形成“口周苍白圈”"
+          "称为“草莓舌”"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确命名为'口周苍白圈'并定义为典型体征：'面部皮肤充血，口、鼻周围充血不明显，形成“口周苍白圈”'",
+        "confidence": 0.9,
+        "weight_reason": "原文指出部分患者在病程中出现草莓舌",
+        "evidence": "部分患者在病程1~2天出现舌苔厚白，舌乳头红肿，突出于白苔之上，以舌尖及边缘处显著，称为“草莓舌”"
+      },
+      {
+        "from": "sub_disease_scarlet_fever_common",
+        "to": "symptom_circumoral_pallor",
+        "relation_id": "rel_common_manifests_circumoral_pallor",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "形成“口周苍白圈”"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出面部充血而口鼻周围不明显形成口周苍白圈",
         "evidence": "面部皮肤充血，口、鼻周围充血不明显，形成“口周苍白圈”"
       },
       {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "symptom_pastia_line",
-        "relation_id": "rel_common_type_manifests_as_pastia_line",
+        "from": "sub_disease_scarlet_fever_septic",
+        "to": "symptom_purulent_pharyngitis",
+        "relation_id": "rel_septic_manifests_purulent_pharyngitis",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
         "weight": 10,
         "criterion_group_id": null,
         "required_count": null,
@@ -650,218 +672,158 @@
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "在腋下、肘部及腹股沟的皮肤皱褶处，皮疹密集，色深红，间或有出血点，呈横线状，称之为“帕氏线”"
+          "咽峡出现严重化脓性炎症，渗出物多，形成脓性假膜"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确命名为'帕氏线'并定义为典型体征：'在腋下、肘部及腹股沟的皮肤皱褶处，皮疹密集，色深红，间或有出血点，呈横线状，称之为“帕氏线”'",
-        "evidence": "在腋下、肘部及腹股沟的皮肤皱褶处，皮疹密集，色深红，间或有出血点，呈横线状，称之为“帕氏线”"
+        "weight_reason": "原文指出脓毒型咽峡出现严重化脓性炎症",
+        "evidence": "咽峡出现严重化脓性炎症"
       },
       {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "symptom_strawberry_tongue",
-        "relation_id": "rel_common_type_manifests_as_strawberry_tongue",
+        "from": "sub_disease_scarlet_fever_toxic",
+        "to": "symptom_systemic_toxicity",
+        "relation_id": "rel_toxic_manifests_systemic_toxicity",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "部分患者在病程 1~2 天出现舌苔厚白，舌乳头红肿，突出于白苔之上，以舌尖及边缘处显著，称为“草莓舌”"
+          "全身中毒症状明显，高热、头痛、剧烈呕吐，惊厥、神志不清"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "symptom_raspberry_tongue",
-        "relation_id": "rel_common_type_manifests_as_raspberry_tongue",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "2~3 天后白苔脱落，舌面光滑呈牛肉色，味蕾仍较明显，称为“杨梅舌”"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "symptom_desquamation",
-        "relation_id": "rel_common_type_manifests_as_desquamation",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "皮疹多在 1 周内消退，1 周末至第 2 周开始脱屑，躯干常呈糠样脱屑，皮疹严重者四肢、手掌、足底可出现片状脱皮"
-        ],
-        "confidence": 0.95
+        "confidence": 0.95,
+        "weight_reason": "原文指出中毒型全身中毒症状明显",
+        "evidence": "全身中毒症状明显"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "test_blood_culture_gasp",
-        "relation_id": "rel_common_type_requires_culture",
+        "from": "sub_disease_scarlet_fever_confirmed",
+        "to": "test_gas_culture",
+        "relation_id": "rel_confirmed_requires_gas_culture",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
         "result_text": "培养到 GAS",
-        "weight": 1,
+        "weight": 10,
         "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "confirmed_criteria_1_of_4",
+        "required_count": 1,
         "polarity": "positive",
         "typicality": "typical",
         "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "1.细菌培养：咽扁桃体或伤口等处分泌物或渗出物培养到 GAS。"
+          "1.扁桃体或伤口等处分泌物或渗出物培养到 GAS"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文未将血培养列为猩红热诊断方法；细菌培养部位明确限定为'咽扁桃体或伤口等处分泌物或渗出物'，非血液；'血培养'未出现",
-        "evidence": "细菌培养：咽扁桃体或伤口等处分泌物或渗出物培养到GAS"
+        "weight_reason": "原文列为确诊病例的任一项标准，但未明确提及金标准字眼",
+        "evidence": "扁桃体或伤口等处分泌物或渗出物培养到GAS"
       },
       {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "test_pcr_gasp_nucleic_acid",
-        "relation_id": "rel_common_type_requires_pcr",
+        "from": "sub_disease_scarlet_fever_confirmed",
+        "to": "test_gas_pcr",
+        "relation_id": "rel_confirmed_requires_gas_pcr",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
         "result_text": "GAS 核酸检测阳性",
-        "weight": 100,
+        "weight": 10,
         "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "confirmed_criteria_1_of_4",
+        "required_count": 1,
         "polarity": "positive",
         "typicality": "typical",
         "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "2.核酸检测：PCR 法检测咽拭子等标本中 GAS 核酸阳性。"
+          "2.咽拭子等标本中 GAS 核酸检测阳性"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文在'确诊病例'标准中明确列为第2项：'咽拭子等标本中 GAS 核酸检测阳性'，属确诊依据之一，与培养并列，符合金标准语境",
-        "evidence": "确诊病例。疑似或临床诊断病例，具有以下任一项者：2.咽拭子等标本中GAS核酸检测阳性"
+        "weight_reason": "原文列为确诊病例的任一项标准，但未明确提及金标准字眼",
+        "evidence": "咽拭子等标本中GAS核酸检测阳性"
       },
       {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "test_radt_gasp_antigen",
-        "relation_id": "rel_common_type_requires_radt",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断推荐项",
-        "diagnostic_role": "recommended",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "GAS 抗原检测阳性",
-        "weight": 6,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "common",
-        "section_priority": "诊断",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "3.抗原检测：快速 GAS 抗原检测（RADT），敏感性可达 60%~95%，特异性在 95%以上。阴性结果不能排除诊断。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "test_aso_titer",
-        "relation_id": "rel_common_type_requires_aso",
+        "from": "sub_disease_scarlet_fever_confirmed",
+        "to": "test_gas_antigen",
+        "relation_id": "rel_confirmed_requires_gas_antigen",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": "between",
+        "operator": null,
         "unit": null,
+        "result_text": "GAS 抗原检测阳性",
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": "confirmed_criteria_1_of_4",
+        "required_count": 1,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "3.GAS 抗原检测阳性"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文列为确诊病例的任一项标准，但未明确提及金标准字眼",
+        "evidence": "GAS抗原检测阳性"
+      },
+      {
+        "from": "sub_disease_scarlet_fever_confirmed",
+        "to": "test_aso",
+        "relation_id": "rel_confirmed_requires_aso",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": 2,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "倍",
         "result_text": "ASO 阳转或恢复期较急性期滴度呈 2 倍及以上升高",
         "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
+        "gold_standard": true,
+        "criterion_group_id": "confirmed_criteria_1_of_4",
+        "required_count": 1,
         "polarity": "elevated",
         "typicality": "typical",
         "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "4.血清学检查：抗链球菌溶血素 O（Antistreptolysin O，ASO）阳转或恢复期较急性期滴度呈 2 倍及以上升高，具有诊断价值。"
+          "4.ASO 阳转或恢复期较急性期滴度呈 2 倍及以上升高"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文列为确诊病例第4项，但注明是'ASO阳转或恢复期较急性期滴度呈2倍及以上升高'，属回顾性/支持性证据，非早期诊断金标准",
-        "evidence": "4.ASO阳转或恢复期较急性期滴度呈2倍及以上升高"
-      },
-      {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "test_wbc_count",
-        "relation_id": "rel_common_type_requires_wbc",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断支持证据",
-        "diagnostic_role": "supportive",
-        "value_min": 10.0,
-        "value_max": null,
-        "operator": ">",
-        "unit": "×10⁹/L",
-        "result_text": null,
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "elevated",
-        "typicality": "common",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "1.血常规：外周血白细胞计数升高，以中性粒细胞计数升高为主，可出现核左移。"
-        ],
-        "confidence": 0.95
+        "weight_reason": "原文列为确诊病例的任一项标准，但未明确提及金标准字眼",
+        "evidence": "ASO阳转或恢复期较急性期滴度呈2倍及以上升高"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "treatment_scarlet_fever_control_infection",
-        "relation_id": "rel_common_type_follows_control_infection",
+        "from": "sub_disease_scarlet_fever_common",
+        "to": "treatment_symptomatic_support",
+        "relation_id": "rel_common_follows_symptomatic",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后",
+        "applicable_condition": "所有患者",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
@@ -869,45 +831,249 @@
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "八、治疗",
+        "source_section": "对症支持治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_scarlet_fever_common",
+        "to": "treatment_antimicrobial_first_line",
+        "relation_id": "rel_common_follows_first_line",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "无青霉素过敏史",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "过敏史"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "病原治疗",
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_scarlet_fever_common",
+        "to": "treatment_antimicrobial_second_line",
+        "relation_id": "rel_common_follows_second_line",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "青霉素过敏史者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "过敏史"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "病原治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_scarlet_fever_common",
+        "to": "treatment_tcm_common",
+        "relation_id": "rel_common_follows_tcm_common",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "中医普通型",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "中医辨证"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "中医治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_scarlet_fever_septic",
+        "to": "treatment_tcm_severe",
+        "relation_id": "rel_septic_follows_tcm_severe",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "中医重型",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "中医辨证"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "中医治疗",
+        "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_scarlet_fever_control_infection",
-        "to": "plan_amoxicillin_pediatric",
-        "relation_id": "rel_treatment_implements_by_amoxicillin",
+        "from": "treatment_symptomatic_support",
+        "to": "plan_isolation",
+        "relation_id": "rel_symptomatic_implements_isolation",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "青霉素类敏感者",
+        "applicable_condition": "所有患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "青霉素类：阿莫西林：儿童 50mg/(kg·d)，最大剂量 1000mg /d，分 3 次，8 小时 1 次，成人 500mg/次，2 次/天，口服"
+          "按呼吸道传染病隔离"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_scarlet_fever_control_infection",
-        "to": "plan_penicillin_g_pediatric",
-        "relation_id": "rel_treatment_implements_by_penicillin_g",
+        "from": "treatment_antimicrobial_first_line",
+        "to": "plan_amoxicillin",
+        "relation_id": "rel_first_line_implements_amoxicillin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "青霉素类敏感者",
+        "applicable_condition": "无青霉素过敏史",
         "contraindication_note": null,
         "evidence_ids": [
-          "青霉素 G：儿童 4 万~8 万 U/(kg·d)，分 2 次，12 小时 1 次，成人 120~240 万 U/次，2~3 次/天，肌内注射。疗程为 7~10 天。"
+          "青霉素类：阿莫西林"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "treatment_antimicrobial_first_line",
+        "to": "plan_penicillin_g",
+        "relation_id": "rel_first_line_implements_penicillin_g",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "无青霉素过敏史",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "青霉素 G"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antimicrobial_second_line",
+        "to": "plan_cefadroxil",
+        "relation_id": "rel_second_line_implements_cefadroxil",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "青霉素过敏史者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "可选用头孢羟氨苄"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antimicrobial_second_line",
+        "to": "plan_cefuroxime",
+        "relation_id": "rel_second_line_implements_cefuroxime",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "青霉素过敏史者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "头孢呋辛酯"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antimicrobial_second_line",
+        "to": "plan_erythromycin",
+        "relation_id": "rel_second_line_implements_erythromycin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "青霉素过敏史者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "红霉素"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_tcm_common",
+        "to": "plan_jiejitousha_decoction",
+        "relation_id": "rel_tcm_common_implements_jiejitousha",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "中医普通型",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：解肌透痧汤"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_tcm_severe",
+        "to": "plan_liangyingqingqi_decoction",
+        "relation_id": "rel_tcm_severe_implements_liangyingqingqi",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "中医重型",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：凉营清气汤"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_tcm_recovery",
+        "to": "plan_shashenmaidong_decoction",
+        "relation_id": "rel_tcm_recovery_implements_shashenmaidong",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "中医恢复期",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：沙参麦冬汤"
+        ],
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_scarlet_fever_common_type",
+        "from": "sub_disease_scarlet_fever_common",
         "to": "etiology_gas_infection",
-        "relation_id": "rel_common_type_causes_gas_infection",
+        "relation_id": "rel_common_causes_gas_infection",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "猩红热（Scarlet Fever）为 A 族β型溶血性链球菌（Group A Streptococcus，GAS）感染引起的急性呼吸道传染病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_scarlet_fever_septic",
+        "to": "etiology_gas_infection",
+        "relation_id": "rel_septic_causes_gas_infection",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "猩红热（Scarlet Fever）为 A 族β型溶血性链球菌（Group A Streptococcus，GAS）感染引起的急性呼吸道传染病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_scarlet_fever_toxic",
+        "to": "etiology_gas_infection",
+        "relation_id": "rel_toxic_causes_gas_infection",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -922,13 +1088,24 @@
     ],
     "explained_by": [
       {
-        "from": "sub_disease_scarlet_fever_common_type",
-        "to": "pathogenesis_gas_toxin_mediated",
-        "relation_id": "rel_common_type_explained_by_toxin",
+        "from": "sub_disease_scarlet_fever_common",
+        "to": "pathogenesis_toxin_release",
+        "relation_id": "rel_common_explained_by_toxin",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "致热外毒素即红疹毒素，可致发热、猩红热皮疹、抑制吞噬系统和 T 细胞功能，触发 Schwartzman 反应。……致热外毒素充当超抗原与抗原提呈细胞主要组织相容性复合体Ⅱ类（MHC-Ⅱ）及 T 细胞受体β链 V 区结合，刺激 T 细胞应答，产生介导组织损伤和休克的细胞因子，如 IL-1、TNF-α、TNF-β、IL-6 和干扰素-γ，导致坏死性筋膜炎、中毒性休克综合征（Streptococcal Toxic-Shock Syndrome，STSS）、川崎病和急性风湿热（Acute Rheumatic Fever，ARF）"
+          "致热外毒素入血后引起发热...红疹毒素使皮肤血管充血、水肿...形成典型的猩红热样皮疹"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_scarlet_fever_toxic",
+        "to": "pathogenesis_superantigen",
+        "relation_id": "rel_toxic_explained_by_superantigen",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "致热外毒素充当超抗原...刺激 T细胞应答，产生介导组织损伤和休克的细胞因子"
         ],
         "confidence": 0.9
       }

@@ -1,0 +1,881 @@
+{
+  "meta": {
+    "doc_id": "中国成人急性淋巴细胞白血病诊断与治疗指南（2024年版）解读",
+    "source_title": "《中国成人急性淋巴细胞白血病诊断与治疗指南（2024年版）》解读",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_adult_all",
+        "name": "成人急性淋巴细胞白血病",
+        "normalized_name": "成人急性淋巴细胞白血病",
+        "aliases": [
+          "ALL",
+          "成人ALL",
+          "急性淋巴细胞白血病"
+        ],
+        "source_document_ids": [
+          "《中国成人急性淋巴细胞白血病诊断与治疗指南（2024年版）》解读"
+        ],
+        "evidence_ids": [
+          "成人急性淋巴细胞白血病（ａｃｕｔｅ ｌｙｍｐｈｏｂｌａｓｔｉｃ ｌｅｕｋｅｍｉａ，ＡＬＬ）是成人最常见的急性白血病之一"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_ph_plus_all_standard_risk",
+        "name": "Ph+ ALL标危组",
+        "parent_disease_id": "disease_adult_all",
+        "disease_subtype": "Ph+ ALL",
+        "clinical_stage": "不限定",
+        "severity": "标危",
+        "population": "成人",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "ＢＣＲ∷ＡＢＬ１阳性不伴ＩＫＺＦ１ ｐｌｕｓ且无慢性髓性白血病（ＣＭＬ）病史的Ｐｈ＋－ＡＬＬ患者归为标危组"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ph_plus_all_high_risk",
+        "name": "Ph+ ALL高危组",
+        "parent_disease_id": "disease_adult_all",
+        "disease_subtype": "Ph+ ALL",
+        "clinical_stage": "不限定",
+        "severity": "高危",
+        "population": "成人",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "ＢＣＲ∷ＡＢＬ１阳性伴ＩＫＺＦ１ ｐｌｕｓ和（或）ＣＭＬ病史的Ｐｈ＋－ＡＬＬ患者依旧是高危组"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ph_minus_all_aya",
+        "name": "Ph- ALL AYA患者",
+        "parent_disease_id": "disease_adult_all",
+        "disease_subtype": "Ph- ALL",
+        "clinical_stage": "初诊",
+        "severity": "不限定",
+        "population": "青少年和年轻成人(AYA)",
+        "gender": "all",
+        "age_min": 15,
+        "age_max": 39,
+        "evidence_ids": [
+          "指南强调对初诊 ＡＹＡ患者一线治疗优先选择儿童特点联合化疗方案"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_rr_all",
+        "name": "难治复发ALL",
+        "parent_disease_id": "disease_adult_all",
+        "disease_subtype": "难治复发",
+        "clinical_stage": "复发/难治",
+        "severity": "重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "难治复发 ＡＬＬ患者可考虑免疫治疗为基础的挽救治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_etp_all",
+        "name": "早期T前体淋巴母细胞白血病/淋巴瘤(ETP-ALL)",
+        "parent_disease_id": "disease_adult_all",
+        "disease_subtype": "ETP-ALL",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "早期 Ｔ 前体淋巴母细胞白血病／淋巴瘤（ＥＴＰ－ＡＬＬ／ＬＢＬ），此次更新后均列入正式分类"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_extramedullary_leukemia",
+        "name": "髓外白血病",
+        "body_site": "髓外",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "无髓外白血病"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_cnsl_symptoms",
+        "name": "CNSL的临床症状",
+        "body_site": "中枢神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "出现ＣＮＳＬ的临床症状"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_fish_bcr_abl1",
+        "name": "FISH检测外周血BCR::ABL1",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "可通过ＦＩＳＨ检测外周血，若ＦＩＳＨ发现中性粒细胞中存在ＢＣＲ∷ＡＢＬ１融合基因则考虑ＣＭＬ急变"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_fcm_mrd",
+        "name": "多色流式细胞术检测MRD",
+        "normal_range_min": null,
+        "normal_range_max": 0.01,
+        "is_digital": 1,
+        "evidence_ids": [
+          "多色流式细胞术检测 ＭＲＤ的敏感性可达０．０１％以上"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_rtpcr_mrd",
+        "name": "实时定量PCR检测MRD",
+        "normal_range_min": null,
+        "normal_range_max": 0.001,
+        "is_digital": 1,
+        "evidence_ids": [
+          "实时定量ＰＣＲ通常以特异融合基因为监测对象，敏感性可达０．００１％以上"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_blast_percentage",
+        "name": "骨髓原始细胞比例",
+        "normal_range_min": 0,
+        "normal_range_max": 5,
+        "is_digital": 1,
+        "evidence_ids": [
+          "形态学无白血病状态（ＭＬＦＳ）：①原始细胞＜５％"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_plt",
+        "name": "血小板计数(PLT)",
+        "normal_range_min": 100,
+        "normal_range_max": 300,
+        "is_digital": 1,
+        "evidence_ids": [
+          "ＣＲ伴部分血液学恢复（ＣＲｈ）：ＰＬＴ≥５０×１０９／Ｌ"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_anc",
+        "name": "中性粒细胞计数(ANC)",
+        "normal_range_min": 1.5,
+        "normal_range_max": 8.0,
+        "is_digital": 1,
+        "evidence_ids": [
+          "中性粒细胞计数（ＡＮＣ）≥０．５×１０９／Ｌ"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_csf_cns_status",
+        "name": "脑脊液CNS状态",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "在既往ＣＮＳ－３状态或出现ＣＮＳＬ的临床症状的基础上新增了一条———新出现的ＣＮＳ－２"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pet_scan",
+        "name": "PET检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "无论是部分缓解还是疾病进展，都要求治疗前ＰＥＴ阳性的患者，治疗后至少一个前期累及部位ＰＥＴ阳性"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_induction_consolidation",
+        "content": "诱导治疗结束后应尽快开始缓解后的巩固强化治疗，诱导缓解治疗和缓解后治疗不要有过长的间歇期",
+        "recommendation_strength": "strong",
+        "source_section": "初诊一线治疗",
+        "evidence_ids": [
+          "指南中强调诱导治疗结束后应尽快开始缓解后的巩固强化治疗，诱导缓解治疗和缓解后治疗不要有过长的间歇期"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_cnsl_prophylaxis",
+        "content": "CNSL的预防应尽早开始，在血小板计数达安全水平、外周血没有原始细胞时即可进行腰椎穿刺、鞘内注射",
+        "recommendation_strength": "strong",
+        "source_section": "初诊一线治疗",
+        "evidence_ids": [
+          "指南强调ＣＮＳＬ的预防也应尽早开始，在血小板计数（ＰＬＴ）达安全水平、外周血没有原始细胞时即可进行腰椎穿刺（腰穿）、鞘内注射（鞘注）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_maintenance",
+        "content": "维持治疗的时长应达到自取得完全缓解（CR）后总的治疗周期至少2年",
+        "recommendation_strength": "strong",
+        "source_section": "初诊一线治疗",
+        "evidence_ids": [
+          "指南中强调维持治疗的时长应达到自取得完全缓解（ＣＲ）后总的治疗周期至少２年"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_rr_immunotherapy",
+        "content": "难治复发ALL患者可考虑免疫治疗为基础的挽救治疗",
+        "recommendation_strength": "recommended",
+        "source_section": "难治复发ALL的治疗",
+        "evidence_ids": [
+          "难治复发 ＡＬＬ患者可考虑免疫治疗为基础的挽救治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_hsct",
+        "content": "对于初诊伴预后不良临床特征或遗传学异常的患者以及治疗过程中MRD持续阳性或由阴性转为阳性的患者，应及时寻找合适的供者，行异基因HSCT",
+        "recommendation_strength": "strong",
+        "source_section": "初诊一线治疗",
+        "evidence_ids": [
+          "对于初诊伴预后不良临床特征或遗传学异常的患者以及治疗过程中 ＭＲＤ持续阳性或由阴性转为阳性的患者，应及时寻找合适的供者，行异基因 ＨＳＣＴ"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_intrathecal_injection",
+        "content": "鞘注总次数一般至少应达12次以上，拟行造血干细胞移植（HSCT）的患者一般在HSCT前至少应完成4～6次，鞘注频率一般不超过2次/周",
+        "plan_level": 1,
+        "applicable_condition": "CNSL预防",
+        "contraindication_note": "放疗因毒性较大，仅作为CNSL预防的备选",
+        "evidence_ids": [
+          "同时强调鞘注总次数一般至少应达１２次以上，拟行造血干细胞移植（ＨＳＣＴ）的患者一般在 ＨＳＣＴ前至少应完成４～６次，鞘注频率一般不超过２次／周"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_pediatric_inspired_chemo",
+        "content": "优先选择儿童特点联合化疗方案（如CALGB 10403、DFCI ALL、IH-2014、PDT-ALL-2016方案）",
+        "plan_level": 1,
+        "applicable_condition": "初诊AYA患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "指南强调对初诊 ＡＹＡ患者一线治疗优先选择儿童特点联合化疗方案"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ecog1910",
+        "content": "ECOG1910方案（在传统化疗基础上，巩固治疗阶段加入多个疗程CD19/CD3双特异性抗体）",
+        "plan_level": 1,
+        "applicable_condition": "初诊Ph- ALL成年（40～59岁）患者优先推荐，AYA一般推荐，60岁以上耐受者可用",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "指南将ＥＣＯＧ１９１０方案作为初诊Ｐｈ－－ＡＬＬ 成年（４０～５９岁）患者的优先推荐方案"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_cd19_cart",
+        "content": "CD19 CAR-T细胞（纳基奥仑赛）治疗",
+        "plan_level": 1,
+        "applicable_condition": "难治复发ALL",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "ＣＤ１９ＣＡＲ－Ｔ细胞（Ｉｎａｔｉｃａｂｔａｇｅｎｅ Ａｕｔｏｌｅｕｃｅｌ，纳基奥仑赛）作为国内首款治疗白血病的ＣＡＲ－Ｔ细胞产品于２０２３年１１月在中国上市"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_tki_blinatumomab",
+        "content": "TKI + CD19/CD3双特异性抗体（D-ALBA方案 chemo-free）",
+        "plan_level": 1,
+        "applicable_condition": "Ph+ ALL巩固治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "指南在Ｐｈ＋－ＡＬＬ巩固治疗中也推荐可以考虑采用 ＴＫＩ＋ ＣＤ１９／ＣＤ３双特异性抗体"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_bcr_abl1",
+        "content": "BCR::ABL1融合基因阳性",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "ＢＣＲ∷ＡＢＬ１阳性不伴ＩＫＺＦ１ ｐｌｕｓ且无慢性髓性白血病（ＣＭＬ）病史的Ｐｈ＋－ＡＬＬ患者归为标危组"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_ikzf1_plus",
+        "content": "IKZF1 plus（IKZF1缺失伴CDKN2A、CDKN2B、PAX5缺失，或无ERG缺失时存在PAR1缺失）",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "进一步明确了ＩＫＺＦ１ ｐｌｕｓ的标准，指ＩＫＺＦ１缺失伴ＣＤＫＮ２Ａ、ＣＤＫＮ２Ｂ、ＰＡＸ５ 缺失，或无ＥＲＧ缺失时存在ＰＡＲ１缺失"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_etv6_runx1_like",
+        "content": "ETV6::RUNX1样基因表达谱",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "少见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "发现一类患者具有与ＥＴＶ６∷ＲＵＮＸ１阳性ＡＬＬ患者相似的基因表达谱，但是通过ＦＩＳＨ、ＲＴ－ＰＣＲ、ＲＮＡ－ｓｅｑ等检测均未发现ＥＴＶ６∷ＲＵＮＸ１融合基因"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_genetic_abnormalities",
+        "content": "伴其他确定基因异常的B淋巴母细胞白血病/淋巴瘤包括的基因异常大部分更新进入不同的细胞遗传学和分子生物学预后分组",
+        "evidence_ids": [
+          "建议分类———伴其他确定基因异常的Ｂ淋巴母细胞白血病／淋巴瘤包括的基因异常大部分更新进入不同的细胞遗传学和分子生物学预后分组"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_adult_all",
+        "to": "sub_disease_ph_plus_all_standard_risk",
+        "relation_id": "rel_all_has_ph_plus_standard",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "ＢＣＲ∷ＡＢＬ１阳性不伴ＩＫＺＦ１ ｐｌｕｓ且无慢性髓性白血病（ＣＭＬ）病史的Ｐｈ＋－ＡＬＬ患者归为标危组"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_adult_all",
+        "to": "sub_disease_ph_plus_all_high_risk",
+        "relation_id": "rel_all_has_ph_plus_high",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "ＢＣＲ∷ＡＢＬ１阳性伴ＩＫＺＦ１ ｐｌｕｓ和（或）ＣＭＬ病史的Ｐｈ＋－ＡＬＬ患者依旧是高危组"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_adult_all",
+        "to": "sub_disease_ph_minus_all_aya",
+        "relation_id": "rel_all_has_ph_minus_aya",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "指南强调对初诊 ＡＹＡ患者一线治疗优先选择儿童特点联合化疗方案"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_adult_all",
+        "to": "sub_disease_rr_all",
+        "relation_id": "rel_all_has_rr_all",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "难治复发 ＡＬＬ患者可考虑免疫治疗为基础的挽救治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_adult_all",
+        "to": "sub_disease_etp_all",
+        "relation_id": "rel_all_has_etp_all",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "早期 Ｔ 前体淋巴母细胞白血病／淋巴瘤（ＥＴＰ－ＡＬＬ／ＬＢＬ），此次更新后均列入正式分类"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_rr_all",
+        "to": "symptom_extramedullary_leukemia",
+        "relation_id": "rel_rr_all_manifests_extramedullary",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "治疗反应",
+        "evidence_ids": [
+          "髓外疾病治疗反应中除了对肿块大小变化的要求之外，也增加了对ＰＥＴ检查结果的要求"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_rr_all",
+        "to": "symptom_cnsl_symptoms",
+        "relation_id": "rel_rr_all_manifests_cnsl",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "治疗反应",
+        "evidence_ids": [
+          "在既往ＣＮＳ－３状态或出现ＣＮＳＬ的临床症状的基础上新增了一条———新出现的ＣＮＳ－２"
+        ],
+        "confidence": 0.85,
+        "weight_reason": "原文提及CNS复发判定标准包含出现CNSL的临床症状，CNS复发属于复发ALL的范畴，但未直接表述为难治复发ALL的特异性表现。",
+        "evidence": "关于ＣＮＳ复发，在既往ＣＮＳ－３状态或出现ＣＮＳＬ的临床症状的基础上新增了一条"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_ph_plus_all_standard_risk",
+        "to": "test_fish_bcr_abl1",
+        "relation_id": "rel_ph_plus_standard_requires_fish",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": "BCR::ABL1融合基因阳性",
+        "weight": 7,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "预后分组",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "ＢＣＲ∷ＡＢＬ１阳性不伴ＩＫＺＦ１ ｐｌｕｓ且无慢性髓性白血病（ＣＭＬ）病史的Ｐｈ＋－ＡＬＬ患者归为标危组"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出FISH检测BCR-ABL1用于鉴别CML急变与Ph+ALL，而排除CML病史是Ph+ALL归为标危组的条件之一。",
+        "evidence": "可通过ＦＩＳＨ检测外周血，若ＦＩＳＨ发现中性粒细胞中存在ＢＣＲ∷ＡＢＬ１融合基因则考虑ＣＭＬ急变"
+      },
+      {
+        "from": "sub_disease_rr_all",
+        "to": "test_fcm_mrd",
+        "relation_id": "rel_rr_all_requires_fcm_mrd",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "治疗监测项",
+        "diagnostic_role": "required",
+        "value_min": 0.01,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "%",
+        "result_text": "MRD阳性",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "疗效监测",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "一般将 ＭＲＤ≥０．０１％定义为 ＭＲＤ阳性"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确流式细胞术是MRD监测的敏感方法，且难治复发ALL的疗效评估高度关注MRD状态。",
+        "evidence": "多色流式细胞术检测ＭＲＤ的敏感性可达０．０１％以上"
+      },
+      {
+        "from": "sub_disease_rr_all",
+        "to": "test_blast_percentage",
+        "relation_id": "rel_rr_all_requires_blast",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 5,
+        "operator": "<",
+        "unit": "%",
+        "result_text": "形态学无白血病状态(MLFS)",
+        "weight": 8,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "治疗反应",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "形态学无白血病状态（ＭＬＦＳ）：①原始细胞＜５％"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文在疗效评价标准中明确原始细胞<5%是形态学无白血病状态的核心指标，用于难治复发ALL的治疗反应评估。",
+        "evidence": "形态学无白血病状态（ＭＬＦＳ）：①原始细胞＜５％"
+      },
+      {
+        "from": "sub_disease_rr_all",
+        "to": "test_plt",
+        "relation_id": "rel_rr_all_requires_plt",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": 50,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "×10^9/L",
+        "result_text": "CRh标准",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "治疗反应",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "ＣＲ伴部分血液学恢复（ＣＲｈ）：ＰＬＴ≥５０×１０９／Ｌ"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_rr_all",
+        "to": "test_anc",
+        "relation_id": "rel_rr_all_requires_anc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": 0.5,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "×10^9/L",
+        "result_text": "CRh标准",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "治疗反应",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "中性粒细胞计数（ＡＮＣ）≥０．５×１０９／Ｌ"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_ph_minus_all_aya",
+        "to": "treatment_induction_consolidation",
+        "relation_id": "rel_aya_follows_induction",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "初诊",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "初诊一线治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_ph_plus_all_standard_risk",
+        "to": "treatment_cnsl_prophylaxis",
+        "relation_id": "rel_ph_plus_follows_cnsl",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "PLT达安全水平、外周血无原始细胞",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "实验室指标"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "初诊一线治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rr_all",
+        "to": "treatment_rr_immunotherapy",
+        "relation_id": "rel_rr_all_follows_immuno",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "复发/难治",
+        "treatment_line": "二线及以上",
+        "applicable_condition": "难治复发",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "recommended",
+        "decision_basis": [
+          "疾病状态"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "难治复发ALL的治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ph_plus_all_high_risk",
+        "to": "treatment_hsct",
+        "relation_id": "rel_ph_plus_high_follows_hsct",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "缓解后",
+        "treatment_line": "一线",
+        "applicable_condition": "预后不良或MRD阳性",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "预后分组",
+          "MRD状态"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "初诊一线治疗",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_cnsl_prophylaxis",
+        "to": "plan_intrathecal_injection",
+        "relation_id": "rel_cnsl_implements_intrathecal",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "CNSL预防",
+        "contraindication_note": "放疗因毒性较大，仅作为CNSL预防的备选",
+        "evidence_ids": [
+          "同时强调鞘注总次数一般至少应达１２次以上，拟行造血干细胞移植（ＨＳＣＴ）的患者一般在 ＨＳＣＴ前至少应完成４～６次，鞘注频率一般不超过２次／周"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_induction_consolidation",
+        "to": "plan_pediatric_inspired_chemo",
+        "relation_id": "rel_induction_implements_pediatric",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "初诊AYA患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "指南强调对初诊 ＡＹＡ患者一线治疗优先选择儿童特点联合化疗方案"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_induction_consolidation",
+        "to": "plan_ecog1910",
+        "relation_id": "rel_induction_implements_ecog1910",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "初诊Ph- ALL成年（40～59岁）患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "指南将ＥＣＯＧ１９１０方案作为初诊Ｐｈ－－ＡＬＬ 成年（４０～５９岁）患者的优先推荐方案"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_rr_immunotherapy",
+        "to": "plan_cd19_cart",
+        "relation_id": "rel_rr_implements_cart",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "难治复发ALL",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "ＣＤ１９ＣＡＲ－Ｔ细胞（Ｉｎａｔｉｃａｂｔａｇｅｎｅ Ａｕｔｏｌｅｕｃｅｌ，纳基奥仑赛）作为国内首款治疗白血病的ＣＡＲ－Ｔ细胞产品于２０２３年１１月在中国上市"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_induction_consolidation",
+        "to": "plan_tki_blinatumomab",
+        "relation_id": "rel_induction_implements_tki_blin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "Ph+ ALL巩固治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "指南在Ｐｈ＋－ＡＬＬ巩固治疗中也推荐可以考虑采用 ＴＫＩ＋ ＣＤ１９／ＣＤ３双特异性抗体"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_ph_plus_all_standard_risk",
+        "to": "etiology_bcr_abl1",
+        "relation_id": "rel_ph_plus_standard_caused_by_bcr_abl1",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "ＢＣＲ∷ＡＢＬ１阳性不伴ＩＫＺＦ１ ｐｌｕｓ且无慢性髓性白血病（ＣＭＬ）病史的Ｐｈ＋－ＡＬＬ患者归为标危组"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_ph_plus_all_high_risk",
+        "to": "etiology_ikzf1_plus",
+        "relation_id": "rel_ph_plus_high_caused_by_ikzf1",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "ＢＣＲ∷ＡＢＬ１阳性伴ＩＫＺＦ１ ｐｌｕｓ和（或）ＣＭＬ病史的Ｐｈ＋－ＡＬＬ患者依旧是高危组"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_etp_all",
+        "to": "etiology_etv6_runx1_like",
+        "relation_id": "rel_etp_caused_by_etv6",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "rare",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "发现一类患者具有与ＥＴＶ６∷ＲＵＮＸ１阳性ＡＬＬ患者相似的基因表达谱，但是通过ＦＩＳＨ、ＲＴ－ＰＣＲ、ＲＮＡ－ｓｅｑ等检测均未发现ＥＴＶ６∷ＲＵＮＸ１融合基因"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_ph_plus_all_high_risk",
+        "to": "pathogenesis_genetic_abnormalities",
+        "relation_id": "rel_ph_plus_high_explained_by_genetics",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "建议分类———伴其他确定基因异常的Ｂ淋巴母细胞白血病／淋巴瘤包括的基因异常大部分更新进入不同的细胞遗传学和分子生物学预后分组"
+        ],
+        "confidence": 0.8
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

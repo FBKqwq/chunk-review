@@ -11,14 +11,12 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_nstis",
+        "id": "disease_nsti",
         "name": "坏死性软组织感染",
         "normalized_name": "坏死性软组织感染",
         "aliases": [
           "NSTIs",
-          "坏死性筋膜炎",
-          "坏死性肌炎",
-          "坏死性蜂窝织炎"
+          "坏死性筋膜炎"
         ],
         "source_document_ids": [
           "坏死性软组织感染临床诊治急诊专家共识"
@@ -31,90 +29,90 @@
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_nstis_i",
-        "name": "Ⅰ型坏死性软组织感染",
-        "parent_disease_id": "disease_nstis",
+        "id": "sub_disease_nsti_type1",
+        "name": "Ⅰ型NSTIs",
+        "parent_disease_id": "disease_nsti",
         "disease_subtype": "混合菌感染",
         "clinical_stage": "不限定",
-        "severity": "轻症至中重症",
-        "population": "老年人或有基础疾病患者",
+        "severity": "不限定",
+        "population": "老年人和患有基础疾病的患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "Ⅰ型为混合菌感染，由需氧菌和厌氧菌的混合感染所致，多见于老年人和患有基础疾病的患者[10,22]；"
+          "Ⅰ型为混合菌感染，由需氧菌和厌氧菌的混合感染所致，多见于老年人和患有基础疾病的患者"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_nstis_ii",
-        "name": "Ⅱ型坏死性软组织感染",
-        "parent_disease_id": "disease_nstis",
+        "id": "sub_disease_nsti_type2",
+        "name": "Ⅱ型NSTIs",
+        "parent_disease_id": "disease_nsti",
         "disease_subtype": "单一病原体感染",
         "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "健康人群及任何年龄段患者",
+        "severity": "不限定",
+        "population": "健康人群以及任何年龄段的患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "Ⅱ型是由单一病原体感染引起的，最常见为A族溶血性链球菌（group A Streptococcus pyogens, GAS），其次为耐甲氧西林金黄色葡萄球菌（methicillin-resistant Staphylococcus aureus, MRSA），可见于健康人群以及任何年龄段的患者[10,22-23]；"
+          "Ⅱ型是由单一病原体感染引起的，最常见为A族溶血性链球菌（group A Streptococcus pyogens, GAS），其次为耐甲氧西林金黄色葡萄球菌（methicillin-resistant Staphylococcus aureus, MRSA），可见于健康人群以及任何年龄段的患者"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_nstis_iii",
-        "name": "Ⅲ型坏死性软组织感染",
-        "parent_disease_id": "disease_nstis",
+        "id": "sub_disease_nsti_type3",
+        "name": "Ⅲ型NSTIs",
+        "parent_disease_id": "disease_nsti",
         "disease_subtype": "海洋菌群感染",
         "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "亚热带地区居民、生食海产品者、破损创口接触海水者",
+        "severity": "不限定",
+        "population": "亚热带地区人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "Ⅲ型是由创伤弧菌等海洋菌群引起的感染，多见于亚热带地区，发病诱因多为生食带菌海产品、破损创口接触带菌海水和被海洋生物刺伤或割伤[20,24-25]；"
+          "Ⅲ型是由创伤弧菌等海洋菌群引起的感染，多见于亚热带地区，发病诱因多为生食带菌海产品、破损创口接触带菌海水和被海洋生物刺伤或割伤"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_nstis_iv",
-        "name": "Ⅳ型坏死性软组织感染",
-        "parent_disease_id": "disease_nstis",
+        "id": "sub_disease_nsti_type4",
+        "name": "Ⅳ型NSTIs",
+        "parent_disease_id": "disease_nsti",
         "disease_subtype": "真菌感染",
         "clinical_stage": "不限定",
-        "severity": "重症",
+        "severity": "不限定",
         "population": "长期使用激素、免疫抑制等免疫力低下的患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "Ⅳ型则是由真菌感染引起的，多见于长期使用激素、免疫抑制等免疫力低下的患者[26-27]。"
+          "Ⅳ型则是由真菌感染引起的，多见于长期使用激素、免疫抑制等免疫力低下的患者"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_nstis_limb",
-        "name": "肢体坏死性软组织感染",
-        "parent_disease_id": "disease_nstis",
-        "disease_subtype": "解剖部位分型",
+        "id": "sub_disease_severe_nsti",
+        "name": "重症NSTIs",
+        "parent_disease_id": "disease_nsti",
+        "disease_subtype": "重症",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": "重症",
+        "population": "血流动力学不稳定和（或）SOFA评分≥2分患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "根据解剖部位，可分为头颈部NSTIs、肢体NSTIs、胸/腹部NSTIs（如Meleney协同坏疽）和会阴/肛周NSTIs（如Fournier坏疽）。其中，肢体NSTIs发生率约占70%，且下肢多于上肢发病[16,20]。"
+          "NSTIs患者出现血流动力学不稳定和（或）SOFA评分≥2分为重症NSTIs"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_nstis_fournier",
+        "id": "sub_disease_fournier_gangrene",
         "name": "Fournier坏疽",
-        "parent_disease_id": "disease_nstis",
-        "disease_subtype": "会阴/肛周坏死性软组织感染",
+        "parent_disease_id": "disease_nsti",
+        "disease_subtype": "会阴/肛周NSTIs",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "不限定",
@@ -122,87 +120,7 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "Fournier坏疽：由1883年法国皮肤科医生Jean Alfred Fournie首次描述，是发生于会阴、外生殖器、肛门等部位的一种NSTIs[114]。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_nstis_meleney",
-        "name": "Meleney协同坏疽",
-        "parent_disease_id": "disease_nstis",
-        "disease_subtype": "胸/腹部坏死性软组织感染",
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "Meleney协同坏疽：又称手术后进行性协同性坏疽，发病少见，仅限于个案报道。常发于胸、腹手术或胸腹腔引流后[119]。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_nstis_cervical",
-        "name": "颈部坏死性软组织感染",
-        "parent_disease_id": "disease_nstis",
-        "disease_subtype": "头颈部坏死性软组织感染",
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "颈部NSTIs (CNF)：是在颈部筋膜和皮下组织的广泛坏死，多为混合感染[107]。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_nstis_orbital",
-        "name": "眼眶周围坏死性软组织感染",
-        "parent_disease_id": "disease_nstis",
-        "disease_subtype": "头颈部坏死性软组织感染",
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "眼眶周围NSTIs：少有累及眼眶周围的NSTIs，可造成失明、死亡。表现为眼部疼痛、发红、分泌物增加，眼球肿胀突出，视力下降、眼肌麻痹[106]。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_nstis_severe",
-        "name": "重症坏死性软组织感染",
-        "parent_disease_id": "disease_nstis",
-        "disease_subtype": "严重程度分型",
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "NSTIs按照严重程度可分为轻症NSTIs和重症NSTIs。NSTIs患者出现血流动力学不稳定和（或）SOFA评分≥2分为重症NSTIs[67]。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_nstis_mild",
-        "name": "轻症坏死性软组织感染",
-        "parent_disease_id": "disease_nstis",
-        "disease_subtype": "严重程度分型",
-        "clinical_stage": "不限定",
-        "severity": "轻症",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "NSTIs按照严重程度可分为轻症NSTIs和重症NSTIs。"
+          "Fournier坏疽：由1883年法国皮肤科医生Jean Alfred Fournie首次描述，是发生于会阴、外生殖器、肛门等部位的一种NSTIs"
         ],
         "confidence": 0.9
       }
@@ -211,38 +129,38 @@
       {
         "id": "symptom_swelling",
         "name": "肿胀",
-        "body_site": "皮肤软组织",
-        "symptom_category": "全身症状",
+        "body_site": "局部皮肤",
+        "symptom_category": "全身及局部症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等。"
+          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_pain",
         "name": "疼痛",
-        "body_site": "皮肤软组织",
-        "symptom_category": "全身症状",
+        "body_site": "局部皮肤",
+        "symptom_category": "全身及局部症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等。"
+          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_erythema",
         "name": "红斑",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
+        "body_site": "局部皮肤",
+        "symptom_category": "全身及局部症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等。"
+          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_fever",
@@ -252,409 +170,201 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等。"
+          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "symptom_bulla",
-        "name": "水泡",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
+        "id": "symptom_blood_blister",
+        "name": "血泡",
+        "body_site": "局部皮肤",
+        "symptom_category": "局部症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "出现小水泡或血泡[32-33]"
+          "出现血泡、瘀斑、皮肤发黑等表现提示病情严重"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_hematoma",
-        "name": "瘀斑",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "当出现组织缺血性坏死时，可出现皮肤大片瘀斑、张力升高、水泡或血泡融合、坏死破溃、皮下捻发音、皮肤发黑或呈暗红色，病灶范围扩大蔓延[10,20,34-35]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_skin_necrosis",
-        "name": "皮肤坏死",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "当出现组织缺血性坏死时，可出现皮肤大片瘀斑、张力升高、水泡或血泡融合、坏死破溃、皮下捻发音、皮肤发黑或呈暗红色，病灶范围扩大蔓延[10,20,34-35]。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_subcutaneous_crepitus",
         "name": "皮下捻发音",
         "body_site": "皮下组织",
-        "symptom_category": "皮肤症状",
+        "symptom_category": "局部症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "当出现组织缺血性坏死时，可出现皮肤大片瘀斑、张力升高、水泡或血泡融合、坏死破溃、皮下捻发音、皮肤发黑或呈暗红色，病灶范围扩大蔓延[10,20,34-35]。"
+          "当出现组织缺血性坏死时，可出现皮肤大片瘀斑、张力升高、水泡或血泡融合、坏死破溃、皮下捻发音、皮肤发黑或呈暗红色"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_skin_blackening",
-        "name": "皮肤发黑",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "当出现组织缺血性坏死时，可出现皮肤大片瘀斑、张力升高、水泡或血泡融合、坏死破溃、皮下捻发音、皮肤发黑或呈暗红色，病灶范围扩大蔓延[10,20,34-35]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_shock",
-        "name": "休克",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "严重的NSTIs患者可出现多脏器功能衰竭，全身症状除发热、心动过速、低血压、休克等表现外，也可出现呼吸急促、呼吸困难、少尿、无尿、黄疸等相应脏器损伤的表现[6,14,37]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_arrest",
-        "name": "ARDS",
-        "body_site": "肺部",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "回顾性分析34例创伤弧菌脓毒症患者，30例（88.2%）48 h出现休克，21例（61.8%）出现ARDS，26例（76.5%）出现急性肾功能不全，病死率达47.1%[38]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_akf",
-        "name": "急性肾功能不全",
-        "body_site": "肾脏",
-        "symptom_category": "泌尿系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "回顾性分析34例创伤弧菌脓毒症患者，30例（88.2%）48 h出现休克，21例（61.8%）出现ARDS，26例（76.5%）出现急性肾功能不全，病死率达47.1%[38]。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_lrinec_score",
+        "id": "test_lrinec",
         "name": "LRINEC评分",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "LRINEC评分≥6分提示可能存在坏死性筋膜炎。"
+          "LRINEC评分≥6分提示可能存在坏死性筋膜炎"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_ck",
-        "name": "血清肌酸激酶（CK）",
+        "name": "血清肌酸激酶(CK)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "NSTIs实验室检查可出现白细胞计数、C-反应蛋白、降钙素原升高等，随着病情进展可出现血乳酸升高、代谢性酸中毒和器官损伤标志物升高[39-42]。研究表明，NSTIs可有血清肌酸激酶（casein kinase，CK）水平升高[43-44]。"
+          "NSTIs可有血清肌酸激酶（casein kinase，CK）水平升高"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_tm",
-        "name": "血栓调节蛋白（TM）",
+        "name": "血栓调节蛋白(TM)",
         "normal_range_min": null,
-        "normal_range_max": null,
+        "normal_range_max": 7567,
         "is_digital": 1,
         "evidence_ids": [
-          "一项多中心前瞻性队列研究共计纳入311例皮肤软组织感染患者，发现血栓调节蛋白(thrombomodulin，TM)对NSTIs和非坏死的皮肤软组织感染具有较好的区分能力，其AUC为0.95（特异度89%，敏感度92%，浓度阈值为7 567 pg/mL）[45]。"
+          "血栓调节蛋白(thrombomodulin，TM)对NSTIs和非坏死的皮肤软组织感染具有较好的区分能力，其AUC为0.95（特异度89%，敏感度92%，浓度阈值为7 567 pg/mL）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_surgical_exploration",
+        "name": "手术探查(手指试验)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "手术探查是公认的诊断NSTIs金标准。对于高度怀疑的患者，可对病变部位行手术探查，探查过程中先行手指试验。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_wbc",
-        "name": "白细胞计数（WBC）",
+        "id": "test_ct",
+        "name": "CT检查",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 1,
+        "is_digital": 0,
         "evidence_ids": [
-          "NSTIs实验室检查可出现白细胞计数、C-反应蛋白、降钙素原升高等，随着病情进展可出现血乳酸升高、代谢性酸中毒和器官损伤标志物升高[39-42]。"
+          "CT可呈现皮下组织中的气体影、筋膜水肿增厚、软组织间隙内炎性渗出等"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_crp",
-        "name": "C-反应蛋白（CRP）",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "NSTIs实验室检查可出现白细胞计数、C-反应蛋白、降钙素原升高等，随着病情进展可出现血乳酸升高、代谢性酸中毒和器官损伤标志物升高[39-42]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_pct",
-        "name": "降钙素原（PCT）",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "NSTIs实验室检查可出现白细胞计数、C-反应蛋白、降钙素原升高等，随着病情进展可出现血乳酸升高、代谢性酸中毒和器官损伤标志物升高[39-42]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_lactate",
-        "name": "血乳酸",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "随着病情进展可出现血乳酸升高、代谢性酸中毒和器官损伤标志物升高[39-42]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_so2",
-        "name": "SpO2",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "Double-SR快速筛查评分表：快速生命体征评估（rapid vital sign assessment）：SpO2<93%"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_sbp",
-        "name": "收缩压（SBP）",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "Double-SR快速筛查评分表：快速生命体征评估（rapid vital sign assessment）：收缩压≤100 mmHg"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_early_debridement",
-        "content": "早期切开减张、彻底清除坏死组织",
-        "recommendation_strength": "强推荐",
+        "id": "treatment_empirical_antibiotics",
+        "content": "抗感染应遵循早期、足量、联合的原则经验性使用广谱抗菌药物，包括抗革兰阳性、革兰阴性和厌氧病原体的药物。",
+        "recommendation_strength": "strong",
+        "source_section": "早期急诊经验性抗感染",
+        "evidence_ids": [
+          "本共识专家组一致认为：抗感染应遵循早期、足量、联合的原则经验性使用广谱抗菌药物，包括抗革兰阳性、革兰阴性和厌氧病原体的药物。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_surgical_debridement",
+        "content": "对病灶早期切开减张、对累及的坏死组织早期彻底清除",
+        "recommendation_strength": "strong",
         "source_section": "手术治疗",
         "evidence_ids": [
-          "手术治疗在NSTIs中起着至关重要的作用，特别强调对病灶早期切开减张、对累及的坏死组织早期彻底清除[83-84]。"
+          "手术治疗在NSTIs中起着至关重要的作用，特别强调对病灶早期切开减张、对累及的坏死组织早期彻底清除"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_early_antibiotics",
-        "content": "早期、足量、联合经验性抗感染治疗",
-        "recommendation_strength": "强推荐",
-        "source_section": "抗感染治疗",
+        "id": "treatment_organ_support",
+        "content": "采取液体复苏、镇痛、血管活性药、呼吸机支持、血液净化、护肝、护肾、控制血糖、补充白蛋白、加强营养等多种治疗措施来维持及恢复器官功能。",
+        "recommendation_strength": "strong",
+        "source_section": "器官支持治疗",
         "evidence_ids": [
-          "抗感染应遵循早期、足量、联合的原则经验性使用广谱抗菌药物，包括抗革兰阳性、革兰阴性和厌氧病原体的药物。"
+          "根据需要采取液体复苏、镇痛、血管活性药、呼吸机支持、血液净化、护肝、护肾、控制血糖、补充白蛋白、加强营养等多种治疗措施来维持及恢复器官功能。"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "treatment_mdrt",
-        "content": "多学科联合管理",
-        "recommendation_strength": "良好实践主张（GPS）",
-        "source_section": "全程多学科一站式管理",
-        "evidence_ids": [
-          "多学科联合管理是提高NSTIs生存率的关键部分……推荐建立以急诊科为主体，多学科协作的NSTIs救治团队。（GPS，一致率：100%）"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_lrinec_ge6",
-        "content": "LRINEC评分≥6分",
+        "id": "plan_penicillin_clindamycin",
+        "content": "大剂量青霉素联合克林霉素",
         "plan_level": 1,
-        "applicable_condition": "NSTIs早期识别",
+        "applicable_condition": "NSTIs经验性抗感染或考虑GAS感染",
         "contraindication_note": null,
         "evidence_ids": [
-          "LRINEC评分≥6分提示可能存在坏死性筋膜炎。"
+          "对于NSTIs推荐可使用大剂量青霉素联合克林霉素",
+          "如考虑GAS感染推荐使用克林霉素联合青霉素治疗"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_ck_elevated",
-        "content": "血清肌酸激酶（CK）升高",
-        "plan_level": 2,
-        "applicable_condition": "NSTIs辅助诊断",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "血清肌酸激酶（casein kinase，CK）水平升高[43-44]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_tm_ge7567pgml",
-        "content": "血栓调节蛋白（TM）≥7567 pg/mL",
-        "plan_level": 2,
-        "applicable_condition": "NSTIs辅助诊断",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "血栓调节蛋白(thrombomodulin，TM)对NSTIs和非坏死的皮肤软组织感染具有较好的区分能力……浓度阈值为7 567 pg/mL）[45]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_double_sr_ge1",
-        "content": "Double-SR评分≥1分",
+        "id": "plan_carbapenem_glycopeptide",
+        "content": "碳青霉烯类联合糖肽类",
         "plan_level": 1,
-        "applicable_condition": "可疑NSTIs患者急诊快速筛查",
+        "applicable_condition": "重症NSTIs或病情进展快，脏器损伤严重患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "Double-SR评分≥1分患者启动NSTI-RRT。（GPS，一致率：96.9%）"
+          "对于重症NSTIs或病情进展快，脏器损伤严重患者选择覆盖可疑病原体的抗菌药物，可选用碳青霉烯类联合糖肽类。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_surgery_within_12h",
-        "content": "诊断后12小时内手术治疗",
+        "id": "plan_cephalosporin_quinolone",
+        "content": "第三代头孢菌素联合喹诺酮类药物治疗7-10 d",
         "plan_level": 1,
-        "applicable_condition": "NSTIs确诊后",
-        "contraindication_note": null,
+        "applicable_condition": "创伤弧菌感染",
+        "contraindication_note": "不推荐单独使用泰能、多西环素治疗",
         "evidence_ids": [
-          "NSTIs患者应在诊断后12 h内进行手术治疗（Ⅱ/A，一致率：96.8%）。"
+          "对于创伤弧菌感染推荐第三代头孢菌素联合喹诺酮类药物治疗7-10 d，不推荐单独使用泰能、多西环素治疗"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_antibiotics_within_1h",
-        "content": "重症NSTIs在1小时内经验性抗感染治疗",
-        "plan_level": 1,
-        "applicable_condition": "重症NSTIs诊断后",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "重症NSTIs在1 h内进行经验性抗感染治疗。（Ⅰ/A，一致率：96.9%）"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_mixed_aerobic_anaerobic",
-        "content": "需氧菌和厌氧菌混合感染",
-        "etiology_type": "感染因素",
-        "typicality": "典型",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "Ⅰ型为混合菌感染，由需氧菌和厌氧菌的混合感染所致，多见于老年人和患有基础疾病的患者[10,22]；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_gas",
-        "content": "A族溶血性链球菌（GAS）",
-        "etiology_type": "感染因素",
-        "typicality": "典型",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "Ⅱ型是由单一病原体感染引起的，最常见为A族溶血性链球菌（group A Streptococcus pyogens, GAS）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_mrsa",
-        "content": "耐甲氧西林金黄色葡萄球菌（MRSA）",
+        "id": "etiology_skin_injury",
+        "content": "皮肤软组织开放或闭合性损伤（挤压伤、肌肉拉伤等）",
         "etiology_type": "感染因素",
         "typicality": "常见",
-        "diagnostic_role": "支持证据",
-        "evidence_ids": [
-          "Ⅱ型是由单一病原体感染引起的，最常见为A族溶血性链球菌（group A Streptococcus pyogens, GAS），其次为耐甲氧西林金黄色葡萄球菌（methicillin-resistant Staphylococcus aureus, MRSA）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_vibrio_vulnificus",
-        "content": "创伤弧菌",
-        "etiology_type": "感染因素",
-        "typicality": "典型",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "Ⅲ型是由创伤弧菌等海洋菌群引起的感染，多见于亚热带地区，发病诱因多为生食带菌海产品、破损创口接触带菌海水和被海洋生物刺伤或割伤[20,24-25]；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_fungal",
-        "content": "真菌感染",
-        "etiology_type": "感染因素",
-        "typicality": "罕见",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "Ⅳ型则是由真菌感染引起的，多见于长期使用激素、免疫抑制等免疫力低下的患者[26-27]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_skin_injury",
-        "content": "皮肤软组织开放或闭合性损伤",
-        "etiology_type": "危险因素",
-        "typicality": "典型",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "NSTIs常见的诱发因素为皮肤软组织开放或闭合性损伤（挤压伤、肌肉拉伤等）[18-19]。"
+          "NSTIs常见的诱发因素为皮肤软组织开放或闭合性损伤（挤压伤、肌肉拉伤等）"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_marine_exposure",
+        "content": "生食带菌海产品、破损创口接触带菌海水和被海洋生物刺伤或割伤",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "发病诱因多为生食带菌海产品、破损创口接触带菌海水和被海洋生物刺伤或割伤"
+        ],
+        "confidence": 0.9
       },
       {
         "id": "etiology_immunosuppression",
-        "content": "免疫功能低下",
-        "etiology_type": "危险因素",
-        "typicality": "典型",
+        "content": "长期使用激素、免疫抑制等免疫力低下",
+        "etiology_type": "自身免疫因素",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "易患人群包括高龄（年龄≥60岁）、酗酒、肥胖、糖尿病、慢性肝病、慢性肾病、使用免疫抑制剂或免疫功能低下、长期卧床等患者[6,10-17]。"
+          "多见于长期使用激素、免疫抑制等免疫力低下的患者"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_bacterial_invasion",
-        "content": "致病菌自外部侵入并在组织内增殖",
+        "id": "pathogenesis_ischemic_necrosis",
+        "content": "病原体激活病原相关分子模式免疫信号通路，刺激多种炎性介质释放，诱导血小板/白细胞聚集使毛细血管闭塞和内皮细胞损伤，导致组织液渗出引起肿胀和皮肤红斑，大量血管逐渐受压致缺血，直至血管闭塞导致各层组织缺血性坏死。",
         "evidence_ids": [
-          "NSTIs常见有两种起病过程：一种是当有皮肤或黏膜完整性破坏时，致病菌自外部侵入并在组织内增殖[10]；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "pathogenesis_hematogenous_spread",
-        "content": "细菌由血行播散至受伤部位",
-        "evidence_ids": [
-          "另一种是深部的、非穿透性组织损伤，如肌肉拉伤、扭伤或血肿刺激白细胞浸润和肌原细胞激活，细菌由血行播散至受伤部位[28]。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "pathogenesis_inflammatory_damage",
-        "content": "病原体激活病原相关分子模式免疫信号通路，刺激多种炎性介质释放，一方面可直接损伤组织，导致组织细胞死亡；另一方面可诱导血小板/白细胞聚集使毛细血管闭塞和内皮细胞损伤，导致组织液渗出引起肿胀和皮肤红斑",
-        "evidence_ids": [
-          "病原体激活病原相关分子模式免疫信号通路，刺激多种炎性介质释放，一方面可直接损伤组织，导致组织细胞死亡；另一方面可诱导血小板/白细胞聚集使毛细血管闭塞和内皮细胞损伤，导致组织液渗出引起肿胀和皮肤红斑[29]。"
+          "病原体激活病原相关分子模式免疫信号通路，刺激多种炎性介质释放，一方面可直接损伤组织，导致组织细胞死亡；另一方面可诱导血小板/白细胞聚集使毛细血管闭塞和内皮细胞损伤，导致组织液渗出引起肿胀和皮肤红斑。肿胀和红斑向周边扩散引起水泡和皮肤湿疹样改变，并使致病菌向深层感染。大量血管逐渐受压致缺血，直至血管闭塞导致各层组织缺血性坏死。"
         ],
         "confidence": 0.9
       }
@@ -663,132 +373,77 @@
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_nstis",
-        "to": "sub_disease_nstis_i",
-        "relation_id": "rel_nstis_has_i",
+        "from": "disease_nsti",
+        "to": "sub_disease_nsti_type1",
+        "relation_id": "rel_nsti_has_type1",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "Ⅰ型为混合菌感染，由需氧菌和厌氧菌的混合感染所致，多见于老年人和患有基础疾病的患者[10,22]；"
+          "NSTIs根据病原学可分为四型：Ⅰ型为混合菌感染"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "disease_nstis",
-        "to": "sub_disease_nstis_ii",
-        "relation_id": "rel_nstis_has_ii",
+        "from": "disease_nsti",
+        "to": "sub_disease_nsti_type2",
+        "relation_id": "rel_nsti_has_type2",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "Ⅱ型是由单一病原体感染引起的，最常见为A族溶血性链球菌（group A Streptococcus pyogens, GAS），其次为耐甲氧西林金黄色葡萄球菌（methicillin-resistant Staphylococcus aureus, MRSA），可见于健康人群以及任何年龄段的患者[10,22-23]；"
+          "Ⅱ型是由单一病原体感染引起的"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "disease_nstis",
-        "to": "sub_disease_nstis_iii",
-        "relation_id": "rel_nstis_has_iii",
+        "from": "disease_nsti",
+        "to": "sub_disease_nsti_type3",
+        "relation_id": "rel_nsti_has_type3",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "Ⅲ型是由创伤弧菌等海洋菌群引起的感染，多见于亚热带地区，发病诱因多为生食带菌海产品、破损创口接触带菌海水和被海洋生物刺伤或割伤[20,24-25]；"
+          "Ⅲ型是由创伤弧菌等海洋菌群引起的感染"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "disease_nstis",
-        "to": "sub_disease_nstis_iv",
-        "relation_id": "rel_nstis_has_iv",
+        "from": "disease_nsti",
+        "to": "sub_disease_nsti_type4",
+        "relation_id": "rel_nsti_has_type4",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "Ⅳ型则是由真菌感染引起的，多见于长期使用激素、免疫抑制等免疫力低下的患者[26-27]。"
+          "Ⅳ型则是由真菌感染引起的"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "disease_nstis",
-        "to": "sub_disease_nstis_limb",
-        "relation_id": "rel_nstis_has_limb",
+        "from": "disease_nsti",
+        "to": "sub_disease_severe_nsti",
+        "relation_id": "rel_nsti_has_severe",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "根据解剖部位，可分为头颈部NSTIs、肢体NSTIs、胸/腹部NSTIs（如Meleney协同坏疽）和会阴/肛周NSTIs（如Fournier坏疽）。其中，肢体NSTIs发生率约占70%，且下肢多于上肢发病[16,20]。"
+          "NSTIs患者出现血流动力学不稳定和（或）SOFA评分≥2分为重症NSTIs"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "disease_nstis",
-        "to": "sub_disease_nstis_fournier",
-        "relation_id": "rel_nstis_has_fournier",
+        "from": "disease_nsti",
+        "to": "sub_disease_fournier_gangrene",
+        "relation_id": "rel_nsti_has_fournier",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "Fournier坏疽：由1883年法国皮肤科医生Jean Alfred Fournie首次描述，是发生于会阴、外生殖器、肛门等部位的一种NSTIs[114]。"
+          "会阴/肛周NSTIs（如Fournier坏疽）"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_nstis",
-        "to": "sub_disease_nstis_meleney",
-        "relation_id": "rel_nstis_has_meleney",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "Meleney协同坏疽：又称手术后进行性协同性坏疽，发病少见，仅限于个案报道。常发于胸、腹手术或胸腹腔引流后[119]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_nstis",
-        "to": "sub_disease_nstis_cervical",
-        "relation_id": "rel_nstis_has_cervical",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "颈部NSTIs (CNF)：是在颈部筋膜和皮下组织的广泛坏死，多为混合感染[107]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_nstis",
-        "to": "sub_disease_nstis_orbital",
-        "relation_id": "rel_nstis_has_orbital",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "眼眶周围NSTIs：少有累及眼眶周围的NSTIs，可造成失明、死亡。表现为眼部疼痛、发红、分泌物增加，眼球肿胀突出，视力下降、眼肌麻痹[106]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_nstis",
-        "to": "sub_disease_nstis_severe",
-        "relation_id": "rel_nstis_has_severe",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "NSTIs按照严重程度可分为轻症NSTIs和重症NSTIs。NSTIs患者出现血流动力学不稳定和（或）SOFA评分≥2分为重症NSTIs[67]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_nstis",
-        "to": "sub_disease_nstis_mild",
-        "relation_id": "rel_nstis_has_mild",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "NSTIs按照严重程度可分为轻症NSTIs和重症NSTIs。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_nstis_i",
+        "from": "sub_disease_nsti_type1",
         "to": "symptom_swelling",
-        "relation_id": "rel_nstis_i_manifests_as_swelling",
+        "relation_id": "rel_type1_manifests_swelling",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -800,71 +455,35 @@
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等。"
+          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_nstis_i",
-        "to": "symptom_pain",
-        "relation_id": "rel_nstis_i_manifests_as_pain",
+        "from": "sub_disease_severe_nsti",
+        "to": "symptom_blood_blister",
+        "relation_id": "rel_severe_manifests_blood_blister",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_nstis_i",
-        "to": "symptom_erythema",
-        "relation_id": "rel_nstis_i_manifests_as_erythema",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_nstis_i",
-        "to": "symptom_fever",
-        "relation_id": "rel_nstis_i_manifests_as_fever",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 5,
+        "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "NSTIs早期可表现为肿胀、疼痛、红斑和发热等。"
+          "出现血泡、瘀斑、皮肤发黑等表现提示病情严重"
         ],
-        "confidence": 0.95
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出出现血泡等表现提示病情严重",
+        "evidence": "出现血泡、瘀斑、皮肤发黑等表现提示病情严重"
       },
       {
-        "from": "sub_disease_nstis_ii",
-        "to": "symptom_bulla",
-        "relation_id": "rel_nstis_ii_manifests_as_bulla",
+        "from": "sub_disease_severe_nsti",
+        "to": "symptom_subcutaneous_crepitus",
+        "relation_id": "rel_severe_manifests_crepitus",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -872,112 +491,32 @@
         "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "出现小水泡或血泡[32-33]"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_nstis_ii",
-        "to": "symptom_hematoma",
-        "relation_id": "rel_nstis_ii_manifests_as_hematoma",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "当出现组织缺血性坏死时，可出现皮肤大片瘀斑、张力升高、水泡或血泡融合、坏死破溃、皮下捻发音、皮肤发黑或呈暗红色，病灶范围扩大蔓延[10,20,34-35]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_nstis_iii",
-        "to": "symptom_shock",
-        "relation_id": "rel_nstis_iii_manifests_as_shock",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 9,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "严重的NSTIs患者可出现多脏器功能衰竭，全身症状除发热、心动过速、低血压、休克等表现外，也可出现呼吸急促、呼吸困难、少尿、无尿、黄疸等相应脏器损伤的表现[6,14,37]。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确指出Ⅲ型NSTIs患者‘30例（88.2%）48 h出现休克’，属高比例、时间明确的临床表现",
-        "evidence": "回顾性分析34例创伤弧菌脓毒症患者，30例（88.2%）48h出现休克"
-      },
-      {
-        "from": "sub_disease_nstis_iii",
-        "to": "symptom_arrest",
-        "relation_id": "rel_nstis_iii_manifests_as_arrest",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 1,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "回顾性分析34例创伤弧菌脓毒症患者，30例（88.2%）48 h出现休克，21例（61.8%）出现ARDS，26例（76.5%）出现急性肾功能不全，病死率达47.1%[38]。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文未提及‘arrest’（如心脏骤停/呼吸骤停），该症状无任何对应描述，属无依据推断",
-        "evidence": ""
-      },
-      {
-        "from": "sub_disease_nstis_iv",
-        "to": "symptom_skin_necrosis",
-        "relation_id": "rel_nstis_iv_manifests_as_skin_necrosis",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 9,
-        "criterion_group_id": null,
-        "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "当出现组织缺血性坏死时，可出现皮肤大片瘀斑、张力升高、水泡或血泡融合、坏死破溃、皮下捻发音、皮肤发黑或呈暗红色，病灶范围扩大蔓延[10,20,34-35]。"
+          "当出现组织缺血性坏死时，可出现皮肤大片瘀斑、张力升高、水泡或血泡融合、坏死破溃、皮下捻发音、皮肤发黑或呈暗红色"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确‘Ⅳ型……病情进展快’且表3定义其‘可见于任何部位，病情进展快’，结合上下文‘皮肤坏死’为NSTIs共性终末表现，Ⅳ型作为真菌性重症NSTIs必然包含皮肤坏死",
-        "evidence": "Ⅳ型则是由真菌感染引起的，多见于长期使用激素、免疫抑制等免疫力低下的患者[26-27]。根据病原学的NSTIs分型及"
+        "confidence": 0.9,
+        "weight_reason": "原文指出出现组织缺血性坏死等严重情况时可出现皮下捻发音",
+        "evidence": "当出现组织缺血性坏死时，可出现皮肤大片瘀斑、张力升高、水泡或血泡融合、坏死破溃、皮下捻发音"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_nstis_i",
-        "to": "test_lrinec_score",
-        "relation_id": "rel_nstis_i_requires_lrinec",
+        "from": "sub_disease_nsti_type1",
+        "to": "test_lrinec",
+        "relation_id": "rel_nsti_requires_lrinec",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断推荐项",
-        "diagnostic_role": "recommended",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
         "value_min": 6,
         "value_max": null,
         "operator": ">=",
         "unit": "分",
         "result_text": null,
-        "weight": 7,
+        "weight": 6,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
@@ -986,50 +525,26 @@
         "section_priority": "辅助检查",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "LRINEC评分≥6分提示可能存在坏死性筋膜炎。"
+          "LRINEC评分≥6分提示可能存在坏死性筋膜炎"
         ],
-        "confidence": 0.95
+        "confidence": 0.9,
+        "weight_reason": "原文推荐采用LRINEC评分用于NSTIs的早期识别，I型属于NSTIs",
+        "evidence": "推荐采用LRINEC评分用于NSTIs的早期识别"
       },
       {
-        "from": "sub_disease_nstis_i",
-        "to": "test_ck",
-        "relation_id": "rel_nstis_i_requires_ck",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断辅助项",
-        "diagnostic_role": "supportive",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": null,
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "elevated",
-        "typicality": "common",
-        "section_priority": "辅助检查",
-        "evidence_level": "study",
-        "evidence_ids": [
-          "研究表明，NSTIs可有血清肌酸激酶（casein kinase，CK）水平升高[43-44]。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_nstis_i",
+        "from": "sub_disease_nsti_type1",
         "to": "test_tm",
-        "relation_id": "rel_nstis_i_requires_tm",
+        "relation_id": "rel_nsti_requires_tm",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断辅助项",
+        "type_info": "推荐诊断项",
         "diagnostic_role": "supportive",
         "value_min": 7567,
         "value_max": null,
         "operator": ">=",
         "unit": "pg/mL",
         "result_text": null,
-        "weight": 6,
+        "weight": 7,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
@@ -1038,175 +553,115 @@
         "section_priority": "辅助检查",
         "evidence_level": "study",
         "evidence_ids": [
-          "血栓调节蛋白(thrombomodulin，TM)对NSTIs和非坏死的皮肤软组织感染具有较好的区分能力，其AUC为0.95（特异度89%，敏感度92%，浓度阈值为7 567 pg/mL）[45]。"
+          "血栓调节蛋白(thrombomodulin，TM)对NSTIs和非坏死的皮肤软组织感染具有较好的区分能力，其AUC为0.95（特异度89%，敏感度92%，浓度阈值为7 567 pg/mL）"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_nstis_severe",
-        "to": "test_sbp",
-        "relation_id": "rel_nstis_severe_requires_sbp",
+        "from": "sub_disease_nsti_type1",
+        "to": "test_surgical_exploration",
+        "relation_id": "rel_nsti_requires_surgery",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
-        "value_max": 100,
-        "operator": "<=",
-        "unit": "mmHg",
-        "result_text": null,
-        "weight": 8,
-        "gold_standard": false,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "手指试验阳性",
+        "weight": 100,
+        "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "decreased",
+        "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "辅助检查",
+        "section_priority": "手术探查与组织学检查",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "Double-SR快速筛查评分表：快速生命体征评估（rapid vital sign assessment）：收缩压≤100 mmHg"
+          "手术探查是公认的诊断NSTIs金标准。"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文在‘8.1 早期评估与处置’中将‘收缩压≤100 mmHg’列为Double-SR评分中‘快速生命体征评估’项，是重症NSTIs快速筛查核心指标之一",
-        "evidence": "快速生命体征评估（rapidvitalsignassessment）、③严重的皮肤表现（severeskinsigns）、④快速进展的症状"
-      },
-      {
-        "from": "sub_disease_nstis_severe",
-        "to": "test_so2",
-        "relation_id": "rel_nstis_severe_requires_so2",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": 93,
-        "operator": "<",
-        "unit": "%",
-        "result_text": null,
-        "weight": 8,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "decreased",
-        "typicality": "typical",
-        "section_priority": "辅助检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "Double-SR快速筛查评分表：快速生命体征评估（rapid vital sign assessment）：SpO2<93%"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确‘NSTIs患者出现血流动力学不稳定和（或）SOFA评分≥2分为重症NSTIs’，SOFA为定义重症的核心量化标准",
-        "evidence": "NSTIs患者出现血流动力学不稳定和（或）SOFA评分≥2分为重症NSTIs[67]"
+        "weight_reason": "原文明确指出手术探查阳性是NSTIs诊断的金标准",
+        "evidence": "手术探查阳性是NSTIs诊断的金标准"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_nstis_i",
-        "to": "treatment_early_debridement",
-        "relation_id": "rel_nstis_i_follows_debridement",
+        "from": "sub_disease_severe_nsti",
+        "to": "treatment_empirical_antibiotics",
+        "relation_id": "rel_severe_follows_antibiotics",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后",
+        "applicable_condition": "重症NSTIs诊断后1 h内",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "强推荐",
+        "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病分型"
+          "疾病分期",
+          "严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "早期急诊经验性抗感染",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_severe_nsti",
+        "to": "treatment_surgical_debridement",
+        "relation_id": "rel_severe_follows_surgery",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "诊断后12 h内",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分期"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
         "source_section": "手术治疗",
         "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_nstis_i",
-        "to": "treatment_early_antibiotics",
-        "relation_id": "rel_nstis_i_follows_antibiotics",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "确诊后",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "强推荐",
-        "decision_basis": [
-          "疾病分型"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "抗感染治疗",
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_nstis_severe",
-        "to": "treatment_mdrt",
-        "relation_id": "rel_nstis_severe_follows_mdrt",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "确诊后",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "良好实践主张（GPS）",
-        "decision_basis": [
-          "疾病严重程度"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "全程多学科一站式管理",
-        "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_early_debridement",
-        "to": "plan_surgery_within_12h",
-        "relation_id": "rel_debridement_implements_by_surgery",
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_carbapenem_glycopeptide",
+        "relation_id": "rel_antibiotics_implements_carbapenem",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "NSTIs确诊后",
+        "applicable_condition": "重症NSTIs或病情进展快，脏器损伤严重患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "NSTIs患者应在诊断后12 h内进行手术治疗（Ⅱ/A，一致率：96.8%）。"
+          "对于重症NSTIs或病情进展快，脏器损伤严重患者选择覆盖可疑病原体的抗菌药物，可选用碳青霉烯类联合糖肽类。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "treatment_early_antibiotics",
-        "to": "plan_antibiotics_within_1h",
-        "relation_id": "rel_antibiotics_implements_by_antibiotics",
+        "from": "treatment_empirical_antibiotics",
+        "to": "plan_cephalosporin_quinolone",
+        "relation_id": "rel_antibiotics_implements_cephalosporin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "重症NSTIs诊断后",
-        "contraindication_note": null,
+        "applicable_condition": "创伤弧菌感染",
+        "contraindication_note": "不推荐单独使用泰能、多西环素治疗",
         "evidence_ids": [
-          "重症NSTIs在1 h内进行经验性抗感染治疗。（Ⅰ/A，一致率：96.9%）"
+          "对于创伤弧菌感染推荐第三代头孢菌素联合喹诺酮类药物治疗7-10 d，不推荐单独使用泰能、多西环素治疗"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "treatment_mdrt",
-        "to": "plan_double_sr_ge1",
-        "relation_id": "rel_mdrt_implements_by_double_sr",
-        "relation_name": "落实为",
-        "relation_type": "implements_by",
-        "plan_role": "首选",
-        "applicable_condition": "可疑NSTIs患者急诊快速筛查",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "Double-SR评分≥1分患者启动NSTI-RRT。（GPS，一致率：96.9%）"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_nstis_i",
-        "to": "etiology_mixed_aerobic_anaerobic",
-        "relation_id": "rel_nstis_i_causes_mixed",
+        "from": "sub_disease_nsti_type3",
+        "to": "etiology_marine_exposure",
+        "relation_id": "rel_type3_causes_marine",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -1214,14 +669,14 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "Ⅰ型为混合菌感染，由需氧菌和厌氧菌的混合感染所致，多见于老年人和患有基础疾病的患者[10,22]；"
+          "发病诱因多为生食带菌海产品、破损创口接触带菌海水和被海洋生物刺伤或割伤"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_nstis_ii",
-        "to": "etiology_gas",
-        "relation_id": "rel_nstis_ii_causes_gas",
+        "from": "sub_disease_nsti_type4",
+        "to": "etiology_immunosuppression",
+        "relation_id": "rel_type4_causes_immuno",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -1229,72 +684,20 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "Ⅱ型是由单一病原体感染引起的，最常见为A族溶血性链球菌（group A Streptococcus pyogens, GAS）"
+          "多见于长期使用激素、免疫抑制等免疫力低下的患者"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_nstis_iii",
-        "to": "etiology_vibrio_vulnificus",
-        "relation_id": "rel_nstis_iii_causes_vibrio",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "strong",
-        "typicality": "typical",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "Ⅲ型是由创伤弧菌等海洋菌群引起的感染，多见于亚热带地区，发病诱因多为生食带菌海产品、破损创口接触带菌海水和被海洋生物刺伤或割伤[20,24-25]；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_nstis_iv",
-        "to": "etiology_fungal",
-        "relation_id": "rel_nstis_iv_causes_fungal",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "strong",
-        "typicality": "罕见",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "Ⅳ型则是由真菌感染引起的，多见于长期使用激素、免疫抑制等免疫力低下的患者[26-27]。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_nstis_i",
-        "to": "pathogenesis_bacterial_invasion",
-        "relation_id": "rel_nstis_i_explained_by_invasion",
+        "from": "sub_disease_nsti_type1",
+        "to": "pathogenesis_ischemic_necrosis",
+        "relation_id": "rel_nsti_explained_by_ischemia",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "NSTIs常见有两种起病过程：一种是当有皮肤或黏膜完整性破坏时，致病菌自外部侵入并在组织内增殖[10]；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_nstis_ii",
-        "to": "pathogenesis_hematogenous_spread",
-        "relation_id": "rel_nstis_ii_explained_by_spread",
-        "relation_name": "由机制解释",
-        "relation_type": "explained_by",
-        "evidence_ids": [
-          "另一种是深部的、非穿透性组织损伤，如肌肉拉伤、扭伤或血肿刺激白细胞浸润和肌原细胞激活，细菌由血行播散至受伤部位[28]。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_nstis_i",
-        "to": "pathogenesis_inflammatory_damage",
-        "relation_id": "rel_nstis_i_explained_by_inflammation",
-        "relation_name": "由机制解释",
-        "relation_type": "explained_by",
-        "evidence_ids": [
-          "病原体激活病原相关分子模式免疫信号通路，刺激多种炎性介质释放，一方面可直接损伤组织，导致组织细胞死亡；另一方面可诱导血小板/白细胞聚集使毛细血管闭塞和内皮细胞损伤，导致组织液渗出引起肿胀和皮肤红斑[29]。"
+          "大量血管逐渐受压致缺血，直至血管闭塞导致各层组织缺血性坏死"
         ],
         "confidence": 0.9
       }

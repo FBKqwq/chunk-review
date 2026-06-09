@@ -2,7 +2,7 @@
   "meta": {
     "doc_id": "成人急性髓系白血病诊疗规范(2018 年版)",
     "source_title": "成人急性髓系白血病诊疗规范(2018 年版)",
-    "section_path": "",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -11,27 +11,12 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_leukemia",
-        "name": "白血病",
-        "normalized_name": "白血病",
-        "aliases": [
-          "leukemia"
-        ],
-        "source_document_ids": [
-          "成人急性髓系白血病诊疗规范(2018 年版)"
-        ],
-        "evidence_ids": [
-          "白血病（leukemia）是起源于造血干细胞的恶性克隆性疾病，受累细胞（白血病细胞）出现增殖失控、分化障碍、凋亡受阻，大量蓄积于骨髓和其他造血组织，从而抑制骨髓正常造血功能并浸润淋巴结、肝、脾等组织器官。"
-        ],
-        "confidence": 0.95
-      },
-      {
         "id": "disease_aml",
         "name": "急性髓系白血病",
         "normalized_name": "急性髓系白血病",
         "aliases": [
-          "acute myeloid leukemia",
-          "AML"
+          "AML",
+          "急性髓细胞白血病"
         ],
         "source_document_ids": [
           "成人急性髓系白血病诊疗规范(2018 年版)"
@@ -45,320 +30,97 @@
     "sub_diseases": [
       {
         "id": "sub_disease_aml_non_apl",
-        "name": "非急性早幼粒细胞白血病的急性髓系白血病",
+        "name": "AML(非APL)",
         "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML非特定型",
+        "disease_subtype": "非急性早幼粒细胞白血病",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "成人",
         "gender": "all",
-        "age_min": null,
-        "age_max": null,
+        "age_min": 18,
+        "age_max": 60,
         "evidence_ids": [
-          "AML(非 APL)的诱导缓解治疗：目前初治成人非 APL 的 AML 诱导治疗方案的组成以蒽环类药物联合阿糖胞苷为基础……"
+          "1.AML(非 APL)的诱导缓解治疗：目前初治成人非 APL 的 AML 诱导治疗方案的组成以蒽环类药物联合阿糖胞苷为基础"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_aml_apl",
+        "id": "sub_disease_apl",
         "name": "急性早幼粒细胞白血病",
         "parent_disease_id": "disease_aml",
-        "disease_subtype": "急性早幼粒细胞白血病（APL）",
+        "disease_subtype": "APL",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "成人",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "急性早幼粒细胞白血病（APL）伴 PML-RARA",
-          "M3 急性早幼粒细胞白血病（APL）",
-          "APL 根据诊断时白细胞数和血小板计数进行预后分组"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "sub_disease_aml_m0",
-        "name": "急性髓细胞白血病微分化型",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML-M0",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "M0 急性髓细胞白血病微分化型 原始细胞＞30%，无噬天青颗粒及Auer小体，MPO及苏丹黑B阳性细胞＜3%，CD33及CD13阳性，淋巴抗原及血小板抗原阴性"
+          "急性早幼粒细胞白血病（AML-M3，APL）因并发 DIC 而出现全身广泛性出血。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_aml_m1",
-        "name": "急性粒细胞白血病未分化型",
+        "id": "sub_disease_aml_elderly",
+        "name": "老年AML",
         "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML-M1",
+        "disease_subtype": "老年急性髓系白血病",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "老年患者",
         "gender": "all",
-        "age_min": null,
+        "age_min": 60,
         "age_max": null,
         "evidence_ids": [
-          "M1 急性粒细胞白血病未分化型 原粒细胞占非红系有核细胞（NEC）＞90%，其中MPO阳性细胞＞3%"
+          "3.老年 AML 的治疗：老年患者，年龄小于 75 岁、一般情况好、不具有不良预后因素"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_aml_m2",
-        "name": "急性粒细胞白血病部分分化型",
+        "id": "sub_disease_aml_relapsed_refractory",
+        "name": "复发、难治性AML",
         "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML-M2",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "disease_subtype": "复发难治急性髓系白血病",
+        "clinical_stage": "复发/难治",
+        "severity": "重症",
+        "population": "成人",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "M2 急性粒细胞白血病部分分化型 原粒细胞占NEC30%~89%，其他粒细胞≥10%，单核细胞＜20%"
+          "5.复发、难治性 AML 的治疗：复发、难治性 AML（非APL）患者仍缺乏有效的治疗方式。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_aml_m3",
-        "name": "急性早幼粒细胞白血病",
+        "id": "sub_disease_apl_low_intermediate_risk",
+        "name": "中低危组APL",
         "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML-M3",
+        "disease_subtype": "APL预后分组",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "轻中症",
+        "population": "成人",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "M3 急性早幼粒细胞白血病（APL） 早幼粒细胞占NEC≥30%"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "sub_disease_aml_m4",
-        "name": "急性粒-单核细胞白血病",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML-M4",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "M4 急性粒细胞-单核细胞白血病 原始细胞占NEC≥30%，各阶段粒细胞≥20%，各阶段单核细胞≥20%"
+          "目前常常把低危组和中危组放在一起作为低危组，治疗策略相同。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_aml_m5",
-        "name": "急性原始单核细胞/单核细胞白血病",
+        "id": "sub_disease_apl_high_risk",
+        "name": "高危组APL",
         "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML-M5",
+        "disease_subtype": "APL预后分组",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "重症",
+        "population": "成人",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "M5 急性单核细胞白血病 原单、幼单细胞占NEC≥30%，且原单、幼单及单核细胞≥80%"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_aml_m6",
-        "name": "急性红白血病",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML-M6",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "M6 急性红白血病 有核红细胞≥50%，原始细胞占NEC≥30%"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_aml_m7",
-        "name": "急性巨核细胞白血病",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML-M7",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "M7 急性巨核细胞白血病 原始巨核细胞≥30%，血小板抗原阳性，血小板过氧化物酶阳性"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_aml_who_recurrent_genetic_abn",
-        "name": "AML伴重现性遗传异常",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML伴重现性遗传异常",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "AML伴重现性遗传异常",
-          "AML 伴 t（8；21）（q22；q22.1）；RUNX1-RUNX1T1",
-          "AML 伴 inv（16）（p13.1q22） 或 t（16；16）（p13.1；q22）；CBFB-MYH11",
-          "APL 伴 PML-RARA"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "sub_disease_aml_who_npm1_mut",
-        "name": "AML伴NPM1突变",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML伴NPM1突变",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "AML 伴 NPM1突变"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_aml_who_cebpa_biallelic_mut",
-        "name": "AML伴CEBPA双等位基因突变",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML伴CEBPA双等位基因突变",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "AML 伴 CEBPA双等位基因突变"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_aml_who_mds_related",
-        "name": "AML伴骨髓增生异常相关改变",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "AML伴骨髓增生异常相关改变",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "AML伴骨髓增生异常相关改变"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_aml_treatment_related",
-        "name": "治疗相关髓系肿瘤",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "治疗相关髓系肿瘤",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "治疗相关髓系肿瘤"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_aml_low_risk",
-        "name": "预后良好组AML",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "预后良好组AML",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "预后良好 inv(16)(p13q22)或t(16；16)(p13；q22)",
-          "t(8;21)(q22；q22)",
-          "NPM1 突 变 但 不 伴 有 FLT3-ITD突变",
-          "CEBPA双突变"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_aml_intermediate_risk",
-        "name": "预后中等组AML",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "预后中等组AML",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "预后中等 正常核型",
-          "t(9;11) (p22;q23)",
-          "其他异常"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_aml_high_risk",
-        "name": "预后不良组AML",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "预后不良组AML",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "预后不良 单体核型",
-          "复杂核型 (≥3 种 )",
-          "-5、-7、5q-、-17 或 abn(17p)",
-          "inv(3) (q21q26.2)或 t(3;3)(q21q26.2)",
-          "t(6;9) (p23;q34)",
-          "t(9;22)(q34.1;q11.2)"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_aml_cns_involvement",
-        "name": "中枢神经系统白血病（AML相关）",
-        "parent_disease_id": "disease_aml",
-        "disease_subtype": "中枢神经系统白血病",
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "中枢神经系统白血病（CNSL）：AML 以 t（8；21）/AML、inv（16）/AML、M4 和 M5 多见。临床上轻者表现为头痛、头晕，重者有呕吐、颈项强直，甚至抽搐、昏迷。可能存在视乳头水肿、视网膜出血、颅神经麻痹，常侵及软脑膜，脑实质损伤少见。"
+          "高危组—WBC＞10×109/L。"
         ],
         "confidence": 0.9
       }
@@ -370,11 +132,11 @@
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "贫血 少数患者因病程短可无贫血，多数患者就诊时已有贫血。"
+          "少数患者因病程短可无贫血，多数患者就诊时已有贫血。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_fever",
@@ -384,536 +146,562 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "发热 白血病本身可以发热，但发热往往提示有继发感染。"
+          "白血病本身可以发热，但发热往往提示有继发感染。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_bleeding",
         "name": "出血",
-        "body_site": "皮肤和黏膜",
-        "symptom_category": "血液系统症状",
+        "body_site": "皮肤、黏膜、内脏",
+        "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "出血 主要为皮肤和黏膜出血，也可见消化道、呼吸道、泌尿道、眼底甚至中枢神经系统出血，严重时威胁生命。急性早幼粒细胞白血病（AML-M3，APL）因并发 DIC 而出现全身广泛性出血。"
+          "主要为皮肤和黏膜出血，也可见消化道、呼吸道、泌尿道、眼底甚至中枢神经系统出血"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_hepatosplenomegaly",
-        "name": "肝脾肿大",
-        "body_site": "腹部",
-        "symptom_category": "全身症状",
+        "name": "肝、脾淋巴结肿大",
+        "body_site": "腹部、颈部",
+        "symptom_category": "体征",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
           "肝、脾淋巴结肿大：AML 较 ALL 少见。"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_lymphadenopathy",
-        "name": "淋巴结肿大",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "肝、脾淋巴结肿大：AML 较 ALL 少见。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_sternal_tenderness",
-        "name": "胸骨下段局部压痛",
-        "body_site": "胸部",
-        "symptom_category": "骨骼肌肉症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "骨骼和关节：急性白血病常有胸骨下段局部压痛和骨关节疼痛。发生骨髓坏死时，可引起骨骼剧痛。"
-        ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
         "id": "symptom_bone_pain",
-        "name": "骨关节疼痛",
-        "body_site": "骨骼",
-        "symptom_category": "骨骼肌肉症状",
+        "name": "骨骼和关节疼痛",
+        "body_site": "骨骼、关节",
+        "symptom_category": "局部症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "骨骼和关节：急性白血病常有胸骨下段局部压痛和骨关节疼痛。发生骨髓坏死时，可引起骨骼剧痛。"
+          "急性白血病常有胸骨下段局部压痛和骨关节疼痛。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_granulocytic_sarcoma",
+        "id": "symptom_chloroma",
         "name": "粒细胞肉瘤",
-        "body_site": "眶部/骨膜",
-        "symptom_category": "肿瘤浸润表现",
+        "body_site": "眼眶、骨膜",
+        "symptom_category": "局部体征",
         "polarity": "present",
         "typicality": "rare",
         "evidence_ids": [
-          "粒细胞肉瘤 2%-14% AML 患者出现粒细胞肉瘤（granulocytic sarcoma），又称绿色瘤。常累及骨膜，以眶部位最常见，可引起眼球突出、复视或失明。"
+          "2%-14% AML 患者出现粒细胞肉瘤（granulocytic sarcoma），又称绿色瘤。"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
         "id": "symptom_gingival_hyperplasia",
-        "name": "牙龈增生",
+        "name": "牙龈增生、肿胀",
         "body_site": "口腔",
-        "symptom_category": "肿瘤浸润表现",
+        "symptom_category": "局部体征",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "口腔和皮肤：常见于急性单核细胞白血病，是由于白血病细胞浸润出现牙龈增生、肿胀，皮肤出现局限性或弥漫性紫色突起硬结或斑块。"
+          "常见于急性单核细胞白血病，是由于白血病细胞浸润出现牙龈增生、肿胀"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
-        "id": "symptom_skin_induration",
-        "name": "皮肤紫色突起硬结或斑块",
-        "body_site": "皮肤",
-        "symptom_category": "肿瘤浸润表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "口腔和皮肤：常见于急性单核细胞白血病，是由于白血病细胞浸润出现牙龈增生、肿胀，皮肤出现局限性或弥漫性紫色突起硬结或斑块。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_headache",
-        "name": "头痛",
-        "body_site": "头部",
+        "id": "symptom_cns_leukemia",
+        "name": "中枢神经系统白血病表现",
+        "body_site": "中枢神经系统",
         "symptom_category": "神经系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "中枢神经系统白血病（CNSL）：AML 以 t（8；21）/AML、inv（16）/AML、M4 和 M5 多见。临床上轻者表现为头痛、头晕，重者有呕吐、颈项强直，甚至抽搐、昏迷。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_dizziness",
-        "name": "头晕",
-        "body_site": "头部",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "中枢神经系统白血病（CNSL）：AML 以 t（8；21）/AML、inv（16）/AML、M4 和 M5 多见。临床上轻者表现为头痛、头晕，重者有呕吐、颈项强直，甚至抽搐、昏迷。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_vomiting",
-        "name": "呕吐",
-        "body_site": "消化道",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "中枢神经系统白血病（CNSL）：AML 以 t（8；21）/AML、inv（16）/AML、M4 和 M5 多见。临床上轻者表现为头痛、头晕，重者有呕吐、颈项强直，甚至抽搐、昏迷。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_nuchal_rigidity",
-        "name": "颈项强直",
-        "body_site": "颈部",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "中枢神经系统白血病（CNSL）：AML 以 t（8；21）/AML、inv（16）/AML、M4 和 M5 多见。临床上轻者表现为头痛、头晕，重者有呕吐、颈项强直，甚至抽搐、昏迷。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_seizure",
-        "name": "抽搐",
-        "body_site": "全身",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "中枢神经系统白血病（CNSL）：AML 以 t（8；21）/AML、inv（16）/AML、M4 和 M5 多见。临床上轻者表现为头痛、头晕，重者有呕吐、颈项强直，甚至抽搐、昏迷。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_coma",
-        "name": "昏迷",
-        "body_site": "全身",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "中枢神经系统白血病（CNSL）：AML 以 t（8；21）/AML、inv（16）/AML、M4 和 M5 多见。临床上轻者表现为头痛、头晕，重者有呕吐、颈项强直，甚至抽搐、昏迷。"
+          "临床上轻者表现为头痛、头晕，重者有呕吐、颈项强直，甚至抽搐、昏迷。"
         ],
         "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_bone_marrow_blast_percentage",
-        "name": "骨髓原始细胞百分比",
-        "normal_range_min": null,
-        "normal_range_max": null,
+        "id": "test_blast_percentage",
+        "name": "骨髓原始细胞比例",
+        "normal_range_min": 0,
+        "normal_range_max": 5,
         "is_digital": 1,
         "evidence_ids": [
-          "白血病的诊断主要是依赖骨髓涂片计数原始细胞比例。",
-          "WHO将原始细胞≥20%作为急性白血病的诊断标准。",
-          "FAB标准将原始细胞≥30%作为急性白血病的诊断标准。"
+          "WHO将原始细胞≥20%作为急性白血病的诊断标准。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_peripheral_blood_wbc_count",
-        "name": "外周血白细胞计数",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "血常规可见贫血、血小板减少，白细胞数目可高可低。",
-          "外周血白细胞数增高(尤其是＞100×109/L)时，患者可产生白细胞淤滞……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_peripheral_blood_blasts",
-        "name": "外周血原始细胞",
+        "id": "test_auer_body",
+        "name": "Auer小体",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "血涂片分类检查可见数量不等的原始和幼稚细胞。"
+          "Auer 小体是急性髓系白血病的特征。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "test_bone_marrow_morphology",
-        "name": "骨髓细胞形态学",
+        "id": "test_mpo",
+        "name": "髓过氧化物酶(MPO)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "白血病的分型早期主要是依赖细胞形态学和细胞化学染色",
-          "进一步根据骨髓细胞形态学，尤其是流式免疫表型确定为急性髓系白血病。"
+          "髓过氧化物酶（MPO）"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_flow_cytometry_immunophenotyping",
+        "id": "test_pas",
+        "name": "糖原染色(PAS)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "糖原染色（PAS）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_nse",
+        "name": "非特异性酯酶(NSE)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "非特异性酯酶（NSE/NEC）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_immunophenotype",
         "name": "流式细胞仪免疫表型",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "目前白血病的分型主要是以流式细胞仪为基础的免疫学。",
-          "流式细胞仪的免疫学检查主要用于急性白血病的分型，按照 WHO 标准对 AML 和 ALL 鉴别诊断。"
+          "流式细胞仪的免疫学检查主要用于急性白血病的分型"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_cytogenetics_karyotype",
-        "name": "染色体核型分析",
+        "id": "test_cytogenetics",
+        "name": "染色体核型",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "染色体核型和分子生物学检查主要用于检查白血病的遗传学异常，用于诊断分型和预后评估。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_molecular_biology_pml_rara",
-        "name": "PML-RARα融合基因检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "建议采用定量 PCR 监测骨髓 PML-RARα 转录本水平",
-          "APL 伴 PML-RARA"
+          "主要用于检查白血病的遗传学异常，用于诊断分型和预后评估。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_csf_pressure",
-        "name": "脑脊液压力",
+        "id": "test_molecular",
+        "name": "分子生物学检查",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 1,
+        "is_digital": 0,
         "evidence_ids": [
-          "出现 CNSL 时，脑脊液压力升高，白细胞数增加，蛋白质增多，糖定量减少，涂片中可找到白血病细胞。"
+          "分子生物学检查主要用于检查白血病的遗传学异常"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "test_csf_wbc_count",
-        "name": "脑脊液白细胞计数",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "出现 CNSL 时，脑脊液压力升高，白细胞数增加，蛋白质增多，糖定量减少，涂片中可找到白血病细胞。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_csf_protein",
-        "name": "脑脊液蛋白",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "出现 CNSL 时，脑脊液压力升高，白细胞数增加，蛋白质增多，糖定量减少，涂片中可找到白血病细胞。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_csf_glucose",
-        "name": "脑脊液糖定量",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "出现 CNSL 时，脑脊液压力升高，白细胞数增加，蛋白质增多，糖定量减少，涂片中可找到白血病细胞。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_serum_ldh",
-        "name": "血清乳酸脱氢酶（LDH）",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "血清乳酸脱氢酶（LDH）可增高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_serum_uric_acid",
-        "name": "血清尿酸浓度",
+        "id": "test_uric_acid",
+        "name": "血清尿酸",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
           "血清尿酸浓度增高，特别在化疗期间，尿酸排泄量增加。"
         ],
+        "confidence": 0.85
+      },
+      {
+        "id": "test_ldh",
+        "name": "血清乳酸脱氢酶(LDH)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血清乳酸脱氢酶（LDH）可增高。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "test_csf",
+        "name": "脑脊液检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "出现 CNSL 时，脑脊液压力升高，白细胞数增加，蛋白质增多，糖定量减少，涂片中可找到白血病细胞。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_coagulation",
+        "name": "出凝血功能",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "严密监测出凝血时间、适当补充凝血因子。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "test_mrd",
+        "name": "微小残留病(MRD)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "通过多色流式细胞术、定量 PCR 等技术监测患者体内微小残留病(MRD)水平是预警白血病复发的重要方法。"
+        ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_aml_supportive",
-        "content": "支持治疗包括高白细胞血症处理、防治感染、成分输血、防治尿酸性肾病、出凝血障碍纠正。",
+        "id": "treatment_supportive",
+        "content": "支持治疗，包括高白细胞血症处理、防治感染、成分输血、防治尿酸性肾病、出凝血障碍纠正",
         "recommendation_strength": "strong",
-        "source_section": "三、急性髓系白血病的治疗（一）支持治疗",
+        "source_section": "支持治疗",
         "evidence_ids": [
-          "（一）支持治疗 1.高白细胞血症的处理：化疗前预处理——AML 应用羟基脲或阿糖胞苷降低白细胞水平。……5.出凝血障碍的纠正：患者因血小板减少或合并感染，可引起凝血功能紊乱，严重者可并发 DIC，尤其是 APL。应严密监测出凝血时间、适当补充凝血因子。"
+          "（一）支持治疗 1.高白细胞血症的处理... 2.防治感染... 3.成分输血... 4.防治尿酸性肾病... 5.出凝血障碍的纠正"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_aml_induction_chemo",
-        "content": "联合化疗为AML（非APL）诱导缓解治疗的基础，以蒽环类药物联合阿糖胞苷为基础。",
+        "id": "treatment_induction_non_apl",
+        "content": "AML(非APL)的诱导缓解治疗，以蒽环类药物联合阿糖胞苷为基础",
         "recommendation_strength": "strong",
-        "source_section": "三、急性髓系白血病的治疗（二）联合化疗",
+        "source_section": "联合化疗",
         "evidence_ids": [
-          "1.AML(非 APL)的诱导缓解治疗：目前初治成人非 APL 的 AML 诱导治疗方案的组成以蒽环类药物联合阿糖胞苷为基础……"
+          "1.AML(非 APL)的诱导缓解治疗：目前初治成人非 APL 的 AML 诱导治疗方案的组成以蒽环类药物联合阿糖胞苷为基础"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_aml_apl_differentiation",
-        "content": "诱导分化治疗，以全反式维甲酸和亚砷酸为代表。",
+        "id": "treatment_consolidation_non_apl",
+        "content": "AML(非APL)缓解后治疗，根据危险度分层选择造血干细胞移植或大剂量阿糖胞苷巩固化疗",
         "recommendation_strength": "strong",
-        "source_section": "三、急性髓系白血病的治疗（二）联合化疗",
+        "source_section": "联合化疗",
         "evidence_ids": [
-          "②诱导分化治疗，以用于急性早幼粒细胞白血病的全反式维甲酸和亚砷酸为代表；"
+          "2.AML(非 APL)缓解后治疗：①高危组，首选异基因造血干细胞移植(Allo-HSCT)；②低危组，首选大剂量 Ara-C 为主的巩固化疗"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_aml_allo_hsct",
-        "content": "异基因造血干细胞移植是复发难治AML唯一可能获得长期缓解的治疗措施。",
+        "id": "treatment_elderly_aml",
+        "content": "老年AML治疗，根据年龄和一般情况选择标准方案或低强度治疗",
         "recommendation_strength": "strong",
-        "source_section": "三、急性髓系白血病的治疗（二）联合化疗",
+        "source_section": "联合化疗",
         "evidence_ids": [
-          "异基因 HSCT（allo-HSCT）是唯一可能获得长期缓解的治疗措施，移植前通过挽救方案获得缓解有利于提高移植疗效。"
+          "3.老年 AML 的治疗：老年患者，年龄小于 75 岁、一般情况好...可用标准 3+7 方案诱导治疗。年龄≥75 岁...多采用支持治疗或低强度治疗"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "treatment_apl_induction",
+        "content": "APL诱导治疗，采用全反式维甲酸联合砷剂或联合化疗",
+        "recommendation_strength": "strong",
+        "source_section": "APL 的治疗",
+        "evidence_ids": [
+          "可采用全反式维甲酸（ATRA）联合砷剂的治疗方案诱导治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_apl_consolidation",
+        "content": "APL巩固治疗，采用ATRA联合砷剂或联合化疗方案",
+        "recommendation_strength": "strong",
+        "source_section": "APL 的治疗",
+        "evidence_ids": [
+          "巩固治疗：ATRA 25 mg/（m2·d）×2 周，间歇 2 周...亚砷酸..."
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_apl_maintenance",
+        "content": "APL维持治疗，采用ATRA和砷剂交替或联合化疗维持",
+        "recommendation_strength": "strong",
+        "source_section": "APL 的治疗",
+        "evidence_ids": [
+          "维持治疗：每 3 个月为 1 个周期...完成 8 个周期，维持治疗期总计约 2 年。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_relapsed_refractory",
+        "content": "复发、难治性AML治疗，尝试靶向药物、挽救化疗或异基因造血干细胞移植",
+        "recommendation_strength": "weak",
+        "source_section": "复发、难治性 AML 的治疗",
+        "evidence_ids": [
+          "5.复发、难治性 AML 的治疗：复发、难治性 AML（非APL）患者仍缺乏有效的治疗方式。...异基因 HSCT（allo-HSCT）是唯一可能获得长期缓解的治疗措施"
+        ],
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_ia_da_3plus7",
-        "content": "去甲氧柔红霉素（IDA）或柔红霉素（DNR）联合阿糖胞苷（Ara-C）组成的 IA/DA（3+7）方案。",
+        "id": "plan_hydroxyurea",
+        "content": "化疗前预处理——AML 应用羟基脲或阿糖胞苷降低白细胞水平",
         "plan_level": 1,
-        "applicable_condition": "初治成人非APL的AML",
+        "applicable_condition": "高白细胞血症",
         "contraindication_note": null,
         "evidence_ids": [
-          "常用的有去甲氧柔红霉素（IDA）或柔红霉素（DNR）联合阿糖胞苷（Ara-C）组成的 IA/DA（3+7）方案，具体剂量需要根据患者的病情决定。"
+          "化疗前预处理——AML 应用羟基脲或阿糖胞苷降低白细胞水平。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_leukapheresis",
+        "content": "采用白细胞分离术清除过高的白细胞",
+        "plan_level": 2,
+        "applicable_condition": "外周血白细胞数增高(尤其是＞100×109/L)时，除APL外",
+        "contraindication_note": "APL除外",
+        "evidence_ids": [
+          "除APL 外，可采用白细胞分离术清除过高的白细胞"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_gcsf",
+        "content": "化疗后可使用粒细胞集落刺激因子（G-CSF）促进粒细胞恢复",
+        "plan_level": 1,
+        "applicable_condition": "化疗后粒细胞缺乏",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "化疗后可使用粒细胞集落刺激因子（G-CSF）促进粒细胞恢复。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_rbc_transfusion",
+        "content": "严重贫血可吸氧、输浓缩红细胞",
+        "plan_level": 1,
+        "applicable_condition": "严重贫血",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "严重贫血可吸氧、输浓缩红细胞。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_platelet_transfusion",
+        "content": "血小板计数过低时，需输注单采血小板悬液",
+        "plan_level": 1,
+        "applicable_condition": "血小板计数过低",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "血小板计数过低时，需输注单采血小板悬液，维持血小板计数≥10×109/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_allopurinol",
+        "content": "给予别嘌醇抑制尿酸形成",
+        "plan_level": 1,
+        "applicable_condition": "防治尿酸性肾病",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "可给予别嘌醇抑制尿酸形成。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_ia_da",
+        "content": "去甲氧柔红霉素（IDA）或柔红霉素（DNR）联合阿糖胞苷（Ara-C）组成的 IA/DA（3+7）方案",
+        "plan_level": 1,
+        "applicable_condition": "初治成人非APL的AML诱导治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "常用的有去甲氧柔红霉素（IDA）或柔红霉素（DNR）联合阿糖胞苷（Ara-C）组成的 IA/DA（3+7）方案"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_midostaurin_addition",
-        "content": "在3+7方案基础上加用米哚妥林（midostaurin）。",
+        "id": "plan_midostaurin",
+        "content": "在 3+7 方案的基础上加用米哚妥林（midostaurin）",
         "plan_level": 2,
-        "applicable_condition": "初治成人非APL的AML",
+        "applicable_condition": "AML诱导治疗",
         "contraindication_note": null,
         "evidence_ids": [
-          "随着近年新药的研发，AML 的诱导治疗也可以在 3+7 方案的基础上加用其他药物，如目前美国已经上市的米哚妥林（midostaurin）……"
+          "如目前美国已经上市的米哚妥林（midostaurin）"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
-        "id": "plan_go_antibody",
-        "content": "在3+7方案基础上加用靶向CD33的免疫毒素GO单抗。",
+        "id": "plan_go",
+        "content": "靶向 CD33 的免疫毒素 GO 单抗",
         "plan_level": 2,
-        "applicable_condition": "初治成人非APL的AML",
+        "applicable_condition": "AML诱导治疗或复发难治",
         "contraindication_note": null,
         "evidence_ids": [
-          "随着近年新药的研发，AML 的诱导治疗也可以在 3+7 方案的基础上加用其他药物，如……靶向 CD33 的免疫毒素 GO 单抗。"
+          "靶向 CD33 的免疫毒素 GO 单抗"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
         "id": "plan_cpx351",
-        "content": "柔红霉素和阿糖胞苷的脂质体混合物CPX351用于AML的诱导治疗。",
+        "content": "柔红霉素和阿糖胞苷的脂质体混合物 CPX351",
         "plan_level": 2,
-        "applicable_condition": "初治成人非APL的AML",
+        "applicable_condition": "AML诱导治疗",
         "contraindication_note": null,
         "evidence_ids": [
           "柔红霉素和阿糖胞苷的脂质体混合物 CPX351 也可以用于 AML 的诱导治疗。"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
-        "id": "plan_atra_plus_as2o3",
-        "content": "全反式维甲酸（ATRA）联合三氧化二砷（亚砷酸）治疗APL。",
+        "id": "plan_hidac",
+        "content": "大剂量阿糖胞苷 3g/m2 Q12h 共 6 个剂量，3～4 个疗程",
         "plan_level": 1,
-        "applicable_condition": "中低危组APL",
+        "applicable_condition": "低危组AML缓解后巩固化疗",
         "contraindication_note": null,
         "evidence_ids": [
-          "(1)可采用全反式维甲酸（ATRA）联合砷剂的治疗方案 诱导治疗：ATRA 25 mg（/ m2·d）同时联合三氧化二砷[简称亚砷酸，0.16mg/（kg·d）]或复方黄黛片（60 mg/（kg·d），直到完全缓解（CR）。"
+          "首选大剂量 Ara-C 为主的巩固化疗，可以使用大剂量阿糖胞苷 3g/m2 Q12h 共 6 个剂量，3～4 个疗程。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_atra_plus_as2o3_plus_chemo",
-        "content": "全反式维甲酸（ATRA）联合砷剂及蒽环类化疗治疗APL。",
+        "id": "plan_allo_hsct",
+        "content": "异基因造血干细胞移植(Allo-HSCT)",
         "plan_level": 1,
-        "applicable_condition": "高危组APL",
+        "applicable_condition": "高危组AML缓解后治疗或复发难治AML",
         "contraindication_note": null,
         "evidence_ids": [
-          "(1)维甲酸+砷剂+化疗诱导治疗继之巩固、维持治疗。诱导治疗：ATRA25 mg/（m2·d）联合亚砷酸 0.16 mg/（kg·d）或复方黄黛片 60 mg/（kg·d），直到 CR；DNR 45mg/（m2·d）或 IDA 8 mg/（m2·d） 第 1~3 天。"
+          "高危组，首选异基因造血干细胞移植(Allo-HSCT)"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_ha_scheme",
-        "content": "高三尖杉酯碱（HHT）联合阿糖胞苷（Ara-C）方案。",
+        "id": "plan_auto_hsct",
+        "content": "自体 HSCT（auto-HSCT）",
         "plan_level": 2,
-        "applicable_condition": "APL巩固治疗",
+        "applicable_condition": "部分中低危组患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "巩固治疗（2~3 个疗程）：可选方案：①HA 方案：高三尖杉酯碱（HHT）2 mg（/ m2·d），第 1~7 天；Ara-C 100 mg/（m2·d），第 1~5 天。"
+          "自体 HSCT（auto-HSCT）适用于部分中低危组患者。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "plan_it_chemo",
+        "content": "鞘内预防性用甲氨蝶呤(MTX)、阿糖胞苷及地塞米松",
+        "plan_level": 1,
+        "applicable_condition": "伴髓外病变、M4/M5、存在t(8;21)或inv(16)、或有颅内出血者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "应在 CR 后作脑脊液检查并鞘内预防性用甲氨蝶呤(MTX)、阿糖胞苷及地塞米松。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_ma_scheme",
-        "content": "米托蒽醌（MIT）联合阿糖胞苷（Ara-C）方案。",
-        "plan_level": 2,
-        "applicable_condition": "APL巩固治疗",
+        "id": "plan_decitabine",
+        "content": "地西他滨[20 mg/（m2·d），5～10 天方案]",
+        "plan_level": 1,
+        "applicable_condition": "年龄≥75岁、一般情况差或具有不良预后因素的老年AML",
         "contraindication_note": null,
         "evidence_ids": [
-          "②MA 方案:米托蒽醌（MIT）6~8 mg/（m2·d），第 1~3 天；Ara-C 100 mg（/ m2·d），第 1~5 天。"
+          "2017 年中国 AML 指南推荐的首选方案为：地西他滨[20 mg/（m2·d），5～10 天方案]"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_da_scheme",
-        "content": "柔红霉素（DNR）联合阿糖胞苷（Ara-C）方案。",
+        "id": "plan_cag",
+        "content": "小剂量化疗±G-CSF(如小剂量 AraC 为基础的方案—CAG、CHG、CMG 等)",
         "plan_level": 2,
-        "applicable_condition": "APL巩固治疗",
+        "applicable_condition": "老年AML低强度治疗",
         "contraindication_note": null,
         "evidence_ids": [
-          "③DA 方案：柔红霉素（DNR）40 mg/（m2·d），第 1~3 天；Ara-C 100 mg/（m2·d），第 1~5 天。"
+          "小剂量化疗G-CSF(如小剂量 AraC 为基础的方案—CAG、CHG、CMG 等)"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_ia_scheme",
-        "content": "去甲氧柔红霉素（IDA）联合阿糖胞苷（Ara-C）方案。",
+        "id": "plan_atra_arsenic",
+        "content": "全反式维甲酸（ATRA）联合三氧化二砷或复方黄黛片",
+        "plan_level": 1,
+        "applicable_condition": "中低危组或高危组APL诱导治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "可采用全反式维甲酸（ATRA）联合砷剂的治疗方案诱导治疗：ATRA 25 mg（/ m2·d）同时联合三氧化二砷...或复方黄黛片"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ha_ma_da",
+        "content": "HA方案、MA方案、DA方案或IA方案",
         "plan_level": 2,
         "applicable_condition": "APL巩固治疗",
         "contraindication_note": null,
         "evidence_ids": [
-          "④IA 方案：去甲氧柔红霉素（IDA）8 mg/（m2·d），第 1~3 天；Ara-C 100 mg/（m2·d），第 1~5 天。"
+          "可选方案：①HA 方案...②MA 方案...③DA 方案...④IA 方案"
         ],
         "confidence": 0.9
+      },
+      {
+        "id": "plan_flag",
+        "content": "FLAG等化疗方案",
+        "plan_level": 2,
+        "applicable_condition": "复发、难治性AML",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "也可选择 FLAG 等化疗方案。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "plan_dli",
+        "content": "供体淋巴细胞输注（DLI）",
+        "plan_level": 2,
+        "applicable_condition": "allo-HSCT 后复发患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于 allo-HSCT 后复发患者可尝试供体淋巴细胞输注（DLI）、二次移植等。"
+        ],
+        "confidence": 0.85
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_clonal_hematopoietic_stem_cell_disorder",
-        "content": "造血干细胞恶性克隆性增殖",
+        "id": "etiology_hsc_clonal",
+        "content": "起源于造血干细胞的恶性克隆性疾病",
         "etiology_type": "肿瘤相关因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "白血病（leukemia）是起源于造血干细胞的恶性克隆性疾病，受累细胞（白血病细胞）出现增殖失控、分化障碍、凋亡受阻，大量蓄积于骨髓和其他造血组织……"
+          "白血病（leukemia）是起源于造血干细胞的恶性克隆性疾病"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_pml_rara_fusion",
-        "content": "PML-RARA融合基因",
-        "etiology_type": "遗传学异常",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "APL 伴 PML-RARA"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_runx1_runx1t1_fusion",
-        "content": "RUNX1-RUNX1T1融合基因",
-        "etiology_type": "遗传学异常",
-        "typicality": "typical",
+        "id": "etiology_genetic_abnormality",
+        "content": "遗传学异常（如重现性遗传异常、基因突变）",
+        "etiology_type": "遗传因素",
+        "typicality": "典型",
         "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "AML 伴 t（8；21）（q22；q22.1）；RUNX1-RUNX1T1"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_cbfb_myh11_fusion",
-        "content": "CBFB-MYH11融合基因",
-        "etiology_type": "遗传学异常",
-        "typicality": "typical",
-        "diagnostic_role": "支持证据",
-        "evidence_ids": [
-          "AML 伴 inv（16）（p13.1q22） 或 t（16；16）（p13.1；q22）；CBFB-MYH11"
+          "遗传学信息主要用于白血病患者的诊断分型和预后判断。"
         ],
         "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_aml_clonal_expansion_and_differentiation_block",
+        "id": "pathogenesis_proliferation_differentiation",
         "content": "受累细胞（白血病细胞）出现增殖失控、分化障碍、凋亡受阻，大量蓄积于骨髓和其他造血组织，从而抑制骨髓正常造血功能并浸润淋巴结、肝、脾等组织器官。",
         "evidence_ids": [
-          "白血病（leukemia）是起源于造血干细胞的恶性克隆性疾病，受累细胞（白血病细胞）出现增殖失控、分化障碍、凋亡受阻，大量蓄积于骨髓和其他造血组织，从而抑制骨髓正常造血功能并浸润淋巴结、肝、脾等组织器官。"
+          "受累细胞（白血病细胞）出现增殖失控、分化障碍、凋亡受阻，大量蓄积于骨髓和其他造血组织，从而抑制骨髓正常造血功能并浸润淋巴结、肝、脾等组织器官。"
         ],
         "confidence": 0.95
       }
@@ -928,219 +716,62 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "AML(非 APL)的诱导缓解治疗：目前初治成人非 APL 的 AML 诱导治疗方案的组成以蒽环类药物联合阿糖胞苷为基础……"
+          "根据主要受累的细胞系列可将急性白血病分为急性淋巴细胞白血病（acute lymphoblastic leukemia，ALL）和急性髓系白血病（acute myeloid leukemia，AML）。"
         ],
         "confidence": 0.95
       },
       {
         "from": "disease_aml",
-        "to": "sub_disease_aml_apl",
+        "to": "sub_disease_apl",
         "relation_id": "rel_aml_has_apl",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "急性早幼粒细胞白血病（APL）伴 PML-RARA",
-          "M3 急性早幼粒细胞白血病（APL）"
+          "急性早幼粒细胞白血病（AML-M3，APL）因并发 DIC 而出现全身广泛性出血。"
         ],
         "confidence": 0.95
       },
       {
         "from": "disease_aml",
-        "to": "sub_disease_aml_m0",
-        "relation_id": "rel_aml_has_m0",
+        "to": "sub_disease_aml_elderly",
+        "relation_id": "rel_aml_has_elderly",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "M0 急性髓细胞白血病微分化型 原始细胞＞30%，无噬天青颗粒及Auer小体，MPO及苏丹黑B阳性细胞＜3%，CD33及CD13阳性，淋巴抗原及血小板抗原阴性"
+          "3.老年 AML 的治疗：老年患者，年龄小于 75 岁、一般情况好、不具有不良预后因素"
         ],
         "confidence": 0.9
       },
       {
         "from": "disease_aml",
-        "to": "sub_disease_aml_m1",
-        "relation_id": "rel_aml_has_m1",
+        "to": "sub_disease_aml_relapsed_refractory",
+        "relation_id": "rel_aml_has_relapsed",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "M1 急性粒细胞白血病未分化型 原粒细胞占非红系有核细胞（NEC）＞90%，其中MPO阳性细胞＞3%"
+          "5.复发、难治性 AML 的治疗：复发、难治性 AML（非APL）患者仍缺乏有效的治疗方式。"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_m2",
-        "relation_id": "rel_aml_has_m2",
+        "from": "sub_disease_apl",
+        "to": "sub_disease_apl_low_intermediate_risk",
+        "relation_id": "rel_apl_has_low_risk",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "M2 急性粒细胞白血病部分分化型 原粒细胞占NEC30%~89%，其他粒细胞≥10%，单核细胞＜20%"
+          "目前常常把低危组和中危组放在一起作为低危组，治疗策略相同。"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_m3",
-        "relation_id": "rel_aml_has_m3",
+        "from": "sub_disease_apl",
+        "to": "sub_disease_apl_high_risk",
+        "relation_id": "rel_apl_has_high_risk",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "M3 急性早幼粒细胞白血病（APL） 早幼粒细胞占NEC≥30%"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_m4",
-        "relation_id": "rel_aml_has_m4",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "M4 急性粒细胞-单核细胞白血病 原始细胞占NEC≥30%，各阶段粒细胞≥20%，各阶段单核细胞≥20%"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_m5",
-        "relation_id": "rel_aml_has_m5",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "M5 急性单核细胞白血病 原单、幼单细胞占NEC≥30%，且原单、幼单及单核细胞≥80%"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_m6",
-        "relation_id": "rel_aml_has_m6",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "M6 急性红白血病 有核红细胞≥50%，原始细胞占NEC≥30%"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_m7",
-        "relation_id": "rel_aml_has_m7",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "M7 急性巨核细胞白血病 原始巨核细胞≥30%，血小板抗原阳性，血小板过氧化物酶阳性"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_who_recurrent_genetic_abn",
-        "relation_id": "rel_aml_has_who_recurrent_genetic_abn",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "AML伴重现性遗传异常",
-          "AML 伴 t（8；21）（q22；q22.1）；RUNX1-RUNX1T1",
-          "AML 伴 inv（16）（p13.1q22） 或 t（16；16）（p13.1；q22）；CBFB-MYH11",
-          "APL 伴 PML-RARA"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_who_npm1_mut",
-        "relation_id": "rel_aml_has_who_npm1_mut",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "AML 伴 NPM1突变"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_who_cebpa_biallelic_mut",
-        "relation_id": "rel_aml_has_who_cebpa_biallelic_mut",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "AML 伴 CEBPA双等位基因突变"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_who_mds_related",
-        "relation_id": "rel_aml_has_who_mds_related",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "AML伴骨髓增生异常相关改变"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_treatment_related",
-        "relation_id": "rel_aml_has_treatment_related",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "治疗相关髓系肿瘤"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_low_risk",
-        "relation_id": "rel_aml_has_low_risk",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "预后良好 inv(16)(p13q22)或t(16；16)(p13；q22)",
-          "t(8;21)(q22；q22)",
-          "NPM1 突 变 但 不 伴 有 FLT3-ITD突变",
-          "CEBPA双突变"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_intermediate_risk",
-        "relation_id": "rel_aml_has_intermediate_risk",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "预后中等 正常核型",
-          "t(9;11) (p22;q23)",
-          "其他异常"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_high_risk",
-        "relation_id": "rel_aml_has_high_risk",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "预后不良 单体核型",
-          "复杂核型 (≥3 种 )",
-          "-5、-7、5q-、-17 或 abn(17p)",
-          "inv(3) (q21q26.2)或 t(3;3)(q21q26.2)",
-          "t(6;9) (p23;q34)",
-          "t(9;22)(q34.1;q11.2)"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_aml",
-        "to": "sub_disease_aml_cns_involvement",
-        "relation_id": "rel_aml_has_cns_involvement",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "中枢神经系统白血病（CNSL）：AML 以 t（8；21）/AML、inv（16）/AML、M4 和 M5 多见。临床上轻者表现为头痛、头晕，重者有呕吐、颈项强直，甚至抽搐、昏迷。可能存在视乳头水肿、视网膜出血、颅神经麻痹，常侵及软脑膜，脑实质损伤少见。"
+          "高危组—WBC＞10×109/L。"
         ],
         "confidence": 0.9
       }
@@ -1149,28 +780,7 @@
       {
         "from": "sub_disease_aml_non_apl",
         "to": "symptom_anemia",
-        "relation_id": "rel_aml_non_apl_manifests_as_anemia",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 8,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "贫血 少数患者因病程短可无贫血，多数患者就诊时已有贫血。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确列为AML临床表现中‘正常造血功能受抑制’的首要表现，且‘多数患者就诊时已有贫血’，属高频、典型症状",
-        "evidence": "1.贫血少数患者因病程短可无贫血，多数患者就诊时已有贫血。"
-      },
-      {
-        "from": "sub_disease_aml_non_apl",
-        "to": "symptom_fever",
-        "relation_id": "rel_aml_non_apl_manifests_as_fever",
+        "relation_id": "rel_non_apl_manifests_anemia",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -1182,56 +792,52 @@
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "发热 白血病本身可以发热，但发热往往提示有继发感染。"
+          "少数患者因病程短可无贫血，多数患者就诊时已有贫血。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_aml_non_apl",
+        "to": "symptom_fever",
+        "relation_id": "rel_non_apl_manifests_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "白血病本身可以发热，但发热往往提示有继发感染。"
+        ],
+        "confidence": 0.9
       },
       {
         "from": "sub_disease_aml_non_apl",
         "to": "symptom_bleeding",
-        "relation_id": "rel_aml_non_apl_manifests_as_bleeding",
+        "relation_id": "rel_non_apl_manifests_bleeding",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
         "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "出血 主要为皮肤和黏膜出血，也可见消化道、呼吸道、泌尿道、眼底甚至中枢神经系统出血，严重时威胁生命。"
+          "主要为皮肤和黏膜出血，也可见消化道、呼吸道、泌尿道、眼底甚至中枢神经系统出血"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文指出出血为AML常见表现，但强调‘主要为皮肤和黏膜出血’，未提DIC等严重机制，区别于APL的‘全身广泛性出血’，故权重略低于APL相关出血",
-        "evidence": "3.出血主要为皮肤和黏膜出血，也可见消化道、呼吸道、泌尿道、眼底甚至中枢神经系统出血，严重时威胁生命。"
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_aml_apl",
-        "to": "symptom_bleeding",
-        "relation_id": "rel_aml_apl_manifests_as_bleeding",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "急性早幼粒细胞白血病（AML-M3，APL）因并发 DIC 而出现全身广泛性出血。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将APL出血归因为DIC，并描述为‘全身广泛性出血’，且‘因并发DIC而出现’，属特异性强、机制明确、高危的典型表现",
-        "evidence": "急性早幼粒细胞白血病（AML-M3，APL）因并发DIC而出现全身广泛性出血。"
-      },
-      {
-        "from": "sub_disease_aml_m4",
-        "to": "symptom_hepatosplenomegaly",
-        "relation_id": "rel_aml_m4_manifests_as_hepatosplenomegaly",
+        "from": "sub_disease_aml_non_apl",
+        "to": "symptom_bone_pain",
+        "relation_id": "rel_non_apl_manifests_bone_pain",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -1243,56 +849,37 @@
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "肝、脾淋巴结肿大：AML 较 ALL 少见。"
+          "急性白血病常有胸骨下段局部压痛和骨关节疼痛。"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
-        "from": "sub_disease_aml_m5",
-        "to": "symptom_gingival_hyperplasia",
-        "relation_id": "rel_aml_m5_manifests_as_gingival_hyperplasia",
+        "from": "sub_disease_apl",
+        "to": "symptom_bleeding",
+        "relation_id": "rel_apl_manifests_bleeding",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "口腔和皮肤：常见于急性单核细胞白血病，是由于白血病细胞浸润出现牙龈增生、肿胀，皮肤出现局限性或弥漫性紫色突起硬结或斑块。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_aml_cns_involvement",
-        "to": "symptom_headache",
-        "relation_id": "rel_aml_cns_manifests_as_headache",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
         "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
+        "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "中枢神经系统白血病（CNSL）：AML 以 t（8；21）/AML、inv（16）/AML、M4 和 M5 多见。临床上轻者表现为头痛、头晕，重者有呕吐、颈项强直，甚至抽搐、昏迷。"
+          "急性早幼粒细胞白血病（AML-M3，APL）因并发 DIC 而出现全身广泛性出血。"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文在CNSL临床表现中将‘头痛’列为首位轻症表现，且与‘头晕’并列，属最常报告的早期神经症状",
-        "evidence": "临床上轻者表现为头痛、头晕，重者有呕吐、颈项强直，甚至抽搐、昏迷。"
+        "confidence": 0.95,
+        "weight_reason": "原文指出APL因并发DIC而出现全身广泛性出血，属于特征性临床表现，但未提及金标准。",
+        "evidence": "急性早幼粒细胞白血病（AML-M3，APL）因并发DIC而出现全身广泛性出血"
       }
     ],
     "requires_test": [
       {
         "from": "sub_disease_aml_non_apl",
-        "to": "test_bone_marrow_blast_percentage",
-        "relation_id": "rel_aml_non_apl_requires_blast_percentage",
+        "to": "test_blast_percentage",
+        "relation_id": "rel_non_apl_requires_blast",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -1302,7 +889,7 @@
         "operator": ">=",
         "unit": "%",
         "result_text": null,
-        "weight": 100,
+        "weight": 9,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
@@ -1314,23 +901,79 @@
           "WHO将原始细胞≥20%作为急性白血病的诊断标准。"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确‘白血病的诊断主要是依赖骨髓涂片计数原始细胞比例’，且WHO标准将‘原始细胞≥20%’作为急性白血病诊断标准，该检测是AML确诊的金标准依据",
-        "evidence": "白血病的诊断主要是依赖骨髓涂片计数原始细胞比例。"
+        "weight_reason": "原文指出WHO将原始细胞≥20%作为急性白血病的诊断标准，是核心诊断依据，但未明确使用金标准一词。",
+        "evidence": "WHO将原始细胞≥20%作为急性白血病的诊断标准"
       },
       {
-        "from": "sub_disease_aml_apl",
-        "to": "test_molecular_biology_pml_rara",
-        "relation_id": "rel_aml_apl_requires_pml_rara",
+        "from": "sub_disease_aml_non_apl",
+        "to": "test_auer_body",
+        "relation_id": "rel_non_apl_requires_auer",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": "可见Auer小体",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "Auer 小体是急性髓系白血病的特征。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确说明Auer小体是急性髓系白血病的特征，具有强相关性，但非金标准。",
+        "evidence": "Auer小体是急性髓系白血病的特征"
+      },
+      {
+        "from": "sub_disease_aml_non_apl",
+        "to": "test_immunophenotype",
+        "relation_id": "rel_non_apl_requires_immuno",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": "符合AML免疫表型",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "流式细胞仪的免疫学检查主要用于急性白血病的分型，按照 WHO 标准对 AML 和 ALL 鉴别诊断。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出根据流式免疫表型确定为急性髓系白血病，是重要的确诊和分型手段，但未称为金标准。",
+        "evidence": "进一步根据骨髓细胞形态学，尤其是流式免疫表型确定为急性髓系白血病"
+      },
+      {
+        "from": "sub_disease_apl",
+        "to": "test_molecular",
+        "relation_id": "rel_apl_requires_molecular",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": "contains",
         "unit": null,
-        "result_text": "PML-RARα融合基因阳性",
-        "weight": 100,
+        "result_text": "PML-RARA融合基因阳性",
+        "weight": 9,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
@@ -1342,104 +985,187 @@
           "APL 伴 PML-RARA"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文在WHO分型表2中将‘APL伴PML-RARA’单列一类，且后文强调‘建议采用定量PCR监测骨髓PML-RARα转录本水平’，该融合基因是APL确诊及分型的定义性分子标志",
-        "evidence": "APL伴PML-RARA"
-      },
-      {
-        "from": "sub_disease_aml_cns_involvement",
-        "to": "test_csf_pressure",
-        "relation_id": "rel_aml_cns_requires_csf_pressure",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": ">",
-        "unit": "cmH2O",
-        "result_text": null,
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "elevated",
-        "typicality": "common",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "出现 CNSL 时，脑脊液压力升高，白细胞数增加，蛋白质增多，糖定量减少，涂片中可找到白血病细胞。"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文在CNSL脑脊液检查中明确‘脑脊液压力升高’为第一项异常指标，属CNSL诊断的直接、常规阳性发现，但非独立确诊依据",
-        "evidence": "出现CNSL时，脑脊液压力升高，白细胞数增加，蛋白质增多，糖定量减少，涂片中可找到白血病细胞。"
+        "weight_reason": "原文建议采用定量PCR监测PML-RARα转录本水平以评估分子学反应，是重要监测手段，但未表述为金标准。",
+        "evidence": "建议采用定量PCR监测骨髓PML-RARα转录本水平"
       }
     ],
     "follows_treatment": [
       {
         "from": "sub_disease_aml_non_apl",
-        "to": "treatment_aml_induction_chemo",
-        "relation_id": "rel_aml_non_apl_follows_induction_chemo",
+        "to": "treatment_supportive",
+        "relation_id": "rel_non_apl_follows_supportive",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊后综合治疗",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病特点"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "支持治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aml_non_apl",
+        "to": "treatment_induction_non_apl",
+        "relation_id": "rel_non_apl_follows_induction",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "初治",
         "treatment_line": "一线",
         "applicable_condition": "初治成人非APL的AML",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
+          "年龄",
           "疾病分型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "三、急性髓系白血病的治疗（二）联合化疗",
+        "source_section": "联合化疗",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_aml_apl",
-        "to": "treatment_aml_apl_differentiation",
-        "relation_id": "rel_aml_apl_follows_differentiation",
+        "from": "sub_disease_apl_low_intermediate_risk",
+        "to": "treatment_apl_induction",
+        "relation_id": "rel_apl_low_follows_induction",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "初治",
+        "treatment_line": "一线",
+        "applicable_condition": "中低危组APL",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "危险度分层"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "APL 的治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aml_elderly",
+        "to": "treatment_elderly_aml",
+        "relation_id": "rel_elderly_follows_treatment",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊APL",
+        "applicable_condition": "老年AML患者",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病分型"
+          "年龄",
+          "一般情况",
+          "预后因素"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "三、急性髓系白血病的治疗（二）联合化疗",
+        "source_section": "联合化疗",
         "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_aml_induction_chemo",
-        "to": "plan_ia_da_3plus7",
-        "relation_id": "rel_induction_chemo_implements_by_ia_da",
+        "from": "treatment_supportive",
+        "to": "plan_hydroxyurea",
+        "relation_id": "rel_supportive_implements_hydroxyurea",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "高白细胞血症",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "化疗前预处理——AML 应用羟基脲或阿糖胞苷降低白细胞水平。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_supportive",
+        "to": "plan_allopurinol",
+        "relation_id": "rel_supportive_implements_allopurinol",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "防治尿酸性肾病",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "可给予别嘌醇抑制尿酸形成。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_induction_non_apl",
+        "to": "plan_ia_da",
+        "relation_id": "rel_induction_implements_ia_da",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
         "applicable_condition": "初治成人非APL的AML",
         "contraindication_note": null,
         "evidence_ids": [
-          "常用的有去甲氧柔红霉素（IDA）或柔红霉素（DNR）联合阿糖胞苷（Ara-C）组成的 IA/DA（3+7）方案，具体剂量需要根据患者的病情决定。"
+          "常用的有去甲氧柔红霉素（IDA）或柔红霉素（DNR）联合阿糖胞苷（Ara-C）组成的 IA/DA（3+7）方案"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_aml_apl_differentiation",
-        "to": "plan_atra_plus_as2o3",
-        "relation_id": "rel_differentiation_implements_by_atra_as2o3",
+        "from": "treatment_consolidation_non_apl",
+        "to": "plan_hidac",
+        "relation_id": "rel_consolidation_implements_hidac",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "中低危组APL",
+        "applicable_condition": "低危组AML缓解后",
         "contraindication_note": null,
         "evidence_ids": [
-          "(1)可采用全反式维甲酸（ATRA）联合砷剂的治疗方案 诱导治疗：ATRA 25 mg（/ m2·d）同时联合三氧化二砷[简称亚砷酸，0.16mg/（kg·d）]或复方黄黛片（60 mg/（kg·d），直到完全缓解（CR）。"
+          "首选大剂量 Ara-C 为主的巩固化疗，可以使用大剂量阿糖胞苷 3g/m2 Q12h 共 6 个剂量"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_consolidation_non_apl",
+        "to": "plan_allo_hsct",
+        "relation_id": "rel_consolidation_implements_allo_hsct",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "高危组AML缓解后",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "高危组，首选异基因造血干细胞移植(Allo-HSCT)"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_elderly_aml",
+        "to": "plan_decitabine",
+        "relation_id": "rel_elderly_implements_decitabine",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "年龄≥75岁或一般情况差",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "2017 年中国 AML 指南推荐的首选方案为：地西他滨[20 mg/（m2·d），5～10 天方案]"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_apl_induction",
+        "to": "plan_atra_arsenic",
+        "relation_id": "rel_apl_induction_implements_atra",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "中低危或高危APL",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "可采用全反式维甲酸（ATRA）联合砷剂的治疗方案诱导治疗"
         ],
         "confidence": 0.95
       }
@@ -1447,8 +1173,8 @@
     "causes": [
       {
         "from": "sub_disease_aml_non_apl",
-        "to": "etiology_clonal_hematopoietic_stem_cell_disorder",
-        "relation_id": "rel_aml_non_apl_causes_clonal_disorder",
+        "to": "etiology_hsc_clonal",
+        "relation_id": "rel_non_apl_causes_hsc",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -1456,14 +1182,14 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "白血病（leukemia）是起源于造血干细胞的恶性克隆性疾病，受累细胞（白血病细胞）出现增殖失控、分化障碍、凋亡受阻，大量蓄积于骨髓和其他造血组织……"
+          "白血病（leukemia）是起源于造血干细胞的恶性克隆性疾病"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_aml_apl",
-        "to": "etiology_pml_rara_fusion",
-        "relation_id": "rel_aml_apl_causes_pml_rara",
+        "from": "sub_disease_aml_non_apl",
+        "to": "etiology_genetic_abnormality",
+        "relation_id": "rel_non_apl_causes_genetic",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -1471,20 +1197,20 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "APL 伴 PML-RARA"
+          "遗传学信息主要用于白血病患者的诊断分型和预后判断。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "explained_by": [
       {
         "from": "sub_disease_aml_non_apl",
-        "to": "pathogenesis_aml_clonal_expansion_and_differentiation_block",
-        "relation_id": "rel_aml_non_apl_explained_by_clonal_block",
+        "to": "pathogenesis_proliferation_differentiation",
+        "relation_id": "rel_non_apl_explained_by_pathogenesis",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "白血病（leukemia）是起源于造血干细胞的恶性克隆性疾病，受累细胞（白血病细胞）出现增殖失控、分化障碍、凋亡受阻，大量蓄积于骨髓和其他造血组织，从而抑制骨髓正常造血功能并浸润淋巴结、肝、脾等组织器官。"
+          "受累细胞（白血病细胞）出现增殖失控、分化障碍、凋亡受阻，大量蓄积于骨髓和其他造血组织，从而抑制骨髓正常造血功能并浸润淋巴结、肝、脾等组织器官。"
         ],
         "confidence": 0.95
       }

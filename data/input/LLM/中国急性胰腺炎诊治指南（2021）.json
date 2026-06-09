@@ -31,111 +31,79 @@
         "id": "sub_disease_map",
         "name": "轻症急性胰腺炎",
         "parent_disease_id": "disease_acute_pancreatitis",
-        "disease_subtype": null,
+        "disease_subtype": "MAP",
         "clinical_stage": "不限定",
         "severity": "轻症",
-        "population": null,
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（1）轻症急性胰腺炎（mild acute pancreatitis，MAP），占急性胰腺炎的80%~85%，不伴有器官功能障碍及局部或全身并发症，通常在1~2周内恢复，病死率极低。"
+          "轻症急性胰腺炎（mildacutepancreati⁃tis，MAP），占急性胰腺炎的80%~85%，不伴有器官功能障碍及局部或全身并发症，通常在1~2周内恢复，病死率极低。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "sub_disease_msap",
         "name": "中重症急性胰腺炎",
         "parent_disease_id": "disease_acute_pancreatitis",
-        "disease_subtype": null,
+        "disease_subtype": "MSAP",
         "clinical_stage": "不限定",
         "severity": "中重症",
-        "population": null,
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（2）中重症急性胰腺炎（moderately severe acute pancreatitis，MSAP），伴有一过性（≤48h）器官功能障碍和（或）局部并发症，早期病死率低，如坏死组织合并感染，则病死率增高。"
+          "中重症急性胰腺炎（moderatelysevereacutepancre⁃atitis，MSAP），伴有一过性（≤48h）器官功能障碍和（或）局部并发症，早期病死率低，如坏死组织合并感染，则病死率增高。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "sub_disease_sap",
         "name": "重症急性胰腺炎",
         "parent_disease_id": "disease_acute_pancreatitis",
-        "disease_subtype": null,
+        "disease_subtype": "SAP",
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": null,
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（3）重症急性胰腺炎（severe acute pancreatitis，SAP），占急性胰腺炎的5%~10%，伴有持续性（＞48h）器官功能障碍，病死率高。"
+          "重症急性胰腺炎（severeacutepancreatitis，SAP），占急性胰腺炎的5%~10%，伴有持续性（>48h）器官功能障碍，病死率高。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "sub_disease_cap",
         "name": "危重型急性胰腺炎",
         "parent_disease_id": "disease_acute_pancreatitis",
-        "disease_subtype": null,
+        "disease_subtype": "CAP",
         "clinical_stage": "不限定",
         "severity": "危重症",
-        "population": null,
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（4）危重型急性胰腺炎（critical acute pancreatitis，CAP）：持续性器官功能障碍伴感染性胰腺（胰周）坏死。"
+          "危重型急性胰腺炎（criticalacutepancreatitis，CAP）：持续性器官功能障碍伴感染性胰腺（胰周）坏死。"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_rap",
-        "name": "复发性急性胰腺炎",
-        "parent_disease_id": "disease_acute_pancreatitis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "有研究发现，21%的首发急性胰腺炎病人会发展为复发性急性胰腺炎（recurrent acute pancreatitis，RAP），其特征为急性胰腺炎发作次数≥2次，且两次发病间隔≥3月。"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "sub_disease_hyperlipidemic_ap",
-        "name": "高甘油三酯血症性急性胰腺炎",
+        "name": "高脂血症性急性胰腺炎",
         "parent_disease_id": "disease_acute_pancreatitis",
-        "disease_subtype": null,
+        "disease_subtype": "高脂血症性",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": null,
-        "gender": "all",
+        "population": "年轻男性病人多见",
+        "gender": "male",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "在我国，胆石病仍是急性胰腺炎的主要病因，其次为高甘油三酯血症及过度饮酒。高甘油三酯血症性及酒精性急性胰腺炎更常发生于年轻男性病人……急性胰腺炎合并静脉乳糜状血或血甘油三酯＞11.3mmol/L可明确诊断为高甘油三酯血症性急性胰腺炎。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_alcoholic_ap",
-        "name": "酒精性急性胰腺炎",
-        "parent_disease_id": "disease_acute_pancreatitis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "在我国，胆石病仍是急性胰腺炎的主要病因，其次为高甘油三酯血症及过度饮酒。高甘油三酯血症性及酒精性急性胰腺炎更常发生于年轻男性病人……戒酒是酒精性急性胰腺炎的重要治疗方式，即便是入院后短期戒酒对预防酒精性急性胰腺炎反复发作亦有作用。"
+          "急性胰腺炎合并静脉乳糜状血或血甘油三酯>11.3mmol/L可明确诊断为高脂血症性急性胰腺炎。"
         ],
         "confidence": 0.9
       },
@@ -143,43 +111,59 @@
         "id": "sub_disease_biliary_ap",
         "name": "胆源性急性胰腺炎",
         "parent_disease_id": "disease_acute_pancreatitis",
-        "disease_subtype": null,
+        "disease_subtype": "胆源性",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": null,
+        "population": "老年病人多见",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "胆道系统结石是急性胰腺炎的常见病因。……对可疑胆源性急性胰腺炎的病人，应在入院时或发病48h内行超声检查，以明确是否存在胆道系统结石。"
+          "在我国，胆石病仍是急性胰腺炎的主要病因...老年病人以胆源性居多"
         ],
         "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ipn",
+        "name": "感染性胰腺坏死",
+        "parent_disease_id": "disease_acute_pancreatitis",
+        "disease_subtype": "IPN",
+        "clinical_stage": "后期",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "感染性胰腺坏死（infectedpancreaticnecrosis，IPN）包括早期的ANC合并感染和后期的WON合并感染。"
+        ],
+        "confidence": 0.95
       }
     ],
     "symptoms": [
       {
-        "id": "symptom_abdominal_pain",
-        "name": "上腹部持续性剧烈疼痛",
+        "id": "symptom_continuous_upper_abdominal_pain",
+        "name": "急性发作的持续性上腹部剧烈疼痛",
         "body_site": "上腹部",
         "symptom_category": "消化系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "临床表现 急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛，常向背部放射，伴有腹胀、恶心、呕吐，且呕吐后疼痛不缓解……"
+          "急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛"
         ],
         "confidence": 0.95
       },
       {
-        "id": "symptom_back_radiation",
-        "name": "疼痛向背部放射",
+        "id": "symptom_radiating_to_back",
+        "name": "向背部放射",
         "body_site": "背部",
         "symptom_category": "消化系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "临床表现 急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛，常向背部放射，伴有腹胀、恶心、呕吐，且呕吐后疼痛不缓解……"
+          "常向背部放射"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_abdominal_distension",
@@ -189,129 +173,57 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "临床表现 急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛，常向背部放射，伴有腹胀、恶心、呕吐，且呕吐后疼痛不缓解……"
+          "伴有腹胀、恶心、呕吐"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_nausea",
         "name": "恶心",
-        "body_site": "消化系统",
+        "body_site": "消化道",
         "symptom_category": "消化系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "临床表现 急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛，常向背部放射，伴有腹胀、恶心、呕吐，且呕吐后疼痛不缓解……"
+          "伴有腹胀、恶心、呕吐"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_vomiting",
         "name": "呕吐",
-        "body_site": "消化系统",
+        "body_site": "消化道",
         "symptom_category": "消化系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "临床表现 急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛，常向背部放射，伴有腹胀、恶心、呕吐，且呕吐后疼痛不缓解……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_tachycardia",
-        "name": "心动过速",
-        "body_site": "心血管系统",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "部分病人可出现心动过速、低血压、少尿等休克表现……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_hypotension",
-        "name": "低血压",
-        "body_site": "心血管系统",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "部分病人可出现心动过速、低血压、少尿等休克表现……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_oliguria",
-        "name": "少尿",
-        "body_site": "泌尿系统",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "部分病人可出现心动过速、低血压、少尿等休克表现……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_mental_change",
-        "name": "精神状态改变",
-        "body_site": "神经系统",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "严重脱水和老年病人可出现精神状态改变。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_abdominal_tenderness",
-        "name": "腹部轻压痛",
-        "body_site": "腹部",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "临床体征轻者仅表现为腹部轻压痛，重者可出现腹膜刺激征……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_peritoneal_sign",
-        "name": "腹膜刺激征",
-        "body_site": "腹部",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "临床体征轻者仅表现为腹部轻压痛，重者可出现腹膜刺激征……"
+          "伴有腹胀、恶心、呕吐，且呕吐后疼痛不缓解"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_grey_turner_sign",
-        "name": "Grey-Turner征",
+        "name": "腰肋部皮下淤斑征（Grey-Turner征）",
         "body_site": "腰肋部",
-        "symptom_category": "皮肤症状",
+        "symptom_category": "体征",
         "polarity": "present",
         "typicality": "rare",
         "evidence_ids": [
-          "偶见腰肋部皮下淤斑征（Grey-Turner征）和脐周皮下淤斑征（Cullen征）。"
+          "偶见腰肋部皮下淤斑征（Grey-Turner征）"
         ],
-        "confidence": 0.85
+        "confidence": 0.9
       },
       {
         "id": "symptom_cullen_sign",
-        "name": "Cullen征",
+        "name": "脐周皮下淤斑征（Cullen征）",
         "body_site": "脐周",
-        "symptom_category": "皮肤症状",
+        "symptom_category": "体征",
         "polarity": "present",
         "typicality": "rare",
         "evidence_ids": [
-          "偶见腰肋部皮下淤斑征（Grey-Turner征）和脐周皮下淤斑征（Cullen征）。"
+          "脐周皮下淤斑征（Cullen征）"
         ],
-        "confidence": 0.85
+        "confidence": 0.9
       },
       {
         "id": "symptom_fever",
@@ -321,7 +233,7 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "发热、腹痛等症状对IPN诊断有较强的提示作用。"
+          "发热、腹痛等症状对IPN诊断有较强的提示作用"
         ],
         "confidence": 0.9
       }
@@ -334,7 +246,7 @@
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "实验室检查可见血清淀粉酶及脂肪酶升高，脂肪酶升高对急性胰腺炎诊断的特异度优于淀粉酶。血清淀粉酶及脂肪酶升高程度与疾病的严重程度无关。"
+          "实验室检查可见血清淀粉酶及脂肪酶升高"
         ],
         "confidence": 0.95
       },
@@ -345,73 +257,29 @@
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "实验室检查可见血清淀粉酶及脂肪酶升高，脂肪酶升高对急性胰腺炎诊断的特异度优于淀粉酶。血清淀粉酶及脂肪酶升高程度与疾病的严重程度无关。"
+          "脂肪酶升高对急性胰腺炎诊断的特异度优于淀粉酶"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_ct_imaging",
+        "id": "test_abdominal_ct",
         "name": "腹部CT",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "腹部CT是诊断急性胰腺炎的重要影像学检查方法。急性胰腺炎早期典型的影像学表现为胰腺水肿、胰周渗出、胰腺和（或）胰周组织坏死等。"
+          "腹部CT是诊断急性胰腺炎的重要影像学检查方法"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_mri",
-        "name": "MRI",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "MRI检查适用于碘造影剂过敏、肾功能不全、年轻或怀孕病人，其检查胰腺水肿的敏感度优于CT，亦可用于判断是否存在局部并发症……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_mr_cp",
-        "name": "磁共振胰胆管成像",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "磁共振胰胆管成像（magnetic resonance cholangiopancreatography，MRCP）或内镜超声（endoscopic ultrasound，EUS）检查有助于发现隐匿性胆道系统结石。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_eus",
-        "name": "内镜超声",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "磁共振胰胆管成像（magnetic resonance cholangiopancreatography，MRCP）或内镜超声（endoscopic ultrasound，EUS）检查有助于发现隐匿性胆道系统结石。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_ultrasound",
-        "name": "超声检查",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "对可疑胆源性急性胰腺炎的病人，应在入院时或发病48h内行超声检查，以明确是否存在胆道系统结石。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_c_reactive_protein",
-        "name": "C反应蛋白",
+        "id": "test_triglyceride",
+        "name": "血甘油三酯",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "实验室检查中的血细胞比容、血清尿素氮及C反应蛋白水平与疾病严重程度存在一定相关性，但准确性不佳。"
+          "血甘油三酯>11.3mmol/L可明确诊断为高脂血症性急性胰腺炎"
         ],
         "confidence": 0.9
       },
@@ -422,162 +290,140 @@
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "动态监测白细胞计数、反应蛋白、IL-6、降钙素原等实验室指标有助于IPN的诊断及疗效判断。有研究认为，降钙素原可对IPN病人总体预后进行早期和可靠的评估。"
+          "降钙素原可对IPN病人总体预后进行早期和可靠的评估"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_il6",
-        "name": "IL-6",
+        "id": "test_intra_abdominal_pressure",
+        "name": "腹内压",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "动态监测白细胞计数、反应蛋白、IL-6、降钙素原等实验室指标有助于IPN的诊断及疗效判断。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_hematocrit",
-        "name": "血细胞比容",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "实验室检查中的血细胞比容、血清尿素氮及C反应蛋白水平与疾病严重程度存在一定相关性，但准确性不佳。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_bun",
-        "name": "血清尿素氮",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "实验室检查中的血细胞比容、血清尿素氮及C反应蛋白水平与疾病严重程度存在一定相关性，但准确性不佳。"
+          "当腹内压>20mmHg时，常伴有新发器官功能障碍"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_fluid_resuscitation",
-        "content": "早期液体治疗可改善组织灌注，须在诊断急性胰腺炎后即刻进行。对于SAP，可采用目标导向的治疗模式，应反复评估血流动力学状态以指导液体滴注。",
+        "id": "treatment_early_fluid",
+        "content": "早期液体治疗可改善组织灌注，须在诊断急性胰腺炎后即刻进行。",
         "recommendation_strength": "强烈推荐",
-        "source_section": "2.1.1 急性胰腺炎的液体治疗",
+        "source_section": "早期治疗",
         "evidence_ids": [
-          "早期液体治疗可改善组织灌注，须在诊断急性胰腺炎后即刻进行。对于SAP，可采用目标导向的治疗模式，应反复评估血流动力学状态以指导液体滴注。"
+          "早期液体治疗可改善组织灌注，须在诊断急性胰腺炎后即刻进行。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_pain_control",
-        "content": "明显疼痛的急性胰腺炎病人应在入院24h内接受镇痛治疗。目前推荐对急性胰腺炎病人按照围手术期急性疼痛治疗方式（全身给药与局部给药联合，病人自控镇痛与多模式镇痛联合）进行镇痛治疗。",
-        "recommendation_strength": "一般性推荐",
-        "source_section": "2.1.3 急性胰腺炎的镇痛治疗",
-        "evidence_ids": [
-          "明显疼痛的急性胰腺炎病人应在入院24h内接受镇痛治疗。……目前推荐对急性胰腺炎病人按照围手术期急性疼痛治疗方式（全身给药与局部给药联合，病人自控镇痛与多模式镇痛联合）进行镇痛治疗。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_enternal_nutrition",
+        "id": "treatment_nutrition",
         "content": "相较于肠外营养，肠内营养对于不同严重程度的急性胰腺炎病人是安全、可耐受的，可降低感染性并发症、多器官功能障碍发生率和病死率。",
         "recommendation_strength": "强烈推荐",
-        "source_section": "2.1.4 急性胰腺炎的营养支持治疗",
+        "source_section": "营养支持治疗",
         "evidence_ids": [
-          "有研究显示，相较于肠外营养，肠内营养对于不同严重程度的急性胰腺炎病人是安全、可耐受的，可降低感染性并发症、多器官功能障碍发生率和病死率。"
+          "相较于肠外营养，肠内营养对于不同严重程度的急性胰腺炎病人是安全、可耐受的"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_antibiotics_for_ipn",
-        "content": "应用抗菌药物是治疗IPN的重要手段，对考虑IPN的病人应经验性使用抗菌药物，并尽快进行体液细菌培养，根据药物敏感性试验结果调整抗菌药物。",
+        "id": "treatment_antibiotics",
+        "content": "对于无感染证据的急性胰腺炎，不推荐预防性使用抗菌药物。对于可疑或确诊的感染，可经验性使用抗菌药物。",
         "recommendation_strength": "强烈推荐",
-        "source_section": "2.2.2 IPN的治疗",
+        "source_section": "预防性使用抗菌药物",
         "evidence_ids": [
-          "应用抗菌药物是治疗IPN的重要手段，对考虑IPN的病人应经验性使用抗菌药物，并尽快进行体液细菌培养，根据药物敏感性试验结果调整抗菌药物，以减少耐药菌的产生。"
+          "对于无感染证据的急性胰腺炎，不推荐预防性使用抗菌药物。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_step_up_approach",
+        "id": "treatment_ipn",
         "content": "IPN的首选干预策略为“Step-up”方式，即首先进行穿刺引流，对引流效果不佳的病人依次进行视频辅助清创和开腹手术。",
         "recommendation_strength": "强烈推荐",
-        "source_section": "2.2.3 IPN的手术策略",
+        "source_section": "IPN的手术策略",
         "evidence_ids": [
-          "目前认为IPN的首选干预策略为“Step-up”方式，即首先进行穿刺引流，对引流效果不佳的病人依次进行视频辅助清创和开腹手术。"
+          "目前认为IPN的首选干预策略为“Step-up”方式"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_cholecystectomy",
+        "content": "腹腔镜胆囊切除术是预防胆源性胰腺炎复发的主要手段，原则上应尽早进行。",
+        "recommendation_strength": "强烈推荐",
+        "source_section": "胆源性胰腺炎胆囊切除的时机",
+        "evidence_ids": [
+          "腹腔镜胆囊切除术是预防胆源性胰腺炎复发的主要手段，原则上应尽早进行。"
         ],
         "confidence": 0.95
       }
     ],
     "plans": [
       {
-        "id": "plan_fluid_5_to_10_ml_kg_h",
-        "content": "开始时，推荐以5~10mL/（kg·h）的速度进行液体治疗。",
+        "id": "plan_fluid_ringer",
+        "content": "液体治疗首选乳酸林格液、生理盐水等晶体液。开始时，推荐以5~10mL/(kg·h)的速度进行液体治疗。",
         "plan_level": 1,
-        "applicable_condition": "急性胰腺炎诊断后即刻启动",
-        "contraindication_note": "过程中应警惕液体负荷过重导致的组织水肿及器官功能障碍。",
+        "applicable_condition": "诊断急性胰腺炎后即刻",
+        "contraindication_note": "警惕液体负荷过重导致的组织水肿及器官功能障碍",
         "evidence_ids": [
-          "开始时，推荐以5~10mL/（kg·h）的速度进行液体治疗，过程中应警惕液体负荷过重导致的组织水肿及器官功能障碍。"
+          "液体治疗首选乳酸林格液、生理盐水等晶体液。开始时，推荐以5~10mL/(kg·h)的速度进行液体治疗"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_nasogastric_feeding_within_48h",
-        "content": "多项Meta分析结果支持急性胰腺炎发病24h或48h内启动肠内营养。",
+        "id": "plan_enternal_nutrition",
+        "content": "发病24h或48h内启动肠内营养，使用鼻胃管或鼻空肠管。",
         "plan_level": 1,
         "applicable_condition": "急性胰腺炎发病24h或48h内",
-        "contraindication_note": "当病人存在胃排空延迟或幽门梗阻时，应使用鼻空肠管。",
+        "contraindication_note": "存在胃排空延迟或幽门梗阻时，应使用鼻空肠管",
         "evidence_ids": [
-          "多项Meta分析结果支持急性胰腺炎发病24h或48h内启动肠内营养。"
+          "多项Meta分析结果支持急性胰腺炎发病24h或48h内启动肠内营养"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_erpc_for_cholangitis",
-        "content": "急诊ERCP仅适用于胆源性胰腺炎合并胆管炎病人，且应在病人入院24h内完成。",
-        "plan_level": 2,
-        "applicable_condition": "胆源性胰腺炎合并胆管炎",
-        "contraindication_note": "不推荐对预测为轻症的急性胰腺炎病人行急诊ERCP。",
-        "evidence_ids": [
-          "目前认为，急诊ERCP仅适用于胆源性胰腺炎合并胆管炎病人，且应在病人入院24h内完成。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_lipid_control_for_hyperlipidemic_ap",
-        "content": "针对高脂血症性急性胰腺炎的早期治疗应包括禁食水≥24h后的饮食调节，使用降血脂药物及其他辅助降脂手段［小剂量低分子肝素、胰岛素、血脂吸附和（或）血浆置换］控制血脂。",
-        "plan_level": 2,
+        "id": "plan_hyperlipidemia",
+        "content": "禁食水≥24h后的饮食调节，使用降血脂药物及其他辅助降脂手段（小剂量低分子肝素、胰岛素、血脂吸附和/或血浆置换）控制血脂，尽快将甘油三酯水平降至<5.65mmol/L。",
+        "plan_level": 1,
         "applicable_condition": "高脂血症性急性胰腺炎",
-        "contraindication_note": "目前，推荐尽快将甘油三酯水平降至<5.65mmol/L。",
+        "contraindication_note": null,
         "evidence_ids": [
-          "针对高脂血症性急性胰腺炎的早期治疗应包括禁食水≥24h后的饮食调节，使用降血脂药物及其他辅助降脂手段［小剂量低分子肝素、胰岛素、血脂吸附和（或）血浆置换］控制血脂。"
+          "针对高脂血症性急性胰腺炎的早期治疗应包括禁食水≥24h后的饮食调节，使用降血脂药物及其他辅助降脂手段"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_ipn_stepup",
+        "content": "首先进行穿刺引流（PCD），对引流效果不佳的病人依次进行视频辅助清创和开腹手术。",
+        "plan_level": 1,
+        "applicable_condition": "感染性胰腺坏死（IPN）",
+        "contraindication_note": "手术时机应延迟至发病4周后",
+        "evidence_ids": [
+          "首先进行穿刺引流，对引流效果不佳的病人依次进行视频辅助清创和开腹手术"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_cholecystectomy_for_biliary_ap",
-        "content": "腹腔镜胆囊切除术是预防胆源性胰腺炎复发的主要手段，原则上应尽早进行。对于MAP伴胆囊结石的病人，在排除胆总管结石的情况下，建议在当次发病出院前完成胆囊切除术；MSAP及SAP病人可在发病后1～3个月实施手术。",
-        "plan_level": 2,
-        "applicable_condition": "胆源性急性胰腺炎伴胆囊结石",
-        "contraindication_note": "需排除胆总管结石。",
+        "id": "plan_cholecystectomy_map",
+        "content": "MAP伴胆囊结石的病人，在排除胆总管结石的情况下，建议在当次发病出院前完成胆囊切除术。",
+        "plan_level": 1,
+        "applicable_condition": "MAP伴胆囊结石",
+        "contraindication_note": null,
         "evidence_ids": [
-          "腹腔镜胆囊切除术是预防胆源性胰腺炎复发的主要手段，原则上应尽早进行。对于MAP伴胆囊结石的病人，在排除胆总管结石的情况下，建议在当次发病出院前完成胆囊切除术，MSAP及SAP病人可在发病后1～3个月实施手术。"
+          "对于MAP伴胆囊结石的病人，在排除胆总管结石的情况下，建议在当次发病出院前完成胆囊切除术"
         ],
         "confidence": 0.95
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_choledolithiasis",
+        "id": "etiology_gallstone",
         "content": "胆石病",
         "etiology_type": "结石因素",
-        "typicality": "典型",
-        "diagnostic_role": "必要条件",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "在我国，胆石病仍是急性胰腺炎的主要病因……"
+          "在我国，胆石病仍是急性胰腺炎的主要病因"
         ],
         "confidence": 0.95
       },
@@ -585,10 +431,10 @@
         "id": "etiology_hypertriglyceridemia",
         "content": "高甘油三酯血症",
         "etiology_type": "代谢因素",
-        "typicality": "典型",
-        "diagnostic_role": "必要条件",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "在我国，胆石病仍是急性胰腺炎的主要病因，其次为高甘油三酯血症及过度饮酒。"
+          "其次为高甘油三酯血症及过度饮酒"
         ],
         "confidence": 0.95
       },
@@ -596,76 +442,21 @@
         "id": "etiology_alcohol",
         "content": "过度饮酒",
         "etiology_type": "生活方式因素",
-        "typicality": "典型",
-        "diagnostic_role": "必要条件",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "在我国，胆石病仍是急性胰腺炎的主要病因，其次为高甘油三酯血症及过度饮酒。"
+          "其次为高甘油三酯血症及过度饮酒"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_erpc",
-        "content": "内镜逆行胰胆管造影（ERCP）术后",
+        "id": "etiology_ercp",
+        "content": "ERCP术后",
         "etiology_type": "医源性因素",
         "typicality": "少见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "他较少见原因包括药物、内镜逆行胰胆管造影（endoscopic retrograde cholangiopancreatography，ERCP）术后、高钙血症、感染、遗传、自身免疫疾病和创伤等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_hypercalcemia",
-        "content": "高钙血症",
-        "etiology_type": "代谢因素",
-        "typicality": "少见",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "他较少见原因包括药物、内镜逆行胰胆管造影（endoscopic retrograde cholangiopancreatography，ERCP）术后、高钙血症、感染、遗传、自身免疫疾病和创伤等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_infection",
-        "content": "感染",
-        "etiology_type": "感染因素",
-        "typicality": "少见",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "他较少见原因包括药物、内镜逆行胰胆管造影（endoscopic retrograde cholangiopancreatography，ERCP）术后、高钙血症、感染、遗传、自身免疫疾病和创伤等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_genetic",
-        "content": "遗传",
-        "etiology_type": "遗传因素",
-        "typicality": "少见",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "他较少见原因包括药物、内镜逆行胰胆管造影（endoscopic retrograde cholangiopancreatography，ERCP）术后、高钙血症、感染、遗传、自身免疫疾病和创伤等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_autoimmune_disease",
-        "content": "自身免疫疾病",
-        "etiology_type": "自身免疫因素",
-        "typicality": "少见",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "他较少见原因包括药物、内镜逆行胰胆管造影（endoscopic retrograde cholangiopancreatography，ERCP）术后、高钙血症、感染、遗传、自身免疫疾病和创伤等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_trauma",
-        "content": "创伤",
-        "etiology_type": "物理因素",
-        "typicality": "少见",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "他较少见原因包括药物、内镜逆行胰胆管造影（endoscopic retrograde cholangiopancreatography，ERCP）术后、高钙血症、感染、遗传、自身免疫疾病和创伤等。"
+          "其他较少见原因包括药物、内镜逆行胰胆管造影（ERCP）术后"
         ],
         "confidence": 0.9
       }
@@ -673,9 +464,9 @@
     "pathogenesis": [
       {
         "id": "pathogenesis_enzyme_activation",
-        "content": "因胰酶异常激活对胰腺自身及周围器官产生消化作用而引起的、以胰腺局部炎性反应为主要特征",
+        "content": "胰酶异常激活对胰腺自身及周围器官产生消化作用而引起的、以胰腺局部炎性反应为主要特征",
         "evidence_ids": [
-          "急性胰腺炎指因胰酶异常激活对胰腺自身及周围器官产生消化作用而引起的、以胰腺局部炎性反应为主要特征，甚至可导致器官功能障碍的急腹症。"
+          "急性胰腺炎指因胰酶异常激活对胰腺自身及周围器官产生消化作用而引起的、以胰腺局部炎性反应为主要特征"
         ],
         "confidence": 0.95
       }
@@ -690,7 +481,7 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（1）轻症急性胰腺炎（mild acute pancreatitis，MAP），占急性胰腺炎的80%~85%，不伴有器官功能障碍及局部或全身并发症，通常在1~2周内恢复，病死率极低。"
+          "轻症急性胰腺炎（mildacutepancreati⁃tis，MAP）"
         ],
         "confidence": 0.95
       },
@@ -701,7 +492,7 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（2）中重症急性胰腺炎（moderately severe acute pancreatitis，MSAP），伴有一过性（≤48h）器官功能障碍和（或）局部并发症，早期病死率低，如坏死组织合并感染，则病死率增高。"
+          "中重症急性胰腺炎（moderatelysevereacutepancre⁃atitis，MSAP）"
         ],
         "confidence": 0.95
       },
@@ -712,7 +503,7 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（3）重症急性胰腺炎（severe acute pancreatitis，SAP），占急性胰腺炎的5%~10%，伴有持续性（＞48h）器官功能障碍，病死率高。"
+          "重症急性胰腺炎（severeacutepancreatitis，SAP）"
         ],
         "confidence": 0.95
       },
@@ -723,237 +514,88 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（4）危重型急性胰腺炎（critical acute pancreatitis，CAP）：持续性器官功能障碍伴感染性胰腺（胰周）坏死。"
+          "危重型急性胰腺炎（criticalacutepancreatitis，CAP）"
         ],
         "confidence": 0.95
       },
       {
         "from": "disease_acute_pancreatitis",
-        "to": "sub_disease_rap",
-        "relation_id": "rel_ap_has_rap",
+        "to": "sub_disease_ipn",
+        "relation_id": "rel_ap_has_ipn",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "有研究发现，21%的首发急性胰腺炎病人会发展为复发性急性胰腺炎（recurrent acute pancreatitis，RAP），其特征为急性胰腺炎发作次数≥2次，且两次发病间隔≥3月。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_acute_pancreatitis",
-        "to": "sub_disease_hyperlipidemic_ap",
-        "relation_id": "rel_ap_has_hyperlipidemic_ap",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "在我国，胆石病仍是急性胰腺炎的主要病因，其次为高甘油三酯血症及过度饮酒。高甘油三酯血症性及酒精性急性胰腺炎更常发生于年轻男性病人……急性胰腺炎合并静脉乳糜状血或血甘油三酯＞11.3mmol/L可明确诊断为高甘油三酯血症性急性胰腺炎。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_acute_pancreatitis",
-        "to": "sub_disease_alcoholic_ap",
-        "relation_id": "rel_ap_has_alcoholic_ap",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "在我国，胆石病仍是急性胰腺炎的主要病因，其次为高甘油三酯血症及过度饮酒。高甘油三酯血症性及酒精性急性胰腺炎更常发生于年轻男性病人……戒酒是酒精性急性胰腺炎的重要治疗方式，即便是入院后短期戒酒对预防酒精性急性胰腺炎反复发作亦有作用。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_acute_pancreatitis",
-        "to": "sub_disease_biliary_ap",
-        "relation_id": "rel_ap_has_biliary_ap",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "胆道系统结石是急性胰腺炎的常见病因。……对可疑胆源性急性胰腺炎的病人，应在入院时或发病48h内行超声检查，以明确是否存在胆道系统结石。"
+          "感染性胰腺坏死（infectedpancreaticnecrosis，IPN）"
         ],
         "confidence": 0.95
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_map",
-        "to": "symptom_abdominal_pain",
-        "relation_id": "rel_map_manifests_as_abdominal_pain",
+        "from": "sub_disease_sap",
+        "to": "symptom_continuous_upper_abdominal_pain",
+        "relation_id": "rel_sap_manifests_pain",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": "AP_3_choose_2",
-        "required_count": 2,
-        "typicality": "typical",
-        "duration_condition": "急性发作的持续性",
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛，常向背部放射，伴有腹胀、恶心、呕吐，且呕吐后疼痛不缓解……"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将'上腹部持续性疼痛'列为急性胰腺炎诊断标准第1项，且为诊断必备项之一",
-        "evidence": "急性胰腺炎的诊断标准包括以下3项：（1）上腹部持续性疼痛。"
-      },
-      {
-        "from": "sub_disease_map",
-        "to": "symptom_back_radiation",
-        "relation_id": "rel_map_manifests_as_back_radiation",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 10,
-        "criterion_group_id": "AP_3_choose_2",
-        "required_count": 2,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛，常向背部放射，伴有腹胀、恶心、呕吐，且呕吐后疼痛不缓解……"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文描述为'常向背部放射'，属高频伴随表现，但非诊断必要项，未达金标准层级",
-        "evidence": "急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛，常向背部放射"
-      },
-      {
-        "from": "sub_disease_map",
-        "to": "symptom_abdominal_distension",
-        "relation_id": "rel_map_manifests_as_abdominal_distension",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": "AP_3_choose_2",
-        "required_count": 2,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛，常向背部放射，伴有腹胀、恶心、呕吐，且呕吐后疼痛不缓解……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_map",
-        "to": "symptom_nausea",
-        "relation_id": "rel_map_manifests_as_nausea",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": "AP_3_choose_2",
-        "required_count": 2,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛，常向背部放射，伴有腹胀、恶心、呕吐，且呕吐后疼痛不缓解……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_map",
-        "to": "symptom_vomiting",
-        "relation_id": "rel_map_manifests_as_vomiting",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": "AP_3_choose_2",
-        "required_count": 2,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛，常向背部放射，伴有腹胀、恶心、呕吐，且呕吐后疼痛不缓解……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_sap",
-        "to": "symptom_tachycardia",
-        "relation_id": "rel_sap_manifests_as_tachycardia",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "部分病人可出现心动过速、低血压、少尿等休克表现……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_sap",
-        "to": "symptom_hypotension",
-        "relation_id": "rel_sap_manifests_as_hypotension",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "部分病人可出现心动过速、低血压、少尿等休克表现……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_sap",
-        "to": "symptom_oliguria",
-        "relation_id": "rel_sap_manifests_as_oliguria",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "部分病人可出现心动过速、低血压、少尿等休克表现……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_sap",
-        "to": "symptom_mental_change",
-        "relation_id": "rel_sap_manifests_as_mental_change",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
         "weight": 5,
+        "criterion_group_id": "AP_3_choose_2",
+        "required_count": 2,
+        "typicality": "typical",
+        "duration_condition": "持续性",
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "（1）上腹部持续性疼痛。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出持续性上腹部剧烈疼痛是急性胰腺炎的典型症状，SAP作为其亚型可表现出该症状，但未特指SAP。",
+        "evidence": "急性胰腺炎的典型症状为急性发作的持续性上腹部剧烈疼痛"
+      },
+      {
+        "from": "sub_disease_sap",
+        "to": "symptom_vomiting",
+        "relation_id": "rel_sap_manifests_vomiting",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "严重脱水和老年病人可出现精神状态改变。"
+          "伴有腹胀、恶心、呕吐，且呕吐后疼痛不缓解"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ipn",
+        "to": "symptom_fever",
+        "relation_id": "rel_ipn_manifests_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "推荐诊断项",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "感染性胰腺坏死的诊断",
+        "evidence_ids": [
+          "发热、腹痛等症状对IPN诊断有较强的提示作用"
         ],
         "confidence": 0.9
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_map",
+        "from": "sub_disease_sap",
         "to": "test_serum_amylase",
-        "relation_id": "rel_map_requires_amylase",
+        "relation_id": "rel_sap_requires_amylase",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -963,7 +605,7 @@
         "operator": ">=",
         "unit": "倍正常上限值",
         "result_text": null,
-        "weight": 10,
+        "weight": 8,
         "gold_standard": false,
         "criterion_group_id": "AP_3_choose_2",
         "required_count": 2,
@@ -972,71 +614,43 @@
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "急性胰腺炎的诊断标准包括以下3项：（1）上腹部持续性疼痛。（2）血清淀粉酶和（或）脂肪酶浓度至少高于正常上限值3倍。（3）腹部影像学检查结果显示符合急性胰腺炎影像学改变。上述3项标准中符合2项即可诊断为急性胰腺炎。"
+          "（2）血清淀粉酶和（或）脂肪酶浓度至少高于正常上限值3倍。"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确其为诊断标准第2项组成部分，但强调'至少高于正常上限值3倍'，且特异度低于脂肪酶，非独立金标准",
-        "evidence": "（2）血清淀粉酶和（或）脂肪酶浓度至少高于正常上限值3倍。"
-      },
-      {
-        "from": "sub_disease_map",
-        "to": "test_serum_lipase",
-        "relation_id": "rel_map_requires_lipase",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": 3,
-        "value_max": null,
-        "operator": ">=",
-        "unit": "倍正常上限值",
-        "result_text": null,
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": "AP_3_choose_2",
-        "required_count": 2,
-        "polarity": "elevated",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "急性胰腺炎的诊断标准包括以下3项：（1）上腹部持续性疼痛。（2）血清淀粉酶和（或）脂肪酶浓度至少高于正常上限值3倍。（3）腹部影像学检查结果显示符合急性胰腺炎影像学改变。上述3项标准中符合2项即可诊断为急性胰腺炎。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确其为诊断标准第2项组成部分，且指出'脂肪酶升高对急性胰腺炎诊断的特异度优于淀粉酶'，但仍属并列选项之一，非唯一金标准",
-        "evidence": "（2）血清淀粉酶和（或）脂肪酶浓度至少高于正常上限值3倍。"
-      },
-      {
-        "from": "sub_disease_map",
-        "to": "test_ct_imaging",
-        "relation_id": "rel_map_requires_ct",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "腹部影像学检查结果显示符合急性胰腺炎影像学改变",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": "AP_3_choose_2",
-        "required_count": 2,
-        "polarity": "present",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "急性胰腺炎的诊断标准包括以下3项：（1）上腹部持续性疼痛。（2）血清淀粉酶和（或）脂肪酶浓度至少高于正常上限值3倍。（3）腹部影像学检查结果显示符合急性胰腺炎影像学改变。上述3项标准中符合2项即可诊断为急性胰腺炎。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确其为诊断标准第3项，但限定为'腹部CT'，且强调'结果显示符合急性胰腺炎影像学改变'，属必要但非充分独立金标准；同时指出'发病初始的影像学特征不能反映疾病严重程度'",
-        "evidence": "（3）腹部CT影像学检查结果显示符合急性胰腺炎影像学改变。"
+        "weight_reason": "原文指出血清淀粉酶升高是急性胰腺炎的诊断标准之一，SAP作为其亚型需进行该检查以辅助诊断。",
+        "evidence": "血清淀粉酶和（或）脂肪酶浓度至少高于正常上限值3倍"
       },
       {
         "from": "sub_disease_sap",
-        "to": "test_ct_imaging",
+        "to": "test_serum_lipase",
+        "relation_id": "rel_sap_requires_lipase",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 3,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "倍正常上限值",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": "AP_3_choose_2",
+        "required_count": 2,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "（2）血清淀粉酶和（或）脂肪酶浓度至少高于正常上限值3倍。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出脂肪酶升高是急性胰腺炎的诊断标准之一，且特异度优于淀粉酶，SAP作为其亚型需进行该检查。",
+        "evidence": "血清淀粉酶和（或）脂肪酶浓度至少高于正常上限值3倍"
+      },
+      {
+        "from": "sub_disease_sap",
+        "to": "test_abdominal_ct",
         "relation_id": "rel_sap_requires_ct",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
@@ -1044,208 +658,230 @@
         "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
-        "operator": "contains",
+        "operator": null,
         "unit": null,
-        "result_text": "CT示气泡征",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "present",
+        "result_text": "符合急性胰腺炎影像学改变",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": "AP_3_choose_2",
+        "required_count": 2,
+        "polarity": "positive",
         "typicality": "typical",
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "影像学检查对判断感染范围、评估严重程度及选择后续治疗措施有至关重要的作用，其中CT检查结果示“气泡征”是IPN诊断的直接证据。"
+          "（3）腹部影像学检查结果显示符合急性胰腺炎影像学改变。"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文在1.4节明确'典型的CT表现是诊断急性胰腺炎的重要依据'，且在1.5节SAP定义中要求'伴有持续性器官功能障碍'，而器官功能障碍诊断依赖改良Marshall评分（表3），该评分需结合CT评估坏死范围；更重要的是，DBC分级（用于SAP）明确要求'明确是否存在胰腺坏死及范围'，而'CT增强扫描可准确反映是否存在胰腺坏死及其范围'，构成SAP确诊的结构性证据链核心",
-        "evidence": "增强扫描可准确反映是否存在胰腺坏死及其范围。改良CT严重指数（MCTSI）有助于评估急性胰腺炎的严重程度"
+        "weight_reason": "原文指出腹部CT是诊断急性胰腺炎的重要影像学检查方法，SAP作为其亚型需进行该检查以明确诊断和评估严重程度。",
+        "evidence": "腹部CT是诊断急性胰腺炎的重要影像学检查方法"
+      },
+      {
+        "from": "sub_disease_hyperlipidemic_ap",
+        "to": "test_triglyceride",
+        "relation_id": "rel_hyperlipidemic_requires_tg",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": 11.3,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mmol/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "高脂血症性急性胰腺炎的早期治疗",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "血甘油三酯>11.3mmol/L可明确诊断为高脂血症性急性胰腺炎"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出血甘油三酯大于11.3mmol/L可明确诊断为高脂血症性急性胰腺炎，是该亚型确诊的核心指标。",
+        "evidence": "血甘油三酯>11.3mmol/L可明确诊断为高脂血症性急性胰腺炎"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_map",
-        "to": "treatment_fluid_resuscitation",
-        "relation_id": "rel_map_follows_fluid_resuscitation",
+        "from": "sub_disease_sap",
+        "to": "treatment_early_fluid",
+        "relation_id": "rel_sap_follows_fluid",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
+        "clinical_stage": "早期",
         "treatment_line": "一线",
-        "applicable_condition": "急性胰腺炎诊断后即刻启动",
+        "applicable_condition": "诊断急性胰腺炎后即刻",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "强烈推荐",
         "decision_basis": [
-          "疾病严重程度"
+          "疾病分期"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "2.1.1 急性胰腺炎的液体治疗",
+        "source_section": "早期治疗",
         "confidence": 0.95
       },
       {
         "from": "sub_disease_sap",
-        "to": "treatment_fluid_resuscitation",
-        "relation_id": "rel_sap_follows_fluid_resuscitation",
+        "to": "treatment_nutrition",
+        "relation_id": "rel_sap_follows_nutrition",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
+        "clinical_stage": "早期",
         "treatment_line": "一线",
-        "applicable_condition": "急性胰腺炎诊断后即刻启动",
+        "applicable_condition": "发病24h或48h内",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "强烈推荐",
         "decision_basis": [
-          "疾病严重程度"
+          "疾病分期"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "2.1.1 急性胰腺炎的液体治疗",
+        "source_section": "营养支持治疗",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_map",
-        "to": "treatment_pain_control",
-        "relation_id": "rel_map_follows_pain_control",
+        "from": "sub_disease_ipn",
+        "to": "treatment_ipn",
+        "relation_id": "rel_ipn_follows_stepup",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
+        "clinical_stage": "后期",
         "treatment_line": "一线",
-        "applicable_condition": "明显疼痛的急性胰腺炎病人",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "一般性推荐",
-        "decision_basis": [
-          "症状"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "2.1.3 急性胰腺炎的镇痛治疗",
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_sap",
-        "to": "treatment_pain_control",
-        "relation_id": "rel_sap_follows_pain_control",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "明显疼痛的急性胰腺炎病人",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "一般性推荐",
-        "decision_basis": [
-          "症状"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "2.1.3 急性胰腺炎的镇痛治疗",
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_sap",
-        "to": "treatment_enternal_nutrition",
-        "relation_id": "rel_sap_follows_enternal_nutrition",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "急性胰腺炎发病24h或48h内",
+        "applicable_condition": "确诊IPN",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "强烈推荐",
         "decision_basis": [
-          "疾病严重程度"
+          "并发症类型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "2.1.4 急性胰腺炎的营养支持治疗",
+        "source_section": "IPN的手术策略",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_biliary_ap",
+        "to": "treatment_cholecystectomy",
+        "relation_id": "rel_biliary_follows_cholecystectomy",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "恢复期",
+        "treatment_line": "一线",
+        "applicable_condition": "胆源性胰腺炎",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强烈推荐",
+        "decision_basis": [
+          "病因"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "胆源性胰腺炎胆囊切除的时机",
         "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_fluid_resuscitation",
-        "to": "plan_fluid_5_to_10_ml_kg_h",
-        "relation_id": "rel_fluid_resuscitation_implements_by_plan",
+        "from": "treatment_early_fluid",
+        "to": "plan_fluid_ringer",
+        "relation_id": "rel_fluid_implements_ringer",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "急性胰腺炎诊断后即刻启动",
-        "contraindication_note": "过程中应警惕液体负荷过重导致的组织水肿及器官功能障碍。",
+        "applicable_condition": "诊断急性胰腺炎后即刻",
+        "contraindication_note": "警惕液体负荷过重",
         "evidence_ids": [
-          "开始时，推荐以5~10mL/（kg·h）的速度进行液体治疗，过程中应警惕液体负荷过重导致的组织水肿及器官功能障碍。"
+          "液体治疗首选乳酸林格液、生理盐水等晶体液。开始时，推荐以5~10mL/(kg·h)的速度进行液体治疗"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_enternal_nutrition",
-        "to": "plan_nasogastric_feeding_within_48h",
-        "relation_id": "rel_enternal_nutrition_implements_by_plan",
+        "from": "treatment_nutrition",
+        "to": "plan_enternal_nutrition",
+        "relation_id": "rel_nutrition_implements_enternal",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "急性胰腺炎发病24h或48h内",
-        "contraindication_note": "当病人存在胃排空延迟或幽门梗阻时，应使用鼻空肠管。",
+        "applicable_condition": "发病24h或48h内",
+        "contraindication_note": "存在胃排空延迟或幽门梗阻时，应使用鼻空肠管",
         "evidence_ids": [
-          "多项Meta分析结果支持急性胰腺炎发病24h或48h内启动肠内营养。"
+          "多项Meta分析结果支持急性胰腺炎发病24h或48h内启动肠内营养"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_ipn",
+        "to": "plan_ipn_stepup",
+        "relation_id": "rel_ipn_implements_stepup",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "确诊IPN",
+        "contraindication_note": "手术时机应延迟至发病4周后",
+        "evidence_ids": [
+          "目前认为IPN的首选干预策略为“Step-up”方式"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_cholecystectomy",
+        "to": "plan_cholecystectomy_map",
+        "relation_id": "rel_cholecystectomy_implements_map",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "MAP伴胆囊结石",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于MAP伴胆囊结石的病人，在排除胆总管结石的情况下，建议在当次发病出院前完成胆囊切除术"
         ],
         "confidence": 0.95
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_map",
-        "to": "etiology_choledolithiasis",
-        "relation_id": "rel_map_causes_choledolithiasis",
+        "from": "sub_disease_biliary_ap",
+        "to": "etiology_gallstone",
+        "relation_id": "rel_biliary_caused_by_gallstone",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
-        "typicality": "典型",
+        "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "在我国，胆石病仍是急性胰腺炎的主要病因……"
+          "在我国，胆石病仍是急性胰腺炎的主要病因"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_map",
+        "from": "sub_disease_hyperlipidemic_ap",
         "to": "etiology_hypertriglyceridemia",
-        "relation_id": "rel_map_causes_hypertriglyceridemia",
+        "relation_id": "rel_hyperlipidemic_caused_by_tg",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
-        "typicality": "典型",
+        "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "在我国，胆石病仍是急性胰腺炎的主要病因，其次为高甘油三酯血症及过度饮酒。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_map",
-        "to": "etiology_alcohol",
-        "relation_id": "rel_map_causes_alcohol",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "strong",
-        "typicality": "典型",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "在我国，胆石病仍是急性胰腺炎的主要病因，其次为高甘油三酯血症及过度饮酒。"
+          "其次为高甘油三酯血症及过度饮酒"
         ],
         "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_map",
+        "from": "sub_disease_sap",
         "to": "pathogenesis_enzyme_activation",
-        "relation_id": "rel_map_explained_by_enzyme_activation",
+        "relation_id": "rel_sap_explained_by_enzyme",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "急性胰腺炎指因胰酶异常激活对胰腺自身及周围器官产生消化作用而引起的、以胰腺局部炎性反应为主要特征，甚至可导致器官功能障碍的急腹症。"
+          "急性胰腺炎指因胰酶异常激活对胰腺自身及周围器官产生消化作用而引起的、以胰腺局部炎性反应为主要特征"
         ],
         "confidence": 0.95
       }

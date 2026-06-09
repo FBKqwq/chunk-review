@@ -2,7 +2,7 @@
   "meta": {
     "doc_id": "成人普通感冒诊断和治疗临床实践指南(2023)",
     "source_title": "成人普通感冒诊断和治疗临床实践指南(2023)",
-    "section_path": "",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -16,63 +16,64 @@
         "normalized_name": "普通感冒",
         "aliases": [
           "感冒",
-          "common cold"
+          "急性鼻副鼻窦炎",
+          "急性上呼吸道感染"
         ],
         "source_document_ids": [
           "成人普通感冒诊断和治疗临床实践指南(2023)"
         ],
         "evidence_ids": [
-          "普通感冒 简称感冒 是一种局限于上呼吸 渗出 伴有鼻气流阻力增高 但肺脏无影像学异常的病症 临床表现为鼻塞 流涕 咽痛和咳嗽等症候 可由不同种类病毒感染引发 为自限性疾病 症状持续时间通常 <10d"
+          "普通感冒(简称感冒)是一种局限于上呼吸道的病症,临床表现为鼻塞、流涕、咽痛和咳嗽等症候,可由不同种类病毒感染引发,为自限性疾病"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_common_cold_adult",
+        "id": "sub_disease_adult_common_cold",
         "name": "成人普通感冒",
         "parent_disease_id": "disease_common_cold",
         "disease_subtype": null,
         "clinical_stage": "不限定",
         "severity": "轻症",
-        "population": "平素健康成人",
+        "population": "平素健康的成人",
         "gender": "all",
         "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "目标人群为成人普通感冒患者"
+          "成人普通感冒诊断和治疗临床实践指南(2023)简称《指南》目标人群为成人普通感冒患者"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_common_cold_high_risk",
-        "name": "高危人群成人普通感冒",
-        "parent_disease_id": "disease_common_cold",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重症风险",
-        "population": "老年人、免疫低下人群、重要器官基础疾病者、孕妇",
-        "gender": "all",
-        "age_min": 65,
-        "age_max": null,
-        "evidence_ids": [
-          "表3 普通感冒后易导致基础疾病恶化和肺炎的高危人群"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "sub_disease_abrs",
         "name": "急性细菌性鼻副鼻窦炎",
         "parent_disease_id": "disease_common_cold",
-        "disease_subtype": null,
+        "disease_subtype": "继发细菌感染",
         "clinical_stage": "不限定",
         "severity": "中重症",
-        "population": "成人感冒患者",
+        "population": "感冒症状持续不缓解或加重的成人",
         "gender": "all",
         "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "急性细菌性鼻副鼻窦炎 (acute bacterial rhinosinusitis, ABRS)"
+          "若感冒症状持续超过7~10d或5d后症状不缓解反而加重...应考虑并发急性细菌性鼻副鼻窦炎(ABRS)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cacc",
+        "name": "感冒相关急性咳嗽",
+        "parent_disease_id": "disease_common_cold",
+        "disease_subtype": "并发症",
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "对于成人普通感冒相关急性咳嗽(CACC)应如何对症治疗?"
         ],
         "confidence": 0.9
       }
@@ -81,48 +82,48 @@
       {
         "id": "symptom_nasal_congestion",
         "name": "鼻塞",
-        "body_site": "上呼吸道",
+        "body_site": "鼻腔",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "普通感冒 简称感冒 是一种局限于上呼吸 渗出 伴有鼻气流阻力增高 但肺脏无影像学异常的病症 临床表现为鼻塞 流涕 咽痛和咳嗽等症候"
+          "临床表现为鼻塞、流涕、咽痛和咳嗽等症候"
         ],
         "confidence": 0.95
       },
       {
         "id": "symptom_rhinorrhea",
         "name": "流涕",
-        "body_site": "上呼吸道",
+        "body_site": "鼻腔",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "普通感冒 简称感冒 是一种局限于上呼吸 渗出 伴有鼻气流阻力增高 但肺脏无影像学异常的病症 临床表现为鼻塞 流涕 咽痛和咳嗽等症候"
+          "临床表现为鼻塞、流涕、咽痛和咳嗽等症候"
         ],
         "confidence": 0.95
       },
       {
         "id": "symptom_sore_throat",
         "name": "咽痛",
-        "body_site": "上呼吸道",
+        "body_site": "咽部",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
-          "急性发作咽痛 鼻塞 流涕 打喷嚏 咳嗽 畏寒 发热 头痛以及肌肉酸痛等综合征"
+          "临床表现为鼻塞、流涕、咽痛和咳嗽等症候"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "symptom_cough",
         "name": "咳嗽",
-        "body_site": "上呼吸道",
+        "body_site": "呼吸道",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
-          "普通感冒 简称感冒 是一种局限于上呼吸 渗出 伴有鼻气流阻力增高 但肺脏无影像学异常的病症 临床表现为鼻塞 流涕 咽痛和咳嗽等症候"
+          "临床表现为鼻塞、流涕、咽痛和咳嗽等症候"
         ],
         "confidence": 0.95
       },
@@ -134,250 +135,335 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "急性发作咽痛 鼻塞 流涕 打喷嚏 咳嗽 畏寒 发热 头痛以及肌肉酸痛等综合征"
+          "发热>38℃"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_chills",
-        "name": "畏寒",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
+        "id": "symptom_facial_pain",
+        "name": "颌面痛",
+        "body_site": "颌面部",
+        "symptom_category": "局部症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "急性发作咽痛 鼻塞 流涕 打喷嚏 咳嗽 畏寒 发热 头痛以及肌肉酸痛等综合征"
+          "单侧颌面部疼痛"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
-        "id": "symptom_headache",
-        "name": "头痛",
-        "body_site": "头部",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "急性发作咽痛 鼻塞 流涕 打喷嚏 咳嗽 畏寒 发热 头痛以及肌肉酸痛等综合征"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_myalgia",
-        "name": "肌肉酸痛",
-        "body_site": "肌肉",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "急性发作咽痛 鼻塞 流涕 打喷嚏 咳嗽 畏寒 发热 头痛以及肌肉酸痛等综合征"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_sneezing",
-        "name": "打喷嚏",
-        "body_site": "上呼吸道",
+        "id": "symptom_purulent_nasal_discharge",
+        "name": "脓性鼻涕",
+        "body_site": "鼻腔",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "急性发作咽痛 鼻塞 流涕 打喷嚏 咳嗽 畏寒 发热 头痛以及肌肉酸痛等综合征"
+          "稠厚脓性鼻涕和痰液"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_absent_dyspnea",
-        "name": "无呼吸困难",
-        "body_site": "呼吸系统",
+        "id": "symptom_halitosis",
+        "name": "呼气臭味",
+        "body_site": "口腔/呼吸道",
         "symptom_category": "呼吸系统症状",
-        "polarity": "absent",
-        "typicality": "typical",
+        "polarity": "present",
+        "typicality": "rare",
         "evidence_ids": [
-          "表4 普通感冒的诊断和鉴别诊断：普通感冒...呼吸困难：无"
+          "继发ABRS可出现呼气臭味和上颚牙痛等特征性表现"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_absent_hemoptysis",
-        "name": "无咯血",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "absent",
-        "typicality": "typical",
-        "evidence_ids": [
-          "但对于合并有发热 气短 咯血 疑似肺炎...建议尽快进行相应的影像学和实验室检查"
-        ],
-        "confidence": 0.9
+        "confidence": 0.8
       }
     ],
     "tests": [
       {
-        "id": "test_pcr",
-        "name": "呼吸道病毒核酸检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "文献检索包括中文和外文 和系统性分析...PCR应用揭示了多种致病微生物可导致感冒样症状"
-        ],
-        "confidence": 0.9
-      },
-      {
         "id": "test_crp",
-        "name": "C反应蛋白",
+        "name": "C反应蛋白(CRP)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "CRP (C-reactive protein, CRP)"
+          "C反应蛋白(CRP)和降钙素原(PCT)增高"
         ],
         "confidence": 0.9
       },
       {
         "id": "test_pct",
-        "name": "降钙素原",
+        "name": "降钙素原(PCT)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "PCT (procalcitonin,PCT)"
+          "C反应蛋白(CRP)和降钙素原(PCT)增高"
         ],
         "confidence": 0.9
       },
       {
         "id": "test_esr",
-        "name": "红细胞沉降率",
+        "name": "红细胞沉降率(ESR)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "ESR (erythrocyte sedimentation rate, ESR)"
+          "红细胞沉降率(ESR)加快"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pathogen_detection",
+        "name": "病原学检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "建议尽早进行相应的影像学和实验室检查...应进行包括细菌培养在内的病原学检查"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_imaging",
+        "name": "影像学检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "不建议做影像学和实验室检查...建议尽快进行相应的影像学和实验室检查"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_common_cold_supportive",
-        "content": "对症支持治疗为主，不推荐常规抗病毒及抗生素治疗",
-        "recommendation_strength": "strong",
-        "source_section": "推荐意见19",
+        "id": "treatment_antiviral_normal",
+        "content": "对于免疫功能正常成人,不建议应用利巴韦林和普来可那立等抗病毒药物治疗感冒",
+        "recommendation_strength": "不建议",
+        "source_section": "抗病毒治疗",
         "evidence_ids": [
-          "普通感冒早期 反对推荐抗生素治疗 即使症状起始 5d 内有化脓性鼻腔分泌物 高质量证据"
+          "对于免疫功能正常成人,不建议应用利巴韦林和普来可那立等抗病毒药物治疗感冒(中质量证据)。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_common_cold_antiviral",
-        "content": "免疫功能正常成人不建议应用利巴韦林和普来可那立等抗病毒药物治疗感冒",
-        "recommendation_strength": "weak",
-        "source_section": "推荐意见6",
+        "id": "treatment_antiviral_flu",
+        "content": "在流感病毒流行季节,对于因感冒可能导致严重疾病或基础疾病恶化高危人群,若出现感冒样症状,高度疑似流感病毒感染或上呼吸道分泌物流感病毒检测阳性,推荐尽早应用神经氨酸酶抑制剂(奥司他韦或帕拉米韦)、阿比多尔或玛巴洛沙韦抗病毒治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "抗病毒治疗",
         "evidence_ids": [
-          "对于免疫功能正常成人 不建议应用利巴韦林和普来可那立等抗病毒药物治疗感冒 中质量证据"
+          "在流感病毒流行季节,对于因感冒可能导致严重疾病或基础疾病恶化高危人群...推荐尽早应用神经氨酸酶抑制剂(奥司他韦或帕拉米韦)、阿比多尔或玛巴洛沙韦抗病毒治疗(高质量证据)。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_zinc",
+        "content": "推荐醋酸锌和葡萄糖酸锌口含片治疗成人普通感冒,宜在症状起始24h内分次含化,锌剂量≥75mg/d(但不超过100mg/d)。反对推荐含锌鼻喷雾剂局部应用",
+        "recommendation_strength": "推荐",
+        "source_section": "微量营养素治疗",
+        "evidence_ids": [
+          "推荐醋酸锌和葡萄糖酸锌口含片治疗成人普通感冒,宜在症状起始24h内分次含化,锌剂量≥75mg/d(但不超过100mg/d)(高质量证据)。反对推荐含锌鼻喷雾剂局部应用(低证据质量)。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_otc",
+        "content": "OTC抗感冒复方制剂治疗感冒有一定疗效,但也有一定不良反应。建议患者在应用OTC抗感冒药前,充分咨询医生意见。反对推荐含有苯丙醇胺(PPA)的组方治疗感冒",
+        "recommendation_strength": "建议",
+        "source_section": "对症治疗",
+        "evidence_ids": [
+          "OTC抗感冒复方制剂治疗感冒有一定疗效,但也有一定不良反应...建议患者在应用OTC抗感冒药前,充分咨询医生意见(高质量证据)。反对推荐含有苯丙醇胺(PPA)的组方治疗感冒(中质量证据)。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_common_cold_zinc",
-        "content": "推荐醋酸锌和葡萄糖酸锌口含片治疗成人感冒",
-        "recommendation_strength": "strong",
-        "source_section": "推荐意见9",
+        "id": "treatment_antipyretic_analgesic",
+        "content": "普通感冒发热及疼痛,建议用乙酰氨基酚或其他NSAID短期对症。孕妇应慎用包括乙酰氨基酚在内的NSAID",
+        "recommendation_strength": "建议",
+        "source_section": "对症治疗",
         "evidence_ids": [
-          "推荐醋酸锌和葡萄糖酸锌口含片治疗成人感冒 宜在症状起始 24h 内分次含化 锌剂量 ≥75mg/d 但不超过 100mg/d 高质量证据"
+          "普通感冒发热及疼痛,建议用乙酰氨基酚(又称醋氨酚或扑热息痛)或其他NSAID短期对症(中质量证据)。但孕妇应慎用包括乙酰氨基酚在内的NSAID(高质量证据)。"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "treatment_cacc",
+        "content": "对于>18岁的患者,若CACC对生活起居影响过大,难以忍受,建议首选含蜂蜜制剂或右美沙芬镇咳。若效果仍然不佳,建议短期服用(<5d)福尔可定对症",
+        "recommendation_strength": "建议",
+        "source_section": "对症治疗",
+        "evidence_ids": [
+          "对于>18岁的患者,若CACC对生活起居影响过大,难以忍受,建议首选含蜂蜜制剂或右美沙芬镇咳。若效果仍然不佳,建议短期服用(<5d)福尔可定对症(中质量证据)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_antibiotic_early",
+        "content": "普通感冒早期(症状起始5d内),反对推荐抗生素治疗",
+        "recommendation_strength": "反对推荐",
+        "source_section": "病毒-细菌合并感染",
+        "evidence_ids": [
+          "普通感冒早期(症状起始5d内),反对推荐抗生素治疗,即使症状起始5d内有化脓性鼻腔分泌物(高质量证据)。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_abrs_antibiotic",
+        "content": "继发ABRS经验性抗感染治疗,建议根据当地细菌耐药流行病学,选用青霉素、阿莫西林、阿莫西林/克拉维酸、头孢曲松或头孢噻肟;在肺炎链球菌对青霉素不敏感率较高的地区或90d内用过抗生素的成人患者,可考虑选择呼吸喹诺酮",
+        "recommendation_strength": "建议",
+        "source_section": "病毒-细菌合并感染",
+        "evidence_ids": [
+          "经验性抗感染治疗,建议根据当地细菌耐药流行病学,选用青霉素、阿莫西林、阿莫西林/克拉维酸、头孢曲松或头孢噻肟;在肺炎链球菌对青霉素不敏感率较高的地区或90d内用过抗生素的成人患者,可考虑选择呼吸喹诺酮"
+        ],
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_zinc_acetate_lozenge",
-        "content": "醋酸锌口含片，≥75mg/d，但不超过100mg/d，症状起始24h内分次含化",
+        "id": "plan_oseltamivir",
+        "content": "神经氨酸酶抑制剂(奥司他韦或帕拉米韦)",
         "plan_level": 1,
-        "applicable_condition": "成人普通感冒，无糖尿病且难以忍受者",
-        "contraindication_note": "反对推荐含锌鼻喷雾剂局部应用",
+        "applicable_condition": "流感流行季高危人群疑似流感",
+        "contraindication_note": null,
         "evidence_ids": [
-          "推荐醋酸锌和葡萄糖酸锌口含片治疗成人感冒 宜在症状起始 24h 内分次含化 锌剂量 ≥75mg/d 但不超过 100mg/d 高质量证据"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_ribavirin_inhalation",
-        "content": "雾化吸入型利巴韦林用于免疫功能低下成人疑似或确诊RSV感染",
-        "plan_level": 2,
-        "applicable_condition": "免疫功能低下成人，高度疑似或诊断RSV感染",
-        "contraindication_note": "口服利巴韦林疗效不确切且不良反应多",
-        "evidence_ids": [
-          "对于免疫功能低下成人 若高度疑似或诊断 RSV 感染 建议以雾化吸入型利巴韦林抗病毒治疗 中质量证据"
+          "推荐尽早应用神经氨酸酶抑制剂(奥司他韦或帕拉米韦)、阿比多尔或玛巴洛沙韦抗病毒治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_oseltamivir",
-        "content": "奥司他韦用于流感病毒流行季节、高度疑似流感病毒感染或上呼吸道分泌物流感病毒检测阳性者",
+        "id": "plan_arbidol",
+        "content": "阿比多尔",
         "plan_level": 1,
-        "applicable_condition": "因感冒可能导致严重疾病或基础疾病恶化高危人群",
-        "contraindication_note": "需在呼吸道症状起始后48h内应用",
+        "applicable_condition": "流感或COVID-19",
+        "contraindication_note": null,
         "evidence_ids": [
-          "在流感病毒流行季节 对于因感冒可能导致严重疾病或基础疾病恶化高危人群 若出现感冒样症状 高度疑似流感病毒感染或上呼吸道分泌物流感病毒检测阳性 推荐尽早应用神经氨酸酶抑制剂 奥司他韦或帕拉米韦 阿比多尔或玛巴洛沙韦抗病毒治疗 高质量证据"
+          "推荐尽早应用神经氨酸酶抑制剂(奥司他韦或帕拉米韦)、阿比多尔或玛巴洛沙韦抗病毒治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_zinc_lozenges",
+        "content": "醋酸锌和葡萄糖酸锌口含片,起病24h内分次含化,锌剂量≥75mg/d但不超过100mg/d",
+        "plan_level": 1,
+        "applicable_condition": "成人普通感冒",
+        "contraindication_note": "反对含锌鼻喷雾剂局部应用",
+        "evidence_ids": [
+          "推荐醋酸锌和葡萄糖酸锌口含片治疗成人普通感冒,宜在症状起始24h内分次含化,锌剂量≥75mg/d(但不超过100mg/d)"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "plan_acetaminophen_nsaids",
+        "content": "乙酰氨基酚或其他NSAID短期对症",
+        "plan_level": 1,
+        "applicable_condition": "普通感冒发热及疼痛",
+        "contraindication_note": "孕妇慎用",
+        "evidence_ids": [
+          "建议用乙酰氨基酚(又称醋氨酚或扑热息痛)或其他NSAID短期对症"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_honey_dextromethorphan",
+        "content": "含蜂蜜制剂或右美沙芬",
+        "plan_level": 1,
+        "applicable_condition": ">18岁CACC难以忍受",
+        "contraindication_note": "含蜂蜜制剂仅用于非糖尿病或血糖控制良好糖尿病患者",
+        "evidence_ids": [
+          "建议首选含蜂蜜制剂或右美沙芬镇咳"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_pholcodine",
+        "content": "福尔可定短期服用(<5d)",
+        "plan_level": 2,
+        "applicable_condition": "含蜂蜜制剂或右美沙芬疗效不佳",
+        "contraindication_note": "与NMBAs存在交叉过敏,服用后2年内忌用NMBAs",
+        "evidence_ids": [
+          "建议短期服用(<5d)福尔可定对症...福尔可定与季氨神经肌肉阻滞剂(NMBAs)存在交叉过敏。若2年内应用过NMBAs的咳嗽患者,反对推荐福尔可定镇咳"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_abrs_antibiotics",
+        "content": "青霉素、阿莫西林、阿莫西林/克拉维酸、头孢曲松或头孢噻肟;或呼吸喹诺酮",
+        "plan_level": 1,
+        "applicable_condition": "继发ABRS",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "选用青霉素、阿莫西林、阿莫西林/克拉维酸、头孢曲松或头孢噻肟;在肺炎链球菌对青霉素不敏感率较高的地区或90d内用过抗生素的成人患者,可考虑选择呼吸喹诺酮"
+        ],
+        "confidence": 0.9
       }
     ],
     "etiologies": [
       {
         "id": "etiology_rhinovirus",
-        "content": "鼻病毒",
+        "content": "鼻病毒(RV)",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "感冒常见致病原主要有鼻病毒 (rhinovirus,RV)、冠状病毒、流感和副流感病毒等"
+          "感冒常见致病原主要有鼻病毒(rhinovirus,RV)...其中,RV占比约为50%"
         ],
         "confidence": 0.95
       },
       {
         "id": "etiology_coronavirus",
-        "content": "冠状病毒",
+        "content": "冠状病毒(HCoV/SARS-CoV-2)",
         "etiology_type": "感染因素",
-        "typicality": "common",
+        "typicality": "常见",
         "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "感冒常见致病原主要有鼻病毒 (rhinovirus,RV)、冠状病毒、流感和副流感病毒等"
+          "冠状病毒、流感和副流感病毒等...SARS-CoV-2奥密克戎(ο)和德尔塔(δ)变异株也可成为感冒的病因"
         ],
         "confidence": 0.9
       },
       {
-        "id": "etiology_influenza_virus",
+        "id": "etiology_influenza",
         "content": "流感病毒",
         "etiology_type": "感染因素",
-        "typicality": "common",
+        "typicality": "常见",
         "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "感冒常见致病原主要有鼻病毒 (rhinovirus,RV)、冠状病毒、流感和副流感病毒等"
+          "感冒常见致病原主要有鼻病毒(rhinovirus,RV)、冠状病毒、流感和副流感病毒等"
         ],
         "confidence": 0.9
       },
       {
         "id": "etiology_rsv",
-        "content": "呼吸道合胞病毒",
+        "content": "呼吸道合胞病毒(RSV)",
         "etiology_type": "感染因素",
-        "typicality": "common",
+        "typicality": "常见",
         "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "感冒常见致病原主要有鼻病毒 (rhinovirus,RV)、冠状病毒、流感和副流感病毒等"
+          "呼吸道合胞病毒(respiratorysyncytialvirus,RSV)"
         ],
         "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_viral_upper_respiratory_infection",
-        "content": "感冒被定义为局限于上呼吸道 以病毒感染为主的病症",
+        "id": "pathogenesis_nasal_congestion",
+        "content": "鼻腔阻塞的机制在于局部充血、分泌物增加和黏膜水肿,与炎症反应和神经反射通路激活有关",
         "evidence_ids": [
-          "附注 感冒被定义为局限于上呼吸道 以病毒感染为主的病症"
+          "鼻腔阻塞的机制在于局部充血、分泌物增加和黏膜水肿...与炎症反应和神经反射通路激活有关"
         ],
-        "confidence": 0.95
+        "confidence": 0.85
+      },
+      {
+        "id": "pathogenesis_cacc",
+        "content": "CACC机制涉及病毒性上皮损伤、腺体分泌亢进、炎症反应和神经调节机制异常;RV感染神经元细胞上调TRPA1和TRPV1表达,导致咳嗽敏感性增高",
+        "evidence_ids": [
+          "CACC机制不明,可能涉及病毒性上皮损伤、腺体分泌亢进、炎症反应和神经调节机制异常多个环节...RV可感染神经元细胞,上调瞬时受体电位通路...导致咳嗽敏感性增高"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "pathogenesis_purulent_discharge",
+        "content": "感冒早期脓性鼻腔分泌物不一定是细菌感染,而与病毒导致的中性粒细胞局部浸润有关,颜色来自中性粒细胞而非细菌",
+        "evidence_ids": [
+          "感冒3~5d内有些患者会出现脓性鼻腔分泌物,不一定是细菌感染,而与病毒导致的中性粒细胞局部浸润有关。脓性分泌物是中性粒细胞的颜色而不是细菌感染所致"
+        ],
+        "confidence": 0.9
       }
     ]
   },
@@ -385,23 +471,12 @@
     "has_sub_disease": [
       {
         "from": "disease_common_cold",
-        "to": "sub_disease_common_cold_adult",
+        "to": "sub_disease_adult_common_cold",
         "relation_id": "rel_common_cold_has_adult",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "目标人群为成人普通感冒患者"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_common_cold",
-        "to": "sub_disease_common_cold_high_risk",
-        "relation_id": "rel_common_cold_has_high_risk",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "表3 普通感冒后易导致基础疾病恶化和肺炎的高危人群"
+          "成人普通感冒诊断和治疗临床实践指南(2023)简称《指南》目标人群为成人普通感冒患者"
         ],
         "confidence": 0.95
       },
@@ -412,253 +487,397 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "急性细菌性鼻副鼻窦炎 (acute bacterial rhinosinusitis, ABRS)"
+          "应考虑并发急性细菌性鼻副鼻窦炎(ABRS)"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_common_cold",
+        "to": "sub_disease_cacc",
+        "relation_id": "rel_common_cold_has_cacc",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "对于成人普通感冒相关急性咳嗽(CACC)应如何对症治疗?"
+        ],
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_common_cold_adult",
+        "from": "sub_disease_adult_common_cold",
         "to": "symptom_nasal_congestion",
-        "relation_id": "rel_adult_cold_manifests_as_nasal_congestion",
+        "relation_id": "rel_adult_manifests_nasal_congestion",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
-          "普通感冒 简称感冒 是一种局限于上呼吸 渗出 伴有鼻气流阻力增高 但肺脏无影像学异常的病症 临床表现为鼻塞 流涕 咽痛和咳嗽等症候"
+          "临床表现为鼻塞、流涕、咽痛和咳嗽等症候"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确列为'常见'症状，且在表4中'普通感冒'行'鼻塞'列标注'常见'，证据强度高",
-        "evidence": "表4普通感冒的诊断和鉴别诊断诊断症状起始咳嗽咽痛流涕鼻塞打喷嚏颌面痛头痛呼吸困难发热普通感冒骤起常见干咳常见常见常见常见无常见轻无无或低热"
+        "weight_reason": "原文明确指出鼻塞是令患者感觉不适最突出的症状",
+        "evidence": "其中鼻塞和流涕是令患者感觉不适最突出的症状"
       },
       {
-        "from": "sub_disease_common_cold_adult",
+        "from": "sub_disease_adult_common_cold",
         "to": "symptom_rhinorrhea",
-        "relation_id": "rel_adult_cold_manifests_as_rhinorrhea",
+        "relation_id": "rel_adult_manifests_rhinorrhea",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
-          "普通感冒 简称感冒 是一种局限于上呼吸 渗出 伴有鼻气流阻力增高 但肺脏无影像学异常的病症 临床表现为鼻塞 流涕 咽痛和咳嗽等症候"
+          "临床表现为鼻塞、流涕、咽痛和咳嗽等症候"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确列为'常见'症状，且在表4中'普通感冒'行'流涕'列标注'常见'，证据强度高",
-        "evidence": "表4普通感冒的诊断和鉴别诊断诊断症状起始咳嗽咽痛流涕鼻塞打喷嚏颌面痛头痛呼吸困难发热普通感冒骤起常见干咳常见常见常见常见无常见轻无无或低热"
+        "weight_reason": "原文明确指出流涕是令患者感觉不适最突出的症状",
+        "evidence": "其中鼻塞和流涕是令患者感觉不适最突出的症状"
       },
       {
-        "from": "sub_disease_common_cold_adult",
+        "from": "sub_disease_adult_common_cold",
         "to": "symptom_sore_throat",
-        "relation_id": "rel_adult_cold_manifests_as_sore_throat",
+        "relation_id": "rel_adult_manifests_sore_throat",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
+        "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
+        "typicality": "typical",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
-          "急性发作咽痛 鼻塞 流涕 打喷嚏 咳嗽 畏寒 发热 头痛以及肌肉酸痛等综合征"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_common_cold_adult",
-        "to": "symptom_cough",
-        "relation_id": "rel_adult_cold_manifests_as_cough",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "普通感冒 简称感冒 是一种局限于上呼吸 渗出 伴有鼻气流阻力增高 但肺脏无影像学异常的病症 临床表现为鼻塞 流涕 咽痛和咳嗽等症候"
+          "临床表现为鼻塞、流涕、咽痛和咳嗽等症候"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_common_cold_adult",
-        "to": "symptom_fever",
-        "relation_id": "rel_adult_cold_manifests_as_fever",
+        "from": "sub_disease_abrs",
+        "to": "symptom_facial_pain",
+        "relation_id": "rel_abrs_manifests_facial_pain",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 5,
+        "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
-          "急性发作咽痛 鼻塞 流涕 打喷嚏 咳嗽 畏寒 发热 头痛以及肌肉酸痛等综合征"
+          "单侧颌面部疼痛"
         ],
-        "confidence": 0.9
+        "confidence": 0.9,
+        "weight_reason": "原文将单侧颌面部疼痛列为继发ABRS的细菌感染征象之一",
+        "evidence": "如鼻涕或痰液性状变化、发热>38℃、症状缓解后又加重以及单侧颌面部疼痛等"
+      },
+      {
+        "from": "sub_disease_abrs",
+        "to": "symptom_purulent_nasal_discharge",
+        "relation_id": "rel_abrs_manifests_purulent",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "持续超过10d或5d后加重",
+        "section_priority": "诊断标准",
+        "evidence_ids": [
+          "稠厚脓性鼻涕和痰液"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将稠厚脓性鼻涕列为考虑并发ABRS的状况之一",
+        "evidence": "稠厚脓性鼻涕和痰液、副鼻窦(通常为单侧)和咽部疼痛加剧"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_common_cold_adult",
-        "to": "test_pcr",
-        "relation_id": "rel_adult_cold_requires_pcr",
+        "from": "sub_disease_adult_common_cold",
+        "to": "test_imaging",
+        "relation_id": "rel_adult_requires_imaging",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "推荐诊断项",
-        "diagnostic_role": "recommended",
+        "type_info": "排除条件",
+        "diagnostic_role": "exclusion",
         "value_min": null,
         "value_max": null,
         "operator": null,
         "unit": null,
-        "result_text": null,
+        "result_text": "平素健康患者不建议做影像学检查",
         "weight": 5,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "present",
+        "polarity": "absent",
         "typicality": "common",
-        "section_priority": "背景介绍",
+        "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "文献检索包括中文和外文 和系统性分析...PCR应用揭示了多种致病微生物可导致感冒样症状"
+          "对于平素健康的感冒患者,诊断可基于详细询问病史和体格检查,不建议做影像学和实验室检查"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_common_cold_high_risk",
+        "from": "sub_disease_abrs",
         "to": "test_crp",
-        "relation_id": "rel_high_risk_cold_requires_crp",
+        "relation_id": "rel_abrs_requires_crp",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "支持诊断",
+        "type_info": "疾病诊断次要条件",
         "diagnostic_role": "supportive",
         "value_min": null,
         "value_max": null,
         "operator": null,
         "unit": null,
-        "result_text": null,
-        "weight": 4,
+        "result_text": "CRP增高",
+        "weight": 6,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "elevated",
         "typicality": "common",
-        "section_priority": "推荐意见3",
+        "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "CRP (C-reactive protein, CRP)"
+          "C反应蛋白(CRP)和降钙素原(PCT)增高"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_common_cold_high_risk",
+        "from": "sub_disease_abrs",
         "to": "test_pct",
-        "relation_id": "rel_high_risk_cold_requires_pct",
+        "relation_id": "rel_abrs_requires_pct",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "支持诊断",
+        "type_info": "疾病诊断次要条件",
         "diagnostic_role": "supportive",
         "value_min": null,
         "value_max": null,
         "operator": null,
         "unit": null,
-        "result_text": null,
-        "weight": 4,
+        "result_text": "PCT增高",
+        "weight": 7,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "elevated",
         "typicality": "common",
-        "section_priority": "推荐意见3",
+        "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "PCT (procalcitonin,PCT)"
+          "C反应蛋白(CRP)和降钙素原(PCT)增高"
         ],
         "confidence": 0.9
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_common_cold_adult",
-        "to": "treatment_common_cold_supportive",
-        "relation_id": "rel_adult_cold_follows_supportive",
+        "from": "sub_disease_adult_common_cold",
+        "to": "treatment_antiviral_normal",
+        "relation_id": "rel_adult_follows_antiviral_normal",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "平素健康成人普通感冒",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "applicable_condition": "免疫功能正常成人",
+        "recommendation_polarity": "不推荐",
+        "recommendation_strength": "不建议",
         "decision_basis": [
-          "人群"
+          "免疫状态"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见19",
+        "source_section": "抗病毒治疗",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_common_cold_adult",
-        "to": "treatment_common_cold_antiviral",
-        "relation_id": "rel_adult_cold_follows_antiviral",
+        "from": "sub_disease_adult_common_cold",
+        "to": "treatment_zinc",
+        "relation_id": "rel_adult_follows_zinc",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "平素健康成人普通感冒",
-        "recommendation_polarity": "不推荐",
-        "recommendation_strength": "weak",
+        "applicable_condition": "症状起始24h内",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
         "decision_basis": [
-          "人群"
+          "症状持续时间"
+        ],
+        "contraindication_note": "反对含锌鼻喷雾剂局部应用",
+        "evidence_level": "expert_consensus",
+        "source_section": "微量营养素治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_adult_common_cold",
+        "to": "treatment_antibiotic_early",
+        "relation_id": "rel_adult_follows_antibiotic_early",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "早期",
+        "treatment_line": "一线",
+        "applicable_condition": "症状起始5d内",
+        "recommendation_polarity": "不推荐",
+        "recommendation_strength": "反对推荐",
+        "decision_basis": [
+          "病程"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见6",
+        "source_section": "病毒-细菌合并感染",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cacc",
+        "to": "treatment_cacc",
+        "relation_id": "rel_cacc_follows_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": ">18岁且难以忍受",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "建议",
+        "decision_basis": [
+          "年龄",
+          "症状严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "对症治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_abrs",
+        "to": "treatment_abrs_antibiotic",
+        "relation_id": "rel_abrs_follows_antibiotic",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确继发ABRS",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "建议",
+        "decision_basis": [
+          "当地细菌耐药流行病学",
+          "90d内抗生素用药史"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "病毒-细菌合并感染",
         "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_common_cold_supportive",
-        "to": "plan_zinc_acetate_lozenge",
-        "relation_id": "rel_supportive_implements_by_zinc",
+        "from": "treatment_antiviral_flu",
+        "to": "plan_oseltamivir",
+        "relation_id": "rel_antiviral_flu_implements_oseltamivir",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "成人普通感冒，无糖尿病且难以忍受者",
-        "contraindication_note": "反对推荐含锌鼻喷雾剂局部应用",
+        "applicable_condition": "流感流行季高危人群",
+        "contraindication_note": null,
         "evidence_ids": [
-          "推荐醋酸锌和葡萄糖酸锌口含片治疗成人感冒 宜在症状起始 24h 内分次含化 锌剂量 ≥75mg/d 但不超过 100mg/d 高质量证据"
+          "推荐尽早应用神经氨酸酶抑制剂(奥司他韦或帕拉米韦)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_zinc",
+        "to": "plan_zinc_lozenges",
+        "relation_id": "rel_zinc_implements_lozenges",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "起病24h内",
+        "contraindication_note": "反对鼻腔局部应用",
+        "evidence_ids": [
+          "推荐醋酸锌和葡萄糖酸锌口含片治疗成人普通感冒"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "treatment_antipyretic_analgesic",
+        "to": "plan_acetaminophen_nsaids",
+        "relation_id": "rel_antipyretic_implements_acetaminophen",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "发热及疼痛",
+        "contraindication_note": "孕妇慎用",
+        "evidence_ids": [
+          "建议用乙酰氨基酚(又称醋氨酚或扑热息痛)或其他NSAID短期对症"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_cacc",
+        "to": "plan_honey_dextromethorphan",
+        "relation_id": "rel_cacc_implements_honey",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": ">18岁CACC难以忍受",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "建议首选含蜂蜜制剂或右美沙芬镇咳"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_cacc",
+        "to": "plan_pholcodine",
+        "relation_id": "rel_cacc_implements_pholcodine",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "首选药物疗效不佳",
+        "contraindication_note": "与NMBAs存在交叉过敏,服用后2年内忌用NMBAs",
+        "evidence_ids": [
+          "建议短期服用(<5d)福尔可定对症"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_abrs_antibiotic",
+        "to": "plan_abrs_antibiotics",
+        "relation_id": "rel_abrs_implements_antibiotics",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "继发ABRS",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "选用青霉素、阿莫西林、阿莫西林/克拉维酸、头孢曲松或头孢噻肟"
+        ],
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_common_cold_adult",
+        "from": "sub_disease_adult_common_cold",
         "to": "etiology_rhinovirus",
-        "relation_id": "rel_adult_cold_causes_by_rhinovirus",
+        "relation_id": "rel_adult_caused_by_rv",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -666,22 +885,59 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "感冒常见致病原主要有鼻病毒 (rhinovirus,RV)、冠状病毒、流感和副流感病毒等"
+          "感冒常见致病原主要有鼻病毒(rhinovirus,RV)...其中,RV占比约为50%"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_adult_common_cold",
+        "to": "etiology_coronavirus",
+        "relation_id": "rel_adult_caused_by_cov",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "冠状病毒、流感和副流感病毒等...SARS-CoV-2奥密克戎(ο)和德尔塔(δ)变异株也可成为感冒的病因"
+        ],
+        "confidence": 0.9
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_common_cold_adult",
-        "to": "pathogenesis_viral_upper_respiratory_infection",
-        "relation_id": "rel_adult_cold_explained_by_viral",
+        "from": "sub_disease_adult_common_cold",
+        "to": "pathogenesis_nasal_congestion",
+        "relation_id": "rel_adult_explained_by_nasal",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "附注 感冒被定义为局限于上呼吸道 以病毒感染为主的病症"
+          "鼻腔阻塞的机制在于局部充血、分泌物增加和黏膜水肿"
         ],
-        "confidence": 0.95
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_cacc",
+        "to": "pathogenesis_cacc",
+        "relation_id": "rel_cacc_explained_by_mechanism",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "CACC机制不明,可能涉及病毒性上皮损伤、腺体分泌亢进、炎症反应和神经调节机制异常多个环节"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_adult_common_cold",
+        "to": "pathogenesis_purulent_discharge",
+        "relation_id": "rel_adult_explained_by_purulent",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "感冒3~5d内有些患者会出现脓性鼻腔分泌物,不一定是细菌感染,而与病毒导致的中性粒细胞局部浸润有关"
+        ],
+        "confidence": 0.9
       }
     ]
   },

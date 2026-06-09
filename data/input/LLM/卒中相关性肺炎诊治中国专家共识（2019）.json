@@ -1,4 +1,4 @@
- {
+{
   "meta": {
     "doc_id": "卒中相关性肺炎诊治中国专家共识(2019更新版)",
     "source_title": "卒中相关性肺炎诊治中国专家共识(2019更新版)",
@@ -22,25 +22,57 @@
           "卒中相关性肺炎诊治中国专家共识(2019更新版)"
         ],
         "evidence_ids": [
-          "卒中相关性肺炎(stroke - associated pneumonia, SAP)的概念由Hilker等于2003年首先提出，是卒中后致死的重要危险因素之一"
+          "卒中相关性肺炎(stroke - associated pneumonia, SAP)的概念由Hilker等于2003年首先提出"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_sap_non_ventilated_7d",
-        "name": "非机械通气卒中患者发病7天内新出现的肺炎",
+        "id": "sub_disease_sap_default",
+        "name": "卒中相关性肺炎",
         "parent_disease_id": "disease_sap",
         "disease_subtype": null,
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "卒中后患者",
+        "population": "非机械通气的卒中患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "推荐意见:SAP定义为非机械通气的卒中患者在发病7 d内新出现的肺炎。"
+          "SAP定义为非机械通气的卒中患者在发病7 d内新出现的肺炎。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_sap_mild_moderate",
+        "name": "轻中度卒中相关性肺炎",
+        "parent_disease_id": "disease_sap",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻中度",
+        "population": "非机械通气的卒中患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "根据CURB -65或PSI量表评估，轻中度SAP患者首选B -内酰胺类+酶抑制剂的复合制剂"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_sap_severe",
+        "name": "重症卒中相关性肺炎",
+        "parent_disease_id": "disease_sap",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "非机械通气的卒中患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "根据CURB-65或PSI量表评估为重症SAP患者首选厄他培南，或美罗培南、亚胺培南、比阿培南等"
         ],
         "confidence": 0.9
       }
@@ -48,180 +80,96 @@
     "symptoms": [
       {
         "id": "symptom_fever",
-        "name": "发热",
+        "name": "发热≥38℃",
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "①发热338紀；"
+          "非机械通气的卒中患者在发病7 d内新出现的肺部感染症状:①发热338紀"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "symptom_cough_worsening",
-        "name": "咳嗽加重",
+        "id": "symptom_cough_dyspnea",
+        "name": "新出现或加重的咳嗽或呼吸困难或呼吸急促",
         "body_site": "呼吸系统",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "②新出现或加重的咳嗽或呼吸困难或呼吸急促;"
+          "②新出现或加重的咳嗽或呼吸困难或呼吸急促"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_dyspnea",
-        "name": "呼吸困难",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "②新出现或加重的咳嗽或呼吸困难或呼吸急促;"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_tachypnea",
-        "name": "呼吸急促",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "②新出现或加重的咳嗽或呼吸困难或呼吸急促;"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_purulent_sputum",
-        "name": "脓痰",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "③新出现的脓痰，或24 h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加;"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_sputum_change",
-        "name": "痰液性状改变",
+        "name": "新出现的脓痰，或24 h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加",
         "body_site": "呼吸系统",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "③新出现的脓痰，或24 h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加;"
+          "③新出现的脓痰，或24 h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_increased_secretion",
-        "name": "呼吸道分泌物增加",
-        "body_site": "呼吸系统",
+        "id": "symptom_lung_crackles",
+        "name": "肺部听诊发现啰音或爆裂音或支气管呼吸音",
+        "body_site": "肺部",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "③新出现的脓痰，或24 h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加;"
+          "④肺部听诊发现啰音或爆裂音或支气管呼吸音"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_increased_suction",
-        "name": "需吸痰次数增加",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "③新出现的脓痰，或24 h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加;"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_rhonchi",
-        "name": "啰音",
-        "body_site": "肺部",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "④肺部听诊发现啰音或爆裂音或支气管呼吸音;"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_crackles",
-        "name": "爆裂音",
-        "body_site": "肺部",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "④肺部听诊发现啰音或爆裂音或支气管呼吸音;"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_bronchial_breath_sound",
-        "name": "支气管呼吸音",
-        "body_site": "肺部",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "④肺部听诊发现啰音或爆裂音或支气管呼吸音;"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_altered_mental_status",
-        "name": "意识状态改变",
+        "id": "symptom_consciousness_change",
+        "name": "年龄≥70岁老人，无其他明确原因出现意识状态改变",
         "body_site": "神经系统",
         "symptom_category": "神经系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
           "⑤年龄M70岁老人，无其他明确原因出现意识状态改变。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_wbc_count",
+        "id": "test_wbc",
         "name": "外周血白细胞计数",
-        "normal_range_min": 4.0,
-        "normal_range_max": 10.0,
+        "normal_range_min": 4,
+        "normal_range_max": 10,
         "is_digital": 1,
         "evidence_ids": [
-          "外周血白细胞计数3 10 x 109/L或W4 x 109/L,伴或不伴核左移;"
+          "外周血白细胞计数3 10 x 109/L或W4 x 109/L,伴或不伴核左移"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_crp",
         "name": "C-反应蛋白",
-        "normal_range_min": 0.0,
-        "normal_range_max": 10.0,
+        "normal_range_min": null,
+        "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "Zhang等0］的研究显示,SAP患者的白细胞计数和C -反应蛋白（C - reactive protein, CRP）较非SAP患者明显增高,CRP升高与缺血性卒中患者转归不良、病死率增高及感染风险增高独立相关。"
+          "SAP患者的白细胞计数和C -反应蛋白（C - reactive protein, CRP）较非SAP患者明显增高"
         ],
         "confidence": 0.9
       },
       {
         "id": "test_pct",
         "name": "降钙素原",
-        "normal_range_min": 0.0,
-        "normal_range_max": 0.05,
+        "normal_range_min": null,
+        "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "降钙素原（procalcitonin, PCT）对感染的预测价值与白细胞计数和CRP相近，数值越高,提示细菌感染越严重,存在细菌性感染及脓毒症的可能性越大⑺】。"
+          "降钙素原（procalcitonin, PCT）对感染的预测价值与白细胞计数和CRP相近"
         ],
         "confidence": 0.9
       },
@@ -234,128 +182,239 @@
         "evidence_ids": [
           "胸部影像学检查发现新出现或进展性肺部浸润性病变,必要时行胸部CT检查。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_oxygenation_index",
-        "name": "氧合指数（PaO2/FiO2）",
-        "normal_range_min": 300.0,
+        "id": "test_sputum_culture",
+        "name": "痰涂片和痰培养",
+        "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 1,
+        "is_digital": 0,
         "evidence_ids": [
-          "气体交换障碍［如低氧血症（PaO2/Fi（）2 W300），需氧量增加］"
+          "连续2 ~3 d做痰涂片和痰培养"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "test_blood_culture",
+        "name": "血培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "血培养是诊断血流感染的重要方法。"
+        ],
+        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_sap_empirical_antibiotic",
-        "content": "SAP抗感染的治疗原则是经验性治疗与目标抗感染治疗有机结合，初始经验性治疗应及时充分;同时,应高度重视标准的病原学检查,以早期、准确地获得目标抗感染治疗的证据,优化抗感染治疗方案。",
-        "recommendation_strength": "strong",
-        "source_section": "6.3抗感染治疗",
+        "id": "treatment_sap_primary",
+        "content": "积极治疗原发病",
+        "recommendation_strength": "推荐",
+        "source_section": "一般治疗",
         "evidence_ids": [
-          "SAP抗感染的治疗原则是经验性治疗与目标抗感染治疗有机结合，初始经验性治疗应及时充分;同时,应高度重视标准的病原学检查,以早期、准确地获得目标抗感染治疗的证据,优化抗感染治疗方案O"
+          "对卒中的相应治疗和处 理,包括缺血性卒中的溶栓治疗、出血性卒中的血肿 清除和降颅压治疗等。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "treatment_sap_nutrition_support",
-        "content": "发病24 -48 h尽量让卒中患者口服食物，若患者不能经口进食，推荐应用持续肠内营养，能肠内营养者尽量不采用静脉营养的方式。",
-        "recommendation_strength": "strong",
-        "source_section": "6.2早期营养支持",
+        "id": "treatment_sap_sputum",
+        "content": "化痰及痰液引流",
+        "recommendation_strength": "推荐",
+        "source_section": "一般治疗",
         "evidence_ids": [
-          "推荐意见:发病24 -48 h尽量让卒中患者口服食物，若患者不能经口进食，推荐应用持续肠内营养，能肠内营养者尽量不采用静脉营养的方式。"
+          "应用盐酸氨漠索、乙酰半 胱氨酸、竣甲司坦等药物静脉或雾化吸入充分稀释 痰液。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_sap_oral",
+        "content": "口腔管理",
+        "recommendation_strength": "推荐",
+        "source_section": "一般治疗",
+        "evidence_ids": [
+          "加强口腔护理及综合管理（使 用生理盐水、氯己定或聚维酮碘含漱液冲洗、刷洗牙 齿和舌面等），可以减少口咽部条件致病菌"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_sap_oxygen",
+        "content": "氧疗与呼吸支持",
+        "recommendation_strength": "推荐",
+        "source_section": "一般治疗",
+        "evidence_ids": [
+          "动态监测患者的血氧饱 和度或血气分析，血氧饱和度保持在94%、氧分压 保持在70 mm Hg以上"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_sap_nutrition",
+        "content": "早期营养支持",
+        "recommendation_strength": "推荐",
+        "source_section": "早期营养支持",
+        "evidence_ids": [
+          "发病24 -48 h给予易消化、 营养丰富的食物或营养液,维持水电解质平衡。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_sap_antibiotic",
+        "content": "经验性抗感染治疗与目标抗感染治疗有机结合",
+        "recommendation_strength": "推荐",
+        "source_section": "抗感染治疗",
+        "evidence_ids": [
+          "SAP抗感染的治疗原则是经验性治疗与目标抗感 染治疗有机结合，初始经验性治疗应及时充分"
+        ],
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_antibiotic_initial_within_6h",
-        "content": "经验性抗感染治疗要在患者肺炎发生的6 h之内或尽快给予用药，否则会增加患者的病死率、住院时间⑶）。",
+        "id": "plan_sputum_drugs",
+        "content": "应用盐酸氨溴索、乙酰半胱氨酸、羧甲司坦等药物静脉或雾化吸入充分稀释痰液",
         "plan_level": 1,
-        "applicable_condition": "SAP诊断确立后",
+        "applicable_condition": "痰液黏稠或引流不畅",
         "contraindication_note": null,
         "evidence_ids": [
-          "经验性抗感染治疗要在患者肺炎发生的6 h之内或尽快给予用药，否则会增加患者的病死率、住院时间⑶）。"
+          "应用盐酸氨漠索、乙酰半 胱氨酸、竣甲司坦等药物静脉或雾化吸入充分稀释 痰液。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_curbsixfive_psi_combined_assessment",
-        "content": "建议CURB-65和PSI评分标准相结合对SAP患者进行病情严重程度评估，以指导对患者的进一步治疗。",
-        "plan_level": 2,
-        "applicable_condition": "SAP病情严重程度评估",
+        "id": "plan_oral_care",
+        "content": "使用生理盐水、氯己定或聚维酮碘含漱液冲洗、刷洗牙齿和舌面等",
+        "plan_level": 1,
+        "applicable_condition": "所有卒中患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "推荐意见：建议CURB-65和PSI评分标准相 结合对SAP患者进行病情严重程度评估，以指导对患者的进一步治疗。"
+          "使用生理盐水、氯己定或聚维酮碘含漱液冲洗、刷洗牙 齿和舌面等"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_oxygen",
+        "content": "持续鼻导管吸氧或高流量氧疗；如果出现严重的低氧血症或呼吸衰竭时，给予机械通气",
+        "plan_level": 1,
+        "applicable_condition": "低氧血症或呼吸衰竭",
+        "contraindication_note": "伴有意识障碍的卒中患者是无创机械通气的禁忌人群",
+        "evidence_ids": [
+          "如果出现低氧血症,可给予 持续鼻导管吸氧或高流量氧疗;如果常规氧疗无效, 出现严重的低氧血症或呼吸衰竭（氧分压W 60 mm Hg）时，给予机械通气。注意伴有意识障碍的 卒中患者是无创机械通气的禁忌人群。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_enteral_nutrition",
+        "content": "推荐应用持续肠内营养，且重症患者从初始肠内应用短肽制剂到整蛋白制剂过渡的序贯治疗",
+        "plan_level": 1,
+        "applicable_condition": "不能经口进食者",
+        "contraindication_note": "存在经口进食或肠内营养禁忌证者，需要在3-7 d启动肠外营养",
+        "evidence_ids": [
+          "若患者不能经口进食，推荐应用持续肠 内营养，且重症患者从初始肠内应用短肽制剂到整 蛋白制剂过渡的序贯治疗对患者更为有利"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_empirical_antibiotics_mild",
+        "content": "首选β-内酰胺类+酶抑制剂的复合制剂或头霉素类或氧头孢烯类抗感染药物",
+        "plan_level": 1,
+        "applicable_condition": "轻中度SAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "轻中度SAP患者首选B -内酰胺类+酶抑制剂的复合制 剂（如阿莫西林/克拉维酸、哌拉西林/他輕巴坦、头 抱哌酮/舒巴坦等）或头霉素类（头抱西丁、头抱美 醴等）或氧头抱烯类抗感染药物（拉氧头抱或氟氧 头抱）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_empirical_antibiotics_severe",
+        "content": "首选厄他培南，或美罗培南、亚胺培南、比阿培南等",
+        "plan_level": 1,
+        "applicable_condition": "重症SAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "根据CURB-65或PSI量 表评估为重症SAP患者首选厄他培南，或美罗培 南、亚胺培南、比阿培南等"
+        ],
+        "confidence": 0.9
       }
     ],
     "etiologies": [
       {
         "id": "etiology_dysphagia",
-        "content": "吞咽功能障碍",
-        "etiology_type": "机械性因素",
-        "typicality": "typical",
+        "content": "吞咽困难",
+        "etiology_type": "机体功能障碍",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "卒中诱导的免疫抑制和吞咽困难是SAP重要的独立危险因素［⑸"
+          "卒中诱导的免疫抑制和吞 咽困难是SAP重要的独立危险因素"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_stroke_induced_immunosuppression",
+        "id": "etiology_immunosuppression",
         "content": "卒中诱导的免疫抑制",
         "etiology_type": "免疫因素",
-        "typicality": "typical",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "卒中诱导的免疫抑制和吞咽困难是SAP重要的独立危险因素［⑸"
+          "卒中诱导的免疫抑制和吞 咽困难是SAP重要的独立危险因素"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_aspiration",
-        "content": "误吸",
-        "etiology_type": "机械性因素",
-        "typicality": "typical",
+        "id": "etiology_age",
+        "content": "年龄",
+        "etiology_type": "人口学因素",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "卒中后意识障碍、吞咽功能障碍造成的误吸以及卒中引起的免疫抑制被认为是SAP最主要的发病机制⑵）"
+          "其他危险因 素还包括年龄、性别、卒中严重程度、卒中类型、卒中 部位、意识水平、喂养方式、应用抑酸剂、入住ICU"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "etiology_bedridden_dependence",
-        "content": "卧床坠积",
-        "etiology_type": "机械性因素",
-        "typicality": "common",
+        "id": "etiology_acid_suppressants",
+        "content": "应用抑酸剂",
+        "etiology_type": "药物因素",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "卧床坠积亦可引起SAP的发生。卒中患者多因肢体瘫痪导致长时间卧床，气管内分泌物淤滞坠积于肺底,细菌易于繁殖，引起SAP。"
+          "其他危险因 素还包括年龄、性别、卒中严重程度、卒中类型、卒中 部位、意识水平、喂养方式、应用抑酸剂、入住ICU"
         ],
         "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_aspiration_immunosuppression",
-        "content": "卒中后意识障碍、吞咽功能障碍造成的误吸以及卒中引起的免疫抑制被认为是SAP最主要的发病机制。",
+        "id": "pathogenesis_aspiration",
+        "content": "卒中后意识障碍、吞咽功能障碍造成的误吸以及卒中引起的免疫抑制被认为是SAP最主要的发病机制",
         "evidence_ids": [
-          "卒中后意识障碍、吞咽功能障碍造成的误吸以及卒中引起的免疫抑制被认为是SAP最主要的发病机制⑵）"
+          "卒中后意识障碍、吞咽 功能障碍造成的误吸以及卒中引起的免疫抑制被认 为是SAP最主要的发病机制"
         ],
         "confidence": 0.95
       },
       {
-        "id": "pathogenesis_neurogenic_pulmonary_edema",
-        "content": "重症卒中会引起全身应激反应交感-肾上腺系统过度兴奋，儿茶酚胺释放增加，全身血管收缩，肺毛细血管压力急剧升高（肺循环为低压系统），肺瘀血水肿导致神经源性肺水肿，亦可能参与SAP的发病。",
+        "id": "pathogenesis_immunosuppression",
+        "content": "卒中诱导的细胞免疫功能低下是SAP发生的重要内在机制",
         "evidence_ids": [
-          "此外，重症卒中会引起全身应激反应交感-肾上腺系统过度兴奋，儿茶酚胺释放增加，全身血管收缩，肺毛细血管压力急剧升高（肺循环为低压系统），肺瘀血水肿导致神经源性肺水肿，亦可能参与SAP的发病。"
+          "卒中诱导的细胞免疫功能低下是SAP发生的 重要内在机制。"
         ],
         "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_bedridden",
+        "content": "卧床坠积亦可引起SAP的发生。卒中患者多因肢体瘫痪导致长时间卧床，气管内分泌物淤滞坠积于肺底,细菌易于繁殖",
+        "evidence_ids": [
+          "卧床坠积亦可引起SAP的发生。卒中患者多 因肢体瘫痪导致长时间卧床，气管内分泌物淤滞坠 积于肺底,细菌易于繁殖，引起SAP。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_neurogenic_edema",
+        "content": "重症卒中会引起全身应激反应交感-肾上腺系统过度兴奋，儿茶酚胺释放增加，全身血管收缩，肺毛细血管压力急剧升高，肺瘀血水肿导致神经源性肺水肿",
+        "evidence_ids": [
+          "重症卒中会引起全身应激反应交感-肾 上腺系统过度兴奋，儿茶酚胺释放增加，全身血管收 缩，肺毛细血管压力急剧升高（肺循环为低压系 统），肺瘀血水肿导致神经源性肺水肿，亦可能参与 SAP的发病。"
+        ],
+        "confidence": 0.85
       }
     ]
   },
@@ -363,458 +422,293 @@
     "has_sub_disease": [
       {
         "from": "disease_sap",
-        "to": "sub_disease_sap_non_ventilated_7d",
-        "relation_id": "rel_sap_has_non_ventilated_7d",
+        "to": "sub_disease_sap_default",
+        "relation_id": "rel_sap_has_default",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "推荐意见:SAP定义为非机械通气的卒中患者在发病7 d内新出现的肺炎。"
+          "SAP定义为非机械通气的卒中患者在发病7 d内新出现的肺炎。"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "disease_sap",
+        "to": "sub_disease_sap_mild_moderate",
+        "relation_id": "rel_sap_has_mild_moderate",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "根据CURB -65或PSI量表评估，轻中度SAP患者首选B -内酰胺类+酶抑制剂的复合制剂"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_sap",
+        "to": "sub_disease_sap_severe",
+        "relation_id": "rel_sap_has_severe",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "根据CURB-65或PSI量表评估为重症SAP患者首选厄他培南，或美罗培南、亚胺培南、比阿培南等"
+        ],
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
+        "from": "sub_disease_sap_default",
         "to": "symptom_fever",
-        "relation_id": "rel_sap_manifests_as_fever",
+        "relation_id": "rel_sap_manifests_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "SAP_diagnosis_criteria_1",
+        "weight": 8,
+        "criterion_group_id": "SAP_Clinical_1",
         "required_count": 1,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
-          "①发热338紀；"
+          "至少符合下列标准中任意一项 1. 无其他明确原因出现发热（体温＞38 r）"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确列为诊断标准第1项，且为‘至少符合下列标准中任意一项’的首位条目",
-        "evidence": "1.无其他明确原因出现发热（体温＞38r）"
+        "weight_reason": "发热是SAP新出现的肺部感染症状之一",
+        "evidence": "①发热"
       },
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "symptom_cough_worsening",
-        "relation_id": "rel_sap_manifests_as_cough_worsening",
+        "from": "sub_disease_sap_default",
+        "to": "symptom_cough_dyspnea",
+        "relation_id": "rel_sap_manifests_cough",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "SAP_diagnosis_criteria_1",
-        "required_count": 1,
-        "typicality": "typical",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": "SAP_Clinical_2",
+        "required_count": 2,
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
-          "②新出现或加重的咳嗽或呼吸困难或呼吸急促;"
+          "并且至少符合下列标准中任意二项 2. 新出现或加重的咳嗽或呼吸困难或呼吸急促"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文列为诊断标准‘并且至少符合下列标准中任意二项’第2项，属核心临床表现",
-        "evidence": "2.新出现或加重的咳嗽或呼吸困难或呼吸急促（呼吸频率〉25次/min）"
+        "weight_reason": "咳嗽或呼吸困难是SAP新出现的肺部感染症状之一",
+        "evidence": "②新出现或加重的咳嗽或呼吸困难或呼吸急促"
       },
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "symptom_dyspnea",
-        "relation_id": "rel_sap_manifests_as_dyspnea",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "SAP_diagnosis_criteria_1",
-        "required_count": 1,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "②新出现或加重的咳嗽或呼吸困难或呼吸急促;"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文列为诊断标准‘并且至少符合下列标准中任意二项’第2项中的并列症状，与咳嗽、呼吸急促同属一项",
-        "evidence": "2.新出现或加重的咳嗽或呼吸困难或呼吸急促（呼吸频率〉25次/min）"
-      },
-      {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "symptom_tachypnea",
-        "relation_id": "rel_sap_manifests_as_tachypnea",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "SAP_diagnosis_criteria_1",
-        "required_count": 1,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "②新出现或加重的咳嗽或呼吸困难或呼吸急促;"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文列为诊断标准‘并且至少符合下列标准中任意二项’第2项中的并列症状，且明确限定‘呼吸频率〉25次/min’",
-        "evidence": "2.新出现或加重的咳嗽或呼吸困难或呼吸急促（呼吸频率〉25次/min）"
-      },
-      {
-        "from": "sub_disease_sap_non_ventilated_7d",
+        "from": "sub_disease_sap_default",
         "to": "symptom_purulent_sputum",
-        "relation_id": "rel_sap_manifests_as_purulent_sputum",
+        "relation_id": "rel_sap_manifests_sputum",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "SAP_diagnosis_criteria_2",
-        "required_count": 2,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "③新出现的脓痰，或24 h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加;"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文列为诊断标准‘并且至少符合下列标准中任意二项’第1项首部，属明确临床表现",
-        "evidence": "1.新出现的脓痰，或24h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加"
-      },
-      {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "symptom_sputum_change",
-        "relation_id": "rel_sap_manifests_as_sputum_change",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "SAP_diagnosis_criteria_2",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": "SAP_Clinical_2",
         "required_count": 2,
         "typicality": "common",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
-          "③新出现的脓痰，或24 h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加;"
+          "并且至少符合下列标准中任意二项 1. 新出现的脓痰，或24 h内出现痰液性状改变或呼吸道分泌物增 加或需吸痰次数增加"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文列为诊断标准‘并且至少符合下列标准中任意二项’第1项中部，属明确临床表现",
-        "evidence": "1.新出现的脓痰，或24h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加"
+        "confidence": 0.95,
+        "weight_reason": "脓痰是SAP新出现的肺部感染症状之一",
+        "evidence": "③新出现的脓痰"
       },
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "symptom_increased_secretion",
-        "relation_id": "rel_sap_manifests_as_increased_secretion",
+        "from": "sub_disease_sap_default",
+        "to": "symptom_lung_crackles",
+        "relation_id": "rel_sap_manifests_crackles",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "SAP_diagnosis_criteria_2",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": "SAP_Clinical_2",
         "required_count": 2,
         "typicality": "common",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
-          "③新出现的脓痰，或24 h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加;"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文列为诊断标准‘并且至少符合下列标准中任意二项’第1项中部，属明确临床表现",
-        "evidence": "1.新出现的脓痰，或24h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加"
-      },
-      {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "symptom_increased_suction",
-        "relation_id": "rel_sap_manifests_as_increased_suction",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "SAP_diagnosis_criteria_2",
-        "required_count": 2,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "③新出现的脓痰，或24 h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加;"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文列为诊断标准‘并且至少符合下列标准中任意二项’第1项末尾，属明确临床表现",
-        "evidence": "1.新出现的脓痰，或24h内出现痰液性状改变或呼吸道分泌物增加或需吸痰次数增加"
-      },
-      {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "symptom_rhonchi",
-        "relation_id": "rel_sap_manifests_as_rhonchi",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "SAP_diagnosis_criteria_2",
-        "required_count": 2,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "④肺部听诊发现啰音或爆裂音或支气管呼吸音;"
+          "并且至少符合下列标准中任意二项 3. 肺部听诊发现啰音或爆裂音或支气管呼吸音"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文列为诊断标准‘并且至少符合下列标准中任意二项’第3项首部，属明确听诊体征",
-        "evidence": "3.肺部听诊发现啰音或爆裂音或支气管呼吸音"
+        "weight_reason": "肺部啰音是SAP新出现的肺部感染症状之一",
+        "evidence": "④肺部听诊发现啰音或爆裂音或支气管呼吸音"
       },
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "symptom_crackles",
-        "relation_id": "rel_sap_manifests_as_crackles",
+        "from": "sub_disease_sap_default",
+        "to": "symptom_consciousness_change",
+        "relation_id": "rel_sap_manifests_consciousness",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "SAP_diagnosis_criteria_2",
-        "required_count": 2,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "④肺部听诊发现啰音或爆裂音或支气管呼吸音;"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文列为诊断标准‘并且至少符合下列标准中任意二项’第3项中部，属明确听诊体征",
-        "evidence": "3.肺部听诊发现啰音或爆裂音或支气管呼吸音"
-      },
-      {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "symptom_bronchial_breath_sound",
-        "relation_id": "rel_sap_manifests_as_bronchial_breath_sound",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "SAP_diagnosis_criteria_2",
-        "required_count": 2,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "④肺部听诊发现啰音或爆裂音或支气管呼吸音;"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文列为诊断标准‘并且至少符合下列标准中任意二项’第3项末尾，属明确听诊体征",
-        "evidence": "3.肺部听诊发现啰音或爆裂音或支气管呼吸音"
-      },
-      {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "symptom_altered_mental_status",
-        "relation_id": "rel_sap_manifests_as_altered_mental_status",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": "SAP_diagnosis_criteria_1",
+        "weight": 8,
+        "criterion_group_id": "SAP_Clinical_1",
         "required_count": 1,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
-          "⑤年龄M70岁老人，无其他明确原因出现意识状态改变。"
+          "至少符合下列标准中任意一项 3. 年龄M70岁老人，无其他明确原因岀现意识状态改变"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文列为诊断标准‘至少符合下列标准中任意一项’第3项，且强调‘年龄≥70岁老人，无其他明确原因出现意识状态改变’",
-        "evidence": "3.年龄M70岁老人，无其他明确原因岀现意识状态改变"
+        "weight_reason": "意识状态改变是SAP老年患者新出现的肺部感染症状之一",
+        "evidence": "⑤年龄M70岁老人，无其他明确原因出现意识状态改变"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "test_wbc_count",
-        "relation_id": "rel_sap_requires_wbc_count",
+        "from": "sub_disease_sap_default",
+        "to": "test_wbc",
+        "relation_id": "rel_sap_requires_wbc",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
-        "value_min": 10.0,
-        "value_max": null,
-        "operator": ">=",
-        "unit": "x 10^9/L",
+        "value_min": 10,
+        "value_max": 4,
+        "operator": "between",
+        "unit": "x10^9/L",
         "result_text": null,
-        "weight": 10,
+        "weight": 8,
         "gold_standard": false,
-        "criterion_group_id": "SAP_diagnosis_criteria_lab",
+        "criterion_group_id": "SAP_Lab_1",
         "required_count": 1,
         "polarity": "elevated",
-        "typicality": "typical",
+        "typicality": "common",
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "外周血白细胞计数3 10 x 109/L或W4 x 109/L,伴或不伴核左移;"
+          "至少符合下列标准中任意一项 2. 白细胞减少（W4 x 109/L）或白细胞增多（M10 x 109/L）"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文列为‘5.2实验室和影像检查’首项指标，但未称金标准；仅描述为‘白细胞计数≥10×10⁹/L或≤4×10⁹/L’，属支持性检查",
-        "evidence": "5.2实验室和影像检查外周血白细胞计数≥10x109/L或≤4x109/L,伴或不伴核左移"
+        "weight_reason": "外周血白细胞计数是SAP的实验室检查指标",
+        "evidence": "外周血白细胞计数"
       },
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "test_wbc_count",
-        "relation_id": "rel_sap_requires_wbc_count_low",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": 4.0,
-        "operator": "<=",
-        "unit": "x 10^9/L",
-        "result_text": null,
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": "SAP_diagnosis_criteria_lab",
-        "required_count": 1,
-        "polarity": "decreased",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "外周血白细胞计数3 10 x 109/L或W4 x 109/L,伴或不伴核左移;"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_sap_non_ventilated_7d",
+        "from": "sub_disease_sap_default",
         "to": "test_chest_imaging",
-        "relation_id": "rel_sap_requires_chest_imaging",
+        "relation_id": "rel_sap_requires_imaging",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
         "result_text": "新出现或进展性的浸润影、实变影或磨玻璃影",
-        "weight": 100,
+        "weight": 10,
         "gold_standard": true,
-        "criterion_group_id": "SAP_diagnosis_criteria_imaging",
-        "required_count": 1,
+        "criterion_group_id": null,
+        "required_count": null,
         "polarity": "present",
         "typicality": "typical",
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "胸部影像检査至少具有下列表现中任意一项 新岀现或进展性的浸润影、实变影或磨玻璃影_______________________"
+          "胸部影像检査至少具有下列表现中任意一项 新岀现或进展性的浸润影、实变影或磨玻璃影"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文表2‘SAP的诊断标准’中‘胸部影像检查至少具有下列表现中任意一项’为确诊必要条件，且全文唯一使用‘至少具有……任意一项’+‘新出现或进展性’双重限定，符合金标准定义",
-        "evidence": "胸部影像检査至少具有下列表现中任意一项新岀现或进展性的浸润影、实变影或磨玻璃影"
-      },
-      {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "test_oxygenation_index",
-        "relation_id": "rel_sap_requires_oxygenation_index",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": 300.0,
-        "operator": "<=",
-        "unit": "",
-        "result_text": "低氧血症（PaO2/Fi（）2 W300）",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": "SAP_diagnosis_criteria_lab",
-        "required_count": 1,
-        "polarity": "decreased",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "气体交换障碍［如低氧血症（PaO2/Fi（）2 W300），需氧量增加］"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文列为诊断标准‘并且至少符合下列标准中任意二项’第4项，表述为‘气体交换障碍［如低氧血症（PaO2/FiO2 ≤300）］’，属举例性支持指标，非强制或独立标准",
-        "evidence": "4.气体交换障碍［如低氧血症（PaO2/Fi（）2W300），需氧量增加］"
+        "weight_reason": "胸部影像检查是SAP诊断标准中必须具备的条件",
+        "evidence": "胸部影像检査至少具有下列表现中任意一项"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "treatment_sap_empirical_antibiotic",
-        "relation_id": "rel_sap_follows_empirical_antibiotic",
+        "from": "sub_disease_sap_default",
+        "to": "treatment_sap_primary",
+        "relation_id": "rel_sap_follows_primary",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "SAP诊断确立后",
+        "applicable_condition": "确诊SAP后",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "推荐",
         "decision_basis": [
-          "诊断时机",
-          "病原学特点"
+          "原发病类型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "6.3抗感染治疗",
-        "confidence": 0.95
+        "source_section": "一般治疗",
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "treatment_sap_nutrition_support",
-        "relation_id": "rel_sap_follows_nutrition_support",
+        "from": "sub_disease_sap_default",
+        "to": "treatment_sap_antibiotic",
+        "relation_id": "rel_sap_follows_antibiotic",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "发病24-48h内",
+        "applicable_condition": "确诊SAP后",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "推荐",
         "decision_basis": [
-          "卒中急性期代谢需求"
+          "病原学结果",
+          "疾病严重程度"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "6.2早期营养支持",
+        "source_section": "抗感染治疗",
         "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_sap_empirical_antibiotic",
-        "to": "plan_antibiotic_initial_within_6h",
-        "relation_id": "rel_treatment_implements_by_antibiotic_within_6h",
+        "from": "treatment_sap_sputum",
+        "to": "plan_sputum_drugs",
+        "relation_id": "rel_treatment_implements_sputum",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "SAP诊断确立后",
+        "applicable_condition": "痰液黏稠",
         "contraindication_note": null,
         "evidence_ids": [
-          "经验性抗感染治疗要在患者肺炎发生的6 h之内或尽快给予用药，否则会增加患者的病死率、住院时间⑶）。"
+          "应用盐酸氨漠索、乙酰半 胱氨酸、竣甲司坦等药物静脉或雾化吸入充分稀释 痰液。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_sap_antibiotic",
+        "to": "plan_empirical_antibiotics_mild",
+        "relation_id": "rel_treatment_implements_mild",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "轻中度SAP患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "轻中度SAP患者首选B -内酰胺类+酶抑制剂的复合制 剂"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_sap_nutrition_support",
-        "to": "plan_curbsixfive_psi_combined_assessment",
-        "relation_id": "rel_treatment_implements_by_curbsixfive_psi",
+        "from": "treatment_sap_antibiotic",
+        "to": "plan_empirical_antibiotics_severe",
+        "relation_id": "rel_treatment_implements_severe",
         "relation_name": "落实为",
         "relation_type": "implements_by",
-        "plan_role": "辅助",
-        "applicable_condition": "病情严重程度评估",
+        "plan_role": "首选",
+        "applicable_condition": "重症SAP患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "推荐意见：建议CURB-65和PSI评分标准相 结合对SAP患者进行病情严重程度评估，以指导对患者的进一步治疗。"
+          "根据CURB-65或PSI量 表评估为重症SAP患者首选厄他培南，或美罗培 南、亚胺培南、比阿培南等"
         ],
         "confidence": 0.95
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
+        "from": "sub_disease_sap_default",
         "to": "etiology_dysphagia",
-        "relation_id": "rel_sap_caused_by_dysphagia",
+        "relation_id": "rel_sap_causes_dysphagia",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -822,14 +716,14 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "卒中诱导的免疫抑制和吞咽困难是SAP重要的独立危险因素［⑸"
+          "卒中诱导的免疫抑制和吞 咽困难是SAP重要的独立危险因素"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "etiology_stroke_induced_immunosuppression",
-        "relation_id": "rel_sap_caused_by_immunosuppression",
+        "from": "sub_disease_sap_default",
+        "to": "etiology_immunosuppression",
+        "relation_id": "rel_sap_causes_immuno",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -837,61 +731,31 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "卒中诱导的免疫抑制和吞咽困难是SAP重要的独立危险因素［⑸"
+          "卒中诱导的免疫抑制和吞 咽困难是SAP重要的独立危险因素"
         ],
         "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "etiology_aspiration",
-        "relation_id": "rel_sap_caused_by_aspiration",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "strong",
-        "typicality": "typical",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "卒中后意识障碍、吞咽功能障碍造成的误吸以及卒中引起的免疫抑制被认为是SAP最主要的发病机制⑵）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "etiology_bedridden_dependence",
-        "relation_id": "rel_sap_caused_by_bedridden",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "卧床坠积亦可引起SAP的发生。卒中患者多因肢体瘫痪导致长时间卧床，气管内分泌物淤滞坠积于肺底,细菌易于繁殖，引起SAP。"
-        ],
-        "confidence": 0.9
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "pathogenesis_aspiration_immunosuppression",
-        "relation_id": "rel_sap_explained_by_aspiration_immunosuppression",
+        "from": "sub_disease_sap_default",
+        "to": "pathogenesis_aspiration",
+        "relation_id": "rel_sap_explained_aspiration",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "卒中后意识障碍、吞咽功能障碍造成的误吸以及卒中引起的免疫抑制被认为是SAP最主要的发病机制⑵）"
+          "卒中后意识障碍、吞咽 功能障碍造成的误吸以及卒中引起的免疫抑制被认 为是SAP最主要的发病机制"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_sap_non_ventilated_7d",
-        "to": "pathogenesis_neurogenic_pulmonary_edema",
-        "relation_id": "rel_sap_explained_by_neurogenic_pulmonary_edema",
+        "from": "sub_disease_sap_default",
+        "to": "pathogenesis_immunosuppression",
+        "relation_id": "rel_sap_explained_immuno",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "此外，重症卒中会引起全身应激反应交感-肾上腺系统过度兴奋，儿茶酚胺释放增加，全身血管收缩，肺毛细血管压力急剧升高（肺循环为低压系统），肺瘀血水肿导致神经源性肺水肿，亦可能参与SAP的发病。"
+          "卒中诱导的细胞免疫功能低下是SAP发生的 重要内在机制。"
         ],
         "confidence": 0.9
       }

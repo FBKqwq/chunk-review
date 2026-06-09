@@ -11,870 +11,648 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_infection",
-        "name": "感染",
-        "normalized_name": "感染",
+        "id": "disease_ici_infection",
+        "name": "免疫检查点抑制剂相关感染",
+        "normalized_name": "免疫检查点抑制剂相关感染",
         "aliases": [
-          "感染性疾病"
+          "PD-1/PD-L1抑制剂相关感染",
+          "ICIs相关感染"
         ],
         "source_document_ids": [
           "免疫检查点抑制剂相关感染诊治建议"
         ],
         "evidence_ids": [
-          "免疫检查点抑制剂相关感染诊治建议"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_tuberculosis",
-        "name": "结核病",
-        "normalized_name": "结核病",
-        "aliases": [
-          "TB",
-          "活动性结核",
-          "潜伏结核感染",
-          "LTBI"
-        ],
-        "source_document_ids": [
-          "免疫检查点抑制剂相关感染诊治建议"
-        ],
-        "evidence_ids": [
-          "潜伏结核感染重新激活",
-          "活动性结核的发病率约为1/1,000",
-          "潜伏结核重新激活的病人，建议进行抗结核治疗"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_pneumocystis_pneumonia",
-        "name": "肺孢子菌肺炎",
-        "normalized_name": "肺孢子菌肺炎",
-        "aliases": [
-          "PCP",
-          "卡氏肺孢子虫肺炎"
-        ],
-        "source_document_ids": [
-          "免疫检查点抑制剂相关感染诊治建议"
-        ],
-        "evidence_ids": [
-          "两例肺孢子菌肺炎(pneumocystis pneumonia, PCP)感染",
-          "PCP感染推荐使用复方磺胺甲恶唑"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_chronic_progressive_pulmonary_aspergillosis",
-        "name": "慢性进展性肺曲霉菌病",
-        "normalized_name": "慢性进展性肺曲霉菌病",
-        "aliases": [
-          "CPPA"
-        ],
-        "source_document_ids": [
-          "免疫检查点抑制剂相关感染诊治建议"
-        ],
-        "evidence_ids": [
-          "原有慢性进展性肺曲霉菌病(CPPA)急性加重的病例"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_varicella_zoster_virus_infection",
-        "name": "水痘-带状疱疹病毒感染",
-        "normalized_name": "水痘-带状疱疹病毒感染",
-        "aliases": [
-          "VZV感染",
-          "带状疱疹"
-        ],
-        "source_document_ids": [
-          "免疫检查点抑制剂相关感染诊治建议"
-        ],
-        "evidence_ids": [
-          "出现水痘-带状疱疹病毒感染",
-          "建议预防带状疱疹重新激活"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_hepatitis_b_virus_infection",
-        "name": "乙型肝炎病毒感染",
-        "normalized_name": "乙型肝炎病毒感染",
-        "aliases": [
-          "HBV感染"
-        ],
-        "source_document_ids": [
-          "免疫检查点抑制剂相关感染诊治建议"
-        ],
-        "evidence_ids": [
-          "HBV/HCV感染",
-          "可能导致HBV/HCV感染重新激活"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_hepatitis_c_virus_infection",
-        "name": "丙型肝炎病毒感染",
-        "normalized_name": "丙型肝炎病毒感染",
-        "aliases": [
-          "HCV感染"
-        ],
-        "source_document_ids": [
-          "免疫检查点抑制剂相关感染诊治建议"
-        ],
-        "evidence_ids": [
-          "HBV/HCV感染",
-          "可能导致HBV/HCV感染重新激活"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_hiv_infection",
-        "name": "人类免疫缺陷病毒感染",
-        "normalized_name": "人类免疫缺陷病毒感染",
-        "aliases": [
-          "HIV感染"
-        ],
-        "source_document_ids": [
-          "免疫检查点抑制剂相关感染诊治建议"
-        ],
-        "evidence_ids": [
-          "HIV感染",
-          "合并HIV感染的肿瘤病人使用PD-1/PD-L1抑制剂并不会显著增加风险"
+          "免疫检查点抑制剂相关感染诊治建议",
+          "本文将针对PD-1/PD-L1抑制剂相关感染的现有临床数据、可能机制及诊治建议进行叙述。"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_opportunistic_infection_related_to_irae",
-        "name": "与免疫治疗相关不良事件相关的机会性感染",
-        "parent_disease_id": "disease_infection",
-        "disease_subtype": null,
+        "id": "sub_disease_opportunistic_infection",
+        "name": "irAEs相关机会性感染",
+        "parent_disease_id": "disease_ici_infection",
+        "disease_subtype": "机会性感染",
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": "接受irAEs免疫抑制治疗患者",
+        "population": "发生irAEs并使用免疫抑制治疗的患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "irAEs required corticosteroids and/or immunosuppressants, leading to temporary immunosuppression"
+          "因免疫治疗相关不良事件使用糖皮质激素等药物而产生暂时性免疫抑制所致机会性感染"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_reactivation_of_latent_tuberculosis",
-        "name": "潜伏结核感染再激活",
-        "parent_disease_id": "disease_tuberculosis",
-        "disease_subtype": null,
+        "id": "sub_disease_latent_infection_reactivation",
+        "name": "潜伏/慢性感染重新激活",
+        "parent_disease_id": "disease_ici_infection",
+        "disease_subtype": "感染重新激活",
         "clinical_stage": "不限定",
-        "severity": "活动性",
-        "population": "接受PD-1/PD-L1抑制剂治疗患者",
+        "severity": "不限定",
+        "population": "未出现irAEs的患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "潜伏结核感染重新激活",
-          "潜伏结核的再活动十分迅速，在PD-1/PD-L1阻断开始后的前3个月内即出现"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_active_tuberculosis_during_pd1_pd_l1_therapy",
-        "name": "PD-1/PD-L1抑制剂治疗期间发生的活动性肺结核",
-        "parent_disease_id": "disease_tuberculosis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "活动性",
-        "population": "接受PD-1/PD-L1抑制剂治疗患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "出现活动性肺结核的治疗",
-          "在出现活动性结核感染时，建议在抗结核治疗的同时暂时停用PD-1/PD-L1抑制剂"
+          "未出现irAEs的情况下发生潜伏/慢性感染重新激活"
         ],
         "confidence": 0.9
       },
       {
         "id": "sub_disease_pcp",
         "name": "肺孢子菌肺炎",
-        "parent_disease_id": "disease_pneumocystis_pneumonia",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "接受irAEs免疫抑制治疗患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "两例肺孢子菌肺炎(pneumocystis pneumonia, PCP)感染"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_cppa_acute_exacerbation",
-        "name": "慢性进展性肺曲霉菌病急性加重",
-        "parent_disease_id": "disease_chronic_progressive_pulmonary_aspergillosis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "急性加重",
-        "population": "接受PD-1/PD-L1抑制剂治疗患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "原有慢性进展性肺曲霉菌病(CPPA)急性加重的病例"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_vzv_reactivation",
-        "name": "水痘-带状疱疹病毒再激活",
-        "parent_disease_id": "disease_varicella_zoster_virus_infection",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "活动性",
-        "population": "接受PD-1/PD-L1抑制剂治疗患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "出现水痘-带状疱疹病毒感染",
-          "提示PD-1/PD-L1抑制剂存在导致原有潜伏感染重新激活的潜在风险"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_hbv_reactivation",
-        "name": "乙型肝炎病毒再激活",
-        "parent_disease_id": "disease_hepatitis_b_virus_infection",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "活动性",
-        "population": "HBV携带者接受PD-1/PD-L1抑制剂及生物制剂治疗者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "可能导致HBV/HCV感染重新激活"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_hcv_reactivation",
-        "name": "丙型肝炎病毒再激活",
-        "parent_disease_id": "disease_hepatitis_c_virus_infection",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "活动性",
-        "population": "HCV携带者接受PD-1/PD-L1抑制剂及生物制剂治疗者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "可能导致HBV/HCV感染重新激活"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_hiv_infection_complication",
-        "name": "HIV感染相关并发症",
-        "parent_disease_id": "disease_hiv_infection",
-        "disease_subtype": null,
+        "parent_disease_id": "disease_ici_infection",
+        "disease_subtype": "真菌感染",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "HIV感染合并肿瘤患者",
+        "population": "接受PD-1/PD-L1抑制剂治疗的患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "合并HIV感染的肿瘤病人使用PD-1/PD-L1抑制剂并不会显著增加风险"
+          "其中包括两例肺孢子菌肺炎(pneumocystis spneumonia, PCP)感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_ltbi_reactivation",
+        "name": "潜伏结核感染重新激活",
+        "parent_disease_id": "disease_ici_infection",
+        "disease_subtype": "结核感染",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "接受纳武利尤单抗或帕博利珠单抗治疗的患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "使用纳武利尤单抗或帕博利珠单抗治疗的患者出现潜伏结核感染重新激活"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cppa_exacerbation",
+        "name": "慢性进展性肺曲霉菌病急性加重",
+        "parent_disease_id": "disease_ici_infection",
+        "disease_subtype": "真菌感染",
+        "clinical_stage": "不限定",
+        "severity": "急性加重",
+        "population": "接受纳武利尤单抗治疗的患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "原有慢性进展性肺曲霉菌病(CPPA)急性加重"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_vzv_infection",
+        "name": "水痘-带状疱疹病毒感染",
+        "parent_disease_id": "disease_ici_infection",
+        "disease_subtype": "病毒感染",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "接受纳武利尤单抗治疗的患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "治疗中出现水痘-带状疱疹病毒感染"
         ],
         "confidence": 0.9
       }
     ],
     "symptoms": [
       {
-        "id": "symptom_fever",
-        "name": "发热",
+        "id": "symptom_infection_signs",
+        "name": "感染征象",
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "出现感染征象的患者"
+          "对于出现感染征象的患者"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_cough",
-        "name": "咳嗽",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "肺炎是irAEs患者最易出现的感染类型"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_dyspnea",
-        "name": "呼吸困难",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "肺炎是irAEs患者最易出现的感染类型"
-        ],
-        "confidence": 0.9
+        "confidence": 0.85
       }
     ],
     "tests": [
       {
-        "id": "test_tuberculin_skin_test",
+        "id": "test_tst",
         "name": "结核菌素试验",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "完善结核菌素试验.T-SPOT试验、γ干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（CT）检查"
+          "完善结核菌素试验"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_t_spot_tb",
-        "name": "T-SPOT.TB试验",
+        "id": "test_tspot",
+        "name": "T-SPOT试验",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "完善结核菌素试验.T-SPOT试验、γ干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（CT）检查"
+          "T-SPOT试验"
         ],
         "confidence": 0.9
       },
       {
         "id": "test_igra",
-        "name": "γ干扰素释放试验",
+        "name": "γ干扰素释放试验（IGRA）",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "完善结核菌素试验.T-SPOT试验、γ干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（CT）检查"
+          "γ干扰素释放试验（IGRA）"
         ],
         "confidence": 0.9
       },
       {
         "id": "test_chest_xray",
-        "name": "胸部X线检查",
+        "name": "胸部X线",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "完善结核菌素试验.T-SPOT试验、γ干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（CT）检查"
+          "胸部X线"
         ],
         "confidence": 0.9
       },
       {
         "id": "test_chest_ct",
-        "name": "胸部CT检查",
+        "name": "胸部CT",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "完善结核菌素试验.T-SPOT试验、γ干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（CT）检查"
+          "计算机断层扫描（computed tomography, CT）检查"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_sputum_smear_and_culture",
-        "name": "痰涂片及培养检查",
+        "id": "test_sputum_smear_culture",
+        "name": "痰涂片及培养",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "完善痰涂片及培养检查，必要时，可行支气管镜下灌洗或组织活检以明确诊断"
+          "完善痰涂片及培养检查"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_bronchoalveolar_lavage",
-        "name": "支气管肺泡灌洗",
+        "id": "test_bronchoscopy_biopsy",
+        "name": "支气管镜下灌洗或组织活检",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "完善痰涂片及培养检查，必要时，可行支气管镜下灌洗或组织活检以明确诊断"
+          "支气管镜下灌洗或组织活检"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_liver_function_test",
-        "name": "肝功能检查",
+        "id": "test_hbv_hcv_screening",
+        "name": "HBV/HCV感染筛查",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "抗结核治疗期间，需密切监测肝功能"
+          "建议在治疗前进行HBV/HCV感染的筛查"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_hiv_screening",
+        "name": "HIV感染筛查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "建议在治疗前进行HIV感染的筛查"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_liver_function",
+        "name": "肝功能",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "需密切监测肝功能"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_blood_glucose",
+        "name": "血糖",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "治疗时注意血糖控制"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_opportunistic_infection_management",
-        "content": "对于已出现严重感染或机会性感染的患者在开启PD-1/PD-L1抑制剂治疗前应审慎考虑；出现感染征象立即开始经验性抗感染治疗。",
-        "recommendation_strength": "strong",
-        "source_section": "4.1 治疗前监测；5.1.1 抗感染治疗",
+        "id": "treatment_empirical_antimicrobial",
+        "content": "经验性抗感染治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "治疗",
         "evidence_ids": [
-          "对于已出现严重感染或机会性感染的患者在开启PD-1/PD-L1抑制剂治疗前应审慎考虑",
-          "对于出现感染征象的患者，建议立即开始经验性抗感染治疗"
+          "建议立即开始经验性抗感染治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_latent_tb_reactivation_management",
-        "content": "潜伏结核重新激活的病人，建议进行抗结核治疗；抗结核治疗期间需密切监测肝功能。",
-        "recommendation_strength": "strong",
-        "source_section": "5.2.2 抗感染治疗",
+        "id": "treatment_pcp_prophylaxis",
+        "content": "预防肺孢子菌感染",
+        "recommendation_strength": "推荐",
+        "source_section": "预防性治疗",
         "evidence_ids": [
-          "潜伏结核重新激活的病人，建议进行抗结核治疗。考虑到PD-1/PD-L1抑制剂重新激活潜伏感染的报道较少，相关临床经验不足，抗结核药物的使用及疗程目前尚无定论",
-          "抗结核治疗期间，需密切监测肝功能"
+          "建议用复方磺胺甲恶唑、阿托伐醌或喷他脒等预防肺孢子菌感染"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_pcp_management",
-        "content": "PCP感染推荐使用复方磺胺甲恶唑，磺胺过敏的患者则可使用喷他脒等进行治疗。",
-        "recommendation_strength": "strong",
-        "source_section": "5.1.1 抗感染治疗",
+        "id": "treatment_fungal_prophylaxis",
+        "content": "预防性抗真菌治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "预防性治疗",
         "evidence_ids": [
-          "PCP感染推荐使用复方磺胺甲恶唑，磺胺过敏的患者则可使用喷他脒等进行治疗"
+          "建议进行预防性抗真菌治疗（如氟康唑）"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_cppa_acute_exacerbation_management",
-        "content": "慢性进展性肺曲霉菌病急性加重需抗真菌治疗。",
-        "recommendation_strength": "unknown",
-        "source_section": "5.2.2 抗感染治疗",
-        "evidence_ids": [
-          "原有慢性进展性肺曲霉菌病(CPPA)急性加重的病例"
-        ],
-        "confidence": 0.8
-      },
-      {
-        "id": "treatment_vzv_reactivation_management",
-        "content": "建议预防带状疱疹重新激活。",
-        "recommendation_strength": "weak",
-        "source_section": "5.1.3 预防性治疗",
+        "id": "treatment_vzv_prophylaxis",
+        "content": "预防带状疱疹重新激活",
+        "recommendation_strength": "推荐",
+        "source_section": "预防性治疗",
         "evidence_ids": [
           "建议预防带状疱疹重新激活"
         ],
-        "confidence": 0.85
+        "confidence": 0.9
       },
       {
-        "id": "treatment_hbv_hcv_monitoring",
-        "content": "对于发生irAEs并使用抗TNF-a治疗（如英夫利昔单抗）的HBV/HCV携带者，在治疗期间及治疗后数月内均需要密切监测HBV/HCV病毒水平。",
-        "recommendation_strength": "strong",
-        "source_section": "4.2 治疗中及治疗后监测",
+        "id": "treatment_antituberculosis",
+        "content": "抗结核治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "治疗",
         "evidence_ids": [
-          "对于发生irAEs并使用抗TNF-a治疗（如英夫利昔单抗）的HBV/HCV携带者，在治疗期间及治疗后数月内均需要密切监测HBV/HCV病毒水平"
+          "建议进行抗结核治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_glycemic_control",
+        "content": "血糖控制",
+        "recommendation_strength": "推荐",
+        "source_section": "一般支持治疗",
+        "evidence_ids": [
+          "治疗时注意血糖控制"
         ],
         "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_co_trimoxazole_for_pcp",
-        "content": "PCP感染推荐使用复方磺胺甲恶唑",
+        "id": "plan_pcp_prophylaxis",
+        "content": "使用复方磺胺甲恶唑、阿托伐醌或喷他脒等预防肺孢子菌感染",
         "plan_level": 1,
-        "applicable_condition": "确诊PCP感染",
-        "contraindication_note": "磺胺过敏患者禁用",
-        "evidence_ids": [
-          "PCP感染推荐使用复方磺胺甲恶唑"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_pentamidine_for_pcp",
-        "content": "磺胺过敏的患者则可使用喷他脒等进行治疗",
-        "plan_level": 2,
-        "applicable_condition": "PCP感染且磺胺过敏",
+        "applicable_condition": "使用强的松≥20 mg/d或等效的其他糖皮质激素至少4周的患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "磺胺过敏的患者则可使用喷他脒等进行治疗"
+          "使用强的松≥20 mg/d或等效的其他糖皮质激素至少4周的患者，建议用复方磺胺甲恶唑、阿托伐醌或喷他脒等预防肺孢子菌感染"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_standard_four_drug_regimen_for_tb",
-        "content": "现有大部分病例在强化期治疗使用标准四联抗结核方案",
+        "id": "plan_fungal_prophylaxis",
+        "content": "使用氟康唑等预防真菌",
         "plan_level": 1,
-        "applicable_condition": "活动性结核感染",
-        "contraindication_note": "需监测肝功能",
+        "applicable_condition": "使用强的松≥20 mg/d或等效的其他糖皮质激素至少6周的患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "使用强的松≥20 mg/d或等效的其他糖皮质激素至少6周的患者，建议进行预防性抗真菌治疗（如氟康唑）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_pcp_treatment",
+        "content": "PCP感染推荐使用复方磺胺甲恶唑，磺胺过敏的患者则可使用喷他脒等进行治疗",
+        "plan_level": 1,
+        "applicable_condition": "明确PCP感染",
+        "contraindication_note": "磺胺过敏者使用喷他脒",
+        "evidence_ids": [
+          "PCP感染推荐使用复方磺胺甲恶唑，磺胺过敏的患者则可使用喷他脒等进行治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_antituberculosis",
+        "content": "强化期治疗使用标准四联抗结核方案",
+        "plan_level": 1,
+        "applicable_condition": "潜伏结核重新激活",
+        "contraindication_note": "需密切监测肝功能，以及时发现肝损害情况",
         "evidence_ids": [
           "现有大部分病例在强化期治疗使用标准四联抗结核方案"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_fluconazole_prophylaxis",
-        "content": "使用强的松≥20 mg/d或等效的其他糖皮质激素至少6周的患者，建议进行预防性抗真菌治疗（如氟康唑）",
-        "plan_level": 3,
-        "applicable_condition": "长期大剂量糖皮质激素治疗患者",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "使用强的松220 mg/d或等效的其他糖皮质激素至少6周的患者，建议进行预防性抗真菌治疗（如氟康哩）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_sulfamethoxazole_trimethoprim_prophylaxis",
-        "content": "使用强的松≥20 mg/d或等效的其他糖皮质激素至少4周的患者，建议用复方磺胺甲恶唑、阿托伐醌或喷他脒等预防肺孢子菌感染",
-        "plan_level": 3,
-        "applicable_condition": "中长期大剂量糖皮质激素治疗患者",
-        "contraindication_note": "磺胺过敏者改用阿托伐醌或喷他脒",
-        "evidence_ids": [
-          "使用强的松220 mg/d或等效的其他糖皮质激素至少4周的患者，建议用复方磺胺甲恶哩、阿托伐醍或喷他胖等预防肺抱子菌感染"
         ],
         "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_irae_immunosuppressive_therapy",
-        "content": "免疫治疗相关不良事件（irAEs）使用糖皮质激素和/或免疫抑制剂",
+        "id": "etiology_corticosteroids",
+        "content": "接受糖皮质激素和/或TNF-α拮抗剂",
         "etiology_type": "医源性因素",
-        "typicality": "common",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "irAEs required corticosteroids and/or immunosuppressants, leading to temporary immunosuppression"
+          "感染发生的主要危险因素是先前或同时接受糖皮质激素和/或TNF-α拮抗剂"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "etiology_diabetes_mellitus",
+        "id": "etiology_diabetes",
         "content": "糖尿病",
         "etiology_type": "基础疾病",
-        "typicality": "common",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
           "糖尿病是感染发生的独立危险因素"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_pd1_pd_l1_inhibitors",
-        "content": "PD-1/PD-L1抑制剂治疗",
-        "etiology_type": "治疗相关因素",
-        "typicality": "causal",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "PD-1/PD-L1抑制剂存在重新激活潜伏/慢性感染的潜在风险"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_irae_induced_immunosuppression",
-        "content": "irAEs使用糖皮质激素等药物而产生暂时性免疫抑制所致机会性感染",
+        "id": "pathogenesis_immunosuppression",
+        "content": "因免疫治疗相关不良事件使用糖皮质激素等药物而产生暂时性免疫抑制",
         "evidence_ids": [
-          "因免疫治疗相关不良事件(immune-related adverse events, irAEs )使用糖皮质激素等药物而产生暂时性免疫抑制所致机会性感染的病例报道"
+          "因免疫治疗相关不良事件使用糖皮质激素等药物而产生暂时性免疫抑制所致机会性感染"
         ],
         "confidence": 0.9
       },
       {
-        "id": "pathogenesis_iris_like_reactivation",
-        "content": "类似于艾滋病患者在开始接受抗逆转录病毒治疗时可能观察到的免疫重建炎症综合征(IRIS)",
+        "id": "pathogenesis_iris",
+        "content": "类似于免疫重建炎症综合征(IRIS)，通过激活结核分枝杆菌特异性T细胞",
         "evidence_ids": [
-          "类似于艾滋病患者在开始接受抗逆转录病毒治疗时可能观察到的免疫重建炎症综合征(immune reconstitution inflammatory syndrome, IRIS)"
+          "潜在机制可能为通过激活结核分枝杆菌特异性T细胞，类似于艾滋病患者在开始接受抗逆转录病毒治疗时可能观察到的免疫重建炎症综合征(IRIS)"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       }
     ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_infection",
-        "to": "sub_disease_opportunistic_infection_related_to_irae",
-        "relation_id": "rel_infection_has_opportunistic_infection_related_to_irae",
+        "from": "disease_ici_infection",
+        "to": "sub_disease_opportunistic_infection",
+        "relation_id": "rel_ici_has_opportunistic",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "Opportunistic infections related to irAEs"
+          "因免疫治疗相关不良事件使用糖皮质激素等药物而产生暂时性免疫抑制所致机会性感染"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_tuberculosis",
-        "to": "sub_disease_reactivation_of_latent_tuberculosis",
-        "relation_id": "rel_tb_has_reactivation_of_latent_tb",
+        "from": "disease_ici_infection",
+        "to": "sub_disease_latent_infection_reactivation",
+        "relation_id": "rel_ici_has_latent_reactivation",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "潜伏结核感染重新激活"
+          "未出现irAEs的情况下发生潜伏/慢性感染重新激活"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_tuberculosis",
-        "to": "sub_disease_active_tuberculosis_during_pd1_pd_l1_therapy",
-        "relation_id": "rel_tb_has_active_tb_during_pd1_pd_l1_therapy",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "出现活动性肺结核的治疗"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_pneumocystis_pneumonia",
+        "from": "disease_ici_infection",
         "to": "sub_disease_pcp",
-        "relation_id": "rel_pcp_has_pcp",
+        "relation_id": "rel_ici_has_pcp",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "两例肺孢子菌肺炎(pneumocystis pneumonia, PCP)感染"
+          "其中包括两例肺孢子菌肺炎(pneumocystis spneumonia, PCP)感染"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_chronic_progressive_pulmonary_aspergillosis",
-        "to": "sub_disease_cppa_acute_exacerbation",
-        "relation_id": "rel_cppa_has_acute_exacerbation",
+        "from": "disease_ici_infection",
+        "to": "sub_disease_ltbi_reactivation",
+        "relation_id": "rel_ici_has_ltbi",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "原有慢性进展性肺曲霉菌病(CPPA)急性加重的病例"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_varicella_zoster_virus_infection",
-        "to": "sub_disease_vzv_reactivation",
-        "relation_id": "rel_vzv_has_reactivation",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "出现水痘-带状疱疹病毒感染"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_hepatitis_b_virus_infection",
-        "to": "sub_disease_hbv_reactivation",
-        "relation_id": "rel_hbv_has_reactivation",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "可能导致HBV/HCV感染重新激活"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_hepatitis_c_virus_infection",
-        "to": "sub_disease_hcv_reactivation",
-        "relation_id": "rel_hcv_has_reactivation",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "可能导致HBV/HCV感染重新激活"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_hiv_infection",
-        "to": "sub_disease_hiv_infection_complication",
-        "relation_id": "rel_hiv_has_complication",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "合并HIV感染的肿瘤病人使用PD-1/PD-L1抑制剂并不会显著增加风险"
+          "使用纳武利尤单抗或帕博利珠单抗治疗的患者出现潜伏结核感染重新激活"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_opportunistic_infection_related_to_irae",
-        "to": "symptom_fever",
-        "relation_id": "rel_opportunistic_infection_manifests_as_fever",
+        "from": "sub_disease_opportunistic_infection",
+        "to": "symptom_infection_signs",
+        "relation_id": "rel_opp_manifests_infection_signs",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
+        "weight": 5,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "治疗",
         "evidence_ids": [
-          "出现感染征象的患者"
+          "对于出现感染征象的患者"
         ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_opportunistic_infection_related_to_irae",
-        "to": "symptom_cough",
-        "relation_id": "rel_opportunistic_infection_manifests_as_cough",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "肺炎是irAEs患者最易出现的感染类型"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_opportunistic_infection_related_to_irae",
-        "to": "symptom_dyspnea",
-        "relation_id": "rel_opportunistic_infection_manifests_as_dyspnea",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "肺炎是irAEs患者最易出现的感染类型"
-        ],
-        "confidence": 0.9
+        "confidence": 0.85
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_reactivation_of_latent_tuberculosis",
-        "to": "test_tuberculin_skin_test",
-        "relation_id": "rel_latent_tb_requires_tst",
+        "from": "sub_disease_ltbi_reactivation",
+        "to": "test_tst",
+        "relation_id": "rel_ltbi_requires_tst",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "阳性",
+        "result_text": null,
         "weight": 8,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "治疗前监测",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "完善结核菌素试验.T-SPOT试验、γ干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（CT）检查"
+          "完善结核菌素试验"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确列为潜伏结核筛查的常规检测之一，与T-SPOT、IGRA、胸部CT并列，属推荐性一线筛查手段",
-        "evidence": "4.1.2结核感染对潜在需要PD-1/PD-L1抑制剂治疗的患者完善结核菌素试验.T-SPOT试验、丫干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（computedtomography,CT）检查。"
+        "weight_reason": "原文建议对潜在需要治疗的患者完善该检查以筛查结核感染，为明确临床推荐但非金标准",
+        "evidence": "完善结核菌素试验.T-SPOT试验、丫干扰素释放试验（IGRA）及胸部X线或计算机断层扫描"
       },
       {
-        "from": "sub_disease_reactivation_of_latent_tuberculosis",
-        "to": "test_t_spot_tb",
-        "relation_id": "rel_latent_tb_requires_t_spot",
+        "from": "sub_disease_ltbi_reactivation",
+        "to": "test_tspot",
+        "relation_id": "rel_ltbi_requires_tspot",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "阳性",
+        "result_text": null,
         "weight": 8,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "治疗前监测",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "完善结核菌素试验.T-SPOT试验、γ干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（CT）检查"
+          "T-SPOT试验"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确列为潜伏结核筛查的常规检测之一，与结核菌素试验、IGRA、胸部CT并列，属推荐性一线筛查手段",
-        "evidence": "4.1.2结核感染对潜在需要PD-1/PD-L1抑制剂治疗的患者完善结核菌素试验.T-SPOT试验、丫干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（computedtomography,CT）检查。"
+        "weight_reason": "原文建议对潜在需要治疗的患者完善该检查以筛查结核感染，为明确临床推荐但非金标准",
+        "evidence": "完善结核菌素试验.T-SPOT试验、丫干扰素释放试验（IGRA）及胸部X线或计算机断层扫描"
       },
       {
-        "from": "sub_disease_reactivation_of_latent_tuberculosis",
+        "from": "sub_disease_ltbi_reactivation",
         "to": "test_igra",
-        "relation_id": "rel_latent_tb_requires_igra",
+        "relation_id": "rel_ltbi_requires_igra",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "阳性",
+        "result_text": null,
         "weight": 8,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "治疗前监测",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "完善结核菌素试验.T-SPOT试验、γ干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（CT）检查"
+          "γ干扰素释放试验（IGRA）"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确列为潜伏结核筛查的常规检测之一，与结核菌素试验、T-SPOT、胸部CT并列，属推荐性一线筛查手段",
-        "evidence": "4.1.2结核感染对潜在需要PD-1/PD-L1抑制剂治疗的患者完善结核菌素试验.T-SPOT试验、丫干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（computedtomography,CT）检查。"
+        "weight_reason": "原文建议对潜在需要治疗的患者完善该检查以筛查结核感染，为明确临床推荐但非金标准",
+        "evidence": "完善结核菌素试验.T-SPOT试验、丫干扰素释放试验（IGRA）及胸部X线或计算机断层扫描"
       },
       {
-        "from": "sub_disease_reactivation_of_latent_tuberculosis",
+        "from": "sub_disease_ltbi_reactivation",
         "to": "test_chest_ct",
-        "relation_id": "rel_latent_tb_requires_ct",
+        "relation_id": "rel_ltbi_requires_ct",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
-        "operator": "contains",
+        "operator": null,
         "unit": null,
-        "result_text": "影像见疑似病变",
+        "result_text": null,
         "weight": 8,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "present",
+        "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "治疗前监测",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "完善结核菌素试验.T-SPOT试验、γ干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（CT）检查"
+          "计算机断层扫描（computed tomography, CT）检查"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确列为潜伏结核筛查的常规检测之一，与结核菌素试验、T-SPOT、IGRA并列，属推荐性一线筛查手段；且特别指出‘对于存在可疑症状，影像见疑似病变……’需进一步检查，凸显其结构性证据价值",
-        "evidence": "4.1.2结核感染对潜在需要PD-1/PD-L1抑制剂治疗的患者完善结核菌素试验.T-SPOT试验、丫干扰素释放试验（IGRA）及胸部X线或计算机断层扫描（computedtomography,CT）检查。"
+        "weight_reason": "原文建议对潜在需要治疗的患者完善该检查以筛查结核感染，为明确临床推荐但非金标准",
+        "evidence": "完善结核菌素试验.T-SPOT试验、丫干扰素释放试验（IGRA）及胸部X线或计算机断层扫描"
+      },
+      {
+        "from": "sub_disease_opportunistic_infection",
+        "to": "test_hbv_hcv_screening",
+        "relation_id": "rel_opp_requires_hbv_hcv",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "治疗前监测",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "建议在治疗前进行HBV/HCV感染的筛查"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_opportunistic_infection",
+        "to": "test_hiv_screening",
+        "relation_id": "rel_opp_requires_hiv",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "治疗前监测",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "建议在治疗前进行HIV感染的筛查"
+        ],
+        "confidence": 0.9
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_opportunistic_infection_related_to_irae",
-        "to": "treatment_opportunistic_infection_management",
-        "relation_id": "rel_opportunistic_infection_follows_management",
+        "from": "sub_disease_pcp",
+        "to": "treatment_empirical_antimicrobial",
+        "relation_id": "rel_pcp_follows_empirical",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
@@ -887,13 +665,13 @@
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "5.1.1 抗感染治疗",
+        "source_section": "治疗",
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_reactivation_of_latent_tuberculosis",
-        "to": "treatment_latent_tb_reactivation_management",
-        "relation_id": "rel_latent_tb_reactivation_follows_management",
+        "from": "sub_disease_ltbi_reactivation",
+        "to": "treatment_antituberculosis",
+        "relation_id": "rel_ltbi_follows_antituberculosis",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
@@ -902,57 +680,123 @@
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "潜伏结核重新激活"
+          "疾病分型"
         ],
-        "contraindication_note": "需监测肝功能",
+        "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "5.2.2 抗感染治疗",
+        "source_section": "治疗",
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_pcp",
-        "to": "treatment_pcp_management",
-        "relation_id": "rel_pcp_follows_management",
+        "from": "sub_disease_opportunistic_infection",
+        "to": "treatment_pcp_prophylaxis",
+        "relation_id": "rel_opp_follows_pcp_prophylaxis",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "确诊PCP",
+        "treatment_line": "预防",
+        "applicable_condition": "使用强的松≥20 mg/d或等效的其他糖皮质激素至少4周",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "PCP感染"
+          "糖皮质激素剂量及疗程"
         ],
-        "contraindication_note": "磺胺过敏者禁用",
+        "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "5.1.1 抗感染治疗",
+        "source_section": "预防性治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_opportunistic_infection",
+        "to": "treatment_fungal_prophylaxis",
+        "relation_id": "rel_opp_follows_fungal_prophylaxis",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "预防",
+        "applicable_condition": "使用强的松≥20 mg/d或等效的其他糖皮质激素至少6周",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "糖皮质激素剂量及疗程"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "预防性治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_opportunistic_infection",
+        "to": "treatment_glycemic_control",
+        "relation_id": "rel_opp_follows_glycemic",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "支持治疗",
+        "applicable_condition": "合并糖尿病",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "基础疾病"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "一般支持治疗",
         "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_opportunistic_infection_management",
-        "to": "plan_co_trimoxazole_for_pcp",
-        "relation_id": "rel_treatment_implements_by_co_trimoxazole",
+        "from": "treatment_pcp_prophylaxis",
+        "to": "plan_pcp_prophylaxis",
+        "relation_id": "rel_pcp_prophylaxis_implements_plan",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "确诊PCP感染",
-        "contraindication_note": "磺胺过敏患者禁用",
+        "applicable_condition": "使用强的松≥20 mg/d或等效的其他糖皮质激素至少4周",
+        "contraindication_note": null,
         "evidence_ids": [
-          "PCP感染推荐使用复方磺胺甲恶唑"
+          "建议用复方磺胺甲恶唑、阿托伐醌或喷他脒等预防肺孢子菌感染"
         ],
         "confidence": 0.9
       },
       {
-        "from": "treatment_latent_tb_reactivation_management",
-        "to": "plan_standard_four_drug_regimen_for_tb",
-        "relation_id": "rel_treatment_implements_by_four_drug_tb",
+        "from": "treatment_fungal_prophylaxis",
+        "to": "plan_fungal_prophylaxis",
+        "relation_id": "rel_fungal_prophylaxis_implements_plan",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "活动性结核感染",
-        "contraindication_note": "需监测肝功能",
+        "applicable_condition": "使用强的松≥20 mg/d或等效的其他糖皮质激素至少6周",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "建议进行预防性抗真菌治疗（如氟康唑）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_empirical_antimicrobial",
+        "to": "plan_pcp_treatment",
+        "relation_id": "rel_empirical_implements_pcp_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "明确PCP感染",
+        "contraindication_note": "磺胺过敏者使用喷他脒",
+        "evidence_ids": [
+          "PCP感染推荐使用复方磺胺甲恶唑，磺胺过敏的患者则可使用喷他脒等进行治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antituberculosis",
+        "to": "plan_antituberculosis",
+        "relation_id": "rel_antituberculosis_implements_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "潜伏结核重新激活",
+        "contraindication_note": "需密切监测肝功能",
         "evidence_ids": [
           "现有大部分病例在强化期治疗使用标准四联抗结核方案"
         ],
@@ -961,9 +805,9 @@
     ],
     "causes": [
       {
-        "from": "sub_disease_opportunistic_infection_related_to_irae",
-        "to": "etiology_irae_immunosuppressive_therapy",
-        "relation_id": "rel_opportunistic_infection_caused_by_irae_therapy",
+        "from": "sub_disease_opportunistic_infection",
+        "to": "etiology_corticosteroids",
+        "relation_id": "rel_opp_caused_by_corticosteroids",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -971,48 +815,48 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "irAEs required corticosteroids and/or immunosuppressants, leading to temporary immunosuppression"
+          "感染发生的主要危险因素是先前或同时接受糖皮质激素和/或TNF-α拮抗剂"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_opportunistic_infection_related_to_irae",
-        "to": "etiology_diabetes_mellitus",
-        "relation_id": "rel_opportunistic_infection_caused_by_dm",
+        "from": "sub_disease_opportunistic_infection",
+        "to": "etiology_diabetes",
+        "relation_id": "rel_opp_caused_by_diabetes",
         "relation_name": "相关",
         "relation_type": "causes",
-        "causal_strength": "moderate",
+        "causal_strength": "strong",
         "typicality": "common",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
           "糖尿病是感染发生的独立危险因素"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_opportunistic_infection_related_to_irae",
-        "to": "pathogenesis_irae_induced_immunosuppression",
-        "relation_id": "rel_opportunistic_infection_explained_by_irae_immunosuppression",
+        "from": "sub_disease_opportunistic_infection",
+        "to": "pathogenesis_immunosuppression",
+        "relation_id": "rel_opp_explained_by_immunosuppression",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "因免疫治疗相关不良事件(immune-related adverse events, irAEs )使用糖皮质激素等药物而产生暂时性免疫抑制所致机会性感染的病例报道"
+          "因免疫治疗相关不良事件使用糖皮质激素等药物而产生暂时性免疫抑制所致机会性感染"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_reactivation_of_latent_tuberculosis",
-        "to": "pathogenesis_iris_like_reactivation",
-        "relation_id": "rel_latent_tb_reactivation_explained_by_iris",
+        "from": "sub_disease_ltbi_reactivation",
+        "to": "pathogenesis_iris",
+        "relation_id": "rel_ltbi_explained_by_iris",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "类似于艾滋病患者在开始接受抗逆转录病毒治疗时可能观察到的免疫重建炎症综合征(immune reconstitution inflammatory syndrome, IRIS)"
+          "潜在机制可能为通过激活结核分枝杆菌特异性T细胞，类似于艾滋病患者在开始接受抗逆转录病毒治疗时可能观察到的免疫重建炎症综合征(IRIS)"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       }
     ]
   },

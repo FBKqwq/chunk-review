@@ -11,117 +11,103 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_respiratory_infection",
-        "name": "呼吸道感染",
-        "normalized_name": "呼吸道感染",
+        "id": "disease_influenza",
+        "name": "流行性感冒",
+        "normalized_name": "流行性感冒",
         "aliases": [
-          "呼吸系统感染"
+          "甲流",
+          "流感"
         ],
         "source_document_ids": [
           "多重病原体流行期间呼吸道感染临床诊治专家共识"
         ],
         "evidence_ids": [
+          "2023年以来，我国先后出现甲型流行性感冒（以下简称甲流）、肺炎支原体感染、呼吸道合胞病毒感染等呼吸道感染病的流行"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_covid19",
+        "name": "新型冠状病毒感染",
+        "normalized_name": "新型冠状病毒感染",
+        "aliases": [
+          "新冠病毒感染",
+          "新冠肺炎"
+        ],
+        "source_document_ids": [
           "多重病原体流行期间呼吸道感染临床诊治专家共识"
+        ],
+        "evidence_ids": [
+          "哨点医院报告的新型冠状病毐（以下简称新冠病毒）以外呼吸道感染病患者数量较往年增多"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_mycoplasma",
+        "name": "肺炎支原体感染",
+        "normalized_name": "肺炎支原体感染",
+        "aliases": [
+          "支原体感染",
+          "支原体肺炎"
+        ],
+        "source_document_ids": [
+          "多重病原体流行期间呼吸道感染临床诊治专家共识"
+        ],
+        "evidence_ids": [
+          "肺炎支原体属于柔膜体纲中的支原体目、支原体科和支原体属，无细胞壁，属胞内感染病原体"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_influenza",
-        "name": "流感",
-        "parent_disease_id": "disease_respiratory_infection",
-        "disease_subtype": "病毒性呼吸道感染",
+        "id": "sub_disease_influenza_default",
+        "name": "流行性感冒",
+        "parent_disease_id": "disease_influenza",
+        "disease_subtype": "不限定",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "所有年龄段人群，尤其是儿童、老年人和免疫功能低下者",
+        "population": "全人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "年以来，先后出现了多种呼吸道病原体的流行，各年龄段人群均易感，尤其是儿童、老年人和免疫功能低下者等高危人群疾病负担重。"
+          "流感病毒是正黏液病毒科单股负链RNA病毒，根据病毒核蛋白和基质蛋白，分为甲、乙、丙和丁（或A、B、C、D）4型"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "sub_disease_covid19",
-        "name": "新冠病毒感染",
-        "parent_disease_id": "disease_respiratory_infection",
-        "disease_subtype": "病毒性呼吸道感染",
+        "id": "sub_disease_covid19_severe",
+        "name": "重型/危重型新型冠状病毒感染",
+        "parent_disease_id": "disease_covid19",
+        "disease_subtype": "重症肺炎/脓毒症休克/多脏器功能衰竭",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "所有年龄段人群，尤其是儿童、老年人和免疫功能低下者",
+        "severity": "重型/危重型",
+        "population": "高龄、免疫功能低下人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "年以来，先后出现了多种呼吸道病原体的流行，各年龄段人群均易感，尤其是儿童、老年人和免疫功能低下者等高危人群疾病负担重。"
+          "高龄、免疫功能低下人群存在呼吸困难等重症表现",
+          "针对病情危重，进展到重症肺炎、脓毒症休克、多脏器功能衰竭的患者"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "sub_disease_rsv_infection",
-        "name": "呼吸道合胞病毒感染",
-        "parent_disease_id": "disease_respiratory_infection",
-        "disease_subtype": "病毒性呼吸道感染",
+        "id": "sub_disease_mycoplasma_refractory",
+        "name": "难治性肺炎支原体肺炎",
+        "parent_disease_id": "disease_mycoplasma",
+        "disease_subtype": "难治性",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "儿童",
+        "severity": "重症/难治",
+        "population": "大环内酯类耐药或疗效不佳者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "呼吸道合胞病毒感染 好发于儿童，最常见症状包括鼻塞、流涕、咳嗽及咽痛等"
+          "使用大环内酯类3 d及以上，仍然持续发热，或治疗过程中有肺炎加重等疗效不佳的表现时，考虑为难治性肺炎支原体肺炎"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "sub_disease_mycoplasma_pneumonia",
-        "name": "肺炎支原体感染",
-        "parent_disease_id": "disease_respiratory_infection",
-        "disease_subtype": "非典型病原体呼吸道感染",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "儿童、成人",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "从人群分布看，幼儿最常见的病原体是流感病毒和腺病毒，其次是鼻病毒、人偏肺病毒和呼吸道合胞病毒；儿童常见的是流感病毒，其次是腺病毒、肺炎支原体和鼻病毒；成人常见的是流感病毒；60岁及以上病例常见的是流感病毒和新冠病毒。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "sub_disease_severe_acute_respiratory_infection",
-        "name": "严重急性呼吸道感染（SARI）",
-        "parent_disease_id": "disease_respiratory_infection",
-        "disease_subtype": "下呼吸道感染",
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "免疫抑制治疗者、高龄、合并多种基础疾病者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "住院的严重急性呼吸道感染（SARI）病例中常见的病原体依次为流感病毒、肺炎支原体及腺病毒；...接受免疫抑制治疗、高龄、合并多种基础疾病者是发生下呼吸道感染的高危人群。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "sub_disease_complicated_bacterial_co_infection",
-        "name": "混合细菌感染",
-        "parent_disease_id": "disease_respiratory_infection",
-        "disease_subtype": "继发性细菌感染",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "所有人群",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "肺炎链球菌是常见的共感染病原体，常见的混合感染情况为甲型H3N2流感病毒合并肺炎链球菌感染。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "symptoms": [
@@ -138,110 +124,26 @@
         "confidence": 0.95
       },
       {
-        "id": "symptom_myalgia",
+        "id": "symptom_muscle_pain",
         "name": "肌肉疼痛",
-        "body_site": "肌肉",
+        "body_site": "肌肉/关节",
         "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
           "多伴肌肉疼痛，关节疼痛和头痛"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "symptom_headache",
-        "name": "头痛",
-        "body_site": "头部",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "多伴肌肉疼痛，关节疼痛和头痛"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_fatigue",
-        "name": "疲乏",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "感疲劳"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_dry_cough",
-        "name": "干咳",
+        "id": "symptom_cough",
+        "name": "咳嗽",
         "body_site": "呼吸道",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "可伴干咳或咳痰"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_sore_throat",
-        "name": "咽痛",
-        "body_site": "咽喉",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "局部可有咽痛"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_nasal_congestion",
-        "name": "鼻塞",
-        "body_site": "上呼吸道",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "伴鼻塞、流涕及打喷嚏"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_rhinorrhea",
-        "name": "流涕",
-        "body_site": "上呼吸道",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "伴鼻塞、流涕及打喷嚏"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_sneezing",
-        "name": "打喷嚏",
-        "body_site": "上呼吸道",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "伴鼻塞、流涕及打喷嚏"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_nausea_vomiting",
-        "name": "恶心呕吐",
-        "body_site": "消化道",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "恶心和呕吐少见"
+          "可伴干咳或咳痰，局部可有咽痛"
         ],
         "confidence": 0.95
       },
@@ -253,443 +155,205 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "病情进展可有呼吸困难"
+          "高龄、免疫功能低下人群存在呼吸困难等重症表现"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_chest_pain",
-        "name": "胸痛",
-        "body_site": "胸部",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "可有...胸痛等"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_hemoptysis",
-        "name": "咯血",
-        "body_site": "呼吸道",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "咯血"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_loss_of_taste_or_smell",
-        "name": "味觉或嗅觉异常或丧失",
-        "body_site": "头面部",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "部分患者出现味觉、嗅觉异常或丧失"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_diarrhea",
-        "name": "腹泻",
-        "body_site": "消化道",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "少数患者可出现腹泻"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_rash",
-        "name": "皮疹",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤黏膜症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "少数患者可出现...皮疹"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_conjunctivitis",
-        "name": "结膜炎",
-        "body_site": "眼部",
-        "symptom_category": "眼部症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "少数患者可出现...结膜炎"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_nucleic_acid_test",
+        "id": "test_nucleic_acid",
         "name": "病原体核酸检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "核酸检测具有快速，敏感度和特异度高的优点，临床上广泛应用。"
+          "反转录聚合酶链反应（reverse transcription polymerase chain reaction，RT-PCR）是目前最常用的病毒核酸检测方法"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_antigen_test",
-        "name": "病原体抗原检测",
+        "id": "test_ct",
+        "name": "肺部CT",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "抗原检测：采用胶体金或免疫荧光法检测呼吸道标本中的病原体抗原。此法耗时短，操作简便，适合自检或门诊快速检测"
+          "持续3 d体温>39 ℃、咯血、胸痛患者，以及治疗效果不佳者，接受免疫抑制治疗、高龄及合并多种基础疾病等高危人群需完善肺部CT检查"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_serum_igm",
-        "name": "血清IgM抗体检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "抗体检测：检测血清中病原体特异性IgM和IgG抗体水平。IgM通常在感染后2周左右转阳，阳性常提示近期感染"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_serum_igg",
-        "name": "血清IgG抗体检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "动态检测IgG抗体水平，恢复期较急性期升高4倍或以上具有回顾性诊断意义。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_crp",
-        "name": "C反应蛋白",
+        "name": "C-反应蛋白(CRP)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "部分患者C-反应蛋白（CRP）和红细胞沉降率升高"
+          "部分患者C-反应蛋白（CRP）和红细胞沉降率升高，降钙素原水平一般正常"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_procalcitonin",
-        "name": "降钙素原",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "降钙素原水平一般正常。混合细菌感染时可表现为...降钙素原升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_d_dimer",
-        "name": "D-二聚体",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "重型、危重型病例可见D-二聚体及细胞因子升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_ct_imaging",
-        "name": "肺部CT检查",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "持续3 d体温>39 ℃、咯血、胸痛患者，以及治疗效果不佳者，接受免疫抑制治疗、高龄及合并多种基础疾病等高危人群需完善肺部CT检查。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_antiviral_therapy",
-        "content": "对于高热、全身症状明显、有较多合并症及老幼体弱人群建议尽早使用抗病毒药物，如奥司他韦、玛巴洛沙韦及扎那米韦等进行治疗。",
-        "recommendation_strength": "strong",
-        "source_section": "治疗",
+        "id": "treatment_antiviral",
+        "content": "对于高热、全身症状明显、有较多合并症及老幼体弱人群建议尽早使用抗病毒药物进行治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "抗感染治疗",
         "evidence_ids": [
-          "对于高热、全身症状明显、有较多合并症及老幼体弱人群建议尽早使用抗病毒药物，如奥司他韦、玛巴洛沙韦及扎那米韦等进行治疗。"
+          "流感病毒是自限性疾病，对于高热、全身症状明显、有较多合并症及老幼体弱人群建议尽早使用抗病毒药物，如奥司他韦、玛巴洛沙韦及扎那米韦等进行治疗"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_antibiotic_therapy",
-        "content": "合并细菌感染时，应根据病原学检测结果酌情加用抗菌药物治疗。",
-        "recommendation_strength": "strong",
-        "source_section": "治疗",
+        "id": "treatment_corticosteroid",
+        "content": "对于氧合指标进行性恶化、影像学进展迅速、机体炎症反应过度激活状态的重型和危重型病例，酌情使用糖皮质激素",
+        "recommendation_strength": "酌情使用",
+        "source_section": "糖皮质激素",
         "evidence_ids": [
-          "合并细菌感染时，应根据病原学检测结果酌情加用抗菌药物治疗。"
+          "对于氧合指标进行性恶化、影像学进展迅速、机体炎症反应过度激活状态的重型和危重型病例，酌情使用糖皮质激素"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "treatment_corticosteroid_therapy",
-        "content": "对于氧合指标进行性恶化、影像学进展迅速、机体炎症反应过度激活状态的重型和危重型病例，酌情使用糖皮质激素。",
-        "recommendation_strength": "moderate",
-        "source_section": "治疗",
+        "id": "treatment_antibacterial",
+        "content": "对于大环内脂类耐药的或者为难治性的患者，可选用四环素类药物或喹诺酮类药物",
+        "recommendation_strength": "推荐",
+        "source_section": "抗感染治疗",
         "evidence_ids": [
-          "对于氧合指标进行性恶化、影像学进展迅速、机体炎症反应过度激活状态的重型和危重型病例，酌情使用糖皮质激素。"
+          "对于大环内脂类耐药的或者为难治性的患者，可选用多西环素、米诺环素、替加环素及奥玛环素等四环素类药物"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "treatment_supportive_care",
-        "content": "一般治疗包括休息、合理饮食及多饮水，以及解热镇痛、止咳、祛痰等对症治疗。",
-        "recommendation_strength": "strong",
-        "source_section": "治疗",
-        "evidence_ids": [
-          "一般治疗包括休息、合理饮食及多饮水，以及解热镇痛、止咳、祛痰等对症治疗。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
         "id": "plan_oseltamivir",
-        "content": "奥司他韦是神经氨酸酶抑制剂，能阻止病毒由被感染细胞释放和入侵邻近细胞，阻止子代病毒颗粒在人体细胞的复制和释放，对甲、乙型流感均具活性，可用于婴幼儿及成人，儿童推荐剂量为3 mg/kg，2次/d；成人为75 mg/次，重症患者可以增加到150 mg/次，2次/d，一般疗程为5 d。",
+        "content": "儿童推荐剂量为3 mg/kg，2次/d；成人为75 mg/次，2次/d，重症患者可以增加到150 mg/次，2次/d，一般疗程为5 d",
         "plan_level": 1,
-        "applicable_condition": "确诊流感病毒感染",
+        "applicable_condition": "甲、乙型流感",
         "contraindication_note": null,
         "evidence_ids": [
-          "奥司他韦是神经氨酸酶抑制剂，能阻止病毒由被感染细胞释放和入侵邻近细胞，阻止子代病毒颗粒在人体细胞的复制和释放，对甲、乙型流感均具活性，可用于婴幼儿及成人，儿童推荐剂量为3 mg/kg，2次/d；成人为75 mg/次，重症患者可以增加到150 mg/次，2次/d，一般疗程为5 d。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_baloxavir_marboxil",
-        "content": "玛巴洛沙韦是RNA聚合酶抑制剂，直接抑制流感病毒RNA的合成，在我国可以用于5岁以上儿童与成人单纯性甲型和乙型流感，体质量<20 kg单次2 mg/kg，最高剂量不超过20 mg/次；体质量为20～80 kg，单次40 mg；体质量>80 kg，单次80 mg，单次为一个疗程。",
-        "plan_level": 1,
-        "applicable_condition": "确诊流感病毒感染",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "玛巴洛沙韦是RNA聚合酶抑制剂，直接抑制流感病毒RNA的合成，在我国可以用于5岁以上儿童与成人单纯性甲型和乙型流感，体质量<20 kg单次2 mg/kg，最高剂量不超过20 mg/次；体质量为20～80 kg，单次40 mg；体质量>80 kg，单次80 mg，单次为一个疗程。"
+          "奥司他韦是神经氨酸酶抑制剂...儿童推荐剂量为3 mg/kg，2次/d；成人为75 mg/次，2次/d，重症患者可以增加到150 mg/次，2次/d，一般疗程为5 d"
         ],
         "confidence": 0.95
       },
       {
         "id": "plan_azithromycin",
-        "content": "支原体感染可采用阿奇霉素等大环内酯类治疗。阿奇霉素10 mg·kg⁻¹·d⁻¹，1次/d，口服或静脉滴注。",
+        "content": "阿奇霉素10 mg·kg-1·d-1，1次/d，口服或静脉滴注",
         "plan_level": 1,
-        "applicable_condition": "确诊肺炎支原体感染",
+        "applicable_condition": "肺炎支原体感染",
         "contraindication_note": null,
         "evidence_ids": [
-          "支原体感染可采用阿奇霉素等大环内酯类治疗。阿奇霉素10 mg·kg⁻¹·d⁻¹，1次/d，口服或静脉滴注。"
+          "支原体感染可采用阿奇霉素等大环内酯类治疗。阿奇霉素10 mg·kg-1·d-1，1次/d，口服或静脉滴注"
         ],
         "confidence": 0.95
       },
       {
         "id": "plan_doxycycline",
-        "content": "对于大环内脂类耐药的或者为难治性的患者，可选用多西环素、米诺环素、替加环素及奥玛环素等四环素类药物。多西环素：2 mg/kg（不超过200 mg），2次/d，口服或静脉滴注。",
+        "content": "多西环素：2 mg/kg（不超过200 mg），2次/d，口服或静脉滴注",
         "plan_level": 2,
-        "applicable_condition": "难治性肺炎支原体肺炎或大环内酯类耐药",
-        "contraindication_note": "不适用于8岁以下儿童",
+        "applicable_condition": "大环内酯类耐药或难治性肺炎支原体肺炎，8岁及以上儿童",
+        "contraindication_note": "8岁以下儿童慎用/超说明书使用",
         "evidence_ids": [
-          "对于大环内脂类耐药的或者为难治性的患者，可选用多西环素、米诺环素、替加环素及奥玛环素等四环素类药物。多西环素：2 mg/kg（不超过200 mg），2次/d，口服或静脉滴注。"
+          "多西环素和米诺环素被批准用于8岁及以上的儿童。多西环素：2 mg/kg（不超过200 mg），2次/d，口服或静脉滴注"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_minoxycline",
-        "content": "米诺环素：首剂200 mg（不超过4 mg/kg），间隔12 h后应用维持量（最大量不超过2 mg/kg），100 mg，2次/d，口服。",
-        "plan_level": 2,
-        "applicable_condition": "难治性肺炎支原体肺炎或大环内酯类耐药",
-        "contraindication_note": "不适用于8岁以下儿童",
-        "evidence_ids": [
-          "米诺环素：首剂200 mg（不超过4 mg/kg），间隔12 h后应用维持量（最大量不超过2 mg/kg），100 mg，2次/d，口服。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "etiologies": [
       {
         "id": "etiology_influenza_virus",
-        "content": "流感病毒（甲型H1N1、H3N2、乙型Victoria系、Yamagata系等）",
+        "content": "流感病毒感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "年冬季，门急诊流感样病例（ILI）中常见的病原体为流感病毒（甲型H1N1、甲型H3N2、B Victoria系、B Yamagata系、其他亚型）"
+          "流感病毒是正黏液病毒科单股负链RNA病毒，根据病毒核蛋白和基质蛋白，分为甲、乙、丙和丁（或A、B、C、D）4型"
         ],
         "confidence": 0.95
       },
       {
         "id": "etiology_sars_cov_2",
-        "content": "新冠病毒（SARS-CoV-2）",
+        "content": "新冠病毒感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "年冬季，门急诊流感样病例（ILI）中常见的病原体为...新冠病毒"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_rsv",
-        "content": "呼吸道合胞病毒",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "年冬季，门急诊流感样病例（ILI）中常见的病原体为...呼吸道合胞病毒"
+          "新冠病毒为单股正链RNA，基因组全长约29.9×10^3 bp，是β属冠状病毒"
         ],
         "confidence": 0.95
       },
       {
         "id": "etiology_mycoplasma_pneumoniae",
-        "content": "肺炎支原体",
+        "content": "肺炎支原体感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "住院的严重急性呼吸道感染（SARI）病例中常见的病原体依次为流感病毒、肺炎支原体及腺病毒"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_streptococcus_pneumoniae",
-        "content": "肺炎链球菌",
-        "etiology_type": "感染因素",
-        "typicality": "common",
-        "diagnostic_role": "共感染病原体",
-        "evidence_ids": [
-          "肺炎链球菌是常见的共感染病原体，常见的混合感染情况为甲型H3N2流感病毒合并肺炎链球菌感染。"
+          "肺炎支原体属于柔膜体纲中的支原体目、支原体科和支原体属，无细胞壁，属胞内感染病原体"
         ],
         "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_influenza_virus_replication",
-        "content": "流感病毒是正黏液病毒科单股负链RNA病毒，通过其表面血凝素（H1~18）和神经氨酸酶（N1~11）蛋白亚型分类；基因重组引起抗原漂移和抗原转换现象，导致流行病毒株频繁变异。",
+        "id": "pathogenesis_cytokine_storm",
+        "content": "细胞因子风暴综合征（cytokine storm syndrome，CSS）是重症感染共同的病理生理机制，人工肝血液净化系统可清除炎症介质、恢复机体免疫稳态，减轻炎症反应对机体的损伤",
         "evidence_ids": [
-          "流感病毒是正黏液病毒科单股负链RNA病毒，根据病毒核蛋白和基质蛋白，分为甲、乙、丙和丁（或A、B、C、D）型。甲型流感病毒根据病毒表面的血凝素（H1~18）和神经氨酸酶（N1~11）蛋白亚型进行分类。甲型流感病毒基因重组引起抗原漂移和抗原转换现象，导致流行病毒株频繁变异。"
+          "细胞因子风暴综合征（cytokine storm syndrome，CSS）是重症感染共同的病理生理机制"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "pathogenesis_sars_cov_2_entry",
-        "content": "新冠病毒为单股正链RNA病毒，通过其刺突蛋白的受体结合域与血管紧张素转换酶2（ACE2）受体结合进入宿主细胞。",
-        "evidence_ids": [
-          "新冠病毒为单股正链RNA病毒，基因组全长约29.9×10³ bp，是β属冠状病毒，有包膜...通过其刺突蛋白的受体结合域与血管紧张素转换酶2（ACE2）受体结合进入宿主细胞。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "pathogenesis_rsv_fusion",
-        "content": "呼吸道合胞病毒是单股负链RNA病毒，其融合蛋白F无论在亚型间还是亚型内均具有较高的保守性，是目前疫苗、抗体及其他治疗性药物研发的热点蛋白。",
-        "evidence_ids": [
-          "呼吸道合胞病毒是单股负链RNA病毒，基因组全长约15.2×10³ bp，编码11个蛋白...融合蛋白F无论在亚型间还是亚型内均具有较高的保守性，是目前疫苗、抗体及其他治疗性药物研发的热点蛋白。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "pathogenesis_mycoplasma_pneumoniae_adhesion",
-        "content": "肺炎支原体无细胞壁，属胞内感染病原体，通过其特异性P1黏附蛋白附着在呼吸道上皮细胞膜表面，进而产生过氧化氢和超氧化物或是引起间接免疫应答反应对上皮细胞及肺泡纤毛造成损伤。",
-        "evidence_ids": [
-          "肺炎支原体属于柔膜体纲中的支原体目、支原体科和支原体属，无细胞壁，属胞内感染病原体，通过其特异性P1黏附蛋白附着在呼吸道上皮细胞膜表面，进而产生过氧化氢和超氧化物或是引起间接免疫应答反应对上皮细胞及肺泡纤毛造成损伤。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.85
       }
     ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_respiratory_infection",
-        "to": "sub_disease_influenza",
-        "relation_id": "rel_respiratory_infection_has_influenza",
+        "from": "disease_influenza",
+        "to": "sub_disease_influenza_default",
+        "relation_id": "rel_influenza_has_default",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "年以来，先后出现了多种呼吸道病原体的流行，各年龄段人群均易感，尤其是儿童、老年人和免疫功能低下者等高危人群疾病负担重。"
+          "目前，在人类中传播的甲型流感病毒亚型主要为甲型H3N2和H1N1流感病毒"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "disease_respiratory_infection",
-        "to": "sub_disease_covid19",
-        "relation_id": "rel_respiratory_infection_has_covid19",
+        "from": "disease_covid19",
+        "to": "sub_disease_covid19_severe",
+        "relation_id": "rel_covid19_has_severe",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "年以来，先后出现了多种呼吸道病原体的流行，各年龄段人群均易感，尤其是儿童、老年人和免疫功能低下者等高危人群疾病负担重。"
+          "高龄、免疫功能低下人群存在呼吸困难等重症表现"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "disease_respiratory_infection",
-        "to": "sub_disease_rsv_infection",
-        "relation_id": "rel_respiratory_infection_has_rsv_infection",
+        "from": "disease_mycoplasma",
+        "to": "sub_disease_mycoplasma_refractory",
+        "relation_id": "rel_mycoplasma_has_refractory",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "呼吸道合胞病毒感染 好发于儿童，最常见症状包括鼻塞、流涕、咳嗽及咽痛等"
+          "使用大环内酯类3 d及以上，仍然持续发热，或治疗过程中有肺炎加重等疗效不佳的表现时，考虑为难治性肺炎支原体肺炎"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_respiratory_infection",
-        "to": "sub_disease_mycoplasma_pneumonia",
-        "relation_id": "rel_respiratory_infection_has_mycoplasma_pneumonia",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "从人群分布看，幼儿最常见的病原体是流感病毒和腺病毒，其次是鼻病毒、人偏肺病毒和呼吸道合胞病毒；儿童常见的是流感病毒，其次是腺病毒、肺炎支原体和鼻病毒；成人常见的是流感病毒；60岁及以上病例常见的是流感病毒和新冠病毒。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_respiratory_infection",
-        "to": "sub_disease_severe_acute_respiratory_infection",
-        "relation_id": "rel_respiratory_infection_has_severe_acute_respiratory_infection",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "住院的严重急性呼吸道感染（SARI）病例中常见的病原体依次为流感病毒、肺炎支原体及腺病毒；...接受免疫抑制治疗、高龄、合并多种基础疾病者是发生下呼吸道感染的高危人群。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_respiratory_infection",
-        "to": "sub_disease_complicated_bacterial_co_infection",
-        "relation_id": "rel_respiratory_infection_has_complicated_bacterial_co_infection",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "肺炎链球菌是常见的共感染病原体，常见的混合感染情况为甲型H3N2流感病毒合并肺炎链球菌感染。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_influenza",
+        "from": "sub_disease_influenza_default",
         "to": "symptom_fever",
-        "relation_id": "rel_influenza_manifests_as_fever",
+        "relation_id": "rel_influenza_manifests_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
@@ -699,18 +363,18 @@
           "发热是最常见的症状，体温可达到39°C以上"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将发热列为流感‘最常见症状’，且描述为‘体温可达到39°C以上’，属高频核心表现",
-        "evidence": "流感发热是最常见的症状，体温可达到39°C以上；多伴肌肉疼痛，关节疼痛和头痛；感疲劳。"
+        "weight_reason": "原文明确指出发热是流感最常见的症状",
+        "evidence": "发热是最常见的症状"
       },
       {
-        "from": "sub_disease_influenza",
-        "to": "symptom_myalgia",
-        "relation_id": "rel_influenza_manifests_as_myalgia",
+        "from": "sub_disease_influenza_default",
+        "to": "symptom_muscle_pain",
+        "relation_id": "rel_influenza_manifests_muscle_pain",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
+        "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
@@ -719,130 +383,12 @@
         "evidence_ids": [
           "多伴肌肉疼痛，关节疼痛和头痛"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_influenza",
-        "to": "symptom_headache",
-        "relation_id": "rel_influenza_manifests_as_headache",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床特点",
-        "evidence_ids": [
-          "多伴肌肉疼痛，关节疼痛和头痛"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_influenza",
-        "to": "symptom_fatigue",
-        "relation_id": "rel_influenza_manifests_as_fatigue",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床特点",
-        "evidence_ids": [
-          "感疲劳"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_influenza",
-        "to": "symptom_dry_cough",
-        "relation_id": "rel_influenza_manifests_as_dry_cough",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床特点",
-        "evidence_ids": [
-          "可伴干咳或咳痰"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_covid19",
-        "to": "symptom_loss_of_taste_or_smell",
-        "relation_id": "rel_covid19_manifests_as_loss_of_taste_or_smell",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床特点",
-        "evidence_ids": [
-          "部分患者出现味觉、嗅觉异常或丧失"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_rsv_infection",
-        "to": "symptom_nasal_congestion",
-        "relation_id": "rel_rsv_manifests_as_nasal_congestion",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床特点",
-        "evidence_ids": [
-          "最常见症状包括鼻塞、流涕、咳嗽及咽痛等"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确列出‘鼻塞’为呼吸道合胞病毒感染‘最常见症状’之一，与流涕、咳嗽、咽痛并列",
-        "evidence": "呼吸道合胞病毒感染好发于儿童，最常见症状包括鼻塞、流涕、咳嗽及咽痛等，持续时间一般为7~10d。"
-      },
-      {
-        "from": "sub_disease_rsv_infection",
-        "to": "symptom_rhinorrhea",
-        "relation_id": "rel_rsv_manifests_as_rhinorrhea",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床特点",
-        "evidence_ids": [
-          "最常见症状包括鼻塞、流涕、咳嗽及咽痛等"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文将‘流涕’与鼻塞、咳嗽、咽痛并列为RSV感染‘最常见症状’，属高频核心表现",
-        "evidence": "呼吸道合胞病毒感染好发于儿童，最常见症状包括鼻塞、流涕、咳嗽及咽痛等，持续时间一般为7~10d。"
-      },
-      {
-        "from": "sub_disease_rsv_infection",
-        "to": "symptom_dry_cough",
-        "relation_id": "rel_rsv_manifests_as_dry_cough",
+        "from": "sub_disease_covid19_severe",
+        "to": "symptom_dyspnea",
+        "relation_id": "rel_covid19_severe_manifests_dyspnea",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
@@ -850,144 +396,22 @@
         "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床特点",
-        "evidence_ids": [
-          "最常见症状包括鼻塞、流涕、咳嗽及咽痛等"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文未将干咳列为RSV感染‘最常见症状’；仅在‘其他感染’部分提及腺病毒等‘多见干咳’，RSV部分仅提‘咳嗽’，未限定干性，故强度略低于鼻塞/流涕",
-        "evidence": "呼吸道合胞病毒感染好发于儿童，最常见症状包括鼻塞、流涕、咳嗽及咽痛等，持续时间一般为7~10d。"
-      },
-      {
-        "from": "sub_disease_rsv_infection",
-        "to": "symptom_sore_throat",
-        "relation_id": "rel_rsv_manifests_as_sore_throat",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床特点",
-        "evidence_ids": [
-          "最常见症状包括鼻塞、流涕、咳嗽及咽痛等"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将‘咽痛’列为RSV感染‘最常见症状’之一，与鼻塞、流涕、咳嗽并列",
-        "evidence": "呼吸道合胞病毒感染好发于儿童，最常见症状包括鼻塞、流涕、咳嗽及咽痛等，持续时间一般为7~10d。"
-      },
-      {
-        "from": "sub_disease_mycoplasma_pneumonia",
-        "to": "symptom_dry_cough",
-        "relation_id": "rel_mycoplasma_manifests_as_dry_cough",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床特点",
         "evidence_ids": [
-          "支原体感染 多见干咳，痰量较少，黏稠。"
+          "高龄、免疫功能低下人群存在呼吸困难等重症表现"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确指出‘支原体感染 多见干咳，痰量较少，黏稠’，‘多见’即高频典型表现",
-        "evidence": "支原体感染多见干咳，痰量较少，黏稠。"
-      },
-      {
-        "from": "sub_disease_mycoplasma_pneumonia",
-        "to": "symptom_fever",
-        "relation_id": "rel_mycoplasma_manifests_as_fever",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床特点",
-        "evidence_ids": [
-          "发热多在38 ℃以上"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确‘发热多在38 ℃以上’，且为‘多见’临床表现，属核心症状",
-        "evidence": "支原体感染多见干咳，痰量较少，黏稠。发热多在38℃以上，可伴有头痛、乏力及食欲不振等全身不适。"
-      },
-      {
-        "from": "sub_disease_severe_acute_respiratory_infection",
-        "to": "symptom_dyspnea",
-        "relation_id": "rel_sari_manifests_as_dyspnea",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床特点",
-        "evidence_ids": [
-          "可引起下呼吸道感染，如毛细支气管炎和肺炎，严重时可能导致呼吸衰竭。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文在SARI定义上下文中虽未直接写‘SARI manifests as dyspnea’，但在‘临床特点’节明确‘严重时可能导致呼吸衰竭’，且推荐意见2将‘持续3 d体温>39 ℃、咯血、胸痛’与‘治疗效果不佳者’并列提示需CT检查，而‘呼吸困难’是SARI重症进展的标志性症状，在‘流感’‘新冠病毒’‘RSV’子节中均被列为下呼吸道感染/重症表现，属强关联",
-        "evidence": "也可引起下呼吸道感染，如毛细支气管炎和肺炎，严重时可能导致呼吸衰竭。"
-      },
-      {
-        "from": "sub_disease_severe_acute_respiratory_infection",
-        "to": "symptom_chest_pain",
-        "relation_id": "rel_sari_manifests_as_chest_pain",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床特点",
-        "evidence_ids": [
-          "病情进展可有呼吸困难、胸痛及咯血"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_severe_acute_respiratory_infection",
-        "to": "symptom_hemoptysis",
-        "relation_id": "rel_sari_manifests_as_hemoptysis",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床特点",
-        "evidence_ids": [
-          "病情进展可有呼吸困难、胸痛及咯血"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9,
+        "weight_reason": "原文指出高龄等人群存在呼吸困难等重症表现",
+        "evidence": "高龄、免疫功能低下人群存在呼吸困难等重症表现"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_influenza",
-        "to": "test_nucleic_acid_test",
-        "relation_id": "rel_influenza_requires_nucleic_acid_test",
+        "from": "sub_disease_influenza_default",
+        "to": "test_nucleic_acid",
+        "relation_id": "rel_influenza_requires_nucleic_acid",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -997,7 +421,7 @@
         "operator": "equals",
         "unit": null,
         "result_text": "病原体核酸检测阳性",
-        "weight": 100,
+        "weight": 9,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
@@ -1006,372 +430,180 @@
         "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（1）病原体核酸检测阳性；"
+          "诊断标准需同时具备以下两点：...（1）病原体核酸检测阳性"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文4.2.2节明确‘核酸检测……是目前最常用的病毒核酸检测方法’，且推荐意见4称‘核酸检测具有快速，敏感度和特异度高的优点，临床上广泛应用’，结合上下文‘常见呼吸道病原体检测技术’标题及流感为首要列举病原体，该检测对流感属临床金标准级应用",
-        "evidence": "核酸检测反转录聚合酶链反应（reversetranscriptionpolymerasechainreactionRT-PCR）是目前最常用的病毒核酸检测方法"
+        "weight_reason": "原文推荐核酸检测，指出其具有快速、敏感度和特异度高的优点并广泛应用，但未提及金标准",
+        "evidence": "核酸检测具有快速，敏感度和特异度高的优点，临床上广泛应用"
       },
       {
-        "from": "sub_disease_covid19",
-        "to": "test_nucleic_acid_test",
-        "relation_id": "rel_covid19_requires_nucleic_acid_test",
+        "from": "sub_disease_covid19_severe",
+        "to": "test_ct",
+        "relation_id": "rel_covid19_severe_requires_ct",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "gold_standard",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "病原体核酸检测阳性",
-        "weight": 100,
-        "gold_standard": true,
+        "result_text": "肺部CT示磨玻璃渗出影或实变影",
+        "weight": 8,
+        "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "诊断",
+        "section_priority": "辅助检查",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（1）病原体核酸检测阳性；"
+          "接受免疫抑制治疗、高龄及合并多种基础疾病等高危人群需完善肺部CT检查"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文4.2.2节明确RT-PCR为‘目前最常用的病毒核酸检测方法’，且在‘新冠病毒感染’子节及推荐意见4中反复强调其高敏感度、高特异度及临床广泛应用地位，符合金标准语境",
-        "evidence": "核酸检测反转录聚合酶链反应（reversetranscriptionpolymerasechainreactionRT-PCR）是目前最常用的病毒核酸检测方法"
+        "confidence": 0.9,
+        "weight_reason": "原文推荐意见指出高危人群需完善肺部CT检查",
+        "evidence": "高龄及合并多种基础疾病等高危人群需完善肺部CT检查"
       },
       {
-        "from": "sub_disease_rsv_infection",
-        "to": "test_nucleic_acid_test",
-        "relation_id": "rel_rsv_requires_nucleic_acid_test",
+        "from": "sub_disease_mycoplasma_refractory",
+        "to": "test_crp",
+        "relation_id": "rel_mycoplasma_refractory_requires_crp",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "gold_standard",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "病原体核酸检测阳性",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "诊断",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "（1）病原体核酸检测阳性；"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文4.2.2节将RT-PCR定义为‘目前最常用的病毒核酸检测方法’，RSV为明确列举的‘常见呼吸道病原体’之一（第2页‘2.3 呼吸道合胞病毒’），且该技术适用于所有病毒，无例外说明，故对RSV亦构成金标准级检测",
-        "evidence": "核酸检测反转录聚合酶链反应（reversetranscriptionpolymerasechainreactionRT-PCR）是目前最常用的病毒核酸检测方法"
-      },
-      {
-        "from": "sub_disease_mycoplasma_pneumonia",
-        "to": "test_nucleic_acid_test",
-        "relation_id": "rel_mycoplasma_requires_nucleic_acid_test",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "gold_standard",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "病原体核酸检测阳性",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "诊断",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "（1）病原体核酸检测阳性；"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文4.2.2节明确RT-PCR为‘目前最常用的病毒核酸检测方法’，但肺炎支原体为非病毒病原体；然而4.2.1节‘培养及分离’与4.2.2节并列，且4.2.2后文提到‘宏基因组二代测序（mNGS）……对发现未知或少见病原体感染具有优势’，暗示核酸类方法（含PCR）已拓展用于支原体；更重要的是，第4页‘推荐意见7’明确‘病原学检查的选择依据当地近期流行情况而定，一般需包括近期流行的主要病原’，而第2页指出‘肺炎支原体’是今年高流行病原体之一，且4.2.2节未限定仅适用于病毒——其标题为‘常见呼吸道病原体检测技术’，正文首句‘是目前最常用的病毒核酸检测方法’属技术归类，但上下文整体将PCR列为首选广谱分子检测；更关键证据见第5页‘推荐意见7’：‘对于常规检查未获得病原学结果的重症患者……建议行mNGS’，反向印证PCR是常规首选；结合临床实践共识，支原体PCR已被指南列为一线检测，原文虽未直呼‘金标准’，但‘最常用’+‘高敏感高特异’+‘常规首选’+‘针对主要流行病原’四重支撑，满足weight=100条件",
-        "evidence": "核酸检测反转录聚合酶链反应（reversetranscriptionpolymerasechainreactionRT-PCR）是目前最常用的病毒核酸检测方法"
-      },
-      {
-        "from": "sub_disease_influenza",
-        "to": "test_antigen_test",
-        "relation_id": "rel_influenza_requires_antigen_test",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
+        "type_info": "治疗监测项",
         "diagnostic_role": "supportive",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "病原体抗原检测阳性",
-        "weight": 5,
+        "result_text": "CRP不同程度升高",
+        "weight": 6,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "positive",
+        "polarity": "elevated",
         "typicality": "common",
-        "section_priority": "诊断",
+        "section_priority": "辅助检查",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（2）病原体抗原检测阳性；"
+          "支原体感染时...CRP、乳酸脱氢酶、D-二聚体、铁蛋白，以及一些细胞因子不同程度升高"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_covid19",
-        "to": "test_antigen_test",
-        "relation_id": "rel_covid19_requires_antigen_test",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "病原体抗原检测阳性",
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "common",
-        "section_priority": "诊断",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "（2）病原体抗原检测阳性；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_rsv_infection",
-        "to": "test_antigen_test",
-        "relation_id": "rel_rsv_requires_antigen_test",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "病原体抗原检测阳性",
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "common",
-        "section_priority": "诊断",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "（2）病原体抗原检测阳性；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_mycoplasma_pneumonia",
-        "to": "test_serum_igm",
-        "relation_id": "rel_mycoplasma_requires_serum_igm",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "IgM转阳或4倍以上IgG升高是病原学诊断的有效补充。",
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "common",
-        "section_priority": "病原学检测",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "IgM转阳或4倍以上IgG升高是病原学诊断的有效补充。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_severe_acute_respiratory_infection",
-        "to": "test_ct_imaging",
-        "relation_id": "rel_sari_requires_ct_imaging",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "contains",
-        "unit": null,
-        "result_text": "肺部CT示磨玻璃渗出影、实变影、纤维化改变等",
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "present",
-        "typicality": "typical",
-        "section_priority": "临床特点",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "持续3 d体温>39 ℃、咯血、胸痛患者，以及治疗效果不佳者，接受免疫抑制治疗、高龄及合并多种基础疾病等高危人群需完善肺部CT检查。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文推荐意见2明确‘持续3 d体温>39 ℃、咯血、胸痛患者……需完善肺部CT检查’，且SARI为重症下呼吸道感染统称，CT是评估肺部病变（如磨玻璃影、实变）的关键影像学手段，属强推荐但非诊断金标准（金标准为病原学）",
-        "evidence": "推荐意见2：持续3d体温>39℃、咯血、胸痛患者，以及治疗效果不佳者，接受免疫抑制治疗、高龄及合并多种基础疾病等高危人群需完善肺部CT检查。"
+        "confidence": 0.85
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_influenza",
-        "to": "treatment_antiviral_therapy",
-        "relation_id": "rel_influenza_follows_antiviral_therapy",
+        "from": "sub_disease_influenza_default",
+        "to": "treatment_antiviral",
+        "relation_id": "rel_influenza_follows_antiviral",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊流感病毒感染",
+        "applicable_condition": "高热、全身症状明显、有较多合并症及老幼体弱人群",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "病原学确诊"
+          "症状严重程度",
+          "合并症",
+          "年龄"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗",
+        "source_section": "抗感染治疗",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_covid19",
-        "to": "treatment_antiviral_therapy",
-        "relation_id": "rel_covid19_follows_antiviral_therapy",
+        "from": "sub_disease_covid19_severe",
+        "to": "treatment_corticosteroid",
+        "relation_id": "rel_covid19_severe_follows_corticosteroid",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
+        "clinical_stage": "重型/危重型",
         "treatment_line": "一线",
-        "applicable_condition": "确诊新冠病毒感染",
+        "applicable_condition": "氧合指标进行性恶化、影像学进展迅速、机体炎症反应过度激活状态",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
-        "decision_basis": [
-          "病原学确诊"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "治疗",
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_mycoplasma_pneumonia",
-        "to": "treatment_antibiotic_therapy",
-        "relation_id": "rel_mycoplasma_follows_antibiotic_therapy",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "确诊肺炎支原体感染",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "病原学确诊"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "治疗",
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_severe_acute_respiratory_infection",
-        "to": "treatment_corticosteroid_therapy",
-        "relation_id": "rel_sari_follows_corticosteroid_therapy",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "重症",
-        "treatment_line": "二线",
-        "applicable_condition": "氧合指标进行性恶化、影像学进展迅速、机体炎症反应过度激活",
-        "recommendation_polarity": "酌情使用",
-        "recommendation_strength": "moderate",
         "decision_basis": [
           "氧合指标",
-          "影像学",
-          "炎症反应"
+          "影像学进展",
+          "炎症反应状态"
         ],
-        "contraindication_note": "中低剂量、短疗程",
+        "contraindication_note": "激素使用应为中低剂量、短疗程",
         "evidence_level": "expert_consensus",
-        "source_section": "治疗",
-        "confidence": 0.95
+        "source_section": "糖皮质激素",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_mycoplasma_refractory",
+        "to": "treatment_antibacterial",
+        "relation_id": "rel_mycoplasma_refractory_follows_antibacterial",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "大环内脂类耐药或难治性患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "耐药性",
+          "治疗反应"
+        ],
+        "contraindication_note": "8岁以下儿童使用四环素类需知情同意或超说明书使用",
+        "evidence_level": "expert_consensus",
+        "source_section": "抗感染治疗",
+        "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_antiviral_therapy",
+        "from": "treatment_antiviral",
         "to": "plan_oseltamivir",
-        "relation_id": "rel_antiviral_implements_by_oseltamivir",
+        "relation_id": "rel_antiviral_implements_oseltamivir",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "确诊流感病毒感染",
+        "applicable_condition": "甲、乙型流感",
         "contraindication_note": null,
         "evidence_ids": [
-          "奥司他韦是神经氨酸酶抑制剂，能阻止病毒由被感染细胞释放和入侵邻近细胞，阻止子代病毒颗粒在人体细胞的复制和释放，对甲、乙型流感均具活性，可用于婴幼儿及成人，儿童推荐剂量为3 mg/kg，2次/d；成人为75 mg/次，重症患者可以增加到150 mg/次，2次/d，一般疗程为5 d。"
+          "尽早使用抗病毒药物，如奥司他韦、玛巴洛沙韦及扎那米韦等进行治疗"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_antiviral_therapy",
-        "to": "plan_baloxavir_marboxil",
-        "relation_id": "rel_antiviral_implements_by_baloxavir",
-        "relation_name": "落实为",
-        "relation_type": "implements_by",
-        "plan_role": "替代",
-        "applicable_condition": "确诊流感病毒感染",
-        "contraindication_note": "仅适用于5岁以上儿童与成人",
-        "evidence_ids": [
-          "玛巴洛沙韦是RNA聚合酶抑制剂，直接抑制流感病毒RNA的合成，在我国可以用于5岁以上儿童与成人单纯性甲型和乙型流感，体质量<20 kg单次2 mg/kg，最高剂量不超过20 mg/次；体质量为20～80 kg，单次40 mg；体质量>80 kg，单次80 mg，单次为一个疗程。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "treatment_antibiotic_therapy",
+        "from": "treatment_antibacterial",
         "to": "plan_azithromycin",
-        "relation_id": "rel_antibiotic_implements_by_azithromycin",
+        "relation_id": "rel_antibacterial_implements_azithromycin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "确诊肺炎支原体感染",
+        "applicable_condition": "肺炎支原体感染初始治疗",
         "contraindication_note": null,
         "evidence_ids": [
-          "支原体感染可采用阿奇霉素等大环内酯类治疗。阿奇霉素10 mg·kg⁻¹·d⁻¹，1次/d，口服或静脉滴注。"
+          "支原体感染可采用阿奇霉素等大环内酯类治疗"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_antibiotic_therapy",
+        "from": "treatment_antibacterial",
         "to": "plan_doxycycline",
-        "relation_id": "rel_antibiotic_implements_by_doxycycline",
+        "relation_id": "rel_antibacterial_implements_doxycycline",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "替代",
-        "applicable_condition": "难治性肺炎支原体肺炎或大环内酯类耐药",
-        "contraindication_note": "不适用于8岁以下儿童",
+        "applicable_condition": "大环内酯类耐药或难治性，8岁及以上",
+        "contraindication_note": "8岁以下儿童慎用",
         "evidence_ids": [
-          "对于大环内脂类耐药的或者为难治性的患者，可选用多西环素、米诺环素、替加环素及奥玛环素等四环素类药物。多西环素：2 mg/kg（不超过200 mg），2次/d，口服或静脉滴注。"
+          "对于大环内脂类耐药的或者为难治性的患者，可选用多西环素、米诺环素、替加环素及奥玛环素等四环素类药物"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_influenza",
+        "from": "sub_disease_influenza_default",
         "to": "etiology_influenza_virus",
-        "relation_id": "rel_influenza_caused_by_influenza_virus",
+        "relation_id": "rel_influenza_caused_by_virus",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -1379,12 +611,12 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "年冬季，门急诊流感样病例（ILI）中常见的病原体为流感病毒（甲型H1N1、甲型H3N2、B Victoria系、B Yamagata系、其他亚型）"
+          "流感病毒是正黏液病毒科单股负链RNA病毒"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_covid19",
+        "from": "sub_disease_covid19_severe",
         "to": "etiology_sars_cov_2",
         "relation_id": "rel_covid19_caused_by_sars_cov_2",
         "relation_name": "相关",
@@ -1394,29 +626,14 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "年冬季，门急诊流感样病例（ILI）中常见的病原体为...新冠病毒"
+          "新冠病毒为单股正链RNA，基因组全长约29.9×10^3 bp，是β属冠状病毒"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_rsv_infection",
-        "to": "etiology_rsv",
-        "relation_id": "rel_rsv_caused_by_rsv",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "strong",
-        "typicality": "typical",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "年冬季，门急诊流感样病例（ILI）中常见的病原体为...呼吸道合胞病毒"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_mycoplasma_pneumonia",
+        "from": "sub_disease_mycoplasma_refractory",
         "to": "etiology_mycoplasma_pneumoniae",
-        "relation_id": "rel_mycoplasma_caused_by_mycoplasma_pneumoniae",
+        "relation_id": "rel_mycoplasma_caused_by_mycoplasma",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -1424,70 +641,22 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "住院的严重急性呼吸道感染（SARI）病例中常见的病原体依次为流感病毒、肺炎支原体及腺病毒"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_complicated_bacterial_co_infection",
-        "to": "etiology_streptococcus_pneumoniae",
-        "relation_id": "rel_complicated_co_infection_caused_by_streptococcus_pneumoniae",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "肺炎链球菌是常见的共感染病原体，常见的混合感染情况为甲型H3N2流感病毒合并肺炎链球菌感染。"
+          "肺炎支原体属于柔膜体纲中的支原体目、支原体科和支原体属"
         ],
         "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_influenza",
-        "to": "pathogenesis_influenza_virus_replication",
-        "relation_id": "rel_influenza_explained_by_influenza_virus_replication",
+        "from": "sub_disease_covid19_severe",
+        "to": "pathogenesis_cytokine_storm",
+        "relation_id": "rel_covid19_severe_explained_by_css",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "流感病毒是正黏液病毒科单股负链RNA病毒，根据病毒核蛋白和基质蛋白，分为甲、乙、丙和丁（或A、B、C、D）型。甲型流感病毒根据病毒表面的血凝素（H1~18）和神经氨酸酶（N1~11）蛋白亚型进行分类。甲型流感病毒基因重组引起抗原漂移和抗原转换现象，导致流行病毒株频繁变异。"
+          "细胞因子风暴综合征（cytokine storm syndrome，CSS）是重症感染共同的病理生理机制"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_covid19",
-        "to": "pathogenesis_sars_cov_2_entry",
-        "relation_id": "rel_covid19_explained_by_sars_cov_2_entry",
-        "relation_name": "由机制解释",
-        "relation_type": "explained_by",
-        "evidence_ids": [
-          "新冠病毒为单股正链RNA病毒，基因组全长约29.9×10³ bp，是β属冠状病毒，有包膜...通过其刺突蛋白的受体结合域与血管紧张素转换酶2（ACE2）受体结合进入宿主细胞。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_rsv_infection",
-        "to": "pathogenesis_rsv_fusion",
-        "relation_id": "rel_rsv_explained_by_rsv_fusion",
-        "relation_name": "由机制解释",
-        "relation_type": "explained_by",
-        "evidence_ids": [
-          "呼吸道合胞病毒是单股负链RNA病毒，基因组全长约15.2×10³ bp，编码11个蛋白...融合蛋白F无论在亚型间还是亚型内均具有较高的保守性，是目前疫苗、抗体及其他治疗性药物研发的热点蛋白。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_mycoplasma_pneumonia",
-        "to": "pathogenesis_mycoplasma_pneumoniae_adhesion",
-        "relation_id": "rel_mycoplasma_explained_by_mycoplasma_pneumoniae_adhesion",
-        "relation_name": "由机制解释",
-        "relation_type": "explained_by",
-        "evidence_ids": [
-          "肺炎支原体属于柔膜体纲中的支原体目、支原体科和支原体属，无细胞壁，属胞内感染病原体，通过其特异性P1黏附蛋白附着在呼吸道上皮细胞膜表面，进而产生过氧化氢和超氧化物或是引起间接免疫应答反应对上皮细胞及肺泡纤毛造成损伤。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.85
       }
     ]
   },

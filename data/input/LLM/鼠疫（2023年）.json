@@ -1,0 +1,971 @@
+{
+  "meta": {
+    "doc_id": "鼠疫诊疗方案（2023年版）",
+    "source_title": "鼠疫诊疗方案（2023年版）",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_plague",
+        "name": "鼠疫",
+        "normalized_name": "鼠疫",
+        "aliases": [
+          "Plague"
+        ],
+        "source_document_ids": [
+          "鼠疫诊疗方案（2023年版）"
+        ],
+        "evidence_ids": [
+          "鼠疫（Plague）是由鼠疫耶尔森菌（Yersinia pestis）感染引起的，在啮齿动物等宿主动物间流行的一种自然疫源性疾病"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_bubonic_plague",
+        "name": "腺鼠疫",
+        "parent_disease_id": "disease_plague",
+        "disease_subtype": "腺鼠疫",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "腺鼠疫是最常见的临床类型，主要表现为高热、淋巴结肿大"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_pneumonic_plague_primary",
+        "name": "原发性肺鼠疫",
+        "parent_disease_id": "disease_plague",
+        "disease_subtype": "肺鼠疫",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "原发性肺鼠疫：发病急骤，主要表现为寒战、高热，体温可达 40~41℃"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_pneumonic_plague_secondary",
+        "name": "继发性肺鼠疫",
+        "parent_disease_id": "disease_plague",
+        "disease_subtype": "肺鼠疫",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "继发性肺鼠疫：多继发于腺鼠疫或败血症型鼠疫，与原发性肺鼠疫表现类似"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_septicemic_plague",
+        "name": "败血症型鼠疫",
+        "parent_disease_id": "disease_plague",
+        "disease_subtype": "败血症型鼠疫",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "败血症型鼠疫。主要表现为畏寒、高热，剧烈头痛、谵妄、神志不清"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_intestinal_plague",
+        "name": "肠鼠疫",
+        "parent_disease_id": "disease_plague",
+        "disease_subtype": "肠鼠疫",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "肠鼠疫。主要表现为高热和呕吐、腹泻等消化道症状"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_meningeal_plague",
+        "name": "脑膜炎型鼠疫",
+        "parent_disease_id": "disease_plague",
+        "disease_subtype": "脑膜炎型鼠疫",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "脑膜炎型鼠疫。多继发于败血症型鼠疫，主要表现为剧烈头痛、频繁呕吐、抽搐"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_ocular_plague",
+        "name": "眼鼠疫",
+        "parent_disease_id": "disease_plague",
+        "disease_subtype": "眼鼠疫",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "眼鼠疫。主要表现为高热和急性化脓性结膜炎"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_cutaneous_plague",
+        "name": "皮肤鼠疫",
+        "parent_disease_id": "disease_plague",
+        "disease_subtype": "皮肤鼠疫",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "皮肤鼠疫。主要表现为皮肤出现红色丘疹伴疼痛，其后逐渐隆起，形成出血性疱疹"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_mild_plague",
+        "name": "轻症鼠疫",
+        "parent_disease_id": "disease_plague",
+        "disease_subtype": "中医分型",
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "临床可分轻症、重症施治。1.轻症。临床表现：发热，汗出，口渴，全身乏力"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_severe_plague",
+        "name": "重症鼠疫",
+        "parent_disease_id": "disease_plague",
+        "disease_subtype": "中医分型",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "2.重症。临床表现：高热，有汗，咳甚，咯黄痰或脓痰，痰中带血"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_high_fever",
+        "name": "高热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "主要表现为高热、淋巴结肿大"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_lymphadenopathy",
+        "name": "淋巴结肿大",
+        "body_site": "淋巴结",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "主要表现为高热、淋巴结肿大，以腹股沟、腋下、颈部等单侧淋巴结为多见"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_chills",
+        "name": "寒战",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "发病急骤，主要表现为寒战、高热"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_bloody_sputum",
+        "name": "痰中带血或纯血痰",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "咳出稀薄泡沫痰，痰中带血或纯血痰"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_cyanosis",
+        "name": "发绀",
+        "body_site": "皮肤黏膜",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "口唇、颜面、四肢及全身皮肤发绀"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_delirium",
+        "name": "谵妄",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "剧烈头痛、谵妄、神志不清"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hemorrhage",
+        "name": "皮下及黏膜出血、腔道出血",
+        "body_site": "全身",
+        "symptom_category": "血液系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "皮下及黏膜出血、腔道出血等"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_vomiting_diarrhea",
+        "name": "呕吐、腹泻",
+        "body_site": "消化道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "主要表现为高热和呕吐、腹泻等消化道症状"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_nuchal_rigidity",
+        "name": "颈强直",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "查体可见颈强直、布鲁津斯基征（Brudzinski）和克尼格征（Kernig）阳性"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_purulent_conjunctivitis",
+        "name": "急性化脓性结膜炎",
+        "body_site": "眼部",
+        "symptom_category": "眼部症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "主要表现为高热和急性化脓性结膜炎"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hemorrhagic_herpes",
+        "name": "出血性疱疹",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "形成出血性疱疹，周边呈灰黑色，基底坚硬"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_wbc",
+        "name": "外周血白细胞计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "外周血白细胞计数大多升高，常达（20~30）×109/L 以上"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_f1_antigen",
+        "name": "F1抗原检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "使用胶体金、反向间接血凝试验（RIHA）或酶联免疫吸附试验（ELISA）检测鼠疫菌 F1 抗原阳性"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_f1_antibody",
+        "name": "F1抗体检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "IHA（间接血凝试验）或 ELISA 检测血清鼠疫菌 F1 抗体阳转或恢复期较急性期滴度呈 4 倍及以上升高"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_pcr",
+        "name": "核酸检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "聚合酶链式反应（PCR）或实时荧光 PCR（Real-Time PCR）方法检测上述样本鼠疫菌核酸阳性"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_bacterial_culture",
+        "name": "细菌培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "样本中可培养到鼠疫菌"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_microscopy",
+        "name": "显微镜检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "样本涂片、革兰染色，镜下可见革兰染色阴性、两极浓染的短小杆菌"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_csf_pressure",
+        "name": "脑脊液压力",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "脑膜炎型病例可表现为脑脊液压力升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_chest_imaging",
+        "name": "胸部影像学",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "肺鼠疫患者早期可见肺内单一或多发的浸润性阴影，可分布在多个叶段；随着病情进展，可迅速发展为双肺大片实变"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_general",
+        "content": "按甲类传染病相关要求隔离。注意休息，维持水、电解质平衡。发热者给予物理降温或解热镇痛药。腺鼠疫肿大的淋巴结切忌挤压。",
+        "recommendation_strength": "strong",
+        "source_section": "十、治疗（一）一般治疗",
+        "evidence_ids": [
+          "按甲类传染病相关要求隔离。注意休息，维持水、电解质平衡。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_antimicrobial",
+        "content": "首选链霉素，根据临床分型调整剂量和疗程。病情严重或进展迅速者可联合氟喹诺酮类药物。",
+        "recommendation_strength": "strong",
+        "source_section": "十、治疗（二）病原治疗",
+        "evidence_ids": [
+          "首选治疗药物。（1）腺鼠疫：链霉素成人首剂 1g...（2）肺鼠疫和败血症型鼠疫：链霉素成人首剂 2g"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_anti_shock",
+        "content": "休克患者在使用抗菌药物基础上，采取补液、维持水电解质及酸碱平衡、血管活性药物等综合救治措施。",
+        "recommendation_strength": "strong",
+        "source_section": "十、治疗（三）抗休克治疗",
+        "evidence_ids": [
+          "休克患者在使用抗菌药物基础上，还应采取包括补液、维持水、电解质及酸碱平衡、血管活性药物等综合救治措施"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_tcm",
+        "content": "鼠疫之核心病机是疫毒入血，瘀热互结，以凉血活血解毒为基本治法，临床可分轻症、重症施治。",
+        "recommendation_strength": "recommended",
+        "source_section": "十、治疗（七）中医治疗",
+        "evidence_ids": [
+          "鼠疫之核心病机是疫毒入血，瘀热互结，以凉血活血解毒为基本治法，临床可分轻症、重症施治"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_streptomycin_bubonic",
+        "content": "链霉素成人首剂 1g，以后 0.5g~0.75g/次，q4h 或 q6h 肌注（2~4g/d）。体温、全身症状和局部症状好转后减量。疗程一般为 10~20 天，链霉素使用总量一般不超过 60g。",
+        "plan_level": 1,
+        "applicable_condition": "腺鼠疫",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "腺鼠疫：链霉素成人首剂 1g，以后 0.5g~0.75g/次，q4h 或 q6h 肌注（2~4g/d）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_streptomycin_pneumonic",
+        "content": "链霉素成人首剂 2g，以后 1g/次，q4h 或 q6h 肌注（4~6g/d）。体温下降、全身症状和呼吸道症状显著好转后减量。疗程一般为 10~20 天，链霉素使用总量一般不超过 90g。",
+        "plan_level": 1,
+        "applicable_condition": "肺鼠疫和败血症型鼠疫",
+        "contraindication_note": "减量时要特别注意不要幅度过大，防止病情反复",
+        "evidence_ids": [
+          "肺鼠疫和败血症型鼠疫：链霉素成人首剂 2g，以后 1g/次，q4h 或 q6h 肌注（4~6g/d）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_fluoroquinolones",
+        "content": "左氧氟沙星，成人 0.5~0.75g/次，qd；或莫西沙星，成人 0.5~0.75g/次，qd。",
+        "plan_level": 2,
+        "applicable_condition": "病情严重或进展迅速者，或脑膜炎型鼠疫联合治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "病情严重或进展迅速者，可联合氟喹诺酮类药物：左氧氟沙星，成人 0.5~0.75g/次，qd；或莫西沙星，成人 0.5~0.75g/次，qd"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_fluid_resuscitation",
+        "content": "在拟诊为休克起 3 小时内输注至少 30ml/kg 的晶体溶液进行初始复苏。推荐以平均动脉压（MAP）65mmHg 作为初始复苏目标。",
+        "plan_level": 1,
+        "applicable_condition": "休克患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "在拟诊为休克起 3 小时内输注至少 30ml/kg 的晶体溶液进行初始复苏"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_tcm_mild",
+        "content": "轻剂活血解毒汤：金银花 30g、连翘 9g、荆芥穗 9g、浙贝母 9g、紫草 9g、板蓝根 6g、生石膏 30g（先煎）、赤芍 9g、桃仁 12g、红花 9g、生地黄 15g、大青叶 15g、冰片 1.5g（冲服）、芦根 30g。每日 1 剂，水煎服。",
+        "plan_level": 1,
+        "applicable_condition": "轻症鼠疫",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：轻剂活血解毒汤。常用药物与参考剂量：金银花 30g、连翘 9g"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_tcm_severe",
+        "content": "重剂活血解毒汤：金银花 60g、连翘 12g、浙贝母 15g、紫草 15g、生石膏 60g（先煎）、赤芍 20g、桃仁 24g、红花 15g、生地黄 30g、大青叶 24g、冰片 3g（冲服）、芦根 30g。推荐中成药：血必净注射液。",
+        "plan_level": 1,
+        "applicable_condition": "重症鼠疫",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：重剂活血解毒汤。常用药物与参考剂量：金银花 60g、连翘 12g"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_yersinia_pestis",
+        "content": "鼠疫耶尔森菌感染",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "鼠疫（Plague）是由鼠疫耶尔森菌（Yersinia pestis）感染引起的"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_infected_animals",
+        "content": "鼠疫染疫动物（鼠类和旱獭等啮齿动物）",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "鼠疫染疫动物：即自然疫源地内感染鼠疫的动物...鼠类和旱獭等啮齿动物为主要传染源"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_flea_bite",
+        "content": "蚤叮咬",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "媒介传播：蚤叮咬是鼠疫最主要的传播途径"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_lymphatic_spread",
+        "content": "鼠疫菌通过叮咬或破损的皮肤、黏膜侵入人体，通过淋巴系统扩散，在巨噬细胞内繁殖，造成淋巴结肿胀、充血、坏死，引起出血性坏死性淋巴结炎，表现为腺鼠疫",
+        "evidence_ids": [
+          "鼠疫菌通过叮咬或破损的皮肤、黏膜侵入人体，通过淋巴系统扩散，在巨噬细胞内繁殖，造成淋巴结肿胀、充血、坏死，引起出血性坏死性淋巴结炎，表现为腺鼠疫"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_bacteremia",
+        "content": "鼠疫菌通过淋巴循环入血形成菌血症，发展为败血症型鼠疫",
+        "evidence_ids": [
+          "鼠疫菌通过淋巴循环入血形成菌血症，发展为败血症型鼠疫"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_pulmonary_infection",
+        "content": "鼠疫菌进入肺部，引起继发性肺鼠疫；如果吸入含有鼠疫菌的飞沫或气溶胶，则引起原发性肺鼠疫",
+        "evidence_ids": [
+          "鼠疫菌进入肺部，引起继发性肺鼠疫；如果吸入含有鼠疫菌的飞沫或气溶胶，则引起原发性肺鼠疫"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_plague",
+        "to": "sub_disease_bubonic_plague",
+        "relation_id": "rel_plague_has_bubonic",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "腺鼠疫是最常见的临床类型"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_plague",
+        "to": "sub_disease_pneumonic_plague_primary",
+        "relation_id": "rel_plague_has_pneumonic_primary",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "肺鼠疫可分为原发性肺鼠疫和继发性肺鼠疫两种类型"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_plague",
+        "to": "sub_disease_septicemic_plague",
+        "relation_id": "rel_plague_has_septicemic",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "败血症型鼠疫。主要表现为畏寒、高热"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_plague",
+        "to": "sub_disease_mild_plague",
+        "relation_id": "rel_plague_has_mild_tcm",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "临床可分轻症、重症施治。1.轻症"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_bubonic_plague",
+        "to": "symptom_lymphadenopathy",
+        "relation_id": "rel_bubonic_manifests_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "主要表现为高热、淋巴结肿大，以腹股沟、腋下、颈部等单侧淋巴结为多见"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出淋巴结肿大是腺鼠疫的主要表现，强相关。",
+        "evidence": "腺鼠疫是最常见的临床类型，主要表现为高热、淋巴结肿大"
+      },
+      {
+        "from": "sub_disease_pneumonic_plague_primary",
+        "to": "symptom_bloody_sputum",
+        "relation_id": "rel_pneumonic_manifests_bloody_sputum",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "咳出稀薄泡沫痰，痰中带血或纯血痰"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出原发性肺鼠疫主要表现为咳出稀薄泡沫痰，痰中带血或纯血痰，强相关。",
+        "evidence": "咳出稀薄泡沫痰，痰中带血或纯血痰"
+      },
+      {
+        "from": "sub_disease_meningeal_plague",
+        "to": "symptom_nuchal_rigidity",
+        "relation_id": "rel_meningeal_manifests_nuchal_rigidity",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "查体可见颈强直、布鲁津斯基征（Brudzinski）和克尼格征（Kernig）阳性"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出脑膜炎型鼠疫查体可见颈强直，强相关。",
+        "evidence": "脑膜炎型鼠疫。多继发于败血症型鼠疫，主要表现为剧烈头痛、频繁呕吐、抽搐、谵语、昏睡，甚至昏迷。查体可见颈强直"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_bubonic_plague",
+        "to": "test_f1_antigen",
+        "relation_id": "rel_bubonic_requires_f1_antigen",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "鼠疫菌 F1 抗原阳性",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "鼠疫菌 F1 抗原阳性（胶体金、RIHA 或 ELISA 法）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将F1抗原阳性列为疑似病例转为临床诊断病例的条件之一，非确诊金标准，属于强相关诊断依据。",
+        "evidence": "2.鼠疫菌F1抗原阳性（胶体金、RIHA或ELISA法）。"
+      },
+      {
+        "from": "sub_disease_bubonic_plague",
+        "to": "test_bacterial_culture",
+        "relation_id": "rel_bubonic_requires_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "培养到鼠疫菌",
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "培养到鼠疫菌"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将培养到鼠疫菌列为确诊病例的条件，但未明确使用“金标准”字眼，故权重最高为10。",
+        "evidence": "（三）确诊病例。疑似病例或临床诊断病例，具有以下任一项者：1.培养到鼠疫菌。"
+      },
+      {
+        "from": "sub_disease_meningeal_plague",
+        "to": "test_csf_pressure",
+        "relation_id": "rel_meningeal_requires_csf_pressure",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": ">",
+        "unit": null,
+        "result_text": "脑脊液压力升高",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "脑膜炎型病例可表现为脑脊液压力升高"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_bubonic_plague",
+        "to": "treatment_antimicrobial",
+        "relation_id": "rel_bubonic_follows_antimicrobial",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "十、治疗（二）病原治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_mild_plague",
+        "to": "treatment_tcm",
+        "relation_id": "rel_mild_follows_tcm",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "中医辨证为轻症",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "recommended",
+        "decision_basis": [
+          "中医辨证"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "十、治疗（七）中医治疗",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_streptomycin_bubonic",
+        "relation_id": "rel_antimicrobial_implements_streptomycin_bubonic",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "腺鼠疫",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "（1）腺鼠疫：链霉素成人首剂 1g，以后 0.5g~0.75g/次"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_tcm",
+        "to": "plan_tcm_mild",
+        "relation_id": "rel_tcm_implements_mild",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "轻症",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：轻剂活血解毒汤"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_anti_shock",
+        "to": "plan_fluid_resuscitation",
+        "relation_id": "rel_anti_shock_implements_fluid",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "休克患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "休克患者的液体复苏应尽早开始，在拟诊为休克起 3 小时内输注至少 30ml/kg 的晶体溶液"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_bubonic_plague",
+        "to": "etiology_yersinia_pestis",
+        "relation_id": "rel_bubonic_caused_by_yersinia",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "鼠疫（Plague）是由鼠疫耶尔森菌（Yersinia pestis）感染引起的"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_bubonic_plague",
+        "to": "etiology_flea_bite",
+        "relation_id": "rel_bubonic_caused_by_flea",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "蚤叮咬是鼠疫最主要的传播途径"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_bubonic_plague",
+        "to": "pathogenesis_lymphatic_spread",
+        "relation_id": "rel_bubonic_explained_by_lymphatic",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "通过淋巴系统扩散，在巨噬细胞内繁殖，造成淋巴结肿胀、充血、坏死，引起出血性坏死性淋巴结炎，表现为腺鼠疫"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_septicemic_plague",
+        "to": "pathogenesis_bacteremia",
+        "relation_id": "rel_septicemic_explained_by_bacteremia",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "鼠疫菌通过淋巴循环入血形成菌血症，发展为败血症型鼠疫"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

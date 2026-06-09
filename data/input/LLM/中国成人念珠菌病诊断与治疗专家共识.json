@@ -2,7 +2,7 @@
   "meta": {
     "doc_id": "中国成人念珠菌病诊断与治疗专家共识",
     "source_title": "中国成人念珠菌病诊断与治疗专家共识",
-    "section_path": "",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -15,13 +15,13 @@
         "name": "念珠菌病",
         "normalized_name": "念珠菌病",
         "aliases": [
-          "candidiasis"
+          "Candidiasis"
         ],
         "source_document_ids": [
           "中国成人念珠菌病诊断与治疗专家共识"
         ],
         "evidence_ids": [
-          "念珠菌病（candidiasis）是由各种致病性念珠菌引起的局部或全身感染性疾病，好发于免疫功能低下患者，可侵犯局部皮肤、黏膜以及全身各组织、器官，临床表现多样、轻重不一。"
+          "念珠菌病（candidiasis）是由各种致病性念珠菌引起的局部或全身感染性疾病"
         ],
         "confidence": 0.95
       }
@@ -31,207 +31,49 @@
         "id": "sub_disease_invasive_candidiasis",
         "name": "侵袭性念珠菌病",
         "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
+        "disease_subtype": "侵袭性感染",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "免疫功能低下患者",
         "gender": "all",
-        "age_min": null,
+        "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "侵袭性念珠菌病（invasive candidiasis）发病率呈明显上升趋势。其中，念珠菌血症是侵袭性念珠菌病最常见的临床类型，常预后不佳。"
+          "侵袭性念珠菌病（invasive candidiasis）发病率呈明显上升趋势"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "sub_disease_candidemia",
         "name": "念珠菌血症",
         "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
+        "disease_subtype": "血流感染",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "高危患者",
         "gender": "all",
-        "age_min": null,
+        "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "念珠菌血症是指血培养一次或数次念珠菌阳性，为最常见的血流感染之一，早期全身毒血症状较轻，临床症状和体征无特异性，进展常缓慢，易被原发基础疾病和伴发的其他感染表现所掩盖，严重者可发生多器官功能障碍或衰竭，甚或感染性休克。"
+          "念珠菌血症是侵袭性念珠菌病最常见的临床类型",
+          "念珠菌血症是指血培养一次或数次念珠菌阳性，为最常见的血流感染之一"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_disseminated_candidiasis",
-        "name": "播散性念珠菌病",
-        "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "急性白血病或干细胞移植患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "播散性念珠菌病（disseminated candidiasis）是指念珠菌侵入血循环，并在血液中生长繁殖后，进一步播散至2个或2个以上不相邻器官，引起相应器官感染。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_acute_disseminated_candidiasis",
-        "name": "急性播散性念珠菌病",
-        "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "念珠菌血症患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "急性播散性念珠菌病（acute disseminated candidiasis）呈急性起病，在念珠菌血症急性期可同时出现肝脾多发脓肿，皮肤或皮下软组织脓肿，或表现为感染性心内膜炎、骨髓炎、眼内炎、肺炎等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_chronic_disseminated_candidiasis",
-        "name": "慢性播散性念珠菌病",
-        "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": "肝脾念珠菌病",
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "急性白血病或干细胞移植患者粒细胞缺乏恢复期",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "慢性播散性念珠菌病（chronic disseminated candidiasis）是侵袭性念珠菌病的一种独特表现形式，主要累及肝脏和脾脏，偶可累及肾脏等其他器官，故又称为肝脾念珠菌病（hepatosplenic candidiasis，HSC）。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_candida_endocarditis",
-        "name": "念珠菌心内膜炎",
-        "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "念珠菌血症患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "念珠菌心内膜炎包括心脏天然瓣膜、人工瓣膜和心脏电子置入装置感染，病死率和复发率均较高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_intra_abdominal_candidiasis",
-        "name": "腹腔念珠菌病",
-        "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "腹腔感染患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "腹腔念珠菌病是最常见的侵袭性念珠菌病之一，主要包括腹膜炎和腹腔脓肿。该病临床表现无特异性，常有弥漫性/局灶性腹膜炎的症状或体征，常与细菌混合感染，可伴有全身毒血症状，病死率达20%～70%。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_candida_endophthalmitis",
-        "name": "念珠菌性眼内炎",
-        "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "念珠菌血症患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "念珠菌性眼内炎可以是由眼部手术和眼外伤所致的外源性感染，但更多见于念珠菌通过血液循环进入眼内的内源性感染。通常亚急性起病，发生于念珠菌血症后数天至数周，最初表现为脉络膜炎或脉络膜视网膜炎，然后再突破视网膜进入玻璃体形成眼内炎。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_bronchopulmonary_candidiasis",
-        "name": "支气管-肺念珠菌病",
-        "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "机械通气患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "支气管-肺念珠菌病主要包括气管-支气管炎（candida tracheobronchitis）和肺炎（candida pneumonia）两种类型。"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "sub_disease_cns_candidiasis",
         "name": "中枢神经系统念珠菌病",
         "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
+        "disease_subtype": "中枢神经系统感染",
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": "侵袭性念珠菌病死亡患者",
+        "population": "侵袭性念珠菌病患者",
         "gender": "all",
-        "age_min": null,
+        "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "早期尸解研究结果显示，在侵袭性念珠菌病死亡患者中，50%累及中枢神经系统。临床表现常有发热、头痛和不同程度的意识障碍（如谵妄、昏迷等），可有脑膜刺激征、脑积水，脑脊液中细胞数量轻度增多，糖含量正常或偏低，蛋白含量明显升高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_candida_osteomyelitis",
-        "name": "念珠菌骨髓炎",
-        "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "成人椎体尤其是腰椎受累者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "念珠菌骨髓炎常以亚急性或慢性方式起病，近70%的患者是由血行播散所致，其次为直接种植或邻近组织感染。白念珠菌最为常见，混合细菌感染也时有发生，特别是金黄色葡萄球菌感染并不少见。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_candida_septic_arthritis",
-        "name": "念珠菌关节炎",
-        "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "播散性念珠菌病患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "念珠菌关节炎较为少见，通常为播散性念珠菌病的一部分，也可为关节术后植入物相关感染。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_mucosal_candidiasis",
-        "name": "黏膜念珠菌病",
-        "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "轻症",
-        "population": "免疫功能低下患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "皮肤、黏膜念珠菌病，特别是口咽部、食管、阴道等局部感染虽然不属于侵袭性念珠菌病，但临床较为常见，又常为侵袭性念珠菌病的感染源，抑或受累器官，故本共识将其纳入。"
+          "中枢神经系统念珠菌病（central nervous system candidiasis）",
+          "在侵袭性念珠菌病死亡患者中，50%累及中枢神经系统"
         ],
         "confidence": 0.9
       },
@@ -239,63 +81,31 @@
         "id": "sub_disease_oropharyngeal_candidiasis",
         "name": "口咽部念珠菌病",
         "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
+        "disease_subtype": "黏膜感染",
         "clinical_stage": "不限定",
-        "severity": "轻症",
-        "population": "艾滋病、恶性肿瘤、长期应用广谱抗菌药物或糖皮质激素等免疫功能低下患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "9.1 口咽部念珠菌病 包括急性假膜性念珠菌病（鹅口疮）、念珠菌口角炎、急/慢性萎缩性口炎、慢性增生性念珠菌病等临床类型，以鹅口疮最为多见，艾滋病（acquired immune deficiency syndrome，AIDS）、恶性肿瘤、长期应用广谱抗菌药物或糖皮质激素等免疫功能低下患者易感，并常伴有消化道念珠菌病以及播散性念珠菌病的可能。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_candida_esophagitis",
-        "name": "念珠菌食管炎",
-        "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重症",
+        "severity": "轻症至中重度",
         "population": "免疫功能低下患者",
         "gender": "all",
-        "age_min": null,
+        "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "9.2 念珠菌食管炎 最常见的症状为吞咽疼痛、吞咽困难，吞咽食物时胸骨后疼痛或烧灼感，常伴鹅口疮，恶心、呕吐、食欲减退、体重减轻，而全身毒血症症状相对较轻。"
+          "口咽部念珠菌病 包括急性假膜性念珠菌病（鹅口疮）、念珠菌口角炎、急/慢性萎缩性口炎、慢性增生性念珠菌病等临床类型"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_vulvovaginal_candidiasis",
-        "name": "外阴阴道念珠菌病",
+        "id": "sub_disease_esophageal_candidiasis",
+        "name": "念珠菌食管炎",
         "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
+        "disease_subtype": "黏膜感染",
         "clinical_stage": "不限定",
-        "severity": "轻症",
-        "population": "孕妇",
-        "gender": "female",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "9.4 外阴阴道念珠菌病 较为常见，孕妇好发。外阴部红肿、剧烈瘙痒和烧灼感是本病的突出症状。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_cutaneous_candidiasis",
-        "name": "皮肤念珠菌病",
-        "parent_disease_id": "disease_candidiasis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "轻症",
-        "population": "皮肤皱褶处潮湿部位人群",
+        "severity": "中重度",
+        "population": "免疫功能低下患者",
         "gender": "all",
-        "age_min": null,
+        "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "10 皮肤念珠菌病（cutaneous candidiasis） 好发于皮肤皱褶处，如腋窝、腹股沟、乳房下、肛门周围、会阴部以及指（趾）间等皮肤潮湿部位。"
+          "念珠菌食管炎 最常见的症状为吞咽疼痛、吞咽困难，吞咽食物时胸骨后疼痛或烧灼感，常伴鹅口疮"
         ],
         "confidence": 0.9
       }
@@ -309,9 +119,10 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "临床表现为寒战、高热，血培养持续阳性，全身各脏器、组织可有多发性小脓肿，病情常会迅速恶化，出现神志淡漠、嗜睡，多器官功能障碍或衰竭、感染性休克，预后极差。"
+          "临床表现为寒战、高热",
+          "临床表现常有发热、头痛和不同程度的意识障碍"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "symptom_chills",
@@ -321,33 +132,33 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "临床表现为寒战、高热，血培养持续阳性，全身各脏器、组织可有多发性小脓肿，病情常会迅速恶化，出现神志淡漠、嗜睡，多器官功能障碍或衰竭、感染性休克，预后极差。"
+          "临床表现为寒战、高热"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_altered_mentation",
-        "name": "神志淡漠",
+        "id": "symptom_consciousness_disorder",
+        "name": "意识障碍",
         "body_site": "中枢神经系统",
         "symptom_category": "神经系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "临床表现为寒战、高热，血培养持续阳性，全身各脏器、组织可有多发性小脓肿，病情常会迅速恶化，出现神志淡漠、嗜睡，多器官功能障碍或衰竭、感染性休克，预后极差。"
+          "临床表现常有发热、头痛和不同程度的意识障碍（如谵妄、昏迷等）"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_somnolence",
-        "name": "嗜睡",
-        "body_site": "中枢神经系统",
-        "symptom_category": "神经系统症状",
+        "id": "symptom_oral_thrush",
+        "name": "鹅口疮",
+        "body_site": "口腔",
+        "symptom_category": "消化系统症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
-          "临床表现为寒战、高热，血培养持续阳性，全身各脏器、组织可有多发性小脓肿，病情常会迅速恶化，出现神志淡漠、嗜睡，多器官功能障碍或衰竭、感染性休克，预后极差。"
+          "包括急性假膜性念珠菌病（鹅口疮）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "symptom_dysphagia",
@@ -357,163 +168,7 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "9.2 念珠菌食管炎 最常见的症状为吞咽疼痛、吞咽困难，吞咽食物时胸骨后疼痛或烧灼感，常伴鹅口疮，恶心、呕吐、食欲减退、体重减轻，而全身毒血症症状相对较轻。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_retrosternal_pain",
-        "name": "胸骨后疼痛",
-        "body_site": "胸骨后",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "9.2 念珠菌食管炎 最常见的症状为吞咽疼痛、吞咽困难，吞咽食物时胸骨后疼痛或烧灼感，常伴鹅口疮，恶心、呕吐、食欲减退、体重减轻，而全身毒血症症状相对较轻。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_burning_sensation",
-        "name": "烧灼感",
-        "body_site": "食管",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "9.2 念珠菌食管炎 最常见的症状为吞咽疼痛、吞咽困难，吞咽食物时胸骨后疼痛或烧灼感，常伴鹅口疮，恶心、呕吐、食欲减退、体重减轻，而全身毒血症症状相对较轻。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_pruritus",
-        "name": "瘙痒",
-        "body_site": "外阴",
-        "symptom_category": "泌尿生殖系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "9.4 外阴阴道念珠菌病 较为常见，孕妇好发。外阴部红肿、剧烈瘙痒和烧灼感是本病的突出症状。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_vulvar_edema",
-        "name": "外阴部红肿",
-        "body_site": "外阴",
-        "symptom_category": "泌尿生殖系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "9.4 外阴阴道念珠菌病 较为常见，孕妇好发。外阴部红肿、剧烈瘙痒和烧灼感是本病的突出症状。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_burning_sensation_vulva",
-        "name": "烧灼感",
-        "body_site": "外阴",
-        "symptom_category": "泌尿生殖系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "9.4 外阴阴道念珠菌病 较为常见，孕妇好发。外阴部红肿、剧烈瘙痒和烧灼感是本病的突出症状。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_joint_pain",
-        "name": "关节局部疼痛",
-        "body_site": "关节",
-        "symptom_category": "运动系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "念珠菌关节炎较为少见，通常为播散性念珠菌病的一部分，也可为关节术后植入物相关感染。受累关节局部疼痛、触痛、水肿为其常见临床表现，发热相对少见。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_joint_tenderness",
-        "name": "触痛",
-        "body_site": "关节",
-        "symptom_category": "运动系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "念珠菌关节炎较为少见，通常为播散性念珠菌病的一部分，也可为关节术后植入物相关感染。受累关节局部疼痛、触痛、水肿为其常见临床表现，发热相对少见。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_joint_swelling",
-        "name": "水肿",
-        "body_site": "关节",
-        "symptom_category": "运动系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "念珠菌关节炎较为少见，通常为播散性念珠菌病的一部分，也可为关节术后植入物相关感染。受累关节局部疼痛、触痛、水肿为其常见临床表现，发热相对少见。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_headache",
-        "name": "头痛",
-        "body_site": "头部",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "临床表现常有发热、头痛和不同程度的意识障碍（如谵妄、昏迷等），可有脑膜刺激征、脑积水，脑脊液中细胞数量轻度增多，糖含量正常或偏低，蛋白含量明显升高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_confusion",
-        "name": "谵妄",
-        "body_site": "中枢神经系统",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "临床表现常有发热、头痛和不同程度的意识障碍（如谵妄、昏迷等），可有脑膜刺激征、脑积水，脑脊液中细胞数量轻度增多，糖含量正常或偏低，蛋白含量明显升高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_coma",
-        "name": "昏迷",
-        "body_site": "中枢神经系统",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "临床表现常有发热、头痛和不同程度的意识障碍（如谵妄、昏迷等），可有脑膜刺激征、脑积水，脑脊液中细胞数量轻度增多，糖含量正常或偏低，蛋白含量明显升高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_meningismus",
-        "name": "脑膜刺激征",
-        "body_site": "脑膜",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "临床表现常有发热、头痛和不同程度的意识障碍（如谵妄、昏迷等），可有脑膜刺激征、脑积水，脑脊液中细胞数量轻度增多，糖含量正常或偏低，蛋白含量明显升高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_hydrocephalus",
-        "name": "脑积水",
-        "body_site": "脑室系统",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "临床表现常有发热、头痛和不同程度的意识障碍（如谵妄、昏迷等），可有脑膜刺激征、脑积水，脑脊液中细胞数量轻度增多，糖含量正常或偏低，蛋白含量明显升高。"
+          "最常见的症状为吞咽疼痛、吞咽困难"
         ],
         "confidence": 0.9
       }
@@ -526,230 +181,167 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "确诊有赖于血培养，但血培养阳性率不及50%，故明确局部感染灶、真菌G试验动态监测均有助于临床诊断。"
+          "来源于无菌体液标本如血液...培养阳性...可作为侵袭性念珠菌病诊断的金标准",
+          "确诊有赖于血培养"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "test_g_test",
         "name": "真菌G试验",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "目前国内外应用最广泛的是血清真菌特异性细胞壁成分（1→3）-β-D-葡聚糖检测，简称真菌G试验。感染早期即可呈阳性，且阴性预测值较高（中等级，中等推荐）。"
+          "血清真菌特异性细胞壁成分（1→3）-β-D-葡聚糖检测，简称真菌G试验"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "test_candida_score",
-        "name": "念珠菌评分",
+        "id": "test_csf_exam",
+        "name": "脑脊液检查",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "根据全胃肠外营养（total parenteral nutrition，TPN）（1分）、腹部外科手术（1分）、多部位定植（1分）、严重脓毒症（2分）建立的念珠菌评分预测模型，总分≥3分时患者发生侵袭性念珠菌病的风险为6.83（95%CI：3.81～12.45），该方法的敏感性为78%、特异性为66%[2-4]。"
+          "脑脊液检查早期不易发现真菌，需多次脑脊液真菌涂片和培养"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_colonization_index",
-        "name": "定植指数",
+        "id": "test_direct_microscopy",
+        "name": "直接镜检",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "念珠菌定植指数和校正定植指数是指收集痰液（气道分泌物）、尿液、胃液、粪便（直肠拭子）、口咽拭子5个部位标本进行念珠菌定量培养，将培养念珠菌阳性数/培养部位总数（定植指数）≥0.5判定为感染可能，为进一步提高其特异性，将定植指数×重度定植部位数/总定植部位数≥ 0.4判定为感染可能，即校正定植指数[1]。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_corrected_colonization_index",
-        "name": "校正定植指数",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "念珠菌定植指数和校正定植指数是指收集痰液（气道分泌物）、尿液、胃液、粪便（直肠拭子）、口咽拭子5个部位标本进行念珠菌定量培养，将培养念珠菌阳性数/培养部位总数（定植指数）≥0.5判定为感染可能，为进一步提高其特异性，将定植指数×重度定植部位数/总定植部位数≥ 0.4判定为感染可能，即校正定植指数[1]。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_maldi_tof_ms",
-        "name": "基质辅助激光解吸电离飞行时间质谱",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "基质辅助激光解吸电离飞行时间质谱（matrix-assisted laser desorption ionization time of flight mass spectrometry，MALDI-TOF MS）法通过将待测菌株的蛋白质谱图与数据库中已知真菌的参考谱图对比后可得出鉴定结果，耗时短（3～5 min）、成本低、高通量、准确性高（中等级，强推荐）。"
+          "确诊需分泌物涂片见真菌孢子或菌丝"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_antifungal_basic_principles",
-        "content": "选择抗真菌药物时应主要基于以下两方面考虑：首先，应尽可能寻找和明确感染部位，积极开展与其相关的临床合格标本的收集、真菌涂片、培养、真菌G试验等，以期获得微生物学证据，一旦明确致病菌即可根据感染部位、感染严重程度、患者基础情况、病原菌种类及其药敏试验结果等确定个体化治疗方案。",
-        "recommendation_strength": "强推荐",
-        "source_section": "6 抗真菌药物治疗基本原则",
-        "evidence_ids": [
-          "选择抗真菌药物时应主要基于以下两方面考虑：首先，应尽可能寻找和明确感染部位，积极开展与其相关的临床合格标本的收集、真菌涂片、培养、真菌G试验等，以期获得微生物学证据，一旦明确致病菌即可根据感染部位、感染严重程度、患者基础情况、病原菌种类及其药敏试验结果等确定个体化治疗方案。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_empirical_therapy",
-        "content": "经验性治疗是指有念珠菌病高危因素患者，已出现感染临床特征而采取的抗真菌治疗。",
-        "recommendation_strength": "中等级，强推荐",
-        "source_section": "7.2 经验性治疗",
-        "evidence_ids": [
-          "经验性治疗是指有念珠菌病高危因素患者，已出现感染临床特征而采取的抗真菌治疗。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_preemptive_therapy",
-        "content": "诊断驱动治疗（又称抢先治疗）是指有念珠菌病高危因素患者出现感染的临床特征，并有病原学非确诊检查阳性结果时给予的抗真菌治疗。",
-        "recommendation_strength": "中等级，强推荐",
-        "source_section": "7.3 诊断驱动治疗",
-        "evidence_ids": [
-          "诊断驱动治疗（又称抢先治疗）是指有念珠菌病高危因素患者出现感染的临床特征，并有病原学非确诊检查阳性结果时给予的抗真菌治疗[34]（中等级，强推荐）。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_targeted_therapy",
+        "id": "treatment_targeted",
         "content": "侵袭性念珠菌病一旦确诊，可根据感染部位、药敏试验结果和经验性或诊断驱动治疗的效果选用抗真菌药物。",
-        "recommendation_strength": "高等级，强推荐",
-        "source_section": "7.4 目标治疗",
+        "recommendation_strength": "强推荐",
+        "source_section": "目标治疗",
         "evidence_ids": [
-          "侵袭性念珠菌病一旦确诊，可根据感染部位、药敏试验结果和经验性或诊断驱动治疗的效果选用抗真菌药物。推荐首选棘白菌素类药物[21,22,27]（高等级，强推荐）。"
+          "侵袭性念珠菌病一旦确诊，可根据感染部位、药敏试验结果和经验性或诊断驱动治疗的效果选用抗真菌药物。推荐首选棘白菌素类药物"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_empirical",
+        "content": "有念珠菌病高危因素患者，已出现感染临床特征而采取的抗真菌治疗。",
+        "recommendation_strength": "强推荐",
+        "source_section": "经验性治疗",
+        "evidence_ids": [
+          "经验性治疗 是指有念珠菌病高危因素患者，已出现感染临床特征而采取的抗真菌治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_step_down",
+        "content": "在初始治疗病情稳定、血培养转阴后，可采用降阶梯治疗策略，即改用静脉或口服唑类药物治疗。",
+        "recommendation_strength": "强推荐",
+        "source_section": "降阶梯治疗",
+        "evidence_ids": [
+          "在初始治疗病情稳定、血培养转阴5～7 d后（初始治疗至少10 d以上），可采用降阶梯治疗策略，即改用静脉或口服唑类药物治疗"
         ],
         "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_ecinocandin_first_line",
-        "content": "在获得药敏试验结果前，首选棘白菌素类抗真菌药物",
+        "id": "plan_echinocandin_initial",
+        "content": "首选棘白菌素类抗真菌药物",
         "plan_level": 1,
-        "applicable_condition": "侵袭性念珠菌病确诊前",
+        "applicable_condition": "获得药敏试验结果前或确诊侵袭性念珠菌病",
         "contraindication_note": null,
         "evidence_ids": [
-          "在获得药敏试验结果前，首选棘白菌素类抗真菌药物[35]（高等级，强推荐）"
+          "在获得药敏试验结果前，首选棘白菌素类抗真菌药物",
+          "推荐首选棘白菌素类药物"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "plan_fluconazole_alternative",
-        "content": "对于病情相对较轻、无唑类抗真菌药物暴露史，且对其耐药可能性较小的患者，可选用氟康唑",
+        "id": "plan_fluconazole_step_down",
+        "content": "改用静脉或口服唑类药物治疗，首选氟康唑",
         "plan_level": 2,
-        "applicable_condition": "病情相对较轻、无唑类抗真菌药物暴露史，且对其耐药可能性较小",
-        "contraindication_note": null,
+        "applicable_condition": "初始治疗病情稳定、血培养转阴5～7 d后",
+        "contraindication_note": "若非克柔念珠菌或耳念珠菌感染",
         "evidence_ids": [
-          "对于病情相对较轻、无唑类抗真菌药物暴露史，且对其耐药可能性较小的患者，可选用氟康唑（高等级，强推荐）。"
+          "可采用降阶梯治疗策略，即改用静脉或口服唑类药物治疗...首选氟康唑"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_amphotericin_b_for_resistant",
-        "content": "两性霉素B适用于可能为唑类或棘白菌素类耐药者",
-        "plan_level": 3,
-        "applicable_condition": "可能为唑类或棘白菌素类耐药者",
-        "contraindication_note": "须监测其不良反应",
+        "id": "plan_amphotericin_b_cns",
+        "content": "两性霉素B或两性霉素B脂质体单用或联合氟胞嘧啶治疗",
+        "plan_level": 1,
+        "applicable_condition": "中枢神经系统念珠菌病初始治疗",
+        "contraindication_note": null,
         "evidence_ids": [
-          "两性霉素B适用于可能为唑类或棘白菌素类耐药者（低等级，强推荐），伏立康唑适用于粒细胞缺乏并需要额外覆盖曲霉感染者（高等级，强推荐）。"
+          "目前推荐两性霉素B[0.5～0.7 mg/（kg•d）]或两性霉素B脂质体单用或联合氟胞嘧啶治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_voriconazole_for_neutropenia",
-        "content": "伏立康唑适用于粒细胞缺乏并需要额外覆盖曲霉感染者",
-        "plan_level": 3,
-        "applicable_condition": "粒细胞缺乏并需要额外覆盖曲霉感染者",
+        "id": "plan_fluconazole_oropharyngeal",
+        "content": "口服氟康唑200～400 mg/d，治疗14～28 d",
+        "plan_level": 1,
+        "applicable_condition": "中重度口咽部念珠菌病患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "两性霉素B适用于可能为唑类或棘白菌素类耐药者（低等级，强推荐），伏立康唑适用于粒细胞缺乏并需要额外覆盖曲霉感染者（高等级，强推荐）。"
+          "中重度患者口服氟康唑200～400 mg/d，治疗14～28 d"
         ],
         "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_immunosuppression",
+        "id": "etiology_immunocompromised",
         "content": "免疫功能低下",
-        "etiology_type": "免疫因素",
+        "etiology_type": "宿主因素",
         "typicality": "典型",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "念珠菌病（candidiasis）是由各种致病性念珠菌引起的局部或全身感染性疾病，好发于免疫功能低下患者，可侵犯局部皮肤、黏膜以及全身各组织、器官，临床表现多样、轻重不一。"
+          "好发于免疫功能低下患者"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "etiology_antibiotics_use",
+        "id": "etiology_broad_spectrum_antibiotics",
         "content": "广谱抗菌药物使用",
         "etiology_type": "医源性因素",
         "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "近年来，随着肿瘤化疗、器官移植、糖皮质激素、免疫抑制剂及广谱抗菌药物的广泛应用等危险因素的增多，侵袭性念珠菌病（invasive candidiasis）发病率呈明显上升趋势。"
+          "广谱抗菌药物的广泛应用等危险因素的增多"
         ],
         "confidence": 0.9
       },
       {
-        "id": "etiology_corticosteroids",
-        "content": "糖皮质激素使用",
+        "id": "etiology_cvc",
+        "content": "留置中心静脉导管",
         "etiology_type": "医源性因素",
         "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "近年来，随着肿瘤化疗、器官移植、糖皮质激素、免疫抑制剂及广谱抗菌药物的广泛应用等危险因素的增多，侵袭性念珠菌病（invasive candidiasis）发病率呈明显上升趋势。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_immunosuppressants",
-        "content": "免疫抑制剂使用",
-        "etiology_type": "医源性因素",
-        "typicality": "常见",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "近年来，随着肿瘤化疗、器官移植、糖皮质激素、免疫抑制剂及广谱抗菌药物的广泛应用等危险因素的增多，侵袭性念珠菌病（invasive candidiasis）发病率呈明显上升趋势。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_organ_transplant",
-        "content": "器官移植",
-        "etiology_type": "医源性因素",
-        "typicality": "常见",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "近年来，随着肿瘤化疗、器官移植、糖皮质激素、免疫抑制剂及广谱抗菌药物的广泛应用等危险因素的增多，侵袭性念珠菌病（invasive candidiasis）发病率呈明显上升趋势。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_hematopoietic_stem_cell_transplant",
-        "content": "造血干细胞移植",
-        "etiology_type": "医源性因素",
-        "typicality": "常见",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "侵袭性念珠菌病是一个由定植、感染到发病的连续过程，多发生于抗细菌药物使用所致多部位、高强度念珠菌定植，并伴有生理屏障（解剖屏障、功能屏障和微生物屏障）破坏，或伴有严重基础疾病等机体免疫功能低下的患者。"
+          "留置中心静脉导管（central venous catheter，CVC）"
         ],
         "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_immunocompromise_and_barrier_breakdown",
+        "id": "pathogenesis_colonization_to_infection",
         "content": "侵袭性念珠菌病是一个由定植、感染到发病的连续过程，多发生于抗细菌药物使用所致多部位、高强度念珠菌定植，并伴有生理屏障（解剖屏障、功能屏障和微生物屏障）破坏，或伴有严重基础疾病等机体免疫功能低下的患者。",
         "evidence_ids": [
-          "侵袭性念珠菌病是一个由定植、感染到发病的连续过程，多发生于抗细菌药物使用所致多部位、高强度念珠菌定植，并伴有生理屏障（解剖屏障、功能屏障和微生物屏障）破坏，或伴有严重基础疾病等机体免疫功能低下的患者。"
+          "侵袭性念珠菌病是一个由定植、感染到发病的连续过程，多发生于抗细菌药物使用所致多部位、高强度念珠菌定植，并伴有生理屏障（解剖屏障、功能屏障和微生物屏障）破坏，或伴有严重基础疾病等机体免疫功能低下的患者"
         ],
-        "confidence": 0.85
+        "confidence": 0.95
       }
     ]
   },
@@ -758,13 +350,13 @@
       {
         "from": "disease_candidiasis",
         "to": "sub_disease_invasive_candidiasis",
-        "relation_id": "rel_candidiasis_has_invasive_candidiasis",
+        "relation_id": "rel_candidiasis_has_invasive",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "侵袭性念珠菌病（invasive candidiasis）发病率呈明显上升趋势。其中，念珠菌血症是侵袭性念珠菌病最常见的临床类型，常预后不佳。"
+          "侵袭性念珠菌病（invasive candidiasis）发病率呈明显上升趋势"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "from": "disease_candidiasis",
@@ -773,181 +365,49 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "念珠菌血症是指血培养一次或数次念珠菌阳性，为最常见的血流感染之一，早期全身毒血症状较轻，临床症状和体征无特异性，进展常缓慢，易被原发基础疾病和伴发的其他感染表现所掩盖，严重者可发生多器官功能障碍或衰竭，甚或感染性休克。"
+          "念珠菌血症是侵袭性念珠菌病最常见的临床类型"
         ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_candidiasis",
-        "to": "sub_disease_disseminated_candidiasis",
-        "relation_id": "rel_candidiasis_has_disseminated_candidiasis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "播散性念珠菌病（disseminated candidiasis）是指念珠菌侵入血循环，并在血液中生长繁殖后，进一步播散至2个或2个以上不相邻器官，引起相应器官感染。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_candidiasis",
-        "to": "sub_disease_acute_disseminated_candidiasis",
-        "relation_id": "rel_candidiasis_has_acute_disseminated_candidiasis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "急性播散性念珠菌病（acute disseminated candidiasis）呈急性起病，在念珠菌血症急性期可同时出现肝脾多发脓肿，皮肤或皮下软组织脓肿，或表现为感染性心内膜炎、骨髓炎、眼内炎、肺炎等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_candidiasis",
-        "to": "sub_disease_chronic_disseminated_candidiasis",
-        "relation_id": "rel_candidiasis_has_chronic_disseminated_candidiasis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "慢性播散性念珠菌病（chronic disseminated candidiasis）是侵袭性念珠菌病的一种独特表现形式，主要累及肝脏和脾脏，偶可累及肾脏等其他器官，故又称为肝脾念珠菌病（hepatosplenic candidiasis，HSC）。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_candidiasis",
-        "to": "sub_disease_candida_endocarditis",
-        "relation_id": "rel_candidiasis_has_candida_endocarditis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "念珠菌心内膜炎包括心脏天然瓣膜、人工瓣膜和心脏电子置入装置感染，病死率和复发率均较高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_candidiasis",
-        "to": "sub_disease_intra_abdominal_candidiasis",
-        "relation_id": "rel_candidiasis_has_intra_abdominal_candidiasis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "腹腔念珠菌病是最常见的侵袭性念珠菌病之一，主要包括腹膜炎和腹腔脓肿。该病临床表现无特异性，常有弥漫性/局灶性腹膜炎的症状或体征，常与细菌混合感染，可伴有全身毒血症状，病死率达20%～70%。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_candidiasis",
-        "to": "sub_disease_candida_endophthalmitis",
-        "relation_id": "rel_candidiasis_has_candida_endophthalmitis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "念珠菌性眼内炎可以是由眼部手术和眼外伤所致的外源性感染，但更多见于念珠菌通过血液循环进入眼内的内源性感染。通常亚急性起病，发生于念珠菌血症后数天至数周，最初表现为脉络膜炎或脉络膜视网膜炎，然后再突破视网膜进入玻璃体形成眼内炎。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_candidiasis",
-        "to": "sub_disease_bronchopulmonary_candidiasis",
-        "relation_id": "rel_candidiasis_has_bronchopulmonary_candidiasis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "支气管-肺念珠菌病主要包括气管-支气管炎（candida tracheobronchitis）和肺炎（candida pneumonia）两种类型。"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "from": "disease_candidiasis",
         "to": "sub_disease_cns_candidiasis",
-        "relation_id": "rel_candidiasis_has_cns_candidiasis",
+        "relation_id": "rel_candidiasis_has_cns",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "早期尸解研究结果显示，在侵袭性念珠菌病死亡患者中，50%累及中枢神经系统。临床表现常有发热、头痛和不同程度的意识障碍（如谵妄、昏迷等），可有脑膜刺激征、脑积水，脑脊液中细胞数量轻度增多，糖含量正常或偏低，蛋白含量明显升高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_candidiasis",
-        "to": "sub_disease_candida_osteomyelitis",
-        "relation_id": "rel_candidiasis_has_candida_osteomyelitis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "念珠菌骨髓炎常以亚急性或慢性方式起病，近70%的患者是由血行播散所致，其次为直接种植或邻近组织感染。白念珠菌最为常见，混合细菌感染也时有发生，特别是金黄色葡萄球菌感染并不少见。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_candidiasis",
-        "to": "sub_disease_candida_septic_arthritis",
-        "relation_id": "rel_candidiasis_has_candida_septic_arthritis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "念珠菌关节炎较为少见，通常为播散性念珠菌病的一部分，也可为关节术后植入物相关感染。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_candidiasis",
-        "to": "sub_disease_mucosal_candidiasis",
-        "relation_id": "rel_candidiasis_has_mucosal_candidiasis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "皮肤、黏膜念珠菌病，特别是口咽部、食管、阴道等局部感染虽然不属于侵袭性念珠菌病，但临床较为常见，又常为侵袭性念珠菌病的感染源，抑或受累器官，故本共识将其纳入。"
+          "中枢神经系统念珠菌病（central nervous system candidiasis）"
         ],
         "confidence": 0.9
       },
       {
         "from": "disease_candidiasis",
         "to": "sub_disease_oropharyngeal_candidiasis",
-        "relation_id": "rel_candidiasis_has_oropharyngeal_candidiasis",
+        "relation_id": "rel_candidiasis_has_oropharyngeal",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "9.1 口咽部念珠菌病 包括急性假膜性念珠菌病（鹅口疮）、念珠菌口角炎、急/慢性萎缩性口炎、慢性增生性念珠菌病等临床类型，以鹅口疮最为多见，艾滋病（acquired immune deficiency syndrome，AIDS）、恶性肿瘤、长期应用广谱抗菌药物或糖皮质激素等免疫功能低下患者易感，并常伴有消化道念珠菌病以及播散性念珠菌病的可能。"
+          "口咽部念珠菌病 包括急性假膜性念珠菌病（鹅口疮）"
         ],
         "confidence": 0.9
       },
       {
         "from": "disease_candidiasis",
-        "to": "sub_disease_candida_esophagitis",
-        "relation_id": "rel_candidiasis_has_candida_esophagitis",
+        "to": "sub_disease_esophageal_candidiasis",
+        "relation_id": "rel_candidiasis_has_esophageal",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "9.2 念珠菌食管炎 最常见的症状为吞咽疼痛、吞咽困难，吞咽食物时胸骨后疼痛或烧灼感，常伴鹅口疮，恶心、呕吐、食欲减退、体重减轻，而全身毒血症症状相对较轻。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_candidiasis",
-        "to": "sub_disease_vulvovaginal_candidiasis",
-        "relation_id": "rel_candidiasis_has_vulvovaginal_candidiasis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "9.4 外阴阴道念珠菌病 较为常见，孕妇好发。外阴部红肿、剧烈瘙痒和烧灼感是本病的突出症状。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_candidiasis",
-        "to": "sub_disease_cutaneous_candidiasis",
-        "relation_id": "rel_candidiasis_has_cutaneous_candidiasis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "10 皮肤念珠菌病（cutaneous candidiasis） 好发于皮肤皱褶处，如腋窝、腹股沟、乳房下、肛门周围、会阴部以及指（趾）间等皮肤潮湿部位。"
+          "念珠菌食管炎 最常见的症状为吞咽疼痛、吞咽困难"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_invasive_candidiasis",
+        "from": "sub_disease_candidemia",
         "to": "symptom_fever",
-        "relation_id": "rel_invasive_candidiasis_manifests_as_fever",
+        "relation_id": "rel_candidemia_manifests_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -957,16 +417,16 @@
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "临床表现",
         "evidence_ids": [
-          "临床表现为寒战、高热，血培养持续阳性，全身各脏器、组织可有多发性小脓肿，病情常会迅速恶化，出现神志淡漠、嗜睡，多器官功能障碍或衰竭、感染性休克，预后极差。"
+          "临床表现为寒战、高热"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_invasive_candidiasis",
+        "from": "sub_disease_candidemia",
         "to": "symptom_chills",
-        "relation_id": "rel_invasive_candidiasis_manifests_as_chills",
+        "relation_id": "rel_candidemia_manifests_chills",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -976,103 +436,90 @@
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "临床表现",
         "evidence_ids": [
-          "临床表现为寒战、高热，血培养持续阳性，全身各脏器、组织可有多发性小脓肿，病情常会迅速恶化，出现神志淡漠、嗜睡，多器官功能障碍或衰竭、感染性休克，预后极差。"
+          "临床表现为寒战、高热"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_candida_endocarditis",
-        "to": "symptom_fever",
-        "relation_id": "rel_candida_endocarditis_manifests_as_fever",
+        "from": "sub_disease_cns_candidiasis",
+        "to": "symptom_consciousness_disorder",
+        "relation_id": "rel_cns_manifests_consciousness",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
+        "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "临床表现",
         "evidence_ids": [
-          "临床表现为心脏受累的症状和体征，与其他感染性心内膜炎相似，如发热、贫血、心脏杂音及脾大等表现，但瓣膜赘生物通常较大且脆，栓子易脱落引起栓塞，动脉栓塞较细菌性心内膜炎更为常见，预后差。"
+          "临床表现常有发热、头痛和不同程度的意识障碍（如谵妄、昏迷等）"
         ],
-        "confidence": 0.9
+        "confidence": 0.9,
+        "weight_reason": "原文指出中枢神经系统念珠菌病临床表现常有意识障碍，为常见症状。",
+        "evidence": "临床表现常有发热、头痛和不同程度的意识障碍"
       },
       {
-        "from": "sub_disease_candida_endocarditis",
-        "to": "symptom_anemia",
-        "relation_id": "rel_candida_endocarditis_manifests_as_anemia",
+        "from": "sub_disease_oropharyngeal_candidiasis",
+        "to": "symptom_oral_thrush",
+        "relation_id": "rel_oropharyngeal_manifests_thrush",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "临床表现为心脏受累的症状和体征，与其他感染性心内膜炎相似，如发热、贫血、心脏杂音及脾大等表现，但瓣膜赘生物通常较大且脆，栓子易脱落引起栓塞，动脉栓塞较细菌性心内膜炎更为常见，预后差。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_candida_endocarditis",
-        "to": "symptom_cardiac_murmur",
-        "relation_id": "rel_candida_endocarditis_manifests_as_cardiac_murmur",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "临床表现",
         "evidence_ids": [
-          "临床表现为心脏受累的症状和体征，与其他感染性心内膜炎相似，如发热、贫血、心脏杂音及脾大等表现，但瓣膜赘生物通常较大且脆，栓子易脱落引起栓塞，动脉栓塞较细菌性心内膜炎更为常见，预后差。"
+          "包括急性假膜性念珠菌病（鹅口疮）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95,
+        "weight_reason": "原文指出口咽部念珠菌病包括鹅口疮且以鹅口疮最为多见。",
+        "evidence": "以鹅口疮最为多见"
       },
       {
-        "from": "sub_disease_candida_endocarditis",
-        "to": "symptom_splenomegaly",
-        "relation_id": "rel_candida_endocarditis_manifests_as_splenomegaly",
+        "from": "sub_disease_esophageal_candidiasis",
+        "to": "symptom_dysphagia",
+        "relation_id": "rel_esophageal_manifests_dysphagia",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 5,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
+        "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "临床表现",
         "evidence_ids": [
-          "临床表现为心脏受累的症状和体征，与其他感染性心内膜炎相似，如发热、贫血、心脏杂音及脾大等表现，但瓣膜赘生物通常较大且脆，栓子易脱落引起栓塞，动脉栓塞较细菌性心内膜炎更为常见，预后差。"
+          "最常见的症状为吞咽疼痛、吞咽困难"
         ],
-        "confidence": 0.9
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出念珠菌食管炎最常见的症状包含吞咽困难。",
+        "evidence": "最常见的症状为吞咽疼痛、吞咽困难"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_invasive_candidiasis",
+        "from": "sub_disease_candidemia",
         "to": "test_blood_culture",
-        "relation_id": "rel_invasive_candidiasis_requires_blood_culture",
+        "relation_id": "rel_candidemia_requires_blood_culture",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "血培养阳性",
+        "result_text": "念珠菌阳性",
         "weight": 100,
         "gold_standard": true,
         "criterion_group_id": null,
@@ -1082,75 +529,211 @@
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "确诊有赖于血培养，但血培养阳性率不及50%，故明确局部感染灶、真菌G试验动态监测均有助于临床诊断。"
+          "念珠菌血症是指血培养一次或数次念珠菌阳性",
+          "确诊有赖于血培养"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确将血液培养阳性列为侵袭性念珠菌病诊断的金标准",
-        "evidence": "来源于无菌体液标本如血液、脑脊液、腹水、胸腔积液、关节腔积液等培养阳性，或活检组织标本培养阳性且伴有组织侵袭证据，可作为侵袭性念珠菌病诊断的金标准（高等级，强推荐）。"
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出念珠菌血症的确诊有赖于血培养，为确诊金标准依据。",
+        "evidence": "确诊有赖于血培养"
       },
       {
         "from": "sub_disease_invasive_candidiasis",
         "to": "test_g_test",
-        "relation_id": "rel_invasive_candidiasis_requires_g_test",
+        "relation_id": "rel_invasive_requires_g_test",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断支持条件",
+        "type_info": "推荐诊断项",
         "diagnostic_role": "supportive",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "真菌G试验阳性",
-        "weight": 8,
+        "result_text": "阳性",
+        "weight": 7,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "common",
+        "section_priority": "病原学诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "真菌G试验是诊断侵袭性念珠菌病的一个重要参考"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_cns_candidiasis",
+        "to": "test_csf_exam",
+        "relation_id": "rel_cns_requires_csf",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "找到真菌",
+        "weight": 100,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "真菌G试验是诊断侵袭性念珠菌病的一个重要参考，敏感性和特异性分别为76.8%和85.3%[24]，真菌G试验的特异性随着检测结果数值的升高而升高[25]，动态监测真菌G试验对于疗效判断也有重要意义[26]。"
+          "确诊有赖于在脑组织或脑脊液标本中找到真菌"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文称真菌G试验为‘一个重要参考’，敏感性76.8%、特异性85.3%，并指出其非特异性，存在假阳/假阴，故权重低于金标准但属强支持性检测",
-        "evidence": "真菌G试验是诊断侵袭性念珠菌病的一个重要参考，敏感性和特异性分别为76.8%和85.3%[24]，真菌G试验的特异性随着检测结果数值的升高而升高[25]，动态监测真菌G试验对于疗效判断也有重要意义[26]。"
+        "weight_reason": "原文明确指出中枢神经系统念珠菌病确诊有赖于脑脊液等标本中找到真菌。",
+        "evidence": "确诊有赖于在脑组织或脑脊液标本中找到真菌"
+      },
+      {
+        "from": "sub_disease_oropharyngeal_candidiasis",
+        "to": "test_direct_microscopy",
+        "relation_id": "rel_oropharyngeal_requires_microscopy",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "见真菌孢子或菌丝",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "确诊需分泌物涂片见真菌孢子或菌丝"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文未特指口咽部，但指出直接镜检查见芽孢或菌丝往往提示念珠菌感染。",
+        "evidence": "查见卵圆形芽孢或孢子、假菌丝或菌丝往往提示为念珠菌"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_invasive_candidiasis",
-        "to": "treatment_targeted_therapy",
-        "relation_id": "rel_invasive_candidiasis_follows_targeted_therapy",
+        "from": "sub_disease_candidemia",
+        "to": "treatment_targeted",
+        "relation_id": "rel_candidemia_follows_targeted",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
         "applicable_condition": "确诊后",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "高等级，强推荐",
+        "recommendation_strength": "强推荐",
         "decision_basis": [
-          "感染部位",
           "药敏试验结果"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "7.4 目标治疗",
+        "source_section": "目标治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_invasive_candidiasis",
+        "to": "treatment_empirical",
+        "relation_id": "rel_invasive_follows_empirical",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "有高危因素且出现感染临床特征",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强推荐",
+        "decision_basis": [
+          "高危因素",
+          "临床特征"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "经验性治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_candidemia",
+        "to": "treatment_step_down",
+        "relation_id": "rel_candidemia_follows_step_down",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "初始治疗病情稳定、血培养转阴后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强推荐",
+        "decision_basis": [
+          "病情稳定",
+          "血培养转阴"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "降阶梯治疗",
         "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_targeted_therapy",
-        "to": "plan_ecinocandin_first_line",
-        "relation_id": "rel_targeted_therapy_implements_by_ecinocandin",
+        "from": "treatment_targeted",
+        "to": "plan_echinocandin_initial",
+        "relation_id": "rel_targeted_implements_echinocandin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "确诊前",
+        "applicable_condition": "确诊侵袭性念珠菌病",
         "contraindication_note": null,
         "evidence_ids": [
-          "在获得药敏试验结果前，首选棘白菌素类抗真菌药物[35]（高等级，强推荐）"
+          "推荐首选棘白菌素类药物"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_step_down",
+        "to": "plan_fluconazole_step_down",
+        "relation_id": "rel_step_down_implements_fluconazole",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "初始治疗病情稳定、血培养转阴5～7 d后",
+        "contraindication_note": "若非克柔念珠菌或耳念珠菌感染",
+        "evidence_ids": [
+          "可采用降阶梯治疗策略，即改用静脉或口服唑类药物治疗...首选氟康唑"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_targeted",
+        "to": "plan_amphotericin_b_cns",
+        "relation_id": "rel_targeted_implements_amphotericin_cns",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "中枢神经系统念珠菌病",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "目前推荐两性霉素B[0.5～0.7 mg/（kg•d）]或两性霉素B脂质体单用或联合氟胞嘧啶治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_targeted",
+        "to": "plan_fluconazole_oropharyngeal",
+        "relation_id": "rel_targeted_implements_fluconazole_oro",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "中重度口咽部念珠菌病",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "中重度患者口服氟康唑200～400 mg/d，治疗14～28 d"
         ],
         "confidence": 0.9
       }
@@ -1158,16 +741,46 @@
     "causes": [
       {
         "from": "sub_disease_invasive_candidiasis",
-        "to": "etiology_immunosuppression",
-        "relation_id": "rel_invasive_candidiasis_caused_by_immunosuppression",
+        "to": "etiology_immunocompromised",
+        "relation_id": "rel_invasive_caused_by_immuno",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
-        "typicality": "典型",
+        "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "念珠菌病（candidiasis）是由各种致病性念珠菌引起的局部或全身感染性疾病，好发于免疫功能低下患者，可侵犯局部皮肤、黏膜以及全身各组织、器官，临床表现多样、轻重不一。"
+          "好发于免疫功能低下患者"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_invasive_candidiasis",
+        "to": "etiology_broad_spectrum_antibiotics",
+        "relation_id": "rel_invasive_caused_by_antibiotics",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "广谱抗菌药物的广泛应用等危险因素的增多"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_candidemia",
+        "to": "etiology_cvc",
+        "relation_id": "rel_candidemia_caused_by_cvc",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "留置中心静脉导管（central venous catheter，CVC）"
         ],
         "confidence": 0.9
       }
@@ -1175,14 +788,14 @@
     "explained_by": [
       {
         "from": "sub_disease_invasive_candidiasis",
-        "to": "pathogenesis_immunocompromise_and_barrier_breakdown",
-        "relation_id": "rel_invasive_candidiasis_explained_by_immunocompromise",
+        "to": "pathogenesis_colonization_to_infection",
+        "relation_id": "rel_invasive_explained_by_colonization",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "侵袭性念珠菌病是一个由定植、感染到发病的连续过程，多发生于抗细菌药物使用所致多部位、高强度念珠菌定植，并伴有生理屏障（解剖屏障、功能屏障和微生物屏障）破坏，或伴有严重基础疾病等机体免疫功能低下的患者。"
+          "侵袭性念珠菌病是一个由定植、感染到发病的连续过程，多发生于抗细菌药物使用所致多部位、高强度念珠菌定植，并伴有生理屏障（解剖屏障、功能屏障和微生物屏障）破坏，或伴有严重基础疾病等机体免疫功能低下的患者"
         ],
-        "confidence": 0.85
+        "confidence": 0.95
       }
     ]
   },

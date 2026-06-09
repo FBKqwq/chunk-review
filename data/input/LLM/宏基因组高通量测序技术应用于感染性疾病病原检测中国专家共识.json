@@ -2,7 +2,7 @@
   "meta": {
     "doc_id": "宏基因组高通量测序技术应用于感染性疾病病原检测中国专家共识",
     "source_title": "宏基因组高通量测序技术应用于感染性疾病病原检测中国专家共识",
-    "section_path": "",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -11,7 +11,7 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_infectious_disease",
+        "id": "disease_infectious_diseases",
         "name": "感染性疾病",
         "normalized_name": "感染性疾病",
         "aliases": [
@@ -28,162 +28,114 @@
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_fever_of_unknown_origin",
-        "name": "不明原因发热",
-        "parent_disease_id": "disease_infectious_disease",
+        "id": "sub_disease_fuo_infection",
+        "name": "不明原因发热疑似感染",
+        "parent_disease_id": "disease_infectious_diseases",
         "disease_subtype": null,
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "不明原因发热患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "不明原因发热（fever of unknown origin，FUO）诊断标准：四分类标准参见文献[6-7]，其中经典FUO参见文献[8]。"
+          "患者表现为发热或发热症候群，病因未明确（符合不明原因发热定义），考虑感染或不除外感染，但规范性经验抗感染治疗无效，考虑应用常规技术检测的同时，或在其基础上，开展mNGS。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_critical_illness_infection",
+        "id": "sub_disease_critical_infection",
         "name": "急危重症感染",
-        "parent_disease_id": "disease_infectious_disease",
+        "parent_disease_id": "disease_infectious_diseases",
         "disease_subtype": null,
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": null,
+        "population": "急危重症患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "急危重症指重要脏器衰竭，甚至多器官功能衰竭，也包括脓毒性休克[9-10]、血流感染[12]、脑膜炎、重症肺炎[13]、复杂性腹腔感染[16]、骨髓炎和脓毒性关节炎[17-18]、坏死性筋膜炎等皮肤软组织感染[19-20]等临床情况。"
+          "各种原因导致患者急危重症表现，不除外感染所致，或考虑继发或并发危及生命的严重感染，建议常规检测的同时，或在常规检测基础上，开展mNGS。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_immunocompromised_host_infection",
+        "id": "sub_disease_immunocompromised_infection",
         "name": "免疫受损患者继发感染",
-        "parent_disease_id": "disease_infectious_disease",
+        "parent_disease_id": "disease_infectious_diseases",
         "disease_subtype": null,
         "clinical_stage": "不限定",
-        "severity": null,
+        "severity": "不限定",
         "population": "免疫受损患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "共识4 免疫受损患者疑似继发感染，常规病原学检查未能明确致病原或/和规范性经验抗感染治疗无效，建议进一步完善常规病原学检测的同时，或在其基础上，开展mNGS。免疫受损标准参见文献[21-23]。"
+          "免疫受损患者疑似继发感染，常规病原学检查未能明确致病原或/和规范性经验抗感染治疗无效，建议进一步完善常规病原学检测的同时，或在其基础上，开展mNGS。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_localized_infection_urgent",
-        "name": "疑似局部感染且后果严重",
-        "parent_disease_id": "disease_infectious_disease",
+        "id": "sub_disease_local_severe_infection",
+        "name": "疑似局部严重感染",
+        "parent_disease_id": "disease_infectious_diseases",
         "disease_subtype": null,
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "重症",
+        "population": "疑似局部感染患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "共识5 疑似局部感染，病原学诊断未明确、不及时处理则后果严重（危及生命或会导致局部功能不可逆性丧失）时，考虑常规检测的同时，或在其基础上，开展mNGS。如眼部（角膜炎/溃疡、眼内炎、急性视网膜坏死等）、鼻部、耳部、喉部感染、糖尿病足、外伤累及深部组织等情况[27]。"
+          "疑似局部感染，病原学诊断未明确、不及时处理则后果严重（危及生命或会导致局部功能不可逆性丧失）时，考虑常规检测的同时，或在其基础上，开展mNGS。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_chronic_infection_or_suspected",
-        "name": "慢性感染或慢性疾病不除外感染",
-        "parent_disease_id": "disease_infectious_disease",
+        "id": "sub_disease_chronic_infection",
+        "name": "慢性感染",
+        "parent_disease_id": "disease_infectious_diseases",
         "disease_subtype": null,
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "慢性感染或慢性疾病患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "共识7 慢性感染，或慢性疾病不除外感染，尤其是二者临床表现相似、难以鉴别时，病情严重或抗感染治疗疗效不佳需要明确病因，建议在完善常规检测、调整经验治疗的同时开展mNGS。如糖尿病患者足部慢性临床表现疑似感染；或膝关节移植3个月后出现慢性症状不除外感染。"
+          "慢性感染，或慢性疾病不除外感染，尤其是二者临床表现相似、难以鉴别时，病情严重或抗感染治疗疗效不佳需要明确病因，建议在完善常规检测、调整经验治疗的同时开展mNGS。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_novel_pathogen_suspicion",
-        "name": "疑似新发病原体感染",
-        "parent_disease_id": "disease_infectious_disease",
+        "id": "sub_disease_special_pathogen_infection",
+        "name": "新发或特殊病原体感染",
+        "parent_disease_id": "disease_infectious_diseases",
         "disease_subtype": null,
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "疑似新发或特殊病原体感染患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "共识10 针对微生物，考虑出现疑似新发病原体，或某特殊病原体[32-33]，缺乏传统技术或传统技术手段不能确定种属时，建议常规检测的同时，或在其基础上，开展mNGS。特殊病原体指患者所在医疗机构或地区无法检测，但其他临床证据考虑疑似相应病原体感染，或不能除外该病原体，或实验室生物安全等级不允许分离高致病病原体时。"
+          "针对微生物，考虑出现疑似新发病原体，或某特殊病原体，缺乏传统技术或传统技术手段不能确定种属时，建议常规检测的同时，或在其基础上，开展mNGS。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_multiple_pathogen_suspicion",
-        "name": "多种病原反复检测阴性但高度怀疑感染",
-        "parent_disease_id": "disease_infectious_disease",
+        "id": "sub_disease_outbreak_infection",
+        "name": "聚集性发病或暴发感染",
+        "parent_disease_id": "disease_infectious_diseases",
         "disease_subtype": null,
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "聚集性发病或暴发人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "共识11 临床表现高度怀疑感染性疾病而多种传统技术反复检测不能明确致病微生物，但仍高度怀疑微生物所致[34]，建议继续完善更多检测技术的同时或在其基础上，开展mNGS。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_mixed_infection_suspicion",
-        "name": "临床表现与抗感染治疗反应不一致提示混合感染",
-        "parent_disease_id": "disease_infectious_disease",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "共识12 传统病原学检测的结果不能解释临床表现的全貌或/和抗感染治疗的反应，怀疑同时存在其他病原感染时建议进一步完善更多检测技术的同时或在其基础上，开展mNGS。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_epidemic_outbreak",
-        "name": "感染性疾病聚集性发病或暴发",
-        "parent_disease_id": "disease_infectious_disease",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "共识16 出现某种疾病的聚集性发病或暴发[35]，怀疑是微生物导致的感染性疾病但病原不明，且常规快速检测无结果时，建议完善常规检测的同时或在其基础上开展mNGS明确致病微生物。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_travel_related_infection",
-        "name": "有特殊区域旅居史或职业暴露史的感染",
-        "parent_disease_id": "disease_infectious_disease",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "共识17 感染性疾病患者有特殊区域（如北美地区有某些致病性真菌）旅居史，或有特殊职业工作史（如畜牧业、屠宰业、水产业等[36]），感染病原未明，建议常规手段检测的同时开展mNGS。"
+          "出现某种疾病的聚集性发病或暴发，怀疑是微生物导致的感染性疾病但病原不明，且常规快速检测无结果时，建议完善常规检测的同时或在其基础上开展mNGS明确致病微生物。"
         ],
         "confidence": 0.9
       }
@@ -197,7 +149,7 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "共识2 患者表现为发热或发热症候群，病因未明确（符合不明原因发热定义），考虑感染或不排除感染，但规范性经验抗感染治疗无效，考虑应用常规技术检测的同时，或在其基础上，开展mNGS。"
+          "患者表现为发热或发热症候群"
         ],
         "confidence": 0.9
       },
@@ -214,98 +166,26 @@
         "confidence": 0.9
       },
       {
-        "id": "symptom_cns_syndrome",
-        "name": "中枢症候群",
-        "body_site": "中枢神经系统",
-        "symptom_category": "神经系统症状",
+        "id": "symptom_critical_illness",
+        "name": "急危重症表现",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
-          "发热症候群包括：发热+中枢症候群、发热+呼吸道症候群、发热+腹痛和/或腹泻症候群、发热+黄疸症候群、发热+肝脾症候群、发热+女性生殖系统症候群、发热+骨关节症候群、发热+皮疹症候群和发热伴多系统表现。"
+          "各种原因导致患者急危重症表现，不除外感染所致"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_respiratory_syndrome",
-        "name": "呼吸道症候群",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
+        "id": "symptom_chronic_symptoms",
+        "name": "慢性症状",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "发热症候群包括：发热+中枢症候群、发热+呼吸道症候群、发热+腹痛和/或腹泻症候群、发热+黄疸症候群、发热+肝脾症候群、发热+女性生殖系统症候群、发热+骨关节症候群、发热+皮疹症候群和发热伴多系统表现。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_abdominal_pain_or_diarrhea",
-        "name": "腹痛和/或腹泻",
-        "body_site": "消化系统",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "发热症候群包括：发热+中枢症候群、发热+呼吸道症候群、发热+腹痛和/或腹泻症候群、发热+黄疸症候群、发热+肝脾症候群、发热+女性生殖系统症候群、发热+骨关节症候群、发热+皮疹症候群和发热伴多系统表现。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_jaundice",
-        "name": "黄疸",
-        "body_site": "肝胆系统",
-        "symptom_category": "肝胆系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "发热症候群包括：发热+中枢症候群、发热+呼吸道症候群、发热+腹痛和/或腹泻症候群、发热+黄疸症候群、发热+肝脾症候群、发热+女性生殖系统症候群、发热+骨关节症候群、发热+皮疹症候群和发热伴多系统表现。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_hepatosplenomegaly",
-        "name": "肝脾症候群",
-        "body_site": "肝脾",
-        "symptom_category": "肝胆系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "发热症候群包括：发热+中枢症候群、发热+呼吸道症候群、发热+腹痛和/或腹泻症候群、发热+黄疸症候群、发热+肝脾症候群、发热+女性生殖系统症候群、发热+骨关节症候群、发热+皮疹症候群和发热伴多系统表现。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_genital_syndrome",
-        "name": "女性生殖系统症候群",
-        "body_site": "女性生殖系统",
-        "symptom_category": "生殖系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "发热症候群包括：发热+中枢症候群、发热+呼吸道症候群、发热+腹痛和/或腹泻症候群、发热+黄疸症候群、发热+肝脾症候群、发热+女性生殖系统症候群、发热+骨关节症候群、发热+皮疹症候群和发热伴多系统表现。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_joint_pain",
-        "name": "骨关节症候群",
-        "body_site": "骨关节",
-        "symptom_category": "骨骼肌肉系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "发热症候群包括：发热+中枢症候群、发热+呼吸道症候群、发热+腹痛和/或腹泻症候群、发热+黄疸症候群、发热+肝脾症候群、发热+女性生殖系统症候群、发热+骨关节症候群、发热+皮疹症候群和发热伴多系统表现。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_rash",
-        "name": "皮疹",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "发热症候群包括：发热+中枢症候群、发热+呼吸道症候群、发热+腹痛和/或腹泻症候群、发热+黄疸症候群、发热+肝脾症候群、发热+女性生殖系统症候群、发热+骨关节症候群、发热+皮疹症候群和发热伴多系统表现。"
+          "慢性感染，或慢性疾病不除外感染，尤其是二者临床表现相似、难以鉴别时"
         ],
         "confidence": 0.9
       }
@@ -313,114 +193,159 @@
     "tests": [
       {
         "id": "test_mngs",
-        "name": "宏基因组高通量测序",
+        "name": "宏基因组高通量测序(mNGS)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "宏基因组高通量测序技术通过对临床样本中微生物和宿主核酸的测序分析，可以无偏倚地检测多种病原微生物，正在逐渐应用于临床感染性疾病病原检测"
+          "宏基因组高通量测序技术通过对临床样本中微生物和宿主核酸的测序分析，可以无偏倚地检测多种病原微生物"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_urine_culture",
-        "name": "尿培养",
+        "id": "test_traditional_microbiology",
+        "name": "传统微生物学检查",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "共识1 对常规微生物学检查容易明确病原体的感染，如尿路感染通过尿培养手段，不建议mNGS。"
+          "传统微生物病原学诊断技术依然是临床微生物学首选手段"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_blood_culture",
-        "name": "血培养",
+        "id": "test_pcr",
+        "name": "聚合酶链式反应(PCR)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "共识3 各种原因导致患者急危重症表现，不排除感染所致，或考虑继发或并发危及生命的严重感染，建议常规检测的同时，或在常规检测基础上，开展mNGS。"
+          "采用其他方法验证，如特异引物的PCR或一代测序等分子生物学检测"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_csf_culture",
-        "name": "脑脊液培养",
+        "id": "test_serology",
+        "name": "血清学试验",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "共识3 各种原因导致患者急危重症表现，不排除感染所致，或考虑继发或并发危及生命的严重感染，建议常规检测的同时，或在常规检测基础上，开展mNGS。"
+          "G试验，GM试验，曲霉菌IgG抗体或隐球菌荚膜多糖抗原等血清学试验"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_g_test",
-        "name": "G试验",
+        "id": "test_wgs",
+        "name": "全基因组测序(WGS)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "共识33 建议对于在核酸提取过程中破壁困难的微生物……应采用其他方法验证，如特异引物的PCR或一代测序等分子生物学检测，G试验，GM试验，曲霉菌IgG抗体或隐球菌荚膜多糖抗原等血清学试验。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_gm_test",
-        "name": "GM试验",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "共识33 建议对于在核酸提取过程中破壁困难的微生物……应采用其他方法验证，如特异引物的PCR或一代测序等分子生物学检测，G试验，GM试验，曲霉菌IgG抗体或隐球菌荚膜多糖抗原等血清学试验。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_cryptococcus_capsular_polysaccharide_antigen",
-        "name": "隐球菌荚膜多糖抗原",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "共识33 建议对于在核酸提取过程中破壁困难的微生物……应采用其他方法验证，如特异引物的PCR或一代测序等分子生物学检测，G试验，GM试验，曲霉菌IgG抗体或隐球菌荚膜多糖抗原等血清学试验。"
+          "可对纯菌落进行全基因组测序（whole genome sequencing, WGS），推测耐药情况"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_mngs_as_complement",
-        "content": "mNGS不能替代传统病原学诊断技术，但可以作为传统手段的有益补充和印证。",
-        "recommendation_strength": "strong",
-        "source_section": "微生物学适应证",
+        "id": "treatment_empirical_antimicrobial",
+        "content": "规范性经验抗感染治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "临床适应证",
         "evidence_ids": [
-          "传统微生物病原学诊断技术依然是临床微生物学首选手段，可以进一步强化应用[28]。mNGS不能替代传统病原学诊断技术，但可以作为传统手段的有益补充和印证。"
+          "规范性经验抗感染治疗无效，考虑应用常规技术检测的同时，或在其基础上，开展mNGS。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_mngs_not_for_monitoring",
-        "content": "不建议应用mNGS技术评估抗感染治疗效果。",
-        "recommendation_strength": "strong",
-        "source_section": "微生物学适应证",
+        "id": "treatment_targeted_antimicrobial",
+        "content": "靶向抗微生物治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "报告解读",
         "evidence_ids": [
-          "共识9 不建议应用mNGS技术评估抗感染治疗效果。"
+          "盲目依据mNGS报告开展治疗，必将导致抗微生物药物的滥用"
         ],
         "confidence": 0.9
       }
     ],
-    "plans": [],
+    "plans": [
+      {
+        "id": "plan_empirical_therapy_adjustment",
+        "content": "调整经验抗微生物治疗方案",
+        "plan_level": 1,
+        "applicable_condition": "高度疑似感染性疾病，但病原学诊断未明确且常规抗感染治疗无效",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "建议进一步完善常规病原学检测、处理原发感染灶（如拔去导管、外科引流或拔去引流管、玻璃体切除）、调整经验抗微生物治疗方案的同时开展mNGS。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_source_control",
+        "content": "处理原发感染灶（如拔去导管、外科引流或拔去引流管、玻璃体切除）",
+        "plan_level": 1,
+        "applicable_condition": "高度疑似感染性疾病，但病原学诊断未明确且常规抗感染治疗无效",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "建议进一步完善常规病原学检测、处理原发感染灶（如拔去导管、外科引流或拔去引流管、玻璃体切除）、调整经验抗微生物治疗方案的同时开展mNGS。"
+        ],
+        "confidence": 0.9
+      }
+    ],
     "etiologies": [
+      {
+        "id": "etiology_bacteria",
+        "content": "细菌感染",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "可以无偏倚地检测多种病原微生物（包括病毒、细菌、真菌和寄生虫）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_fungi",
+        "content": "真菌感染",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "可以无偏倚地检测多种病原微生物（包括病毒、细菌、真菌和寄生虫）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_viruses",
+        "content": "病毒感染",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "可以无偏倚地检测多种病原微生物（包括病毒、细菌、真菌和寄生虫）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_parasites",
+        "content": "寄生虫感染",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "可以无偏倚地检测多种病原微生物（包括病毒、细菌、真菌和寄生虫）"
+        ],
+        "confidence": 0.9
+      },
       {
         "id": "etiology_novel_pathogen",
         "content": "新发病原体",
         "etiology_type": "感染因素",
         "typicality": "少见",
-        "diagnostic_role": "必要条件",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "共识10 针对微生物，考虑出现疑似新发病原体，或某特殊病原体[32-33]，缺乏传统技术或传统技术手段不能确定种属时，建议常规检测的同时，或在其基础上，开展mNGS。"
+          "考虑出现疑似新发病原体，或某特殊病原体"
         ],
         "confidence": 0.9
       },
@@ -429,155 +354,117 @@
         "content": "特殊病原体",
         "etiology_type": "感染因素",
         "typicality": "少见",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "特殊病原体指患者所在医疗机构或地区无法检测，但其他临床证据考虑疑似相应病原体感染，或不能除外该病原体，或实验室生物安全等级不允许分离高致病病原体时。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_mixed_infection",
-        "content": "混合感染",
-        "etiology_type": "感染因素",
-        "typicality": "少见",
         "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "共识12 传统病原学检测的结果不能解释临床表现的全貌或/和抗感染治疗的反应，怀疑同时存在其他病原感染时建议进一步完善更多检测技术的同时或在其基础上，开展mNGS。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_epidemic_microorganism",
-        "content": "导致感染性疾病的微生物",
-        "etiology_type": "感染因素",
-        "typicality": "典型",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "共识16 出现某种疾病的聚集性发病或暴发[35]，怀疑是微生物导致的感染性疾病但病原不明，且常规快速检测无结果时，建议完善常规检测的同时或在其基础上开展mNGS明确致病微生物。"
+          "考虑出现疑似新发病原体，或某特殊病原体"
         ],
         "confidence": 0.9
       }
     ],
-    "pathogenesis": []
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_high_host_background",
+        "content": "高宿主背景导致病原体核酸比例低",
+        "evidence_ids": [
+          "如果标本中宿主细胞含量高，在测序数据量恒定（如20M读长）的条件下，核酸提取如不去宿主，会造成测序结果大部分来自人基因组，而病原微生物基因组序列相对较少。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "pathogenesis_contamination_false_positive",
+        "content": "试剂或环境污染导致假阳性",
+        "evidence_ids": [
+          "采用mNGS进行感染性疾病诊断最大的瓶颈是污染导致假阳性。“污染”来源包括实验室试剂或环境中检测到的背景微生物和正常人体菌群，以及生物信息分析或数据库错误"
+        ],
+        "confidence": 0.85
+      }
+    ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_infectious_disease",
-        "to": "sub_disease_fever_of_unknown_origin",
-        "relation_id": "rel_infectious_disease_has_fever_of_unknown_origin",
+        "from": "disease_infectious_diseases",
+        "to": "sub_disease_fuo_infection",
+        "relation_id": "rel_infectious_diseases_has_fuo_infection",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "不明原因发热（fever of unknown origin，FUO）诊断标准：四分类标准参见文献[6-7]，其中经典FUO参见文献[8]。"
+          "患者表现为发热或发热症候群，病因未明确（符合不明原因发热定义），考虑感染或不除外感染"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_infectious_disease",
-        "to": "sub_disease_critical_illness_infection",
-        "relation_id": "rel_infectious_disease_has_critical_illness_infection",
+        "from": "disease_infectious_diseases",
+        "to": "sub_disease_critical_infection",
+        "relation_id": "rel_infectious_diseases_has_critical_infection",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "急危重症指重要脏器衰竭，甚至多器官功能衰竭，也包括脓毒性休克[9-10]、血流感染[12]、脑膜炎、重症肺炎[13]、复杂性腹腔感染[16]、骨髓炎和脓毒性关节炎[17-18]、坏死性筋膜炎等皮肤软组织感染[19-20]等临床情况。"
+          "各种原因导致患者急危重症表现，不除外感染所致"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_infectious_disease",
-        "to": "sub_disease_immunocompromised_host_infection",
-        "relation_id": "rel_infectious_disease_has_immunocompromised_host_infection",
+        "from": "disease_infectious_diseases",
+        "to": "sub_disease_immunocompromised_infection",
+        "relation_id": "rel_infectious_diseases_has_immunocompromised_infection",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "共识4 免疫受损患者疑似继发感染，常规病原学检查未能明确致病原或/和规范性经验抗感染治疗无效，建议进一步完善常规病原学检测的同时，或在其基础上，开展mNGS。免疫受损标准参见文献[21-23]。"
+          "免疫受损患者疑似继发感染"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_infectious_disease",
-        "to": "sub_disease_localized_infection_urgent",
-        "relation_id": "rel_infectious_disease_has_localized_infection_urgent",
+        "from": "disease_infectious_diseases",
+        "to": "sub_disease_local_severe_infection",
+        "relation_id": "rel_infectious_diseases_has_local_severe_infection",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "共识5 疑似局部感染，病原学诊断未明确、不及时处理则后果严重（危及生命或会导致局部功能不可逆性丧失）时，考虑常规检测的同时，或在其基础上，开展mNGS。如眼部（角膜炎/溃疡、眼内炎、急性视网膜坏死等）、鼻部、耳部、喉部感染、糖尿病足、外伤累及深部组织等情况[27]。"
+          "疑似局部感染，病原学诊断未明确、不及时处理则后果严重"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_infectious_disease",
-        "to": "sub_disease_chronic_infection_or_suspected",
-        "relation_id": "rel_infectious_disease_has_chronic_infection_or_suspected",
+        "from": "disease_infectious_diseases",
+        "to": "sub_disease_chronic_infection",
+        "relation_id": "rel_infectious_diseases_has_chronic_infection",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "共识7 慢性感染，或慢性疾病不除外感染，尤其是二者临床表现相似、难以鉴别时，病情严重或抗感染治疗疗效不佳需要明确病因，建议在完善常规检测、调整经验治疗的同时开展mNGS。如糖尿病患者足部慢性临床表现疑似感染；或膝关节移植3个月后出现慢性症状不除外感染。"
+          "慢性感染，或慢性疾病不除外感染"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_infectious_disease",
-        "to": "sub_disease_novel_pathogen_suspicion",
-        "relation_id": "rel_infectious_disease_has_novel_pathogen_suspicion",
+        "from": "disease_infectious_diseases",
+        "to": "sub_disease_special_pathogen_infection",
+        "relation_id": "rel_infectious_diseases_has_special_pathogen_infection",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "共识10 针对微生物，考虑出现疑似新发病原体，或某特殊病原体[32-33]，缺乏传统技术或传统技术手段不能确定种属时，建议常规检测的同时，或在其基础上，开展mNGS。特殊病原体指患者所在医疗机构或地区无法检测，但其他临床证据考虑疑似相应病原体感染，或不能除外该病原体，或实验室生物安全等级不允许分离高致病病原体时。"
+          "考虑出现疑似新发病原体，或某特殊病原体"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_infectious_disease",
-        "to": "sub_disease_multiple_pathogen_suspicion",
-        "relation_id": "rel_infectious_disease_has_multiple_pathogen_suspicion",
+        "from": "disease_infectious_diseases",
+        "to": "sub_disease_outbreak_infection",
+        "relation_id": "rel_infectious_diseases_has_outbreak_infection",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "共识11 临床表现高度怀疑感染性疾病而多种传统技术反复检测不能明确致病微生物，但仍高度怀疑微生物所致[34]，建议继续完善更多检测技术的同时或在其基础上，开展mNGS。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_infectious_disease",
-        "to": "sub_disease_mixed_infection_suspicion",
-        "relation_id": "rel_infectious_disease_has_mixed_infection_suspicion",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "共识12 传统病原学检测的结果不能解释临床表现的全貌或/和抗感染治疗的反应，怀疑同时存在其他病原感染时建议进一步完善更多检测技术的同时或在其基础上，开展mNGS。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_infectious_disease",
-        "to": "sub_disease_epidemic_outbreak",
-        "relation_id": "rel_infectious_disease_has_epidemic_outbreak",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "共识16 出现某种疾病的聚集性发病或暴发[35]，怀疑是微生物导致的感染性疾病但病原不明，且常规快速检测无结果时，建议完善常规检测的同时或在其基础上开展mNGS明确致病微生物。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_infectious_disease",
-        "to": "sub_disease_travel_related_infection",
-        "relation_id": "rel_infectious_disease_has_travel_related_infection",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "共识17 感染性疾病患者有特殊区域（如北美地区有某些致病性真菌）旅居史，或有特殊职业工作史（如畜牧业、屠宰业、水产业等[36]），感染病原未明，建议常规手段检测的同时开展mNGS。"
+          "出现某种疾病的聚集性发病或暴发，怀疑是微生物导致的感染性疾病"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_fever_of_unknown_origin",
+        "from": "sub_disease_fuo_infection",
         "to": "symptom_fever",
-        "relation_id": "rel_fever_of_unknown_origin_manifests_as_fever",
+        "relation_id": "rel_fuo_manifests_as_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
@@ -587,18 +474,39 @@
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "临床适应证",
         "evidence_ids": [
-          "共识2 患者表现为发热或发热症候群，病因未明确（符合不明原因发热定义），考虑感染或不排除感染，但规范性经验抗感染治疗无效，考虑应用常规技术检测的同时，或在其基础上，开展mNGS。"
+          "患者表现为发热或发热症候群，病因未明确（符合不明原因发热定义）"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确将‘不明原因发热’定义为‘发热’，且‘发热’是其核心临床表现和命名依据",
-        "evidence": "不明原因发热（feverofunknownorigin，FUO）诊断标准：四分类标准参见文献[6-7]，其中经典FUO参见文献[8]。"
+        "weight_reason": "原文明确指出不明原因发热患者表现为发热",
+        "evidence": "患者表现为发热或发热症候群，病因未明确（符合不明原因发热定义）"
       },
       {
-        "from": "sub_disease_fever_of_unknown_origin",
+        "from": "sub_disease_fuo_infection",
         "to": "symptom_fever_syndrome",
-        "relation_id": "rel_fever_of_unknown_origin_manifests_as_fever_syndrome",
+        "relation_id": "rel_fuo_manifests_as_fever_syndrome",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床适应证",
+        "evidence_ids": [
+          "发热症候群包括：发热+中枢症候群、发热+呼吸道症候群"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出不明原因发热患者表现为发热症候群",
+        "evidence": "患者表现为发热或发热症候群，病因未明确（符合不明原因发热定义）"
+      },
+      {
+        "from": "sub_disease_critical_infection",
+        "to": "symptom_critical_illness",
+        "relation_id": "rel_critical_manifests_as_critical_illness",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
@@ -608,20 +516,41 @@
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "临床适应证",
         "evidence_ids": [
-          "发热症候群包括：发热+中枢症候群、发热+呼吸道症候群、发热+腹痛和/或腹泻症候群、发热+黄疸症候群、发热+肝脾症候群、发热+女性生殖系统症候群、发热+骨关节症候群、发热+皮疹症候群和发热伴多系统表现。"
+          "各种原因导致患者急危重症表现"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确定义‘发热症候群’包含‘不明原因发热’，并指出FUO属于发热症候群范畴",
-        "evidence": "发热症候群包括：发热+中枢症候群、发热+呼吸道症候群……不明原因发热（feverofunknownorigin，FUO）诊断标准：四分类标准参见文献[6-7]，其中经典FUO参见文献[8]。"
+        "weight_reason": "原文明确指出急危重症感染表现为急危重症表现",
+        "evidence": "各种原因导致患者急危重症表现，不除外感染所致"
+      },
+      {
+        "from": "sub_disease_chronic_infection",
+        "to": "symptom_chronic_symptoms",
+        "relation_id": "rel_chronic_manifests_as_chronic_symptoms",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床适应证",
+        "evidence_ids": [
+          "慢性感染，或慢性疾病不除外感染，尤其是二者临床表现相似"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文举例说明慢性感染可表现为慢性症状",
+        "evidence": "膝关节移植3个月后出现慢性症状不除外感染"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_fever_of_unknown_origin",
+        "from": "sub_disease_fuo_infection",
         "to": "test_mngs",
-        "relation_id": "rel_fever_of_unknown_origin_requires_mngs",
+        "relation_id": "rel_fuo_requires_mngs",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "推荐诊断项",
@@ -631,25 +560,25 @@
         "operator": null,
         "unit": null,
         "result_text": null,
-        "weight": 9,
+        "weight": 8,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
-        "typicality": "common",
+        "typicality": "typical",
         "section_priority": "临床适应证",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "共识2 患者表现为发热或发热症候群，病因未明确（符合不明原因发热定义），考虑感染或不排除感染，但规范性经验抗感染治疗无效，考虑应用常规技术检测的同时，或在其基础上，开展mNGS。"
+          "规范性经验抗感染治疗无效，考虑应用常规技术检测的同时，或在其基础上，开展mNGS。"
         ],
         "confidence": 0.9,
-        "weight_reason": "共识2明确将FUO列为mNGS的临床适应证，使用‘考虑应用’表述，属强推荐但非强制或金标准",
-        "evidence": "共识2患者表现为发热或发热症候群，病因未明确（符合不明原因发热定义），考虑感染或不排除感染，但规范性经验抗感染治疗无效，考虑应用常规技术检测的同时，或在其基础上，开展mNGS。"
+        "weight_reason": "共识2推荐级别为考虑，非强制建议",
+        "evidence": "考虑应用常规技术检测的同时，或在其基础上，开展mNGS"
       },
       {
-        "from": "sub_disease_critical_illness_infection",
+        "from": "sub_disease_critical_infection",
         "to": "test_mngs",
-        "relation_id": "rel_critical_illness_infection_requires_mngs",
+        "relation_id": "rel_critical_requires_mngs",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "推荐诊断项",
@@ -664,57 +593,214 @@
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
-        "typicality": "common",
+        "typicality": "typical",
         "section_priority": "临床适应证",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "共识3 各种原因导致患者急危重症表现，不排除感染所致，或考虑继发或并发危及生命的严重感染，建议常规检测的同时，或在常规检测基础上，开展mNGS。"
+          "建议常规检测的同时，或在常规检测基础上，开展mNGS。"
         ],
         "confidence": 0.9,
-        "weight_reason": "共识3使用‘建议’一词明确推荐急危重症感染患者开展mNGS，符合规则中‘建议’对应高权重（9）的判定",
-        "evidence": "共识3各种原因导致患者急危重症表现，不除外感染所致，或考虑继发或并发危及生命的严重感染，建议常规检测的同时，或在常规检测基础上，开展mNGS。"
+        "weight_reason": "共识3推荐级别为建议，属于强推荐",
+        "evidence": "建议常规检测的同时，或在常规检测基础上，开展mNGS"
+      },
+      {
+        "from": "sub_disease_special_pathogen_infection",
+        "to": "test_mngs",
+        "relation_id": "rel_special_requires_mngs",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "微生物学适应证",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "缺乏传统技术或传统技术手段不能确定种属时，建议常规检测的同时，或在其基础上，开展mNGS。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "共识10推荐级别为建议，属于强推荐",
+        "evidence": "建议常规检测的同时，或在其基础上，开展mNGS"
+      },
+      {
+        "from": "sub_disease_fuo_infection",
+        "to": "test_traditional_microbiology",
+        "relation_id": "rel_fuo_requires_traditional",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "临床适应证",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "考虑应用常规技术检测的同时，或在其基础上，开展mNGS。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "共识2指出考虑应用常规技术检测，非强制建议",
+        "evidence": "考虑应用常规技术检测的同时，或在其基础上，开展mNGS"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_fever_of_unknown_origin",
-        "to": "treatment_mngs_as_complement",
-        "relation_id": "rel_fever_of_unknown_origin_follows_mngs_as_complement",
+        "from": "sub_disease_fuo_infection",
+        "to": "treatment_empirical_antimicrobial",
+        "relation_id": "rel_fuo_follows_empirical",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "明确诊断后",
+        "applicable_condition": "病原学诊断未明确时",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病分型"
+          "临床症状"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "微生物学适应证",
+        "source_section": "临床适应证",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_special_pathogen_infection",
+        "to": "treatment_targeted_antimicrobial",
+        "relation_id": "rel_special_follows_targeted",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确病原体后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "mNGS结果"
+        ],
+        "contraindication_note": "盲目依据mNGS报告开展治疗，必将导致抗微生物药物的滥用",
+        "evidence_level": "expert_consensus",
+        "source_section": "报告解读",
         "confidence": 0.9
       }
     ],
-    "implements_by": [],
-    "causes": [
+    "implements_by": [
       {
-        "from": "sub_disease_novel_pathogen_suspicion",
-        "to": "etiology_novel_pathogen",
-        "relation_id": "rel_novel_pathogen_suspicion_causes_novel_pathogen",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "strong",
-        "typicality": "少见",
-        "criterion_group_id": null,
-        "required_count": null,
+        "from": "treatment_empirical_antimicrobial",
+        "to": "plan_empirical_therapy_adjustment",
+        "relation_id": "rel_empirical_implements_adjustment",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "常规抗感染治疗无效",
+        "contraindication_note": null,
         "evidence_ids": [
-          "共识10 针对微生物，考虑出现疑似新发病原体，或某特殊病原体[32-33]，缺乏传统技术或传统技术手段不能确定种属时，建议常规检测的同时，或在其基础上，开展mNGS。"
+          "调整经验抗微生物治疗方案的同时开展mNGS"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_empirical_antimicrobial",
+        "to": "plan_source_control",
+        "relation_id": "rel_empirical_implements_source_control",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "存在原发感染灶",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "处理原发感染灶（如拔去导管、外科引流或拔去引流管、玻璃体切除）"
         ],
         "confidence": 0.9
       }
     ],
-    "explained_by": []
+    "causes": [
+      {
+        "from": "sub_disease_special_pathogen_infection",
+        "to": "etiology_novel_pathogen",
+        "relation_id": "rel_special_caused_by_novel",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "rare",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "考虑出现疑似新发病原体"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_special_pathogen_infection",
+        "to": "etiology_special_pathogen",
+        "relation_id": "rel_special_caused_by_special",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "rare",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "或某特殊病原体"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_critical_infection",
+        "to": "etiology_bacteria",
+        "relation_id": "rel_critical_caused_by_bacteria",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "可以无偏倚地检测多种病原微生物（包括病毒、细菌、真菌和寄生虫）"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_critical_infection",
+        "to": "pathogenesis_high_host_background",
+        "relation_id": "rel_critical_explained_by_host_background",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "如果标本中宿主细胞含量高，在测序数据量恒定（如20M读长）的条件下，核酸提取如不去宿主，会造成测序结果大部分来自人基因组，而病原微生物基因组序列相对较少。"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "from": "sub_disease_special_pathogen_infection",
+        "to": "pathogenesis_contamination_false_positive",
+        "relation_id": "rel_special_explained_by_contamination",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "采用mNGS进行感染性疾病诊断最大的瓶颈是污染导致假阳性。“污染”来源包括实验室试剂或环境中检测到的背景微生物和正常人体菌群"
+        ],
+        "confidence": 0.8
+      }
+    ]
   },
   "constraints": {
     "weight_allowed_values": [

@@ -1,0 +1,892 @@
+{
+  "meta": {
+    "doc_id": "结节性多动脉炎诊疗规范",
+    "source_title": "结节性多动脉炎诊疗规范",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_pan",
+        "name": "结节性多动脉炎",
+        "normalized_name": "结节性多动脉炎",
+        "aliases": [
+          "PAN",
+          "polyarteritis nodosa"
+        ],
+        "source_document_ids": [
+          "结节性多动脉炎诊疗规范"
+        ],
+        "evidence_ids": [
+          "结节性多动脉炎(PAN)是主要累及中小动脉的一种少见的血管炎"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_pan_default",
+        "name": "结节性多动脉炎",
+        "parent_disease_id": "disease_pan",
+        "disease_subtype": "全身性坏死性血管炎",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "结节性多动脉炎(PAN)是主要累及中小动脉的一种少见的血管炎"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_hbv_pan",
+        "name": "HBV相关PAN",
+        "parent_disease_id": "disease_pan",
+        "disease_subtype": "感染相关血管炎",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "乙型肝炎病毒感染者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "约1/3的患者与乙型肝炎病毒(HBV)感染相关",
+          "HBV相关PAN患者应接受抗病毒治疗和血浆置换"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_cutaneous_pan",
+        "name": "皮肤型PAN",
+        "parent_disease_id": "disease_pan",
+        "disease_subtype": "局限型血管炎",
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "部分丙型肝炎病毒(HCV)感染者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "部分丙型肝炎病毒(HCV)感染者可出现局限的皮肤型PAN"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "约90%的患者伴有发热、疲劳、体重减轻、出汗、关节痛和肌痛等前驱症状"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_abdominal_pain",
+        "name": "腹痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "PAN胃肠道受累的临床表现以腹痛最常见，常为持续性钝痛"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_mononeuritis_multiplex",
+        "name": "多发性单神经炎",
+        "body_site": "外周神经",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "主要是多发性单神经炎或/和多神经炎，多在早期出现，表现为手腕或足下垂"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_testicular_pain",
+        "name": "睾丸疼痛",
+        "body_site": "生殖系统",
+        "symptom_category": "生殖系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "约25%的患者可有睾丸受累，多表现为睾丸疼痛"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_livedo_reticularis",
+        "name": "网状青斑",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "包括高出皮肤的紫癜、梗死、溃疡、网状青斑"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_myalgia",
+        "name": "肌痛",
+        "body_site": "肌肉",
+        "symptom_category": "骨骼肌肉症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "PAN患者骨骼肌肉受累常见，肌痛占30%~73%"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_weight_loss",
+        "name": "体重下降",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "体重下降>4 kg(无节食或其他原因所致）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_diastolic_bp",
+        "name": "舒张压",
+        "normal_range_min": null,
+        "normal_range_max": 90,
+        "is_digital": 1,
+        "evidence_ids": [
+          "舒张压>90 mmHg"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_bun",
+        "name": "血尿素氮",
+        "normal_range_min": null,
+        "normal_range_max": 40,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血尿素氮>40 mg/dl"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_creatinine",
+        "name": "肌酐",
+        "normal_range_min": null,
+        "normal_range_max": 1.5,
+        "is_digital": 1,
+        "evidence_ids": [
+          "肌酐>1.5mg/dl(非肾前因素）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_hbv_serology",
+        "name": "血清HBV",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "血清HBV(乙型肝炎病毒表面抗原或抗体)阳性"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_arteriography",
+        "name": "动脉造影",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "动脉造影见动脉瘤或血管闭塞（除外动脉硬化、纤维肌性发育不良或其他非炎症性病变）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_biopsy",
+        "name": "中小动脉壁活检",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "中小动脉壁活检见中性粒细胞和单核细胞浸润"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_esr",
+        "name": "红细胞沉降率(ESR)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "多数情况下存在炎性标志物，如红细胞沉降率(ESR)和C反应蛋白（CRP)升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_crp",
+        "name": "C反应蛋白(CRP)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "多数情况下存在炎性标志物，如红细胞沉降率(ESR)和C反应蛋白（CRP)升高"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_glucocorticoid_immunosuppressant",
+        "content": "糖皮质激素联合免疫抑制剂是治疗PAN的主要药物",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "糖皮质激素（以下简称激素）联合免疫抑制剂是治疗PAN的主要药物"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_hbv_antiviral_plex",
+        "content": "HBV相关PAN患者应接受抗病毒治疗和血浆置换",
+        "recommendation_strength": "strong",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "HBV相关PAN患者应接受抗病毒治疗和血浆置换"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_vasodilator_anticoagulant",
+        "content": "PAN如出现血管闭塞性病变，加用血管扩张剂、抗凝剂",
+        "recommendation_strength": "weak",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "PAN如出现血管闭塞性病变，加用阿司匹林每日50~100 mg 口服；双嘧达莫（潘生丁）25~50mg每日3次口服；低分子肝素、丹参等"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_methylprednisolone_pulse",
+        "content": "急性期需大剂量以控制病情，可先予甲泼尼龙冲击治疗（甲泼尼龙1.0 g/d)，静脉滴注3~5 d",
+        "plan_level": 1,
+        "applicable_condition": "急性期",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "急性期需大剂量以控制病情，可先予甲泼尼龙冲击治疗（甲泼尼龙1.0 g/d)，静脉滴注3~5 d"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_prednisone_oral",
+        "content": "或泼尼松1 mg/kg/d口服，本阶段为4~8周",
+        "plan_level": 1,
+        "applicable_condition": "急性期",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "或泼尼松1 mg/kg/d，本阶段为4~8周"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_cyclophosphamide_oral",
+        "content": "环磷酰胺一般口服剂量为2~3 mg/kg/d或200 mg隔日静脉给药",
+        "plan_level": 2,
+        "applicable_condition": "非HBV相关PAN",
+        "contraindication_note": "存在肾功能不全、老年、骨髓抑制及其他毒性证据的患者需减量",
+        "evidence_ids": [
+          "环磷酰胺是治疗PAN的首先免疫抑制剂，一般口服剂量为2~3 mg/kg/d或200 mg隔日静脉给药"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_interferon_lamivudine",
+        "content": "加用抗病毒药物，如干扰素a-2b、拉米夫定等作为一线疗法",
+        "plan_level": 1,
+        "applicable_condition": "HBV相关PAN",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "加用抗病毒药物，如干扰素a-2b、拉米夫定等作为一线疗法"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_hbv",
+        "content": "乙型肝炎病毒(HBV)感染",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "约1/3的患者与乙型肝炎病毒(HBV)感染相关"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_hcv",
+        "content": "丙型肝炎病毒(HCV)感染",
+        "etiology_type": "感染因素",
+        "typicality": "少见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "部分丙型肝炎病毒(HCV)感染者可出现局限的皮肤型PAN"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_infection_env_drug",
+        "content": "感染、环境、药物及注射血清",
+        "etiology_type": "综合因素",
+        "typicality": "未知",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "PAN的致病机制目前尚未阐明，可能与感染、环境、药物及注射血清等相关"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_fibrinoid_necrosis",
+        "content": "病理改变急性期为血管壁纤维蛋白样坏死，炎性细胞浸润和管腔内血栓形成，慢性期为血管壁纤维性增生",
+        "evidence_ids": [
+          "病理改变急性期为血管壁纤维蛋白样坏死，炎性细胞浸润和管腔内血栓形成，慢性期为血管壁纤维性增生"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_aneurysm_formation",
+        "content": "因血管壁内弹力层破坏，在狭窄处近端因血管内压力增高，血管扩张形成小动脉瘤",
+        "evidence_ids": [
+          "因血管壁内弹力层破坏，在狭窄处近端因血管内压力增高，血管扩张形成小动脉瘤"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_pan",
+        "to": "sub_disease_pan_default",
+        "relation_id": "rel_pan_has_default",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "结节性多动脉炎(PAN)是主要累及中小动脉的一种少见的血管炎"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_pan",
+        "to": "sub_disease_hbv_pan",
+        "relation_id": "rel_pan_has_hbv",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "约1/3的患者与乙型肝炎病毒(HBV)感染相关"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_pan",
+        "to": "sub_disease_cutaneous_pan",
+        "relation_id": "rel_pan_has_cutaneous",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "部分丙型肝炎病毒(HCV)感染者可出现局限的皮肤型PAN"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_pan_default",
+        "to": "symptom_fever",
+        "relation_id": "rel_pan_manifests_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "约90%的患者伴有发热、疲劳、体重减轻、出汗、关节痛和肌痛等前驱症状"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pan_default",
+        "to": "symptom_abdominal_pain",
+        "relation_id": "rel_pan_manifests_abdominal_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "PAN胃肠道受累的临床表现以腹痛最常见，常为持续性钝痛"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pan_default",
+        "to": "symptom_mononeuritis_multiplex",
+        "relation_id": "rel_pan_manifests_neuropathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": "ACR_1990_PAN_3_choose_10",
+        "required_count": 3,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断要点",
+        "evidence_ids": [
+          "多发性单神经炎或多神经炎"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出神经系统受累主要是多发性单神经炎",
+        "evidence": "主要是多发性单神经炎或/和多神经炎"
+      },
+      {
+        "from": "sub_disease_pan_default",
+        "to": "symptom_testicular_pain",
+        "relation_id": "rel_pan_manifests_testicular_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": "ACR_1990_PAN_3_choose_10",
+        "required_count": 3,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "诊断要点",
+        "evidence_ids": [
+          "睾丸痛和/或压痛(并非感染、外伤或其他原因引起）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出生殖系统受累多表现为睾丸疼痛",
+        "evidence": "多表现为睾丸疼痛"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_pan_default",
+        "to": "test_weight_loss",
+        "relation_id": "rel_pan_requires_weight_loss",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 4,
+        "value_max": null,
+        "operator": ">",
+        "unit": "kg",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": "ACR_1990_PAN_3_choose_10",
+        "required_count": 3,
+        "polarity": "decreased",
+        "typicality": "common",
+        "section_priority": "诊断要点",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "体重下降>4 kg(无节食或其他原因所致）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "体重下降是ACR分类诊断标准之一",
+        "evidence": "体重下降>4"
+      },
+      {
+        "from": "sub_disease_pan_default",
+        "to": "test_diastolic_bp",
+        "relation_id": "rel_pan_requires_diastolic_bp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 90,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mmHg",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": "ACR_1990_PAN_3_choose_10",
+        "required_count": 3,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断要点",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "舒张压>90 mmHg"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "舒张压升高是ACR分类诊断标准之一",
+        "evidence": "舒张压>90"
+      },
+      {
+        "from": "sub_disease_pan_default",
+        "to": "test_bun",
+        "relation_id": "rel_pan_requires_bun",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 40,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mg/dl",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": "ACR_1990_PAN_3_choose_10",
+        "required_count": 3,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断要点",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "血尿素氮>40 mg/dl"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "血尿素氮升高是ACR分类诊断标准之一",
+        "evidence": "血尿素氮>40"
+      },
+      {
+        "from": "sub_disease_pan_default",
+        "to": "test_creatinine",
+        "relation_id": "rel_pan_requires_creatinine",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 1.5,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mg/dl",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": "ACR_1990_PAN_3_choose_10",
+        "required_count": 3,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "诊断要点",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "肌酐>1.5mg/dl(非肾前因素）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "肌酐升高是ACR分类诊断标准之一",
+        "evidence": "肌酐>1.5mg/dl"
+      },
+      {
+        "from": "sub_disease_pan_default",
+        "to": "test_hbv_serology",
+        "relation_id": "rel_pan_requires_hbv",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": "ACR_1990_PAN_3_choose_10",
+        "required_count": 3,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "诊断要点",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "血清HBV(乙型肝炎病毒表面抗原或抗体)阳性"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "血清HBV阳性是ACR分类诊断标准之一",
+        "evidence": "血清HBV(乙型肝炎病毒表面抗原或抗体)阳性"
+      },
+      {
+        "from": "sub_disease_pan_default",
+        "to": "test_arteriography",
+        "relation_id": "rel_pan_requires_arteriography",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": "动脉造影见动脉瘤或血管闭塞",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": "ACR_1990_PAN_3_choose_10",
+        "required_count": 3,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断要点",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "动脉造影见动脉瘤或血管闭塞（除外动脉硬化、纤维肌性发育不良或其他非炎症性病变）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "动脉造影异常是诊断标准之一且可据此做出诊断",
+        "evidence": "动脉造影见动脉瘤或血管闭塞"
+      },
+      {
+        "from": "sub_disease_pan_default",
+        "to": "test_biopsy",
+        "relation_id": "rel_pan_requires_biopsy",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "contains",
+        "unit": null,
+        "result_text": "中小动脉壁活检见中性粒细胞和单核细胞浸润",
+        "weight": 9,
+        "gold_standard": true,
+        "criterion_group_id": "ACR_1990_PAN_3_choose_10",
+        "required_count": 3,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断要点",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "中小动脉壁活检见中性粒细胞和单核细胞浸润"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文强调组织病理学证据对诊断至关重要",
+        "evidence": "中小型动脉血管炎症的组织病理学证据对PAN的诊断至关重要"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_pan_default",
+        "to": "treatment_glucocorticoid_immunosuppressant",
+        "relation_id": "rel_pan_follows_gc_immuno",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hbv_pan",
+        "to": "treatment_hbv_antiviral_plex",
+        "relation_id": "rel_hbv_pan_follows_antiviral",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "HBV相关PAN",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病因"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_glucocorticoid_immunosuppressant",
+        "to": "plan_methylprednisolone_pulse",
+        "relation_id": "rel_gc_implements_methylpred",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "急性期",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "急性期需大剂量以控制病情，可先予甲泼尼龙冲击治疗（甲泼尼龙1.0 g/d)，静脉滴注3~5 d"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_glucocorticoid_immunosuppressant",
+        "to": "plan_cyclophosphamide_oral",
+        "relation_id": "rel_immuno_implements_ctx",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "非HBV相关PAN",
+        "contraindication_note": "存在肾功能不全、老年、骨髓抑制及其他毒性证据的患者需减量",
+        "evidence_ids": [
+          "环磷酰胺是治疗PAN的首先免疫抑制剂，一般口服剂量为2~3 mg/kg/d或200 mg隔日静脉给药"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_hbv_antiviral_plex",
+        "to": "plan_interferon_lamivudine",
+        "relation_id": "rel_antiviral_implements_interferon",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "HBV相关PAN",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "加用抗病毒药物，如干扰素a-2b、拉米夫定等作为一线疗法"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_hbv_pan",
+        "to": "etiology_hbv",
+        "relation_id": "rel_hbv_causes_hbv_pan",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "约1/3的患者与乙型肝炎病毒(HBV)感染相关"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cutaneous_pan",
+        "to": "etiology_hcv",
+        "relation_id": "rel_hcv_causes_cutaneous_pan",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "rare",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "部分丙型肝炎病毒(HCV)感染者可出现局限的皮肤型PAN"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_pan_default",
+        "to": "pathogenesis_fibrinoid_necrosis",
+        "relation_id": "rel_pan_explained_by_necrosis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "病理改变急性期为血管壁纤维蛋白样坏死，炎性细胞浸润和管腔内血栓形成，慢性期为血管壁纤维性增生"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pan_default",
+        "to": "pathogenesis_aneurysm_formation",
+        "relation_id": "rel_pan_explained_by_aneurysm",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "因血管壁内弹力层破坏，在狭窄处近端因血管内压力增高，血管扩张形成小动脉瘤"
+        ],
+        "confidence": 0.95
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

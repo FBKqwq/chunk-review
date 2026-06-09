@@ -11,426 +11,662 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_cr_gnb",
+        "id": "disease_crgnb_infection",
         "name": "碳青霉烯类耐药革兰阴性菌感染",
         "normalized_name": "碳青霉烯类耐药革兰阴性菌感染",
         "aliases": [
           "CRGNB感染",
-          "碳青霉烯耐药革兰阴性菌感染"
+          "碳青霉烯类耐药革兰阴性杆菌感染"
         ],
         "source_document_ids": [
           "碳青霉烯类耐药革兰阴性菌感染的诊断、治疗及防控指南"
         ],
         "evidence_ids": [
-          "碳青霉烯类耐药革兰阴性菌（CRGNB）的广泛播散是一个全球性的公共卫生问题。CRGNB临床分离株通常呈现广泛耐药或全耐药，对其感染的抗菌治疗方案有限、死亡率高。"
+          "碳青霉烯类耐药革兰阴性菌（CRGNB）的广泛播散是一个全球性的公共卫生问题。",
+          "本指南聚焦于碳青霉烯类耐药肠杆菌目细菌、碳青霉烯类耐药鲍曼不动杆菌和碳青霉烯类耐药铜绿假单胞菌"
         ],
-        "confidence": 0.98
+        "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_cre",
-        "name": "碳青霉烯类耐药肠杆菌目细菌感染",
-        "parent_disease_id": "disease_cr_gnb",
-        "disease_subtype": null,
+        "id": "sub_disease_cre_infection",
+        "name": "碳青霉烯类耐药肠杆菌目细菌(CRE)感染",
+        "parent_disease_id": "disease_crgnb_infection",
+        "disease_subtype": "肠杆菌目细菌感染",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "住院患者",
+        "population": "住院患者/危重症患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "碳青霉烯类耐药肠杆菌目细菌（carbapenem-resistant Enterobacteriales，CRE）"
+          "本指南聚焦于碳青霉烯类耐药肠杆菌目细菌、碳青霉烯类耐药鲍曼不动杆菌和碳青霉烯类耐药铜绿假单胞菌"
         ],
-        "confidence": 0.97
+        "confidence": 0.95
       },
       {
-        "id": "sub_disease_crab",
-        "name": "碳青霉烯类耐药鲍曼不动杆菌感染",
-        "parent_disease_id": "disease_cr_gnb",
-        "disease_subtype": null,
+        "id": "sub_disease_crab_infection",
+        "name": "碳青霉烯类耐药鲍曼不动杆菌(CRAB)感染",
+        "parent_disease_id": "disease_crgnb_infection",
+        "disease_subtype": "鲍曼不动杆菌感染",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "住院患者",
+        "population": "住院患者/危重症患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "碳青霉烯类耐药鲍曼不动杆菌（carbapenem-resistant Acinetobacter baumannii，CRAB）"
+          "本指南聚焦于碳青霉烯类耐药肠杆菌目细菌、碳青霉烯类耐药鲍曼不动杆菌和碳青霉烯类耐药铜绿假单胞菌"
         ],
-        "confidence": 0.97
+        "confidence": 0.95
       },
       {
-        "id": "sub_disease_crpa",
-        "name": "碳青霉烯类耐药铜绿假单胞菌感染",
-        "parent_disease_id": "disease_cr_gnb",
-        "disease_subtype": null,
+        "id": "sub_disease_crpa_infection",
+        "name": "碳青霉烯类耐药铜绿假单胞菌(CRPA)感染",
+        "parent_disease_id": "disease_crgnb_infection",
+        "disease_subtype": "铜绿假单胞菌感染",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "住院患者",
+        "population": "住院患者/危重症患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "碳青霉烯类耐药铜绿假单胞菌（carbapenem-resistant Pseudomonas aeruginosa，CRPA）"
+          "本指南聚焦于碳青霉烯类耐药肠杆菌目细菌、碳青霉烯类耐药鲍曼不动杆菌和碳青霉烯类耐药铜绿假单胞菌"
         ],
-        "confidence": 0.97
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_serine_carbapenemase_cre",
+        "name": "产丝氨酸碳青霉烯酶CRE感染",
+        "parent_disease_id": "disease_crgnb_infection",
+        "disease_subtype": "产丝氨酸碳青霉烯酶（包括KPC和OXA-48）",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "建议优先使用头孢他啶-阿维巴坦治疗产丝氨酸碳青霉烯酶（包括KPC和OXA-48）CRE感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_metallo_carbapenemase_cre",
+        "name": "产金属酶CRE感染",
+        "parent_disease_id": "disease_crgnb_infection",
+        "disease_subtype": "产金属酶（如NDM）",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "建议优先使用头孢他啶-阿维巴坦联合氨曲南治疗产金属酶的CRE感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_crab_pulmonary_infection",
+        "name": "CRAB肺部感染",
+        "parent_disease_id": "disease_crgnb_infection",
+        "disease_subtype": "肺部感染",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "建议根据患者的情况，选择替加环素为基础或者多黏菌素为基础的联合抗菌治疗方案治疗CRAB引起的肺部感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_crgnb_respiratory_infection",
+        "name": "CRGNB呼吸道感染",
+        "parent_disease_id": "disease_crgnb_infection",
+        "disease_subtype": "呼吸道感染（HAP/VAP）",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "对于CRGNB呼吸道感染，建议在静脉应用多黏菌素的同时，使用多黏菌素雾化吸入治疗"
+        ],
+        "confidence": 0.9
       }
     ],
-    "symptoms": [],
+    "symptoms": [
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "粒细胞缺乏伴发热的患者"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_pneumonia",
+        "name": "肺炎",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "CRAB引起的呼吸机相关肺炎（VAP）",
+          "医院获得性肺炎（HAP）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_bloodstream_infection",
+        "name": "血流感染",
+        "body_site": "血液",
+        "symptom_category": "全身感染",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "血流感染、尿路感染等"
+        ],
+        "confidence": 0.9
+      }
+    ],
     "tests": [
       {
-        "id": "test_mic_bmd",
-        "name": "最低抑菌浓度（MIC）测定（肉汤微量稀释法）",
+        "id": "test_mic",
+        "name": "最低抑菌浓度(MIC)测定",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "建议首选采用肉汤微量稀释法（broth microdilution， BMD）、琼脂稀释法或E试验方法。"
+          "对于治疗CRGNB感染的常用抗菌药物...尽可能测定MIC"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_mic_e_test",
-        "name": "最低抑菌浓度（MIC）测定（E试验）",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "建议首选采用肉汤微量稀释法（broth microdilution， BMD）、琼脂稀释法或E试验方法。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_carba_np",
-        "name": "碳青霉烯酶表型检测（Carba NP法）",
+        "id": "test_carbapenemase_phenotype",
+        "name": "碳青霉烯酶表型检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "RT-PCR（98.0%）、Carba NP 法（95.9%） 检测 CRE均具有很高的灵敏度，两者检测的特异度均为100%，耗时3 h以内。"
+          "建议有条件的医疗机构，对CRE分离株开展碳青霉烯酶表型或基因型的检测"
         ],
-        "confidence": 0.94
+        "confidence": 0.95
       },
       {
-        "id": "test_pcr_kpc_ndm",
-        "name": "碳青霉烯酶基因型检测（KPC/NDM等PCR）",
+        "id": "test_carbapenemase_genotype",
+        "name": "碳青霉烯酶基因型检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "基于碳青霉烯酶基因型确定的CRE菌株，BMD、E试验、纸片扩散法检测CRE（74株）对头孢他啶-阿维巴坦药敏的分类一致性分别为99%、97%和..."
-        ],
-        "confidence": 0.96
-      },
-      {
-        "id": "test_tdm_colistin",
-        "name": "多黏菌素血药浓度监测（TDM）",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "CRGNB感染患者在接受多黏菌素类、氨基糖苷类、碳青霉烯类等抗菌药物治疗时，建议在有条件的情况下尽可能进行TDM"
+          "建议有条件的医疗机构，对CRE分离株开展碳青霉烯酶表型或基因型的检测"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_tdm_amikacin",
-        "name": "氨基糖苷类血药浓度监测（TDM）",
+        "id": "test_combination_ast",
+        "name": "联合药敏试验",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 1,
+        "is_digital": 0,
         "evidence_ids": [
-          "CRGNB感染患者在接受多黏菌素类、氨基糖苷类、碳青霉烯类等抗菌药物治疗时，建议在有条件的情况下尽可能进行TDM"
+          "联合药敏试验可能有助于CRGNB感染精准抗菌治疗方案的制定"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_tdm_meropenem",
-        "name": "碳青霉烯类血药浓度监测（TDM）",
+        "id": "test_tdm",
+        "name": "治疗药物浓度监测(TDM)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "CRGNB感染患者在接受多黏菌素类、氨基糖苷类、碳青霉烯类等抗菌药物治疗时，建议在有条件的情况下尽可能进行TDM"
+          "建议在有条件的情况下尽可能进行TDM"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "test_cre_active_screening",
+        "name": "CRE主动筛查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "推荐开展CRE携带的主动筛查"
+        ],
+        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_cr_gnb_combination_therapy",
-        "content": "推荐优先选择联合用药治疗CRGNB感染",
+        "id": "treatment_polymyxin_combo",
+        "content": "CRGNB感染患者在接受多黏菌素治疗时，推荐优先选择联合用药",
         "recommendation_strength": "强推荐",
-        "source_section": "推荐意见 4",
+        "source_section": "推荐意见",
         "evidence_ids": [
           "CRGNB感染患者在接受多黏菌素治疗时，推荐优先选择联合用药（强推荐，中等质量证据）。"
         ],
-        "confidence": 0.97
+        "confidence": 0.95
       },
       {
-        "id": "treatment_cr_gnb_inhalation_colistin",
-        "content": "建议在静脉应用多黏菌素的同时，使用多黏菌素雾化吸入治疗CRGNB呼吸道感染",
+        "id": "treatment_polymyxin_inhalation",
+        "content": "对于CRGNB呼吸道感染，建议在静脉应用多黏菌素的同时，使用多黏菌素雾化吸入治疗",
         "recommendation_strength": "弱推荐",
-        "source_section": "推荐意见 5",
+        "source_section": "推荐意见",
         "evidence_ids": [
           "对于CRGNB呼吸道感染，建议在静脉应用多黏菌素的同时，使用多黏菌素雾化吸入治疗（弱推荐，低质量证据）。"
         ],
-        "confidence": 0.96
+        "confidence": 0.9
       },
       {
-        "id": "treatment_cre_caaz_avibactam",
-        "content": "建议优先使用头孢他啶-阿维巴坦治疗产丝氨酸碳青霉烯酶（包括KPC和OXA-48）CRE感染",
+        "id": "treatment_cza",
+        "content": "建议优先使用头孢他啶-阿维巴坦治疗产丝氨酸碳青霉烯酶CRE感染",
         "recommendation_strength": "弱推荐",
-        "source_section": "推荐意见 6",
+        "source_section": "推荐意见",
         "evidence_ids": [
           "建议优先使用头孢他啶-阿维巴坦治疗产丝氨酸碳青霉烯酶（包括KPC和OXA-48）CRE感染（弱推荐，极低质量证据）。"
         ],
-        "confidence": 0.96
+        "confidence": 0.9
       },
       {
-        "id": "treatment_cre_caaz_avibactam_aztreonam",
+        "id": "treatment_cza_atm",
         "content": "建议优先使用头孢他啶-阿维巴坦联合氨曲南治疗产金属酶的CRE感染",
         "recommendation_strength": "弱推荐",
-        "source_section": "推荐意见 7",
+        "source_section": "推荐意见",
         "evidence_ids": [
           "建议优先使用头孢他啶-阿维巴坦联合氨曲南治疗产金属酶的CRE感染（弱推荐，极低质量证据）。"
         ],
-        "confidence": 0.96
+        "confidence": 0.9
       },
       {
-        "id": "treatment_crab_sulbactam_based",
+        "id": "treatment_tigecycline_combo",
+        "content": "建议根据患者的情况，选择替加环素为基础或者多黏菌素为基础的联合抗菌治疗方案治疗CRAB引起的肺部感染",
+        "recommendation_strength": "弱推荐",
+        "source_section": "推荐意见",
+        "evidence_ids": [
+          "建议根据患者的情况，选择替加环素为基础或者多黏菌素为基础的联合抗菌治疗方案治疗CRAB引起的肺部感染（弱推荐，极低质量证据）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_sulbactam_combo",
         "content": "建议使用舒巴坦或含舒巴坦的酶抑制剂复方制剂的联合治疗方案治疗CRAB感染",
         "recommendation_strength": "弱推荐",
-        "source_section": "推荐意见 9",
+        "source_section": "推荐意见",
         "evidence_ids": [
           "建议使用舒巴坦或含舒巴坦的酶抑制剂复方制剂的联合治疗方案治疗CRAB感染（弱推荐，低质量证据）。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "treatment_cre_amikacin_combination",
+        "id": "treatment_aminoglycoside_combo",
         "content": "在无使用氨基糖苷类禁忌证的CRE感染患者，建议使用阿米卡星等氨基糖苷类联合治疗方案",
         "recommendation_strength": "有条件推荐",
-        "source_section": "推荐意见 10",
+        "source_section": "推荐意见",
         "evidence_ids": [
           "在无使用氨基糖苷类禁忌证的CRE感染患者，建议使用阿米卡星等氨基糖苷类联合治疗方案（有条件推荐，极低质量证据）。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "treatment_cre_fosfomycin_combination",
+        "id": "treatment_fosfomycin_combo",
         "content": "在CRE对磷霉素敏感或与联合药物具有协同抗菌作用情况下，建议采用磷霉素静脉制剂联合用药治疗CRE感染",
         "recommendation_strength": "有条件推荐",
-        "source_section": "推荐意见 11",
+        "source_section": "推荐意见",
         "evidence_ids": [
           "在CRE对磷霉素敏感或与联合药物具有协同抗菌作用情况下，建议采用磷霉素静脉制剂联合用药治疗CRE感染（有条件推荐，极低质量证据）。"
         ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_tdm",
+        "content": "CRGNB感染患者在接受多黏菌素类、氨基糖苷类、碳青霉烯类等抗菌药物治疗时，建议在有条件的情况下尽可能进行TDM",
+        "recommendation_strength": "弱推荐",
+        "source_section": "推荐意见",
+        "evidence_ids": [
+          "CRGNB感染患者在接受多黏菌素类、氨基糖苷类、碳青霉烯类等抗菌药物治疗时，建议在有条件的情况下尽可能进行TDM（弱推荐，低质量证据）。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_bundle_isolation",
+        "content": "对医院内CRGNB感染或定植者，推荐使用包含单间或集中隔离措施的集束管理方案",
+        "recommendation_strength": "强推荐",
+        "source_section": "推荐意见",
+        "evidence_ids": [
+          "对医院内CRGNB感染或定植者，推荐使用包含单间或集中隔离措施的集束管理方案（强推荐，低质量证据）。"
+        ],
         "confidence": 0.95
+      },
+      {
+        "id": "treatment_sink_removal",
+        "content": "建议在以下条件下从患者直接诊疗区域移除水槽",
+        "recommendation_strength": "有条件推荐",
+        "source_section": "推荐意见",
+        "evidence_ids": [
+          "建议在以下条件下从患者直接诊疗区域（如病房、执行侵袭性操作的房间）移除水槽（有条件推荐，低质量证据）。"
+        ],
+        "confidence": 0.85
       }
     ],
     "plans": [
       {
-        "id": "plan_colistin_meropenem_for_cre",
-        "content": "如果美罗培南MIC≤8 mg/L，建议可用多黏菌素与美罗培南联合治疗",
+        "id": "plan_mic_bmd",
+        "content": "首选采用肉汤微量稀释法（BMD）、琼脂稀释法或E试验方法测定MIC",
         "plan_level": 1,
-        "applicable_condition": "CRE感染且美罗培南MIC≤8 mg/L",
+        "applicable_condition": "治疗CRGNB感染的常用抗菌药物",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于CRE，如果美罗培南MIC≤8 mg/L，对于CRAB，如果美罗培南MIC≤32 mg/L，建议可用多黏菌素与美罗培南联合治疗，并延长美罗培南每次静脉滴注时间至3 h。"
+          "建议首选采用肉汤微量稀释法（broth microdilution， BMD）、琼脂稀释法或E试验方法。"
         ],
-        "confidence": 0.97
+        "confidence": 0.95
       },
       {
-        "id": "plan_colistin_meropenem_for_crab",
-        "content": "如果美罗培南MIC≤32 mg/L，建议可用多黏菌素与美罗培南联合治疗，并延长美罗培南每次静脉滴注时间至3 h",
+        "id": "plan_carbapenemase_gene",
+        "content": "优先采用基因型检测，在不具备条件时采用碳青霉烯酶表型检测方法",
         "plan_level": 1,
-        "applicable_condition": "CRAB感染且美罗培南MIC≤32 mg/L",
+        "applicable_condition": "CRE分离株",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于CRE，如果美罗培南MIC≤8 mg/L，对于CRAB，如果美罗培南MIC≤32 mg/L，建议可用多黏菌素与美罗培南联合治疗，并延长美罗培南每次静脉滴注时间至3 h。"
+          "在可能的情况下，建议优先采用基因型检测，在不具备开展碳青霉烯酶基因检测条件的医疗机构，建议采用碳青霉烯酶表型检测方法。"
         ],
-        "confidence": 0.97
+        "confidence": 0.95
       },
       {
-        "id": "plan_caaz_avibactam_for_cre_kpc_oxa48",
-        "content": "建议优先使用头孢他啶-阿维巴坦治疗产丝氨酸碳青霉烯酶（包括KPC和OXA-48）CRE感染",
+        "id": "plan_combo_ast_checkerboard",
+        "content": "首选棋盘法联合药敏试验，次选纸片洗脱法、MIC条交叉或堆叠法",
         "plan_level": 1,
-        "applicable_condition": "CRE感染且产KPC或OXA-48酶",
-        "contraindication_note": "用药前检测CRE的产酶类型或头孢他啶-阿维巴坦的药敏",
+        "applicable_condition": "临床用药选择有限时",
+        "contraindication_note": null,
         "evidence_ids": [
-          "建议优先使用头孢他啶-阿维巴坦治疗产丝氨酸碳青霉烯酶（包括KPC和OXA-48）CRE感染（弱推荐，极低质量证据）。建议用药前检测CRE的产酶类型或头孢他啶-阿维巴坦的药敏。"
+          "有条件的情况下，首选棋盘法联合药敏试验，次选纸片洗脱法、MIC条交叉或堆叠法联合药敏试验方法。"
         ],
-        "confidence": 0.96
+        "confidence": 0.9
       },
       {
-        "id": "plan_caaz_avibactam_aztreonam_for_cre_metallo",
-        "content": "建议优先使用头孢他啶-阿维巴坦联合氨曲南治疗产金属酶的CRE感染",
+        "id": "plan_polymyxin_meropenem",
+        "content": "多黏菌素与美罗培南联合治疗，并延长美罗培南每次静脉滴注时间至3 h",
         "plan_level": 1,
-        "applicable_condition": "CRE感染且产金属酶（如NDM）",
-        "contraindication_note": "在决定使用头孢他啶-阿维巴坦治疗前，建议有条件的实验室测定CRE的产酶类型。",
+        "applicable_condition": "CRE美罗培南MIC≤8 mg/L或CRAB美罗培南MIC≤32 mg/L",
+        "contraindication_note": null,
         "evidence_ids": [
-          "建议优先使用头孢他啶-阿维巴坦联合氨曲南治疗产金属酶的CRE感染（弱推荐，极低质量证据）。在决定使用头孢他啶-阿维巴坦治疗前，建议有条件的实验室测定CRE的产酶类型。"
+          "建议可用多黏菌素与美罗培南联合治疗，并延长美罗培南每次静脉滴注时间至3 h"
         ],
-        "confidence": 0.96
+        "confidence": 0.9
       },
       {
-        "id": "plan_sulbactam_based_for_crab",
-        "content": "以舒巴坦或含舒巴坦的复方制剂为基础，联合替加环素、多黏菌素、多西环素或米诺环素等治疗CRAB感染",
+        "id": "plan_polymyxin_iv_inh",
+        "content": "在静脉应用多黏菌素的同时，使用多黏菌素雾化吸入治疗",
+        "plan_level": 1,
+        "applicable_condition": "CRGNB呼吸道感染",
+        "contraindication_note": "需注意雾化吸入产生的以支气管痉挛为主的不良反应",
+        "evidence_ids": [
+          "建议在静脉应用多黏菌素的同时，使用多黏菌素雾化吸入治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_cza_mono",
+        "content": "头孢他啶-阿维巴坦单用或联合用药",
+        "plan_level": 1,
+        "applicable_condition": "产丝氨酸碳青霉烯酶（包括KPC和OXA-48）CRE感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "建议优先使用头孢他啶-阿维巴坦治疗产丝氨酸碳青霉烯酶（包括KPC和OXA-48）CRE感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_cza_atm",
+        "content": "头孢他啶-阿维巴坦联合氨曲南治疗",
+        "plan_level": 1,
+        "applicable_condition": "产金属酶的CRE感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "建议优先使用头孢他啶-阿维巴坦联合氨曲南治疗产金属酶的CRE感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_sulbactam_high_dose",
+        "content": "以舒巴坦或含舒巴坦的复方制剂为基础联合其他药物，严重感染时舒巴坦剂量可加大至6.0～9.0 g/d",
         "plan_level": 1,
         "applicable_condition": "CRAB感染",
-        "contraindication_note": "含舒巴坦联合用药不适用于青霉素过敏者；对于CRAB严重感染，舒巴坦剂量可加大至6.0～9.0 g/d。",
+        "contraindication_note": "含舒巴坦联合用药不适用于青霉素过敏者",
         "evidence_ids": [
-          "临床根据药敏试验结果，以舒巴坦或含舒巴坦的复方制剂为基础，联合替加环素、多黏菌素、多西环素或米诺环素等。含舒巴坦联合用药不适用于青霉素过敏者。对于CRAB严重感染，舒巴坦剂量可加大至6.0～9.0 g/d。"
+          "对于CRAB严重感染，舒巴坦剂量可加大至6.0～9.0 g/d。",
+          "含舒巴坦联合用药不适用于青霉素过敏者。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_isolation_single",
+        "content": "优选单人单间隔离，宜有单独的卫生间；条件不足时集中隔离；护理人员实行分组护理",
+        "plan_level": 1,
+        "applicable_condition": "医院内CRGNB感染或定植者",
+        "contraindication_note": "不留陪护人员",
+        "evidence_ids": [
+          "对CRGNB感染/定植者，优选单人单间隔离，宜有单独的卫生间。",
+          "推荐将护理人员实行分组护理"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_amikacin_combination_for_cre",
-        "content": "在无使用氨基糖苷类禁忌证的CRE感染患者，建议使用阿米卡星等氨基糖苷类联合治疗方案",
+        "id": "plan_sink_remove",
+        "content": "从患者直接诊疗区域移除水槽，或调整位置远离床头，或加装挡板",
         "plan_level": 1,
-        "applicable_condition": "CRE感染且无氨基糖苷类禁忌证",
-        "contraindication_note": "氨基糖苷类具有较明显的耳、肾毒性，用药过程中应注意不良反应观察；尽量避免与其他肾毒性药物联合应用。建议有条件的单位，用药期间进行氨基糖苷类血药浓度监测。",
+        "applicable_condition": "新建/改建医院或CRGNB高风险病房",
+        "contraindication_note": "洗手池不得用于倾倒体液与排泄物等",
         "evidence_ids": [
-          "在无使用氨基糖苷类禁忌证的CRE感染患者，建议使用阿米卡星等氨基糖苷类联合治疗方案（有条件推荐，极低质量证据）。氨基糖苷类具有较明显的耳、肾毒性，用药过程中应注意不良反应观察；尽量避免与其他肾毒性药物联合应用。建议有条件的单位，用药期间进行氨基糖苷类血药浓度监测。"
+          "建议在以下条件下从患者直接诊疗区域（如病房、执行侵袭性操作的房间）移除水槽",
+          "若调整位置不可行，则可考虑在水槽侧面安装光滑、耐消毒液腐蚀和防潮材质的挡板"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_fosfomycin_combination_for_cre",
-        "content": "在CRE对磷霉素敏感或与联合药物具有协同抗菌作用情况下，建议采用磷霉素静脉制剂联合用药治疗CRE感染",
-        "plan_level": 1,
-        "applicable_condition": "CRE对磷霉素敏感或与联合药物具有协同抗菌作用",
-        "contraindication_note": "高血钠，心、肾功能不全者应避免使用磷霉素。",
-        "evidence_ids": [
-          "在CRE对磷霉素敏感或与联合药物具有协同抗菌作用情况下，建议采用磷霉素静脉制剂联合用药治疗CRE感染（有条件推荐，极低质量证据）。用药前通过药物敏感试验或联合药敏试验确认病原菌对磷霉素敏感或具有协同作用。高血钠，心、肾功能不全者应避免使用磷霉素。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.85
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_cre_kpc_enzyme",
-        "content": "产KPC碳青霉烯酶",
+        "id": "etiology_cre",
+        "content": "碳青霉烯类耐药肠杆菌目细菌(CRE)",
         "etiology_type": "感染因素",
         "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "我国CRE尤其是CRKP绝大多数产KPC酶，产KPC酶和OXA-48酶CRE对头孢他啶-阿维巴坦的敏感率近100%"
-        ],
-        "confidence": 0.96
-      },
-      {
-        "id": "etiology_cre_oxa48_enzyme",
-        "content": "产OXA-48碳青霉烯酶",
-        "etiology_type": "感染因素",
-        "typicality": "常见",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "我国CRE尤其是CRKP绝大多数产KPC酶，产KPC酶和OXA-48酶CRE对头孢他啶-阿维巴坦的敏感率近100%"
+          "碳青霉烯类耐药肠杆菌目细菌（carbapenem-resistant Enterobacteriales，CRE）"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_cre_ndm_enzyme",
+        "id": "etiology_crab",
+        "content": "碳青霉烯类耐药鲍曼不动杆菌(CRAB)",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "碳青霉烯类耐药鲍曼不动杆菌（carbapenem-resistant Acinetobacter baumannii，CRAB）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_crpa",
+        "content": "碳青霉烯类耐药铜绿假单胞菌(CRPA)",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "碳青霉烯类耐药铜绿假单胞菌（carbapenem-resistant Pseudomonas aeruginosa，CRPA）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_kpc",
+        "content": "产KPC酶",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "我国CRE尤其是CRKP绝大多数产KPC酶",
+          "产丝氨酸碳青霉烯酶（包括KPC和OXA-48）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_ndm",
         "content": "产NDM金属酶",
         "etiology_type": "感染因素",
         "typicality": "常见",
-        "diagnostic_role": "必要条件",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "氨曲南与头孢他啶-阿维巴坦在体外对产NDM和产KPC的CRKP菌株表现出良好协同作用，氨曲南不易被金属酶水解。"
+          "氨曲南与头孢他啶-阿维巴坦在体外对产NDM和产KPC的CRKP菌株表现出良好协同作用，氨曲南不易被金属酶水解"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_cr_gnb_carbapenemase_production",
-        "content": "细菌产生碳青霉烯酶导致对碳青霉烯类抗生素水解失活",
+        "id": "pathogenesis_carbapenemase_hydrolysis",
+        "content": "碳青霉烯酶（如KPC、OXA-48、NDM等）水解碳青霉烯类抗菌药物导致细菌耐药",
         "evidence_ids": [
-          "CRE绝大多数产碳青霉烯酶，检测碳青霉烯酶表型或基因型预测细菌对碳青霉烯类敏感性的价值高。"
+          "CRE绝大多数产碳青霉烯酶，检测碳青霉烯酶表型或基因型预测细菌对碳青霉烯类敏感性的价值高。",
+          "氨曲南不易被金属酶水解"
         ],
-        "confidence": 0.94
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_sink_contamination",
+        "content": "水槽污染引起耐药菌在院内传播和感染暴发",
+        "evidence_ids": [
+          "水槽污染引起耐药菌在院内传播和感染暴发"
+        ],
+        "confidence": 0.85
       }
     ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_cr_gnb",
-        "to": "sub_disease_cre",
-        "relation_id": "rel_cr_gnb_has_cre",
+        "from": "disease_crgnb_infection",
+        "to": "sub_disease_cre_infection",
+        "relation_id": "rel_crgnb_has_cre",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
           "本指南聚焦于碳青霉烯类耐药肠杆菌目细菌、碳青霉烯类耐药鲍曼不动杆菌和碳青霉烯类耐药铜绿假单胞菌"
         ],
-        "confidence": 0.98
+        "confidence": 0.95
       },
       {
-        "from": "disease_cr_gnb",
-        "to": "sub_disease_crab",
-        "relation_id": "rel_cr_gnb_has_crab",
+        "from": "disease_crgnb_infection",
+        "to": "sub_disease_crab_infection",
+        "relation_id": "rel_crgnb_has_crab",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
           "本指南聚焦于碳青霉烯类耐药肠杆菌目细菌、碳青霉烯类耐药鲍曼不动杆菌和碳青霉烯类耐药铜绿假单胞菌"
         ],
-        "confidence": 0.98
+        "confidence": 0.95
       },
       {
-        "from": "disease_cr_gnb",
-        "to": "sub_disease_crpa",
-        "relation_id": "rel_cr_gnb_has_crpa",
+        "from": "disease_crgnb_infection",
+        "to": "sub_disease_crpa_infection",
+        "relation_id": "rel_crgnb_has_crpa",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
           "本指南聚焦于碳青霉烯类耐药肠杆菌目细菌、碳青霉烯类耐药鲍曼不动杆菌和碳青霉烯类耐药铜绿假单胞菌"
         ],
-        "confidence": 0.98
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cre_infection",
+        "to": "sub_disease_serine_carbapenemase_cre",
+        "relation_id": "rel_cre_has_serine",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "建议优先使用头孢他啶-阿维巴坦治疗产丝氨酸碳青霉烯酶（包括KPC和OXA-48）CRE感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_cre_infection",
+        "to": "sub_disease_metallo_carbapenemase_cre",
+        "relation_id": "rel_cre_has_metallo",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "建议优先使用头孢他啶-阿维巴坦联合氨曲南治疗产金属酶的CRE感染"
+        ],
+        "confidence": 0.9
       }
     ],
-    "manifests_as": [],
-    "requires_test": [
+    "manifests_as": [
       {
-        "from": "sub_disease_cre",
-        "to": "test_mic_bmd",
-        "relation_id": "rel_cre_requires_mic_bmd",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
+        "from": "sub_disease_crgnb_respiratory_infection",
+        "to": "symptom_pneumonia",
+        "relation_id": "rel_respiratory_manifests_pneumonia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
         "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": null,
-        "weight": 10,
-        "gold_standard": true,
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "present",
         "typicality": "typical",
-        "section_priority": "实验室检测",
-        "evidence_level": "expert_consensus",
+        "duration_condition": null,
+        "section_priority": "推荐意见",
         "evidence_ids": [
-          "对于治疗CRGNB感染的常用抗菌药物如碳青霉烯类、头孢他啶-阿维巴坦、头孢洛扎-他唑巴坦、亚胺培南-西司他丁-雷利巴坦、美罗培南-韦博巴坦、头孢地尔、替加环素、依拉环素、多黏菌素和磷霉素等，尽可能测定MIC（弱推荐，低质量证据）。参考CLSI或EUCAST文件的要求，建议首选采用肉汤微量稀释法（broth microdilution， BMD）、琼脂稀释法或E试验方法。"
+          "CRAB引起的呼吸机相关肺炎（VAP）",
+          "医院获得性肺炎（HAP）"
         ],
-        "confidence": 0.97,
-        "weight_reason": "原文明确将BMD列为MIC测定‘最为认可’的方法，且为首选推荐方法之一",
-        "evidence": "虽然BMD方法检测MIC最为认可，但该方法操作较复杂，在全国医疗机构开展的可行性存在差异"
+        "confidence": 0.9,
+        "weight_reason": "原文提及CRAB肺炎的治疗，表明肺炎是CRGNB呼吸道感染的常见表现形式",
+        "evidence": "在治疗CRAB肺炎时，CMS单药治疗与联合治疗在临床治愈"
       },
       {
-        "from": "sub_disease_cre",
-        "to": "test_carba_np",
-        "relation_id": "rel_cre_requires_carba_np",
+        "from": "sub_disease_cre_infection",
+        "to": "symptom_bloodstream_infection",
+        "relation_id": "rel_cre_manifests_bsi",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "推荐意见",
+        "evidence_ids": [
+          "血流感染、尿路感染等"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_cre_infection",
+        "to": "test_mic",
+        "relation_id": "rel_cre_requires_mic",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
         "result_text": null,
         "weight": 8,
@@ -439,54 +675,127 @@
         "required_count": null,
         "polarity": "present",
         "typicality": "typical",
-        "section_priority": "实验室检测",
+        "section_priority": "推荐意见",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "RT-PCR（98.0%）、Carba NP 法（95.9%） 检测 CRE均具有很高的灵敏度，两者检测的特异度均为100%，耗时3 h以内。"
+          "对于治疗CRGNB感染的常用抗菌药物...尽可能测定MIC"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文称Carba NP法对CRE检测‘具有很高的灵敏度’，特异度100%，但未达金标准表述，属高价值表型检测",
-        "evidence": "RT-PCR（98.0%）、CarbaNP法（95.9%）检测CRE均具有很高的灵敏度，两者检测的特异度均为100%"
+        "weight_reason": "原文推荐对CRGNB（包含CRE）感染的常用抗菌药物尽可能测定MIC",
+        "evidence": "对于治疗CRGNB感染的常用抗菌药物如碳青霉烯类"
       },
       {
-        "from": "sub_disease_cre",
-        "to": "test_pcr_kpc_ndm",
-        "relation_id": "rel_cre_requires_pcr_kpc_ndm",
+        "from": "sub_disease_cre_infection",
+        "to": "test_carbapenemase_genotype",
+        "relation_id": "rel_cre_requires_gene",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": null,
-        "weight": 10,
-        "gold_standard": true,
+        "result_text": "阳性",
+        "weight": 8,
+        "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "present",
+        "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "实验室检测",
+        "section_priority": "推荐意见",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "基于碳青霉烯酶基因型确定的CRE菌株，BMD、E试验、纸片扩散法检测CRE（74株）对头孢他啶-阿维巴坦药敏的分类一致性分别为99%、97%和..."
+          "建议有条件的医疗机构，对CRE分离株开展碳青霉烯酶表型或基因型的检测"
         ],
-        "confidence": 0.96,
-        "weight_reason": "原文将PCR基因检测作为碳青霉烯酶检测的基准参照，多处对比研究均以其结果为一致性判定标准",
-        "evidence": "CDT、改良碳青霉烯灭活法（mCIM）/EDTA-改良碳青霉烯灭活法（eCIM）、NG-TestCARBA5（CARBA）和显色免疫测定法（CDI）的表型结果与PCR基因检测的一致性分别为94%、95%、98%和99%"
+        "confidence": 0.95,
+        "weight_reason": "原文建议有条件的医疗机构对CRE分离株开展碳青霉烯酶基因型检测",
+        "evidence": "建议有条件的医疗机构，对CRE分离株开展碳青霉烯酶表型或基因型的检测"
+      },
+      {
+        "from": "sub_disease_cre_infection",
+        "to": "test_combination_ast",
+        "relation_id": "rel_cre_requires_combo_ast",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "具有协同作用",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "推荐意见",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "联合药敏试验可能有助于CRGNB感染精准抗菌治疗方案的制定"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_cre_infection",
+        "to": "test_cre_active_screening",
+        "relation_id": "rel_cre_requires_screening",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "推荐意见",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "推荐开展CRE携带的主动筛查"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文推荐对特定人群开展CRE携带的主动筛查",
+        "evidence": "对下列特定人群，推荐开展CRE携带的主动筛查"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_cre",
-        "to": "treatment_cre_caaz_avibactam",
-        "relation_id": "rel_cre_follows_caaz_avibactam",
+        "from": "sub_disease_crgnb_respiratory_infection",
+        "to": "treatment_polymyxin_inhalation",
+        "relation_id": "rel_respiratory_follows_inhalation",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "产丝氨酸碳青霉烯酶（KPC/OXA-48）CRE感染",
+        "applicable_condition": "CRGNB呼吸道感染",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "弱推荐",
+        "decision_basis": [
+          "感染部位"
+        ],
+        "contraindication_note": "需注意雾化吸入产生的以支气管痉挛为主的不良反应",
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐意见",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_serine_carbapenemase_cre",
+        "to": "treatment_cza",
+        "relation_id": "rel_serine_follows_cza",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "产丝氨酸碳青霉烯酶CRE感染",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "弱推荐",
         "decision_basis": [
@@ -494,18 +803,18 @@
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见 6",
-        "confidence": 0.96
+        "source_section": "推荐意见",
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_cre",
-        "to": "treatment_cre_caaz_avibactam_aztreonam",
-        "relation_id": "rel_cre_follows_caaz_avibactam_aztreonam",
+        "from": "sub_disease_metallo_carbapenemase_cre",
+        "to": "treatment_cza_atm",
+        "relation_id": "rel_metallo_follows_cza_atm",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "产金属酶（NDM）CRE感染",
+        "applicable_condition": "产金属酶CRE感染",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "弱推荐",
         "decision_basis": [
@@ -513,111 +822,173 @@
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见 7",
-        "confidence": 0.96
+        "source_section": "推荐意见",
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_cre",
-        "to": "treatment_cre_amikacin_combination",
-        "relation_id": "rel_cre_follows_amikacin_combination",
+        "from": "sub_disease_crab_pulmonary_infection",
+        "to": "treatment_tigecycline_combo",
+        "relation_id": "rel_crab_pulm_follows_tige",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "无氨基糖苷类禁忌证的CRE感染",
-        "recommendation_polarity": "建议",
-        "recommendation_strength": "有条件推荐",
+        "applicable_condition": "CRAB引起的肺部感染",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "弱推荐",
         "decision_basis": [
-          "禁忌证"
+          "感染部位",
+          "病原体"
         ],
-        "contraindication_note": "氨基糖苷类具有较明显的耳、肾毒性",
+        "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见 10",
-        "confidence": 0.95
+        "source_section": "推荐意见",
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_cre",
-        "to": "treatment_cre_fosfomycin_combination",
-        "relation_id": "rel_cre_follows_fosfomycin_combination",
+        "from": "sub_disease_crab_infection",
+        "to": "treatment_sulbactam_combo",
+        "relation_id": "rel_crab_follows_sulbactam",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "CRE对磷霉素敏感或具有协同作用",
-        "recommendation_polarity": "建议",
-        "recommendation_strength": "有条件推荐",
+        "applicable_condition": "CRAB感染",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "弱推荐",
         "decision_basis": [
-          "药敏结果"
+          "病原体"
         ],
-        "contraindication_note": "高血钠，心、肾功能不全者应避免使用磷霉素",
+        "contraindication_note": "含舒巴坦联合用药不适用于青霉素过敏者",
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见 11",
+        "source_section": "推荐意见",
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_crgnb_infection",
+        "to": "treatment_bundle_isolation",
+        "relation_id": "rel_crgnb_follows_isolation",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "预防控制",
+        "applicable_condition": "医院内CRGNB感染或定植者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "强推荐",
+        "decision_basis": [
+          "院感防控"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "推荐意见",
         "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_cre_caaz_avibactam",
-        "to": "plan_caaz_avibactam_for_cre_kpc_oxa48",
-        "relation_id": "rel_treatment_implements_by_caaz_avibactam_plan",
+        "from": "treatment_polymyxin_combo",
+        "to": "plan_polymyxin_meropenem",
+        "relation_id": "rel_polymyxin_combo_impl_mero",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "产KPC或OXA-48酶CRE感染",
-        "contraindication_note": "用药前检测CRE的产酶类型或头孢他啶-阿维巴坦的药敏",
+        "applicable_condition": "CRE美罗培南MIC≤8 mg/L或CRAB美罗培南MIC≤32 mg/L",
+        "contraindication_note": null,
         "evidence_ids": [
-          "建议优先使用头孢他啶-阿维巴坦治疗产丝氨酸碳青霉烯酶（包括KPC和OXA-48）CRE感染（弱推荐，极低质量证据）。建议用药前检测CRE的产酶类型或头孢他啶-阿维巴坦的药敏。"
+          "建议可用多黏菌素与美罗培南联合治疗，并延长美罗培南每次静脉滴注时间至3 h"
         ],
-        "confidence": 0.96
+        "confidence": 0.9
       },
       {
-        "from": "treatment_cre_caaz_avibactam_aztreonam",
-        "to": "plan_caaz_avibactam_aztreonam_for_cre_metallo",
-        "relation_id": "rel_treatment_implements_by_caaz_avibactam_aztreonam_plan",
+        "from": "treatment_polymyxin_inhalation",
+        "to": "plan_polymyxin_iv_inh",
+        "relation_id": "rel_polymyxin_inh_impl_iv_inh",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "产金属酶（如NDM）CRE感染",
-        "contraindication_note": "在决定使用头孢他啶-阿维巴坦治疗前，建议有条件的实验室测定CRE的产酶类型。",
+        "applicable_condition": "CRGNB呼吸道感染",
+        "contraindication_note": "需注意雾化吸入产生的以支气管痉挛为主的不良反应",
         "evidence_ids": [
-          "建议优先使用头孢他啶-阿维巴坦联合氨曲南治疗产金属酶的CRE感染（弱推荐，极低质量证据）。在决定使用头孢他啶-阿维巴坦治疗前，建议有条件的实验室测定CRE的产酶类型。"
+          "建议在静脉应用多黏菌素的同时，使用多黏菌素雾化吸入治疗"
         ],
-        "confidence": 0.96
+        "confidence": 0.9
       },
       {
-        "from": "treatment_cre_amikacin_combination",
-        "to": "plan_amikacin_combination_for_cre",
-        "relation_id": "rel_treatment_implements_by_amikacin_plan",
+        "from": "treatment_cza",
+        "to": "plan_cza_mono",
+        "relation_id": "rel_cza_impl_mono",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "CRE感染且无氨基糖苷类禁忌证",
-        "contraindication_note": "氨基糖苷类具有较明显的耳、肾毒性，用药过程中应注意不良反应观察；尽量避免与其他肾毒性药物联合应用。建议有条件的单位，用药期间进行氨基糖苷类血药浓度监测。",
+        "applicable_condition": "产丝氨酸碳青霉烯酶CRE感染",
+        "contraindication_note": null,
         "evidence_ids": [
-          "在无使用氨基糖苷类禁忌证的CRE感染患者，建议使用阿米卡星等氨基糖苷类联合治疗方案（有条件推荐，极低质量证据）。氨基糖苷类具有较明显的耳、肾毒性，用药过程中应注意不良反应观察；尽量避免与其他肾毒性药物联合应用。建议有条件的单位，用药期间进行氨基糖苷类血药浓度监测。"
+          "建议优先使用头孢他啶-阿维巴坦治疗产丝氨酸碳青霉烯酶（包括KPC和OXA-48）CRE感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_cza_atm",
+        "to": "plan_cza_atm",
+        "relation_id": "rel_cza_atm_impl_combo",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "产金属酶的CRE感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "建议优先使用头孢他啶-阿维巴坦联合氨曲南治疗产金属酶的CRE感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_sulbactam_combo",
+        "to": "plan_sulbactam_high_dose",
+        "relation_id": "rel_sulbactam_impl_high_dose",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "CRAB严重感染",
+        "contraindication_note": "含舒巴坦联合用药不适用于青霉素过敏者",
+        "evidence_ids": [
+          "对于CRAB严重感染，舒巴坦剂量可加大至6.0～9.0 g/d。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_bundle_isolation",
+        "to": "plan_isolation_single",
+        "relation_id": "rel_isolation_impl_single",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "医院内CRGNB感染或定植者",
+        "contraindication_note": "不留陪护人员",
+        "evidence_ids": [
+          "对CRGNB感染/定植者，优选单人单间隔离，宜有单独的卫生间。"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_cre_fosfomycin_combination",
-        "to": "plan_fosfomycin_combination_for_cre",
-        "relation_id": "rel_treatment_implements_by_fosfomycin_plan",
+        "from": "treatment_sink_removal",
+        "to": "plan_sink_remove",
+        "relation_id": "rel_sink_impl_remove",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "CRE对磷霉素敏感或与联合药物具有协同抗菌作用",
-        "contraindication_note": "高血钠，心、肾功能不全者应避免使用磷霉素。",
+        "applicable_condition": "新建/改建医院或CRGNB高风险病房",
+        "contraindication_note": "洗手池不得用于倾倒体液与排泄物等",
         "evidence_ids": [
-          "在CRE对磷霉素敏感或与联合药物具有协同抗菌作用情况下，建议采用磷霉素静脉制剂联合用药治疗CRE感染（有条件推荐，极低质量证据）。用药前通过药物敏感试验或联合药敏试验确认病原菌对磷霉素敏感或具有协同作用。高血钠，心、肾功能不全者应避免使用磷霉素。"
+          "建议在以下条件下从患者直接诊疗区域（如病房、执行侵袭性操作的房间）移除水槽"
         ],
-        "confidence": 0.95
+        "confidence": 0.85
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_cre",
-        "to": "etiology_cre_kpc_enzyme",
-        "relation_id": "rel_cre_causes_kpc_enzyme",
+        "from": "sub_disease_cre_infection",
+        "to": "etiology_cre",
+        "relation_id": "rel_cre_caused_by_cre",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -625,52 +996,79 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "我国CRE尤其是CRKP绝大多数产KPC酶，产KPC酶和OXA-48酶CRE对头孢他啶-阿维巴坦的敏感率近100%"
-        ],
-        "confidence": 0.96
-      },
-      {
-        "from": "sub_disease_cre",
-        "to": "etiology_cre_oxa48_enzyme",
-        "relation_id": "rel_cre_causes_oxa48_enzyme",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "我国CRE尤其是CRKP绝大多数产KPC酶，产KPC酶和OXA-48酶CRE对头孢他啶-阿维巴坦的敏感率近100%"
+          "碳青霉烯类耐药肠杆菌目细菌（carbapenem-resistant Enterobacteriales，CRE）"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_cre",
-        "to": "etiology_cre_ndm_enzyme",
-        "relation_id": "rel_cre_causes_ndm_enzyme",
+        "from": "sub_disease_crab_infection",
+        "to": "etiology_crab",
+        "relation_id": "rel_crab_caused_by_crab",
         "relation_name": "相关",
         "relation_type": "causes",
-        "causal_strength": "moderate",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "碳青霉烯类耐药鲍曼不动杆菌（carbapenem-resistant Acinetobacter baumannii，CRAB）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_serine_carbapenemase_cre",
+        "to": "etiology_kpc",
+        "relation_id": "rel_serine_caused_by_kpc",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "我国CRE尤其是CRKP绝大多数产KPC酶",
+          "产丝氨酸碳青霉烯酶（包括KPC和OXA-48）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_metallo_carbapenemase_cre",
+        "to": "etiology_ndm",
+        "relation_id": "rel_metallo_caused_by_ndm",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
         "typicality": "common",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "氨曲南与头孢他啶-阿维巴坦在体外对产NDM和产KPC的CRKP菌株表现出良好协同作用，氨曲南不易被金属酶水解。"
+          "氨曲南与头孢他啶-阿维巴坦在体外对产NDM和产KPC的CRKP菌株表现出良好协同作用，氨曲南不易被金属酶水解"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_cre",
-        "to": "pathogenesis_cr_gnb_carbapenemase_production",
-        "relation_id": "rel_cre_explained_by_carbapenemase_production",
+        "from": "sub_disease_cre_infection",
+        "to": "pathogenesis_carbapenemase_hydrolysis",
+        "relation_id": "rel_cre_explained_by_hydrolysis",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
           "CRE绝大多数产碳青霉烯酶，检测碳青霉烯酶表型或基因型预测细菌对碳青霉烯类敏感性的价值高。"
         ],
-        "confidence": 0.94
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_crgnb_infection",
+        "to": "pathogenesis_sink_contamination",
+        "relation_id": "rel_crgnb_explained_by_sink",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "水槽污染引起耐药菌在院内传播和感染暴发"
+        ],
+        "confidence": 0.85
       }
     ]
   },

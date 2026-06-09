@@ -2,7 +2,7 @@
   "meta": {
     "doc_id": "成人流行性感冒抗病毒治疗专家共识",
     "source_title": "成人流行性感冒抗病毒治疗专家共识",
-    "section_path": "",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -28,76 +28,43 @@
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_influenza_adult",
-        "name": "成人流行性感冒",
+        "id": "sub_disease_uncomplicated_influenza",
+        "name": "单纯性流感",
         "parent_disease_id": "disease_influenza",
-        "disease_subtype": null,
+        "disease_subtype": "单纯性",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "成人",
+        "severity": "轻症",
+        "population": "无重症高危因素患者",
         "gender": "all",
-        "age_min": 18,
+        "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "成人流行性感冒抗病毒治疗专家共识"
+          "无重症高危因素的单纯性流感患者建议门诊治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_influenza_severe",
-        "name": "重症流行性感冒",
+        "id": "sub_disease_severe_influenza",
+        "name": "重症流感",
         "parent_disease_id": "disease_influenza",
-        "disease_subtype": null,
+        "disease_subtype": "重症",
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": "高危人群",
+        "population": "有重症高危因素和并发症的疑似或确诊流感患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "但是对于部分高危人群可发生重症流感，甚至导致死亡"
+          "对于部分高危人群可发生重症流感，甚至导致死亡",
+          "有重症高危因素和并发症的疑似或确诊流感患者需根据病程及临床表现，根据病情严重程度，进行合理收容和诊治"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_influenza_complicated",
-        "name": "并发症相关流行性感冒",
-        "parent_disease_id": "disease_influenza",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "有基础疾病或免疫功能低下者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "流感可进展为下呼吸道感染，也可能出现横纹肌溶解和心肌炎等",
-          "免疫功能受损患者更易继发细菌感染"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_influenza_pregnancy",
-        "name": "妊娠期流行性感冒",
-        "parent_disease_id": "disease_influenza",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "孕妇",
-        "gender": "female",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "孕妇：流感对孕妇的健康危害严重",
-          "妊娠期女性发生流感的临床表现与普通患者相似"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "sub_disease_influenza_elderly",
-        "name": "老年流行性感冒",
+        "name": "老年人流感",
         "parent_disease_id": "disease_influenza",
-        "disease_subtype": null,
+        "disease_subtype": "特定人群",
         "clinical_stage": "不限定",
         "severity": "不限定",
         "population": "老年人",
@@ -105,31 +72,50 @@
         "age_min": 65,
         "age_max": null,
         "evidence_ids": [
-          "老年人：老年人罹患流感后易出现严重并发症，死亡风险较高"
+          "老年人罹患流感后易出现严重并发症，死亡风险较高",
+          "年龄≥65岁的成人"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_influenza_child",
-        "name": "儿童流行性感冒",
+        "id": "sub_disease_influenza_pregnant",
+        "name": "孕妇流感",
         "parent_disease_id": "disease_influenza",
-        "disease_subtype": null,
+        "disease_subtype": "特定人群",
+        "clinical_stage": "妊娠期",
+        "severity": "不限定",
+        "population": "孕妇或产妇",
+        "gender": "female",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "流感对孕妇的健康危害严重",
+          "孕妇或产妇（产后2周内）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_influenza_children",
+        "name": "儿童流感",
+        "parent_disease_id": "disease_influenza",
+        "disease_subtype": "特定人群",
         "clinical_stage": "不限定",
         "severity": "不限定",
         "population": "儿童",
         "gender": "all",
-        "age_min": 0,
-        "age_max": 18,
+        "age_min": null,
+        "age_max": 5,
         "evidence_ids": [
-          "5岁以下儿童是流感的高发人群，也是易发展为重症病例的高危人群"
+          "5岁以下儿童是流感的高发人群，也是易发展为重症病例的高危人群",
+          "年龄<5岁的儿童，尤其是<2岁的儿童更易发展为严重并发症"
         ],
         "confidence": 0.9
       },
       {
         "id": "sub_disease_influenza_immunocompromised",
-        "name": "免疫功能低下者流行性感冒",
+        "name": "免疫功能低下者流感",
         "parent_disease_id": "disease_influenza",
-        "disease_subtype": null,
+        "disease_subtype": "特定人群",
         "clinical_stage": "不限定",
         "severity": "不限定",
         "population": "免疫功能低下或免疫抑制人群",
@@ -138,6 +124,22 @@
         "age_max": null,
         "evidence_ids": [
           "免疫功能低下者，如接受移植、化学治疗或生物和非生物疗法的患者，出现流感并发症的风险更高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_influenza_comorbidities",
+        "name": "合并基础疾病流感",
+        "parent_disease_id": "disease_influenza",
+        "disease_subtype": "特定人群",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "伴有慢性基础疾病者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "慢性病患者：与同龄健康成年人相比，慢性基础疾病患者感染流感病毒后，更易出现严重疾病或死亡"
         ],
         "confidence": 0.9
       }
@@ -151,184 +153,103 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "我国流感样病例的定义为发热（腋温≥38℃）"
+          "我国流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛"
         ],
         "confidence": 0.95
       },
       {
         "id": "symptom_cough",
         "name": "咳嗽",
-        "body_site": "呼吸系统",
+        "body_site": "呼吸道",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "接受实体器官移植的流感患者最常见的呼吸道症状为咳嗽（85%）"
+          "我国流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛"
         ],
         "confidence": 0.95
       },
       {
         "id": "symptom_sore_throat",
         "name": "咽痛",
-        "body_site": "上呼吸道",
+        "body_site": "咽喉",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
           "我国流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "symptom_myalgia",
         "name": "肌痛",
-        "body_site": "肌肉骨骼系统",
+        "body_site": "肌肉",
         "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "接受实体器官移植的流感患者...30%为肌痛"
+          "其特征表现是突然出现发热、头痛、肌痛等不适"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_headache",
         "name": "头痛",
-        "body_site": "神经系统",
+        "body_site": "头部",
         "symptom_category": "神经系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "接受实体器官移植的流感患者...40%为胃肠道症状。可有肺外并发症，如心肌炎、肌炎或中枢神经系统受累"
+          "其特征表现是突然出现发热、头痛、肌痛等不适"
         ],
         "confidence": 0.9
-      },
-      {
-        "id": "symptom_nausea",
-        "name": "恶心",
-        "body_site": "消化系统",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "在成人/青少年的治疗研究中，常见的药物不良反应为恶心、呕吐和头痛"
-        ],
-        "confidence": 0.85
-      },
-      {
-        "id": "symptom_vomiting",
-        "name": "呕吐",
-        "body_site": "消化系统",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "在成人/青少年的治疗研究中，常见的药物不良反应为恶心、呕吐和头痛"
-        ],
-        "confidence": 0.85
       },
       {
         "id": "symptom_dyspnea",
         "name": "呼吸困难",
-        "body_site": "呼吸系统",
+        "body_site": "呼吸道",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "造血干细胞移植患者感染流感的症状包括...呼吸困难（29.7%）"
+          "造血干细胞移植患者感染流感的症状包括咳嗽（89%）、发热（64.9%）、咽痛（29.7%）、呼吸困难（29.7%）和肌痛（21.6%）"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_diarrhea",
-        "name": "腹泻",
-        "body_site": "消化系统",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "临床研究中出现包括临床检测值异常的不良反应发生率为24.7%，主要为腹泻"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_altered_mental_status",
-        "name": "精神状态改变",
-        "body_site": "神经系统",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "qSOFA评分项目为...精神状态改变分别记1分。精神状态改变的评分需要通过格拉斯哥昏迷评分（GCS）得到,GCS<13，记为1分"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_no_fever",
-        "name": "无发热",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "absent",
-        "typicality": "common",
-        "evidence_ids": [
-          "近40%的患者没有发热"
-        ],
-        "confidence": 0.9
+        "confidence": 0.85
       }
     ],
     "tests": [
       {
-        "id": "test_nasopharyngeal_swab_rna",
-        "name": "鼻咽拭子流感病毒核酸检测",
+        "id": "test_naat",
+        "name": "流感病毒核酸检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "建议送检鼻咽拭子或口咽拭子检测流感病毒核酸"
+          "在具备核酸检测能力的医疗机构，建议送检鼻咽拭子或口咽拭子检测流感病毒核酸",
+          "在病原学检测技术上，首选核酸检测"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_oropharyngeal_swab_rna",
-        "name": "口咽拭子流感病毒核酸检测",
+        "id": "test_antigen",
+        "name": "流感病毒抗原检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "建议送检鼻咽拭子或口咽拭子检测流感病毒核酸"
+          "在不具备核酸检测能力的医疗机构，可选择送检鼻咽拭子或口咽拭子检测流感病毒抗原"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_nasopharyngeal_swab_antigen",
-        "name": "鼻咽拭子流感病毒抗原检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "可选择送检鼻咽拭子或口咽拭子检测流感病毒抗原"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_oropharyngeal_swab_antigen",
-        "name": "口咽拭子流感病毒抗原检测",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "可选择送检鼻咽拭子或口咽拭子检测流感病毒抗原"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_qsofa_score",
-        "name": "快速序贯器官衰竭评分（qSOFA）",
+        "id": "test_qsofa",
+        "name": "qSOFA评分",
         "normal_range_min": 0,
         "normal_range_max": 3,
         "is_digital": 1,
         "evidence_ids": [
-          "推荐采用快速序贯器官衰竭评分（qSOFA）评分对可疑、临床诊断或确诊流感患者进行首诊的病情评估。0~1分可考虑在门诊或普通病房治疗，≥2分应考虑收入ICU治疗"
+          "推荐采用快速序贯器官衰竭(quick sequential organ failure assessment, qSOFA)评分对可疑、临床诊断或确诊流感患者进行首诊的病情评估"
         ],
         "confidence": 0.95
       }
@@ -336,189 +257,163 @@
     "treatments": [
       {
         "id": "treatment_antiviral_early",
-        "content": "发病48h内进行抗病毒治疗可减少并发症，降低病死率，缩短住院时间；发病时间超过48h的重症患者依然可从抗病毒治疗中获益",
+        "content": "发病48h内进行抗病毒治疗可减少并发症，降低病死率，缩短住院时间",
         "recommendation_strength": "强推荐",
-        "source_section": "推荐意见4",
+        "source_section": "抗病毒治疗",
         "evidence_ids": [
-          "推荐意见4：发病48h内进行抗病毒治疗可减少并发症，降低病死率，缩短住院时间；发病时间超过48h的重症患者依然可从抗病毒治疗中获益"
+          "发病48h内进行抗病毒治疗可减少并发症，降低病死率，缩短住院时间；发病时间超过48h的重症患者依然可从抗病毒治疗中获益"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_antiviral_for_high_risk",
-        "content": "对具有以下情况之一的疑似或确诊流感患者立即启动抗病毒治疗，不论是否接种过流感疫苗：①因流感需住院的患者；②有流感重症高危因素的就诊患者；③门急诊就诊、病情严重的患者；④非重症且无重症流感高危因素的患者，应充分评估风险和收益，考虑是否给予抗病毒治疗",
+        "id": "treatment_antiviral_severe",
+        "content": "对于重症流感患者，推荐尽快进行抗病毒治疗，在发病48h内抗病毒治疗的获益最大",
         "recommendation_strength": "强推荐",
-        "source_section": "推荐意见4",
+        "source_section": "特殊人群的抗病毒治疗",
         "evidence_ids": [
-          "推荐意见4：...建议对具有以下情况之一的疑似或确诊流感患者立即启动抗病毒治疗，不论是否接种过流感疫苗：①因流感需住院的患者，不论住院前的发病时间长短（中等证据，强推荐）；②有流感重症高危因素的就诊患者，不论就诊前发病时间长短（中等证据，强推荐）；③门急诊就诊、病情严重的患者，不论发病时间长短（中等证据，强推荐）；④非重症且无重症流感高危因素的患者，应充分评估风险和收益，考虑是否给予抗病毒治疗（中等证据，强推荐）"
+          "对于重症流感患者，推荐尽快进行抗病毒治疗，在发病48h内抗病毒治疗的获益最大，超过48h使用仍可降低病死率"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_antiviral_for_severe",
-        "content": "对于重症流感患者，推荐尽快进行抗病毒治疗，在发病48h内抗病毒治疗的获益最大，超过48h使用仍可降低病死率；治疗5d后病情仍十分严重时或病毒持续复制者可考虑延长疗程",
+        "id": "treatment_pre_exposure",
+        "content": "有重症流感高危因素且未接种流感疫苗的人群，其所在社区出现流感暴发时，建议进行暴露前预防用药",
         "recommendation_strength": "强推荐",
-        "source_section": "推荐意见5",
+        "source_section": "抗病毒药物在流感预防中的作用",
         "evidence_ids": [
-          "推荐意见5：①对于重症流感患者，推荐尽快进行抗病毒治疗，在发病48h内抗病毒治疗的获益最大，超过48h使用仍可降低病死率；治疗5d后病情仍十分严重时或病毒持续复制者可考虑延长疗程（中等证据，强推荐）"
+          "有重症流感高危因素且未接种流感疫苗（有疫苗禁忌证/疫苗无法获取/未接种流感疫苗）的人群，其所在社区出现流感暴发时，建议进行暴露前预防用药"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "treatment_antiviral_for_pregnancy",
-        "content": "妊娠期妇女首选奥司他韦进行抗病毒治疗",
+        "id": "treatment_post_exposure",
+        "content": "有重症流感高危因素且未能接种流感疫苗的人群，若与确诊或疑似流感患者密切接触且在48h内，建议进行暴露后预防用药",
         "recommendation_strength": "强推荐",
-        "source_section": "推荐意见5",
+        "source_section": "抗病毒药物在流感预防中的作用",
         "evidence_ids": [
-          "推荐意见5：②妊娠期妇女首选奥司他韦进行抗病毒治疗"
+          "有重症流感高危因素且未能接种流感疫苗（有疫苗禁忌证/疫苗无法获取/未接种流感疫苗）的人群，若与确诊或疑似流感患者密切接触且在48h内，建议进行暴露后预防用药"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_oseltamivir_oral",
-        "content": "奥司他韦适用于成人及年龄≥1岁的儿童，肾功能正常的成人给药方式为口服75mg/次，2次/d，疗程为5d",
+        "id": "plan_oseltamivir",
+        "content": "奥司他韦口服75mg/次，2次/d，疗程为5d",
         "plan_level": 1,
-        "applicable_condition": "肾功能正常成人",
-        "contraindication_note": null,
+        "applicable_condition": "成人及年龄≥1岁的儿童流感患者",
+        "contraindication_note": "肾功能不全者需根据肾功能调整剂量",
         "evidence_ids": [
-          "奥司他韦适用于成人及年龄≥1岁的儿童，肾功能正常的成人给药方式为口服75mg/次，2次/d，疗程为5d"
+          "肾功能正常的成人给药方式为口服75mg/次，2次/d，疗程为5d,肾功能不全者需根据肾功能调整剂量"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_zanamivir_inhalation",
-        "content": "扎那米韦为吸入剂，适用于7岁以上人群，单剂次吸入",
+        "id": "plan_zanamivir",
+        "content": "扎那米韦吸入剂",
         "plan_level": 2,
-        "applicable_condition": "7岁以上人群",
+        "applicable_condition": "7岁以上人群甲型和乙型流感",
         "contraindication_note": "不推荐用于原有哮喘等呼吸系统疾病者",
         "evidence_ids": [
-          "扎那米韦为吸人剂，适用于7岁以上人群",
-          "扎那米韦一般耐受性良好，但有引起支气管痉及过敏反应的风险，因此不推荐用于原有哮喘等呼吸系统疾病者"
+          "扎那米韦为吸入剂，适用于7岁以上人群",
+          "有引起支气管痉及过敏反应的风险,因此不推荐用于原有哮喘等呼吸系统疾病者"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_peramivir_iv",
-        "content": "帕拉米韦通过静脉给药，适用于无并发症的非重症流感患者可予静脉单次应用300~600mg，住院患者使用300~600mg/d至少5d",
+        "id": "plan_peramivir",
+        "content": "帕拉米韦静脉单次应用300~600mg",
         "plan_level": 3,
-        "applicable_condition": "无并发症非重症或住院流感患者",
-        "contraindication_note": "需根据肾功能调整剂量",
+        "applicable_condition": "无并发症的非重症流感患者或不能耐受口服者",
+        "contraindication_note": "需要根据肾功能调整药物剂量",
         "evidence_ids": [
           "帕拉米韦通过静脉给药，主要经肾脏代谢，需要根据肾功能调整药物剂量",
-          "对于无并发症的非重症流感患者可予静脉单次应用，而在住院流感患者的临床试验中使用帕拉米韦300~600mg/d（至少5d）的给药方案的临床耐受性良好"
+          "对于无并发症的非重症流感患者可予静脉单次应用300~600mg"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_baloxavir",
+        "content": "玛巴洛沙韦单剂次口服，体质量40~80kg使用40mg，≥80kg使用80mg",
+        "plan_level": 1,
+        "applicable_condition": "成人及年龄≥12岁青少年",
+        "contraindication_note": "尚无重度肝肾损伤者、妊娠及哺乳期女性的用药数据",
+        "evidence_ids": [
+          "玛巴洛沙韦适用于成人及年龄≥12岁青少年，给药方式为单剂次口服，体质量为40~80kg的患者使用剂量为40mg，体质量≥80kg的患者使用剂量为80mg"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_baloxavir_oral",
-        "content": "玛巴洛沙韦适用于成人及年龄≥12岁青少年，单剂次口服，体质量为40~80kg的患者使用剂量为40mg，体质量≥80kg的患者使用剂量为80mg",
+        "id": "plan_favipiravir",
+        "content": "法维拉韦空腹口服，第1天每次1600mg 2次/d，第2~5天每次600mg 2次/d",
         "plan_level": 4,
-        "applicable_condition": "成人及≥12岁青少年",
-        "contraindication_note": "孕妇禁用；重度肝肾损伤者数据不足",
+        "applicable_condition": "其他抗流感病毒药物治疗无效或效果不佳时使用",
+        "contraindication_note": "孕妇及准备妊娠的妇女禁用，男性患者给药时应给予明确的风险提示，哺乳期妇女给药时应停止哺乳",
         "evidence_ids": [
-          "玛巴洛沙韦适用于成人及年龄≥12岁青少年，给药方式为单剂次口服，体质量为40~80kg的患者使用剂量为40mg，体质量≥80kg的患者使用剂量为80mg",
-          "目前，尚无重度肝肾损伤者、妊娠及哺乳期女性的用药数据。玛巴洛沙韦总体安全性在国际大型临床试验中与安慰剂类似"
+          "法维拉韦适用于成人，给药方式为空腹口服，疗程为5d，第1天为每次1600mg,2次/d;第2~5天为每次600mg,2次/d",
+          "孕妇及准备妊娠的妇女禁用，男性患者给药时应给予明确的风险提示，哺乳期妇女给药时应停止哺乳"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_favipiravir_oral",
-        "content": "法维拉韦适用于成人，给药方式为空腹口服，疗程为5d，第1天为每次1600mg,2次/d；第2~5天为每次600mg,2次/d",
+        "id": "plan_arbidol",
+        "content": "阿比多尔口服200mg/次，3次/d",
         "plan_level": 5,
-        "applicable_condition": "成人",
-        "contraindication_note": "孕妇禁用；严重肝肾功能不全时可能需要调整剂量",
+        "applicable_condition": "成人甲型、乙型和丙型流感",
+        "contraindication_note": "WHO和美国CDC均未推荐阿比多尔",
         "evidence_ids": [
-          "法维拉韦适用于成人，给药方式为空腹口服，疗程为5d，第1天为每次1600mg,2次/d；第2~5天为每次600mg,2次/d",
-          "法维拉韦因有生殖毒性，孕妇禁用",
-          "严重肝肾功能不全[估算肾小球滤过率<30 mL/（min ·1.73m²）]时可能需要调整剂量"
+          "阿比多尔给药方式为口服，适用于成人，剂量为200mg/次，3次/d",
+          "目前，WHO和美国CDC均未推荐阿比多尔"
         ],
-        "confidence": 0.95
+        "confidence": 0.85
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_influenza_virus",
-        "content": "流感病毒",
+        "id": "etiology_influenza_virus_a",
+        "content": "甲型流感病毒",
         "etiology_type": "感染因素",
         "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "流行性感冒（以下简称流感）是由流感病毒引起的一种急性呼吸道传染病"
+          "甲型和乙型流感病毒每年呈季节性流行"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_elderly",
-        "content": "高龄",
-        "etiology_type": "危险因素",
-        "typicality": "常见",
-        "diagnostic_role": "危险因素",
+        "id": "etiology_influenza_virus_b",
+        "content": "乙型流感病毒",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "老年人：老年人罹患流感后易出现严重并发症，死亡风险较高"
+          "甲型和乙型流感病毒每年呈季节性流行"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_pregnancy",
-        "content": "妊娠",
-        "etiology_type": "危险因素",
-        "typicality": "常见",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "孕妇：流感对孕妇的健康危害严重"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_chronic_disease",
-        "content": "慢性基础疾病",
-        "etiology_type": "危险因素",
-        "typicality": "常见",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "慢性病患者：与同龄健康成年人相比，慢性基础疾病患者感染流感病毒后，更易出现严重疾病或死亡"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_obesity",
-        "content": "肥胖",
-        "etiology_type": "危险因素",
-        "typicality": "常见",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "老年人、年幼儿童、孕产妇、肥胖者和有慢性基础疾病等高危人群"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_immunosuppression",
-        "content": "免疫功能低下",
-        "etiology_type": "危险因素",
-        "typicality": "常见",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "免疫功能低下者，如接受移植、化学治疗或生物和非生物疗法的患者，出现流感并发症的风险更高"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_viral_replication_and_release",
-        "content": "流感病毒表面有2个重要的糖蛋白：血细胞凝聚素（HA）和神经氨酸酶（NA）。HA与细胞表面的α2,3或α2,6唾液酸受体结合感染细胞。NA切割新组装的病毒颗粒和细胞表面的唾液酸受体的连接，释放病毒颗粒，感染其他细胞。",
+        "id": "pathogenesis_na",
+        "content": "神经氨酸酶(NA)切割新组装的病毒颗粒和细胞表面的唾液酸受体的连接，释放病毒颗粒，感染其他细胞",
         "evidence_ids": [
-          "流感病毒表面有2个重要的糖蛋白：血细胞凝聚素 和神经氨酸酶（ ）。HA与细胞表面的α23或α2，6唾液酸受体结合感染细胞。 切割新组装的病毒颗粒和细胞表面的唾液酸受体的连接，释放病毒颗粒，感染其他细胞。"
+          "NA切割新组装的病毒颗粒和细胞表面的唾液酸受体的连接，释放病毒颗粒，感染其他细胞"
         ],
         "confidence": 0.9
       },
       {
-        "id": "pathogenesis_na_inhibition",
-        "content": "NAI能够与其作用的部位竞争性紧密结合，从而抑制NA的切割作用，阻断流感病毒的释放。",
+        "id": "pathogenesis_rna_polymerase",
+        "content": "流感病毒RNA聚合酶包含PB1、PB2和PA亚基，进行病毒RNA复制",
         "evidence_ids": [
-          "NAI能够与其作用的部位竞争性紧密结合，从而抑制NA的切割作用，阻断流感病毒的释放"
+          "流感病毒RNA聚合酶包含3个亚基PB1、PB2和PA,这些亚基都是病毒复制的必要条件"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_ha",
+        "content": "血细胞凝聚素(HA)与细胞表面的α2,3或α2,6唾液酸受体结合感染细胞",
+        "evidence_ids": [
+          "HA与细胞表面的α2,3或α2,6唾液酸受体结合感染细胞"
         ],
         "confidence": 0.9
       }
@@ -528,47 +423,23 @@
     "has_sub_disease": [
       {
         "from": "disease_influenza",
-        "to": "sub_disease_influenza_adult",
-        "relation_id": "rel_influenza_has_adult",
+        "to": "sub_disease_uncomplicated_influenza",
+        "relation_id": "rel_influenza_has_uncomplicated",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "成人流行性感冒抗病毒治疗专家共识"
+          "无重症高危因素的单纯性流感患者建议门诊治疗"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_influenza",
-        "to": "sub_disease_influenza_severe",
+        "to": "sub_disease_severe_influenza",
         "relation_id": "rel_influenza_has_severe",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "但是对于部分高危人群可发生重症流感，甚至导致死亡"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_influenza",
-        "to": "sub_disease_influenza_complicated",
-        "relation_id": "rel_influenza_has_complicated",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "流感可进展为下呼吸道感染，也可能出现横纹肌溶解和心肌炎等",
-          "免疫功能受损患者更易继发细菌感染"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_influenza",
-        "to": "sub_disease_influenza_pregnancy",
-        "relation_id": "rel_influenza_has_pregnancy",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "孕妇：流感对孕妇的健康危害严重",
-          "妊娠期女性发生流感的临床表现与普通患者相似"
+          "对于部分高危人群可发生重症流感"
         ],
         "confidence": 0.95
       },
@@ -579,269 +450,170 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "老年人：老年人罹患流感后易出现严重并发症，死亡风险较高"
+          "老年人罹患流感后易出现严重并发症"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_influenza",
-        "to": "sub_disease_influenza_child",
-        "relation_id": "rel_influenza_has_child",
+        "to": "sub_disease_influenza_pregnant",
+        "relation_id": "rel_influenza_has_pregnant",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "5岁以下儿童是流感的高发人群，也是易发展为重症病例的高危人群"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_influenza",
-        "to": "sub_disease_influenza_immunocompromised",
-        "relation_id": "rel_influenza_has_immunocompromised",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "免疫功能低下者，如接受移植、化学治疗或生物和非生物疗法的患者，出现流感并发症的风险更高"
-        ],
-        "confidence": 0.95
-      }
-    ],
-    "manifests_as": [
-      {
-        "from": "sub_disease_influenza_adult",
-        "to": "symptom_fever",
-        "relation_id": "rel_adult_influenza_manifests_as_fever",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "我国流感样病例的定义为发热（腋温≥38℃）"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将‘发热’列为流感样病例定义核心要素，且在多处描述为‘常见’‘典型’表现",
-        "evidence": "我国流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛，缺乏实验室确定诊断为某种疾病的依据[18]"
-      },
-      {
-        "from": "sub_disease_influenza_adult",
-        "to": "symptom_cough",
-        "relation_id": "rel_adult_influenza_manifests_as_cough",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "我国流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文将‘咳嗽’列为流感样病例定义的两大必备症状之一，且在各人群临床表现中高频、一致出现",
-        "evidence": "我国流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛，缺乏实验室确定诊断为某种疾病的依据[18]"
-      },
-      {
-        "from": "sub_disease_influenza_adult",
-        "to": "symptom_sore_throat",
-        "relation_id": "rel_adult_influenza_manifests_as_sore_throat",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "我国流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文将‘咽痛’列为流感样病例定义的两大必备症状之一，且在各人群临床表现中高频、一致出现",
-        "evidence": "我国流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛，缺乏实验室确定诊断为某种疾病的依据[18]"
-      },
-      {
-        "from": "sub_disease_influenza_severe",
-        "to": "symptom_dyspnea",
-        "relation_id": "rel_severe_influenza_manifests_as_dyspnea",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 8,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "造血干细胞移植患者感染流感的症状包括...呼吸困难（29.7%）"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文描述重症患者‘呼吸困难’为常见症状（如HIV感染者84%~91%咳嗽、44%~100%发热、27%~80%肌痛、27%~80%咽痛、9%~62%呼吸困难），属高频但非全员表现",
-        "evidence": "感染HIV的成年患者的临床表现与未感染HIV成人患者类似，包括咳嗽（84%~91%）、发热（44%~100%）、肌痛（27%~80%）、咽痛（27%~80%）、流涕（8%~63%）、呼吸困难（9%~62%）"
-      },
-      {
-        "from": "sub_disease_influenza_severe",
-        "to": "symptom_altered_mental_status",
-        "relation_id": "rel_severe_influenza_manifests_as_altered_mental_status",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 8,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "qSOFA评分项目为...精神状态改变分别记1分"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文在qSOFA评分中明确定义‘精神状态改变’为关键指标（GCS<13记1分），且用于重症评估，属明确关联但非普遍首发症状",
-        "evidence": "总分0~3分，评分项目为收缩压≤100mmHg、呼吸≥22次/min、精神状态改变分别记1分。精神状态改变的评分需要通过格拉斯哥昏迷评分（GCS）得到,GCS<13，记为1分"
-      },
-      {
-        "from": "sub_disease_influenza_pregnancy",
-        "to": "symptom_fever",
-        "relation_id": "rel_pregnancy_influenza_manifests_as_fever",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "妊娠期女性通常出现一定的生理和免疫变化...其特征表现是突然出现发热、头痛、肌痛等不适"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确指出妊娠期女性‘特征表现是突然出现发热、头痛、肌痛等不适’，且‘发热’列于首位，属典型核心症状",
-        "evidence": "妊娠期女性发生流感的临床表现与普通患者相似，但流感相关肺炎易加重，早产及胎儿死亡风险增加3841]。其特征表现是突然出现发热、头痛、肌痛等不适，伴有咳嗽、咽痛和流涕"
-      },
-      {
-        "from": "sub_disease_influenza_elderly",
-        "to": "symptom_no_fever",
-        "relation_id": "rel_elderly_influenza_manifests_as_no_fever",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "老年人的临床表现可能不典型，与其他年龄组相比无发热或发热不明显"
+          "流感对孕妇的健康危害严重"
         ],
         "confidence": 0.9
       }
     ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_uncomplicated_influenza",
+        "to": "symptom_fever",
+        "relation_id": "rel_uncomplicated_manifests_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": "ILI_criteria",
+        "required_count": 1,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "早期识别和诊断",
+        "evidence_ids": [
+          "我国流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文提及单纯性流感患者发热时间减少，提示发热是其常见症状",
+        "evidence": "对于无重症高危因素的成人单纯性流感患者，在发病2d内应用抗病毒治疗，其发热时间减少"
+      },
+      {
+        "from": "sub_disease_uncomplicated_influenza",
+        "to": "symptom_cough",
+        "relation_id": "rel_uncomplicated_manifests_cough",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": "ILI_criteria",
+        "required_count": 1,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "早期识别和诊断",
+        "evidence_ids": [
+          "我国流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "单纯性流感多表现为典型流感样症状，原文定义流感样病例伴咳嗽或咽痛",
+        "evidence": "流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛"
+      },
+      {
+        "from": "sub_disease_uncomplicated_influenza",
+        "to": "symptom_sore_throat",
+        "relation_id": "rel_uncomplicated_manifests_sore_throat",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": "ILI_criteria",
+        "required_count": 1,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "早期识别和诊断",
+        "evidence_ids": [
+          "我国流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "单纯性流感多表现为典型流感样症状，原文定义流感样病例伴咳嗽或咽痛",
+        "evidence": "流感样病例的定义为发热（腋温≥38℃），伴咳嗽或咽痛"
+      },
+      {
+        "from": "sub_disease_influenza_pregnant",
+        "to": "symptom_myalgia",
+        "relation_id": "rel_pregnant_manifests_myalgia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "早期识别和诊断",
+        "evidence_ids": [
+          "其特征表现是突然出现发热、头痛、肌痛等不适"
+        ],
+        "confidence": 0.85
+      }
+    ],
     "requires_test": [
       {
-        "from": "sub_disease_influenza_adult",
-        "to": "test_nasopharyngeal_swab_rna",
-        "relation_id": "rel_adult_influenza_requires_nasopharyngeal_rna",
+        "from": "sub_disease_severe_influenza",
+        "to": "test_naat",
+        "relation_id": "rel_severe_requires_naat",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
         "result_text": "阳性",
-        "weight": 100,
+        "weight": 8,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "早期识别和诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "在具备核酸检测能力的医疗机构，建议送检鼻咽拭子或口咽拭子检测流感病毒核酸"
+          "在具备核酸检测能力的医疗机构，建议送检鼻咽拭子或口咽拭子检测流感病毒核酸",
+          "在病原学检测技术上，首选核酸检测"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将‘核酸检测’列为‘首选’，并强调其‘灵敏度明显高于抗原检测’，且在推荐意见1中要求‘留取鼻咽拭子或口咽拭子进行病原学检测’，结合上下文‘首选核酸检测’即指RNA检测，符合金标准定义",
-        "evidence": "在病原学检测技术上，首选核酸检测，条件不允许时，可进行抗原检测。核酸扩增检测（nucleicacidamplificationtest,NAAT）的灵敏度明显高于抗原检测"
+        "weight_reason": "原文指出病原学检测技术上首选核酸检测，作为确诊和评估的重要手段",
+        "evidence": "在病原学检测技术上，首选核酸检测，条件不允许时，可进行抗原检测"
       },
       {
-        "from": "sub_disease_influenza_adult",
-        "to": "test_nasopharyngeal_swab_antigen",
-        "relation_id": "rel_adult_influenza_requires_nasopharyngeal_antigen",
+        "from": "sub_disease_severe_influenza",
+        "to": "test_qsofa",
+        "relation_id": "rel_severe_requires_qsofa",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "recommended",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "common",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "在不具备核酸检测能力的医疗机构，可选择送检鼻咽拭子或口咽拭子检测流感病毒抗原。在流感流行季，抗原检测结果阳性，支持诊断，但阴性结果不能排除流感病毒感染"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_influenza_severe",
-        "to": "test_qsofa_score",
-        "relation_id": "rel_severe_influenza_requires_qsofa",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
         "value_min": 2,
         "value_max": null,
         "operator": ">=",
         "unit": "分",
         "result_text": null,
-        "weight": 100,
+        "weight": 9,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "elevated",
         "typicality": "typical",
-        "section_priority": "病情评估",
+        "section_priority": "首诊病情评估",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "推荐采用快速序贯器官衰竭评分（qSOFA）评分对可疑、临床诊断或确诊流感患者进行首诊的病情评估。0~1分可考虑在门诊或普通病房治疗，≥2分应考虑收入ICU治疗"
+          "推荐采用快速序贯器官衰竭(qSOFA)评分对可疑、临床诊断或确诊流感患者进行首诊的病情评估。0~1分可考虑在门诊或普通病房治疗，≥2分应考虑收入ICU治疗"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文在‘推荐意见3’中明确‘推荐采用快速序贯器官衰竭评分（qSOFA）评分对可疑、临床诊断或确诊流感患者进行首诊的病情评估’，并规定‘0~1分可考虑门诊，≥2分应考虑收入ICU’，属指南级强制评估工具，即临床金标准",
-        "evidence": "推荐意见3：推荐采用快速序贯器官衰竭(quicksequentialorganfailureassessment,qSOFA）评分对可疑、临床诊断或确诊流感患者进行首诊的病情评估。0~1分可考虑在门诊或普通病房治疗，≥2分应考虑收入ICU治疗（中等证据，强推荐）"
+        "confidence": 0.9,
+        "weight_reason": "原文明确推荐采用qSOFA评分对流感患者进行首诊病情评估以指导收治",
+        "evidence": "推荐qSOFA评分用于流感病情严重程度的评估，指导患者的收容和诊治"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_influenza_adult",
+        "from": "sub_disease_uncomplicated_influenza",
         "to": "treatment_antiviral_early",
-        "relation_id": "rel_adult_influenza_follows_early_antiviral",
+        "relation_id": "rel_uncomplicated_follows_early",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
@@ -854,18 +626,18 @@
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见4",
+        "source_section": "抗病毒治疗",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_influenza_severe",
-        "to": "treatment_antiviral_for_severe",
-        "relation_id": "rel_severe_influenza_follows_severe_antiviral",
+        "from": "sub_disease_severe_influenza",
+        "to": "treatment_antiviral_severe",
+        "relation_id": "rel_severe_follows_severe_treatment",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "重症患者",
+        "applicable_condition": "疑似或确诊重症流感",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "强推荐",
         "decision_basis": [
@@ -873,140 +645,137 @@
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见5",
+        "source_section": "特殊人群的抗病毒治疗",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_influenza_pregnancy",
-        "to": "treatment_antiviral_for_pregnancy",
-        "relation_id": "rel_pregnancy_influenza_follows_pregnancy_antiviral",
+        "from": "sub_disease_influenza_elderly",
+        "to": "treatment_pre_exposure",
+        "relation_id": "rel_elderly_follows_pre_exposure",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "妊娠期",
+        "treatment_line": "预防",
+        "applicable_condition": "社区暴发且未接种疫苗",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "强推荐",
         "decision_basis": [
-          "妊娠状态"
+          "疫苗接种史",
+          "流行病学史"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "推荐意见5",
-        "confidence": 0.95
+        "source_section": "抗病毒药物在流感预防中的作用",
+        "confidence": 0.9
       }
     ],
     "implements_by": [
       {
         "from": "treatment_antiviral_early",
-        "to": "plan_oseltamivir_oral",
-        "relation_id": "rel_early_antiviral_implements_by_oseltamivir",
+        "to": "plan_oseltamivir",
+        "relation_id": "rel_early_implements_oseltamivir",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "肾功能正常成人",
-        "contraindication_note": null,
+        "applicable_condition": "成人及年龄≥1岁的儿童",
+        "contraindication_note": "肾功能不全者需根据肾功能调整剂量",
         "evidence_ids": [
-          "奥司他韦适用于成人及年龄≥1岁的儿童，肾功能正常的成人给药方式为口服75mg/次，2次/d，疗程为5d"
+          "肾功能正常的成人给药方式为口服75mg/次，2次/d，疗程为5d"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_antiviral_for_severe",
-        "to": "plan_oseltamivir_oral",
-        "relation_id": "rel_severe_antiviral_implements_by_oseltamivir",
+        "from": "treatment_antiviral_early",
+        "to": "plan_baloxavir",
+        "relation_id": "rel_early_implements_baloxavir",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "重症患者常规剂量",
-        "contraindication_note": "胃肠动力改变患者可鼻胃管给药；体外膜氧合患者无需调整剂量；连续性肾脏替代治疗患者需减少剂量",
+        "applicable_condition": "成人及年龄≥12岁青少年",
+        "contraindication_note": null,
         "evidence_ids": [
-          "重症流感患者推荐尽快进行常规剂量奥司他韦进行抗病毒治疗。在重症患者中，可能存在多种器官功能障碍：对于胃肠动力改变患者，鼻胃管给药时口服奥司他韦可以达到有效药物剂量；对于需要体外膜氧合的患者，不需要调整奥司他韦的剂量；接受连续性肾脏替代治疗的患者需要减少奥司他韦剂量"
+          "玛巴洛沙韦适用于成人及年龄≥12岁青少年，给药方式为单剂次口服"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_antiviral_for_pregnancy",
-        "to": "plan_oseltamivir_oral",
-        "relation_id": "rel_pregnancy_antiviral_implements_by_oseltamivir",
+        "from": "treatment_antiviral_severe",
+        "to": "plan_peramivir",
+        "relation_id": "rel_severe_implements_peramivir",
         "relation_name": "落实为",
         "relation_type": "implements_by",
-        "plan_role": "首选",
-        "applicable_condition": "妊娠期妇女",
-        "contraindication_note": null,
+        "plan_role": "替代",
+        "applicable_condition": "不能耐受口服或肠内给药",
+        "contraindication_note": "需要根据肾功能调整药物剂量",
         "evidence_ids": [
-          "妊娠期妇女首选奥司他韦进行抗病毒治疗"
+          "对于因怀疑或已知胃潴留、吸收不良或胃肠道出血而不能耐受或吸收口服或肠内给药的奥司他韦的患者，可考虑静脉应用帕拉米韦"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_influenza_adult",
-        "to": "etiology_influenza_virus",
-        "relation_id": "rel_adult_influenza_caused_by_virus",
+        "from": "sub_disease_uncomplicated_influenza",
+        "to": "etiology_influenza_virus_a",
+        "relation_id": "rel_uncomplicated_caused_by_virus_a",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
-        "typicality": "典型",
+        "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "流行性感冒（以下简称流感）是由流感病毒引起的一种急性呼吸道传染病"
+          "流行性感冒（以下简称流感）是由流感病毒引起的一种急性呼吸道传染病，甲型和乙型流感病毒每年呈季节性流行"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_influenza_severe",
-        "to": "etiology_elderly",
-        "relation_id": "rel_severe_influenza_caused_by_elderly",
+        "from": "sub_disease_uncomplicated_influenza",
+        "to": "etiology_influenza_virus_b",
+        "relation_id": "rel_uncomplicated_caused_by_virus_b",
         "relation_name": "相关",
         "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "常见",
+        "causal_strength": "strong",
+        "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "老年人：老年人罹患流感后易出现严重并发症，死亡风险较高"
+          "流行性感冒（以下简称流感）是由流感病毒引起的一种急性呼吸道传染病，甲型和乙型流感病毒每年呈季节性流行"
         ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_influenza_pregnancy",
-        "to": "etiology_pregnancy",
-        "relation_id": "rel_pregnancy_influenza_caused_by_pregnancy",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "常见",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "孕妇：流感对孕妇的健康危害严重"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_influenza_adult",
-        "to": "pathogenesis_viral_replication_and_release",
-        "relation_id": "rel_adult_influenza_explained_by_replication",
+        "from": "sub_disease_uncomplicated_influenza",
+        "to": "pathogenesis_na",
+        "relation_id": "rel_uncomplicated_explained_by_na",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "流感病毒表面有2个重要的糖蛋白：血细胞凝聚素 和神经氨酸酶（ ）。HA与细胞表面的α23或α2，6唾液酸受体结合感染细胞。 切割新组装的病毒颗粒和细胞表面的唾液酸受体的连接，释放病毒颗粒，感染其他细胞。"
+          "NA切割新组装的病毒颗粒和细胞表面的唾液酸受体的连接，释放病毒颗粒，感染其他细胞"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_influenza_adult",
-        "to": "pathogenesis_na_inhibition",
-        "relation_id": "rel_adult_influenza_explained_by_na_inhibition",
+        "from": "sub_disease_uncomplicated_influenza",
+        "to": "pathogenesis_rna_polymerase",
+        "relation_id": "rel_uncomplicated_explained_by_rna",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "NAI能够与其作用的部位竞争性紧密结合，从而抑制NA的切割作用，阻断流感病毒的释放"
+          "流感病毒RNA聚合酶包含3个亚基PB1、PB2和PA,这些亚基都是病毒复制的必要条件"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_uncomplicated_influenza",
+        "to": "pathogenesis_ha",
+        "relation_id": "rel_uncomplicated_explained_by_ha",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "HA与细胞表面的α2,3或α2,6唾液酸受体结合感染细胞"
         ],
         "confidence": 0.9
       }

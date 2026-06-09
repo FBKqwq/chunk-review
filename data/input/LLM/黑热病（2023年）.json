@@ -1,8 +1,8 @@
 {
   "meta": {
-    "doc_id": "黑热病诊疗方案_2023年版",
-    "source_title": "黑热病诊疗方案（2023 年版）",
-    "section_path": "",
+    "doc_id": "黑热病诊疗方案（2023年版）",
+    "source_title": "黑热病诊疗方案（2023年版）",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -11,7 +11,7 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_kalaazar",
+        "id": "disease_kala_azar",
         "name": "黑热病",
         "normalized_name": "黑热病",
         "aliases": [
@@ -20,60 +20,108 @@
           "Visceral Leishmaniasis"
         ],
         "source_document_ids": [
-          "黑热病诊疗方案（2023 年版）"
+          "黑热病诊疗方案（2023年版）"
         ],
         "evidence_ids": [
-          "黑热病（Kala-Azar）又名内脏利什曼病（Visceral Leishmaniasis），是仅次于疟疾的第二大全球致死性寄生虫病。"
+          "黑热病（Kala-Azar）又名内脏利什曼病（Visceral Leishmaniasis）"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_kalaazar_visceral",
-        "name": "内脏利什曼病（黑热病）",
-        "parent_disease_id": "disease_kalaazar",
+        "id": "sub_disease_kala_azar_visceral",
+        "name": "内脏利什曼病（典型黑热病）",
+        "parent_disease_id": "disease_kala_azar",
         "disease_subtype": "内脏型",
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": null,
+        "population": "普遍易感人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "利什曼病包括皮肤型、黏膜型、内脏型等多种类型，其中内脏利什曼病（黑热病）最为严重。"
+          "其中内脏利什曼病（黑热病）最为严重。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_kalaazar_lymphadenopathy",
+        "id": "sub_disease_kala_azar_lymph_node",
         "name": "淋巴结型黑热病",
-        "parent_disease_id": "disease_kalaazar",
+        "parent_disease_id": "disease_kala_azar",
         "disease_subtype": "淋巴结型",
         "clinical_stage": "不限定",
         "severity": "轻症",
-        "population": null,
+        "population": "少数病例",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "少数病例以单纯淋巴结肿大或皮肤损害为主要表现，分别称淋巴结型黑热病和黑热病后皮肤利什曼病。1.淋巴结型黑热病。临床表现为浅表淋巴结肿大，尤以腹股沟多见，淋巴结大小不一，无红肿或触痛，活动度良好。全身情况良好，肝脾多不肿大或轻度增大。"
+          "少数病例以单纯淋巴结肿大或皮肤损害为主要表现，分别称淋巴结型黑热病和黑热病后皮肤利什曼病。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_kalaazar_post_kala_azar_dermal_leishmaniasis",
+        "id": "sub_disease_kala_azar_skin",
         "name": "黑热病后皮肤利什曼病",
-        "parent_disease_id": "disease_kalaazar",
+        "parent_disease_id": "disease_kala_azar",
         "disease_subtype": "皮肤型",
         "clinical_stage": "不限定",
         "severity": "轻症",
-        "population": null,
+        "population": "少数病例",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "少数病例以单纯淋巴结肿大或皮肤损害为主要表现，分别称淋巴结型黑热病和黑热病后皮肤利什曼病。2.黑热病后皮肤利什曼病。主要有 4 种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见，与麻风和白癜风易混淆。还可累及口腔、生殖器黏膜及结膜，可能与利什曼原虫引发的皮肤免疫损伤有关。"
+          "少数病例以单纯淋巴结肿大或皮肤损害为主要表现，分别称淋巴结型黑热病和黑热病后皮肤利什曼病。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_kala_azar_suspected",
+        "name": "疑似病例",
+        "parent_disease_id": "disease_kala_azar",
+        "disease_subtype": "诊断分类",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "具备流行病学史及临床表现者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "具备流行病学史及上述临床表现者。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_kala_azar_clinical",
+        "name": "临床诊断病例",
+        "parent_disease_id": "disease_kala_azar",
+        "disease_subtype": "诊断分类",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "疑似病例且rK39抗体阳性",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "疑似病例，rK39 抗体阳性。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_kala_azar_confirmed",
+        "name": "确诊病例",
+        "parent_disease_id": "disease_kala_azar",
+        "disease_subtype": "诊断分类",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "疑似或临床诊断病例且病原学阳性",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "疑似或临床诊断病例，具有以下任一项者。"
         ],
         "confidence": 0.9
       }
@@ -87,7 +135,19 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "（一）常见表现。1.发热：为本病主要特征，以长期不规则发热多见，1/3~1/2 患者体温呈双峰热型，少数可有高热。可伴畏寒、盗汗、食欲下降、乏力、头晕等症状。"
+          "发热：为本病主要特征，以长期不规则发热多见"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hepatosplenomegaly",
+        "name": "肝脾及淋巴结肿大",
+        "body_site": "腹部/颈部/腹股沟",
+        "symptom_category": "消化系统/免疫系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "肝脾及淋巴结肿大：肝脏轻中度肿大"
         ],
         "confidence": 0.95
       },
@@ -99,43 +159,7 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "潜伏期 10 天至数年不等，平均 3~5 个月，隐匿性或亚急性起病，在数周至数年内缓慢进展，可出现发热、体重减轻和脾肿大表现。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_splenomegaly",
-        "name": "脾肿大",
-        "body_site": "腹部",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "潜伏期 10 天至数年不等，平均 3~5 个月，隐匿性或亚急性起病，在数周至数年内缓慢进展，可出现发热、体重减轻和脾肿大表现。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_hepatomegaly",
-        "name": "肝肿大",
-        "body_site": "腹部",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "2.肝脾及淋巴结肿大：肝脏轻中度肿大，质地软，表面光滑，边缘锐利。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_lymphadenopathy",
-        "name": "淋巴结肿大",
-        "body_site": "全身浅表",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "2.肝脾及淋巴结肿大：……淋巴结轻中度肿大，无明显触痛。"
+          "可出现发热、体重减轻和脾肿大表现。"
         ],
         "confidence": 0.9
       },
@@ -147,26 +171,26 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "3.血液系统损害及营养不良：多见于病程晚期，表现为精神萎靡、心悸、气短、面色苍白、水肿等，面部、手、足及腹部皮肤色素沉着，故称黑热病。"
+          "表现为精神萎靡、心悸、气短、面色苍白、水肿等"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_skin_hyperpigmentation",
+        "id": "symptom_hyperpigmentation",
         "name": "皮肤色素沉着",
-        "body_site": "面部、手、足及腹部",
+        "body_site": "面部、手、足及腹部皮肤",
         "symptom_category": "皮肤症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "3.血液系统损害及营养不良：……面部、手、足及腹部皮肤色素沉着，故称黑热病。"
+          "面部、手、足及腹部皮肤色素沉着，故称黑热病。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "symptom_epistaxis",
-        "name": "鼻出血",
-        "body_site": "鼻",
+        "id": "symptom_bleeding",
+        "name": "出血",
+        "body_site": "鼻、牙龈、皮肤",
         "symptom_category": "血液系统症状",
         "polarity": "present",
         "typicality": "common",
@@ -176,91 +200,41 @@
         "confidence": 0.9
       },
       {
-        "id": "symptom_gingival_bleeding",
-        "name": "牙龈出血",
-        "body_site": "口腔",
-        "symptom_category": "血液系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "部分患者可因血小板减少出现鼻出血、牙龈出血及皮肤出血点等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_petechiae",
-        "name": "皮肤出血点",
-        "body_site": "皮肤",
-        "symptom_category": "血液系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "部分患者可因血小板减少出现鼻出血、牙龈出血及皮肤出血点等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_lymphadenopathy_ingual",
-        "name": "腹股沟淋巴结肿大",
-        "body_site": "腹股沟",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "1.淋巴结型黑热病。临床表现为浅表淋巴结肿大，尤以腹股沟多见，淋巴结大小不一，无红肿或触痛，活动度良好。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_brown_macule",
-        "name": "褐色斑",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "主要有 4 种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_papule",
-        "name": "丘疹",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "主要有 4 种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_plaque",
-        "name": "斑块",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "主要有 4 种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_nodules",
-        "name": "结节",
-        "body_site": "皮肤",
+        "id": "symptom_skin_lesion",
+        "name": "皮损",
+        "body_site": "皮肤、黏膜",
         "symptom_category": "皮肤症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "主要有 4 种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见……"
+          "主要有 4 种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "tests": [
+      {
+        "id": "test_blood_routine",
+        "name": "血常规",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "血常规：白细胞、红细胞和血小板减少，血红蛋白下降。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_serum_protein",
+        "name": "血清白蛋白/球蛋白比值",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "血清白蛋白减低，球蛋白显著增加，白蛋白/球蛋白比值（A/G）倒置"
+        ],
+        "confidence": 0.9
+      },
       {
         "id": "test_bone_marrow_smear",
         "name": "骨髓涂片镜检",
@@ -268,305 +242,172 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "1.涂片：骨髓涂片镜检可见利杜体，阳性率 80%~90%；"
+          "骨髓涂片镜检可见利杜体，阳性率 80%~90%"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_liver_spleen_aspiration_smear",
-        "name": "肝脾穿刺组织涂片",
+        "id": "test_tissue_smear",
+        "name": "穿刺组织涂片",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "肝脾穿刺组织涂片阳性率 90%~99%；"
+          "肝脾穿刺组织涂片阳性率 90%~99%；淋巴结穿刺涂片阳性率46%~87%"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_lymph_node_aspiration_smear",
-        "name": "淋巴结穿刺涂片",
+        "id": "test_culture",
+        "name": "利什曼原虫培养",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "淋巴结穿刺涂片阳性率 46%~87%；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_peripheral_blood_thick_smear",
-        "name": "外周血厚涂片",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "外周血厚涂片阳性率约 60%。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_nnn_culture",
-        "name": "NNN 培养基培养",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "2.培养：穿刺物可用 Novy-MacNeal-Nicolle（NNN）培养基作利什曼原虫培养，22~25℃培养 7~10 天，培养到活动的前鞭毛体。"
+          "穿刺物可用 Novy-MacNeal-Nicolle（NNN）培养基作利什曼原虫培养"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_pcr",
+        "id": "test_nucleic_acid",
         "name": "利什曼原虫核酸检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "3.核酸检测：血液、骨髓或其它穿刺标本中检测利什曼原虫 DNA 阳性。可用于疗效评估和无症状感染者的诊断。"
+          "血液、骨髓或其它穿刺标本中检测利什曼原虫 DNA 阳性。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_antigen_detection",
+        "id": "test_antigen",
         "name": "循环抗原检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "4.抗原检测：单克隆抗体斑点试验、单克隆抗体斑点 ELISA 检测循环抗原，特异性及敏感性高，可用于早期诊断及疗效评估。"
+          "单克隆抗体斑点试验、单克隆抗体斑点ELISA 检测循环抗原"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_rk39_antibody",
-        "name": "rK39 抗体检测",
+        "name": "rK39抗体检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "5.抗体检测：间接免疫荧光抗体试验（IFA）、酶联免疫吸附试验（ELISA）、间接血凝（IHA）等方法检测 rK39 抗体阳性。"
+          "间接免疫荧光抗体试验（IFA）、酶联免疫吸附试验（ELISA）、间接血凝（IHA）等方法检测 rK39 抗体阳性。"
         ],
         "confidence": 0.95
-      },
-      {
-        "id": "test_wbc_count",
-        "name": "白细胞计数",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "1.血常规：白细胞、红细胞和血小板减少，血红蛋白下降。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_rbc_count",
-        "name": "红细胞计数",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "1.血常规：白细胞、红细胞和血小板减少，血红蛋白下降。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_platelet_count",
-        "name": "血小板计数",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "1.血常规：白细胞、红细胞和血小板减少，血红蛋白下降。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_hemoglobin",
-        "name": "血红蛋白",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "1.血常规：白细胞、红细胞和血小板减少，血红蛋白下降。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_eosinophil_count",
-        "name": "嗜酸性粒细胞计数",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "淋巴结型黑热病外周血可见嗜酸性粒细胞增多。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_albumin",
-        "name": "血清白蛋白",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "2.其他：血清白蛋白减低，球蛋白显著增加，白蛋白/球蛋白比值（A/G）倒置……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_globulin",
-        "name": "血清球蛋白",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "2.其他：血清白蛋白减低，球蛋白显著增加，白蛋白/球蛋白比值（A/G）倒置……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_ag_ratio",
-        "name": "白蛋白/球蛋白比值（A/G）",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "2.其他：血清白蛋白减低，球蛋白显著增加，白蛋白/球蛋白比值（A/G）倒置……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_pt_time",
-        "name": "凝血酶原时间",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "2.其他：……凝血酶原时间多延长……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_esr",
-        "name": "血沉",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "2.其他：……血沉多增快……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_liver_enzymes",
-        "name": "肝酶",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "2.其他：……肝酶可轻度升高。"
-        ],
-        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_kalaazar_antiparasitic",
-        "content": "病原治疗。",
-        "recommendation_strength": "strong",
-        "source_section": "九、治疗（二）病原治疗。",
+        "id": "treatment_symptomatic",
+        "content": "卧床休息，给予高热量、高蛋白、富含维生素的食物。如有贫血给予铁剂，严重者可输血。",
+        "recommendation_strength": "推荐",
+        "source_section": "对症治疗",
         "evidence_ids": [
-          "（二）病原治疗。首选葡萄糖酸锑钠，不能耐受锑剂的患者，可选择两性霉素 B（或两性霉素 B 脂质体）。重症病例可序贯或联合用药。治疗期间密切观察疗效与药物不良反应。"
+          "卧床休息，给予高热量、高蛋白、富含维生素的食物。如有贫血给予铁剂，严重者可输血。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_etiological",
+        "content": "首选葡萄糖酸锑钠，不能耐受锑剂的患者，可选择两性霉素 B（或两性霉素 B 脂质体）。重症病例可序贯或联合用药。",
+        "recommendation_strength": "首选",
+        "source_section": "病原治疗",
+        "evidence_ids": [
+          "首选葡萄糖酸锑钠，不能耐受锑剂的患者，可选择两性霉素 B（或两性霉素 B 脂质体）。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_kalaazar_supportive",
-        "content": "对症治疗。",
-        "recommendation_strength": "strong",
-        "source_section": "九、治疗（一）对症治疗。",
+        "id": "treatment_tcm",
+        "content": "核心病机为湿热之邪蕴结血分，化生癥瘕。临床可按湿浊内闭，枢机不利；瘀血阻滞，肠胃瘀积；瘀毒阻络，络脉不畅论治。",
+        "recommendation_strength": "推荐",
+        "source_section": "中医治疗",
         "evidence_ids": [
-          "（一）对症治疗。卧床休息，给予高热量、高蛋白、富含维生素的食物。如有贫血给予铁剂，严重者可输血。"
+          "核心病机为湿热之邪蕴结血分，化生癥瘕。"
         ],
-        "confidence": 0.95
+        "confidence": 0.85
       }
     ],
     "plans": [
       {
-        "id": "plan_sodium_stibogluconate_adult",
-        "content": "成人：0.6g，一日 1 次，肌内或静脉注射，连用 6~10 日；或总剂量 90~130mg/kg（以 50kg 为限），分 6~10 次，每日 1 次。",
+        "id": "plan_sodium_stibogluconate",
+        "content": "葡萄糖酸锑钠注射液：成人0.6g，一日 1 次，肌内或静脉注射，连用 6~10 日；或总剂量 90~130mg/kg，分 6~10 次。儿童总剂量 150~200mg/kg，分 6~10 次。",
         "plan_level": 1,
-        "applicable_condition": "确诊为黑热病且无锑剂禁忌者",
+        "applicable_condition": "黑热病病原治疗首选",
         "contraindication_note": "锑剂的副作用主要是心脏毒性和胰腺炎。用药过程中，出血倾向加重、体温突然升高或末梢血中性粒细胞突然下降时应暂停治疗。",
         "evidence_ids": [
-          "1.葡萄糖酸锑钠注射液（以五价锑计）：成人：0.6g，一日 1 次，肌内或静脉注射，连用 6~10 日；或总剂量 90~130mg/kg（以 50kg 为限），分 6~10 次，每日 1 次。注意事项：锑剂的副作用主要是心脏毒性和胰腺炎。用药过程中，出血倾向加重、体温突然升高或末梢血中性粒细胞突然下降时应暂停治疗。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_sodium_stibogluconate_child",
-        "content": "儿童：总剂量 150~200mg/kg（以 30kg 为限，30kg 以上按成人剂量），分 6~10 次，一日 1 次。",
-        "plan_level": 1,
-        "applicable_condition": "确诊为黑热病且无锑剂禁忌的儿童患者",
-        "contraindication_note": "锑剂的副作用主要是心脏毒性和胰腺炎。用药过程中，出血倾向加重、体温突然升高或末梢血中性粒细胞突然下降时应暂停治疗。",
-        "evidence_ids": [
-          "儿童：总剂量 150~200mg/kg（以 30kg 为限，30kg 以上按成人剂量），分 6~10 次，一日 1 次。注意事项：锑剂的副作用主要是心脏毒性和胰腺炎。用药过程中，出血倾向加重、体温突然升高或末梢血中性粒细胞突然下降时应暂停治疗。"
+          "葡萄糖酸锑钠注射液（以五价锑计）：成人：0.6g，一日 1 次，肌内或静脉注射，连用 6~10 日"
         ],
         "confidence": 0.95
       },
       {
         "id": "plan_amphotericin_b",
-        "content": "AMB 剂量每次 1mg/kg，每日或隔日使用，共 15~20 剂。儿童剂量同成人按体重计算，应限用最小有效剂量。",
+        "content": "注射用两性霉素 B（AMB）：剂量每次 1mg/kg，每日或隔日使用，共 15~20 剂。",
         "plan_level": 2,
-        "applicable_condition": "不能耐受锑剂或重症病例",
-        "contraindication_note": "避光、缓慢静脉滴注，每次滴注时间至少 6 小时。避免药液外漏。AMB 副作用主要是肾毒性，应密切监测肾功能，根据监测结果调整剂量及用药间隔。",
+        "applicable_condition": "不能耐受锑剂的患者",
+        "contraindication_note": "避光、缓慢静脉滴注，每次滴注时间至少 6小时。避免药液外漏。AMB 副作用主要是肾毒性。",
         "evidence_ids": [
-          "2.注射用两性霉素 B（AMB）：AMB 剂量每次 1mg/kg，每日或隔日使用，共 15~20 剂。儿童剂量同成人按体重计算，应限用最小有效剂量。注意事项：避光、缓慢静脉滴注，每次滴注时间至少 6 小时。避免药液外漏。AMB 副作用主要是肾毒性，应密切监测肾功能，根据监测结果调整剂量及用药间隔。"
+          "注射用两性霉素 B（AMB）：AMB 剂量每次 1mg/kg，每日或隔日使用，共 15~20 剂。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_amphotericin_b_liposomal",
-        "content": "可使用 1.0~1.5 mg/kg/d 的剂量持续给药 21 天，或者以 3.0 mg/kg/d 的剂量持续给药 10 天。在免疫功能受损患者（如 HIV 阳性）中，可使用 1.0~1.5 mg/kg/d 的剂量持续给药 21 天，由于存在复发风险，可能需要维持治疗或再诱导治疗。",
+        "id": "plan_amphotericin_b_liposome",
+        "content": "两性霉素 B 脂质体（AMBL）：可使用 1.0~1.5 mg/kg/d 的剂量持续给药 21 天，或者以 3.0 mg/kg/d 的剂量持续给药 10 天。",
         "plan_level": 2,
-        "applicable_condition": "不能耐受普通两性霉素B或免疫功能受损患者",
-        "contraindication_note": "输注时长为 30~60 分钟。两性霉素 B 脂质体的毒性远低于普通两性霉素 B，但仍有可能发生不良反应，包括肾脏不良反应。",
+        "applicable_condition": "不能耐受锑剂的患者或免疫功能受损患者",
+        "contraindication_note": "输注时长为 30~60 分钟。仍有可能发生肾脏不良反应。",
         "evidence_ids": [
-          "3.两性霉素 B 脂质体（AMBL）：可使用 1.0~1.5 mg/kg/d 的剂量持续给药 21 天，或者以 3.0 mg/kg/d 的剂量持续给药 10 天。在免疫功能受损患者（如 HIV 阳性）中，可使用 1.0~1.5 mg/kg/d 的剂量持续给药 21 天，由于存在复发风险，可能需要维持治疗或再诱导治疗。（注：不同两性霉素 B 脂质体产品在药效学、药代动力学和给药剂量方面不具有等效性，用法略有差异）注意事项：输注时长为 30~60 分钟。两性霉素 B 脂质体的毒性远低于普通两性霉素 B，但仍有可能发生不良反应，包括肾脏不良反应。"
+          "两性霉素 B 脂质体（AMBL）：可使用 1.0~1.5 mg/kg/d 的剂量持续给药 21 天"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_supportive_rest_nutrition",
-        "content": "卧床休息，给予高热量、高蛋白、富含维生素的食物。",
-        "plan_level": 1,
-        "applicable_condition": "所有黑热病患者",
+        "id": "plan_chaiping",
+        "content": "柴平汤：柴胡 10g、法半夏 10g、党参 10g、黄芩 10g、陈皮 10g、苍术 15g、厚朴 10g、甘草 6g。每日 1 剂，水煎服。",
+        "plan_level": 3,
+        "applicable_condition": "湿浊内闭，枢机不利",
         "contraindication_note": null,
         "evidence_ids": [
-          "（一）对症治疗。卧床休息，给予高热量、高蛋白、富含维生素的食物。"
+          "推荐方剂：柴平汤。常用药物与参考剂量：柴胡 10g、法半夏 10g、党参 10g、黄芩 10g、陈皮 10g、苍术 15g、厚朴 10g、甘草 6g。"
         ],
-        "confidence": 0.95
+        "confidence": 0.85
       },
       {
-        "id": "plan_supportive_iron_supplement",
-        "content": "如有贫血给予铁剂，严重者可输血。",
-        "plan_level": 1,
-        "applicable_condition": "黑热病合并贫血患者",
+        "id": "plan_dahuang",
+        "content": "大黄䗪虫汤：酒大黄 9g、桃仁 15g、当归 15g、肉桂 5g、青皮 10g、土鳖虫 10g、川楝子 15g、煨干漆 3g、鳖甲 30g（先煎）、枳实 10g、生山楂 20g、延胡索 10g。",
+        "plan_level": 3,
+        "applicable_condition": "瘀血阻滞，肠胃瘀积",
         "contraindication_note": null,
         "evidence_ids": [
-          "如有贫血给予铁剂，严重者可输血。"
+          "推荐方剂：大黄䗪虫汤"
         ],
-        "confidence": 0.95
+        "confidence": 0.85
+      },
+      {
+        "id": "plan_qinjiao",
+        "content": "秦艽丸合消瘰丸：玄参 12g、生牡蛎 12g（先煎）、贝母 12g、秦艽 10g、苦参 10g、大黄 3g、黄芪 10g、防风 10g、漏芦 10g、黄连 3g、乌梢蛇 15g。",
+        "plan_level": 3,
+        "applicable_condition": "瘀毒阻络，络脉不畅",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：秦艽丸合消瘰丸。"
+        ],
+        "confidence": 0.85
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_leishmania_donovani",
-        "content": "杜氏利什曼原虫",
+        "id": "etiology_leishmania",
+        "content": "利什曼原虫感染（主要是杜氏利什曼原虫和婴儿利什曼原虫）",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
           "引起黑热病的利什曼原虫主要是杜氏利什曼原虫和婴儿利什曼原虫。"
@@ -574,483 +415,210 @@
         "confidence": 0.95
       },
       {
-        "id": "etiology_leishmania_infantum",
-        "content": "婴儿利什曼原虫",
+        "id": "etiology_sandfly",
+        "content": "雌性白蛉叮咬传播",
         "etiology_type": "感染因素",
-        "typicality": "common",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "引起黑热病的利什曼原虫主要是杜氏利什曼原虫和婴儿利什曼原虫。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_canine_infection",
-        "content": "感染的犬",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "传染源",
-        "evidence_ids": [
-          "（一）传染源。感染的犬，狐、狼、豺等野生动物和人是主要传染源。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_phlebotomus_chinensis",
-        "content": "中华白蛉",
-        "etiology_type": "传播媒介",
-        "typicality": "typical",
-        "diagnostic_role": "传播途径",
-        "evidence_ids": [
-          "（二）传播途径。主要通过雌性白蛉叮咬传播。中华白蛉是我国最主要的传播媒介。"
+          "主要通过雌性白蛉叮咬传播。中华白蛉是我国最主要的传播媒介。"
         ],
         "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_kalaazar_macrophage_invasion",
-        "content": "当感染的白蛉叮咬人后，前鞭毛体随白蛉唾液进入皮下组织，被巨噬细胞吞噬，脱去鞭毛变成圆形的无鞭毛体（又称利杜体），大量无鞭毛体寄生的巨噬细胞破裂后，逸出的无鞭毛体又侵入其他巨噬细胞，重复上述增殖过程。受染巨噬细胞随血液播散全身，特别是在肝、脾、淋巴结等单核巨噬细胞系统内生长繁殖，从而引起一系列病变，包括肝、脾及淋巴结肿大、贫血、骨髓增生、血清球蛋白增高和继发感染等。",
+        "id": "pathogenesis_macrophage",
+        "content": "前鞭毛体随白蛉唾液进入皮下组织，被巨噬细胞吞噬，脱去鞭毛变成圆形的无鞭毛体（利杜体），在单核巨噬细胞系统内生长繁殖，引起肝、脾及淋巴结肿大等病变。",
         "evidence_ids": [
-          "三、发病机制 当感染的白蛉叮咬人后，前鞭毛体随白蛉唾液进入皮下组织，被巨噬细胞吞噬，脱去鞭毛变成圆形的无鞭毛体（又称利杜体），大量无鞭毛体寄生的巨噬细胞破裂后，逸出的无鞭毛体又侵入其他巨噬细胞，重复上述增殖过程。受染巨噬细胞随血液播散全身，特别是在肝、脾、淋巴结等单核巨噬细胞系统内生长繁殖，从而引起一系列病变，包括肝、脾及淋巴结肿大、贫血、骨髓增生、血清球蛋白增高和继发感染等。"
+          "当感染的白蛉叮咬人后，前鞭毛体随白蛉唾液进入皮下组织，被巨噬细胞吞噬，脱去鞭毛变成圆形的无鞭毛体（又称利杜体）"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_kalaazar",
-        "to": "sub_disease_kalaazar_visceral",
-        "relation_id": "rel_kalaazar_has_visceral",
+        "from": "disease_kala_azar",
+        "to": "sub_disease_kala_azar_visceral",
+        "relation_id": "rel_kala_azar_has_visceral",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "利什曼病包括皮肤型、黏膜型、内脏型等多种类型，其中内脏利什曼病（黑热病）最为严重。"
+          "其中内脏利什曼病（黑热病）最为严重。"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_kalaazar",
-        "to": "sub_disease_kalaazar_lymphadenopathy",
-        "relation_id": "rel_kalaazar_has_lymphadenopathy",
+        "from": "disease_kala_azar",
+        "to": "sub_disease_kala_azar_lymph_node",
+        "relation_id": "rel_kala_azar_has_lymph_node",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "少数病例以单纯淋巴结肿大或皮肤损害为主要表现，分别称淋巴结型黑热病和黑热病后皮肤利什曼病。1.淋巴结型黑热病。"
+          "分别称淋巴结型黑热病和黑热病后皮肤利什曼病。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "disease_kalaazar",
-        "to": "sub_disease_kalaazar_post_kala_azar_dermal_leishmaniasis",
-        "relation_id": "rel_kalaazar_has_pkdl",
+        "from": "disease_kala_azar",
+        "to": "sub_disease_kala_azar_skin",
+        "relation_id": "rel_kala_azar_has_skin",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "少数病例以单纯淋巴结肿大或皮肤损害为主要表现，分别称淋巴结型黑热病和黑热病后皮肤利什曼病。2.黑热病后皮肤利什曼病。"
+          "分别称淋巴结型黑热病和黑热病后皮肤利什曼病。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_kala_azar",
+        "to": "sub_disease_kala_azar_suspected",
+        "relation_id": "rel_kala_azar_has_suspected",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（一）疑似病例。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_kala_azar",
+        "to": "sub_disease_kala_azar_clinical",
+        "relation_id": "rel_kala_azar_has_clinical",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（二）临床诊断病例。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_kala_azar",
+        "to": "sub_disease_kala_azar_confirmed",
+        "relation_id": "rel_kala_azar_has_confirmed",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（三）确诊病例。"
+        ],
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_kalaazar_visceral",
+        "from": "sub_disease_kala_azar_visceral",
         "to": "symptom_fever",
-        "relation_id": "rel_visceral_manifests_as_fever",
+        "relation_id": "rel_visceral_manifests_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": "长期",
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "发热：为本病主要特征，以长期不规则发热多见"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出“发热：为本病主要特征”",
+        "evidence": "发热：为本病主要特征"
+      },
+      {
+        "from": "sub_disease_kala_azar_visceral",
+        "to": "symptom_hepatosplenomegaly",
+        "relation_id": "rel_visceral_manifests_hepatosplenomegaly",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "（一）常见表现。1.发热：为本病主要特征，以长期不规则发热多见，1/3~1/2 患者体温呈双峰热型，少数可有高热。可伴畏寒、盗汗、食欲下降、乏力、头晕等症状。"
+          "肝脾及淋巴结肿大：肝脏轻中度肿大"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将发热列为‘本病主要特征’，且描述最详尽、首位列出，符合临床金标准级核心表现定义",
-        "evidence": "（一）常见表现。1.发热：为本病主要特征，以长期不规则发热多见，"
+        "weight_reason": "原文明确列出“肝脾及淋巴结肿大”为常见表现",
+        "evidence": "肝脾及淋巴结肿大：肝脏轻中度肿大"
       },
       {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "symptom_weight_loss",
-        "relation_id": "rel_visceral_manifests_as_weight_loss",
+        "from": "sub_disease_kala_azar_visceral",
+        "to": "symptom_hyperpigmentation",
+        "relation_id": "rel_visceral_manifests_hyperpigmentation",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 8,
+        "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
+        "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "潜伏期 10 天至数年不等，平均 3~5 个月，隐匿性或亚急性起病，在数周至数年内缓慢进展，可出现发热、体重减轻和脾肿大表现。"
+          "面部、手、足及腹部皮肤色素沉着，故称黑热病。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_kala_azar_lymph_node",
+        "to": "symptom_hepatosplenomegaly",
+        "relation_id": "rel_lymph_manifests_lymphadenopathy",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 2,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "临床表现为浅表淋巴结肿大，尤以腹股沟多见"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文在‘潜伏期’后句中并列提及‘可出现发热、体重减轻和脾肿大表现’，属同级并列常见表现，未强调频次或特异性，但语义强度高于一般相关",
-        "evidence": "潜伏期10天至数年不等，平均3~5个月，隐匿性或亚急性起病，在数周至数年内缓慢进展，可出现发热、体重减轻和脾肿大表现。"
+        "weight_reason": "原文指出淋巴结型黑热病“肝脾多不肿大或轻度增大”，相关性弱",
+        "evidence": "肝脾多不肿大或轻度增大"
       },
       {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "symptom_splenomegaly",
-        "relation_id": "rel_visceral_manifests_as_splenomegaly",
+        "from": "sub_disease_kala_azar_skin",
+        "to": "symptom_skin_lesion",
+        "relation_id": "rel_skin_manifests_skin_lesion",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "潜伏期 10 天至数年不等，平均 3~5 个月，隐匿性或亚急性起病，在数周至数年内缓慢进展，可出现发热、体重减轻和脾肿大表现。"
+          "主要有 4 种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节"
         ],
-        "confidence": 0.95,
-        "weight_reason": "与发热并列于同一句作为‘可出现’的三大核心表现之一，且后续段落专节详述‘脾脏自起病 2~3 周即可触及…进行性肿大’，体现高度特异性和诊断权重",
-        "evidence": "潜伏期10天至数年不等，平均3~5个月，隐匿性或亚急性起病，在数周至数年内缓慢进展，可出现发热、体重减轻和脾肿大表现。"
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "symptom_hepatomegaly",
-        "relation_id": "rel_visceral_manifests_as_hepatomegaly",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "2.肝脾及淋巴结肿大：肝脏轻中度肿大，质地软，表面光滑，边缘锐利。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "symptom_lymphadenopathy",
-        "relation_id": "rel_visceral_manifests_as_lymphadenopathy",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "2.肝脾及淋巴结肿大：……淋巴结轻中度肿大，无明显触痛。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "symptom_pallor",
-        "relation_id": "rel_visceral_manifests_as_pallor",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "3.血液系统损害及营养不良：多见于病程晚期，表现为精神萎靡、心悸、气短、面色苍白、水肿等，面部、手、足及腹部皮肤色素沉着，故称黑热病。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "symptom_skin_hyperpigmentation",
-        "relation_id": "rel_visceral_manifests_as_skin_hyperpigmentation",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "3.血液系统损害及营养不良：……面部、手、足及腹部皮肤色素沉着，故称黑热病。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文仅解释病名由来（‘面部、手、足及腹部皮肤色素沉着，故称黑热病’），属命名依据而非独立高频临床表现；未出现在‘常见表现’主条目中，证据强度弱于前三者",
-        "evidence": "多见于病程晚期，表现为精神萎靡、心悸、气短、面色苍白、水肿等，面部、手、足及腹部皮肤色素沉着，故称黑热病。"
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "symptom_epistaxis",
-        "relation_id": "rel_visceral_manifests_as_epistaxis",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "部分患者可因血小板减少出现鼻出血、牙龈出血及皮肤出血点等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "symptom_gingival_bleeding",
-        "relation_id": "rel_visceral_manifests_as_gingival_bleeding",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "部分患者可因血小板减少出现鼻出血、牙龈出血及皮肤出血点等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "symptom_petechiae",
-        "relation_id": "rel_visceral_manifests_as_petechiae",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "部分患者可因血小板减少出现鼻出血、牙龈出血及皮肤出血点等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_kalaazar_lymphadenopathy",
-        "to": "symptom_lymphadenopathy_ingual",
-        "relation_id": "rel_lymphadenopathy_manifests_as_ingual",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "1.淋巴结型黑热病。临床表现为浅表淋巴结肿大，尤以腹股沟多见，淋巴结大小不一，无红肿或触痛，活动度良好。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文对淋巴结型黑热病的定义中明确限定‘浅表淋巴结肿大，尤以腹股沟多见’，‘尤以’表明该部位具有高度特异性，是该亚型的核心定位特征",
-        "evidence": "临床表现为浅表淋巴结肿大，尤以腹股沟多见，淋巴结大小不一，无红肿或触痛，活动度良好。"
-      },
-      {
-        "from": "sub_disease_kalaazar_post_kala_azar_dermal_leishmaniasis",
-        "to": "symptom_brown_macule",
-        "relation_id": "rel_pkdl_manifests_as_brown_macule",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "主要有 4 种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见……"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确列出‘主要有 4 种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节’，‘包括’引出并列枚举，褐色斑为首项，属该亚型定义性皮损",
-        "evidence": "主要有4种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见，"
-      },
-      {
-        "from": "sub_disease_kalaazar_post_kala_azar_dermal_leishmaniasis",
-        "to": "symptom_papule",
-        "relation_id": "rel_pkdl_manifests_as_papule",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "主要有 4 种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见……"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文在‘主要有 4 种皮损类型’枚举中明确包含‘丘疹’，属该亚型定义性皮损之一，与褐色斑等并列",
-        "evidence": "主要有4种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见，"
-      },
-      {
-        "from": "sub_disease_kalaazar_post_kala_azar_dermal_leishmaniasis",
-        "to": "symptom_plaque",
-        "relation_id": "rel_pkdl_manifests_as_plaque",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "主要有 4 种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见……"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文在‘主要有 4 种皮损类型’枚举中明确包含‘斑块’，属该亚型定义性皮损之一，与褐色斑等并列",
-        "evidence": "主要有4种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见，"
-      },
-      {
-        "from": "sub_disease_kalaazar_post_kala_azar_dermal_leishmaniasis",
-        "to": "symptom_nodules",
-        "relation_id": "rel_pkdl_manifests_as_nodules",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "主要有 4 种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见……"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文在‘主要有 4 种皮损类型’枚举后特别强调‘其中结节最为常见’，表明其为该亚型最高频、最具代表性的皮损，权重高于其他三项",
-        "evidence": "主要有4种皮损类型，包括褐色斑、丘疹、斑块或斑样丘疹和结节，其中结节最为常见，"
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出该病“主要有4种皮损类型”",
+        "evidence": "主要有4种皮损类型"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "test_bone_marrow_smear",
-        "relation_id": "rel_visceral_requires_bone_marrow_smear",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "gold_standard",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "可见利杜体",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "1.涂片：骨髓涂片镜检可见利杜体，阳性率 80%~90%；"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确骨髓涂片镜检阳性率‘80%~90%’，且列于实验室检查第一项、涂片类首位，是确诊路径中首个推荐的直接病原学检测方法",
-        "evidence": "1.涂片：骨髓涂片镜检可见利杜体，阳性率80%~90%；"
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "test_liver_spleen_aspiration_smear",
-        "relation_id": "rel_visceral_requires_liver_spleen_smear",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "gold_standard",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "可见利杜体",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "肝脾穿刺组织涂片阳性率 90%~99%；"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确肝脾穿刺组织涂片阳性率‘90%~99%’，为所有涂片方法中最高，且紧随骨髓涂片之后，属高敏感确诊手段",
-        "evidence": "肝脾穿刺组织涂片阳性率90%~99%；"
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "test_pcr",
-        "relation_id": "rel_visceral_requires_pcr",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "gold_standard",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "利什曼原虫 DNA 阳性",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "3.核酸检测：血液、骨髓或其它穿刺标本中检测利什曼原虫 DNA 阳性。可用于疗效评估和无症状感染者的诊断。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文将PCR列为‘核酸检测’，明确其用途为‘可用于疗效评估和无症状感染者的诊断’，且与涂片、培养并列于‘病原学和血清学检查’二级标题下，属直接病原学确认方法",
-        "evidence": "3.核酸检测：血液、骨髓或其它穿刺标本中检测利什曼原虫DNA阳性。可用于疗效评估和无症状感染者的诊断。"
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
+        "from": "sub_disease_kala_azar_clinical",
         "to": "test_rk39_antibody",
-        "relation_id": "rel_visceral_requires_rk39",
+        "relation_id": "rel_clinical_requires_rk39",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
+        "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
@@ -1066,274 +634,275 @@
         "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（二）临床诊断病例。疑似病例，rK39 抗体阳性。"
+          "疑似病例，rK39 抗体阳性。"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文将rK39抗体检测归入‘抗体检测’子项，用于‘临床诊断病例’界定（非确诊），且诊断标准中明确其阳性仅支持临床诊断，确诊需依赖病原学证据",
-        "evidence": "（二）临床诊断病例。疑似病例，rK39抗体阳性。"
+        "weight_reason": "原文规定临床诊断病例需“rK39抗体阳性”",
+        "evidence": "rK39抗体阳性"
       },
       {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "test_wbc_count",
-        "relation_id": "rel_visceral_requires_wbc",
+        "from": "sub_disease_kala_azar_confirmed",
+        "to": "test_bone_marrow_smear",
+        "relation_id": "rel_confirmed_requires_bone_marrow",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": "<",
+        "operator": "equals",
         "unit": null,
-        "result_text": null,
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "decreased",
+        "result_text": "涂片见利杜体",
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": "confirmed_pathogen_1_choose_1",
+        "required_count": 1,
+        "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "实验室检查",
+        "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "1.血常规：白细胞、红细胞和血小板减少，血红蛋白下降。"
+          "1.涂片见利杜体；"
         ],
-        "confidence": 0.9
+        "confidence": 0.95,
+        "weight_reason": "原文规定确诊病例标准包含“涂片见利杜体”",
+        "evidence": "涂片见利杜体"
       },
       {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "test_rbc_count",
-        "relation_id": "rel_visceral_requires_rbc",
+        "from": "sub_disease_kala_azar_confirmed",
+        "to": "test_culture",
+        "relation_id": "rel_confirmed_requires_culture",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": "<",
+        "operator": "equals",
         "unit": null,
-        "result_text": null,
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "decreased",
+        "result_text": "培养到利什曼原虫",
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": "confirmed_pathogen_1_choose_1",
+        "required_count": 1,
+        "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "实验室检查",
+        "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "1.血常规：白细胞、红细胞和血小板减少，血红蛋白下降。"
+          "2.培养到利什曼原虫；"
         ],
-        "confidence": 0.9
+        "confidence": 0.95,
+        "weight_reason": "原文规定确诊病例标准包含“培养到利什曼原虫”",
+        "evidence": "培养到利什曼原虫"
       },
       {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "test_platelet_count",
-        "relation_id": "rel_visceral_requires_platelet",
+        "from": "sub_disease_kala_azar_confirmed",
+        "to": "test_nucleic_acid",
+        "relation_id": "rel_confirmed_requires_nucleic_acid",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": "<",
+        "operator": "equals",
         "unit": null,
-        "result_text": null,
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "decreased",
+        "result_text": "利什曼原虫核酸阳性",
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": "confirmed_pathogen_1_choose_1",
+        "required_count": 1,
+        "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "实验室检查",
+        "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "1.血常规：白细胞、红细胞和血小板减少，血红蛋白下降。"
+          "3.利什曼原虫核酸阳性；"
         ],
-        "confidence": 0.9
+        "confidence": 0.95,
+        "weight_reason": "原文规定确诊病例标准包含“利什曼原虫核酸阳性”",
+        "evidence": "利什曼原虫核酸阳性"
       },
       {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "test_hemoglobin",
-        "relation_id": "rel_visceral_requires_hb",
+        "from": "sub_disease_kala_azar_confirmed",
+        "to": "test_antigen",
+        "relation_id": "rel_confirmed_requires_antigen",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": "<",
+        "operator": "equals",
         "unit": null,
-        "result_text": null,
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "decreased",
+        "result_text": "利什曼原虫抗原阳性",
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": "confirmed_pathogen_1_choose_1",
+        "required_count": 1,
+        "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "实验室检查",
+        "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "1.血常规：白细胞、红细胞和血小板减少，血红蛋白下降。"
+          "4.利什曼原虫抗原阳性。"
         ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_kalaazar_lymphadenopathy",
-        "to": "test_eosinophil_count",
-        "relation_id": "rel_lymphadenopathy_requires_eosinophil",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
-        "value_min": null,
-        "value_max": null,
-        "operator": ">",
-        "unit": null,
-        "result_text": null,
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "elevated",
-        "typicality": "common",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "淋巴结型黑热病外周血可见嗜酸性粒细胞增多。"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95,
+        "weight_reason": "原文规定确诊病例标准包含“利什曼原虫抗原阳性”",
+        "evidence": "利什曼原虫抗原阳性"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "treatment_kalaazar_antiparasitic",
-        "relation_id": "rel_visceral_follows_antiparasitic",
+        "from": "sub_disease_kala_azar_visceral",
+        "to": "treatment_symptomatic",
+        "relation_id": "rel_visceral_follows_symptomatic",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "确诊为黑热病",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "疾病分型"
-        ],
-        "contraindication_note": "不能耐受锑剂者换用两性霉素B",
-        "evidence_level": "expert_consensus",
-        "source_section": "九、治疗（二）病原治疗。",
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "treatment_kalaazar_supportive",
-        "relation_id": "rel_visceral_follows_supportive",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
+        "treatment_line": "基础治疗",
         "applicable_condition": "所有黑热病患者",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "推荐",
         "decision_basis": [
           "疾病分型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "九、治疗（一）对症治疗。",
+        "source_section": "对症治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_kala_azar_visceral",
+        "to": "treatment_etiological",
+        "relation_id": "rel_visceral_follows_etiological",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "首选",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "病原治疗",
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_kala_azar_visceral",
+        "to": "treatment_tcm",
+        "relation_id": "rel_visceral_follows_tcm",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "辅助治疗",
+        "applicable_condition": "中医辨证论治",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "中医证型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "中医治疗",
+        "confidence": 0.85
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_kalaazar_antiparasitic",
-        "to": "plan_sodium_stibogluconate_adult",
-        "relation_id": "rel_antiparasitic_implements_by_sodium_stibogluconate_adult",
+        "from": "treatment_etiological",
+        "to": "plan_sodium_stibogluconate",
+        "relation_id": "rel_etiological_implements_sodium",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "确诊为黑热病且无锑剂禁忌者",
-        "contraindication_note": "锑剂的副作用主要是心脏毒性和胰腺炎。用药过程中，出血倾向加重、体温突然升高或末梢血中性粒细胞突然下降时应暂停治疗。",
+        "applicable_condition": "黑热病病原治疗",
+        "contraindication_note": "锑剂的副作用主要是心脏毒性和胰腺炎。",
         "evidence_ids": [
-          "1.葡萄糖酸锑钠注射液（以五价锑计）：成人：0.6g，一日 1 次，肌内或静脉注射，连用 6~10 日；或总剂量 90~130mg/kg（以 50kg 为限），分 6~10 次，每日 1 次。注意事项：锑剂的副作用主要是心脏毒性和胰腺炎。用药过程中，出血倾向加重、体温突然升高或末梢血中性粒细胞突然下降时应暂停治疗。"
+          "首选葡萄糖酸锑钠"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_kalaazar_antiparasitic",
-        "to": "plan_sodium_stibogluconate_child",
-        "relation_id": "rel_antiparasitic_implements_by_sodium_stibogluconate_child",
-        "relation_name": "落实为",
-        "relation_type": "implements_by",
-        "plan_role": "首选",
-        "applicable_condition": "确诊为黑热病且无锑剂禁忌的儿童患者",
-        "contraindication_note": "锑剂的副作用主要是心脏毒性和胰腺炎。用药过程中，出血倾向加重、体温突然升高或末梢血中性粒细胞突然下降时应暂停治疗。",
-        "evidence_ids": [
-          "儿童：总剂量 150~200mg/kg（以 30kg 为限，30kg 以上按成人剂量），分 6~10 次，一日 1 次。注意事项：锑剂的副作用主要是心脏毒性和胰腺炎。用药过程中，出血倾向加重、体温突然升高或末梢血中性粒细胞突然下降时应暂停治疗。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "treatment_kalaazar_antiparasitic",
+        "from": "treatment_etiological",
         "to": "plan_amphotericin_b",
-        "relation_id": "rel_antiparasitic_implements_by_amphotericin_b",
+        "relation_id": "rel_etiological_implements_amb",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "替代",
-        "applicable_condition": "不能耐受锑剂或重症病例",
-        "contraindication_note": "避光、缓慢静脉滴注，每次滴注时间至少 6 小时。避免药液外漏。AMB 副作用主要是肾毒性，应密切监测肾功能，根据监测结果调整剂量及用药间隔。",
+        "applicable_condition": "不能耐受锑剂的患者",
+        "contraindication_note": "AMB 副作用主要是肾毒性",
         "evidence_ids": [
-          "2.注射用两性霉素 B（AMB）：AMB 剂量每次 1mg/kg，每日或隔日使用，共 15~20 剂。儿童剂量同成人按体重计算，应限用最小有效剂量。注意事项：避光、缓慢静脉滴注，每次滴注时间至少 6 小时。避免药液外漏。AMB 副作用主要是肾毒性，应密切监测肾功能，根据监测结果调整剂量及用药间隔。"
+          "不能耐受锑剂的患者，可选择两性霉素 B"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "treatment_kalaazar_antiparasitic",
-        "to": "plan_amphotericin_b_liposomal",
-        "relation_id": "rel_antiparasitic_implements_by_amphotericin_b_liposomal",
+        "from": "treatment_etiological",
+        "to": "plan_amphotericin_b_liposome",
+        "relation_id": "rel_etiological_implements_ambl",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "替代",
-        "applicable_condition": "不能耐受普通两性霉素B或免疫功能受损患者",
-        "contraindication_note": "输注时长为 30~60 分钟。两性霉素 B 脂质体的毒性远低于普通两性霉素 B，但仍有可能发生不良反应，包括肾脏不良反应。",
+        "applicable_condition": "不能耐受锑剂的患者",
+        "contraindication_note": "仍有可能发生肾脏不良反应",
         "evidence_ids": [
-          "3.两性霉素 B 脂质体（AMBL）：可使用 1.0~1.5 mg/kg/d 的剂量持续给药 21 天，或者以 3.0 mg/kg/d 的剂量持续给药 10 天。在免疫功能受损患者（如 HIV 阳性）中，可使用 1.0~1.5 mg/kg/d 的剂量持续给药 21 天，由于存在复发风险，可能需要维持治疗或再诱导治疗。（注：不同两性霉素 B 脂质体产品在药效学、药代动力学和给药剂量方面不具有等效性，用法略有差异）注意事项：输注时长为 30~60 分钟。两性霉素 B 脂质体的毒性远低于普通两性霉素 B，但仍有可能发生不良反应，包括肾脏不良反应。"
+          "或两性霉素 B 脂质体"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "treatment_kalaazar_supportive",
-        "to": "plan_supportive_rest_nutrition",
-        "relation_id": "rel_supportive_implements_by_rest_nutrition",
+        "from": "treatment_tcm",
+        "to": "plan_chaiping",
+        "relation_id": "rel_tcm_implements_chaiping",
         "relation_name": "落实为",
         "relation_type": "implements_by",
-        "plan_role": "首选",
-        "applicable_condition": "所有黑热病患者",
+        "plan_role": "辨证施治",
+        "applicable_condition": "湿浊内闭，枢机不利",
         "contraindication_note": null,
         "evidence_ids": [
-          "（一）对症治疗。卧床休息，给予高热量、高蛋白、富含维生素的食物。"
+          "1.湿浊内闭，枢机不利。... 推荐方剂：柴平汤。"
         ],
-        "confidence": 0.95
+        "confidence": 0.85
       },
       {
-        "from": "treatment_kalaazar_supportive",
-        "to": "plan_supportive_iron_supplement",
-        "relation_id": "rel_supportive_implements_by_iron_supplement",
+        "from": "treatment_tcm",
+        "to": "plan_dahuang",
+        "relation_id": "rel_tcm_implements_dahuang",
         "relation_name": "落实为",
         "relation_type": "implements_by",
-        "plan_role": "首选",
-        "applicable_condition": "黑热病合并贫血患者",
+        "plan_role": "辨证施治",
+        "applicable_condition": "瘀血阻滞，肠胃瘀积",
         "contraindication_note": null,
         "evidence_ids": [
-          "如有贫血给予铁剂，严重者可输血。"
+          "2.瘀血阻滞，肠胃瘀积。... 推荐方剂：大黄䗪虫汤"
         ],
-        "confidence": 0.95
+        "confidence": 0.85
+      },
+      {
+        "from": "treatment_tcm",
+        "to": "plan_qinjiao",
+        "relation_id": "rel_tcm_implements_qinjiao",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "辨证施治",
+        "applicable_condition": "瘀毒阻络，络脉不畅",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "3.瘀毒阻络，络脉不畅。... 推荐方剂：秦艽丸合消瘰丸。"
+        ],
+        "confidence": 0.85
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "etiology_leishmania_donovani",
-        "relation_id": "rel_visceral_causes_by_donovani",
+        "from": "sub_disease_kala_azar_visceral",
+        "to": "etiology_leishmania",
+        "relation_id": "rel_visceral_causes_leishmania",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -1346,39 +915,9 @@
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "etiology_leishmania_infantum",
-        "relation_id": "rel_visceral_causes_by_infantum",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "引起黑热病的利什曼原虫主要是杜氏利什曼原虫和婴儿利什曼原虫。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "etiology_canine_infection",
-        "relation_id": "rel_visceral_causes_by_canine",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "typical",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "（一）传染源。感染的犬，狐、狼、豺等野生动物和人是主要传染源。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "etiology_phlebotomus_chinensis",
-        "relation_id": "rel_visceral_causes_by_phlebotomus",
+        "from": "sub_disease_kala_azar_visceral",
+        "to": "etiology_sandfly",
+        "relation_id": "rel_visceral_causes_sandfly",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -1386,22 +925,22 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "（二）传播途径。主要通过雌性白蛉叮咬传播。中华白蛉是我国最主要的传播媒介。"
+          "主要通过雌性白蛉叮咬传播。"
         ],
         "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_kalaazar_visceral",
-        "to": "pathogenesis_kalaazar_macrophage_invasion",
-        "relation_id": "rel_visceral_explained_by_macrophage_invasion",
+        "from": "sub_disease_kala_azar_visceral",
+        "to": "pathogenesis_macrophage",
+        "relation_id": "rel_visceral_explained_macrophage",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "三、发病机制 当感染的白蛉叮咬人后，前鞭毛体随白蛉唾液进入皮下组织，被巨噬细胞吞噬，脱去鞭毛变成圆形的无鞭毛体（又称利杜体），大量无鞭毛体寄生的巨噬细胞破裂后，逸出的无鞭毛体又侵入其他巨噬细胞，重复上述增殖过程。受染巨噬细胞随血液播散全身，特别是在肝、脾、淋巴结等单核巨噬细胞系统内生长繁殖，从而引起一系列病变，包括肝、脾及淋巴结肿大、贫血、骨髓增生、血清球蛋白增高和继发感染等。"
+          "当感染的白蛉叮咬人后，前鞭毛体随白蛉唾液进入皮下组织，被巨噬细胞吞噬，脱去鞭毛变成圆形的无鞭毛体（又称利杜体）"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ]
   },

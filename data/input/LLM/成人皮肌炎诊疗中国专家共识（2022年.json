@@ -1,0 +1,735 @@
+{
+  "meta": {
+    "doc_id": "成人皮肌炎诊疗中国专家共识(2022年)",
+    "source_title": "成人皮肌炎诊疗中国专家共识(2022年）",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_dermatomyositis",
+        "name": "皮肌炎",
+        "normalized_name": "皮肌炎",
+        "aliases": [
+          "成人皮肌炎",
+          "Dermatomyositis"
+        ],
+        "source_document_ids": [
+          "成人皮肌炎诊疗中国专家共识(2022年）"
+        ],
+        "evidence_ids": [
+          "皮肌炎是一种特发性炎性肌病，可出现典型皮损、近端肌无力和多器官受累表现，亦可伴发恶性肿瘤。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_classic_dm",
+        "name": "经典型皮肌炎",
+        "parent_disease_id": "disease_dermatomyositis",
+        "disease_subtype": "经典型",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "皮肌炎也可分为经典型皮肌炎（既有皮肌炎的典型皮肤表现，也有肌无力）和临床无肌病性皮肌炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_cadm",
+        "name": "临床无肌病性皮肌炎",
+        "parent_disease_id": "disease_dermatomyositis",
+        "disease_subtype": "临床无肌病性",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "临床无肌病性皮肌炎（clinically amyopathic dermatomyositis,CADM）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_dm_with_ild",
+        "name": "皮肌炎合并间质性肺疾病",
+        "parent_disease_id": "disease_dermatomyositis",
+        "disease_subtype": "系统受累",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "常表现为ILD、肺纤维化或胸膜炎。ILD发生于21%~74%的患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_dm_with_malignancy",
+        "name": "皮肌炎伴发恶性肿瘤",
+        "parent_disease_id": "disease_dermatomyositis",
+        "disease_subtype": "伴发疾病",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "约1/3的皮肌炎患者伴发恶性肿瘤"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_heliotrope",
+        "name": "Heliotrope征",
+        "body_site": "双上眼睑和眶周",
+        "symptom_category": "皮肤表现",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "Heliotrope征，表现为双上眼睑和眶周紫红斑，可伴有水肿"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_gottron_papules",
+        "name": "Gottron丘疹",
+        "body_site": "掌指关节和指间关节伸侧",
+        "symptom_category": "皮肤表现",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "Gottron丘疹，表现为掌指关节和指间关节伸侧红色或紫红色丘疹"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_proximal_muscle_weakness",
+        "name": "对称性肌无力",
+        "body_site": "四肢近端肌群",
+        "symptom_category": "肌肉表现",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "表现为进行性加重的对称性肌无力，主要累及四肢近端肌群"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_dysphagia",
+        "name": "吞咽困难",
+        "body_site": "咽部和食管",
+        "symptom_category": "消化系统/肌肉表现",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "咽部和食管上段横纹肌受累可引起吞咽困难、饮水呛咳、鼻反流等"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_ck",
+        "name": "肌酸磷酸激酶",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "肌酸磷酸激酶（CK）、乳酸脱氢酶（LDH）、醛缩酶（ALD）、丙氨酸转氨酶（ALT)和天冬氨酸转氨酶（AST）在急性期升高"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_msa",
+        "name": "肌炎特异性抗体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "肌炎特异性抗体(myositis-specific antibodies,MSA）和肌炎相关性抗体（myositis-associated antibodies，MAA）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_muscle_biopsy",
+        "name": "肌肉病理",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "肌肉病理 有助于明确诊断和排除其他炎性肌病 束周萎缩，由肌纤维损伤和坏死累及部分肌束或束周所致"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_hrct",
+        "name": "肺部高分辨计算机断层扫描",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "建议所有皮肌炎患者完善肺功能（含一氧化碳弥散功能）和肺部高分辨计算机断层扫描（HRCT）检查"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_glucocorticoid",
+        "content": "系统应用激素是皮肌炎治疗的首选方案",
+        "recommendation_strength": "strong",
+        "source_section": "治疗原则及方案",
+        "evidence_ids": [
+          "系统应用激素是皮肌炎治疗的首选方案，其治疗可分为初始阶段、减量阶段、维持阶段"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_immunosuppressant",
+        "content": "多数患者需使用免疫抑制剂。通常在开始激素减量前后加用免疫抑制剂",
+        "recommendation_strength": "strong",
+        "source_section": "治疗原则及方案",
+        "evidence_ids": [
+          "单用激素仅适用于部分轻症皮肌炎患者，多数患者需使用免疫抑制剂。通常在开始激素减量前后加用免疫抑制剂"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_sun_protection",
+        "content": "防晒和外用治疗适用于所有类型的皮肌炎",
+        "recommendation_strength": "strong",
+        "source_section": "治疗原则及方案",
+        "evidence_ids": [
+          "防晒和外用治疗适用于所有类型的皮肌炎"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_prednisone_initial",
+        "content": "初始阶段：激素剂量一般为泼尼松0.75~ 1 mg·kg-1·d-1(最大不超过80 mg/d),或等效剂量的其他激素",
+        "plan_level": 1,
+        "applicable_condition": "经典型皮肌炎初始治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "初始阶段：激素剂量一般为泼尼松0.75~ 1 mg·kg-1·d-1(最大不超过80 mg/d),或等效剂量的其他激素"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_methotrexate",
+        "content": "MTX的初始剂量为5~ 7.5 mg/周,每周增加2.5~5 mg，目标剂量为10~20 mg/周",
+        "plan_level": 2,
+        "applicable_condition": "联合免疫抑制剂治疗",
+        "contraindication_note": "每次给药后次日需补充5mg叶酸",
+        "evidence_ids": [
+          "MTX的初始剂量为5~ 7.5 mg/周,每周增加2.5~5 mg，目标剂量为10~20 mg/周"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_triple_therapy_ild",
+        "content": "对于严重ILD或RP-ILD导致病情加重甚至呼吸衰竭时，可采用三联治疗：静脉滴注甲泼尼龙，并联用钙调磷酸酶抑制剂和静脉滴注CTX",
+        "plan_level": 1,
+        "applicable_condition": "严重ILD或RP-ILD导致病情加重甚至呼吸衰竭",
+        "contraindication_note": "用药前应充分评估感染风险，必要时可使用抗生素预防性抗感染",
+        "evidence_ids": [
+          "对于严重ILD或RP-ILD导致病情加重甚至呼吸衰竭时，可采用三联治疗：静脉滴注甲泼尼龙（参考剂量：80 mg/d）,并联用钙调磷酸酶抑制剂（CsA或他克莫司，需根据血浆药物水平和药物有效性调整剂量）和静脉滴注CTX"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_autoimmune",
+        "content": "皮肌炎是一种病因不明的自身免疫性疾病",
+        "etiology_type": "自身免疫因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "皮肌炎是一种病因不明的自身免疫性疾病"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_malignancy_risk",
+        "content": "伴发恶性肿瘤的风险升高",
+        "etiology_type": "肿瘤相关因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "后者为45~65岁，且后者伴发恶性肿瘤的风险升高"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_muscle_fiber_necrosis",
+        "content": "束周萎缩，由肌纤维损伤和坏死累及部分肌束或束周所致",
+        "evidence_ids": [
+          "束周萎缩，由肌纤维损伤和坏死累及部分肌束或束周所致；血管周围或束间隔及其周围炎症细胞浸润"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_dermatomyositis",
+        "to": "sub_disease_classic_dm",
+        "relation_id": "rel_dm_has_classic_dm",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "皮肌炎也可分为经典型皮肌炎（既有皮肌炎的典型皮肤表现，也有肌无力）和临床无肌病性皮肌炎"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_dermatomyositis",
+        "to": "sub_disease_cadm",
+        "relation_id": "rel_dm_has_cadm",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "皮肌炎也可分为经典型皮肌炎（既有皮肌炎的典型皮肤表现，也有肌无力）和临床无肌病性皮肌炎"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_dermatomyositis",
+        "to": "sub_disease_dm_with_ild",
+        "relation_id": "rel_dm_has_ild",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "常表现为ILD、肺纤维化或胸膜炎。ILD发生于21%~74%的患者"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_dermatomyositis",
+        "to": "sub_disease_dm_with_malignancy",
+        "relation_id": "rel_dm_has_malignancy",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "约1/3的皮肌炎患者伴发恶性肿瘤"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_classic_dm",
+        "to": "symptom_heliotrope",
+        "relation_id": "rel_classic_dm_manifests_heliotrope",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "Heliotrope征，表现为双上眼睑和眶周紫红斑，可伴有水肿"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出Heliotrope征为皮肌炎特异性的皮肤表现，对诊断有高度提示意义",
+        "evidence": "皮肌炎特异性的皮肤表现有[3]:①Heliotrope征"
+      },
+      {
+        "from": "sub_disease_classic_dm",
+        "to": "symptom_gottron_papules",
+        "relation_id": "rel_classic_dm_manifests_gottron",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "Gottron丘疹，表现为掌指关节和指间关节伸侧红色或紫红色丘疹"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出Gottron丘疹为皮肌炎特异性的皮肤表现，对诊断有高度提示意义",
+        "evidence": "Gottron丘疹，表现为掌指关节和指间关节伸侧"
+      },
+      {
+        "from": "sub_disease_classic_dm",
+        "to": "symptom_proximal_muscle_weakness",
+        "relation_id": "rel_classic_dm_manifests_weakness",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "表现为进行性加重的对称性肌无力，主要累及四肢近端肌群"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确经典型皮肌炎有肌无力，且表现为进行性加重的对称性肌无力，主要累及四肢近端肌群",
+        "evidence": "表现为进行性加重的对称性肌无力，主要累及四肢近端肌群"
+      },
+      {
+        "from": "sub_disease_classic_dm",
+        "to": "symptom_dysphagia",
+        "relation_id": "rel_classic_dm_manifests_dysphagia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "咽部和食管上段横纹肌受累可引起吞咽困难、饮水呛咳、鼻反流等"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_classic_dm",
+        "to": "test_ck",
+        "relation_id": "rel_classic_dm_requires_ck",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "升高至正常上限的50~100倍",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "肌酸磷酸激酶（CK）、乳酸脱氢酶（LDH）、醛缩酶（ALD）、丙氨酸转氨酶（ALT)和天冬氨酸转氨酶（AST）在急性期升高"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出CK在急性期升高，且CK和ALD特异性较高，为重要肌酶谱检查",
+        "evidence": "肌酶谱检查：肌酸磷酸激酶（CK）"
+      },
+      {
+        "from": "sub_disease_classic_dm",
+        "to": "test_msa",
+        "relation_id": "rel_classic_dm_requires_msa",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "肌炎特异性抗体(myositis-specific antibodies,MSA）和肌炎相关性抗体（myositis-associated antibodies，MAA）"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出MSA有助于在缺少肌肉活检及临床表现不典型时辅助诊断，并指导治疗和预后",
+        "evidence": "有助于在缺少肌肉活检以及临床表现不典型的情况下进行辅助诊断"
+      },
+      {
+        "from": "sub_disease_classic_dm",
+        "to": "test_muscle_biopsy",
+        "relation_id": "rel_classic_dm_requires_biopsy",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "束周萎缩，血管周围或束间隔及其周围炎症细胞浸润",
+        "weight": 8,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "肌肉病理 有助于明确诊断和排除其他炎性肌病 束周萎缩，由肌纤维损伤和坏死累及部分肌束或束周所致"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出肌肉病理有助于明确诊断和排除其他炎性肌病，但典型表现者通常无需活检，并非金标准",
+        "evidence": "有助于明确诊断和排除其他炎性肌病"
+      },
+      {
+        "from": "sub_disease_dm_with_ild",
+        "to": "test_hrct",
+        "relation_id": "rel_ild_requires_hrct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "磨玻璃影、网状影、蜂窝影和实变影等",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "辅助检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "建议所有皮肌炎患者完善肺功能（含一氧化碳弥散功能）和肺部高分辨计算机断层扫描（HRCT）检查"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文建议所有皮肌炎患者完善肺部高分辨计算机断层扫描（HRCT）检查",
+        "evidence": "建议所有皮肌炎患者完善肺功能（含一氧化碳弥散功能）和肺部高分辨计算机断层扫描（HRCT）检查"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_classic_dm",
+        "to": "treatment_glucocorticoid",
+        "relation_id": "rel_classic_dm_follows_glucocorticoid",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则及方案",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_classic_dm",
+        "to": "treatment_immunosuppressant",
+        "relation_id": "rel_classic_dm_follows_immunosuppressant",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "开始激素减量前后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则及方案",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cadm",
+        "to": "treatment_sun_protection",
+        "relation_id": "rel_cadm_follows_sun_protection",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "所有类型的皮肌炎",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则及方案",
+        "confidence": 0.9
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_glucocorticoid",
+        "to": "plan_prednisone_initial",
+        "relation_id": "rel_glucocorticoid_implements_prednisone",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "初始阶段",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "初始阶段：激素剂量一般为泼尼松0.75~ 1 mg·kg-1·d-1(最大不超过80 mg/d),或等效剂量的其他激素"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_immunosuppressant",
+        "to": "plan_methotrexate",
+        "relation_id": "rel_immunosuppressant_implements_mtx",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "联合免疫抑制剂治疗",
+        "contraindication_note": "每次给药后次日需补充5mg叶酸",
+        "evidence_ids": [
+          "MTX的初始剂量为5~ 7.5 mg/周,每周增加2.5~5 mg，目标剂量为10~20 mg/周"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_glucocorticoid",
+        "to": "plan_triple_therapy_ild",
+        "relation_id": "rel_glucocorticoid_implements_triple",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "严重ILD或RP-ILD导致病情加重甚至呼吸衰竭",
+        "contraindication_note": "用药前应充分评估感染风险，必要时可使用抗生素预防性抗感染",
+        "evidence_ids": [
+          "对于严重ILD或RP-ILD导致病情加重甚至呼吸衰竭时，可采用三联治疗：静脉滴注甲泼尼龙（参考剂量：80 mg/d）,并联用钙调磷酸酶抑制剂（CsA或他克莫司，需根据血浆药物水平和药物有效性调整剂量）和静脉滴注CTX"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_dm_with_malignancy",
+        "to": "etiology_malignancy_risk",
+        "relation_id": "rel_malignancy_causes_dm",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "后者为45~65岁，且后者伴发恶性肿瘤的风险升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_classic_dm",
+        "to": "etiology_autoimmune",
+        "relation_id": "rel_autoimmune_causes_dm",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "皮肌炎是一种病因不明的自身免疫性疾病"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_classic_dm",
+        "to": "pathogenesis_muscle_fiber_necrosis",
+        "relation_id": "rel_dm_explained_by_necrosis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "束周萎缩，由肌纤维损伤和坏死累及部分肌束或束周所致；血管周围或束间隔及其周围炎症细胞浸润"
+        ],
+        "confidence": 0.85
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

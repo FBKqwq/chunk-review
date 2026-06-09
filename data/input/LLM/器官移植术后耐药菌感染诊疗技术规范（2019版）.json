@@ -2,7 +2,7 @@
   "meta": {
     "doc_id": "器官移植术后耐药菌感染诊疗技术规范（2019版）",
     "source_title": "器官移植术后耐药菌感染诊疗技术规范（2019版）",
-    "section_path": "",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -11,15 +11,12 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_resistant_bacterial_infection",
-        "name": "耐药菌感染",
-        "normalized_name": "耐药菌感染",
+        "id": "disease_sot_mdr_infection",
+        "name": "实体器官移植术后耐药菌感染",
+        "normalized_name": "实体器官移植术后耐药菌感染",
         "aliases": [
-          "多重耐药菌感染",
-          "MDR感染",
-          "XDR感染",
-          "PDR感染",
-          "超级细菌感染"
+          "SOT术后耐药菌感染",
+          "器官移植术后耐药菌感染"
         ],
         "source_document_ids": [
           "器官移植术后耐药菌感染诊疗技术规范（2019版）"
@@ -32,26 +29,10 @@
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_mdr_infection_sot",
-        "name": "实体器官移植术后多重耐药菌感染",
-        "parent_disease_id": "disease_resistant_bacterial_infection",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "实体器官移植受者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "作为免疫缺陷人群，实体器官移植（solid organ transplantation，SOT）受者一旦发生MDR细菌感染，病死率高达40.4%；其中，40%的患者将面临移植物切除的风险，多数患者死于重度感染引发的呼吸衰竭或脓毒血症。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "sub_disease_xdr_infection_sot",
-        "name": "实体器官移植术后泛耐药菌感染",
-        "parent_disease_id": "disease_resistant_bacterial_infection",
-        "disease_subtype": null,
+        "id": "sub_disease_mdr_infection",
+        "name": "多重耐药菌(MDR)感染",
+        "parent_disease_id": "disease_sot_mdr_infection",
+        "disease_subtype": "多重耐药",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "实体器官移植受者",
@@ -59,15 +40,15 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "XDR：细菌对常用抗菌药物几乎全部耐药，革兰阴性杆菌仅对黏菌素和替加环素敏感，革兰阳性球菌仅对糖肽类或利奈唑胺敏感；"
+          "MDR：细菌对常用7大类的抗菌药物中3类或3类以上耐药"
         ],
         "confidence": 0.95
       },
       {
-        "id": "sub_disease_pdr_infection_sot",
-        "name": "实体器官移植术后全耐药菌感染",
-        "parent_disease_id": "disease_resistant_bacterial_infection",
-        "disease_subtype": null,
+        "id": "sub_disease_xdr_infection",
+        "name": "泛耐药菌(XDR)感染",
+        "parent_disease_id": "disease_sot_mdr_infection",
+        "disease_subtype": "泛耐药",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "实体器官移植受者",
@@ -75,15 +56,15 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "PDR：细菌对所有常用抗菌药物全部耐药。"
+          "XDR：细菌对常用抗菌药物几乎全部耐药，革兰阴性杆菌仅对黏菌素和替加环素敏感，革兰阳性球菌仅对糖肽类或利奈唑胺敏感"
         ],
         "confidence": 0.95
       },
       {
-        "id": "sub_disease_crep_sot",
-        "name": "实体器官移植术后产碳青霉烯酶肠杆菌科细菌感染",
-        "parent_disease_id": "disease_resistant_bacterial_infection",
-        "disease_subtype": "CRE",
+        "id": "sub_disease_pdr_infection",
+        "name": "全耐药菌(PDR)感染",
+        "parent_disease_id": "disease_sot_mdr_infection",
+        "disease_subtype": "全耐药",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "实体器官移植受者",
@@ -91,15 +72,31 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "近年来，对CRE，尤其是其中的CRKP感染的发生率逐年增加，严重威胁SOT受者的存活率。我国CRKP的耐药率从2005年的3%左右上升到了2018年的28.6%，耐药率上升幅度高达9倍。"
+          "PDR：细菌对所有常用抗菌药物全部耐药"
         ],
         "confidence": 0.95
       },
       {
-        "id": "sub_disease_crkp_sot",
-        "name": "实体器官移植术后耐碳青霉烯类肺炎克雷伯杆菌感染",
-        "parent_disease_id": "disease_resistant_bacterial_infection",
-        "disease_subtype": "CRKP",
+        "id": "sub_disease_cre_infection",
+        "name": "耐碳青霉烯类肠杆菌科细菌(CRE)感染",
+        "parent_disease_id": "disease_sot_mdr_infection",
+        "disease_subtype": "耐碳青霉烯类",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "耐碳青霉烯类的肠杆菌"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_crkp_infection",
+        "name": "耐碳青霉烯类肺炎克雷伯菌(CRKP)感染",
+        "parent_disease_id": "disease_sot_mdr_infection",
+        "disease_subtype": "耐碳青霉烯类",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "实体器官移植受者",
@@ -109,13 +106,45 @@
         "evidence_ids": [
           "耐碳青霉烯类的肺炎克雷伯杆菌（carbapenem-resistant Klebsiella pneumoniae，CRKP）"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "sub_disease_pdrab_sot",
-        "name": "实体器官移植术后泛耐药鲍曼不动杆菌感染",
-        "parent_disease_id": "disease_resistant_bacterial_infection",
-        "disease_subtype": "PDRAB",
+        "id": "sub_disease_mrsa_infection",
+        "name": "耐甲氧西林金黄色葡萄球菌(MRSA)感染",
+        "parent_disease_id": "disease_sot_mdr_infection",
+        "disease_subtype": "耐甲氧西林",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "耐甲氧西林金黄色葡萄球菌（methicillinresistant staphylococcus aureus，MRSA）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_vre_infection",
+        "name": "耐万古霉素肠球菌(VRE)感染",
+        "parent_disease_id": "disease_sot_mdr_infection",
+        "disease_subtype": "耐万古霉素",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "实体器官移植受者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "耐万古霉素肠球菌（vancomycin-resistant enterococcus，VRE）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_pdrab_infection",
+        "name": "泛耐药鲍曼不动杆菌(PDRAB)感染",
+        "parent_disease_id": "disease_sot_mdr_infection",
+        "disease_subtype": "泛耐药",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "实体器官移植受者",
@@ -125,13 +154,13 @@
         "evidence_ids": [
           "泛耐药鲍曼不动杆菌（pandrug-resistant acinetobacter baumannii，PDRAB）"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "sub_disease_pdrpa_sot",
-        "name": "实体器官移植术后泛耐药铜绿假单胞菌感染",
-        "parent_disease_id": "disease_resistant_bacterial_infection",
-        "disease_subtype": "PDRPA",
+        "id": "sub_disease_pdrpa_infection",
+        "name": "泛耐药铜绿假单胞菌(PDRPA)感染",
+        "parent_disease_id": "disease_sot_mdr_infection",
+        "disease_subtype": "泛耐药",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "实体器官移植受者",
@@ -141,55 +170,7 @@
         "evidence_ids": [
           "泛耐药铜绿假单胞菌（pandrug-resistant pseudomonas aeruginosa，PDRPA）"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "sub_disease_mrsa_sot",
-        "name": "实体器官移植术后耐甲氧西林金黄色葡萄球菌感染",
-        "parent_disease_id": "disease_resistant_bacterial_infection",
-        "disease_subtype": "MRSA",
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "实体器官移植受者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "耐甲氧西林金黄色葡萄球菌（methicillinresistant staphylococcus aureus，MRSA）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "sub_disease_vre_sot",
-        "name": "实体器官移植术后耐万古霉素肠球菌感染",
-        "parent_disease_id": "disease_resistant_bacterial_infection",
-        "disease_subtype": "VRE",
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "实体器官移植受者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "耐万古霉素肠球菌（vancomycin-resistant enterococcus，VRE）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "sub_disease_ddi_sot",
-        "name": "实体器官移植术后供者来源性感染",
-        "parent_disease_id": "disease_resistant_bacterial_infection",
-        "disease_subtype": "DDI",
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "实体器官移植受者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "供者来源性感染（donor-derived infection，DDI），其多发生在移植术后1个月以内，发生率约为0.2%~1.7%……其中80%为MDR细菌"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "symptoms": [
@@ -199,11 +180,11 @@
         "body_site": "肺部",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "多数患者死于重度感染引发的呼吸衰竭或脓毒血症。"
+          "多数患者死于重度感染引发的呼吸衰竭或脓毒血症"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_sepsis",
@@ -211,108 +192,200 @@
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "多数患者死于重度感染引发的呼吸衰竭或脓毒血症。"
+          "多数患者死于重度感染引发的呼吸衰竭或脓毒血症"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "symptom_fever",
-        "name": "发热",
-        "body_site": "全身",
+        "id": "symptom_pulmonary_infection",
+        "name": "肺部感染",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常见的感染部位多为肺部感染、伤口周围感染、泌尿系统感染（肾盂肾炎、膀胱炎）、血流感染、腹腔感染等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_wound_infection",
+        "name": "伤口周围感染",
+        "body_site": "伤口",
+        "symptom_category": "局部症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常见的感染部位多为肺部感染、伤口周围感染、泌尿系统感染（肾盂肾炎、膀胱炎）、血流感染、腹腔感染等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_uti",
+        "name": "泌尿系统感染",
+        "body_site": "泌尿系统",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常见的感染部位多为肺部感染、伤口周围感染、泌尿系统感染（肾盂肾炎、膀胱炎）、血流感染、腹腔感染等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_bloodstream_infection",
+        "name": "血流感染",
+        "body_site": "血液",
         "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "常见感染部位多为肺部感染、伤口周围感染、泌尿系统感染（肾盂肾炎、膀胱炎）、血流感染、腹腔感染等"
+          "常见的感染部位多为肺部感染、伤口周围感染、泌尿系统感染（肾盂肾炎、膀胱炎）、血流感染、腹腔感染等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_abdominal_infection",
+        "name": "腹腔感染",
+        "body_site": "腹腔",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "常见的感染部位多为肺部感染、伤口周围感染、泌尿系统感染（肾盂肾炎、膀胱炎）、血流感染、腹腔感染等"
         ],
         "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_antibiotic_sensitivity_test",
-        "name": "抗菌药物敏感性试验",
+        "id": "test_antimicrobial_susceptibility",
+        "name": "药敏试验",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "实验室需要增做其它可能有效的抗菌药物如多黏菌素、替加环素、头孢他啶-阿维巴坦的药敏及联合药敏试验，同时关注多黏菌素和替加环素的药敏试验方法问题，力求准确。"
+          "尽量根据药敏结果选择敏感抗生素"
         ],
         "confidence": 0.95
       },
       {
         "id": "test_mic",
-        "name": "最低抑菌浓度测定",
+        "name": "最低抑菌浓度(MIC)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "选择最低抑菌浓度（minimum inhibitory concentration，MIC）较接近敏感折点的药物"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_sputum_culture",
+        "name": "痰培养",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择最低抑菌浓度（minimum inhibitory concentration，MIC）较接近敏感折点的药物；"
+          "痰培养的结果为MDR的革兰阴性杆菌"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "test_urine_culture",
+        "name": "尿培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "尿液标本中的首位菌株"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_blood_culture",
+        "name": "血培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "血液标本占15.2%"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_combined_susceptibility",
+        "name": "联合药敏试验",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "实验室需要增做其它可能有效的抗菌药物如多黏菌素、替加环素、头孢他啶-阿维巴坦的药敏及联合药敏试验"
+        ],
+        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_principle_1",
-        "content": "尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择最低抑菌浓度（MIC）较接近敏感折点的药物。",
+        "id": "treatment_principle_susceptibility",
+        "content": "尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择最低抑菌浓度（MIC）较接近敏感折点的药物",
         "recommendation_strength": "strong",
         "source_section": "治疗原则",
         "evidence_ids": [
-          "（1）尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择最低抑菌浓度（minimum inhibitory concentration，MIC）较接近敏感折点的药物；"
+          "尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择最低抑菌浓度（minimum inhibitory concentration，MIC）较接近敏感折点的药物"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_principle_2",
-        "content": "MDR革兰阴性菌的治疗不仅需要增加抗生素的剂量，而且需要联合用药，但同时注意根据患者的年龄、肝肾功能及体表面积进行相应调整。",
+        "id": "treatment_principle_combination",
+        "content": "MDR革兰阴性菌的治疗不仅需要增加抗生素的剂量，而且需要联合用药，但同时注意根据患者的年龄、肝肾功能及体表面积进行相应调整",
         "recommendation_strength": "strong",
         "source_section": "治疗原则",
         "evidence_ids": [
-          "（2）MDR革兰阴性菌的治疗不仅需要增加抗生素的剂量，而且需要联合用药，但同时注意根据患者的年龄、肝肾功能及体表面积进行相应调整；"
+          "MDR革兰阴性菌的治疗不仅需要增加抗生素的剂量，而且需要联合用药，但同时注意根据患者的年龄、肝肾功能及体表面积进行相应调整"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_principle_3",
-        "content": "根据药动学和药代学原理设定给药方案，如增加给药剂量或次数，延长抗生素滴注时间等。",
+        "id": "treatment_principle_pk_pd",
+        "content": "根据药动学和药代学原理设定给药方案，如增加给药剂量或次数，延长抗生素滴注时间等",
         "recommendation_strength": "strong",
         "source_section": "治疗原则",
         "evidence_ids": [
-          "（3）根据药动学和药代学原理设定给药方案，如增加给药剂量或次数，延长抗生素滴注时间等；"
+          "根据药动学和药代学原理设定给药方案，如增加给药剂量或次数，延长抗生素滴注时间等"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_principle_4",
-        "content": "积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素。",
+        "id": "treatment_principle_source_control",
+        "content": "积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
         "recommendation_strength": "strong",
         "source_section": "治疗原则",
         "evidence_ids": [
-          "（4）积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素[19-21]。"
+          "积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素"
         ],
         "confidence": 0.95
       }
     ],
     "plans": [
       {
-        "id": "plan_tigecycline_initial",
-        "content": "首剂100 mg，之后50～75 mg（每日2次）静脉滴注。",
+        "id": "plan_tigecycline_standard",
+        "content": "首剂100 mg，之后50～75 mg（每日2次）静脉滴注",
         "plan_level": 1,
-        "applicable_condition": "用于CRE、XDR鲍曼不动杆菌或其它肠杆菌科细菌所致的呼吸道、皮肤软组织及腹腔感染。",
-        "contraindication_note": "不推荐用于中枢神经系统感染和泌尿道感染。",
+        "applicable_condition": "替加环素常用给药方案",
+        "contraindication_note": null,
         "evidence_ids": [
           "替加环素常用的给药方案为：首剂100 mg，之后50～75 mg（每日2次）静脉滴注。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_tigecycline_pneumonia",
-        "content": "首剂200 mg，之后100 mg（每日2次）静脉滴注。",
+        "id": "plan_tigecycline_cre_pneumonia",
+        "content": "首剂200 mg，之后100 mg（每日2次）静脉滴注",
         "plan_level": 1,
-        "applicable_condition": "CRE导致肺炎的治疗。",
+        "applicable_condition": "CRE导致肺炎的治疗",
         "contraindication_note": null,
         "evidence_ids": [
           "CRE导致肺炎的治疗推荐剂量为：首剂200 mg，之后100 mg（每日2次）静脉滴注。"
@@ -320,11 +393,11 @@
         "confidence": 0.95
       },
       {
-        "id": "plan_colistin_e",
-        "content": "多黏菌素E甲磺酸钠给药方案为多黏菌素E基质（CBA）2.5～5.0 mg/(kg•d)，分2～4次静脉滴注。",
+        "id": "plan_colistin_e_cba",
+        "content": "多黏菌素E基质（CBA）2.5～5.0 mg/(kg•d)，分2～4次静脉滴注",
         "plan_level": 1,
-        "applicable_condition": "用于各类XDR革兰阴性菌的治疗，尤其是鲍曼不动杆菌及铜绿假单胞菌。",
-        "contraindication_note": "肾毒性及神经毒性不良反应发生率高，对于移植肾功能不全的患者或老年人需要注意监测肾功能，必要时需调整剂量。",
+        "applicable_condition": "肾功能正常患者中多黏菌素E甲磺酸钠给药方案",
+        "contraindication_note": "对于移植肾功能不全的患者或老年人需要注意监测肾功能，必要时需调整剂量",
         "evidence_ids": [
           "在肾功能正常患者中多黏菌素E甲磺酸钠给药方案为多黏菌素E基质（CBA）2.5～5.0 mg/(kg•d)，分2～4次静脉滴注。"
         ],
@@ -332,102 +405,113 @@
       },
       {
         "id": "plan_colistin_b",
-        "content": "多黏菌素B硫酸盐每日给药量为1.5～2.5 mg/kg，分2次静脉滴注。",
+        "content": "1.5～2.5 mg/kg，分2次静脉滴注",
         "plan_level": 1,
-        "applicable_condition": "用于各类XDR革兰阴性菌的治疗，尤其是鲍曼不动杆菌及铜绿假单胞菌。",
-        "contraindication_note": "肾毒性及神经毒性不良反应发生率高，对于移植肾功能不全的患者或老年人需要注意监测肾功能，必要时需调整剂量。",
+        "applicable_condition": "多黏菌素B硫酸盐给药方案",
+        "contraindication_note": "该药存在明显的异质性耐药，不推荐单独应用；肾毒性及神经毒性不良反应发生率高",
         "evidence_ids": [
           "多黏菌素B硫酸盐每日给药量为1.5～2.5 mg/kg，分2次静脉滴注。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_ceftazidime_avibactam",
-        "content": "头孢他啶-阿维巴坦（2.5 g，每日3次，静脉滴注）进行补救性治疗。",
+        "id": "plan_cefoperazone_sulbactam",
+        "content": "3.0 g（头孢哌酮钠2.0 g+舒巴坦1.0 g），每日3～4次，静脉滴注",
         "plan_level": 1,
-        "applicable_condition": "用于MDR肠杆菌属及铜绿假单胞菌等导致的感染初始治疗失败后的补救治疗。",
+        "applicable_condition": "β-内酰胺酶抑制剂及合剂常用剂量",
         "contraindication_note": null,
         "evidence_ids": [
-          "予头孢他啶-阿维巴坦（2.5 g，每日3次，静脉滴注）进行补救性治疗，临床有效率可达60%以上。"
+          "药物常用剂量为3.0 g（头孢哌酮钠2.0 g+舒巴坦1.0 g），每日3～4次，静脉滴注。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ceftazidime_avibactam",
+        "content": "2.5 g，每日3次，静脉滴注",
+        "plan_level": 1,
+        "applicable_condition": "头孢他啶-阿维巴坦补救性治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "予头孢他啶-阿维巴坦（2.5 g，每日3次，静脉滴注）进行补救性治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_amikacin",
+        "content": "15 mg/kg，分1～2次给药",
+        "plan_level": 1,
+        "applicable_condition": "阿米卡星或异帕米星推荐剂量",
+        "contraindication_note": "具有较强的肾毒性和耳毒性，用药期间应监测肾功能及尿常规，并监控患者的听力状态",
+        "evidence_ids": [
+          "阿米卡星或异帕米星的推荐剂量为15 mg/kg，分1～2次给药。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_fosfomycin",
+        "content": "8 g（每日3次）或6 g（每日4次），静脉滴注",
+        "plan_level": 2,
+        "applicable_condition": "磷霉素推荐给药方案",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐给药方案为8 g（每日3次）或6 g（每日4次），静脉滴注。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_minocycline",
+        "content": "首剂200 mg，之后100 mg（每日2次），口服用药",
+        "plan_level": 1,
+        "applicable_condition": "米诺环素推荐给药方案",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐给药方案为首剂200 mg，之后100 mg（每日2次），口服用药。"
         ],
         "confidence": 0.95
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_immunosuppression",
+        "id": "etiology_immunosuppressants",
         "content": "大剂量免疫抑制剂的应用",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
+        "etiology_type": "医源性因素",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素。"
+          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素"
         ],
         "confidence": 0.95
       },
       {
         "id": "etiology_broad_spectrum_antibiotics",
         "content": "广谱抗菌药物的应用",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
+        "etiology_type": "医源性因素",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素。"
+          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_hemodialysis",
+        "content": "血液透析",
+        "etiology_type": "医源性因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素"
         ],
         "confidence": 0.95
       },
       {
         "id": "etiology_icu_stay",
         "content": "留观重症监护室（ICU）时间与气管插管时间过长（≥72 h）",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
+        "etiology_type": "医源性因素",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_dcd",
-        "content": "接受心脏死亡器官捐献（DCD）",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_elderly",
-        "content": "老年受者（>60岁）",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_preoperative_antibiotics",
-        "content": "术前90 d内使用过抗生素治疗",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_recent_hospitalization",
-        "content": "近期住院时间≥5 d",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素。"
+          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素"
         ],
         "confidence": 0.95
       },
@@ -435,75 +519,143 @@
         "id": "etiology_ddi",
         "content": "供者来源性感染（DDI）",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "少见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "另外，还包括供者来源性感染（donor-derived infection，DDI），其多发生在移植术后1个月以内，发生率约为0.2%~1.7%，部分为MDR细菌。"
+          "另外，还包括供者来源性感染（donor-derived infection，DDI），其多发生在移植术后1个月以内，发生率约为0.2%~1.7%，部分为MDR细菌"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_bacteria_ecoli",
+        "content": "大肠埃希菌",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "肠杆菌科细菌中，大肠埃希菌不仅是总体标本中的首位菌株，而且是尿液标本中的首位菌株"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_bacteria_kp",
+        "content": "肺炎克雷伯菌",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "针对SOT受者、尤其是并发肺部感染的受者，需要更加高度关注的是肺炎克雷伯菌，其每年的分离率呈稳步上升趋势"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_bacteria_ab",
+        "content": "鲍曼不动杆菌",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "不发酵糖的革兰阴性杆菌占所有分离菌株的24.1%，其中最多见者依次为鲍曼不动杆菌（38.3%）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_bacteria_pa",
+        "content": "铜绿假单胞菌",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "不发酵糖的革兰阴性杆菌占所有分离菌株的24.1%，其中最多见者依次为鲍曼不动杆菌（38.3%）、铜绿假单胞菌（36.0%）"
         ],
         "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_antibiotic_driven_resistance",
-        "content": "随着抗菌药物的广泛应用，细菌的耐药性也不断增强。",
+        "id": "pathogenesis_carbapenemase",
+        "content": "产生碳青霉烯酶",
         "evidence_ids": [
-          "随着抗菌药物的广泛应用，细菌的耐药性也不断增强。"
+          "产生碳青霉烯酶或新德里金属-β-内酰胺酶（New Delhi metallo-β-lactamase，NDM）-1是肠杆菌科细菌对碳青霉烯类抗生素最主要的耐药机制"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_ndm1",
+        "content": "产新德里金属-β-内酰胺酶（NDM）-1",
+        "evidence_ids": [
+          "产生碳青霉烯酶或新德里金属-β-内酰胺酶（New Delhi metallo-β-lactamase，NDM）-1是肠杆菌科细菌对碳青霉烯类抗生素最主要的耐药机制"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_kpc",
+        "content": "产肺炎克雷伯菌碳青霉烯酶（KPC）",
+        "evidence_ids": [
+          "产肺炎克雷伯菌碳青霉烯酶（Klebsiella pneumoniae carbapenemase，KPC）型菌株"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_oxa",
+        "content": "产苯唑西林水解酶（OXA）型碳青霉烯酶",
+        "evidence_ids": [
+          "我国已有产苯唑西林水解酶（oxacillin hydrolase，OXA）型碳青霉烯酶肺炎克雷伯菌所致感染的克隆菌株流行的报道"
+        ],
+        "confidence": 0.9
       }
     ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_resistant_bacterial_infection",
-        "to": "sub_disease_mdr_infection_sot",
-        "relation_id": "rel_resistant_bacterial_infection_has_mdr_infection_sot",
+        "from": "disease_sot_mdr_infection",
+        "to": "sub_disease_mdr_infection",
+        "relation_id": "rel_sot_mdr_has_mdr",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（1）MDR：细菌对常用7大类的抗菌药物中3类或3类以上耐药；"
+          "MDR：细菌对常用7大类的抗菌药物中3类或3类以上耐药"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_resistant_bacterial_infection",
-        "to": "sub_disease_xdr_infection_sot",
-        "relation_id": "rel_resistant_bacterial_infection_has_xdr_infection_sot",
+        "from": "disease_sot_mdr_infection",
+        "to": "sub_disease_xdr_infection",
+        "relation_id": "rel_sot_mdr_has_xdr",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（2）XDR：细菌对常用抗菌药物几乎全部耐药，革兰阴性杆菌仅对黏菌素和替加环素敏感，革兰阳性球菌仅对糖肽类或利奈唑胺敏感；"
+          "XDR：细菌对常用抗菌药物几乎全部耐药"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_resistant_bacterial_infection",
-        "to": "sub_disease_pdr_infection_sot",
-        "relation_id": "rel_resistant_bacterial_infection_has_pdr_infection_sot",
+        "from": "disease_sot_mdr_infection",
+        "to": "sub_disease_pdr_infection",
+        "relation_id": "rel_sot_mdr_has_pdr",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（3）PDR：细菌对所有常用抗菌药物全部耐药。"
+          "PDR：细菌对所有常用抗菌药物全部耐药"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_resistant_bacterial_infection",
-        "to": "sub_disease_crep_sot",
-        "relation_id": "rel_resistant_bacterial_infection_has_crep_sot",
+        "from": "disease_sot_mdr_infection",
+        "to": "sub_disease_cre_infection",
+        "relation_id": "rel_sot_mdr_has_cre",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "产超广谱β-内酰胺酶（extended spectrum β-lactamases, ESBLs）的肠杆菌、耐碳青霉烯类的肺炎克雷伯杆菌（carbapenem-resistant Klebsiella pneumoniae，CRKP）等；"
+          "耐碳青霉烯类的肠杆菌"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_resistant_bacterial_infection",
-        "to": "sub_disease_crkp_sot",
-        "relation_id": "rel_resistant_bacterial_infection_has_crkp_sot",
+        "from": "disease_sot_mdr_infection",
+        "to": "sub_disease_crkp_infection",
+        "relation_id": "rel_sot_mdr_has_crkp",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
@@ -512,31 +664,9 @@
         "confidence": 0.95
       },
       {
-        "from": "disease_resistant_bacterial_infection",
-        "to": "sub_disease_pdrab_sot",
-        "relation_id": "rel_resistant_bacterial_infection_has_pdrab_sot",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "泛耐药鲍曼不动杆菌（pandrug-resistant acinetobacter baumannii，PDRAB）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_resistant_bacterial_infection",
-        "to": "sub_disease_pdrpa_sot",
-        "relation_id": "rel_resistant_bacterial_infection_has_pdrpa_sot",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "泛耐药铜绿假单胞菌（pandrug-resistant pseudomonas aeruginosa，PDRPA）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_resistant_bacterial_infection",
-        "to": "sub_disease_mrsa_sot",
-        "relation_id": "rel_resistant_bacterial_infection_has_mrsa_sot",
+        "from": "disease_sot_mdr_infection",
+        "to": "sub_disease_mrsa_infection",
+        "relation_id": "rel_sot_mdr_has_mrsa",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
@@ -545,9 +675,9 @@
         "confidence": 0.95
       },
       {
-        "from": "disease_resistant_bacterial_infection",
-        "to": "sub_disease_vre_sot",
-        "relation_id": "rel_resistant_bacterial_infection_has_vre_sot",
+        "from": "disease_sot_mdr_infection",
+        "to": "sub_disease_vre_infection",
+        "relation_id": "rel_sot_mdr_has_vre",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
@@ -556,22 +686,33 @@
         "confidence": 0.95
       },
       {
-        "from": "disease_resistant_bacterial_infection",
-        "to": "sub_disease_ddi_sot",
-        "relation_id": "rel_resistant_bacterial_infection_has_ddi_sot",
+        "from": "disease_sot_mdr_infection",
+        "to": "sub_disease_pdrab_infection",
+        "relation_id": "rel_sot_mdr_has_pdrab",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "供者来源性感染（donor-derived infection，DDI），其多发生在移植术后1个月以内，发生率约为0.2%~1.7%，部分为MDR细菌。"
+          "泛耐药鲍曼不动杆菌（pandrug-resistant acinetobacter baumannii，PDRAB）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_sot_mdr_infection",
+        "to": "sub_disease_pdrpa_infection",
+        "relation_id": "rel_sot_mdr_has_pdrpa",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "泛耐药铜绿假单胞菌（pandrug-resistant pseudomonas aeruginosa，PDRPA）"
         ],
         "confidence": 0.95
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_mdr_infection_sot",
+        "from": "sub_disease_mdr_infection",
         "to": "symptom_respiratory_failure",
-        "relation_id": "rel_mdr_infection_sot_manifests_as_respiratory_failure",
+        "relation_id": "rel_mdr_manifests_respiratory_failure",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -579,20 +720,20 @@
         "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "背景介绍",
         "evidence_ids": [
-          "多数患者死于重度感染引发的呼吸衰竭或脓毒血症。"
+          "多数患者死于重度感染引发的呼吸衰竭或脓毒血症"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确指出MDR细菌感染‘多数患者死于重度感染引发的呼吸衰竭’，属直接致死性并发症，强度高但非唯一表现",
-        "evidence": "多数患者死于重度感染引发的呼吸衰竭或脓毒血症。"
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出多数患者死于重度感染引发的呼吸衰竭，表明其为严重并发症",
+        "evidence": "多数患者死于重度感染引发的呼吸衰竭或脓毒血症"
       },
       {
-        "from": "sub_disease_mdr_infection_sot",
+        "from": "sub_disease_mdr_infection",
         "to": "symptom_sepsis",
-        "relation_id": "rel_mdr_infection_sot_manifests_as_sepsis",
+        "relation_id": "rel_mdr_manifests_sepsis",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -600,113 +741,212 @@
         "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "背景介绍",
         "evidence_ids": [
-          "多数患者死于重度感染引发的呼吸衰竭或脓毒血症。"
+          "多数患者死于重度感染引发的呼吸衰竭或脓毒血症"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文并列陈述‘多数患者死于重度感染引发的呼吸衰竭或脓毒血症’，‘脓毒血症’即sepsis的规范中文术语，与呼吸衰竭同级致死结局",
-        "evidence": "多数患者死于重度感染引发的呼吸衰竭或脓毒血症。"
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出多数患者死于重度感染引发的脓毒血症，表明其为严重并发症",
+        "evidence": "多数患者死于重度感染引发的呼吸衰竭或脓毒血症"
+      },
+      {
+        "from": "sub_disease_mdr_infection",
+        "to": "symptom_pulmonary_infection",
+        "relation_id": "rel_mdr_manifests_pulmonary",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "背景介绍",
+        "evidence_ids": [
+          "常见的感染部位多为肺部感染、伤口周围感染、泌尿系统感染（肾盂肾炎、膀胱炎）、血流感染、腹腔感染等"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出肺部感染是常见的感染部位",
+        "evidence": "常见的感染部位多为肺部感染"
+      },
+      {
+        "from": "sub_disease_mdr_infection",
+        "to": "symptom_wound_infection",
+        "relation_id": "rel_mdr_manifests_wound",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "背景介绍",
+        "evidence_ids": [
+          "常见的感染部位多为肺部感染、伤口周围感染、泌尿系统感染（肾盂肾炎、膀胱炎）、血流感染、腹腔感染等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_mdr_infection",
+        "to": "symptom_uti",
+        "relation_id": "rel_mdr_manifests_uti",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "背景介绍",
+        "evidence_ids": [
+          "常见的感染部位多为肺部感染、伤口周围感染、泌尿系统感染（肾盂肾炎、膀胱炎）、血流感染、腹腔感染等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_mdr_infection",
+        "to": "symptom_bloodstream_infection",
+        "relation_id": "rel_mdr_manifests_bloodstream",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "背景介绍",
+        "evidence_ids": [
+          "常见的感染部位多为肺部感染、伤口周围感染、泌尿系统感染（肾盂肾炎、膀胱炎）、血流感染、腹腔感染等"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出血流感染是常见的感染部位",
+        "evidence": "常见的感染部位多为肺部感染、伤口周围感染、泌尿系统感染（肾盂肾炎、膀胱炎）、血流感染"
+      },
+      {
+        "from": "sub_disease_mdr_infection",
+        "to": "symptom_abdominal_infection",
+        "relation_id": "rel_mdr_manifests_abdominal",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "背景介绍",
+        "evidence_ids": [
+          "常见的感染部位多为肺部感染、伤口周围感染、泌尿系统感染（肾盂肾炎、膀胱炎）、血流感染、腹腔感染等"
+        ],
+        "confidence": 0.9
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_mdr_infection_sot",
-        "to": "test_antibiotic_sensitivity_test",
-        "relation_id": "rel_mdr_infection_sot_requires_antibiotic_sensitivity_test",
+        "from": "sub_disease_mdr_infection",
+        "to": "test_antimicrobial_susceptibility",
+        "relation_id": "rel_mdr_requires_susceptibility",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "药敏结果明确显示对≥3类常用抗菌药物耐药",
-        "weight": 10,
-        "gold_standard": false,
+        "result_text": "敏感",
+        "weight": 9,
+        "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "定义章节",
+        "section_priority": "治疗原则",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（1）MDR：细菌对常用7大类的抗菌药物中3类或3类以上耐药；"
+          "尽量根据药敏结果选择敏感抗生素"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文3.1节治疗原则第(1)条明确要求‘尽量根据药敏结果选择敏感抗生素’，且全文多处强调‘根据药敏结果’‘依据抗菌药物敏感性选择’，属强制性前提",
-        "evidence": "（1）尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择最低抑菌浓度较接近敏感折点的药物；"
+        "weight_reason": "原文治疗原则要求尽量根据药敏结果选择敏感抗生素",
+        "evidence": "尽量根据药敏结果选择敏感抗生素"
       },
       {
-        "from": "sub_disease_xdr_infection_sot",
-        "to": "test_antibiotic_sensitivity_test",
-        "relation_id": "rel_xdr_infection_sot_requires_antibiotic_sensitivity_test",
+        "from": "sub_disease_mdr_infection",
+        "to": "test_mic",
+        "relation_id": "rel_mdr_requires_mic",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "药敏结果明确显示对几乎所有常用抗菌药物耐药，仅对黏菌素/替加环素（GNB）或糖肽类/利奈唑胺（GPC）敏感",
-        "weight": 10,
+        "result_text": "较接近敏感折点",
+        "weight": 8,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "定义章节",
+        "section_priority": "治疗原则",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（2）XDR：细菌对常用抗菌药物几乎全部耐药，革兰阴性杆菌仅对黏菌素和替加环素敏感，革兰阳性球菌仅对糖肽类或利奈唑胺敏感；"
+          "当所有药物均不敏感时，选择最低抑菌浓度（minimum inhibitory concentration，MIC）较接近敏感折点的药物"
         ],
         "confidence": 0.95,
-        "weight_reason": "XDR感染在3.2.2节被明确要求‘实验室需要增做其它可能有效的抗菌药物如多黏菌素、替加环素、头孢他啶-阿维巴坦的药敏及联合药敏试验’，属强制性扩展检测",
-        "evidence": "实验室需要增做其它可能有效的抗菌药物如多黏菌素、替加环素、头孢他啶-阿维巴坦的药敏及联合药敏试验，"
+        "weight_reason": "原文指出当所有药物均不敏感时，需选择最低抑菌浓度较接近敏感折点的药物",
+        "evidence": "选择最低抑菌浓度"
       },
       {
-        "from": "sub_disease_pdr_infection_sot",
-        "to": "test_antibiotic_sensitivity_test",
-        "relation_id": "rel_pdr_infection_sot_requires_antibiotic_sensitivity_test",
+        "from": "sub_disease_crkp_infection",
+        "to": "test_combined_susceptibility",
+        "relation_id": "rel_crkp_requires_combined",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "药敏结果明确显示对所有常用抗菌药物全部耐药",
-        "weight": 10,
+        "result_text": null,
+        "weight": 9,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "定义章节",
+        "section_priority": "特殊MDR细菌的变迁情况",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（3）PDR：细菌对所有常用抗菌药物全部耐药。"
+          "实验室需要增做其它可能有效的抗菌药物如多黏菌素、替加环素、头孢他啶-阿维巴坦的药敏及联合药敏试验"
         ],
-        "confidence": 0.95,
-        "weight_reason": "PDR定义为‘细菌对所有常用抗菌药物全部耐药’，而3.1节强调‘当所有药物均不敏感时’须依MIC决策，故必须依赖药敏试验确认耐药谱，属强制性基础检测",
-        "evidence": "（3）PDR：细菌对所有常用抗菌药物全部耐药。"
+        "confidence": 0.9,
+        "weight_reason": "原文指出针对此类超级耐药细菌的感染，实验室需要增做联合药敏试验",
+        "evidence": "药敏及联合药敏试验"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_mdr_infection_sot",
-        "to": "treatment_principle_1",
-        "relation_id": "rel_mdr_infection_sot_follows_treatment_1",
+        "from": "sub_disease_mdr_infection",
+        "to": "treatment_principle_susceptibility",
+        "relation_id": "rel_mdr_follows_susceptibility",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "明确药敏结果后制定治疗方案",
+        "applicable_condition": "明确诊断后",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
@@ -718,20 +958,61 @@
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_mdr_infection_sot",
-        "to": "treatment_principle_2",
-        "relation_id": "rel_mdr_infection_sot_follows_treatment_2",
+        "from": "sub_disease_mdr_infection",
+        "to": "treatment_principle_combination",
+        "relation_id": "rel_mdr_follows_combination",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "针对MDR革兰阴性菌感染",
+        "applicable_condition": "MDR革兰阴性菌感染",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "病原菌类型"
+          "年龄",
+          "肝肾功能",
+          "体表面积"
         ],
-        "contraindication_note": "需根据患者年龄、肝肾功能及体表面积调整剂量",
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_mdr_infection",
+        "to": "treatment_principle_pk_pd",
+        "relation_id": "rel_mdr_follows_pk_pd",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "药动学和药代学原理"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗原则",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_mdr_infection",
+        "to": "treatment_principle_source_control",
+        "relation_id": "rel_mdr_follows_source_control",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "原发病",
+          "感染源"
+        ],
+        "contraindication_note": null,
         "evidence_level": "expert_consensus",
         "source_section": "治疗原则",
         "confidence": 0.95
@@ -739,62 +1020,313 @@
     ],
     "implements_by": [
       {
-        "from": "treatment_principle_1",
-        "to": "plan_tigecycline_initial",
-        "relation_id": "rel_treatment_1_implements_by_tigecycline_initial",
+        "from": "treatment_principle_susceptibility",
+        "to": "plan_tigecycline_standard",
+        "relation_id": "rel_susceptibility_implements_tigecycline",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "CRE、XDR鲍曼不动杆菌或其它肠杆菌科细菌所致的呼吸道、皮肤软组织及腹腔感染。",
-        "contraindication_note": "不推荐用于中枢神经系统感染和泌尿道感染。",
+        "applicable_condition": "替加环素常用给药方案",
+        "contraindication_note": null,
         "evidence_ids": [
           "替加环素常用的给药方案为：首剂100 mg，之后50～75 mg（每日2次）静脉滴注。"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_principle_1",
-        "to": "plan_colistin_e",
-        "relation_id": "rel_treatment_1_implements_by_colistin_e",
+        "from": "treatment_principle_susceptibility",
+        "to": "plan_tigecycline_cre_pneumonia",
+        "relation_id": "rel_susceptibility_implements_tigecycline_cre",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "用于各类XDR革兰阴性菌的治疗，尤其是鲍曼不动杆菌及铜绿假单胞菌。",
-        "contraindication_note": "肾毒性及神经毒性不良反应发生率高，对于移植肾功能不全的患者或老年人需要注意监测肾功能，必要时需调整剂量。",
+        "applicable_condition": "CRE导致肺炎的治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "CRE导致肺炎的治疗推荐剂量为：首剂200 mg，之后100 mg（每日2次）静脉滴注。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_principle_combination",
+        "to": "plan_colistin_e_cba",
+        "relation_id": "rel_combination_implements_colistin_e",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "肾功能正常患者",
+        "contraindication_note": "对于移植肾功能不全的患者或老年人需要注意监测肾功能，必要时需调整剂量",
         "evidence_ids": [
           "在肾功能正常患者中多黏菌素E甲磺酸钠给药方案为多黏菌素E基质（CBA）2.5～5.0 mg/(kg•d)，分2～4次静脉滴注。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_principle_combination",
+        "to": "plan_colistin_b",
+        "relation_id": "rel_combination_implements_colistin_b",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "多黏菌素B硫酸盐给药方案",
+        "contraindication_note": "该药存在明显的异质性耐药，不推荐单独应用；肾毒性及神经毒性不良反应发生率高",
+        "evidence_ids": [
+          "多黏菌素B硫酸盐每日给药量为1.5～2.5 mg/kg，分2次静脉滴注。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_principle_combination",
+        "to": "plan_cefoperazone_sulbactam",
+        "relation_id": "rel_combination_implements_cefoperazone",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "β-内酰胺酶抑制剂及合剂常用剂量",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "药物常用剂量为3.0 g（头孢哌酮钠2.0 g+舒巴坦1.0 g），每日3～4次，静脉滴注。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_principle_combination",
+        "to": "plan_ceftazidime_avibactam",
+        "relation_id": "rel_combination_implements_ceftazidime",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "补救",
+        "applicable_condition": "初始治疗失败者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "予头孢他啶-阿维巴坦（2.5 g，每日3次，静脉滴注）进行补救性治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_principle_combination",
+        "to": "plan_amikacin",
+        "relation_id": "rel_combination_implements_amikacin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "阿米卡星或异帕米星推荐剂量",
+        "contraindication_note": "具有较强的肾毒性和耳毒性，用药期间应监测肾功能及尿常规，并监控患者的听力状态",
+        "evidence_ids": [
+          "阿米卡星或异帕米星的推荐剂量为15 mg/kg，分1～2次给药。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_principle_combination",
+        "to": "plan_fosfomycin",
+        "relation_id": "rel_combination_implements_fosfomycin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "二线",
+        "applicable_condition": "磷霉素推荐给药方案",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐给药方案为8 g（每日3次）或6 g（每日4次），静脉滴注。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_principle_combination",
+        "to": "plan_minocycline",
+        "relation_id": "rel_combination_implements_minocycline",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "米诺环素推荐给药方案",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐给药方案为首剂200 mg，之后100 mg（每日2次），口服用药。"
         ],
         "confidence": 0.95
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_mdr_infection_sot",
-        "to": "etiology_immunosuppression",
-        "relation_id": "rel_mdr_infection_sot_causes_immunosuppression",
+        "from": "sub_disease_mdr_infection",
+        "to": "etiology_immunosuppressants",
+        "relation_id": "rel_mdr_causes_immunosuppressants",
         "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_mdr_infection",
+        "to": "etiology_broad_spectrum_antibiotics",
+        "relation_id": "rel_mdr_causes_antibiotics",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_mdr_infection",
+        "to": "etiology_hemodialysis",
+        "relation_id": "rel_mdr_causes_hemodialysis",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_mdr_infection",
+        "to": "etiology_icu_stay",
+        "relation_id": "rel_mdr_causes_icu",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_mdr_infection",
+        "to": "etiology_ddi",
+        "relation_id": "rel_mdr_causes_ddi",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "rare",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "另外，还包括供者来源性感染（donor-derived infection，DDI），其多发生在移植术后1个月以内，发生率约为0.2%~1.7%，部分为MDR细菌"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_cre_infection",
+        "to": "etiology_bacteria_ecoli",
+        "relation_id": "rel_cre_causes_ecoli",
+        "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "大剂量免疫抑制剂的应用、广谱抗菌药物的应用、血液透析、移植后并发症（肾功能不全、胆道感染或梗阻等）、留观重症监护室（intensive care unit，ICU）时间与气管插管时间过长（≥72 h）、再次手术以及接受心脏死亡器官捐献（donation after cardiac death，DCD）的受者、老年受者（>60岁）、术前90 d内使用过抗生素治疗、近期住院时间≥5 d等均是SOT术后感染的危险因素。"
+          "肠杆菌科细菌中，大肠埃希菌不仅是总体标本中的首位菌株，而且是尿液标本中的首位菌株"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_crkp_infection",
+        "to": "etiology_bacteria_kp",
+        "relation_id": "rel_crkp_causes_kp",
+        "relation_name": "导致",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "针对SOT受者、尤其是并发肺部感染的受者，需要更加高度关注的是肺炎克雷伯菌，其每年的分离率呈稳步上升趋势"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pdrab_infection",
+        "to": "etiology_bacteria_ab",
+        "relation_id": "rel_pdrab_causes_ab",
+        "relation_name": "导致",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "不发酵糖的革兰阴性杆菌占所有分离菌株的24.1%，其中最多见者依次为鲍曼不动杆菌（38.3%）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pdrpa_infection",
+        "to": "etiology_bacteria_pa",
+        "relation_id": "rel_pdrpa_causes_pa",
+        "relation_name": "导致",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "不发酵糖的革兰阴性杆菌占所有分离菌株的24.1%，其中最多见者依次为鲍曼不动杆菌（38.3%）、铜绿假单胞菌（36.0%）"
         ],
         "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_mdr_infection_sot",
-        "to": "pathogenesis_antibiotic_driven_resistance",
-        "relation_id": "rel_mdr_infection_sot_explained_by_antibiotic_driven_resistance",
+        "from": "sub_disease_cre_infection",
+        "to": "pathogenesis_carbapenemase",
+        "relation_id": "rel_cre_explained_carbapenemase",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "随着抗菌药物的广泛应用，细菌的耐药性也不断增强。"
+          "产生碳青霉烯酶或新德里金属-β-内酰胺酶（New Delhi metallo-β-lactamase，NDM）-1是肠杆菌科细菌对碳青霉烯类抗生素最主要的耐药机制"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cre_infection",
+        "to": "pathogenesis_ndm1",
+        "relation_id": "rel_cre_explained_ndm1",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "产生碳青霉烯酶或新德里金属-β-内酰胺酶（New Delhi metallo-β-lactamase，NDM）-1是肠杆菌科细菌对碳青霉烯类抗生素最主要的耐药机制"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_crkp_infection",
+        "to": "pathogenesis_kpc",
+        "relation_id": "rel_crkp_explained_kpc",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "产肺炎克雷伯菌碳青霉烯酶（Klebsiella pneumoniae carbapenemase，KPC）型菌株"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_crkp_infection",
+        "to": "pathogenesis_oxa",
+        "relation_id": "rel_crkp_explained_oxa",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "我国已有产苯唑西林水解酶（oxacillin hydrolase，OXA）型碳青霉烯酶肺炎克雷伯菌所致感染的克隆菌株流行的报道"
+        ],
+        "confidence": 0.9
       }
     ]
   },

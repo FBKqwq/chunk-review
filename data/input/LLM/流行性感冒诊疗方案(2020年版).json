@@ -1,8 +1,8 @@
 {
   "meta": {
     "doc_id": "流行性感冒诊疗方案（2020年版）",
-    "source_title": "流行性感冒诊疗方案 （２０２０年版）",
-    "section_path": "",
+    "source_title": "流行性感冒诊疗方案（2020年版）",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -18,28 +18,76 @@
           "流感"
         ],
         "source_document_ids": [
-          "流行性感冒诊疗方案 （２０２０年版）"
+          "流行性感冒诊疗方案（2020年版）"
         ],
         "evidence_ids": [
-          "流行性感冒 （以下简称流感）是流感病毒引起的一种急性呼吸道传染病，甲型和乙型流感病毒每年呈季节性流行，其中甲型流感病毒可引起全球大流行。"
+          "流行性感冒 （以下简称流感）是流感病毒引起的一种急性呼吸道传染病"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_influenza_clinical_diagnosis",
+        "id": "sub_disease_influenza_general",
+        "name": "流行性感冒（普通型）",
+        "parent_disease_id": "disease_influenza",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "全人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "无并发症者病程呈自限性，多于发病３～５天后发热逐渐消退"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_influenza_severe",
+        "name": "重症流感",
+        "parent_disease_id": "disease_influenza",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "重症病例",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "出现以下情况之一者为重症病例"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_influenza_critical",
+        "name": "危重症流感",
+        "parent_disease_id": "disease_influenza",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": "危重症",
+        "population": "危重病例",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "出现以下情况之一者为危重病例"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_influenza_clinical",
         "name": "临床诊断病例",
         "parent_disease_id": "disease_influenza",
         "disease_subtype": null,
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "一般人群",
+        "population": "疑似患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（一）临床诊断病例 有流行病学史 （发病前７天内在无有效个人防护的情况下与疑似或确诊流感患者有密切接触，或属于流感样病例聚集发病者之一，或有明确传染他人的证据）和上述流感临床表现，且排除其他引起流感样症状的疾病。"
+          "有流行病学史...和上述流感临床表现，且排除其他引起流感样症状的疾病"
         ],
         "confidence": 0.9
       },
@@ -50,92 +98,108 @@
         "disease_subtype": null,
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "一般人群",
+        "population": "确诊患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（二）确定诊断病例 有上述流感临床表现，具有以下一种或以上病原学检测结果阳性：１．流感病毒核酸检测阳性。２．流感抗原检测阳性。３．流感病毒培养分离阳性。４．急性期和恢复期双份血清的流感病毒特异性ＩｇＧ抗体水平呈４倍或以上升高。"
+          "有上述流感临床表现，具有以下一种或以上病原学检测结果阳性"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_tcm_wind_heat",
+        "name": "风热犯卫",
+        "parent_disease_id": "disease_influenza",
+        "disease_subtype": "中医轻症辨证",
+        "clinical_stage": "发病初期",
+        "severity": "轻症",
+        "population": "全人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "症状：发病初期，发热或未发热，咽红不适，轻咳少痰，口干"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_influenza_severe",
-        "name": "重症病例",
+        "id": "sub_disease_tcm_wind_cold",
+        "name": "风寒束表",
         "parent_disease_id": "disease_influenza",
-        "disease_subtype": null,
+        "disease_subtype": "中医轻症辨证",
+        "clinical_stage": "发病初期",
+        "severity": "轻症",
+        "population": "全人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "症状：发病初期，恶寒，发热或未发热，无汗，身痛头痛，鼻流清涕"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_tcm_heat_toxin_lung",
+        "name": "热毒袭肺",
+        "parent_disease_id": "disease_influenza",
+        "disease_subtype": "中医轻症辨证",
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "全人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "症状：高热，咳喘，痰粘、痰黄、咯痰不爽，口渴喜饮，咽痛，目赤"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_tcm_toxin_heat_abundant",
+        "name": "毒热壅盛",
+        "parent_disease_id": "disease_influenza",
+        "disease_subtype": "中医重症辨证",
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": "高危人群及一般人群",
+        "population": "全人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（一）出现以下情况之一者为重症病例 １．持续高热＞３天，伴有剧烈咳嗽，咳脓痰、血痰，或胸痛；２．呼吸频率快，呼吸困难，口唇紫绀；３．反应迟钝、嗜睡、躁动等神志改变或惊厥；４．严重呕吐、腹泻，出现脱水表现；５．合并肺炎；６．原有基础疾病明显加重；７．需住院治疗的其他临床情况。"
+          "症状：高热不退，烦躁不安，咳嗽，喘促短气，少痰或无痰，便秘腹胀"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_influenza_critical",
-        "name": "危重病例",
+        "id": "sub_disease_tcm_toxin_heat_internal_collapse",
+        "name": "毒热内陷，内闭外脱",
         "parent_disease_id": "disease_influenza",
-        "disease_subtype": null,
+        "disease_subtype": "中医重症辨证",
         "clinical_stage": "不限定",
-        "severity": "危重",
-        "population": "高危人群及一般人群",
+        "severity": "危重症",
+        "population": "全人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（二）出现以下情况之一者为危重病例 １．呼吸衰竭；２．急性坏死性脑病；３．休克；４．多器官功能不全；５．其他需进行监护治疗的严重临床情况。"
+          "症状：神识昏蒙，唇甲紫暗，呼吸浅促，或咯吐血痰，或咯吐粉红色血水，胸腹灼热，四肢厥冷，汗出，尿少"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_influenza_complication_pneumonia",
-        "name": "流感相关肺炎",
+        "id": "sub_disease_tcm_qi_yin_deficiency",
+        "name": "气阴两虚，正气未复",
         "parent_disease_id": "disease_influenza",
-        "disease_subtype": "肺炎",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "所有感染者",
+        "disease_subtype": "中医恢复期辨证",
+        "clinical_stage": "恢复期",
+        "severity": "轻症",
+        "population": "全人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "肺炎是最常见的并发症，其他并发症有神经系统损伤、心脏损伤、肌炎和横纹肌溶解、休克等。……１．流感病毒可侵犯下呼吸道，引起原发性病毒性肺炎。部分重症流感患者可合并细菌、真菌等其他病原体感染，严重者可出现ＡＲＤＳ。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_influenza_complication_encephalopathy",
-        "name": "急性坏死性脑病",
-        "parent_disease_id": "disease_influenza",
-        "disease_subtype": "神经系统损伤",
-        "clinical_stage": "不限定",
-        "severity": "危重",
-        "population": "儿童",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "神经系统损伤包括脑膜炎、脑炎、脊髓炎、脑病、吉兰－巴雷综合征 （Ｇｕｉｌｌａｉｎ－Ｂａｒｒｅ ｓｙｎｄｒｏｍｅ）等，其中急性坏死性脑病多见于儿童。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_influenza_complication_myocarditis",
-        "name": "流感相关心肌炎",
-        "parent_disease_id": "disease_influenza",
-        "disease_subtype": "心脏损伤",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "所有感染者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "心脏损伤主要有心肌炎、心包炎。可见心肌标志物、心电图、心脏超声等异常，严重者可出现心力衰竭。此外，感染流感病毒后，心肌梗死、缺血性心脏病相关住院和死亡的风险明显增加。"
+          "症状：神倦乏力，气短，咳嗽，痰少，纳差"
         ],
         "confidence": 0.9
       }
@@ -149,7 +213,7 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "主要以发热、头痛、肌痛和全身不适起病，体温可达３９～４０℃，可有畏寒、寒战"
+          "主要以发热、头痛、肌痛和全身不适起病，体温可达３９～４０℃"
         ],
         "confidence": 0.95
       },
@@ -157,9 +221,9 @@
         "id": "symptom_headache",
         "name": "头痛",
         "body_site": "头部",
-        "symptom_category": "神经系统症状",
+        "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
           "主要以发热、头痛、肌痛和全身不适起病"
         ],
@@ -171,21 +235,33 @@
         "body_site": "肌肉",
         "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
           "主要以发热、头痛、肌痛和全身不适起病"
         ],
         "confidence": 0.95
       },
       {
-        "id": "symptom_fatigue",
-        "name": "乏力",
+        "id": "symptom_chills",
+        "name": "畏寒、寒战",
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "多伴全身肌肉关节酸痛、乏力、食欲减退等全身症状"
+          "可有畏寒、寒战"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_cough",
+        "name": "干咳",
+        "body_site": "呼吸道",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "常有咽喉痛、干咳"
         ],
         "confidence": 0.95
       },
@@ -199,19 +275,7 @@
         "evidence_ids": [
           "常有咽喉痛、干咳"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_dry_cough",
-        "name": "干咳",
-        "body_site": "呼吸道",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "常有咽喉痛、干咳"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_nasal_congestion",
@@ -221,67 +285,19 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "可有鼻塞、流涕、胸骨后不适"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_rhinorrhea",
-        "name": "流涕",
-        "body_site": "鼻腔",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "可有鼻塞、流涕、胸骨后不适"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_chest_discomfort",
-        "name": "胸骨后不适",
-        "body_site": "胸部",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "可有鼻塞、流涕、胸骨后不适"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_conjunctival_congestion",
-        "name": "眼结膜充血",
-        "body_site": "眼部",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "颜面潮红，眼结膜充血等"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_nausea",
-        "name": "恶心",
-        "body_site": "消化道",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "儿童流感并发喉炎、中耳炎、支气管炎较成人多见。儿童的发热程度通常高于成人，患乙型流感时恶心、呕吐、腹泻等消化道症状也较成人多见。"
+          "可有鼻塞、流涕"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_vomiting",
-        "name": "呕吐",
+        "name": "恶心、呕吐",
         "body_site": "消化道",
         "symptom_category": "消化系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "儿童的发热程度通常高于成人，患乙型流感时恶心、呕吐、腹泻等消化道症状也较成人多见。"
+          "患乙型流感时恶心、呕吐、腹泻等消化道症状也较成人多见"
         ],
         "confidence": 0.9
       },
@@ -293,31 +309,19 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "儿童的发热程度通常高于成人，患乙型流感时恶心、呕吐、腹泻等消化道症状也较成人多见。"
+          "患乙型流感时恶心、呕吐、腹泻等消化道症状也较成人多见"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_dyspnea",
         "name": "呼吸困难",
-        "body_site": "呼吸系统",
+        "body_site": "呼吸道",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "２．呼吸频率快，呼吸困难，口唇紫绀"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_altered_mentation",
-        "name": "神志改变",
-        "body_site": "中枢神经系统",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "３．反应迟钝、嗜睡、躁动等神志改变或惊厥"
+          "呼吸频率快，呼吸困难，口唇紫绀"
         ],
         "confidence": 0.95
       },
@@ -325,375 +329,311 @@
         "id": "symptom_cyanosis",
         "name": "口唇紫绀",
         "body_site": "口唇",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "２．呼吸频率快，呼吸困难，口唇紫绀"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_dehydration",
-        "name": "脱水表现",
-        "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "４．严重呕吐、腹泻，出现脱水表现"
+          "呼吸频率快，呼吸困难，口唇紫绀"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_convulsion",
+        "name": "惊厥",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "反应迟钝、嗜睡、躁动等神志改变或惊厥"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_lethargy",
+        "name": "嗜睡",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "新生儿，可仅表现为嗜睡、拒奶、呼吸暂停等"
+        ],
+        "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_influenza_nucleic_acid",
+        "id": "test_nucleic_acid",
         "name": "流感病毒核酸检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "（１）病毒核酸检测：病毒核酸检测的敏感性和特异性很高，且能区分病毒类型和亚型。目前主要包括实时荧光定量ＰＣＲ和快速多重ＰＣＲ。荧光定量ＰＣＲ法可检测呼吸道标本 （鼻咽拭子、咽拭子、气管抽取物、痰）中的流感病毒核酸，且可区分流感病毒亚型。对重症患者，检测下呼吸道 （痰或气管抽取物）标本更加准确。"
+          "病毒核酸检测的敏感性和特异性很高，且能区分病毒类型和亚型"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_influenza_antigen",
+        "id": "test_antigen",
         "name": "流感病毒抗原检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "（１）病毒抗原检测：病毒抗原检测可采用胶体金法和免疫荧光法。抗原检测速度快，但敏感性低于核酸检测。病毒抗原检测阳性支持诊断，但阴性不能排除流感。"
+          "病毒抗原检测可采用胶体金法和免疫荧光法。抗原检测速度快，但敏感性低于核酸检测"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_influenza_virus_culture",
-        "name": "流感病毒培养分离",
+        "id": "test_virus_culture",
+        "name": "病毒培养分离",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "（３）病毒培养分离：从呼吸道标本培养可培养分离出流感病毒。"
+          "从呼吸道标本培养可培养分离出流感病毒"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_influenza_serum_igg",
-        "name": "流感病毒特异性IgG抗体检测",
+        "id": "test_igg",
+        "name": "血清流感病毒特异性IgG抗体",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "（４）血清学检测：ＩｇＧ抗体水平恢复期比急性期呈４倍或以上升高有回顾性诊断意义。"
+          "ＩｇＧ抗体水平恢复期比急性期呈４倍或以上升高有回顾性诊断意义"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_wbc_count",
+        "id": "test_wbc",
         "name": "外周血白细胞总数",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "１．血常规：外周血白细胞总数一般不高或降低，重症病例淋巴细胞计数明显降低。"
+          "外周血白细胞总数一般不高或降低"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_lymphocyte_count",
+        "id": "test_lymphocyte",
         "name": "淋巴细胞计数",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "１．血常规：外周血白细胞总数一般不高或降低，重症病例淋巴细胞计数明显降低。"
+          "重症病例淋巴细胞计数明显降低"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_ast",
-        "name": "天门冬氨酸氨基转移酶",
+        "id": "test_chest_imaging",
+        "name": "胸部影像学检查",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 1,
+        "is_digital": 0,
         "evidence_ids": [
-          "２．血生化：可有天门冬氨酸氨基转移酶、丙氨酸氨基转移酶、乳酸脱氢酶、肌酊等升高。"
+          "原发性病毒性肺炎者影像学表现为肺内斑片状、磨玻璃影、多叶段渗出性病灶"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_alt",
-        "name": "丙氨酸氨基转移酶",
+        "id": "test_brain_imaging",
+        "name": "头颅CT或MRI",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 1,
+        "is_digital": 0,
         "evidence_ids": [
-          "２．血生化：可有天门冬氨酸氨基转移酶、丙氨酸氨基转移酶、乳酸脱氢酶、肌酊等升高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_ldh",
-        "name": "乳酸脱氢酶",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "２．血生化：可有天门冬氨酸氨基转移酶、丙氨酸氨基转移酶、乳酸脱氢酶、肌酊等升高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_creatinine",
-        "name": "肌酐",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "２．血生化：可有天门冬氨酸氨基转移酶、丙氨酸氨基转移酶、乳酸脱氢酶、肌酊等升高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_ck",
-        "name": "肌酸激酶",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "少数病例肌酸激酶升高"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_lactate",
-        "name": "血乳酸",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "休克病例血乳酸可升高。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_blood_gas_po2",
-        "name": "动脉血氧分压",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "３．动脉血气分析：重症患者可有氧分压、血氧饱和度、氧合指数下降，酸碱失衡。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_blood_gas_spo2",
-        "name": "血氧饱和度",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "３．动脉血气分析：重症患者可有氧分压、血氧饱和度、氧合指数下降，酸碱失衡。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_blood_gas_oxygenation_index",
-        "name": "氧合指数",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "３．动脉血气分析：重症患者可有氧分压、血氧饱和度、氧合指数下降，酸碱失衡。"
+          "急性坏死性脑病ＣＴ或 ＭＲＩ可见对称性、多灶性脑损伤"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_influenza_isolation",
-        "content": "临床诊断病例和确定诊断病例应当尽早隔离治疗。",
+        "id": "treatment_isolation",
+        "content": "临床诊断病例和确定诊断病例应当尽早隔离治疗",
         "recommendation_strength": "strong",
-        "source_section": "治疗",
+        "source_section": "治疗-基本原则",
         "evidence_ids": [
-          "１．临床诊断病例和确定诊断病例应当尽早隔离治疗。"
+          "临床诊断病例和确定诊断病例应当尽早隔离治疗"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_influenza_antiviral",
-        "content": "重症或有重症流感高危因素的流感样病例，应当尽早给予经验性抗流感病毒治疗。发病４８小时内进行抗病毒治疗可减少并发症、降低病死率、缩短住院时间；发病时间超过４８小时的重症患者依然可从抗病毒治疗中受益。",
+        "id": "treatment_symptomatic",
+        "content": "高热者可进行物理降温、应用解热药物。咳嗽咳痰严重者给予止咳祛痰药物。根据缺氧程度采用适当的方式进行氧疗",
         "recommendation_strength": "strong",
-        "source_section": "治疗",
+        "source_section": "治疗-对症治疗",
         "evidence_ids": [
-          "（三）抗病毒治疗 １．抗流感病毒治疗时机：重症或有重症流感高危因素的流感样病例，应当尽早给予经验性抗流感病毒治疗。发病４８小时内进行抗病毒治疗可减少并发症、降低病死率、缩短住院时间；发病时间超过４８小时的重症患者依然可从抗病毒治疗中受益。"
+          "高热者可进行物理降温、应用解热药物。咳嗽咳痰严重者给予止咳祛痰药物。根据缺氧程度采用适当的方式进行氧疗"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_influenza_supportive",
-        "content": "低氧血症或呼吸衰竭是重症和危重症患者的主要表现，需要密切监护，及时给予相应的治疗，包括常规氧疗、鼻导管高流量氧疗、无创通气或有创机械通气等。",
+        "id": "treatment_antiviral",
+        "content": "重症或有重症流感高危因素的流感样病例，应当尽早给予经验性抗流感病毒治疗",
         "recommendation_strength": "strong",
-        "source_section": "治疗",
+        "source_section": "治疗-抗病毒治疗",
         "evidence_ids": [
-          "２．低氧血症或呼吸衰竭是重症和危重症患者的主要表现，需要密切监护，及时给予相应的治疗，包括常规氧疗、鼻导管高流量氧疗、无创通气或有创机械通气等。"
+          "重症或有重症流感高危因素的流感样病例，应当尽早给予经验性抗流感病毒治疗"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_influenza_antibacterial",
-        "content": "重症流感患者可合并细菌或真菌感染，需密切关注病情变化，积极留取标本送检病原学，及时、合理应用抗细菌或抗真菌药物。",
-        "recommendation_strength": "moderate",
-        "source_section": "治疗",
+        "id": "treatment_severe",
+        "content": "积极治疗原发病，防治并发症，并进行有效的器官保护和功能支持",
+        "recommendation_strength": "strong",
+        "source_section": "治疗-重症病例的治疗",
         "evidence_ids": [
-          "３．重症流感患者可合并细菌或真菌感染，需密切关注病情变化，积极留取标本送检病原学，及时、合理应用抗细菌或抗真菌药物。"
+          "治疗原则：积极治疗原发病，防治并发症，并进行有效的器官保护和功能支持"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_tcm",
+        "content": "辨证使用中医药",
+        "recommendation_strength": "strong",
+        "source_section": "治疗-基本原则",
+        "evidence_ids": [
+          "辨证使用中医药"
         ],
         "confidence": 0.9
+      },
+      {
+        "id": "treatment_prevention",
+        "content": "接种流感疫苗是预防流感最有效的手段",
+        "recommendation_strength": "strong",
+        "source_section": "预防",
+        "evidence_ids": [
+          "接种流感疫苗是预防流感最有效的手段，可降低接种者罹患流感和发生严重并发症的风险"
+        ],
+        "confidence": 0.95
       }
     ],
     "plans": [
       {
-        "id": "plan_oseltamivir_adult",
-        "content": "奥司他韦（胶囊／颗粒）：成人剂量每次７５ｍｇ，每日２次。",
+        "id": "plan_oseltamivir",
+        "content": "奥司他韦（胶囊／颗粒）：成人剂量每次７５ｍｇ，每日２次。疗程５天，重症患者疗程可适当延长",
         "plan_level": 1,
-        "applicable_condition": "成人流感抗病毒治疗",
-        "contraindication_note": "肾功能不全者要根据肾功能调整剂量。",
+        "applicable_condition": "甲型、乙型流感",
+        "contraindication_note": "肾功能不全者要根据肾功能调整剂量",
         "evidence_ids": [
-          "① 奥司他韦 （胶囊／颗粒）：成人剂量每次７５ｍｇ，每日２次。……肾功能不全者要根据肾功能调整剂量。"
+          "奥司他韦 （胶囊／颗粒）：成人剂量每次７５ｍｇ，每日２次...疗程５天，重症患者疗程可适当延长。肾功能不全者要根据肾功能调整剂量"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_oseltamivir_infant",
-        "content": "奥司他韦：０～８月龄，每次３．０ｍｇ／ｋｇ，每日２次；９～１１月龄，每次３．５ｍｇ／ｋｇ，每日２次。",
+        "id": "plan_zanamivir",
+        "content": "扎那米韦（吸入喷雾剂）：适用于成人及７岁以上青少年，用法：每次１０ｍｇ，每天２次，疗程５天",
         "plan_level": 1,
-        "applicable_condition": "婴儿流感抗病毒治疗",
+        "applicable_condition": "成人及7岁以上青少年甲型、乙型流感",
+        "contraindication_note": "不推荐原有哮喘或其他慢性呼吸道疾病患者使用吸入性扎那米韦。不推荐扎那米韦吸入粉剂用雾化器或机械通气装置给药",
+        "evidence_ids": [
+          "扎那米韦 （吸入喷雾剂）：适用于成人及７岁以上青少年，用法：每次１０ｍｇ，每天２次 （间隔１２小时），疗程５天。不推荐原有哮喘或其他慢性呼吸道疾病患者使用吸入性扎那米韦"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_peramivir",
+        "content": "帕拉米韦：成人用量为３００～６００ｍｇ，静脉滴注，每日１次，１～５天，重症患者疗程可适当延长",
+        "plan_level": 1,
+        "applicable_condition": "甲型、乙型流感",
         "contraindication_note": null,
         "evidence_ids": [
-          "１岁以下儿童推荐剂量：０～８月龄，每次３．０ｍｇ／ｋｇ，每日２次；９～１１月龄，每次３．５ｍｇ／ｋｇ，每日２次。"
+          "帕拉米韦：成人用量为３００～６００ｍｇ...静脉滴注，每日１次，１～５天，重症患者疗程可适当延长"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_oseltamivir_child",
-        "content": "奥司他韦：１岁及以上年龄儿童推荐剂量：体重不足１５ｋｇ者，每次３０ｍｇ，每日２次；体重１５～２３ｋｇ者，每次４５ｍｇ，每日２次；体重２３～４０ｋｇ者，每次６０ｍｇ，每日２次；体重大于４０ｋｇ者，每次７５ｍｇ，每日２次。疗程５天，重症患者疗程可适当延长。",
-        "plan_level": 1,
-        "applicable_condition": "儿童流感抗病毒治疗",
-        "contraindication_note": "疗程５天，重症患者疗程可适当延长。",
-        "evidence_ids": [
-          "１岁及以上年龄儿童推荐剂量：体重不足１５ｋｇ者，每次３０ｍｇ，每日 ２ 次；体重 １５～２３ｋｇ者，每次４５ｍｇ，每日 ２ 次；体重 ２３～４０ｋｇ 者，每次６０ｍｇ，每日 ２ 次；体重大于 ４０ｋｇ 者，每次７５ｍｇ，每日２次。疗程５天，重症患者疗程可适当延长。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_zanamivir_adult",
-        "content": "扎那米韦（吸入喷雾剂）：适用于成人及７岁以上青少年，每次１０ｍｇ，每天２次（间隔１２小时），疗程５天。",
+        "id": "plan_umifenovir",
+        "content": "阿比多尔：可用于成人甲、乙型流感的治疗。用量为每次２００ｍｇ，每日３次，疗程５天",
         "plan_level": 2,
-        "applicable_condition": "成人及７岁以上青少年流感抗病毒治疗",
-        "contraindication_note": "不推荐原有哮喘或其他慢性呼吸道疾病患者使用吸入性扎那米韦。不推荐扎那米韦吸入粉剂用雾化器或机械通气装置给药。",
+        "applicable_condition": "成人甲、乙型流感",
+        "contraindication_note": "我国临床应用数据有限，需密切观察疗效和不良反应",
         "evidence_ids": [
-          "② 扎那米韦 （吸入喷雾剂）：适用于成人及７岁以上青少年，用法：每次１０ｍｇ，每天２次 （间隔１２小时），疗程５天。不推荐原有哮喘或其他慢性呼吸道疾病患者使用吸入性扎那米韦。不推荐扎那米韦吸入粉剂用雾化器或机械通气装置给药。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_peramivir_adult",
-        "content": "帕拉米韦：成人用量为３００～６００ｍｇ，静脉滴注，每日１次，１～５天，重症患者疗程可适当延长。",
-        "plan_level": 2,
-        "applicable_condition": "成人流感抗病毒治疗",
-        "contraindication_note": "重症患者疗程可适当延长。",
-        "evidence_ids": [
-          "③ 帕拉米韦：成人用量为３００～６００ｍｇ，小于３０天新生儿６ｍｇ／ｋｇ，３１～９０天婴儿８ｍｇ／ｋｇ，９１天～１７岁儿童 １０ｍｇ／ｋｇ，静脉滴注，每日１次，１～５天，重症患者疗程可适当延长。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_arbidol_adult",
-        "content": "阿比多尔：可用于成人甲、乙型流感的治疗。用量为每次２００ｍｇ，每日３次，疗程５天。",
-        "plan_level": 3,
-        "applicable_condition": "成人甲、乙型流感治疗",
-        "contraindication_note": "我国临床应用数据有限，需密切观察疗效和不良反应。",
-        "evidence_ids": [
-          "（２）血凝素抑制剂 阿比多尔：可用于成人甲、乙型流感的治疗。用量为每次２００ｍｇ，每日３次，疗程５天。我国临床应用数据有限，需密切观察疗效和不良反应。"
+          "阿比多尔：可用于成人甲、乙型流感的治疗。用量为每次２００ｍｇ，每日３次，疗程５天。我国临床应用数据有限，需密切观察疗效和不良反应"
         ],
         "confidence": 0.9
+      },
+      {
+        "id": "plan_ecmo",
+        "content": "对难治性低氧血症患者，可考虑使用体外膜肺氧合（ＥＣＭＯ）",
+        "plan_level": 2,
+        "applicable_condition": "难治性低氧血症",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对难治性低氧血症患者，可考虑使用体外膜肺氧合 （ｅｘｔｒａｃｏｒｐｏｒｅａｌ ｍｅｍｂｒａｎｅ ｏｘｙｇｅｎａｔｉｏｎ，ＥＣＭＯ）"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_yinqiao",
+        "content": "基本方药：银翘散加减。银花１５ｇ连翘１５ｇ桑叶１０ｇ菊花１０ｇ桔梗１０ｇ牛蒡子１５ｇ芦根３０ｇ薄荷（后下）６ｇ荆芥１０ｇ生甘草３ｇ",
+        "plan_level": 1,
+        "applicable_condition": "风热犯卫",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "基本方药：银翘散加减。银花１５ｇ连翘１５ｇ桑叶１０ｇ菊花１０ｇ桔梗１０ｇ牛蒡子１５ｇ芦根３０ｇ薄荷（后下）６ｇ荆芥１０ｇ生甘草３ｇ"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_maxingshigan",
+        "content": "基本方药：麻杏石甘汤加减。炙麻黄９ｇ杏仁１０ｇ生石膏（先煎）４５ｇ知母１０ｇ浙贝母１０ｇ桔梗１０ｇ黄芩１５ｇ瓜蒌３０ｇ生甘草１０ｇ",
+        "plan_level": 1,
+        "applicable_condition": "热毒袭肺",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "基本方药：麻杏石甘汤加减。炙麻黄９ｇ杏仁１０ｇ生石膏（先煎）４５ｇ知母１０ｇ浙贝母１０ｇ桔梗１０ｇ黄芩１５ｇ瓜蒌３０ｇ生甘草１０ｇ"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_vaccine",
+        "content": "推荐６０岁及以上老年人、６月龄至５岁儿童、孕妇、６月龄以下儿童家庭成员和看护人员、慢性病患者和医务人员等重点人群，每年优先接种流感疫苗",
+        "plan_level": 1,
+        "applicable_condition": "重点人群预防",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐６０岁及以上老年人、６月龄至５岁儿童、孕妇、６月龄以下儿童家庭成员和看护人员、慢性病患者和医务人员等重点人群，每年优先接种流感疫苗"
+        ],
+        "confidence": 0.95
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_influenza_virus",
-        "content": "流感病毒",
+        "id": "etiology_influenza_a",
+        "content": "甲型流感病毒（H1N1、H3N2亚型）",
         "etiology_type": "感染因素",
         "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "流行性感冒 （以下简称流感）是流感病毒引起的一种急性呼吸道传染病"
+          "目前感染人的主要是甲型流感病毒中的Ｈ１Ｎ１、Ｈ３Ｎ２亚型"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_influenza_h1n1",
-        "content": "甲型流感病毒H1N1亚型",
+        "id": "etiology_influenza_b",
+        "content": "乙型流感病毒（Victoria和Yamagata系）",
         "etiology_type": "感染因素",
         "typicality": "典型",
-        "diagnostic_role": "支持证据",
+        "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "目前感染人的主要是甲型流感病毒中的Ｈ１Ｎ１、Ｈ３Ｎ２亚型及乙型流感病毒中的 Ｖｉｃｔｏｒｉａ和 Ｙａｍａｇａｔａ系。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_influenza_h3n2",
-        "content": "甲型流感病毒H3N2亚型",
-        "etiology_type": "感染因素",
-        "typicality": "典型",
-        "diagnostic_role": "支持证据",
-        "evidence_ids": [
-          "目前感染人的主要是甲型流感病毒中的Ｈ１Ｎ１、Ｈ３Ｎ２亚型及乙型流感病毒中的 Ｖｉｃｔｏｒｉａ和 Ｙａｍａｇａｔａ系。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_influenza_b_victoria",
-        "content": "乙型流感病毒Victoria系",
-        "etiology_type": "感染因素",
-        "typicality": "典型",
-        "diagnostic_role": "支持证据",
-        "evidence_ids": [
-          "目前感染人的主要是甲型流感病毒中的Ｈ１Ｎ１、Ｈ３Ｎ２亚型及乙型流感病毒中的 Ｖｉｃｔｏｒｉａ和 Ｙａｍａｇａｔａ系。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_influenza_b_yamagata",
-        "content": "乙型流感病毒Yamagata系",
-        "etiology_type": "感染因素",
-        "typicality": "典型",
-        "diagnostic_role": "支持证据",
-        "evidence_ids": [
-          "目前感染人的主要是甲型流感病毒中的Ｈ１Ｎ１、Ｈ３Ｎ２亚型及乙型流感病毒中的 Ｖｉｃｔｏｒｉａ和 Ｙａｍａｇａｔａ系。"
+          "及乙型流感病毒中的 Ｖｉｃｔｏｒｉａ和 Ｙａｍａｇａｔａ系"
         ],
         "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_influenza_ha_binding",
-        "content": "甲、乙型流感病毒通过血凝素（ＨＡ）与呼吸道上皮细胞表面的唾液酸受体结合启动感染。流感病毒通过细胞内吞作用进入宿主细胞，病毒基因组在细胞核内进行转录和复制，复制出大量新的子代病毒并感染其他细胞。",
+        "id": "pathogenesis_infection_and_cytokine_storm",
+        "content": "甲、乙型流感病毒通过血凝素（ＨＡ）与呼吸道上皮细胞表面的唾液酸受体结合启动感染。流感病毒通过细胞内吞作用进入宿主细胞，病毒基因组在细胞核内进行转录和复制，复制出大量新的子代病毒并感染其他细胞。流感病毒感染人体后，严重者可诱发细胞因子风暴，导致感染中毒症（ｓｅｐｓｉｓ），从而引起 ＡＲＤＳ、休克、脑病及多器官功能不全等多种并发症",
         "evidence_ids": [
-          "（一）发病机制 甲、乙型流感病毒通过血凝素 （ＨＡ）与呼吸道上皮细胞表面的唾液酸受体结合启动感染。流感病毒通过细胞内吞作用进入宿主细胞，病毒基因组在细胞核内进行转录和复制，复制出大量新的子代病毒并感染其他细胞。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "pathogenesis_influenza_cytokine_storm",
-        "content": "流感病毒感染人体后，严重者可诱发细胞因子风暴，导致感染中毒症（ｓｅｐｓｉｓ），从而引起ＡＲＤＳ、休克、脑病及多器官功能不全等多种并发症。",
-        "evidence_ids": [
-          "流感病毒感染人体后，严重者可诱发细胞因子风暴，导致感染中毒症（ｓｅｐｓｉｓ），从而引起 ＡＲＤＳ、休克、脑病及多器官功能不全等多种并发症。"
+          "甲、乙型流感病毒通过血凝素 （ＨＡ）与呼吸道上皮细胞表面的唾液酸受体结合启动感染。流感病毒通过细胞内吞作用进入宿主细胞，病毒基因组在细胞核内进行转录和复制，复制出大量新的子代病毒并感染其他细胞。流感病毒感染人体后，严重者可诱发细胞因子风暴，导致感染中毒症（ｓｅｐｓｉｓ），从而引起 ＡＲＤＳ、休克、脑病及多器官功能不全等多种并发症"
         ],
         "confidence": 0.95
       }
@@ -703,23 +643,12 @@
     "has_sub_disease": [
       {
         "from": "disease_influenza",
-        "to": "sub_disease_influenza_clinical_diagnosis",
-        "relation_id": "rel_influenza_has_clinical_diagnosis",
+        "to": "sub_disease_influenza_general",
+        "relation_id": "rel_influenza_has_general",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（一）临床诊断病例 有流行病学史 （发病前７天内在无有效个人防护的情况下与疑似或确诊流感患者有密切接触，或属于流感样病例聚集发病者之一，或有明确传染他人的证据）和上述流感临床表现，且排除其他引起流感样症状的疾病。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_influenza",
-        "to": "sub_disease_influenza_confirmed",
-        "relation_id": "rel_influenza_has_confirmed",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "（二）确定诊断病例 有上述流感临床表现，具有以下一种或以上病原学检测结果阳性：１．流感病毒核酸检测阳性。２．流感抗原检测阳性。３．流感病毒培养分离阳性。４．急性期和恢复期双份血清的流感病毒特异性ＩｇＧ抗体水平呈４倍或以上升高。"
+          "无并发症者病程呈自限性"
         ],
         "confidence": 0.9
       },
@@ -730,9 +659,9 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（一）出现以下情况之一者为重症病例 １．持续高热＞３天，伴有剧烈咳嗽，咳脓痰、血痰，或胸痛；２．呼吸频率快，呼吸困难，口唇紫绀；３．反应迟钝、嗜睡、躁动等神志改变或惊厥；４．严重呕吐、腹泻，出现脱水表现；５．合并肺炎；６．原有基础疾病明显加重；７．需住院治疗的其他临床情况。"
+          "出现以下情况之一者为重症病例"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "from": "disease_influenza",
@@ -741,133 +670,78 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（二）出现以下情况之一者为危重病例 １．呼吸衰竭；２．急性坏死性脑病；３．休克；４．多器官功能不全；５．其他需进行监护治疗的严重临床情况。"
+          "出现以下情况之一者为危重病例"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_influenza",
+        "to": "sub_disease_tcm_wind_heat",
+        "relation_id": "rel_influenza_has_tcm_wind_heat",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "风热犯卫"
         ],
         "confidence": 0.9
       },
       {
         "from": "disease_influenza",
-        "to": "sub_disease_influenza_complication_pneumonia",
-        "relation_id": "rel_influenza_has_pneumonia",
+        "to": "sub_disease_tcm_heat_toxin_lung",
+        "relation_id": "rel_influenza_has_tcm_heat_toxin_lung",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "肺炎是最常见的并发症，其他并发症有神经系统损伤、心脏损伤、肌炎和横纹肌溶解、休克等。……１．流感病毒可侵犯下呼吸道，引起原发性病毒性肺炎。部分重症流感患者可合并细菌、真菌等其他病原体感染，严重者可出现ＡＲＤＳ。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_influenza",
-        "to": "sub_disease_influenza_complication_encephalopathy",
-        "relation_id": "rel_influenza_has_encephalopathy",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "神经系统损伤包括脑膜炎、脑炎、脊髓炎、脑病、吉兰－巴雷综合征 （Ｇｕｉｌｌａｉｎ－Ｂａｒｒｅ ｓｙｎｄｒｏｍｅ）等，其中急性坏死性脑病多见于儿童。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_influenza",
-        "to": "sub_disease_influenza_complication_myocarditis",
-        "relation_id": "rel_influenza_has_myocarditis",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "心脏损伤主要有心肌炎、心包炎。可见心肌标志物、心电图、心脏超声等异常，严重者可出现心力衰竭。此外，感染流感病毒后，心肌梗死、缺血性心脏病相关住院和死亡的风险明显增加。"
+          "热毒袭肺"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_influenza_clinical_diagnosis",
+        "from": "sub_disease_influenza_general",
         "to": "symptom_fever",
-        "relation_id": "rel_clinical_diag_manifests_as_fever",
+        "relation_id": "rel_general_manifests_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "临床表现",
         "evidence_ids": [
-          "（一）临床诊断病例 有流行病学史 （发病前７天内在无有效个人防护的情况下与疑似或确诊流感患者有密切接触，或属于流感样病例聚集发病者之一，或有明确传染他人的证据）和上述流感临床表现，且排除其他引起流感样症状的疾病。"
+          "主要以发热、头痛、肌痛和全身不适起病，体温可达３９～４０℃"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确列为‘主要’起病症状，且体温数值具体（39～40℃），属高频核心表现",
-        "evidence": "主要以发热、头痛、肌痛和全身不适起病，体温可达３９～４０℃"
+        "weight_reason": "原文明确指出一般流感主要以发热起病，体温可达39-40℃，属于常见核心症状。",
+        "evidence": "体温可达３９～４０℃"
       },
       {
-        "from": "sub_disease_influenza_clinical_diagnosis",
-        "to": "symptom_headache",
-        "relation_id": "rel_clinical_diag_manifests_as_headache",
+        "from": "sub_disease_influenza_general",
+        "to": "symptom_cough",
+        "relation_id": "rel_general_manifests_cough",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
+        "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "临床表现",
         "evidence_ids": [
-          "（一）临床诊断病例 有流行病学史 （发病前７天内在无有效个人防护的情况下与疑似或确诊流感患者有密切接触，或属于流感样病例聚集发病者之一，或有明确传染他人的证据）和上述流感临床表现，且排除其他引起流感样症状的疾病。"
+          "常有咽喉痛、干咳"
         ],
-        "confidence": 0.95,
-        "weight_reason": "与发热并列于‘主要以……起病’句中，同属第一层级核心临床表现",
-        "evidence": "主要以发热、头痛、肌痛和全身不适起病"
-      },
-      {
-        "from": "sub_disease_influenza_clinical_diagnosis",
-        "to": "symptom_myalgia",
-        "relation_id": "rel_clinical_diag_manifests_as_myalgia",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "（一）临床诊断病例 有流行病学史 （发病前７天内在无有效个人防护的情况下与疑似或确诊流感患者有密切接触，或属于流感样病例聚集发病者之一，或有明确传染他人的证据）和上述流感临床表现，且排除其他引起流感样症状的疾病。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "与发热、头痛并列于‘主要以……起病’句中，属明确核心症状",
-        "evidence": "主要以发热、头痛、肌痛和全身不适起病"
-      },
-      {
-        "from": "sub_disease_influenza_clinical_diagnosis",
-        "to": "symptom_fatigue",
-        "relation_id": "rel_clinical_diag_manifests_as_fatigue",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "（一）临床诊断病例 有流行病学史 （发病前７天内在无有效个人防护的情况下与疑似或确诊流感患者有密切接触，或属于流感样病例聚集发病者之一，或有明确传染他人的证据）和上述流感临床表现，且排除其他引起流感样症状的疾病。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "‘全身不适’在医学语境中明示包含乏力/疲劳，且后文‘乏力’单独出现强化该症状",
-        "evidence": "多伴全身肌肉关节酸痛、乏力、食欲减退等全身症状"
+        "confidence": 0.9
       },
       {
         "from": "sub_disease_influenza_severe",
         "to": "symptom_dyspnea",
-        "relation_id": "rel_severe_manifests_as_dyspnea",
+        "relation_id": "rel_severe_manifests_dyspnea",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
@@ -877,82 +751,40 @@
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "重症与危重病例",
         "evidence_ids": [
-          "２．呼吸频率快，呼吸困难，口唇紫绀"
+          "呼吸频率快，呼吸困难，口唇紫绀"
         ],
         "confidence": 0.95,
-        "weight_reason": "‘呼吸困难’直接对应dyspnea，列于重症病例第2条首位，属明确重症指征",
-        "evidence": "２．呼吸频率快，呼吸困难，口唇紫绀"
+        "weight_reason": "原文明确将呼吸频率快、呼吸困难列为重症病例的诊断标准之一。",
+        "evidence": "呼吸频率快，呼吸困难"
       },
       {
-        "from": "sub_disease_influenza_severe",
-        "to": "symptom_altered_mentation",
-        "relation_id": "rel_severe_manifests_as_altered_mentation",
+        "from": "sub_disease_tcm_wind_heat",
+        "to": "symptom_sore_throat",
+        "relation_id": "rel_tcm_wind_heat_manifests_sore_throat",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "中医治疗",
         "evidence_ids": [
-          "３．反应迟钝、嗜睡、躁动等神志改变或惊厥"
+          "症状：发病初期，发热或未发热，咽红不适，轻咳少痰，口干"
         ],
-        "confidence": 0.95,
-        "weight_reason": "‘反应迟钝、嗜睡、躁动等神志改变’为altered mentation的规范临床表述，列于重症第3条",
-        "evidence": "３．反应迟钝、嗜睡、躁动等神志改变或惊厥"
-      },
-      {
-        "from": "sub_disease_influenza_severe",
-        "to": "symptom_cyanosis",
-        "relation_id": "rel_severe_manifests_as_cyanosis",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "２．呼吸频率快，呼吸困难，口唇紫绀"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "‘口唇紫绀’是cyanosis的标准术语，与呼吸困难并列于重症第2条，属明确体征",
-        "evidence": "２．呼吸频率快，呼吸困难，口唇紫绀"
-      },
-      {
-        "from": "sub_disease_influenza_severe",
-        "to": "symptom_dehydration",
-        "relation_id": "rel_severe_manifests_as_dehydration",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "诊断标准",
-        "evidence_ids": [
-          "４．严重呕吐、腹泻，出现脱水表现"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "‘严重呕吐、腹泻，出现脱水表现’直接定义dehydration为重症指征之一",
-        "evidence": "４．严重呕吐、腹泻，出现脱水表现"
+        "confidence": 0.9,
+        "weight_reason": "原文风热犯卫证型症状包含咽红不适，且加减法中明确提及咽痛重的用药。",
+        "evidence": "咽痛重加锦灯笼９ｇ、玄参１５ｇ"
       }
     ],
     "requires_test": [
       {
         "from": "sub_disease_influenza_confirmed",
-        "to": "test_influenza_nucleic_acid",
+        "to": "test_nucleic_acid",
         "relation_id": "rel_confirmed_requires_nucleic_acid",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
@@ -962,149 +794,106 @@
         "value_max": null,
         "operator": "equals",
         "unit": null,
-        "result_text": "阳性",
-        "weight": 100,
+        "result_text": "流感病毒核酸检测阳性",
+        "weight": 10,
         "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "confirmed_diagnosis_1_of_4",
+        "required_count": 1,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "１．流感病毒核酸检测阳性。"
+          "具有以下一种或以上病原学检测结果阳性：１．流感病毒核酸检测阳性"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确‘确定诊断病例’定义中，核酸检测阳性列于首位，且描述为‘敏感性和特异性很高’，符合金标准实质要求；虽未用‘金标准’字眼，但‘确定诊断’+首位+高敏高特构成等效权威认定",
-        "evidence": "（二）确定诊断病例有上述流感临床表现，具有以下一种或以上病原学检测结果阳性：１．流感病毒核酸检测阳性。"
+        "weight_reason": "原文将核酸检测列为确定诊断病例的标准之一，且指出其敏感性和特异性很高，但未提及金标准字眼，故降为10。",
+        "evidence": "病毒核酸检测的敏感性和特异性很高"
       },
       {
         "from": "sub_disease_influenza_confirmed",
-        "to": "test_influenza_antigen",
+        "to": "test_antigen",
         "relation_id": "rel_confirmed_requires_antigen",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
         "operator": "equals",
         "unit": null,
-        "result_text": "阳性",
+        "result_text": "流感抗原检测阳性",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": "confirmed_diagnosis_1_of_4",
+        "required_count": 1,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "２．流感抗原检测阳性"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文将流感抗原检测阳性列为确定诊断病例的标准之一，但前文也提示其敏感性低于核酸检测，权重适中。",
+        "evidence": "２．流感抗原检测阳性"
+      },
+      {
+        "from": "sub_disease_influenza_severe",
+        "to": "test_lymphocyte",
+        "relation_id": "rel_severe_requires_lymphocyte",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": "<",
+        "unit": null,
+        "result_text": "淋巴细胞计数明显降低",
         "weight": 6,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "positive",
+        "polarity": "decreased",
         "typicality": "common",
-        "section_priority": "诊断标准",
+        "section_priority": "实验室检查",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "２．流感抗原检测阳性。"
+          "重症病例淋巴细胞计数明显降低"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_influenza_confirmed",
-        "to": "test_influenza_virus_culture",
-        "relation_id": "rel_confirmed_requires_culture",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 6,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "rare",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "３．流感病毒培养分离阳性。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_influenza_confirmed",
-        "to": "test_influenza_serum_igg",
-        "relation_id": "rel_confirmed_requires_igg",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "回顾性诊断条件",
-        "diagnostic_role": "supportive",
-        "value_min": 4,
-        "value_max": null,
-        "operator": ">=",
-        "unit": "倍",
-        "result_text": null,
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "elevated",
-        "typicality": "rare",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "４．急性期和恢复期双份血清的流感病毒特异性ＩｇＧ抗体水平呈４倍或以上升高。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_influenza_clinical_diagnosis",
-        "to": "treatment_influenza_isolation",
-        "relation_id": "rel_clinical_diag_follows_isolation",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "临床诊断成立后",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "诊断类型"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "治疗",
-        "confidence": 0.95
-      },
-      {
         "from": "sub_disease_influenza_confirmed",
-        "to": "treatment_influenza_antiviral",
-        "relation_id": "rel_confirmed_follows_antiviral",
+        "to": "treatment_isolation",
+        "relation_id": "rel_confirmed_follows_isolation",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确定诊断成立后",
+        "applicable_condition": "临床诊断和确定诊断病例",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "诊断类型"
+          "诊断结果"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗",
+        "source_section": "治疗-基本原则",
         "confidence": 0.95
       },
       {
         "from": "sub_disease_influenza_severe",
-        "to": "treatment_influenza_supportive",
-        "relation_id": "rel_severe_follows_supportive",
+        "to": "treatment_antiviral",
+        "relation_id": "rel_severe_follows_antiviral",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "重症诊断成立后",
+        "applicable_condition": "重症或有重症流感高危因素",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
@@ -1112,77 +901,128 @@
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗",
+        "source_section": "治疗-抗病毒治疗",
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_tcm_wind_heat",
+        "to": "treatment_tcm",
+        "relation_id": "rel_tcm_wind_heat_follows_tcm",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "发病初期",
+        "treatment_line": "一线",
+        "applicable_condition": "中医辨证为风热犯卫",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "中医辨证"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "中医治疗",
+        "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_influenza_antiviral",
-        "to": "plan_oseltamivir_adult",
-        "relation_id": "rel_antiviral_implements_by_oseltamivir_adult",
+        "from": "treatment_antiviral",
+        "to": "plan_oseltamivir",
+        "relation_id": "rel_antiviral_implements_oseltamivir",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "成人患者",
-        "contraindication_note": "肾功能不全者要根据肾功能调整剂量。",
+        "applicable_condition": "甲型、乙型流感",
+        "contraindication_note": "肾功能不全者要根据肾功能调整剂量",
         "evidence_ids": [
-          "① 奥司他韦 （胶囊／颗粒）：成人剂量每次７５ｍｇ，每日２次。……肾功能不全者要根据肾功能调整剂量。"
+          "神经氨酸酶抑制剂对甲型、乙型流感均有效，包括以下几种：① 奥司他韦"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_influenza_antiviral",
-        "to": "plan_zanamivir_adult",
-        "relation_id": "rel_antiviral_implements_by_zanamivir_adult",
+        "from": "treatment_antiviral",
+        "to": "plan_zanamivir",
+        "relation_id": "rel_antiviral_implements_zanamivir",
         "relation_name": "落实为",
         "relation_type": "implements_by",
-        "plan_role": "替代",
-        "applicable_condition": "成人及７岁以上青少年，无哮喘等慢性呼吸道疾病",
-        "contraindication_note": "不推荐原有哮喘或其他慢性呼吸道疾病患者使用吸入性扎那米韦。不推荐扎那米韦吸入粉剂用雾化器或机械通气装置给药。",
+        "plan_role": "首选",
+        "applicable_condition": "成人及7岁以上青少年",
+        "contraindication_note": "不推荐原有哮喘或其他慢性呼吸道疾病患者使用",
         "evidence_ids": [
-          "② 扎那米韦 （吸入喷雾剂）：适用于成人及７岁以上青少年，用法：每次１０ｍｇ，每天２次 （间隔１２小时），疗程５天。不推荐原有哮喘或其他慢性呼吸道疾病患者使用吸入性扎那米韦。不推荐扎那米韦吸入粉剂用雾化器或机械通气装置给药。"
+          "② 扎那米韦 （吸入喷雾剂）：适用于成人及７岁以上青少年"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_tcm",
+        "to": "plan_yinqiao",
+        "relation_id": "rel_tcm_implements_yinqiao",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "风热犯卫",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "基本方药：银翘散加减"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_prevention",
+        "to": "plan_vaccine",
+        "relation_id": "rel_prevention_implements_vaccine",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "重点人群",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "接种流感疫苗是预防流感最有效的手段"
         ],
         "confidence": 0.95
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_influenza_clinical_diagnosis",
-        "to": "etiology_influenza_virus",
-        "relation_id": "rel_clinical_diag_causes_by_virus",
-        "relation_name": "相关",
+        "from": "sub_disease_influenza_general",
+        "to": "etiology_influenza_a",
+        "relation_id": "rel_influenza_a_causes_general",
+        "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
-        "typicality": "典型",
+        "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "流行性感冒 （以下简称流感）是流感病毒引起的一种急性呼吸道传染病"
+          "目前感染人的主要是甲型流感病毒中的Ｈ１Ｎ１、Ｈ３Ｎ２亚型"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_influenza_general",
+        "to": "etiology_influenza_b",
+        "relation_id": "rel_influenza_b_causes_general",
+        "relation_name": "导致",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "及乙型流感病毒中的 Ｖｉｃｔｏｒｉａ和 Ｙａｍａｇａｔａ系"
         ],
         "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_influenza_clinical_diagnosis",
-        "to": "pathogenesis_influenza_ha_binding",
-        "relation_id": "rel_clinical_diag_explained_by_ha_binding",
-        "relation_name": "由机制解释",
-        "relation_type": "explained_by",
-        "evidence_ids": [
-          "（一）发病机制 甲、乙型流感病毒通过血凝素 （ＨＡ）与呼吸道上皮细胞表面的唾液酸受体结合启动感染。流感病毒通过细胞内吞作用进入宿主细胞，病毒基因组在细胞核内进行转录和复制，复制出大量新的子代病毒并感染其他细胞。"
-        ],
-        "confidence": 0.95
-      },
-      {
         "from": "sub_disease_influenza_severe",
-        "to": "pathogenesis_influenza_cytokine_storm",
+        "to": "pathogenesis_infection_and_cytokine_storm",
         "relation_id": "rel_severe_explained_by_cytokine_storm",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "流感病毒感染人体后，严重者可诱发细胞因子风暴，导致感染中毒症（ｓｅｐｓｉｓ），从而引起 ＡＲＤＳ、休克、脑病及多器官功能不全等多种并发症。"
+          "流感病毒感染人体后，严重者可诱发细胞因子风暴，导致感染中毒症（ｓｅｐｓｉｓ），从而引起 ＡＲＤＳ、休克、脑病及多器官功能不全等多种并发症"
         ],
         "confidence": 0.95
       }

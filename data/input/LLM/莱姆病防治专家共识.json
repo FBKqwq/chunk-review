@@ -11,7 +11,7 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_lyme_disease",
+        "id": "disease_lyme",
         "name": "莱姆病",
         "normalized_name": "莱姆病",
         "aliases": [
@@ -23,7 +23,7 @@
           "莱姆病防治专家共识"
         ],
         "evidence_ids": [
-          "莱姆病是一种经蜱叮咬传播由伯氏疏螺旋体感染所致的人兽共患自然疫源性疾病，主要流行于温带和亚热带地区。该病系全身性疾病，可影响皮肤、关节、神经系统和心脏等多种脏器。"
+          "莱姆病是一种经蜱叮咬传播由伯氏疏螺旋体感染所致的人兽共患自然疫源性疾病"
         ],
         "confidence": 0.95
       }
@@ -31,394 +31,283 @@
     "sub_diseases": [
       {
         "id": "sub_disease_lyme_early_localized",
-        "name": "早期局部感染期（Ⅰ期）",
-        "parent_disease_id": "disease_lyme_disease",
-        "disease_subtype": null,
-        "clinical_stage": "Ⅰ期",
-        "severity": "轻症",
+        "name": "早期局部皮肤病变期",
+        "parent_disease_id": "disease_lyme",
+        "disease_subtype": "Ⅰ期",
+        "clinical_stage": "早期",
+        "severity": null,
         "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "根据病程经过可将莱姆病分为早期和晚期感染。早期感染包括Ⅰ期（局部性游走性红斑）、Ⅱ期（播散性感染）及数周或数月内发生的间歇性症状。"
+          "早期感染包括Ⅰ期（局部性游走性红斑）"
         ],
         "confidence": 0.9
       },
       {
         "id": "sub_disease_lyme_early_disseminated",
-        "name": "早期播散感染期（Ⅱ期）",
-        "parent_disease_id": "disease_lyme_disease",
-        "disease_subtype": null,
-        "clinical_stage": "Ⅱ期",
-        "severity": "中重症",
+        "name": "早期播散感染期",
+        "parent_disease_id": "disease_lyme",
+        "disease_subtype": "Ⅱ期",
+        "clinical_stage": "早期",
+        "severity": null,
         "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "根据病程经过可将莱姆病分为早期和晚期感染。早期感染包括Ⅰ期（局部性游走性红斑）、Ⅱ期（播散性感染）及数周或数月内发生的间歇性症状。"
+          "Ⅱ期（播散性感染）及数周或数月内发生的间歇性症状"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_lyme_late_persistent",
-        "name": "晚期持续感染期（Ⅲ期）",
-        "parent_disease_id": "disease_lyme_disease",
-        "disease_subtype": null,
-        "clinical_stage": "Ⅲ期",
-        "severity": "重症",
+        "id": "sub_disease_lyme_late",
+        "name": "晚期持续感染期",
+        "parent_disease_id": "disease_lyme",
+        "disease_subtype": "Ⅲ期",
+        "clinical_stage": "晚期",
+        "severity": null,
         "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "晚期感染或Ⅲ期（持续性感染）多在疾病发生１年以后开始。病人可仅有１种病期，也可有３种病期，不少病人无早期局部皮肤病变过程，而同时出现播散感染期和晚期临床症状。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_lyme_em",
-        "name": "游走性红斑（Erythema Migrans, EM）",
-        "parent_disease_id": "disease_lyme_disease",
-        "disease_subtype": null,
-        "clinical_stage": "Ⅰ期",
-        "severity": "轻症",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "在蜱叮刺吸血后１～２０ｄ，在叮咬处出现红色小斑或小丘疹，逐渐扩大，形成圆形或椭圆形皮疹，外缘有鲜红边界，中央逐渐褪色似平常皮肤，直径一般为５ｃｍ～５０ｃｍ，呈牛眼状。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "sub_disease_lyme_neuroborreliosis",
-        "name": "神经莱姆病",
-        "parent_disease_id": "disease_lyme_disease",
-        "disease_subtype": null,
-        "clinical_stage": "Ⅱ期或Ⅲ期",
-        "severity": "中重症",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "莱姆病螺旋体感染，可导致１２对颅神经损伤，以面神经损伤较为多见，１０％播散性感染期病人可发生面神经麻痹。",
-          "脑膜炎及脑炎 在感染伯氏疏螺旋体数日或数周（一般在１个月内），可出现脑膜刺激征……",
-          "进行性脑脊髓炎主要表现为复发缓解型多发性硬化、颅神经麻痹、痉挛性截瘫……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_lyme_carditis",
-        "name": "莱姆心脏病",
-        "parent_disease_id": "disease_lyme_disease",
-        "disease_subtype": null,
-        "clinical_stage": "Ⅱ期",
-        "severity": "中重症",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "在起病５周以后约有４％～８％病人出现心脏异常，表现为心音低钝、心动过速或者房室传导阻滞。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_lyme_arthritis",
-        "name": "莱姆性关节炎",
-        "parent_disease_id": "disease_lyme_disease",
-        "disease_subtype": null,
-        "clinical_stage": "Ⅲ期",
-        "severity": "中重症",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "在ＥＭ 出现数月后发生，或无 ＥＭ 在感染后 ２～３年内直接以关节炎形式出现，而且持续时间较长……炎症多发生在大关节，特别多见于膝关节。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_lyme_aca",
-        "name": "慢性萎缩性肢皮炎（Acrodermatitis Chronica Atrophicans, ACA）",
-        "parent_disease_id": "disease_lyme_disease",
-        "disease_subtype": null,
-        "clinical_stage": "Ⅲ期",
-        "severity": "中重症",
-        "population": "老年女性患者",
-        "gender": "female",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "欧洲约１０％病人出现 ＡＣＡ，美国和中国也有报告。ＥＭ 出现６个月或几年，皮肤变为蓝色或紫红色。皮肤逐渐变硬变薄，并可影响骨骼系统。出现萎缩性斑片……本病主要多见于老年女性患者，可从萎缩病变处分离出伯氏疏螺旋体。"
+          "晚期感染或Ⅲ期（持续性感染）多在疾病发生１年以后开始"
         ],
         "confidence": 0.9
       }
     ],
     "symptoms": [
       {
-        "id": "symptom_erythema_migrans",
+        "id": "symptom_em",
         "name": "游走性红斑",
         "body_site": "皮肤",
         "symptom_category": "皮肤症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "在蜱叮刺吸血后１～２０ｄ，在叮咬处出现红色小斑或小丘疹，逐渐扩大，形成圆形或椭圆形皮疹，外缘有鲜红边界，中央逐渐褪色似平常皮肤，直径一般为５ｃｍ～５０ｃｍ，呈牛眼状。"
+          "形成游走性红斑（ｅｒｙｔｈｅｍａ ｍｉｇｒａｎｓ，ＥＭ），此为莱姆病特异性临床表现"
         ],
         "confidence": 0.95
       },
       {
-        "id": "symptom_fever",
-        "name": "发热",
+        "id": "symptom_flu_like",
+        "name": "流感样症状",
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "ＥＭ有时伴有发热、轻微全身症状或局部淋巴结肿大。",
-          "播散性感染期常见临床表现有流感样症状，如发热、畏寒、衰弱、肌肉关节痛、头痛、头晕、恶心、呕吐等。"
+          "播散性感染期常见临床表现有流感样症状，如发热、畏寒、衰弱、肌肉关节痛、头痛、头晕、恶心、呕吐等"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_headache",
-        "name": "头痛",
-        "body_site": "头部",
+        "id": "symptom_facial_nerve_palsy",
+        "name": "面神经麻痹",
+        "body_site": "面部神经",
         "symptom_category": "神经系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "播散性感染期常见临床表现有流感样症状，如发热、畏寒、衰弱、肌肉关节痛、头痛、头晕、恶心、呕吐等。",
-          "脑膜炎及脑炎……常见表现有头痛、兴奋性增高、睡眠障碍谵妄、颈项强直或者病理征阳性……"
+          "１０％播散性感染期病人可发生面神经麻痹"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_meningismus",
-        "name": "脑膜刺激征",
+        "id": "symptom_meningitis",
+        "name": "脑膜炎及脑炎",
         "body_site": "中枢神经系统",
         "symptom_category": "神经系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "在感染伯氏疏螺旋体数日或数周（一般在１个月内），可出现脑膜刺激征……"
+          "可出现脑膜炎、脑炎或者脑膜脑炎的表现"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_facial_palsy",
-        "name": "面神经麻痹",
-        "body_site": "面部",
-        "symptom_category": "神经系统症状",
+        "id": "symptom_cardiac_abnormalities",
+        "name": "心脏异常",
+        "body_site": "心脏",
+        "symptom_category": "心血管系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "伯氏疏螺旋体感染，可导致１２对颅神经损伤，以面神经损伤较为多见，１０％播散性感染期病人可发生面神经麻痹。"
+          "约有４％～８％病人出现心脏异常，表现为心音低钝、心动过速或者房室传导阻滞"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_arthralgia",
-        "name": "关节痛",
+        "id": "symptom_arthritis",
+        "name": "关节炎",
         "body_site": "关节",
-        "symptom_category": "运动系统症状",
+        "symptom_category": "骨骼肌肉系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "播散性感染期常见临床表现有流感样症状，如发热、畏寒、衰弱、肌肉关节痛、头痛、头晕、恶心、呕吐等。",
-          "关节炎……表现为间歇性对称性关节炎或少数关节的肌肉僵硬、疼痛、肿胀以及活动受限。"
+          "以慢性关节炎形式出现，表现为间歇性对称性关节炎或少数关节的肌肉僵硬、疼痛、肿胀以及活动受限"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_myalgia",
-        "name": "肌肉痛",
-        "body_site": "肌肉",
-        "symptom_category": "运动系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "播散性感染期常见临床表现有流感样症状，如发热、畏寒、衰弱、肌肉关节痛、头痛、头晕、恶心、呕吐等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_palpitation",
-        "name": "心悸",
-        "body_site": "心脏",
-        "symptom_category": "循环系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "在起病５周以后约有４％～８％病人出现心脏异常，表现为心音低钝、心动过速或者房室传导阻滞。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_av_block",
-        "name": "房室传导阻滞",
-        "body_site": "心脏",
-        "symptom_category": "循环系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "在起病５周以后约有４％～８％病人出现心脏异常，表现为心音低钝、心动过速或者房室传导阻滞。心脏传导异常大多表现为Ｉ°或者ＩＩ°房室传导阻滞，严重者可出现ＩＩＩ°房室传导阻滞。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_atrophic_skin_lesion",
-        "name": "萎缩性皮肤损害",
+        "id": "symptom_aca",
+        "name": "慢性萎缩性肢皮炎",
         "body_site": "皮肤",
         "symptom_category": "皮肤症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "rare",
         "evidence_ids": [
-          "皮肤逐渐变硬变薄，并可影响骨骼系统。出现萎缩性斑片，数目不定，可经过数月、数年或数十年，萎缩边缘由不清变得清楚，皮薄如纸，可见下面血管……"
+          "欧洲约１０％病人出现ＡＣＡ"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       }
     ],
     "tests": [
       {
-        "id": "test_elisa_igm",
-        "name": "ELISA法检测IgM抗体",
+        "id": "test_culture",
+        "name": "细菌分离培养",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "采用ＩＦＡ和／或ＥＬＩＳＡ法检测患者血清或者脑脊液中特异性抗体ＩｇＭ 和ＩｇＧ是莱姆病实验室检查的首选方法……通常特异性ＩｇＭ抗体多在游走性红斑发生后２～４周出现，６～８周达高峰，多于４～６个月降至正常水平。"
+          "细菌分离培养获得伯氏疏螺旋体"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_elisa_igg",
-        "name": "ELISA法检测IgG抗体",
+        "id": "test_darkfield",
+        "name": "暗视野显微镜检查",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "采用ＩＦＡ和／或ＥＬＩＳＡ法检测患者血清或者脑脊液中特异性抗体ＩｇＭ 和ＩｇＧ是莱姆病实验室检查的首选方法……特异性ＩｇＧ抗体多在病后６～８周开始升高，４～６个月达高峰，可持续至数年以上。"
+          "使用暗视野显微镜检查发现莱姆病螺旋体"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_elisa_ifa",
+        "name": "ELISA/IFA初筛",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "首先采用酶免疫分析（ＥＬＩＳＡ）或免疫荧光分析（ＩＦＡ）作为初筛"
         ],
         "confidence": 0.9
       },
       {
         "id": "test_wb",
-        "name": "蛋白免疫印迹法（Western blot）",
+        "name": "蛋白免疫印迹法(WB)确诊",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "莱姆病的血清学抗体检测采取国际上公认的血清学“两步法”进行确诊。“两步法”即首先采用酶免疫分析（ＥＬＩＳＡ）或免疫荧光分析（ＩＦＡ）作为初筛，初筛阳性的标本再用蛋白免疫印迹法（Ｗｅｓｔｅｒｎ ｉｍｍｕｎｏｂｌｏｔ，ＷＢ）进行确诊。"
+          "初筛阳性的标本再用蛋白免疫印迹法（Ｗｅｓｔｅｒｎ ｉｍｍｕｎｏｂｌｏｔ，ＷＢ）进行确诊"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_pcr_borrelia",
-        "name": "伯氏疏螺旋体特异性核酸片段扩增（PCR）",
+        "id": "test_pcr",
+        "name": "特异性核酸片段扩增检查",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "皮肤红斑组织、血液或者脑脊液等标本中莱姆病螺旋体特异性核酸片段扩增检查。目前常用的核酸检测主要是以ＰＣＲ为基础的方法，包括：常规ＰＣＲ、巢式ＰＣＲ、Ｒｅａｌ－Ｔｉｍｅ ＰＣＲ等。"
+          "莱姆病螺旋体特异性核酸片段扩增检查"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_lyme_antibiotic_therapy",
-        "content": "早期诊断和正确的抗生素治疗可以有效预防晚期莱姆病的发生。早期莱姆病患者采用适当的抗生素治疗，可以痊愈。",
+        "id": "treatment_antibiotics",
+        "content": "早期诊断和正确的抗生素治疗可以有效预防晚期莱姆病的发生",
         "recommendation_strength": "strong",
         "source_section": "治疗",
         "evidence_ids": [
-          "莱姆病的早期诊断和正确的抗生素治疗可以有效预防晚期莱姆病的发生。早期莱姆病患者采用适当的抗生素治疗，可以痊愈。"
+          "莱姆病的早期诊断和正确的抗生素治疗可以有效预防晚期莱姆病的发生"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "treatment_supportive",
+        "content": "对于伴有发热、皮肤疼痛患者可以应用解热镇痛类药物",
+        "recommendation_strength": "weak",
+        "source_section": "支持治疗",
+        "evidence_ids": [
+          "对于伴有发热、皮肤疼痛患者可以应用解热镇痛类药物"
+        ],
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_doxycycline_em",
-        "content": "多西环素 100mg bid，疗程10～21天",
+        "id": "plan_doxycycline_oral",
+        "content": "多西环素 １００ｍｇ ｂｉｄ",
         "plan_level": 1,
-        "applicable_condition": "游走性红斑",
-        "contraindication_note": "8岁以下小儿禁用；孕妇及哺乳期妇女禁用；对多西环素或其他四环素类药过敏者禁用。",
+        "applicable_condition": "早期莱姆病口服治疗",
+        "contraindication_note": "８岁以下儿童禁用；孕妇及哺乳期妇女禁用",
         "evidence_ids": [
-          "游走性红斑 口服 多西环素＊ １０～２１"
+          "多西环素 １００ｍｇ ｂｉｄ"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_amoxicillin_em",
-        "content": "阿莫西林 500mg bid，疗程10～21天",
-        "plan_level": 2,
-        "applicable_condition": "游走性红斑",
+        "id": "plan_amoxicillin_oral",
+        "content": "阿莫西林 ５００ｍｇ ｂｉｄ",
+        "plan_level": 1,
+        "applicable_condition": "早期莱姆病口服治疗",
         "contraindication_note": null,
         "evidence_ids": [
-          "游走性红斑 口服 阿莫西林或头孢呋辛 １０～２１"
+          "阿莫西林 ５００ｍｇ ｂｉｄ"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_ceftriaxone_neuro",
-        "content": "头孢曲松 2g qd，疗程14～28天",
+        "id": "plan_ceftriaxone_iv",
+        "content": "头孢曲松 ２ｇ ｑｄ",
         "plan_level": 1,
-        "applicable_condition": "神经系统病变及心脏病变",
+        "applicable_condition": "神经系统病变及心脏病变静脉治疗",
         "contraindication_note": null,
         "evidence_ids": [
-          "神经系统病变及心脏病变 静脉 头孢曲松 １４～２８"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_doxycycline_arthritis",
-        "content": "多西环素、阿莫西林或头孢呋辛口服，疗程28天",
-        "plan_level": 1,
-        "applicable_condition": "关节炎（适用于起始治疗）",
-        "contraindication_note": "8岁以下小儿禁用；孕妇及哺乳期妇女禁用；对多西环素或其他四环素类药过敏者禁用。",
-        "evidence_ids": [
-          "关节炎 口服（适用于起始治疗） 多西环素、阿莫西林或头孢呋辛 ２８"
+          "头孢曲松 ２ｇ ｑｄ"
         ],
         "confidence": 0.95
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_borrelia_burgdorferi_sensu_lato",
-        "content": "伯氏疏螺旋体（Borrelia burgdorferi sensu lato）感染",
+        "id": "etiology_borrelia_burgdorferi",
+        "content": "伯氏疏螺旋体感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "莱姆病是一种经蜱叮咬传播由伯氏疏螺旋体感染所致的人兽共患自然疫源性疾病……"
+          "由伯氏疏螺旋体感染所致"
         ],
         "confidence": 0.95
       },
       {
         "id": "etiology_tick_bite",
         "content": "蜱叮咬",
-        "etiology_type": "危险因素",
-        "typicality": "typical",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "莱姆病是一种经蜱叮咬传播由伯氏疏螺旋体感染所致的人兽共患自然疫源性疾病……"
+          "经蜱叮咬传播"
         ],
         "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_lyme_spread_via_blood_or_lymph",
-        "content": "伯氏疏螺旋体进入体内２～４周后通过血液或淋巴液播散到其他部位。",
+        "id": "pathogenesis_dissemination",
+        "content": "伯氏疏螺旋体进入体内后通过血液或淋巴液播散到其他部位",
         "evidence_ids": [
-          "伯氏疏螺旋体进入体内２～４周后通过血液或淋巴液播散到其他部位。在此期中可在血液内发现大量螺旋体，此外在心肌、视网膜、肌肉、骨骼、滑液、脾脏、肝脏、脑膜及脑标本内也有少量发现。"
+          "伯氏疏螺旋体进入体内２～４周后通过血液或淋巴液播散到其他部位"
         ],
         "confidence": 0.9
       }
@@ -427,65 +316,65 @@
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_lyme_disease",
+        "from": "disease_lyme",
         "to": "sub_disease_lyme_early_localized",
         "relation_id": "rel_lyme_has_early_localized",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "根据病程经过可将莱姆病分为早期和晚期感染。早期感染包括Ⅰ期（局部性游走性红斑）、Ⅱ期（播散性感染）及数周或数月内发生的间歇性症状。"
+          "早期感染包括Ⅰ期（局部性游走性红斑）"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_lyme_disease",
+        "from": "disease_lyme",
         "to": "sub_disease_lyme_early_disseminated",
         "relation_id": "rel_lyme_has_early_disseminated",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "根据病程经过可将莱姆病分为早期和晚期感染。早期感染包括Ⅰ期（局部性游走性红斑）、Ⅱ期（播散性感染）及数周或数月内发生的间歇性症状。"
+          "Ⅱ期（播散性感染）及数周或数月内发生的间歇性症状"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_lyme_disease",
-        "to": "sub_disease_lyme_late_persistent",
-        "relation_id": "rel_lyme_has_late_persistent",
+        "from": "disease_lyme",
+        "to": "sub_disease_lyme_late",
+        "relation_id": "rel_lyme_has_late",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "晚期感染或Ⅲ期（持续性感染）多在疾病发生１年以后开始。病人可仅有１种病期，也可有３种病期，不少病人无早期局部皮肤病变过程，而同时出现播散感染期和晚期临床症状。"
+          "晚期感染或Ⅲ期（持续性感染）多在疾病发生１年以后开始"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_lyme_em",
-        "to": "symptom_erythema_migrans",
-        "relation_id": "rel_em_manifests_as_erythema_migrans",
+        "from": "sub_disease_lyme_early_localized",
+        "to": "symptom_em",
+        "relation_id": "rel_early_localized_manifests_as_em",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
+        "weight": 10,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "在蜱叮刺吸血后１～２０ｄ，在叮咬处出现红色小斑或小丘疹，逐渐扩大，形成圆形或椭圆形皮疹，外缘有鲜红边界，中央逐渐褪色似平常皮肤，直径一般为５ｃｍ～５０ｃｍ，呈牛眼状。"
+          "形成游走性红斑（ｅｒｙｔｈｅｍａ ｍｉｇｒａｎｓ，ＥＭ），此为莱姆病特异性临床表现"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将EM定义为莱姆病特异性临床表现，且‘特异性’在医学语境中等价于诊断金标准级指征",
-        "evidence": "此为莱姆病特异性临床表现。"
+        "weight_reason": "原文明确指出游走性红斑为莱姆病特异性临床表现，相关性极强。",
+        "evidence": "形成游走性红斑（ｅｒｙｔｈｅｍａｍｉｇｒａｎｓ，ＥＭ），此为莱姆病特异性临床表现"
       },
       {
         "from": "sub_disease_lyme_early_disseminated",
-        "to": "symptom_fever",
-        "relation_id": "rel_ii_manifests_as_fever",
+        "to": "symptom_flu_like",
+        "relation_id": "rel_early_disseminated_manifests_as_flu_like",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -497,64 +386,58 @@
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "ＥＭ有时伴有发热、轻微全身症状或局部淋巴结肿大。",
-          "播散性感染期常见临床表现有流感样症状，如发热、畏寒、衰弱、肌肉关节痛、头痛、头晕、恶心、呕吐等。"
+          "播散性感染期常见临床表现有流感样症状，如发热、畏寒、衰弱、肌肉关节痛、头痛、头晕、恶心、呕吐等"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_lyme_neuroborreliosis",
-        "to": "symptom_facial_palsy",
-        "relation_id": "rel_neuro_manifests_as_facial_palsy",
+        "from": "sub_disease_lyme_early_disseminated",
+        "to": "symptom_facial_nerve_palsy",
+        "relation_id": "rel_early_disseminated_manifests_as_facial_nerve_palsy",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "伯氏疏螺旋体感染，可导致１２对颅神经损伤，以面神经损伤较为多见，１０％播散性感染期病人可发生面神经麻痹。"
+          "１０％播散性感染期病人可发生面神经麻痹"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文称面神经麻痹‘以面神经损伤较为多见，１０％播散性感染期病人可发生’，属明确比例的常见表现，非特异性或金标准",
-        "evidence": "以面神经损伤较为多见，１０％播散性感染期病人可发生面神经麻痹。"
+        "weight_reason": "原文指出10%播散性感染期病人可发生面神经麻痹，属于部分患者出现的症状。",
+        "evidence": "１０％播散性感染期病人可发生面神经麻痹"
+      },
+      {
+        "from": "sub_disease_lyme_late",
+        "to": "symptom_arthritis",
+        "relation_id": "rel_late_manifests_as_arthritis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "以慢性关节炎形式出现，表现为间歇性对称性关节炎或少数关节的肌肉僵硬、疼痛、肿胀以及活动受限"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确说明晚期感染常以慢性关节炎形式出现，是晚期典型表现。",
+        "evidence": "晚期感染的关节炎在第２年或第３年以慢性关节炎形式出现"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_lyme_em",
-        "to": "test_elisa_igm",
-        "relation_id": "rel_em_requires_elisa_igm",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
-        "value_min": null,
-        "value_max": null,
-        "operator": null,
-        "unit": null,
-        "result_text": null,
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "common",
-        "section_priority": "诊断",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "采用ＩＦＡ和／或ＥＬＩＳＡ法检测患者血清或者脑脊液中特异性抗体ＩｇＭ 和ＩｇＧ是莱姆病实验室检查的首选方法……通常特异性ＩｇＭ抗体多在游走性红斑发生后２～４周出现……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_lyme_neuroborreliosis",
-        "to": "test_wb",
-        "relation_id": "rel_neuro_requires_wb",
+        "from": "sub_disease_lyme_early_localized",
+        "to": "test_elisa_ifa",
+        "relation_id": "rel_early_localized_requires_elisa_ifa",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -563,8 +446,8 @@
         "value_max": null,
         "operator": null,
         "unit": null,
-        "result_text": null,
-        "weight": 10,
+        "result_text": "阳性",
+        "weight": 9,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
@@ -573,63 +456,181 @@
         "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "莱姆病的血清学抗体检测采取国际上公认的血清学“两步法”进行确诊。“两步法”即首先采用酶免疫分析（ＥＬＩＳＡ）或免疫荧光分析（ＩＦＡ）作为初筛，初筛阳性的标本再用蛋白免疫印迹法（Ｗｅｓｔｅｒｎ ｉｍｍｕｎｏｂｌｏｔ，ＷＢ）进行确诊。"
+          "首先采用酶免疫分析（ＥＬＩＳＡ）或免疫荧光分析（ＩＦＡ）作为初筛"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出IFA和ELISA法是莱姆病实验室检查的首选方法和筛查方法。",
+        "evidence": "采用ＩＦＡ和／或ＥＬＩＳＡ法检测患者血清或者脑脊液中特异性抗体ＩｇＭ和ＩｇＧ是莱姆病实验室检查的首选方法"
+      },
+      {
+        "from": "sub_disease_lyme_early_localized",
+        "to": "test_wb",
+        "relation_id": "rel_early_localized_requires_wb",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 9,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "初筛阳性的标本再用蛋白免疫印迹法（Ｗｅｓｔｅｒｎ ｉｍｍｕｎｏｂｌｏｔ，ＷＢ）进行确诊"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文规定WB仅用于‘经IF A和／或ELISA法初筛阳性或可疑阳性患者的确诊’，对神经伯氏疏螺旋体病无单独金标准地位，仅为确诊流程中的必要环节",
-        "evidence": "用于经ＩＦＡ和／或ＥＬＩＳＡ法初筛阳性或可疑阳性患者的确诊。"
+        "weight_reason": "原文指出WB法特异性优于初筛方法，用于初筛阳性或可疑阳性患者的确诊。",
+        "evidence": "ＷＢ法检测血清或者脑脊液中的特异性抗体其特异性优于上述ＩＦＡ和ＥＬＩＳＡ方法用于确诊"
+      },
+      {
+        "from": "sub_disease_lyme_early_localized",
+        "to": "test_culture",
+        "relation_id": "rel_early_localized_requires_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "获得伯氏疏螺旋体",
+        "weight": 9,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "细菌分离培养获得伯氏疏螺旋体"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出通过细菌分离培养获得伯氏疏螺旋体是病原学检测的确诊依据之一。",
+        "evidence": "皮肤红斑组织或血液、脑脊液等标本的细菌分离培养获得伯氏疏螺旋体"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_lyme_em",
-        "to": "treatment_lyme_antibiotic_therapy",
-        "relation_id": "rel_em_follows_antibiotic_therapy",
+        "from": "sub_disease_lyme_early_localized",
+        "to": "treatment_antibiotics",
+        "relation_id": "rel_early_localized_follows_antibiotics",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
-        "clinical_stage": "Ⅰ期",
+        "clinical_stage": "早期",
         "treatment_line": "一线",
-        "applicable_condition": "明确诊断后",
+        "applicable_condition": "早期诊断后",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "临床分期"
+          "疾病分期"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
         "source_section": "治疗",
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_lyme_early_disseminated",
+        "to": "treatment_supportive",
+        "relation_id": "rel_early_disseminated_follows_supportive",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "早期",
+        "treatment_line": "辅助",
+        "applicable_condition": "伴有发热、皮肤疼痛",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "weak",
+        "decision_basis": [
+          "症状"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "支持治疗",
+        "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_lyme_antibiotic_therapy",
-        "to": "plan_doxycycline_em",
-        "relation_id": "rel_treatment_implements_by_doxycycline_em",
+        "from": "treatment_antibiotics",
+        "to": "plan_doxycycline_oral",
+        "relation_id": "rel_antibiotics_implements_by_doxycycline",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "游走性红斑",
-        "contraindication_note": "8岁以下小儿禁用；孕妇及哺乳期妇女禁用；对多西环素或其他四环素类药过敏者禁用。",
+        "applicable_condition": "早期莱姆病口服治疗",
+        "contraindication_note": "８岁以下儿童禁用；孕妇及哺乳期妇女禁用",
         "evidence_ids": [
-          "游走性红斑 口服 多西环素＊ １０～２１"
+          "多西环素 １００ｍｇ ｂｉｄ"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antibiotics",
+        "to": "plan_amoxicillin_oral",
+        "relation_id": "rel_antibiotics_implements_by_amoxicillin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "早期莱姆病口服治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "阿莫西林 ５００ｍｇ ｂｉｄ"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antibiotics",
+        "to": "plan_ceftriaxone_iv",
+        "relation_id": "rel_antibiotics_implements_by_ceftriaxone",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "神经系统病变及心脏病变静脉治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "头孢曲松 ２ｇ ｑｄ"
         ],
         "confidence": 0.95
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_lyme_em",
-        "to": "etiology_borrelia_burgdorferi_sensu_lato",
-        "relation_id": "rel_em_causes_borrelia",
-        "relation_name": "相关",
+        "from": "sub_disease_lyme_early_localized",
+        "to": "etiology_borrelia_burgdorferi",
+        "relation_id": "rel_borrelia_causes_early_localized",
+        "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "莱姆病是一种经蜱叮咬传播由伯氏疏螺旋体感染所致的人兽共患自然疫源性疾病……"
+          "由伯氏疏螺旋体感染所致"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_lyme_early_localized",
+        "to": "etiology_tick_bite",
+        "relation_id": "rel_tick_bite_causes_early_localized",
+        "relation_name": "导致",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "经蜱叮咬传播"
         ],
         "confidence": 0.95
       }
@@ -637,12 +638,12 @@
     "explained_by": [
       {
         "from": "sub_disease_lyme_early_disseminated",
-        "to": "pathogenesis_lyme_spread_via_blood_or_lymph",
-        "relation_id": "rel_ii_explained_by_spread",
+        "to": "pathogenesis_dissemination",
+        "relation_id": "rel_early_disseminated_explained_by_dissemination",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "伯氏疏螺旋体进入体内２～４周后通过血液或淋巴液播散到其他部位。在此期中可在血液内发现大量螺旋体，此外在心肌、视网膜、肌肉、骨骼、滑液、脾脏、肝脏、脑膜及脑标本内也有少量发现。"
+          "伯氏疏螺旋体进入体内２～４周后通过血液或淋巴液播散到其他部位"
         ],
         "confidence": 0.9
       }

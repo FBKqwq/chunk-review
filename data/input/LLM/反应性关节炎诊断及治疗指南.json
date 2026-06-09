@@ -2,7 +2,7 @@
   "meta": {
     "doc_id": "反应性关节炎诊断及治疗指南",
     "source_title": "反应性关节炎诊断及治疗指南",
-    "section_path": "",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -11,48 +11,65 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_reactive_arthritis",
+        "id": "disease_rea",
         "name": "反应性关节炎",
         "normalized_name": "反应性关节炎",
         "aliases": [
           "ReA",
           "Reiter综合征",
-          "Fiessinger-Leroy综合征"
+          "Fiessinger- mv综合征"
         ],
         "source_document_ids": [
           "反应性关节炎诊断及治疗指南"
         ],
         "evidence_ids": [
-          "反应性关节炎(reactive arthritis，ReA)是一种发生于某些特定部位(如肠道和泌尿生殖道)感染之后而出现的关节炎。"
+          "反应性关节炎(reactive arthritis，ReA)是一种发生于某些特定部位(如肠道和泌尿生殖道)感染之后而出现的关节炎。",
+          "它曾被称为Reiter综合征(具有典型尿道炎、结膜炎和关节炎三联征者)、Fiessinger- mv综合征等，1969年Abvonen首先将其命名为ReA"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
+        "id": "sub_disease_rea_default",
+        "name": "反应性关节炎",
+        "parent_disease_id": "disease_rea",
+        "disease_subtype": null,
+        "clinical_stage": "不限定",
+        "severity": null,
+        "population": null,
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "反应性关节炎(reactive arthritis，ReA)是一种发生于某些特定部位(如肠道和泌尿生殖道)感染之后而出现的关节炎。"
+        ],
+        "confidence": 0.95
+      },
+      {
         "id": "sub_disease_rea_sexually_transmitted",
         "name": "性传播型反应性关节炎",
-        "parent_disease_id": "disease_reactive_arthritis",
+        "parent_disease_id": "disease_rea",
         "disease_subtype": "性传播型",
         "clinical_stage": "不限定",
-        "severity": "不限定",
+        "severity": null,
         "population": "20～40岁男性",
         "gender": "male",
         "age_min": 20,
         "age_max": 40,
         "evidence_ids": [
-          "本病有2种起病形式：性传播型和肠道型。前者主要见于20～40岁男性，因衣原体或支原体感染泌尿生殖系统后发生。"
+          "本病有2种起病形式：性传播型和肠道 。前者主要见于20～40岁男性，因衣原体或支原体感染泌尿生殖系统后发生。"
         ],
         "confidence": 0.9
       },
       {
         "id": "sub_disease_rea_enteric",
         "name": "肠道型反应性关节炎",
-        "parent_disease_id": "disease_reactive_arthritis",
+        "parent_disease_id": "disease_rea",
         "disease_subtype": "肠道型",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "男女发病率基本相等",
+        "severity": null,
+        "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
@@ -71,9 +88,9 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "全身症状常突出，一般在感染后数周出现发热、体质量下降、严重的倦怠无力和大汗。热型为中至高热，每日1～2个高峰，多不受退热药物影响，通常持续10-40 d，自行缓解。"
+          "一般在感染后数周出现发热"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_weight_loss",
@@ -83,9 +100,9 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "全身症状常突出，一般在感染后数周出现发热、体质量下降、严重的倦怠无力和大汗。"
+          "发热、体质量下降、严茕的倦怠无力和大汗"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_fatigue",
@@ -95,9 +112,9 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "全身症状常突出，一般在感染后数周出现发热、体质量下降、严重的倦怠无力和大汗。"
+          "严茕的倦怠无力"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_sweating",
@@ -107,153 +124,81 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "全身症状常突出，一般在感染后数周出现发热、体质量下降、严重的倦怠无力和大汗。"
+          "和大汗"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "symptom_arthritis",
-        "name": "关节炎",
+        "id": "symptom_acute_arthritis",
+        "name": "急性关节炎",
         "body_site": "关节",
-        "symptom_category": "骨骼肌肉系统症状",
+        "symptom_category": "关节症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "首发症状以急性关节炎多见，典型的关节炎出现在尿道或肠道感染后1～6周，呈急性发病，多为单一或少关节炎，非对称性分布，呈现伴有关节周围炎症的腊肠样指(趾)。"
+          "首发症状以急性关节炎多见"
         ],
         "confidence": 0.95
       },
       {
         "id": "symptom_sausage_digit",
         "name": "腊肠样指(趾)",
-        "body_site": "手指/足趾",
-        "symptom_category": "骨骼肌肉系统症状",
+        "body_site": "手足",
+        "symptom_category": "关节症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "首发症状以急性关节炎多见，典型的关节炎出现在尿道或肠道感染后1～6周，呈急性发病，多为单一或少关节炎，非对称性分布，呈现伴有关节周围炎症的腊肠样指(趾)。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_joint_swelling",
-        "name": "关节肿胀",
-        "body_site": "关节",
-        "symptom_category": "骨骼肌肉系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "受累关节呈热、肿胀、剧痛和触痛。膝关节常有明显肿胀及大量积液。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_joint_pain",
-        "name": "关节剧痛",
-        "body_site": "关节",
-        "symptom_category": "骨骼肌肉系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "受累关节呈热、肿胀、剧痛和触痛。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_joint_tenderness",
-        "name": "关节触痛",
-        "body_site": "关节",
-        "symptom_category": "骨骼肌肉系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "受累关节呈热、肿胀、剧痛和触痛。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_back_pain",
-        "name": "背部不适",
-        "body_site": "脊柱",
-        "symptom_category": "骨骼肌肉系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "背部不适常放射到臀部和大腿，在卧床休息和不活动时加重。"
+          "呈现伴有关节周围炎症的腊肠样指(趾"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_tenosynovitis",
-        "name": "肌腱端炎",
-        "body_site": "肌腱附着点",
-        "symptom_category": "骨骼肌肉系统症状",
+        "id": "symptom_achilles_tendinitis",
+        "name": "跟腱附着点炎",
+        "body_site": "足跟",
+        "symptom_category": "肌腱端症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
           "肌腱端病的典型表现是跟腱附着点炎。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_urethritis",
         "name": "无菌性尿道炎",
         "body_site": "泌尿生殖道",
-        "symptom_category": "泌尿生殖系统症状",
+        "symptom_category": "泌尿生殖道症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "典型患者是在性接触或痢疾后7～14 d发生无菌性尿道炎。男性患者有尿频和尿道烧灼感，尿道口红肿，可见清亮的黏液样分泌物，也可以出现自发缓解的出血性膀胱炎或前列腺炎。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_cystitis",
-        "name": "无菌性膀胱炎",
-        "body_site": "泌尿生殖道",
-        "symptom_category": "泌尿生殖系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "典型患者是在性接触或痢疾后7～14 d发生无菌性尿道炎。男性患者有尿频和尿道烧灼感，尿道口红肿，可见清亮的黏液样分泌物，也可以出现自发缓解的出血性膀胱炎或前列腺炎。"
+          "发生无菌性尿道炎。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_prostatitis",
-        "name": "前列腺炎",
-        "body_site": "泌尿生殖道",
-        "symptom_category": "泌尿生殖系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "典型患者是在性接触或痢疾后7～14 d发生无菌性尿道炎。男性患者有尿频和尿道烧灼感，尿道口红肿，可见清亮的黏液样分泌物，也可以出现自发缓解的出血性膀胱炎或前列腺炎。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_balantitis",
+        "id": "symptom_circinate_balanitis",
         "name": "旋涡状龟头炎",
         "body_site": "泌尿生殖道",
-        "symptom_category": "泌尿生殖系统症状",
+        "symptom_category": "泌尿生殖道症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "旋涡状龟头炎为阴茎龟头和尿道口无痛的浅表性红斑溃疡，见于20％～40％的男性患者。龟头炎的发生与尿道炎的有无或轻重无关。龟头炎一般在几天或几周痊愈，极少数可持续几个月。"
+          "旋涡状龟头炎为阴茎龟头和尿道口无痛的浅表性红斑溃疡，见于20％～40％的男性患者。"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
-        "id": "symptom_cervicitis",
-        "name": "宫颈炎",
-        "body_site": "泌尿生殖道",
-        "symptom_category": "泌尿生殖系统症状",
+        "id": "symptom_keratoderma_blenorrhagicum",
+        "name": "溢脓性皮肤角化症",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤黏膜症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "女性患者可表现为无症状或症状轻微的膀胱炎和宫颈炎，有少量阴道分泌物或排尿困难。"
+          "溢脓性皮肤角化症为病变皮肤的过度角化，见于10％～30％的患者"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
         "id": "symptom_oral_ulcer",
@@ -263,9 +208,21 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "5％～15％的患者可出现一过性浅表口腔溃疡，溃疡多位于硬腭和软腭、牙龈、舌和颊黏膜，开始表现为水疱，逐渐发展成浅小、有时融合的溃疡，多为无痛性。"
+          "可出现一过性浅表口腔溃疡"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
+      },
+      {
+        "id": "symptom_erythema_nodosum",
+        "name": "结节红斑",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤黏膜症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "结节红斑是耶尔森菌感染的临床表现"
+        ],
+        "confidence": 0.8
       },
       {
         "id": "symptom_conjunctivitis",
@@ -275,105 +232,34 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "1／3的ReA患者可出现结膜炎，通常症状较轻，常常在关节炎发作时出现，可以是单侧或双侧受累，伴有无菌性的分泌物。1～4周多可自发缓解，但很容易复发。"
+          "J／3的ReA患者可出现结膜炎"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
-        "id": "symptom_uveitis",
-        "name": "急性前色素膜炎(虹膜炎)",
+        "id": "symptom_anterior_uveitis",
+        "name": "急性前色素膜炎",
         "body_site": "眼部",
         "symptom_category": "眼部症状",
         "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "5％的患者出现急性前色素膜炎(虹膜炎)，表现为眼睛疼痛、发红和畏光，预后一般较好，但是如不治疗，有11％的患者可出现失明。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_aortitis",
-        "name": "主动脉病变",
-        "body_site": "心脏",
-        "symptom_category": "心脏表现",
-        "polarity": "present",
         "typicality": "rare",
         "evidence_ids": [
-          "心脏表现可以包括主动脉病变和传导异常。主动脉环和升主动脉是通常受累的部位，少数患者由于主动脉中层病变和主动脉根部扩张最终发生主动脉瓣关闭不全。"
+          "5％的患者出现急性前色素膜炎(虹膜炎)"
         ],
         "confidence": 0.8
-      },
-      {
-        "id": "symptom_av_block",
-        "name": "房室传导阻滞",
-        "body_site": "心脏",
-        "symptom_category": "心脏表现",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "5％～14％的患者可出现心电图的异常，慢性病患者(病程超过10年)最常报道的为I度房室传导阻滞，可能进展为Ⅱ度或完全性房室传导阻滞。"
-        ],
-        "confidence": 0.8
-      },
-      {
-        "id": "symptom_proteinuria",
-        "name": "蛋白尿",
-        "body_site": "肾脏",
-        "symptom_category": "肾脏表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "蛋白尿、镜下血尿或无菌性脓尿可见于大约50％的性传播型ReA，并且常常是无症状的。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_microscopic_hematuria",
-        "name": "镜下血尿",
-        "body_site": "肾脏",
-        "symptom_category": "肾脏表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "蛋白尿、镜下血尿或无菌性脓尿可见于大约50％的性传播型ReA，并且常常是无症状的。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_sterile_pyuria",
-        "name": "无菌性脓尿",
-        "body_site": "肾脏",
-        "symptom_category": "肾脏表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "蛋白尿、镜下血尿或无菌性脓尿可见于大约50％的性传播型ReA，并且常常是无症状的。"
-        ],
-        "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_esr",
-        "name": "红细胞沉降率",
+        "id": "test_pathogen_culture",
+        "name": "病原体培养",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 1,
+        "is_digital": 0,
         "evidence_ids": [
-          "急性期可有白细胞增高，红细胞沉降率(ESR)增快，C反应蛋白(CRP)升高。"
+          "有尿道炎症状者可作培养；有肠道症状时，大便培养对确定诱发疾病的微生物有帮助。"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_crp",
-        "name": "C反应蛋白",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "急性期可有白细胞增高，红细胞沉降率(ESR)增快，C反应蛋白(CRP)升高。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_wbc",
@@ -382,9 +268,42 @@
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "急性期可有白细胞增高，红细胞沉降率(ESR)增快，C反应蛋白(CRP)升高。"
+          "急性期可有白细胞增高"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "test_esr",
+        "name": "红细胞沉降率(ESR)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "红细胞沉降率(ESR)增快"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_crp",
+        "name": "C反应蛋白(CRP)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "C反应蛋白(CRP)升高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_complement",
+        "name": "补体水平",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "补体水平可以增高。"
+        ],
+        "confidence": 0.85
       },
       {
         "id": "test_hla_b27",
@@ -393,255 +312,282 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "HLA—B27检测：HLA—B27阳性与中轴关节病、心脏炎和眼色素膜炎相关，因此，该项检查对本病的诊断有辅助价值。同其他脊柱关节病一样，患者通常为类风湿因子(RF)阴性和抗核抗体阴性。"
+          "HLA—B27阳性与中轴关节病、心脏炎和眼色素膜炎相关"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_urine_culture",
-        "name": "尿培养",
+        "id": "test_rf",
+        "name": "类风湿因子(RF)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "有尿道炎症状者可作培养；有肠道症状时，大便培养对确定诱发疾病的微生物有帮助。"
+          "患者通常为类风湿因子(RF)阴性"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_stool_culture",
-        "name": "大便培养",
+        "id": "test_ana",
+        "name": "抗核抗体",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "有尿道炎症状者可作培养；有肠道症状时，大便培养对确定诱发疾病的微生物有帮助。"
+          "和抗核抗体阴性。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "test_radiology",
+        "name": "放射学检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "放射学检查并非诊断的必要条件，但是对于患者的评价仍非常重要。"
+        ],
+        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_general_principle",
-        "content": "目前尚无特异性或根治性治疗方法，和其他炎性关节病一样，治疗目的在于控制和缓解疼痛，防止关节破坏，保护关节功能。",
-        "recommendation_strength": "unknown",
-        "source_section": "治疗方案及原则",
+        "id": "treatment_general",
+        "content": "口腔与生殖器黏膜溃疡多能自发缓解无需治疗。急性关节炎可卧床休息，但应避免固定关节夹板以免引起纤维强直和肌肉萎缩。当急性炎症症状缓解后，应尽早开始关节功能锻炼。",
+        "recommendation_strength": "strong",
+        "source_section": "一般治疗",
         "evidence_ids": [
-          "目前尚无特异性或根治性治疗方法，和其他炎性关节病一样，治疗目的在于控制和缓解疼痛，防止关节破坏，保护关节功能。"
+          "口腔与生殖器黏膜溃疡多能自发缓解无需治疗。急性关节炎可卧床休息，但应避免固定关节夹板以免引起纤维强直和肌肉萎缩。当急性炎症症状缓解后，应尽早开始关节功能锻炼。"
         ],
         "confidence": 0.95
       },
       {
         "id": "treatment_nsaids",
-        "content": "非甾体抗炎药(NSAIDs)：本类药物种类繁多，但疗效大致相当，具体选用因人而异，可减轻关节肿胀和疼痛及增加活动范围，是早期或晚期患者症状治疗的首选。",
+        "content": "本类药物种类繁多，但疗效大致相当，具体选用因人而异，可减轻关节肿胀和疼痛及增加活动范围，是早期或晚期患者症状治疗的首选。",
         "recommendation_strength": "strong",
-        "source_section": "治疗方案及原则",
+        "source_section": "非甾体抗炎药(NSAIDs)",
         "evidence_ids": [
-          "非甾体抗炎药(NSAIDs)：本类药物种类繁多，但疗效大致相当，具体选用因人而异，可减轻关节肿胀和疼痛及增加活动范围，是早期或晚期患者症状治疗的首选。"
+          "本类药物种类繁多，但疗效大致相当，具体选用因人而异，可减轻关节肿胀和疼痛及增加活动范围，是早期或晚期患者症状治疗的首选。"
         ],
         "confidence": 0.95
       },
       {
         "id": "treatment_antibiotics",
-        "content": "抗生素的治疗仍有争议。对于获得性ReA，短期使用抗生素(氧氟沙星或大环内酯类抗生素)治疗并发的尿道感染可能减少有ReA病史患者的关节炎复发的风险，但是对已有的关节炎本身是否有益尚缺乏证据，另外也不推荐长期抗生素治疗慢性ReA。而对于肠道型ReA，抗生素治疗常常是无效的，并不推荐于ReA发生之后使用。",
+        "content": "对于获得性ReA，短期使用抗生素(氧氟沙星或大环内酯类抗生素)治疗并发的尿道感染可能减少有ReA病史患者的关节炎复发的风险...不推荐长期抗生素治疗慢性 ReA。而对于肠道型 ReA，抗生素治疗常常是无效的，并不推荐于ReA发生之后使用。",
         "recommendation_strength": "weak",
-        "source_section": "治疗方案及原则",
+        "source_section": "抗生素",
         "evidence_ids": [
-          "抗生素的治疗仍有争议。对于获得性ReA，短期使用抗生素(氧氟沙星或大环内酯类抗生素)治疗并发的尿道感染可能减少有ReA病史患者的关节炎复发的风险，但是对已有的关节炎本身是否有益尚缺乏证据，另外也不推荐长期抗生素治疗慢性ReA。而对于肠道型ReA，抗生素治疗常常是无效的，并不推荐于ReA发生之后使用。"
+          "对于获得性ReA，短期使用抗生素(氧氟沙星或大环内酯类抗生素)治疗并发的尿道感染可能减少有ReA病史患者的关节炎复发的风险",
+          "不推荐长期抗生素治疗慢性 ReA。而对于肠道型 ReA，抗生素治疗常常是无效的，并不推荐于ReA发生之后使用。"
         ],
         "confidence": 0.9
       },
       {
         "id": "treatment_glucocorticoids",
-        "content": "对NSAIDs不能缓解症状的个别患者可短期使用糖皮质激素，但口服治疗既不能阻止本病的发展，还会因长期治疗带来不良反应。外用糖皮质激素和角质溶解剂对溢脓性皮肤角化症有用。关节内注射糖皮质激素可暂时缓解膝关节和其他关节的肿胀。对足底筋膜或跟腱滑囊引起的疼痛和压痛可局部注射糖皮质激素治疗，使踝关节早日活动以免跟腱变短和纤维强直。",
+        "content": "对NSAIDs不能缓解症状的个别患者可短期使用糖皮质激素...外用糖皮质激素和角质溶解剂对溢脓性皮肤角化症有用。关节内注射糖皮质激素可暂时缓解膝关节和其他关节的肿胀。",
         "recommendation_strength": "weak",
-        "source_section": "治疗方案及原则",
+        "source_section": "糖皮质激素",
         "evidence_ids": [
-          "对NSAIDs不能缓解症状的个别患者可短期使用糖皮质激素，但口服治疗既不能阻止本病的发展，还会因长期治疗带来不良反应。外用糖皮质激素和角质溶解剂对溢脓性皮肤角化症有用。关节内注射糖皮质激素可暂时缓解膝关节和其他关节的肿胀。对足底筋膜或跟腱滑囊引起的疼痛和压痛可局部注射糖皮质激素治疗，使踝关节早日活动以免跟腱变短和纤维强直。"
+          "对NSAIDs不能缓解症状的个别患者可短期使用糖皮质激素",
+          "外用糖皮质激素和角质溶解剂对溢脓性皮肤角化症有用。关节内注射糖皮质激素可暂时缓解膝关节和其他关节的肿胀。"
         ],
         "confidence": 0.9
       },
       {
         "id": "treatment_dmards",
-        "content": "当NSAIDs不能控制关节炎，关节症状持续3个月以上或存在关节破坏的证据时，可加用慢作用抗风湿药，应用最广泛的是柳氮磺吡啶，对于重症不缓解的ReA可试用甲氨蝶呤和硫唑嘌呤等免疫抑制剂。",
-        "recommendation_strength": "weak",
-        "source_section": "治疗方案及原则",
+        "content": "当NSAIDs不能控制关节炎，关节症状持续3个月以上或存在关节破坏的证据时，可加用慢作用抗风湿药",
+        "recommendation_strength": "strong",
+        "source_section": "慢作用抗风湿药",
         "evidence_ids": [
-          "当NSAIDs不能控制关节炎，关节症状持续3个月以上或存在关节破坏的证据时，可加用慢作用抗风湿药，应用最广泛的是柳氮磺吡啶，对于重症不缓解的ReA可试用甲氨蝶呤和硫唑嘌呤等免疫抑制剂。"
+          "当NSAIDs不能控制关节炎，关节症状持续3个月以上或存在关节破坏的证据时，可加用慢作用抗风湿药"
         ],
         "confidence": 0.9
+      },
+      {
+        "id": "treatment_biologics",
+        "content": "肿瘤坏死因子(TNF)抑制剂已经成功地用于治疗其他类型的脊柱关节病...但对ReA尚缺乏随机对照的研究验证其有效性和安全性。",
+        "recommendation_strength": "weak",
+        "source_section": "生物制剂",
+        "evidence_ids": [
+          "肿瘤坏死因子(TNF)抑制剂已经成功地用于治疗其他类型的脊柱关节病",
+          "但对ReA尚缺乏随机对照的研究验证其有效性和安全性。"
+        ],
+        "confidence": 0.85
       }
     ],
     "plans": [
       {
-        "id": "plan_nsaids_first_line",
-        "content": "非甾体抗炎药(NSAIDs)：本类药物种类繁多，但疗效大致相当，具体选用因人而异，可减轻关节肿胀和疼痛及增加活动范围，是早期或晚期患者症状治疗的首选。",
+        "id": "plan_rest",
+        "content": "急性关节炎可卧床休息，但应避免固定关节夹板以免引起纤维强直和肌肉萎缩。",
         "plan_level": 1,
-        "applicable_condition": "早期或晚期患者症状治疗",
-        "contraindication_note": "具体用法与不良反应可参考强直性脊柱炎用药。",
+        "applicable_condition": "急性关节炎发作期",
+        "contraindication_note": "避免固定关节夹板以免引起纤维强直和肌肉萎缩",
         "evidence_ids": [
-          "非甾体抗炎药(NSAIDs)：本类药物种类繁多，但疗效大致相当，具体选用因人而异，可减轻关节肿胀和疼痛及增加活动范围，是早期或晚期患者症状治疗的首选。"
+          "急性关节炎可卧床休息，但应避免固定关节夹板以免引起纤维强直和肌肉萎缩。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_antibiotics_short_term",
+        "id": "plan_exercise",
+        "content": "当急性炎症症状缓解后，应尽早开始关节功能锻炼。",
+        "plan_level": 1,
+        "applicable_condition": "急性炎症症状缓解后",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "当急性炎症症状缓解后，应尽早开始关节功能锻炼。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ofloxacin",
         "content": "短期使用抗生素(氧氟沙星或大环内酯类抗生素)治疗并发的尿道感染",
         "plan_level": 2,
         "applicable_condition": "获得性ReA并发尿道感染",
-        "contraindication_note": "不推荐长期抗生素治疗慢性ReA；肠道型ReA不推荐ReA发生后使用。",
+        "contraindication_note": "不推荐长期抗生素治疗慢性 ReA",
         "evidence_ids": [
-          "对于获得性ReA，短期使用抗生素(氧氟沙星或大环内酯类抗生素)治疗并发的尿道感染可能减少有ReA病史患者的关节炎复发的风险"
+          "短期使用抗生素(氧氟沙星或大环内酯类抗生素)治疗并发的尿道感染"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_intraarticular_gcs",
-        "content": "关节内注射糖皮质激素可暂时缓解膝关节和其他关节的肿胀。",
-        "plan_level": 3,
-        "applicable_condition": "NSAIDs不能缓解症状的个别患者",
-        "contraindication_note": "必须注意避免直接跟腱内注射，这样会引起跟腱断裂。",
+        "id": "plan_macrolides",
+        "content": "短期使用大环内酯类抗生素治疗并发的尿道感染",
+        "plan_level": 2,
+        "applicable_condition": "获得性ReA并发尿道感染",
+        "contraindication_note": "不推荐长期抗生素治疗慢性 ReA",
         "evidence_ids": [
-          "关节内注射糖皮质激素可暂时缓解膝关节和其他关节的肿胀。"
+          "短期使用抗生素(氧氟沙星或大环内酯类抗生素)治疗并发的尿道感染"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_local_gcs_injection",
-        "content": "对足底筋膜或跟腱滑囊引起的疼痛和压痛可局部注射糖皮质激素治疗，使踝关节早日活动以免跟腱变短和纤维强直。",
-        "plan_level": 3,
-        "applicable_condition": "足底筋膜或跟腱滑囊引起的疼痛和压痛",
-        "contraindication_note": "必须注意避免直接跟腱内注射，这样会引起跟腱断裂。",
-        "evidence_ids": [
-          "对足底筋膜或跟腱滑囊引起的疼痛和压痛可局部注射糖皮质激素治疗，使踝关节早日活动以免跟腱变短和纤维强直。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_sulfasalazine",
+        "id": "plan_sasp",
         "content": "应用最广泛的是柳氮磺吡啶",
-        "plan_level": 4,
-        "applicable_condition": "NSAIDs不能控制关节炎，关节症状持续3个月以上或存在关节破坏的证据",
-        "contraindication_note": "具体用法与不良反应可参考强直性脊柱炎用药。",
+        "plan_level": 3,
+        "applicable_condition": "NSAIDs不能控制关节炎，关节症状持续3个月以上或存在关节破坏的证据时",
+        "contraindication_note": null,
         "evidence_ids": [
-          "当NSAIDs不能控制关节炎，关节症状持续3个月以上或存在关节破坏的证据时，可加用慢作用抗风湿药，应用最广泛的是柳氮磺吡啶"
+          "应用最广泛的是柳氮磺吡啶"
         ],
         "confidence": 0.9
+      },
+      {
+        "id": "plan_mtx",
+        "content": "对于重症不缓解的ReA可试用甲氨蝶呤",
+        "plan_level": 3,
+        "applicable_condition": "重症不缓解的ReA",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于重症不缓解的ReA可试用甲氨蝶呤和硫唑嘌呤等免疫抑制剂。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "plan_azathioprine",
+        "content": "对于重症不缓解的ReA可试用硫唑嘌呤等免疫抑制剂",
+        "plan_level": 3,
+        "applicable_condition": "重症不缓解的ReA",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于重症不缓解的ReA可试用甲氨蝶呤和硫唑嘌呤等免疫抑制剂。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "plan_tnf_inhibitors",
+        "content": "重组人Ⅱ型肿瘤坏死因子受体一抗体融合蛋白和肿瘤坏死因子单克隆抗体",
+        "plan_level": 4,
+        "applicable_condition": "其他治疗无效的难治性ReA（缺乏随机对照研究验证）",
+        "contraindication_note": "对ReA尚缺乏随机对照的研究验证其有效性和安全性",
+        "evidence_ids": [
+          "目前国内此类药物有2种：重组人Ⅱ型肿瘤坏死因子受体一抗体融合蛋白和肿瘤坏死因子单克隆抗体"
+        ],
+        "confidence": 0.8
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_chlamydia",
-        "content": "衣原体感染",
+        "id": "etiology_chlamydia_mycoplasma",
+        "content": "衣原体或支原体感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "前者主要见于20～40岁男性，因衣原体或支原体感染泌尿生殖系统后发生。"
+          "因衣原体或支原体感染泌尿生殖系统后发生。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_mycoplasma",
-        "content": "支原体感染",
+        "id": "etiology_gram_negative_bacilli",
+        "content": "革兰阴性杆菌感染（志贺菌属、沙门菌属、耶尔森菌属及弯曲杆菌属等）",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "前者主要见于20～40岁男性，因衣原体或支原体感染泌尿生殖系统后发生。"
+          "肠道感染菌多为革兰阴性杆菌，包括志贺菌属、沙门菌属、耶尔森菌属及弯曲杆菌属等。"
         ],
         "confidence": 0.95
-      },
-      {
-        "id": "etiology_shigella",
-        "content": "志贺菌属感染",
-        "etiology_type": "感染因素",
-        "typicality": "common",
-        "diagnostic_role": "支持证据",
-        "evidence_ids": [
-          "后者男女发病率基本相等，肠道感染菌多为革兰阴性杆菌，包括志贺菌属、沙门菌属、耶尔森菌属及弯曲杆菌属等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_salmonella",
-        "content": "沙门菌属感染",
-        "etiology_type": "感染因素",
-        "typicality": "common",
-        "diagnostic_role": "支持证据",
-        "evidence_ids": [
-          "后者男女发病率基本相等，肠道感染菌多为革兰阴性杆菌，包括志贺菌属、沙门菌属、耶尔森菌属及弯曲杆菌属等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_yersinia",
-        "content": "耶尔森菌属感染",
-        "etiology_type": "感染因素",
-        "typicality": "common",
-        "diagnostic_role": "支持证据",
-        "evidence_ids": [
-          "后者男女发病率基本相等，肠道感染菌多为革兰阴性杆菌，包括志贺菌属、沙门菌属、耶尔森菌属及弯曲杆菌属等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_campylobacter",
-        "content": "弯曲杆菌属感染",
-        "etiology_type": "感染因素",
-        "typicality": "common",
-        "diagnostic_role": "支持证据",
-        "evidence_ids": [
-          "后者男女发病率基本相等，肠道感染菌多为革兰阴性杆菌，包括志贺菌属、沙门菌属、耶尔森菌属及弯曲杆菌属等。"
-        ],
-        "confidence": 0.9
       },
       {
         "id": "etiology_hla_b27",
-        "content": "HLA-B27阳性",
-        "etiology_type": "遗传标记",
-        "typicality": "typical",
-        "diagnostic_role": "支持证据",
+        "content": "遗传标记(HLA-B27)",
+        "etiology_type": "遗传因素",
+        "typicality": "典型",
+        "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "ReA的发病与感染、遗传标记(HLA—B27)和免疫失调有关。"
+          "ReA的发病与感染、遗传标记(HI A—B27)和免疫失调有关。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_immune_dysregulation",
+        "content": "免疫失调",
+        "etiology_type": "自身免疫因素",
+        "typicality": "典型",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "ReA的发病与感染、遗传标记(HI A—B27)和免疫失调有关。"
+        ],
+        "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_infection_genetic_immunodysregulation",
-        "content": "ReA的发病与感染、遗传标记(HLA—B27)和免疫失调有关。",
+        "id": "pathogenesis_synovitis",
+        "content": "滑膜的病理改变为非特异性炎症，韧带及关节囊附着点的炎症性病变是 ReA病变活动的常见部位。",
         "evidence_ids": [
-          "ReA的发病与感染、遗传标记(HLA—B27)和免疫失调有关。"
+          "滑膜的病理改变为非特异性炎症，韧带及关节囊附着点的炎症性病变是 ReA病变活动的常见部位。"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "pathogenesis_enthesitis",
-        "content": "滑膜的病理改变为非特异性炎症，韧带及关节囊附着点的炎症性病变是ReA病变活动的常见部位。",
-        "evidence_ids": [
-          "滑膜的病理改变为非特异性炎症，韧带及关节囊附着点的炎症性病变是ReA病变活动的常见部位。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_reactive_arthritis",
+        "from": "disease_rea",
+        "to": "sub_disease_rea_default",
+        "relation_id": "rel_rea_has_default",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "反应性关节炎(reactive arthritis，ReA)是一种发生于某些特定部位(如肠道和泌尿生殖道)感染之后而出现的关节炎。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_rea",
         "to": "sub_disease_rea_sexually_transmitted",
         "relation_id": "rel_rea_has_sexually_transmitted",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "本病有2种起病形式：性传播型和肠道型。前者主要见于20～40岁男性，因衣原体或支原体感染泌尿生殖系统后发生。"
+          "本病有2种起病形式：性传播型和肠道 。前者主要见于20～40岁男性，因衣原体或支原体感染泌尿生殖系统后发生。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "disease_reactive_arthritis",
+        "from": "disease_rea",
         "to": "sub_disease_rea_enteric",
         "relation_id": "rel_rea_has_enteric",
         "relation_name": "包含分型",
@@ -649,120 +595,129 @@
         "evidence_ids": [
           "后者男女发病率基本相等，肠道感染菌多为革兰阴性杆菌，包括志贺菌属、沙门菌属、耶尔森菌属及弯曲杆菌属等。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_rea_sexually_transmitted",
-        "to": "symptom_urethritis",
-        "relation_id": "rel_rea_sexual_manifests_as_urethritis",
+        "from": "sub_disease_rea_default",
+        "to": "symptom_fever",
+        "relation_id": "rel_rea_manifests_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
-        "duration_condition": "感染后7～14 d",
+        "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "典型患者是在性接触或痢疾后7～14 d发生无菌性尿道炎。"
+          "一般在感染后数周出现发热"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将‘性传播型ReA’与‘无菌性尿道炎’直接关联，且描述为‘典型患者是在性接触……后7～14 d发生无菌性尿道炎’，属该亚型的标志性首发表现",
-        "evidence": "典型患者是在性接触或痢疾后7～14d发生无菌性尿道炎。"
+        "confidence": 0.9,
+        "weight_reason": "原文明确提及热型为中至高热，为常见全身症状",
+        "evidence": "热型为中至高热"
       },
       {
-        "from": "sub_disease_rea_enteric",
-        "to": "symptom_diarrhea",
-        "relation_id": "rel_rea_enteric_manifests_as_diarrhea",
+        "from": "sub_disease_rea_default",
+        "to": "symptom_acute_arthritis",
+        "relation_id": "rel_rea_manifests_acute_arthritis",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
-        "duration_condition": "感染后7～14 d",
+        "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "典型患者是在性接触或痢疾后7～14 d发生无菌性尿道炎。"
+          "首发症状以急性关节炎多见"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将‘肠道型ReA’与‘腹泻’并列作为前驱感染证据，且在诊断标准中规定‘如果4周前有临床典型的腹泻或尿道炎，则实验室证据可有可无’，表明腹泻是该亚型的核心临床指征",
-        "evidence": "如果4周前有临床典型的腹泻或尿道炎，则实验室证据可有可无；"
+        "weight_reason": "原文指出首发症状以急性关节炎多见，属于强相关表现",
+        "evidence": "首发症状以急性关节炎多见"
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "symptom_sausage_digit",
+        "relation_id": "rel_rea_manifests_sausage_digit",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "呈现伴有关节周围炎症的腊肠样指(趾"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文提及呈现腊肠样指，为关节炎的典型表现",
+        "evidence": "腊肠样指"
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "symptom_urethritis",
+        "relation_id": "rel_rea_manifests_urethritis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "发生无菌性尿道炎。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出典型患者发生无菌性尿道炎，属于强相关表现",
+        "evidence": "发生无菌性尿道炎"
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "symptom_conjunctivitis",
+        "relation_id": "rel_rea_manifests_conjunctivitis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "J／3的ReA患者可出现结膜炎"
+        ],
+        "confidence": 0.85
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_rea_sexually_transmitted",
-        "to": "test_urine_culture",
-        "relation_id": "rel_rea_sexual_requires_urine_culture",
+        "from": "sub_disease_rea_default",
+        "to": "test_pathogen_culture",
+        "relation_id": "rel_rea_requires_pathogen_culture",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断支持证据",
+        "type_info": "推荐诊断项",
         "diagnostic_role": "supportive",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "阳性",
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "common",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "有尿道炎症状者可作培养；有肠道症状时，大便培养对确定诱发疾病的微生物有帮助。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_rea_enteric",
-        "to": "test_stool_culture",
-        "relation_id": "rel_rea_enteric_requires_stool_culture",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断支持证据",
-        "diagnostic_role": "supportive",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 5,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "common",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "有尿道炎症状者可作培养；有肠道症状时，大便培养对确定诱发疾病的微生物有帮助。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_rea_sexually_transmitted",
-        "to": "test_hla_b27",
-        "relation_id": "rel_rea_requires_hla_b27",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断辅助证据",
-        "diagnostic_role": "supportive",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 3,
+        "result_text": "确定诱发疾病的微生物",
+        "weight": 7,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
@@ -771,35 +726,197 @@
         "section_priority": "实验室检查",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "HLA—B27检测：HLA—B27阳性与中轴关节病、心脏炎和眼色素膜炎相关，因此，该项检查对本病的诊断有辅助价值。"
+          "有尿道炎症状者可作培养；有肠道症状时，大便培养对确定诱发疾病的微生物有帮助。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9,
+        "weight_reason": "原文指出大便培养对确定微生物有帮助，非确诊必须",
+        "evidence": "大便培养对确定诱发疾病的微生物有帮助"
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "test_esr",
+        "relation_id": "rel_rea_requires_esr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "增快",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "红细胞沉降率(ESR)增快"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "test_crp",
+        "relation_id": "rel_rea_requires_crp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "升高",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "C反应蛋白(CRP)升高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "test_hla_b27",
+        "relation_id": "rel_rea_requires_hla_b27",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "HLA—B27阳性与中轴关节病、心脏炎和眼色素膜炎相关，因此，该项检查对本病的诊断有辅助价值。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出该检查对诊断有辅助价值，非金标准",
+        "evidence": "该项检查对本病的诊断有辅助价值"
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "test_rf",
+        "relation_id": "rel_rea_requires_rf",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "排除条件",
+        "diagnostic_role": "exclusion",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "阴性",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "negative",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "患者通常为类风湿因子(RF)阴性"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "test_ana",
+        "relation_id": "rel_rea_requires_ana",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "排除条件",
+        "diagnostic_role": "exclusion",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "阴性",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "negative",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "和抗核抗体阴性。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "test_radiology",
+        "relation_id": "rel_rea_requires_radiology",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "非对称的骨化、骨膜反应和骨侵蚀",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "放射学检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "炎症部位非对称的骨化是具有诊断价值的放射学特征。肌腱附着点特别是在跟腱、足底肌腱和筋膜处可见骨膜反应和骨侵蚀。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出放射学检查并非诊断的必要条件，但评价重要",
+        "evidence": "放射学检查并非诊断的必要条件"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_rea_sexually_transmitted",
-        "to": "treatment_nsaids",
-        "relation_id": "rel_rea_sexual_follows_nsaids",
+        "from": "sub_disease_rea_default",
+        "to": "treatment_general",
+        "relation_id": "rel_rea_follows_general",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "早期或晚期患者症状治疗",
+        "applicable_condition": "所有患者",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "症状"
+          "疾病分期"
         ],
-        "contraindication_note": "具体用法与不良反应可参考强直性脊柱炎用药。",
+        "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗方案及原则",
+        "source_section": "一般治疗",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_rea_enteric",
+        "from": "sub_disease_rea_default",
         "to": "treatment_nsaids",
-        "relation_id": "rel_rea_enteric_follows_nsaids",
+        "relation_id": "rel_rea_follows_nsaids",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
@@ -808,35 +925,211 @@
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "症状"
+          "症状严重程度"
         ],
-        "contraindication_note": "具体用法与不良反应可参考强直性脊柱炎用药。",
+        "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗方案及原则",
+        "source_section": "非甾体抗炎药(NSAIDs)",
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "treatment_antibiotics",
+        "relation_id": "rel_rea_follows_antibiotics",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "获得性ReA并发尿道感染",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "weak",
+        "decision_basis": [
+          "感染类型"
+        ],
+        "contraindication_note": "不推荐长期抗生素治疗慢性 ReA。肠道型 ReA不推荐使用",
+        "evidence_level": "expert_consensus",
+        "source_section": "抗生素",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "treatment_glucocorticoids",
+        "relation_id": "rel_rea_follows_glucocorticoids",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "NSAIDs不能缓解症状的个别患者",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "weak",
+        "decision_basis": [
+          "NSAIDs疗效"
+        ],
+        "contraindication_note": "口服治疗不能阻止本病发展，避免直接跟腱内注射",
+        "evidence_level": "expert_consensus",
+        "source_section": "糖皮质激素",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "treatment_dmards",
+        "relation_id": "rel_rea_follows_dmards",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "NSAIDs不能控制关节炎，关节症状持续3个月以上或存在关节破坏的证据时",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "NSAIDs疗效",
+          "病程",
+          "关节破坏证据"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "慢作用抗风湿药",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "treatment_biologics",
+        "relation_id": "rel_rea_follows_biologics",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "三线",
+        "applicable_condition": "难治性ReA",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "weak",
+        "decision_basis": [
+          "传统治疗疗效"
+        ],
+        "contraindication_note": "尚缺乏随机对照的研究验证其有效性和安全性",
+        "evidence_level": "expert_consensus",
+        "source_section": "生物制剂",
+        "confidence": 0.85
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_nsaids",
-        "to": "plan_nsaids_first_line",
-        "relation_id": "rel_nsaids_implements_by_plan",
+        "from": "treatment_general",
+        "to": "plan_rest",
+        "relation_id": "rel_general_implements_rest",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "早期或晚期患者症状治疗",
-        "contraindication_note": "具体用法与不良反应可参考强直性脊柱炎用药。",
+        "applicable_condition": "急性关节炎发作期",
+        "contraindication_note": "避免固定关节夹板",
         "evidence_ids": [
-          "非甾体抗炎药(NSAIDs)：本类药物种类繁多，但疗效大致相当，具体选用因人而异，可减轻关节肿胀和疼痛及增加活动范围，是早期或晚期患者症状治疗的首选。"
+          "急性关节炎可卧床休息，但应避免固定关节夹板以免引起纤维强直和肌肉萎缩。"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "treatment_general",
+        "to": "plan_exercise",
+        "relation_id": "rel_general_implements_exercise",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "急性炎症症状缓解后",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "当急性炎症症状缓解后，应尽早开始关节功能锻炼。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antibiotics",
+        "to": "plan_ofloxacin",
+        "relation_id": "rel_antibiotics_implements_ofloxacin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "获得性ReA并发尿道感染",
+        "contraindication_note": "不推荐长期使用",
+        "evidence_ids": [
+          "短期使用抗生素(氧氟沙星或大环内酯类抗生素)治疗并发的尿道感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antibiotics",
+        "to": "plan_macrolides",
+        "relation_id": "rel_antibiotics_implements_macrolides",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "获得性ReA并发尿道感染",
+        "contraindication_note": "不推荐长期使用",
+        "evidence_ids": [
+          "短期使用抗生素(氧氟沙星或大环内酯类抗生素)治疗并发的尿道感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_dmards",
+        "to": "plan_sasp",
+        "relation_id": "rel_dmards_implements_sasp",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "NSAIDs不能控制关节炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "应用最广泛的是柳氮磺吡啶"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_dmards",
+        "to": "plan_mtx",
+        "relation_id": "rel_dmards_implements_mtx",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "重症不缓解的ReA",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于重症不缓解的ReA可试用甲氨蝶呤和硫唑嘌呤等免疫抑制剂。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "treatment_dmards",
+        "to": "plan_azathioprine",
+        "relation_id": "rel_dmards_implements_azathioprine",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "重症不缓解的ReA",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于重症不缓解的ReA可试用甲氨蝶呤和硫唑嘌呤等免疫抑制剂。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "treatment_biologics",
+        "to": "plan_tnf_inhibitors",
+        "relation_id": "rel_biologics_implements_tnf",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "补救",
+        "applicable_condition": "其他治疗无效的难治性ReA",
+        "contraindication_note": "缺乏随机对照研究验证",
+        "evidence_ids": [
+          "目前国内此类药物有2种：重组人Ⅱ型肿瘤坏死因子受体一抗体融合蛋白和肿瘤坏死因子单克隆抗体"
+        ],
+        "confidence": 0.8
       }
     ],
     "causes": [
       {
         "from": "sub_disease_rea_sexually_transmitted",
-        "to": "etiology_chlamydia",
-        "relation_id": "rel_rea_sexual_caused_by_chlamydia",
+        "to": "etiology_chlamydia_mycoplasma",
+        "relation_id": "rel_sexually_transmitted_causes_chlamydia",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -844,14 +1137,14 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "前者主要见于20～40岁男性，因衣原体或支原体感染泌尿生殖系统后发生。"
+          "因衣原体或支原体感染泌尿生殖系统后发生。"
         ],
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_rea_sexually_transmitted",
-        "to": "etiology_mycoplasma",
-        "relation_id": "rel_rea_sexual_caused_by_mycoplasma",
+        "from": "sub_disease_rea_enteric",
+        "to": "etiology_gram_negative_bacilli",
+        "relation_id": "rel_enteric_causes_gram_negative",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -859,22 +1152,52 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "前者主要见于20～40岁男性，因衣原体或支原体感染泌尿生殖系统后发生。"
+          "肠道感染菌多为革兰阴性杆菌，包括志贺菌属、沙门菌属、耶尔森菌属及弯曲杆菌属等。"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "etiology_hla_b27",
+        "relation_id": "rel_default_causes_hla_b27",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "ReA的发病与感染、遗传标记(HI A—B27)和免疫失调有关。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_rea_default",
+        "to": "etiology_immune_dysregulation",
+        "relation_id": "rel_default_causes_immune",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "ReA的发病与感染、遗传标记(HI A—B27)和免疫失调有关。"
+        ],
+        "confidence": 0.9
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_rea_sexually_transmitted",
-        "to": "pathogenesis_infection_genetic_immunodysregulation",
-        "relation_id": "rel_rea_sexual_explained_by_pathogenesis",
+        "from": "sub_disease_rea_default",
+        "to": "pathogenesis_synovitis",
+        "relation_id": "rel_default_explained_synovitis",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "ReA的发病与感染、遗传标记(HLA—B27)和免疫失调有关。"
+          "滑膜的病理改变为非特异性炎症，韧带及关节囊附着点的炎症性病变是 ReA病变活动的常见部位。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ]
   },

@@ -2,7 +2,7 @@
   "meta": {
     "doc_id": "中国铜绿假单胞菌下呼吸道感染诊治专家共识（2022年版）",
     "source_title": "中国铜绿假单胞菌下呼吸道感染诊治专家共识（2022年版）",
-    "section_path": "",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -11,12 +11,12 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_pa_lower_respiratory_tract_infection",
+        "id": "disease_pa_lrti",
         "name": "铜绿假单胞菌下呼吸道感染",
         "normalized_name": "铜绿假单胞菌下呼吸道感染",
         "aliases": [
           "PA下呼吸道感染",
-          "Pseudomonas aeruginosa下呼吸道感染"
+          "铜绿假单胞菌肺部感染"
         ],
         "source_document_ids": [
           "中国铜绿假单胞菌下呼吸道感染诊治专家共识（2022年版）"
@@ -29,130 +29,83 @@
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "name": "急性铜绿假单胞菌下呼吸道感染",
-        "parent_disease_id": "disease_pa_lower_respiratory_tract_infection",
-        "disease_subtype": null,
+        "id": "sub_disease_pa_acute_lrti",
+        "name": "PA急性下呼吸道感染",
+        "parent_disease_id": "disease_pa_lrti",
+        "disease_subtype": "急性感染",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "不限定",
+        "population": "成人",
         "gender": "all",
-        "age_min": null,
+        "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "PA causes both acute and chronic LRTIs. Acute LRTIs mainly include pneumonia (CAP, HAP and ventilator‑associated pneumonia), tracheobronchitis, lung abscess and empyema."
+          "PA既可引起急性下呼吸道感染，也可引起慢性下呼吸道感染。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_pa_chronic_lrti",
+        "name": "PA慢性下呼吸道感染",
+        "parent_disease_id": "disease_pa_lrti",
+        "disease_subtype": "慢性感染",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "结构性肺病患者",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "PA既可引起急性下呼吸道感染，也可引起慢性下呼吸道感染。",
+          "慢性下呼吸道感染对患者的急性加重、肺功能下降、医疗费用支出、生活质量、甚至病死率造成不同程度的不利影响"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_mdr_pa_lrti",
+        "name": "MDR-PA下呼吸道感染",
+        "parent_disease_id": "disease_pa_lrti",
+        "disease_subtype": "多重耐药菌感染",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "由多重耐药PA（multidrug resistant P aeruginosa，MDR‑PA）引起的下呼吸道感染病死率高，治疗困难。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_pa_chronic_lower_respiratory_tract_infection",
-        "name": "慢性铜绿假单胞菌下呼吸道感染",
-        "parent_disease_id": "disease_pa_lower_respiratory_tract_infection",
-        "disease_subtype": null,
+        "id": "sub_disease_crpa_lrti",
+        "name": "CRPA下呼吸道感染",
+        "parent_disease_id": "disease_pa_lrti",
+        "disease_subtype": "碳青霉烯类耐药菌感染",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "结构性肺病患者、免疫功能低下患者等高危人群",
+        "severity": "重症",
+        "population": "成人",
         "gender": "all",
-        "age_min": null,
+        "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "The diagnosis of chronic LRTIs should be based on a comprehensive assessment of (1) underlying chronic structural lung diseases, such as bronchiectasis, cystic fibrosis, COPD, or immunocompromised conditions; (2) the presence of clinical manifestations of LRTIs; and (3) ≥2 times (at least 3 months apart) of PA detected from eligible lower respiratory tract specimens within 1 year."
+          "CRPA是指对亚胺培南、美罗培南或多利培南任何一种碳青霉烯类耐药的PA。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_pa_cap",
-        "name": "铜绿假单胞菌社区获得性肺炎",
-        "parent_disease_id": "disease_pa_lower_respiratory_tract_infection",
-        "disease_subtype": null,
+        "id": "sub_disease_dtr_pa_lrti",
+        "name": "DTR-PA下呼吸道感染",
+        "parent_disease_id": "disease_pa_lrti",
+        "disease_subtype": "难治性耐药菌感染",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": "重症",
+        "population": "成人",
         "gender": "all",
-        "age_min": null,
+        "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "PA accounted for 67.0% of CAP in patients with a history of PA infection, bronchiectasis, very severe chronic obstructive pulmonary disease (COPD) or tracheotomy."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_pa_hap",
-        "name": "铜绿假单胞菌医院获得性肺炎",
-        "parent_disease_id": "disease_pa_lower_respiratory_tract_infection",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "住院患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "Pseudomonas aeruginosa (PA) is the second common Gram‑negative bacterium for hospital acquired pneumonia (HAP) in China (16.9%–22.0%)."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_pa_vap",
-        "name": "铜绿假单胞菌呼吸机相关性肺炎",
-        "parent_disease_id": "disease_pa_lower_respiratory_tract_infection",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "机械通气患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "PA accounted for 67.0% of CAP in patients with a history of PA infection, bronchiectasis, very severe chronic obstructive pulmonary disease (COPD) or tracheotomy."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_pa_mdr_pa_infection",
-        "name": "多重耐药铜绿假单胞菌感染",
-        "parent_disease_id": "disease_pa_lower_respiratory_tract_infection",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "具有多重耐药危险因素者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "For patients with a serious condition such as sepsis or with risk factors for multidrug‑resistant (MDR) PA, a combination of two different classes of antimicrobial drugs that are both potentially susceptible should be used."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_pa_crpa_infection",
-        "name": "碳青霉烯类耐药铜绿假单胞菌感染",
-        "parent_disease_id": "disease_pa_lower_respiratory_tract_infection",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "具有碳青霉烯类耐药危险因素者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "For LRTIs caused by carbapenem‑resistant PA (CRPA) or difficult‑to‑treat resistance PA (DTR‑PA), if an agent of new enzyme inhibitor, such as ceftolozane/tazobactam, ceftazidime/avibactam, and imipenem/cilastatin/relebactam shows in vitro sensitivity, it is recommended as the first‑line choice; cefiderocol may serve as the second‑line treatment."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_pa_dtr_pa_infection",
-        "name": "难治性耐药铜绿假单胞菌感染",
-        "parent_disease_id": "disease_pa_lower_respiratory_tract_infection",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "对多种抗菌药物不敏感者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "Difficult‑to‑treat resistance PA (DTR‑PA) is defined as PA non‑susceptible to all of the following agents: piperacillin/tazobactam, ceftazidime, cefepime, aztreonam, meropenem, imipenem, ciprofloxacin and levofloxacin."
+          "“难治”耐药性PA（difficult‑to‑treat resistance PA，DTR‑PA），即对以下所有药物不敏感的PA：哌拉西林/他唑巴坦、头孢他啶、头孢吡肟、氨曲南、美罗培南、亚胺培南、环丙沙星和左氧氟沙星。"
         ],
         "confidence": 0.9
       }
@@ -166,57 +119,57 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "Clinical manifestation [1,25‑26]: includes pneumonia (CAP, HAP and VAP), tracheobronchitis, lung abscess and empyema. ... often表现为 acute fever, cough, sputum production, dyspnea"
+          "常表现为急性发热、咳嗽、咳痰、气促"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_cough",
         "name": "咳嗽",
-        "body_site": "呼吸系统",
+        "body_site": "呼吸道",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "Clinical manifestation [1,25‑26]: includes pneumonia (CAP, HAP and VAP), tracheobronchitis, lung abscess and empyema. ... often表现为 acute fever, cough, sputum production, dyspnea"
+          "常表现为急性发热、咳嗽、咳痰、气促"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_sputum_production",
-        "name": "咳痰",
-        "body_site": "呼吸系统",
+        "id": "symptom_purulent_sputum",
+        "name": "咳黄绿色脓性痰",
+        "body_site": "呼吸道",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
-          "Clinical manifestation [1,25‑26]: includes pneumonia (CAP, HAP and VAP), tracheobronchitis, lung abscess and empyema. ... often表现为 acute fever, cough, sputum production, dyspnea"
+          "当患者咯黄绿色脓性痰时要警惕PA感染可能。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "symptom_dyspnea",
         "name": "气促",
-        "body_site": "呼吸系统",
+        "body_site": "呼吸道",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "Clinical manifestation [1,25‑26]: includes pneumonia (CAP, HAP and VAP), tracheobronchitis, lung abscess and empyema. ... often表现为 acute fever, cough, sputum production, dyspnea"
+          "常表现为急性发热、咳嗽、咳痰、气促"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_hemoptysis",
         "name": "咯血",
-        "body_site": "呼吸系统",
+        "body_site": "呼吸道",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "rare",
         "evidence_ids": [
-          "Uncommon manifestations include hemoptysis and chest pain."
+          "不常见表现包括咯血和胸痛。"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
         "id": "symptom_chest_pain",
@@ -226,306 +179,418 @@
         "polarity": "present",
         "typicality": "rare",
         "evidence_ids": [
-          "Uncommon manifestations include hemoptysis and chest pain."
+          "不常见表现包括咯血和胸痛。"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_yellow_green_purulent_sputum",
-        "name": "黄绿色脓性痰",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "When patients expectorate yellow‑green purulent sputum, PA infection should be suspected."
-        ],
-        "confidence": 0.9
+        "confidence": 0.85
       }
     ],
     "tests": [
       {
-        "id": "test_pa_culture_from_lower_respiratory_specimen",
-        "name": "下呼吸道标本铜绿假单胞菌培养",
+        "id": "test_sputum_culture",
+        "name": "痰培养",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "The diagnosis of chronic LRTIs should be based on a comprehensive assessment of (1) underlying chronic structural lung diseases, such as bronchiectasis, cystic fibrosis, COPD, or immunocompromised conditions; (2) the presence of clinical manifestations of LRTIs; and (3) ≥2 times (at least 3 months apart) of PA detected from eligible lower respiratory tract specimens within 1 year."
+          "建议采用气管吸引、保护性毛刷和BALF标本，并及时送检。",
+          "呼吸道标本应尽量采用定量或半定量培养。"
         ],
         "confidence": 0.9
       },
       {
         "id": "test_balf_culture",
-        "name": "支气管肺泡灌洗液培养",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "Suggested specimens: bronchoalveolar lavage fluid (BALF)"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_tracheal_aspirate_culture",
-        "name": "气管吸引物培养",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "Suggested specimens: tracheal aspirate"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_protected_brush_culture",
-        "name": "保护性毛刷培养",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "Suggested specimens: protected brush"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_quantitative_culture_threshold",
-        "name": "定量培养阈值",
+        "name": "BALF培养",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "Quantitative culture positive means colony count reaches diagnostic threshold in bronchial aspirate (≥10⁵ CFU/ml), BALF (≥10⁴ CFU/ml), or protected brush specimen (≥10³ CFU/ml)."
+          "支气管肺泡灌洗液（BALF）标本分离菌中PA占第1位"
         ],
         "confidence": 0.9
+      },
+      {
+        "id": "test_blood_culture",
+        "name": "血培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "PA下呼吸道感染患者血培养阳性率较低，但对于肺部病灶广泛、病情危重、免疫缺陷、经验性治疗失败的患者，推荐在抗菌药物使用或更换前规范采集血液标本进行病原培养"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_wbc",
+        "name": "白细胞总数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "实验室检查常有白细胞总数和中性粒细胞数升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_crp",
+        "name": "C反应蛋白(CRP)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "C反应蛋白（CRP）和白细胞介素6（IL‑6）升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_pct",
+        "name": "降钙素原(PCT)",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "也可出现内毒素、降钙素原（PCT）和中性粒细胞CD64升高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_drug_susceptibility",
+        "name": "药敏试验",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "药物敏感性试验是PA耐药检测的常规方法，也是目标治疗的基础。",
+          "对下呼吸道标本培养到的PA推荐进行规范的常规药物敏感性实验"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_mngs",
+        "name": "mNGS",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "宏基因组二代测序（mNGS）在临床标本上测得的主动外排系统基因并不能反映真实的细菌耐药表型，临床不宜以此作为选择抗菌药物的依据。"
+        ],
+        "confidence": 0.85
       }
     ],
     "treatments": [
       {
-        "id": "treatment_pa_antimicrobial_therapy_principle",
-        "content": "治疗目标包括清除病原体、消除炎症、缓解症状和保护肺功能；治疗终点应基于患者的基础疾病、临床表现、实验室和影像学检查以及病原体检查等指标进行综合判断。",
+        "id": "treatment_eradicate_pathogen",
+        "content": "治疗目标：包括清除病原体、消除炎症、缓解症状和保护肺功能等。",
         "recommendation_strength": "strong",
         "source_section": "治疗原则",
         "evidence_ids": [
-          "Treatment target includes pathogen eradication, inflammation resolution, symptom relief and lung function protection. Treatment endpoint should be comprehensively judged based on patient's underlying disease, clinical manifestations, laboratory and imaging examinations, and pathogen testing."
+          "治疗目标：包括清除病原体、消除炎症、缓解症状和保护肺功能等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_empirical",
+        "content": "对于急性下呼吸道感染患者，如果病情危重或不能排除PA感染的可能，留取病原学检测标本后可以考虑实施覆盖PA的经验性抗菌治疗。",
+        "recommendation_strength": "strong",
+        "source_section": "抗菌药物的选择和合理使用",
+        "evidence_ids": [
+          "对于急性下呼吸道感染患者，如果病情危重或不能排除PA感染的可能（具有PA感染的高危因素），留取病原学检测标本后可以考虑实施覆盖PA的经验性抗菌治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_targeted",
+        "content": "诊断明确的PA下呼吸道感染应根据药敏检测结果选择药物。",
+        "recommendation_strength": "strong",
+        "source_section": "抗菌药物的选择和合理使用",
+        "evidence_ids": [
+          "诊断明确的PA下呼吸道感染应根据药敏检测结果选择药物。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_combination",
+        "content": "联合抗菌治疗主要用于危重症或具有MDR-PA危险因素的下呼吸道感染患者的经验性治疗，以及缺乏敏感治疗药物的耐药PA感染的目标治疗。",
+        "recommendation_strength": "strong",
+        "source_section": "合理应用联合抗菌治疗",
+        "evidence_ids": [
+          "联合抗菌治疗主要用于危重症或具有MDR‑PA危险因素的下呼吸道感染患者的经验性治疗，以及缺乏敏感治疗药物的耐药PA（如DTR‑PA）感染的目标治疗。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_inhaled",
+        "content": "吸入性治疗可能是静脉治疗的有效辅助方法，主要用于有结构性肺病变的PA慢性感染、VAP和肺移植术后。",
+        "recommendation_strength": "weak",
+        "source_section": "局部抗菌药物的合理使用",
+        "evidence_ids": [
+          "不建议常规使用吸入性抗菌药物治疗PA肺炎，但对于MDR‑PA所致感染，吸入性治疗可能是静脉治疗的有效辅助方法，主要用于有结构性肺病变的PA慢性感染、VAP和肺移植术后"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_pa_combination_therapy_indication",
-        "content": "对于重症患者或具有多重耐药危险因素者，推荐联合两种不同类别抗菌药物；对于无显著基础疾病的患者，推荐单药治疗。",
+        "id": "treatment_comprehensive",
+        "content": "重视气道廓清、改善氧合、营养支持和保护脏器功能等抗感染以外的综合治疗。",
         "recommendation_strength": "strong",
         "source_section": "治疗原则",
         "evidence_ids": [
-          "For patients with a serious condition such as sepsis or with risk factors for multidrug‑resistant (MDR) PA, a combination of two different classes of antimicrobial drugs that are both potentially susceptible should be used. For patients without significant underlying diseases, single therapy of an active antimicrobial with adequate pulmonary concentration is recommended rather than combination therapy."
+          "重视气道廓清、改善氧合、营养支持和保护脏器功能等抗感染以外的综合治疗。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "plans": [
       {
-        "id": "plan_ceftolozane_tazobactam_first_line_for_crpa",
-        "content": "对于碳青霉烯类耐药铜绿假单胞菌（CRPA）或难治性耐药铜绿假单胞菌（DTR‑PA）所致下呼吸道感染，若头孢洛扎/他唑巴坦、头孢他啶/阿维巴坦、亚胺培南/西司他丁/雷利巴坦等新型酶抑制剂复合制剂体外敏感，推荐作为一线选择。",
+        "id": "plan_pip_tazo",
+        "content": "哌拉西林/他唑巴坦，常用剂量为4.5 g，1次/6~8 h，静脉滴注。",
         "plan_level": 1,
-        "applicable_condition": "CRPA或DTR‑PA感染且体外药敏显示敏感",
-        "contraindication_note": null,
+        "applicable_condition": "PA感染的基础用药之一",
+        "contraindication_note": "主要不良反应为过敏反应、肠道菌群失调。",
         "evidence_ids": [
-          "For LRTIs caused by carbapenem‑resistant PA (CRPA) or difficult‑to‑treat resistance PA (DTR‑PA), if an agent of new enzyme inhibitor, such as ceftolozane/tazobactam, ceftazidime/avibactam, and imipenem/cilastatin/relebactam shows in vitro sensitivity, it is recommended as the first‑line choice; cefiderocol may serve as the second‑line treatment."
+          "其中最具代表性的药物是哌拉西林/他唑巴坦，具有较强的抗PA活性，是治疗PA感染的基础用药之一，常用剂量为4.5 g，1次/6~8 h，静脉滴注。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "plan_cefiderocol_second_line_for_crpa",
-        "content": "头孢地尔可作为碳青霉烯类耐药铜绿假单胞菌（CRPA）或难治性耐药铜绿假单胞菌（DTR‑PA）感染的二线治疗。",
+        "id": "plan_ceftazidime",
+        "content": "头孢他啶，2 g，1次/8 h，静脉滴注。",
+        "plan_level": 1,
+        "applicable_condition": "抗PA头孢菌素类",
+        "contraindication_note": "主要不良反应为过敏反应、肠道菌群失调、肝酶升高等。",
+        "evidence_ids": [
+          "头孢他啶，2 g，1次/8 h"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_meropenem",
+        "content": "美罗培南，1 g，1次/6~8 h，对DTR-PA感染可用至2 g，1次/8 h，输注时间>3 h。",
+        "plan_level": 1,
+        "applicable_condition": "抗PA碳青霉烯类",
+        "contraindication_note": "主要不良反应为肠道菌群失调。",
+        "evidence_ids": [
+          "美罗培南，1 g，1次/6~8 h，对DTR‑PA感染可用至2 g，1次/8 h，输注时间>3 h"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ciprofloxacin",
+        "content": "环丙沙星，常用方案为0.4 g，1次/8~12 h，静脉滴注。",
         "plan_level": 2,
-        "applicable_condition": "CRPA或DTR‑PA感染且一线药物不可及或不能耐受",
-        "contraindication_note": null,
+        "applicable_condition": "抗PA氟喹诺酮类",
+        "contraindication_note": "常见不良反应为胃肠道反应、神经系统反应、肝酶增高等。",
         "evidence_ids": [
-          "For LRTIs caused by carbapenem‑resistant PA (CRPA) or difficult‑to‑treat resistance PA (DTR‑PA), if an agent of new enzyme inhibitor, such as ceftolozane/tazobactam, ceftazidime/avibactam, and imipenem/cilastatin/relebactam shows in vitro sensitivity, it is recommended as the first‑line choice; cefiderocol may serve as the second‑line treatment."
+          "环丙沙星由于半衰期较短，同时日剂量单次给药会明显增加不良反应，故采用日剂量分2~3次给药，常用方案为0.4 g，1次/8~12 h，静脉滴注。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_levofloxacin",
+        "content": "左氧氟沙星，常用方案为0.5~0.75 g，1次/d，静脉滴注；重症感染可用至0.5 g，1次/12 h。",
+        "plan_level": 2,
+        "applicable_condition": "抗PA氟喹诺酮类",
+        "contraindication_note": "常见不良反应为胃肠道反应、神经系统反应、肝酶增高等。",
+        "evidence_ids": [
+          "左氧氟沙星因半衰期较长，推荐日剂量单次给药...常用方案为0.5~0.75 g，1次/d，静脉滴注；重症感染可用至0.5 g，1次/12 h，静脉滴注"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_amikacin",
+        "content": "阿米卡星，推荐的静脉应用剂量为15 mg/kg，1次/d。",
+        "plan_level": 3,
+        "applicable_condition": "氨基糖苷类，通常不作为肺炎单药治疗，联合雾化吸入有助于提高疗效。",
+        "contraindication_note": "常见不良反应为肾毒性与耳毒性。",
+        "evidence_ids": [
+          "通常推荐的静脉应用剂量阿米卡星为15 mg/kg，1次/d"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_polymyxin_based_combination_for_dtr_pa",
-        "content": "以多黏菌素类为基础的联合治疗可用于难治性耐药铜绿假单胞菌（DTR‑PA）感染。",
-        "plan_level": 3,
-        "applicable_condition": "DTR‑PA感染且缺乏敏感药物",
-        "contraindication_note": null,
+        "id": "plan_polymyxin_b",
+        "content": "硫酸多黏菌素B，负荷剂量2.0~2.5 mg/kg，维持剂量1.25~1.50 mg/kg，1次/12 h。",
+        "plan_level": 4,
+        "applicable_condition": "主要应用于XDR-PA、PDR-PA感染，需联合其他抗PA药物。",
+        "contraindication_note": "常见不良反应为肾毒性和神经系统反应。",
         "evidence_ids": [
-          "Combination therapy based on polymyxins may also be considered. Other potentially successful approaches for drug‑resistant PA LRTIs include extended infusion time of β‑lactams, combination therapy and inhaled antimicrobial therapy."
+          "硫酸多黏菌素B，负荷剂量2.0~2.5 mg/kg（相当于2.0万~2.5万U/kg），维持剂量1.25~1.50 mg/kg（相当于1.25万~1.50万U/kg），1次/12 h"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_colistin",
+        "content": "多黏菌素E甲磺酸钠，负荷剂量300 mg CBA，12~24 h后给予第1次维持剂量150~180 mg，1次/12 h。",
+        "plan_level": 4,
+        "applicable_condition": "主要应用于XDR-PA、PDR-PA感染，需联合其他抗PA药物。",
+        "contraindication_note": "常见不良反应为肾毒性和神经系统反应。",
+        "evidence_ids": [
+          "多黏菌素E甲磺酸钠，负荷剂量300 mg CBA（约900万U），12~24 h后给予第1次维持剂量150~180 mg（约450万~545万U），1次/12 h"
         ],
         "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_pa_infection",
-        "content": "铜绿假单胞菌感染",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "PA causes both acute and chronic LRTIs."
-        ],
-        "confidence": 0.9
-      },
-      {
         "id": "etiology_structural_lung_disease",
-        "content": "结构性肺病（如支气管扩张症、囊性纤维化、慢阻肺）",
+        "content": "结构性肺病（如支扩、CF、慢阻肺等）",
         "etiology_type": "基础疾病",
         "typicality": "common",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "(1) underlying chronic structural lung diseases, such as bronchiectasis, cystic fibrosis, COPD, or immunocompromised conditions"
+          "结构性肺病如支扩、慢阻肺、肺囊性纤维化（CF）患者是PA定植或感染的高危人群。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_immunodeficiency",
+        "content": "基础疾病或免疫缺陷，如恶性肿瘤、营养不良、外周血中性粒细胞<1.0×10^9/L、应用糖皮质激素或其他免疫抑制药物",
+        "etiology_type": "免疫因素",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "基础疾病或免疫缺陷，如恶性肿瘤、营养不良、外周血中性粒细胞<1.0×109/L、应用糖皮质激素（泼尼松>10 mg/d）或其他免疫抑制药物超过1周"
         ],
         "confidence": 0.9
       },
       {
-        "id": "etiology_immunocompromised_condition",
-        "content": "免疫功能低下状态",
-        "etiology_type": "基础疾病",
+        "id": "etiology_prior_pa_isolation",
+        "content": "既往有下呼吸道PA分离史",
+        "etiology_type": "感染史",
         "typicality": "common",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "(1) underlying chronic structural lung diseases, such as bronchiectasis, cystic fibrosis, COPD, or immunocompromised conditions"
+          "既往有下呼吸道PA分离史"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_broad_spectrum_antibiotics",
+        "content": "90 d内全身抗菌药物使用史",
+        "etiology_type": "用药史",
+        "typicality": "common",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "90 d内全身抗菌药物使用史"
         ],
         "confidence": 0.9
       },
       {
-        "id": "etiology_prior_pa_infection_history",
-        "content": "既往铜绿假单胞菌感染史",
-        "etiology_type": "危险因素",
+        "id": "etiology_invasive_procedures",
+        "content": "接受有创检查、治疗或手术（特别是人工气道、机械通气治疗）",
+        "etiology_type": "医源性因素",
         "typicality": "common",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "① Prior history of lower respiratory tract PA isolation"
+          "接受有创检查、治疗或手术，特别是人工气道、机械通气治疗"
         ],
         "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_pa_biofilm_formation",
-        "content": "铜绿假单胞菌可形成生物被膜，由细菌及其分泌的胞外复合物组成，基质可作为结构支架和保护性屏障，导致顽固性耐药。",
+        "id": "pathogenesis_biofilm",
+        "content": "PA是临床上可形成生物被膜而致顽固性耐药的典型菌种之一，生物被膜基质既可以作为结构支架，又可以作为生物被膜中细菌的保护性屏障。",
         "evidence_ids": [
-          "PA is one of the typical bacterial species clinically capable of forming biofilms leading to refractory resistance. The biofilm matrix is composed of bacteria and extracellular compounds secreted by the bacteria themselves, serving both as a structural scaffold and a protective barrier for bacteria within the biofilm."
+          "PA是临床上可形成生物被膜而致顽固性耐药的典型菌种之一，其生物被膜由细菌和细菌自身分泌的胞外复合物组成，生物被膜基质既可以作为结构支架，又可以作为生物被膜中细菌的保护性屏障。"
         ],
-        "confidence": 0.8
+        "confidence": 0.95
       },
       {
-        "id": "pathogenesis_pa_quorum_sensing_system",
-        "content": "群体感应（QS）系统调控毒力因子表达、生物被膜形成及抗菌药物耐药。",
+        "id": "pathogenesis_quorum_sensing",
+        "content": "群体感应(QS)系统启动后各子系统基因经过复杂的级联机制可调控PA产生对抗菌药物的耐药、形成生物被膜及产生毒力因子。",
         "evidence_ids": [
-          "QS system, after activation, can regulate PA’s resistance to antimicrobials, biofilm formation and virulence factor production through complex cascade mechanisms."
+          "QS系统启动后各子系统基因经过复杂的级联机制可调控PA产生对抗菌药物的耐药、形成生物被膜及产生毒力因子。"
         ],
-        "confidence": 0.8
+        "confidence": 0.9
       },
       {
-        "id": "pathogenesis_pa_type_iii_secretion_system",
-        "content": "Ⅲ型分泌系统（T3SS）将毒力蛋白直接注入宿主细胞，干扰信号传导并改变其功能。",
+        "id": "pathogenesis_t3ss",
+        "content": "Ⅲ型分泌系统(T3SS)是主要的致病因子，PA可通过T3SS系统将毒力蛋白直接注入到宿主细胞中，干扰宿主细胞的信号传导并改变其功能。",
         "evidence_ids": [
-          "Type III secretion system (T3SS) is a major virulence factor; PA can directly inject virulence proteins into host cells via T3SS, interfering with host cell signaling and altering its function."
+          "Ⅲ型分泌系统（T3SS）是主要的致病因子，PA可通过T3SS系统将毒力蛋白直接注入到宿主细胞中，干扰宿主细胞的信号传导并改变其功能，创造有利于细菌生存和扩散的环境。"
         ],
-        "confidence": 0.8
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_efflux_pumps",
+        "content": "主动外排系统过度表达主要介导β-内酰胺类、氟喹诺酮类和（或）氨基糖苷类耐药，形成MDR。",
+        "evidence_ids": [
+          "主动外排系统过度表达：与细菌耐药相关的外排系统有4个...主要介导β‑内酰胺类、氟喹诺酮类和（或）氨基糖苷类耐药，形成MDR。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_porin_loss",
+        "content": "外膜孔蛋白(如D2通道)缺失导致亚胺培南耐药。",
+        "evidence_ids": [
+          "最典型的是D2通道缺失导致亚胺培南耐药。"
+        ],
+        "confidence": 0.9
       }
     ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_pa_lower_respiratory_tract_infection",
-        "to": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "relation_id": "rel_pa_lrts_has_acute",
+        "from": "disease_pa_lrti",
+        "to": "sub_disease_pa_acute_lrti",
+        "relation_id": "rel_pa_lrti_has_acute",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "PA causes both acute and chronic LRTIs. Acute LRTIs mainly include pneumonia (CAP, HAP and ventilator‑associated pneumonia), tracheobronchitis, lung abscess and empyema."
+          "PA既可引起急性下呼吸道感染，也可引起慢性下呼吸道感染。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_pa_lrti",
+        "to": "sub_disease_pa_chronic_lrti",
+        "relation_id": "rel_pa_lrti_has_chronic",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "PA既可引起急性下呼吸道感染，也可引起慢性下呼吸道感染。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_pa_lrti",
+        "to": "sub_disease_mdr_pa_lrti",
+        "relation_id": "rel_pa_lrti_has_mdr",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "由多重耐药PA（multidrug resistant P aeruginosa，MDR‑PA）引起的下呼吸道感染病死率高，治疗困难。"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_pa_lower_respiratory_tract_infection",
-        "to": "sub_disease_pa_chronic_lower_respiratory_tract_infection",
-        "relation_id": "rel_pa_lrts_has_chronic",
+        "from": "disease_pa_lrti",
+        "to": "sub_disease_crpa_lrti",
+        "relation_id": "rel_pa_lrti_has_crpa",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "The diagnosis of chronic LRTIs should be based on a comprehensive assessment of (1) underlying chronic structural lung diseases, such as bronchiectasis, cystic fibrosis, COPD, or immunocompromised conditions; (2) the presence of clinical manifestations of LRTIs; and (3) ≥2 times (at least 3 months apart) of PA detected from eligible lower respiratory tract specimens within 1 year."
+          "CRPA是指对亚胺培南、美罗培南或多利培南任何一种碳青霉烯类耐药的PA。"
         ],
         "confidence": 0.9
       },
       {
-        "from": "disease_pa_lower_respiratory_tract_infection",
-        "to": "sub_disease_pa_cap",
-        "relation_id": "rel_pa_lrts_has_cap",
+        "from": "disease_pa_lrti",
+        "to": "sub_disease_dtr_pa_lrti",
+        "relation_id": "rel_pa_lrti_has_dtr",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "PA accounted for 67.0% of CAP in patients with a history of PA infection, bronchiectasis, very severe chronic obstructive pulmonary disease (COPD) or tracheotomy."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_pa_lower_respiratory_tract_infection",
-        "to": "sub_disease_pa_hap",
-        "relation_id": "rel_pa_lrts_has_hap",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "Pseudomonas aeruginosa (PA) is the second common Gram‑negative bacterium for hospital acquired pneumonia (HAP) in China (16.9%–22.0%)."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_pa_lower_respiratory_tract_infection",
-        "to": "sub_disease_pa_vap",
-        "relation_id": "rel_pa_lrts_has_vap",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "PA accounted for 67.0% of CAP in patients with a history of PA infection, bronchiectasis, very severe chronic obstructive pulmonary disease (COPD) or tracheotomy."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_pa_lower_respiratory_tract_infection",
-        "to": "sub_disease_pa_mdr_pa_infection",
-        "relation_id": "rel_pa_lrts_has_mdr_pa",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "For patients with a serious condition such as sepsis or with risk factors for multidrug‑resistant (MDR) PA, a combination of two different classes of antimicrobial drugs that are both potentially susceptible should be used."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_pa_lower_respiratory_tract_infection",
-        "to": "sub_disease_pa_crpa_infection",
-        "relation_id": "rel_pa_lrts_has_crpa",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "For LRTIs caused by carbapenem‑resistant PA (CRPA) or difficult‑to‑treat resistance PA (DTR‑PA), if an agent of new enzyme inhibitor, such as ceftolozane/tazobactam, ceftazidime/avibactam, and imipenem/cilastatin/relebactam shows in vitro sensitivity, it is recommended as the first‑line choice; cefiderocol may serve as the second‑line treatment."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_pa_lower_respiratory_tract_infection",
-        "to": "sub_disease_pa_dtr_pa_infection",
-        "relation_id": "rel_pa_lrts_has_dtr_pa",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "Difficult‑to‑treat resistance PA (DTR‑PA) is defined as PA non‑susceptible to all of the following agents: piperacillin/tazobactam, ceftazidime, cefepime, aztreonam, meropenem, imipenem, ciprofloxacin and levofloxacin."
+          "“难治”耐药性PA（difficult‑to‑treat resistance PA，DTR‑PA）"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
+        "from": "sub_disease_pa_acute_lrti",
         "to": "symptom_fever",
-        "relation_id": "rel_pa_acute_manifests_as_fever",
+        "relation_id": "rel_acute_manifests_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -537,14 +602,14 @@
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "Clinical manifestation [1,25‑26]: includes pneumonia (CAP, HAP and VAP), tracheobronchitis, lung abscess and empyema. ... often表现为 acute fever, cough, sputum production, dyspnea"
+          "常表现为急性发热、咳嗽、咳痰、气促"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
+        "from": "sub_disease_pa_acute_lrti",
         "to": "symptom_cough",
-        "relation_id": "rel_pa_acute_manifests_as_cough",
+        "relation_id": "rel_acute_manifests_cough",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -556,219 +621,122 @@
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "Clinical manifestation [1,25‑26]: includes pneumonia (CAP, HAP and VAP), tracheobronchitis, lung abscess and empyema. ... often表现为 acute fever, cough, sputum production, dyspnea"
+          "常表现为急性发热、咳嗽、咳痰、气促"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "symptom_sputum_production",
-        "relation_id": "rel_pa_acute_manifests_as_sputum",
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "symptom_purulent_sputum",
+        "relation_id": "rel_acute_manifests_sputum",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
         "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "Clinical manifestation [1,25‑26]: includes pneumonia (CAP, HAP and VAP), tracheobronchitis, lung abscess and empyema. ... often表现为 acute fever, cough, sputum production, dyspnea"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "symptom_dyspnea",
-        "relation_id": "rel_pa_acute_manifests_as_dyspnea",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "Clinical manifestation [1,25‑26]: includes pneumonia (CAP, HAP and VAP), tracheobronchitis, lung abscess and empyema. ... often表现为 acute fever, cough, sputum production, dyspnea"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "symptom_hemoptysis",
-        "relation_id": "rel_pa_acute_manifests_as_hemoptysis",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 3,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "rare",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "Uncommon manifestations include hemoptysis and chest pain."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "symptom_chest_pain",
-        "relation_id": "rel_pa_acute_manifests_as_chest_pain",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 3,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "rare",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "Uncommon manifestations include hemoptysis and chest pain."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "symptom_yellow_green_purulent_sputum",
-        "relation_id": "rel_pa_acute_manifests_as_yellow_green_sputum",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "When patients expectorate yellow‑green purulent sputum, PA infection should be suspected."
+          "当患者咯黄绿色脓性痰时要警惕PA感染可能。"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文用'要警惕感染可能'表述，属临床提示性关联，非必然表现，强度中等偏上",
-        "evidence": "当患者咯黄绿色脓性痰时要警惕感染可能。"
+        "confidence": 0.95,
+        "weight_reason": "原文指出咯黄绿色脓性痰时需警惕PA感染可能，为提示性症状而非确诊标准",
+        "evidence": "当患者咯黄绿色脓性痰时要警惕PA感染可能"
+      },
+      {
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "symptom_dyspnea",
+        "relation_id": "rel_acute_manifests_dyspnea",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "常表现为急性发热、咳嗽、咳痰、气促"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "symptom_hemoptysis",
+        "relation_id": "rel_acute_manifests_hemoptysis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 4,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "不常见表现包括咯血和胸痛。"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "symptom_chest_pain",
+        "relation_id": "rel_acute_manifests_chest_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 4,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "不常见表现包括咯血和胸痛。"
+        ],
+        "confidence": 0.85
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_pa_chronic_lower_respiratory_tract_infection",
-        "to": "test_pa_culture_from_lower_respiratory_specimen",
-        "relation_id": "rel_pa_chronic_requires_pa_culture",
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "test_sputum_culture",
+        "relation_id": "rel_acute_requires_sputum",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "≥2次（至少间隔3个月）合格下呼吸道标本中分离出铜绿假单胞菌",
-        "weight": 10,
+        "result_text": "合格下呼吸道标本分离到PA",
+        "weight": 7,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "present",
+        "polarity": "positive",
         "typicality": "typical",
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "The diagnosis of chronic LRTIs should be based on a comprehensive assessment of (1) underlying chronic structural lung diseases, such as bronchiectasis, cystic fibrosis, COPD, or immunocompromised conditions; (2) the presence of clinical manifestations of LRTIs; and (3) ≥2 times (at least 3 months apart) of PA detected from eligible lower respiratory tract specimens within 1 year."
+          "同期合格下呼吸道标本分离到PA，结合PA急性感染高危因素进行诊断。"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确将'年内分离出次（至少间隔个月）'列为慢性感染诊断的必要条件之一，属刚性诊断依据",
-        "evidence": "年内从下呼吸道标本中分离出次（至少间隔个月），并有感染相应的临床表现，则认为存在慢性下呼吸道感染。"
+        "confidence": 0.95,
+        "weight_reason": "原文提及不合格痰标本培养结果不能作为诊断依据，表明合格痰培养是诊断途径之一，但更推荐其他标本",
+        "evidence": "不合格痰标本的培养结果不能作为诊断依据"
       },
       {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
+        "from": "sub_disease_pa_acute_lrti",
         "to": "test_balf_culture",
-        "relation_id": "rel_pa_acute_requires_balf_culture",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "推荐诊断项",
-        "diagnostic_role": "recommended",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "支气管肺泡灌洗液培养阳性",
-        "weight": 7,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "present",
-        "typicality": "common",
-        "section_priority": "病原学诊断",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "Suggested specimens: bronchoalveolar lavage fluid (BALF)"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "test_tracheal_aspirate_culture",
-        "relation_id": "rel_pa_acute_requires_tracheal_aspirate",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "推荐诊断项",
-        "diagnostic_role": "recommended",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "气管吸引物培养阳性",
-        "weight": 7,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "present",
-        "typicality": "common",
-        "section_priority": "病原学诊断",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "Suggested specimens: tracheal aspirate"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "test_protected_brush_culture",
-        "relation_id": "rel_pa_acute_requires_protected_brush",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "推荐诊断项",
-        "diagnostic_role": "recommended",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "保护性毛刷培养阳性",
-        "weight": 7,
-        "gold_standard": false,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "present",
-        "typicality": "common",
-        "section_priority": "病原学诊断",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "Suggested specimens: protected brush"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "test_quantitative_culture_threshold",
-        "relation_id": "rel_pa_acute_requires_quantitative_culture",
+        "relation_id": "rel_acute_requires_balf",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -777,28 +745,106 @@
         "value_max": null,
         "operator": ">=",
         "unit": "CFU/ml",
-        "result_text": "支气管抽吸物≥10⁵ CFU/ml，BALF≥10⁴ CFU/ml，保护性毛刷标本≥10³ CFU/ml",
-        "weight": 8,
+        "result_text": null,
+        "weight": 9,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "病原学检测",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "BALF≥10^4 CFU/ml...中的菌落计数达到诊断阈值，有较大的参考意义。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确建议采用BALF等标本进行病原学检测并及时送检",
+        "evidence": "建议采用气管吸引、保护性毛刷和BALF标本，并及时送检"
+      },
+      {
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "test_wbc",
+        "relation_id": "rel_acute_requires_wbc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "白细胞总数和中性粒细胞数升高",
+        "weight": 5,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "elevated",
-        "typicality": "typical",
-        "section_priority": "病原学诊断",
+        "typicality": "common",
+        "section_priority": "临床表现",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "Quantitative culture positive means colony count reaches diagnostic threshold in bronchial aspirate (≥10⁵ CFU/ml), BALF (≥10⁴ CFU/ml), or protected brush specimen (≥10³ CFU/ml)."
+          "实验室检查常有白细胞总数和中性粒细胞数升高"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文指出定量培养阳性'有较大的参考意义'，且列于诊断流程中，但未称其为必需或金标准，属强支持性证据",
-        "evidence": "定量培养阳性是指在支气管抽吸物（≥10⁵CFU/ml）、BALF（≥10⁴CFU/ml）、保护性毛刷标本（≥10³CFU/ml）中的菌落计数达到诊断阈值，有较大的参考意义。"
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "test_crp",
+        "relation_id": "rel_acute_requires_crp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "C反应蛋白（CRP）升高",
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "临床表现",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "C反应蛋白（CRP）和白细胞介素6（IL‑6）升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "test_pct",
+        "relation_id": "rel_acute_requires_pct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "降钙素原（PCT）升高",
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "临床表现",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "也可出现内毒素、降钙素原（PCT）和中性粒细胞CD64升高。"
+        ],
+        "confidence": 0.9
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "treatment_pa_antimicrobial_therapy_principle",
-        "relation_id": "rel_pa_acute_follows_principle",
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "treatment_eradicate_pathogen",
+        "relation_id": "rel_acute_follows_eradicate",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
@@ -807,116 +853,255 @@
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病类型"
+          "疾病分型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
         "source_section": "治疗原则",
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_pa_chronic_lower_respiratory_tract_infection",
-        "to": "treatment_pa_antimicrobial_therapy_principle",
-        "relation_id": "rel_pa_chronic_follows_principle",
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "treatment_empirical",
+        "relation_id": "rel_acute_follows_empirical",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "明确诊断后",
+        "applicable_condition": "病情危重或不能排除PA感染的可能",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病类型"
+          "高危因素",
+          "疾病严重程度"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗原则",
-        "confidence": 0.9
+        "source_section": "抗菌药物的选择和合理使用",
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_pa_mdr_pa_infection",
-        "to": "treatment_pa_combination_therapy_indication",
-        "relation_id": "rel_pa_mdr_follows_combination_indication",
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "treatment_targeted",
+        "relation_id": "rel_acute_follows_targeted",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "存在多重耐药危险因素",
+        "applicable_condition": "诊断明确后",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "耐药风险"
+          "药敏检测结果"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗原则",
+        "source_section": "抗菌药物的选择和合理使用",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_mdr_pa_lrti",
+        "to": "treatment_combination",
+        "relation_id": "rel_mdr_follows_combination",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "危重症或具有MDR-PA危险因素",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "耐药危险因素"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "合理应用联合抗菌治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pa_chronic_lrti",
+        "to": "treatment_inhaled",
+        "relation_id": "rel_chronic_follows_inhaled",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "有结构性肺病变的PA慢性感染",
+        "recommendation_polarity": "可考虑",
+        "recommendation_strength": "weak",
+        "decision_basis": [
+          "基础疾病"
+        ],
+        "contraindication_note": "不建议常规使用吸入性抗菌药物治疗PA肺炎",
+        "evidence_level": "expert_consensus",
+        "source_section": "局部抗菌药物的合理使用",
         "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_pa_antimicrobial_therapy_principle",
-        "to": "plan_ceftolozane_tazobactam_first_line_for_crpa",
-        "relation_id": "rel_principle_implements_by_ceftolozane",
+        "from": "treatment_empirical",
+        "to": "plan_pip_tazo",
+        "relation_id": "rel_empirical_implements_pip_tazo",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "CRPA或DTR‑PA感染且体外药敏显示敏感",
-        "contraindication_note": null,
+        "applicable_condition": "PA感染的基础用药之一",
+        "contraindication_note": "主要不良反应为过敏反应、肠道菌群失调。",
         "evidence_ids": [
-          "For LRTIs caused by carbapenem‑resistant PA (CRPA) or difficult‑to‑treat resistance PA (DTR‑PA), if an agent of new enzyme inhibitor, such as ceftolozane/tazobactam, ceftazidime/avibactam, and imipenem/cilastatin/relebactam shows in vitro sensitivity, it is recommended as the first‑line choice; cefiderocol may serve as the second‑line treatment."
+          "其中最具代表性的药物是哌拉西林/他唑巴坦，具有较强的抗PA活性，是治疗PA感染的基础用药之一"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "treatment_pa_antimicrobial_therapy_principle",
-        "to": "plan_cefiderocol_second_line_for_crpa",
-        "relation_id": "rel_principle_implements_by_cefiderocol",
+        "from": "treatment_empirical",
+        "to": "plan_ceftazidime",
+        "relation_id": "rel_empirical_implements_ceftazidime",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "抗PA头孢菌素类",
+        "contraindication_note": "主要不良反应为过敏反应、肠道菌群失调、肝酶升高等。",
+        "evidence_ids": [
+          "抗PA头孢菌素类及其与β-内酰胺酶抑制剂复合制剂：包括头孢他啶..."
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_empirical",
+        "to": "plan_meropenem",
+        "relation_id": "rel_empirical_implements_meropenem",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "抗PA碳青霉烯类",
+        "contraindication_note": "主要不良反应为肠道菌群失调。",
+        "evidence_ids": [
+          "抗PA碳青霉烯类及其与β-内酰胺酶抑制剂复合制剂：包括美罗培南..."
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_empirical",
+        "to": "plan_ciprofloxacin",
+        "relation_id": "rel_empirical_implements_cipro",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "替代",
-        "applicable_condition": "CRPA或DTR‑PA感染且一线药物不可及或不能耐受",
-        "contraindication_note": null,
+        "applicable_condition": "β-内酰胺类过敏或不能使用时选用或作为联合治疗用药",
+        "contraindication_note": "常见不良反应为胃肠道反应、神经系统反应、肝酶增高等。",
         "evidence_ids": [
-          "For LRTIs caused by carbapenem‑resistant PA (CRPA) or difficult‑to‑treat resistance PA (DTR‑PA), if an agent of new enzyme inhibitor, such as ceftolozane/tazobactam, ceftazidime/avibactam, and imipenem/cilastatin/relebactam shows in vitro sensitivity, it is recommended as the first‑line choice; cefiderocol may serve as the second‑line treatment."
+          "氟喹诺酮类和氨基糖苷类可在β-内酰胺类过敏或不能使用时选用或作为联合治疗用药。"
         ],
         "confidence": 0.9
       },
       {
-        "from": "treatment_pa_combination_therapy_indication",
-        "to": "plan_polymyxin_based_combination_for_dtr_pa",
-        "relation_id": "rel_combination_indication_implements_by_polymyxin",
+        "from": "treatment_empirical",
+        "to": "plan_levofloxacin",
+        "relation_id": "rel_empirical_implements_levo",
         "relation_name": "落实为",
         "relation_type": "implements_by",
-        "plan_role": "补救",
-        "applicable_condition": "DTR‑PA感染且缺乏敏感药物",
-        "contraindication_note": null,
+        "plan_role": "替代",
+        "applicable_condition": "β-内酰胺类过敏或不能使用时选用或作为联合治疗用药",
+        "contraindication_note": "常见不良反应为胃肠道反应、神经系统反应、肝酶增高等。",
         "evidence_ids": [
-          "Combination therapy based on polymyxins may also be considered. Other potentially successful approaches for drug‑resistant PA LRTIs include extended infusion time of β‑lactams, combination therapy and inhaled antimicrobial therapy."
+          "氟喹诺酮类和氨基糖苷类可在β-内酰胺类过敏或不能使用时选用或作为联合治疗用药。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_combination",
+        "to": "plan_amikacin",
+        "relation_id": "rel_combination_implements_amikacin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "联合雾化吸入有助于提高疗效",
+        "contraindication_note": "常见不良反应为肾毒性与耳毒性。",
+        "evidence_ids": [
+          "治疗MDR-PA肺部感染时，在全身用药的基础上联合雾化吸入氨基糖苷类药物有助于提高疗效。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_combination",
+        "to": "plan_polymyxin_b",
+        "relation_id": "rel_combination_implements_polyb",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "主要应用于XDR-PA、PDR-PA感染",
+        "contraindication_note": "常见不良反应为肾毒性和神经系统反应。",
+        "evidence_ids": [
+          "主要应用于XDR‑PA、PDR‑PA感染。由于肺内药物浓度较低以及异质性耐药等问题...使用时应联合一个或多个其他有抗PA活性的抗菌药物"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_combination",
+        "to": "plan_colistin",
+        "relation_id": "rel_combination_implements_colistin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "主要应用于XDR-PA、PDR-PA感染",
+        "contraindication_note": "常见不良反应为肾毒性和神经系统反应。",
+        "evidence_ids": [
+          "主要应用于XDR‑PA、PDR‑PA感染。由于肺内药物浓度较低以及异质性耐药等问题...使用时应联合一个或多个其他有抗PA活性的抗菌药物"
         ],
         "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "etiology_pa_infection",
-        "relation_id": "rel_pa_acute_causes_pa_infection",
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "etiology_structural_lung_disease",
+        "relation_id": "rel_acute_caused_by_structural",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
-        "typicality": "typical",
+        "typicality": "common",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "PA causes both acute and chronic LRTIs."
+          "结构性肺病如支扩、慢阻肺、肺囊性纤维化（CF）患者是PA定植或感染的高危人群。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "etiology_immunodeficiency",
+        "relation_id": "rel_acute_caused_by_immuno",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "基础疾病或免疫缺陷，如恶性肿瘤、营养不良、外周血中性粒细胞<1.0×109/L、应用糖皮质激素（泼尼松>10 mg/d）或其他免疫抑制药物超过1周"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_pa_chronic_lower_respiratory_tract_infection",
-        "to": "etiology_structural_lung_disease",
-        "relation_id": "rel_pa_chronic_causes_structural_lung_disease",
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "etiology_prior_pa_isolation",
+        "relation_id": "rel_acute_caused_by_prior",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "既往有下呼吸道PA分离史"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "etiology_broad_spectrum_antibiotics",
+        "relation_id": "rel_acute_caused_by_antibiotics",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "moderate",
@@ -924,74 +1109,81 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "(1) underlying chronic structural lung diseases, such as bronchiectasis, cystic fibrosis, COPD, or immunocompromised conditions"
+          "90 d内全身抗菌药物使用史"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_pa_chronic_lower_respiratory_tract_infection",
-        "to": "etiology_immunocompromised_condition",
-        "relation_id": "rel_pa_chronic_causes_immunocompromised",
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "etiology_invasive_procedures",
+        "relation_id": "rel_acute_caused_by_invasive",
         "relation_name": "相关",
         "relation_type": "causes",
-        "causal_strength": "moderate",
+        "causal_strength": "strong",
         "typicality": "common",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "(1) underlying chronic structural lung diseases, such as bronchiectasis, cystic fibrosis, COPD, or immunocompromised conditions"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "etiology_prior_pa_infection_history",
-        "relation_id": "rel_pa_acute_causes_prior_pa_infection",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "① Prior history of lower respiratory tract PA isolation"
+          "接受有创检查、治疗或手术，特别是人工气道、机械通气治疗"
         ],
         "confidence": 0.9
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "pathogenesis_pa_biofilm_formation",
-        "relation_id": "rel_pa_acute_explained_by_biofilm",
+        "from": "sub_disease_pa_chronic_lrti",
+        "to": "pathogenesis_biofilm",
+        "relation_id": "rel_chronic_explained_biofilm",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "PA is one of the typical bacterial species clinically capable of forming biofilms leading to refractory resistance. The biofilm matrix is composed of bacteria and extracellular compounds secreted by the bacteria themselves, serving both as a structural scaffold and a protective barrier for bacteria within the biofilm."
+          "PA是临床上可形成生物被膜而致顽固性耐药的典型菌种之一，其生物被膜由细菌和细菌自身分泌的胞外复合物组成，生物被膜基质既可以作为结构支架，又可以作为生物被膜中细菌的保护性屏障。"
         ],
-        "confidence": 0.8
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "pathogenesis_pa_quorum_sensing_system",
-        "relation_id": "rel_pa_acute_explained_by_qs",
+        "from": "sub_disease_pa_chronic_lrti",
+        "to": "pathogenesis_quorum_sensing",
+        "relation_id": "rel_chronic_explained_qs",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "QS system, after activation, can regulate PA’s resistance to antimicrobials, biofilm formation and virulence factor production through complex cascade mechanisms."
+          "QS系统启动后各子系统基因经过复杂的级联机制可调控PA产生对抗菌药物的耐药、形成生物被膜及产生毒力因子。"
         ],
-        "confidence": 0.8
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_pa_acute_lower_respiratory_tract_infection",
-        "to": "pathogenesis_pa_type_iii_secretion_system",
-        "relation_id": "rel_pa_acute_explained_by_t3ss",
+        "from": "sub_disease_pa_acute_lrti",
+        "to": "pathogenesis_t3ss",
+        "relation_id": "rel_acute_explained_t3ss",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "Type III secretion system (T3SS) is a major virulence factor; PA can directly inject virulence proteins into host cells via T3SS, interfering with host cell signaling and altering its function."
+          "Ⅲ型分泌系统（T3SS）是主要的致病因子，PA可通过T3SS系统将毒力蛋白直接注入到宿主细胞中，干扰宿主细胞的信号传导并改变其功能，创造有利于细菌生存和扩散的环境。"
         ],
-        "confidence": 0.8
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_mdr_pa_lrti",
+        "to": "pathogenesis_efflux_pumps",
+        "relation_id": "rel_mdr_explained_efflux",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "主动外排系统过度表达：与细菌耐药相关的外排系统有4个...主要介导β‑内酰胺类、氟喹诺酮类和（或）氨基糖苷类耐药，形成MDR。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_crpa_lrti",
+        "to": "pathogenesis_porin_loss",
+        "relation_id": "rel_crpa_explained_porin",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "最典型的是D2通道缺失导致亚胺培南耐药。"
+        ],
+        "confidence": 0.9
       }
     ]
   },

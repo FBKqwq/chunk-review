@@ -15,106 +15,58 @@
         "name": "尿路感染",
         "normalized_name": "尿路感染",
         "aliases": [
-          "UTI"
+          "尿路感染"
         ],
         "source_document_ids": [
           "尿路感染诊断与治疗中国专家共识（2015版）"
         ],
         "evidence_ids": [
-          "尿路感染诊断与治疗中国专家共识 版\n（２０１５ ）"
+          "尿路感染诊断与治疗中国专家共识（2015版）"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_simple_lower_uti",
-        "name": "急性单纯性下尿路感染",
-        "parent_disease_id": "disease_uti",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "轻症",
-        "population": "非复杂性患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "对于急性单纯性下尿路感染 疗程基本少于 但上尿路感染 如\n急性肾盂肾炎疗程一般为 周"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_upper_uti",
-        "name": "上尿路感染",
-        "parent_disease_id": "disease_uti",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重症",
-        "population": "可伴血流感染风险者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "而对于上尿路感\n染患者 因不能除外血流感染 故所选择抗菌药物不\n仅需要在尿中有高浓度 血液中也需要保证较高浓\n度"
-        ],
-        "confidence": 0.9
-      },
-      {
         "id": "sub_disease_asymptomatic_bacteriuria",
         "name": "无症状菌尿",
         "parent_disease_id": "disease_uti",
-        "disease_subtype": null,
+        "disease_subtype": "无症状尿路感染",
         "clinical_stage": "不限定",
-        "severity": "无症状",
-        "population": "无尿路感染症状或体征者",
+        "severity": "轻症",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "无症状菌尿又称无症状尿路感染 即尿\n标本中分离出一定量的细菌 而患者无任何尿路感\n染的症状或体征"
+          "无症状菌尿又称无症状尿路感染，即尿标本中分离出一定量的细菌，而患者无任何尿路感染的症状或体征"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "sub_disease_recurrent_uti",
         "name": "反复发作性尿路感染",
         "parent_disease_id": "disease_uti",
-        "disease_subtype": null,
+        "disease_subtype": "反复发作性",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "6个月内发作≥2次或1年内发作≥3次者",
-        "gender": "female",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "反复发作性尿路感染\n（ｒｅｃｕｒｒｅｎｔ ｕｒｉｎａｒｙ ｔｒａｃｔ ｉｎ⁃\nｆｅｃｔｉｏｎｓ，ＲＵＴＩ）： 6 ≥\n个月内发作\n≥2 ， 1 ≥3 次"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_fungal_uti",
-        "name": "泌尿生殖系真菌感染",
-        "parent_disease_id": "disease_uti",
-        "disease_subtype": "念珠菌属感染",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "免疫功能低下、糖尿病、长期留置导尿管等患者",
+        "severity": "中重症",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "三 泌尿生殖系真菌感染\n念珠菌属是原发性累及泌尿生殖道最常见的真\n菌 其中白色念珠菌是最常见的医院内真菌尿路感\n染病原体"
+          "反复发作性尿路感染（recurrent urinary tract infections，RUTI）必须符合：6个月内发作≥2次或1年内发作≥3次"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "sub_disease_complicated_uti",
         "name": "复杂性尿路感染",
         "parent_disease_id": "disease_uti",
-        "disease_subtype": null,
+        "disease_subtype": "复杂性",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "合并泌尿系统解剖或功能异常者",
+        "severity": "中重症",
+        "population": "合并泌尿系统解剖或功能异常患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
@@ -122,30 +74,150 @@
           "属于复杂性尿路感染"
         ],
         "confidence": 0.9
-      }
-    ],
-    "symptoms": [
+      },
       {
-        "id": "symptom_none",
-        "name": "无任何尿路感染的症状或体征",
-        "body_site": "泌尿系统",
-        "symptom_category": "全身症状",
-        "polarity": "absent",
-        "typicality": "typical",
+        "id": "sub_disease_uncomplicated_uti",
+        "name": "非复杂性尿路感染",
+        "parent_disease_id": "disease_uti",
+        "disease_subtype": "非复杂性",
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "尿路解剖和功能正常的患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
         "evidence_ids": [
-          "无症状菌尿又称无症状尿路感染 即尿\n标本中分离出一定量的细菌 而患者无任何尿路感\n染的症状或体征"
+          "患者属于非复杂性尿路感染"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_fever",
-        "name": "发热",
+        "id": "sub_disease_urogenital_fungal_infection",
+        "name": "泌尿生殖系真菌感染",
+        "parent_disease_id": "disease_uti",
+        "disease_subtype": "真菌感染",
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "泌尿生殖系真菌感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_cystitis",
+        "name": "膀胱炎",
+        "parent_disease_id": "sub_disease_urogenital_fungal_infection",
+        "disease_subtype": "真菌性膀胱炎",
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "膀胱炎和肾盂肾炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_pyelonephritis",
+        "name": "肾盂肾炎",
+        "parent_disease_id": "sub_disease_urogenital_fungal_infection",
+        "disease_subtype": "真菌性肾盂肾炎",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "肾脏念珠菌感染表现为肾盂肾炎的症状"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_prostatitis",
+        "name": "前列腺炎",
+        "parent_disease_id": "sub_disease_urogenital_fungal_infection",
+        "disease_subtype": "真菌性前列腺炎",
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": "男性",
+        "gender": "male",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "前列腺炎和睾丸附睾炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_epididymo_orchitis",
+        "name": "睾丸附睾炎",
+        "parent_disease_id": "sub_disease_urogenital_fungal_infection",
+        "disease_subtype": "真菌性睾丸附睾炎",
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": "男性",
+        "gender": "male",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "前列腺炎和睾丸附睾炎"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_asymptomatic",
+        "name": "无症状",
         "body_site": "全身",
         "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
+        "polarity": "absent",
+        "typicality": "typical",
         "evidence_ids": [
-          "肾脏念珠菌感染表现为肾盂肾炎的症状 有腰部疼痛\n和发热"
+          "患者无任何尿路感染的症状或体征"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_frequency",
+        "name": "尿频",
+        "body_site": "泌尿系统",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "仅4%的患者会出现尿频、排尿困难、血尿等症状"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dysuria",
+        "name": "排尿困难",
+        "body_site": "泌尿系统",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "仅4%的患者会出现尿频、排尿困难、血尿等症状"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hematuria",
+        "name": "血尿",
+        "body_site": "泌尿系统",
+        "symptom_category": "泌尿系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "仅4%的患者会出现尿频、排尿困难、血尿等症状"
         ],
         "confidence": 0.9
       },
@@ -157,256 +229,426 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "肾脏念珠菌感染表现为肾盂肾炎的症状 有腰部疼痛\n和发热"
+          "肾脏念珠菌感染表现为肾盂肾炎的症状，有腰部疼痛和发热"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_dysuria",
-        "name": "排尿困难",
-        "body_site": "下尿路",
-        "symptom_category": "泌尿系统症状",
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "膀胱和前列腺真菌感染多无症状\n仅 的患者会出现尿频 排尿困难 血尿等症状"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_frequency",
-        "name": "尿频",
-        "body_site": "下尿路",
-        "symptom_category": "泌尿系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "膀胱和前列腺真菌感染多无症状\n仅 的患者会出现尿频 排尿困难 血尿等症状"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_hematuria",
-        "name": "血尿",
-        "body_site": "下尿路",
-        "symptom_category": "泌尿系统症状",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "膀胱和前列腺真菌感染多无症状\n仅 的患者会出现尿频 排尿困难 血尿等症状"
+          "肾脏念珠菌感染表现为肾盂肾炎的症状，有腰部疼痛和发热"
         ],
         "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_urine_culture_colony_count",
-        "name": "尿培养菌落计数",
+        "id": "test_urine_culture_colony_count_female",
+        "name": "女性尿培养细菌菌落计数",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "无症状菌尿的诊断标准为［１］ 对\n无症状女性患者或留置尿路导管的患者 尿培养细\n菌菌落计数 ５ 男性患者清洁尿标本培\n养出 种菌株菌落计数 ３ 男性或女性\n患者的导尿标本 次菌落计数 ２"
+          "对无症状女性患者或留置尿路导管的患者，尿培养细菌菌落计数≥10^5 CFU/ml"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_urine_culture_colony_count_male_clean",
+        "name": "男性清洁尿标本培养菌落计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "男性患者清洁尿标本培养出1种菌株菌落计数≥10^3 CFU/ml"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_urine_culture_colony_count_catheter",
+        "name": "导尿标本培养菌落计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "男性或女性患者的导尿标本，1次菌落计数≥10^2 CFU/ml"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_urine_fungal_smear",
+        "name": "尿液真菌涂片",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "念珠菌尿的诊断主要依据尿液真菌涂片及尿液真菌培养"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_urine_fungal_culture",
+        "name": "尿液真菌培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "念珠菌尿的诊断主要依据尿液真菌涂片及尿液真菌培养"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_abdominal_xray",
+        "name": "腹部X线平片",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "影像学检查主要包括腹部X线平片、静脉尿路造影、膀胱尿道造影、泌尿系B超、CT、MRI"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ivp",
+        "name": "静脉尿路造影",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "影像学检查主要包括腹部X线平片、静脉尿路造影、膀胱尿道造影、泌尿系B超、CT、MRI"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_cystourethrography",
+        "name": "膀胱尿道造影",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "影像学检查主要包括腹部X线平片、静脉尿路造影、膀胱尿道造影、泌尿系B超、CT、MRI"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ultrasound",
+        "name": "泌尿系B超",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "影像学检查主要包括腹部X线平片、静脉尿路造影、膀胱尿道造影、泌尿系B超、CT、MRI"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_ct",
+        "name": "CT",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "影像学检查主要包括腹部X线平片、静脉尿路造影、膀胱尿道造影、泌尿系B超、CT、MRI"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_mri",
+        "name": "MRI",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "影像学检查主要包括腹部X线平片、静脉尿路造影、膀胱尿道造影、泌尿系B超、CT、MRI"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_cystoscopy",
+        "name": "膀胱镜检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "膀胱镜检查可发现膀胱壁白色斑片、黏膜水肿和红色斑点等"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_uti_antibiotic_selection_strategy",
-        "content": "抗菌药物品种的选用原则上应根据病原菌种类及病原菌对抗菌药物的敏感性，即细菌药物敏感试验的结果而定。",
-        "recommendation_strength": "strong",
-        "source_section": "一 抗菌药物选择策略",
+        "id": "treatment_empiric_antibiotics",
+        "content": "先给予抗菌药物经验性治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "抗菌药物选择策略",
         "evidence_ids": [
-          "抗菌药物品种的选用原则上应根据病原菌种类 测结果前 可根据患者的感染部位 上\n及病原菌对抗菌药物的敏感性 即细菌药物敏感试\n验的结果而定"
+          "先给予抗菌药物经验性治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_uti_dose_adjustment",
-        "content": "按各种抗菌药物的治疗剂量范围给药；治疗上尿路感染尤其是严重感染时抗菌药物剂量宜较大；治疗单纯性下尿路感染时可应用较小剂量；同时要根据肝肾功能情况调整给药剂量。",
-        "recommendation_strength": "strong",
-        "source_section": "二 给药剂量",
+        "id": "treatment_targeted_antibiotics",
+        "content": "待获知病原学检测及药敏试验结果后，结合先前的治疗反应调整用药方案",
+        "recommendation_strength": "推荐",
+        "source_section": "抗菌药物选择策略",
         "evidence_ids": [
-          "按各种抗菌药物的治疗剂量范围给药 治疗上\n尿路感染 尤其是严重感染时 抗菌药物剂量宜较大\n治疗剂量范围高限 而治疗单纯性下尿路感染\n时 由于多数药物尿中药物浓度远高于血药浓度 则\n可应用较小剂量 治疗剂量范围低限 同时 要根\n据肝肾功能情况调整给药剂量"
+          "待获知病原学检测及药敏试验结果后，结合先前的治疗反应调整用药方案"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_uti_route_selection",
-        "content": "下尿路感染应予口服治疗；上尿路感染初始治疗多选用静脉用药，病情稳定后可酌情改为口服药物；抗菌药物的局部应用如前列腺注射和膀胱灌注宜尽量避免。",
-        "recommendation_strength": "strong",
-        "source_section": "三 给药途径",
+        "id": "treatment_asymptomatic_bacteriuria_screening",
+        "content": "妊娠期女性及需要泌尿道手术操作的患者需要筛查和治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "无症状菌尿",
         "evidence_ids": [
-          "对于下尿路感染的患者 应予口服治疗 选取口\n服吸收良好的抗菌药物品种 不必采用静脉或肌内\n注射给药 仅在下列情况下可先予以注射给药\n对于上尿路感染 初始治疗多选用静脉用药 病\n情稳定后可酌情改为口服药物\n抗菌药物的局部应用如前列腺注射和膀胱灌注\n抗菌药物宜尽量避免"
+          "需要筛查和治疗的情况：①妊娠期女性...②需要泌尿道手术操作的患者"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "treatment_uti_dosing_frequency",
-        "content": "时间依赖性抗菌药物大多一日多次给药；浓度依赖性抗菌药物大多一日一次给药。",
-        "recommendation_strength": "strong",
-        "source_section": "四 给药次数",
+        "id": "treatment_recurrent_uti_acute",
+        "content": "急性发作期的治疗：同急性非复杂性膀胱炎的抗菌药物短程疗法",
+        "recommendation_strength": "推荐",
+        "source_section": "反复发作性尿路感染",
         "evidence_ids": [
-          "时间依赖性抗菌药物的浓度达到一定程度 后再增加浓度抗菌作用无明显增强 其抗菌效果与\n药物浓度高于最低抑菌浓度 相关 即感染\n部位游离药物浓度高于 时间越长 抗菌效果越\n好 这一类药物包括 内酰胺类和碳青霉烯类等 除半衰期长的头孢曲松和厄他培南等外 大多一日\n多次给药 浓度依赖性抗菌药物如喹诺酮类和氨基\n糖苷类 药物浓度越高抗菌效果越好 因此这类药物\n大多一日一次给药"
+          "急性发作期的治疗：同急性非复杂性膀胱炎的抗菌药物短程疗法"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "treatment_uti_duration",
-        "content": "急性单纯性下尿路感染疗程基本少于7 d；急性肾盂肾炎疗程一般为2周；反复发作尿路感染可根据情况进行长期抑菌治疗。",
-        "recommendation_strength": "strong",
-        "source_section": "五 疗程",
+        "id": "treatment_recurrent_uti_prevention",
+        "content": "发作间期的预防：行为治疗、使用疫苗、植物药预防、低剂量长疗程抗菌药物治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "反复发作性尿路感染",
         "evidence_ids": [
-          "抗菌药物疗程因感染不同而异 对于急性单纯\n性下尿路感染 疗程基本少于 但上尿路感染 如\n急性肾盂肾炎疗程一般为 周 对于反复发作尿路\n感染 可根据情况进行长期抑菌治疗"
+          "发作间期的预防：①行为治疗...②使用OM-89疫苗...③植物药预防...④低剂量、长疗程抗菌药物治疗"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_fungal_uti_principle",
+        "content": "有症状念珠菌尿均需要接受治疗，需要参照标本培养结果和药敏试验结果选择药物",
+        "recommendation_strength": "推荐",
+        "source_section": "泌尿生殖系真菌感染",
+        "evidence_ids": [
+          "有症状念珠菌尿均需要接受治疗。需要参照标本培养结果和药敏试验结果选择药物"
+        ],
+        "confidence": 0.95
       }
     ],
     "plans": [
       {
-        "id": "plan_fosfomycin_trometamol_single_dose",
-        "content": "磷霉素氨丁三醇 口服 单剂治疗",
-        "plan_level": 1,
-        "applicable_condition": "急性单纯性下尿路感染",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "磷霉素氨\n丁三醇 口服 单剂治疗"
-        ],
-        "confidence": 0.9
-      },
-      {
         "id": "plan_amoxicillin_500mg_q8h",
-        "content": "阿莫西林 口服 每8小时1次",
-        "plan_level": 2,
-        "applicable_condition": "急性单纯性下尿路感染",
+        "content": "阿莫西林500 mg，每8小时1次，3~5 d",
+        "plan_level": 1,
+        "applicable_condition": "妊娠期女性无症状菌尿",
         "contraindication_note": null,
         "evidence_ids": [
-          "阿莫西林\n口服 每 小时 次"
+          "阿莫西林500 mg，每8小时1次，3~5 d"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "plan_amoxicillin_clavulanate_500mg_q12h",
-        "content": "阿莫西林-克拉维酸钾 口服 每12小时1次",
-        "plan_level": 2,
-        "applicable_condition": "急性单纯性下尿路感染",
+        "content": "阿莫西林-克拉维酸钾500 mg，每12小时1次，3~5 d",
+        "plan_level": 1,
+        "applicable_condition": "妊娠期女性无症状菌尿",
         "contraindication_note": null,
         "evidence_ids": [
-          "阿莫西林 克拉\n维酸钾 口服 每 小时 次"
+          "阿莫西林-克拉维酸钾500 mg，每12小时1次，3~5 d"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "plan_cephalexin_500mg_q8h",
-        "content": "头孢氨苄 口服 每8小时1次",
-        "plan_level": 2,
-        "applicable_condition": "急性单纯性下尿路感染",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "头孢氨\n苄 口服 每 小时 次"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_levofloxacin_500mg_qd",
-        "content": "左氧氟沙星 口服 每日1次",
+        "content": "头孢氨苄500 mg，每8小时1次，3~5 d",
         "plan_level": 1,
-        "applicable_condition": "上尿路感染",
+        "applicable_condition": "妊娠期女性无症状菌尿",
         "contraindication_note": null,
         "evidence_ids": [
-          "左氧\n氟沙星和 内酰胺类抗菌药物的血药浓度和尿药\n浓度均高 既可用于治疗下尿路感染 又可用于治疗\n上尿路感染"
+          "头孢氨苄500 mg，每8小时1次，3~5 d"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "plan_ciprofloxacin_single_postcoital",
-        "content": "性生活后单次服用环丙沙星",
-        "plan_level": 3,
-        "applicable_condition": "预防反复发作性尿路感染",
+        "id": "plan_fosfomycin_trometamol_3g_single",
+        "content": "磷霉素氨丁三醇3 g，单剂治疗",
+        "plan_level": 1,
+        "applicable_condition": "妊娠期女性无症状菌尿",
         "contraindication_note": null,
         "evidence_ids": [
-          "性生活后 内单次使用抗菌药物可\n预防尿路感染的反复发作"
+          "磷霉素氨丁三醇3 g，单剂治疗"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "plan_fluconazole_400mg_qd",
-        "content": "氟康唑 口服 每天1次",
+        "content": "氟康唑400 mg，每天1次，2~4周",
         "plan_level": 1,
-        "applicable_condition": "念珠菌性膀胱炎或肾盂肾炎",
-        "contraindication_note": "有脓肿形成需进行外科引流",
+        "applicable_condition": "膀胱炎和肾盂肾炎",
+        "contraindication_note": null,
         "evidence_ids": [
-          "膀胱炎和肾盂肾炎 氟康唑 口服 每\n天 次"
+          "氟康唑400 mg，每天1次，2~4周"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_flucytosine_25mg_kg_qid",
+        "content": "氟胞嘧啶25 mg/kg，每天4次，7~10 d",
+        "plan_level": 2,
+        "applicable_condition": "膀胱炎和肾盂肾炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "氟胞嘧啶25 mg/kg，每天4次，7~10 d"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_amphotericin_b_iv",
+        "content": "两性霉素B 0.3~1.0 mg/kg，静脉滴注，每天1次，1周",
+        "plan_level": 2,
+        "applicable_condition": "膀胱炎和肾盂肾炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "两性霉素B 0.3~1.0 mg/kg，静脉滴注，每天1次，1周"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_amphotericin_b_bladder_irrigation",
+        "content": "两性霉素B膀胱冲洗",
+        "plan_level": 3,
+        "applicable_condition": "对氟康唑耐药的念珠菌属有效",
+        "contraindication_note": "很快复发",
+        "evidence_ids": [
+          "两性霉素B膀胱冲洗（5~7 d）对氟康唑耐药的念珠菌属有效，可有效清除念珠菌尿，但很快复发"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_amphotericin_B_bladder_irrigation",
-        "content": "两性霉素B膀胱冲洗",
-        "plan_level": 2,
-        "applicable_condition": "对氟康唑耐药念珠菌导致的膀胱炎",
-        "contraindication_note": "很快复发",
+        "id": "plan_tmp_smx_prophylaxis",
+        "content": "甲氧苄啶/磺胺甲恶唑（TMP/SMX）40~200 mg，每24或48小时1次",
+        "plan_level": 1,
+        "applicable_condition": "反复发作性尿路感染发作间期预防",
+        "contraindication_note": null,
         "evidence_ids": [
-          "两性霉素 膀胱冲洗 对氟康\n唑耐药的念珠菌属有效 可有效清除念珠菌尿 但很\n快复发"
+          "甲氧苄啶/磺胺甲恶唑（TMP/SMX）40~200 mg，每24或48小时1次"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_escherichia_coli",
-        "content": "大肠埃希菌",
+        "id": "etiology_bacteria",
+        "content": "细菌感染",
         "etiology_type": "感染因素",
         "typicality": "典型",
-        "diagnostic_role": "主要病原菌",
+        "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "无症状菌尿的诊断标准为［１］ 对\n无症状女性患者或留置尿路导管的患者 尿培养细\n菌菌落计数 ５ 男性患者清洁尿标本培\n养出 种菌株菌落计数 ３"
+          "尿标本中分离出一定量的细菌"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "etiology_candida_albicans",
-        "content": "白色念珠菌",
+        "id": "etiology_candida",
+        "content": "念珠菌属感染",
         "etiology_type": "感染因素",
         "typicality": "典型",
-        "diagnostic_role": "主要病原菌",
+        "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "念珠菌属是原发性累及泌尿生殖道最常见的真\n菌 其中白色念珠菌是最常见的医院内真菌尿路感\n染病原体"
+          "念珠菌属是原发性累及泌尿生殖道最常见的真菌"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "etiology_diabetes_mellitus",
+        "id": "etiology_diabetes",
         "content": "糖尿病",
-        "etiology_type": "危险因素",
+        "etiology_type": "基础疾病",
         "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "危险因素和诱因主要有糖尿病"
+          "危险因素和诱因主要有糖尿病、肾移植、高龄"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_renal_transplant",
+        "content": "肾移植",
+        "etiology_type": "医源性因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "危险因素和诱因主要有糖尿病、肾移植、高龄"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_advanced_age",
+        "content": "高龄",
+        "etiology_type": "生理因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "危险因素和诱因主要有糖尿病、肾移植、高龄"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_urinary_tract_instrumentation",
+        "content": "尿路有创操作",
+        "etiology_type": "医源性因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "尿路有创操作、女性性生活"
         ],
         "confidence": 0.9
       },
       {
         "id": "etiology_indwelling_catheter",
-        "content": "留置导尿管",
-        "etiology_type": "危险因素",
+        "content": "尿路内置导管",
+        "etiology_type": "医源性因素",
         "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "危险因素和诱因主要有...尿路内置导管"
+          "尿路内置导管、膀胱功能障碍"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_urinary_obstruction",
+        "content": "尿路梗阻性疾病",
+        "etiology_type": "解剖异常",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "尿路梗阻性疾病、肾结石等"
         ],
         "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_fungal_uti_immunosuppression",
-        "content": "免疫功能低下导致真菌定植和侵袭性感染。",
+        "id": "pathogenesis_bacteremia",
+        "content": "术中有黏膜破溃、细菌入血出现菌血症的风险",
         "evidence_ids": [
-          "危险因素和诱因主要有糖尿病\n肾移植 高龄 尿路有创操作 女性性生活 伴随细菌\n尿 长期住院 先天性尿路畸形或结构异常 住\nＩＣＵ\n病房 广谱抗菌药物的使用 尿路内置导管 膀胱功\n能障碍 尿路梗阻性疾病 肾结石等"
+          "术中有黏膜破溃、细菌入血出现菌血症的风险"
         ],
-        "confidence": 0.75
+        "confidence": 0.85
+      },
+      {
+        "id": "pathogenesis_low_immunity",
+        "content": "自身抵抗力低下出现的新的感染",
+        "evidence_ids": [
+          "感染的原因是自身抵抗力低下出现的新的感染而不是首次感染治疗的失败"
+        ],
+        "confidence": 0.85
       }
     ]
   },
@@ -414,36 +656,14 @@
     "has_sub_disease": [
       {
         "from": "disease_uti",
-        "to": "sub_disease_simple_lower_uti",
-        "relation_id": "rel_uti_has_simple_lower_uti",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "对于急性单纯性下尿路感染 疗程基本少于 但上尿路感染 如\n急性肾盂肾炎疗程一般为 周"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_uti",
-        "to": "sub_disease_upper_uti",
-        "relation_id": "rel_uti_has_upper_uti",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "而对于上尿路感\n染患者 因不能除外血流感染 故所选择抗菌药物不\n仅需要在尿中有高浓度 血液中也需要保证较高浓\n度"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_uti",
         "to": "sub_disease_asymptomatic_bacteriuria",
         "relation_id": "rel_uti_has_asymptomatic_bacteriuria",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "无症状菌尿又称无症状尿路感染 即尿\n标本中分离出一定量的细菌 而患者无任何尿路感\n染的症状或体征"
+          "特殊类型的尿路感染...无症状菌尿"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "from": "disease_uti",
@@ -452,20 +672,9 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "反复发作性尿路感染\n（ｒｅｃｕｒｒｅｎｔ ｕｒｉｎａｒｙ ｔｒａｃｔ ｉｎ⁃\nｆｅｃｔｉｏｎｓ，ＲＵＴＩ）： 6 ≥\n个月内发作\n≥2 ， 1 ≥3 次"
+          "特殊类型的尿路感染...反复发作性尿路感染"
         ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_uti",
-        "to": "sub_disease_fungal_uti",
-        "relation_id": "rel_uti_has_fungal_uti",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "三 泌尿生殖系真菌感染\n念珠菌属是原发性累及泌尿生殖道最常见的真\n菌 其中白色念珠菌是最常见的医院内真菌尿路感\n染病原体"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "from": "disease_uti",
@@ -477,321 +686,728 @@
           "属于复杂性尿路感染"
         ],
         "confidence": 0.9
+      },
+      {
+        "from": "disease_uti",
+        "to": "sub_disease_uncomplicated_uti",
+        "relation_id": "rel_uti_has_uncomplicated_uti",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "患者属于非复杂性尿路感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_uti",
+        "to": "sub_disease_urogenital_fungal_infection",
+        "relation_id": "rel_uti_has_urogenital_fungal_infection",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "特殊类型的尿路感染...泌尿生殖系真菌感染"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "sub_disease_cystitis",
+        "relation_id": "rel_fungal_has_cystitis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "膀胱炎和肾盂肾炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "sub_disease_pyelonephritis",
+        "relation_id": "rel_fungal_has_pyelonephritis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "膀胱炎和肾盂肾炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "sub_disease_prostatitis",
+        "relation_id": "rel_fungal_has_prostatitis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "前列腺炎和睾丸附睾炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "sub_disease_epididymo_orchitis",
+        "relation_id": "rel_fungal_has_epididymo_orchitis",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "前列腺炎和睾丸附睾炎"
+        ],
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
         "from": "sub_disease_asymptomatic_bacteriuria",
-        "to": "symptom_none",
-        "relation_id": "rel_asymptomatic_bacteriuria_manifests_as_none",
+        "to": "symptom_asymptomatic",
+        "relation_id": "rel_asymptomatic_bacteriuria_manifests_as_asymptomatic",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
+        "weight": 10,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "定义",
+        "section_priority": "诊断标准",
         "evidence_ids": [
-          "无症状菌尿又称无症状尿路感染 即尿\n标本中分离出一定量的细菌 而患者无任何尿路感\n染的症状或体征"
+          "患者无任何尿路感染的症状或体征"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确定义‘无症状菌尿’为‘尿标本中分离出一定量的细菌，而患者无任何尿路感染的症状或体征’，‘无任何……症状或体征’即等价于‘无症状’，构成该疾病的核心诊断性定义，符合金标准语义",
-        "evidence": "无症状菌尿又称无症状尿路感染即尿标本中分离出一定量的细菌而患者无任何尿路感染的症状或体征"
+        "confidence": 0.95,
+        "weight_reason": "原文明确给出无症状菌尿的定义，指出患者无任何尿路感染的症状或体征。",
+        "evidence": "无症状菌尿又称无症状尿路感染，即尿标本中分离出一定量的细菌，而患者无任何尿路感染的症状或体征"
       },
       {
-        "from": "sub_disease_fungal_uti",
-        "to": "symptom_dysuria",
-        "relation_id": "rel_fungal_uti_manifests_as_dysuria",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床评估",
-        "evidence_ids": [
-          "膀胱和前列腺真菌感染多无症状\n仅 的患者会出现尿频 排尿困难 血尿等症状"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_fungal_uti",
+        "from": "sub_disease_urogenital_fungal_infection",
         "to": "symptom_frequency",
-        "relation_id": "rel_fungal_uti_manifests_as_frequency",
+        "relation_id": "rel_fungal_manifests_as_frequency",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床评估",
-        "evidence_ids": [
-          "膀胱和前列腺真菌感染多无症状\n仅 的患者会出现尿频 排尿困难 血尿等症状"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_fungal_uti",
-        "to": "symptom_hematuria",
-        "relation_id": "rel_fungal_uti_manifests_as_hematuria",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 4,
+        "weight": 3,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "rare",
         "duration_condition": null,
         "section_priority": "临床评估",
         "evidence_ids": [
-          "膀胱和前列腺真菌感染多无症状\n仅 的患者会出现尿频 排尿困难 血尿等症状"
+          "仅4%的患者会出现尿频、排尿困难、血尿等症状"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_upper_uti",
-        "to": "symptom_fever",
-        "relation_id": "rel_upper_uti_manifests_as_fever",
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "symptom_dysuria",
+        "relation_id": "rel_fungal_manifests_as_dysuria",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 8,
+        "weight": 3,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
+        "typicality": "rare",
         "duration_condition": null,
         "section_priority": "临床评估",
         "evidence_ids": [
-          "肾脏念珠菌感染表现为肾盂肾炎的症状 有腰部疼痛\n和发热"
+          "仅4%的患者会出现尿频、排尿困难、血尿等症状"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文描述‘肾脏念珠菌感染表现为肾盂肾炎的症状，有腰部疼痛和发热’，将‘发热’列为上尿路感染（以肾盂肾炎为典型代表）的明确症状之一，属直接临床表现，但未称其为必备或唯一症状",
-        "evidence": "肾脏念珠菌感染表现为肾盂肾炎的症状有腰部疼痛和发热"
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_upper_uti",
-        "to": "symptom_flank_pain",
-        "relation_id": "rel_upper_uti_manifests_as_flank_pain",
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "symptom_hematuria",
+        "relation_id": "rel_fungal_manifests_as_hematuria",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 8,
+        "weight": 3,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "rare",
+        "duration_condition": null,
+        "section_priority": "临床评估",
+        "evidence_ids": [
+          "仅4%的患者会出现尿频、排尿困难、血尿等症状"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_pyelonephritis",
+        "to": "symptom_flank_pain",
+        "relation_id": "rel_pyelonephritis_manifests_as_flank_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床评估",
         "evidence_ids": [
-          "肾脏念珠菌感染表现为肾盂肾炎的症状 有腰部疼痛\n和发热"
+          "肾脏念珠菌感染表现为肾盂肾炎的症状，有腰部疼痛和发热"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确将‘腰部疼痛’列为肾盂肾炎（上尿路感染典型类型）的症状，‘腰部’即解剖学‘腰背部’，对应临床术语‘胁部/腰部/肾区’，与‘flank pain’完全一致，属直接症状描述",
-        "evidence": "肾脏念珠菌感染表现为肾盂肾炎的症状有腰部疼痛和发热"
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_pyelonephritis",
+        "to": "symptom_fever",
+        "relation_id": "rel_pyelonephritis_manifests_as_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床评估",
+        "evidence_ids": [
+          "肾脏念珠菌感染表现为肾盂肾炎的症状，有腰部疼痛和发热"
+        ],
+        "confidence": 0.9
       }
     ],
     "requires_test": [
       {
         "from": "sub_disease_asymptomatic_bacteriuria",
-        "to": "test_urine_culture_colony_count",
-        "relation_id": "rel_asymptomatic_bacteriuria_requires_urine_culture",
+        "to": "test_urine_culture_colony_count_female",
+        "relation_id": "rel_asymptomatic_requires_female_culture",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "gold_standard",
         "value_min": 100000,
         "value_max": null,
         "operator": ">=",
         "unit": "CFU/ml",
         "result_text": null,
-        "weight": 100,
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "对无症状女性患者或留置尿路导管的患者，尿培养细菌菌落计数≥10^5 CFU/ml"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列出该检测为无症状菌尿的诊断标准之一。",
+        "evidence": "对无症状女性患者或留置尿路导管的患者，尿培养细菌菌落计数≥１０５ＣＦＵ／ｍｌ；"
+      },
+      {
+        "from": "sub_disease_asymptomatic_bacteriuria",
+        "to": "test_urine_culture_colony_count_male_clean",
+        "relation_id": "rel_asymptomatic_requires_male_clean_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": 1000,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "CFU/ml",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "男性患者清洁尿标本培养出1种菌株菌落计数≥10^3 CFU/ml"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列出该检测为无症状菌尿的诊断标准之一。",
+        "evidence": "男性患者清洁尿标本培养出１种菌株菌落计数≥１０３ＣＦＵ／ｍｌ；"
+      },
+      {
+        "from": "sub_disease_asymptomatic_bacteriuria",
+        "to": "test_urine_culture_colony_count_catheter",
+        "relation_id": "rel_asymptomatic_requires_catheter_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": 100,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "CFU/ml",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "男性或女性患者的导尿标本，1次菌落计数≥10^2 CFU/ml"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确列出该检测为无症状菌尿的诊断标准之一。",
+        "evidence": "男性或女性患者的导尿标本，１次菌落计数≥１０２ＣＦＵ／ｍｌ。"
+      },
+      {
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "test_urine_fungal_smear",
+        "relation_id": "rel_fungal_requires_smear",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "念珠菌尿的诊断主要依据尿液真菌涂片及尿液真菌培养"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出该检查是念珠菌尿诊断的主要依据。",
+        "evidence": "念珠菌尿的诊断主要依据尿液真菌涂片及尿液真菌培养"
+      },
+      {
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "test_urine_fungal_culture",
+        "relation_id": "rel_fungal_requires_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "阳性",
+        "weight": 10,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "定义",
+        "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "无症状菌尿的诊断标准为［１］ 对\n无症状女性患者或留置尿路导管的患者 尿培养细\n菌菌落计数 ５"
+          "念珠菌尿的诊断主要依据尿液真菌涂片及尿液真菌培养"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文在‘无症状菌尿的诊断标准’条目下直接列出‘尿培养细菌菌落计数≥10⁵ CFU／ml’等量化标准，并以冒号引导，属于该病确诊所依赖的、具可操作性的实验室金标准方法",
-        "evidence": "无症状菌尿的诊断标准为［１］对无症状女性患者或留置尿路导管的患者尿培养细菌菌落计数≥10⁵CFU／ml"
-      }
-    ],
-    "follows_treatment": [
-      {
-        "from": "sub_disease_simple_lower_uti",
-        "to": "treatment_uti_antibiotic_selection_strategy",
-        "relation_id": "rel_simple_lower_uti_follows_selection",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "明确病原菌前经验性治疗",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "感染部位"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "一 抗菌药物选择策略",
-        "confidence": 0.9
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出该检查是念珠菌尿诊断的主要依据。",
+        "evidence": "念珠菌尿的诊断主要依据尿液真菌涂片及尿液真菌培养"
       },
       {
-        "from": "sub_disease_upper_uti",
-        "to": "treatment_uti_dose_adjustment",
-        "relation_id": "rel_upper_uti_follows_dose_adjustment",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "严重感染",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "感染部位",
-          "严重程度"
-        ],
-        "contraindication_note": null,
+        "from": "sub_disease_recurrent_uti",
+        "to": "test_abdominal_xray",
+        "relation_id": "rel_recurrent_requires_xray",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "发现泌尿系统可能存在的解剖结构异常",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": null,
+        "typicality": "common",
+        "section_priority": "诊断",
         "evidence_level": "expert_consensus",
-        "source_section": "二 给药剂量",
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_simple_lower_uti",
-        "to": "treatment_uti_route_selection",
-        "relation_id": "rel_simple_lower_uti_follows_route_selection",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "下尿路感染",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "感染部位"
+        "evidence_ids": [
+          "影像学检查主要包括腹部X线平片、静脉尿路造影、膀胱尿道造影、泌尿系B超、CT、MRI"
         ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "三 给药途径",
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_upper_uti",
-        "to": "treatment_uti_route_selection",
-        "relation_id": "rel_upper_uti_follows_route_selection",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "上尿路感染",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "感染部位"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "三 给药途径",
         "confidence": 0.9
       },
       {
         "from": "sub_disease_recurrent_uti",
-        "to": "treatment_uti_duration",
-        "relation_id": "rel_recurrent_uti_follows_duration",
+        "to": "test_ivp",
+        "relation_id": "rel_recurrent_requires_ivp",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "发现泌尿系统可能存在的解剖结构异常",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": null,
+        "typicality": "common",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "影像学检查主要包括腹部X线平片、静脉尿路造影、膀胱尿道造影、泌尿系B超、CT、MRI"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_recurrent_uti",
+        "to": "test_cystourethrography",
+        "relation_id": "rel_recurrent_requires_cystourethrography",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "发现泌尿系统可能存在的解剖结构异常",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": null,
+        "typicality": "common",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "影像学检查主要包括腹部X线平片、静脉尿路造影、膀胱尿道造影、泌尿系B超、CT、MRI"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_recurrent_uti",
+        "to": "test_ultrasound",
+        "relation_id": "rel_recurrent_requires_ultrasound",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "发现泌尿系统可能存在的解剖结构异常",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": null,
+        "typicality": "common",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "影像学检查主要包括腹部X线平片、静脉尿路造影、膀胱尿道造影、泌尿系B超、CT、MRI"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_recurrent_uti",
+        "to": "test_ct",
+        "relation_id": "rel_recurrent_requires_ct",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "发现泌尿系统可能存在的解剖结构异常",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": null,
+        "typicality": "common",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "影像学检查主要包括腹部X线平片、静脉尿路造影、膀胱尿道造影、泌尿系B超、CT、MRI"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_recurrent_uti",
+        "to": "test_mri",
+        "relation_id": "rel_recurrent_requires_mri",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "发现泌尿系统可能存在的解剖结构异常",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": null,
+        "typicality": "common",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "影像学检查主要包括腹部X线平片、静脉尿路造影、膀胱尿道造影、泌尿系B超、CT、MRI"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_recurrent_uti",
+        "to": "test_cystoscopy",
+        "relation_id": "rel_recurrent_requires_cystoscopy",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "膀胱壁白色斑片、黏膜水肿和红色斑点等",
+        "weight": 5,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": null,
+        "typicality": "common",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "膀胱镜检查可发现膀胱壁白色斑片、黏膜水肿和红色斑点等"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_asymptomatic_bacteriuria",
+        "to": "treatment_asymptomatic_bacteriuria_screening",
+        "relation_id": "rel_asymptomatic_follows_screening",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "反复发作",
+        "applicable_condition": "妊娠期女性及需要泌尿道手术操作的患者",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "发作频率"
+          "人群分类"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "五 疗程",
-        "confidence": 0.9
+        "source_section": "无症状菌尿",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_recurrent_uti",
+        "to": "treatment_recurrent_uti_acute",
+        "relation_id": "rel_recurrent_follows_acute",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "急性发作期",
+        "treatment_line": "一线",
+        "applicable_condition": "急性发作期",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分期"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "反复发作性尿路感染",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_recurrent_uti",
+        "to": "treatment_recurrent_uti_prevention",
+        "relation_id": "rel_recurrent_follows_prevention",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "发作间期",
+        "treatment_line": "维持",
+        "applicable_condition": "发作间期",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分期"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "反复发作性尿路感染",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "treatment_fungal_uti_principle",
+        "relation_id": "rel_fungal_follows_principle",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "有症状念珠菌尿",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "症状表现",
+          "药敏试验"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "泌尿生殖系真菌感染",
+        "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_uti_antibiotic_selection_strategy",
-        "to": "plan_fosfomycin_trometamol_single_dose",
-        "relation_id": "rel_selection_implements_by_fosfomycin",
+        "from": "treatment_asymptomatic_bacteriuria_screening",
+        "to": "plan_amoxicillin_500mg_q8h",
+        "relation_id": "rel_screening_implements_amoxicillin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "急性单纯性下尿路感染",
+        "applicable_condition": "妊娠期女性无症状菌尿",
         "contraindication_note": null,
         "evidence_ids": [
-          "磷霉素氨丁三醇 口服 单剂治疗"
+          "阿莫西林500 mg，每8小时1次，3~5 d"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_asymptomatic_bacteriuria_screening",
+        "to": "plan_amoxicillin_clavulanate_500mg_q12h",
+        "relation_id": "rel_screening_implements_amoxicillin_clavulanate",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "妊娠期女性无症状菌尿",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "阿莫西林-克拉维酸钾500 mg，每12小时1次，3~5 d"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_asymptomatic_bacteriuria_screening",
+        "to": "plan_cephalexin_500mg_q8h",
+        "relation_id": "rel_screening_implements_cephalexin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "妊娠期女性无症状菌尿",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "头孢氨苄500 mg，每8小时1次，3~5 d"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_asymptomatic_bacteriuria_screening",
+        "to": "plan_fosfomycin_trometamol_3g_single",
+        "relation_id": "rel_screening_implements_fosfomycin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "妊娠期女性无症状菌尿",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "磷霉素氨丁三醇3 g，单剂治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_fungal_uti_principle",
+        "to": "plan_fluconazole_400mg_qd",
+        "relation_id": "rel_fungal_implements_fluconazole",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "膀胱炎和肾盂肾炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "氟康唑400 mg，每天1次，2~4周"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_fungal_uti_principle",
+        "to": "plan_flucytosine_25mg_kg_qid",
+        "relation_id": "rel_fungal_implements_flucytosine",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "膀胱炎和肾盂肾炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "氟胞嘧啶25 mg/kg，每天4次，7~10 d"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_fungal_uti_principle",
+        "to": "plan_amphotericin_b_iv",
+        "relation_id": "rel_fungal_implements_amphotericin_iv",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "膀胱炎和肾盂肾炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "两性霉素B 0.3~1.0 mg/kg，静脉滴注，每天1次，1周"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_fungal_uti_principle",
+        "to": "plan_amphotericin_b_bladder_irrigation",
+        "relation_id": "rel_fungal_implements_amphotericin_irrigation",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "补救",
+        "applicable_condition": "对氟康唑耐药的念珠菌属",
+        "contraindication_note": "很快复发",
+        "evidence_ids": [
+          "两性霉素B膀胱冲洗（5~7 d）对氟康唑耐药的念珠菌属有效，可有效清除念珠菌尿，但很快复发"
         ],
         "confidence": 0.9
       },
       {
-        "from": "treatment_uti_dose_adjustment",
-        "to": "plan_levofloxacin_500mg_qd",
-        "relation_id": "rel_dose_adjustment_implements_by_levo",
+        "from": "treatment_recurrent_uti_prevention",
+        "to": "plan_tmp_smx_prophylaxis",
+        "relation_id": "rel_prevention_implements_tmp_smx",
         "relation_name": "落实为",
         "relation_type": "implements_by",
-        "plan_role": "首选",
-        "applicable_condition": "上尿路感染",
+        "plan_role": "维持",
+        "applicable_condition": "反复发作性尿路感染发作间期预防",
         "contraindication_note": null,
         "evidence_ids": [
-          "左氧\n氟沙星和 内酰胺类抗菌药物的血药浓度和尿药\n浓度均高 既可用于治疗下尿路感染 又可用于治疗\n上尿路感染"
+          "甲氧苄啶/磺胺甲恶唑（TMP/SMX）40~200 mg，每24或48小时1次"
         ],
-        "confidence": 0.9
-      },
-      {
-        "from": "treatment_uti_route_selection",
-        "to": "plan_fosfomycin_trometamol_single_dose",
-        "relation_id": "rel_route_selection_implements_by_fosfomycin",
-        "relation_name": "落实为",
-        "relation_type": "implements_by",
-        "plan_role": "首选",
-        "applicable_condition": "下尿路感染",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "磷霉素氨丁三醇 口服 单剂治疗"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "treatment_uti_route_selection",
-        "to": "plan_levofloxacin_500mg_qd",
-        "relation_id": "rel_route_selection_implements_by_levo",
-        "relation_name": "落实为",
-        "relation_type": "implements_by",
-        "plan_role": "首选",
-        "applicable_condition": "上尿路感染",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "左氧\n氟沙星和 内酰胺类抗菌药物的血药浓度和尿药\n浓度均高 既可用于治疗下尿路感染 又可用于治疗\n上尿路感染"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_asymptomatic_bacteriuria",
-        "to": "etiology_escherichia_coli",
-        "relation_id": "rel_asymptomatic_bacteriuria_caused_by_ecoli",
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "etiology_candida",
+        "relation_id": "rel_fungal_caused_by_candida",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -799,29 +1415,14 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "无症状菌尿的诊断标准为［１］ 对\n无症状女性患者或留置尿路导管的患者 尿培养细\n菌菌落计数 ５ 男性患者清洁尿标本培\n养出 种菌株菌落计数 ３"
+          "念珠菌属是原发性累及泌尿生殖道最常见的真菌"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_fungal_uti",
-        "to": "etiology_candida_albicans",
-        "relation_id": "rel_fungal_uti_caused_by_candida",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "strong",
-        "typicality": "typical",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "念珠菌属是原发性累及泌尿生殖道最常见的真\n菌 其中白色念珠菌是最常见的医院内真菌尿路感\n染病原体"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_fungal_uti",
-        "to": "etiology_diabetes_mellitus",
-        "relation_id": "rel_fungal_uti_caused_by_dm",
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "etiology_diabetes",
+        "relation_id": "rel_fungal_caused_by_diabetes",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "moderate",
@@ -829,14 +1430,74 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "危险因素和诱因主要有糖尿病"
+          "危险因素和诱因主要有糖尿病、肾移植、高龄"
         ],
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_fungal_uti",
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "etiology_renal_transplant",
+        "relation_id": "rel_fungal_caused_by_renal_transplant",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "危险因素和诱因主要有糖尿病、肾移植、高龄"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "etiology_advanced_age",
+        "relation_id": "rel_fungal_caused_by_advanced_age",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "危险因素和诱因主要有糖尿病、肾移植、高龄"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "etiology_urinary_tract_instrumentation",
+        "relation_id": "rel_fungal_caused_by_instrumentation",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "尿路有创操作、女性性生活"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_urogenital_fungal_infection",
         "to": "etiology_indwelling_catheter",
-        "relation_id": "rel_fungal_uti_caused_by_catheter",
+        "relation_id": "rel_fungal_caused_by_catheter",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "尿路内置导管、膀胱功能障碍"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_urogenital_fungal_infection",
+        "to": "etiology_urinary_obstruction",
+        "relation_id": "rel_fungal_caused_by_obstruction",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "moderate",
@@ -844,22 +1505,33 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "危险因素和诱因主要有...尿路内置导管"
+          "尿路梗阻性疾病、肾结石等"
         ],
         "confidence": 0.9
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_fungal_uti",
-        "to": "pathogenesis_fungal_uti_immunosuppression",
-        "relation_id": "rel_fungal_uti_explained_by_immunosuppression",
+        "from": "sub_disease_asymptomatic_bacteriuria",
+        "to": "pathogenesis_bacteremia",
+        "relation_id": "rel_asymptomatic_explained_by_bacteremia",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "危险因素和诱因主要有糖尿病\n肾移植 高龄 尿路有创操作 女性性生活 伴随细菌\n尿 长期住院 先天性尿路畸形或结构异常 住\nＩＣＵ\n病房 广谱抗菌药物的使用 尿路内置导管 膀胱功\n能障碍 尿路梗阻性疾病 肾结石等"
+          "术中有黏膜破溃、细菌入血出现菌血症的风险"
         ],
-        "confidence": 0.75
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_recurrent_uti",
+        "to": "pathogenesis_low_immunity",
+        "relation_id": "rel_recurrent_explained_by_low_immunity",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "感染的原因是自身抵抗力低下出现的新的感染而不是首次感染治疗的失败"
+        ],
+        "confidence": 0.85
       }
     ]
   },

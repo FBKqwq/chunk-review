@@ -1,8 +1,8 @@
 {
   "meta": {
     "doc_id": "水痘诊疗方案（2023年版）",
-    "source_title": "水痘诊疗方案（2023 年版）",
-    "section_path": "",
+    "source_title": "水痘诊疗方案（2023年版）",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -22,7 +22,7 @@
           "水痘诊疗方案（2023年版）"
         ],
         "evidence_ids": [
-          "水痘（Varicella, Chickenpox）是由水痘-带状疱疹病毒感染引起的一种呼吸道传染病，传染性强。以斑疹、丘疹、疱疹、结痂同时出现为特点。"
+          "水痘（Varicella, Chickenpox）是由水痘-带状疱疹病毒（Varicella-Zoster Virus， VZV）感染引起的一种呼吸道传染病"
         ],
         "confidence": 0.95
       }
@@ -32,7 +32,7 @@
         "id": "sub_disease_varicella_typical",
         "name": "典型水痘",
         "parent_disease_id": "disease_varicella",
-        "disease_subtype": null,
+        "disease_subtype": "原发感染",
         "clinical_stage": "不限定",
         "severity": "轻症",
         "population": "儿童",
@@ -40,7 +40,7 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "原发感染通常发生于儿童期，常呈良性自限性……皮疹有以下特点：1.先见于躯干、头部，后延及全身。皮疹发展迅速，开始为红斑疹，数小时变为丘疹，逐渐形成疱疹、结痂，伴皮肤瘙痒。皮疹分批出现，同一部位可见斑疹、丘疹、疱疹和结痂同时存在。"
+          "原发感染通常发生于儿童期，常呈良性自限性"
         ],
         "confidence": 0.9
       },
@@ -48,15 +48,15 @@
         "id": "sub_disease_varicella_severe",
         "name": "重症水痘",
         "parent_disease_id": "disease_varicella",
-        "disease_subtype": null,
+        "disease_subtype": "重症感染",
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": "小于1岁的婴儿、孕妇及应用免疫抑制剂、放化疗、HIV感染等免疫功能低下人群",
+        "population": "小于 1 岁的婴儿、孕妇及应用免疫抑制剂、放化疗、HIV 感染等免疫功能低下人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（三）重症水痘。多见于小于 1 岁的婴儿、孕妇及应用免疫抑制剂、放化疗、HIV 感染等免疫功能低下人群。临床表现为严重的感染中毒症状，体温可高达 40℃以上，皮疹多为播散性，常呈出血性皮疹或大疱型疱疹，严重出血或 DIC。"
+          "多见于小于 1 岁的婴儿、孕妇及应用免疫抑制剂、放化疗、HIV 感染等免疫功能低下人群。临床表现为严重的感染中毒症状"
         ],
         "confidence": 0.9
       },
@@ -64,15 +64,15 @@
         "id": "sub_disease_varicella_breakthrough",
         "name": "突破性水痘",
         "parent_disease_id": "disease_varicella",
-        "disease_subtype": null,
+        "disease_subtype": "特殊类型",
         "clinical_stage": "不限定",
         "severity": "轻症",
-        "population": "已接种水痘疫苗者",
+        "population": "接种水痘疫苗者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "1.突破性水痘。接种水痘疫苗6周后出现的野生型水痘-带状疱疹病毒感染病例称为突破性水痘。通常症状较未接种疫苗患者轻，皮疹常不典型，无水疱、结痂等，类似蚊虫叮咬皮疹，多不伴发热。"
+          "接种水痘疫苗6周后出现的野生型水痘-带状疱疹病毒感染病例称为突破性水痘"
         ],
         "confidence": 0.9
       },
@@ -80,15 +80,15 @@
         "id": "sub_disease_varicella_neonatal",
         "name": "新生儿水痘",
         "parent_disease_id": "disease_varicella",
-        "disease_subtype": null,
+        "disease_subtype": "特殊类型",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "新生儿",
         "gender": "all",
-        "age_min": null,
-        "age_max": null,
+        "age_min": 0,
+        "age_max": 0,
         "evidence_ids": [
-          "2.新生儿水痘。患有水痘的母亲分娩时可感染新生儿，新生儿感染后重症比例较高，病死率高达30%。分娩前2周感染水痘可传播给胎儿，症状相对较轻。"
+          "患有水痘的母亲分娩时可感染新生儿，新生儿感染后重症比例较高"
         ],
         "confidence": 0.9
       },
@@ -96,7 +96,7 @@
         "id": "sub_disease_varicella_congenital",
         "name": "先天性水痘",
         "parent_disease_id": "disease_varicella",
-        "disease_subtype": null,
+        "disease_subtype": "特殊类型",
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "胎儿",
@@ -104,7 +104,39 @@
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "3.先天性水痘。母亲孕20周前患水痘或带状疱疹可能累及胎儿，发生先天性水痘，发生率约1%~2%，表现为出生体重低、瘢痕性皮肤病变、肢体萎缩（一个或多个肢体短小或者畸形）、眼部异常（视神经萎缩、白内障、视网膜脉络膜炎、眼球震颤等）及中枢神经系统损害（大脑皮层萎缩、小头畸形、癫痫发作、智力低下）等。死亡率高达30%以上。"
+          "母亲孕20周前患水痘或带状疱疹可能累及胎儿，发生先天性水痘"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_varicella_pneumonia",
+        "name": "水痘肺炎",
+        "parent_disease_id": "disease_varicella",
+        "disease_subtype": "并发症",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "免疫缺陷者、新生儿",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "肺炎。多见于免疫缺陷者、新生儿。于病后 1~6 天发生"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_varicella_encephalitis",
+        "name": "水痘脑炎",
+        "parent_disease_id": "disease_varicella",
+        "disease_subtype": "并发症",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "脑炎。常发生于出疹后第 2~6 天或出疹前或病愈后，与一般病毒性脑炎相似"
         ],
         "confidence": 0.9
       }
@@ -116,17 +148,17 @@
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "潜伏期为 10~21 天，多为 14 天。……部分患者有发热头痛、全身不适、纳差及上呼吸道症状……多于发热当天出疹"
+          "部分患者有发热头痛、全身不适、纳差及上呼吸道症状"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_headache",
         "name": "头痛",
         "body_site": "头部",
-        "symptom_category": "神经系统症状",
+        "symptom_category": "全身症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
@@ -135,111 +167,133 @@
         "confidence": 0.9
       },
       {
+        "id": "symptom_macule",
+        "name": "斑疹",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "以斑疹、丘疹、疱疹、结痂同时出现为特点"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_papule",
+        "name": "丘疹",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "以斑疹、丘疹、疱疹、结痂同时出现为特点"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_vesicle",
+        "name": "疱疹",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "以斑疹、丘疹、疱疹、结痂同时出现为特点"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_crust",
+        "name": "结痂",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "以斑疹、丘疹、疱疹、结痂同时出现为特点"
+        ],
+        "confidence": 0.95
+      },
+      {
         "id": "symptom_pruritus",
         "name": "皮肤瘙痒",
         "body_site": "皮肤",
         "symptom_category": "皮肤症状",
         "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "皮疹分批出现，同一部位可见斑疹、丘疹、疱疹和结痂同时存在。……伴皮肤瘙痒。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_rash_centripetal",
-        "name": "皮疹向心性分布",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "皮疹呈向心性分布，躯干最多，其次为头面部及四肢近端，数目由数个至数千个不等。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_oral_ulcer",
-        "name": "口腔浅表性溃疡",
-        "body_site": "口腔黏膜",
-        "symptom_category": "消化系统症状",
-        "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "口腔、外阴、眼结合膜等处黏膜可发生浅表疱疹，易破溃形成浅表性溃疡，伴有疼痛。"
+          "逐渐形成疱疹、结痂，伴皮肤瘙痒"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_conjunctival_lesion",
-        "name": "眼结合膜浅表疱疹",
-        "body_site": "眼结合膜",
-        "symptom_category": "五官症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "口腔、外阴、眼结合膜等处黏膜可发生浅表疱疹，易破溃形成浅表性溃疡，伴有疼痛。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_vesicle_with_umbilication",
-        "name": "疱疹顶部可见脐凹",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "皮疹常呈椭圆形，3~5mm，周围有红晕，疱疹浅表易破，顶部可见脐凹。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_hemorrhagic_rash",
-        "name": "出血性皮疹",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "皮疹多为播散性，常呈出血性皮疹或大疱型疱疹，严重出血或 DIC。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_pneumonia_symptoms",
-        "name": "肺炎症状",
+        "id": "symptom_cough",
+        "name": "咳嗽",
         "body_site": "肺部",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "肺炎。多见于免疫缺陷者、新生儿。于病后 1~6 天发生，表现为发热、咳嗽、呼吸困难、咯血、胸痛和肺部啰音。"
+          "表现为发热、咳嗽、呼吸困难、咯血、胸痛和肺部啰音"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_encephalitis_symptoms",
-        "name": "脑炎症状",
-        "body_site": "中枢神经系统",
+        "id": "symptom_dyspnea",
+        "name": "呼吸困难",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "表现为发热、咳嗽、呼吸困难、咯血、胸痛和肺部啰音"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_ataxia",
+        "name": "共济失调",
+        "body_site": "神经系统",
         "symptom_category": "神经系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "脑炎。常发生于出疹后第 2~6 天或出疹前或病愈后，与一般病毒性脑炎相似，亦可累及小脑，表现为共济失调。"
+          "亦可累及小脑，表现为共济失调"
         ],
         "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_vzv_pcr",
+        "id": "test_wbc",
+        "name": "外周血白细胞总数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "发病早期外周血白细胞总数正常或稍高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_vzv_nucleic_acid",
         "name": "水痘病毒核酸检测",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "1.核酸检测。疱液、咽拭子、血液、脑脊液等标本中水痘病毒核酸阳性。"
+          "疱液、咽拭子、血液、脑脊液等标本中水痘病毒核酸阳性"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_vzv_culture",
+        "name": "疱疹液病毒培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "疱疹液病毒培养分离到水痘病毒"
         ],
         "confidence": 0.95
       },
@@ -250,125 +304,115 @@
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "3.抗原检测。疱疹基部刮片或疱疹液 VZV 抗原阳性。"
+          "疱疹基部刮片或疱疹液 VZV 抗原阳性"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_vzv_culture",
-        "name": "水痘病毒培养",
+        "id": "test_vzv_igg",
+        "name": "VZV-IgG抗体",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "2.病毒培养。疱疹液病毒培养分离到水痘病毒。"
+          "VZV-IgG 抗体阳转或恢复期较急性期滴度呈 4 倍及以上升高"
         ],
         "confidence": 0.95
       },
       {
         "id": "test_vzv_igm",
-        "name": "VZV-IgM抗体检测",
+        "name": "VZV-IgM抗体",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "VZV-IgM 阳性提示近期感染。"
+          "VZV-IgM 阳性提示近期感染"
         ],
         "confidence": 0.95
-      },
-      {
-        "id": "test_vzv_igg_serconversion",
-        "name": "VZV-IgG抗体阳转或滴度4倍升高",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "VZV-IgG 抗体阳转或恢复期较急性期滴度呈 4 倍及以上升高。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_wbc",
-        "name": "外周血白细胞总数",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "发病早期外周血白细胞总数正常或稍高。"
-        ],
-        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_isolation",
-        "content": "按呼吸道和接触传播传染病进行隔离。",
+        "id": "treatment_general",
+        "content": "按呼吸道和接触传播传染病进行隔离。注意休息，保持皮肤清洁，防止搔抓致庖疹破溃。",
         "recommendation_strength": "strong",
-        "source_section": "治疗",
+        "source_section": "一般治疗",
         "evidence_ids": [
-          "（一）一般治疗。按呼吸道和接触传播传染病进行隔离。"
+          "按呼吸道和接触传播传染病进行隔离。注意休息，保持皮肤清洁，防止搔抓致庖疹破溃。"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "treatment_skin_care",
-        "content": "保持皮肤清洁，防止搔抓致疱疹破溃。皮疹已破溃可涂以碘伏软膏。皮肤局部继发感染者可以使用抗生素软膏涂抹，感染严重者使用敏感的抗菌药物，主要覆盖金黄色葡萄球菌和化脓性链球菌。",
-        "recommendation_strength": "strong",
-        "source_section": "治疗",
-        "evidence_ids": [
-          "注意休息，保持皮肤清洁，防止搔抓致庖疹破溃。皮疹已破溃可涂以碘伏软膏。皮肤局部继发感染者可以使用抗菌素软膏涂抹，感染严重者使用敏感的抗菌药物，主要覆盖金黄色葡萄球菌和化脓性链球菌。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "treatment_antipyretic",
-        "content": "儿童患者发热时给予布洛芬或对乙酰氨基酚，避免使用阿司匹林以免增加并发瑞氏综合征风险。",
-        "recommendation_strength": "strong",
-        "source_section": "治疗",
-        "evidence_ids": [
-          "儿童患者发热时给予布洛芬或对乙酰氨基酚，避免使用阿司匹林以免增加并发瑞氏综合征风险。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "treatment_antiviral",
-        "content": "首选阿昔洛韦。",
+        "content": "首选阿昔洛韦。对于无并发症的水痘患者，成人和40kg以上儿童口服；儿童静脉或口服；免疫功能受损等静脉给予。",
         "recommendation_strength": "strong",
-        "source_section": "治疗",
+        "source_section": "病原治疗",
         "evidence_ids": [
-          "（二）病原治疗。首选阿昔洛韦。"
+          "首选阿昔洛韦。"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "treatment_tcm_mild",
+        "content": "水痘轻型论治，推荐方剂：银翘散合六一散。",
+        "recommendation_strength": "strong",
+        "source_section": "中医治疗",
+        "evidence_ids": [
+          "推荐方剂：银翘散合六一散。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_tcm_severe",
+        "content": "水痘重型论治，推荐方剂：清瘟败毒饮加减。推荐中成药：热毒宁注射液。",
+        "recommendation_strength": "strong",
+        "source_section": "中医治疗",
+        "evidence_ids": [
+          "推荐方剂：清瘟败毒饮加减。",
+          "推荐中成药：热毒宁注射液。"
+        ],
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_acyclovir_oral_adult",
-        "content": "对于无并发症的水痘患者，成人和40kg以上儿童：每次800mg，每日4次，连用5天。",
+        "id": "plan_isolation",
+        "content": "按呼吸道和接触传播传染病进行隔离",
         "plan_level": 1,
-        "applicable_condition": "无并发症的水痘患者，成人和40kg以上儿童",
+        "applicable_condition": "所有水痘患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于无并发症的水痘患者，成人和40kg以上儿童：每次800mg，每日4次，连用5天；"
+          "按呼吸道和接触传播传染病进行隔离。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_acyclovir_adult",
+        "content": "阿昔洛韦每次800mg，每日4次，连用5天",
+        "plan_level": 1,
+        "applicable_condition": "无并发症的成人和40kg以上儿童水痘患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于无并发症的水痘患者，成人和40kg以上儿童：每次800mg，每日4次，连用5天"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_acyclovir_oral_child",
-        "content": "儿童（2岁及以上）：每次10~20 mg/kg（不超过800mg），每日4次，连用5天。",
+        "id": "plan_acyclovir_child",
+        "content": "阿昔洛韦每次10~20 mg/kg（不超过800mg），每日4次，连用5天",
         "plan_level": 1,
-        "applicable_condition": "无并发症的水痘患者，儿童（2岁及以上）",
+        "applicable_condition": "无并发症的儿童（2岁及以上）水痘患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "儿童（2岁及以上）：每次10~20 mg/kg（不超过800mg），每日4次，连用5天；"
+          "儿童（2岁及以上）：每次10~20 mg/kg（不超过800mg），每日4次，连用5天"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_acyclovir_iv_immunocompromised",
-        "content": "对于免疫功能受损的患者、存在严重并发症（如水痘肺炎或脑炎）的免疫功能正常患者、围产期感染和有并发症的新生儿静脉给予阿昔洛韦，每次10~20mg/kg（不超过800mg），每8小时1次，连用7日或至无新的皮疹出现后48小时。",
+        "id": "plan_acyclovir_iv",
+        "content": "静脉给予阿昔洛韦，每次10~20mg/kg（不超过800mg），每8小时1次，连用7日或至无新的皮疹出现后48小时",
         "plan_level": 1,
-        "applicable_condition": "免疫功能受损患者、存在严重并发症的免疫功能正常患者、围产期感染和有并发症的新生儿",
+        "applicable_condition": "免疫功能受损的患者、存在严重并发症的免疫功能正常患者、围产期感染和有并发症的新生儿",
         "contraindication_note": null,
         "evidence_ids": [
           "对于免疫功能受损的患者、存在严重并发症（如水痘肺炎或脑炎）的免疫功能正常患者、围产期感染和有并发症的新生儿静脉给予阿昔洛韦，每次10~20mg/kg（不超过800mg），每8小时1次，连用7日或至无新的皮疹出现后48小时。"
@@ -377,67 +421,68 @@
       },
       {
         "id": "plan_valacyclovir_child",
-        "content": "伐昔洛韦口服后易吸收并快速转化为阿昔洛韦，儿童推荐剂量为20mg/kg/次（每次≤1000mg），每天3次，疗程5天。",
+        "content": "伐昔洛韦口服，儿童推荐剂量为20mg/kg/次（每次≤1000mg），每天3次，疗程5天",
         "plan_level": 2,
         "applicable_condition": "儿童水痘患者",
         "contraindication_note": null,
         "evidence_ids": [
           "伐昔洛韦口服后易吸收并快速转化为阿昔洛韦，儿童推荐剂量为20mg/kg/次（每次≤1000mg），每天3次，疗程5天。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_acyclovir_postexposure",
-        "content": "暴露后可在3天内紧急接种疫苗。不能接种水痘疫苗但有重症高风险因素的人群发生暴露后，建议给予VZV免疫球蛋白或丙种球蛋白，或在暴露10天内进行抗病毒治疗，推荐口服阿昔洛韦，持续1周。",
-        "plan_level": 3,
-        "applicable_condition": "暴露后且有重症高风险因素者",
+        "id": "plan_tcm_mild",
+        "content": "银翘散合六一散。每日 1 剂，水煎服，每次 100m1~200m1，每日 2~4 次，口服。",
+        "plan_level": 1,
+        "applicable_condition": "水痘轻型",
         "contraindication_note": null,
         "evidence_ids": [
-          "暴露后可在 3 天内紧急接种疫苗。不能接种水痘疫苗但有重症高风险因素的人群发生暴露后，建议给予 VZV 免疫球蛋白或丙种球蛋白，或在暴露 10 天内进行抗病毒治疗，推荐口服阿昔洛韦，持续 1 周。"
+          "推荐方剂：银翘散合六一散。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_tcm_severe",
+        "content": "清瘟败毒饮加减。热毒宁注射液。",
+        "plan_level": 1,
+        "applicable_condition": "水痘重型",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：清瘟败毒饮加减。",
+          "推荐中成药：热毒宁注射液。"
+        ],
+        "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_vzv_infection",
-        "content": "水痘-带状疱疹病毒感染",
+        "id": "etiology_vzv",
+        "content": "水痘-带状疱疹病毒（VZV）感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
           "水痘（Varicella, Chickenpox）是由水痘-带状疱疹病毒（Varicella-Zoster Virus， VZV）感染引起的一种呼吸道传染病"
         ],
         "confidence": 0.95
-      },
-      {
-        "id": "etiology_maternal_vzv",
-        "content": "孕妇感染水痘或带状疱疹",
-        "etiology_type": "感染因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "母亲孕20周前患水痘或带状疱疹可能累及胎儿，发生先天性水痘"
-        ],
-        "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_vzv_primary_infection",
-        "content": "病毒自上呼吸道黏膜侵入，在局部淋巴结繁殖，释放入血，感染后约 5 天发生第一次病毒血症。病毒到达肝、脾和其他脏器内增殖后再次入血（第二次病毒血症），引起皮肤黏膜损害，细胞免疫功能低下人群可出现皮肤黏膜及内脏广泛出血、坏死性病变。",
+        "id": "pathogenesis_vzv_invasion",
+        "content": "病毒自上呼吸道黏膜侵入，在局部淋巴结繁殖，释放入血，感染后约 5 天发生第一次病毒血症。病毒到达肝、脾和其他脏器内增殖后再次入血（第二次病毒血症），引起皮肤黏膜损害",
         "evidence_ids": [
-          "三、发病机制 病毒自上呼吸道黏膜侵入，在局部淋巴结繁殖，释放入血，感染后约 5 天发生第一次病毒血症。病毒到达肝、脾和其他脏器内增殖后再次入血（第二次病毒血症），引起皮肤黏膜损害，细胞免疫功能低下人群可出现皮肤黏膜及内脏广泛出血、坏死性病变。"
+          "病毒自上呼吸道黏膜侵入，在局部淋巴结繁殖，释放入血，感染后约 5 天发生第一次病毒血症。病毒到达肝、脾和其他脏器内增殖后再次入血（第二次病毒血症），引起皮肤黏膜损害"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "pathogenesis_vzv_latency_reactivation",
-        "content": "水痘痊愈后，病毒可潜伏在神经节内，在机体免疫功能低下时被激活，沿神经支配的皮肤出现带状疱疹，并具有传染性。",
+        "id": "pathogenesis_vzv_latency",
+        "content": "水痘痊愈后，病毒可潜伏在神经节内，在机体免疫功能低下时被激活，沿神经支配的皮肤出现带状疱疹，并具有传染性",
         "evidence_ids": [
-          "水痘痊愈后，病毒可潜伏在神经节内，在机体免疫功能低下时被激活，沿神经支配的皮肤出现带状疱疹，并具有传染性。"
+          "水痘痊愈后，病毒可潜伏在神经节内，在机体免疫功能低下时被激活，沿神经支配的皮肤出现带状疱疹，并具有传染性"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ]
   },
@@ -450,9 +495,9 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "原发感染通常发生于儿童期，常呈良性自限性……皮疹有以下特点：1.先见于躯干、头部，后延及全身。皮疹发展迅速，开始为红斑疹，数小时变为丘疹，逐渐形成疱疹、结痂，伴皮肤瘙痒。皮疹分批出现，同一部位可见斑疹、丘疹、疱疹和结痂同时存在。"
+          "原发感染通常发生于儿童期，常呈良性自限性"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_varicella",
@@ -461,9 +506,9 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（三）重症水痘。多见于小于 1 岁的婴儿、孕妇及应用免疫抑制剂、放化疗、HIV 感染等免疫功能低下人群。临床表现为严重的感染中毒症状，体温可高达 40℃以上，皮疹多为播散性，常呈出血性皮疹或大疱型疱疹，严重出血或 DIC。"
+          "重症水痘。多见于小于 1 岁的婴儿、孕妇及应用免疫抑制剂、放化疗、HIV 感染等免疫功能低下人群"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_varicella",
@@ -472,241 +517,145 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "1.突破性水痘。接种水痘疫苗6周后出现的野生型水痘-带状疱疹病毒感染病例称为突破性水痘。通常症状较未接种疫苗患者轻，皮疹常不典型，无水疱、结痂等，类似蚊虫叮咬皮疹，多不伴发热。"
+          "突破性水痘。接种水痘疫苗6周后出现的野生型水痘-带状疱疹病毒感染病例称为突破性水痘"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_varicella",
-        "to": "sub_disease_varicella_neonatal",
-        "relation_id": "rel_varicella_has_neonatal",
+        "to": "sub_disease_varicella_pneumonia",
+        "relation_id": "rel_varicella_has_pneumonia",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "2.新生儿水痘。患有水痘的母亲分娩时可感染新生儿，新生儿感染后重症比例较高，病死率高达30%。分娩前2周感染水痘可传播给胎儿，症状相对较轻。"
+          "肺炎。多见于免疫缺陷者、新生儿"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_varicella",
-        "to": "sub_disease_varicella_congenital",
-        "relation_id": "rel_varicella_has_congenital",
+        "to": "sub_disease_varicella_encephalitis",
+        "relation_id": "rel_varicella_has_encephalitis",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "3.先天性水痘。母亲孕20周前患水痘或带状疱疹可能累及胎儿，发生先天性水痘，发生率约1%~2%，表现为出生体重低、瘢痕性皮肤病变、肢体萎缩（一个或多个肢体短小或者畸形）、眼部异常（视神经萎缩、白内障、视网膜脉络膜炎、眼球震颤等）及中枢神经系统损害（大脑皮层萎缩、小头畸形、癫痫发作、智力低下）等。死亡率高达30%以上。"
+          "脑炎。常发生于出疹后第 2~6 天或出疹前或病愈后"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
         "from": "sub_disease_varicella_typical",
-        "to": "symptom_fever",
-        "relation_id": "rel_typical_manifests_as_fever",
+        "to": "symptom_macule",
+        "relation_id": "rel_typical_manifests_macule",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "以斑疹、丘疹、疱疹、结痂同时出现为特点"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出水痘以斑疹、丘疹、疱疹、结痂同时出现为特点",
+        "evidence": "以斑疹、丘疹、疱疹、结痂同时出现为特点"
+      },
+      {
+        "from": "sub_disease_varicella_typical",
+        "to": "symptom_vesicle",
+        "relation_id": "rel_typical_manifests_vesicle",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "以斑疹、丘疹、疱疹、结痂同时出现为特点"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出水痘以斑疹、丘疹、疱疹、结痂同时出现为特点",
+        "evidence": "以斑疹、丘疹、疱疹、结痂同时出现为特点"
+      },
+      {
+        "from": "sub_disease_varicella_pneumonia",
+        "to": "symptom_cough",
+        "relation_id": "rel_pneumonia_manifests_cough",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "并发症",
+        "evidence_ids": [
+          "表现为发热、咳嗽、呼吸困难、咯血、胸痛和肺部啰音"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_varicella_encephalitis",
+        "to": "symptom_ataxia",
+        "relation_id": "rel_encephalitis_manifests_ataxia",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
         "weight": 8,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "潜伏期为 10~21 天，多为 14 天。……部分患者有发热头痛、全身不适、纳差及上呼吸道症状……多于发热当天出疹"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确描述‘部分患者有发热’，属常见但非必现症状；‘婴幼儿常无前驱期症状’暗示发热非普遍",
-        "evidence": "部分患者有发热头痛、全身不适、纳差及上呼吸道症状，偶可出现前驱疹。此期持续1~2天。婴幼儿常无前驱期症状。"
-      },
-      {
-        "from": "sub_disease_varicella_typical",
-        "to": "symptom_pruritus",
-        "relation_id": "rel_typical_manifests_as_pruritus",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "皮疹分批出现，同一部位可见斑疹、丘疹、疱疹和结痂同时存在。……伴皮肤瘙痒。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确‘伴皮肤瘙痒’且与皮疹特点并列描述，属典型、高频、特异性表现",
-        "evidence": "皮疹有以下特点：1.先见于躯干、头部，后延及全身。……伴皮肤瘙痒。"
-      },
-      {
-        "from": "sub_disease_varicella_typical",
-        "to": "symptom_rash_centripetal",
-        "relation_id": "rel_typical_manifests_as_centripetal",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "皮疹呈向心性分布，躯干最多，其次为头面部及四肢近端，数目由数个至数千个不等。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文直接定义‘皮疹呈向心性分布’为典型特征之一，属诊断性核心表现",
-        "evidence": "皮疹呈向心性分布，躯干最多，其次为头面部及四肢近端，数目由数个至数千个不等。"
-      },
-      {
-        "from": "sub_disease_varicella_severe",
-        "to": "symptom_hemorrhagic_rash",
-        "relation_id": "rel_severe_manifests_as_hemorrhagic",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "皮疹多为播散性，常呈出血性皮疹或大疱型疱疹，严重出血或 DIC。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文在‘重症水痘’条目下明确列出‘常呈出血性皮疹’，属重症特异性表现",
-        "evidence": "重症水痘。……临床表现为严重的感染中毒症状，体温可高达40℃以上，皮疹多为播散性，常呈出血性皮疹或大疱型疱疹，严重出血或DIC。"
-      },
-      {
-        "from": "sub_disease_varicella_severe",
-        "to": "symptom_pneumonia_symptoms",
-        "relation_id": "rel_severe_manifests_as_pneumonia",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
         "typicality": "common",
         "duration_condition": null,
-        "section_priority": "临床表现",
+        "section_priority": "并发症",
         "evidence_ids": [
-          "肺炎。多见于免疫缺陷者、新生儿。于病后 1~6 天发生，表现为发热、咳嗽、呼吸困难、咯血、胸痛和肺部啰音。"
+          "亦可累及小脑，表现为共济失调"
         ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_varicella_severe",
-        "to": "symptom_encephalitis_symptoms",
-        "relation_id": "rel_severe_manifests_as_encephalitis",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "脑炎。常发生于出疹后第 2~6 天或出疹前或病愈后，与一般病毒性脑炎相似，亦可累及小脑，表现为共济失调。"
-        ],
-        "confidence": 0.9
+        "confidence": 0.9,
+        "weight_reason": "原文指出水痘脑炎亦可累及小脑表现为共济失调，为可能出现的症状",
+        "evidence": "亦可累及小脑，表现为共济失调"
       }
     ],
     "requires_test": [
       {
         "from": "sub_disease_varicella_typical",
-        "to": "test_vzv_pcr",
-        "relation_id": "rel_typical_requires_pcr",
+        "to": "test_vzv_nucleic_acid",
+        "relation_id": "rel_typical_requires_nucleic_acid",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
         "operator": "equals",
         "unit": null,
-        "result_text": "阳性",
-        "weight": 100,
+        "result_text": "水痘病毒核酸阳性",
+        "weight": 10,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "实验室检查",
+        "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "1.核酸检测。疱液、咽拭子、血液、脑脊液等标本中水痘病毒核酸阳性。"
+          "水痘核酸检测阳性"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文‘确诊病例’定义中，‘水痘核酸检测阳性’列为第1项，且全文未提其他检测优先级，符合金标准地位",
-        "evidence": "（二）确诊病例。临床诊断病例，具有以下任一项者：1.水痘核酸检测阳性；"
-      },
-      {
-        "from": "sub_disease_varicella_typical",
-        "to": "test_vzv_antigen",
-        "relation_id": "rel_typical_requires_antigen",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "3.抗原检测。疱疹基部刮片或疱疹液 VZV 抗原阳性。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文‘确诊病例’定义中，‘水痘抗原检测阳性’列为第2项，并列于核酸检测之后，属同等效力的确诊依据",
-        "evidence": "2.水痘抗原检测阳性；"
-      },
-      {
-        "from": "sub_disease_varicella_typical",
-        "to": "test_vzv_culture",
-        "relation_id": "rel_typical_requires_culture",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "分离到水痘病毒",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "实验室检查",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "2.病毒培养。疱疹液病毒培养分离到水痘病毒。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文‘确诊病例’定义中，‘水痘病毒培养分离阳性’列为第3项，与核酸、抗原并列，属确诊金标准之一",
-        "evidence": "3.水痘病毒培养分离阳性；"
+        "weight_reason": "原文将水痘核酸检测阳性列为确诊病例的标准之一，但未提及金标准",
+        "evidence": "水痘核酸检测阳性"
       },
       {
         "from": "sub_disease_varicella_typical",
@@ -720,80 +669,42 @@
         "value_max": null,
         "operator": "equals",
         "unit": null,
-        "result_text": "阳性",
-        "weight": 100,
-        "gold_standard": true,
+        "result_text": "VZV-IgM 阳性",
+        "weight": 10,
+        "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "实验室检查",
+        "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "VZV-IgM 阳性提示近期感染。"
+          "VZV-IgM 阳性（排除近期接种水痘减毒活疫苗）"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文‘确诊病例’定义中，‘VZV-IgM阳性（排除近期接种水痘减毒活疫苗）’列为第4项，属明确的实验室确诊依据",
-        "evidence": "4.VZV-IgM阳性（排除近期接种水痘减毒活疫苗）；"
+        "confidence": 0.9,
+        "weight_reason": "原文将VZV-IgM阳性列为确诊病例的标准之一，但未提及金标准",
+        "evidence": "VZV-IgM阳性（排除近期接种水痘减毒活疫苗）"
       }
     ],
     "follows_treatment": [
       {
         "from": "sub_disease_varicella_typical",
-        "to": "treatment_isolation",
-        "relation_id": "rel_typical_follows_isolation",
+        "to": "treatment_general",
+        "relation_id": "rel_typical_follows_general",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后即执行",
+        "applicable_condition": "所有水痘患者",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病类型"
+          "疾病诊断"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗",
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_varicella_typical",
-        "to": "treatment_skin_care",
-        "relation_id": "rel_typical_follows_skin_care",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "确诊后即执行",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "疾病类型"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "治疗",
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_varicella_typical",
-        "to": "treatment_antipyretic",
-        "relation_id": "rel_typical_follows_antipyretic",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "发热时",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "症状"
-        ],
-        "contraindication_note": "避免使用阿司匹林",
-        "evidence_level": "expert_consensus",
-        "source_section": "治疗",
-        "confidence": 0.95
+        "source_section": "一般治疗",
+        "confidence": 0.9
       },
       {
         "from": "sub_disease_varicella_typical",
@@ -803,81 +714,100 @@
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "无并发症者可酌情使用",
+        "applicable_condition": "无并发症的水痘患者",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病类型"
+          "疾病诊断"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "治疗",
+        "source_section": "病原治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_varicella_severe",
+        "to": "treatment_antiviral",
+        "relation_id": "rel_severe_follows_antiviral",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "免疫功能受损或存在严重并发症",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "病原治疗",
         "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_isolation",
-        "to": "plan_acyclovir_oral_adult",
-        "relation_id": "rel_isolation_implements_by_oral_adult",
+        "from": "treatment_general",
+        "to": "plan_isolation",
+        "relation_id": "rel_general_implements_isolation",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "无并发症的水痘患者，成人和40kg以上儿童",
+        "applicable_condition": "所有水痘患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于无并发症的水痘患者，成人和40kg以上儿童：每次800mg，每日4次，连用5天；"
+          "按呼吸道和接触传播传染病进行隔离。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antiviral",
+        "to": "plan_acyclovir_adult",
+        "relation_id": "rel_antiviral_implements_acyclovir_adult",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "无并发症的成人和40kg以上儿童",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对于无并发症的水痘患者，成人和40kg以上儿童：每次800mg，每日4次，连用5天"
         ],
         "confidence": 0.95
       },
       {
         "from": "treatment_antiviral",
-        "to": "plan_acyclovir_oral_adult",
-        "relation_id": "rel_antiviral_implements_by_oral_adult",
+        "to": "plan_acyclovir_iv",
+        "relation_id": "rel_antiviral_implements_acyclovir_iv",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "无并发症的水痘患者，成人和40kg以上儿童",
+        "applicable_condition": "免疫功能受损或严重并发症",
         "contraindication_note": null,
         "evidence_ids": [
-          "对于无并发症的水痘患者，成人和40kg以上儿童：每次800mg，每日4次，连用5天；"
+          "对于免疫功能受损的患者、存在严重并发症（如水痘肺炎或脑炎）的免疫功能正常患者、围产期感染和有并发症的新生儿静脉给予阿昔洛韦"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_antiviral",
-        "to": "plan_acyclovir_oral_child",
-        "relation_id": "rel_antiviral_implements_by_oral_child",
+        "from": "treatment_tcm_mild",
+        "to": "plan_tcm_mild",
+        "relation_id": "rel_tcm_mild_implements_plan",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "无并发症的水痘患者，儿童（2岁及以上）",
+        "applicable_condition": "水痘轻型",
         "contraindication_note": null,
         "evidence_ids": [
-          "儿童（2岁及以上）：每次10~20 mg/kg（不超过800mg），每日4次，连用5天；"
+          "推荐方剂：银翘散合六一散。"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "treatment_antiviral",
-        "to": "plan_acyclovir_iv_immunocompromised",
-        "relation_id": "rel_antiviral_implements_by_iv",
-        "relation_name": "落实为",
-        "relation_type": "implements_by",
-        "plan_role": "首选",
-        "applicable_condition": "免疫功能受损患者、存在严重并发症的免疫功能正常患者、围产期感染和有并发症的新生儿",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "对于免疫功能受损的患者、存在严重并发症（如水痘肺炎或脑炎）的免疫功能正常患者、围产期感染和有并发症的新生儿静脉给予阿昔洛韦，每次10~20mg/kg（不超过800mg），每8小时1次，连用7日或至无新的皮疹出现后48小时。"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
         "from": "sub_disease_varicella_typical",
-        "to": "etiology_vzv_infection",
-        "relation_id": "rel_typical_causes_vzv",
+        "to": "etiology_vzv",
+        "relation_id": "rel_typical_caused_by_vzv",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -885,7 +815,7 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "水痘（Varicella, Chickenpox）是由水痘-带状疱疹病毒（Varicella-Zoster Virus， VZV）感染引起的一种呼吸道传染病"
+          "水痘（Varicella, Chickenpox）是由水痘-带状疱疹病毒（Varicella-Zoster Virus， VZV）感染引起"
         ],
         "confidence": 0.95
       }
@@ -893,14 +823,25 @@
     "explained_by": [
       {
         "from": "sub_disease_varicella_typical",
-        "to": "pathogenesis_vzv_primary_infection",
-        "relation_id": "rel_typical_explained_by_primary",
+        "to": "pathogenesis_vzv_invasion",
+        "relation_id": "rel_typical_explained_by_invasion",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "三、发病机制 病毒自上呼吸道黏膜侵入，在局部淋巴结繁殖，释放入血，感染后约 5 天发生第一次病毒血症。病毒到达肝、脾和其他脏器内增殖后再次入血（第二次病毒血症），引起皮肤黏膜损害，细胞免疫功能低下人群可出现皮肤黏膜及内脏广泛出血、坏死性病变。"
+          "病毒自上呼吸道黏膜侵入，在局部淋巴结繁殖，释放入血，感染后约 5 天发生第一次病毒血症"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_varicella_typical",
+        "to": "pathogenesis_vzv_latency",
+        "relation_id": "rel_typical_explained_by_latency",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "水痘痊愈后，病毒可潜伏在神经节内，在机体免疫功能低下时被激活"
+        ],
+        "confidence": 0.9
       }
     ]
   },

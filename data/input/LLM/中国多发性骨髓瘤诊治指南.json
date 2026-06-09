@@ -11,211 +11,100 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_multiple_myeloma",
+        "id": "disease_mm",
         "name": "多发性骨髓瘤",
         "normalized_name": "多发性骨髓瘤",
         "aliases": [
-          "MM"
+          "MM",
+          "multiple myeloma"
         ],
         "source_document_ids": [
           "中国多发性骨髓瘤诊治指南（2024年修订）"
         ],
         "evidence_ids": [
-          "多发性骨髓瘤（multiple myeloma, MM）是一种克隆浆细胞异常增殖的恶性疾病，在很多国家是血液系统第2位常见恶性肿瘤［1‑2］，多发于老年，目前仍无法治愈。"
+          "多发性骨髓瘤（multiple myeloma，MM）是一种克隆浆细胞异常增殖的恶性疾病"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_mm_active",
+        "id": "sub_disease_aMM",
         "name": "活动性多发性骨髓瘤",
-        "parent_disease_id": "disease_multiple_myeloma",
+        "parent_disease_id": "disease_mm",
         "disease_subtype": "活动性",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": "重症",
+        "population": "所有人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "活动性（active multiple myeloma, aMM）的诊断标准如表2。"
+          "活动性多发性骨髓瘤（active multiple myeloma，aMM）的诊断标准如表2"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "sub_disease_mm_smoldering",
-        "name": "冒烟型多发性骨髓瘤",
-        "parent_disease_id": "disease_multiple_myeloma",
+        "id": "sub_disease_SMM",
+        "name": "冒烟型骨髓瘤",
+        "parent_disease_id": "disease_mm",
         "disease_subtype": "冒烟型",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": "中症",
+        "population": "所有人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "冒烟型骨髓瘤（smoldering multiple myeloma, SMM）"
+          "冒烟型骨髓瘤（smoldering multiple myeloma，SMM）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "sub_disease_mm_mgus",
+        "id": "sub_disease_MGUS",
         "name": "意义未明单克隆免疫球蛋白病",
-        "parent_disease_id": "disease_multiple_myeloma",
-        "disease_subtype": "MGUS",
+        "parent_disease_id": "disease_mm",
+        "disease_subtype": "癌前病变",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": "轻症",
+        "population": "所有人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "意义未明单克隆免疫球蛋白病（monoclonal gammopathy of undetermined significance, MGUS）"
+          "意义未明单克隆免疫球蛋白病（monoclonal gammopathy of undetermined significance，MGUS）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "sub_disease_mm_igd",
-        "name": "IgD型多发性骨髓瘤",
-        "parent_disease_id": "disease_multiple_myeloma",
+        "id": "sub_disease_igd_mm",
+        "name": "IgD型骨髓瘤",
+        "parent_disease_id": "disease_mm",
         "disease_subtype": "IgD型",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": "重症",
+        "population": "年轻患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "IgD型骨髓瘤：约1%~8%，我国稍多见，发病年龄轻、起病重，常合并髓外浸润、肾功能不全、淀粉样变性等临床特征，其中95%为λ型。"
+          "IgD型骨髓瘤：约1%~8%，我国稍多见，发病年龄轻、起病重"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_mm_igm",
-        "name": "IgM型多发性骨髓瘤",
-        "parent_disease_id": "disease_multiple_myeloma",
-        "disease_subtype": "IgM型",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "IgM型骨髓瘤：占比<0.5%，中位年龄为65岁。临床症状与非IgM骨髓瘤类似，常伴高黏滞血症、获得性血管性血友病。需与华氏巨球蛋白血症（WM）及其他可分泌IgM的淋巴瘤鉴别。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_mm_biclonal",
-        "name": "双克隆型多发性骨髓瘤",
-        "parent_disease_id": "disease_multiple_myeloma",
-        "disease_subtype": "双克隆型",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "双克隆型骨髓瘤：较为罕见，仅占<1%，表现出两种不同的单克隆蛋白，包括不同的重链、不同轻链等表现。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_mm_non_secretory",
-        "name": "不分泌型多发性骨髓瘤",
-        "parent_disease_id": "disease_multiple_myeloma",
-        "disease_subtype": "不分泌型",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "不分泌型骨髓瘤：血清和尿液免疫固定电泳单克隆免疫球蛋白呈阴性，但克隆性骨髓浆细胞比例≥10%。常以骨破坏起病。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_mm_oligo_secretory",
-        "name": "寡分泌型多发性骨髓瘤",
-        "parent_disease_id": "disease_multiple_myeloma",
-        "disease_subtype": "寡分泌型",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "寡分泌型MM：血清和尿液免疫固定电泳阳性，但M蛋白量小于可测量范围（血M蛋白量<10 g/L、尿M蛋白<200 mg/24 h、受累血清FLC<100 mg/L）。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_mm_ige",
-        "name": "IgE型多发性骨髓瘤",
-        "parent_disease_id": "disease_multiple_myeloma",
-        "disease_subtype": "IgE型",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "IgE型：罕见类型，IgEκ型多见，常伴MGUS、WM、轻链型淀粉样变性、孤立性浆细胞瘤（骨或骨外）、POEMS综合征等。此外，还需与反应性浆细胞增多症、转移癌的溶骨性病变、浆母细胞性淋巴瘤、单克隆免疫球蛋白相关肾损害（MGRS）等鉴别。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_mm_ultra_high_risk",
+        "id": "sub_disease_ultra_high_risk_mm",
         "name": "超高危多发性骨髓瘤",
-        "parent_disease_id": "disease_multiple_myeloma",
+        "parent_disease_id": "disease_mm",
         "disease_subtype": "超高危",
         "clinical_stage": "不限定",
-        "severity": "超高危",
-        "population": "不限定",
+        "severity": "极重症",
+        "population": "所有人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "超高危（符合以下之一）：双等位基因失活［13］（del 17p）或TP53突变；≥2个高危细胞遗传学［14］：del 1p32、1q del、del 17p、TP53突变、t(4;14)、t(14;16)、t(14;20）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_mm_high_risk",
-        "name": "高危多发性骨髓瘤",
-        "parent_disease_id": "disease_multiple_myeloma",
-        "disease_subtype": "高危",
-        "clinical_stage": "不限定",
-        "severity": "高危",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "高危（符合以下之一）：循环浆细胞≥2%［15］；循环浆细胞≥0.07%［16］；一线治疗后非移植者18个月内复发［17］，移植者2年内复发［18］；根据ISS、R‑ISS、R2‑ISS等分为高危但不符合超高危标准"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_mm_standard_risk",
-        "name": "标危多发性骨髓瘤",
-        "parent_disease_id": "disease_multiple_myeloma",
-        "disease_subtype": "标危",
-        "clinical_stage": "不限定",
-        "severity": "标危",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "标危：其余情况"
+          "危险分层部分提出了超高危MM的定义"
         ],
         "confidence": 0.9
       }
@@ -225,11 +114,11 @@
         "id": "symptom_hypercalcemia",
         "name": "血钙增高",
         "body_site": "全身",
-        "symptom_category": "全身症状",
+        "symptom_category": "代谢症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
-          "CRAB症状［血钙增高（Calcium elevation）"
+          "血钙增高（Calcium elevation）"
         ],
         "confidence": 0.95
       },
@@ -239,7 +128,7 @@
         "body_site": "肾脏",
         "symptom_category": "泌尿系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
           "肾功能损害（Renal insufficiency）"
         ],
@@ -251,7 +140,7 @@
         "body_site": "血液系统",
         "symptom_category": "血液系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
           "贫血（Anemia）"
         ],
@@ -261,76 +150,63 @@
         "id": "symptom_bone_disease",
         "name": "骨病",
         "body_site": "骨骼",
-        "symptom_category": "骨骼肌肉系统症状",
+        "symptom_category": "骨骼系统症状",
         "polarity": "present",
-        "typicality": "typical",
+        "typicality": "common",
         "evidence_ids": [
           "骨病（Bone disease）"
         ],
         "confidence": 0.95
       },
       {
-        "id": "symptom_starch_amyloidosis",
-        "name": "淀粉样变性",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "继发淀粉样变性等相关表现。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_hyperviscosity_syndrome",
+        "id": "symptom_hyperviscosity",
         "name": "高黏滞血症",
         "body_site": "血液系统",
         "symptom_category": "血液系统症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "rare",
         "evidence_ids": [
-          "常伴高黏滞血症、获得性血管性血友病。"
+          "常伴高黏滞血症"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_extramedullary_infiltration",
-        "name": "髓外浸润",
-        "body_site": "髓外组织",
-        "symptom_category": "血液系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "常合并髓外浸润、肾功能不全、淀粉样变性等临床特征"
-        ],
-        "confidence": 0.9
+        "confidence": 0.85
       }
     ],
     "tests": [
       {
         "id": "test_serum_m_protein",
-        "name": "血清M蛋白",
+        "name": "血清M蛋白定量",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "血清单克隆M蛋白≥20 g/L"
+          "血清M蛋白<30 g/L"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_bone_marrow_plasma_cell_percentage",
+        "id": "test_urine_m_protein_24h",
+        "name": "24h尿M蛋白定量",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "24 h尿M蛋白<0.5 g"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_bone_marrow_plasma_cell",
         "name": "骨髓单克隆浆细胞比例",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "骨髓单克隆浆细胞比例≥20%"
+          "骨髓单克隆浆细胞比例<10%"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_serum_frees_light_chain_ratio",
+        "id": "test_flc_ratio",
         "name": "受累/非受累血清游离轻链比",
         "normal_range_min": null,
         "normal_range_max": null,
@@ -341,267 +217,211 @@
         "confidence": 0.95
       },
       {
-        "id": "test_urine_m_protein",
-        "name": "尿M蛋白",
+        "id": "test_corrected_calcium",
+        "name": "校正血清钙",
         "normal_range_min": null,
-        "normal_range_max": null,
+        "normal_range_max": 2.75,
         "is_digital": 1,
         "evidence_ids": [
-          "尿M蛋白≥0.5 g/24 h"
+          "校正血清钙>2.75 mmol/L"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_serum_beta2_microglobulin",
+        "id": "test_creatinine_clearance",
+        "name": "肌酐清除率",
+        "normal_range_min": 40,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "肌酐清除率<40 ml/min"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_hemoglobin",
+        "name": "血红蛋白",
+        "normal_range_min": 100,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "血红蛋白低于正常下限20 g/L或<100 g/L"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_imaging_osteolytic",
+        "name": "影像学溶骨性病变",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "通过影像学检查（X线片、CT或PET‑CT）显示1处或多处溶骨性病变"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_beta2_microglobulin",
         "name": "β2微球蛋白",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "β2微球蛋白≥5.5 mg/L"
+          "β2微球蛋白<3.5 mg/L"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_serum_albumin",
+        "id": "test_albumin",
         "name": "白蛋白",
-        "normal_range_min": null,
+        "normal_range_min": 35,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
           "白蛋白≥35 g/L"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_serum_ldh",
+        "id": "test_ldh",
         "name": "乳酸脱氢酶",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "乳酸脱氢酶高于正常水平"
+          "乳酸脱氢酶正常水平"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "test_fish_del17p",
-        "name": "FISH检测del(17p)",
+        "name": "FISH del(17p)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "间期荧光原位杂交检出del(17p)"
+          "del（17p）"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_fish_t4_14",
-        "name": "FISH检测t(4;14)",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "t(4;14)"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_fish_t14_16",
-        "name": "FISH检测t(14;16)",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "t(14;16)"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_fish_1q21_plus",
-        "name": "FISH检测1q21增加/扩增",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "1q21增加扩增"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_circulating_plasma_cells",
-        "name": "循环浆细胞",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "循环浆细胞≥2%"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_mm_smm_watchful_waiting",
-        "content": "对于高危SMM，除非进入临床研究，否则不推荐提前干预，但需严密监测。对于中低危SMM，推荐定期监测和随访。",
-        "recommendation_strength": "strong",
-        "source_section": "六、新诊断MM的治疗",
+        "id": "treatment_transplant_eligible_induction",
+        "content": "适合移植的新诊断患者在移植前需接受诱导治疗，推荐选择以蛋白酶体抑制剂联合免疫调节剂及地塞米松的三药联合方案",
+        "recommendation_strength": "强推荐",
+        "source_section": "新诊断MM的治疗",
         "evidence_ids": [
-          "对于高危SMM，除非进入临床研究，否则不推荐提前干预，但需严密监测。对于中低危SMM，推荐定期监测和随访。"
+          "适合移植患者的诱导治疗：适合移植的新诊断患者在移植前需接受诱导治疗，推荐选择以蛋白酶体抑制剂联合免疫调节剂及地塞米松的三药联合方案"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_mm_induction_principle",
-        "content": "适合移植的新诊断患者在移植前需接受诱导治疗，推荐选择以蛋白酶体抑制剂联合免疫调节剂及地塞米松的三药联合方案。",
-        "recommendation_strength": "strong",
-        "source_section": "六、新诊断MM的治疗",
+        "id": "treatment_transplant_ineligible_induction",
+        "content": "不适合ASCT患者的诱导治疗：需根据IMWG GA评分进行评估，如评估为健康或中等健康的患者，可使用三药/四药联合方案；如评估为衰弱的患者，可先选择两药联合",
+        "recommendation_strength": "强推荐",
+        "source_section": "新诊断MM的治疗",
         "evidence_ids": [
-          "适合移植的新诊断患者在移植前需接受诱导治疗，推荐选择以蛋白酶体抑制剂联合免疫调节剂及地塞米松的三药联合方案，如因肾功能损害限制了来那度胺的应用，可采用泊马度胺、沙利度胺来替代来那度胺。"
+          "不适合ASCT患者的诱导治疗：需根据IMWG GA评分进行评估，如评估为健康或中等健康的患者，可使用三药/四药联合方案；如评估为衰弱的患者，可先选择两药联合"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_mm_asct_principle",
-        "content": "诱导后主张进行早期ASCT，尤其对中高危患者更为重要。即使患者一线暂未选择ASCT，也建议在诱导治疗后先行干细胞采集冻存，以备复发后晚期移植所需。",
-        "recommendation_strength": "strong",
-        "source_section": "六、新诊断MM的治疗",
+        "id": "treatment_maintenance",
+        "content": "维持治疗：可选择来那度胺、硼替佐米、伊沙佐米、沙利度胺等，对于有高危因素的患者，主张联合方案进行维持治疗2年或以上",
+        "recommendation_strength": "推荐",
+        "source_section": "新诊断MM的治疗",
         "evidence_ids": [
-          "诱导后主张进行早期ASCT，尤其对中高危患者更为重要。即使患者一线暂未选择ASCT，也建议在诱导治疗后先行干细胞采集冻存，以备复发后晚期移植所需。"
+          "维持治疗：可选择来那度胺、硼替佐米、伊沙佐米、沙利度胺等，对于有高危因素的患者，主张联合方案进行维持治疗2年或以上"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_mm_maintenance_principle",
-        "content": "维持治疗可选择来那度胺、硼替佐米、伊沙佐米、沙利度胺等，对于有高危因素的患者，主张联合方案进行维持治疗2年或以上。",
-        "recommendation_strength": "strong",
-        "source_section": "六、新诊断MM的治疗",
+        "id": "treatment_relapse",
+        "content": "首次复发：治疗目标是获得最大程度的缓解，延长无进展生存期。尽可能选用疗效较高的联合治疗方案再次获得PR及以上疗效",
+        "recommendation_strength": "推荐",
+        "source_section": "复发MM的治疗",
         "evidence_ids": [
-          "维持治疗可选择来那度胺、硼替佐米、伊沙佐米、沙利度胺等，对于有高危因素的患者，主张联合方案进行维持治疗2年或以上。"
+          "首次复发：治疗目标是获得最大程度的缓解，延长无进展生存期。尽可能选用疗效较高的联合治疗方案再次获得PR及以上疗效"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_bone_disease",
+        "content": "骨病的治疗：静脉使用双膦酸盐（包括唑来膦酸等）或皮下注射地舒单抗。双膦酸盐适用于所有需要治疗的有症状MM患者",
+        "recommendation_strength": "推荐",
+        "source_section": "支持治疗",
+        "evidence_ids": [
+          "骨病的治疗：静脉使用双膦酸盐（包括唑来膦酸等）或皮下注射地舒单抗。双膦酸盐适用于所有需要治疗的有症状MM患者"
         ],
         "confidence": 0.95
       }
     ],
     "plans": [
       {
-        "id": "plan_mm_vrd",
+        "id": "plan_vrd",
         "content": "硼替佐米+来那度胺+地塞米松（VRd）",
         "plan_level": 1,
-        "applicable_condition": "适于移植患者的诱导治疗",
-        "contraindication_note": "肾功能损害患者慎用来那度胺",
+        "applicable_condition": "适合移植患者的诱导治疗",
+        "contraindication_note": null,
         "evidence_ids": [
           "硼替佐米+来那度胺+地塞米松（VRd）"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_mm_vcd",
-        "content": "硼替佐米+环磷酰胺+地塞米松（VCd）",
-        "plan_level": 1,
-        "applicable_condition": "适于移植患者的诱导治疗",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "硼替佐米+环磷酰胺+地塞米松（VCd）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_mm_vtd",
-        "content": "硼替佐米+沙利度胺+地塞米松（VTd）",
-        "plan_level": 1,
-        "applicable_condition": "适于移植患者的诱导治疗",
-        "contraindication_note": "周围神经炎患者慎用",
-        "evidence_ids": [
-          "硼替佐米+沙利度胺+地塞米松（VTd）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_mm_vpd",
-        "content": "硼替佐米+泊马度胺+地塞米松（VPd）",
-        "plan_level": 2,
-        "applicable_condition": "肾功能损伤患者",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "肾功能损伤患者可使用硼替佐米+泊马度胺+地塞米松（VPd）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_mm_drug_cd38_antibody",
+        "id": "plan_drd",
         "content": "CD38单抗+来那度胺+地塞米松（DRd）",
         "plan_level": 1,
-        "applicable_condition": "不适合ASCT患者的初始诱导方案",
-        "contraindication_note": "CD38单抗与红细胞表面CD38结合，干扰输血相容性检测",
+        "applicable_condition": "不适合移植患者的初始诱导方案",
+        "contraindication_note": null,
         "evidence_ids": [
           "CD38单抗+来那度胺+地塞米松（DRd）"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_mm_dvmp",
-        "content": "CD38单抗+硼替佐米+美法仑+醋酸泼尼松（D‑VMP）",
+        "id": "plan_asct",
+        "content": "自体造血干细胞移植（ASCT）",
         "plan_level": 1,
-        "applicable_condition": "不适合ASCT患者的初始诱导方案",
-        "contraindication_note": "心、肺器官功能受损患者慎用美法仑",
+        "applicable_condition": "适合移植患者诱导治疗后",
+        "contraindication_note": "高龄和肾功能不全并非移植的绝对禁忌证，如年龄>70岁但全身体能状态评分良好的患者仍可为首选",
         "evidence_ids": [
-          "CD38单抗+硼替佐米+美法仑+醋酸泼尼松（D‑VMP）"
+          "诱导后主张进行早期ASCT，尤其对中高危患者更为重要"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_mm_vmp",
-        "content": "硼替佐米+美法仑+醋酸泼尼松（VMP）",
-        "plan_level": 2,
-        "applicable_condition": "不适合ASCT患者的初始诱导方案",
-        "contraindication_note": "心、肺器官功能受损患者慎用美法仑",
+        "id": "plan_bisphosphonates",
+        "content": "静脉使用双膦酸盐（包括唑来膦酸等）或皮下注射地舒单抗",
+        "plan_level": 1,
+        "applicable_condition": "所有需要治疗的有症状MM患者",
+        "contraindication_note": "无症状骨髓瘤不建议使用双膦酸盐；使用前后注意监测肾功能；避免口腔侵袭性操作",
         "evidence_ids": [
-          "硼替佐米+美法仑+醋酸泼尼松（VMP）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_mm_mpt",
-        "content": "美法仑+醋酸泼尼松+沙利度胺（MPT）",
-        "plan_level": 2,
-        "applicable_condition": "不适合ASCT患者的初始诱导方案",
-        "contraindication_note": "周围神经炎患者慎用沙利度胺",
-        "evidence_ids": [
-          "美法仑+醋酸泼尼松+沙利度胺（MPT）"
+          "静脉使用双膦酸盐（包括唑来膦酸等）或皮下注射地舒单抗"
         ],
         "confidence": 0.95
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_mm_clonal_plasma_cell_dysplasia",
+        "id": "etiology_clonal_plasma_cell",
         "content": "克隆浆细胞异常增殖",
         "etiology_type": "肿瘤相关因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "多发性骨髓瘤（multiple myeloma, MM）是一种克隆浆细胞异常增殖的恶性疾病"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_mm_genetic_abnormalities",
-        "content": "细胞遗传学异常",
-        "etiology_type": "肿瘤相关因素",
-        "typicality": "typical",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "骨髓瘤细胞的遗传学异常是决定MM预后的关键因素之一"
+          "多发性骨髓瘤（multiple myeloma，MM）是一种克隆浆细胞异常增殖的恶性疾病"
         ],
         "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_mm_clonal_plasma_cell_dysplasia",
-        "content": "克隆浆细胞异常增殖的恶性疾病",
+        "id": "pathogenesis_crab",
+        "content": "克隆浆细胞异常增殖导致骨髓瘤相关器官功能损伤（CRAB症状）及继发淀粉样变等",
         "evidence_ids": [
-          "多发性骨髓瘤（multiple myeloma, MM）是一种克隆浆细胞异常增殖的恶性疾病"
+          "常见的症状包括骨髓瘤相关器官功能损伤的表现，即“CRAB”症状［血钙增高（Calcium elevation），肾功能损害（Renal insufficiency），贫血（Anemia），骨病（Bone disease）］以及继发淀粉样变性等相关表现"
         ],
         "confidence": 0.95
       }
@@ -610,285 +430,152 @@
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_multiple_myeloma",
-        "to": "sub_disease_mm_active",
-        "relation_id": "rel_mm_has_active",
+        "from": "disease_mm",
+        "to": "sub_disease_aMM",
+        "relation_id": "rel_mm_has_aMM",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "活动性（active multiple myeloma, aMM）的诊断标准如表2。"
+          "活动性多发性骨髓瘤（active multiple myeloma，aMM）的诊断标准如表2"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_multiple_myeloma",
-        "to": "sub_disease_mm_smoldering",
-        "relation_id": "rel_mm_has_smoldering",
+        "from": "disease_mm",
+        "to": "sub_disease_SMM",
+        "relation_id": "rel_mm_has_SMM",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "冒烟型骨髓瘤（smoldering multiple myeloma, SMM）"
+          "冒烟型骨髓瘤（smoldering multiple myeloma，SMM）"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_multiple_myeloma",
-        "to": "sub_disease_mm_mgus",
-        "relation_id": "rel_mm_has_mgus",
+        "from": "disease_mm",
+        "to": "sub_disease_MGUS",
+        "relation_id": "rel_mm_has_MGUS",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "意义未明单克隆免疫球蛋白病（monoclonal gammopathy of undetermined significance, MGUS）"
+          "意义未明单克隆免疫球蛋白病（monoclonal gammopathy of undetermined significance，MGUS）"
         ],
         "confidence": 0.95
       },
       {
-        "from": "disease_multiple_myeloma",
-        "to": "sub_disease_mm_igd",
-        "relation_id": "rel_mm_has_igd",
+        "from": "disease_mm",
+        "to": "sub_disease_igd_mm",
+        "relation_id": "rel_mm_has_igd_mm",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "IgD型骨髓瘤：约1%~8%，我国稍多见，发病年龄轻、起病重，常合并髓外浸润、肾功能不全、淀粉样变性等临床特征，其中95%为λ型。"
+          "IgD型骨髓瘤：约1%~8%，我国稍多见"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "disease_multiple_myeloma",
-        "to": "sub_disease_mm_igm",
-        "relation_id": "rel_mm_has_igm",
+        "from": "disease_mm",
+        "to": "sub_disease_ultra_high_risk_mm",
+        "relation_id": "rel_mm_has_ultra_high_risk_mm",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "IgM型骨髓瘤：占比<0.5%，中位年龄为65岁。临床症状与非IgM骨髓瘤类似，常伴高黏滞血症、获得性血管性血友病。需与华氏巨球蛋白血症（WM）及其他可分泌IgM的淋巴瘤鉴别。"
+          "危险分层部分提出了超高危MM的定义"
         ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_multiple_myeloma",
-        "to": "sub_disease_mm_biclonal",
-        "relation_id": "rel_mm_has_biclonal",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "双克隆型骨髓瘤：较为罕见，仅占<1%，表现出两种不同的单克隆蛋白，包括不同的重链、不同轻链等表现。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_multiple_myeloma",
-        "to": "sub_disease_mm_non_secretory",
-        "relation_id": "rel_mm_has_non_secretory",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "不分泌型骨髓瘤：血清和尿液免疫固定电泳单克隆免疫球蛋白呈阴性，但克隆性骨髓浆细胞比例≥10%。常以骨破坏起病。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_multiple_myeloma",
-        "to": "sub_disease_mm_oligo_secretory",
-        "relation_id": "rel_mm_has_oligo_secretory",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "寡分泌型MM：血清和尿液免疫固定电泳阳性，但M蛋白量小于可测量范围（血M蛋白量<10 g/L、尿M蛋白<200 mg/24 h、受累血清FLC<100 mg/L）。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_multiple_myeloma",
-        "to": "sub_disease_mm_ige",
-        "relation_id": "rel_mm_has_ige",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "IgE型：罕见类型，IgEκ型多见，常伴MGUS、WM、轻链型淀粉样变性、孤立性浆细胞瘤（骨或骨外）、POEMS综合征等。此外，还需与反应性浆细胞增多症、转移癌的溶骨性病变、浆母细胞性淋巴瘤、单克隆免疫球蛋白相关肾损害（MGRS）等鉴别。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_multiple_myeloma",
-        "to": "sub_disease_mm_ultra_high_risk",
-        "relation_id": "rel_mm_has_ultra_high_risk",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "超高危（符合以下之一）：双等位基因失活［13］（del 17p）或TP53突变；≥2个高危细胞遗传学［14］：del 1p32、1q del、del 17p、TP53突变、t(4;14)、t(14;16)、t(14;20）"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_multiple_myeloma",
-        "to": "sub_disease_mm_high_risk",
-        "relation_id": "rel_mm_has_high_risk",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "高危（符合以下之一）：循环浆细胞≥2%［15］；循环浆细胞≥0.07%［16］；一线治疗后非移植者18个月内复发［17］，移植者2年内复发［18］；根据ISS、R‑ISS、R2‑ISS等分为高危但不符合超高危标准"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "disease_multiple_myeloma",
-        "to": "sub_disease_mm_standard_risk",
-        "relation_id": "rel_mm_has_standard_risk",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "标危：其余情况"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_mm_active",
+        "from": "sub_disease_aMM",
         "to": "symptom_hypercalcemia",
-        "relation_id": "rel_mm_active_manifests_as_hypercalcemia",
+        "relation_id": "rel_aMM_manifests_hypercalcemia",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
+        "weight": 10,
         "criterion_group_id": "CRAB",
         "required_count": 1,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
-          "CRAB症状［血钙增高（Calcium elevation）"
+          "血钙增高（Calcium elevation）"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将'血钙增高（Calcium elevation）'列为CRAB症状之一，CRAB是活动性多发性骨髓瘤诊断的终末器官损害核心标准",
-        "evidence": "常见的症状包括骨髓瘤相关器官功能损伤的表现，即“CRAB”症状［血钙增高（Calciumelevation）"
+        "weight_reason": "CRAB症状之一，为aMM诊断标准的核心临床表现",
+        "evidence": "即“CRAB”症状［血钙增高"
       },
       {
-        "from": "sub_disease_mm_active",
+        "from": "sub_disease_aMM",
         "to": "symptom_renal_insufficiency",
-        "relation_id": "rel_mm_active_manifests_as_renal_insufficiency",
+        "relation_id": "rel_aMM_manifests_renal",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
+        "weight": 10,
         "criterion_group_id": "CRAB",
         "required_count": 1,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
           "肾功能损害（Renal insufficiency）"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将'肾功能损害（Renal insufficiency）'列为CRAB症状之一，CRAB是活动性多发性骨髓瘤诊断的终末器官损害核心标准",
-        "evidence": "常见的症状包括骨髓瘤相关器官功能损伤的表现，即“CRAB”症状［血钙增高（Calciumelevation），肾功能损害（Renalinsufficiency）"
+        "weight_reason": "CRAB症状之一，为aMM诊断标准的核心临床表现",
+        "evidence": "肾功能损害"
       },
       {
-        "from": "sub_disease_mm_active",
+        "from": "sub_disease_aMM",
         "to": "symptom_anemia",
-        "relation_id": "rel_mm_active_manifests_as_anemia",
+        "relation_id": "rel_aMM_manifests_anemia",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
+        "weight": 10,
         "criterion_group_id": "CRAB",
         "required_count": 1,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
           "贫血（Anemia）"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将'贫血（Anemia）'列为CRAB症状之一，CRAB是活动性多发性骨髓瘤诊断的终末器官损害核心标准",
-        "evidence": "常见的症状包括骨髓瘤相关器官功能损伤的表现，即“CRAB”症状［血钙增高（Calciumelevation），肾功能损害（Renalinsufficiency），贫血（Anemia）"
+        "weight_reason": "CRAB症状之一，为aMM诊断标准的核心临床表现",
+        "evidence": "贫血"
       },
       {
-        "from": "sub_disease_mm_active",
+        "from": "sub_disease_aMM",
         "to": "symptom_bone_disease",
-        "relation_id": "rel_mm_active_manifests_as_bone_disease",
+        "relation_id": "rel_aMM_manifests_bone",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
+        "weight": 10,
         "criterion_group_id": "CRAB",
         "required_count": 1,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
         "section_priority": "诊断标准",
         "evidence_ids": [
           "骨病（Bone disease）"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将'骨病（Bone disease）'列为CRAB症状之一，CRAB是活动性多发性骨髓瘤诊断的终末器官损害核心标准",
-        "evidence": "常见的症状包括骨髓瘤相关器官功能损伤的表现，即“CRAB”症状［血钙增高（Calciumelevation），肾功能损害（Renalinsufficiency），贫血（Anemia），骨病（Bonedisease）］"
+        "weight_reason": "CRAB症状之一，为aMM诊断标准的核心临床表现",
+        "evidence": "骨病"
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_mm_active",
-        "to": "test_serum_m_protein",
-        "relation_id": "rel_mm_active_requires_serum_m_protein",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": 30,
-        "value_max": null,
-        "operator": ">=",
-        "unit": "g/L",
-        "result_text": null,
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": "aMM_diagnosis",
-        "required_count": 1,
-        "polarity": "elevated",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "血清M蛋白≥30 g/L"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文表2中aMM诊断标准明确要求'血清M蛋白≥30 g/L'，且表1'基本检查项目'首项即为'血清蛋白电泳（包括M蛋白定量）'，属强制基础检测",
-        "evidence": "a骨髓单克隆浆细胞比例b和或组织活检证明为浆细胞瘤c，且有SLiMCRAB特征之一d"
-      },
-      {
-        "from": "sub_disease_mm_active",
-        "to": "test_urine_m_protein",
-        "relation_id": "rel_mm_active_requires_urine_m_protein",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": 0.5,
-        "value_max": null,
-        "operator": ">=",
-        "unit": "g/24 h",
-        "result_text": null,
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": "aMM_diagnosis",
-        "required_count": 1,
-        "polarity": "elevated",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "尿M蛋白≥0.5 g/24 h"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文表2中aMM诊断标准明确要求'尿M蛋白≥0.5 g'，且表1'基本检查项目'明确列出'尿免疫固定电泳、尿轻链定量'，属强制基础检测",
-        "evidence": "a骨髓单克隆浆细胞比例b和或组织活检证明为浆细胞瘤c，且有SLiMCRAB特征之一d"
-      },
-      {
-        "from": "sub_disease_mm_active",
-        "to": "test_bone_marrow_plasma_cell_percentage",
-        "relation_id": "rel_mm_active_requires_bone_marrow_plasma_cell_percentage",
+        "from": "sub_disease_aMM",
+        "to": "test_bone_marrow_plasma_cell",
+        "relation_id": "rel_aMM_requires_bm_pc",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -898,9 +585,9 @@
         "operator": ">=",
         "unit": "%",
         "result_text": null,
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": "aMM_diagnosis",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "aMM_criteria",
         "required_count": 1,
         "polarity": "elevated",
         "typicality": "typical",
@@ -910,13 +597,125 @@
           "骨髓单克隆浆细胞比例≥10%"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文表2中aMM诊断标准明确要求'骨髓单克隆浆细胞比例≥10%'，且表1'骨髓检查'列为基本检查项目，属强制基础检测",
-        "evidence": "a骨髓单克隆浆细胞比例b和或组织活检证明为浆细胞瘤c，且有SLiMCRAB特征之一d"
+        "weight_reason": "aMM诊断标准明确要求骨髓单克隆浆细胞比例≥10%",
+        "evidence": "骨髓单克隆浆细胞比例≥10%"
       },
       {
-        "from": "sub_disease_mm_smoldering",
+        "from": "sub_disease_aMM",
+        "to": "test_corrected_calcium",
+        "relation_id": "rel_aMM_requires_calcium",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 2.75,
+        "value_max": null,
+        "operator": ">",
+        "unit": "mmol/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "CRAB",
+        "required_count": 1,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "校正血清钙>2.75 mmol/L"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "CRAB标准中C指标，校正血清钙>2.75mmol/L为诊断依据",
+        "evidence": "校正血清钙>2.75mmol/L"
+      },
+      {
+        "from": "sub_disease_aMM",
+        "to": "test_creatinine_clearance",
+        "relation_id": "rel_aMM_requires_creatinine",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 40,
+        "operator": "<",
+        "unit": "ml/min",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "CRAB",
+        "required_count": 1,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "肌酐清除率<40 ml/min"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "CRAB标准中R指标，肌酐清除率<40ml/min为诊断依据",
+        "evidence": "肌酐清除率<40ml/min"
+      },
+      {
+        "from": "sub_disease_aMM",
+        "to": "test_hemoglobin",
+        "relation_id": "rel_aMM_requires_hemoglobin",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 100,
+        "operator": "<",
+        "unit": "g/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "CRAB",
+        "required_count": 1,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "血红蛋白低于正常下限20 g/L或<100 g/L"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "CRAB标准中A指标，血红蛋白低于正常下限为诊断依据",
+        "evidence": "血红蛋白低于正常下限20g/L"
+      },
+      {
+        "from": "sub_disease_aMM",
+        "to": "test_flc_ratio",
+        "relation_id": "rel_aMM_requires_flc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": 100,
+        "value_max": null,
+        "operator": ">=",
+        "unit": null,
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "SLiM",
+        "required_count": 1,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "受累/非受累血清游离轻链比≥100（受累轻链数值至少100 mg/L）"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "SLiM标准中Li指标，受累非受累血清游离轻链比≥100为诊断依据",
+        "evidence": "受累非受累血清游离轻链比≥100"
+      },
+      {
+        "from": "sub_disease_SMM",
         "to": "test_serum_m_protein",
-        "relation_id": "rel_mm_smoldering_requires_serum_m_protein",
+        "relation_id": "rel_SMM_requires_serum_m",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -926,9 +725,9 @@
         "operator": ">=",
         "unit": "g/L",
         "result_text": null,
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": "SMM_diagnosis",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "SMM_criteria",
         "required_count": 1,
         "polarity": "elevated",
         "typicality": "typical",
@@ -938,100 +737,217 @@
           "血清M蛋白≥30 g/L"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文表2中SMM诊断标准明确要求'血清M蛋白≥30 g/L'，且表1'基本检查项目'首项即为'血清蛋白电泳（包括M蛋白定量）'，属强制基础检测",
-        "evidence": "血清M蛋白≥30g/L和或尿M蛋白≥0.5g/24h和或骨髓单克隆浆细胞比例10%~59%"
+        "weight_reason": "SMM诊断标准明确要求血清M蛋白≥30g/L",
+        "evidence": "血清M蛋白≥30g/L"
       },
       {
-        "from": "sub_disease_mm_smoldering",
-        "to": "test_urine_m_protein",
-        "relation_id": "rel_mm_smoldering_requires_urine_m_protein",
+        "from": "sub_disease_SMM",
+        "to": "test_bone_marrow_plasma_cell",
+        "relation_id": "rel_SMM_requires_bm_pc",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
-        "value_min": 0.5,
-        "value_max": null,
-        "operator": ">=",
-        "unit": "g/24 h",
+        "value_min": 10,
+        "value_max": 59,
+        "operator": "between",
+        "unit": "%",
         "result_text": null,
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": "SMM_diagnosis",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "SMM_criteria",
         "required_count": 1,
         "polarity": "elevated",
         "typicality": "typical",
         "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "尿M蛋白≥0.5 g/24 h"
+          "骨髓单克隆浆细胞比例10%~59%"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文表2中SMM诊断标准明确要求'尿M蛋白≥0.5 g/24 h'，且表1'基本检查项目'明确列出'尿免疫固定电泳、尿轻链定量'，属强制基础检测",
-        "evidence": "血清M蛋白≥30g/L和或尿M蛋白≥0.5g/24h和或骨髓单克隆浆细胞比例10%~59%"
+        "weight_reason": "SMM诊断标准明确要求骨髓单克隆浆细胞比例10%~59%",
+        "evidence": "骨髓单克隆浆细胞比例10%~59%"
+      },
+      {
+        "from": "sub_disease_MGUS",
+        "to": "test_serum_m_protein",
+        "relation_id": "rel_MGUS_requires_serum_m",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 30,
+        "operator": "<",
+        "unit": "g/L",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "MGUS_criteria",
+        "required_count": 1,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "血清M蛋白<30 g/L"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "MGUS诊断标准明确要求血清M蛋白<30g/L",
+        "evidence": "血清M蛋白<30g/L"
+      },
+      {
+        "from": "sub_disease_MGUS",
+        "to": "test_bone_marrow_plasma_cell",
+        "relation_id": "rel_MGUS_requires_bm_pc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": 10,
+        "operator": "<",
+        "unit": "%",
+        "result_text": null,
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": "MGUS_criteria",
+        "required_count": 1,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "骨髓单克隆浆细胞比例<10%"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "MGUS诊断标准明确要求骨髓单克隆浆细胞比例<10%",
+        "evidence": "骨髓单克隆浆细胞比例<10%"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_mm_smoldering",
-        "to": "treatment_mm_smm_watchful_waiting",
-        "relation_id": "rel_mm_smoldering_follows_watchful_waiting",
+        "from": "sub_disease_aMM",
+        "to": "treatment_transplant_eligible_induction",
+        "relation_id": "rel_aMM_follows_transplant_induction",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "明确诊断为SMM后",
+        "applicable_condition": "适合移植的新诊断患者",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "强推荐",
         "decision_basis": [
-          "疾病分期"
+          "年龄",
+          "体能状态"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "六、新诊断MM的治疗",
+        "source_section": "新诊断MM的治疗",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_mm_active",
-        "to": "treatment_mm_induction_principle",
-        "relation_id": "rel_mm_active_follows_induction_principle",
+        "from": "sub_disease_aMM",
+        "to": "treatment_transplant_ineligible_induction",
+        "relation_id": "rel_aMM_follows_ineligible_induction",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "新诊断且适合移植患者",
+        "applicable_condition": "不适合ASCT患者",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "强推荐",
         "decision_basis": [
-          "疾病分期",
-          "是否适合移植"
+          "IMWG GA评分"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "六、新诊断MM的治疗",
+        "source_section": "新诊断MM的治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_aMM",
+        "to": "treatment_bone_disease",
+        "relation_id": "rel_aMM_follows_bone_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "支持治疗",
+        "applicable_condition": "所有需要治疗的有症状MM患者",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "骨病症状"
+        ],
+        "contraindication_note": "无症状骨髓瘤不建议使用双膦酸盐",
+        "evidence_level": "expert_consensus",
+        "source_section": "支持治疗",
         "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_mm_induction_principle",
-        "to": "plan_mm_vrd",
-        "relation_id": "rel_induction_implements_by_vrd",
+        "from": "treatment_transplant_eligible_induction",
+        "to": "plan_vrd",
+        "relation_id": "rel_transplant_induction_implements_vrd",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "适于移植患者的诱导治疗",
-        "contraindication_note": "肾功能损害患者慎用来那度胺",
+        "applicable_condition": "适合移植患者的诱导治疗",
+        "contraindication_note": null,
         "evidence_ids": [
           "硼替佐米+来那度胺+地塞米松（VRd）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_transplant_ineligible_induction",
+        "to": "plan_drd",
+        "relation_id": "rel_ineligible_induction_implements_drd",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "不适合移植患者的初始诱导方案",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "CD38单抗+来那度胺+地塞米松（DRd）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_transplant_eligible_induction",
+        "to": "plan_asct",
+        "relation_id": "rel_transplant_induction_implements_asct",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "诱导治疗后",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "诱导后主张进行早期ASCT"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_bone_disease",
+        "to": "plan_bisphosphonates",
+        "relation_id": "rel_bone_treatment_implements_bisphosphonates",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "有症状MM患者",
+        "contraindication_note": "肾功能不全患者优先推荐使用地舒单抗",
+        "evidence_ids": [
+          "静脉使用双膦酸盐（包括唑来膦酸等）或皮下注射地舒单抗"
         ],
         "confidence": 0.95
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_mm_active",
-        "to": "etiology_mm_clonal_plasma_cell_dysplasia",
-        "relation_id": "rel_mm_active_causes_clonal_plasma_cell_dysplasia",
+        "from": "sub_disease_aMM",
+        "to": "etiology_clonal_plasma_cell",
+        "relation_id": "rel_aMM_caused_by_clonal_pc",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -1039,20 +955,20 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "多发性骨髓瘤（multiple myeloma, MM）是一种克隆浆细胞异常增殖的恶性疾病"
+          "多发性骨髓瘤（multiple myeloma，MM）是一种克隆浆细胞异常增殖的恶性疾病"
         ],
         "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_mm_active",
-        "to": "pathogenesis_mm_clonal_plasma_cell_dysplasia",
-        "relation_id": "rel_mm_active_explained_by_clonal_plasma_cell_dysplasia",
+        "from": "sub_disease_aMM",
+        "to": "pathogenesis_crab",
+        "relation_id": "rel_aMM_explained_by_crab",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "多发性骨髓瘤（multiple myeloma, MM）是一种克隆浆细胞异常增殖的恶性疾病"
+          "常见的症状包括骨髓瘤相关器官功能损伤的表现，即“CRAB”症状"
         ],
         "confidence": 0.95
       }

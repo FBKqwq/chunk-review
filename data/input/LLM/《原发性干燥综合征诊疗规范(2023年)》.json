@@ -2,7 +2,7 @@
   "meta": {
     "doc_id": "原发性干燥综合征诊疗规范",
     "source_title": "原发性干燥综合征诊疗规范",
-    "section_path": "",
+    "section_path": "全文",
     "text_span": {
       "start": null,
       "end": null
@@ -15,14 +15,14 @@
         "name": "干燥综合征",
         "normalized_name": "干燥综合征",
         "aliases": [
-          "Sjögren's syndrome",
-          "SS"
+          "SS",
+          "Sjögren's syndrome"
         ],
         "source_document_ids": [
           "原发性干燥综合征诊疗规范"
         ],
         "evidence_ids": [
-          "干燥综合征（SS）是一种以淋巴细胞增殖及进行性外分泌腺体损伤为特征的慢性炎症性自身免疫病。"
+          "干燥综合征（Sjögren′s syndrome，SS）是一种以淋巴细胞增殖及进行性外分泌腺体损伤为特征的慢性炎症性自身免疫病。"
         ],
         "confidence": 0.95
       }
@@ -32,59 +32,107 @@
         "id": "sub_disease_pss",
         "name": "原发性干燥综合征",
         "parent_disease_id": "disease_ss",
-        "disease_subtype": null,
+        "disease_subtype": "原发性",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "根据是否伴发其他结缔组织病分为继发性SS和原发性（pSS），前者常继发于系统性红斑狼疮、类风湿关节炎等。"
+          "根据是否伴发其他结缔组织病，SS分为继发性SS和原发性SS（primary SS，pSS）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "id": "sub_disease_sss",
         "name": "继发性干燥综合征",
         "parent_disease_id": "disease_ss",
-        "disease_subtype": null,
+        "disease_subtype": "继发性",
         "clinical_stage": "不限定",
-        "severity": null,
-        "population": null,
+        "severity": "不限定",
+        "population": "伴发其他结缔组织病患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "根据是否伴发其他结缔组织病分为继发性SS和原发性（pSS），前者常继发于系统性红斑狼疮、类风湿关节炎等。"
+          "根据是否伴发其他结缔组织病，SS分为继发性SS和原发性SS（primary SS，pSS），前者常继发于系统性红斑狼疮、类风湿关节炎等。"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "symptoms": [
       {
-        "id": "symptom_xerostomia",
+        "id": "symptom_dry_mouth",
         "name": "口干",
         "body_site": "口腔",
         "symptom_category": "局部症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "口干：是由于唾液分泌减少、唾液黏蛋白缺少所致。患者常频繁饮水，进干食时常需水送服，严重者可出现进食困难、片状牙齿脱落及多发猖獗龋齿。"
+          "口干：是由于唾液分泌减少、唾液黏蛋白缺少所致。患者常频繁饮水，进干食时常需水送服"
         ],
         "confidence": 0.95
       },
       {
-        "id": "symptom_xerophthalmia",
+        "id": "symptom_dry_eye",
         "name": "眼干",
         "body_site": "眼部",
         "symptom_category": "局部症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "眼干：是由于泪腺分泌功能低下所致。患者出现眼部干涩、磨砂感、眼部充血症状，严重者可出现干燥性角结膜炎、角膜上皮糜烂、角膜新生血管化和溃疡形成等并发症，甚至出现角膜穿孔、失明。"
+          "眼干：是由于泪腺分泌功能低下所致。患者出现眼部干涩、磨砂感、眼部充血症状"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "symptom_salivary_gland_enlargement",
+        "name": "唾液腺肿大",
+        "body_site": "唾液腺",
+        "symptom_category": "局部症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "40%~50%的pSS患者可出现唾液腺肿大，反复发作"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_arthralgia",
+        "name": "关节痛",
+        "body_site": "关节",
+        "symptom_category": "肌肉关节症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "约50%的pSS患者可出现关节症状，通常表现为慢性、复发性、对称性关节痛"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_skin_vasculitis",
+        "name": "皮肤血管炎",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "约10%的pSS患者可出现皮肤血管炎表现，紫癜最常见"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_raynaud",
+        "name": "雷诺现象",
+        "body_site": "皮肤/肢端",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "pSS患者的皮肤损害主要包括皮肤干燥、雷诺现象及血管炎"
+        ],
+        "confidence": 0.9
       },
       {
         "id": "symptom_fatigue",
@@ -94,127 +142,19 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "约2/3 SS患者可出现系统损害，部分患者伴有乏力、发热的全身症状。"
+          "部分患者伴有乏力、发热的全身症状"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_fever",
-        "name": "发热",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "约2/3 SS患者可出现系统损害，部分患者伴有乏力、发热的全身症状。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_arthralgia",
-        "name": "关节痛",
-        "body_site": "关节",
-        "symptom_category": "肌肉关节表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "约50% pSS患者可出现关节症状，通常表现为慢性、复发性、对称性关节痛，仅10%左右的患者出现关节炎，侵蚀性关节炎少见。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_arthritis",
-        "name": "关节炎",
-        "body_site": "关节",
-        "symptom_category": "肌肉关节表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "约50% pSS患者可出现关节症状，通常表现为慢性、复发性、对称性关节痛，仅10%左右的患者出现关节炎，侵蚀性关节炎少见。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_myositis",
-        "name": "肌炎",
-        "body_site": "肌肉",
-        "symptom_category": "肌肉关节表现",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "患者可出现肌肉受累，但出现肌无力症状时需要鉴别是否合并纤维肌痛综合征、糖皮质激素（以下简称激素）相关不良反应及其他并发疾病所致。血清肌酸激酶、肌电图、肌肉磁共振成像（MRI）有助于pSS相关肌炎的确诊。"
-        ],
-        "confidence": 0.85
-      },
-      {
-        "id": "symptom_dyspnea",
-        "name": "呼吸困难",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统表现",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "pSS的呼吸系统受累主要表现为气道干燥、肺间质病变，亦可出现毛细支气管炎和支气管扩张，罕见的表现包括淀粉样变、肉芽肿性肺部疾病、假性淋巴瘤、肺动脉高压与胸膜病变。"
-        ],
-        "confidence": 0.8
-      },
-      {
-        "id": "symptom_gastroesophageal_reflux",
-        "name": "胃食管反流",
+        "id": "symptom_gerd",
+        "name": "胃食管反流病症状",
         "body_site": "消化系统",
-        "symptom_category": "消化系统表现",
+        "symptom_category": "消化系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "pSS患者常有胃食管反流病（GERD）症状，这是由于唾液流量减少，不能自然缓冲反流的酸性胃内容物。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_hepatomegaly",
-        "name": "肝脾肿大",
-        "body_site": "肝脏/脾脏",
-        "symptom_category": "消化系统表现",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "pSS患者血清碱性磷酸酶水平升高时，应警惕是否合并原发性胆汁性胆管炎（PBC），两者常合并出现。pSS可出现胰腺外分泌功能障碍……偶有肝脾肿大。"
-        ],
-        "confidence": 0.8
-      },
-      {
-        "id": "symptom_renal_tubular_acidosis",
-        "name": "肾小管性酸中毒",
-        "body_site": "肾脏",
-        "symptom_category": "肾脏表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "肾间质病变者临床可表现为肾小管性酸中毒、肾性尿崩、范可尼综合征、肾钙化/结石等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_nephrogenic_diabetes_insipidus",
-        "name": "肾性尿崩",
-        "body_site": "肾脏",
-        "symptom_category": "肾脏表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "肾间质病变者临床可表现为肾小管性酸中毒、肾性尿崩、范可尼综合征、肾钙化/结石等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_fanconi_syndrome",
-        "name": "范可尼综合征",
-        "body_site": "肾脏",
-        "symptom_category": "肾脏表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "肾间质病变者临床可表现为肾小管性酸中毒、肾性尿崩、范可尼综合征、肾钙化/结石等。"
+          "pSS患者常有胃食管反流病（GERD）症状"
         ],
         "confidence": 0.9
       },
@@ -222,364 +162,232 @@
         "id": "symptom_peripheral_neuropathy",
         "name": "周围神经病",
         "body_site": "神经系统",
-        "symptom_category": "神经系统表现",
+        "symptom_category": "神经系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "pSS的神经系统表现多样，周围神经、自主神经和中枢神经系统均可受累。其中以周围神经病变最为常见，约10%~20%的患者可出现周围神经病，多表现为对称性周围感觉神经受累……运动神经受累亦可合并出现。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_autonomic_neuropathy",
-        "name": "自主神经综合征",
-        "body_site": "神经系统",
-        "symptom_category": "神经系统表现",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "自主神经综合征是一种较严重的小纤维神经病，表现为体位性低血压、阿迪瞳孔（Adie pupil）、无汗、心动过速、胃肠功能紊乱等。"
-        ],
-        "confidence": 0.85
-      },
-      {
-        "id": "symptom_cns_involvement",
-        "name": "中枢神经系统受累",
-        "body_site": "神经系统",
-        "symptom_category": "神经系统表现",
-        "polarity": "present",
-        "typicality": "rare",
-        "evidence_ids": [
-          "pSS的中枢神经系统受累可表现为无症状和症状性脑病变，亦可出现视神经脊髓炎谱系疾病或进展性横贯性脊髓炎的脊髓病变。"
-        ],
-        "confidence": 0.85
-      },
-      {
-        "id": "symptom_leukopenia",
-        "name": "白细胞减少",
-        "body_site": "血液系统",
-        "symptom_category": "血液系统表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "pSS可引起自身免疫性血细胞减少，其中白细胞减少最常见，其次为免疫性血小板减少症。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_thrombocytopenia",
-        "name": "血小板减少",
-        "body_site": "血液系统",
-        "symptom_category": "血液系统表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "pSS可引起自身免疫性血细胞减少，其中白细胞减少最常见，其次为免疫性血小板减少症。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_purpura",
-        "name": "紫癜",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "约10% pSS患者可出现皮肤血管炎表现，紫癜最常见，亦可出现皮肤溃疡、坏疽、凹陷性瘢痕、微梗死、荨麻疹样皮肤损害、甲周梗死，无压痛性红斑结节等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_raynaud_phenomenon",
-        "name": "雷诺现象",
-        "body_site": "皮肤",
-        "symptom_category": "皮肤表现",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "pSS患者的皮肤损害主要包括皮肤干燥、雷诺现象及血管炎。"
+          "约10%~20%的患者可出现周围神经病，多表现为对称性周围感觉神经受累"
         ],
         "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_schirmer_test",
+        "id": "test_saliva_flow_rate",
+        "name": "唾液流率",
+        "normal_range_min": 0.5,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "我国将唾液流率≤0.5 ml/min定为唾液流率低下"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_labial_gland_biopsy_fs",
+        "name": "唇腺灶性指数(FS)",
+        "normal_range_min": null,
+        "normal_range_max": 0,
+        "is_digital": 1,
+        "evidence_ids": [
+          "4 mm2腺体面积≥50个淋巴细胞为1个灶，每4 mm2灶的数量即为FS"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_anti_ssa",
+        "name": "血清抗SSA抗体",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "抗SSA抗体、抗SSB抗体阳性率最高，是诊断SS较特异的抗体"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_schirmer",
         "name": "Schirmer试验",
-        "normal_range_min": null,
+        "normal_range_min": 5,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "泪液分泌试验（Schirmer试验）：在未经表面麻醉的情况下进行Schirmer试验，检测泪液分泌情况。"
+          "阳性标准为Schirmer≤5 mm/5 min"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_schirmer_result",
-        "name": "Schirmer试验结果",
-        "normal_range_min": null,
+        "id": "test_but",
+        "name": "泪膜破碎时间(BUT)",
+        "normal_range_min": 10,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "（2）结果判读：阳性标准为Schirmer≤5 mm/5 min。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_butf",
-        "name": "泪膜破裂时间（BUT）",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "泪膜破裂时间（TFBUT/BUT）：指不眨眼的情况下泪膜发生破裂的时间，临床上通常以此反映泪膜的不稳定性。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_butf_result",
-        "name": "泪膜破裂时间（BUT）结果",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "（2）结果判读：阳性标准为BUT≤10 s。"
+          "阳性标准为BUT≤10 s"
         ],
         "confidence": 0.95
       },
       {
         "id": "test_oss",
-        "name": "结膜角膜染色评分（OSS）",
+        "name": "角结膜染色(OSS)",
         "normal_range_min": null,
-        "normal_range_max": null,
+        "normal_range_max": 2,
         "is_digital": 1,
         "evidence_ids": [
-          "角、结膜染色：推荐应用角膜荧光素染色联合结膜丽斯胺绿染色……结膜角膜染色评分（ocular staining score, OSS）较van Bijsterveld评分操作性和客观性更佳……"
+          "OSS≥3分为阳性结果，支持干眼的诊断"
         ],
         "confidence": 0.95
-      },
-      {
-        "id": "test_oss_result",
-        "name": "结膜角膜染色评分（OSS）结果",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "（4）结果判读：OSS为每只眼睛三个区域分值的总和，每只眼睛最高评分为12分，任何一只眼睛OSS≥3为阳性结果，支持干眼的诊断。2016年制订的pSS分类标准中，要求至少一只眼睛OSS≥5。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_salivary_flow_rate",
-        "name": "唾液流率",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "唾液流率：指静止状态下一定时间内唾液的分泌量，测定方法有自然/非刺激流率和刺激后流率。pSS多采用自然/非刺激唾液流率……健康人全部唾液流率>15 ml/15 min。我国将唾液流率≤0.5 ml/min定为唾液流率低下。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_focus_score",
-        "name": "灶性淋巴细胞浸润指数（FS）",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "灶性淋巴细胞浸润性唾液腺炎（focal lymphocytic sialadenitis, FLS）：可见腺体中淋巴细胞密集聚集于导管或血管周围……每4 mm²腺体面积≥50个淋巴细胞聚集为1个灶，显微镜下可见1个灶即可诊断为FLS……灶性指数（focus score, FS）指在4 mm²腺体面积内，≥50个淋巴细胞为1个灶，每4 mm²灶的数量即为FS，FS的上限为12。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_antissa_ab",
-        "name": "抗SSA抗体",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "患者血清中可检测到多种自身抗体，抗核抗体（ANA）阳性率为50%~80%，其中抗SSA抗体、抗SSB抗体阳性率最高，是诊断SS较特异的抗体。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_antissb_ab",
-        "name": "抗SSB抗体",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "患者血清中可检测到多种自身抗体，抗核抗体（ANA）阳性率为50%~80%，其中抗SSA抗体、抗SSB抗体阳性率最高，是诊断SS较特异的抗体。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_rf",
-        "name": "类风湿因子（RF）",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "患者类风湿因子（RF）阳性。70%~90%"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_ana",
-        "name": "抗核抗体（ANA）",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "患者血清中可检测到多种自身抗体，抗核抗体（ANA）阳性率为50%~80%，其中抗SSA抗体、抗SSB抗体阳性率最高，是诊断SS较特异的抗体。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_igg",
-        "name": "IgG",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "免疫球蛋白测定：多数患者有明显的多克隆高IgG血症。"
-        ],
-        "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_pss_general",
-        "content": "pSS的治疗需多学科合作，不仅是缓解患者口、眼干燥的症状，更重要的是终止或抑制体内发生的免疫异常反应，保护外分泌腺体和脏器的功能。",
+        "id": "treatment_general",
+        "content": "患者教育，使患者充分了解本病的治疗原则及药物的用法和不良反应。应停止吸烟、饮酒，保持口腔清洁，勤漱口，减少龋齿和口腔继发感染的可能，并且某些药物如阿托品、利尿剂、抗高血压药、雷公藤等可加重口、眼干燥，应尽量避免使用。",
         "recommendation_strength": "strong",
-        "source_section": "八、治疗方案及原则",
+        "source_section": "一般治疗",
         "evidence_ids": [
-          "pSS的治疗需多学科合作，不仅是缓解患者口、眼干燥的症状，更重要的是终止或抑制体内发生的免疫异常反应，保护外分泌腺体和脏器的功能［4‑7］。"
+          "患者教育，使患者充分了解本病的治疗原则及药物的用法和不良反应。应停止吸烟、饮酒，保持口腔清洁"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_local_dry_mouth",
+        "content": "根据唾液腺受损程度制订不同的治疗方案。轻度腺体功能受损使用非药物刺激唾液腺分泌；中至重度腺体功能受损但具有残余唾液腺功能的患者首选口服毒蕈碱激动剂；重度腺体功能受损且无残留唾液腺分泌功能者，建议使用人工涎液替代治疗。",
+        "recommendation_strength": "strong",
+        "source_section": "局部症状的治疗",
+        "evidence_ids": [
+          "根据唾液腺受损程度制订不同的治疗方案...首选口服毒蕈碱激动剂，如毛果芸香碱或西维美林"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_pss_local",
-        "content": "口干燥症：根据唾液腺受损程度制定不同的治疗方案；眼干燥症：预防性措施如避免减少泪液产生的全身性药物、保持良好的睑缘卫生；干燥性角结膜炎或难治性或严重眼干燥症，局部使用含环孢素A滴眼液及自体血清处理。",
+        "id": "treatment_local_dry_eye",
+        "content": "预防性措施：如避免减少泪液产生的全身性药物、保持良好的睑缘卫生可以缓解轻微的或间歇性症状，当症状仍不能控制时，每天至少使用两次人工泪液。干燥性角结膜炎或难治性或严重眼干燥症，局部使用含环孢素A滴眼液及自体血清处理。",
         "recommendation_strength": "strong",
-        "source_section": "八、治疗方案及原则",
+        "source_section": "局部症状的治疗",
         "evidence_ids": [
-          "口干燥症：pSS患者必须接受定期口腔健康监测和护理，预防牙周病。根据唾液腺受损程度制定不同的治疗方案……眼干燥症：眼干燥的评估通常依赖三个特征，泪液功能、泪液成分及眼表改变……预防性措施：如避免减少泪液产生的全身性药物、保持良好的睑缘卫生可以缓解轻微的或间歇性症状……干燥性角结膜炎或难治性或严重眼干燥症，局部使用含环孢素A滴眼液及自体血清处理。"
+          "每天至少使用两次人工泪液。一般建议使用含有透明质酸盐或羧甲基纤维素且不含防腐剂的人工泪液"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_pss_systemic",
-        "content": "系统症状的治疗需依据受累器官选择：皮肤症状（环状红斑、血管炎）首选激素；间质性肺炎轻者无需治疗，重症可用激素+免疫抑制剂；关节痛/关节炎用NSAIDs、羟氯喹；肌肉受累中高活动度者激素为一线疗法；肾脏受累以激素为主；神经系统受累经验性使用大剂量激素冲击；血液系统受累血小板严重减低需激素治疗；冷球蛋白血症依严重程度选用激素、免疫抑制剂、血浆置换、利妥昔单抗等。",
+        "id": "treatment_systemic_lung",
+        "content": "病情严重和进展较快的患者可使用口服或静脉注射激素治疗，免疫抑制剂可选择霉酚酸酯和硫唑嘌呤，抗纤维化药物吡非尼酮和尼达尼布可考虑使用。",
         "recommendation_strength": "strong",
-        "source_section": "八、治疗方案及原则",
+        "source_section": "系统症状的治疗",
         "evidence_ids": [
-          "皮肤症状（环状红斑、血管炎）：局部使用激素是治疗皮肤环状红斑的主要手段……血管炎多选用全身激素治疗……间质性肺炎：pSS患者的间质性肺炎通常较轻，无须治疗……病情严重和进展较快的患者可使用口服或静脉注射激素治疗……关节痛/关节炎：可用非甾体抗炎药、羟氯喹治疗……肌肉受累：……激素仍作为pSS相关性肌炎的一线疗法……肾脏受累：大多数患者通过补充电解质纠正酸中毒……激素是治疗肾小管间质性肾炎的主要疗法……神经系统受累：经验性使用大剂量激素冲击治疗……血液系统受累：血细胞减少尤其是血小板严重减低需给予激素治疗……冷球蛋白血症：冷球蛋白血症相关全身症状的治疗取决于疾病的严重程度，可使用激素……免疫抑制剂……血浆置换、利妥昔单抗……"
+          "病情严重和进展较快的患者可使用口服或静脉注射激素治疗，免疫抑制剂可选择霉酚酸酯和硫唑嘌呤"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_systemic_joint",
+        "content": "关节痛/关节炎：可用非甾体抗炎药、羟氯喹治疗。少数情况下可能需要短程使用小剂量激素，以缓解关节剧痛等症状。",
+        "recommendation_strength": "strong",
+        "source_section": "系统症状的治疗",
+        "evidence_ids": [
+          "关节痛/关节炎：可用非甾体抗炎药、羟氯喹治疗。少数情况下可能需要短程使用小剂量激素"
+        ],
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
         "id": "plan_pilocarpine",
-        "content": "口服毒蕈碱激动剂，如毛果芸香碱或西维美林。毛果芸香碱，每日3次（每日剂量15~20 mg），可增加涎液流率。",
+        "content": "首选口服毒蕈碱激动剂，如毛果芸香碱或西维美林。毛果芸香碱5 mg，每日3次（每日剂量15~20 mg），可增加涎液流率。",
         "plan_level": 1,
         "applicable_condition": "中至重度腺体功能受损但具有残余唾液腺功能的患者",
-        "contraindication_note": "不良反应包括出汗、频繁排尿、肠激惹。",
+        "contraindication_note": "不良反应包括出汗、频繁排尿、肠激惹",
         "evidence_ids": [
-          "（2）对中至重度腺体功能受损但具有残余唾液腺功能的患者（通过检测刺激的唾液流率评估残余唾液腺功能），在无禁忌证的情况下，首选口服毒蕈碱激动剂，如毛果芸香碱或西维美林。毛果芸香碱，每日3次（每日剂量15~20 mg），可增加涎液流率。不良反应包括出汗、频繁排尿、肠激惹。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_artificial_saliva",
-        "content": "重度腺体功能受损且无残留唾液腺分泌功能者，建议使用人工涎液替代治疗。",
-        "plan_level": 2,
-        "applicable_condition": "重度腺体功能受损且无残留唾液腺分泌功能者",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "（3）重度腺体功能受损且无残留唾液腺分泌功能者，建议使用人工涎液替代治疗。"
+          "首选口服毒蕈碱激动剂，如毛果芸香碱或西维美林。毛果芸香碱5 mg，每日3次"
         ],
         "confidence": 0.95
       },
       {
         "id": "plan_artificial_tears",
-        "content": "每天至少使用两次人工泪液。一般建议使用含有透明质酸盐或羧甲基纤维素且不含防腐剂的人工泪液。",
+        "content": "每天至少使用两次人工泪液。一般建议使用含有透明质酸盐或羧甲基纤维素且不含防腐剂的人工泪液，润滑油膏通常只在睡前给药。",
         "plan_level": 1,
-        "applicable_condition": "干眼症状仍不能控制时",
-        "contraindication_note": "润滑油膏通常只在睡前给药，以免长期使用损害视力。",
+        "applicable_condition": "症状仍不能控制时",
+        "contraindication_note": "以免长期使用损害视力",
         "evidence_ids": [
-          "当症状仍不能控制时，每天至少使用两次人工泪液。一般建议使用含有透明质酸盐或羧甲基纤维素且不含防腐剂的人工泪液，润滑油膏通常只在睡前给药，以免长期使用损害视力。"
+          "一般建议使用含有透明质酸盐或羧甲基纤维素且不含防腐剂的人工泪液"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_cyclosporine_a_eye_drop",
-        "content": "干燥性角结膜炎或难治性或严重眼干燥症，局部使用含环孢素A滴眼液。",
-        "plan_level": 2,
-        "applicable_condition": "干燥性角结膜炎或难治性或严重眼干燥症",
-        "contraindication_note": "激素类滴眼液，应由眼科专科医生指导短期内使用（不超过2~4周）。",
-        "evidence_ids": [
-          "干燥性角结膜炎或难治性或严重眼干燥症，局部使用含环孢素A滴眼液及自体血清处理。激素类滴眼液，应由眼科专科医生指导短期内使用（不超过2~4周）。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_methylprednisolone_pulse",
-        "content": "甲泼尼龙冲击治疗（0.5~1 g/d）或者作为诱导缓解治疗。",
+        "id": "plan_glucocorticoid",
+        "content": "病情严重和进展较快的患者可使用口服或静脉注射激素治疗。",
         "plan_level": 1,
-        "applicable_condition": "血液系统受累血小板严重减低",
+        "applicable_condition": "间质性肺炎病情严重和进展较快",
         "contraindication_note": null,
         "evidence_ids": [
-          "血液系统受累：血细胞减少尤其是血小板严重减低需给予激素治疗，甲泼尼龙冲击治疗（0.5~1 g/d）或者作为诱导缓解治疗。"
-        ],
-        "confidence": 0.95
-      }
-    ],
-    "etiologies": [
-      {
-        "id": "etiology_autoimmunity",
-        "content": "自身免疫异常",
-        "etiology_type": "自身免疫因素",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "干燥综合征（SS）是一种以淋巴细胞增殖及进行性外分泌腺体损伤为特征的慢性炎症性自身免疫病。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "etiology_genetic_viral_hormonal",
-        "content": "遗传、病毒感染、性激素异常等多种因素导致的免疫功能紊乱",
-        "etiology_type": "多因素",
-        "typicality": "typical",
-        "diagnostic_role": "病因",
-        "evidence_ids": [
-          "pSS的确切病因和发病机制尚不清楚，目前多认为是遗传、病毒感染、性激素异常等多种因素导致的免疫功能紊乱。"
+          "病情严重和进展较快的患者可使用口服或静脉注射激素治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "etiology_lymphoma_risk",
-        "content": "淋巴瘤发生风险增高",
-        "etiology_type": "肿瘤相关因素",
-        "typicality": "common",
+        "id": "plan_hcq",
+        "content": "可用非甾体抗炎药、羟氯喹治疗。",
+        "plan_level": 1,
+        "applicable_condition": "关节痛/关节炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "关节痛/关节炎：可用非甾体抗炎药、羟氯喹治疗"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_genetics",
+        "content": "遗传",
+        "etiology_type": "自身免疫因素",
+        "typicality": "常见",
         "diagnostic_role": "危险因素",
         "evidence_ids": [
-          "本病发生淋巴瘤的风险是健康人群的18.9倍，最常见的是黏膜相关淋巴组织（MALT）结外边缘区B细胞淋巴瘤。pSS相关冷球蛋白血症与B细胞长期活化相关，淋巴瘤发生的风险增高……"
+          "目前多认为是遗传、病毒感染、性激素异常等多种因素导致的免疫功能紊乱"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_virus",
+        "content": "病毒感染",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "目前多认为是遗传、病毒感染、性激素异常等多种因素导致的免疫功能紊乱"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_hormone",
+        "content": "性激素异常",
+        "etiology_type": "自身免疫因素",
+        "typicality": "常见",
+        "diagnostic_role": "危险因素",
+        "evidence_ids": [
+          "目前多认为是遗传、病毒感染、性激素异常等多种因素导致的免疫功能紊乱"
         ],
         "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_lymphocyte_proliferation_and_exocrine_damage",
-        "content": "以淋巴细胞增殖及进行性外分泌腺体损伤为特征的慢性炎症性自身免疫病。",
+        "id": "pathogenesis_lymphocyte_proliferation",
+        "content": "淋巴细胞增殖及进行性外分泌腺体损伤",
         "evidence_ids": [
-          "干燥综合征（SS）是一种以淋巴细胞增殖及进行性外分泌腺体损伤为特征的慢性炎症性自身免疫病。"
+          "干燥综合征（SS）是一种以淋巴细胞增殖及进行性外分泌腺体损伤为特征的慢性炎症性自身免疫病"
         ],
         "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_immune_dysfunction",
+        "content": "免疫功能紊乱",
+        "evidence_ids": [
+          "目前多认为是遗传、病毒感染、性激素异常等多种因素导致的免疫功能紊乱"
+        ],
+        "confidence": 0.9
       }
     ]
   },
@@ -592,7 +400,7 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "根据是否伴发其他结缔组织病分为继发性SS和原发性（pSS），前者常继发于系统性红斑狼疮、类风湿关节炎等。"
+          "根据是否伴发其他结缔组织病，SS分为继发性SS和原发性SS（primary SS，pSS）"
         ],
         "confidence": 0.95
       },
@@ -603,7 +411,7 @@
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "根据是否伴发其他结缔组织病分为继发性SS和原发性（pSS），前者常继发于系统性红斑狼疮、类风湿关节炎等。"
+          "根据是否伴发其他结缔组织病，SS分为继发性SS和原发性SS（primary SS，pSS），前者常继发于系统性红斑狼疮、类风湿关节炎等。"
         ],
         "confidence": 0.95
       }
@@ -611,69 +419,69 @@
     "manifests_as": [
       {
         "from": "sub_disease_pss",
-        "to": "symptom_xerostomia",
-        "relation_id": "rel_pss_manifests_as_xerostomia",
+        "to": "symptom_dry_mouth",
+        "relation_id": "rel_pss_manifests_dry_mouth",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": "2016ACREULAR_pSS_diagnosis",
+        "weight": 9,
+        "criterion_group_id": "ACR_EULAR_2016_symptoms",
         "required_count": 1,
         "typicality": "typical",
-        "duration_condition": "持续>3个月",
-        "section_priority": "诊断标准",
+        "duration_condition": "持续3个月以上",
+        "section_priority": "分类诊断标准",
         "evidence_ids": [
-          "（一）2016年ACR和EULAR联合制订的pSS分类标准 入选标准：至少有眼干或口干症状之一的患者，即下列至少一项为阳性：（4）每日感到不能忍受的口干，持续3个月以上；"
+          "至少有眼干或口干症状之一的患者...每日感到口干，持续3个月以上"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将口干列为pSS最典型、起始性局部表现，且在诊断标准中作为入选前提和核心症状",
-        "evidence": "口干：是由于唾液分泌减少、唾液黏蛋白缺少所致。患者常频繁饮水，进干食时常需水送服，严重者可出现进食困难、片状牙齿脱落及多发猖獗龋齿。"
+        "weight_reason": "原文明确口干是pSS的局部表现之一，部分患者仅有口眼干症状",
+        "evidence": "部分患者仅有口眼干的局部症状"
       },
       {
         "from": "sub_disease_pss",
-        "to": "symptom_xerophthalmia",
-        "relation_id": "rel_pss_manifests_as_xerophthalmia",
+        "to": "symptom_dry_eye",
+        "relation_id": "rel_pss_manifests_dry_eye",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 100,
-        "criterion_group_id": "2016ACREULAR_pSS_diagnosis",
+        "weight": 9,
+        "criterion_group_id": "ACR_EULAR_2016_symptoms",
         "required_count": 1,
         "typicality": "typical",
-        "duration_condition": "持续>3个月",
-        "section_priority": "诊断标准",
+        "duration_condition": "持续3个月以上",
+        "section_priority": "分类诊断标准",
         "evidence_ids": [
-          "（一）2016年ACR和EULAR联合制订的pSS分类标准 入选标准：至少有眼干或口干症状之一的患者，即下列至少一项为阳性：（1）每日感到不能忍受的眼干，持续3个月以上；"
+          "至少有眼干或口干症状之一的患者...每日感到不能忍受的眼干，持续3个月以上"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将眼干列为pSS最典型、起始性局部表现，且在诊断标准中作为入选前提和核心症状",
-        "evidence": "眼干：是由于泪腺分泌功能低下所致。患者出现眼部干涩、磨砂感、眼部充血症状，严重者可出现干燥性角结膜炎、角膜上皮糜烂、角膜新生血管化和溃疡形成等并发症"
+        "weight_reason": "原文明确眼干是pSS的局部表现之一，部分患者仅有口眼干症状",
+        "evidence": "部分患者仅有口眼干的局部症状"
       },
       {
         "from": "sub_disease_pss",
-        "to": "symptom_fatigue",
-        "relation_id": "rel_pss_manifests_as_fatigue",
+        "to": "symptom_salivary_gland_enlargement",
+        "relation_id": "rel_pss_manifests_salivary_gland",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
         "type_info": "疾病诊断次要条件",
-        "weight": 5,
+        "weight": 6,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "common",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "约2/3 SS患者可出现系统损害，部分患者伴有乏力、发热的全身症状。"
+          "40%~50%的pSS患者可出现唾液腺肿大，反复发作"
         ],
         "confidence": 0.9
       },
       {
         "from": "sub_disease_pss",
-        "to": "symptom_fever",
-        "relation_id": "rel_pss_manifests_as_fever",
+        "to": "symptom_arthralgia",
+        "relation_id": "rel_pss_manifests_arthralgia",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -685,7 +493,7 @@
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "约2/3 SS患者可出现系统损害，部分患者伴有乏力、发热的全身症状。"
+          "约50%的pSS患者可出现关节症状，通常表现为慢性、复发性、对称性关节痛"
         ],
         "confidence": 0.9
       }
@@ -693,64 +501,36 @@
     "requires_test": [
       {
         "from": "sub_disease_pss",
-        "to": "test_schirmer_result",
-        "relation_id": "rel_pss_requires_schirmer",
+        "to": "test_labial_gland_biopsy_fs",
+        "relation_id": "rel_pss_requires_fs",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": 5,
-        "operator": "<=",
-        "unit": "mm/5 min",
-        "result_text": null,
-        "weight": 10,
-        "gold_standard": false,
-        "criterion_group_id": "2016ACREULAR_pSS_diagnosis",
-        "required_count": 1,
-        "polarity": "decreased",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "（三）2016年ACR和EULAR联合制订的pSS分类标准……（4）未刺激的全唾液流率（Schirmer≤5 mm/5 min）……计1分。"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "Schirmer试验是客观检查干眼的常规方法之一，但原文未赋予其金标准地位，仅列为三项客观指标之一",
-        "evidence": "包括泪液流率（Schirmer试验）、泪膜破裂时间及角、结膜染色三部分，用裂隙灯检查［1‑3］。"
-      },
-      {
-        "from": "sub_disease_pss",
-        "to": "test_oss_result",
-        "relation_id": "rel_pss_requires_oss",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": 5,
+        "value_min": 1,
         "value_max": null,
         "operator": ">=",
-        "unit": "分",
+        "unit": "个灶/4 mm2",
         "result_text": null,
         "weight": 10,
         "gold_standard": false,
-        "criterion_group_id": "2016ACREULAR_pSS_diagnosis",
-        "required_count": 1,
+        "criterion_group_id": "ACR_EULAR_2016_criteria",
+        "required_count": 4,
         "polarity": "elevated",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "分类诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（三）2016年ACR和EULAR联合制订的pSS分类标准……（3）至少单眼OSS≥5或VanBijsterveld评分≥4……计1分。"
+          "唇腺灶性淋巴细胞浸润，且灶性指数≥1个灶/4 mm2，计3分"
         ],
         "confidence": 0.95,
-        "weight_reason": "OSS评分是推荐的角结膜染色评估方法，但原文仅称其‘较Van Bijsterveld评分操作性和客观性更佳’，属常规客观指标之一",
-        "evidence": "结膜角膜染色评分（ocularstainingscore，OSS）较VanBijsterveld评分操作性和客观性更佳，推荐应使用OSS评分法。"
+        "weight_reason": "原文指出唇腺活检显示的灶性淋巴细胞数是评估pSS的特异性指标",
+        "evidence": "黏膜的小涎腺所显示的灶性淋巴细胞数（FLS）是评估pSS的特异性指标"
       },
       {
         "from": "sub_disease_pss",
-        "to": "test_antissa_ab",
-        "relation_id": "rel_pss_requires_antissa",
+        "to": "test_anti_ssa",
+        "relation_id": "rel_pss_requires_ssa",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -762,113 +542,310 @@
         "result_text": "阳性",
         "weight": 10,
         "gold_standard": false,
-        "criterion_group_id": "2016ACREULAR_pSS_diagnosis",
-        "required_count": 1,
+        "criterion_group_id": "ACR_EULAR_2016_criteria",
+        "required_count": 4,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "分类诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（三）2016年ACR和EULAR联合制订的pSS分类标准……（2）血清抗SSA抗体阳性，计1分。"
+          "血清抗SSA抗体阳性，计1分"
         ],
         "confidence": 0.95,
-        "weight_reason": "抗SSA抗体是诊断SS‘较特异的抗体’，但原文明确其阳性率仅50%~80%，且2016标准中仅为1分项，非金标准",
-        "evidence": "患者血清中可检测到多种自身抗体，抗核抗体（ANA）阳性率为50%~80%，其中抗SSA抗体、抗SSB抗体阳性率最高，是诊断SS较特异的抗体。"
+        "weight_reason": "原文指出抗SSA抗体是诊断SS较特异的抗体，为诊断关键指标",
+        "evidence": "抗SSA抗体、抗SSB抗体阳性率最高，是诊断SS较特异的抗体"
       },
       {
         "from": "sub_disease_pss",
-        "to": "test_focus_score",
-        "relation_id": "rel_pss_requires_focus_score",
+        "to": "test_oss",
+        "relation_id": "rel_pss_requires_oss",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": 1,
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": 5,
         "value_max": null,
         "operator": ">=",
-        "unit": "个灶/4 mm²",
+        "unit": "分",
         "result_text": null,
-        "weight": 10,
+        "weight": 8,
         "gold_standard": false,
-        "criterion_group_id": "2016ACREULAR_pSS_diagnosis",
-        "required_count": 1,
+        "criterion_group_id": "ACR_EULAR_2016_criteria",
+        "required_count": 4,
         "polarity": "elevated",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "分类诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "（三）2016年ACR和EULAR联合制订的pSS分类标准……（1）唇腺灶性淋巴细胞浸润，且灶性指数≥1个灶/4 mm²……计3分。"
+          "至少单眼OSS≥5分...计1分"
         ],
         "confidence": 0.95,
-        "weight_reason": "焦点指数（FS）是唇腺活检的核心量化指标，但原文定义其为‘评估pSS的特异性指标’而非金标准；2016标准中FS≥1仅计3分，非唯一确诊依据",
-        "evidence": "灶性淋巴细胞浸润性唾液腺炎（focallymphocyticsialadenitis，FLS）：可见腺体中淋巴细胞密集聚集于导管或血管周围，周围腺泡组织正常，少见导管扩张和间质纤维化，浆细胞占少数，导管或血管周围≥50个淋巴细胞聚集为1个灶，显微镜下可见1个灶即可诊断为FLS；"
+        "weight_reason": "原文推荐应用OSS评分法进行角结膜染色评估，是眼科评估的重要客观检查",
+        "evidence": "推荐应用OSS评分法"
+      },
+      {
+        "from": "sub_disease_pss",
+        "to": "test_schirmer",
+        "relation_id": "rel_pss_requires_schirmer",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": 5,
+        "operator": "<=",
+        "unit": "mm/5 min",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": "ACR_EULAR_2016_criteria",
+        "required_count": 4,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "分类诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "至少单眼Schirmer试验≤5 mm/5 min，计1分"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将Schirmer试验作为眼科评估干眼症的客观检查之一，用于辅助SS诊断",
+        "evidence": "泪液分泌试验（Schirmer试验）：在未经表面麻醉的情况下进行Schirmer试验"
+      },
+      {
+        "from": "sub_disease_pss",
+        "to": "test_saliva_flow_rate",
+        "relation_id": "rel_pss_requires_saliva_flow",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": 0.1,
+        "operator": "<=",
+        "unit": "ml/min",
+        "result_text": null,
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": "ACR_EULAR_2016_criteria",
+        "required_count": 4,
+        "polarity": "decreased",
+        "typicality": "typical",
+        "section_priority": "分类诊断标准",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "未刺激的全唾液流率≤0.1 ml/min...计1分"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文将唾液流率测定作为口腔科检查项目之一，用于评估唾液腺受损情况",
+        "evidence": "我国将唾液流率≤0.5ml/min定为唾液流率低下"
       }
     ],
     "follows_treatment": [
       {
         "from": "sub_disease_pss",
-        "to": "treatment_pss_general",
-        "relation_id": "rel_pss_follows_general_treatment",
+        "to": "treatment_local_dry_mouth",
+        "relation_id": "rel_pss_follows_dry_mouth_treatment",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后",
+        "applicable_condition": "口干燥症",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病分型"
+          "唾液腺受损程度"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "八、治疗方案及原则",
+        "source_section": "局部症状的治疗",
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pss",
+        "to": "treatment_local_dry_eye",
+        "relation_id": "rel_pss_follows_dry_eye_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "眼干燥症",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病情严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "局部症状的治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pss",
+        "to": "treatment_systemic_lung",
+        "relation_id": "rel_pss_follows_lung_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "间质性肺炎病情严重和进展较快",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病情严重程度",
+          "进展速度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "系统症状的治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_pss",
+        "to": "treatment_systemic_joint",
+        "relation_id": "rel_pss_follows_joint_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "关节痛/关节炎",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "症状类型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "系统症状的治疗",
+        "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_pss_local",
+        "from": "treatment_local_dry_mouth",
         "to": "plan_pilocarpine",
-        "relation_id": "rel_local_treatment_implements_by_pilocarpine",
+        "relation_id": "rel_dry_mouth_implements_pilocarpine",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "中至重度腺体功能受损但具有残余唾液腺功能的患者",
-        "contraindication_note": "不良反应包括出汗、频繁排尿、肠激惹。",
+        "applicable_condition": "中至重度腺体功能受损但具有残余唾液腺功能",
+        "contraindication_note": "不良反应包括出汗、频繁排尿、肠激惹",
         "evidence_ids": [
-          "（2）对中至重度腺体功能受损但具有残余唾液腺功能的患者（通过检测刺激的唾液流率评估残余唾液腺功能），在无禁忌证的情况下，首选口服毒蕈碱激动剂，如毛果芸香碱或西维美林。"
+          "首选口服毒蕈碱激动剂，如毛果芸香碱或西维美林"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "treatment_local_dry_eye",
+        "to": "plan_artificial_tears",
+        "relation_id": "rel_dry_eye_implements_tears",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "症状仍不能控制时",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "每天至少使用两次人工泪液"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_systemic_lung",
+        "to": "plan_glucocorticoid",
+        "relation_id": "rel_lung_implements_glucocorticoid",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "病情严重和进展较快",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "病情严重和进展较快的患者可使用口服或静脉注射激素治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_systemic_joint",
+        "to": "plan_hcq",
+        "relation_id": "rel_joint_implements_hcq",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "关节痛/关节炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "可用非甾体抗炎药、羟氯喹治疗"
+        ],
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
         "from": "sub_disease_pss",
-        "to": "etiology_autoimmunity",
-        "relation_id": "rel_pss_caused_by_autoimmunity",
+        "to": "etiology_genetics",
+        "relation_id": "rel_pss_causes_genetics",
         "relation_name": "相关",
         "relation_type": "causes",
-        "causal_strength": "strong",
-        "typicality": "typical",
+        "causal_strength": "moderate",
+        "typicality": "common",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "干燥综合征（SS）是一种以淋巴细胞增殖及进行性外分泌腺体损伤为特征的慢性炎症性自身免疫病。"
+          "目前多认为是遗传、病毒感染、性激素异常等多种因素导致的免疫功能紊乱"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_pss",
+        "to": "etiology_virus",
+        "relation_id": "rel_pss_causes_virus",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "目前多认为是遗传、病毒感染、性激素异常等多种因素导致的免疫功能紊乱"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_pss",
+        "to": "etiology_hormone",
+        "relation_id": "rel_pss_causes_hormone",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "moderate",
+        "typicality": "common",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "目前多认为是遗传、病毒感染、性激素异常等多种因素导致的免疫功能紊乱"
+        ],
+        "confidence": 0.9
       }
     ],
     "explained_by": [
       {
         "from": "sub_disease_pss",
-        "to": "pathogenesis_lymphocyte_proliferation_and_exocrine_damage",
-        "relation_id": "rel_pss_explained_by_lymphocyte_proliferation",
+        "to": "pathogenesis_lymphocyte_proliferation",
+        "relation_id": "rel_pss_explained_by_lymphocyte",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "干燥综合征（SS）是一种以淋巴细胞增殖及进行性外分泌腺体损伤为特征的慢性炎症性自身免疫病。"
+          "干燥综合征（SS）是一种以淋巴细胞增殖及进行性外分泌腺体损伤为特征的慢性炎症性自身免疫病"
         ],
         "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pss",
+        "to": "pathogenesis_immune_dysfunction",
+        "relation_id": "rel_pss_explained_by_immune",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "目前多认为是遗传、病毒感染、性激素异常等多种因素导致的免疫功能紊乱"
+        ],
+        "confidence": 0.9
       }
     ]
   },

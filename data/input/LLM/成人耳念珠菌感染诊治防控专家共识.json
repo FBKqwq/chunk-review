@@ -15,7 +15,7 @@
         "name": "耳念珠菌感染",
         "normalized_name": "耳念珠菌感染",
         "aliases": [
-          "Candida auris infection"
+          "Candida auris感染"
         ],
         "source_document_ids": [
           "成人耳念珠菌感染诊治防控专家共识"
@@ -28,18 +28,34 @@
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_candida_auris_bloodstream_infection",
-        "name": "耳念珠菌血流感染",
+        "id": "sub_disease_candida_auris_colonization",
+        "name": "耳念珠菌定植",
         "parent_disease_id": "disease_candida_auris_infection",
-        "disease_subtype": null,
+        "disease_subtype": "定植",
         "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "住院患者、ICU患者、免疫功能低下患者",
+        "severity": "无",
+        "population": "所有人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "在目前已经报道的耳念珠菌疾病谱中，血流感染为主要的感染类型，占所有耳念珠菌感染的40％～100％。目前，耳念珠菌引起的真菌血症的全球发病率知之甚少，死亡率为49％～68％。"
+          "耳念珠菌可定植于人的皮肤与黏膜表面"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_candida_auris_bloodstream_infection",
+        "name": "耳念珠菌血流感染",
+        "parent_disease_id": "disease_candida_auris_infection",
+        "disease_subtype": "血流感染",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "所有人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "血流感染为主要的感染类型，占所有耳念珠菌感染的４０％～１００％"
         ],
         "confidence": 0.9
       },
@@ -47,10 +63,10 @@
         "id": "sub_disease_candida_auris_endocarditis",
         "name": "耳念珠菌心内膜炎",
         "parent_disease_id": "disease_candida_auris_infection",
-        "disease_subtype": null,
+        "disease_subtype": "心内膜炎",
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": "有中心静脉导管、心脏瓣膜病变或既往心内膜炎病史者",
+        "population": "所有人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
@@ -63,15 +79,31 @@
         "id": "sub_disease_candida_auris_cns_infection",
         "name": "耳念珠菌中枢神经系统感染",
         "parent_disease_id": "disease_candida_auris_infection",
-        "disease_subtype": null,
+        "disease_subtype": "中枢神经系统感染",
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": "神经外科术后、脑室引流、颅脑外伤患者",
+        "population": "所有人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "中枢神经系统感染时，推荐脂质体两性霉素B（3～5 mg·kg⁻¹·d⁻¹）单药或联合氟胞嘧啶"
+          "中枢神经系统感染时，推荐脂质体两性霉素Ｂ"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_candida_auris_lower_respiratory_infection",
+        "name": "耳念珠菌下呼吸道感染",
+        "parent_disease_id": "disease_candida_auris_infection",
+        "disease_subtype": "下呼吸道感染",
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": "所有人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "下呼吸道感染时，经验治疗不建议常规覆盖该菌"
         ],
         "confidence": 0.9
       },
@@ -79,247 +111,361 @@
         "id": "sub_disease_candida_auris_uti",
         "name": "耳念珠菌尿路感染",
         "parent_disease_id": "disease_candida_auris_infection",
-        "disease_subtype": null,
+        "disease_subtype": "尿路感染",
         "clinical_stage": "不限定",
         "severity": "中重症",
-        "population": "留置导尿管、肾移植、糖尿病肾病患者",
+        "population": "所有人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "尿路感染时，推荐两性霉素B（0.5 mg/kg iv qd，7～10 d）± 氟胞嘧啶（25 mg/kg po q6h）"
+          "尿路感染时，推荐两性霉素Ｂ"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_candida_auris_ear_infection",
-        "name": "耳念珠菌外耳炎/乳突炎",
+        "id": "sub_disease_candida_auris_diabetic_foot",
+        "name": "耳念珠菌糖尿病足感染",
         "parent_disease_id": "disease_candida_auris_infection",
-        "disease_subtype": null,
+        "disease_subtype": "糖尿病足感染",
         "clinical_stage": "不限定",
-        "severity": "轻中度",
-        "population": "外耳道感染患者",
+        "severity": "中重症",
+        "population": "糖尿病患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "外耳炎、乳突炎时，局部制霉菌素或口服制霉菌素（50万U/d q8h），适时考虑外科清创"
+          "糖尿病足感染时，参考网站...及文献，推荐特比萘芬"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_candida_auris_vaginitis",
+        "id": "sub_disease_candida_auris_vulvovaginitis",
         "name": "耳念珠菌外阴阴道炎",
         "parent_disease_id": "disease_candida_auris_infection",
-        "disease_subtype": null,
+        "disease_subtype": "外阴阴道炎",
         "clinical_stage": "不限定",
-        "severity": "轻中度",
-        "population": "女性患者",
+        "severity": "轻症",
+        "population": "女性",
         "gender": "female",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "耳念珠菌外阴阴道炎时，局部用制霉菌素（100万U/d，14 d）或口服制霉菌素（100万U/d q8h，7 d）"
+          "耳念珠菌外阴阴道炎时，局部用制霉菌素"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_candida_auris_colonization",
-        "name": "耳念珠菌定植",
+        "id": "sub_disease_candida_auris_otitis",
+        "name": "耳念珠菌外耳炎、乳突炎",
         "parent_disease_id": "disease_candida_auris_infection",
-        "disease_subtype": null,
+        "disease_subtype": "外耳炎、乳突炎",
         "clinical_stage": "不限定",
-        "severity": "无症状",
-        "population": "皮肤、黏膜表面携带者",
+        "severity": "轻症",
+        "population": "所有人群",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "耳念珠菌可定植于人的皮肤与黏膜表面，也可分离自伤口、直肠拭子、咽拭子、呼吸道、尿道等部位……定植人数约为感染患者的2～3倍"
+          "外耳炎、乳突炎时，局部制霉菌素或口服制霉菌素"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_candida_auris_oropharyngeal",
+        "name": "耳念珠菌口咽部感染",
+        "parent_disease_id": "disease_candida_auris_infection",
+        "disease_subtype": "口咽部感染",
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "所有人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "口咽部感染时，以棘白菌素类药物或制霉菌素漱口"
         ],
         "confidence": 0.9
       }
     ],
     "symptoms": [
       {
-        "id": "symptom_fever",
-        "name": "发热",
+        "id": "symptom_no_infection_manifestation",
+        "name": "无感染的临床表现",
         "body_site": "全身",
         "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "该菌可以引起严重的侵袭性感染"
-        ],
-        "confidence": 0.85
-      },
-      {
-        "id": "symptom_sepsis_like",
-        "name": "脓毒症样表现",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "耳念珠菌血流感染……死亡率为49％～68％"
-        ],
-        "confidence": 0.85
-      },
-      {
-        "id": "symptom_ear_discharge",
-        "name": "耳道分泌物",
-        "body_site": "耳部",
-        "symptom_category": "耳鼻喉系统症状",
-        "polarity": "present",
+        "polarity": "absent",
         "typicality": "typical",
         "evidence_ids": [
-          "第一株耳念珠菌分离自外耳道感染"
+          "患者分离出耳念珠菌，但无感染的临床表现"
         ],
         "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_blood_culture_positive",
-        "name": "血液培养阳性",
+        "id": "test_blood_culture",
+        "name": "血液培养",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "血液、正常无菌部位（本共识指脑脊液、胸腔积液、腹腔积液、盆腔积液、关节液、腹膜透出液、深部组织标本等）分离出耳念珠菌，有诊断意义"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_csf_culture_positive",
-        "name": "脑脊液培养阳性",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "血液、正常无菌部位（本共识指脑脊液、胸腔积液、腹腔积液、盆腔积液、关节液、腹膜透出液、深部组织标本等）分离出耳念珠菌，有诊断意义"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "test_urine_culture_positive",
-        "name": "尿培养阳性",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "非无菌部位标本培养阳性，应结合标本直接镜检结果和患者临床症状、体征及其他检查结果综合分析"
+          "血液、正常无菌部位...分离出耳念珠菌，有诊断意义"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_microscopy_yeast_spores",
-        "name": "直接涂片见酵母样孢子",
+        "id": "test_sterile_site_culture",
+        "name": "无菌部位标本培养",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "送检样本（血液标本除外）应做直接涂片，如涂片镜检发现酵母样孢子，且经培养或分子生物方法鉴定为耳念珠菌，提示感染可能"
+          "血液、正常无菌部位...分离出耳念珠菌，有诊断意义"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "test_realtime_pcr_its2",
-        "name": "ITS2实时荧光PCR检测阳性",
+        "id": "test_direct_smear",
+        "name": "直接涂片镜检",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "以耳念珠菌ITS2基因为靶标［41］，用实时荧光PCR（TaqMan探针法）检测临床样本中的耳念珠菌"
+          "送检样本（血液标本除外）应做直接涂片，如涂片镜检发现酵母样孢子"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_real_time_pcr_its2",
+        "name": "实时荧光PCR（ITS2基因）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "以耳念珠菌ＩＴＳ２基因为靶标，用实时荧光ＰＣＲ（ＴａｑＭａｎ探针法）检测临床样本中的耳念珠菌"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_maldi_tof_ms",
+        "name": "基质辅助激光解吸电离飞行时间质谱（MALDI-TOF MS）",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "布鲁克质谱仪...或ＢｒｕｋｅｒＲＵＯ数据库...可以鉴定该菌"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_antifungal_susceptibility",
+        "name": "抗真菌药物敏感性试验",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "对所有耳念珠菌分离株进行药敏试验"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_candida_auris_antifungal_selection",
-        "content": "抗感染目标治疗应基于临床表现、个体化特征、PK/PD原则、药敏试验结果选择合适抗真菌药物；若有可信药敏结果，优先考虑敏感性药物。",
-        "recommendation_strength": "strong",
-        "source_section": "7 临床处置",
+        "id": "treatment_empiric",
+        "content": "鉴于该菌流行率低，常规经验治疗不必覆盖该菌。免疫低下或黏膜屏障受损患者经验治疗时需要覆盖耳念珠菌",
+        "recommendation_strength": "推荐",
+        "source_section": "临床处置",
         "evidence_ids": [
-          "推荐23：确定耳念珠菌感染后，抗感染目标治疗应基于临床表现（如感染部位、严重程度等）、个体化特征（如免疫力、肝肾功能等）、PK/PD等临床药理学原则、国内外指南、病原菌药敏试验结果，选择合适抗真菌药物。如果有可信的药敏试验结果，优先考虑敏感性药物。"
+          "鉴于该菌流行率低，常规经验治疗不必覆盖该菌。免疫低下或黏膜屏障受损患者经验治疗时需要覆盖耳念珠菌"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "treatment_candida_auris_empirical_coverage",
-        "content": "常规经验治疗不必覆盖耳念珠菌；免疫低下或黏膜屏障受损患者经验治疗需覆盖该菌；因三唑类及两性霉素B有一定耐药性，推荐首选棘白菌素类。",
-        "recommendation_strength": "strong",
-        "source_section": "7 临床处置",
+        "id": "treatment_target",
+        "content": "确定耳念珠菌感染后，抗感染目标治疗应基于临床表现、个体化特征、ＰＫ／ＰＤ等临床药理学原则、国内外指南、病原菌药敏试验结果，选择合适抗真菌药物",
+        "recommendation_strength": "推荐",
+        "source_section": "临床处置",
         "evidence_ids": [
-          "推荐22：鉴于该菌流行率低，常规经验治疗不必覆盖该菌。免疫低下或黏膜屏障受损患者经验治疗时需要覆盖耳念珠菌的情况包括：……经验治疗需要覆盖该菌时，因三唑类及两性霉素B有一定耐药性，推荐选择棘白菌素类药物。"
+          "确定耳念珠菌感染后，抗感染目标治疗应基于临床表现...选择合适抗真菌药物"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_bloodstream",
+        "content": "耳念珠菌血流感染时，首选药物为棘白菌素类药物",
+        "recommendation_strength": "首选",
+        "source_section": "临床处置",
+        "evidence_ids": [
+          "耳念珠菌血流感染时，首选药物为棘白菌素类药物"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_endocarditis",
+        "content": "耳念珠菌心内膜炎时，首选药物为棘白菌素类药物",
+        "recommendation_strength": "首选",
+        "source_section": "临床处置",
+        "evidence_ids": [
+          "耳念珠菌心内膜炎时，首选药物为棘白菌素类药物"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_cns",
+        "content": "中枢神经系统感染时，推荐脂质体两性霉素Ｂ单药或联合氟胞嘧啶，不推荐棘白菌素类",
+        "recommendation_strength": "推荐",
+        "source_section": "临床处置",
+        "evidence_ids": [
+          "中枢神经系统感染时，推荐脂质体两性霉素Ｂ...不推荐棘白菌素类"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_lower_respiratory",
+        "content": "下呼吸道感染时，经验治疗不建议常规覆盖该菌。如怀疑该菌感染导致肺炎，推荐使用棘白菌素进行经验性治疗",
+        "recommendation_strength": "推荐",
+        "source_section": "临床处置",
+        "evidence_ids": [
+          "下呼吸道感染时，经验治疗不建议常规覆盖该菌...推荐使用棘白菌素...进行经验性治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_uti",
+        "content": "尿路感染时，推荐两性霉素Ｂ±氟胞嘧啶；不推荐棘白菌素类",
+        "recommendation_strength": "推荐",
+        "source_section": "临床处置",
+        "evidence_ids": [
+          "尿路感染时，推荐两性霉素Ｂ...氟胞嘧啶...不推荐棘白菌素类"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_diabetic_foot",
+        "content": "糖尿病足感染时，推荐特比萘芬±伊曲康唑或泊沙康唑",
+        "recommendation_strength": "推荐",
+        "source_section": "临床处置",
+        "evidence_ids": [
+          "糖尿病足感染时...推荐特比萘芬...伊曲康唑...或泊沙康唑"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_vulvovaginitis",
+        "content": "耳念珠菌外阴阴道炎时，局部用制霉菌素或口服制霉菌素",
+        "recommendation_strength": "推荐",
+        "source_section": "临床处置",
+        "evidence_ids": [
+          "耳念珠菌外阴阴道炎时，局部用制霉菌素...或口服制霉菌素"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_otitis",
+        "content": "外耳炎、乳突炎时，局部制霉菌素或口服制霉菌素，适时考虑外科清创",
+        "recommendation_strength": "推荐",
+        "source_section": "临床处置",
+        "evidence_ids": [
+          "外耳炎、乳突炎时，局部制霉菌素或口服制霉菌素...适时考虑外科清创"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_oropharyngeal",
+        "content": "口咽部感染时，以棘白菌素类药物或制霉菌素漱口",
+        "recommendation_strength": "推荐",
+        "source_section": "临床处置",
+        "evidence_ids": [
+          "口咽部感染时，以棘白菌素类药物或制霉菌素漱口"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_prophylaxis",
+        "content": "耳念珠菌病发病率低，不建议预防用药",
+        "recommendation_strength": "不推荐",
+        "source_section": "预防和控制",
+        "evidence_ids": [
+          "耳念珠菌病发病率低，不建议预防用药"
+        ],
+        "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_caspofungin_for_bloodstream",
-        "content": "卡泊芬净，首次负荷剂量70mg iv，第2天开始给予50mg/d qd iv",
+        "id": "plan_echinocandin",
+        "content": "棘白菌素类药物（卡泊芬净、米卡芬净、阿尼芬净）",
         "plan_level": 1,
-        "applicable_condition": "耳念珠菌血流感染",
+        "applicable_condition": "血流感染、心内膜炎、下呼吸道感染、口咽部感染",
+        "contraindication_note": "中枢神经系统感染、尿路感染不推荐",
+        "evidence_ids": [
+          "首选药物为棘白菌素类药物：（１）卡泊芬净...（２）米卡芬净...（３）阿尼芬净"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_polyene",
+        "content": "多烯类药物（脂质体两性霉素Ｂ、两性霉素Ｂ）",
+        "plan_level": 2,
+        "applicable_condition": "中枢神经系统感染、尿路感染、替代或联合治疗",
         "contraindication_note": null,
         "evidence_ids": [
-          "推荐24：耳念珠菌血流感染时，首选药物为棘白菌素类药物：（1）卡泊芬净，首次负荷剂量70mg iv，第2天开始给予50mg/d qd iv"
+          "多烯类药物：脂质体两性霉素Ｂ...或两性霉素Ｂ"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_micafungin_for_bloodstream",
-        "content": "米卡芬净，100 mg/d qd iv",
-        "plan_level": 1,
-        "applicable_condition": "耳念珠菌血流感染",
+        "id": "plan_azoles",
+        "content": "三唑类药物（伏立康唑、泊沙康唑、氟康唑、伊曲康唑）",
+        "plan_level": 3,
+        "applicable_condition": "替代或联合治疗、糖尿病足感染",
+        "contraindication_note": "耐药率高，需根据药敏结果",
+        "evidence_ids": [
+          "三唑类药物：伏立康唑...泊沙康唑"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_flucytosine",
+        "content": "氟胞嘧啶",
+        "plan_level": 4,
+        "applicable_condition": "联合治疗（中枢神经系统感染、尿路感染、心内膜炎）",
         "contraindication_note": null,
         "evidence_ids": [
-          "推荐24：耳念珠菌血流感染时，首选药物为棘白菌素类药物：（2）米卡芬净，100 mg/d qd iv"
+          "联合氟胞嘧啶"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_anidulafungin_for_bloodstream",
-        "content": "阿尼芬净，首次负荷剂量200 mg iv，第2天开始给予100mg/d qd iv",
-        "plan_level": 1,
-        "applicable_condition": "耳念珠菌血流感染",
+        "id": "plan_nystatin",
+        "content": "制霉菌素",
+        "plan_level": 5,
+        "applicable_condition": "外阴阴道炎、外耳炎、乳突炎、口咽部感染",
         "contraindication_note": null,
         "evidence_ids": [
-          "推荐24：耳念珠菌血流感染时，首选药物为棘白菌素类药物：（3）阿尼芬净，首次负荷剂量200 mg iv，第2天开始给予100mg/d qd iv"
+          "局部用制霉菌素...或口服制霉菌素"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "plan_liposomal_amphotericin_b_for_cns",
-        "content": "脂质体两性霉素B（3～5 mg·kg⁻¹·d⁻¹）单药或联合氟胞嘧啶（25 mg/kg q6h）",
-        "plan_level": 1,
-        "applicable_condition": "耳念珠菌中枢神经系统感染",
-        "contraindication_note": "不推荐棘白菌素类，因其难以通过血脑屏障",
+        "id": "plan_terbinafine",
+        "content": "特比萘芬",
+        "plan_level": 6,
+        "applicable_condition": "糖尿病足感染",
+        "contraindication_note": null,
         "evidence_ids": [
-          "推荐26：中枢神经系统感染时，推荐脂质体两性霉素B（3～5 mg·kg⁻¹·d⁻¹）单药或联合氟胞嘧啶（25 mg/kg q6h），或参照其他念珠菌治疗剂量。不推荐棘白菌素类。"
+          "推荐特比萘芬"
         ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_amphotericin_b_plus_flucytosine_for_uti",
-        "content": "两性霉素B（0.5 mg/kg iv qd，7～10 d）± 氟胞嘧啶（25 mg/kg po q6h）",
-        "plan_level": 1,
-        "applicable_condition": "耳念珠菌尿路感染",
-        "contraindication_note": "不推荐棘白菌素类，因该类药物在尿液中浓度低，治疗通常无效",
-        "evidence_ids": [
-          "推荐30：尿路感染时，推荐两性霉素B（0.5 mg/kg iv qd，7～10 d）± 氟胞嘧啶（25 mg/kg po q6h）；或参照其他念珠菌治疗剂量。不推荐棘白菌素类，因该类药物在尿液中浓度低，治疗通常无效"
-        ],
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "etiologies": [
       {
         "id": "etiology_candida_auris",
-        "content": "耳念珠菌感染",
+        "content": "耳念珠菌（Candida auris）",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
           "耳念珠菌是近期临床微生物学领域、感染性疾病领域的研究热点。该菌可以引起严重的侵袭性感染"
@@ -327,55 +473,47 @@
         "confidence": 0.95
       },
       {
-        "id": "etiology_multidrug_resistance",
-        "content": "多重耐药",
-        "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "该菌常呈多重耐药，一些菌株（型）对现有的3类抗真菌药均耐药。该菌对氟康唑、两性霉素B或两者同时具有内源性或诱导型耐药"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_icu_stay",
-        "content": "ICU住院",
+        "id": "etiology_risk_factors",
+        "content": "高龄、糖尿病、手术、化疗、慢性肾病透析、HIV感染、机械通气、使用导尿管、中心静脉导管、动脉导管、肠外营养、抗细菌药物或抗真菌药物、插管等",
         "etiology_type": "危险因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
-          "该菌可以引起医院感染［19］，包括ICU获得性感染［20］"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_indwelling_catheter",
-        "content": "中心静脉导管/导尿管置入",
-        "etiology_type": "危险因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "该菌可在置入的中心静脉导管、导尿管形成生物膜［4］"
+          "风险因素与其他念珠菌相似，包括高龄、糖尿病、手术、化疗、慢性肾病透析、ＨＩＶ感染、机械通气、使用导尿管、中心静脉导管、动脉导管、肠外营养、抗细菌药物或抗真菌药物、插管（呼吸管、喂食管等）"
         ],
         "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_biofilm_formation",
-        "content": "耳念珠菌可形成生物膜，增强其在医疗器械表面的依附性及耐药性，促进持续感染和播散。",
+        "id": "pathogenesis_virulence_factors",
+        "content": "磷脂酶、蛋白酶和溶血素在真菌入侵和感染宿主中发挥重要作用",
         "evidence_ids": [
-          "该菌可在置入的中心静脉导管、导尿管形成生物膜［4］",
-          "非聚集型耳念珠菌具有较高的生物膜形成能力和致病性",
-          "耳念珠菌与白念珠菌相比，生物膜形成能力较弱，对导管的依附性较差"
+          "磷脂酶、蛋白酶和溶血素在真菌入侵和感染宿主中发挥重要作用"
         ],
         "confidence": 0.85
       },
       {
-        "id": "pathogenesis_virulence_factors",
-        "content": "基因组上存在多个毒力因子编码基因，包括磷脂酶、蛋白酶和溶血素，在真菌入侵和感染宿主中发挥重要作用。",
+        "id": "pathogenesis_biofilm",
+        "content": "非聚集型耳念珠菌具有较高的生物膜形成能力和致病性，菌丝发育能够促进侵入性生长",
         "evidence_ids": [
-          "基因组学研究证实，该菌基因组上存在多个毒力因子编码基因［3］。磷脂酶、蛋白酶和溶血素在真菌入侵和感染宿主中发挥重要作用。"
+          "非聚集型耳念珠菌具有较高的生物膜形成能力和致病性，菌丝发育能够促进侵入性生长"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "pathogenesis_azoles_resistance",
+        "content": "ERG11基因所编码的氨基酸置换或表达上调导致唑类药物耐药",
+        "evidence_ids": [
+          "ＥＲＧ１１基因所编码的氨基酸置换...发生率远高于敏感株...ＥＲＧ１１的表达上调也可导致需更高浓度药物...引起耐药"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_echinocandin_resistance",
+        "content": "FKS1基因热点区编码突变导致对棘白菌素药物的亲和力降低从而引起耐药",
+        "evidence_ids": [
+          "ＦＫＳ１的热点区编码Ｓ６３９Ｆ突变可能导致耳念珠菌对棘白菌素药物的亲和力降低从而引起耐药"
         ],
         "confidence": 0.9
       }
@@ -385,287 +523,424 @@
     "has_sub_disease": [
       {
         "from": "disease_candida_auris_infection",
-        "to": "sub_disease_candida_auris_bloodstream_infection",
-        "relation_id": "rel_candida_auris_infection_has_bloodstream_infection",
+        "to": "sub_disease_candida_auris_colonization",
+        "relation_id": "rel_has_sub_disease_colonization",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "在目前已经报道的耳念珠菌疾病谱中，血流感染为主要的感染类型，占所有耳念珠菌感染的40％～100％。"
+          "耳念珠菌可定植于人的皮肤与黏膜表面"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_candida_auris_infection",
+        "to": "sub_disease_candida_auris_bloodstream_infection",
+        "relation_id": "rel_has_sub_disease_bloodstream",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "血流感染为主要的感染类型"
+        ],
+        "confidence": 0.9
       },
       {
         "from": "disease_candida_auris_infection",
         "to": "sub_disease_candida_auris_endocarditis",
-        "relation_id": "rel_candida_auris_infection_has_endocarditis",
+        "relation_id": "rel_has_sub_disease_endocarditis",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "耳念珠菌心内膜炎时，首选药物为棘白菌素类药物"
+          "耳念珠菌心内膜炎时"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_candida_auris_infection",
         "to": "sub_disease_candida_auris_cns_infection",
-        "relation_id": "rel_candida_auris_infection_has_cns_infection",
+        "relation_id": "rel_has_sub_disease_cns",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "中枢神经系统感染时，推荐脂质体两性霉素B（3～5 mg·kg⁻¹·d⁻¹）单药或联合氟胞嘧啶"
+          "中枢神经系统感染时"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_candida_auris_infection",
+        "to": "sub_disease_candida_auris_lower_respiratory_infection",
+        "relation_id": "rel_has_sub_disease_lower_respiratory",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "下呼吸道感染时"
+        ],
+        "confidence": 0.9
       },
       {
         "from": "disease_candida_auris_infection",
         "to": "sub_disease_candida_auris_uti",
-        "relation_id": "rel_candida_auris_infection_has_uti",
+        "relation_id": "rel_has_sub_disease_uti",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "尿路感染时，推荐两性霉素B（0.5 mg/kg iv qd，7～10 d）± 氟胞嘧啶（25 mg/kg po q6h）"
+          "尿路感染时"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_candida_auris_infection",
-        "to": "sub_disease_candida_auris_ear_infection",
-        "relation_id": "rel_candida_auris_infection_has_ear_infection",
+        "to": "sub_disease_candida_auris_diabetic_foot",
+        "relation_id": "rel_has_sub_disease_diabetic_foot",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "外耳炎、乳突炎时，局部制霉菌素或口服制霉菌素（50万U/d q8h），适时考虑外科清创"
+          "糖尿病足感染时"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_candida_auris_infection",
-        "to": "sub_disease_candida_auris_vaginitis",
-        "relation_id": "rel_candida_auris_infection_has_vaginitis",
+        "to": "sub_disease_candida_auris_vulvovaginitis",
+        "relation_id": "rel_has_sub_disease_vulvovaginitis",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "耳念珠菌外阴阴道炎时，局部用制霉菌素（100万U/d，14 d）或口服制霉菌素（100万U/d q8h，7 d）"
+          "耳念珠菌外阴阴道炎时"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "from": "disease_candida_auris_infection",
-        "to": "sub_disease_candida_auris_colonization",
-        "relation_id": "rel_candida_auris_infection_has_colonization",
+        "to": "sub_disease_candida_auris_otitis",
+        "relation_id": "rel_has_sub_disease_otitis",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "耳念珠菌可定植于人的皮肤与黏膜表面，也可分离自伤口、直肠拭子、咽拭子、呼吸道、尿道等部位，因此自临床样本分离后首先应判断是定植还是感染，定植人数约为感染患者的2～3倍"
+          "外耳炎、乳突炎时"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_candida_auris_infection",
+        "to": "sub_disease_candida_auris_oropharyngeal",
+        "relation_id": "rel_has_sub_disease_oropharyngeal",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "口咽部感染时"
+        ],
+        "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_candida_auris_bloodstream_infection",
-        "to": "symptom_fever",
-        "relation_id": "rel_bloodstream_manifests_as_fever",
+        "from": "sub_disease_candida_auris_colonization",
+        "to": "symptom_no_infection_manifestation",
+        "relation_id": "rel_colonization_manifests_as_no_infection",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
+        "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "临床表现",
+        "section_priority": "临床诊断",
         "evidence_ids": [
-          "该菌可以引起严重的侵袭性感染"
+          "患者分离出耳念珠菌，但无感染的临床表现"
         ],
-        "confidence": 0.85
-      },
-      {
-        "from": "sub_disease_candida_auris_bloodstream_infection",
-        "to": "symptom_sepsis_like",
-        "relation_id": "rel_bloodstream_manifests_as_sepsis_like",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 8,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "耳念珠菌引起的真菌血症的全球发病率知之甚少，死亡率为49％～68％"
-        ],
-        "confidence": 0.85,
-        "weight_reason": "原文称血流感染为主要感染类型，致死率高，但未明确描述其临床表现为脓毒症样，仅隐含重症感染特征",
-        "evidence": "血流感染为主要的感染类型，占所有耳念珠菌感染的４０％～１００％。目前，耳念珠菌引起的真菌血症的全球发病率知之甚少，死亡率为４９％～６８％"
+        "confidence": 0.9,
+        "weight_reason": "原文明确定义定植为患者分离出耳念珠菌但无感染的临床表现。",
+        "evidence": "（１）定植：患者分离出耳念珠菌，但无感染的临床表现"
       }
     ],
     "requires_test": [
       {
         "from": "sub_disease_candida_auris_bloodstream_infection",
-        "to": "test_blood_culture_positive",
+        "to": "test_blood_culture",
         "relation_id": "rel_bloodstream_requires_blood_culture",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
+        "diagnostic_role": "gold_standard",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "阳性",
-        "weight": 100,
+        "result_text": "分离出耳念珠菌",
+        "weight": 8,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "临床诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "血液、正常无菌部位（本共识指脑脊液、胸腔积液、腹腔积液、盆腔积液、关节液、腹膜透出液、深部组织标本等）分离出耳念珠菌，有诊断意义"
+          "血液、正常无菌部位...分离出耳念珠菌，有诊断意义"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将血液分离出耳念珠菌列为‘有诊断意义’，且血流感染定义即基于血液培养阳性，构成确诊金标准",
-        "evidence": "血液、正常无菌部位（本共识指脑脊液、胸腔积液、腹腔积液、盆腔积液、关节液、腹膜透出液、深部组织标本等）分离出耳念珠菌，有诊断意义。"
+        "weight_reason": "原文提及血流感染治疗需血培养2次阴性，表明血培养是重要监测手段，但未提及金标准。",
+        "evidence": "血培养２次（间隔１～３ｄ）阴性后，至少继续治疗２周"
       },
       {
-        "from": "sub_disease_candida_auris_cns_infection",
-        "to": "test_csf_culture_positive",
-        "relation_id": "rel_cns_requires_csf_culture",
+        "from": "sub_disease_candida_auris_bloodstream_infection",
+        "to": "test_direct_smear",
+        "relation_id": "rel_bloodstream_requires_direct_smear",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断必要条件",
-        "diagnostic_role": "required",
-        "value_min": null,
-        "value_max": null,
-        "operator": "equals",
-        "unit": null,
-        "result_text": "阳性",
-        "weight": 100,
-        "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
-        "evidence_level": "expert_consensus",
-        "evidence_ids": [
-          "血液、正常无菌部位（本共识指脑脊液、胸腔积液、腹腔积液、盆腔积液、关节液、腹膜透出液、深部组织标本等）分离出耳念珠菌，有诊断意义"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文将‘脑脊液’明确列为‘正常无菌部位’，并指出该部位分离出耳念珠菌‘有诊断意义’，构成中枢神经系统感染的确诊金标准",
-        "evidence": "血液、正常无菌部位（本共识指脑脊液、胸腔积液、腹腔积液、盆腔积液、关节液、腹膜透出液、深部组织标本等）分离出耳念珠菌，有诊断意义。"
-      },
-      {
-        "from": "sub_disease_candida_auris_ear_infection",
-        "to": "test_microscopy_yeast_spores",
-        "relation_id": "rel_ear_requires_microscopy",
-        "relation_name": "需要检查",
-        "relation_type": "requires_test",
-        "type_info": "疾病诊断支持条件",
+        "type_info": "疾病诊断次要条件",
         "diagnostic_role": "supportive",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": null,
         "unit": null,
-        "result_text": "见酵母样孢子",
+        "result_text": "发现酵母样孢子",
+        "weight": 6,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "临床诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "送检样本（血液标本除外）应做直接涂片，如涂片镜检发现酵母样孢子"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_candida_auris_bloodstream_infection",
+        "to": "test_real_time_pcr_its2",
+        "relation_id": "rel_bloodstream_requires_pcr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "阳性",
         "weight": 8,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "present",
-        "typicality": "typical",
-        "section_priority": "诊断标准",
+        "polarity": "positive",
+        "typicality": "common",
+        "section_priority": "微生物学鉴定",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "送检样本（血液标本除外）应做直接涂片，如涂片镜检发现酵母样孢子，且经培养或分子生物方法鉴定为耳念珠菌，提示感染可能"
+          "用实时荧光ＰＣＲ（ＴａｑＭａｎ探针法）检测临床样本中的耳念珠菌"
         ],
-        "confidence": 0.95,
-        "weight_reason": "原文仅对非无菌部位（如耳部）提出‘送检样本应做直接涂片，如涂片镜检发现酵母样孢子……提示感染可能’，属‘提示’而非确诊，故非100",
-        "evidence": "送检样本（血液标本除外）应做直接涂片，如涂片镜检发现酵母样孢子，且经培养或分子生物方法鉴定为耳念珠菌，提示感染可能。"
+        "confidence": 0.9,
+        "weight_reason": "原文推荐用实时荧光PCR检测临床样本中的耳念珠菌，具有良好诊断性能，但未特指血流感染或金标准。",
+        "evidence": "用实时荧光ＰＣＲ（ＴａｑＭａｎ探针法）检测临床样本中的耳念珠菌"
+      },
+      {
+        "from": "sub_disease_candida_auris_bloodstream_infection",
+        "to": "test_antifungal_susceptibility",
+        "relation_id": "rel_bloodstream_requires_susceptibility",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "治疗监测项",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": null,
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": null,
+        "typicality": "typical",
+        "section_priority": "抗真菌药物敏感性试验",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "对所有耳念珠菌分离株进行药敏试验"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文推荐对所有耳念珠菌分离株进行药敏试验，侵袭性感染效果不佳时必须进行，但未称为金标准。",
+        "evidence": "对所有耳念珠菌分离株进行药敏试验"
       }
     ],
     "follows_treatment": [
       {
         "from": "sub_disease_candida_auris_bloodstream_infection",
-        "to": "treatment_candida_auris_antifungal_selection",
-        "relation_id": "rel_bloodstream_follows_antifungal_selection",
+        "to": "treatment_bloodstream",
+        "relation_id": "rel_bloodstream_follows_treatment",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
         "applicable_condition": "明确诊断后",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "首选",
         "decision_basis": [
-          "感染部位",
-          "药敏试验结果"
+          "感染部位"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "7 临床处置",
-        "confidence": 0.95
+        "source_section": "临床处置",
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_candida_auris_bloodstream_infection",
-        "to": "treatment_candida_auris_empirical_coverage",
-        "relation_id": "rel_bloodstream_follows_empirical_coverage",
+        "from": "sub_disease_candida_auris_endocarditis",
+        "to": "treatment_endocarditis",
+        "relation_id": "rel_endocarditis_follows_treatment",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
-        "treatment_line": "经验治疗",
-        "applicable_condition": "经验治疗需覆盖该菌时",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "首选",
         "decision_basis": [
-          "免疫状态",
-          "耐药风险"
+          "感染部位"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "7 临床处置",
-        "confidence": 0.95
+        "source_section": "临床处置",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_candida_auris_cns_infection",
+        "to": "treatment_cns",
+        "relation_id": "rel_cns_follows_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "感染部位"
+        ],
+        "contraindication_note": "不推荐棘白菌素类",
+        "evidence_level": "expert_consensus",
+        "source_section": "临床处置",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_candida_auris_uti",
+        "to": "treatment_uti",
+        "relation_id": "rel_uti_follows_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "推荐",
+        "decision_basis": [
+          "感染部位"
+        ],
+        "contraindication_note": "不推荐棘白菌素类",
+        "evidence_level": "expert_consensus",
+        "source_section": "临床处置",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_candida_auris_colonization",
+        "to": "treatment_prophylaxis",
+        "relation_id": "rel_colonization_follows_prophylaxis",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "预防",
+        "applicable_condition": "定植",
+        "recommendation_polarity": "不推荐",
+        "recommendation_strength": "不推荐",
+        "decision_basis": [
+          "发病率"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "预防和控制",
+        "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_candida_auris_antifungal_selection",
-        "to": "plan_caspofungin_for_bloodstream",
-        "relation_id": "rel_antifungal_selection_implements_by_caspofungin",
+        "from": "treatment_bloodstream",
+        "to": "plan_echinocandin",
+        "relation_id": "rel_bloodstream_implements_echinocandin",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "耳念珠菌血流感染",
+        "applicable_condition": "血流感染",
         "contraindication_note": null,
         "evidence_ids": [
-          "推荐24：耳念珠菌血流感染时，首选药物为棘白菌素类药物：（1）卡泊芬净，首次负荷剂量70mg iv，第2天开始给予50mg/d qd iv"
+          "首选药物为棘白菌素类药物"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "treatment_candida_auris_antifungal_selection",
-        "to": "plan_micafungin_for_bloodstream",
-        "relation_id": "rel_antifungal_selection_implements_by_micafungin",
+        "from": "treatment_cns",
+        "to": "plan_polyene",
+        "relation_id": "rel_cns_implements_polyene",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "耳念珠菌血流感染",
+        "applicable_condition": "中枢神经系统感染",
         "contraindication_note": null,
         "evidence_ids": [
-          "推荐24：耳念珠菌血流感染时，首选药物为棘白菌素类药物：（2）米卡芬净，100 mg/d qd iv"
+          "推荐脂质体两性霉素Ｂ"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_uti",
+        "to": "plan_polyene",
+        "relation_id": "rel_uti_implements_polyene",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "尿路感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐两性霉素Ｂ"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_diabetic_foot",
+        "to": "plan_terbinafine",
+        "relation_id": "rel_diabetic_foot_implements_terbinafine",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "糖尿病足感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐特比萘芬"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_vulvovaginitis",
+        "to": "plan_nystatin",
+        "relation_id": "rel_vulvovaginitis_implements_nystatin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "外阴阴道炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "局部用制霉菌素"
+        ],
+        "confidence": 0.9
       }
     ],
     "causes": [
       {
         "from": "sub_disease_candida_auris_bloodstream_infection",
         "to": "etiology_candida_auris",
-        "relation_id": "rel_bloodstream_causes_candida_auris",
+        "relation_id": "rel_bloodstream_caused_by_candida_auris",
         "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -673,22 +948,22 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "耳念珠菌是近期临床微生物学领域、感染性疾病领域的研究热点。该菌可以引起严重的侵袭性感染"
+          "耳念珠菌...可以引起严重的侵袭性感染"
         ],
         "confidence": 0.95
       },
       {
         "from": "sub_disease_candida_auris_bloodstream_infection",
-        "to": "etiology_multidrug_resistance",
-        "relation_id": "rel_bloodstream_causes_multidrug_resistance",
+        "to": "etiology_risk_factors",
+        "relation_id": "rel_bloodstream_associated_with_risk_factors",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "moderate",
-        "typicality": "typical",
+        "typicality": "common",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "该菌常呈多重耐药，一些菌株（型）对现有的3类抗真菌药均耐药。该菌对氟康唑、两性霉素B或两者同时具有内源性或诱导型耐药"
+          "风险因素与其他念珠菌相似，包括高龄、糖尿病、手术..."
         ],
         "confidence": 0.9
       }
@@ -696,25 +971,25 @@
     "explained_by": [
       {
         "from": "sub_disease_candida_auris_bloodstream_infection",
-        "to": "pathogenesis_biofilm_formation",
-        "relation_id": "rel_bloodstream_explained_by_biofilm",
-        "relation_name": "由机制解释",
-        "relation_type": "explained_by",
-        "evidence_ids": [
-          "该菌可在置入的中心静脉导管、导尿管形成生物膜［4］"
-        ],
-        "confidence": 0.85
-      },
-      {
-        "from": "sub_disease_candida_auris_bloodstream_infection",
         "to": "pathogenesis_virulence_factors",
         "relation_id": "rel_bloodstream_explained_by_virulence",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "基因组学研究证实，该菌基因组上存在多个毒力因子编码基因［3］。磷脂酶、蛋白酶和溶血素在真菌入侵和感染宿主中发挥重要作用。"
+          "磷脂酶、蛋白酶和溶血素在真菌入侵和感染宿主中发挥重要作用"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_candida_auris_bloodstream_infection",
+        "to": "pathogenesis_biofilm",
+        "relation_id": "rel_bloodstream_explained_by_biofilm",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "非聚集型耳念珠菌具有较高的生物膜形成能力和致病性"
+        ],
+        "confidence": 0.85
       }
     ]
   },

@@ -22,153 +22,145 @@
           "抗磷脂综合征诊疗规范"
         ],
         "evidence_ids": [
-          "抗磷脂综合征是一种以反复血管性血栓事件、复发性自然流产、血小板减少等为主要临床表现，伴抗磷脂抗体持续中、高滴度阳性的自身免疫病"
+          "抗磷脂综合征（antiphospholipid syndrome, APS)是一种以反复血管性血栓事件、复发性自然流产、血小板减少等为主要临床表现，伴有抗磷脂抗体谱(antiphospholipid antibodies,aPLs)持续中、高滴度阳性的自身免疫病。"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_aps_thrombotic",
-        "name": "血栓性抗磷脂综合征",
+        "id": "sub_disease_primary_aps",
+        "name": "原发性APS",
         "parent_disease_id": "disease_aps",
-        "disease_subtype": "血栓性",
+        "disease_subtype": "原发性",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "成人",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（一）血栓事件 APS血管性血栓形成的临床表现取决于受累血管的种类、部位和大小……静脉栓塞在APS中更常见,最常累及部位为下肢深静脉血栓"
+          "通常分为原发性APS和继发性APS，后者多继发于系统性红斑狼疮（SLE）、干燥综合征等结缔组织病。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_aps_obstetric",
-        "name": "产科抗磷脂综合征",
+        "id": "sub_disease_secondary_aps",
+        "name": "继发性APS",
+        "parent_disease_id": "disease_aps",
+        "disease_subtype": "继发性",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "继发于结缔组织病患者",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "通常分为原发性APS和继发性APS，后者多继发于系统性红斑狼疮（SLE）、干燥综合征等结缔组织病。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_caps",
+        "name": "灾难性抗磷脂综合征",
+        "parent_disease_id": "disease_aps",
+        "disease_subtype": "灾难性",
+        "clinical_stage": "急性严重类型",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "少数APS患者可在1周内出现进行性多个(3个或3个以上）器官的血栓形成，累及脑、肾、肝或心脏等重要脏器造成功能衰竭和死亡，并有病理证实小血管内血栓形成，称为灾难性抗磷脂综合征"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_obstetric_aps",
+        "name": "产科APS",
         "parent_disease_id": "disease_aps",
         "disease_subtype": "产科",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "育龄期女性",
+        "population": "妊娠女性",
         "gender": "female",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "（二）病理妊娠 APS是导致病理妊娠的少数可以治疗的病因……2006年国际血栓止血学会提出了APS悉尼修订分类标准\",确定与APS相关的病理妊娠主要包括三种情况"
+          "APS是导致病理妊娠的少数可以治疗的病因，妥善管理APS可有效改善妊娠结局。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_aps_catastrophic",
-        "name": "灾难性抗磷脂综合征",
+        "id": "sub_disease_thrombotic_aps",
+        "name": "血栓性APS",
         "parent_disease_id": "disease_aps",
-        "disease_subtype": "灾难性",
+        "disease_subtype": "血栓性",
         "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "APS患者",
+        "severity": "不限定",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "少数APS患者可在1周内出现进行性多个（3个或3个以上）器官的血栓形成，累及脑、肾、肝或心脏等重要脏器造成功能衰竭和死亡，并有病理证实小血管内血栓形成，称为灾难性抗磷脂综合征（catastrophic APS,CAPS）"
+          "长期充分抗凝是治疗血栓性APS的关键。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_aps_seronegative",
-        "name": "血清阴性抗磷脂综合征",
+        "id": "sub_disease_seronegative_aps",
+        "name": "血清阴性APS",
         "parent_disease_id": "disease_aps",
         "disease_subtype": "血清阴性",
         "clinical_stage": "不限定",
         "severity": "不限定",
-        "population": "APS疑似患者",
+        "population": "常规检测aPLs抗体均为阴性但高度疑诊APS患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "临床中有很少部分患者存在典型的血栓事件、复发性自然流产、血小板减少等临床表现，高度疑诊APS,但常规检测aPLs抗体均为阴性，因此有学者提出“血清阴性APS\"的概念"
+          "临床中有很少部分患者存在典型的血栓事件、复发性自然流产、血小板减少等临床表现，高度疑诊APS,但常规检测aPLs抗体均为阴性，因此有学者提出“血清阴性APS”的概念"
         ],
         "confidence": 0.85
-      },
-      {
-        "id": "sub_disease_aps_non_criteria",
-        "name": "非标准抗磷脂综合征",
-        "parent_disease_id": "disease_aps",
-        "disease_subtype": "非标准",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "APS疑似患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "部分患者具有产科APS的典型临床表现，但抗体检查结果达不到APS分类标准，如仅持续低滴度aPLs阳性；亦有部分患者具有标准的实验室检测结果，但临床表现未达到分类标准……被归为非标准产科APS"
-        ],
-        "confidence": 0.9
       }
     ],
     "symptoms": [
       {
-        "id": "symptom_deep_vein_thrombosis",
-        "name": "深静脉血栓形成",
-        "body_site": "下肢",
-        "symptom_category": "循环系统症状",
+        "id": "symptom_thrombosis",
+        "name": "血管性血栓形成",
+        "body_site": "全身血管",
+        "symptom_category": "血管系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "静脉栓塞在APS中更常见,最常累及部位为下肢深静脉血栓"
+          "APS临床表现复杂多样，全身各个系统均可受累，最突出的表现为血管性血栓形成。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "symptom_pulmonary_embolism",
-        "name": "肺栓塞",
-        "body_site": "肺脏",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "表1抗磷脂综合征血栓形成的临床表现 累及静脉：肺脏 肺栓塞，肺高压"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_stroke",
-        "name": "卒中",
-        "body_site": "神经系统",
-        "symptom_category": "神经系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "动脉栓塞最常见的部位为颅内血管，亦可累及冠状动脉、肾动脉、肠系膜动脉等。……卒中，短暂性脑缺血发作，缺血性脊髓炎，Sneddon综合征"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "symptom_recurrent_spontaneous_abortion",
+        "id": "symptom_recurrent_miscarriage",
         "name": "复发性自然流产",
         "body_site": "生殖系统",
         "symptom_category": "产科症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "抗磷脂综合征是一种以反复血管性血栓事件、复发性自然流产、血小板减少等为主要临床表现"
+          "抗磷脂综合征（antiphospholipid syndrome, APS)是一种以反复血管性血栓事件、复发性自然流产、血小板减少等为主要临床表现"
         ],
         "confidence": 0.95
       },
       {
         "id": "symptom_thrombocytopenia",
         "name": "血小板减少",
-        "body_site": "全身",
+        "body_site": "血液系统",
         "symptom_category": "血液系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "抗磷脂综合征是一种以反复血管性血栓事件、复发性自然流产、血小板减少等为主要临床表现"
+          "血小板减少是APS患者常见的临床表现之一，发生率为20%~53%"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "id": "symptom_livedo_reticularis",
@@ -178,31 +170,31 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "APS可能存在血栓事件、病理妊娠外的aPLs相关临床表现，包括网状青斑、浅表性静脉炎、血小板减少症……"
+          "APS可能存在血栓事件、病理妊娠外的aPLs相关临床表现，包括网状青斑、浅表性静脉炎"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       },
       {
-        "id": "symptom_valvular_lesion",
+        "id": "symptom_valvular_heart_disease",
         "name": "心脏瓣膜病变",
         "body_site": "心脏",
-        "symptom_category": "循环系统症状",
+        "symptom_category": "心血管系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "瓣膜病变是APS最常见的心脏损害表现……瓣膜整体增厚（>3mm）、瓣叶近中部局限性增厚、瓣缘不规则的结节或赘生物（Libman-Sacks心内膜炎）及瓣膜中重度功能异常"
+          "瓣膜病变是APS最常见的心脏损害表现，部分研究报告发生率最高达30%"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_hemolytic_anemia",
         "name": "溶血性贫血",
-        "body_site": "全身",
+        "body_site": "血液系统",
         "symptom_category": "血液系统症状",
         "polarity": "present",
-        "typicality": "rare",
+        "typicality": "common",
         "evidence_ids": [
-          "APS可能存在血栓事件、病理妊娠外的aPLs相关临床表现……溶血性贫血、舞蹈症、认知功能障碍和横贯性脊髓炎等"
+          "APS可能存在血栓事件、病理妊娠外的aPLs相关临床表现，包括...溶血性贫血"
         ],
         "confidence": 0.85
       },
@@ -214,9 +206,21 @@
         "polarity": "present",
         "typicality": "rare",
         "evidence_ids": [
-          "APS可能存在血栓事件、病理妊娠外的aPLs相关临床表现……溶血性贫血、舞蹈症、认知功能障碍和横贯性脊髓炎等"
+          "APS可能存在血栓事件、病理妊娠外的aPLs相关临床表现，包括...舞蹈症"
         ],
-        "confidence": 0.85
+        "confidence": 0.8
+      },
+      {
+        "id": "symptom_cognitive_dysfunction",
+        "name": "认知功能障碍",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "rare",
+        "evidence_ids": [
+          "APS可能存在血栓事件、病理妊娠外的aPLs相关临床表现，包括...认知功能障碍"
+        ],
+        "confidence": 0.8
       },
       {
         "id": "symptom_transverse_myelitis",
@@ -226,104 +230,104 @@
         "polarity": "present",
         "typicality": "rare",
         "evidence_ids": [
-          "APS可能存在血栓事件、病理妊娠外的aPLs相关临床表现……溶血性贫血、舞蹈症、认知功能障碍和横贯性脊髓炎等"
+          "APS可能存在血栓事件、病理妊娠外的aPLs相关临床表现，包括...横贯性脊髓炎等。"
         ],
-        "confidence": 0.85
+        "confidence": 0.8
       }
     ],
     "tests": [
       {
-        "id": "test_lupus_anticoagulant",
-        "name": "狼疮抗凝物",
+        "id": "test_lac",
+        "name": "狼疮抗凝物(LAC)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 0,
         "evidence_ids": [
-          "实验室标准：1.血浆中狼疮抗凝物阳性：依照国际血栓与止血学会狼疮抗凝物/磷脂依赖型抗体学术委员会制定的指南进行检测"
+          "血浆中狼疮抗凝物阳性：依照国际血栓与止血学会狼疮抗凝物/磷脂依赖型抗体学术委员会制定的指南进行检测"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_anticardiolipin_antibody",
-        "name": "抗心磷脂抗体",
+        "id": "test_acl",
+        "name": "抗心磷脂抗体(aCL)IgG/IgM",
         "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
+        "normal_range_max": 40,
+        "is_digital": 1,
         "evidence_ids": [
-          "2.采用标准化ELISA法检测血清或血浆中抗心磷脂抗体：IgG型/IgM型中高效价阳性抗体（IgG型和IgM型分别大于40GPL或MPL,或大于第99百分点）"
+          "采用标准化ELISA法检测血清或血浆中抗心磷脂抗体：IgG型/IgM型中高效价阳性抗体（IgG型和IgM型分别大于40GPL或MPL,或大于第99百分点）"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_antibeta2glycoproteinI_antibody",
-        "name": "抗β2糖蛋白I抗体",
+        "id": "test_b2gpi",
+        "name": "抗β2糖蛋白I(β2GPI)抗体IgG/IgM",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 0,
+        "is_digital": 1,
         "evidence_ids": [
-          "3.采用标准化ELISA法检测血清或血浆抗β,糖蛋白I抗体：IgC型/1gM型阳性（效价大于健康人效价分布的第99百分点）"
+          "采用标准化ELISA法检测血清或血浆抗β2糖蛋白I抗体：IgG型/IgM型阳性（效价大于健康人效价分布的第99百分点）"
         ],
         "confidence": 0.95
       },
       {
-        "id": "test_dilute_russell_viper_venom_time",
-        "name": "稀释的蛭蛇毒时间",
+        "id": "test_gapss",
+        "name": "全面APS评分(GAPSS)",
         "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
+        "normal_range_max": 10,
+        "is_digital": 1,
         "evidence_ids": [
-          "LAC的检测方法包括：（1）筛查试验：包括稀释的蛭蛇毒时间（dRVVT）、活化部分凝血活酶时间（APTT）、硅凝固时间法、大斑蛇凝血时间及蛇静脉酶时间等"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_appt",
-        "name": "活化部分凝血活酶时间",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 0,
-        "evidence_ids": [
-          "LAC的检测方法包括：（1）筛查试验：包括稀释的蛭蛇毒时间（dRVVT）、活化部分凝血活酶时间（APTT）、硅凝固时间法、大斑蛇凝血时间及蛇静脉酶时间等"
+          "全面APS评分（theglobal anti-phospholipid syndrome score, GAPSS)... GAPSS≥10分为血栓再发高危人群。"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_aps_thrombotic",
-        "content": "长期充分抗凝是治疗血栓性APS的关键。常用的抗凝药物包括维生素K拮抗剂华法林及肝素或低分子肝素，可单用亦可联合抗血小板药物阿司匹林。",
+        "id": "treatment_prevent_thrombosis_and_pregnancy_loss",
+        "content": "APS的治疗目的主要包括预防血栓和避免妊娠失败。治疗应个体化，根据不同患者的不同临床表现、病情严重程度及对治疗药物的反应等制定恰当的治疗方案。",
         "recommendation_strength": "strong",
-        "source_section": "五、APS的治疗方案及原则",
+        "source_section": "APS的治疗方案及原则",
         "evidence_ids": [
-          "（一）血栓性APS的治疗 长期充分抗凝是治疗血栓性APS的关键。常用的抗凝药物包括维生素K拮抗剂华法林及肝素或低分子肝素，可单用亦可联合抗血小板药物阿司匹林。"
+          "APS的治疗目的主要包括预防血栓和避免妊娠失败。治疗应个体化，根据不同患者的不同临床表现、病情严重程度及对治疗药物的反应等制定恰当的治疗方案。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_aps_obstetric",
-        "content": "根据不同妊娠临床表现，以及既往有无血栓病史和病理妊娠史，可考虑选用小剂量阿司匹林、低分子肝素，或阿司匹林联合低分子肝素治疗。",
+        "id": "treatment_long_term_anticoagulation",
+        "content": "长期充分抗凝是治疗血栓性APS的关键。",
         "recommendation_strength": "strong",
-        "source_section": "五、APS的治疗方案及原则",
+        "source_section": "血栓性APS的治疗",
         "evidence_ids": [
-          "（二）产科APS的治疗 根据不同妊娠临床表现，以及既往有无血栓病史和病理妊娠史，可考虑选用小剂量阿司匹林、低分子肝素，或阿司匹林联合低分子肝素治疗。"
+          "长期充分抗凝是治疗血栓性APS的关键。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "treatment_aps_catastrophic",
+        "id": "treatment_caps_first_line",
         "content": "CAPS的一线治疗方案为肝素抗凝，联合糖皮质激素及血浆置换和/或静脉应用丙种球蛋白治疗，同时积极寻找并控制诱因，明确有无感染源及筛查恶性肿瘤。",
         "recommendation_strength": "strong",
-        "source_section": "五、APS的治疗方案及原则",
+        "source_section": "CAPS的治疗",
         "evidence_ids": [
-          "（三）CAPS的治疗 CAPS的一线治疗方案为肝素抗凝，联合糖皮质激素及血浆置换和/或静脉应用丙种球蛋白治疗，同时积极寻找并控制诱因，明确有无感染源及筛查恶性肿瘤。"
+          "CAPS的一线治疗方案为肝素抗凝，联合糖皮质激素及血浆置换和/或静脉应用丙种球蛋白治疗，同时积极寻找并控制诱因，明确有无感染源及筛查恶性肿瘤。"
         ],
         "confidence": 0.95
       }
     ],
     "plans": [
       {
-        "id": "plan_warfarin_for_thrombotic_aps",
-        "content": "口服维生素K拮抗剂，INR目标值为2.0~3.0",
+        "id": "plan_lda_primary_prevention",
+        "content": "高风险aPLs阳性的无症状抗体携带者及SLE患者：低剂量阿司匹林一级预防",
+        "plan_level": 1,
+        "applicable_condition": "高风险aPLs阳性的无症状抗体携带者及SLE患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "高风险aPLs阳性的无症状抗体携带者及SLE患者：低剂量阿司匹林一级预防"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_vka_inr_2_3",
+        "content": "确诊APS的首次静脉血栓事件者 口服维生素K拮抗剂，INR目标值为2.0~3.0",
         "plan_level": 1,
         "applicable_condition": "确诊APS的首次静脉血栓事件者",
         "contraindication_note": null,
@@ -333,32 +337,21 @@
         "confidence": 0.95
       },
       {
-        "id": "plan_aspirin_low_dose_for_obstetric_aps",
-        "content": "低剂量阿司匹林治疗（每日50~100mg）",
+        "id": "plan_lmwh_lda",
+        "content": "既往无血栓病史的早期反复流产或晚期妊娠丢失的APS患者：通常建议在尝试受孕时开始应用低剂量阿司匹林治疗（每日50~100mg），并在证实宫内孕后开始应用预防剂量的低分子肝素治疗。",
         "plan_level": 1,
         "applicable_condition": "既往无血栓病史的早期反复流产或晚期妊娠丢失的APS患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "1.既往无血栓病史的早期反复流产或晚期妊娠丢失的APS患者：通常建议在尝试受孕时开始应用低剂量阿司匹林治疗（每日50~100mg）"
+          "既往无血栓病史的早期反复流产或晚期妊娠丢失的APS患者：通常建议在尝试受孕时开始应用低剂量阿司匹林治疗（每日50~100mg），并在证实宫内孕后开始应用预防剂量的低分子肝素治疗。"
         ],
         "confidence": 0.95
       },
       {
-        "id": "plan_enoxaparin_prophylactic_for_obstetric_aps",
-        "content": "预防剂量的低分子肝素治疗",
-        "plan_level": 2,
-        "applicable_condition": "既往无血栓病史的早期反复流产或晚期妊娠丢失的APS患者，证实宫内孕后",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "并在证实宫内孕后开始应用预防剂量的低分子肝素治疗"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "plan_heparin_for_caps",
-        "content": "肝素抗凝，联合糖皮质激素及血浆置换和/或静脉应用丙种球蛋白治疗",
+        "id": "plan_heparin_gc_pe_ivig",
+        "content": "CAPS的一线治疗方案为肝素抗凝，联合糖皮质激素及血浆置换和/或静脉应用丙种球蛋白治疗",
         "plan_level": 1,
-        "applicable_condition": "灾难性抗磷脂综合征",
+        "applicable_condition": "灾难性抗磷脂综合征(CAPS)",
         "contraindication_note": null,
         "evidence_ids": [
           "CAPS的一线治疗方案为肝素抗凝，联合糖皮质激素及血浆置换和/或静脉应用丙种球蛋白治疗"
@@ -368,33 +361,22 @@
     ],
     "etiologies": [
       {
-        "id": "etiology_antiphospholipid_antibodies",
-        "content": "抗磷脂抗体谱持续中、高滴度阳性",
+        "id": "etiology_aPLs",
+        "content": "伴有抗磷脂抗体谱(aPLs)持续中、高滴度阳性",
         "etiology_type": "自身免疫因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "抗磷脂综合征是一种以反复血管性血栓事件、复发性自然流产、血小板减少等为主要临床表现，伴抗磷脂抗体持续中、高滴度阳性的自身免疫病"
+          "伴有抗磷脂抗体谱(antiphospholipid antibodies,aPLs)持续中、高滴度阳性的自身免疫病"
         ],
         "confidence": 0.95
       },
       {
-        "id": "etiology_sle",
-        "content": "系统性红斑狼疮",
+        "id": "etiology_ctd",
+        "content": "继发于系统性红斑狼疮（SLE）、干燥综合征等结缔组织病",
         "etiology_type": "自身免疫因素",
-        "typicality": "common",
-        "diagnostic_role": "继发因素",
-        "evidence_ids": [
-          "后者多继发于系统性红斑狼疮（SLE）、干燥综合征等结缔组织病"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_secondary_aps",
-        "content": "继发于结缔组织病",
-        "etiology_type": "自身免疫因素",
-        "typicality": "common",
-        "diagnostic_role": "继发因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
           "后者多继发于系统性红斑狼疮（SLE）、干燥综合征等结缔组织病"
         ],
@@ -403,20 +385,28 @@
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_non_inflammatory_occlusive_vasculopathy",
-        "content": "APS病因未明,病理特点为非炎性、节段性、阻塞性血管病变。",
+        "id": "pathogenesis_vascular_lesion",
+        "content": "病理特点为非炎性、节段性、阻塞性血管病变",
         "evidence_ids": [
           "APS病因未明,病理特点为非炎性、节段性、阻塞性血管病变。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "id": "pathogenesis_thromboinflammatory_mechanisms",
-        "content": "APS是一种系统性自身免疫障碍，伴有血栓性和炎症机制介导的血管、产科和血液学表现。",
+        "id": "pathogenesis_storm",
+        "content": "短期内形成血栓风暴及炎症风暴",
         "evidence_ids": [
-          "Antiphospholipid syndrome (APS) is a systemic autoimmune disorder with vascular, obstetric, and hematological manifestations associated with thrombotic and inflammatory mechanisms orchestrated by antiphospholipid (aPLs) antibodies."
+          "其可能的发病机制为短期内形成血栓风暴及炎症风暴。"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_valve_immune_complex",
+        "content": "受累瓣膜在免疫复合物沉积损伤基础上继发纤维素-血小板栓子形成",
+        "evidence_ids": [
+          "可能的机制考虑受累瓣膜在免疫复合物沉积损伤基础上继发纤维素-血小板栓子形成。"
+        ],
+        "confidence": 0.85
       }
     ]
   },
@@ -424,225 +414,107 @@
     "has_sub_disease": [
       {
         "from": "disease_aps",
-        "to": "sub_disease_aps_thrombotic",
-        "relation_id": "rel_aps_has_thrombotic",
+        "to": "sub_disease_primary_aps",
+        "relation_id": "rel_aps_has_primary_aps",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（一）血栓事件 APS血管性血栓形成的临床表现取决于受累血管的种类、部位和大小"
+          "通常分为原发性APS和继发性APS"
         ],
         "confidence": 0.95
       },
       {
         "from": "disease_aps",
-        "to": "sub_disease_aps_obstetric",
-        "relation_id": "rel_aps_has_obstetric",
+        "to": "sub_disease_secondary_aps",
+        "relation_id": "rel_aps_has_secondary_aps",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "（二）病理妊娠 APS是导致病理妊娠的少数可以治疗的病因"
+          "通常分为原发性APS和继发性APS"
         ],
         "confidence": 0.95
       },
       {
         "from": "disease_aps",
-        "to": "sub_disease_aps_catastrophic",
-        "relation_id": "rel_aps_has_catastrophic",
+        "to": "sub_disease_caps",
+        "relation_id": "rel_aps_has_caps",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "少数APS患者可在1周内出现进行性多个（3个或3个以上）器官的血栓形成……称为灾难性抗磷脂综合征（catastrophic APS,CAPS）"
+          "称为灾难性抗磷脂综合征"
         ],
         "confidence": 0.95
       },
       {
         "from": "disease_aps",
-        "to": "sub_disease_aps_seronegative",
-        "relation_id": "rel_aps_has_seronegative",
+        "to": "sub_disease_obstetric_aps",
+        "relation_id": "rel_aps_has_obstetric_aps",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "临床中有很少部分患者存在典型的血栓事件、复发性自然流产、血小板减少等临床表现，高度疑诊APS,但常规检测aPLs抗体均为阴性，因此有学者提出“血清阴性APS\"的概念"
+          "产科APS"
         ],
-        "confidence": 0.85
+        "confidence": 0.9
       },
       {
         "from": "disease_aps",
-        "to": "sub_disease_aps_non_criteria",
-        "relation_id": "rel_aps_has_non_criteria",
+        "to": "sub_disease_thrombotic_aps",
+        "relation_id": "rel_aps_has_thrombotic_aps",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "部分患者具有产科APS的典型临床表现，但抗体检查结果达不到APS分类标准……被归为非标准产科APS"
+          "血栓性APS"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_aps_thrombotic",
-        "to": "symptom_deep_vein_thrombosis",
-        "relation_id": "rel_thrombotic_aps_manifests_as_dvt",
+        "from": "sub_disease_thrombotic_aps",
+        "to": "symptom_thrombosis",
+        "relation_id": "rel_thrombotic_aps_manifests_as_thrombosis",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "临床表现",
+        "section_priority": "诊断标准",
         "evidence_ids": [
-          "静脉栓塞在APS中更常见,最常累及部位为下肢深静脉血栓"
+          "最突出的表现为血管性血栓形成"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确将‘下肢深静脉血栓’列为APS静脉栓塞最常见部位，属典型、高频临床表现",
-        "evidence": "静脉栓塞在APS中更常见,最常见部位为下肢深静脉血栓"
+        "weight_reason": "原文明确指出血栓性APS患者存在血栓事件再发风险，血栓为其核心临床表现。",
+        "evidence": "血栓性APS如未规范治疗，5年血栓事件再发风险超过50%"
       },
       {
-        "from": "sub_disease_aps_thrombotic",
-        "to": "symptom_pulmonary_embolism",
-        "relation_id": "rel_thrombotic_aps_manifests_as_pe",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "表1抗磷脂综合征血栓形成的临床表现 累及静脉：肺脏 肺栓塞，肺高压"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_aps_thrombotic",
-        "to": "symptom_stroke",
-        "relation_id": "rel_thrombotic_aps_manifests_as_stroke",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 7,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "动脉栓塞最常见的部位为颅内血管，亦可累及冠状动脉、肾动脉、肠系膜动脉等。……卒中，短暂性脑缺血发作，缺血性脊髓炎，Sneddon综合征"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_aps_obstetric",
-        "to": "symptom_recurrent_spontaneous_abortion",
-        "relation_id": "rel_obstetric_aps_manifests_as_rsa",
+        "from": "sub_disease_obstetric_aps",
+        "to": "symptom_recurrent_miscarriage",
+        "relation_id": "rel_obstetric_aps_manifests_as_miscarriage",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
-        "section_priority": "临床表现",
+        "section_priority": "诊断标准",
         "evidence_ids": [
-          "抗磷脂综合征是一种以反复血管性血栓事件、复发性自然流产、血小板减少等为主要临床表现"
+          "复发性自然流产"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文将‘复发性自然流产’列于【提要】首句及临床标准第2条第3项，属核心定义性表现",
-        "evidence": "抗磷脂综合征是一种以反复血管性血栓事件、复发性自然流产、血小板减少等为主要临床表现"
+        "weight_reason": "原文提及产科APS患者包含早期反复流产或晚期妊娠丢失的临床表现。",
+        "evidence": "既往无血栓病史的早期反复流产或晚期妊娠丢失的APS患者"
       },
       {
-        "from": "sub_disease_aps_obstetric",
+        "from": "sub_disease_primary_aps",
         "to": "symptom_thrombocytopenia",
-        "relation_id": "rel_obstetric_aps_manifests_as_thrombocytopenia",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "抗磷脂综合征是一种以反复血管性血栓事件、复发性自然流产、血小板减少等为主要临床表现"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_aps_catastrophic",
-        "to": "symptom_deep_vein_thrombosis",
-        "relation_id": "rel_catastrophic_aps_manifests_as_dvt",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "少数APS患者可在1周内出现进行性多个（3个或3个以上）器官的血栓形成，累及脑、肾、肝或心脏等重要脏器造成功能衰竭和死亡，并有病理证实小血管内血栓形成"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "CAPS累及多器官血栓形成，但原文未单独提及深静脉血栓；其典型表现是‘脑、肾、肝或心脏’等重要脏器，深静脉血栓非CAPS特异性或突出表现",
-        "evidence": "少数APS患者可在1周内出现进行性多个(3个或3个以上）器官的血栓形成，累及脑、肾、肝或心脏等重要脏器"
-      },
-      {
-        "from": "sub_disease_aps_catastrophic",
-        "to": "symptom_stroke",
-        "relation_id": "rel_catastrophic_aps_manifests_as_stroke",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "少数APS患者可在1周内出现进行性多个（3个或3个以上）器官的血栓形成，累及脑、肾、肝或心脏等重要脏器造成功能衰竭和死亡"
-        ],
-        "confidence": 0.95,
-        "weight_reason": "原文明确将‘卒中’列为CAPS致死原因首位（‘往往死于卒中、脑病、出血、感染等’），且CAPS累及‘脑’，卒中为其典型动脉事件表现",
-        "evidence": "往往死于卒中、脑病、出血、感染等"
-      },
-      {
-        "from": "sub_disease_aps_thrombotic",
-        "to": "symptom_livedo_reticularis",
-        "relation_id": "rel_thrombotic_aps_manifests_as_livedo",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 4,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "APS可能存在血栓事件、病理妊娠外的aPLs相关临床表现，包括网状青斑、浅表性静脉炎、血小板减少症……"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_aps_thrombotic",
-        "to": "symptom_valvular_lesion",
-        "relation_id": "rel_thrombotic_aps_manifests_as_valve",
+        "relation_id": "rel_primary_aps_manifests_as_thrombocytopenia",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -654,16 +526,54 @@
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "瓣膜病变是APS最常见的心脏损害表现……瓣膜整体增厚（>3mm）、瓣叶近中部局限性增厚、瓣缘不规则的结节或赘生物（Libman-Sacks心内膜炎）及瓣膜中重度功能异常"
+          "血小板减少是APS患者常见的临床表现之一"
         ],
         "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_primary_aps",
+        "to": "symptom_livedo_reticularis",
+        "relation_id": "rel_primary_aps_manifests_as_livedo",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "分类标准外临床表现",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "包括网状青斑"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "from": "sub_disease_primary_aps",
+        "to": "symptom_valvular_heart_disease",
+        "relation_id": "rel_primary_aps_manifests_as_valvular",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "分类标准外临床表现",
+        "weight": 5,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "瓣膜病变是APS最常见的心脏损害表现"
+        ],
+        "confidence": 0.85
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_aps_thrombotic",
-        "to": "test_lupus_anticoagulant",
-        "relation_id": "rel_thrombotic_aps_requires_lac",
+        "from": "sub_disease_primary_aps",
+        "to": "test_lac",
+        "relation_id": "rel_primary_aps_requires_lac",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -673,25 +583,25 @@
         "operator": "equals",
         "unit": null,
         "result_text": "阳性",
-        "weight": 100,
+        "weight": 9,
         "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
+        "criterion_group_id": "Sydney_Clinical_Lab_1_of_3",
+        "required_count": 1,
         "polarity": "positive",
         "typicality": "typical",
-        "section_priority": "分类标准",
+        "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "实验室标准：1.血浆中狼疮抗凝物阳性：依照国际血栓与止血学会狼疮抗凝物/磷脂依赖型抗体学术委员会制定的指南进行检测"
+          "血浆中狼疮抗凝物阳性"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文明确LAC与血栓形成存在‘更强的相关性’，且在分类标准中列为三大实验室指标之一；表2‘实验室标准’第1条即‘血浆中狼疮抗凝物阳性’，属确诊必要条件",
-        "evidence": "实验室标准：1.血浆中狼疮抗凝物阳性：依照国际血栓与止血学会狼疮抗凝物/磷脂依赖型抗体学术委员会制定的指南进行检测"
+        "weight_reason": "原文建议对可疑APS患者同时检测LAC以明确诊断。",
+        "evidence": "对可疑APS患者，建议同时检测LAC、aCL和抗β,GPI抗体"
       },
       {
-        "from": "sub_disease_aps_obstetric",
-        "to": "test_anticardiolipin_antibody",
-        "relation_id": "rel_obstetric_aps_requires_acl",
+        "from": "sub_disease_primary_aps",
+        "to": "test_acl",
+        "relation_id": "rel_primary_aps_requires_acl",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
@@ -699,57 +609,85 @@
         "value_min": 40,
         "value_max": null,
         "operator": ">",
-        "unit": "GPL or MPL",
-        "result_text": null,
-        "weight": 100,
+        "unit": "GPL/MPL",
+        "result_text": "IgG型和IgM型分别大于40GPL或MPL,或大于第99百分点",
+        "weight": 9,
         "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
+        "criterion_group_id": "Sydney_Clinical_Lab_1_of_3",
+        "required_count": 1,
+        "polarity": "elevated",
         "typicality": "typical",
-        "section_priority": "分类标准",
+        "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "2.采用标准化ELISA法检测血清或血浆中抗心磷脂抗体：IgG型/IgM型中高效价阳性抗体（IgG型和IgM型分别大于40GPL或MPL,或大于第99百分点）"
+          "IgG型和IgM型分别大于40GPL或MPL,或大于第99百分点"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文表2‘实验室标准’第2条明确列为APS分类标准三大必需检测之一，且强调‘必须间隔12周以上至少2次阳性’，属确诊金标准组成部分",
-        "evidence": "采用标准化ELISA法检测血清或血浆中抗心磷脂抗体：IgG型/IgM型中高效价阳性抗体"
+        "weight_reason": "原文建议对可疑APS患者同时检测aCL以明确诊断。",
+        "evidence": "对可疑APS患者，建议同时检测LAC、aCL和抗β,GPI抗体"
       },
       {
-        "from": "sub_disease_aps_obstetric",
-        "to": "test_antibeta2glycoproteinI_antibody",
-        "relation_id": "rel_obstetric_aps_requires_beta2gpi",
+        "from": "sub_disease_primary_aps",
+        "to": "test_b2gpi",
+        "relation_id": "rel_primary_aps_requires_b2gpi",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
         "value_min": null,
         "value_max": null,
-        "operator": "equals",
+        "operator": ">",
         "unit": null,
         "result_text": "效价大于健康人效价分布的第99百分点",
-        "weight": 100,
+        "weight": 9,
         "gold_standard": true,
-        "criterion_group_id": null,
-        "required_count": null,
-        "polarity": "positive",
+        "criterion_group_id": "Sydney_Clinical_Lab_1_of_3",
+        "required_count": 1,
+        "polarity": "elevated",
         "typicality": "typical",
-        "section_priority": "分类标准",
+        "section_priority": "诊断标准",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "3.采用标准化ELISA法检测血清或血浆抗β,糖蛋白I抗体：IgC型/1gM型阳性（效价大于健康人效价分布的第99百分点）"
+          "效价大于健康人效价分布的第99百分点"
         ],
         "confidence": 0.95,
-        "weight_reason": "原文表2‘实验室标准’第3条明确列为APS分类标准三大必需检测之一，与aCL、LAC并列，属确诊金标准组成部分",
-        "evidence": "采用标准化ELISA法检测血清或血浆抗β,糖蛋白I抗体：IgC型/1gM型阳性（效价大于健康人效价分布的第99百分点）"
+        "weight_reason": "原文建议对可疑APS患者同时检测抗β2GPI抗体以明确诊断。",
+        "evidence": "对可疑APS患者，建议同时检测LAC、aCL和抗β,GPI抗体"
+      },
+      {
+        "from": "sub_disease_thrombotic_aps",
+        "to": "test_gapss",
+        "relation_id": "rel_thrombotic_aps_requires_gapss",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "治疗监测项",
+        "diagnostic_role": "supportive",
+        "value_min": 10,
+        "value_max": null,
+        "operator": ">=",
+        "unit": "分",
+        "result_text": "GAPSS≥10分为血栓再发高危人群",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "common",
+        "section_priority": "病情评估",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "GAPSS≥10分为血栓再发高危人群"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出GAPSS评分能较好地反映血栓再发风险，属于风险评估工具。",
+        "evidence": "评分标准在SLE和原发性APS队列研究中均显示能较好地反映血栓再发风险"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_aps_thrombotic",
-        "to": "treatment_aps_thrombotic",
-        "relation_id": "rel_thrombotic_aps_follows_treatment",
+        "from": "sub_disease_thrombotic_aps",
+        "to": "treatment_long_term_anticoagulation",
+        "relation_id": "rel_thrombotic_aps_follows_anticoagulation",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
@@ -758,57 +696,57 @@
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "临床表现"
+          "疾病分型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "五、APS的治疗方案及原则",
+        "source_section": "血栓性APS的治疗",
         "confidence": 0.95
       },
       {
-        "from": "sub_disease_aps_obstetric",
-        "to": "treatment_aps_obstetric",
-        "relation_id": "rel_obstetric_aps_follows_treatment",
+        "from": "sub_disease_caps",
+        "to": "treatment_caps_first_line",
+        "relation_id": "rel_caps_follows_first_line",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
+        "clinical_stage": "急性期",
+        "treatment_line": "一线",
+        "applicable_condition": "确诊CAPS",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "CAPS的治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_obstetric_aps",
+        "to": "treatment_prevent_thrombosis_and_pregnancy_loss",
+        "relation_id": "rel_obstetric_aps_follows_prevention",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "妊娠期",
         "treatment_line": "一线",
         "applicable_condition": "确诊产科APS",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "临床表现"
+          "疾病分型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "五、APS的治疗方案及原则",
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_aps_catastrophic",
-        "to": "treatment_aps_catastrophic",
-        "relation_id": "rel_catastrophic_aps_follows_treatment",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "确诊灾难性APS",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "临床表现"
-        ],
-        "contraindication_note": null,
-        "evidence_level": "expert_consensus",
-        "source_section": "五、APS的治疗方案及原则",
+        "source_section": "APS的治疗方案及原则",
         "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_aps_thrombotic",
-        "to": "plan_warfarin_for_thrombotic_aps",
-        "relation_id": "rel_treatment_thrombotic_implements_by_warfarin",
+        "from": "treatment_long_term_anticoagulation",
+        "to": "plan_vka_inr_2_3",
+        "relation_id": "rel_anticoagulation_implements_vka",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
@@ -820,27 +758,27 @@
         "confidence": 0.95
       },
       {
-        "from": "treatment_aps_obstetric",
-        "to": "plan_aspirin_low_dose_for_obstetric_aps",
-        "relation_id": "rel_treatment_obstetric_implements_by_aspirin",
+        "from": "treatment_prevent_thrombosis_and_pregnancy_loss",
+        "to": "plan_lmwh_lda",
+        "relation_id": "rel_prevention_implements_lmwh_lda",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
         "applicable_condition": "既往无血栓病史的早期反复流产或晚期妊娠丢失的APS患者",
         "contraindication_note": null,
         "evidence_ids": [
-          "1.既往无血栓病史的早期反复流产或晚期妊娠丢失的APS患者：通常建议在尝试受孕时开始应用低剂量阿司匹林治疗（每日50~100mg）"
+          "通常建议在尝试受孕时开始应用低剂量阿司匹林治疗（每日50~100mg），并在证实宫内孕后开始应用预防剂量的低分子肝素治疗"
         ],
         "confidence": 0.95
       },
       {
-        "from": "treatment_aps_catastrophic",
-        "to": "plan_heparin_for_caps",
-        "relation_id": "rel_treatment_catastrophic_implements_by_heparin",
+        "from": "treatment_caps_first_line",
+        "to": "plan_heparin_gc_pe_ivig",
+        "relation_id": "rel_caps_first_line_implements_plan",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "灾难性抗磷脂综合征",
+        "applicable_condition": "灾难性抗磷脂综合征(CAPS)",
         "contraindication_note": null,
         "evidence_ids": [
           "CAPS的一线治疗方案为肝素抗凝，联合糖皮质激素及血浆置换和/或静脉应用丙种球蛋白治疗"
@@ -850,73 +788,69 @@
     ],
     "causes": [
       {
-        "from": "sub_disease_aps_thrombotic",
-        "to": "etiology_antiphospholipid_antibodies",
-        "relation_id": "rel_thrombotic_aps_caused_by_aPLs",
+        "from": "sub_disease_secondary_aps",
+        "to": "etiology_ctd",
+        "relation_id": "rel_secondary_aps_caused_by_ctd",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "抗磷脂综合征是一种以反复血管性血栓事件、复发性自然流产、血小板减少等为主要临床表现，伴抗磷脂抗体持续中、高滴度阳性的自身免疫病"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_aps_obstetric",
-        "to": "etiology_antiphospholipid_antibodies",
-        "relation_id": "rel_obstetric_aps_caused_by_aPLs",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "strong",
-        "typicality": "typical",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "抗磷脂综合征是一种以反复血管性血栓事件、复发性自然流产、血小板减少等为主要临床表现，伴抗磷脂抗体持续中、高滴度阳性的自身免疫病"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "from": "sub_disease_aps_thrombotic",
-        "to": "etiology_sle",
-        "relation_id": "rel_thrombotic_aps_caused_by_sle",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
           "后者多继发于系统性红斑狼疮（SLE）、干燥综合征等结缔组织病"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_primary_aps",
+        "to": "etiology_aPLs",
+        "relation_id": "rel_primary_aps_caused_by_aPLs",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "伴有抗磷脂抗体谱(antiphospholipid antibodies,aPLs)持续中、高滴度阳性的自身免疫病"
+        ],
+        "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_aps_thrombotic",
-        "to": "pathogenesis_non_inflammatory_occlusive_vasculopathy",
-        "relation_id": "rel_thrombotic_aps_explained_by_vasculopathy",
+        "from": "sub_disease_primary_aps",
+        "to": "pathogenesis_vascular_lesion",
+        "relation_id": "rel_primary_aps_explained_by_vascular",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "APS病因未明,病理特点为非炎性、节段性、阻塞性血管病变。"
+          "病理特点为非炎性、节段性、阻塞性血管病变"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
-        "from": "sub_disease_aps_thrombotic",
-        "to": "pathogenesis_thromboinflammatory_mechanisms",
-        "relation_id": "rel_thrombotic_aps_explained_by_thromboinflammation",
+        "from": "sub_disease_caps",
+        "to": "pathogenesis_storm",
+        "relation_id": "rel_caps_explained_by_storm",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "Antiphospholipid syndrome (APS) is a systemic autoimmune disorder with vascular, obstetric, and hematological manifestations associated with thrombotic and inflammatory mechanisms orchestrated by antiphospholipid (aPLs) antibodies."
+          "其可能的发病机制为短期内形成血栓风暴及炎症风暴"
         ],
-        "confidence": 0.95
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_primary_aps",
+        "to": "pathogenesis_valve_immune_complex",
+        "relation_id": "rel_primary_aps_explained_by_valve",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "可能的机制考虑受累瓣膜在免疫复合物沉积损伤基础上继发纤维素-血小板栓子形成"
+        ],
+        "confidence": 0.85
       }
     ]
   },

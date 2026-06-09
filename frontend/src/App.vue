@@ -42,7 +42,7 @@
               <span v-else class="meta-chip">span：{{ currentChunk.text_span?.start }} - {{ currentChunk.text_span?.end }}</span>
             </div>
           </div>
-          <div class="panel-body">
+          <div class="panel-body" ref="chunkPanelBody">
             <div class="chunk-text" v-html="highlightedChunkHtml"></div>
           </div>
         </div>
@@ -95,6 +95,8 @@
                       placeholder="实体名称"
                       :class="entityFieldClass(item)"
                       :title="item.entity.entity_name"
+                      @focus="onReviewFieldFocus(item.entity.entity_name)"
+                      @blur="onReviewFieldBlur"
                     />
                   </td>
                   <td><button @click="removeEntity(item.originIdx)">删除</button></td>
@@ -136,6 +138,8 @@
                       v-model="item.rel.source_entity"
                       :class="relationFieldClass(item)"
                       :title="item.rel.source_entity || '请选择起始实体'"
+                      @focus="onReviewFieldFocus(item.rel.source_entity)"
+                      @blur="onReviewFieldBlur"
                     >
                       <option value="">请选择</option>
                       <option v-for="name in entityNames" :key="name" :value="name">{{ name }}</option>
@@ -146,6 +150,8 @@
                       v-model="item.rel.target_entity"
                       :class="relationFieldClass(item)"
                       :title="item.rel.target_entity || '请选择终点实体'"
+                      @focus="onReviewFieldFocus(item.rel.target_entity)"
+                      @blur="onReviewFieldBlur"
                     >
                       <option value="">请选择</option>
                       <option v-for="name in entityNames" :key="name" :value="name">{{ name }}</option>
@@ -167,7 +173,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted, onUnmounted, ref, watch } from 'vue';
+import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue';
 
 const activeProgram = ref('opentcm');
 const documents = ref([]);
@@ -184,6 +190,8 @@ const remark = ref('');
 const message = ref('');
 const loading = ref(false);
 const loadError = ref('');
+const chunkPanelBody = ref(null);
+const focusedEntityKey = ref('');
 
 const isSnorkel = computed(() => activeProgram.value === 'snorkel');
 const isLlm = computed(() => activeProgram.value === 'llm');
@@ -299,6 +307,12 @@ const reviewActionHint = computed(() => {
 });
 
 watch(currentIndex, bindCurrentChunk);
+
+watch(highlightedChunkHtml, async () => {
+  if (!focusedEntityKey.value) return;
+  await nextTick();
+  applyActiveEntityHighlight(focusedEntityKey.value);
+});
 
 function reviewCategory(item) {
   if (!item.matched) return 0;
@@ -422,6 +436,64 @@ function isEntityMatched(text, name) {
   return Boolean(findEntityMatch(text, name));
 }
 
+function onReviewFieldFocus(name) {
+  scrollToEntityInText(name);
+}
+
+function onReviewFieldBlur() {
+  requestAnimationFrame(() => {
+    const active = document.activeElement;
+    if (active?.closest?.('.panel-entity, .panel-rel')) return;
+    clearActiveEntityHighlight();
+  });
+}
+
+function clearActiveEntityHighlight() {
+  focusedEntityKey.value = '';
+  const panel = chunkPanelBody.value;
+  if (!panel) return;
+  panel.querySelectorAll('.entity-hl--active').forEach(el => {
+    el.classList.remove('entity-hl--active');
+  });
+}
+
+function applyActiveEntityHighlight(key) {
+  const panel = chunkPanelBody.value;
+  if (!panel || !key) return;
+  panel.querySelectorAll('.entity-hl--active').forEach(el => {
+    el.classList.remove('entity-hl--active');
+  });
+  panel.querySelectorAll(`.entity-hl[data-ename="${CSS.escape(key)}"]`).forEach(el => {
+    el.classList.add('entity-hl--active');
+  });
+}
+
+async function scrollToEntityInText(name) {
+  const trimmed = (name || '').trim();
+  const text = displayChunkText.value;
+  if (!trimmed || !isEntityMatched(text, trimmed)) {
+    clearActiveEntityHighlight();
+    return;
+  }
+
+  const key = normalizeMatchText(trimmed);
+  focusedEntityKey.value = key;
+
+  await nextTick();
+  const panel = chunkPanelBody.value;
+  if (!panel) return;
+
+  applyActiveEntityHighlight(key);
+
+  const target = panel.querySelector(`.entity-hl[data-ename="${CSS.escape(key)}"]`);
+  if (!target) return;
+
+  const panelRect = panel.getBoundingClientRect();
+  const targetRect = target.getBoundingClientRect();
+  const offset = targetRect.top - panelRect.top - panel.clientHeight / 2 + targetRect.height / 2;
+  panel.scrollTo({ top: panel.scrollTop + offset, behavior: 'smooth' });
+}
+
 function buildMatchSpans(text, entityList) {
   const seenNames = new Set();
   const spans = [];
@@ -434,7 +506,8 @@ function buildMatchSpans(text, entityList) {
     spans.push({
       start: match.start,
       end: match.end,
-      entityType: entity.entity_type || ''
+      entityType: entity.entity_type || '',
+      name
     });
   }
   return spans;
@@ -489,7 +562,10 @@ function buildHighlightedHtml(text, entityList) {
     for (const span of covering) {
       const layerClass = layerClasses[span.layer] || layerClasses[0];
       const typeAttr = escapeHtml(span.entityType);
-      chunk = `<span class="entity-hl ${layerClass}" data-etype="${typeAttr}">${chunk}</span>`;
+      const nameAttr = span.name && start >= span.start && end <= span.end
+        ? ` data-ename="${escapeHtml(normalizeMatchText(span.name))}"`
+        : '';
+      chunk = `<span class="entity-hl ${layerClass}" data-etype="${typeAttr}"${nameAttr}>${chunk}</span>`;
     }
     html += chunk;
   }
@@ -698,6 +774,7 @@ function updateSourceMessage() {
 }
 
 function bindCurrentChunk() {
+  clearActiveEntityHighlight();
   const ch = currentChunk.value;
   if (!ch) return;
   entities.value = JSON.parse(JSON.stringify(ch.entities || []));

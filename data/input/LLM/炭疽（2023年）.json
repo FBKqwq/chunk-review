@@ -1,0 +1,1001 @@
+{
+  "meta": {
+    "doc_id": "炭疽诊疗方案（2023年版）",
+    "source_title": "炭疽诊疗方案（2023年版）",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_anthrax",
+        "name": "炭疽",
+        "normalized_name": "炭疽",
+        "aliases": [
+          "Anthrax"
+        ],
+        "source_document_ids": [
+          "炭疽诊疗方案（2023年版）"
+        ],
+        "evidence_ids": [
+          "炭疽（Anthrax）是由炭疽杆菌（Bacillus anthracis）感染引起的人畜共患传染病"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_cutaneous_anthrax",
+        "name": "皮肤炭疽",
+        "parent_disease_id": "disease_anthrax",
+        "disease_subtype": "皮肤炭疽",
+        "clinical_stage": "不限定",
+        "severity": "不限定",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "根据炭疽杆菌感染部位，分为皮肤炭疽、肠炭疽、肺炭疽、脑膜炎型炭疽及败血症型炭疽。",
+          "占炭疽的 95%以上。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_pulmonary_anthrax",
+        "name": "肺炭疽",
+        "parent_disease_id": "disease_anthrax",
+        "disease_subtype": "肺炭疽",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "肺炭疽是由于吸入炭疽杆菌芽孢所致，或由皮肤炭疽、肠炭疽继发而来。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_gastrointestinal_anthrax",
+        "name": "肠炭疽",
+        "parent_disease_id": "disease_anthrax",
+        "disease_subtype": "肠炭疽",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "食入炭疽杆菌，可引起急性肠炎，表现为出血性炎症、周围组织水肿、坏死"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_meningeal_anthrax",
+        "name": "脑膜炎型炭疽",
+        "parent_disease_id": "disease_anthrax",
+        "disease_subtype": "脑膜炎型炭疽",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "任何类型炭疽都可并发脑膜炎型炭疽。起病急，突然发热、疲劳、头晕、恶心、呕吐，躁动、癫痫发作、谵妄和脑膜刺激征，病死率 90%以上。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_septicemic_anthrax",
+        "name": "败血症型炭疽",
+        "parent_disease_id": "disease_anthrax",
+        "disease_subtype": "败血症型炭疽",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "不限定",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "多继发于肺炭疽、肠炭疽和严重皮肤炭疽，表现为高热、寒战、脓毒性休克、DIC，迅速出现循环衰竭。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_focal_cutaneous_anthrax",
+        "name": "局灶性皮肤炭疽",
+        "parent_disease_id": "disease_anthrax",
+        "disease_subtype": "局灶性皮肤炭疽",
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "不伴有严重水肿，创口非头颈部、非生物恐怖播散引起",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "局灶性皮肤炭疽（不伴有严重水肿，创口非头颈部、非生物恐怖播散引起）予单一抗菌药物治疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_systemic_anthrax",
+        "name": "系统性炭疽",
+        "parent_disease_id": "disease_anthrax",
+        "disease_subtype": "系统性炭疽",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "肺炭疽、肠炭疽、败血症型炭疽、严重皮肤炭疽",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "系统性炭疽。肺炭疽、肠炭疽、败血症型炭疽、严重皮肤炭疽（具备以下任一：伴有严重水肿、创口位于头颈部、生物恐怖播散引起）应给予 2 种或 2 种以上对炭疽杆菌有活性的抗菌药物。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_pruritic_maculopapular_rash",
+        "name": "瘙痒性斑丘疹",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "初起为瘙痒性斑丘疹、渐变为无痛性水疱"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_painless_blister",
+        "name": "无痛性水疱",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "渐变为无痛性水疱、出血性水疱"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_black_eschar",
+        "name": "炭黑色焦痂",
+        "body_site": "皮肤",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "血性渗出物结成炭黑色焦痂，痂内有肉芽组织即炭疽痈"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_fever",
+        "name": "发热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "其他症状包括发热、全身不适、头痛及局部淋巴结肿大等。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_hemoptysis",
+        "name": "咳血痰",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "持续高热、咳血痰、呼吸困难、紫绀"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_dyspnea",
+        "name": "呼吸困难",
+        "body_site": "肺部",
+        "symptom_category": "呼吸系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "持续高热、咳血痰、呼吸困难、紫绀"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_severe_abdominal_pain",
+        "name": "剧烈腹痛",
+        "body_site": "腹部",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "临床表现为高热、食欲不振、恶心、呕吐、剧烈腹痛、腹泻"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_bloody_stool",
+        "name": "血便",
+        "body_site": "消化道",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "严重者出现呕血、血便、肠穿孔、大量腹水"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_meningeal_irritation_sign",
+        "name": "脑膜刺激征",
+        "body_site": "神经系统",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "躁动、癫痫发作、谵妄和脑膜刺激征"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_wbc_count",
+        "name": "白细胞计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "白细胞计数升高，一般为（10~20）×109/L，可高达（60~80）×109/L"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_bacterial_smear",
+        "name": "细菌涂片",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "显微镜下可见两端平齐呈串联状排列的革兰染色阳性粗大杆菌。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_bacterial_culture",
+        "name": "细菌培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "将采集标本接种于营养琼脂培养基，可培养到炭疽杆菌。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_nucleic_acid_detection",
+        "name": "核酸检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "聚合酶链式反应（PCR）或实时荧光 PCR（Real-Time PCR）方法检测炭疽杆菌特异性核酸阳性。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_antigen_detection",
+        "name": "抗原检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "免疫层析法进行炭疽杆菌抗原检测。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_antibody_detection",
+        "name": "抗体检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "酶联免疫吸附试验（ELISA）和免疫层析法检测血液炭疽毒素抗原的抗体和荚膜抗体。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_chest_imaging",
+        "name": "肺部影像学检查",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "肺炭疽病例肺部可见斑片状或片状模糊影或实变影，纵隔增宽，可伴胸腔积液。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_general",
+        "content": "严格隔离，卧床休息。呕吐、腹泻、进食困难者适当补液，维持水电解质平衡。出血、休克、神经系统症状，给予相应处理。",
+        "recommendation_strength": "strong",
+        "source_section": "一般治疗",
+        "evidence_ids": [
+          "严格隔离，卧床休息。呕吐、腹泻、进食困难者适当补液，维持水电解质平衡。出血、休克、神经系统症状，给予相应处理。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_local_skin",
+        "content": "皮损处切忌触摸、挤压，原则上不做切开引流，以防感染扩散。局部可用 1:20000 高锰酸钾液湿敷或 2%过氧化氢清洗，创面用四环素软膏纱布覆盖后包扎，患肢可固定、抬高。",
+        "recommendation_strength": "strong",
+        "source_section": "局部皮肤处理",
+        "evidence_ids": [
+          "皮损处切忌触摸、挤压，原则上不做切开引流，以防感染扩散。局部可用 1:20000 高锰酸钾液湿敷或 2%过氧化氢清洗，创面用四环素软膏纱布覆盖后包扎，患肢可固定、抬高。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_antimicrobial",
+        "content": "炭疽杆菌对β-内酰胺类、氨基糖苷类、大环内酯类、氟喹诺酮类、四环素类等敏感，对头孢菌素类和磺胺类不敏感。根据疾病类型给予单一或联合抗菌药物治疗。",
+        "recommendation_strength": "strong",
+        "source_section": "病原治疗",
+        "evidence_ids": [
+          "炭疽杆菌对β-内酰胺类（青霉素类、碳青霉烯类）、氨基糖苷类、大环内酯类、氟喹诺酮类、四环素类、糖肽类、林可酰胺类、利福霉素类和噁唑烷酮类敏感，对头孢菌素类和磺胺类不敏感。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_tcm",
+        "content": "炭疽的核心病机为毒热疫邪经口、鼻、疮口侵于肺、肠、肌腠，热盛肉腐。临床分为疫毒初起、疫毒炽盛和余毒未尽三型论治。",
+        "recommendation_strength": "weak",
+        "source_section": "中医治疗",
+        "evidence_ids": [
+          "炭疽的核心病机为毒热疫邪经口、鼻、疮口侵于肺、肠、肌腠，热盛肉腐，发为喘促、吐泻、疮痈。临床分为疫毒初起、疫毒炽盛和余毒未尽三型论治。"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_ciprofloxacin_oral",
+        "content": "环丙沙星 500mg q12h，口服",
+        "plan_level": 1,
+        "applicable_condition": "局灶性皮肤炭疽一线方案",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "一线方案为氟喹诺酮类药物（环丙沙星、左氧氟沙星或莫西沙星）或多西环素。环丙沙星 500mg q12h，口服"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_doxycycline_oral",
+        "content": "多西环素 0.1g q12h，口服",
+        "plan_level": 1,
+        "applicable_condition": "局灶性皮肤炭疽一线方案",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "多西环素 0.1g q12h，口服"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ciprofloxacin_iv",
+        "content": "环丙沙星 400mg iv q8h",
+        "plan_level": 1,
+        "applicable_condition": "系统性炭疽及脑膜炎型炭疽一线杀菌剂",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "氟喹诺酮类抗菌药物：一线选择为环丙沙星（400mg iv q8h）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_meropenem_iv",
+        "content": "美罗培南 2g iv q8h",
+        "plan_level": 1,
+        "applicable_condition": "系统性炭疽及脑膜炎型炭疽一线β-内酰胺类杀菌剂",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "β-内酰胺类抗菌药物：一线选择为美罗培南（2g iv q8h）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_linezolid_iv",
+        "content": "利奈唑胺 600mg iv q12h",
+        "plan_level": 1,
+        "applicable_condition": "系统性炭疽及脑膜炎型炭疽一线蛋白质合成抑制剂",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "蛋白质合成抑制剂：一线选择为利奈唑胺（600mg iv q12h）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_xianfang_huoming_yin",
+        "content": "仙方活命饮（金银花 30g、黄芩 15g、连翘 15g等）",
+        "plan_level": 2,
+        "applicable_condition": "中医治疗疫毒初起型",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：仙方活命饮。常用药物与参考剂量：金银花 30g、黄芩 15g、连翘 15g"
+        ],
+        "confidence": 0.85
+      },
+      {
+        "id": "plan_wuwei_xiaodu_yin",
+        "content": "五味消毒饮、黄连解毒汤、清营汤",
+        "plan_level": 2,
+        "applicable_condition": "中医治疗疫毒炽盛型",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：五味消毒饮、黄连解毒汤、清营汤。"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_bacillus_anthracis_infection",
+        "content": "炭疽杆菌感染",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "炭疽（Anthrax）是由炭疽杆菌（Bacillus anthracis）感染引起的人畜共患传染病"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_direct_contact",
+        "content": "接触感染炭疽杆菌的牲畜及其产品",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "直接接触传播：接触感染炭疽杆菌的牲畜及其产品可引起皮肤炭疽。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_respiratory_tract",
+        "content": "吸入含芽胞的粉尘或气溶胶",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "呼吸道传播：吸入含芽胞的粉尘或气溶胶可引起肺炭疽。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "etiology_digestive_tract",
+        "content": "食入被炭疽杆菌污染的肉类及乳制品",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "消化道传播：食入被炭疽杆菌污染的肉类及乳制品可引起胃肠道炭疽。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_exotoxin_tissue_necrosis",
+        "content": "炭疽杆菌从破损皮肤、黏膜侵入，在皮下繁殖产生外毒素，引起局部组织水肿、缺血和坏死，形成皮肤炭疽。",
+        "evidence_ids": [
+          "炭疽杆菌从破损皮肤、黏膜侵入，在皮下繁殖产生外毒素，外毒素是由保护性抗原、水肿因子、致死因子 3 种毒性蛋白组成的复合体，引起局部组织水肿、缺血和坏死，形成皮肤炭疽。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_lymph_node_spread",
+        "content": "炭疽杆菌被吞噬细胞吞噬后，扩散至局部淋巴结引起淋巴结水肿、出血和坏死。",
+        "evidence_ids": [
+          "炭疽杆菌被吞噬细胞吞噬后，扩散至局部淋巴结引起淋巴结水肿、出血和坏死。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_blood_circulation_toxemia",
+        "content": "炭疽杆菌进入血循环，引起毒血症状。",
+        "evidence_ids": [
+          "炭疽杆菌进入血循环，引起毒血症状。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_endothelial_damage_dic",
+        "content": "炭疽杆菌外毒素可损伤血管内皮细胞导致弥漫性血管内凝血（DIC）、感染中毒性休克甚至多器官功能衰竭。",
+        "evidence_ids": [
+          "炭疽杆菌外毒素可损伤血管内皮细胞导致弥漫性血管内凝血（DIC）、感染中毒性休克甚至多器官功能衰竭。"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_anthrax",
+        "to": "sub_disease_cutaneous_anthrax",
+        "relation_id": "rel_anthrax_has_cutaneous",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "根据炭疽杆菌感染部位，分为皮肤炭疽、肠炭疽、肺炭疽、脑膜炎型炭疽及败血症型炭疽。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_anthrax",
+        "to": "sub_disease_pulmonary_anthrax",
+        "relation_id": "rel_anthrax_has_pulmonary",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "根据炭疽杆菌感染部位，分为皮肤炭疽、肠炭疽、肺炭疽、脑膜炎型炭疽及败血症型炭疽。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_anthrax",
+        "to": "sub_disease_gastrointestinal_anthrax",
+        "relation_id": "rel_anthrax_has_gastrointestinal",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "根据炭疽杆菌感染部位，分为皮肤炭疽、肠炭疽、肺炭疽、脑膜炎型炭疽及败血症型炭疽。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_anthrax",
+        "to": "sub_disease_meningeal_anthrax",
+        "relation_id": "rel_anthrax_has_meningeal",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "根据炭疽杆菌感染部位，分为皮肤炭疽、肠炭疽、肺炭疽、脑膜炎型炭疽及败血症型炭疽。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_anthrax",
+        "to": "sub_disease_septicemic_anthrax",
+        "relation_id": "rel_anthrax_has_septicemic",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "根据炭疽杆菌感染部位，分为皮肤炭疽、肠炭疽、肺炭疽、脑膜炎型炭疽及败血症型炭疽。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_cutaneous_anthrax",
+        "to": "symptom_black_eschar",
+        "relation_id": "rel_cutaneous_manifests_black_eschar",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "血性渗出物结成炭黑色焦痂，痂内有肉芽组织即炭疽痈"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出皮肤炭疽血性渗出物结成炭黑色焦痂，为典型临床表现。",
+        "evidence": "血性渗出物结成炭黑色焦痂"
+      },
+      {
+        "from": "sub_disease_pulmonary_anthrax",
+        "to": "symptom_hemoptysis",
+        "relation_id": "rel_pulmonary_manifests_hemoptysis",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "持续高热、咳血痰、呼吸困难、紫绀"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确指出肺炭疽症状加重时会出现咳血痰。",
+        "evidence": "持续高热、咳血痰、呼吸困难"
+      },
+      {
+        "from": "sub_disease_gastrointestinal_anthrax",
+        "to": "symptom_severe_abdominal_pain",
+        "relation_id": "rel_gastrointestinal_manifests_abdominal_pain",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "临床表现为高热、食欲不振、恶心、呕吐、剧烈腹痛、腹泻"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确列出剧烈腹痛为肠炭疽的临床表现。",
+        "evidence": "临床表现为高热、食欲不振、恶心、呕吐、剧烈腹痛"
+      },
+      {
+        "from": "sub_disease_meningeal_anthrax",
+        "to": "symptom_meningeal_irritation_sign",
+        "relation_id": "rel_meningeal_manifests_irritation",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "躁动、癫痫发作、谵妄和脑膜刺激征"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出脑膜炎型炭疽起病急，会出现脑膜刺激征。",
+        "evidence": "躁动、癫痫发作、谵妄和脑膜刺激征"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_cutaneous_anthrax",
+        "to": "test_bacterial_culture",
+        "relation_id": "rel_cutaneous_requires_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "细菌培养到炭疽杆菌",
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "确诊病例。疑似病例或临床诊断病例，具有以下任一项者：1.细菌培养到炭疽杆菌；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出细菌培养到炭疽杆菌是确诊病例的标准之一，未提及金标准。",
+        "evidence": "细菌培养到炭疽杆菌"
+      },
+      {
+        "from": "sub_disease_pulmonary_anthrax",
+        "to": "test_chest_imaging",
+        "relation_id": "rel_pulmonary_requires_imaging",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断次要条件",
+        "diagnostic_role": "supportive",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "肺部可见斑片状或片状模糊影或实变影，纵隔增宽，可伴胸腔积液",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "肺炭疽病例肺部可见斑片状或片状模糊影或实变影，纵隔增宽，可伴胸腔积液。"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出肺炭疽病例肺部影像学可见特定阴影及纵隔增宽，为重要辅助检查。",
+        "evidence": "肺炭疽病例肺部可见斑片状或片状模糊影或实变影"
+      },
+      {
+        "from": "sub_disease_cutaneous_anthrax",
+        "to": "test_nucleic_acid_detection",
+        "relation_id": "rel_cutaneous_requires_pcr",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": "equals",
+        "unit": null,
+        "result_text": "炭疽核酸检测阳性",
+        "weight": 10,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "确诊病例。疑似病例或临床诊断病例，具有以下任一项者：2.炭疽核酸检测阳性；"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出炭疽核酸检测阳性是确诊病例的标准之一，未提及金标准。",
+        "evidence": "炭疽核酸检测阳性"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_focal_cutaneous_anthrax",
+        "to": "treatment_antimicrobial",
+        "relation_id": "rel_focal_cutaneous_follows_antimicrobial",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "局灶性皮肤炭疽",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "病原治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_systemic_anthrax",
+        "to": "treatment_antimicrobial",
+        "relation_id": "rel_systemic_follows_antimicrobial",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "系统性炭疽",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "病原治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cutaneous_anthrax",
+        "to": "treatment_local_skin",
+        "relation_id": "rel_cutaneous_follows_local_skin",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "皮肤炭疽",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": "皮损处切忌触摸、挤压，原则上不做切开引流",
+        "evidence_level": "expert_consensus",
+        "source_section": "局部皮肤处理",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_ciprofloxacin_oral",
+        "relation_id": "rel_antimicrobial_implements_ciprofloxacin_oral",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "局灶性皮肤炭疽",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "一线方案为氟喹诺酮类药物（环丙沙星、左氧氟沙星或莫西沙星）或多西环素。环丙沙星 500mg q12h，口服"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_ciprofloxacin_iv",
+        "relation_id": "rel_antimicrobial_implements_ciprofloxacin_iv",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "系统性炭疽及脑膜炎型炭疽",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "氟喹诺酮类抗菌药物：一线选择为环丙沙星（400mg iv q8h）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_meropenem_iv",
+        "relation_id": "rel_antimicrobial_implements_meropenem",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "系统性炭疽及脑膜炎型炭疽",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "β-内酰胺类抗菌药物：一线选择为美罗培南（2g iv q8h）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_tcm",
+        "to": "plan_xianfang_huoming_yin",
+        "relation_id": "rel_tcm_implements_xianfang",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "疫毒初起",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "推荐方剂：仙方活命饮。"
+        ],
+        "confidence": 0.85
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_cutaneous_anthrax",
+        "to": "etiology_direct_contact",
+        "relation_id": "rel_cutaneous_caused_by_contact",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "直接接触传播：接触感染炭疽杆菌的牲畜及其产品可引起皮肤炭疽。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_pulmonary_anthrax",
+        "to": "etiology_respiratory_tract",
+        "relation_id": "rel_pulmonary_caused_by_respiratory",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "呼吸道传播：吸入含芽胞的粉尘或气溶胶可引起肺炭疽。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_gastrointestinal_anthrax",
+        "to": "etiology_digestive_tract",
+        "relation_id": "rel_gastrointestinal_caused_by_digestive",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "消化道传播：食入被炭疽杆菌污染的肉类及乳制品可引起胃肠道炭疽。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_cutaneous_anthrax",
+        "to": "pathogenesis_exotoxin_tissue_necrosis",
+        "relation_id": "rel_cutaneous_explained_by_exotoxin",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "炭疽杆菌从破损皮肤、黏膜侵入，在皮下繁殖产生外毒素，外毒素是由保护性抗原、水肿因子、致死因子 3 种毒性蛋白组成的复合体，引起局部组织水肿、缺血和坏死，形成皮肤炭疽。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_septicemic_anthrax",
+        "to": "pathogenesis_endothelial_damage_dic",
+        "relation_id": "rel_septicemic_explained_by_dic",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "炭疽杆菌外毒素可损伤血管内皮细胞导致弥漫性血管内凝血（DIC）、感染中毒性休克甚至多器官功能衰竭。"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

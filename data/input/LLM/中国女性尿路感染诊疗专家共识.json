@@ -11,97 +11,96 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_uti",
-        "name": "尿路感染",
-        "normalized_name": "尿路感染",
+        "id": "disease_uti_female",
+        "name": "女性尿路感染",
+        "normalized_name": "女性尿路感染",
         "aliases": [
-          "UTI",
-          "泌尿系统感染"
+          "女性泌尿系统感染"
         ],
         "source_document_ids": [
           "中国女性尿路感染诊疗专家共识"
         ],
         "evidence_ids": [
-          "女性尿路感染是女性常见的感染性疾病，女性每年尿路感染的发病率近 10％，女性尿路感染也是肾脏病专科门诊就医的最常见病因"
+          "女性尿路感染是女性常见的感染性疾病，女性每年尿路感染的发病率近 10％"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_simple_uti",
-        "name": "单纯性尿路感染",
-        "parent_disease_id": "disease_uti",
-        "disease_subtype": "非妊娠绝经前尿路感染、妊娠尿路感染、绝经后尿路感染",
+        "id": "sub_disease_uncomplicated_lower_uti",
+        "name": "急性单纯性下尿路感染",
+        "parent_disease_id": "disease_uti_female",
+        "disease_subtype": "尿道炎和膀胱炎",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "成年女性",
+        "severity": "轻症",
+        "population": "非妊娠绝经前女性",
         "gender": "female",
-        "age_min": 18,
+        "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "按照女性的特有状态分为：非妊娠绝经前尿路感染、妊娠尿路感染和绝经后尿路感染。"
+          "急性单纯性下尿路感染和急性单纯性 肾盂肾炎。前者指各种病原微生物在下尿路中生长、繁殖而引起的尿道和膀胱炎症性疾病，包括尿道炎和膀胱炎。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_uncomplicated_pyelonephritis",
+        "name": "急性单纯性肾盂肾炎",
+        "parent_disease_id": "disease_uti_female",
+        "disease_subtype": "肾实质和肾盂肾盏部位感染",
+        "clinical_stage": "不限定",
+        "severity": "中重症",
+        "population": "非妊娠绝经前女性",
+        "gender": "female",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "急性单纯性肾盂肾炎指由各种病原微生物引起的肾实质和肾盂肾盏部位的感染。"
         ],
         "confidence": 0.9
       },
       {
         "id": "sub_disease_complicated_uti",
         "name": "复杂性尿路感染",
-        "parent_disease_id": "disease_uti",
-        "disease_subtype": "伴有尿路结构或功能异常或其他潜在疾病",
+        "parent_disease_id": "disease_uti_female",
+        "disease_subtype": "伴有复杂因素的尿路感染",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "成年女性",
+        "severity": "重症",
+        "population": "伴有导致尿路感染发生或者治疗失败风险增加的合并症的女性",
         "gender": "female",
-        "age_min": 18,
+        "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "复杂性尿路感染是指患者伴有导致尿路感染发生或者治疗失败风险增加的合并症，存在尿路结构或功能异常，或其他潜在疾病。"
+          "复杂性尿路感染是指患者伴有导致尿路感染发生或者治疗失败风险增加的合并症，存在尿路结构或功能异常，或其他潜在疾病"
         ],
         "confidence": 0.9
       },
       {
         "id": "sub_disease_recurrent_uti",
         "name": "反复发作的尿路感染",
-        "parent_disease_id": "disease_uti",
-        "disease_subtype": "复发或重新感染",
+        "parent_disease_id": "disease_uti_female",
+        "disease_subtype": "复发和重新感染",
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "成年女性",
+        "severity": "中重症",
+        "population": "12个月内出现尿路感染3次或3次以上的女性",
         "gender": "female",
-        "age_min": 18,
+        "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "反复发作尿路感染指在 l2个月内出现尿路感染 3次或 3次以上，可分为复发和重新感染。复发：指在尿路感染痊愈后 2周之内再次出现同一种细菌感染。重新感染：指在尿路感染痊愈后的2周之后再次出相同致病菌的感染 ，或尿路感染痊愈后任何时间出现新的致病菌感染。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_asymptomatic_bacteriuria",
-        "name": "无症状性菌尿",
-        "parent_disease_id": "disease_uti",
-        "disease_subtype": "无临床症状但尿培养阳性",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "成年女性",
-        "gender": "female",
-        "age_min": 18,
-        "age_max": null,
-        "evidence_ids": [
-          "无症状性菌尿：无临床症状但清洁中段尿培养病原菌菌数≥10 CFU／ml。"
+          "反复发作尿路感染指在 l2个月内出现尿路感染 3次或 3次以上，可分为复发和重新感染。"
         ],
         "confidence": 0.9
       },
       {
         "id": "sub_disease_pregnancy_uti",
         "name": "妊娠期尿路感染",
-        "parent_disease_id": "disease_uti",
-        "disease_subtype": "妊娠期无症状性菌尿、急性膀胱炎、急性肾盂肾炎",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "妊娠期女性",
+        "parent_disease_id": "disease_uti_female",
+        "disease_subtype": "无症状性菌尿、急性膀胱炎和急性肾盂肾炎",
+        "clinical_stage": "妊娠期",
+        "severity": "中重症",
+        "population": "妊娠期妇女",
         "gender": "female",
-        "age_min": 18,
+        "age_min": null,
         "age_max": null,
         "evidence_ids": [
           "妊娠期尿路感染是指妊娠期各种微生物侵及尿路引起的炎症，主要表现为无症状性菌尿、急性膀胱炎和急性肾盂肾炎。"
@@ -111,48 +110,16 @@
       {
         "id": "sub_disease_postmenopausal_uti",
         "name": "绝经后尿路感染",
-        "parent_disease_id": "disease_uti",
-        "disease_subtype": "绝经后发生的尿路感染",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "绝经后女性",
+        "parent_disease_id": "disease_uti_female",
+        "disease_subtype": "非复杂性或复杂性尿路感染",
+        "clinical_stage": "绝经后",
+        "severity": "轻症",
+        "population": "月经完全停止1年以上的女性",
         "gender": "female",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
           "绝经后尿路感染是指女性月经完全停止 1年以上发生的尿路感染。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_upper_uti",
-        "name": "上尿路感染",
-        "parent_disease_id": "disease_uti",
-        "disease_subtype": "肾盂肾炎",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "成年女性",
-        "gender": "female",
-        "age_min": 18,
-        "age_max": null,
-        "evidence_ids": [
-          "按照解剖部位分为：上尿路感染(肾盂肾炎)和下尿路感染(膀胱炎和尿道炎)。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_lower_uti",
-        "name": "下尿路感染",
-        "parent_disease_id": "disease_uti",
-        "disease_subtype": "膀胱炎和尿道炎",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "成年女性",
-        "gender": "female",
-        "age_min": 18,
-        "age_max": null,
-        "evidence_ids": [
-          "按照解剖部位分为：上尿路感染(肾盂肾炎)和下尿路感染(膀胱炎和尿道炎)。"
         ],
         "confidence": 0.9
       }
@@ -166,43 +133,31 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "尿道炎：发作性尿痛、尿频，多无血尿和耻骨联合上疼痛。"
+          "发作性尿痛、尿频"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_urinary_frequency",
+        "id": "symptom_frequency",
         "name": "尿频",
         "body_site": "膀胱/尿道",
         "symptom_category": "泌尿系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "尿道炎：发作性尿痛、尿频，多无血尿和耻骨联合上疼痛。"
+          "发作性尿痛、尿频"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_suprapubic_pain",
-        "name": "耻骨联合上疼痛",
-        "body_site": "下腹部",
-        "symptom_category": "泌尿系统症状",
-        "polarity": "absent",
-        "typicality": "common",
-        "evidence_ids": [
-          "尿道炎：发作性尿痛、尿频，多无血尿和耻骨联合上疼痛。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_urinary_urgency",
+        "id": "symptom_urgency",
         "name": "尿急",
-        "body_site": "膀胱",
+        "body_site": "膀胱/尿道",
         "symptom_category": "泌尿系统症状",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "膀胱炎：通常表现为尿频、尿急、尿痛及下腹部疼痛。"
+          "通常表现为尿频、尿急、尿痛及下腹部疼痛"
         ],
         "confidence": 0.9
       },
@@ -214,19 +169,19 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "膀胱炎：通常表现为尿频、尿急、尿痛及下腹部疼痛。"
+          "通常表现为尿频、尿急、尿痛及下腹部疼痛"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_hematuria",
         "name": "血尿",
-        "body_site": "尿液",
+        "body_site": "泌尿系统",
         "symptom_category": "泌尿系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "膀胱炎：...30％的患者可见血尿。"
+          "30％的患者可见血尿"
         ],
         "confidence": 0.9
       },
@@ -236,9 +191,9 @@
         "body_site": "全身",
         "symptom_category": "全身症状",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "typical",
         "evidence_ids": [
-          "急性肾盂肾炎：...同时可伴有发热、寒战、恶心、呕吐等全身症状..."
+          "同时可伴有发热、寒战、恶心、呕吐等全身症状"
         ],
         "confidence": 0.9
       },
@@ -250,7 +205,7 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "急性肾盂肾炎：...同时可伴有发热、寒战、恶心、呕吐等全身症状..."
+          "同时可伴有发热、寒战、恶心、呕吐等全身症状"
         ],
         "confidence": 0.9
       },
@@ -262,133 +217,74 @@
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "急性肾盂肾炎：尿急、尿频、尿痛、腰痛、排尿困难等泌尿系统症状..."
+          "尿急、尿频、尿痛、腰痛、排尿困难等泌尿系统症状"
         ],
         "confidence": 0.9
       },
       {
         "id": "symptom_costovertebral_angle_tenderness",
-        "name": "肋脊角压痛",
-        "body_site": "背部",
-        "symptom_category": "泌尿系统体征",
+        "name": "肋脊角压痛及肾区叩痛",
+        "body_site": "肋脊角/肾区",
+        "symptom_category": "体征",
         "polarity": "present",
         "typicality": "typical",
         "evidence_ids": [
-          "体检时肋脊角压痛及肾区叩痛可阳性。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_renal_area_percussion_tenderness",
-        "name": "肾区叩痛",
-        "body_site": "背部",
-        "symptom_category": "泌尿系统体征",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "体检时肋脊角压痛及肾区叩痛可阳性。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_nausea",
-        "name": "恶心",
-        "body_site": "消化系统",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "急性肾盂肾炎：...同时可伴有发热、寒战、恶心、呕吐等全身症状..."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_vomiting",
-        "name": "呕吐",
-        "body_site": "消化系统",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "急性肾盂肾炎：...同时可伴有发热、寒战、恶心、呕吐等全身症状..."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_dysuria_lower_uti",
-        "name": "排尿困难",
-        "body_site": "尿道",
-        "symptom_category": "泌尿系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "急性肾盂肾炎：尿急、尿频、尿痛、腰痛、排尿困难等泌尿系统症状..."
+          "体检时肋脊角压痛及肾区叩痛可阳性"
         ],
         "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_urine_culture_colony_count",
-        "name": "尿培养菌落计数",
+        "id": "test_midstream_urine_culture",
+        "name": "中段尿培养细菌数",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "中段尿标本培养的病原学检查是诊断尿路感染的金标准。"
+          "中段尿标本培养的病原学检查是诊断尿路感染的金标准"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_urine_sediment_wbc",
+        "name": "清洁中段尿沉渣每高倍视野白细胞",
+        "normal_range_min": null,
+        "normal_range_max": 5,
+        "is_digital": 1,
+        "evidence_ids": [
+          "新鲜清洁中段尿沉渣每高倍视野白细胞 >5个，提示尿路感染"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_urine_microscopy_bacteria",
-        "name": "尿沉渣革兰染色油镜观察细菌数",
+        "id": "test_urine_sediment_gram_stain",
+        "name": "新鲜中段尿沉渣革兰染色油镜观察细菌数",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "新鲜中段尿沉渣革兰染色后用油镜观察，细菌 >1个／视野；"
+          "新鲜中段尿沉渣革兰染色后用油镜观察，细菌 >1个／视野"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_urine_microscopy_wbc",
-        "name": "尿沉渣白细胞计数",
+        "id": "test_ultrasound",
+        "name": "泌尿系超声",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 1,
+        "is_digital": 0,
         "evidence_ids": [
-          "新鲜清洁中段尿沉渣每高倍视野白细胞 >5个，提示尿路感染；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_blood_wbc_count",
-        "name": "血白细胞计数",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "急性肾盂肾炎可伴有血白细胞升高，中性粒细胞比例增高，红细胞沉降率增快等。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_esr",
-        "name": "红细胞沉降率",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "急性肾盂肾炎可伴有血白细胞升高，中性粒细胞比例增高，红细胞沉降率增快等。"
+          "泌尿系超声筛查是否存在尿路结构的异常"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_general_management",
+        "id": "treatment_general",
         "content": "去除诱发尿路结构及功能异常的因素；合理休息、多饮水、碱化尿液等。",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "推荐",
         "source_section": "治疗",
         "evidence_ids": [
           "一般性治疗：去除诱发尿路结构及功能异常的因素；合理休息、多饮水、碱化尿液等。"
@@ -396,9 +292,9 @@
         "confidence": 0.9
       },
       {
-        "id": "treatment_antibiotic_selection",
+        "id": "treatment_antimicrobial",
         "content": "在留取清洁中段尿样本进行病原学培养之后，进行经验性治疗，根据药敏试验结果来选择抗感染药物。",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "推荐",
         "source_section": "治疗",
         "evidence_ids": [
           "针对病原菌的治疗：在留取清洁中段尿样本进行病原学培养之后，进行经验性治疗，根据药敏试验结果来选择抗感染药物。"
@@ -406,22 +302,76 @@
         "confidence": 0.9
       },
       {
-        "id": "treatment_complex_uti_comprehensive",
-        "content": "复杂性尿路感染的治疗包括对尿路感染本身及合并症和复杂因素的治疗。",
-        "recommendation_strength": "strong",
+        "id": "treatment_empirical",
+        "content": "推荐首先留取尿液标本行细菌学检查，再开始经验性治疗，首选对革兰阴性杆菌有效的药物，72 h显效者无需换药，否则应根据药敏结果更改抗生素。",
+        "recommendation_strength": "推荐",
         "source_section": "治疗",
         "evidence_ids": [
-          "复杂性尿路感染的治疗包括对尿路感染本身及合并症和复杂因素的治疗。"
+          "推荐首先留取尿液标本行细菌学检查，再开始经验性治疗，首选对革兰阴性杆菌有效的药物，72 h显效者无需换药，否则应根据药敏结果更改抗生素。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_antifungal",
+        "content": "无症状真菌尿路感染一般不必给予抗真菌治疗，但对于高危人群则需用药。建议选用从肾脏排泄的氟康唑，耐药可给予伊曲康唑、氟胞嘧啶或卡泊芬净。",
+        "recommendation_strength": "推荐",
+        "source_section": "治疗",
+        "evidence_ids": [
+          "无症状真菌尿路感染一般不必给予抗真菌治疗，但对于中性粒细胞减少、近期接受泌尿道手术、尿培养阳性且尿液镜检发现真菌菌丝、长期使用激素和(或)免疫抑制剂及肾移植等高危人群则需用药。建议选用从肾脏排泄的氟康唑"
         ],
         "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_amoxicillin_500mg_8h_3d",
+        "id": "plan_oral_cephalosporin_3d",
+        "content": "可选用半合成青霉素或头孢菌素类抗生素，任选一种连用3 d。",
+        "plan_level": 1,
+        "applicable_condition": "下尿路感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "下尿路感染 ：可选用半合成青霉素或头孢菌素类抗生素，任选一种连用3 d。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_oral_sodium_bicarbonate",
+        "content": "应用上述抗生素可同时口服碳酸氢钠片，碱化尿液、抑制细菌生长。",
+        "plan_level": 2,
+        "applicable_condition": "下尿路感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "应用上述抗生素可同时口服碳酸氢钠片，碱化尿液、抑制细菌生长。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_oral_3rd_cephalosporin_10_14d",
+        "content": "轻、中度肾盂肾炎推荐以口服药物门诊治疗为主，疗程 10～14 d，推荐首选第三代头孢菌素类药物治疗。",
+        "plan_level": 1,
+        "applicable_condition": "轻、中度急性肾盂肾炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "轻、中度肾盂肾炎推荐以口服药物门诊治疗为主，疗程 10～14 d，推荐首选第三代头孢菌素类药物治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_iv_3rd_cephalosporin_10_14d",
+        "content": "重症肾盂肾炎推荐以静脉用药住院治疗为主，疗程 10～14 d，推荐首选第三代头孢菌素类药物治疗。",
+        "plan_level": 1,
+        "applicable_condition": "重症急性肾盂肾炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "重症肾盂肾炎推荐以静脉用药住院治疗为主，疗程 10～14 d，推荐首选第三代头孢菌素类药物治疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_amoxicillin_pregnancy",
         "content": "阿莫西林 500 mg，1次／8 h，口服3—5 d",
         "plan_level": 1,
-        "applicable_condition": "妊娠期无症状性菌尿和急性膀胱炎",
+        "applicable_condition": "妊娠期合并无症状性菌尿或膀胱炎",
         "contraindication_note": null,
         "evidence_ids": [
           "阿莫西林 500 mg，1次／8 h，口服3—5 d"
@@ -429,59 +379,37 @@
         "confidence": 0.9
       },
       {
-        "id": "plan_amoxicillin_clavulanate_500mg_12h_3d",
-        "content": "阿莫西林／克拉维酸 500 mg，1次／12 h，口服3～5 d",
+        "id": "plan_ceftriaxone_pregnancy",
+        "content": "头孢曲松钠 1～2 g，静脉注射或肌肉注射，1次／24 h",
         "plan_level": 1,
-        "applicable_condition": "妊娠期无症状性菌尿和急性膀胱炎",
+        "applicable_condition": "妊娠期急性肾盂肾炎",
         "contraindication_note": null,
         "evidence_ids": [
-          "阿莫西林／克拉维酸 500 mg，1次／12 h，口服3～5 d"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_cephalexin_500mg_8h_3d",
-        "content": "头孢氨苄 500 mg，1次／8 h，口服3～5 d",
-        "plan_level": 1,
-        "applicable_condition": "妊娠期无症状性菌尿和急性膀胱炎",
-        "contraindication_note": null,
-        "evidence_ids": [
-          "头孢氨苄 500 mg，1次／8 h，口服3～5 d"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_ciprofloxacin_7d",
-        "content": "环丙沙星（7天）",
-        "plan_level": 2,
-        "applicable_condition": "急性非复杂性肾盂肾炎",
-        "contraindication_note": "妊娠期禁用",
-        "evidence_ids": [
-          "Comparison of ciprofloxacin(7 days)and trimethoprim-sulfamethoxazole(14 days)for acute uncomplicated pyelonephritis..."
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "plan_trimethoprim_sulfamethoxazole_14d",
-        "content": "复方磺胺甲噁唑（14天）",
-        "plan_level": 2,
-        "applicable_condition": "急性非复杂性肾盂肾炎",
-        "contraindication_note": "妊娠期禁用",
-        "evidence_ids": [
-          "Comparison of ciprofloxacin(7 days)and trimethoprim-sulfamethoxazole(14 days)for acute uncomplicated pyelonephritis..."
+          "头孢曲松钠 1～2 g，静脉注射或肌肉注射，1次／24 h"
         ],
         "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_escherichia_coli",
+        "id": "etiology_e_coli",
         "content": "大肠埃希菌",
         "etiology_type": "感染因素",
-        "typicality": "typical",
-        "diagnostic_role": "必要条件",
+        "typicality": "典型",
+        "diagnostic_role": "支持证据",
         "evidence_ids": [
           "大肠埃希菌是首位的病原菌"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_gram_positive_cocci",
+        "content": "革兰阳性球菌",
+        "etiology_type": "感染因素",
+        "typicality": "常见",
+        "diagnostic_role": "支持证据",
+        "evidence_ids": [
+          "其次是革兰阳性球菌、克雷伯菌及假单胞菌属"
         ],
         "confidence": 0.9
       },
@@ -489,7 +417,7 @@
         "id": "etiology_klebsiella",
         "content": "克雷伯菌",
         "etiology_type": "感染因素",
-        "typicality": "common",
+        "typicality": "常见",
         "diagnostic_role": "支持证据",
         "evidence_ids": [
           "其次是革兰阳性球菌、克雷伯菌及假单胞菌属"
@@ -497,119 +425,94 @@
         "confidence": 0.9
       },
       {
-        "id": "etiology_pseudomonas",
-        "content": "假单胞菌属",
-        "etiology_type": "感染因素",
-        "typicality": "common",
-        "diagnostic_role": "支持证据",
+        "id": "etiology_anatomical_abnormality",
+        "content": "尿路结构或功能异常",
+        "etiology_type": "解剖/功能因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "其次是革兰阳性球菌、克雷伯菌及假单胞菌属"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_enterococcus",
-        "content": "肠球菌",
-        "etiology_type": "感染因素",
-        "typicality": "common",
-        "diagnostic_role": "支持证据",
-        "evidence_ids": [
-          "在医院获得性尿路感染中，...其次为真菌和肠球菌。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_candida",
-        "content": "真菌",
-        "etiology_type": "感染因素",
-        "typicality": "common",
-        "diagnostic_role": "支持证据",
-        "evidence_ids": [
-          "在医院获得性尿路感染中，大肠埃希菌所占比例略有降低，但仍为首位病原菌，其次为真菌和肠球菌。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_esbl_ecoli",
-        "content": "产超广谱β-内酰胺酶(ESBLs)大肠埃希菌",
-        "etiology_type": "感染因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "产超广谱B．内酰胺酶(ESBLs)大肠埃希菌、肺炎克雷伯菌和耐万古霉素肠球菌比例增多。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_vaginal_atrophy",
-        "content": "阴道黏膜萎缩",
-        "etiology_type": "生理因素",
-        "typicality": "typical",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "绝经后雌激素缺乏，阴道黏膜萎缩，尿道口受牵拉而暴露尿道黏膜，尿道闭合性降低"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_estrogen_deficiency",
-        "content": "雌激素缺乏",
-        "etiology_type": "生理因素",
-        "typicality": "typical",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "绝经后雌激素缺乏，阴道黏膜萎缩，尿道口受牵拉而暴露尿道黏膜，尿道闭合性降低"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_short_wide_female_urthra",
-        "content": "女性尿道短而宽，距离肛门较近",
-        "etiology_type": "解剖因素",
-        "typicality": "typical",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "女性尿道短而宽，距离肛门较近，尿道口开口于阴唇下方，尤其是在性生活时可将尿道口周围的细菌挤压入尿路引起感染。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_spermicide_use",
-        "content": "杀精剂使用",
-        "etiology_type": "行为因素",
-        "typicality": "common",
-        "diagnostic_role": "危险因素",
-        "evidence_ids": [
-          "避孕用品：如杀精剂、避孕套和口服避孕药均可诱发尿路感染。"
+          "存在尿路结构或功能异常，或其他潜在疾病"
         ],
         "confidence": 0.9
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_estrogen_deficiency_vaginal_atrophy",
-        "content": "绝经后雌激素缺乏，阴道黏膜萎缩，尿道口受牵拉而暴露尿道黏膜，尿道闭合性降低；同时，阴道黏膜变薄，阴道内糖原消失，pH值升高，菌群发生改变，局部抵抗力下降，诱发绝经后尿路感染。",
+        "id": "pathogenesis_female_anatomy",
+        "content": "女性尿道短而宽，距离肛门较近，尿道口开口于阴唇下方，尤其是在性生活时可将尿道口周围的细菌挤压入尿路引起感染。",
         "evidence_ids": [
-          "绝经后雌激素缺乏，阴道黏膜萎缩，尿道口受牵拉而暴露尿道黏膜，尿道闭合性降低；同时，阴道黏膜变薄，阴道内糖原消失，pH值升高，菌群发生改变，局部抵抗力下降，诱发绝经后尿路感染。"
+          "女性尿道短而宽，距离肛门较近，尿道口开口于阴唇下方，尤其是在性生活时可将尿道口周围的细菌挤压入尿路引起感染。"
         ],
-        "confidence": 0.85
+        "confidence": 0.95
       },
       {
-        "id": "pathogenesis_pregnancy_hormonal_changes",
+        "id": "pathogenesis_pregnancy_hormones",
         "content": "妊娠期孕激素分泌增多致输尿管蠕动减弱，膀胱输尿管活瓣关闭不全；妊娠后期子宫增大压迫尿路致尿流不畅等均易诱发感染。",
         "evidence_ids": [
           "妊娠期孕激素分泌增多致输尿管蠕动减弱，膀胱输尿管活瓣关闭不全；妊娠后期子宫增大压迫尿路致尿流不畅等均易诱发感染。"
         ],
-        "confidence": 0.85
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_postmenopause_estrogen",
+        "content": "绝经后雌激素缺乏，阴道黏膜萎缩，尿道口受牵拉而暴露尿道黏膜，尿道闭合性降低；同时，阴道黏膜变薄，阴道内糖原消失，pH值升高，菌群发生改变，局部抵抗力下降，诱发绝经后尿路感染。",
+        "evidence_ids": [
+          "绝经后雌激素缺乏，阴道黏膜萎缩，尿道口受牵拉而暴露尿道黏膜，尿道闭合性降低；同时，阴道黏膜变薄，阴道内糖原消失，pH值升高，菌群发生改变，局部抵抗力下降，诱发绝经后尿路感染。"
+        ],
+        "confidence": 0.9
       }
     ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_uti",
-        "to": "sub_disease_simple_uti",
-        "relation_id": "rel_uti_has_simple_uti",
+        "from": "disease_uti_female",
+        "to": "sub_disease_uncomplicated_lower_uti",
+        "relation_id": "rel_uti_has_uncomplicated_lower",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "按照临床表现分为：单纯性尿路感染、复杂性尿路感染、反复发作的尿路感染、无症状性菌尿和尿道综合征。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_uti_female",
+        "to": "sub_disease_uncomplicated_pyelonephritis",
+        "relation_id": "rel_uti_has_uncomplicated_pyelo",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "按照解剖部位分为：上尿路感染(肾盂肾炎)和下尿路感染(膀胱炎和尿道炎)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_uti_female",
+        "to": "sub_disease_complicated_uti",
+        "relation_id": "rel_uti_has_complicated",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "按照临床表现分为：单纯性尿路感染、复杂性尿路感染、反复发作的尿路感染、无症状性菌尿和尿道综合征。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_uti_female",
+        "to": "sub_disease_recurrent_uti",
+        "relation_id": "rel_uti_has_recurrent",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "按照临床表现分为：单纯性尿路感染、复杂性尿路感染、反复发作的尿路感染、无症状性菌尿和尿道综合征。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_uti_female",
+        "to": "sub_disease_pregnancy_uti",
+        "relation_id": "rel_uti_has_pregnancy",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
@@ -618,350 +521,204 @@
         "confidence": 0.9
       },
       {
-        "from": "disease_uti",
-        "to": "sub_disease_complicated_uti",
-        "relation_id": "rel_uti_has_complicated_uti",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "复杂性尿路感染是指患者伴有导致尿路感染发生或者治疗失败风险增加的合并症，存在尿路结构或功能异常，或其他潜在疾病。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_uti",
-        "to": "sub_disease_recurrent_uti",
-        "relation_id": "rel_uti_has_recurrent_uti",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "反复发作尿路感染指在 l2个月内出现尿路感染 3次或 3次以上，可分为复发和重新感染。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_uti",
-        "to": "sub_disease_asymptomatic_bacteriuria",
-        "relation_id": "rel_uti_has_asymptomatic_bacteriuria",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "无症状性菌尿：无临床症状但清洁中段尿培养病原菌菌数≥10 CFU／ml。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_uti",
-        "to": "sub_disease_pregnancy_uti",
-        "relation_id": "rel_uti_has_pregnancy_uti",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "妊娠期尿路感染是指妊娠期各种微生物侵及尿路引起的炎症，主要表现为无症状性菌尿、急性膀胱炎和急性肾盂肾炎。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_uti",
+        "from": "disease_uti_female",
         "to": "sub_disease_postmenopausal_uti",
-        "relation_id": "rel_uti_has_postmenopausal_uti",
+        "relation_id": "rel_uti_has_postmenopausal",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "绝经后尿路感染是指女性月经完全停止 1年以上发生的尿路感染。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_uti",
-        "to": "sub_disease_upper_uti",
-        "relation_id": "rel_uti_has_upper_uti",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "按照解剖部位分为：上尿路感染(肾盂肾炎)和下尿路感染(膀胱炎和尿道炎)。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_uti",
-        "to": "sub_disease_lower_uti",
-        "relation_id": "rel_uti_has_lower_uti",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "按照解剖部位分为：上尿路感染(肾盂肾炎)和下尿路感染(膀胱炎和尿道炎)。"
+          "按照女性的特有状态分为：非妊娠绝经前尿路感染、妊娠尿路感染和绝经后尿路感染。"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_simple_uti",
+        "from": "sub_disease_uncomplicated_lower_uti",
         "to": "symptom_dysuria",
-        "relation_id": "rel_simple_uti_manifests_as_dysuria",
+        "relation_id": "rel_lower_uti_manifests_dysuria",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "尿道炎：发作性尿痛、尿频，多无血尿和耻骨联合上疼痛。"
+          "发作性尿痛、尿频"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确列为急性单纯性下尿路感染（即simple UTI）的典型症状，'通常表现为尿频、尿急、尿痛及下腹部疼痛'，'尿痛'即dysuria",
-        "evidence": "通常表现为尿频、尿急、尿痛及下腹部疼痛。"
+        "weight_reason": "原文明确指出膀胱炎和尿道炎的常见症状包含尿痛",
+        "evidence": "通常表现为尿频、尿急、尿痛及下腹部疼痛"
       },
       {
-        "from": "sub_disease_simple_uti",
-        "to": "symptom_urinary_frequency",
-        "relation_id": "rel_simple_uti_manifests_as_urinary_frequency",
+        "from": "sub_disease_uncomplicated_lower_uti",
+        "to": "symptom_frequency",
+        "relation_id": "rel_lower_uti_manifests_frequency",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "尿道炎：发作性尿痛、尿频，多无血尿和耻骨联合上疼痛。"
+          "发作性尿痛、尿频"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确列为急性单纯性下尿路感染（即simple UTI）的典型症状，'通常表现为尿频、尿急、尿痛及下腹部疼痛'",
-        "evidence": "通常表现为尿频、尿急、尿痛及下腹部疼痛。"
+        "weight_reason": "原文明确指出膀胱炎和尿道炎的常见症状包含尿频",
+        "evidence": "通常表现为尿频、尿急、尿痛及下腹部疼痛"
       },
       {
-        "from": "sub_disease_simple_uti",
-        "to": "symptom_urinary_urgency",
-        "relation_id": "rel_simple_uti_manifests_as_urinary_urgency",
+        "from": "sub_disease_uncomplicated_lower_uti",
+        "to": "symptom_urgency",
+        "relation_id": "rel_lower_uti_manifests_urgency",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "膀胱炎：通常表现为尿频、尿急、尿痛及下腹部疼痛。"
+          "通常表现为尿频、尿急、尿痛及下腹部疼痛"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确列为急性单纯性下尿路感染（即simple UTI）的典型症状，'通常表现为尿频、尿急、尿痛及下腹部疼痛'",
-        "evidence": "通常表现为尿频、尿急、尿痛及下腹部疼痛。"
+        "weight_reason": "原文明确指出膀胱炎的常见症状包含尿急",
+        "evidence": "通常表现为尿频、尿急、尿痛及下腹部疼痛"
       },
       {
-        "from": "sub_disease_simple_uti",
-        "to": "symptom_lower_abdominal_pain",
-        "relation_id": "rel_simple_uti_manifests_as_lower_abdominal_pain",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 6,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "膀胱炎：通常表现为尿频、尿急、尿痛及下腹部疼痛。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_simple_uti",
-        "to": "symptom_hematuria",
-        "relation_id": "rel_simple_uti_manifests_as_hematuria",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "supportive",
-        "type_info": "疾病诊断次要条件",
-        "weight": 5,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "膀胱炎：...30％的患者可见血尿。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_upper_uti",
+        "from": "sub_disease_uncomplicated_pyelonephritis",
         "to": "symptom_fever",
-        "relation_id": "rel_upper_uti_manifests_as_fever",
+        "relation_id": "rel_pyelo_manifests_fever",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "common",
+        "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "急性肾盂肾炎：...同时可伴有发热、寒战、恶心、呕吐等全身症状..."
+          "同时可伴有发热、寒战、恶心、呕吐等全身症状"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确列为急性肾盂肾炎（即upper UTI）的全身症状，'可伴有发热、寒战、恶心、呕吐等全身症状'",
-        "evidence": "可伴有发热、寒战、恶心、呕吐等全身症状。"
+        "weight_reason": "原文明确指出急性肾盂肾炎可伴有发热等全身症状",
+        "evidence": "同时可伴有发热、寒战、恶心、呕吐等全身症状"
       },
       {
-        "from": "sub_disease_upper_uti",
-        "to": "symptom_chills",
-        "relation_id": "rel_upper_uti_manifests_as_chills",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "common",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "急性肾盂肾炎：...同时可伴有发热、寒战、恶心、呕吐等全身症状..."
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确列为急性肾盂肾炎（即upper UTI）的全身症状，'可伴有发热、寒战、恶心、呕吐等全身症状'",
-        "evidence": "可伴有发热、寒战、恶心、呕吐等全身症状。"
-      },
-      {
-        "from": "sub_disease_upper_uti",
+        "from": "sub_disease_uncomplicated_pyelonephritis",
         "to": "symptom_flank_pain",
-        "relation_id": "rel_upper_uti_manifests_as_flank_pain",
+        "relation_id": "rel_pyelo_manifests_flank_pain",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "required",
         "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "weight": 9,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "急性肾盂肾炎：尿急、尿频、尿痛、腰痛、排尿困难等泌尿系统症状..."
+          "尿急、尿频、尿痛、腰痛、排尿困难等泌尿系统症状"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确列为急性肾盂肾炎（即upper UTI）的泌尿系统症状，'尿急、尿频、尿痛、腰痛、排尿困难等泌尿系统症状'",
-        "evidence": "尿急、尿频、尿痛、腰痛、排尿困难等泌尿系统症状，"
+        "weight_reason": "原文明确指出急性肾盂肾炎的泌尿系统症状包含腰痛",
+        "evidence": "尿急、尿频、尿痛、腰痛、排尿困难等泌尿系统症状"
       },
       {
-        "from": "sub_disease_upper_uti",
+        "from": "sub_disease_uncomplicated_pyelonephritis",
         "to": "symptom_costovertebral_angle_tenderness",
-        "relation_id": "rel_upper_uti_manifests_as_costovertebral_angle_tenderness",
+        "relation_id": "rel_pyelo_manifests_tenderness",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 7,
         "criterion_group_id": null,
         "required_count": null,
         "typicality": "typical",
         "duration_condition": null,
         "section_priority": "临床表现",
         "evidence_ids": [
-          "体检时肋脊角压痛及肾区叩痛可阳性。"
+          "体检时肋脊角压痛及肾区叩痛可阳性"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确列为急性肾盂肾炎（即upper UTI）体检发现，'体检时肋脊角压痛及肾区叩痛可阳性'，肋脊角即costovertebral angle",
-        "evidence": "体检时肋脊角压痛及肾区叩痛可阳性。"
-      },
-      {
-        "from": "sub_disease_upper_uti",
-        "to": "symptom_renal_area_percussion_tenderness",
-        "relation_id": "rel_upper_uti_manifests_as_renal_area_percussion_tenderness",
-        "relation_name": "表现为",
-        "relation_type": "manifests_as",
-        "diagnostic_role": "required",
-        "type_info": "疾病诊断必要条件",
-        "weight": 10,
-        "criterion_group_id": null,
-        "required_count": null,
-        "typicality": "typical",
-        "duration_condition": null,
-        "section_priority": "临床表现",
-        "evidence_ids": [
-          "体检时肋脊角压痛及肾区叩痛可阳性。"
-        ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确列为急性肾盂肾炎（即upper UTI）体检发现，'体检时肋脊角压痛及肾区叩痛可阳性'，肾区叩痛即renal area percussion tenderness",
-        "evidence": "体检时肋脊角压痛及肾区叩痛可阳性。"
+        "confidence": 0.9
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_simple_uti",
-        "to": "test_urine_culture_colony_count",
-        "relation_id": "rel_simple_uti_requires_urine_culture",
+        "from": "sub_disease_uncomplicated_lower_uti",
+        "to": "test_midstream_urine_culture",
+        "relation_id": "rel_lower_uti_requires_culture",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "gold_standard",
-        "value_min": 10000,
+        "value_min": 10,
         "value_max": null,
         "operator": ">=",
         "unit": "CFU/ml",
-        "result_text": null,
+        "result_text": "急性非复杂性膀胱炎中段尿培养细菌数≥10 CFU／ml",
         "weight": 100,
         "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "positive",
+        "polarity": "elevated",
         "typicality": "typical",
         "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "中段尿标本培养的病原学检查是诊断尿路感染的金标准。"
+          "急性非复杂性膀胱炎中段尿培养细菌数≥10 CFU／ml"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文明确将中段尿标本培养列为'诊断尿路感染的金标准'，且该检测直接对应colony count（如'中段尿培养细菌数≥10^5 CFU／ml'），simple UTI属尿路感染范畴",
-        "evidence": "中段尿标本培养的病原学检查是诊断尿路感染的金标准。"
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出中段尿标本培养是诊断尿路感染的金标准",
+        "evidence": "中段尿标本培养的病原学检查是诊断尿路感染的金标准"
       },
       {
-        "from": "sub_disease_simple_uti",
-        "to": "test_urine_microscopy_bacteria",
-        "relation_id": "rel_simple_uti_requires_urine_microscopy_bacteria",
+        "from": "sub_disease_uncomplicated_pyelonephritis",
+        "to": "test_midstream_urine_culture",
+        "relation_id": "rel_pyelo_requires_culture",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
-        "type_info": "疾病诊断次要条件",
-        "diagnostic_role": "supportive",
-        "value_min": 1,
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": 10,
         "value_max": null,
-        "operator": ">",
-        "unit": "个/视野",
-        "result_text": null,
-        "weight": 5,
-        "gold_standard": false,
+        "operator": ">=",
+        "unit": "CFU/ml",
+        "result_text": "急性非复杂性肾盂肾炎中段尿培养细菌数 ≥10 CFU／ml",
+        "weight": 100,
+        "gold_standard": true,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "positive",
-        "typicality": "common",
+        "polarity": "elevated",
+        "typicality": "typical",
         "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "新鲜中段尿沉渣革兰染色后用油镜观察，细菌 >1个／视野；"
+          "急性非复杂性肾盂肾炎中段尿培养细菌数 ≥10 CFU／ml"
         ],
-        "confidence": 0.9
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出中段尿标本培养是诊断尿路感染的金标准",
+        "evidence": "中段尿标本培养的病原学检查是诊断尿路感染的金标准"
       },
       {
-        "from": "sub_disease_simple_uti",
-        "to": "test_urine_microscopy_wbc",
-        "relation_id": "rel_simple_uti_requires_urine_microscopy_wbc",
+        "from": "sub_disease_uncomplicated_lower_uti",
+        "to": "test_urine_sediment_wbc",
+        "relation_id": "rel_lower_uti_requires_wbc",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断次要条件",
@@ -969,36 +726,64 @@
         "value_min": 5,
         "value_max": null,
         "operator": ">",
-        "unit": "个/高倍视野",
-        "result_text": null,
-        "weight": 5,
+        "unit": "个/HP",
+        "result_text": "新鲜清洁中段尿沉渣每高倍视野白细胞 >5个",
+        "weight": 8,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "positive",
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "诊断",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "新鲜清洁中段尿沉渣每高倍视野白细胞 >5个，提示尿路感染"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出尿沉渣白细胞大于5个提示尿路感染，属于提示性指标",
+        "evidence": "每高倍视野白细胞>5个，提示尿路感染"
+      },
+      {
+        "from": "sub_disease_complicated_uti",
+        "to": "test_ultrasound",
+        "relation_id": "rel_complicated_requires_ultrasound",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "推荐诊断项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "明确是否存在尿路梗阻、结石、肿瘤等病变",
+        "weight": 7,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
         "typicality": "common",
         "section_priority": "诊断",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "新鲜清洁中段尿沉渣每高倍视野白细胞 >5个，提示尿路感染；"
+          "怀疑有肾脏先天畸形、尿路梗阻或者老年患者应常规进行影像学检查，首选超声检查"
         ],
         "confidence": 0.9
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_simple_uti",
-        "to": "treatment_general_management",
-        "relation_id": "rel_simple_uti_follows_general_management",
+        "from": "sub_disease_uncomplicated_lower_uti",
+        "to": "treatment_antimicrobial",
+        "relation_id": "rel_lower_uti_follows_antimicrobial",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后",
+        "applicable_condition": "明确诊断后",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "疾病类型"
+          "疾病分型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
@@ -1006,21 +791,40 @@
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_simple_uti",
-        "to": "treatment_antibiotic_selection",
-        "relation_id": "rel_simple_uti_follows_antibiotic_selection",
+        "from": "sub_disease_uncomplicated_pyelonephritis",
+        "to": "treatment_empirical",
+        "relation_id": "rel_pyelo_follows_empirical",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "确诊后",
+        "applicable_condition": "留取尿液标本行细菌学检查后",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
-          "病原菌",
-          "药敏结果"
+          "疾病分型",
+          "严重程度"
         ],
         "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_complicated_uti",
+        "to": "treatment_antifungal",
+        "relation_id": "rel_complicated_follows_antifungal",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "合并真菌感染的高危人群",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病原学结果"
+        ],
+        "contraindication_note": "肾功能不全患者应该减量应用",
         "evidence_level": "expert_consensus",
         "source_section": "治疗",
         "confidence": 0.9
@@ -1028,13 +832,69 @@
     ],
     "implements_by": [
       {
-        "from": "treatment_general_management",
-        "to": "plan_amoxicillin_500mg_8h_3d",
-        "relation_id": "rel_general_management_implements_by_amoxicillin",
+        "from": "treatment_antimicrobial",
+        "to": "plan_oral_cephalosporin_3d",
+        "relation_id": "rel_antimicrobial_implements_oral_3d",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "妊娠期无症状性菌尿和急性膀胱炎",
+        "applicable_condition": "下尿路感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "下尿路感染 ：可选用半合成青霉素或头孢菌素类抗生素，任选一种连用3 d。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_oral_sodium_bicarbonate",
+        "relation_id": "rel_antimicrobial_implements_bicarbonate",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "联合",
+        "applicable_condition": "下尿路感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "应用上述抗生素可同时口服碳酸氢钠片，碱化尿液、抑制细菌生长。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_empirical",
+        "to": "plan_oral_3rd_cephalosporin_10_14d",
+        "relation_id": "rel_empirical_implements_oral_10_14d",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "轻、中度急性肾盂肾炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "轻、中度肾盂肾炎推荐以口服药物门诊治疗为主，疗程 10～14 d，推荐首选第三代头孢菌素类药物治疗"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_empirical",
+        "to": "plan_iv_3rd_cephalosporin_10_14d",
+        "relation_id": "rel_empirical_implements_iv_10_14d",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "重症急性肾盂肾炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "重症肾盂肾炎推荐以静脉用药住院治疗为主，疗程 10～14 d，推荐首选第三代头孢菌素类药物治疗。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_amoxicillin_pregnancy",
+        "relation_id": "rel_antimicrobial_implements_amoxicillin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "妊娠期合并无症状性菌尿或膀胱炎",
         "contraindication_note": null,
         "evidence_ids": [
           "阿莫西林 500 mg，1次／8 h，口服3—5 d"
@@ -1042,25 +902,25 @@
         "confidence": 0.9
       },
       {
-        "from": "treatment_antibiotic_selection",
-        "to": "plan_amoxicillin_clavulanate_500mg_12h_3d",
-        "relation_id": "rel_antibiotic_selection_implements_by_amoxicillin_clavulanate",
+        "from": "treatment_empirical",
+        "to": "plan_ceftriaxone_pregnancy",
+        "relation_id": "rel_empirical_implements_ceftriaxone",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "妊娠期无症状性菌尿和急性膀胱炎",
+        "applicable_condition": "妊娠期急性肾盂肾炎",
         "contraindication_note": null,
         "evidence_ids": [
-          "阿莫西林／克拉维酸 500 mg，1次／12 h，口服3～5 d"
+          "头孢曲松钠 1～2 g，静脉注射或肌肉注射，1次／24 h"
         ],
         "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_simple_uti",
-        "to": "etiology_escherichia_coli",
-        "relation_id": "rel_simple_uti_caused_by_escherichia_coli",
+        "from": "sub_disease_uncomplicated_lower_uti",
+        "to": "etiology_e_coli",
+        "relation_id": "rel_e_coli_causes_lower_uti",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -1070,46 +930,57 @@
         "evidence_ids": [
           "大肠埃希菌是首位的病原菌"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_simple_uti",
-        "to": "etiology_klebsiella",
-        "relation_id": "rel_simple_uti_caused_by_klebsiella",
+        "from": "sub_disease_complicated_uti",
+        "to": "etiology_anatomical_abnormality",
+        "relation_id": "rel_anatomical_causes_complicated",
         "relation_name": "相关",
         "relation_type": "causes",
-        "causal_strength": "moderate",
-        "typicality": "common",
+        "causal_strength": "strong",
+        "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "其次是革兰阳性球菌、克雷伯菌及假单胞菌属"
+          "存在尿路结构或功能异常，或其他潜在疾病"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_postmenopausal_uti",
-        "to": "pathogenesis_estrogen_deficiency_vaginal_atrophy",
-        "relation_id": "rel_postmenopausal_uti_explained_by_estrogen_deficiency",
+        "from": "sub_disease_uncomplicated_lower_uti",
+        "to": "pathogenesis_female_anatomy",
+        "relation_id": "rel_lower_uti_explained_anatomy",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "绝经后雌激素缺乏，阴道黏膜萎缩，尿道口受牵拉而暴露尿道黏膜，尿道闭合性降低；同时，阴道黏膜变薄，阴道内糖原消失，pH值升高，菌群发生改变，局部抵抗力下降，诱发绝经后尿路感染。"
+          "女性尿道短而宽，距离肛门较近，尿道口开口于阴唇下方，尤其是在性生活时可将尿道口周围的细菌挤压入尿路引起感染。"
         ],
-        "confidence": 0.85
+        "confidence": 0.9
       },
       {
         "from": "sub_disease_pregnancy_uti",
-        "to": "pathogenesis_pregnancy_hormonal_changes",
-        "relation_id": "rel_pregnancy_uti_explained_by_hormonal_changes",
+        "to": "pathogenesis_pregnancy_hormones",
+        "relation_id": "rel_pregnancy_uti_explained_hormones",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
           "妊娠期孕激素分泌增多致输尿管蠕动减弱，膀胱输尿管活瓣关闭不全；妊娠后期子宫增大压迫尿路致尿流不畅等均易诱发感染。"
         ],
-        "confidence": 0.85
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_postmenopausal_uti",
+        "to": "pathogenesis_postmenopause_estrogen",
+        "relation_id": "rel_postmenopausal_uti_explained_estrogen",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "绝经后雌激素缺乏，阴道黏膜萎缩，尿道口受牵拉而暴露尿道黏膜，尿道闭合性降低；同时，阴道黏膜变薄，阴道内糖原消失，pH值升高，菌群发生改变，局部抵抗力下降，诱发绝经后尿路感染。"
+        ],
+        "confidence": 0.9
       }
     ]
   },

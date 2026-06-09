@@ -1,0 +1,943 @@
+{
+  "meta": {
+    "doc_id": "流行性脑脊髓膜炎诊疗方案（2023年版）",
+    "source_title": "流行性脑脊髓膜炎诊疗方案（2023年版）",
+    "section_path": "全文",
+    "text_span": {
+      "start": null,
+      "end": null
+    }
+  },
+  "entities": {
+    "diseases": [
+      {
+        "id": "disease_epidemic_cerebrospinal_meningitis",
+        "name": "流行性脑脊髓膜炎",
+        "normalized_name": "流行性脑脊髓膜炎",
+        "aliases": [
+          "流脑",
+          "Epidemic cerebrospinal meningitis"
+        ],
+        "source_document_ids": [
+          "流行性脑脊髓膜炎诊疗方案（2023年版）"
+        ],
+        "evidence_ids": [
+          "流行性脑脊髓膜炎（Epidemic cerebrospinal meningitis，简称流脑）是由脑膜炎奈瑟菌（Neisseria meningitis，又称脑膜炎球菌）感染引起的急性化脓性脑脊髓膜炎"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "sub_diseases": [
+      {
+        "id": "sub_disease_ordinary",
+        "name": "普通型",
+        "parent_disease_id": "disease_epidemic_cerebrospinal_meningitis",
+        "disease_subtype": "普通型",
+        "clinical_stage": "不限定",
+        "severity": "普通",
+        "population": "全人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（一）普通型。1.前驱期。仅部分患者有前驱期症状，主要表现为低热、咽痛、咳嗽及鼻塞等。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_fulminant",
+        "name": "暴发型",
+        "parent_disease_id": "disease_epidemic_cerebrospinal_meningitis",
+        "disease_subtype": "暴发型",
+        "clinical_stage": "不限定",
+        "severity": "重症",
+        "population": "全人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（二）暴发型。少数患者起病急骤，病情凶险，若不及时救治，常于 24小时内死亡。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_fulminant_shock",
+        "name": "休克型",
+        "parent_disease_id": "disease_epidemic_cerebrospinal_meningitis",
+        "disease_subtype": "暴发型-休克型",
+        "clinical_stage": "不限定",
+        "severity": "危重症",
+        "population": "多见于儿童",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "1.休克型。多见于儿童，主要表现为循环衰竭，出现面色苍白、四肢厥冷、唇及指端发绀、脉搏细速、血压明显下降、脉压缩小、尿量减少或无尿。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_mild",
+        "name": "轻型",
+        "parent_disease_id": "disease_epidemic_cerebrospinal_meningitis",
+        "disease_subtype": "轻型",
+        "clinical_stage": "不限定",
+        "severity": "轻症",
+        "population": "全人群",
+        "gender": "all",
+        "age_min": null,
+        "age_max": null,
+        "evidence_ids": [
+          "（三）轻型。主要表现为轻微头痛、低热及咽痛等上呼吸道症状，可见少量出血点。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "sub_disease_infant",
+        "name": "婴幼儿流脑",
+        "parent_disease_id": "disease_epidemic_cerebrospinal_meningitis",
+        "disease_subtype": "特殊人群流脑",
+        "clinical_stage": "不限定",
+        "severity": "普通",
+        "population": "婴幼儿",
+        "gender": "all",
+        "age_min": 0,
+        "age_max": 3,
+        "evidence_ids": [
+          "1.婴幼儿。因颅骨骨缝及囟门未闭合的患儿，颅内高压表现常不典型，表现为前囱隆起，张力高。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "symptoms": [
+      {
+        "id": "symptom_low_fever",
+        "name": "低热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "主要表现为低热、咽痛、咳嗽及鼻塞等"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_chills",
+        "name": "寒战",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "突起寒战、高热，伴头痛、食欲减退及神志淡漠等毒血症状"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_high_fever",
+        "name": "高热",
+        "body_site": "全身",
+        "symptom_category": "全身症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "体温迅速升高达 40℃左右"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_petechiae",
+        "name": "皮肤黏膜瘀点或瘀斑",
+        "body_site": "皮肤黏膜",
+        "symptom_category": "皮肤症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "多数患者可出现皮肤黏膜瘀点或瘀斑，病情重者瘀点瘀斑迅速增多、扩大"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_vomiting",
+        "name": "频繁呕吐",
+        "body_site": "消化系统",
+        "symptom_category": "消化系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "表现为剧烈头痛，频繁呕吐，呈喷射状"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_nuchal_rigidity",
+        "name": "颈项强直",
+        "body_site": "颈部",
+        "symptom_category": "神经系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "可出现颈项强直、克尼格（Kernig）征及布鲁津斯基（Brudzinski）征等脑膜刺激征"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_kernig_sign",
+        "name": "克尼格征",
+        "body_site": "下肢/神经系统",
+        "symptom_category": "神经系统体征",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "可出现颈项强直、克尼格（Kernig）征及布鲁津斯基（Brudzinski）征等脑膜刺激征"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_brudzinski_sign",
+        "name": "布鲁津斯基征",
+        "body_site": "颈部/神经系统",
+        "symptom_category": "神经系统体征",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "可出现颈项强直、克尼格（Kernig）征及布鲁津斯基（Brudzinski）征等脑膜刺激征"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "symptom_hypotension",
+        "name": "血压明显下降",
+        "body_site": "循环系统",
+        "symptom_category": "循环系统症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "出现面色苍白、四肢厥冷、唇及指端发绀、脉搏细速、血压明显下降"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "symptom_bulging_fontanelle",
+        "name": "前囱隆起",
+        "body_site": "头部",
+        "symptom_category": "神经系统体征",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "因颅骨骨缝及囟门未闭合的患儿，颅内高压表现常不典型，表现为前囱隆起，张力高"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "tests": [
+      {
+        "id": "test_wbc_count",
+        "name": "白细胞计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "白细胞计数升高，以中性粒细胞升高为主。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_csf_pressure",
+        "name": "脑脊液压力",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "压力增高，外观浑浊"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_csf_wbc",
+        "name": "脑脊液白细胞计数",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "白细胞计数明显增高，以多形核白细胞为主"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_csf_glucose",
+        "name": "脑脊液糖",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "糖及氯化物明显减少，蛋白含量升高"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "test_gram_stain",
+        "name": "细菌涂片革兰染色镜检",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "瘀点（斑）组织液、脑脊液涂片可见多形核白细胞内或细胞外见到革兰染色阴性肾形双球菌。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_bacterial_culture",
+        "name": "细菌培养",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "脑脊液、血液、瘀点（斑）组织液培养到脑膜炎奈瑟菌。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_nucleic_acid",
+        "name": "核酸检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "脑脊液、血液、瘀点（斑）组织液脑膜炎奈瑟菌核酸检测阳性。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_csf_antigen",
+        "name": "脑脊液脑膜炎奈瑟菌特异性多糖抗原检测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 0,
+        "evidence_ids": [
+          "急性期脑脊液脑膜炎奈瑟菌特异性多糖抗原检测阳性。"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "treatments": [
+      {
+        "id": "treatment_general",
+        "content": "按呼吸道传染病隔离。卧床休息，保证热量，注意水、电解质平衡，维持内环境稳定。密切观察病情，保持口腔、皮肤清洁，预防并发症。",
+        "recommendation_strength": "strong",
+        "source_section": "九、治疗（一）一般治疗",
+        "evidence_ids": [
+          "1.按呼吸道传染病隔离。2.卧床休息，保证热量，注意水、电解质平衡，维持内环境稳定。3.密切观察病情，保持口腔、皮肤清洁，预防并发症。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_antimicrobial",
+        "content": "流脑治疗的关键是早期、足量应用敏感且能透过血脑屏障的抗菌药物，疗程常为 7 天",
+        "recommendation_strength": "strong",
+        "source_section": "九、治疗（二）病原治疗",
+        "evidence_ids": [
+          "流脑治疗的关键是早期、足量应用敏感且能透过血脑屏障的抗菌药物，疗程常为 7 天（根据临床恢复情况必要时延长疗程）。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_icp_reduction",
+        "content": "治疗关键是及早发现脑水肿，积极脱水治疗，预防脑疝。",
+        "recommendation_strength": "strong",
+        "source_section": "九、治疗（三）降颅压治疗",
+        "evidence_ids": [
+          "治疗关键是及早发现脑水肿，积极脱水治疗，预防脑疝。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_anti_shock",
+        "content": "在充分液体复苏的基础上，合理使用血管活性药物，密切监测患者血压、心率、尿量变化。",
+        "recommendation_strength": "strong",
+        "source_section": "九、治疗（四）抗休克治疗",
+        "evidence_ids": [
+          "在充分液体复苏的基础上，合理使用血管活性药物，密切监测患者血压、心率、尿量变化。"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "plans": [
+      {
+        "id": "plan_penicillin_g",
+        "content": "首选青霉素 G，成人 1600~2400 万 IU /d，静脉滴注，每 4~6 小时 1 次；儿童 20~40 万 IU/kg/d，静脉滴注，每 4~6 小时 1 次，最大剂量不超成人剂量。",
+        "plan_level": 1,
+        "applicable_condition": "病原治疗首选",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "1.青霉素类：首选青霉素 G，成人 1600~2400 万 IU /d，静脉滴注，每 4~6 小时 1 次；儿童 20~40 万 IU/kg/d，静脉滴注，每 4~6 小时 1 次，最大剂量不超成人剂量。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ceftriaxone",
+        "content": "头孢曲松：成人及 12 岁以上儿童2~4g/d，静脉滴注，分 1~2 次；婴儿及 12 岁以下儿童 50~100mg/kg/d，静脉滴注，分 1~2 次，最大剂量不超成人剂量。",
+        "plan_level": 2,
+        "applicable_condition": "青霉素过敏或耐药（MIC≥0.1mg/L）时",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "2.头孢菌素类：青霉素过敏或耐药（MIC≥0.1mg/L）时，可选用三代头孢菌素。头孢曲松：成人及 12 岁以上儿童2~4g/d，静脉滴注，分 1~2 次；婴儿及 12 岁以下儿童 50~100mg/kg/d，静脉滴注，分 1~2 次，最大剂量不超成人剂量。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_mannitol",
+        "content": "临床常用 20%甘露醇快速静脉点滴，可联用利尿剂。",
+        "plan_level": 1,
+        "applicable_condition": "降颅压治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "临床常用 20%甘露醇快速静脉点滴，可联用利尿剂。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_fluid_resuscitation",
+        "content": "推荐在复苏前3小时至少输注30ml/kg的晶体溶液进行初始复苏，推荐联合使用白蛋白。",
+        "plan_level": 1,
+        "applicable_condition": "脓毒症所致的低灌注或休克患者",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "1.液体复苏：对脓毒症所致的低灌注或休克患者，推荐在复苏前3小时至少输注30ml/kg的晶体溶液进行初始复苏...推荐联合使用白蛋白。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_norepinephrine",
+        "content": "首选去甲肾上腺素：成人0.1~1.0μg/kg/min，儿童 0.02~0.1μg/kg/min",
+        "plan_level": 1,
+        "applicable_condition": "血容量恢复但灌注仍不足时",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "2.血管活性药物治疗：当血容量恢复但灌注仍不足时，可使用血管活性药物。首选去甲肾上腺素：成人0.1~1.0μg/kg/min，儿童 0.02~0.1μg/kg/min"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "etiologies": [
+      {
+        "id": "etiology_neisseria_meningitidis",
+        "content": "脑膜炎奈瑟菌（Neisseria Meningitidis）感染",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "流脑病原体为脑膜炎奈瑟菌（Neisseria Meningitidis），也称脑膜炎球菌（Meningococcus）"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "pathogenesis": [
+      {
+        "id": "pathogenesis_endotoxin_reaction",
+        "content": "细菌释放的内毒素引起全身施瓦兹曼反应，激活补体，血清炎症因子明显增加，产生微循环障碍和休克。",
+        "evidence_ids": [
+          "细菌释放的内毒素引起全身施瓦兹曼反应，激活补体，血清炎症因子明显增加，产生微循环障碍和休克。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "pathogenesis_meningeal_inflammation",
+        "content": "脑膜及脊髓膜血管内皮细胞水肿、坏死、出血及通透性增加，重者脑实质发生炎症、水肿或充血，脑水肿导致颅内高压，严重者发生脑疝。",
+        "evidence_ids": [
+          "脑膜炎期，脑膜及脊髓膜血管内皮细胞水肿、坏死、出血及通透性增加，重者脑实质发生炎症、水肿或充血，脑水肿导致颅内高压，严重者发生脑疝。"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "relationships": {
+    "has_sub_disease": [
+      {
+        "from": "disease_epidemic_cerebrospinal_meningitis",
+        "to": "sub_disease_ordinary",
+        "relation_id": "rel_ecm_has_ordinary",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（一）普通型。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_epidemic_cerebrospinal_meningitis",
+        "to": "sub_disease_fulminant",
+        "relation_id": "rel_ecm_has_fulminant",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（二）暴发型。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_epidemic_cerebrospinal_meningitis",
+        "to": "sub_disease_mild",
+        "relation_id": "rel_ecm_has_mild",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "（三）轻型。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "disease_epidemic_cerebrospinal_meningitis",
+        "to": "sub_disease_infant",
+        "relation_id": "rel_ecm_has_infant",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "1.婴幼儿。因颅骨骨缝及囟门未闭合的患儿"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "manifests_as": [
+      {
+        "from": "sub_disease_ordinary",
+        "to": "symptom_chills",
+        "relation_id": "rel_ordinary_manifests_chills",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "突起寒战、高热，伴头痛、食欲减退及神志淡漠等毒血症状"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文提及普通型败血症期突起寒战，为常见临床表现。",
+        "evidence": "2.败血症期。突起寒战、高热"
+      },
+      {
+        "from": "sub_disease_ordinary",
+        "to": "symptom_petechiae",
+        "relation_id": "rel_ordinary_manifests_petechiae",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 9,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "多数患者可出现皮肤黏膜瘀点或瘀斑"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确指出多数患者可出现皮肤黏膜瘀点或瘀斑。",
+        "evidence": "多数患者可出现皮肤黏膜瘀点或瘀斑"
+      },
+      {
+        "from": "sub_disease_ordinary",
+        "to": "symptom_nuchal_rigidity",
+        "relation_id": "rel_ordinary_manifests_nuchal_rigidity",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "可出现颈项强直、克尼格（Kernig）征及布鲁津斯基（Brudzinski）征等脑膜刺激征"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文提及脑膜脑炎期可出现颈项强直等脑膜刺激征。",
+        "evidence": "可出现颈项强直、克尼格（Kernig）征"
+      },
+      {
+        "from": "sub_disease_fulminant_shock",
+        "to": "symptom_hypotension",
+        "relation_id": "rel_shock_manifests_hypotension",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "required",
+        "type_info": "疾病诊断必要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "主要表现为循环衰竭，出现面色苍白、四肢厥冷、唇及指端发绀、脉搏细速、血压明显下降"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文指出休克型主要表现为循环衰竭及血压明显下降。",
+        "evidence": "血压明显下降"
+      },
+      {
+        "from": "sub_disease_infant",
+        "to": "symptom_bulging_fontanelle",
+        "relation_id": "rel_infant_manifests_bulging_fontanelle",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 10,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "临床表现",
+        "evidence_ids": [
+          "颅内高压表现常不典型，表现为前囱隆起，张力高"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文明确婴幼儿颅内高压表现为前囱隆起。",
+        "evidence": "表现为前囱隆起，张力高"
+      }
+    ],
+    "requires_test": [
+      {
+        "from": "sub_disease_ordinary",
+        "to": "test_csf_wbc",
+        "relation_id": "rel_ordinary_requires_csf_wbc",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "required",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "白细胞计数明显增高，以多形核白细胞为主",
+        "weight": 9,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "elevated",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "白细胞计数明显增高，以多形核白细胞为主"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文脑脊液检查指出白细胞计数明显增高。",
+        "evidence": "白细胞计数明显增高，以多形核白细胞为主"
+      },
+      {
+        "from": "sub_disease_ordinary",
+        "to": "test_gram_stain",
+        "relation_id": "rel_ordinary_requires_gram_stain",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "见到革兰染色阴性肾形双球菌",
+        "weight": 9,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "瘀点（斑）组织液、脑脊液涂片可见多形核白细胞内或细胞外见到革兰染色阴性肾形双球菌。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "涂片见革兰染色阴性肾形双球菌为临床诊断病例条件。",
+        "evidence": "瘀点（斑）组织液、脑脊液涂片可见革兰染色阴性肾形双球菌"
+      },
+      {
+        "from": "sub_disease_ordinary",
+        "to": "test_bacterial_culture",
+        "relation_id": "rel_ordinary_requires_culture",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "培养到脑膜炎奈瑟菌",
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "脑脊液、血液、瘀点（斑）组织液培养到脑膜炎奈瑟菌。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "培养到脑膜炎奈瑟菌为确诊病例的核心条件，但原文未提及金标准字眼。",
+        "evidence": "血液、脑脊液和瘀点（斑）组织液培养到脑膜炎奈瑟菌"
+      },
+      {
+        "from": "sub_disease_ordinary",
+        "to": "test_nucleic_acid",
+        "relation_id": "rel_ordinary_requires_nucleic_acid",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "疾病诊断必要条件",
+        "diagnostic_role": "gold_standard",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "脑膜炎奈瑟菌核酸检测阳性",
+        "weight": 10,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "实验室检查",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "脑脊液、血液、瘀点（斑）组织液脑膜炎奈瑟菌核酸检测阳性。"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "核酸检测阳性为确诊病例的核心条件，但原文未提及金标准字眼。",
+        "evidence": "血液、脑脊液和瘀点（斑）组织液脑膜炎奈瑟菌核酸检测阳性"
+      }
+    ],
+    "follows_treatment": [
+      {
+        "from": "sub_disease_ordinary",
+        "to": "treatment_antimicrobial",
+        "relation_id": "rel_ordinary_follows_antimicrobial",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "明确诊断后",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "九、治疗（二）病原治疗",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_ordinary",
+        "to": "treatment_icp_reduction",
+        "relation_id": "rel_ordinary_follows_icp_reduction",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "出现脑水肿或颅内高压时",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "症状"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "九、治疗（三）降颅压治疗",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_fulminant_shock",
+        "to": "treatment_anti_shock",
+        "relation_id": "rel_shock_follows_anti_shock",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "休克型流脑",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "疾病分型"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "九、治疗（四）抗休克治疗",
+        "confidence": 0.95
+      }
+    ],
+    "implements_by": [
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_penicillin_g",
+        "relation_id": "rel_antimicrobial_implements_penicillin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "病原治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "1.青霉素类：首选青霉素 G"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_antimicrobial",
+        "to": "plan_ceftriaxone",
+        "relation_id": "rel_antimicrobial_implements_ceftriaxone",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "青霉素过敏或耐药（MIC≥0.1mg/L）时",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "2.头孢菌素类：青霉素过敏或耐药（MIC≥0.1mg/L）时，可选用三代头孢菌素。头孢曲松"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_icp_reduction",
+        "to": "plan_mannitol",
+        "relation_id": "rel_icp_implements_mannitol",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "降颅压治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "临床常用 20%甘露醇快速静脉点滴"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_anti_shock",
+        "to": "plan_fluid_resuscitation",
+        "relation_id": "rel_shock_implements_fluid",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "初始复苏",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "1.液体复苏：对脓毒症所致的低灌注或休克患者，推荐在复苏前3小时至少输注30ml/kg的晶体溶液进行初始复苏"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_anti_shock",
+        "to": "plan_norepinephrine",
+        "relation_id": "rel_shock_implements_norepinephrine",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "血容量恢复但灌注仍不足时",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "2.血管活性药物治疗：当血容量恢复但灌注仍不足时，可使用血管活性药物。首选去甲肾上腺素"
+        ],
+        "confidence": 0.9
+      }
+    ],
+    "causes": [
+      {
+        "from": "sub_disease_ordinary",
+        "to": "etiology_neisseria_meningitidis",
+        "relation_id": "rel_ordinary_caused_by_neisseria",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "流行性脑脊髓膜炎（Epidemic cerebrospinal meningitis，简称流脑）是由脑膜炎奈瑟菌（Neisseria meningitis，又称脑膜炎球菌）感染引起的"
+        ],
+        "confidence": 0.95
+      }
+    ],
+    "explained_by": [
+      {
+        "from": "sub_disease_fulminant_shock",
+        "to": "pathogenesis_endotoxin_reaction",
+        "relation_id": "rel_shock_explained_by_endotoxin",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "细菌释放的内毒素引起全身施瓦兹曼反应，激活补体，血清炎症因子明显增加，产生微循环障碍和休克。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_ordinary",
+        "to": "pathogenesis_meningeal_inflammation",
+        "relation_id": "rel_ordinary_explained_by_meningitis",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "脑膜炎期，脑膜及脊髓膜血管内皮细胞水肿、坏死、出血及通透性增加，重者脑实质发生炎症、水肿或充血，脑水肿导致颅内高压，严重者发生脑疝。"
+        ],
+        "confidence": 0.9
+      }
+    ]
+  },
+  "constraints": {
+    "weight_allowed_values": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      100
+    ],
+    "gender_allowed_values": [
+      "male",
+      "female",
+      "all",
+      null
+    ],
+    "polarity_allowed_values": [
+      "present",
+      "absent",
+      "positive",
+      "negative",
+      "elevated",
+      "decreased",
+      null
+    ],
+    "operator_allowed_values": [
+      ">",
+      ">=",
+      "<",
+      "<=",
+      "between",
+      "equals",
+      "contains",
+      null
+    ],
+    "rules": {
+      "diagnostic_target_is_sub_disease": true,
+      "test_reference_range_only_in_test_entity": true,
+      "diagnostic_threshold_only_in_requires_test": true,
+      "gold_standard_weight_100_only_when_explicit": true,
+      "evidence_ids_use_original_text_span_before_id_backfill": true
+    }
+  }
+}

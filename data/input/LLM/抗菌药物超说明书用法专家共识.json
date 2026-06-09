@@ -11,130 +11,22 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_abpa",
-        "name": "变应性支气管肺曲霉病",
-        "normalized_name": "变应性支气管肺曲霉病",
-        "aliases": [
-          "ABPA",
-          "过敏性支气管肺曲霉病"
-        ],
-        "source_document_ids": [
-          "抗菌药物超说明书用法专家共识"
-        ],
-        "evidence_ids": [
-          "2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200 mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_uti",
-        "name": "尿路感染",
-        "normalized_name": "尿路感染",
-        "aliases": [
-          "泌尿道感染",
-          "尿路感染（UTI）"
-        ],
-        "source_document_ids": [
-          "抗菌药物超说明书用法专家共识"
-        ],
-        "evidence_ids": [
-          "目前国内已批准的适应证：呼吸道感染、泌尿系统感染、皮肤软组织感染、胆道感染、生殖系统感染及血流感染。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_meningitis",
+        "id": "disease_bacterial_meningitis",
         "name": "细菌性脑膜炎",
         "normalized_name": "细菌性脑膜炎",
         "aliases": [
-          "化脓性脑膜炎"
+          "脑膜炎"
         ],
         "source_document_ids": [
           "抗菌药物超说明书用法专家共识"
         ],
         "evidence_ids": [
-          "美国感染病学会关于细菌性脑膜炎治疗指南拉1中推荐，青霉素G治疗对青霉素敏感的最低抑菌浓度(MIC)<0．1 mg／L的脑膜炎奈瑟球菌、肺炎链球菌及无乳链球菌所致的脑膜炎，成人剂量为2400万U／d，1次／4 h(A级)。"
+          "细菌性脑膜炎治疗：美国感染病学会(IDSA)推荐氨苄西林作为首选药物治疗青霉素敏感的肺炎链球菌、脑膜炎奈瑟球菌"
         ],
         "confidence": 0.95
       },
       {
-        "id": "disease_endocarditis",
-        "name": "感染性心内膜炎",
-        "normalized_name": "感染性心内膜炎",
-        "aliases": [
-          "细菌性心内膜炎"
-        ],
-        "source_document_ids": [
-          "抗菌药物超说明书用法专家共识"
-        ],
-        "evidence_ids": [
-          "美国心脏病学会关于心内膜炎诊治指南提出。3J：对青霉素相对耐药(MIC为0．12—0．50 ms／L)的草绿色链球菌和牛链球菌引起的天然瓣膜感染时，剂量可加大到2 400万U／d。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_cystic_fibrosis",
-        "name": "囊性纤维化",
-        "normalized_name": "囊性纤维化",
-        "aliases": [
-          "CF"
-        ],
-        "source_document_ids": [
-          "抗菌药物超说明书用法专家共识"
-        ],
-        "evidence_ids": [
-          "美国和欧洲FDA_21推荐吸入氨曲南治疗囊性肺纤维化合并铜绿假单胞菌感染，但不推荐用于其他下呼吸道感染(A级)。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_brucellosis",
-        "name": "布鲁菌病",
-        "normalized_name": "布鲁菌病",
-        "aliases": [
-          "布氏杆菌病"
-        ],
-        "source_document_ids": [
-          "抗菌药物超说明书用法专家共识"
-        ],
-        "evidence_ids": [
-          "(3)与青霉素或氨苄西林联合治疗草绿色链球菌或肠球菌所致的心内膜炎。与青霉素(或氨苄西林)合用可治疗肠球菌属感染。(2)单用于治疗土拉菌病，或与其他抗菌药物联合用于鼠疫、腹股沟肉芽肿、布鲁菌病及鼠咬热等的治疗；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_tuberculosis",
-        "name": "结核病",
-        "normalized_name": "结核病",
-        "aliases": [
-          "肺结核",
-          "活动性结核"
-        ],
-        "source_document_ids": [
-          "抗菌药物超说明书用法专家共识"
-        ],
-        "evidence_ids": [
-          "(1)与其他抗结核药物联合用于结核分枝杆菌所致各种结核病的初始治疗，或其他敏感分枝杆菌感染；"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_mdr_tb",
-        "name": "耐多药结核病",
-        "normalized_name": "耐多药结核病",
-        "aliases": [
-          "MDR-TB"
-        ],
-        "source_document_ids": [
-          "抗菌药物超说明书用法专家共识"
-        ],
-        "evidence_ids": [
-          "WHO公布的耐药结核病规划管理指南(2011年)忙1指出，对于MDR—TB患者，推荐联合使用氟喹诺酮类药物，如左氧氟沙星、莫西沙星和氧氟沙星(A级)。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_dpbl",
+        "id": "disease_dpb",
         "name": "弥漫性泛细支气管炎",
         "normalized_name": "弥漫性泛细支气管炎",
         "aliases": [
@@ -144,43 +36,12 @@
           "抗菌药物超说明书用法专家共识"
         ],
         "evidence_ids": [
-          "1．弥漫性泛细支气管炎(diffuse panbronchiolitis，DPB)：日本厚生省确定的DPB治疗方案。31的首选药物为红霉素，400—600 ms／次，El服，1次／d。"
+          "弥漫性泛细支气管炎(diffuse panbronchiolitis，DPB)：日本厚生省确定的DPB治疗方案的首选药物为红霉素"
         ],
         "confidence": 0.95
       },
       {
-        "id": "disease_bronchiectasis",
-        "name": "支气管扩张",
-        "normalized_name": "支气管扩张",
-        "aliases": [
-          "支气管扩张症"
-        ],
-        "source_document_ids": [
-          "抗菌药物超说明书用法专家共识"
-        ],
-        "evidence_ids": [
-          "2．支气管扩张：长期应用红霉素可以减少支气管扩张患者的急性发作次数，改善肺功能。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_copd",
-        "name": "慢性阻塞性肺疾病",
-        "normalized_name": "慢性阻塞性肺疾病",
-        "aliases": [
-          "慢阻肺",
-          "COPD"
-        ],
-        "source_document_ids": [
-          "抗菌药物超说明书用法专家共识"
-        ],
-        "evidence_ids": [
-          "3．慢性阻塞性肺疾病(慢阻肺)：大环内酯类抗生素可降低慢阻肺患者急性加重频率"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_helicobacter_pylori",
+        "id": "disease_hp_infection",
         "name": "幽门螺杆菌感染",
         "normalized_name": "幽门螺杆菌感染",
         "aliases": [
@@ -190,488 +51,339 @@
           "抗菌药物超说明书用法专家共识"
         ],
         "evidence_ids": [
-          "2．幽门螺杆菌(helicobacter pylori，HP)感染：(1)欧洲Maastricht．Ⅲ共识‘41推荐补救治疗方案为含铋剂的四联疗法"
+          "幽门螺杆菌(helicobacter pylori，HP)感染：(1)欧洲Maastricht-Ⅲ共识推荐补救治疗方案为含铋剂的四联疗法"
         ],
         "confidence": 0.95
       },
       {
-        "id": "disease_pneumonia",
-        "name": "肺炎",
-        "normalized_name": "肺炎",
+        "id": "disease_cryptococcal_meningitis",
+        "name": "隐球菌脑膜炎",
+        "normalized_name": "隐球菌脑膜炎",
         "aliases": [
-          "社区获得性肺炎",
-          "医院获得性肺炎"
+          "中枢神经系统隐球菌感染"
         ],
         "source_document_ids": [
           "抗菌药物超说明书用法专家共识"
         ],
         "evidence_ids": [
-          "一、说明书摘要…1．国内已经批准的适应证：肺炎及其他下呼吸道感染、尿路感染、脑膜炎、败血症、腹腔感染、盆腔感染、皮肤软组织感染、生殖系统感染、骨和关节感染等。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_pelvic_inflammatory_disease",
-        "name": "盆腔炎",
-        "normalized_name": "盆腔炎",
-        "aliases": [
-          "PID"
-        ],
-        "source_document_ids": [
-          "抗菌药物超说明书用法专家共识"
-        ],
-        "evidence_ids": [
-          "1．盆腔炎：欧洲、美国说明书E3z]均批准莫西沙星联合其他敏感抗菌药治疗轻度至中度盆腔炎(包括输卵管炎和子宫内膜炎)、输卵管、卵巢或盆腔脓肿。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_prostatitis",
-        "name": "前列腺炎",
-        "normalized_name": "前列腺炎",
-        "aliases": [
-          "细菌性前列腺炎"
-        ],
-        "source_document_ids": [
-          "抗菌药物超说明书用法专家共识"
-        ],
-        "evidence_ids": [
-          "2．前列腺炎：我国2014年泌尿外科疾病诊断治疗指南‘5o推荐可用喹诺酮类(如莫西沙星)治疗前列腺炎(B级)。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_surgical_site_infection",
-        "name": "手术部位感染",
-        "normalized_name": "手术部位感染",
-        "aliases": [
-          "SSI"
-        ],
-        "source_document_ids": [
-          "抗菌药物超说明书用法专家共识"
-        ],
-        "evidence_ids": [
-          "围手术期预防应用抗菌药物：美国食品药品监督管理局(FDA)‘23已批准该适应证，手术开始前30～60 min静脉使用l～2 g，手术时间超过2 h时，术中再加用0．5—1．0 g，术后24 h内0．5～1．0 g，1次／6～8 h(A级)。"
+          "隐球菌脑膜炎：①HIV感染患者的诱导和巩固治疗：2010年IDSA隐球菌病临床实践指南推荐"
         ],
         "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_abpa_serologic",
-        "name": "血清学ABPA",
-        "parent_disease_id": "disease_abpa",
-        "disease_subtype": "变应性支气管肺曲霉病",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200 mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_complicated_uti",
-        "name": "复杂性尿路感染",
-        "parent_disease_id": "disease_uti",
-        "disease_subtype": "尿路感染",
-        "clinical_stage": "不限定",
-        "severity": "复杂性",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "磷霉素钠注射剂还可与其他抗菌药物联合用于治疗敏感菌所致严重感染(如败血症、腹膜炎、骨髓炎等)。"
-        ],
-        "confidence": 0.9
-      },
-      {
         "id": "sub_disease_penicillin_sensitive_meningitis",
-        "name": "青霉素敏感细菌所致细菌性脑膜炎",
-        "parent_disease_id": "disease_meningitis",
-        "disease_subtype": "细菌性脑膜炎",
+        "name": "青霉素敏感菌所致细菌性脑膜炎",
+        "parent_disease_id": "disease_bacterial_meningitis",
+        "disease_subtype": null,
         "clinical_stage": "不限定",
         "severity": "重症",
         "population": "成人",
         "gender": "all",
-        "age_min": 18,
+        "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "美国感染病学会关于细菌性脑膜炎治疗指南拉1中推荐，青霉素G治疗对青霉素敏感的最低抑菌浓度(MIC)<0．1 mg／L的脑膜炎奈瑟球菌、肺炎链球菌及无乳链球菌所致的脑膜炎，成人剂量为2400万U／d，1次／4 h(A级)。"
+          "青霉素G治疗对青霉素敏感的最低抑菌浓度(MIC)<0.1 mg/L的脑膜炎奈瑟球菌、肺炎链球菌及无乳链球菌所致的脑膜炎"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_pneumococcal_endocarditis",
-        "name": "肺炎链球菌感染性心内膜炎",
-        "parent_disease_id": "disease_endocarditis",
-        "disease_subtype": "感染性心内膜炎",
+        "id": "sub_disease_dpb_default",
+        "name": "弥漫性泛细支气管炎",
+        "parent_disease_id": "disease_dpb",
+        "disease_subtype": null,
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
+        "severity": null,
+        "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "对青霉素敏感的肠球菌属引起的天然瓣膜或人工瓣膜心内膜炎，可应用青霉素G 1 800万一3 000万U／d，持续静脉滴注或分6次静脉滴注。"
+          "弥漫性泛细支气管炎(diffuse panbronchiolitis，DPB)：日本厚生省确定的DPB治疗方案的首选药物为红霉素"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_cf_pseudomonas",
-        "name": "囊性纤维化合并铜绿假单胞菌感染",
-        "parent_disease_id": "disease_cystic_fibrosis",
-        "disease_subtype": "囊性纤维化",
+        "id": "sub_disease_hp_default",
+        "name": "幽门螺杆菌感染",
+        "parent_disease_id": "disease_hp_infection",
+        "disease_subtype": null,
         "clinical_stage": "不限定",
-        "severity": "慢性",
-        "population": "CF患者",
+        "severity": null,
+        "population": null,
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "美国和欧洲FDA_21推荐吸入氨曲南治疗囊性肺纤维化合并铜绿假单胞菌感染，但不推荐用于其他下呼吸道感染(A级)。"
+          "幽门螺杆菌(helicobacter pylori，HP)感染：(1)欧洲Maastricht-Ⅲ共识推荐补救治疗方案为含铋剂的四联疗法"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_brucellosis_adult",
-        "name": "成人布鲁菌病",
-        "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": "布鲁菌病",
+        "id": "sub_disease_crypto_hiv",
+        "name": "HIV感染患者隐球菌脑膜炎",
+        "parent_disease_id": "disease_cryptococcal_meningitis",
+        "disease_subtype": null,
         "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "成人",
-        "gender": "all",
-        "age_min": 18,
-        "age_max": null,
-        "evidence_ids": [
-          "(2)单用于治疗土拉菌病，或与其他抗菌药物联合用于鼠疫、腹股沟肉芽肿、布鲁菌病及鼠咬热等的治疗；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_mdr_tb_hiv",
-        "name": "HIV感染者耐多药结核病",
-        "parent_disease_id": "disease_mdr_tb",
-        "disease_subtype": "耐多药结核病",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "HIV感染者",
+        "severity": null,
+        "population": "HIV感染患者",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "阿米卡星(10—15 ms／kg，1次／d，静脉滴注)联合其他抗菌药物，治疗HIV患者播散性鸟分枝杆菌复合群感染(c级)。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_dpbl_initial",
-        "name": "弥漫性泛细支气管炎初期",
-        "parent_disease_id": "disease_dpbl",
-        "disease_subtype": "弥漫性泛细支气管炎",
-        "clinical_stage": "初期",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "疾病初期的病例经过6个月治疗恢复正常的可以停药；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_bronchiectasis_stable",
-        "name": "稳定期支气管扩张",
-        "parent_disease_id": "disease_bronchiectasis",
-        "disease_subtype": "支气管扩张",
-        "clinical_stage": "稳定期",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "使用小剂量阿奇霉素治疗反复发作的支气管扩张症有一定效果。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_copd_exacerbation",
-        "name": "慢阻肺急性加重",
-        "parent_disease_id": "disease_copd",
-        "disease_subtype": "慢性阻塞性肺疾病",
-        "clinical_stage": "急性加重期",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "长期应用阿奇霉素可减少慢阻肺急性发作的次数及住院次数。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_hp_gastritis",
-        "name": "幽门螺杆菌相关胃炎",
-        "parent_disease_id": "disease_helicobacter_pylori",
-        "disease_subtype": "幽门螺杆菌感染",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "治疗幽门螺杆菌引起的消化性溃疡、慢性胃炎：在一项目前瞻性、随机对照临床研究中，203例幽门螺杆菌阳性的活动性十二指肠溃疡患者随机分人3个治疗组"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_hap_vap",
-        "name": "医院获得性肺炎/呼吸机相关性肺炎",
-        "parent_disease_id": "disease_pneumonia",
-        "disease_subtype": "肺炎",
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": "机械通气患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "治疗MIC=4 mg／L致病菌引起的呼吸机相关性肺炎(VAP)，亚胺培南1 g，1次／6 h，延长滴注时间至2 h可增加疗效(B级)；"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_pid_mild",
-        "name": "轻度至中度盆腔炎",
-        "parent_disease_id": "disease_pelvic_inflammatory_disease",
-        "disease_subtype": "盆腔炎",
-        "clinical_stage": "不限定",
-        "severity": "轻度至中度",
-        "population": "不限定",
-        "gender": "female",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "1．盆腔炎：欧洲、美国说明书E3z]均批准莫西沙星联合其他敏感抗菌药治疗轻度至中度盆腔炎(包括输卵管炎和子宫内膜炎)、输卵管、卵巢或盆腔脓肿。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_prostatitis_bacterial",
-        "name": "细菌性前列腺炎",
-        "parent_disease_id": "disease_prostatitis",
-        "disease_subtype": "前列腺炎",
-        "clinical_stage": "不限定",
-        "severity": "不限定",
-        "population": "不限定",
-        "gender": "male",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "2．前列腺炎：我国2014年泌尿外科疾病诊断治疗指南‘5o推荐可用喹诺酮类(如莫西沙星)治疗前列腺炎(B级)。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_ssi_cardiac_surgery",
-        "name": "心脏手术后手术部位感染",
-        "parent_disease_id": "disease_surgical_site_infection",
-        "disease_subtype": "手术部位感染",
-        "clinical_stage": "术后",
-        "severity": "不限定",
-        "population": "心脏手术患者",
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "ASHP、IDSA、SIS及SHEA共同制定发布的外科手术抗菌药物预防使用临床实践指南∞o中推荐，头孢唑啉用于心脏搭桥术(A级)、心脏装置植入术(A级)"
+          "隐球菌脑膜炎：①HIV感染患者的诱导和巩固治疗：2010年IDSA隐球菌病临床实践指南推荐"
         ],
         "confidence": 0.9
       }
     ],
     "symptoms": [
       {
-        "id": "symptom_fever",
-        "name": "发热",
-        "body_site": "全身",
-        "symptom_category": "全身症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "粒细胞缺乏伴发热：日本的一项比阿培南治疗血液系统疾病患者粒细胞缺乏伴发热的多中心非盲无对照研究结果"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_wheezing",
-        "name": "喘息",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "typical",
-        "evidence_ids": [
-          "2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200 mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "symptom_cough",
-        "name": "咳嗽",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
-        "polarity": "present",
-        "typicality": "common",
-        "evidence_ids": [
-          "2．支气管扩张：长期应用红霉素可以减少支气管扩张患者的急性发作次数，改善肺功能。"
-        ],
-        "confidence": 0.9
-      },
-      {
         "id": "symptom_dyspnea",
         "name": "呼吸困难",
-        "body_site": "呼吸系统",
+        "body_site": "肺部",
         "symptom_category": "呼吸系统症状",
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "刘积锋等‘2o将50例支气管扩张症患者随机分为对照组和治疗组，对照组仅口服盐酸氨溴索，治疗组加用罗红霉素0．15 g／次，1次／d，疗程均 为6个月。治疗组呼吸困难评分(1．3 4-0．4)比对照组 (1．7±0．4)显著改善(P<0．01)(C级)。"
+          "对于伴有严重呼吸功能障碍的病例，需要更长时间给药"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       }
     ],
     "tests": [
       {
-        "id": "test_mic_pneumococcus",
-        "name": "肺炎链球菌最低抑菌浓度",
+        "id": "test_mic",
+        "name": "最低抑菌浓度(MIC)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "美国感染病学会关于细菌性脑膜炎治疗指南拉1中推荐，青霉素G治疗对青霉素敏感的最低抑菌浓度(MIC)<0．1 mg／L的脑膜炎奈瑟球菌、肺炎链球菌及无乳链球菌所致的脑膜炎"
+          "青霉素G治疗对青霉素敏感的最低抑菌浓度(MIC)<0.1 mg/L的脑膜炎奈瑟球菌"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "test_mic_pseudomonas",
-        "name": "铜绿假单胞菌最低抑菌浓度",
-        "normal_range_min": null,
-        "normal_range_max": null,
-        "is_digital": 1,
-        "evidence_ids": [
-          "治疗MIC=4 mg／L致病菌引起的呼吸机相关性肺炎(VAP)，亚胺培南1 g，1次／6 h，延长滴注时间至2 h可增加疗效(B级)；"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "treatments": [
       {
-        "id": "treatment_abpa_anti_inflammatory",
-        "content": "糖皮质激素联合伊曲康唑治疗",
-        "recommendation_strength": "strong",
-        "source_section": "第二章 大环内酯类抗生素",
+        "id": "treatment_penicillin_g_meningitis",
+        "content": "对青霉素敏感的最低抑菌浓度(MIC)<0.1 mg/L的脑膜炎奈瑟球菌、肺炎链球菌及无乳链球菌所致的脑膜炎，推荐选择较大剂量，采取持续或多次给药方式。",
+        "recommendation_strength": "A级",
+        "source_section": "超说明书用药",
         "evidence_ids": [
-          "2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200 mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
+          "青霉素G不良反应少，对于敏感菌所致的脑膜炎及感染性心内膜炎推荐选择较大剂量，采取持续或多次给药方式，以获得良好疗效。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "treatment_dpbl_macrolide",
-        "content": "长期小剂量大环内酯类治疗",
-        "recommendation_strength": "strong",
-        "source_section": "第二章 大环内酯类抗生素",
+        "id": "treatment_macrolide_dpb",
+        "content": "长期应用小剂量大环内酯类抗生素治疗DPB，可使患者的临床症状和肺功能得到改善。",
+        "recommendation_strength": "A级",
+        "source_section": "超说明书用药",
         "evidence_ids": [
-          "日本厚生省确定的DPB治疗方案。31的首选药物为红霉素，400—600 ms／次，El服，1次／d。"
+          "大环内酯类抗生素除抗菌作用外，还具有非特异性抗炎和免疫调节作用，可长期服用治疗DPB。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_fluoroquinolone_hp",
+        "content": "含氟喹诺酮类（如左氧氟沙星、莫西沙星）的三联疗法用于HP感染的补救治疗或一线治疗。",
+        "recommendation_strength": "B级",
+        "source_section": "超说明书用药",
+        "evidence_ids": [
+          "含左氧氟沙星的三联疗法(B级)。",
+          "对以莫西沙星为基础的三联疗法与标准三联或四联疗法治疗HP感染的数据(1 263例)进行荟萃分析，表明前者更有效，具有更好的耐受性(B级)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "treatment_fluconazole_crypto",
+        "content": "氟康唑高剂量单药或联合两性霉素B、氟胞嘧啶治疗HIV相关隐球菌性脑膜炎。",
+        "recommendation_strength": "B级",
+        "source_section": "超说明书用药",
+        "evidence_ids": [
+          "高剂量的氟康唑(800 mg，1次/d或者600 mg，1次/12 h)单药或与两性霉素B、氟胞嘧啶联用治疗HIV相关隐球菌性脑膜炎可取得较好的早期杀菌活性(B级)。"
         ],
         "confidence": 0.9
       }
     ],
     "plans": [
       {
-        "id": "plan_izt_200mg_twice_daily",
-        "content": "伊曲康唑200 mg／次，2次／d",
+        "id": "plan_penicillin_g_24m",
+        "content": "青霉素G治疗对青霉素敏感的最低抑菌浓度(MIC)<0.1 mg/L的脑膜炎奈瑟球菌、肺炎链球菌及无乳链球菌所致的脑膜炎，成人剂量为2400万U/d，1次/4 h(A级)。",
         "plan_level": 1,
-        "applicable_condition": "确诊为ABPA",
-        "contraindication_note": "肝功能异常患者慎用",
+        "applicable_condition": "MIC<0.1 mg/L的敏感菌所致脑膜炎",
+        "contraindication_note": null,
         "evidence_ids": [
-          "2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200 mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
+          "青霉素G治疗对青霉素敏感的最低抑菌浓度(MIC)<0.1 mg/L的脑膜炎奈瑟球菌、肺炎链球菌及无乳链球菌所致的脑膜炎，成人剂量为2400万U/d，1次/4 h(A级)。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_ampicillin_2g",
+        "content": "氨苄西林作为首选药物治疗青霉素敏感的肺炎链球菌、脑膜炎奈瑟球菌、肠球菌(联合庆大霉素)、单核细胞增多李斯特菌及不产B-内酰胺酶的流感嗜血杆菌所致的脑膜炎，剂量为2.0 g，1次/4 h，静脉滴注(A级)。",
+        "plan_level": 1,
+        "applicable_condition": "青霉素敏感菌所致脑膜炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "氨苄西林作为首选药物治疗青霉素敏感的肺炎链球菌、脑膜炎奈瑟球菌、肠球菌(联合庆大霉素)、单核细胞增多李斯特菌及不产B-内酰胺酶的流感嗜血杆菌所致的脑膜炎，剂量为2.0 g，1次/4 h，静脉滴注(A级)。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_erythromycin_dpb",
+        "content": "红霉素400—600 mg/次，口服，1次/d。处于疾病初期的病例经过6个月治疗恢复正常的可以停药；对于疾病进展期的病例经过2年治疗病情稳定者可以停药，但对于伴有严重呼吸功能障碍的病例，需要更长时间给药(A级)。",
+        "plan_level": 1,
+        "applicable_condition": "弥漫性泛细支气管炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "日本厚生省确定的DPB治疗方案的首选药物为红霉素，400—600 mg/次，口服，1次/d。处于疾病初期的病例经过6个月治疗恢复正常的可以停药；对于疾病进展期的病例经过2年治疗病情稳定者可以停药，但对于伴有严重呼吸功能障碍的病例，需要更长时间给药(A级)。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_clarithromycin_dpb",
+        "content": "选用同类14元环的克拉霉素200 mg/d或400 mg/d，口服，疗程与红霉素类似(A级)。",
+        "plan_level": 2,
+        "applicable_condition": "弥漫性泛细支气管炎，作为红霉素的替代药物",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "作为红霉素的替代药物，可以选用同类14元环的克拉霉素200 mg/d或400 mg/d，口服，疗程与红霉素类似。"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_erythromycin_400_600mg_daily",
-        "content": "红霉素400—600 mg／次，口服，1次／d",
+        "id": "plan_levo_triple_hp",
+        "content": "含左氧氟沙星的三联疗法(B级)。",
         "plan_level": 1,
-        "applicable_condition": "确诊为DPB初期",
-        "contraindication_note": "肝肾功能损害患者应慎重给药",
+        "applicable_condition": "幽门螺杆菌感染补救治疗或一线治疗",
+        "contraindication_note": null,
         "evidence_ids": [
-          "日本厚生省确定的DPB治疗方案。31的首选药物为红霉素，400—600 ms／次，El服，1次／d。"
+          "含左氧氟沙星的三联疗法(B级)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_moxi_triple_hp",
+        "content": "莫西沙星为基础的三联疗法(B级)。",
+        "plan_level": 1,
+        "applicable_condition": "幽门螺杆菌感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对以莫西沙星为基础的三联疗法与标准三联或四联疗法治疗HP感染的数据(1 263例)进行荟萃分析，表明前者更有效，具有更好的耐受性(B级)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "plan_fluconazole_800_1200",
+        "content": "氟康唑(800 mg/d，口服，至少8周)可作为两性霉素B联合氟胞嘧啶治疗2周后的序贯治疗；或者氟康唑(800 mg/d，口服；1 200 mg/d更佳)联合氟胞嘧啶治疗6周；或者氟康唑(800～2 000 mg/d，口服)治疗10～12周(B级)。",
+        "plan_level": 1,
+        "applicable_condition": "HIV感染患者隐球菌脑膜炎诱导和巩固治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "氟康唑(800 mg/d，口服，至少8周)可作为两性霉素B(0.7～1.0 mg·kg-1·d-1，静脉滴注)联合氟胞嘧啶(800 mg/d，口服)治疗2周后的序贯治疗；或者氟康唑(800 mg/d，口服；1 200 mg/d更佳)联合氟胞嘧啶(100 mg·kg-1·d-1，口服)治疗6周；或者氟康唑(800～2 000 mg/d，口服)治疗10～12周"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_amb_intrathecal",
+        "content": "在唑类抗菌药物治疗脑膜感染无效时可采用鞘内注射两性霉素B(C级)。",
+        "plan_level": 2,
+        "applicable_condition": "唑类抗菌药物治疗脑膜感染无效",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "在唑类抗菌药物治疗脑膜感染无效时可采用鞘内注射两性霉素B(C级)。"
         ],
         "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_aspergillus_sensitization",
-        "content": "曲霉致敏",
+        "id": "etiology_hp",
+        "content": "幽门螺杆菌感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200 mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
+          "幽门螺杆菌(helicobacter pylori，HP)感染"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "etiology_pseudomonas_aeruginosa",
-        "content": "铜绿假单胞菌感染",
+        "id": "etiology_cryptococcus",
+        "content": "隐球菌感染",
         "etiology_type": "感染因素",
-        "typicality": "typical",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "美国和欧洲FDA_21推荐吸入氨曲南治疗囊性肺纤维化合并铜绿假单胞菌感染，但不推荐用于其他下呼吸道感染(A级)。"
+          "中枢神经系统隐球菌感染"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_abpa_type1_hypersensitivity",
-        "content": "I型超敏反应导致气道炎症和黏液栓形成",
+        "id": "pathogenesis_macrolide_anti_inflammatory",
+        "content": "大环内酯类抗生素除抗菌作用外，还具有非特异性抗炎和免疫调节作用，可长期服用治疗DPB。",
         "evidence_ids": [
-          "2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200 mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
+          "大环内酯类抗生素除抗菌作用外，还具有非特异性抗炎和免疫调节作用，可长期服用治疗DPB。"
         ],
-        "confidence": 0.75
+        "confidence": 0.85
       }
     ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_abpa",
-        "to": "sub_disease_abpa_serologic",
-        "relation_id": "rel_abpa_has_serologic_abpa",
+        "from": "disease_bacterial_meningitis",
+        "to": "sub_disease_penicillin_sensitive_meningitis",
+        "relation_id": "rel_bacterial_meningitis_has_penicillin_sensitive",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200 mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
+          "青霉素G治疗对青霉素敏感的最低抑菌浓度(MIC)<0.1 mg/L的脑膜炎奈瑟球菌、肺炎链球菌及无乳链球菌所致的脑膜炎"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_dpb",
+        "to": "sub_disease_dpb_default",
+        "relation_id": "rel_dpb_has_default",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "弥漫性泛细支气管炎(diffuse panbronchiolitis，DPB)"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_hp_infection",
+        "to": "sub_disease_hp_default",
+        "relation_id": "rel_hp_has_default",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "幽门螺杆菌(helicobacter pylori，HP)感染"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "disease_cryptococcal_meningitis",
+        "to": "sub_disease_crypto_hiv",
+        "relation_id": "rel_crypto_has_hiv",
+        "relation_name": "包含分型",
+        "relation_type": "has_sub_disease",
+        "evidence_ids": [
+          "隐球菌脑膜炎：①HIV感染患者的诱导和巩固治疗"
         ],
         "confidence": 0.9
       }
     ],
     "manifests_as": [
       {
-        "from": "sub_disease_abpa_serologic",
-        "to": "symptom_wheezing",
-        "relation_id": "rel_abpa_manifests_as_wheezing",
+        "from": "sub_disease_dpb_default",
+        "to": "symptom_dyspnea",
+        "relation_id": "rel_dpb_manifests_as_dyspnea",
         "relation_name": "表现为",
         "relation_type": "manifests_as",
         "diagnostic_role": "supportive",
@@ -679,87 +391,242 @@
         "weight": 6,
         "criterion_group_id": null,
         "required_count": null,
-        "typicality": "typical",
+        "typicality": "common",
         "duration_condition": null,
-        "section_priority": "诊断标准",
+        "section_priority": "超说明书用药",
         "evidence_ids": [
-          "2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200 mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
+          "对于伴有严重呼吸功能障碍的病例，需要更长时间给药"
         ],
-        "confidence": 0.9
+        "confidence": 0.85
       }
     ],
     "requires_test": [
       {
-        "from": "sub_disease_abpa_serologic",
-        "to": "test_mic_pneumococcus",
-        "relation_id": "rel_abpa_requires_mic_pneumococcus",
+        "from": "sub_disease_penicillin_sensitive_meningitis",
+        "to": "test_mic",
+        "relation_id": "rel_meningitis_requires_mic",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
-        "value_min": 0.1,
-        "value_max": null,
+        "value_min": null,
+        "value_max": 0.1,
         "operator": "<",
         "unit": "mg/L",
         "result_text": null,
-        "weight": 1,
+        "weight": 8,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
-        "polarity": "elevated",
+        "polarity": "decreased",
         "typicality": "typical",
-        "section_priority": "诊断标准",
+        "section_priority": "超说明书用药",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "美国感染病学会关于细菌性脑膜炎治疗指南拉1中推荐，青霉素G治疗对青霉素敏感的最低抑菌浓度(MIC)<0．1 mg／L的脑膜炎奈瑟球菌、肺炎链球菌及无乳链球菌所致的脑膜炎，成人剂量为2400万U／d，1次／4 h(A级)。"
+          "青霉素G治疗对青霉素敏感的最低抑菌浓度(MIC)<0.1 mg/L的脑膜炎奈瑟球菌"
         ],
-        "confidence": 0.9,
-        "weight_reason": "原文未提及ABPA与肺炎链球菌MIC检测的任何关联，亦无'强相关/高度相关/提示/常见'等表述",
-        "evidence": "过敏性支气管肺曲霉病(ABPA)：2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
+        "confidence": 0.95,
+        "weight_reason": "原文指出治疗青霉素敏感的脑膜炎需明确最低抑菌浓度(MIC)<0.1mg/L，说明需要MIC检测来指导用药。",
+        "evidence": "低抑菌浓度(MIC)<0．1"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_abpa_serologic",
-        "to": "treatment_abpa_anti_inflammatory",
-        "relation_id": "rel_abpa_follows_anti_inflammatory_treatment",
+        "from": "sub_disease_penicillin_sensitive_meningitis",
+        "to": "treatment_penicillin_g_meningitis",
+        "relation_id": "rel_meningitis_follows_penicillin_g",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "MIC<0.1 mg/L",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "A级",
+        "decision_basis": [
+          "MIC值"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "超说明书用药",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_dpb_default",
+        "to": "treatment_macrolide_dpb",
+        "relation_id": "rel_dpb_follows_macrolide",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
         "applicable_condition": "明确诊断后",
         "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
+        "recommendation_strength": "A级",
         "decision_basis": [
           "疾病分型"
         ],
         "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "第二章 大环内酯类抗生素",
+        "source_section": "超说明书用药",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_hp_default",
+        "to": "treatment_fluoroquinolone_hp",
+        "relation_id": "rel_hp_follows_fluoroquinolone",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "二线",
+        "applicable_condition": "补救治疗或一线治疗",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "B级",
+        "decision_basis": [
+          "既往治疗史"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "超说明书用药",
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_crypto_hiv",
+        "to": "treatment_fluconazole_crypto",
+        "relation_id": "rel_crypto_hiv_follows_fluconazole",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线",
+        "applicable_condition": "诱导和巩固治疗",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "B级",
+        "decision_basis": [
+          "HIV感染状态"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "超说明书用药",
         "confidence": 0.9
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_abpa_anti_inflammatory",
-        "to": "plan_izt_200mg_twice_daily",
-        "relation_id": "rel_treatment_implements_by_plan",
+        "from": "treatment_penicillin_g_meningitis",
+        "to": "plan_penicillin_g_24m",
+        "relation_id": "rel_penicillin_g_implements_24m",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "适用条件",
-        "contraindication_note": "肝功能异常患者慎用",
+        "applicable_condition": "MIC<0.1 mg/L",
+        "contraindication_note": null,
         "evidence_ids": [
-          "2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200 mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
+          "青霉素G治疗对青霉素敏感的最低抑菌浓度(MIC)<0.1 mg/L的脑膜炎奈瑟球菌、肺炎链球菌及无乳链球菌所致的脑膜炎，成人剂量为2400万U/d，1次/4 h(A级)。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_penicillin_g_meningitis",
+        "to": "plan_ampicillin_2g",
+        "relation_id": "rel_penicillin_g_implements_ampicillin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "青霉素敏感菌",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "氨苄西林作为首选药物治疗青霉素敏感的肺炎链球菌、脑膜炎奈瑟球菌、肠球菌(联合庆大霉素)、单核细胞增多李斯特菌及不产B-内酰胺酶的流感嗜血杆菌所致的脑膜炎，剂量为2.0 g，1次/4 h，静脉滴注(A级)。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_macrolide_dpb",
+        "to": "plan_erythromycin_dpb",
+        "relation_id": "rel_macrolide_implements_erythromycin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "弥漫性泛细支气管炎",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "日本厚生省确定的DPB治疗方案的首选药物为红霉素，400—600 mg/次，口服，1次/d。"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_macrolide_dpb",
+        "to": "plan_clarithromycin_dpb",
+        "relation_id": "rel_macrolide_implements_clarithromycin",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "作为红霉素的替代药物",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "作为红霉素的替代药物，可以选用同类14元环的克拉霉素200 mg/d或400 mg/d，口服，疗程与红霉素类似。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_fluoroquinolone_hp",
+        "to": "plan_levo_triple_hp",
+        "relation_id": "rel_fluoro_implements_levo",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "HP感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "含左氧氟沙星的三联疗法(B级)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_fluoroquinolone_hp",
+        "to": "plan_moxi_triple_hp",
+        "relation_id": "rel_fluoro_implements_moxi",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "HP感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "对以莫西沙星为基础的三联疗法与标准三联或四联疗法治疗HP感染的数据(1 263例)进行荟萃分析，表明前者更有效，具有更好的耐受性(B级)。"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "from": "treatment_fluconazole_crypto",
+        "to": "plan_fluconazole_800_1200",
+        "relation_id": "rel_fluconazole_implements_800_1200",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "HIV感染患者诱导和巩固治疗",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "氟康唑(800 mg/d，口服，至少8周)可作为两性霉素B(0.7～1.0 mg·kg-1·d-1，静脉滴注)联合氟胞嘧啶(800 mg/d，口服)治疗2周后的序贯治疗"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_fluconazole_crypto",
+        "to": "plan_amb_intrathecal",
+        "relation_id": "rel_fluconazole_implements_amb_intrathecal",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "补救",
+        "applicable_condition": "唑类抗菌药物治疗脑膜感染无效",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "在唑类抗菌药物治疗脑膜感染无效时可采用鞘内注射两性霉素B(C级)。"
         ],
         "confidence": 0.9
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_abpa_serologic",
-        "to": "etiology_aspergillus_sensitization",
-        "relation_id": "rel_aspergillus_sensitization_causes_abpa",
+        "from": "sub_disease_hp_default",
+        "to": "etiology_hp",
+        "relation_id": "rel_hp_causes_hp_infection",
         "relation_name": "相关",
         "relation_type": "causes",
         "causal_strength": "strong",
@@ -767,22 +634,37 @@
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200 mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
+          "幽门螺杆菌(helicobacter pylori，HP)感染"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_crypto_hiv",
+        "to": "etiology_cryptococcus",
+        "relation_id": "rel_cryptococcus_causes_crypto_hiv",
+        "relation_name": "相关",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "中枢神经系统隐球菌感染"
+        ],
+        "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_abpa_serologic",
-        "to": "pathogenesis_abpa_type1_hypersensitivity",
-        "relation_id": "rel_abpa_explained_by_type1_hypersensitivity",
+        "from": "sub_disease_dpb_default",
+        "to": "pathogenesis_macrolide_anti_inflammatory",
+        "relation_id": "rel_dpb_explained_by_macrolide",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "2008年IDSA曲霉病诊治指南旧1和2011年ATS成人肺部与重症患者真菌病治疗指南\"o推荐，糖皮质激素联合伊曲康唑(200 mg／次，2次／d)治疗过敏性支气管肺曲霉病(A级)。"
+          "大环内酯类抗生素除抗菌作用外，还具有非特异性抗炎和免疫调节作用，可长期服用治疗DPB。"
         ],
-        "confidence": 0.8
+        "confidence": 0.85
       }
     ]
   },

@@ -1,11 +1,60 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: Arial, "Microsoft YaHei", sans-serif; color: #1f2937; background: #f3f4f6; }
 #app { height: 100vh; display: flex; flex-direction: column; }
-.topbar { height: 56px; padding: 10px 16px; background: #111827; color: #fff; display: flex; align-items: center; gap: 12px; }
-.topbar h1 { font-size: 17px; margin: 0 18px 0 0; font-weight: 700; }
-.topbar select, .topbar button { height: 32px; border-radius: 6px; border: 1px solid #374151; padding: 0 8px; }
+.topbar {
+  height: 56px;
+  padding: 10px 16px;
+  background: #111827;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: clamp(4px, 0.75cqi, 12px);
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  min-width: 0;
+  overflow: hidden;
+  container-type: inline-size;
+  font-size: clamp(9px, 0.875cqi, 14px);
+}
+.topbar h1 {
+  font-size: clamp(11px, 1.06cqi, 17px);
+  margin: 0 clamp(8px, 1.1cqi, 18px) 0 0;
+  font-weight: 700;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.topbar > span:not(.small) { flex-shrink: 0; white-space: nowrap; }
+.topbar select, .topbar button {
+  height: clamp(26px, 5.8cqi, 32px);
+  font-size: inherit;
+  border-radius: 6px;
+  border: 1px solid #374151;
+  padding: 0 clamp(4px, 0.55cqi, 8px);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
 .topbar button { cursor: pointer; background: #374151; color: #fff; }
-.topbar .program-select { min-width: 108px; background: #1f2937; color: #fff; }
+.topbar .program-select {
+  min-width: clamp(72px, 12cqi, 108px);
+  max-width: 14cqi;
+  background: #1f2937;
+  color: #fff;
+}
+.topbar .doc-select {
+  flex: 1 1 auto;
+  min-width: clamp(72px, 14cqi, 140px);
+  max-width: clamp(140px, 36cqi, 520px);
+  background: #1f2937;
+  color: #fff;
+}
+.topbar .small {
+  flex-shrink: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: inherit;
+}
 .main { flex: 1; display: grid; grid-template-columns: 50% 50%; gap: 0; min-height: 0; }
 .left, .right { min-width: 0; min-height: 0; padding: 12px; display: grid; gap: 12px; }
 .left { grid-template-rows: 1fr auto; border-right: 1px solid #d1d5db; }
@@ -66,7 +115,32 @@ body { margin: 0; font-family: Arial, "Microsoft YaHei", sans-serif; color: #1f2
 .panel-header { height: 40px; flex: 0 0 auto; padding: 0 12px; border-bottom: 1px solid #e5e7eb; display: flex; justify-content: space-between; align-items: center; background: #f9fafb; font-weight: 700; }
 .panel-body { padding: 12px; overflow: auto; min-height: 0; }
 .chunk-text { white-space: pre-wrap; line-height: 1.8; font-size: 15px; word-break: break-word; }
-.entity-hl { border-radius: 2px; }
+.entity-hl { border-radius: 2px; transition: background-color 0.15s ease, box-shadow 0.15s ease; }
+.entity-hl--active { box-shadow: inset 0 0 0 1px rgba(37, 99, 235, 0.45); }
+.entity-hl--active.entity-hl--bg[data-etype="疾病"] { background-color: #fecaca; }
+.entity-hl--active.entity-hl--underline[data-etype="疾病"],
+.entity-hl--active.entity-hl--wavy[data-etype="疾病"] { background-color: #fee2e2; }
+.entity-hl--active.entity-hl--bg[data-etype="确诊疾病"] { background-color: #fed7aa; }
+.entity-hl--active.entity-hl--underline[data-etype="确诊疾病"],
+.entity-hl--active.entity-hl--wavy[data-etype="确诊疾病"] { background-color: #ffedd5; }
+.entity-hl--active.entity-hl--bg[data-etype="临床表现"] { background-color: #bfdbfe; }
+.entity-hl--active.entity-hl--underline[data-etype="临床表现"],
+.entity-hl--active.entity-hl--wavy[data-etype="临床表现"] { background-color: #dbeafe; }
+.entity-hl--active.entity-hl--bg[data-etype="指标"] { background-color: #fbcfe8; }
+.entity-hl--active.entity-hl--underline[data-etype="指标"],
+.entity-hl--active.entity-hl--wavy[data-etype="指标"] { background-color: #fce7f3; }
+.entity-hl--active.entity-hl--bg[data-etype="病因"] { background-color: #fef08a; }
+.entity-hl--active.entity-hl--underline[data-etype="病因"],
+.entity-hl--active.entity-hl--wavy[data-etype="病因"] { background-color: #fef9c3; }
+.entity-hl--active.entity-hl--bg[data-etype="病理生理机制阐述"] { background-color: #e9d5ff; }
+.entity-hl--active.entity-hl--underline[data-etype="病理生理机制阐述"],
+.entity-hl--active.entity-hl--wavy[data-etype="病理生理机制阐述"] { background-color: #f3e8ff; }
+.entity-hl--active.entity-hl--bg[data-etype="治疗原则"] { background-color: #bbf7d0; }
+.entity-hl--active.entity-hl--underline[data-etype="治疗原则"],
+.entity-hl--active.entity-hl--wavy[data-etype="治疗原则"] { background-color: #dcfce7; }
+.entity-hl--active.entity-hl--bg[data-etype="治疗方案"] { background-color: #a5f3fc; }
+.entity-hl--active.entity-hl--underline[data-etype="治疗方案"],
+.entity-hl--active.entity-hl--wavy[data-etype="治疗方案"] { background-color: #cffafe; }
 .entity-hl--bg[data-etype="疾病"] { background-color: #fee2e2; }
 .entity-hl--bg[data-etype="确诊疾病"] { background-color: #ffedd5; }
 .entity-hl--bg[data-etype="临床表现"] { background-color: #dbeafe; }

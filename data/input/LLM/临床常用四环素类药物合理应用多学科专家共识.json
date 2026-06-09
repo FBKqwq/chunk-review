@@ -11,85 +11,93 @@
   "entities": {
     "diseases": [
       {
-        "id": "disease_cap",
-        "name": "社区获得性肺炎",
-        "normalized_name": "社区获得性肺炎",
-        "aliases": [
-          "CAP"
-        ],
-        "source_document_ids": [
-          "临床常用四环素类药物合理应用多学科专家共识"
-        ],
-        "evidence_ids": [
-          "国内外指南推荐其作为社区获得性肺炎的一线治疗药物。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_csssi",
+        "id": "disease_cSSSI",
         "name": "复杂皮肤软组织感染",
         "normalized_name": "复杂皮肤软组织感染",
         "aliases": [
-          "cSSSI"
+          "cSSSI",
+          "急性细菌性皮肤和皮肤软组织感染"
         ],
         "source_document_ids": [
           "临床常用四环素类药物合理应用多学科专家共识"
         ],
         "evidence_ids": [
-          "针对疑似或确诊 MRSA 所致的复杂皮肤软组织感染（ cSSSI ），可选择多西环素或米诺环素抗感染治疗"
+          "针对疑似或确诊MRSA所致的复杂皮肤软组织感染（cSSSI），可选择多西环素或米诺环素抗感染治疗"
         ],
         "confidence": 0.95
       },
       {
-        "id": "disease_ciai",
-        "name": "复杂腹腔内感染",
+        "id": "disease_CAP",
+        "name": "社区获得性肺炎",
+        "normalized_name": "社区获得性肺炎",
+        "aliases": [
+          "CAP",
+          "社区获得性细菌性肺炎"
+        ],
+        "source_document_ids": [
+          "临床常用四环素类药物合理应用多学科专家共识"
+        ],
+        "evidence_ids": [
+          "四环素类药物可作为非典型病原体引起的CAP的一线治疗药物"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_HAP_VAP",
+        "name": "医院获得性肺炎/呼吸机相关性肺炎",
+        "normalized_name": "医院获得性肺炎/呼吸机相关性肺炎",
+        "aliases": [
+          "HAP",
+          "VAP",
+          "医院获得性肺炎",
+          "呼吸机相关肺炎"
+        ],
+        "source_document_ids": [
+          "临床常用四环素类药物合理应用多学科专家共识"
+        ],
+        "evidence_ids": [
+          "针对碳青霉烯类耐药肠杆菌（CRE）和碳青霉烯类耐药鲍曼不动杆菌（CRAB）所致的医院获得性肺炎（HAP）/呼吸机相关肺炎（VAP）患者"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "disease_cIAI",
+        "name": "腹腔感染",
         "normalized_name": "复杂腹腔内感染",
         "aliases": [
-          "cIAI"
+          "cIAI",
+          "腹腔感染"
         ],
         "source_document_ids": [
           "临床常用四环素类药物合理应用多学科专家共识"
         ],
         "evidence_ids": [
-          "两项双盲多中心研究显示，静脉滴注依拉环素治疗成人复杂腹腔内感染（ cIAI ）的疗效不劣于厄他培南或美罗培南"
+          "针对CRE和CRAB引起的腹腔感染，替加环素治疗效果较好"
         ],
         "confidence": 0.95
       },
       {
-        "id": "disease_cuti",
-        "name": "复杂性尿路感染",
-        "normalized_name": "复杂性尿路感染",
+        "id": "disease_CNS_infection",
+        "name": "中枢神经系统感染",
+        "normalized_name": "中枢神经系统感染",
         "aliases": [
-          "cUTI"
+          "颅内感染",
+          "脑膜炎"
         ],
         "source_document_ids": [
           "临床常用四环素类药物合理应用多学科专家共识"
         ],
         "evidence_ids": [
-          "无其他更好选择的情况下可选择替加环素；如果选择替加环素，建议联用其他组织药物浓度高且具有抗菌活性的药物。疗程至少 10~14 d"
+          "针对CRE和CRAB引起的中枢神经系统感染，一旦确诊或疑似颅内感染应尽早给予抗感染治疗"
         ],
         "confidence": 0.95
       },
       {
-        "id": "disease_hap_vap",
-        "name": "医院获得性肺炎与呼吸机相关性肺炎",
-        "normalized_name": "医院获得性肺炎与呼吸机相关性肺炎",
-        "aliases": [
-          "HAP/VAP"
-        ],
-        "source_document_ids": [
-          "临床常用四环素类药物合理应用多学科专家共识"
-        ],
-        "evidence_ids": [
-          "中国成人医院获得性肺炎与呼吸机相关性肺炎诊断和治疗指南（ 2018 年版）［ 14 ］推荐：肺炎支原体肺炎和鹦鹉热衣原体肺炎，可选多西环素"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_brucellosis",
+        "id": "disease_Brucellosis",
         "name": "布鲁菌病",
         "normalized_name": "布鲁菌病",
         "aliases": [
+          "布鲁氏菌病",
           "布鲁菌感染"
         ],
         "source_document_ids": [
@@ -99,403 +107,119 @@
           "针对布鲁菌感染通常需要多西环素与其他抗菌药物联用"
         ],
         "confidence": 0.95
-      },
-      {
-        "id": "disease_rmsf",
-        "name": "落基山斑疹热",
-        "normalized_name": "落基山斑疹热",
-        "aliases": [
-          "RMSF"
-        ],
-        "source_document_ids": [
-          "临床常用四环素类药物合理应用多学科专家共识"
-        ],
-        "evidence_ids": [
-          "但在某些特殊感染如落基山斑疹热（ ， ）时，在权衡利弊后，可以使用多西环素。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_q_fever",
-        "name": "Q热",
-        "normalized_name": "Q热",
-        "aliases": [
-          "Q热"
-        ],
-        "source_document_ids": [
-          "临床常用四环素类药物合理应用多学科专家共识"
-        ],
-        "evidence_ids": [
-          "伯氏考克斯体感染（ Q 热），可选多西环素， 200 mg 口服，每天 1 次"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_legionellosis",
-        "name": "军团菌病",
-        "normalized_name": "军团菌病",
-        "aliases": [
-          "军团菌感染"
-        ],
-        "source_document_ids": [
-          "临床常用四环素类药物合理应用多学科专家共识"
-        ],
-        "evidence_ids": [
-          "针对非典型病原体如支原体、衣原体和军团菌，四环素类药物抗菌活性强、敏感性高。四环素类药物可作为非典型病原体引起 CAP 的一线治疗药物"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_mycoplasma_pneumonia",
-        "name": "支原体肺炎",
-        "normalized_name": "支原体肺炎",
-        "aliases": [
-          "肺炎支原体肺炎"
-        ],
-        "source_document_ids": [
-          "临床常用四环素类药物合理应用多学科专家共识"
-        ],
-        "evidence_ids": [
-          "中国成人医院获得性肺炎与呼吸机相关性肺炎诊断和治疗指南（ 2018 年版）［ 14 ］推荐：肺炎支原体肺炎……可选多西环素"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_chlamydia_pneumonia",
-        "name": "衣原体肺炎",
-        "normalized_name": "衣原体肺炎",
-        "aliases": [
-          "肺炎衣原体肺炎"
-        ],
-        "source_document_ids": [
-          "临床常用四环素类药物合理应用多学科专家共识"
-        ],
-        "evidence_ids": [
-          "中国成人医院获得性肺炎与呼吸机相关性肺炎诊断和治疗指南（ 2018 年版）［ 14 ］推荐：……肺炎衣原体、军团菌……二者为次选抗菌药物"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_ntm_infection",
-        "name": "非结核分枝杆菌感染",
-        "normalized_name": "非结核分枝杆菌感染",
-        "aliases": [
-          "NTM感染"
-        ],
-        "source_document_ids": [
-          "临床常用四环素类药物合理应用多学科专家共识"
-        ],
-        "evidence_ids": [
-          "替加环素、奥马环素和依拉环素可用于快生长型非结核分枝杆菌感染的治疗。……奥马环素对所有快生长型非结核分枝杆菌均有效［ 27 ］。"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_cre_infection",
-        "name": "碳青霉烯类耐药肠杆菌科细菌感染",
-        "normalized_name": "碳青霉烯类耐药肠杆菌科细菌感染",
-        "aliases": [
-          "CRE感染"
-        ],
-        "source_document_ids": [
-          "临床常用四环素类药物合理应用多学科专家共识"
-        ],
-        "evidence_ids": [
-          "针对碳青霉烯类耐药肠杆菌（ carbapenem‑resistant Enterobacteriaceae， CRE ）……所致的医院获得性肺炎（ HAP / VAP ）患者"
-        ],
-        "confidence": 0.95
-      },
-      {
-        "id": "disease_crab_infection",
-        "name": "碳青霉烯类耐药鲍曼不动杆菌感染",
-        "normalized_name": "碳青霉烯类耐药鲍曼不动杆菌感染",
-        "aliases": [
-          "CRAB感染"
-        ],
-        "source_document_ids": [
-          "临床常用四环素类药物合理应用多学科专家共识"
-        ],
-        "evidence_ids": [
-          "针对碳青霉烯类耐药鲍曼不动杆菌（ carbapenem‑resistant Acinetobacter baumannii， CRAB ）……所致的医院获得性肺炎（ HAP / VAP ）患者"
-        ],
-        "confidence": 0.95
       }
     ],
     "sub_diseases": [
       {
-        "id": "sub_disease_cap_non_atypical",
-        "name": "社区获得性肺炎（非典型病原体阴性）",
-        "parent_disease_id": "disease_cap",
-        "disease_subtype": null,
+        "id": "sub_disease_cSSSI_MRSA",
+        "name": "MRSA引起的复杂皮肤软组织感染",
+        "parent_disease_id": "disease_cSSSI",
+        "disease_subtype": "MRSA感染",
         "clinical_stage": "不限定",
-        "severity": "轻症",
-        "population": null,
+        "severity": "不限定",
+        "population": "成人",
         "gender": "all",
-        "age_min": null,
+        "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "轻症 CAP 患者可选用多西环素或米诺环素单药治疗"
+          "针对疑似或确诊MRSA所致的复杂皮肤软组织感染（cSSSI），可选择多西环素或米诺环素抗感染治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_cap_atypical",
-        "name": "社区获得性肺炎（非典型病原体阳性）",
-        "parent_disease_id": "disease_cap",
-        "disease_subtype": null,
+        "id": "sub_disease_CAP_atypical",
+        "name": "非典型病原体引起的社区获得性肺炎",
+        "parent_disease_id": "disease_CAP",
+        "disease_subtype": "非典型病原体感染",
+        "clinical_stage": "不限定",
+        "severity": "轻症至重症",
+        "population": "成人",
+        "gender": "all",
+        "age_min": 18,
+        "age_max": null,
+        "evidence_ids": [
+          "四环素类药物可作为非典型病原体引起的CAP的一线治疗药物"
+        ],
+        "confidence": 0.9
+      },
+      {
+        "id": "sub_disease_HAP_VAP_CRE_CRAB",
+        "name": "CRE和CRAB引起的HAP/VAP",
+        "parent_disease_id": "disease_HAP_VAP",
+        "disease_subtype": "多重耐药菌感染",
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": null,
+        "population": "成人",
         "gender": "all",
-        "age_min": null,
+        "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "重症或有耐药菌感染风险患者可选用四环类药物联合治疗……非典型病原体治疗反应较慢者疗程延长至 10~14 d"
+          "针对碳青霉烯类耐药肠杆菌（CRE）和碳青霉烯类耐药鲍曼不动杆菌（CRAB）所致的医院获得性肺炎（HAP）/呼吸机相关肺炎（VAP）患者"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_csssi_mrsa",
-        "name": "复杂皮肤软组织感染（MRSA所致）",
-        "parent_disease_id": "disease_csssi",
-        "disease_subtype": null,
+        "id": "sub_disease_cIAI_CRE_CRAB",
+        "name": "CRE和CRAB引起的腹腔感染",
+        "parent_disease_id": "disease_cIAI",
+        "disease_subtype": "多重耐药菌感染",
         "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": null,
+        "severity": "不限定",
+        "population": "成人",
         "gender": "all",
-        "age_min": null,
+        "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "针对疑似或确诊 MRSA 所致的复杂皮肤软组织感染（ cSSSI ），可选择多西环素或米诺环素抗感染治疗；另外，可覆盖 MRSA 的口服药物还有奥马环素，静脉药物包括奥马环素和替加环素"
+          "针对CRE和CRAB引起的腹腔感染，替加环素治疗效果较好"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_ciai_cre",
-        "name": "复杂腹腔内感染（CRE所致）",
-        "parent_disease_id": "disease_ciai",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "针对 CRE 和 CRAB 引起的腹腔感染，替加环素治疗效果较好……依拉环素对常见病原体（包括对其他四环素耐药者）引起的腹腔感染较替加环素有更高的临床疗效和更好的耐受性"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_ciai_crab",
-        "name": "复杂腹腔内感染（CRAB所致）",
-        "parent_disease_id": "disease_ciai",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "针对 CRE 和 CRAB 引起的腹腔感染，替加环素治疗效果较好……依拉环素对常见病原体（包括对其他四环素耐药者）引起的腹腔感染较替加环素有更高的临床疗效和更好的耐受性"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_cuti_cre",
-        "name": "复杂性尿路感染（CRE所致）",
-        "parent_disease_id": "disease_cuti",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "无其他更好选择的情况下可选择替加环素；如果选择替加环素，建议联用其他组织药物浓度高且具有抗菌活性的药物。疗程至少 10~14 d"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_cuti_crab",
-        "name": "复杂性尿路感染（CRAB所致）",
-        "parent_disease_id": "disease_cuti",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "无其他更好选择的情况下可选择替加环素；如果选择替加环素，建议联用其他组织药物浓度高且具有抗菌活性的药物。疗程至少 10~14 d"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_hap_vap_cre",
-        "name": "医院获得性肺炎/呼吸机相关性肺炎（CRE所致）",
-        "parent_disease_id": "disease_hap_vap",
-        "disease_subtype": null,
+        "id": "sub_disease_CNS_CRE_CRAB",
+        "name": "CRE和CRAB引起的中枢神经系统感染",
+        "parent_disease_id": "disease_CNS_infection",
+        "disease_subtype": "多重耐药菌感染",
         "clinical_stage": "不限定",
         "severity": "重症",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "针对碳青霉烯类耐药肠杆菌（ carbapenem‑resistant Enterobacteriaceae， CRE ）……所致的医院获得性肺炎（ HAP / VAP ）患者……替加环素在肺组织中分布不足，标准剂量单药治疗一般疗效不佳，需与碳青霉烯类、黏菌素等联合应用"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_hap_vap_crab",
-        "name": "医院获得性肺炎/呼吸机相关性肺炎（CRAB所致）",
-        "parent_disease_id": "disease_hap_vap",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "重症",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "针对碳青霉烯类耐药鲍曼不动杆菌（ carbapenem‑resistant Acinetobacter baumannii， CRAB ）……所致的医院获得性肺炎（ HAP / VAP ）患者……替加环素在肺组织中分布不足，标准剂量单药治疗一般疗效不佳，需与碳青霉烯类、黏菌素等联合应用"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_brucellosis_adult",
-        "name": "布鲁菌病（成人）",
-        "parent_disease_id": "disease_brucellosis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重度",
         "population": "成人",
         "gender": "all",
         "age_min": 18,
         "age_max": null,
         "evidence_ids": [
-          "针对布鲁菌感染通常需要多西环素与其他抗菌药物联用，用药时应考虑长期用药的安全性和口服剂型序贯性"
+          "针对CRE和CRAB引起的中枢神经系统感染，一旦确诊或疑似颅内感染应尽早给予抗感染治疗"
         ],
         "confidence": 0.9
       },
       {
-        "id": "sub_disease_rmsf_all_age",
-        "name": "落基山斑疹热（全年龄段）",
-        "parent_disease_id": "disease_rmsf",
-        "disease_subtype": null,
+        "id": "sub_disease_Brucellosis_infection",
+        "name": "布鲁菌感染",
+        "parent_disease_id": "disease_Brucellosis",
+        "disease_subtype": "布鲁氏菌感染",
         "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": "所有年龄段儿童及成人",
+        "severity": "不限定",
+        "population": "不限定",
         "gender": "all",
         "age_min": null,
         "age_max": null,
         "evidence_ids": [
-          "美国 CDC 和儿科学会推荐多西环素作为所有年龄段儿童疑似立克次体病的首选治疗方法，允许对所有年龄儿童使用疗程 ≤21 d 的多西环素"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_q_fever_adult",
-        "name": "Q热（成人）",
-        "parent_disease_id": "disease_q_fever",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": "成人",
-        "gender": "all",
-        "age_min": 18,
-        "age_max": null,
-        "evidence_ids": [
-          "伯氏考克斯体感染（ Q 热），可选多西环素， 200 mg 口服，每天 1 次；米诺环素， 100 mg 口服，每天 2 次"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_legionellosis_adult",
-        "name": "军团菌病（成人）",
-        "parent_disease_id": "disease_legionellosis",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": "成人",
-        "gender": "all",
-        "age_min": 18,
-        "age_max": null,
-        "evidence_ids": [
-          "针对非典型病原体如支原体、衣原体和军团菌，四环素类药物抗菌活性强、敏感性高。四环素类药物可作为非典型病原体引起 CAP 的一线治疗药物"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_mycoplasma_pneumonia_adult",
-        "name": "支原体肺炎（成人）",
-        "parent_disease_id": "disease_mycoplasma_pneumonia",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": "成人",
-        "gender": "all",
-        "age_min": 18,
-        "age_max": null,
-        "evidence_ids": [
-          "中国成人医院获得性肺炎与呼吸机相关性肺炎诊断和治疗指南（ 2018 年版）［ 14 ］推荐：肺炎支原体肺炎……可选多西环素，首剂 200 mg 口服，此后 100 mg 口服，每天 2 次"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_chlamydia_pneumonia_adult",
-        "name": "衣原体肺炎（成人）",
-        "parent_disease_id": "disease_chlamydia_pneumonia",
-        "disease_subtype": null,
-        "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": "成人",
-        "gender": "all",
-        "age_min": 18,
-        "age_max": null,
-        "evidence_ids": [
-          "中国成人医院获得性肺炎与呼吸机相关性肺炎诊断和治疗指南（ 2018 年版）［ 14 ］推荐：……肺炎衣原体、军团菌……二者为次选抗菌药物"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_ntm_fast_growing",
-        "name": "快生长型非结核分枝杆菌感染",
-        "parent_disease_id": "disease_ntm_infection",
-        "disease_subtype": "快生长型",
-        "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "替加环素、奥马环素和依拉环素可用于快生长型非结核分枝杆菌感染的治疗。……脓肿分枝杆菌复合群对依拉环素则高度敏感，而奥马环素对所有快生长型非结核分枝杆菌均有效［ 27 ］"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "sub_disease_ntm_slow_growing",
-        "name": "慢生长型非结核分枝杆菌感染",
-        "parent_disease_id": "disease_ntm_infection",
-        "disease_subtype": "慢生长型",
-        "clinical_stage": "不限定",
-        "severity": "中重度",
-        "population": null,
-        "gender": "all",
-        "age_min": null,
-        "age_max": null,
-        "evidence_ids": [
-          "奥马环素对慢生长型非结核分枝杆菌的 MIC 值高于替加环素［ 28 ］"
+          "针对布鲁菌感染通常需要多西环素与其他抗菌药物联用"
         ],
         "confidence": 0.9
       }
     ],
     "symptoms": [
+      {
+        "id": "symptom_purulent_infection",
+        "name": "化脓性感染",
+        "body_site": "皮肤及软组织",
+        "symptom_category": "局部症状",
+        "polarity": "present",
+        "typicality": "typical",
+        "evidence_ids": [
+          "急性细菌性皮肤和皮肤软组织感染应考虑经验性覆盖MRSA，尤其是化脓性感染"
+        ],
+        "confidence": 0.9
+      },
       {
         "id": "symptom_fever",
         "name": "发热",
@@ -504,663 +228,765 @@
         "polarity": "present",
         "typicality": "common",
         "evidence_ids": [
-          "肺炎严重度指数（ pneumonia severity index PSI ）评分 ≥3"
+          "诊断CAP后应尽早使用抗感染药物开始经验性治疗"
+        ],
+        "confidence": 0.8
+      },
+      {
+        "id": "symptom_GI_discomfort",
+        "name": "胃肠道不适",
+        "body_site": "消化系统",
+        "symptom_category": "药物不良反应",
+        "polarity": "present",
+        "typicality": "common",
+        "evidence_ids": [
+          "替加环素导致的一般不良反应为牙齿永久性变色、胆红素水平升高、胃肠道不适以及静脉炎等"
         ],
         "confidence": 0.9
       },
       {
-        "id": "symptom_respiratory_distress",
-        "name": "呼吸窘迫",
-        "body_site": "呼吸系统",
-        "symptom_category": "呼吸系统症状",
+        "id": "symptom_coagulopathy",
+        "name": "凝血功能障碍",
+        "body_site": "血液系统",
+        "symptom_category": "药物不良反应",
         "polarity": "present",
-        "typicality": "common",
+        "typicality": "rare",
         "evidence_ids": [
-          "IgE 介导的 I 型超敏反应临床表现为荨麻疹、喉头水肿、支气管痉挛和呼吸窘迫"
+          "严重不良反应包括急性胰腺炎、肝衰竭、血细胞减少、低血糖和凝血功能障碍等"
         ],
         "confidence": 0.9
       }
     ],
     "tests": [
       {
-        "id": "test_mic_tigecycline_crab",
-        "name": "替加环素对CRAB的最小抑菌浓度",
+        "id": "test_MIC",
+        "name": "最小抑菌浓度(MIC)测定",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "当替加环素的 MIC 值 >2 μg/ml 时，无论是单独使用还是联合使用均应谨慎选择替加环素"
+          "肠杆菌目细菌、不动杆菌属细菌等多种病原体推荐使用纸片扩散法、肉汤或琼脂稀释法［即最小抑菌浓度（MIC）法］进行四环素类药物的药敏试验"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_TDM_tigecycline",
+        "name": "替加环素血药浓度监测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "建议有条件开展治疗药物浓度监测（TDM）的医疗机构针对危重症患者、严重肝功能不全患者开展替加环素的血药浓度监测"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "test_CSF_tigecycline",
+        "name": "脑脊液替加环素药物浓度监测",
+        "normal_range_min": null,
+        "normal_range_max": null,
+        "is_digital": 1,
+        "evidence_ids": [
+          "使用替加环素治疗颅内感染时，可监测脑脊液药物浓度，如样本获取困难可监测血药浓度"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_mic_omadacycline_crkp",
-        "name": "奥马环素对CRKP的最小抑菌浓度",
+        "id": "test_liver_function",
+        "name": "肝功能检测(Child-Pugh分级)",
         "normal_range_min": null,
         "normal_range_max": null,
-        "is_digital": 1,
+        "is_digital": 0,
         "evidence_ids": [
-          "奥马环素对慢生长型非结核分枝杆菌的 MIC 值高于替加环素［ 28 ］"
+          "严重肝功能不全（Child Pugh分级C级）的患者应谨慎用药，并监测治疗反应"
         ],
         "confidence": 0.9
       },
       {
-        "id": "test_mic_eravacycline_common_pathogens",
-        "name": "依拉环素对常见病原体的最小抑菌浓度",
+        "id": "test_renal_function",
+        "name": "肾功能检测(尿素氮和肌酐)",
         "normal_range_min": null,
         "normal_range_max": null,
         "is_digital": 1,
         "evidence_ids": [
-          "体外药敏试验显示，依拉环素对临床常见和重要的耐药菌均表现出良好的抗菌活性，其 MIC 分布普遍低于替加环素"
+          "考虑到四环素类药物的抗合成代谢作用，用药期间监测尿素氮和肌酐"
         ],
         "confidence": 0.9
       }
     ],
     "treatments": [
       {
-        "id": "treatment_cap_atypical_first_line",
-        "content": "四环素类药物可作为非典型病原体引起 CAP 的一线治疗药物",
-        "recommendation_strength": "strong",
-        "source_section": "专家共识意见2",
-        "evidence_ids": [
-          "四环素类药物可作为非典型病原体引起 CAP 的一线治疗药物"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_csssi_mrsa_oral",
-        "content": "针对疑似或确诊 MRSA 所致的 cSSSI，可选择多西环素或米诺环素抗感染治疗；另外，可覆盖 MRSA 的口服药物还有奥马环素",
+        "id": "treatment_cSSSI_MRSA",
+        "content": "针对疑似或确诊MRSA所致的cSSSI，尽早给予抗感染治疗，经验性覆盖MRSA",
         "recommendation_strength": "strong",
         "source_section": "专家共识意见1",
         "evidence_ids": [
-          "针对疑似或确诊 MRSA 所致的复杂皮肤软组织感染（ cSSSI ），可选择多西环素或米诺环素抗感染治疗；另外，可覆盖 MRSA 的口服药物还有奥马环素，静脉药物包括奥马环素和替加环素"
+          "诊断皮肤软组织感染后尽早给予抗感染治疗...急性细菌性皮肤和皮肤软组织感染应考虑经验性覆盖MRSA"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "treatment_ciai_cre_combination",
-        "content": "针对 CRE 和 CRAB 引起的腹腔感染，替加环素治疗效果较好，在耐药菌感染或其他抗菌药物疗效不佳的情况下，可选择含替加环素的联合用药方案",
+        "id": "treatment_CAP_atypical",
+        "content": "四环素类药物可作为非典型病原体引起的CAP的一线治疗药物，诊断后尽早开始经验性治疗",
         "recommendation_strength": "strong",
-        "source_section": "专家共识意见4",
+        "source_section": "专家共识意见2",
         "evidence_ids": [
-          "针对 CRE 和 CRAB 引起的腹腔感染，替加环素治疗效果较好，在耐药菌感染或其他抗菌药物疗效不佳的情况下，可选择含替加环素的联合用药方案"
+          "四环素类药物可作为非典型病原体引起的CAP的一线治疗药物...诊断CAP后应尽早使用抗感染药物开始经验性治疗"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "treatment_cuti_cre_combination",
-        "content": "无其他更好选择的情况下可选择替加环素；如果选择替加环素，建议联用其他组织药物浓度高且具有抗菌活性的药物",
-        "recommendation_strength": "weak",
-        "source_section": "专家共识意见5",
-        "evidence_ids": [
-          "无其他更好选择的情况下可选择替加环素；如果选择替加环素，建议联用其他组织药物浓度高且具有抗菌活性的药物"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "id": "treatment_hap_vap_cre_combination",
-        "content": "替加环素在肺组织中分布不足，标准剂量单药治疗一般疗效不佳，需与碳青霉烯类、黏菌素等联合应用",
+        "id": "treatment_HAP_VAP_CRE_CRAB",
+        "content": "替加环素在肺组织中分布不足，标准剂量单药治疗一般疗效不佳，需联合应用，重症推荐大剂量替加环素方案",
         "recommendation_strength": "strong",
         "source_section": "专家共识意见3",
         "evidence_ids": [
-          "替加环素在肺组织中分布不足，标准剂量单药治疗一般疗效不佳，需与碳青霉烯类、黏菌素等联合应用"
+          "由于替加环素在肺组织中分布不足，标准剂量单药治疗一般疗效不佳，需与碳青霉烯类、黏菌素等联合应用...临床推荐使用大剂量替加环素（HDT）方案"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_cIAI_CRE_CRAB",
+        "content": "替加环素治疗效果较好，耐药菌感染可选择含替加环素的联合方案；依拉环素对常见病原体引起的腹腔感染疗效好",
+        "recommendation_strength": "strong",
+        "source_section": "专家共识意见4",
+        "evidence_ids": [
+          "针对CRE和CRAB引起的腹腔感染，替加环素治疗效果较好，在耐药菌感染或其他抗菌药物疗效不佳的情况下，可选择含替加环素的联合用药方案"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_CNS_CRE_CRAB",
+        "content": "尽早给予抗感染治疗，替加环素脑脊液穿透性弱，需静脉联合鞘内或脑室内注射给药",
+        "recommendation_strength": "strong",
+        "source_section": "专家共识意见6",
+        "evidence_ids": [
+          "一旦确诊或疑似颅内感染应尽早给予抗感染治疗...尽管替加环素脑脊液穿透性较弱，如无其他更好选择时可选择替加环素静脉联合鞘内或脑室内注射给药"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "treatment_Brucellosis",
+        "content": "早期、联合、足量、足疗程，多西环素与其他抗菌药物联用",
+        "recommendation_strength": "strong",
+        "source_section": "专家共识意见2",
+        "evidence_ids": [
+          "针对布鲁菌感染通常需要多西环素与其他抗菌药物联用，用药时应考虑长期用药的安全性和口服剂型序贯性"
+        ],
+        "confidence": 0.95
       }
     ],
     "plans": [
       {
-        "id": "plan_doxycycline_capi_200mg_od",
-        "content": "多西环素，首剂 200 mg 口服，此后 100 mg 口服，每天 2 次",
+        "id": "plan_cSSSI_MRSA_tetracyclines",
+        "content": "多西环素或米诺环素口服；奥马环素静脉或口服；替加环素静脉。疗程7~14 d",
         "plan_level": 1,
-        "applicable_condition": "肺炎支原体肺炎",
-        "contraindication_note": "妊娠期妇女不建议使用",
+        "applicable_condition": "疑似或确诊MRSA所致的cSSSI",
+        "contraindication_note": null,
         "evidence_ids": [
-          "中国成人医院获得性肺炎与呼吸机相关性肺炎诊断和治疗指南（ 2018 年版）［ 14 ］推荐：肺炎支原体肺炎和鹦鹉热衣原体肺炎，可选多西环素，首剂 200 mg 口服，此后 100 mg 口服，每天 2 次"
+          "可选择多西环素或米诺环素抗感染治疗；另外，可覆盖MRSA的口服药物还有奥马环素，静脉药物包括奥马环素和替加环素...疗程一般为7~14 d"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_minocycline_q_fever_100mg_bd",
-        "content": "米诺环素， 100 mg 口服，每天 2 次",
+        "id": "plan_CAP_atypical_doxy_mino",
+        "content": "多西环素首剂200mg，此后100mg bid；米诺环素100mg bid。疗程5~7d，非典型病原体反应慢者10~14d",
         "plan_level": 1,
-        "applicable_condition": "Q热",
-        "contraindication_note": "8岁以下儿童禁用",
+        "applicable_condition": "非典型病原体引起的轻症CAP",
+        "contraindication_note": null,
         "evidence_ids": [
-          "伯氏考克斯体感染（ Q 热），可选多西环素， 200 mg 口服，每天 1 次；米诺环素， 100 mg 口服，每天 2 次"
+          "肺炎支原体肺炎和鹦鹉热衣原体肺炎，可选多西环素，首剂200 mg口服，此后100 mg口服，每天2次；米诺环素，100 mg口服，每天2次...通常轻、中度CAP者疗程为5~7 d，非典型病原体治疗反应较慢者疗程延长至10~14 d"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_tigecycline_hap_vap_high_dose",
-        "content": "大剂量替加环素（ 200 mg 静脉注射，随后 100 mg 静脉注射，每 12 小时 1 次）方案",
+        "id": "plan_HAP_VAP_high_dose_tige",
+        "content": "大剂量替加环素：初始200mg，随后100mg q12h静脉滴注。疗程7d以上",
         "plan_level": 1,
-        "applicable_condition": "CRE 或 CRAB 所致的中重度 HAP/VAP",
-        "contraindication_note": "MIC>2 μg/ml 时慎用",
+        "applicable_condition": "CRE/CRAB引起的重症HAP/VAP",
+        "contraindication_note": "严重肝功能不全患者需调整剂量",
         "evidence_ids": [
-          "国外最新指南推荐，使用大剂量替加环素（ 200 mg 静脉注射，随后 100 mg 静脉注射，每 12 小时 1 次）治疗 CRAB 导致的中重度感染"
+          "临床推荐使用大剂量替加环素（HDT）方案，初始剂量200 mg，随后100 mg静脉滴注，每12小时1次...疗程一般7 d以上"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "plan_cIAI_tige_erava",
+        "content": "替加环素标准剂量（首剂100mg+50mg q12h），疗程5~14d；或依拉环素静脉滴注",
+        "plan_level": 1,
+        "applicable_condition": "CRE/CRAB引起的腹腔感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "替加环素用于腹腔感染推荐的给药方案为标准剂量（100 mg首剂+50 mg每12小时1次），疗程一般为5~14 d"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_omadacycline_csssi_oral",
-        "content": "奥马环素（ 300 mg 口服，每日 1 次）",
+        "id": "plan_CNS_tige_intrathecal",
+        "content": "替加环素静脉联合鞘内/脑室内注射（1~10mg/12h）。疗程4~8周，治愈后继续1~2周",
         "plan_level": 1,
-        "applicable_condition": "急性细菌性皮肤软组织感染",
-        "contraindication_note": "重度肝功能不全者减量",
+        "applicable_condition": "CRE/CRAB引起的中枢神经系统感染",
+        "contraindication_note": "鞘内给药多为个案报道，安全性有待更大规模研究",
         "evidence_ids": [
-          "奥马环素口服制剂治疗……急性细菌性皮肤软组织感染：负荷剂量 450 mg ，每日 1 次（第 1 日），维持剂量 300 mg ，每日 1 次"
+          "可选择替加环素静脉联合鞘内或脑室内注射给药，剂量1~10 mg/12 h...疗程一般4~8周，符合临床治愈标准后应继续抗感染1~2周"
         ],
         "confidence": 0.9
       },
       {
-        "id": "plan_eravacycline_ciai_iv",
-        "content": "依拉环素静脉滴注（负荷剂量 1.5 mg/kg ，每 12 小时 1 次；维持剂量 1 mg/kg ，每 24 小时 1 次）",
+        "id": "plan_Brucellosis_doxy_combo",
+        "content": "多西环素联合利福平或链霉素，疗程6周，部分需2~3个疗程",
         "plan_level": 1,
-        "applicable_condition": "复杂腹腔内感染",
-        "contraindication_note": "重度肝功能不全者减量",
+        "applicable_condition": "布鲁菌感染",
+        "contraindication_note": null,
         "evidence_ids": [
-          "依拉环素静脉滴注（负荷剂量 1.5 mg/kg ，每 12 小时 1 次；维持剂量 1 mg/kg ，每 24 小时 1 次）"
+          "一线治疗方案为多西环素联合利福平或链霉素...一般疗程为6周，部分病例需2~3个疗程"
         ],
         "confidence": 0.9
       }
     ],
     "etiologies": [
       {
-        "id": "etiology_mrsa",
-        "content": "耐甲氧西林金黄色葡萄球菌感染",
+        "id": "etiology_MRSA",
+        "content": "耐甲氧西林金黄色葡萄球菌(MRSA)",
         "etiology_type": "感染因素",
-        "typicality": "common",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "针对疑似或确诊 MRSA 所致的复杂皮肤软组织感染（ cSSSI ）"
+          "针对疑似或确诊MRSA所致的复杂皮肤软组织感染（cSSSI）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "etiology_cre",
-        "content": "碳青霉烯类耐药肠杆菌科细菌感染",
+        "id": "etiology_atypical_pathogens",
+        "content": "非典型病原体(肺炎支原体、肺炎衣原体、军团菌)",
         "etiology_type": "感染因素",
-        "typicality": "common",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "针对碳青霉烯类耐药肠杆菌（ carbapenem‑resistant Enterobacteriaceae， CRE ）所致的医院获得性肺炎（ HAP / VAP ）患者"
+          "针对非典型病原体如支原体、衣原体和军团菌，四环素类药物抗菌活性强、敏感性高"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "etiology_crab",
-        "content": "碳青霉烯类耐药鲍曼不动杆菌感染",
+        "id": "etiology_CRE",
+        "content": "碳青霉烯类耐药肠杆菌目细菌(CRE)",
         "etiology_type": "感染因素",
-        "typicality": "common",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
-          "针对碳青霉烯类耐药鲍曼不动杆菌（ carbapenem‑resistant Acinetobacter baumannii， CRAB ）所致的医院获得性肺炎（ HAP / VAP ）患者"
+          "针对碳青霉烯类耐药肠杆菌（CRE）和碳青霉烯类耐药鲍曼不动杆菌（CRAB）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "id": "etiology_brucella",
-        "content": "布鲁氏菌感染",
+        "id": "etiology_CRAB",
+        "content": "碳青霉烯类耐药鲍曼不动杆菌(CRAB)",
         "etiology_type": "感染因素",
-        "typicality": "common",
+        "typicality": "典型",
+        "diagnostic_role": "必要条件",
+        "evidence_ids": [
+          "针对碳青霉烯类耐药肠杆菌（CRE）和碳青霉烯类耐药鲍曼不动杆菌（CRAB）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "id": "etiology_Brucella",
+        "content": "布鲁氏菌",
+        "etiology_type": "感染因素",
+        "typicality": "典型",
         "diagnostic_role": "必要条件",
         "evidence_ids": [
           "针对布鲁菌感染通常需要多西环素与其他抗菌药物联用"
         ],
-        "confidence": 0.9
-      },
-      {
-        "id": "etiology_coxiella_burnetii",
-        "content": "伯氏考克斯体感染",
-        "etiology_type": "感染因素",
-        "typicality": "common",
-        "diagnostic_role": "必要条件",
-        "evidence_ids": [
-          "伯氏考克斯体感染（ Q 热），可选多西环素"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "pathogenesis": [
       {
-        "id": "pathogenesis_tetracycline_resistance",
-        "content": "长期应用四环素类药物可使细菌产生四环素类抗性基因（ TRGs ），主要包括：一是细菌获得外排基因，例如外排基因 tet A ~tet D 、 tet K ~tet L ，导致外排泵高表达，将四环素泵出胞外以减少细胞内药物；另一是产生核糖体保护基因，核糖体保护蛋白改变了核糖体构象，从而逃逸四环素对蛋白质合成的抑制作用",
+        "id": "pathogenesis_tetracycline_mechanism",
+        "content": "四环素类药物可逆地与细菌核糖体30S亚基A位结合，阻止氨酰基-tRNA与mRNA-核糖体复合物受体部位结合，抑制细菌蛋白质的合成",
         "evidence_ids": [
-          "长期应用四环素类药物可使细菌产生四环素类抗性基因（ TRGs ），主要包括：一是细菌获得外排基因……另一是产生核糖体保护基因……"
+          "能可逆地与细菌核糖体30S亚基A位结合，阻止氨酰基-tRNA与mRNA-核糖体复合物受体部位结合，抑制细菌蛋白质的合成，达到抑制细菌生长的作用"
         ],
-        "confidence": 0.85
+        "confidence": 0.95
+      },
+      {
+        "id": "pathogenesis_tetracycline_resistance",
+        "content": "细菌获得外排基因导致外排泵高表达，或产生核糖体保护基因改变核糖体构象，从而逃逸四环素对蛋白合成的抑制作用",
+        "evidence_ids": [
+          "长期应用四环素类药物可使细菌产生四环素类抗性基因（TRGs），主要包括：一是细菌获得外排基因...另一是产生核糖体保护基因，核糖体保护蛋白改变了核糖体构象，从而逃逸四环素对蛋白合成的抑制作用"
+        ],
+        "confidence": 0.95
       }
     ]
   },
   "relationships": {
     "has_sub_disease": [
       {
-        "from": "disease_cap",
-        "to": "sub_disease_cap_non_atypical",
-        "relation_id": "rel_cap_has_non_atypical",
+        "from": "disease_cSSSI",
+        "to": "sub_disease_cSSSI_MRSA",
+        "relation_id": "rel_cSSSI_has_MRSA",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "轻症 CAP 患者可选用多西环素或米诺环素单药治疗"
+          "针对疑似或确诊MRSA所致的复杂皮肤软组织感染（cSSSI）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "disease_cap",
-        "to": "sub_disease_cap_atypical",
-        "relation_id": "rel_cap_has_atypical",
+        "from": "disease_CAP",
+        "to": "sub_disease_CAP_atypical",
+        "relation_id": "rel_CAP_has_atypical",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "重症或有耐药菌感染风险患者可选用四环类药物联合治疗……非典型病原体治疗反应较慢者疗程延长至 10~14 d"
+          "四环素类药物可作为非典型病原体引起的CAP的一线治疗药物"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "disease_csssi",
-        "to": "sub_disease_csssi_mrsa",
-        "relation_id": "rel_csssi_has_mrsa",
+        "from": "disease_HAP_VAP",
+        "to": "sub_disease_HAP_VAP_CRE_CRAB",
+        "relation_id": "rel_HAP_VAP_has_CRE_CRAB",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "针对疑似或确诊 MRSA 所致的复杂皮肤软组织感染（ cSSSI ），可选择多西环素或米诺环素抗感染治疗"
+          "针对碳青霉烯类耐药肠杆菌（CRE）和碳青霉烯类耐药鲍曼不动杆菌（CRAB）所致的医院获得性肺炎（HAP）/呼吸机相关肺炎（VAP）患者"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "disease_ciai",
-        "to": "sub_disease_ciai_cre",
-        "relation_id": "rel_ciai_has_cre",
+        "from": "disease_cIAI",
+        "to": "sub_disease_cIAI_CRE_CRAB",
+        "relation_id": "rel_cIAI_has_CRE_CRAB",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "针对 CRE 和 CRAB 引起的腹腔感染，替加环素治疗效果较好"
+          "针对CRE和CRAB引起的腹腔感染"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "disease_ciai",
-        "to": "sub_disease_ciai_crab",
-        "relation_id": "rel_ciai_has_crab",
+        "from": "disease_CNS_infection",
+        "to": "sub_disease_CNS_CRE_CRAB",
+        "relation_id": "rel_CNS_has_CRE_CRAB",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
-          "针对 CRE 和 CRAB 引起的腹腔感染，替加环素治疗效果较好"
+          "针对CRE和CRAB引起的中枢神经系统感染"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "disease_cuti",
-        "to": "sub_disease_cuti_cre",
-        "relation_id": "rel_cuti_has_cre",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "无其他更好选择的情况下可选择替加环素"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_cuti",
-        "to": "sub_disease_cuti_crab",
-        "relation_id": "rel_cuti_has_crab",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "无其他更好选择的情况下可选择替加环素"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_hap_vap",
-        "to": "sub_disease_hap_vap_cre",
-        "relation_id": "rel_hap_vap_has_cre",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "针对碳青霉烯类耐药肠杆菌（ carbapenem‑resistant Enterobacteriaceae， CRE ）……所致的医院获得性肺炎（ HAP / VAP ）患者"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_hap_vap",
-        "to": "sub_disease_hap_vap_crab",
-        "relation_id": "rel_hap_vap_has_crab",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "针对碳青霉烯类耐药鲍曼不动杆菌（ carbapenem‑resistant Acinetobacter baumannii， CRAB ）……所致的医院获得性肺炎（ HAP / VAP ）患者"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_brucellosis",
-        "to": "sub_disease_brucellosis_adult",
-        "relation_id": "rel_brucellosis_has_adult",
+        "from": "disease_Brucellosis",
+        "to": "sub_disease_Brucellosis_infection",
+        "relation_id": "rel_Brucellosis_has_infection",
         "relation_name": "包含分型",
         "relation_type": "has_sub_disease",
         "evidence_ids": [
           "针对布鲁菌感染通常需要多西环素与其他抗菌药物联用"
         ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_rmsf",
-        "to": "sub_disease_rmsf_all_age",
-        "relation_id": "rel_rmsf_has_all_age",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "美国 CDC 和儿科学会推荐多西环素作为所有年龄段儿童疑似立克次体病的首选治疗方法"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_q_fever",
-        "to": "sub_disease_q_fever_adult",
-        "relation_id": "rel_q_fever_has_adult",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "伯氏考克斯体感染（ Q 热），可选多西环素， 200 mg 口服，每天 1 次；米诺环素， 100 mg 口服，每天 2 次"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_legionellosis",
-        "to": "sub_disease_legionellosis_adult",
-        "relation_id": "rel_legionellosis_has_adult",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "针对非典型病原体如支原体、衣原体和军团菌，四环素类药物抗菌活性强、敏感性高"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_mycoplasma_pneumonia",
-        "to": "sub_disease_mycoplasma_pneumonia_adult",
-        "relation_id": "rel_mycoplasma_pneumonia_has_adult",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "中国成人医院获得性肺炎与呼吸机相关性肺炎诊断和治疗指南（ 2018 年版）［ 14 ］推荐：肺炎支原体肺炎……可选多西环素"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_chlamydia_pneumonia",
-        "to": "sub_disease_chlamydia_pneumonia_adult",
-        "relation_id": "rel_chlamydia_pneumonia_has_adult",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "中国成人医院获得性肺炎与呼吸机相关性肺炎诊断和治疗指南（ 2018 年版）［ 14 ］推荐：……肺炎衣原体、军团菌……二者为次选抗菌药物"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_ntm_infection",
-        "to": "sub_disease_ntm_fast_growing",
-        "relation_id": "rel_ntm_infection_has_fast_growing",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "替加环素、奥马环素和依拉环素可用于快生长型非结核分枝杆菌感染的治疗"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "disease_ntm_infection",
-        "to": "sub_disease_ntm_slow_growing",
-        "relation_id": "rel_ntm_infection_has_slow_growing",
-        "relation_name": "包含分型",
-        "relation_type": "has_sub_disease",
-        "evidence_ids": [
-          "奥马环素对慢生长型非结核分枝杆菌的 MIC 值高于替加环素［ 28 ］"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
-    "manifests_as": [],
+    "manifests_as": [
+      {
+        "from": "sub_disease_cSSSI_MRSA",
+        "to": "symptom_purulent_infection",
+        "relation_id": "rel_cSSSI_MRSA_manifests_purulent",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 8,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "typical",
+        "duration_condition": null,
+        "section_priority": "专家共识意见",
+        "evidence_ids": [
+          "急性细菌性皮肤和皮肤软组织感染应考虑经验性覆盖MRSA，尤其是化脓性感染"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文指出急性细菌性皮肤和皮肤软组织感染应考虑经验性覆盖MRSA，尤其是化脓性感染，表现为强相关提示。",
+        "evidence": "急性细菌性皮肤和皮肤软组织感染应考虑经验性覆盖MRSA，尤其是化脓性感染"
+      },
+      {
+        "from": "sub_disease_CAP_atypical",
+        "to": "symptom_fever",
+        "relation_id": "rel_CAP_atypical_manifests_fever",
+        "relation_name": "表现为",
+        "relation_type": "manifests_as",
+        "diagnostic_role": "supportive",
+        "type_info": "疾病诊断次要条件",
+        "weight": 6,
+        "criterion_group_id": null,
+        "required_count": null,
+        "typicality": "common",
+        "duration_condition": null,
+        "section_priority": "专家共识意见",
+        "evidence_ids": [
+          "诊断CAP后应尽早使用抗感染药物开始经验性治疗"
+        ],
+        "confidence": 0.8
+      }
+    ],
     "requires_test": [
       {
-        "from": "sub_disease_hap_vap_cre",
-        "to": "test_mic_tigecycline_crab",
-        "relation_id": "rel_hap_vap_cre_requires_mic_tigecycline_crab",
+        "from": "sub_disease_HAP_VAP_CRE_CRAB",
+        "to": "test_MIC",
+        "relation_id": "rel_HAP_VAP_requires_MIC",
         "relation_name": "需要检查",
         "relation_type": "requires_test",
         "type_info": "疾病诊断必要条件",
         "diagnostic_role": "required",
-        "value_min": 2,
+        "value_min": null,
         "value_max": null,
-        "operator": ">",
-        "unit": "μg/ml",
-        "result_text": null,
-        "weight": 7,
+        "operator": null,
+        "unit": null,
+        "result_text": "明确CRE/CRAB及药敏结果",
+        "weight": 9,
+        "gold_standard": true,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "positive",
+        "typicality": "typical",
+        "section_priority": "专家共识意见",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "肠杆菌目细菌、不动杆菌属细菌等多种病原体推荐使用纸片扩散法、肉汤或琼脂稀释法［即最小抑菌浓度（MIC）法］进行四环素类药物的药敏试验"
+        ],
+        "confidence": 0.95,
+        "weight_reason": "原文明确强调根据替加环素的MIC值决定是否谨慎选择或调整剂量，对治疗决策具有高度指导意义。",
+        "evidence": "当替加环素的MIC值>2μg/ml时，无论是单独使用还是联合使用均应谨慎选择替加环素"
+      },
+      {
+        "from": "sub_disease_HAP_VAP_CRE_CRAB",
+        "to": "test_TDM_tigecycline",
+        "relation_id": "rel_HAP_VAP_requires_TDM",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "治疗监测项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "指导临床用药剂量",
+        "weight": 8,
+        "gold_standard": false,
+        "criterion_group_id": null,
+        "required_count": null,
+        "polarity": "present",
+        "typicality": "common",
+        "section_priority": "专家共识意见",
+        "evidence_level": "expert_consensus",
+        "evidence_ids": [
+          "建议有条件开展治疗药物浓度监测（TDM）的医疗机构针对危重症患者、严重肝功能不全患者开展替加环素的血药浓度监测"
+        ],
+        "confidence": 0.9,
+        "weight_reason": "原文建议有条件开展TDM的医疗机构针对危重症患者开展替加环素血药浓度监测，属于专家建议。",
+        "evidence": "有临床专家认为有必要针对危重患者开展替加环素TDM"
+      },
+      {
+        "from": "sub_disease_CNS_CRE_CRAB",
+        "to": "test_CSF_tigecycline",
+        "relation_id": "rel_CNS_requires_CSF_TDM",
+        "relation_name": "需要检查",
+        "relation_type": "requires_test",
+        "type_info": "治疗监测项",
+        "diagnostic_role": "recommended",
+        "value_min": null,
+        "value_max": null,
+        "operator": null,
+        "unit": null,
+        "result_text": "脑脊液中抗菌药有效治疗浓度应为致病菌MIC的10~20倍",
+        "weight": 8,
         "gold_standard": false,
         "criterion_group_id": null,
         "required_count": null,
         "polarity": "elevated",
-        "typicality": "typical",
-        "section_priority": "专家共识意见7",
+        "typicality": "common",
+        "section_priority": "专家共识意见",
         "evidence_level": "expert_consensus",
         "evidence_ids": [
-          "当替加环素的 MIC 值 >2 μg/ml 时，无论是单独使用还是联合使用均应谨慎选择替加环素"
+          "使用替加环素治疗颅内感染时，可监测脑脊液药物浓度...脑脊液中抗菌药有效治疗浓度应为致病菌MIC的10~20倍"
         ],
         "confidence": 0.9,
-        "weight_reason": "原文明确指出替加环素对CRE和CRAB感染需依据MIC值决策用药，如'MIC<1 mg/L'支持联合治疗、'MIC≥1 mg/L'需加量，表明MIC检测是临床用药的关键依据，属强支撑性检测，但未称其为金标准",
-        "evidence": "诊治专家共识［55］建议以替加环素为基础的联合治疗方案可作为CRE和CRAB的备选治疗方案，在替加环素MIC<1mg/L时选择使用"
+        "weight_reason": "原文指出使用替加环素治疗颅内感染时可监测脑脊液药物浓度，属于临床可选监测建议。",
+        "evidence": "使用替加环素治疗颅内感染时，可监测脑脊液药物浓度"
       }
     ],
     "follows_treatment": [
       {
-        "from": "sub_disease_cap_atypical",
-        "to": "treatment_cap_atypical_first_line",
-        "relation_id": "rel_cap_atypical_follows_first_line",
+        "from": "sub_disease_cSSSI_MRSA",
+        "to": "treatment_cSSSI_MRSA",
+        "relation_id": "rel_cSSSI_MRSA_follows_treatment",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "明确诊断为非典型病原体所致CAP",
+        "applicable_condition": "疑似或确诊MRSA感染",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
           "病原体类型"
         ],
-        "contraindication_note": "妊娠期妇女不建议使用",
-        "evidence_level": "expert_consensus",
-        "source_section": "专家共识意见2",
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_csssi_mrsa",
-        "to": "treatment_csssi_mrsa_oral",
-        "relation_id": "rel_csssi_mrsa_follows_oral",
-        "relation_name": "遵循治疗原则",
-        "relation_type": "follows_treatment",
-        "clinical_stage": "不限定",
-        "treatment_line": "一线",
-        "applicable_condition": "疑似或确诊MRSA所致cSSSI",
-        "recommendation_polarity": "推荐",
-        "recommendation_strength": "strong",
-        "decision_basis": [
-          "病原体类型"
-        ],
-        "contraindication_note": "8岁以下儿童禁用",
+        "contraindication_note": null,
         "evidence_level": "expert_consensus",
         "source_section": "专家共识意见1",
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_ciai_cre",
-        "to": "treatment_ciai_cre_combination",
-        "relation_id": "rel_ciai_cre_follows_combination",
+        "from": "sub_disease_CAP_atypical",
+        "to": "treatment_CAP_atypical",
+        "relation_id": "rel_CAP_atypical_follows_treatment",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "CRE所致cIAI",
+        "applicable_condition": "非典型病原体感染",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
           "病原体类型"
         ],
-        "contraindication_note": "重度肝功能不全者减量",
+        "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "专家共识意见4",
-        "confidence": 0.9
+        "source_section": "专家共识意见2",
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_cuti_cre",
-        "to": "treatment_cuti_cre_combination",
-        "relation_id": "rel_cuti_cre_follows_combination",
+        "from": "sub_disease_HAP_VAP_CRE_CRAB",
+        "to": "treatment_HAP_VAP_CRE_CRAB",
+        "relation_id": "rel_HAP_VAP_CRE_CRAB_follows_treatment",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
-        "treatment_line": "二线",
-        "applicable_condition": "CRE所致cUTI且无其他更好选择",
+        "treatment_line": "联合治疗",
+        "applicable_condition": "重症及多重耐药菌感染",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "感染部位",
+          "疾病严重程度"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "专家共识意见3",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_cIAI_CRE_CRAB",
+        "to": "treatment_cIAI_CRE_CRAB",
+        "relation_id": "rel_cIAI_CRE_CRAB_follows_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "一线/替代",
+        "applicable_condition": "耐药菌感染或疗效不佳",
+        "recommendation_polarity": "推荐",
+        "recommendation_strength": "strong",
+        "decision_basis": [
+          "病原体耐药性"
+        ],
+        "contraindication_note": null,
+        "evidence_level": "expert_consensus",
+        "source_section": "专家共识意见4",
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_CNS_CRE_CRAB",
+        "to": "treatment_CNS_CRE_CRAB",
+        "relation_id": "rel_CNS_CRE_CRAB_follows_treatment",
+        "relation_name": "遵循治疗原则",
+        "relation_type": "follows_treatment",
+        "clinical_stage": "不限定",
+        "treatment_line": "联合治疗",
+        "applicable_condition": "无其他更好选择时",
         "recommendation_polarity": "可考虑",
         "recommendation_strength": "weak",
         "decision_basis": [
-          "病原体类型",
-          "药物可及性"
+          "感染部位",
+          "药物穿透性"
         ],
-        "contraindication_note": "肾功能不全者无需调整剂量",
+        "contraindication_note": "鞘内给药安全性有待更大规模研究",
         "evidence_level": "expert_consensus",
-        "source_section": "专家共识意见5",
+        "source_section": "专家共识意见6",
         "confidence": 0.9
       },
       {
-        "from": "sub_disease_hap_vap_cre",
-        "to": "treatment_hap_vap_cre_combination",
-        "relation_id": "rel_hap_vap_cre_follows_combination",
+        "from": "sub_disease_Brucellosis_infection",
+        "to": "treatment_Brucellosis",
+        "relation_id": "rel_Brucellosis_follows_treatment",
         "relation_name": "遵循治疗原则",
         "relation_type": "follows_treatment",
         "clinical_stage": "不限定",
         "treatment_line": "一线",
-        "applicable_condition": "CRE所致HAP/VAP",
+        "applicable_condition": "确诊布鲁菌感染",
         "recommendation_polarity": "推荐",
         "recommendation_strength": "strong",
         "decision_basis": [
           "病原体类型"
         ],
-        "contraindication_note": "MIC>2 μg/ml时慎用",
+        "contraindication_note": null,
         "evidence_level": "expert_consensus",
-        "source_section": "专家共识意见3",
-        "confidence": 0.9
+        "source_section": "专家共识意见2",
+        "confidence": 0.95
       }
     ],
     "implements_by": [
       {
-        "from": "treatment_cap_atypical_first_line",
-        "to": "plan_doxycycline_capi_200mg_od",
-        "relation_id": "rel_treatment_cap_atypical_implements_by_doxycycline",
+        "from": "treatment_cSSSI_MRSA",
+        "to": "plan_cSSSI_MRSA_tetracyclines",
+        "relation_id": "rel_treatment_cSSSI_implements_plan",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "肺炎支原体肺炎",
-        "contraindication_note": "妊娠期妇女不建议使用",
+        "applicable_condition": "疑似或确诊MRSA所致的cSSSI",
+        "contraindication_note": null,
         "evidence_ids": [
-          "中国成人医院获得性肺炎与呼吸机相关性肺炎诊断和治疗指南（ 2018 年版）［ 14 ］推荐：肺炎支原体肺炎和鹦鹉热衣原体肺炎，可选多西环素，首剂 200 mg 口服，此后 100 mg 口服，每天 2 次"
+          "可选择多西环素或米诺环素抗感染治疗；另外，可覆盖MRSA的口服药物还有奥马环素，静脉药物包括奥马环素和替加环素"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_CAP_atypical",
+        "to": "plan_CAP_atypical_doxy_mino",
+        "relation_id": "rel_treatment_CAP_implements_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "非典型病原体引起的轻症CAP",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "可选多西环素，首剂200 mg口服，此后100 mg口服，每天2次；米诺环素，100 mg口服，每天2次"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_HAP_VAP_CRE_CRAB",
+        "to": "plan_HAP_VAP_high_dose_tige",
+        "relation_id": "rel_treatment_HAP_VAP_implements_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "CRE/CRAB引起的重症HAP/VAP",
+        "contraindication_note": "严重肝功能不全患者需调整剂量",
+        "evidence_ids": [
+          "临床推荐使用大剂量替加环素（HDT）方案，初始剂量200 mg，随后100 mg静脉滴注，每12小时1次"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_cIAI_CRE_CRAB",
+        "to": "plan_cIAI_tige_erava",
+        "relation_id": "rel_treatment_cIAI_implements_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "首选",
+        "applicable_condition": "CRE/CRAB引起的腹腔感染",
+        "contraindication_note": null,
+        "evidence_ids": [
+          "替加环素用于腹腔感染推荐的给药方案为标准剂量（100 mg首剂+50 mg每12小时1次）"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "treatment_CNS_CRE_CRAB",
+        "to": "plan_CNS_tige_intrathecal",
+        "relation_id": "rel_treatment_CNS_implements_plan",
+        "relation_name": "落实为",
+        "relation_type": "implements_by",
+        "plan_role": "替代",
+        "applicable_condition": "无其他更好选择时",
+        "contraindication_note": "鞘内给药多为个案报道，安全性有待更大规模研究",
+        "evidence_ids": [
+          "可选择替加环素静脉联合鞘内或脑室内注射给药，剂量1~10 mg/12 h"
         ],
         "confidence": 0.9
       },
       {
-        "from": "treatment_csssi_mrsa_oral",
-        "to": "plan_omadacycline_csssi_oral",
-        "relation_id": "rel_treatment_csssi_mrsa_implements_by_omadacycline",
+        "from": "treatment_Brucellosis",
+        "to": "plan_Brucellosis_doxy_combo",
+        "relation_id": "rel_treatment_Brucellosis_implements_plan",
         "relation_name": "落实为",
         "relation_type": "implements_by",
         "plan_role": "首选",
-        "applicable_condition": "急性细菌性皮肤软组织感染",
-        "contraindication_note": "重度肝功能不全者减量",
+        "applicable_condition": "布鲁菌感染",
+        "contraindication_note": null,
         "evidence_ids": [
-          "奥马环素口服制剂治疗……急性细菌性皮肤软组织感染：负荷剂量 450 mg ，每日 1 次（第 1 日），维持剂量 300 mg ，每日 1 次"
+          "一线治疗方案为多西环素联合利福平或链霉素"
         ],
-        "confidence": 0.9
-      },
-      {
-        "from": "treatment_ciai_cre_combination",
-        "to": "plan_eravacycline_ciai_iv",
-        "relation_id": "rel_treatment_ciai_cre_implements_by_eravacycline",
-        "relation_name": "落实为",
-        "relation_type": "implements_by",
-        "plan_role": "首选",
-        "applicable_condition": "复杂腹腔内感染",
-        "contraindication_note": "重度肝功能不全者减量",
-        "evidence_ids": [
-          "依拉环素静脉滴注（负荷剂量 1.5 mg/kg ，每 12 小时 1 次；维持剂量 1 mg/kg ，每 24 小时 1 次）"
-        ],
-        "confidence": 0.9
-      },
-      {
-        "from": "treatment_hap_vap_cre_combination",
-        "to": "plan_tigecycline_hap_vap_high_dose",
-        "relation_id": "rel_treatment_hap_vap_cre_implements_by_tigecycline",
-        "relation_name": "落实为",
-        "relation_type": "implements_by",
-        "plan_role": "首选",
-        "applicable_condition": "CRE 或 CRAB 所致的中重度 HAP/VAP",
-        "contraindication_note": "MIC>2 μg/ml 时慎用",
-        "evidence_ids": [
-          "国外最新指南推荐，使用大剂量替加环素（ 200 mg 静脉注射，随后 100 mg 静脉注射，每 12 小时 1 次）治疗 CRAB 导致的中重度感染"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "causes": [
       {
-        "from": "sub_disease_csssi_mrsa",
-        "to": "etiology_mrsa",
-        "relation_id": "rel_csssi_mrsa_causes_mrsa",
-        "relation_name": "相关",
+        "from": "sub_disease_cSSSI_MRSA",
+        "to": "etiology_MRSA",
+        "relation_id": "rel_cSSSI_MRSA_caused_by_MRSA",
+        "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "针对疑似或确诊 MRSA 所致的复杂皮肤软组织感染（ cSSSI ）"
+          "针对疑似或确诊MRSA所致的复杂皮肤软组织感染（cSSSI）"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_ciai_cre",
-        "to": "etiology_cre",
-        "relation_id": "rel_ciai_cre_causes_cre",
-        "relation_name": "相关",
+        "from": "sub_disease_CAP_atypical",
+        "to": "etiology_atypical_pathogens",
+        "relation_id": "rel_CAP_atypical_caused_by_atypical",
+        "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "针对碳青霉烯类耐药肠杆菌（ carbapenem‑resistant Enterobacteriaceae， CRE ）所致的医院获得性肺炎（ HAP / VAP ）患者"
+          "针对非典型病原体如支原体、衣原体和军团菌，四环素类药物抗菌活性强、敏感性高"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_ciai_crab",
-        "to": "etiology_crab",
-        "relation_id": "rel_ciai_crab_causes_crab",
-        "relation_name": "相关",
+        "from": "sub_disease_HAP_VAP_CRE_CRAB",
+        "to": "etiology_CRE",
+        "relation_id": "rel_HAP_VAP_caused_by_CRE",
+        "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
         "criterion_group_id": null,
         "required_count": null,
         "evidence_ids": [
-          "针对碳青霉烯类耐药鲍曼不动杆菌（ carbapenem‑resistant Acinetobacter baumannii， CRAB ）所致的医院获得性肺炎（ HAP / VAP ）患者"
+          "针对碳青霉烯类耐药肠杆菌（CRE）和碳青霉烯类耐药鲍曼不动杆菌（CRAB）所致的医院获得性肺炎"
         ],
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
-        "from": "sub_disease_brucellosis_adult",
-        "to": "etiology_brucella",
-        "relation_id": "rel_brucellosis_adult_causes_brucella",
-        "relation_name": "相关",
+        "from": "sub_disease_HAP_VAP_CRE_CRAB",
+        "to": "etiology_CRAB",
+        "relation_id": "rel_HAP_VAP_caused_by_CRAB",
+        "relation_name": "导致",
+        "relation_type": "causes",
+        "causal_strength": "strong",
+        "typicality": "typical",
+        "criterion_group_id": null,
+        "required_count": null,
+        "evidence_ids": [
+          "针对碳青霉烯类耐药肠杆菌（CRE）和碳青霉烯类耐药鲍曼不动杆菌（CRAB）所致的医院获得性肺炎"
+        ],
+        "confidence": 0.95
+      },
+      {
+        "from": "sub_disease_Brucellosis_infection",
+        "to": "etiology_Brucella",
+        "relation_id": "rel_Brucellosis_caused_by_Brucella",
+        "relation_name": "导致",
         "relation_type": "causes",
         "causal_strength": "strong",
         "typicality": "typical",
@@ -1169,35 +995,31 @@
         "evidence_ids": [
           "针对布鲁菌感染通常需要多西环素与其他抗菌药物联用"
         ],
-        "confidence": 0.9
-      },
-      {
-        "from": "sub_disease_q_fever_adult",
-        "to": "etiology_coxiella_burnetii",
-        "relation_id": "rel_q_fever_adult_causes_coxiella",
-        "relation_name": "相关",
-        "relation_type": "causes",
-        "causal_strength": "strong",
-        "typicality": "typical",
-        "criterion_group_id": null,
-        "required_count": null,
-        "evidence_ids": [
-          "伯氏考克斯体感染（ Q 热），可选多西环素"
-        ],
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "explained_by": [
       {
-        "from": "sub_disease_ciai_cre",
-        "to": "pathogenesis_tetracycline_resistance",
-        "relation_id": "rel_ciai_cre_explained_by_resistance",
+        "from": "sub_disease_CAP_atypical",
+        "to": "pathogenesis_tetracycline_mechanism",
+        "relation_id": "rel_CAP_atypical_explained_by_mechanism",
         "relation_name": "由机制解释",
         "relation_type": "explained_by",
         "evidence_ids": [
-          "长期应用四环素类药物可使细菌产生四环素类抗性基因（ TRGs ），主要包括：一是细菌获得外排基因……另一是产生核糖体保护基因……"
+          "能可逆地与细菌核糖体30S亚基A位结合，阻止氨酰基-tRNA与mRNA-核糖体复合物受体部位结合，抑制细菌蛋白质的合成"
         ],
-        "confidence": 0.85
+        "confidence": 0.9
+      },
+      {
+        "from": "sub_disease_HAP_VAP_CRE_CRAB",
+        "to": "pathogenesis_tetracycline_resistance",
+        "relation_id": "rel_HAP_VAP_explained_by_resistance",
+        "relation_name": "由机制解释",
+        "relation_type": "explained_by",
+        "evidence_ids": [
+          "长期应用四环素类药物可使细菌产生四环素类抗性基因（TRGs），主要包括：一是细菌获得外排基因...另一是产生核糖体保护基因"
+        ],
+        "confidence": 0.9
       }
     ]
   },
