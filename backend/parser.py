@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-解析 data/input/chunk 与 data/input/kg_json 下的结构化 JSON。
+解析 data/input 下的结构化 JSON。
 职责：
-1. 按 PDF 维度配对 chunk.json 与 kg.json。
-2. 按 chunk_id 聚合 chunk 原文、实体、关系。
-3. 将预抽取英文标签映射为前端固定中文类型。
+1. 按程序选择 chunk 目录：OpenTCM 读取 chunk_OpenTCM，snorkel/LLM 读取 chunk_snorkel。
+2. 按 PDF 维度配对 chunk.json 与 kg.json。
+3. 按 chunk_id 聚合 chunk 原文、实体、关系。
+4. 将预抽取英文标签映射为前端固定中文类型。
 """
 from __future__ import annotations
 
@@ -75,7 +76,23 @@ class DataPaths:
 
     @property
     def chunk_dir(self) -> Path:
+        """旧版默认 chunk 目录，作为新目录缺失时的回退。"""
         return self.base_dir / "data" / "input" / "chunk"
+
+    @property
+    def chunk_opentcm_dir(self) -> Path:
+        return self.base_dir / "data" / "input" / "chunk_OpenTCM"
+
+    @property
+    def chunk_snorkel_dir(self) -> Path:
+        return self.base_dir / "data" / "input" / "chunk_snorkel"
+
+    def chunk_dir_for(self, program: str) -> Path:
+        """按程序选择 chunk 目录：OpenTCM 用 chunk_OpenTCM，snorkel/LLM 用 chunk_snorkel。"""
+        target = self.chunk_opentcm_dir if (program or "").lower() == "opentcm" else self.chunk_snorkel_dir
+        if target.exists():
+            return target
+        return self.chunk_dir
 
     @property
     def kg_dir(self) -> Path:
@@ -115,10 +132,14 @@ def stem_doc_name(path: Path) -> str:
     return path.stem
 
 
-def find_documents(paths: DataPaths) -> List[Dict[str, Any]]:
-    """扫描 input 目录，返回可复验文档列表；优先以 chunk 为准，kg_json 可选。"""
+def find_documents(paths: DataPaths, program: str = "opentcm") -> List[Dict[str, Any]]:
+    """扫描 input 目录，返回可复验文档列表；优先以 chunk 为准，kg_json 可选。
+
+    OpenTCM 读取 chunk_OpenTCM，snorkel/LLM 读取 chunk_snorkel。
+    """
     docs: List[Dict[str, Any]] = []
-    chunk_files = {stem_doc_name(p): p for p in paths.chunk_dir.glob("*.json")}
+    chunk_dir = paths.chunk_dir_for(program)
+    chunk_files = {stem_doc_name(p): p for p in chunk_dir.glob("*.json")}
     kg_files = {stem_doc_name(p): p for p in paths.kg_dir.glob("*.json")}
     entitybase_files = {stem_doc_name(p): p for p in paths.entitybase_dir.glob("*.entity_base.jsonl")}
     llm_files = {stem_doc_name(p): p for p in paths.llm_dir.glob("*.json")}
@@ -148,8 +169,8 @@ def find_documents(paths: DataPaths) -> List[Dict[str, Any]]:
     return docs
 
 
-def load_doc(paths: DataPaths, doc_key: str) -> Dict[str, Any]:
-    chunk_path = paths.chunk_dir / f"{doc_key}.chunk.json"
+def load_doc(paths: DataPaths, doc_key: str, program: str = "opentcm") -> Dict[str, Any]:
+    chunk_path = paths.chunk_dir_for(program) / f"{doc_key}.chunk.json"
     kg_path = paths.kg_dir / f"{doc_key}.kg.json"
     if not chunk_path.exists():
         raise FileNotFoundError(f"找不到 chunk 文件：{chunk_path.name}")
@@ -231,7 +252,7 @@ def load_entitybase_by_chunk(paths: DataPaths, doc_key: str) -> Dict[str, List[D
 
 
 def build_review_payload(paths: DataPaths, doc_key: str) -> Dict[str, Any]:
-    data = load_doc(paths, doc_key)
+    data = load_doc(paths, doc_key, program="opentcm")
     chunk_json = data["chunk"]
     kg_json = data["kg"] or {}
     has_kg = data["has_kg"]
@@ -294,7 +315,7 @@ def build_review_payload(paths: DataPaths, doc_key: str) -> Dict[str, Any]:
 
 
 def build_snorkel_review_payload(paths: DataPaths, doc_key: str) -> Dict[str, Any]:
-    data = load_doc(paths, doc_key)
+    data = load_doc(paths, doc_key, program="snorkel")
     chunk_json = data["chunk"]
     chunks = chunk_json.get("chunks", [])
     entitybase_path = paths.entitybase_dir / f"{doc_key}.entity_base.jsonl"
@@ -424,7 +445,7 @@ def flatten_llm_relationships(llm_json: Dict[str, Any], id_to_name: Dict[str, st
 
 
 def build_llm_review_payload(paths: DataPaths, doc_key: str) -> Dict[str, Any]:
-    data = load_doc(paths, doc_key)
+    data = load_doc(paths, doc_key, program="llm")
     chunk_json = data["chunk"]
     chunks = chunk_json.get("chunks", [])
     llm_path = paths.llm_dir / f"{doc_key}.json"

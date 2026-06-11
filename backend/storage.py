@@ -89,6 +89,11 @@ def normalize_review_status(status: str) -> str:
     return status
 
 
+def is_chunk_reviewed(status: str) -> bool:
+    normalized = normalize_review_status(status or "")
+    return normalized in {"0", "1"}
+
+
 def save_chunk_review(
     paths: DataPaths,
     doc_key: str,

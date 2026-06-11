@@ -10,8 +10,8 @@
       </select>
       <span>文档</span>
       <select class="doc-select" v-model="selectedDoc" @change="onDocumentChange">
-        <option v-for="doc in documents" :key="doc.doc_key" :value="doc.doc_key">
-          {{ doc.source_title || doc.doc_key }}{{ docSuffix(doc) }}
+        <option v-for="(doc, index) in documents" :key="doc.doc_key" :value="doc.doc_key">
+          {{ index + 1 }}. {{ doc.source_title || doc.doc_key }}{{ docSuffix(doc) }}
         </option>
       </select>
       <template v-if="!isLlm">
@@ -656,13 +656,17 @@ async function loadDocuments() {
   loading.value = true;
   loadError.value = '';
   try {
-    const res = await fetch('/api/documents');
+    const res = await fetch(`/api/documents?program=${encodeURIComponent(activeProgram.value)}`);
     const data = await res.json();
     documents.value = data.documents || [];
     if (documents.value.length > 0) {
-      selectedDoc.value = documents.value[0].doc_key;
+      const stillExists = documents.value.some(doc => doc.doc_key === selectedDoc.value);
+      if (!stillExists) {
+        selectedDoc.value = documents.value[0].doc_key;
+      }
       await loadReviewData();
     } else {
+      selectedDoc.value = '';
       chunks.value = [];
       message.value = '';
     }
@@ -683,9 +687,7 @@ function docSuffix(doc) {
 }
 
 async function onProgramChange(e) {
-  if (selectedDoc.value) {
-    await loadReviewData();
-  }
+  await loadDocuments();
   e?.target?.blur();
 }
 

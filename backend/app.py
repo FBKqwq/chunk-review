@@ -16,6 +16,7 @@ from parser import (
     find_documents,
 )
 from storage import (
+    is_chunk_reviewed,
     llm_output_path,
     load_llm_review_json,
     load_review_json,
@@ -45,7 +46,8 @@ def index():
 
 @app.get("/api/documents")
 def api_documents():
-    return jsonify({"documents": find_documents(PATHS)})
+    program = request.args.get("program", "opentcm")
+    return jsonify({"documents": find_documents(PATHS, program=program)})
 
 
 @app.get("/api/review-data/<doc_key>")
@@ -109,12 +111,12 @@ def api_snorkel_review_data(doc_key: str):
     extraction_map = review_file.get("extractions", {})
     for ch in payload["chunks"]:
         chunk_id = ch["chunk_id"]
-        if chunk_id in extraction_map:
-            ch["entities"] = extraction_map[chunk_id].get("entities", ch["entities"])
-            ch["relationships"] = extraction_map[chunk_id].get("relationships", ch["relationships"])
         review = review_map.get(chunk_id, {"status": "unreviewed", "remark": ""})
         if review.get("status") not in ("", "unreviewed", None):
             review = {**review, "status": normalize_review_status(review.get("status", ""))}
+        if is_chunk_reviewed(review.get("status", "")) and chunk_id in extraction_map:
+            ch["entities"] = extraction_map[chunk_id].get("entities", ch["entities"])
+            ch["relationships"] = extraction_map[chunk_id].get("relationships", ch["relationships"])
         ch["review"] = review
     return jsonify(payload)
 
