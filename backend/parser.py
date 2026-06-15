@@ -73,19 +73,24 @@ ENTITYBASE_TYPE_TO_CN = {
 @dataclass
 class DataPaths:
     base_dir: Path
+    dataset: str = "ALL"
+
+    @property
+    def _input_base(self) -> Path:
+        return self.base_dir / "data" / self.dataset / "input"
 
     @property
     def chunk_dir(self) -> Path:
         """旧版默认 chunk 目录，作为新目录缺失时的回退。"""
-        return self.base_dir / "data" / "input" / "chunk"
+        return self._input_base / "chunk"
 
     @property
     def chunk_opentcm_dir(self) -> Path:
-        return self.base_dir / "data" / "input" / "chunk_OpenTCM"
+        return self._input_base / "chunk_OpenTCM"
 
     @property
     def chunk_snorkel_dir(self) -> Path:
-        return self.base_dir / "data" / "input" / "chunk_snorkel"
+        return self._input_base / "chunk_snorkel"
 
     def chunk_dir_for(self, program: str) -> Path:
         """按程序选择 chunk 目录：OpenTCM 用 chunk_OpenTCM，snorkel/LLM 用 chunk_snorkel。"""
@@ -96,19 +101,19 @@ class DataPaths:
 
     @property
     def kg_dir(self) -> Path:
-        return self.base_dir / "data" / "input" / "kg_json"
+        return self._input_base / "kg_json"
 
     @property
     def entitybase_dir(self) -> Path:
-        return self.base_dir / "data" / "input" / "entitybase"
+        return self._input_base / "entitybase"
 
     @property
     def llm_dir(self) -> Path:
-        return self.base_dir / "data" / "input" / "LLM"
+        return self._input_base / "LLM"
 
     @property
     def output_dir(self) -> Path:
-        return self.base_dir / "data" / "output"
+        return self.base_dir / "data" / self.dataset / "output"
 
 
 LLM_FULL_DOCUMENT_CHUNK_ID = "__FULL_DOCUMENT__"
@@ -126,7 +131,7 @@ def read_json(path: Path) -> Dict[str, Any]:
 
 def stem_doc_name(path: Path) -> str:
     name = path.name
-    for suffix in [".chunk.json", ".kg.json", ".entity_base.jsonl", ".json"]:
+    for suffix in [".chunk.json", ".kg.json", ".entity_base.jsonl", ".entity_nodes.jsonl", ".json"]:
         if name.endswith(suffix):
             return name[: -len(suffix)]
     return path.stem
@@ -141,7 +146,13 @@ def find_documents(paths: DataPaths, program: str = "opentcm") -> List[Dict[str,
     chunk_dir = paths.chunk_dir_for(program)
     chunk_files = {stem_doc_name(p): p for p in chunk_dir.glob("*.json")}
     kg_files = {stem_doc_name(p): p for p in paths.kg_dir.glob("*.json")}
-    entitybase_files = {stem_doc_name(p): p for p in paths.entitybase_dir.glob("*.entity_base.jsonl")}
+    entitybase_files = {}
+    for p in paths.entitybase_dir.glob("*.entity_base.jsonl"):
+        entitybase_files[stem_doc_name(p)] = p
+    for p in paths.entitybase_dir.glob("*.entity_nodes.jsonl"):
+        key = stem_doc_name(p)
+        if key not in entitybase_files:
+            entitybase_files[key] = p
     llm_files = {stem_doc_name(p): p for p in paths.llm_dir.glob("*.json")}
 
     for doc_key, chunk_path in sorted(chunk_files.items()):
@@ -235,10 +246,19 @@ def normalize_entitybase_record(record: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
+def _find_entitybase_path(paths: DataPaths, doc_key: str) -> Optional[Path]:
+    """在 entitybase 目录中查找指定文档的 entitybase 文件，兼容多种命名后缀。"""
+    for suffix in [".entity_base.jsonl", ".entity_nodes.jsonl"]:
+        path = paths.entitybase_dir / f"{doc_key}{suffix}"
+        if path.exists():
+            return path
+    return None
+
+
 def load_entitybase_by_chunk(paths: DataPaths, doc_key: str) -> Dict[str, List[Dict[str, Any]]]:
-    path = paths.entitybase_dir / f"{doc_key}.entity_base.jsonl"
+    path = _find_entitybase_path(paths, doc_key)
     entities_by_chunk: Dict[str, List[Dict[str, Any]]] = {}
-    if not path.exists():
+    if not path:
         return entities_by_chunk
     with path.open("r", encoding="utf-8") as f:
         for line in f:
@@ -318,8 +338,8 @@ def build_snorkel_review_payload(paths: DataPaths, doc_key: str) -> Dict[str, An
     data = load_doc(paths, doc_key, program="snorkel")
     chunk_json = data["chunk"]
     chunks = chunk_json.get("chunks", [])
-    entitybase_path = paths.entitybase_dir / f"{doc_key}.entity_base.jsonl"
-    has_entitybase = entitybase_path.exists()
+    entitybase_path = _find_entitybase_path(paths, doc_key)
+    has_entitybase = entitybase_path is not None
     entities_by_chunk = load_entitybase_by_chunk(paths, doc_key) if has_entitybase else {}
 
     review_chunks: List[Dict[str, Any]] = []

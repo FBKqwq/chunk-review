@@ -2,6 +2,10 @@
   <div id="app">
     <div class="topbar">
       <h1>Chunk 人工复验</h1>
+      <span>数据集</span>
+      <select class="dataset-select" v-model="selectedDataset" @change="onDatasetChange">
+        <option v-for="ds in availableDatasets" :key="ds" :value="ds">{{ ds }}</option>
+      </select>
       <span>程序</span>
       <select class="program-select" v-model="activeProgram" @change="onProgramChange">
         <option value="opentcm">OpenTCM</option>
@@ -176,6 +180,8 @@
 import { computed, nextTick, onMounted, onUnmounted, ref, watch } from 'vue';
 
 const activeProgram = ref('opentcm');
+const selectedDataset = ref('ALL');
+const availableDatasets = ref([]);
 const documents = ref([]);
 const selectedDoc = ref('');
 const meta = ref({});
@@ -644,6 +650,7 @@ function reviewStatusLabel(status) {
 }
 
 onMounted(async () => {
+  await loadDatasets();
   await loadDocuments();
   window.addEventListener('keydown', onKeydown);
 });
@@ -652,11 +659,33 @@ onUnmounted(() => {
   window.removeEventListener('keydown', onKeydown);
 });
 
+function datasetParam() {
+  return `dataset=${encodeURIComponent(selectedDataset.value)}`;
+}
+
+async function loadDatasets() {
+  try {
+    const res = await fetch('/api/datasets');
+    const data = await res.json();
+    availableDatasets.value = data.datasets || [];
+    if (availableDatasets.value.length > 0 && !availableDatasets.value.includes(selectedDataset.value)) {
+      selectedDataset.value = availableDatasets.value[0];
+    }
+  } catch (err) {
+    console.error('加载数据集列表失败', err);
+  }
+}
+
+async function onDatasetChange(e) {
+  await loadDocuments();
+  e?.target?.blur();
+}
+
 async function loadDocuments() {
   loading.value = true;
   loadError.value = '';
   try {
-    const res = await fetch(`/api/documents?program=${encodeURIComponent(activeProgram.value)}`);
+    const res = await fetch(`/api/documents?${datasetParam()}&program=${encodeURIComponent(activeProgram.value)}`);
     const data = await res.json();
     documents.value = data.documents || [];
     if (documents.value.length > 0) {
@@ -701,7 +730,7 @@ async function loadReviewData() {
   loading.value = true;
   loadError.value = '';
   try {
-    const res = await fetch(`${reviewApiBase.value}/${encodeURIComponent(selectedDoc.value)}`);
+    const res = await fetch(`${reviewApiBase.value}/${encodeURIComponent(selectedDoc.value)}?${datasetParam()}`);
     const data = await res.json();
     if (!res.ok || data.ok === false) {
       throw new Error(data.error || `HTTP ${res.status}`);
@@ -847,8 +876,8 @@ async function saveReview(status) {
     relationships: relationships.value
   };
   const saveUrl = isLlm.value
-    ? `${reviewApiBase.value}/${encodeURIComponent(selectedDoc.value)}`
-    : `${reviewApiBase.value}/${encodeURIComponent(selectedDoc.value)}/${encodeURIComponent(ch.chunk_id)}`;
+    ? `${reviewApiBase.value}/${encodeURIComponent(selectedDoc.value)}?${datasetParam()}`
+    : `${reviewApiBase.value}/${encodeURIComponent(selectedDoc.value)}/${encodeURIComponent(ch.chunk_id)}?${datasetParam()}`;
   const res = await fetch(saveUrl, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -868,6 +897,6 @@ async function saveReview(status) {
 
 function downloadOutput() {
   if (!selectedDoc.value) return;
-  window.open(`${downloadApiPath.value}/${encodeURIComponent(selectedDoc.value)}`, '_blank');
+  window.open(`${downloadApiPath.value}/${encodeURIComponent(selectedDoc.value)}?${datasetParam()}`, '_blank');
 }
 </script>
