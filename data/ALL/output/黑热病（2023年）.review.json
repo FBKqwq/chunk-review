@@ -1,0 +1,3147 @@
+{
+  "base_info": {
+    "doc_key": "黑热病（2023年）",
+    "doc_id": "DOC_ce767bd35cc1",
+    "source_title": "黑热病（2023年）",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\黑热病（2023年）.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 9,
+    "total_chunks": 10,
+    "has_kg": true,
+    "kg_status": "matched",
+    "kg_matched_chunks": 10
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Disease::黑热病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Sub_Disease::内脏利什曼病",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "内脏利什曼病",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Treatment::进一步规范黑热病临床诊疗工作",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "进一步规范黑热病临床诊疗工作",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Plan::黑热病诊疗方案（2023年版）",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "黑热病诊疗方案（2023年版）",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Etiology::杜氏利什曼原虫",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "杜氏利什曼原虫",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Etiology::婴儿利什曼原虫",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "婴儿利什曼原虫",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Pathogenesis::利什曼原虫感染",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "利什曼原虫感染",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Sub_Disease::内脏利什曼病|follows_treatment|DOC_ce767bd35cc1__CH0001::Treatment::进一步规范黑热病临床诊疗工作",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "内脏利什曼病",
+          "target_entity": "进一步规范黑热病临床诊疗工作",
+          "source_id": "DOC_ce767bd35cc1__CH0001::Sub_Disease::内脏利什曼病",
+          "target_id": "DOC_ce767bd35cc1__CH0001::Treatment::进一步规范黑热病临床诊疗工作",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Treatment::进一步规范黑热病临床诊疗工作|implements_by|DOC_ce767bd35cc1__CH0001::Plan::黑热病诊疗方案（2023年版）",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "进一步规范黑热病临床诊疗工作",
+          "target_entity": "黑热病诊疗方案（2023年版）",
+          "source_id": "DOC_ce767bd35cc1__CH0001::Treatment::进一步规范黑热病临床诊疗工作",
+          "target_id": "DOC_ce767bd35cc1__CH0001::Plan::黑热病诊疗方案（2023年版）",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Sub_Disease::内脏利什曼病|causes|DOC_ce767bd35cc1__CH0001::Etiology::杜氏利什曼原虫",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "内脏利什曼病",
+          "target_entity": "杜氏利什曼原虫",
+          "source_id": "DOC_ce767bd35cc1__CH0001::Sub_Disease::内脏利什曼病",
+          "target_id": "DOC_ce767bd35cc1__CH0001::Etiology::杜氏利什曼原虫",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Sub_Disease::内脏利什曼病|causes|DOC_ce767bd35cc1__CH0001::Etiology::婴儿利什曼原虫",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "内脏利什曼病",
+          "target_entity": "婴儿利什曼原虫",
+          "source_id": "DOC_ce767bd35cc1__CH0001::Sub_Disease::内脏利什曼病",
+          "target_id": "DOC_ce767bd35cc1__CH0001::Etiology::婴儿利什曼原虫",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Sub_Disease::内脏利什曼病|explained_by|DOC_ce767bd35cc1__CH0001::Pathogenesis::利什曼原虫感染",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "内脏利什曼病",
+          "target_entity": "利什曼原虫感染",
+          "source_id": "DOC_ce767bd35cc1__CH0001::Sub_Disease::内脏利什曼病",
+          "target_id": "DOC_ce767bd35cc1__CH0001::Pathogenesis::利什曼原虫感染",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0001::Disease::黑热病|has_sub_disease|DOC_ce767bd35cc1__CH0001::Sub_Disease::内脏利什曼病",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "黑热病",
+          "target_entity": "内脏利什曼病",
+          "source_id": "DOC_ce767bd35cc1__CH0001::Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0001::Sub_Disease::内脏利什曼病",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0001"
+        }
+      ]
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0002::Disease::黑热病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0002"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0002::Sub_Disease::黑热病",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0002"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0002::Etiology::感染的犬",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "感染的犬",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0002"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0002::Etiology::狐、狼、豺等野生动物",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "狐、狼、豺等野生动物",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0002"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0002::Etiology::人",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "人",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0002"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0002::Sub_Disease::黑热病|causes|DOC_ce767bd35cc1__CH0002::Etiology::感染的犬",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "黑热病",
+          "target_entity": "感染的犬",
+          "source_id": "DOC_ce767bd35cc1__CH0002::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0002::Etiology::感染的犬",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0002"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0002::Sub_Disease::黑热病|causes|DOC_ce767bd35cc1__CH0002::Etiology::狐、狼、豺等野生动物",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "黑热病",
+          "target_entity": "狐、狼、豺等野生动物",
+          "source_id": "DOC_ce767bd35cc1__CH0002::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0002::Etiology::狐、狼、豺等野生动物",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0002"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0002::Sub_Disease::黑热病|causes|DOC_ce767bd35cc1__CH0002::Etiology::人",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "黑热病",
+          "target_entity": "人",
+          "source_id": "DOC_ce767bd35cc1__CH0002::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0002::Etiology::人",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0002"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0002::Disease::黑热病|has_sub_disease|DOC_ce767bd35cc1__CH0002::Sub_Disease::黑热病",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "黑热病",
+          "target_entity": "黑热病",
+          "source_id": "DOC_ce767bd35cc1__CH0002::Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0002::Sub_Disease::黑热病",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0002"
+        }
+      ]
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Disease::黑热病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "内脏型黑热病",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Symptom::发热",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "发热",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Symptom::体重减轻",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "体重减轻",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Symptom::脾肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "脾肿大",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Symptom::肝肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肝肿大",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Symptom::淋巴结肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "淋巴结肿大",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Symptom::贫血",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "贫血",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Symptom::继发感染",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "继发感染",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Treatment::抗利什曼原虫治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "抗利什曼原虫治疗",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Treatment::控制播散与巨噬细胞系统内繁殖",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "控制播散与巨噬细胞系统内繁殖",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Etiology::白蛉叮咬传播利什曼原虫前鞭毛体",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "白蛉叮咬传播利什曼原虫前鞭毛体",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Pathogenesis::前鞭毛体经白蛉叮咬进入皮下，被巨噬细胞吞噬后转化为无鞭毛体（利杜体）；利杜体在巨噬细胞内增殖致细胞破裂，释放病原体侵染新巨噬细胞；受染巨噬细胞经血行播散至肝、脾、淋巴结等单核巨噬细胞系统，大量繁殖引发组织病变",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "前鞭毛体经白蛉叮咬进入皮下，被巨噬细胞吞噬后转化为无鞭毛体（利杜体）；利杜体在巨噬细胞内增殖致细胞破裂，释放病原体侵染新巨噬细胞；受染巨噬细胞经血行播散至肝、脾、淋巴结等单核巨噬细胞系统，大量繁殖引发组织病变",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病|manifests_as|DOC_ce767bd35cc1__CH0003::Symptom::发热",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "内脏型黑热病",
+          "target_entity": "发热",
+          "source_id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0003::Symptom::发热",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病|manifests_as|DOC_ce767bd35cc1__CH0003::Symptom::体重减轻",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "内脏型黑热病",
+          "target_entity": "体重减轻",
+          "source_id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0003::Symptom::体重减轻",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病|manifests_as|DOC_ce767bd35cc1__CH0003::Symptom::脾肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "内脏型黑热病",
+          "target_entity": "脾肿大",
+          "source_id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0003::Symptom::脾肿大",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病|manifests_as|DOC_ce767bd35cc1__CH0003::Symptom::肝肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "内脏型黑热病",
+          "target_entity": "肝肿大",
+          "source_id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0003::Symptom::肝肿大",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病|manifests_as|DOC_ce767bd35cc1__CH0003::Symptom::淋巴结肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "内脏型黑热病",
+          "target_entity": "淋巴结肿大",
+          "source_id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0003::Symptom::淋巴结肿大",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病|manifests_as|DOC_ce767bd35cc1__CH0003::Symptom::贫血",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "内脏型黑热病",
+          "target_entity": "贫血",
+          "source_id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0003::Symptom::贫血",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病|manifests_as|DOC_ce767bd35cc1__CH0003::Symptom::继发感染",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "内脏型黑热病",
+          "target_entity": "继发感染",
+          "source_id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0003::Symptom::继发感染",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病|follows_treatment|DOC_ce767bd35cc1__CH0003::Treatment::抗利什曼原虫治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "内脏型黑热病",
+          "target_entity": "抗利什曼原虫治疗",
+          "source_id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0003::Treatment::抗利什曼原虫治疗",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病|follows_treatment|DOC_ce767bd35cc1__CH0003::Treatment::控制播散与巨噬细胞系统内繁殖",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "内脏型黑热病",
+          "target_entity": "控制播散与巨噬细胞系统内繁殖",
+          "source_id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0003::Treatment::控制播散与巨噬细胞系统内繁殖",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病|causes|DOC_ce767bd35cc1__CH0003::Etiology::白蛉叮咬传播利什曼原虫前鞭毛体",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "内脏型黑热病",
+          "target_entity": "白蛉叮咬传播利什曼原虫前鞭毛体",
+          "source_id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0003::Etiology::白蛉叮咬传播利什曼原虫前鞭毛体",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病|explained_by|DOC_ce767bd35cc1__CH0003::Pathogenesis::前鞭毛体经白蛉叮咬进入皮下，被巨噬细胞吞噬后转化为无鞭毛体（利杜体）；利杜体在巨噬细胞内增殖致细胞破裂，释放病原体侵染新巨噬细胞；受染巨噬细胞经血行播散至肝、脾、淋巴结等单核巨噬细胞系统，大量繁殖引发组织病变",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "内脏型黑热病",
+          "target_entity": "前鞭毛体经白蛉叮咬进入皮下，被巨噬细胞吞噬后转化为无鞭毛体（利杜体）；利杜体在巨噬细胞内增殖致细胞破裂，释放病原体侵染新巨噬细胞；受染巨噬细胞经血行播散至肝、脾、淋巴结等单核巨噬细胞系统，大量繁殖引发组织病变",
+          "source_id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0003::Pathogenesis::前鞭毛体经白蛉叮咬进入皮下，被巨噬细胞吞噬后转化为无鞭毛体（利杜体）；利杜体在巨噬细胞内增殖致细胞破裂，释放病原体侵染新巨噬细胞；受染巨噬细胞经血行播散至肝、脾、淋巴结等单核巨噬细胞系统，大量繁殖引发组织病变",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0003::Disease::黑热病|has_sub_disease|DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "黑热病",
+          "target_entity": "内脏型黑热病",
+          "source_id": "DOC_ce767bd35cc1__CH0003::Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0003::Sub_Disease::内脏型黑热病",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0003"
+        }
+      ]
+    },
+    "CH0004": {
+      "entities": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Disease::黑热病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::长期不规则发热",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "长期不规则发热",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::双峰热型",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "双峰热型",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::高热",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "高热",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::畏寒",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "畏寒",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::盗汗",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "盗汗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::食欲下降",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "食欲下降",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::乏力",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "乏力",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::头晕",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "头晕",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::肝肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肝肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::脾肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "脾肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::脾区剧烈疼痛",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "脾区剧烈疼痛",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::淋巴结肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "淋巴结肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::黄疸",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "黄疸",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::腹水",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "腹水",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::精神萎靡",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "精神萎靡",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::心悸",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "心悸",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::气短",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "气短",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::面色苍白",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "面色苍白",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::水肿",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "水肿",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::皮肤色素沉着",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "皮肤色素沉着",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::鼻出血",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "鼻出血",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::牙龈出血",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "牙龈出血",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::皮肤出血点",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "皮肤出血点",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::浅表淋巴结肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "浅表淋巴结肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::褐色斑",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "褐色斑",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::丘疹",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "丘疹",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::斑块",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "斑块",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::斑样丘疹",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "斑样丘疹",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::结节",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "结节",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::口腔黏膜损害",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "口腔黏膜损害",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::生殖器黏膜损害",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "生殖器黏膜损害",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Symptom::结膜损害",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "结膜损害",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Treatment::抗利什曼原虫治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "抗利什曼原虫治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Etiology::利什曼原虫感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "利什曼原虫感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Pathogenesis::利什曼原虫引发的皮肤免疫损伤",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "利什曼原虫引发的皮肤免疫损伤",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::长期不规则发热",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "长期不规则发热",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::长期不规则发热",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::双峰热型",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "双峰热型",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::双峰热型",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::高热",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "高热",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::高热",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::畏寒",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "畏寒",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::畏寒",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::盗汗",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "盗汗",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::盗汗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::食欲下降",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "食欲下降",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::食欲下降",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::乏力",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "乏力",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::乏力",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::头晕",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "头晕",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::头晕",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::肝肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "肝肿大",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::肝肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::脾肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "脾肿大",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::脾肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::脾区剧烈疼痛",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "脾区剧烈疼痛",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::脾区剧烈疼痛",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::淋巴结肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "淋巴结肿大",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::淋巴结肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::黄疸",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "黄疸",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::黄疸",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::腹水",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "腹水",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::腹水",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::精神萎靡",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "精神萎靡",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::精神萎靡",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::心悸",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "心悸",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::心悸",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::气短",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "气短",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::气短",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::面色苍白",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "面色苍白",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::面色苍白",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::水肿",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "水肿",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::水肿",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::皮肤色素沉着",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "皮肤色素沉着",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::皮肤色素沉着",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::鼻出血",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "鼻出血",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::鼻出血",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::牙龈出血",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "牙龈出血",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::牙龈出血",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::皮肤出血点",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "皮肤出血点",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::皮肤出血点",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::浅表淋巴结肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "浅表淋巴结肿大",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::浅表淋巴结肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::褐色斑",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "褐色斑",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::褐色斑",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::丘疹",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "丘疹",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::丘疹",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::斑块",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "斑块",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::斑块",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::斑样丘疹",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "斑样丘疹",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::斑样丘疹",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::结节",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "结节",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::结节",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::口腔黏膜损害",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "口腔黏膜损害",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::口腔黏膜损害",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::生殖器黏膜损害",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "生殖器黏膜损害",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::生殖器黏膜损害",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0004::Symptom::结膜损害",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "结膜损害",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Symptom::结膜损害",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|follows_treatment|DOC_ce767bd35cc1__CH0004::Treatment::抗利什曼原虫治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "黑热病",
+          "target_entity": "抗利什曼原虫治疗",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Treatment::抗利什曼原虫治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|causes|DOC_ce767bd35cc1__CH0004::Etiology::利什曼原虫感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "黑热病",
+          "target_entity": "利什曼原虫感染",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Etiology::利什曼原虫感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病|explained_by|DOC_ce767bd35cc1__CH0004::Pathogenesis::利什曼原虫引发的皮肤免疫损伤",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "黑热病",
+          "target_entity": "利什曼原虫引发的皮肤免疫损伤",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Pathogenesis::利什曼原虫引发的皮肤免疫损伤",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0004::Disease::黑热病|has_sub_disease|DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "黑热病",
+          "target_entity": "黑热病",
+          "source_id": "DOC_ce767bd35cc1__CH0004::Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0004::Sub_Disease::黑热病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0004"
+        }
+      ]
+    },
+    "CH0005": {
+      "entities": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Disease::黑热病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Symptom::白细胞减少",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "白细胞减少",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Symptom::红细胞减少",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "红细胞减少",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Symptom::血小板减少",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "血小板减少",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Symptom::血红蛋白下降",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "血红蛋白下降",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Symptom::嗜酸性粒细胞增多",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "嗜酸性粒细胞增多",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Symptom::凝血酶原时间延长",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "凝血酶原时间延长",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Symptom::血沉增快",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "血沉增快",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Symptom::肝酶轻度升高",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肝酶轻度升高",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::血常规：白细胞、红细胞和血小板减少，血红蛋白下降",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "血常规：白细胞、红细胞和血小板减少，血红蛋白下降",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::淋巴结型黑热病外周血可见嗜酸性粒细胞增多",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "淋巴结型黑热病外周血可见嗜酸性粒细胞增多",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::血清白蛋白减低，球蛋白显著增加，白蛋白/球蛋白比值（A/G）倒置",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "血清白蛋白减低，球蛋白显著增加，白蛋白/球蛋白比值（A/G）倒置",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::外周血多克隆性丙种球蛋白显著增高",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "外周血多克隆性丙种球蛋白显著增高",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::骨髓涂片镜检可见利杜体，阳性率80%~90%",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "骨髓涂片镜检可见利杜体，阳性率80%~90%",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::肝脾穿刺组织涂片阳性率90%~99%",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "肝脾穿刺组织涂片阳性率90%~99%",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::淋巴结穿刺涂片阳性率46%~87%",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "淋巴结穿刺涂片阳性率46%~87%",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::外周血厚涂片阳性率约60%",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "外周血厚涂片阳性率约60%",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::Novy-MacNeal-Nicolle（NNN）培养基培养利什曼原虫，22~25℃培养7~10天，培养到活动的前鞭毛体",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "Novy-MacNeal-Nicolle（NNN）培养基培养利什曼原虫，22~25℃培养7~10天，培养到活动的前鞭毛体",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::血液、骨髓或其它穿刺标本中检测利什曼原虫DNA阳性",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "血液、骨髓或其它穿刺标本中检测利什曼原虫DNA阳性",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::单克隆抗体斑点试验检测循环抗原",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "单克隆抗体斑点试验检测循环抗原",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::单克隆抗体斑点ELISA检测循环抗原",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "单克隆抗体斑点ELISA检测循环抗原",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::间接免疫荧光抗体试验（IFA）检测rK39抗体阳性",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "间接免疫荧光抗体试验（IFA）检测rK39抗体阳性",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::酶联免疫吸附试验（ELISA）检测rK39抗体阳性",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "酶联免疫吸附试验（ELISA）检测rK39抗体阳性",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Test::间接血凝（IHA）检测rK39抗体阳性",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "间接血凝（IHA）检测rK39抗体阳性",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Etiology::利什曼原虫感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "利什曼原虫感染",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0005::Symptom::白细胞减少",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "白细胞减少",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Symptom::白细胞减少",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0005::Symptom::红细胞减少",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "红细胞减少",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Symptom::红细胞减少",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0005::Symptom::血小板减少",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "血小板减少",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Symptom::血小板减少",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0005::Symptom::血红蛋白下降",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "血红蛋白下降",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Symptom::血红蛋白下降",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0005::Symptom::嗜酸性粒细胞增多",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "嗜酸性粒细胞增多",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Symptom::嗜酸性粒细胞增多",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0005::Symptom::凝血酶原时间延长",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "凝血酶原时间延长",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Symptom::凝血酶原时间延长",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0005::Symptom::血沉增快",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "血沉增快",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Symptom::血沉增快",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0005::Symptom::肝酶轻度升高",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "肝酶轻度升高",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Symptom::肝酶轻度升高",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::血常规：白细胞、红细胞和血小板减少，血红蛋白下降",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "血常规：白细胞、红细胞和血小板减少，血红蛋白下降",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::血常规：白细胞、红细胞和血小板减少，血红蛋白下降",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::淋巴结型黑热病外周血可见嗜酸性粒细胞增多",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "淋巴结型黑热病外周血可见嗜酸性粒细胞增多",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::淋巴结型黑热病外周血可见嗜酸性粒细胞增多",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::血清白蛋白减低，球蛋白显著增加，白蛋白/球蛋白比值（A/G）倒置",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "血清白蛋白减低，球蛋白显著增加，白蛋白/球蛋白比值（A/G）倒置",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::血清白蛋白减低，球蛋白显著增加，白蛋白/球蛋白比值（A/G）倒置",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::外周血多克隆性丙种球蛋白显著增高",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "外周血多克隆性丙种球蛋白显著增高",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::外周血多克隆性丙种球蛋白显著增高",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::骨髓涂片镜检可见利杜体，阳性率80%~90%",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "骨髓涂片镜检可见利杜体，阳性率80%~90%",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::骨髓涂片镜检可见利杜体，阳性率80%~90%",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::肝脾穿刺组织涂片阳性率90%~99%",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "肝脾穿刺组织涂片阳性率90%~99%",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::肝脾穿刺组织涂片阳性率90%~99%",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::淋巴结穿刺涂片阳性率46%~87%",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "淋巴结穿刺涂片阳性率46%~87%",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::淋巴结穿刺涂片阳性率46%~87%",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::外周血厚涂片阳性率约60%",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "外周血厚涂片阳性率约60%",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::外周血厚涂片阳性率约60%",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::Novy-MacNeal-Nicolle（NNN）培养基培养利什曼原虫，22~25℃培养7~10天，培养到活动的前鞭毛体",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "Novy-MacNeal-Nicolle（NNN）培养基培养利什曼原虫，22~25℃培养7~10天，培养到活动的前鞭毛体",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::Novy-MacNeal-Nicolle（NNN）培养基培养利什曼原虫，22~25℃培养7~10天，培养到活动的前鞭毛体",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::血液、骨髓或其它穿刺标本中检测利什曼原虫DNA阳性",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "血液、骨髓或其它穿刺标本中检测利什曼原虫DNA阳性",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::血液、骨髓或其它穿刺标本中检测利什曼原虫DNA阳性",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::单克隆抗体斑点试验检测循环抗原",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "单克隆抗体斑点试验检测循环抗原",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::单克隆抗体斑点试验检测循环抗原",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::单克隆抗体斑点ELISA检测循环抗原",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "单克隆抗体斑点ELISA检测循环抗原",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::单克隆抗体斑点ELISA检测循环抗原",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::间接免疫荧光抗体试验（IFA）检测rK39抗体阳性",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "间接免疫荧光抗体试验（IFA）检测rK39抗体阳性",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::间接免疫荧光抗体试验（IFA）检测rK39抗体阳性",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::酶联免疫吸附试验（ELISA）检测rK39抗体阳性",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "酶联免疫吸附试验（ELISA）检测rK39抗体阳性",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::酶联免疫吸附试验（ELISA）检测rK39抗体阳性",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0005::Test::间接血凝（IHA）检测rK39抗体阳性",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "间接血凝（IHA）检测rK39抗体阳性",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Test::间接血凝（IHA）检测rK39抗体阳性",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病|causes|DOC_ce767bd35cc1__CH0005::Etiology::利什曼原虫感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "黑热病",
+          "target_entity": "利什曼原虫感染",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Etiology::利什曼原虫感染",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0005::Disease::黑热病|has_sub_disease|DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "黑热病",
+          "target_entity": "黑热病",
+          "source_id": "DOC_ce767bd35cc1__CH0005::Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0005::Sub_Disease::黑热病",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0005"
+        }
+      ]
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0006::Disease::黑热病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0006"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0006::Sub_Disease::疑似病例",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "疑似病例",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0006"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0006::Treatment::根据流行病学史、临床表现、实验室检查等综合分析，作出诊断",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "根据流行病学史、临床表现、实验室检查等综合分析，作出诊断",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0006"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0006::Etiology::白蛉叮咬",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "白蛉叮咬",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0006"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0006::Etiology::在流行区居住或停留（白蛉活动季节5~9月）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "在流行区居住或停留（白蛉活动季节5~9月）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0006"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0006::Sub_Disease::疑似病例|follows_treatment|DOC_ce767bd35cc1__CH0006::Treatment::根据流行病学史、临床表现、实验室检查等综合分析，作出诊断",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "疑似病例",
+          "target_entity": "根据流行病学史、临床表现、实验室检查等综合分析，作出诊断",
+          "source_id": "DOC_ce767bd35cc1__CH0006::Sub_Disease::疑似病例",
+          "target_id": "DOC_ce767bd35cc1__CH0006::Treatment::根据流行病学史、临床表现、实验室检查等综合分析，作出诊断",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0006"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0006::Sub_Disease::疑似病例|causes|DOC_ce767bd35cc1__CH0006::Etiology::白蛉叮咬",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "疑似病例",
+          "target_entity": "白蛉叮咬",
+          "source_id": "DOC_ce767bd35cc1__CH0006::Sub_Disease::疑似病例",
+          "target_id": "DOC_ce767bd35cc1__CH0006::Etiology::白蛉叮咬",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0006"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0006::Sub_Disease::疑似病例|causes|DOC_ce767bd35cc1__CH0006::Etiology::在流行区居住或停留（白蛉活动季节5~9月）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "疑似病例",
+          "target_entity": "在流行区居住或停留（白蛉活动季节5~9月）",
+          "source_id": "DOC_ce767bd35cc1__CH0006::Sub_Disease::疑似病例",
+          "target_id": "DOC_ce767bd35cc1__CH0006::Etiology::在流行区居住或停留（白蛉活动季节5~9月）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0006"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0006::Disease::黑热病|has_sub_disease|DOC_ce767bd35cc1__CH0006::Sub_Disease::疑似病例",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "黑热病",
+          "target_entity": "疑似病例",
+          "source_id": "DOC_ce767bd35cc1__CH0006::Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0006::Sub_Disease::疑似病例",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0006"
+        }
+      ]
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Disease::黑热病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Symptom::长期发热",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "长期发热",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Symptom::脾大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "脾大",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Symptom::白细胞减低",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "白细胞减低",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Test::病原学检查",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "病原学检查",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Test::血清学检查",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "血清学检查",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Treatment::通过病原学和血清学检查进行鉴别诊断",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "通过病原学和血清学检查进行鉴别诊断",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0007::Symptom::长期发热",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "长期发热",
+          "source_id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0007::Symptom::长期发热",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0007::Symptom::脾大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "脾大",
+          "source_id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0007::Symptom::脾大",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0007::Symptom::白细胞减低",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "白细胞减低",
+          "source_id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0007::Symptom::白细胞减低",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0007::Test::病原学检查",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "病原学检查",
+          "source_id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0007::Test::病原学检查",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病|requires_test|DOC_ce767bd35cc1__CH0007::Test::血清学检查",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "黑热病",
+          "target_entity": "血清学检查",
+          "source_id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0007::Test::血清学检查",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病|follows_treatment|DOC_ce767bd35cc1__CH0007::Treatment::通过病原学和血清学检查进行鉴别诊断",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "黑热病",
+          "target_entity": "通过病原学和血清学检查进行鉴别诊断",
+          "source_id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0007::Treatment::通过病原学和血清学检查进行鉴别诊断",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0007::Disease::黑热病|has_sub_disease|DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "黑热病",
+          "target_entity": "黑热病",
+          "source_id": "DOC_ce767bd35cc1__CH0007::Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0007::Sub_Disease::黑热病",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0007"
+        }
+      ]
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Disease::黑热病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Symptom::贫血",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "贫血",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Symptom::寒热往来",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "寒热往来",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Symptom::纳呆",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "纳呆",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Symptom::乏力",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "乏力",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Symptom::头晕",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "头晕",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Symptom::恶心呕吐",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "恶心呕吐",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Symptom::泄泻",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "泄泻",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::对症治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "对症治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::病原治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "病原治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::中医治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "中医治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Plan::葡萄糖酸锑钠方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "葡萄糖酸锑钠方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Plan::两性霉素B方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "两性霉素B方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Plan::两性霉素B脂质体方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "两性霉素B脂质体方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Plan::柴平汤方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "柴平汤方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Pathogenesis::湿热之邪蕴结血分，化生癥瘕",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "湿热之邪蕴结血分，化生癥瘕",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Pathogenesis::湿浊内闭，枢机不利",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "湿浊内闭，枢机不利",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Pathogenesis::瘀血阻滞，肠胃瘀积",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "瘀血阻滞，肠胃瘀积",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Pathogenesis::瘀毒阻络，络脉不畅",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "瘀毒阻络，络脉不畅",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Plan::卧床休息，给予高热量、高蛋白、富含维生素的食物。如有贫血给予铁剂，严重者可输血。",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "卧床休息，给予高热量、高蛋白、富含维生素的食物。如有贫血给予铁剂，严重者可输血。",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0008::Symptom::贫血",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "贫血",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Symptom::贫血",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0008::Symptom::寒热往来",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "寒热往来",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Symptom::寒热往来",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0008::Symptom::纳呆",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "纳呆",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Symptom::纳呆",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0008::Symptom::乏力",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "乏力",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Symptom::乏力",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0008::Symptom::头晕",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "头晕",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Symptom::头晕",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0008::Symptom::恶心呕吐",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "恶心呕吐",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Symptom::恶心呕吐",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|manifests_as|DOC_ce767bd35cc1__CH0008::Symptom::泄泻",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "黑热病",
+          "target_entity": "泄泻",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Symptom::泄泻",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|follows_treatment|DOC_ce767bd35cc1__CH0008::Treatment::对症治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "黑热病",
+          "target_entity": "对症治疗",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Treatment::对症治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|follows_treatment|DOC_ce767bd35cc1__CH0008::Treatment::病原治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "黑热病",
+          "target_entity": "病原治疗",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Treatment::病原治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|follows_treatment|DOC_ce767bd35cc1__CH0008::Treatment::中医治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "黑热病",
+          "target_entity": "中医治疗",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Treatment::中医治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::对症治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::卧床休息，给予高热量、高蛋白、富含维生素的食物。如有贫血给予铁剂，严重者可输血。",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对症治疗",
+          "target_entity": "卧床休息，给予高热量、高蛋白、富含维生素的食物。如有贫血给予铁剂，严重者可输血。",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::对症治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::卧床休息，给予高热量、高蛋白、富含维生素的食物。如有贫血给予铁剂，严重者可输血。",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::病原治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::葡萄糖酸锑钠方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "病原治疗",
+          "target_entity": "葡萄糖酸锑钠方案",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::病原治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::葡萄糖酸锑钠方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::病原治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::两性霉素B方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "病原治疗",
+          "target_entity": "两性霉素B方案",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::病原治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::两性霉素B方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::病原治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::两性霉素B脂质体方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "病原治疗",
+          "target_entity": "两性霉素B脂质体方案",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::病原治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::两性霉素B脂质体方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::中医治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::柴平汤方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "中医治疗",
+          "target_entity": "柴平汤方案",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::中医治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::柴平汤方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|explained_by|DOC_ce767bd35cc1__CH0008::Pathogenesis::湿热之邪蕴结血分，化生癥瘕",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "黑热病",
+          "target_entity": "湿热之邪蕴结血分，化生癥瘕",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Pathogenesis::湿热之邪蕴结血分，化生癥瘕",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|explained_by|DOC_ce767bd35cc1__CH0008::Pathogenesis::湿浊内闭，枢机不利",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "黑热病",
+          "target_entity": "湿浊内闭，枢机不利",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Pathogenesis::湿浊内闭，枢机不利",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|explained_by|DOC_ce767bd35cc1__CH0008::Pathogenesis::瘀血阻滞，肠胃瘀积",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "黑热病",
+          "target_entity": "瘀血阻滞，肠胃瘀积",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Pathogenesis::瘀血阻滞，肠胃瘀积",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病|explained_by|DOC_ce767bd35cc1__CH0008::Pathogenesis::瘀毒阻络，络脉不畅",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "黑热病",
+          "target_entity": "瘀毒阻络，络脉不畅",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Pathogenesis::瘀毒阻络，络脉不畅",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Disease::黑热病|has_sub_disease|DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "黑热病",
+          "target_entity": "黑热病",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Sub_Disease::黑热病",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::对症治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::葡萄糖酸锑钠方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对症治疗",
+          "target_entity": "葡萄糖酸锑钠方案",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::对症治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::葡萄糖酸锑钠方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::对症治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::两性霉素B方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对症治疗",
+          "target_entity": "两性霉素B方案",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::对症治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::两性霉素B方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::对症治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::两性霉素B脂质体方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对症治疗",
+          "target_entity": "两性霉素B脂质体方案",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::对症治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::两性霉素B脂质体方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::对症治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::柴平汤方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对症治疗",
+          "target_entity": "柴平汤方案",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::对症治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::柴平汤方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::病原治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::柴平汤方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "病原治疗",
+          "target_entity": "柴平汤方案",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::病原治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::柴平汤方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::中医治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::葡萄糖酸锑钠方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "中医治疗",
+          "target_entity": "葡萄糖酸锑钠方案",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::中医治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::葡萄糖酸锑钠方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::中医治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::两性霉素B方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "中医治疗",
+          "target_entity": "两性霉素B方案",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::中医治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::两性霉素B方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0008::Treatment::中医治疗|implements_by|DOC_ce767bd35cc1__CH0008::Plan::两性霉素B脂质体方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "中医治疗",
+          "target_entity": "两性霉素B脂质体方案",
+          "source_id": "DOC_ce767bd35cc1__CH0008::Treatment::中医治疗",
+          "target_id": "DOC_ce767bd35cc1__CH0008::Plan::两性霉素B脂质体方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0008"
+        }
+      ]
+    },
+    "CH0009": {
+      "entities": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Disease::黑热病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "瘀血阻滞，肠胃瘀积",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Symptom::皮肤黧黑",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "皮肤黧黑",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Symptom::肌肤甲错",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肌肤甲错",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Symptom::颈脉跳动",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "颈脉跳动",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Symptom::四肢细弱",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "四肢细弱",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Symptom::腹部胀大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "腹部胀大",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Symptom::脾大过脐",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "脾大过脐",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Symptom::发热",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "发热",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Symptom::手足尤甚",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "手足尤甚",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Symptom::脉滑数",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "脉滑数",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Treatment::活血化瘀、软坚散结、通腑泄热",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "活血化瘀、软坚散结、通腑泄热",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Plan::大黄䗪虫汤",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "大黄䗪虫汤",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Pathogenesis::瘀血阻滞",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "瘀血阻滞",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Pathogenesis::肠胃瘀积",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "肠胃瘀积",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积|manifests_as|DOC_ce767bd35cc1__CH0009::Symptom::皮肤黧黑",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "瘀血阻滞，肠胃瘀积",
+          "target_entity": "皮肤黧黑",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Symptom::皮肤黧黑",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积|manifests_as|DOC_ce767bd35cc1__CH0009::Symptom::肌肤甲错",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "瘀血阻滞，肠胃瘀积",
+          "target_entity": "肌肤甲错",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Symptom::肌肤甲错",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积|manifests_as|DOC_ce767bd35cc1__CH0009::Symptom::颈脉跳动",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "瘀血阻滞，肠胃瘀积",
+          "target_entity": "颈脉跳动",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Symptom::颈脉跳动",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积|manifests_as|DOC_ce767bd35cc1__CH0009::Symptom::四肢细弱",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "瘀血阻滞，肠胃瘀积",
+          "target_entity": "四肢细弱",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Symptom::四肢细弱",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积|manifests_as|DOC_ce767bd35cc1__CH0009::Symptom::腹部胀大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "瘀血阻滞，肠胃瘀积",
+          "target_entity": "腹部胀大",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Symptom::腹部胀大",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积|manifests_as|DOC_ce767bd35cc1__CH0009::Symptom::脾大过脐",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "瘀血阻滞，肠胃瘀积",
+          "target_entity": "脾大过脐",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Symptom::脾大过脐",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积|manifests_as|DOC_ce767bd35cc1__CH0009::Symptom::发热",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "瘀血阻滞，肠胃瘀积",
+          "target_entity": "发热",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Symptom::发热",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积|manifests_as|DOC_ce767bd35cc1__CH0009::Symptom::手足尤甚",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "瘀血阻滞，肠胃瘀积",
+          "target_entity": "手足尤甚",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Symptom::手足尤甚",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积|manifests_as|DOC_ce767bd35cc1__CH0009::Symptom::脉滑数",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "瘀血阻滞，肠胃瘀积",
+          "target_entity": "脉滑数",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Symptom::脉滑数",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积|follows_treatment|DOC_ce767bd35cc1__CH0009::Treatment::活血化瘀、软坚散结、通腑泄热",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "瘀血阻滞，肠胃瘀积",
+          "target_entity": "活血化瘀、软坚散结、通腑泄热",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Treatment::活血化瘀、软坚散结、通腑泄热",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Treatment::活血化瘀、软坚散结、通腑泄热|implements_by|DOC_ce767bd35cc1__CH0009::Plan::大黄䗪虫汤",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "活血化瘀、软坚散结、通腑泄热",
+          "target_entity": "大黄䗪虫汤",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Treatment::活血化瘀、软坚散结、通腑泄热",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Plan::大黄䗪虫汤",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积|explained_by|DOC_ce767bd35cc1__CH0009::Pathogenesis::瘀血阻滞",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "瘀血阻滞，肠胃瘀积",
+          "target_entity": "瘀血阻滞",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Pathogenesis::瘀血阻滞",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积|explained_by|DOC_ce767bd35cc1__CH0009::Pathogenesis::肠胃瘀积",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "瘀血阻滞，肠胃瘀积",
+          "target_entity": "肠胃瘀积",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Pathogenesis::肠胃瘀积",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0009::Disease::黑热病|has_sub_disease|DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "黑热病",
+          "target_entity": "瘀血阻滞，肠胃瘀积",
+          "source_id": "DOC_ce767bd35cc1__CH0009::Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0009::Sub_Disease::瘀血阻滞，肠胃瘀积",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0009"
+        }
+      ]
+    },
+    "CH0010": {
+      "entities": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Disease::黑热病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "黑热病",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::及时查处患病犬只，控制传染源",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "及时查处患病犬只，控制传染源",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::对病人居所及其周围环境进行灭蛉药物喷洒",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "对病人居所及其周围环境进行灭蛉药物喷洒",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Plan::传染源控制",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "传染源控制",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Plan::环境灭蛉",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "环境灭蛉",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Plan::物理防护",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "物理防护",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Plan::个人防护",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "个人防护",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Etiology::白蛉叮咬传播利什曼原虫",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "白蛉叮咬传播利什曼原虫",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Etiology::病犬作为主要保虫宿主",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "病犬作为主要保虫宿主",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或灭蛉药物处理过的药浸蚊帐防护，安装小孔径纱门纱窗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "使用小孔径蚊帐或灭蛉药物处理过的药浸蚊帐防护，安装小孔径纱门纱窗",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病|follows_treatment|DOC_ce767bd35cc1__CH0010::Treatment::及时查处患病犬只，控制传染源",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "黑热病",
+          "target_entity": "及时查处患病犬只，控制传染源",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Treatment::及时查处患病犬只，控制传染源",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病|follows_treatment|DOC_ce767bd35cc1__CH0010::Treatment::对病人居所及其周围环境进行灭蛉药物喷洒",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "黑热病",
+          "target_entity": "对病人居所及其周围环境进行灭蛉药物喷洒",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Treatment::对病人居所及其周围环境进行灭蛉药物喷洒",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病|follows_treatment|DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或灭蛉药物处理过的药浸蚊帐防护，安装小孔径纱门纱窗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "黑热病",
+          "target_entity": "使用小孔径蚊帐或灭蛉药物处理过的药浸蚊帐防护，安装小孔径纱门纱窗",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或灭蛉药物处理过的药浸蚊帐防护，安装小孔径纱门纱窗",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病|follows_treatment|DOC_ce767bd35cc1__CH0010::Treatment::穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "黑热病",
+          "target_entity": "穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Treatment::穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::及时查处患病犬只，控制传染源|implements_by|DOC_ce767bd35cc1__CH0010::Plan::传染源控制",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "及时查处患病犬只，控制传染源",
+          "target_entity": "传染源控制",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::及时查处患病犬只，控制传染源",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::传染源控制",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::对病人居所及其周围环境进行灭蛉药物喷洒|implements_by|DOC_ce767bd35cc1__CH0010::Plan::环境灭蛉",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对病人居所及其周围环境进行灭蛉药物喷洒",
+          "target_entity": "环境灭蛉",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::对病人居所及其周围环境进行灭蛉药物喷洒",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::环境灭蛉",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或灭蛉药物处理过的药浸蚊帐防护，安装小孔径纱门纱窗|implements_by|DOC_ce767bd35cc1__CH0010::Plan::物理防护",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "使用小孔径蚊帐或灭蛉药物处理过的药浸蚊帐防护，安装小孔径纱门纱窗",
+          "target_entity": "物理防护",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或灭蛉药物处理过的药浸蚊帐防护，安装小孔径纱门纱窗",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::物理防护",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::穿长衣长裤或在身体裸露部分涂抹驱避剂|implements_by|DOC_ce767bd35cc1__CH0010::Plan::个人防护",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "target_entity": "个人防护",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::个人防护",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病|causes|DOC_ce767bd35cc1__CH0010::Etiology::白蛉叮咬传播利什曼原虫",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "黑热病",
+          "target_entity": "白蛉叮咬传播利什曼原虫",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Etiology::白蛉叮咬传播利什曼原虫",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病|causes|DOC_ce767bd35cc1__CH0010::Etiology::病犬作为主要保虫宿主",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "黑热病",
+          "target_entity": "病犬作为主要保虫宿主",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Etiology::病犬作为主要保虫宿主",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Disease::黑热病|has_sub_disease|DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "黑热病",
+          "target_entity": "黑热病",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病|follows_treatment|DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "黑热病",
+          "target_entity": "使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Sub_Disease::黑热病",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::及时查处患病犬只，控制传染源|implements_by|DOC_ce767bd35cc1__CH0010::Plan::环境灭蛉",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "及时查处患病犬只，控制传染源",
+          "target_entity": "环境灭蛉",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::及时查处患病犬只，控制传染源",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::环境灭蛉",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::及时查处患病犬只，控制传染源|implements_by|DOC_ce767bd35cc1__CH0010::Plan::物理防护",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "及时查处患病犬只，控制传染源",
+          "target_entity": "物理防护",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::及时查处患病犬只，控制传染源",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::物理防护",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::及时查处患病犬只，控制传染源|implements_by|DOC_ce767bd35cc1__CH0010::Plan::个人防护",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "及时查处患病犬只，控制传染源",
+          "target_entity": "个人防护",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::及时查处患病犬只，控制传染源",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::个人防护",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::对病人居所及其周围环境进行灭蛉药物喷洒|implements_by|DOC_ce767bd35cc1__CH0010::Plan::传染源控制",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对病人居所及其周围环境进行灭蛉药物喷洒",
+          "target_entity": "传染源控制",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::对病人居所及其周围环境进行灭蛉药物喷洒",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::传染源控制",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::对病人居所及其周围环境进行灭蛉药物喷洒|implements_by|DOC_ce767bd35cc1__CH0010::Plan::物理防护",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对病人居所及其周围环境进行灭蛉药物喷洒",
+          "target_entity": "物理防护",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::对病人居所及其周围环境进行灭蛉药物喷洒",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::物理防护",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::对病人居所及其周围环境进行灭蛉药物喷洒|implements_by|DOC_ce767bd35cc1__CH0010::Plan::个人防护",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对病人居所及其周围环境进行灭蛉药物喷洒",
+          "target_entity": "个人防护",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::对病人居所及其周围环境进行灭蛉药物喷洒",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::个人防护",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗|implements_by|DOC_ce767bd35cc1__CH0010::Plan::传染源控制",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "target_entity": "传染源控制",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::传染源控制",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗|implements_by|DOC_ce767bd35cc1__CH0010::Plan::环境灭蛉",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "target_entity": "环境灭蛉",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::环境灭蛉",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗|implements_by|DOC_ce767bd35cc1__CH0010::Plan::物理防护",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "target_entity": "物理防护",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::物理防护",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗|implements_by|DOC_ce767bd35cc1__CH0010::Plan::个人防护",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "target_entity": "个人防护",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::使用小孔径蚊帐或药浸蚊帐防护，安装小孔径纱门纱窗",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::个人防护",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::穿长衣长裤或在身体裸露部分涂抹驱避剂|implements_by|DOC_ce767bd35cc1__CH0010::Plan::传染源控制",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "target_entity": "传染源控制",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::传染源控制",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::穿长衣长裤或在身体裸露部分涂抹驱避剂|implements_by|DOC_ce767bd35cc1__CH0010::Plan::环境灭蛉",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "target_entity": "环境灭蛉",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::环境灭蛉",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        },
+        {
+          "id": "DOC_ce767bd35cc1__CH0010::Treatment::穿长衣长裤或在身体裸露部分涂抹驱避剂|implements_by|DOC_ce767bd35cc1__CH0010::Plan::物理防护",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "target_entity": "物理防护",
+          "source_id": "DOC_ce767bd35cc1__CH0010::Treatment::穿长衣长裤或在身体裸露部分涂抹驱避剂",
+          "target_id": "DOC_ce767bd35cc1__CH0010::Plan::物理防护",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ce767bd35cc1:CH0010"
+        }
+      ]
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "前言/概述",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "（一）传染源。",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "三、发病机制",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "（一）常见表现。",
+      "page_start": 2,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "（一）一般检查。",
+      "page_start": 4,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "（一）疑似病例。",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "八、鉴别诊断",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "（一）对症治疗。",
+      "page_start": 6,
+      "page_end": 8,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "2.瘀血阻滞，肠胃瘀积。",
+      "page_start": 8,
+      "page_end": 8,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "（一）在黑热病流行区，宜及时查处患病犬只，控制传",
+      "page_start": 8,
+      "page_end": 9,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "pass",
+      "error",
+      "unreviewed"
+    ],
+    "note": "base_info 记录 PDF 级基础信息；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态和备注。"
+  }
+}

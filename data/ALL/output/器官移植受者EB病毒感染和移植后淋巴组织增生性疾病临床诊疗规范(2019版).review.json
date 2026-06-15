@@ -1,0 +1,4186 @@
+{
+  "base_info": {
+    "doc_key": "器官移植受者EB病毒感染和移植后淋巴组织增生性疾病临床诊疗规范(2019版)",
+    "doc_id": "DOC_7be4e6a8f160",
+    "source_title": "器官移植受者EB病毒感染和移植后淋巴组织增生性疾病临床诊疗规范(2019版)",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\器官移植受者EB病毒感染和移植后淋巴组织增生性疾病临床诊疗规范(2019版).pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 9,
+    "total_chunks": 15,
+    "has_kg": true,
+    "kg_status": "matched",
+    "kg_matched_chunks": 15
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0001::Disease::器官移植受者EB病毒感染和移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植受者EB病毒感染和移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0001"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0001::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "移植后淋巴组织增生性疾病（PTLD）",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0001"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0001::Treatment::规范和优化EBV感染及相关疾病PTLD的诊断和治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "规范和优化EBV感染及相关疾病PTLD的诊断和治疗",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0001"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0001::Etiology::EB病毒（Epstein-Barr virus，EBV）感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "EB病毒（Epstein-Barr virus，EBV）感染",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0001"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0001::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|follows_treatment|DOC_7be4e6a8f160__CH0001::Treatment::规范和优化EBV感染及相关疾病PTLD的诊断和治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "规范和优化EBV感染及相关疾病PTLD的诊断和治疗",
+          "source_id": "DOC_7be4e6a8f160__CH0001::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0001::Treatment::规范和优化EBV感染及相关疾病PTLD的诊断和治疗",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0001"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0001::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|causes|DOC_7be4e6a8f160__CH0001::Etiology::EB病毒（Epstein-Barr virus，EBV）感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "EB病毒（Epstein-Barr virus，EBV）感染",
+          "source_id": "DOC_7be4e6a8f160__CH0001::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0001::Etiology::EB病毒（Epstein-Barr virus，EBV）感染",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0001"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0001::Disease::器官移植受者EB病毒感染和移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0001::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植受者EB病毒感染和移植后淋巴组织增生性疾病",
+          "target_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "source_id": "DOC_7be4e6a8f160__CH0001::Disease::器官移植受者EB病毒感染和移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0001::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0001"
+        }
+      ]
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Disease::器官移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "EBV相关移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Symptom::发热",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "发热",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Symptom::肝肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肝肿大",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Symptom::脾肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "脾肿大",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Symptom::淋巴结肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "淋巴结肿大",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Symptom::脏器功能受损",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "脏器功能受损",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Test::EBV血清学检测（检测EBV抗体）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "EBV血清学检测（检测EBV抗体）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Treatment::控制免疫抑制强度以恢复EBV特异性细胞毒T细胞功能",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "控制免疫抑制强度以恢复EBV特异性细胞毒T细胞功能",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Treatment::针对EBV感染与B细胞异常增殖的免疫调控",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "针对EBV感染与B细胞异常增殖的免疫调控",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Etiology::EBV感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "EBV感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Etiology::供者EBV血清学阳性",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "供者EBV血清学阳性",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Etiology::输注未去除白细胞成分的血制品",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "输注未去除白细胞成分的血制品",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Etiology::免疫抑制治疗",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "免疫抑制治疗",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Pathogenesis::EBV感染B细胞后，在免疫功能正常个体中受EBV特异性细胞毒T细胞诱导的B细胞凋亡机制调控；在SOT受者中，该凋亡触发过程被免疫抑制治疗抑制，导致EBV驱动的B细胞克隆性增生失衡，进而发展为PTLD",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "EBV感染B细胞后，在免疫功能正常个体中受EBV特异性细胞毒T细胞诱导的B细胞凋亡机制调控；在SOT受者中，该凋亡触发过程被免疫抑制治疗抑制，导致EBV驱动的B细胞克隆性增生失衡，进而发展为PTLD",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0002::Symptom::发热",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "发热",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Symptom::发热",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0002::Symptom::肝肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "肝肿大",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Symptom::肝肿大",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0002::Symptom::脾肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "脾肿大",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Symptom::脾肿大",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0002::Symptom::淋巴结肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "淋巴结肿大",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Symptom::淋巴结肿大",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0002::Symptom::脏器功能受损",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "脏器功能受损",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Symptom::脏器功能受损",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|requires_test|DOC_7be4e6a8f160__CH0002::Test::EBV血清学检测（检测EBV抗体）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EBV血清学检测（检测EBV抗体）",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Test::EBV血清学检测（检测EBV抗体）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|follows_treatment|DOC_7be4e6a8f160__CH0002::Treatment::控制免疫抑制强度以恢复EBV特异性细胞毒T细胞功能",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "控制免疫抑制强度以恢复EBV特异性细胞毒T细胞功能",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Treatment::控制免疫抑制强度以恢复EBV特异性细胞毒T细胞功能",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|follows_treatment|DOC_7be4e6a8f160__CH0002::Treatment::针对EBV感染与B细胞异常增殖的免疫调控",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "针对EBV感染与B细胞异常增殖的免疫调控",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Treatment::针对EBV感染与B细胞异常增殖的免疫调控",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|causes|DOC_7be4e6a8f160__CH0002::Etiology::EBV感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EBV感染",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Etiology::EBV感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|causes|DOC_7be4e6a8f160__CH0002::Etiology::供者EBV血清学阳性",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "供者EBV血清学阳性",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Etiology::供者EBV血清学阳性",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|causes|DOC_7be4e6a8f160__CH0002::Etiology::输注未去除白细胞成分的血制品",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "输注未去除白细胞成分的血制品",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Etiology::输注未去除白细胞成分的血制品",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|causes|DOC_7be4e6a8f160__CH0002::Etiology::免疫抑制治疗",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "免疫抑制治疗",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Etiology::免疫抑制治疗",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|explained_by|DOC_7be4e6a8f160__CH0002::Pathogenesis::EBV感染B细胞后，在免疫功能正常个体中受EBV特异性细胞毒T细胞诱导的B细胞凋亡机制调控；在SOT受者中，该凋亡触发过程被免疫抑制治疗抑制，导致EBV驱动的B细胞克隆性增生失衡，进而发展为PTLD",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EBV感染B细胞后，在免疫功能正常个体中受EBV特异性细胞毒T细胞诱导的B细胞凋亡机制调控；在SOT受者中，该凋亡触发过程被免疫抑制治疗抑制，导致EBV驱动的B细胞克隆性增生失衡，进而发展为PTLD",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Pathogenesis::EBV感染B细胞后，在免疫功能正常个体中受EBV特异性细胞毒T细胞诱导的B细胞凋亡机制调控；在SOT受者中，该凋亡触发过程被免疫抑制治疗抑制，导致EBV驱动的B细胞克隆性增生失衡，进而发展为PTLD",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0002::Disease::器官移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植后淋巴组织增生性疾病",
+          "target_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "source_id": "DOC_7be4e6a8f160__CH0002::Disease::器官移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0002::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0002"
+        }
+      ]
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Disease::移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "PTLD",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Test::EBV血清学D+/R－",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "EBV血清学D+/R－",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Test::EBV血清学阴性",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "EBV血清学阴性",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Test::CMV血清学D+/R－",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "CMV血清学D+/R－",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Test::合并CMV病",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "合并CMV病",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Treatment::风险评估需考虑免疫抑制强度与持续时间",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "风险评估需考虑免疫抑制强度与持续时间",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Treatment::对月龄<18个月受者统一按EBV阴性评估",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "对月龄<18个月受者统一按EBV阴性评估",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Etiology::EBV原发感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "EBV原发感染",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Etiology::供者来源EBV感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "供者来源EBV感染",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Etiology::反复应用大剂量抗淋巴细胞球蛋白",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "反复应用大剂量抗淋巴细胞球蛋白",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Etiology::强效免疫抑制方案",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "强效免疫抑制方案",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Etiology::抗CD3单克隆抗体",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "抗CD3单克隆抗体",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Etiology::多克隆抗淋巴细胞抗体",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "多克隆抗淋巴细胞抗体",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Etiology::CMV血清学D+/R－或合并CMV病",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "CMV血清学D+/R－或合并CMV病",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Pathogenesis::EBV驱动的B细胞异常增殖（隐含于EBV原发感染、供者来源及免疫抑制导致EBV失控）",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "EBV驱动的B细胞异常增殖（隐含于EBV原发感染、供者来源及免疫抑制导致EBV失控）",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|requires_test|DOC_7be4e6a8f160__CH0003::Test::EBV血清学D+/R－",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "PTLD",
+          "target_entity": "EBV血清学D+/R－",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Test::EBV血清学D+/R－",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|requires_test|DOC_7be4e6a8f160__CH0003::Test::EBV血清学阴性",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "PTLD",
+          "target_entity": "EBV血清学阴性",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Test::EBV血清学阴性",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|requires_test|DOC_7be4e6a8f160__CH0003::Test::CMV血清学D+/R－",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "PTLD",
+          "target_entity": "CMV血清学D+/R－",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Test::CMV血清学D+/R－",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|requires_test|DOC_7be4e6a8f160__CH0003::Test::合并CMV病",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "PTLD",
+          "target_entity": "合并CMV病",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Test::合并CMV病",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|follows_treatment|DOC_7be4e6a8f160__CH0003::Treatment::风险评估需考虑免疫抑制强度与持续时间",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "PTLD",
+          "target_entity": "风险评估需考虑免疫抑制强度与持续时间",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Treatment::风险评估需考虑免疫抑制强度与持续时间",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|follows_treatment|DOC_7be4e6a8f160__CH0003::Treatment::对月龄<18个月受者统一按EBV阴性评估",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "PTLD",
+          "target_entity": "对月龄<18个月受者统一按EBV阴性评估",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Treatment::对月龄<18个月受者统一按EBV阴性评估",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|causes|DOC_7be4e6a8f160__CH0003::Etiology::EBV原发感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "PTLD",
+          "target_entity": "EBV原发感染",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Etiology::EBV原发感染",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|causes|DOC_7be4e6a8f160__CH0003::Etiology::供者来源EBV感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "PTLD",
+          "target_entity": "供者来源EBV感染",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Etiology::供者来源EBV感染",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|causes|DOC_7be4e6a8f160__CH0003::Etiology::反复应用大剂量抗淋巴细胞球蛋白",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "PTLD",
+          "target_entity": "反复应用大剂量抗淋巴细胞球蛋白",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Etiology::反复应用大剂量抗淋巴细胞球蛋白",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|causes|DOC_7be4e6a8f160__CH0003::Etiology::强效免疫抑制方案",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "PTLD",
+          "target_entity": "强效免疫抑制方案",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Etiology::强效免疫抑制方案",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|causes|DOC_7be4e6a8f160__CH0003::Etiology::抗CD3单克隆抗体",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "PTLD",
+          "target_entity": "抗CD3单克隆抗体",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Etiology::抗CD3单克隆抗体",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|causes|DOC_7be4e6a8f160__CH0003::Etiology::多克隆抗淋巴细胞抗体",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "PTLD",
+          "target_entity": "多克隆抗淋巴细胞抗体",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Etiology::多克隆抗淋巴细胞抗体",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|causes|DOC_7be4e6a8f160__CH0003::Etiology::CMV血清学D+/R－或合并CMV病",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "PTLD",
+          "target_entity": "CMV血清学D+/R－或合并CMV病",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Etiology::CMV血清学D+/R－或合并CMV病",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD|explained_by|DOC_7be4e6a8f160__CH0003::Pathogenesis::EBV驱动的B细胞异常增殖（隐含于EBV原发感染、供者来源及免疫抑制导致EBV失控）",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "PTLD",
+          "target_entity": "EBV驱动的B细胞异常增殖（隐含于EBV原发感染、供者来源及免疫抑制导致EBV失控）",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Pathogenesis::EBV驱动的B细胞异常增殖（隐含于EBV原发感染、供者来源及免疫抑制导致EBV失控）",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0003::Disease::移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "移植后淋巴组织增生性疾病",
+          "target_entity": "PTLD",
+          "source_id": "DOC_7be4e6a8f160__CH0003::Disease::移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0003::Sub_Disease::PTLD",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0003"
+        }
+      ]
+    },
+    "CH0004": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Disease::移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "EBV相关PTLD",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::发热",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "发热",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::盗汗",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "盗汗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::消瘦",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "消瘦",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::乏力",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "乏力",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::厌食",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "厌食",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::嗜睡",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "嗜睡",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::咽痛",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "咽痛",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::黄疸",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "黄疸",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::腹痛",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "腹痛",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::恶心",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "恶心",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::呕吐",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "呕吐",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::消化道出血",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "消化道出血",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::消化道穿孔",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "消化道穿孔",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::气急",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "气急",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::咳嗽",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "咳嗽",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::淋巴结肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "淋巴结肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::肝脾肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肝脾肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::扁桃腺肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "扁桃腺肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::扁桃腺炎症",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "扁桃腺炎症",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::皮下结节",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "皮下结节",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::局灶性神经系统体征",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "局灶性神经系统体征",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Symptom::多发肿块",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "多发肿块",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Treatment::根据移植物类型、病变部位、严重程度、病理类型等个体化诊疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "根据移植物类型、病变部位、严重程度、病理类型等个体化诊疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Etiology::EB病毒（EBV）感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "EB病毒（EBV）感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::发热",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "发热",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::发热",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::盗汗",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "盗汗",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::盗汗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::消瘦",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "消瘦",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::消瘦",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::乏力",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "乏力",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::乏力",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::厌食",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "厌食",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::厌食",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::嗜睡",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "嗜睡",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::嗜睡",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::咽痛",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "咽痛",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::咽痛",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::黄疸",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "黄疸",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::黄疸",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::腹痛",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "腹痛",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::腹痛",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::恶心",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "恶心",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::恶心",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::呕吐",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "呕吐",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::呕吐",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::消化道出血",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "消化道出血",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::消化道出血",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::消化道穿孔",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "消化道穿孔",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::消化道穿孔",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::气急",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "气急",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::气急",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::咳嗽",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "咳嗽",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::咳嗽",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::淋巴结肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "淋巴结肿大",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::淋巴结肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::肝脾肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "肝脾肿大",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::肝脾肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::扁桃腺肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "扁桃腺肿大",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::扁桃腺肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::扁桃腺炎症",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "扁桃腺炎症",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::扁桃腺炎症",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::皮下结节",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "皮下结节",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::皮下结节",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::局灶性神经系统体征",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "局灶性神经系统体征",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::局灶性神经系统体征",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0004::Symptom::多发肿块",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "多发肿块",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Symptom::多发肿块",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|follows_treatment|DOC_7be4e6a8f160__CH0004::Treatment::根据移植物类型、病变部位、严重程度、病理类型等个体化诊疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "根据移植物类型、病变部位、严重程度、病理类型等个体化诊疗",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Treatment::根据移植物类型、病变部位、严重程度、病理类型等个体化诊疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD|causes|DOC_7be4e6a8f160__CH0004::Etiology::EB病毒（EBV）感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "EB病毒（EBV）感染",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Etiology::EB病毒（EBV）感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0004::Disease::移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "移植后淋巴组织增生性疾病",
+          "target_entity": "EBV相关PTLD",
+          "source_id": "DOC_7be4e6a8f160__CH0004::Disease::移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0004::Sub_Disease::EBV相关PTLD",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0004"
+        }
+      ]
+    },
+    "CH0005": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Disease::移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "EBV相关移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Symptom::异形淋巴细胞增多",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "异形淋巴细胞增多",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Symptom::单个核样淋巴细胞增多",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "单个核样淋巴细胞增多",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Symptom::外周血细胞减少",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "外周血细胞减少",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Symptom::少数患者白细胞数增多",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "少数患者白细胞数增多",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Test::EBV编码的小RNA（EBER）原位杂交检测",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "EBV编码的小RNA（EBER）原位杂交检测",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Test::荧光定量聚合酶链反应（PCR）监测EBV DNA载量",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "荧光定量聚合酶链反应（PCR）监测EBV DNA载量",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Test::血常规",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "血常规",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Test::骨髓穿刺检查",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "骨髓穿刺检查",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Test::EBV特异性抗体检测（包括早期抗原EA、病毒衣壳抗原VCA IgA、VCA IgM、VCA IgG）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "EBV特异性抗体检测（包括早期抗原EA、病毒衣壳抗原VCA IgA、VCA IgM、VCA IgG）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Treatment::诊断PTLD前必须除外各类感染及原发病复发",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "诊断PTLD前必须除外各类感染及原发病复发",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Treatment::EBV DNA载量监测对EBV相关PTLD诊断、疾病状态评估及疗效判断具有指导意义",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "EBV DNA载量监测对EBV相关PTLD诊断、疾病状态评估及疗效判断具有指导意义",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Plan::EBER原位杂交",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "EBER原位杂交",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Plan::EBV DNA载量监测",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "EBV DNA载量监测",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Etiology::EBV感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "EBV感染",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Pathogenesis::EBV感染导致淋巴细胞及浆细胞增殖；组织形态学复杂性与EBV感染状态、疾病阶段及细胞异形性程度相关",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "EBV感染导致淋巴细胞及浆细胞增殖；组织形态学复杂性与EBV感染状态、疾病阶段及细胞异形性程度相关",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0005::Symptom::异形淋巴细胞增多",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "异形淋巴细胞增多",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Symptom::异形淋巴细胞增多",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0005::Symptom::单个核样淋巴细胞增多",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "单个核样淋巴细胞增多",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Symptom::单个核样淋巴细胞增多",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0005::Symptom::外周血细胞减少",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "外周血细胞减少",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Symptom::外周血细胞减少",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0005::Symptom::少数患者白细胞数增多",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "少数患者白细胞数增多",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Symptom::少数患者白细胞数增多",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|requires_test|DOC_7be4e6a8f160__CH0005::Test::EBV编码的小RNA（EBER）原位杂交检测",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EBV编码的小RNA（EBER）原位杂交检测",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Test::EBV编码的小RNA（EBER）原位杂交检测",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|requires_test|DOC_7be4e6a8f160__CH0005::Test::荧光定量聚合酶链反应（PCR）监测EBV DNA载量",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "荧光定量聚合酶链反应（PCR）监测EBV DNA载量",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Test::荧光定量聚合酶链反应（PCR）监测EBV DNA载量",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|requires_test|DOC_7be4e6a8f160__CH0005::Test::血常规",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "血常规",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Test::血常规",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|requires_test|DOC_7be4e6a8f160__CH0005::Test::骨髓穿刺检查",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "骨髓穿刺检查",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Test::骨髓穿刺检查",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|requires_test|DOC_7be4e6a8f160__CH0005::Test::EBV特异性抗体检测（包括早期抗原EA、病毒衣壳抗原VCA IgA、VCA IgM、VCA IgG）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EBV特异性抗体检测（包括早期抗原EA、病毒衣壳抗原VCA IgA、VCA IgM、VCA IgG）",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Test::EBV特异性抗体检测（包括早期抗原EA、病毒衣壳抗原VCA IgA、VCA IgM、VCA IgG）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|follows_treatment|DOC_7be4e6a8f160__CH0005::Treatment::诊断PTLD前必须除外各类感染及原发病复发",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "诊断PTLD前必须除外各类感染及原发病复发",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Treatment::诊断PTLD前必须除外各类感染及原发病复发",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|follows_treatment|DOC_7be4e6a8f160__CH0005::Treatment::EBV DNA载量监测对EBV相关PTLD诊断、疾病状态评估及疗效判断具有指导意义",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EBV DNA载量监测对EBV相关PTLD诊断、疾病状态评估及疗效判断具有指导意义",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Treatment::EBV DNA载量监测对EBV相关PTLD诊断、疾病状态评估及疗效判断具有指导意义",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Treatment::EBV DNA载量监测对EBV相关PTLD诊断、疾病状态评估及疗效判断具有指导意义|implements_by|DOC_7be4e6a8f160__CH0005::Plan::EBV DNA载量监测",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "EBV DNA载量监测对EBV相关PTLD诊断、疾病状态评估及疗效判断具有指导意义",
+          "target_entity": "EBV DNA载量监测",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Treatment::EBV DNA载量监测对EBV相关PTLD诊断、疾病状态评估及疗效判断具有指导意义",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Plan::EBV DNA载量监测",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Treatment::诊断PTLD前必须除外各类感染及原发病复发|implements_by|DOC_7be4e6a8f160__CH0005::Plan::EBER原位杂交",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "诊断PTLD前必须除外各类感染及原发病复发",
+          "target_entity": "EBER原位杂交",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Treatment::诊断PTLD前必须除外各类感染及原发病复发",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Plan::EBER原位杂交",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|causes|DOC_7be4e6a8f160__CH0005::Etiology::EBV感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EBV感染",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Etiology::EBV感染",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|explained_by|DOC_7be4e6a8f160__CH0005::Pathogenesis::EBV感染导致淋巴细胞及浆细胞增殖；组织形态学复杂性与EBV感染状态、疾病阶段及细胞异形性程度相关",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EBV感染导致淋巴细胞及浆细胞增殖；组织形态学复杂性与EBV感染状态、疾病阶段及细胞异形性程度相关",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Pathogenesis::EBV感染导致淋巴细胞及浆细胞增殖；组织形态学复杂性与EBV感染状态、疾病阶段及细胞异形性程度相关",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Disease::移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "移植后淋巴组织增生性疾病",
+          "target_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Disease::移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Treatment::诊断PTLD前必须除外各类感染及原发病复发|implements_by|DOC_7be4e6a8f160__CH0005::Plan::EBV DNA载量监测",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "诊断PTLD前必须除外各类感染及原发病复发",
+          "target_entity": "EBV DNA载量监测",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Treatment::诊断PTLD前必须除外各类感染及原发病复发",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Plan::EBV DNA载量监测",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0005::Treatment::EBV DNA载量监测对EBV相关PTLD诊断、疾病状态评估及疗效判断具有指导意义|implements_by|DOC_7be4e6a8f160__CH0005::Plan::EBER原位杂交",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "EBV DNA载量监测对EBV相关PTLD诊断、疾病状态评估及疗效判断具有指导意义",
+          "target_entity": "EBER原位杂交",
+          "source_id": "DOC_7be4e6a8f160__CH0005::Treatment::EBV DNA载量监测对EBV相关PTLD诊断、疾病状态评估及疗效判断具有指导意义",
+          "target_id": "DOC_7be4e6a8f160__CH0005::Plan::EBER原位杂交",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0005"
+        }
+      ]
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Disease::器官移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "移植后淋巴组织增生性疾病（PTLD）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Symptom::头痛",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "头痛",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Symptom::局灶神经系统异常表现",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "局灶神经系统异常表现",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Symptom::视力改变",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "视力改变",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Symptom::消化道出血",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "消化道出血",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Symptom::持续腹泻",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "持续腹泻",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Symptom::原因不明的腹痛",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "原因不明的腹痛",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Symptom::消瘦",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "消瘦",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Test::颈、胸、腹及盆腔CT扫描",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "颈、胸、腹及盆腔CT扫描",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Test::PET/CT检查",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "PET/CT检查",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Test::头部MRI检查",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "头部MRI检查",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Test::头部CT检查",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "头部CT检查",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Test::消化道内镜检查",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "消化道内镜检查",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Treatment::影像学评估明确病变范围及性质",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "影像学评估明确病变范围及性质",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Treatment::临床分期（Ann Arbor分期）",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "临床分期（Ann Arbor分期）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Treatment::早期发现无症状中枢神经系统病变",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "早期发现无症状中枢神经系统病变",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Plan::影像学评估方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "影像学评估方案",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|manifests_as|DOC_7be4e6a8f160__CH0006::Symptom::头痛",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "头痛",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Symptom::头痛",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|manifests_as|DOC_7be4e6a8f160__CH0006::Symptom::局灶神经系统异常表现",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "局灶神经系统异常表现",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Symptom::局灶神经系统异常表现",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|manifests_as|DOC_7be4e6a8f160__CH0006::Symptom::视力改变",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "视力改变",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Symptom::视力改变",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|manifests_as|DOC_7be4e6a8f160__CH0006::Symptom::消化道出血",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "消化道出血",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Symptom::消化道出血",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|manifests_as|DOC_7be4e6a8f160__CH0006::Symptom::持续腹泻",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "持续腹泻",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Symptom::持续腹泻",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|manifests_as|DOC_7be4e6a8f160__CH0006::Symptom::原因不明的腹痛",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "原因不明的腹痛",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Symptom::原因不明的腹痛",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|manifests_as|DOC_7be4e6a8f160__CH0006::Symptom::消瘦",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "消瘦",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Symptom::消瘦",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|requires_test|DOC_7be4e6a8f160__CH0006::Test::颈、胸、腹及盆腔CT扫描",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "颈、胸、腹及盆腔CT扫描",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Test::颈、胸、腹及盆腔CT扫描",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|requires_test|DOC_7be4e6a8f160__CH0006::Test::PET/CT检查",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "PET/CT检查",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Test::PET/CT检查",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|requires_test|DOC_7be4e6a8f160__CH0006::Test::头部MRI检查",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "头部MRI检查",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Test::头部MRI检查",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|requires_test|DOC_7be4e6a8f160__CH0006::Test::头部CT检查",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "头部CT检查",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Test::头部CT检查",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|requires_test|DOC_7be4e6a8f160__CH0006::Test::消化道内镜检查",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "消化道内镜检查",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Test::消化道内镜检查",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|follows_treatment|DOC_7be4e6a8f160__CH0006::Treatment::影像学评估明确病变范围及性质",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "影像学评估明确病变范围及性质",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Treatment::影像学评估明确病变范围及性质",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|follows_treatment|DOC_7be4e6a8f160__CH0006::Treatment::临床分期（Ann Arbor分期）",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "临床分期（Ann Arbor分期）",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Treatment::临床分期（Ann Arbor分期）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）|follows_treatment|DOC_7be4e6a8f160__CH0006::Treatment::早期发现无症状中枢神经系统病变",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "target_entity": "早期发现无症状中枢神经系统病变",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Treatment::早期发现无症状中枢神经系统病变",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Treatment::影像学评估明确病变范围及性质|implements_by|DOC_7be4e6a8f160__CH0006::Plan::影像学评估方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "影像学评估明确病变范围及性质",
+          "target_entity": "影像学评估方案",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Treatment::影像学评估明确病变范围及性质",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Plan::影像学评估方案",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Treatment::临床分期（Ann Arbor分期）|implements_by|DOC_7be4e6a8f160__CH0006::Plan::影像学评估方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "临床分期（Ann Arbor分期）",
+          "target_entity": "影像学评估方案",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Treatment::临床分期（Ann Arbor分期）",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Plan::影像学评估方案",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Treatment::早期发现无症状中枢神经系统病变|implements_by|DOC_7be4e6a8f160__CH0006::Plan::影像学评估方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "早期发现无症状中枢神经系统病变",
+          "target_entity": "影像学评估方案",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Treatment::早期发现无症状中枢神经系统病变",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Plan::影像学评估方案",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0006::Disease::器官移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植后淋巴组织增生性疾病",
+          "target_entity": "移植后淋巴组织增生性疾病（PTLD）",
+          "source_id": "DOC_7be4e6a8f160__CH0006::Disease::器官移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0006::Sub_Disease::移植后淋巴组织增生性疾病（PTLD）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0006"
+        }
+      ]
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Disease::移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "PTLD组织学分型",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Test::EBER原位杂交",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "EBER原位杂交",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Test::CD20表达检测",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "CD20表达检测",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Test::病毒来源鉴定（供者或受者）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "病毒来源鉴定（供者或受者）",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Test::EBV克隆性检测",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "EBV克隆性检测",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Treatment::组织病理学检查是诊断PTLD的金标准",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "组织病理学检查是诊断PTLD的金标准",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Treatment::必须除外感染、GVHD、排斥反应与恶性淋巴组织疾病复发",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "必须除外感染、GVHD、排斥反应与恶性淋巴组织疾病复发",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Etiology::EB病毒感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "EB病毒感染",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Pathogenesis::病变从多克隆向单克隆演进，侵袭性逐渐增强，最终发展为淋巴瘤的连续过程",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "病变从多克隆向单克隆演进，侵袭性逐渐增强，最终发展为淋巴瘤的连续过程",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型|requires_test|DOC_7be4e6a8f160__CH0007::Test::EBER原位杂交",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "PTLD组织学分型",
+          "target_entity": "EBER原位杂交",
+          "source_id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型",
+          "target_id": "DOC_7be4e6a8f160__CH0007::Test::EBER原位杂交",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型|requires_test|DOC_7be4e6a8f160__CH0007::Test::CD20表达检测",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "PTLD组织学分型",
+          "target_entity": "CD20表达检测",
+          "source_id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型",
+          "target_id": "DOC_7be4e6a8f160__CH0007::Test::CD20表达检测",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型|requires_test|DOC_7be4e6a8f160__CH0007::Test::病毒来源鉴定（供者或受者）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "PTLD组织学分型",
+          "target_entity": "病毒来源鉴定（供者或受者）",
+          "source_id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型",
+          "target_id": "DOC_7be4e6a8f160__CH0007::Test::病毒来源鉴定（供者或受者）",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型|requires_test|DOC_7be4e6a8f160__CH0007::Test::EBV克隆性检测",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "PTLD组织学分型",
+          "target_entity": "EBV克隆性检测",
+          "source_id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型",
+          "target_id": "DOC_7be4e6a8f160__CH0007::Test::EBV克隆性检测",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型|follows_treatment|DOC_7be4e6a8f160__CH0007::Treatment::组织病理学检查是诊断PTLD的金标准",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "PTLD组织学分型",
+          "target_entity": "组织病理学检查是诊断PTLD的金标准",
+          "source_id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型",
+          "target_id": "DOC_7be4e6a8f160__CH0007::Treatment::组织病理学检查是诊断PTLD的金标准",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型|follows_treatment|DOC_7be4e6a8f160__CH0007::Treatment::必须除外感染、GVHD、排斥反应与恶性淋巴组织疾病复发",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "PTLD组织学分型",
+          "target_entity": "必须除外感染、GVHD、排斥反应与恶性淋巴组织疾病复发",
+          "source_id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型",
+          "target_id": "DOC_7be4e6a8f160__CH0007::Treatment::必须除外感染、GVHD、排斥反应与恶性淋巴组织疾病复发",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型|causes|DOC_7be4e6a8f160__CH0007::Etiology::EB病毒感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "PTLD组织学分型",
+          "target_entity": "EB病毒感染",
+          "source_id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型",
+          "target_id": "DOC_7be4e6a8f160__CH0007::Etiology::EB病毒感染",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型|explained_by|DOC_7be4e6a8f160__CH0007::Pathogenesis::病变从多克隆向单克隆演进，侵袭性逐渐增强，最终发展为淋巴瘤的连续过程",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "PTLD组织学分型",
+          "target_entity": "病变从多克隆向单克隆演进，侵袭性逐渐增强，最终发展为淋巴瘤的连续过程",
+          "source_id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型",
+          "target_id": "DOC_7be4e6a8f160__CH0007::Pathogenesis::病变从多克隆向单克隆演进，侵袭性逐渐增强，最终发展为淋巴瘤的连续过程",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0007::Disease::移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "移植后淋巴组织增生性疾病",
+          "target_entity": "PTLD组织学分型",
+          "source_id": "DOC_7be4e6a8f160__CH0007::Disease::移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0007::Sub_Disease::PTLD组织学分型",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0007"
+        }
+      ]
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0008::Disease::移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0008"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0008::Sub_Disease::多形性PTLD",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "多形性PTLD",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0008"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0008::Test::组织病理学检查",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "组织病理学检查",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0008"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0008::Test::组织化学染色（CD20、CD30强表达，CD15通常不表达）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "组织化学染色（CD20、CD30强表达，CD15通常不表达）",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0008"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0008::Treatment::组织学鉴别诊断（需与传染性单核细胞增多症样病变及霍奇金淋巴瘤鉴别）",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "组织学鉴别诊断（需与传染性单核细胞增多症样病变及霍奇金淋巴瘤鉴别）",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0008"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0008::Sub_Disease::多形性PTLD|requires_test|DOC_7be4e6a8f160__CH0008::Test::组织病理学检查",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "多形性PTLD",
+          "target_entity": "组织病理学检查",
+          "source_id": "DOC_7be4e6a8f160__CH0008::Sub_Disease::多形性PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0008::Test::组织病理学检查",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0008"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0008::Sub_Disease::多形性PTLD|requires_test|DOC_7be4e6a8f160__CH0008::Test::组织化学染色（CD20、CD30强表达，CD15通常不表达）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "多形性PTLD",
+          "target_entity": "组织化学染色（CD20、CD30强表达，CD15通常不表达）",
+          "source_id": "DOC_7be4e6a8f160__CH0008::Sub_Disease::多形性PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0008::Test::组织化学染色（CD20、CD30强表达，CD15通常不表达）",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0008"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0008::Sub_Disease::多形性PTLD|follows_treatment|DOC_7be4e6a8f160__CH0008::Treatment::组织学鉴别诊断（需与传染性单核细胞增多症样病变及霍奇金淋巴瘤鉴别）",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "多形性PTLD",
+          "target_entity": "组织学鉴别诊断（需与传染性单核细胞增多症样病变及霍奇金淋巴瘤鉴别）",
+          "source_id": "DOC_7be4e6a8f160__CH0008::Sub_Disease::多形性PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0008::Treatment::组织学鉴别诊断（需与传染性单核细胞增多症样病变及霍奇金淋巴瘤鉴别）",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0008"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0008::Disease::移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0008::Sub_Disease::多形性PTLD",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "移植后淋巴组织增生性疾病",
+          "target_entity": "多形性PTLD",
+          "source_id": "DOC_7be4e6a8f160__CH0008::Disease::移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0008::Sub_Disease::多形性PTLD",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0008"
+        }
+      ]
+    },
+    "CH0009": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Disease::移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "经典霍奇金淋巴瘤型PTLD",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Symptom::黏膜相关淋巴组织受累（首发表现）",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "黏膜相关淋巴组织受累（首发表现）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Test::PET/CT显示多病灶",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "PET/CT显示多病灶",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Test::组织活检（多部位）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "组织活检（多部位）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Test::EBV编码的特异RNA原位杂交",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "EBV编码的特异RNA原位杂交",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Test::免疫组织化学检测EBV蛋白成分",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "免疫组织化学检测EBV蛋白成分",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Test::克隆性重排研究（B细胞重链或TCR）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "克隆性重排研究（B细胞重链或TCR）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Test::CD30强表达",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "CD30强表达",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Test::CD15强表达",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "CD15强表达",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Test::PAX5弱表达",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "PAX5弱表达",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Test::CD20不表达",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "CD20不表达",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Treatment::多部位活检以精确诊断",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "多部位活检以精确诊断",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Treatment::鉴别诊断（尤其与霍奇金淋巴瘤样多形性PTLD）",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "鉴别诊断（尤其与霍奇金淋巴瘤样多形性PTLD）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Treatment::每例标本必须进行EBV检测",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "每例标本必须进行EBV检测",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Plan::EBV检测方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "EBV检测方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Plan::活检策略",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "活检策略",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Etiology::EBV感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "EBV感染",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Etiology::人类疱疹病毒8共感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "人类疱疹病毒8共感染",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Etiology::CMV感染（伴随现象）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "CMV感染（伴随现象）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Pathogenesis::EBV阴性PTLD发病机制与EBV阴性淋巴瘤相似",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "EBV阴性PTLD发病机制与EBV阴性淋巴瘤相似",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Pathogenesis::免疫抑制治疗相关B细胞或T细胞克隆性/寡克隆性增殖",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "免疫抑制治疗相关B细胞或T细胞克隆性/寡克隆性增殖",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|manifests_as|DOC_7be4e6a8f160__CH0009::Symptom::黏膜相关淋巴组织受累（首发表现）",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "黏膜相关淋巴组织受累（首发表现）",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Symptom::黏膜相关淋巴组织受累（首发表现）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|requires_test|DOC_7be4e6a8f160__CH0009::Test::CD30强表达",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "CD30强表达",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Test::CD30强表达",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|requires_test|DOC_7be4e6a8f160__CH0009::Test::CD15强表达",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "CD15强表达",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Test::CD15强表达",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|requires_test|DOC_7be4e6a8f160__CH0009::Test::PAX5弱表达",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "PAX5弱表达",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Test::PAX5弱表达",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|requires_test|DOC_7be4e6a8f160__CH0009::Test::CD20不表达",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "CD20不表达",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Test::CD20不表达",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|requires_test|DOC_7be4e6a8f160__CH0009::Test::EBV编码的特异RNA原位杂交",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "EBV编码的特异RNA原位杂交",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Test::EBV编码的特异RNA原位杂交",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|requires_test|DOC_7be4e6a8f160__CH0009::Test::克隆性重排研究（B细胞重链或TCR）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "克隆性重排研究（B细胞重链或TCR）",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Test::克隆性重排研究（B细胞重链或TCR）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|follows_treatment|DOC_7be4e6a8f160__CH0009::Treatment::多部位活检以精确诊断",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "多部位活检以精确诊断",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Treatment::多部位活检以精确诊断",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|follows_treatment|DOC_7be4e6a8f160__CH0009::Treatment::鉴别诊断（尤其与霍奇金淋巴瘤样多形性PTLD）",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "鉴别诊断（尤其与霍奇金淋巴瘤样多形性PTLD）",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Treatment::鉴别诊断（尤其与霍奇金淋巴瘤样多形性PTLD）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|follows_treatment|DOC_7be4e6a8f160__CH0009::Treatment::每例标本必须进行EBV检测",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "每例标本必须进行EBV检测",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Treatment::每例标本必须进行EBV检测",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Treatment::多部位活检以精确诊断|implements_by|DOC_7be4e6a8f160__CH0009::Plan::活检策略",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "多部位活检以精确诊断",
+          "target_entity": "活检策略",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Treatment::多部位活检以精确诊断",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Plan::活检策略",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Treatment::每例标本必须进行EBV检测|implements_by|DOC_7be4e6a8f160__CH0009::Plan::EBV检测方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "每例标本必须进行EBV检测",
+          "target_entity": "EBV检测方案",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Treatment::每例标本必须进行EBV检测",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Plan::EBV检测方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|causes|DOC_7be4e6a8f160__CH0009::Etiology::EBV感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "EBV感染",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Etiology::EBV感染",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|causes|DOC_7be4e6a8f160__CH0009::Etiology::人类疱疹病毒8共感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "人类疱疹病毒8共感染",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Etiology::人类疱疹病毒8共感染",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|causes|DOC_7be4e6a8f160__CH0009::Etiology::CMV感染（伴随现象）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "CMV感染（伴随现象）",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Etiology::CMV感染（伴随现象）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|explained_by|DOC_7be4e6a8f160__CH0009::Pathogenesis::EBV阴性PTLD发病机制与EBV阴性淋巴瘤相似",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "EBV阴性PTLD发病机制与EBV阴性淋巴瘤相似",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Pathogenesis::EBV阴性PTLD发病机制与EBV阴性淋巴瘤相似",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|explained_by|DOC_7be4e6a8f160__CH0009::Pathogenesis::免疫抑制治疗相关B细胞或T细胞克隆性/寡克隆性增殖",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "免疫抑制治疗相关B细胞或T细胞克隆性/寡克隆性增殖",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Pathogenesis::免疫抑制治疗相关B细胞或T细胞克隆性/寡克隆性增殖",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Disease::移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "移植后淋巴组织增生性疾病",
+          "target_entity": "经典霍奇金淋巴瘤型PTLD",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Disease::移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|requires_test|DOC_7be4e6a8f160__CH0009::Test::PET/CT显示多病灶",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "PET/CT显示多病灶",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Test::PET/CT显示多病灶",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|requires_test|DOC_7be4e6a8f160__CH0009::Test::组织活检（多部位）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "组织活检（多部位）",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Test::组织活检（多部位）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD|requires_test|DOC_7be4e6a8f160__CH0009::Test::免疫组织化学检测EBV蛋白成分",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "经典霍奇金淋巴瘤型PTLD",
+          "target_entity": "免疫组织化学检测EBV蛋白成分",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Sub_Disease::经典霍奇金淋巴瘤型PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Test::免疫组织化学检测EBV蛋白成分",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Treatment::多部位活检以精确诊断|implements_by|DOC_7be4e6a8f160__CH0009::Plan::EBV检测方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "多部位活检以精确诊断",
+          "target_entity": "EBV检测方案",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Treatment::多部位活检以精确诊断",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Plan::EBV检测方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Treatment::鉴别诊断（尤其与霍奇金淋巴瘤样多形性PTLD）|implements_by|DOC_7be4e6a8f160__CH0009::Plan::EBV检测方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "鉴别诊断（尤其与霍奇金淋巴瘤样多形性PTLD）",
+          "target_entity": "EBV检测方案",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Treatment::鉴别诊断（尤其与霍奇金淋巴瘤样多形性PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Plan::EBV检测方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Treatment::鉴别诊断（尤其与霍奇金淋巴瘤样多形性PTLD）|implements_by|DOC_7be4e6a8f160__CH0009::Plan::活检策略",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "鉴别诊断（尤其与霍奇金淋巴瘤样多形性PTLD）",
+          "target_entity": "活检策略",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Treatment::鉴别诊断（尤其与霍奇金淋巴瘤样多形性PTLD）",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Plan::活检策略",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0009::Treatment::每例标本必须进行EBV检测|implements_by|DOC_7be4e6a8f160__CH0009::Plan::活检策略",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "每例标本必须进行EBV检测",
+          "target_entity": "活检策略",
+          "source_id": "DOC_7be4e6a8f160__CH0009::Treatment::每例标本必须进行EBV检测",
+          "target_id": "DOC_7be4e6a8f160__CH0009::Plan::活检策略",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0009"
+        }
+      ]
+    },
+    "CH0010": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Disease::移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "EBV相关PTLD",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Symptom::临床表现持续存在",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "临床表现持续存在",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Symptom::病变原发位点扩大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "病变原发位点扩大",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Symptom::增加病变新位点",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "增加病变新位点",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Test::体检",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "体检",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Test::实验室检查",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "实验室检查",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Test::影像学检查",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "影像学检查",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Test::病理学检查",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "病理学检查",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Treatment::根据分期制定治疗策略",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "根据分期制定治疗策略",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Treatment::依据临床病程动态评估（持续性、进展性、复发性）",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "依据临床病程动态评估（持续性、进展性、复发性）",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Etiology::EB病毒感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "EB病毒感染",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0010::Symptom::临床表现持续存在",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "临床表现持续存在",
+          "source_id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0010::Symptom::临床表现持续存在",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0010::Symptom::病变原发位点扩大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "病变原发位点扩大",
+          "source_id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0010::Symptom::病变原发位点扩大",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0010::Symptom::增加病变新位点",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "增加病变新位点",
+          "source_id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0010::Symptom::增加病变新位点",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD|requires_test|DOC_7be4e6a8f160__CH0010::Test::体检",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "体检",
+          "source_id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0010::Test::体检",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD|requires_test|DOC_7be4e6a8f160__CH0010::Test::实验室检查",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "实验室检查",
+          "source_id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0010::Test::实验室检查",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD|requires_test|DOC_7be4e6a8f160__CH0010::Test::影像学检查",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "影像学检查",
+          "source_id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0010::Test::影像学检查",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD|requires_test|DOC_7be4e6a8f160__CH0010::Test::病理学检查",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "病理学检查",
+          "source_id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0010::Test::病理学检查",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD|follows_treatment|DOC_7be4e6a8f160__CH0010::Treatment::根据分期制定治疗策略",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "根据分期制定治疗策略",
+          "source_id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0010::Treatment::根据分期制定治疗策略",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD|follows_treatment|DOC_7be4e6a8f160__CH0010::Treatment::依据临床病程动态评估（持续性、进展性、复发性）",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "依据临床病程动态评估（持续性、进展性、复发性）",
+          "source_id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0010::Treatment::依据临床病程动态评估（持续性、进展性、复发性）",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD|causes|DOC_7be4e6a8f160__CH0010::Etiology::EB病毒感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "EB病毒感染",
+          "source_id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0010::Etiology::EB病毒感染",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0010::Disease::移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "移植后淋巴组织增生性疾病",
+          "target_entity": "EBV相关PTLD",
+          "source_id": "DOC_7be4e6a8f160__CH0010::Disease::移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0010::Sub_Disease::EBV相关PTLD",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0010"
+        }
+      ]
+    },
+    "CH0011": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Disease::器官移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "EBV相关移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Symptom::发热",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "发热",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Symptom::腹泻",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "腹泻",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Symptom::淋巴结肿大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "淋巴结肿大",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Symptom::移植物失功",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "移植物失功",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Test::EBV血清学检测",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "EBV血清学检测",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Test::EBV DNA载量监测",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "EBV DNA载量监测",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Treatment::减少免疫抑制剂用量",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "减少免疫抑制剂用量",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Treatment::谨慎排除PTLD后再加量免疫抑制剂",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "谨慎排除PTLD后再加量免疫抑制剂",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Treatment::积极采集组织病理学证据",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "积极采集组织病理学证据",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Plan::EBV阴性受者EBV载量升高时减量方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "EBV阴性受者EBV载量升高时减量方案",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Plan::疑似急性排斥反应前PTLD排查方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "疑似急性排斥反应前PTLD排查方案",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Etiology::EB病毒（EBV）感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "EB病毒（EBV）感染",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Etiology::原发性CMV感染（作为高风险背景因素）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "原发性CMV感染（作为高风险背景因素）",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0011::Symptom::发热",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "发热",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Symptom::发热",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0011::Symptom::腹泻",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "腹泻",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Symptom::腹泻",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0011::Symptom::淋巴结肿大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "淋巴结肿大",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Symptom::淋巴结肿大",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|manifests_as|DOC_7be4e6a8f160__CH0011::Symptom::移植物失功",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "移植物失功",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Symptom::移植物失功",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|requires_test|DOC_7be4e6a8f160__CH0011::Test::EBV血清学检测",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EBV血清学检测",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Test::EBV血清学检测",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|requires_test|DOC_7be4e6a8f160__CH0011::Test::EBV DNA载量监测",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EBV DNA载量监测",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Test::EBV DNA载量监测",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|follows_treatment|DOC_7be4e6a8f160__CH0011::Treatment::减少免疫抑制剂用量",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "减少免疫抑制剂用量",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Treatment::减少免疫抑制剂用量",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|follows_treatment|DOC_7be4e6a8f160__CH0011::Treatment::谨慎排除PTLD后再加量免疫抑制剂",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "谨慎排除PTLD后再加量免疫抑制剂",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Treatment::谨慎排除PTLD后再加量免疫抑制剂",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|follows_treatment|DOC_7be4e6a8f160__CH0011::Treatment::积极采集组织病理学证据",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "积极采集组织病理学证据",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Treatment::积极采集组织病理学证据",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Treatment::减少免疫抑制剂用量|implements_by|DOC_7be4e6a8f160__CH0011::Plan::EBV阴性受者EBV载量升高时减量方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "减少免疫抑制剂用量",
+          "target_entity": "EBV阴性受者EBV载量升高时减量方案",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Treatment::减少免疫抑制剂用量",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Plan::EBV阴性受者EBV载量升高时减量方案",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Treatment::谨慎排除PTLD后再加量免疫抑制剂|implements_by|DOC_7be4e6a8f160__CH0011::Plan::疑似急性排斥反应前PTLD排查方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "谨慎排除PTLD后再加量免疫抑制剂",
+          "target_entity": "疑似急性排斥反应前PTLD排查方案",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Treatment::谨慎排除PTLD后再加量免疫抑制剂",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Plan::疑似急性排斥反应前PTLD排查方案",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Treatment::积极采集组织病理学证据|implements_by|DOC_7be4e6a8f160__CH0011::Plan::疑似急性排斥反应前PTLD排查方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "积极采集组织病理学证据",
+          "target_entity": "疑似急性排斥反应前PTLD排查方案",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Treatment::积极采集组织病理学证据",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Plan::疑似急性排斥反应前PTLD排查方案",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|causes|DOC_7be4e6a8f160__CH0011::Etiology::EB病毒（EBV）感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EB病毒（EBV）感染",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Etiology::EB病毒（EBV）感染",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|causes|DOC_7be4e6a8f160__CH0011::Etiology::原发性CMV感染（作为高风险背景因素）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "原发性CMV感染（作为高风险背景因素）",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Etiology::原发性CMV感染（作为高风险背景因素）",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Disease::器官移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植后淋巴组织增生性疾病",
+          "target_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Disease::器官移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Treatment::减少免疫抑制剂用量|implements_by|DOC_7be4e6a8f160__CH0011::Plan::疑似急性排斥反应前PTLD排查方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "减少免疫抑制剂用量",
+          "target_entity": "疑似急性排斥反应前PTLD排查方案",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Treatment::减少免疫抑制剂用量",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Plan::疑似急性排斥反应前PTLD排查方案",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Treatment::谨慎排除PTLD后再加量免疫抑制剂|implements_by|DOC_7be4e6a8f160__CH0011::Plan::EBV阴性受者EBV载量升高时减量方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "谨慎排除PTLD后再加量免疫抑制剂",
+          "target_entity": "EBV阴性受者EBV载量升高时减量方案",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Treatment::谨慎排除PTLD后再加量免疫抑制剂",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Plan::EBV阴性受者EBV载量升高时减量方案",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0011::Treatment::积极采集组织病理学证据|implements_by|DOC_7be4e6a8f160__CH0011::Plan::EBV阴性受者EBV载量升高时减量方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "积极采集组织病理学证据",
+          "target_entity": "EBV阴性受者EBV载量升高时减量方案",
+          "source_id": "DOC_7be4e6a8f160__CH0011::Treatment::积极采集组织病理学证据",
+          "target_id": "DOC_7be4e6a8f160__CH0011::Plan::EBV阴性受者EBV载量升高时减量方案",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0011"
+        }
+      ]
+    },
+    "CH0012": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Disease::移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "EBV相关移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Test::EBV病毒载量定量检测",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "EBV病毒载量定量检测",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Treatment::减少免疫抑制剂用量",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "减少免疫抑制剂用量",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Treatment::抢先治疗策略",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "抢先治疗策略",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Treatment::预防性应用抗病毒药物和（或）免疫球蛋白",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "预防性应用抗病毒药物和（或）免疫球蛋白",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Plan::EBV病毒载量监测方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "EBV病毒载量监测方案",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Plan::抢先治疗方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "抢先治疗方案",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Etiology::EBV感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "EBV感染",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|requires_test|DOC_7be4e6a8f160__CH0012::Test::EBV病毒载量定量检测",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EBV病毒载量定量检测",
+          "source_id": "DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0012::Test::EBV病毒载量定量检测",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|follows_treatment|DOC_7be4e6a8f160__CH0012::Treatment::减少免疫抑制剂用量",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "减少免疫抑制剂用量",
+          "source_id": "DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0012::Treatment::减少免疫抑制剂用量",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|follows_treatment|DOC_7be4e6a8f160__CH0012::Treatment::抢先治疗策略",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "抢先治疗策略",
+          "source_id": "DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0012::Treatment::抢先治疗策略",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|follows_treatment|DOC_7be4e6a8f160__CH0012::Treatment::预防性应用抗病毒药物和（或）免疫球蛋白",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "预防性应用抗病毒药物和（或）免疫球蛋白",
+          "source_id": "DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0012::Treatment::预防性应用抗病毒药物和（或）免疫球蛋白",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Treatment::减少免疫抑制剂用量|implements_by|DOC_7be4e6a8f160__CH0012::Plan::抢先治疗方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "减少免疫抑制剂用量",
+          "target_entity": "抢先治疗方案",
+          "source_id": "DOC_7be4e6a8f160__CH0012::Treatment::减少免疫抑制剂用量",
+          "target_id": "DOC_7be4e6a8f160__CH0012::Plan::抢先治疗方案",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Treatment::抢先治疗策略|implements_by|DOC_7be4e6a8f160__CH0012::Plan::抢先治疗方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "抢先治疗策略",
+          "target_entity": "抢先治疗方案",
+          "source_id": "DOC_7be4e6a8f160__CH0012::Treatment::抢先治疗策略",
+          "target_id": "DOC_7be4e6a8f160__CH0012::Plan::抢先治疗方案",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病|causes|DOC_7be4e6a8f160__CH0012::Etiology::EBV感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "target_entity": "EBV感染",
+          "source_id": "DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0012::Etiology::EBV感染",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Disease::移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "移植后淋巴组织增生性疾病",
+          "target_entity": "EBV相关移植后淋巴组织增生性疾病",
+          "source_id": "DOC_7be4e6a8f160__CH0012::Disease::移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0012::Sub_Disease::EBV相关移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Treatment::减少免疫抑制剂用量|implements_by|DOC_7be4e6a8f160__CH0012::Plan::EBV病毒载量监测方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "减少免疫抑制剂用量",
+          "target_entity": "EBV病毒载量监测方案",
+          "source_id": "DOC_7be4e6a8f160__CH0012::Treatment::减少免疫抑制剂用量",
+          "target_id": "DOC_7be4e6a8f160__CH0012::Plan::EBV病毒载量监测方案",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Treatment::抢先治疗策略|implements_by|DOC_7be4e6a8f160__CH0012::Plan::EBV病毒载量监测方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "抢先治疗策略",
+          "target_entity": "EBV病毒载量监测方案",
+          "source_id": "DOC_7be4e6a8f160__CH0012::Treatment::抢先治疗策略",
+          "target_id": "DOC_7be4e6a8f160__CH0012::Plan::EBV病毒载量监测方案",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Treatment::预防性应用抗病毒药物和（或）免疫球蛋白|implements_by|DOC_7be4e6a8f160__CH0012::Plan::EBV病毒载量监测方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "预防性应用抗病毒药物和（或）免疫球蛋白",
+          "target_entity": "EBV病毒载量监测方案",
+          "source_id": "DOC_7be4e6a8f160__CH0012::Treatment::预防性应用抗病毒药物和（或）免疫球蛋白",
+          "target_id": "DOC_7be4e6a8f160__CH0012::Plan::EBV病毒载量监测方案",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0012::Treatment::预防性应用抗病毒药物和（或）免疫球蛋白|implements_by|DOC_7be4e6a8f160__CH0012::Plan::抢先治疗方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "预防性应用抗病毒药物和（或）免疫球蛋白",
+          "target_entity": "抢先治疗方案",
+          "source_id": "DOC_7be4e6a8f160__CH0012::Treatment::预防性应用抗病毒药物和（或）免疫球蛋白",
+          "target_id": "DOC_7be4e6a8f160__CH0012::Plan::抢先治疗方案",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0012"
+        }
+      ]
+    },
+    "CH0013": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Disease::移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "EBV相关PTLD",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Symptom::肿块较大",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肿块较大",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Symptom::多器官受累",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "多器官受累",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Symptom::肠穿孔",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肠穿孔",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Symptom::肠梗阻",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肠梗阻",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Symptom::难以控制的消化道出血",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "难以控制的消化道出血",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Symptom::危及生命的梗阻或压迫症状",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "危及生命的梗阻或压迫症状",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Test::血清乳酸脱氢酶水平高",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "血清乳酸脱氢酶水平高",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::减少免疫抑制剂剂量",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "减少免疫抑制剂剂量",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::手术切除",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "手术切除",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::放射治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "放射治疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::抗B细胞单克隆抗体（抗CD20单抗）治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "抗B细胞单克隆抗体（抗CD20单抗）治疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Plan::减少免疫抑制剂剂量",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "减少免疫抑制剂剂量",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Plan::手术切除或局部放疗",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "手术切除或局部放疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Plan::抗CD20单抗治疗",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "抗CD20单抗治疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Etiology::EB病毒感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "EB病毒感染",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Pathogenesis::免疫抑制状态导致EBV特异性T细胞监视功能受损",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "免疫抑制状态导致EBV特异性T细胞监视功能受损",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0013::Symptom::肿块较大",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "肿块较大",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Symptom::肿块较大",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0013::Symptom::多器官受累",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "多器官受累",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Symptom::多器官受累",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0013::Symptom::肠穿孔",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "肠穿孔",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Symptom::肠穿孔",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0013::Symptom::肠梗阻",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "肠梗阻",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Symptom::肠梗阻",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0013::Symptom::难以控制的消化道出血",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "难以控制的消化道出血",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Symptom::难以控制的消化道出血",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|manifests_as|DOC_7be4e6a8f160__CH0013::Symptom::危及生命的梗阻或压迫症状",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "危及生命的梗阻或压迫症状",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Symptom::危及生命的梗阻或压迫症状",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|requires_test|DOC_7be4e6a8f160__CH0013::Test::血清乳酸脱氢酶水平高",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "血清乳酸脱氢酶水平高",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Test::血清乳酸脱氢酶水平高",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|follows_treatment|DOC_7be4e6a8f160__CH0013::Treatment::减少免疫抑制剂剂量",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "减少免疫抑制剂剂量",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Treatment::减少免疫抑制剂剂量",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|follows_treatment|DOC_7be4e6a8f160__CH0013::Treatment::手术切除",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "手术切除",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Treatment::手术切除",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|follows_treatment|DOC_7be4e6a8f160__CH0013::Treatment::放射治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "放射治疗",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Treatment::放射治疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|follows_treatment|DOC_7be4e6a8f160__CH0013::Treatment::抗B细胞单克隆抗体（抗CD20单抗）治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "抗B细胞单克隆抗体（抗CD20单抗）治疗",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Treatment::抗B细胞单克隆抗体（抗CD20单抗）治疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::减少免疫抑制剂剂量|implements_by|DOC_7be4e6a8f160__CH0013::Plan::减少免疫抑制剂剂量",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "减少免疫抑制剂剂量",
+          "target_entity": "减少免疫抑制剂剂量",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Treatment::减少免疫抑制剂剂量",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Plan::减少免疫抑制剂剂量",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::手术切除|implements_by|DOC_7be4e6a8f160__CH0013::Plan::手术切除或局部放疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "手术切除",
+          "target_entity": "手术切除或局部放疗",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Treatment::手术切除",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Plan::手术切除或局部放疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::放射治疗|implements_by|DOC_7be4e6a8f160__CH0013::Plan::手术切除或局部放疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "放射治疗",
+          "target_entity": "手术切除或局部放疗",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Treatment::放射治疗",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Plan::手术切除或局部放疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::抗B细胞单克隆抗体（抗CD20单抗）治疗|implements_by|DOC_7be4e6a8f160__CH0013::Plan::抗CD20单抗治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "抗B细胞单克隆抗体（抗CD20单抗）治疗",
+          "target_entity": "抗CD20单抗治疗",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Treatment::抗B细胞单克隆抗体（抗CD20单抗）治疗",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Plan::抗CD20单抗治疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|causes|DOC_7be4e6a8f160__CH0013::Etiology::EB病毒感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "EB病毒感染",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Etiology::EB病毒感染",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD|explained_by|DOC_7be4e6a8f160__CH0013::Pathogenesis::免疫抑制状态导致EBV特异性T细胞监视功能受损",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "EBV相关PTLD",
+          "target_entity": "免疫抑制状态导致EBV特异性T细胞监视功能受损",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Pathogenesis::免疫抑制状态导致EBV特异性T细胞监视功能受损",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Disease::移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "移植后淋巴组织增生性疾病",
+          "target_entity": "EBV相关PTLD",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Disease::移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Sub_Disease::EBV相关PTLD",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::减少免疫抑制剂剂量|implements_by|DOC_7be4e6a8f160__CH0013::Plan::手术切除或局部放疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "减少免疫抑制剂剂量",
+          "target_entity": "手术切除或局部放疗",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Treatment::减少免疫抑制剂剂量",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Plan::手术切除或局部放疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::减少免疫抑制剂剂量|implements_by|DOC_7be4e6a8f160__CH0013::Plan::抗CD20单抗治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "减少免疫抑制剂剂量",
+          "target_entity": "抗CD20单抗治疗",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Treatment::减少免疫抑制剂剂量",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Plan::抗CD20单抗治疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::手术切除|implements_by|DOC_7be4e6a8f160__CH0013::Plan::减少免疫抑制剂剂量",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "手术切除",
+          "target_entity": "减少免疫抑制剂剂量",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Treatment::手术切除",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Plan::减少免疫抑制剂剂量",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::手术切除|implements_by|DOC_7be4e6a8f160__CH0013::Plan::抗CD20单抗治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "手术切除",
+          "target_entity": "抗CD20单抗治疗",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Treatment::手术切除",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Plan::抗CD20单抗治疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::放射治疗|implements_by|DOC_7be4e6a8f160__CH0013::Plan::减少免疫抑制剂剂量",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "放射治疗",
+          "target_entity": "减少免疫抑制剂剂量",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Treatment::放射治疗",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Plan::减少免疫抑制剂剂量",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::放射治疗|implements_by|DOC_7be4e6a8f160__CH0013::Plan::抗CD20单抗治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "放射治疗",
+          "target_entity": "抗CD20单抗治疗",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Treatment::放射治疗",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Plan::抗CD20单抗治疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::抗B细胞单克隆抗体（抗CD20单抗）治疗|implements_by|DOC_7be4e6a8f160__CH0013::Plan::减少免疫抑制剂剂量",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "抗B细胞单克隆抗体（抗CD20单抗）治疗",
+          "target_entity": "减少免疫抑制剂剂量",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Treatment::抗B细胞单克隆抗体（抗CD20单抗）治疗",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Plan::减少免疫抑制剂剂量",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0013::Treatment::抗B细胞单克隆抗体（抗CD20单抗）治疗|implements_by|DOC_7be4e6a8f160__CH0013::Plan::手术切除或局部放疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "抗B细胞单克隆抗体（抗CD20单抗）治疗",
+          "target_entity": "手术切除或局部放疗",
+          "source_id": "DOC_7be4e6a8f160__CH0013::Treatment::抗B细胞单克隆抗体（抗CD20单抗）治疗",
+          "target_id": "DOC_7be4e6a8f160__CH0013::Plan::手术切除或局部放疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0013"
+        }
+      ]
+    },
+    "CH0014": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Disease::移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Sub_Disease::CD20阳性的PTLD",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "CD20阳性的PTLD",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Treatment::对RTX治疗反应差者应积极考虑化疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "对RTX治疗反应差者应积极考虑化疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Treatment::T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤病例应积极考虑化疗或RTX联合化疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤病例应积极考虑化疗或RTX联合化疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Treatment::减少免疫抑制剂剂量无效的CD20阳性PTLD患者可采用RTX加化疗联合序贯治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "减少免疫抑制剂剂量无效的CD20阳性PTLD患者可采用RTX加化疗联合序贯治疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Plan::CHOP或CHOP样方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "CHOP或CHOP样方案",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Plan::R-CHOP方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "R-CHOP方案",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Sub_Disease::CD20阳性的PTLD|follows_treatment|DOC_7be4e6a8f160__CH0014::Treatment::减少免疫抑制剂剂量无效的CD20阳性PTLD患者可采用RTX加化疗联合序贯治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "CD20阳性的PTLD",
+          "target_entity": "减少免疫抑制剂剂量无效的CD20阳性PTLD患者可采用RTX加化疗联合序贯治疗",
+          "source_id": "DOC_7be4e6a8f160__CH0014::Sub_Disease::CD20阳性的PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0014::Treatment::减少免疫抑制剂剂量无效的CD20阳性PTLD患者可采用RTX加化疗联合序贯治疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Treatment::对RTX治疗反应差者应积极考虑化疗|implements_by|DOC_7be4e6a8f160__CH0014::Plan::CHOP或CHOP样方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对RTX治疗反应差者应积极考虑化疗",
+          "target_entity": "CHOP或CHOP样方案",
+          "source_id": "DOC_7be4e6a8f160__CH0014::Treatment::对RTX治疗反应差者应积极考虑化疗",
+          "target_id": "DOC_7be4e6a8f160__CH0014::Plan::CHOP或CHOP样方案",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Treatment::T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤病例应积极考虑化疗或RTX联合化疗|implements_by|DOC_7be4e6a8f160__CH0014::Plan::CHOP或CHOP样方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤病例应积极考虑化疗或RTX联合化疗",
+          "target_entity": "CHOP或CHOP样方案",
+          "source_id": "DOC_7be4e6a8f160__CH0014::Treatment::T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤病例应积极考虑化疗或RTX联合化疗",
+          "target_id": "DOC_7be4e6a8f160__CH0014::Plan::CHOP或CHOP样方案",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Treatment::T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤病例应积极考虑化疗或RTX联合化疗|implements_by|DOC_7be4e6a8f160__CH0014::Plan::R-CHOP方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤病例应积极考虑化疗或RTX联合化疗",
+          "target_entity": "R-CHOP方案",
+          "source_id": "DOC_7be4e6a8f160__CH0014::Treatment::T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤病例应积极考虑化疗或RTX联合化疗",
+          "target_id": "DOC_7be4e6a8f160__CH0014::Plan::R-CHOP方案",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Treatment::减少免疫抑制剂剂量无效的CD20阳性PTLD患者可采用RTX加化疗联合序贯治疗|implements_by|DOC_7be4e6a8f160__CH0014::Plan::R-CHOP方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "减少免疫抑制剂剂量无效的CD20阳性PTLD患者可采用RTX加化疗联合序贯治疗",
+          "target_entity": "R-CHOP方案",
+          "source_id": "DOC_7be4e6a8f160__CH0014::Treatment::减少免疫抑制剂剂量无效的CD20阳性PTLD患者可采用RTX加化疗联合序贯治疗",
+          "target_id": "DOC_7be4e6a8f160__CH0014::Plan::R-CHOP方案",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Disease::移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0014::Sub_Disease::CD20阳性的PTLD",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "移植后淋巴组织增生性疾病",
+          "target_entity": "CD20阳性的PTLD",
+          "source_id": "DOC_7be4e6a8f160__CH0014::Disease::移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0014::Sub_Disease::CD20阳性的PTLD",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Sub_Disease::CD20阳性的PTLD|follows_treatment|DOC_7be4e6a8f160__CH0014::Treatment::对RTX治疗反应差者应积极考虑化疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "CD20阳性的PTLD",
+          "target_entity": "对RTX治疗反应差者应积极考虑化疗",
+          "source_id": "DOC_7be4e6a8f160__CH0014::Sub_Disease::CD20阳性的PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0014::Treatment::对RTX治疗反应差者应积极考虑化疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Sub_Disease::CD20阳性的PTLD|follows_treatment|DOC_7be4e6a8f160__CH0014::Treatment::T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤病例应积极考虑化疗或RTX联合化疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "CD20阳性的PTLD",
+          "target_entity": "T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤病例应积极考虑化疗或RTX联合化疗",
+          "source_id": "DOC_7be4e6a8f160__CH0014::Sub_Disease::CD20阳性的PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0014::Treatment::T细胞淋巴瘤、Burkitt PTLD或霍奇金淋巴瘤病例应积极考虑化疗或RTX联合化疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Treatment::对RTX治疗反应差者应积极考虑化疗|implements_by|DOC_7be4e6a8f160__CH0014::Plan::R-CHOP方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对RTX治疗反应差者应积极考虑化疗",
+          "target_entity": "R-CHOP方案",
+          "source_id": "DOC_7be4e6a8f160__CH0014::Treatment::对RTX治疗反应差者应积极考虑化疗",
+          "target_id": "DOC_7be4e6a8f160__CH0014::Plan::R-CHOP方案",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0014::Treatment::减少免疫抑制剂剂量无效的CD20阳性PTLD患者可采用RTX加化疗联合序贯治疗|implements_by|DOC_7be4e6a8f160__CH0014::Plan::CHOP或CHOP样方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "减少免疫抑制剂剂量无效的CD20阳性PTLD患者可采用RTX加化疗联合序贯治疗",
+          "target_entity": "CHOP或CHOP样方案",
+          "source_id": "DOC_7be4e6a8f160__CH0014::Treatment::减少免疫抑制剂剂量无效的CD20阳性PTLD患者可采用RTX加化疗联合序贯治疗",
+          "target_id": "DOC_7be4e6a8f160__CH0014::Plan::CHOP或CHOP样方案",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0014"
+        }
+      ]
+    },
+    "CH0015": {
+      "entities": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0015::Disease::移植后淋巴组织增生性疾病",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "移植后淋巴组织增生性疾病",
+          "chunk_id": "CH0015",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0015"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0015::Sub_Disease::原发中枢神经系统PTLD、难治性PTLD、一般状况较差的PTLD",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "原发中枢神经系统PTLD、难治性PTLD、一般状况较差的PTLD",
+          "chunk_id": "CH0015",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0015"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0015::Treatment::过继性免疫治疗（输注EBV特异性细胞）",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "过继性免疫治疗（输注EBV特异性细胞）",
+          "chunk_id": "CH0015",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0015"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0015::Plan::EBV特异性细胞输注",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "EBV特异性细胞输注",
+          "chunk_id": "CH0015",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0015"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0015::Etiology::EB病毒（EBV）感染",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "EB病毒（EBV）感染",
+          "chunk_id": "CH0015",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0015"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_7be4e6a8f160__CH0015::Sub_Disease::原发中枢神经系统PTLD、难治性PTLD、一般状况较差的PTLD|follows_treatment|DOC_7be4e6a8f160__CH0015::Treatment::过继性免疫治疗（输注EBV特异性细胞）",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "原发中枢神经系统PTLD、难治性PTLD、一般状况较差的PTLD",
+          "target_entity": "过继性免疫治疗（输注EBV特异性细胞）",
+          "source_id": "DOC_7be4e6a8f160__CH0015::Sub_Disease::原发中枢神经系统PTLD、难治性PTLD、一般状况较差的PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0015::Treatment::过继性免疫治疗（输注EBV特异性细胞）",
+          "chunk_id": "CH0015",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0015"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0015::Treatment::过继性免疫治疗（输注EBV特异性细胞）|implements_by|DOC_7be4e6a8f160__CH0015::Plan::EBV特异性细胞输注",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "过继性免疫治疗（输注EBV特异性细胞）",
+          "target_entity": "EBV特异性细胞输注",
+          "source_id": "DOC_7be4e6a8f160__CH0015::Treatment::过继性免疫治疗（输注EBV特异性细胞）",
+          "target_id": "DOC_7be4e6a8f160__CH0015::Plan::EBV特异性细胞输注",
+          "chunk_id": "CH0015",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0015"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0015::Sub_Disease::原发中枢神经系统PTLD、难治性PTLD、一般状况较差的PTLD|causes|DOC_7be4e6a8f160__CH0015::Etiology::EB病毒（EBV）感染",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "原发中枢神经系统PTLD、难治性PTLD、一般状况较差的PTLD",
+          "target_entity": "EB病毒（EBV）感染",
+          "source_id": "DOC_7be4e6a8f160__CH0015::Sub_Disease::原发中枢神经系统PTLD、难治性PTLD、一般状况较差的PTLD",
+          "target_id": "DOC_7be4e6a8f160__CH0015::Etiology::EB病毒（EBV）感染",
+          "chunk_id": "CH0015",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0015"
+        },
+        {
+          "id": "DOC_7be4e6a8f160__CH0015::Disease::移植后淋巴组织增生性疾病|has_sub_disease|DOC_7be4e6a8f160__CH0015::Sub_Disease::原发中枢神经系统PTLD、难治性PTLD、一般状况较差的PTLD",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "移植后淋巴组织增生性疾病",
+          "target_entity": "原发中枢神经系统PTLD、难治性PTLD、一般状况较差的PTLD",
+          "source_id": "DOC_7be4e6a8f160__CH0015::Disease::移植后淋巴组织增生性疾病",
+          "target_id": "DOC_7be4e6a8f160__CH0015::Sub_Disease::原发中枢神经系统PTLD、难治性PTLD、一般状况较差的PTLD",
+          "chunk_id": "CH0015",
+          "evidence_ids": "DOC_7be4e6a8f160:CH0015"
+        }
+      ]
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "第10卷",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "1 概述和流行病学特点",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "1 概述和流行病学特点",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "2 临床表现",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "3 诊断",
+      "page_start": 2,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "3.3组织病理学",
+      "page_start": 3,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "3.3.2多形性PTLD此期组织学特征对诊断最具挑战",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "3.3.3单形性PTLD该类型最符合淋巴瘤的组织病理",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "3.3.3单形性PTLD该类型最符合淋巴瘤的组织病理",
+      "page_start": 4,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "3.4分期",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0011": {
+      "chunk_id": "CH0011",
+      "section_title": "4 预防",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0012": {
+      "chunk_id": "CH0012",
+      "section_title": "5 治疗",
+      "page_start": 5,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0013": {
+      "chunk_id": "CH0013",
+      "section_title": "5 治疗",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0014": {
+      "chunk_id": "CH0014",
+      "section_title": "6 预后",
+      "page_start": 6,
+      "page_end": 7,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0015": {
+      "chunk_id": "CH0015",
+      "section_title": "7 存在的问题及展望",
+      "page_start": 7,
+      "page_end": 7,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "pass",
+      "error",
+      "unreviewed"
+    ],
+    "note": "base_info 记录 PDF 级基础信息；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态和备注。"
+  }
+}

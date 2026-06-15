@@ -1,0 +1,795 @@
+{
+  "base_info": {
+    "doc_key": "《大动脉炎诊断及治疗指南》",
+    "doc_id": "DOC_49c7062dd37c",
+    "source_title": "《大动脉炎诊断及治疗指南》",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\《大动脉炎诊断及治疗指南》.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 2,
+    "total_chunks": 7,
+    "concatenated_chunk_count": 7,
+    "has_llm": true,
+    "llm_status": "matched",
+    "program": "llm",
+    "review_mode": "document"
+  },
+  "extractions": {
+    "__FULL_DOCUMENT__": {
+      "entities": [
+        {
+          "id": "disease_takayasu_arteritis",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "大动脉炎",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "大动脉炎(Takayasu arteritis，TA)是指主动脉及其主要分支的慢性进行性非特异性炎性疾病。"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "id": "sub_disease_takayasu_head_arm",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "头臂动脉型（主动脉弓综合征）",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．3．1 头臂动脉型(主动脉弓综合征)：颈动脉和椎动脉狭窄和闭塞，可引起脑部不同程度的缺血，出现头昏、眩晕、头痛，记忆力减退，单侧或双侧视物有黑点，视力减退，视野缩小甚至失明，咀嚼肌无力和咀嚼疼痛。少数患者因局部缺血产生鼻中隔穿孔，上腭及耳廓溃疡，牙齿脱落和面肌萎缩。脑缺血严重者可有反复晕厥、抽搐、失语、偏瘫或昏迷。上肢缺血可出现单侧或双侧上肢无力、发凉、酸痛、麻木，甚至肌肉萎缩。颈动脉、桡动脉和肱动脉搏动减弱或消失(无脉征)。约半数患者于颈部或锁骨上部可听到Ⅱ级以上收缩期血管杂音，少数伴有震颤，但杂音响度与狭窄程度之间并非完全成比例，轻度狭窄或完全闭塞的动脉，杂音不明显。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "sub_disease_takayasu_thoracoabdominal",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "胸—腹主动脉型",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．3．2 胸一腹主动脉型：由于缺血，下肢出现无力、酸痛、皮肤发凉和间歇性跛行等症状，特别是髂动脉受累时症状最明显。肾动脉受累出现高血压，可有头痛、头晕、心悸。高血压为本型的一项重要临床表现，尤以舒张压升高明显，主要是肾动脉狭窄引起的肾血管性高血压；此外胸降主动脉严重狭窄，使心排出血液大部分流向上肢，可引起上肢血压升高；主动脉瓣关闭不全导致收缩期高血压等。部分患者胸骨旁或背部脊柱两侧可闻及收缩期血管杂音，其杂音部位有助于判定主动脉狭窄的部位及范围，如胸主动脉严重狭窄，于胸壁可见浅表动脉搏动，血压上肢高于下肢。大约80％患者于上腹部可闻及Ⅱ级以上高调收缩期血管杂音，在主动脉瓣区可闻及舒张期杂音。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "sub_disease_takayasu_widespread",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "广泛型",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．3．3 广泛型：具有上述2种类型的特征，属多发性病变，多数患者病情较重。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "sub_disease_takayasu_pulmonary",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肺动脉型",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．3．4 肺动脉型：本病合并肺动脉受累并不少见，约占50％，上述 3种类型均可合并肺动脉受累，单纯肺动脉受累者罕见。肺动脉高压大多为一种晚期并发症，约占1／4，多为轻度或中度，重度则少见。临床上出现心悸、气短，重者心功能衰竭，肺动脉瓣区可闻及收缩期杂音和肺动脉瓣第 2心音亢进。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_fatigue",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "易疲劳",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "在局部症状或体征出现前，少数患者可有全身不适、易疲劳、发热、食欲不振、恶心、出汗、体质量下降、肌痛、关节炎和结节红斑等症状，可急性发作，也可隐匿起病。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_fever",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "在局部症状或体征出现前，少数患者可有全身不适、易疲劳、发热、食欲不振、恶心、出汗、体质量下降、肌痛、关节炎和结节红斑等症状，可急性发作，也可隐匿起病。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_weight_loss",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "体质量下降",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "在局部症状或体征出现前，少数患者可有全身不适、易疲劳、发热、食欲不振、恶心、出汗、体质量下降、肌痛、关节炎和结节红斑等症状，可急性发作，也可隐匿起病。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_myalgia",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肌痛",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "在局部症状或体征出现前，少数患者可有全身不适、易疲劳、发热、食欲不振、恶心、出汗、体质量下降、肌痛、关节炎和结节红斑等症状，可急性发作，也可隐匿起病。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_arthralgia",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "关节炎",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "在局部症状或体征出现前，少数患者可有全身不适、易疲劳、发热、食欲不振、恶心、出汗、体质量下降、肌痛、关节炎和结节红斑等症状，可急性发作，也可隐匿起病。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_erythema_nodosum",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "结节红斑",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "在局部症状或体征出现前，少数患者可有全身不适、易疲劳、发热、食欲不振、恶心、出汗、体质量下降、肌痛、关节炎和结节红斑等症状，可急性发作，也可隐匿起病。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_headache",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "头痛",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "头臂动脉型(主动脉弓综合征)：颈动脉和椎动脉狭窄和闭塞，可引起脑部不同程度的缺血，出现头昏、眩晕、头痛，记忆力减退，单侧或双侧视物有黑点，视力减退，视野缩小甚至失明，咀嚼肌无力和咀嚼疼痛。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_dizziness",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眩晕",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "头臂动脉型(主动脉弓综合征)：颈动脉和椎动脉狭窄和闭塞，可引起脑部不同程度的缺血，出现头昏、眩晕、头痛，记忆力减退，单侧或双侧视物有黑点，视力减退，视野缩小甚至失明，咀嚼肌无力和咀嚼疼痛。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_visual_disturbance",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "视力减退",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "头臂动脉型(主动脉弓综合征)：颈动脉和椎动脉狭窄和闭塞，可引起脑部不同程度的缺血，出现头昏、眩晕、头痛，记忆力减退，单侧或双侧视物有黑点，视力减退，视野缩小甚至失明，咀嚼肌无力和咀嚼疼痛。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_blindness",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "失明",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "头臂动脉型(主动脉弓综合征)：颈动脉和椎动脉狭窄和闭塞，可引起脑部不同程度的缺血，出现头昏、眩晕、头痛，记忆力减退，单侧或双侧视物有黑点，视力减退，视野缩小甚至失明，咀嚼肌无力和咀嚼疼痛。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_intermittent_claudication",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "间歇性跛行",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "胸一腹主动脉型：由于缺血，下肢出现无力、酸痛、皮肤发凉和间歇性跛行等症状，特别是髂动脉受累时症状最明显。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_hypertension",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "高血压",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "肾动脉受累出现高血压，可有头痛、头晕、心悸。高血压为本型的一项重要临床表现，尤以舒张压升高明显，主要是肾动脉狭窄引起的肾血管性高血压；此外胸降主动脉严重狭窄，使心排出血液大部分流向上肢，可引起上肢血压升高；主动脉瓣关闭不全导致收缩期高血压等。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_palpitation",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "心悸",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "肾动脉受累出现高血压，可有头痛、头晕、心悸。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_angina",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "心绞痛",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_pulse_absence",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "无脉征",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "颈动脉、桡动脉和肱动脉搏动减弱或消失(无脉征)。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_vascular_bruit",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "血管杂音",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "约半数患者于颈部或锁骨上部可听到Ⅱ级以上收缩期血管杂音，少数伴有震颤……大约80％患者于上腹部可闻及Ⅱ级以上高调收缩期血管杂音，在主动脉瓣区可闻及舒张期杂音。部分患者胸骨旁或背部脊柱两侧可闻及收缩期血管杂音……"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_dyspnea",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "气短",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "肺动脉高压大多为一种晚期并发症，约占1／4，多为轻度或中度，重度则少见。临床上出现心悸、气短，重者心功能衰竭……"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_heart_failure",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "心功能衰竭",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "肺动脉高压大多为一种晚期并发症，约占1／4，多为轻度或中度，重度则少见。临床上出现心悸、气短，重者心功能衰竭……"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "test_esr",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "红细胞沉降率（ESR）",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．4．1 红细胞沉降率(ESR)：是反映本病疾病活动的一项重要指标。疾病活动时ESR可增快，病情稳定后ESR恢复正常。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "test_crp",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "C反应蛋白",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．4．2 C反应蛋白：其临床意义与ESR相同，为本病疾病活动的指标之一。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "test_tuberculin_test",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗结核菌素试验",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．4．3 抗结核菌素试验：如发现活动性结核灶应抗结核治疗。对结核菌素强阳性反应的患者，在经过仔细检查后，仍不能除外结核感染者，可试验性抗结核治疗。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "test_doppler_ultrasound",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "彩色多普勒超声检查",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．5．1 彩色多普勒超声检查：可探查主动脉及其主要分支狭窄或闭塞(颈动脉、锁骨下动脉、肾动脉等)，但对其远端分支探查较困难。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "test_angiography",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血管造影",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．5．2 造影检查：①血管造影：可直接显示受累血管管腔变化、管径大小、管壁是否光滑、受累血管的范围和长度，但不能观察血管壁厚度的改变。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "test_dsa",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "数字减影血管造影（DSA）",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "②数字减影血管造影(DSA)：是一种数字图像处理系统，为一项较好的筛选方法，本法优点为操作较简便，反差分辨率高，对低反差区域病变也可显示。对颅头部动脉、颈动脉、胸腹主动脉、肾动脉、四肢动脉、肺动脉及心腔等均可进行此项检查。缺点是对脏器内小动脉，如肾内小动脉分支显示不清。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "test_ct",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "增强CT",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "③CT和磁共振成像(MRI)：增强 CT可显示部分受累血管的病变，发现管壁强化和环状低密度影提示为病变活动期……"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "test_mri",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "MRI",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "MRI还能显示出受累血管壁的水肿情况，有助于判断疾病是否活动。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "treatment_corticosteroid",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "激素对本病活动仍是主要的治疗药物，及时用药可有效改善症状，缓解病情。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "4．1 糖皮质激素：激素对本病活动仍是主要的治疗药物，及时用药可有效改善症状，缓解病情。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "treatment_immunosuppressant",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "免疫抑制剂联合糖皮质激素能增强疗效。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "4．2 免疫抑制剂：免疫抑制剂联合糖皮质激素能增强疗效。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "treatment_biologics",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "近年来有报道使用抗肿瘤坏死因子(TNF)拮抗剂可使大动脉炎患者症状改善、炎症指标好转，但缺乏大样本的临床验证资料。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "4．3 生物制剂：近年来有报道使用抗肿瘤坏死因子(TNF)拮抗剂可使大动脉炎患者症状改善、炎症指标好转，但缺乏大样本的临床验证资料。TNF一 单克隆抗体及TNF受体一抗体融合蛋白均可试用，具体用法参见药物说明书。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "treatment_anticoagulant",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "使用扩血管、抗凝药物治疗，能部分改善因血管狭窄较明显所致的一些临床症状。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "4．4 扩血管、抗凝，改善血循环：使用扩血管、抗凝药物治疗，能部分改善因血管狭窄较明显所致的一些临床症状，如地巴唑20 mg，每日3次；阿司匹林75～100 mg，每日1次；双嘧达莫(潘生丁)50 mg，每日3次等。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "plan_prednisone_initial",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "一般口服泼尼松每日 1 mg／kg，维持3～4周后逐渐减量，每 10～15 d减总量的5％～10％，通常以ESR和C反应蛋白下降趋于正常为减量的指标，剂量减至每日 5～10 mg时，应长期维持一段时间。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "4．1 糖皮质激素：激素对本病活动仍是主要的治疗药物，及时用药可有效改善症状，缓解病情。一般口服泼尼松每日 1 mg／kg，维持3～4周后逐渐减量，每 10～15 d减总量的5％～10％，通常以ESR和C反应蛋白下降趋于正常为减量的指标，剂量减至每日 5～10 mg时，应长期维持一段时间。活动性重症者可试用大剂量甲泼尼龙静脉冲击治疗。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "plan_cyclophosphamide",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "环磷酰胺可每日口服2 mg／kg或冲击治疗，每3～4周0．5～1．0 g，病情稳定后逐渐减量。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "4．2 免疫抑制剂：免疫抑制剂联合糖皮质激素能增强疗效。常用的免疫抑制剂为环磷酰胺、甲氨蝶呤和硫唑嘌呤等。环磷酰胺可每日口服2 mg／kg或冲击治疗，每3 4周0．5～1．0咖 ：，病情稳定后逐渐减量。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "plan_methotrexate",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "甲氨蝶呤每周5～25 mg静脉注射、肌肉注射或口服。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "甲氨蝶呤每周5～25 mg静脉注射、肌内注射或口服。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "plan_azathioprine",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硫唑嘌呤每日口服2 mg／kg。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "硫唑嘌呤每日口服2 mg／kg。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "plan_dibazol",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "地巴唑20 mg，每日3次。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "如地巴唑20 mg，每日3次；阿司匹林75～100 mg，每日1次；双嘧达莫(潘生丁)50 mg，每日3次等。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "plan_aspirin",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "阿司匹林75～100 mg，每日1次。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "如地巴唑20 mg，每日3次；阿司匹林75～100 mg，每日1次；双嘧达莫(潘生丁)50 mg，每日3次等。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "plan_dipyridamole",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "双嘧达莫(潘生丁)50 mg，每日3次。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "如地巴唑20 mg，每日3次；阿司匹林75～100 mg，每日1次；双嘧达莫(潘生丁)50 mg，每日3次等。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "etiology_infection_immunoinjury",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "可能与感染引起的免疫损伤等因素有关。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "病因迄今尚不明确，可能与感染引起的免疫损伤等因素有关。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "pathogenesis_vasculitis",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogenesis",
+          "entity_name": "早期血管壁为淋巴细胞、浆细胞浸润，偶见多形核中性粒细胞及多核巨细胞。由于血管内膜增厚，导致管腔狭窄或闭塞，少数患者因炎症破坏动脉壁中层，弹力纤维及平滑肌纤维坏死，而致动脉扩张、假性动脉瘤或夹层动脉瘤。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "早期血管壁为淋巴细胞、浆细胞浸润，偶见多形核中性粒细胞及多核巨细胞。由于血管内膜增厚，导致管腔狭窄或闭塞，少数患者因炎症破坏动脉壁中层，弹力纤维及平滑肌纤维坏死，而致动脉扩张、假性动脉瘤或夹层动脉瘤。"
+          ],
+          "confidence": 0.85
+        }
+      ],
+      "relationships": [
+        {
+          "id": "rel_takayasu_has_head_arm",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "大动脉炎",
+          "target_entity": "头臂动脉型（主动脉弓综合征）",
+          "source_id": "disease_takayasu_arteritis",
+          "target_id": "sub_disease_takayasu_head_arm",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．3．1 头臂动脉型(主动脉弓综合征)：颈动脉和椎动脉狭窄和闭塞，可引起脑部不同程度的缺血，出现头昏、眩晕、头痛，记忆力减退，单侧或双侧视物有黑点，视力减退，视野缩小甚至失明，咀嚼肌无力和咀嚼疼痛。"
+          ]
+        },
+        {
+          "id": "rel_takayasu_has_thoracoabdominal",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "大动脉炎",
+          "target_entity": "胸—腹主动脉型",
+          "source_id": "disease_takayasu_arteritis",
+          "target_id": "sub_disease_takayasu_thoracoabdominal",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．3．2 胸一腹主动脉型：由于缺血，下肢出现无力、酸痛、皮肤发凉和间歇性跛行等症状，特别是髂动脉受累时症状最明显。"
+          ]
+        },
+        {
+          "id": "rel_takayasu_has_widespread",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "大动脉炎",
+          "target_entity": "广泛型",
+          "source_id": "disease_takayasu_arteritis",
+          "target_id": "sub_disease_takayasu_widespread",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．3．3 广泛型：具有上述2种类型的特征，属多发性病变，多数患者病情较重。"
+          ]
+        },
+        {
+          "id": "rel_takayasu_has_pulmonary",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "大动脉炎",
+          "target_entity": "肺动脉型",
+          "source_id": "disease_takayasu_arteritis",
+          "target_id": "sub_disease_takayasu_pulmonary",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．3．4 肺动脉型：本病合并肺动脉受累并不少见，约占50％，上述 3种类型均可合并肺动脉受累，单纯肺动脉受累者罕见。"
+          ]
+        },
+        {
+          "id": "rel_head_arm_manifests_as_headache",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "头臂动脉型（主动脉弓综合征）",
+          "target_entity": "头痛",
+          "source_id": "sub_disease_takayasu_head_arm",
+          "target_id": "symptom_headache",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "头臂动脉型(主动脉弓综合征)：颈动脉和椎动脉狭窄和闭塞，可引起脑部不同程度的缺血，出现头昏、眩晕、头痛，记忆力减退，单侧或双侧视物有黑点，视力减退，视野缩小甚至失明，咀嚼肌无力和咀嚼疼痛。"
+          ]
+        },
+        {
+          "id": "rel_head_arm_manifests_as_dizziness",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "头臂动脉型（主动脉弓综合征）",
+          "target_entity": "眩晕",
+          "source_id": "sub_disease_takayasu_head_arm",
+          "target_id": "symptom_dizziness",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "头臂动脉型(主动脉弓综合征)：颈动脉和椎动脉狭窄和闭塞，可引起脑部不同程度的缺血，出现头昏、眩晕、头痛，记忆力减退，单侧或双侧视物有黑点，视力减退，视野缩小甚至失明，咀嚼肌无力和咀嚼疼痛。"
+          ]
+        },
+        {
+          "id": "rel_head_arm_manifests_as_visual_disturbance",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "头臂动脉型（主动脉弓综合征）",
+          "target_entity": "视力减退",
+          "source_id": "sub_disease_takayasu_head_arm",
+          "target_id": "symptom_visual_disturbance",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "头臂动脉型(主动脉弓综合征)：颈动脉和椎动脉狭窄和闭塞，可引起脑部不同程度的缺血，出现头昏、眩晕、头痛，记忆力减退，单侧或双侧视物有黑点，视力减退，视野缩小甚至失明，咀嚼肌无力和咀嚼疼痛。"
+          ]
+        },
+        {
+          "id": "rel_head_arm_manifests_as_pulse_absence",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "头臂动脉型（主动脉弓综合征）",
+          "target_entity": "无脉征",
+          "source_id": "sub_disease_takayasu_head_arm",
+          "target_id": "symptom_pulse_absence",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "颈动脉、桡动脉和肱动脉搏动减弱或消失(无脉征)。"
+          ]
+        },
+        {
+          "id": "rel_thoracoabdominal_manifests_as_intermittent_claudication",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "胸—腹主动脉型",
+          "target_entity": "间歇性跛行",
+          "source_id": "sub_disease_takayasu_thoracoabdominal",
+          "target_id": "symptom_intermittent_claudication",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "胸一腹主动脉型：由于缺血，下肢出现无力、酸痛、皮肤发凉和间歇性跛行等症状，特别是髂动脉受累时症状最明显。"
+          ]
+        },
+        {
+          "id": "rel_thoracoabdominal_manifests_as_hypertension",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "胸—腹主动脉型",
+          "target_entity": "高血压",
+          "source_id": "sub_disease_takayasu_thoracoabdominal",
+          "target_id": "symptom_hypertension",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "肾动脉受累出现高血压，可有头痛、头晕、心悸。高血压为本型的一项重要临床表现，尤以舒张压升高明显……"
+          ]
+        },
+        {
+          "id": "rel_widespread_manifests_as_hypertension",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "广泛型",
+          "target_entity": "高血压",
+          "source_id": "sub_disease_takayasu_widespread",
+          "target_id": "symptom_hypertension",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．3．3 广泛型：具有上述2种类型的特征，属多发性病变，多数患者病情较重。"
+          ]
+        },
+        {
+          "id": "rel_pulmonary_manifests_as_dyspnea",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "肺动脉型",
+          "target_entity": "气短",
+          "source_id": "sub_disease_takayasu_pulmonary",
+          "target_id": "symptom_dyspnea",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "肺动脉高压大多为一种晚期并发症，约占1／4，多为轻度或中度，重度则少见。临床上出现心悸、气短，重者心功能衰竭……"
+          ]
+        },
+        {
+          "id": "rel_head_arm_requires_doppler_ultrasound",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "头臂动脉型（主动脉弓综合征）",
+          "target_entity": "彩色多普勒超声检查",
+          "source_id": "sub_disease_takayasu_head_arm",
+          "target_id": "test_doppler_ultrasound",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．5．1 彩色多普勒超声检查：可探查主动脉及其主要分支狭窄或闭塞(颈动脉、锁骨下动脉、肾动脉等)，但对其远端分支探查较困难。"
+          ]
+        },
+        {
+          "id": "rel_thoracoabdominal_requires_angiography",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "胸—腹主动脉型",
+          "target_entity": "血管造影",
+          "source_id": "sub_disease_takayasu_thoracoabdominal",
+          "target_id": "test_angiography",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．5．2 造影检查：①血管造影：可直接显示受累血管管腔变化、管径大小、管壁是否光滑、受累血管的范围和长度，但不能观察血管壁厚度的改变。"
+          ]
+        },
+        {
+          "id": "rel_thoracoabdominal_requires_dsa",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "胸—腹主动脉型",
+          "target_entity": "数字减影血管造影（DSA）",
+          "source_id": "sub_disease_takayasu_thoracoabdominal",
+          "target_id": "test_dsa",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "②数字减影血管造影(DSA)：是一种数字图像处理系统，为一项较好的筛选方法……对颅头部动脉、颈动脉、胸腹主动脉、肾动脉、四肢动脉、肺动脉及心腔等均可进行此项检查。"
+          ]
+        },
+        {
+          "id": "rel_head_arm_requires_esr",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "头臂动脉型（主动脉弓综合征）",
+          "target_entity": "红细胞沉降率（ESR）",
+          "source_id": "sub_disease_takayasu_head_arm",
+          "target_id": "test_esr",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2．4．1 红细胞沉降率(ESR)：是反映本病疾病活动的一项重要指标。疾病活动时ESR可增快，病情稳定后ESR恢复正常。"
+          ]
+        },
+        {
+          "id": "rel_head_arm_follows_corticosteroid",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "头臂动脉型（主动脉弓综合征）",
+          "target_entity": "激素对本病活动仍是主要的治疗药物，及时用药可有效改善症状，缓解病情。",
+          "source_id": "sub_disease_takayasu_head_arm",
+          "target_id": "treatment_corticosteroid",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": ""
+        },
+        {
+          "id": "rel_thoracoabdominal_follows_corticosteroid",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "胸—腹主动脉型",
+          "target_entity": "激素对本病活动仍是主要的治疗药物，及时用药可有效改善症状，缓解病情。",
+          "source_id": "sub_disease_takayasu_thoracoabdominal",
+          "target_id": "treatment_corticosteroid",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": ""
+        },
+        {
+          "id": "rel_corticosteroid_implements_by_prednisone",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "激素对本病活动仍是主要的治疗药物，及时用药可有效改善症状，缓解病情。",
+          "target_entity": "一般口服泼尼松每日 1 mg／kg，维持3～4周后逐渐减量，每 10～15 d减总量的5％～10％，通常以ESR和C反应蛋白下降趋于正常为减量的指标，剂量减至每日 5～10 mg时，应长期维持一段时间。",
+          "source_id": "treatment_corticosteroid",
+          "target_id": "plan_prednisone_initial",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "一般口服泼尼松每日 1 mg／kg，维持3～4周后逐渐减量，每 10～15 d减总量的5％～10％，通常以ESR和C反应蛋白下降趋于正常为减量的指标，剂量减至每日 5～10 mg时，应长期维持一段时间。"
+          ]
+        },
+        {
+          "id": "rel_head_arm_caused_by_infection_immunoinjury",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "头臂动脉型（主动脉弓综合征）",
+          "target_entity": "可能与感染引起的免疫损伤等因素有关。",
+          "source_id": "sub_disease_takayasu_head_arm",
+          "target_id": "etiology_infection_immunoinjury",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "病因迄今尚不明确，可能与感染引起的免疫损伤等因素有关。"
+          ]
+        },
+        {
+          "id": "rel_head_arm_explained_by_vasculitis",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "头臂动脉型（主动脉弓综合征）",
+          "target_entity": "早期血管壁为淋巴细胞、浆细胞浸润，偶见多形核中性粒细胞及多核巨细胞。由于血管内膜增厚，导致管腔狭窄或闭塞，少数患者因炎症破坏动脉壁中层，弹力纤维及平滑肌纤维坏死，而致动脉扩张、假性动脉瘤或夹层动脉瘤。",
+          "source_id": "sub_disease_takayasu_head_arm",
+          "target_id": "pathogenesis_vasculitis",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "早期血管壁为淋巴细胞、浆细胞浸润，偶见多形核中性粒细胞及多核巨细胞。由于血管内膜增厚，导致管腔狭窄或闭塞，少数患者因炎症破坏动脉壁中层，弹力纤维及平滑肌纤维坏死，而致动脉扩张、假性动脉瘤或夹层动脉瘤。"
+          ]
+        }
+      ]
+    }
+  },
+  "review": {
+    "__FULL_DOCUMENT__": {
+      "chunk_id": "__FULL_DOCUMENT__",
+      "section_title": "全文",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "program": "llm",
+    "note": "LLM 全文级复验结果；extractions 按文档存储实体和关系；review 存储整份 PDF 复验状态。"
+  }
+}

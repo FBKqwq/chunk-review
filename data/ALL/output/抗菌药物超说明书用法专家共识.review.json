@@ -1,0 +1,166 @@
+{
+  "base_info": {
+    "doc_key": "抗菌药物超说明书用法专家共识",
+    "doc_id": "DOC_86f0b757cdb8",
+    "source_title": "抗菌药物超说明书用法专家共识",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\抗菌药物超说明书用法专家共识.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 36,
+    "total_chunks": 1,
+    "has_kg": true,
+    "kg_status": "matched",
+    "kg_matched_chunks": 1
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Disease::抗菌药物超说明书用法",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "抗菌药物超说明书用法",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        },
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Sub_Disease::抗菌药物超说明书用法",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "抗菌药物超说明书用法",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        },
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Treatment::权衡获益与风险，在有挽救生命、恢复健康、减轻痛苦可能时，经患者或监护人同意后采用未经证实但有专家建议支持的方法",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "权衡获益与风险，在有挽救生命、恢复健康、减轻痛苦可能时，经患者或监护人同意后采用未经证实但有专家建议支持的方法",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        },
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Treatment::优先选择经临床实践证明较为安全有效的超说明书用法",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "优先选择经临床实践证明较为安全有效的超说明书用法",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        },
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Treatment::当遵照说明书即可安全有效治疗时，应尽量避免超说明书用法",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "当遵照说明书即可安全有效治疗时，应尽量避免超说明书用法",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        },
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Plan::超说明书用法类型",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "超说明书用法类型",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Sub_Disease::抗菌药物超说明书用法|follows_treatment|DOC_86f0b757cdb8__CH0001::Treatment::权衡获益与风险，在有挽救生命、恢复健康、减轻痛苦可能时，经患者或监护人同意后采用未经证实但有专家建议支持的方法",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "抗菌药物超说明书用法",
+          "target_entity": "权衡获益与风险，在有挽救生命、恢复健康、减轻痛苦可能时，经患者或监护人同意后采用未经证实但有专家建议支持的方法",
+          "source_id": "DOC_86f0b757cdb8__CH0001::Sub_Disease::抗菌药物超说明书用法",
+          "target_id": "DOC_86f0b757cdb8__CH0001::Treatment::权衡获益与风险，在有挽救生命、恢复健康、减轻痛苦可能时，经患者或监护人同意后采用未经证实但有专家建议支持的方法",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        },
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Sub_Disease::抗菌药物超说明书用法|follows_treatment|DOC_86f0b757cdb8__CH0001::Treatment::优先选择经临床实践证明较为安全有效的超说明书用法",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "抗菌药物超说明书用法",
+          "target_entity": "优先选择经临床实践证明较为安全有效的超说明书用法",
+          "source_id": "DOC_86f0b757cdb8__CH0001::Sub_Disease::抗菌药物超说明书用法",
+          "target_id": "DOC_86f0b757cdb8__CH0001::Treatment::优先选择经临床实践证明较为安全有效的超说明书用法",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        },
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Sub_Disease::抗菌药物超说明书用法|follows_treatment|DOC_86f0b757cdb8__CH0001::Treatment::当遵照说明书即可安全有效治疗时，应尽量避免超说明书用法",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "抗菌药物超说明书用法",
+          "target_entity": "当遵照说明书即可安全有效治疗时，应尽量避免超说明书用法",
+          "source_id": "DOC_86f0b757cdb8__CH0001::Sub_Disease::抗菌药物超说明书用法",
+          "target_id": "DOC_86f0b757cdb8__CH0001::Treatment::当遵照说明书即可安全有效治疗时，应尽量避免超说明书用法",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        },
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Treatment::权衡获益与风险，在有挽救生命、恢复健康、减轻痛苦可能时，经患者或监护人同意后采用未经证实但有专家建议支持的方法|implements_by|DOC_86f0b757cdb8__CH0001::Plan::超说明书用法类型",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "权衡获益与风险，在有挽救生命、恢复健康、减轻痛苦可能时，经患者或监护人同意后采用未经证实但有专家建议支持的方法",
+          "target_entity": "超说明书用法类型",
+          "source_id": "DOC_86f0b757cdb8__CH0001::Treatment::权衡获益与风险，在有挽救生命、恢复健康、减轻痛苦可能时，经患者或监护人同意后采用未经证实但有专家建议支持的方法",
+          "target_id": "DOC_86f0b757cdb8__CH0001::Plan::超说明书用法类型",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        },
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Treatment::优先选择经临床实践证明较为安全有效的超说明书用法|implements_by|DOC_86f0b757cdb8__CH0001::Plan::超说明书用法类型",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "优先选择经临床实践证明较为安全有效的超说明书用法",
+          "target_entity": "超说明书用法类型",
+          "source_id": "DOC_86f0b757cdb8__CH0001::Treatment::优先选择经临床实践证明较为安全有效的超说明书用法",
+          "target_id": "DOC_86f0b757cdb8__CH0001::Plan::超说明书用法类型",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        },
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Treatment::当遵照说明书即可安全有效治疗时，应尽量避免超说明书用法|implements_by|DOC_86f0b757cdb8__CH0001::Plan::超说明书用法类型",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "当遵照说明书即可安全有效治疗时，应尽量避免超说明书用法",
+          "target_entity": "超说明书用法类型",
+          "source_id": "DOC_86f0b757cdb8__CH0001::Treatment::当遵照说明书即可安全有效治疗时，应尽量避免超说明书用法",
+          "target_id": "DOC_86f0b757cdb8__CH0001::Plan::超说明书用法类型",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        },
+        {
+          "id": "DOC_86f0b757cdb8__CH0001::Disease::抗菌药物超说明书用法|has_sub_disease|DOC_86f0b757cdb8__CH0001::Sub_Disease::抗菌药物超说明书用法",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "抗菌药物超说明书用法",
+          "target_entity": "抗菌药物超说明书用法",
+          "source_id": "DOC_86f0b757cdb8__CH0001::Disease::抗菌药物超说明书用法",
+          "target_id": "DOC_86f0b757cdb8__CH0001::Sub_Disease::抗菌药物超说明书用法",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_86f0b757cdb8:CH0001"
+        }
+      ]
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "正文",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "pass",
+      "error",
+      "unreviewed"
+    ],
+    "note": "base_info 记录 PDF 级基础信息；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态和备注。"
+  }
+}

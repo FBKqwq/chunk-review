@@ -1,0 +1,1150 @@
+{
+  "base_info": {
+    "doc_key": "《大动脉炎诊断及治疗指南》",
+    "doc_id": "DOC_49c7062dd37c",
+    "source_title": "《大动脉炎诊断及治疗指南》",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\《大动脉炎诊断及治疗指南》.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 2,
+    "total_chunks": 7,
+    "has_entitybase": true,
+    "entitybase_status": "matched",
+    "entitybase_matched_chunks": 5,
+    "program": "snorkel"
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "TEMP_f1ed2b73012a",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "大动脉炎",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_7a6553eb1ab9",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "Takayasu arteritis",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f95a032a1e99",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "感染引起的免疫损伤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_148e47f4e869",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "血管内膜增厚导致管腔狭窄或闭塞",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_b5f330bfb879",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "炎症破坏动脉壁中层，弹力纤维及平滑肌纤维坏死，而致动脉扩张、假性动脉瘤或夹层动脉瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        }
+      ],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "TEMP_13e7116ba811",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "大动脉炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d1ae3972fe44",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "头臂动脉型",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_bbd8bf196d85",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "胸一腹主动脉型",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_f3949131b0ae",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "广泛型",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_82aeee3feb32",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肺动脉型",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_a04a60d9f19d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "全身不适",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_c27c74e4b710",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "易疲劳",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_4f86a0c58a93",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_7258fbd4309e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "食欲不振",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_c4bdbf876a3a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "恶心",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_746715f60702",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "出汗",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_15cbc6a18d67",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "体质量下降",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_c473deebe2c3",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肌痛",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_78f7ec6923a8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "关节炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_eb2caf4f16bf",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "结节红斑",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_a9666d835fe1",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "头痛",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_56da43317daf",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "头晕",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_087e025e87ab",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "晕厥",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_23765ce00e3d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "卒中",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3331d3d040a7",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "视力减退",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b8b4cfbcd68b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "四肢间歇性活动疲劳",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b4439e0d8f3f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肱动脉搏动减弱或消失",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_137b9a65bd54",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "股动脉搏动减弱或消失",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_0a762866b5f8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "颈部血管杂音",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_09c23cc6f90d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "锁骨上下区血管杂音",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_381b2d43e08f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "上腹部血管杂音",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d6f5c2d6c18d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肾区血管杂音",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8ff18b3af090",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "头昏",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_cab6ed0881fd",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眩晕",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_c852d8ca8e75",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "记忆力减退",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_084c29b0479e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "单侧或双侧视物有黑点",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_cc72c02b730c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "视野缩小",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_2d339a4ded94",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "失明",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_354d156a7e92",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咀嚼肌无力",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_5de65bb620e2",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咀嚼疼痛",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_fa1536c9ae14",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "鼻中隔穿孔",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_26de4e7e548b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "上腭溃疡",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_2cf42c9545eb",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "耳廓溃疡",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_81116d0fc0c4",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "牙齿脱落",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_ea40c86e997e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "面肌萎缩",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_c40a9f63d78a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "反复晕厥",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_89c6c244e2b6",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "抽搐",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_652d011ee50b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "失语",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_011b1fb9ad6a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "偏瘫",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_ccd95990d773",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "昏迷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_ad2e55cd84e0",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "单侧或双侧上肢无力",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_927de767c11a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "上肢发凉",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3cca6dccded5",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "上肢酸痛",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e72fba56793e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "上肢麻木",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_32fe84a722f3",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肌肉萎缩",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_35ac56e92d5c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "颈动脉搏动减弱或消失",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_eaface8e1993",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "桡动脉搏动减弱或消失",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ec38f677e64d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "锁骨上部血管杂音",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_fe9c5af3c5e8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "下肢无力",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_bcef3563205b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "下肢酸痛",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_cd482c50da8a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "下肢皮肤发凉",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_da063d1b8dd8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "间歇性跛行",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9c485afc8627",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "高血压",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_561b61f4f42b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "心悸",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8700a562fccc",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "胸骨旁血管杂音",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_295a928d6540",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "背部脊柱两侧血管杂音",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d894c7f13beb",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "上腹部高调收缩期血管杂音",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_727cf7fdf3ee",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "主动脉瓣区舒张期杂音",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_1946b1107bee",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "气短",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_247bd161eb89",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "心功能衰竭",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b5ac037e5d50",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肺动脉瓣区收缩期杂音",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_41222aef0538",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肺动脉瓣第2心音亢进",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0004": {
+      "entities": [
+        {
+          "id": "TEMP_22602b321abe",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "红细胞沉降率(ESR)",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e7f4d39c95e2",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "C反应蛋白",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_dfb22b1cd468",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗结核菌素试验",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_0c5c2d979406",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "白细胞",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_271f38fd077b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血小板",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_833fbe0ebbbf",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "彩色多普勒超声检查",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_c131023db61b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血管造影",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_51c5dd789886",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "数字减影血管造影(DSA)",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_34ce61a6266e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "增强CT",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_fdfa52a36ae6",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "磁共振成像(MRI)",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0005": {
+      "entities": [
+        {
+          "id": "TEMP_f0d71441c0ad",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "大动脉炎",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_b076ae466d66",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "大动脉炎",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_fc0773d1601b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肢体缺血症状",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_be59643b9547",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "脑动脉缺血症状",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3b280584063d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "高血压",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_0f443ef2aa21",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "不明原因低热",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_9866b690f0d9",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "血管杂音",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_e411d2d81957",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "无脉",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d636f7a71c9b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼底病变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_2ed11ac26383",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肢体间歇性运动障碍",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_533e11babb56",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肱动脉搏动减弱",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_439486fd14d0",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "锁骨下动脉或主动脉杂音",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_bf77c734813b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血管造影",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_72c997a0c8eb",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "胸主动脉造影",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_b135641e4457",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肾动脉造影",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.93
+        }
+      ],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "TEMP_3438d2913df3",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "大动脉炎",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_333fd083e11c",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "活动性重症大动脉炎",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_900eaecfdb12",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "ESR",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_2677dccbc836",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "C反应蛋白",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_7600bc0e9d61",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "及时用药可有效改善症状，缓解病情",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_ab19fe72d781",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "免疫抑制剂联合糖皮质激素能增强疗效",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_b00610f84305",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "使用扩血管、抗凝药物治疗，能部分改善因血管狭窄较明显所致的一些临床症状",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_8ddf3fb207f2",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "泼尼松每日1mg／kg，维持3～4周后逐渐减量，每10～15d减总量的5％～10％",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_392c915d8640",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "大剂量甲泼尼龙静脉冲击治疗",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3af650bef556",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "环磷酰胺每日口服2mg／kg或冲击治疗，每3～4周0．5～1．0g",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_72c05bc13e69",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "甲氨蝶呤每周5～25mg静脉注射、肌肉注射或口服",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_a615da03f0b3",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硫唑嘌呤每日口服2mg／kg",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_fd572705f814",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "地巴唑20mg，每日3次",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_275ce3bb0459",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "阿司匹林75～100mg，每日1次",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_5b58d8a28ab3",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "双嘧达莫(潘生丁)50mg，每日3次",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_d1e64176c2c8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "结核菌感染",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_5f118a3c3a54",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "上呼吸道、肺部或其他脏器感染",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.89
+        }
+      ],
+      "relationships": []
+    },
+    "CH0007": {
+      "entities": [],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "大动脉炎诊断及治疗指南",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "1概述",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "2临床表现",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "2临床表现",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "3诊断要点",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "4治疗方案及原则",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "4．6外科手术治疗",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "program": "snorkel",
+    "note": "Snorkel entitybase 复验结果；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态。"
+  }
+}

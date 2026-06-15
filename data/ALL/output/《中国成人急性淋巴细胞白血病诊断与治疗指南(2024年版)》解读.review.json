@@ -1,0 +1,130 @@
+{
+  "base_info": {
+    "doc_key": "《中国成人急性淋巴细胞白血病诊断与治疗指南(2024年版)》解读",
+    "doc_id": "DOC_4790b25cc034",
+    "source_title": "《中国成人急性淋巴细胞白血病诊断与治疗指南(2024年版)》解读",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\《中国成人急性淋巴细胞白血病诊断与治疗指南(2024年版)》解读.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 4,
+    "total_chunks": 8,
+    "has_kg": false,
+    "kg_status": "missing",
+    "kg_matched_chunks": 0
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0002": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0004": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0005": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0007": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0008": {
+      "entities": [],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "前言/概述",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "1",
+      "remark": "",
+      "updated_at": "2026-06-08T10:54:43"
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "为更好地指导临床实践，文章拟对该指南重点更新的部分进行解读",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "为更好地指导临床实践，文章拟对该指南重点更新的部分进行解读",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "为更好地指导临床实践，文章拟对该指南重点更新的部分进行解读",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "为更好地指导临床实践，文章拟对该指南重点更新的部分进行解读",
+      "page_start": 2,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "为更好地指导临床实践，文章拟对该指南重点更新的部分进行解读",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "为更好地指导临床实践，文章拟对该指南重点更新的部分进行解读",
+      "page_start": 3,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "为更好地指导临床实践，文章拟对该指南重点更新的部分进行解读",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "pass",
+      "error",
+      "unreviewed"
+    ],
+    "note": "base_info 记录 PDF 级基础信息；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态和备注。"
+  }
+}

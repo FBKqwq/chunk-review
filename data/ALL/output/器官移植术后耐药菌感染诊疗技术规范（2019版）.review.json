@@ -1,0 +1,2937 @@
+{
+  "base_info": {
+    "doc_key": "器官移植术后耐药菌感染诊疗技术规范（2019版）",
+    "doc_id": "DOC_0c3ed70eac9a",
+    "source_title": "器官移植术后耐药菌感染诊疗技术规范（2019版）",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\器官移植术后耐药菌感染诊疗技术规范（2019版）.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 7,
+    "total_chunks": 10,
+    "has_kg": true,
+    "kg_status": "matched",
+    "kg_matched_chunks": 10
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Disease::器官移植术后耐药菌感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植术后耐药菌感染",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "实体器官移植术后多重耐药菌感染",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Symptom::呼吸衰竭",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "呼吸衰竭",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Symptom::脓毒血症",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "脓毒血症",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Treatment::多重耐药菌感染的抗生素治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "多重耐药菌感染的抗生素治疗",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Plan::抗生素治疗",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "抗生素治疗",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Etiology::抗菌药物的广泛应用",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "抗菌药物的广泛应用",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Etiology::细菌耐药性增强",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "细菌耐药性增强",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Pathogenesis::免疫缺陷状态",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "免疫缺陷状态",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染|manifests_as|DOC_0c3ed70eac9a__CH0001::Symptom::呼吸衰竭",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "实体器官移植术后多重耐药菌感染",
+          "target_entity": "呼吸衰竭",
+          "source_id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0001::Symptom::呼吸衰竭",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染|manifests_as|DOC_0c3ed70eac9a__CH0001::Symptom::脓毒血症",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "实体器官移植术后多重耐药菌感染",
+          "target_entity": "脓毒血症",
+          "source_id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0001::Symptom::脓毒血症",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0001::Treatment::多重耐药菌感染的抗生素治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "实体器官移植术后多重耐药菌感染",
+          "target_entity": "多重耐药菌感染的抗生素治疗",
+          "source_id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0001::Treatment::多重耐药菌感染的抗生素治疗",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Treatment::多重耐药菌感染的抗生素治疗|implements_by|DOC_0c3ed70eac9a__CH0001::Plan::抗生素治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "多重耐药菌感染的抗生素治疗",
+          "target_entity": "抗生素治疗",
+          "source_id": "DOC_0c3ed70eac9a__CH0001::Treatment::多重耐药菌感染的抗生素治疗",
+          "target_id": "DOC_0c3ed70eac9a__CH0001::Plan::抗生素治疗",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染|causes|DOC_0c3ed70eac9a__CH0001::Etiology::抗菌药物的广泛应用",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "实体器官移植术后多重耐药菌感染",
+          "target_entity": "抗菌药物的广泛应用",
+          "source_id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0001::Etiology::抗菌药物的广泛应用",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染|causes|DOC_0c3ed70eac9a__CH0001::Etiology::细菌耐药性增强",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "实体器官移植术后多重耐药菌感染",
+          "target_entity": "细菌耐药性增强",
+          "source_id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0001::Etiology::细菌耐药性增强",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染|explained_by|DOC_0c3ed70eac9a__CH0001::Pathogenesis::免疫缺陷状态",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "实体器官移植术后多重耐药菌感染",
+          "target_entity": "免疫缺陷状态",
+          "source_id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0001::Pathogenesis::免疫缺陷状态",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0001::Disease::器官移植术后耐药菌感染|has_sub_disease|DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "实体器官移植术后多重耐药菌感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0001::Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0001::Sub_Disease::实体器官移植术后多重耐药菌感染",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0001"
+        }
+      ]
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Disease::器官移植术后感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植术后感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "SOT术后耐药菌感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Symptom::肺部感染",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肺部感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Symptom::伤口周围感染",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "伤口周围感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Symptom::泌尿系统感染（肾盂肾炎、膀胱炎）",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "泌尿系统感染（肾盂肾炎、膀胱炎）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Symptom::血流感染",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "血流感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Symptom::腹腔感染",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "腹腔感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Treatment::针对MDR、XDR、PDR耐药表型的分级抗感染策略",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "针对MDR、XDR、PDR耐药表型的分级抗感染策略",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Etiology::泛耐药鲍曼不动杆菌（PDRAB）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "泛耐药鲍曼不动杆菌（PDRAB）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Etiology::泛耐药铜绿假单胞菌（PDRPA）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "泛耐药铜绿假单胞菌（PDRPA）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Etiology::产超广谱β-内酰胺酶（ESBLs）的肠杆菌",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "产超广谱β-内酰胺酶（ESBLs）的肠杆菌",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Etiology::耐碳青霉烯类肺炎克雷伯杆菌（CRKP）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "耐碳青霉烯类肺炎克雷伯杆菌（CRKP）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Etiology::耐甲氧西林金黄色葡萄球菌（MRSA）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "耐甲氧西林金黄色葡萄球菌（MRSA）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Etiology::耐万古霉素肠球菌（VRE）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "耐万古霉素肠球菌（VRE）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染|manifests_as|DOC_0c3ed70eac9a__CH0002::Symptom::肺部感染",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "肺部感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Symptom::肺部感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染|manifests_as|DOC_0c3ed70eac9a__CH0002::Symptom::伤口周围感染",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "伤口周围感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Symptom::伤口周围感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染|manifests_as|DOC_0c3ed70eac9a__CH0002::Symptom::泌尿系统感染（肾盂肾炎、膀胱炎）",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "泌尿系统感染（肾盂肾炎、膀胱炎）",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Symptom::泌尿系统感染（肾盂肾炎、膀胱炎）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染|manifests_as|DOC_0c3ed70eac9a__CH0002::Symptom::血流感染",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "血流感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Symptom::血流感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染|manifests_as|DOC_0c3ed70eac9a__CH0002::Symptom::腹腔感染",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "腹腔感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Symptom::腹腔感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0002::Treatment::针对MDR、XDR、PDR耐药表型的分级抗感染策略",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "针对MDR、XDR、PDR耐药表型的分级抗感染策略",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Treatment::针对MDR、XDR、PDR耐药表型的分级抗感染策略",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0002::Etiology::泛耐药鲍曼不动杆菌（PDRAB）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "泛耐药鲍曼不动杆菌（PDRAB）",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Etiology::泛耐药鲍曼不动杆菌（PDRAB）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0002::Etiology::泛耐药铜绿假单胞菌（PDRPA）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "泛耐药铜绿假单胞菌（PDRPA）",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Etiology::泛耐药铜绿假单胞菌（PDRPA）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0002::Etiology::产超广谱β-内酰胺酶（ESBLs）的肠杆菌",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "产超广谱β-内酰胺酶（ESBLs）的肠杆菌",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Etiology::产超广谱β-内酰胺酶（ESBLs）的肠杆菌",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0002::Etiology::耐碳青霉烯类肺炎克雷伯杆菌（CRKP）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "耐碳青霉烯类肺炎克雷伯杆菌（CRKP）",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Etiology::耐碳青霉烯类肺炎克雷伯杆菌（CRKP）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0002::Etiology::耐甲氧西林金黄色葡萄球菌（MRSA）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "耐甲氧西林金黄色葡萄球菌（MRSA）",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Etiology::耐甲氧西林金黄色葡萄球菌（MRSA）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0002::Etiology::耐万古霉素肠球菌（VRE）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "耐万古霉素肠球菌（VRE）",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Etiology::耐万古霉素肠球菌（VRE）",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0002::Disease::器官移植术后感染|has_sub_disease|DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植术后感染",
+          "target_entity": "SOT术后耐药菌感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0002::Disease::器官移植术后感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0002::Sub_Disease::SOT术后耐药菌感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0002"
+        }
+      ]
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Disease::器官移植术后耐药菌感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植术后耐药菌感染",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "SOT术后耐药菌感染",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Etiology::大剂量免疫抑制剂的应用",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "大剂量免疫抑制剂的应用",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Etiology::广谱抗菌药物的应用",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "广谱抗菌药物的应用",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Etiology::血液透析",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "血液透析",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Etiology::移植后并发症（肾功能不全、胆道感染或梗阻等）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "移植后并发症（肾功能不全、胆道感染或梗阻等）",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Etiology::留观重症监护室时间与气管插管时间过长（≥72h）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "留观重症监护室时间与气管插管时间过长（≥72h）",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Etiology::再次手术",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "再次手术",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Etiology::接受心脏死亡器官捐献（DCD）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "接受心脏死亡器官捐献（DCD）",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Etiology::老年受者（>60岁）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "老年受者（>60岁）",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Etiology::术前90d内使用过抗生素治疗",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "术前90d内使用过抗生素治疗",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Etiology::近期住院时间≥5d",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "近期住院时间≥5d",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Etiology::供者来源性感染（DDI）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "供者来源性感染（DDI）",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Pathogenesis::供者来源性感染（DDI）多发生在移植术后1个月以内",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "供者来源性感染（DDI）多发生在移植术后1个月以内",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Pathogenesis::SOT术后DDI中80%为MDR细菌",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "SOT术后DDI中80%为MDR细菌",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0003::Etiology::大剂量免疫抑制剂的应用",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "大剂量免疫抑制剂的应用",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Etiology::大剂量免疫抑制剂的应用",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0003::Etiology::广谱抗菌药物的应用",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "广谱抗菌药物的应用",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Etiology::广谱抗菌药物的应用",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0003::Etiology::血液透析",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "血液透析",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Etiology::血液透析",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0003::Etiology::移植后并发症（肾功能不全、胆道感染或梗阻等）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "移植后并发症（肾功能不全、胆道感染或梗阻等）",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Etiology::移植后并发症（肾功能不全、胆道感染或梗阻等）",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0003::Etiology::留观重症监护室时间与气管插管时间过长（≥72h）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "留观重症监护室时间与气管插管时间过长（≥72h）",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Etiology::留观重症监护室时间与气管插管时间过长（≥72h）",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0003::Etiology::再次手术",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "再次手术",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Etiology::再次手术",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0003::Etiology::接受心脏死亡器官捐献（DCD）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "接受心脏死亡器官捐献（DCD）",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Etiology::接受心脏死亡器官捐献（DCD）",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0003::Etiology::老年受者（>60岁）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "老年受者（>60岁）",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Etiology::老年受者（>60岁）",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0003::Etiology::术前90d内使用过抗生素治疗",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "术前90d内使用过抗生素治疗",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Etiology::术前90d内使用过抗生素治疗",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0003::Etiology::近期住院时间≥5d",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "近期住院时间≥5d",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Etiology::近期住院时间≥5d",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0003::Etiology::供者来源性感染（DDI）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "供者来源性感染（DDI）",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Etiology::供者来源性感染（DDI）",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|explained_by|DOC_0c3ed70eac9a__CH0003::Pathogenesis::供者来源性感染（DDI）多发生在移植术后1个月以内",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "供者来源性感染（DDI）多发生在移植术后1个月以内",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Pathogenesis::供者来源性感染（DDI）多发生在移植术后1个月以内",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染|explained_by|DOC_0c3ed70eac9a__CH0003::Pathogenesis::SOT术后DDI中80%为MDR细菌",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "SOT术后耐药菌感染",
+          "target_entity": "SOT术后DDI中80%为MDR细菌",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Pathogenesis::SOT术后DDI中80%为MDR细菌",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0003::Disease::器官移植术后耐药菌感染|has_sub_disease|DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "SOT术后耐药菌感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0003::Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0003::Sub_Disease::SOT术后耐药菌感染",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0003"
+        }
+      ]
+    },
+    "CH0004": {
+      "entities": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Disease::器官移植术后感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植术后感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "器官移植术后耐药菌感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Test::痰液等呼吸道标本",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "痰液等呼吸道标本",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Test::尿液标本",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "尿液标本",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Test::血液标本",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "血液标本",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Test::伤口脓液标本",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "伤口脓液标本",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Test::肠杆菌科细菌分离率（43.3%）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "肠杆菌科细菌分离率（43.3%）",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Test::大肠埃希菌检出",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "大肠埃希菌检出",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Test::肺炎克雷伯菌检出",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "肺炎克雷伯菌检出",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Treatment::抗感染治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "抗感染治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Etiology::MDR细菌（多重耐药革兰阴性杆菌）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "MDR细菌（多重耐药革兰阴性杆菌）",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染|requires_test|DOC_0c3ed70eac9a__CH0004::Test::痰液等呼吸道标本",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "痰液等呼吸道标本",
+          "source_id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0004::Test::痰液等呼吸道标本",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染|requires_test|DOC_0c3ed70eac9a__CH0004::Test::尿液标本",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "尿液标本",
+          "source_id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0004::Test::尿液标本",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染|requires_test|DOC_0c3ed70eac9a__CH0004::Test::血液标本",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "血液标本",
+          "source_id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0004::Test::血液标本",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染|requires_test|DOC_0c3ed70eac9a__CH0004::Test::伤口脓液标本",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "伤口脓液标本",
+          "source_id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0004::Test::伤口脓液标本",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染|requires_test|DOC_0c3ed70eac9a__CH0004::Test::肠杆菌科细菌分离率（43.3%）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "肠杆菌科细菌分离率（43.3%）",
+          "source_id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0004::Test::肠杆菌科细菌分离率（43.3%）",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染|requires_test|DOC_0c3ed70eac9a__CH0004::Test::大肠埃希菌检出",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "大肠埃希菌检出",
+          "source_id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0004::Test::大肠埃希菌检出",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染|requires_test|DOC_0c3ed70eac9a__CH0004::Test::肺炎克雷伯菌检出",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "肺炎克雷伯菌检出",
+          "source_id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0004::Test::肺炎克雷伯菌检出",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0004::Treatment::抗感染治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "抗感染治疗",
+          "source_id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0004::Treatment::抗感染治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染|causes|DOC_0c3ed70eac9a__CH0004::Etiology::MDR细菌（多重耐药革兰阴性杆菌）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "MDR细菌（多重耐药革兰阴性杆菌）",
+          "source_id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0004::Etiology::MDR细菌（多重耐药革兰阴性杆菌）",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0004::Disease::器官移植术后感染|has_sub_disease|DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植术后感染",
+          "target_entity": "器官移植术后耐药菌感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0004::Disease::器官移植术后感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0004::Sub_Disease::器官移植术后耐药菌感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0004"
+        }
+      ]
+    },
+    "CH0005": {
+      "entities": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Disease::器官移植术后感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植术后感染",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "耐药菌感染",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Treatment::初始经验性治疗应覆盖多重耐药革兰阴性杆菌（如鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）及甲氧西林耐药革兰阳性球菌（如MRSA、MRCNS）",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "初始经验性治疗应覆盖多重耐药革兰阴性杆菌（如鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）及甲氧西林耐药革兰阳性球菌（如MRSA、MRCNS）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Treatment::肾移植术后预防用药或SOT术后尿路感染的治疗用药，初始应选择主要针对肠杆菌科的抗生素，尤其是大肠埃希菌",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "肾移植术后预防用药或SOT术后尿路感染的治疗用药，初始应选择主要针对肠杆菌科的抗生素，尤其是大肠埃希菌",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Plan::肠杆菌科经验覆盖方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "肠杆菌科经验覆盖方案",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Plan::碳青霉烯类敏感菌优选方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "碳青霉烯类敏感菌优选方案",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Etiology::多重耐药革兰阴性杆菌（鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "多重耐药革兰阴性杆菌（鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Etiology::甲氧西林耐药金黄色葡萄球菌（MRSA）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "甲氧西林耐药金黄色葡萄球菌（MRSA）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Etiology::耐甲氧西林凝固酶阴性葡萄球菌（MRCNS）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "耐甲氧西林凝固酶阴性葡萄球菌（MRCNS）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Etiology::产碳青霉烯酶肠杆菌科细菌（CRE）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "产碳青霉烯酶肠杆菌科细菌（CRE）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Etiology::产NDM-1或KPC酶菌株",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "产NDM-1或KPC酶菌株",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Pathogenesis::产生碳青霉烯酶或新德里金属-β-内酰胺酶（NDM）-1是肠杆菌科细菌对碳青霉烯类抗生素最主要的耐药机制",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "产生碳青霉烯酶或新德里金属-β-内酰胺酶（NDM）-1是肠杆菌科细菌对碳青霉烯类抗生素最主要的耐药机制",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Pathogenesis::不同人群来源和不同地区来源菌株的耐药机制有所不同",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "不同人群来源和不同地区来源菌株的耐药机制有所不同",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0005::Treatment::初始经验性治疗应覆盖多重耐药革兰阴性杆菌（如鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）及甲氧西林耐药革兰阳性球菌（如MRSA、MRCNS）",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "耐药菌感染",
+          "target_entity": "初始经验性治疗应覆盖多重耐药革兰阴性杆菌（如鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）及甲氧西林耐药革兰阳性球菌（如MRSA、MRCNS）",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Treatment::初始经验性治疗应覆盖多重耐药革兰阴性杆菌（如鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）及甲氧西林耐药革兰阳性球菌（如MRSA、MRCNS）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0005::Treatment::肾移植术后预防用药或SOT术后尿路感染的治疗用药，初始应选择主要针对肠杆菌科的抗生素，尤其是大肠埃希菌",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "耐药菌感染",
+          "target_entity": "肾移植术后预防用药或SOT术后尿路感染的治疗用药，初始应选择主要针对肠杆菌科的抗生素，尤其是大肠埃希菌",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Treatment::肾移植术后预防用药或SOT术后尿路感染的治疗用药，初始应选择主要针对肠杆菌科的抗生素，尤其是大肠埃希菌",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Treatment::初始经验性治疗应覆盖多重耐药革兰阴性杆菌（如鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）及甲氧西林耐药革兰阳性球菌（如MRSA、MRCNS）|implements_by|DOC_0c3ed70eac9a__CH0005::Plan::肠杆菌科经验覆盖方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "初始经验性治疗应覆盖多重耐药革兰阴性杆菌（如鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）及甲氧西林耐药革兰阳性球菌（如MRSA、MRCNS）",
+          "target_entity": "肠杆菌科经验覆盖方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Treatment::初始经验性治疗应覆盖多重耐药革兰阴性杆菌（如鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）及甲氧西林耐药革兰阳性球菌（如MRSA、MRCNS）",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Plan::肠杆菌科经验覆盖方案",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Treatment::肾移植术后预防用药或SOT术后尿路感染的治疗用药，初始应选择主要针对肠杆菌科的抗生素，尤其是大肠埃希菌|implements_by|DOC_0c3ed70eac9a__CH0005::Plan::肠杆菌科经验覆盖方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "肾移植术后预防用药或SOT术后尿路感染的治疗用药，初始应选择主要针对肠杆菌科的抗生素，尤其是大肠埃希菌",
+          "target_entity": "肠杆菌科经验覆盖方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Treatment::肾移植术后预防用药或SOT术后尿路感染的治疗用药，初始应选择主要针对肠杆菌科的抗生素，尤其是大肠埃希菌",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Plan::肠杆菌科经验覆盖方案",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染|causes|DOC_0c3ed70eac9a__CH0005::Etiology::多重耐药革兰阴性杆菌（鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "耐药菌感染",
+          "target_entity": "多重耐药革兰阴性杆菌（鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Etiology::多重耐药革兰阴性杆菌（鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染|causes|DOC_0c3ed70eac9a__CH0005::Etiology::甲氧西林耐药金黄色葡萄球菌（MRSA）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "耐药菌感染",
+          "target_entity": "甲氧西林耐药金黄色葡萄球菌（MRSA）",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Etiology::甲氧西林耐药金黄色葡萄球菌（MRSA）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染|causes|DOC_0c3ed70eac9a__CH0005::Etiology::耐甲氧西林凝固酶阴性葡萄球菌（MRCNS）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "耐药菌感染",
+          "target_entity": "耐甲氧西林凝固酶阴性葡萄球菌（MRCNS）",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Etiology::耐甲氧西林凝固酶阴性葡萄球菌（MRCNS）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染|causes|DOC_0c3ed70eac9a__CH0005::Etiology::产碳青霉烯酶肠杆菌科细菌（CRE）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "耐药菌感染",
+          "target_entity": "产碳青霉烯酶肠杆菌科细菌（CRE）",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Etiology::产碳青霉烯酶肠杆菌科细菌（CRE）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染|causes|DOC_0c3ed70eac9a__CH0005::Etiology::产NDM-1或KPC酶菌株",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "耐药菌感染",
+          "target_entity": "产NDM-1或KPC酶菌株",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Etiology::产NDM-1或KPC酶菌株",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染|explained_by|DOC_0c3ed70eac9a__CH0005::Pathogenesis::产生碳青霉烯酶或新德里金属-β-内酰胺酶（NDM）-1是肠杆菌科细菌对碳青霉烯类抗生素最主要的耐药机制",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "耐药菌感染",
+          "target_entity": "产生碳青霉烯酶或新德里金属-β-内酰胺酶（NDM）-1是肠杆菌科细菌对碳青霉烯类抗生素最主要的耐药机制",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Pathogenesis::产生碳青霉烯酶或新德里金属-β-内酰胺酶（NDM）-1是肠杆菌科细菌对碳青霉烯类抗生素最主要的耐药机制",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染|explained_by|DOC_0c3ed70eac9a__CH0005::Pathogenesis::不同人群来源和不同地区来源菌株的耐药机制有所不同",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "耐药菌感染",
+          "target_entity": "不同人群来源和不同地区来源菌株的耐药机制有所不同",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Pathogenesis::不同人群来源和不同地区来源菌株的耐药机制有所不同",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Disease::器官移植术后感染|has_sub_disease|DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植术后感染",
+          "target_entity": "耐药菌感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Disease::器官移植术后感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Sub_Disease::耐药菌感染",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Treatment::初始经验性治疗应覆盖多重耐药革兰阴性杆菌（如鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）及甲氧西林耐药革兰阳性球菌（如MRSA、MRCNS）|implements_by|DOC_0c3ed70eac9a__CH0005::Plan::碳青霉烯类敏感菌优选方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "初始经验性治疗应覆盖多重耐药革兰阴性杆菌（如鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）及甲氧西林耐药革兰阳性球菌（如MRSA、MRCNS）",
+          "target_entity": "碳青霉烯类敏感菌优选方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Treatment::初始经验性治疗应覆盖多重耐药革兰阴性杆菌（如鲍曼不动杆菌、铜绿假单胞菌、嗜麦芽窄食单胞菌）及甲氧西林耐药革兰阳性球菌（如MRSA、MRCNS）",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Plan::碳青霉烯类敏感菌优选方案",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0005::Treatment::肾移植术后预防用药或SOT术后尿路感染的治疗用药，初始应选择主要针对肠杆菌科的抗生素，尤其是大肠埃希菌|implements_by|DOC_0c3ed70eac9a__CH0005::Plan::碳青霉烯类敏感菌优选方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "肾移植术后预防用药或SOT术后尿路感染的治疗用药，初始应选择主要针对肠杆菌科的抗生素，尤其是大肠埃希菌",
+          "target_entity": "碳青霉烯类敏感菌优选方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0005::Treatment::肾移植术后预防用药或SOT术后尿路感染的治疗用药，初始应选择主要针对肠杆菌科的抗生素，尤其是大肠埃希菌",
+          "target_id": "DOC_0c3ed70eac9a__CH0005::Plan::碳青霉烯类敏感菌优选方案",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0005"
+        }
+      ]
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Disease::器官移植术后感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植术后感染",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "CRKP感染",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Symptom::肺部感染",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肺部感染",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Test::药敏试验（多黏菌素、替加环素、头孢他啶-阿维巴坦）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "药敏试验（多黏菌素、替加环素、头孢他啶-阿维巴坦）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Test::联合药敏试验",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "联合药敏试验",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Treatment::针对超级耐药细菌感染，实验室需增做其它可能有效的抗菌药物药敏及联合药敏试验",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "针对超级耐药细菌感染，实验室需增做其它可能有效的抗菌药物药敏及联合药敏试验",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Plan::CRE/CRKP药敏扩展方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "CRE/CRKP药敏扩展方案",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Etiology::肺炎克雷伯菌（CRKP）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "肺炎克雷伯菌（CRKP）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染|manifests_as|DOC_0c3ed70eac9a__CH0006::Symptom::肺部感染",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "CRKP感染",
+          "target_entity": "肺部感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0006::Symptom::肺部感染",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染|requires_test|DOC_0c3ed70eac9a__CH0006::Test::药敏试验（多黏菌素、替加环素、头孢他啶-阿维巴坦）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "CRKP感染",
+          "target_entity": "药敏试验（多黏菌素、替加环素、头孢他啶-阿维巴坦）",
+          "source_id": "DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0006::Test::药敏试验（多黏菌素、替加环素、头孢他啶-阿维巴坦）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染|requires_test|DOC_0c3ed70eac9a__CH0006::Test::联合药敏试验",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "CRKP感染",
+          "target_entity": "联合药敏试验",
+          "source_id": "DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0006::Test::联合药敏试验",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染|follows_treatment|DOC_0c3ed70eac9a__CH0006::Treatment::针对超级耐药细菌感染，实验室需增做其它可能有效的抗菌药物药敏及联合药敏试验",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "CRKP感染",
+          "target_entity": "针对超级耐药细菌感染，实验室需增做其它可能有效的抗菌药物药敏及联合药敏试验",
+          "source_id": "DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0006::Treatment::针对超级耐药细菌感染，实验室需增做其它可能有效的抗菌药物药敏及联合药敏试验",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Treatment::针对超级耐药细菌感染，实验室需增做其它可能有效的抗菌药物药敏及联合药敏试验|implements_by|DOC_0c3ed70eac9a__CH0006::Plan::CRE/CRKP药敏扩展方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "针对超级耐药细菌感染，实验室需增做其它可能有效的抗菌药物药敏及联合药敏试验",
+          "target_entity": "CRE/CRKP药敏扩展方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0006::Treatment::针对超级耐药细菌感染，实验室需增做其它可能有效的抗菌药物药敏及联合药敏试验",
+          "target_id": "DOC_0c3ed70eac9a__CH0006::Plan::CRE/CRKP药敏扩展方案",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染|causes|DOC_0c3ed70eac9a__CH0006::Etiology::肺炎克雷伯菌（CRKP）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "CRKP感染",
+          "target_entity": "肺炎克雷伯菌（CRKP）",
+          "source_id": "DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0006::Etiology::肺炎克雷伯菌（CRKP）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0006::Disease::器官移植术后感染|has_sub_disease|DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植术后感染",
+          "target_entity": "CRKP感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0006::Disease::器官移植术后感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0006::Sub_Disease::CRKP感染",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0006"
+        }
+      ]
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Disease::器官移植术后耐药菌感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植术后耐药菌感染",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "MDR细菌感染",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Test::药敏试验",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "药敏试验",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Test::最低抑菌浓度（minimum inhibitory concentration，MIC）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "最低抑菌浓度（minimum inhibitory concentration，MIC）",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Plan::药敏导向选药",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "药敏导向选药",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Plan::MDR革兰阴性菌联合增效治疗",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "MDR革兰阴性菌联合增效治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Plan::PK/PD优化给药",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "PK/PD优化给药",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Plan::感染源控制",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "感染源控制",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Etiology::产苯唑西林水解酶（oxacillin hydrolase，OXA）型碳青霉烯酶肺炎克雷伯菌",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "产苯唑西林水解酶（oxacillin hydrolase，OXA）型碳青霉烯酶肺炎克雷伯菌",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数，延长抗生素滴注时间",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "根据药动学和药代学原理设定给药方案，如增加给药剂量或次数，延长抗生素滴注时间",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染|requires_test|DOC_0c3ed70eac9a__CH0007::Test::药敏试验",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "MDR细菌感染",
+          "target_entity": "药敏试验",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Test::药敏试验",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染|requires_test|DOC_0c3ed70eac9a__CH0007::Test::最低抑菌浓度（minimum inhibitory concentration，MIC）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "MDR细菌感染",
+          "target_entity": "最低抑菌浓度（minimum inhibitory concentration，MIC）",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Test::最低抑菌浓度（minimum inhibitory concentration，MIC）",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0007::Treatment::尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "MDR细菌感染",
+          "target_entity": "尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Treatment::尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0007::Treatment::MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "MDR细菌感染",
+          "target_entity": "MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Treatment::MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数，延长抗生素滴注时间",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "MDR细菌感染",
+          "target_entity": "根据药动学和药代学原理设定给药方案，如增加给药剂量或次数，延长抗生素滴注时间",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数，延长抗生素滴注时间",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0007::Treatment::积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "MDR细菌感染",
+          "target_entity": "积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Treatment::积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::药敏导向选药",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "target_entity": "药敏导向选药",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::药敏导向选药",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::MDR革兰阴性菌联合增效治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "target_entity": "MDR革兰阴性菌联合增效治疗",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::MDR革兰阴性菌联合增效治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数，延长抗生素滴注时间|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::PK/PD优化给药",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "根据药动学和药代学原理设定给药方案，如增加给药剂量或次数，延长抗生素滴注时间",
+          "target_entity": "PK/PD优化给药",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数，延长抗生素滴注时间",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::PK/PD优化给药",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::感染源控制",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "target_entity": "感染源控制",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::感染源控制",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染|causes|DOC_0c3ed70eac9a__CH0007::Etiology::产苯唑西林水解酶（oxacillin hydrolase，OXA）型碳青霉烯酶肺炎克雷伯菌",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "MDR细菌感染",
+          "target_entity": "产苯唑西林水解酶（oxacillin hydrolase，OXA）型碳青霉烯酶肺炎克雷伯菌",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Etiology::产苯唑西林水解酶（oxacillin hydrolase，OXA）型碳青霉烯酶肺炎克雷伯菌",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Disease::器官移植术后耐药菌感染|has_sub_disease|DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "MDR细菌感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "MDR细菌感染",
+          "target_entity": "根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Sub_Disease::MDR细菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::MDR革兰阴性菌联合增效治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "target_entity": "MDR革兰阴性菌联合增效治疗",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::MDR革兰阴性菌联合增效治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::PK/PD优化给药",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "target_entity": "PK/PD优化给药",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::PK/PD优化给药",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::感染源控制",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "target_entity": "感染源控制",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::尽量根据药敏结果选择敏感抗生素，当所有药物均不敏感时，选择MIC较接近敏感折点的药物",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::感染源控制",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::药敏导向选药",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "target_entity": "药敏导向选药",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::药敏导向选药",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::PK/PD优化给药",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "target_entity": "PK/PD优化给药",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::PK/PD优化给药",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::感染源控制",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "target_entity": "感染源控制",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::MDR革兰阴性菌的治疗需要增加抗生素剂量并联合用药，同时根据患者年龄、肝肾功能及体表面积调整",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::感染源控制",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::药敏导向选药",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "target_entity": "药敏导向选药",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::药敏导向选药",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::MDR革兰阴性菌联合增效治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "target_entity": "MDR革兰阴性菌联合增效治疗",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::MDR革兰阴性菌联合增效治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::PK/PD优化给药",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "target_entity": "PK/PD优化给药",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::PK/PD优化给药",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::感染源控制",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "target_entity": "感染源控制",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::根据药动学和药代学原理设定给药方案，如增加给药剂量或次数、延长抗生素滴注时间",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::感染源控制",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::药敏导向选药",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "target_entity": "药敏导向选药",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::药敏导向选药",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::MDR革兰阴性菌联合增效治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "target_entity": "MDR革兰阴性菌联合增效治疗",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::MDR革兰阴性菌联合增效治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0007::Treatment::积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素|implements_by|DOC_0c3ed70eac9a__CH0007::Plan::PK/PD优化给药",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "target_entity": "PK/PD优化给药",
+          "source_id": "DOC_0c3ed70eac9a__CH0007::Treatment::积极处理原发病，控制感染源（引流积液及移除被污染的设备），尽可能消除感染的危险因素",
+          "target_id": "DOC_0c3ed70eac9a__CH0007::Plan::PK/PD优化给药",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0007"
+        }
+      ]
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Disease::MDR感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "MDR感染",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "CRE感染",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Symptom::呼吸道感染",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "呼吸道感染",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Symptom::皮肤软组织感染",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "皮肤软组织感染",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Symptom::腹腔感染",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "腹腔感染",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Treatment::联合用药治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "联合用药治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Treatment::根据药敏结果合理选用",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "根据药敏结果合理选用",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Plan::替加环素常规方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "替加环素常规方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Plan::CRE肺炎方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "CRE肺炎方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Etiology::耐碳青霉烯类细菌",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "耐碳青霉烯类细菌",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Etiology::产ESBLs菌株",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "产ESBLs菌株",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Etiology::产碳青霉烯酶类耐药菌株",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "产碳青霉烯酶类耐药菌株",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Etiology::XDR鲍曼不动杆菌",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "XDR鲍曼不动杆菌",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Etiology::其它肠杆菌科细菌",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "其它肠杆菌科细菌",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Pathogenesis::细菌蛋白质合成被抑制",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "细菌蛋白质合成被抑制",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE infection",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "CRE infection",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染|manifests_as|DOC_0c3ed70eac9a__CH0008::Symptom::呼吸道感染",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "CRE感染",
+          "target_entity": "呼吸道感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Symptom::呼吸道感染",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染|manifests_as|DOC_0c3ed70eac9a__CH0008::Symptom::皮肤软组织感染",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "CRE感染",
+          "target_entity": "皮肤软组织感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Symptom::皮肤软组织感染",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染|manifests_as|DOC_0c3ed70eac9a__CH0008::Symptom::腹腔感染",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "CRE感染",
+          "target_entity": "腹腔感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Symptom::腹腔感染",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE infection|follows_treatment|DOC_0c3ed70eac9a__CH0008::Treatment::联合用药治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "CRE infection",
+          "target_entity": "联合用药治疗",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE infection",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Treatment::联合用药治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE infection|follows_treatment|DOC_0c3ed70eac9a__CH0008::Treatment::根据药敏结果合理选用",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "CRE infection",
+          "target_entity": "根据药敏结果合理选用",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE infection",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Treatment::根据药敏结果合理选用",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Treatment::联合用药治疗|implements_by|DOC_0c3ed70eac9a__CH0008::Plan::替加环素常规方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "联合用药治疗",
+          "target_entity": "替加环素常规方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Treatment::联合用药治疗",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Plan::替加环素常规方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Treatment::联合用药治疗|implements_by|DOC_0c3ed70eac9a__CH0008::Plan::CRE肺炎方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "联合用药治疗",
+          "target_entity": "CRE肺炎方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Treatment::联合用药治疗",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Plan::CRE肺炎方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染|causes|DOC_0c3ed70eac9a__CH0008::Etiology::耐碳青霉烯类细菌",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "CRE感染",
+          "target_entity": "耐碳青霉烯类细菌",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Etiology::耐碳青霉烯类细菌",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染|explained_by|DOC_0c3ed70eac9a__CH0008::Pathogenesis::细菌蛋白质合成被抑制",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "CRE感染",
+          "target_entity": "细菌蛋白质合成被抑制",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Pathogenesis::细菌蛋白质合成被抑制",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Disease::MDR感染|has_sub_disease|DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "MDR感染",
+          "target_entity": "CRE感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Disease::MDR感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染|follows_treatment|DOC_0c3ed70eac9a__CH0008::Treatment::联合用药治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "CRE感染",
+          "target_entity": "联合用药治疗",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Treatment::联合用药治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染|follows_treatment|DOC_0c3ed70eac9a__CH0008::Treatment::根据药敏结果合理选用",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "CRE感染",
+          "target_entity": "根据药敏结果合理选用",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Treatment::根据药敏结果合理选用",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染|causes|DOC_0c3ed70eac9a__CH0008::Etiology::产ESBLs菌株",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "CRE感染",
+          "target_entity": "产ESBLs菌株",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Etiology::产ESBLs菌株",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染|causes|DOC_0c3ed70eac9a__CH0008::Etiology::产碳青霉烯酶类耐药菌株",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "CRE感染",
+          "target_entity": "产碳青霉烯酶类耐药菌株",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Etiology::产碳青霉烯酶类耐药菌株",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染|causes|DOC_0c3ed70eac9a__CH0008::Etiology::XDR鲍曼不动杆菌",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "CRE感染",
+          "target_entity": "XDR鲍曼不动杆菌",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Etiology::XDR鲍曼不动杆菌",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染|causes|DOC_0c3ed70eac9a__CH0008::Etiology::其它肠杆菌科细菌",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "CRE感染",
+          "target_entity": "其它肠杆菌科细菌",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Sub_Disease::CRE感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Etiology::其它肠杆菌科细菌",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Treatment::根据药敏结果合理选用|implements_by|DOC_0c3ed70eac9a__CH0008::Plan::替加环素常规方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "根据药敏结果合理选用",
+          "target_entity": "替加环素常规方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Treatment::根据药敏结果合理选用",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Plan::替加环素常规方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0008::Treatment::根据药敏结果合理选用|implements_by|DOC_0c3ed70eac9a__CH0008::Plan::CRE肺炎方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "根据药敏结果合理选用",
+          "target_entity": "CRE肺炎方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0008::Treatment::根据药敏结果合理选用",
+          "target_id": "DOC_0c3ed70eac9a__CH0008::Plan::CRE肺炎方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0008"
+        }
+      ]
+    },
+    "CH0009": {
+      "entities": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Disease::器官移植术后耐药菌感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植术后耐药菌感染",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "XDR革兰阴性菌感染",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素E甲磺酸钠静脉给药方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "多黏菌素E甲磺酸钠静脉给药方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素B硫酸盐静脉给药方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "多黏菌素B硫酸盐静脉给药方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Plan::头孢哌酮钠-舒巴坦钠常规剂量",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "头孢哌酮钠-舒巴坦钠常规剂量",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Plan::舒巴坦高剂量方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "舒巴坦高剂量方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Plan::头孢他啶-阿维巴坦补救治疗方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "头孢他啶-阿维巴坦补救治疗方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Etiology::异质性耐药",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "异质性耐药",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Etiology::β-内酰胺酶水解作用",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "β-内酰胺酶水解作用",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Pathogenesis::异质性耐药导致单药疗效不足",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "异质性耐药导致单药疗效不足",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Pathogenesis::β-内酰胺酶介导的β-内酰胺类抗生素失活",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "β-内酰胺酶介导的β-内酰胺类抗生素失活",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "XDR革兰阴性菌感染",
+          "target_entity": "多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "XDR革兰阴性菌感染",
+          "target_entity": "β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染|follows_treatment|DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "XDR革兰阴性菌感染",
+          "target_entity": "头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素E甲磺酸钠静脉给药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "target_entity": "多黏菌素E甲磺酸钠静脉给药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素E甲磺酸钠静脉给药方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素B硫酸盐静脉给药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "target_entity": "多黏菌素B硫酸盐静脉给药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素B硫酸盐静脉给药方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::头孢哌酮钠-舒巴坦钠常规剂量",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "target_entity": "头孢哌酮钠-舒巴坦钠常规剂量",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::头孢哌酮钠-舒巴坦钠常规剂量",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::舒巴坦高剂量方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "target_entity": "舒巴坦高剂量方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::舒巴坦高剂量方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::头孢他啶-阿维巴坦补救治疗方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "target_entity": "头孢他啶-阿维巴坦补救治疗方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::头孢他啶-阿维巴坦补救治疗方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染|causes|DOC_0c3ed70eac9a__CH0009::Etiology::异质性耐药",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "XDR革兰阴性菌感染",
+          "target_entity": "异质性耐药",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Etiology::异质性耐药",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染|causes|DOC_0c3ed70eac9a__CH0009::Etiology::β-内酰胺酶水解作用",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "XDR革兰阴性菌感染",
+          "target_entity": "β-内酰胺酶水解作用",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Etiology::β-内酰胺酶水解作用",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染|explained_by|DOC_0c3ed70eac9a__CH0009::Pathogenesis::异质性耐药导致单药疗效不足",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "XDR革兰阴性菌感染",
+          "target_entity": "异质性耐药导致单药疗效不足",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Pathogenesis::异质性耐药导致单药疗效不足",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染|explained_by|DOC_0c3ed70eac9a__CH0009::Pathogenesis::β-内酰胺酶介导的β-内酰胺类抗生素失活",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "XDR革兰阴性菌感染",
+          "target_entity": "β-内酰胺酶介导的β-内酰胺类抗生素失活",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Pathogenesis::β-内酰胺酶介导的β-内酰胺类抗生素失活",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Disease::器官移植术后耐药菌感染|has_sub_disease|DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "XDR革兰阴性菌感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Sub_Disease::XDR革兰阴性菌感染",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::头孢哌酮钠-舒巴坦钠常规剂量",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "target_entity": "头孢哌酮钠-舒巴坦钠常规剂量",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::头孢哌酮钠-舒巴坦钠常规剂量",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::舒巴坦高剂量方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "target_entity": "舒巴坦高剂量方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::舒巴坦高剂量方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::头孢他啶-阿维巴坦补救治疗方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "target_entity": "头孢他啶-阿维巴坦补救治疗方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::多黏菌素不推荐单独应用，需联合其他抗菌药物",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::头孢他啶-阿维巴坦补救治疗方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素E甲磺酸钠静脉给药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "target_entity": "多黏菌素E甲磺酸钠静脉给药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素E甲磺酸钠静脉给药方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素B硫酸盐静脉给药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "target_entity": "多黏菌素B硫酸盐静脉给药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素B硫酸盐静脉给药方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::头孢他啶-阿维巴坦补救治疗方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "target_entity": "头孢他啶-阿维巴坦补救治疗方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::β-内酰胺酶抑制剂合剂用于覆盖常见耐药阴性杆菌",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::头孢他啶-阿维巴坦补救治疗方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素E甲磺酸钠静脉给药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "target_entity": "多黏菌素E甲磺酸钠静脉给药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素E甲磺酸钠静脉给药方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素B硫酸盐静脉给药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "target_entity": "多黏菌素B硫酸盐静脉给药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::多黏菌素B硫酸盐静脉给药方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::头孢哌酮钠-舒巴坦钠常规剂量",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "target_entity": "头孢哌酮钠-舒巴坦钠常规剂量",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::头孢哌酮钠-舒巴坦钠常规剂量",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗|implements_by|DOC_0c3ed70eac9a__CH0009::Plan::舒巴坦高剂量方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "target_entity": "舒巴坦高剂量方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0009::Treatment::头孢他啶-阿维巴坦用于头孢他啶单药耐药或MDR革兰阴性杆菌感染的补救性治疗",
+          "target_id": "DOC_0c3ed70eac9a__CH0009::Plan::舒巴坦高剂量方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0009"
+        }
+      ]
+    },
+    "CH0010": {
+      "entities": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Disease::器官移植术后耐药菌感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "器官移植术后耐药菌感染",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "MDR感染",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "MDR感染的常用药物选择",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "联合治疗泛耐药菌感染",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Plan::碳青霉烯类用药方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "碳青霉烯类用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Plan::氨基苷类用药方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "氨基苷类用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Plan::磷霉素用药方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "磷霉素用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Plan::四环素类用药方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "四环素类用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Plan::喹诺酮类用药方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "喹诺酮类用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Etiology::产ESBLs和AmpCβ-内酰胺酶的致病菌",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "产ESBLs和AmpCβ-内酰胺酶的致病菌",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Etiology::嗜麦芽窄食假单胞菌（天然耐药）",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "嗜麦芽窄食假单胞菌（天然耐药）",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Etiology::CRE",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "CRE",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Etiology::PDRPA",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "PDRPA",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Etiology::泛耐药肠杆菌科",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "泛耐药肠杆菌科",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Etiology::铜绿假单胞菌",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "铜绿假单胞菌",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Etiology::鲍曼不动杆菌",
+          "entity_type": "病因",
+          "raw_label": "Etiology",
+          "entity_name": "鲍曼不动杆菌",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Pathogenesis::β-内酰胺酶介导的耐药",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "β-内酰胺酶介导的耐药",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Pathogenesis::天然耐药机制",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "Pathogenesis",
+          "entity_name": "天然耐药机制",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染|follows_treatment|DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "MDR感染",
+          "target_entity": "MDR感染的常用药物选择",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染|follows_treatment|DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "MDR感染",
+          "target_entity": "联合治疗泛耐药菌感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择|implements_by|DOC_0c3ed70eac9a__CH0010::Plan::碳青霉烯类用药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "MDR感染的常用药物选择",
+          "target_entity": "碳青霉烯类用药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Plan::碳青霉烯类用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择|implements_by|DOC_0c3ed70eac9a__CH0010::Plan::氨基苷类用药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "MDR感染的常用药物选择",
+          "target_entity": "氨基苷类用药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Plan::氨基苷类用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择|implements_by|DOC_0c3ed70eac9a__CH0010::Plan::磷霉素用药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "MDR感染的常用药物选择",
+          "target_entity": "磷霉素用药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Plan::磷霉素用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择|implements_by|DOC_0c3ed70eac9a__CH0010::Plan::四环素类用药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "MDR感染的常用药物选择",
+          "target_entity": "四环素类用药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Plan::四环素类用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择|implements_by|DOC_0c3ed70eac9a__CH0010::Plan::喹诺酮类用药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "MDR感染的常用药物选择",
+          "target_entity": "喹诺酮类用药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Treatment::MDR感染的常用药物选择",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Plan::喹诺酮类用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染|causes|DOC_0c3ed70eac9a__CH0010::Etiology::产ESBLs和AmpCβ-内酰胺酶的致病菌",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "MDR感染",
+          "target_entity": "产ESBLs和AmpCβ-内酰胺酶的致病菌",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Etiology::产ESBLs和AmpCβ-内酰胺酶的致病菌",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染|causes|DOC_0c3ed70eac9a__CH0010::Etiology::嗜麦芽窄食假单胞菌（天然耐药）",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "MDR感染",
+          "target_entity": "嗜麦芽窄食假单胞菌（天然耐药）",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Etiology::嗜麦芽窄食假单胞菌（天然耐药）",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染|causes|DOC_0c3ed70eac9a__CH0010::Etiology::CRE",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "MDR感染",
+          "target_entity": "CRE",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Etiology::CRE",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染|causes|DOC_0c3ed70eac9a__CH0010::Etiology::PDRPA",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "MDR感染",
+          "target_entity": "PDRPA",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Etiology::PDRPA",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染|causes|DOC_0c3ed70eac9a__CH0010::Etiology::泛耐药肠杆菌科",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "MDR感染",
+          "target_entity": "泛耐药肠杆菌科",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Etiology::泛耐药肠杆菌科",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染|causes|DOC_0c3ed70eac9a__CH0010::Etiology::铜绿假单胞菌",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "MDR感染",
+          "target_entity": "铜绿假单胞菌",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Etiology::铜绿假单胞菌",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染|causes|DOC_0c3ed70eac9a__CH0010::Etiology::鲍曼不动杆菌",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "MDR感染",
+          "target_entity": "鲍曼不动杆菌",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Etiology::鲍曼不动杆菌",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染|explained_by|DOC_0c3ed70eac9a__CH0010::Pathogenesis::β-内酰胺酶介导的耐药",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "MDR感染",
+          "target_entity": "β-内酰胺酶介导的耐药",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Pathogenesis::β-内酰胺酶介导的耐药",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染|explained_by|DOC_0c3ed70eac9a__CH0010::Pathogenesis::天然耐药机制",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "MDR感染",
+          "target_entity": "天然耐药机制",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Pathogenesis::天然耐药机制",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Disease::器官移植术后耐药菌感染|has_sub_disease|DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "器官移植术后耐药菌感染",
+          "target_entity": "MDR感染",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Disease::器官移植术后耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Sub_Disease::MDR感染",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染|implements_by|DOC_0c3ed70eac9a__CH0010::Plan::碳青霉烯类用药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "联合治疗泛耐药菌感染",
+          "target_entity": "碳青霉烯类用药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Plan::碳青霉烯类用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染|implements_by|DOC_0c3ed70eac9a__CH0010::Plan::氨基苷类用药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "联合治疗泛耐药菌感染",
+          "target_entity": "氨基苷类用药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Plan::氨基苷类用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染|implements_by|DOC_0c3ed70eac9a__CH0010::Plan::磷霉素用药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "联合治疗泛耐药菌感染",
+          "target_entity": "磷霉素用药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Plan::磷霉素用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染|implements_by|DOC_0c3ed70eac9a__CH0010::Plan::四环素类用药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "联合治疗泛耐药菌感染",
+          "target_entity": "四环素类用药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Plan::四环素类用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        },
+        {
+          "id": "DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染|implements_by|DOC_0c3ed70eac9a__CH0010::Plan::喹诺酮类用药方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "联合治疗泛耐药菌感染",
+          "target_entity": "喹诺酮类用药方案",
+          "source_id": "DOC_0c3ed70eac9a__CH0010::Treatment::联合治疗泛耐药菌感染",
+          "target_id": "DOC_0c3ed70eac9a__CH0010::Plan::喹诺酮类用药方案",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_0c3ed70eac9a:CH0010"
+        }
+      ]
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "第10卷",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "1 SOT术后耐药菌感染的情况",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "1.3SOT术后耐药菌感染的危险因素",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "2 国内细菌感染及耐药情况",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "2.2国内细菌感染数据及耐药情况",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "2.3特殊MDR细菌的变迁情况",
+      "page_start": 2,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "3 MDR细菌感染的抗生素治疗",
+      "page_start": 3,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "3.2MDR感染的常用药物",
+      "page_start": 4,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "3.2MDR感染的常用药物",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "3.3不同MDR细菌的抗生素使用",
+      "page_start": 5,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "pass",
+      "error",
+      "unreviewed"
+    ],
+    "note": "base_info 记录 PDF 级基础信息；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态和备注。"
+  }
+}

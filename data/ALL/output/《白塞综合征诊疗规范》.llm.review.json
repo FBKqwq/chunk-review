@@ -1,0 +1,733 @@
+{
+  "base_info": {
+    "doc_key": "《白塞综合征诊疗规范》",
+    "doc_id": "DOC_238d214c91ed",
+    "source_title": "《白塞综合征诊疗规范》",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\《白塞综合征诊疗规范》.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 8,
+    "total_chunks": 13,
+    "concatenated_chunk_count": 13,
+    "has_llm": true,
+    "llm_status": "matched",
+    "program": "llm",
+    "review_mode": "document"
+  },
+  "extractions": {
+    "__FULL_DOCUMENT__": {
+      "entities": [
+        {
+          "id": "disease_behcets_syndrome",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "白塞综合征",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "白塞综合征(Behcet's syndrome, BS)又称白塞病(Behcet's disease, BD),是一种以血管炎为基础病理改变的慢性、复发性自身免疫/炎症性疾病"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "id": "sub_disease_behcets_syndrome_default",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "白塞综合征",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "BS多起病隐匿，临床表现多样,病情呈反复发作与缓解交替。全身多系统、多脏器均可受累，皮肤黏膜损害是最常见的临床表现，眼、血管、胃肠道、神经系统受累者预后不佳。部分患者伴有疲劳、睡眠障碍、体重减轻、发热等非特异性临床表现。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "sub_disease_ocular_behcets",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "眼白塞综合征",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "眼损害：亦称眼白塞综合征。眼是BS最常见的受累脏器，可见于26.8%~93%的BS患者，约15%的患者以眼病变为首发表现，如不及时治疗，可导致失明，是本病致残最主要的原因。眼白塞综合征好发于20~30岁人群，男性更多见且症状更重，预后差。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "sub_disease_vascular_behcets",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "血管白塞综合征",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "血管损害：2.2%~50%患者可有血管受累，亦称血管白塞综合征，以男性居多。血管受累是BS死亡的主要原因之一。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "sub_disease_neurological_behcets",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "神经白塞综合征",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "神经系统损害：神经系统受累是BS最严重的并发症之一，称为神经白塞综合征，发生率为2.3%~44%,多发生于30~40岁，平均出现在皮肤黏膜及眼受累之后5年，男性患者多见。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "sub_disease_gastrointestinal_behcets",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肠白塞综合征",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "消化道损害：又称肠甘塞综合征，发生率4%~38%,从食管至肛门全消化道均可受累，可单一部位或多部位受累，以回肠末端、回盲部、升结肠受累最多见。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "sub_disease_cardiac_behcets",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "心脏白塞综合征",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "心脏损害：心脏受累临床表现多样，可出现心包炎、瓣膜病变、冠状动脉病变、心内血栓、心肌炎、心内膜炎、传导异常、心肌梗死等,多提示不良预后。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_aphthous_ulceration",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "复发性痛性口腔溃疡",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "1. 口腔溃疡：复发性（＞3次/年）、痛性口腔溃疡（Aphthous ulceration，阿弗他溃疡）通常是BS的首发症状，亦是最常见的临床表现，发生率95%以上。"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "id": "symptom_genital_ulcer",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "生殖器溃疡",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2. 生殖器溃疡：很少为首发表现，发生率为51.7%~93%。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_uveitis",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "葡萄膜炎",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "主要表现为反复发作的口腔溃疡、生殖器溃疡、葡萄膜炎和皮肤损害"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "id": "symptom_skin_lesion",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "皮肤损害",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "皮肤损害：约39.4%~87.1%的BS患者可出现皮肤损害，皮肤损害表现多种多样，包括假性毛囊炎、结节红斑、坏疽性脓皮病、血栓性浅静脉炎、Sweet综合征样病变等。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_headache",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "头痛",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "神经系统受累：……表现为亚急性发作的头痛、颅神经麻痹、构音障碍、共济失调和偏瘫"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_visual_loss",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "视力下降",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "眼部受累……主要表现为突然出现的视力下降、眼前漂浮物。"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "id": "symptom_abdominal_pain",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹痛",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "消化道损害：……临床表现为腹痛、腹部包块、腹泻、腹胀、吞咽困难、嗳气、呕吐、便血、便秘等"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_cough",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咳嗽",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "肺部损害:最常累及肺血管，出现肺动脉瘤、肺血栓形成，临床表现为咳嗽、胸痛、胸闷、呼吸困难"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_chest_pain",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "胸痛",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "肺部损害:最常累及肺血管，出现肺动脉瘤、肺血栓形成，临床表现为咳嗽、胸痛、胸闷、呼吸困难"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_dyspnea",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "呼吸困难",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "肺部损害:最常累及肺血管，出现肺动脉瘤、肺血栓形成，临床表现为咳嗽、胸痛、胸闷、呼吸困难"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_arthralgia",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "关节痛",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "关节损害：5.3%~93%的患者出现关节症状.通常为非对称性、间歇性、非侵蚀性外周单关节炎或寡关节炎，最常累及膝、踝等大、中关节。临床表现为关节红、肿、热、痛"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_fatigue",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "疲劳",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "部分患者伴有疲劳、睡眠障碍、体重减轻、发热等非特异性临床表现。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "symptom_fever",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "部分患者伴有疲劳、睡眠障碍、体重减轻、发热等非特异性临床表现。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "test_esr",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "红细胞沉降率",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "常规化验包括血、尿、粪常规，肝肾功能、电解质、红细胞沉降率、C反应蛋白（CRP）等。红细胞沉降率、CRP与BS病情活动度相关"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "test_crp",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "C反应蛋白",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "常规化验包括血、尿、粪常规，肝肾功能、电解质、红细胞沉降率、C反应蛋白（CRP）等。红细胞沉降率、CRP与BS病情活动度相关"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "test_hla_b51",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "人类白细胞抗原-B51",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "人类白细胞抗原（HLA）-B51阳性率较高。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "test_pathergy_test",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "针刺反应试验",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "针刺反应试验是诊断BS的特异性体征。用20号无菌针头在前臂屈面中部斜行刺入约0.5 cm沿纵向稍作捻转后退出,24-48 h后局部出现直径＞2 mm的毛囊炎样小红点或脓疱疹样改变为阳性"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "id": "treatment_general_principle",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "迅速抑制炎症，防止复发，防止不可逆的器官损伤，延缓疾病进展。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "BS目前尚无公认的有效根治药物，主要治疗目标是迅速抑制炎症，防止复发，防止不可逆的器官损伤，延缓疾病进展。"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "id": "treatment_multidisciplinary_individualized",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "多学科联合诊疗、个体化治疗、早期治疗有助于控制病情，改善预后。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "多学科联合诊疗、个体化治疗、早期治疗有助于控制病情，改善预后。"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "id": "plan_nsaids_for_cutaneous",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "非甾体抗炎药（NSAIDs）对结节性红斑和疼痛性溃疡有一定疗效。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "（三） 全身药物治疗 1. 皮肤黏膜受累：非甾体抗炎药（NSAIDs）对结节性红斑和疼痛性溃疡有一定疗效。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "plan_colchicine_for_cutaneous",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "秋水仙碱（0.5 mg,每日2~3次）通过抑制中性粒细胞功能改善结节红斑和口腔溃疡，并可预防复发。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "秋水仙碱（0.5 mg,每日2~3次）通过抑制中性粒细胞功能改善结节红斑和口腔溃疡，并可预防复发。"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "id": "plan_thalidomide_for_cutaneous",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "沙利度胺（25-50 mg,每晚1次）对口腔、生殖器溃疡和假性毛囊炎有效。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "沙利度胺（25-50 mg,每晚1次）对口腔、生殖器溃疡和假性毛囊炎有效。需要注意妊娠妇女禁用沙利度胺，可致胎儿畸形，长期应用可能引起神经轴索变性的不良反应。"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "id": "plan_azathioprine_for_ocular",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硫唑嘌呤可保护视力并减少葡萄膜炎复发。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "硫唑嘌呤可保护视力并减少葡萄膜炎复发。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "plan_cyclosporine_a_for_ocular",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "环孢素A可降低眼炎发作频率和严重程度，改善视力。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "环孢素A可降低眼炎发作频率和严重程度，改善视力。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "plan_infliximab_for_ocular",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "单抗类TNFa拮抗剂英夫利西单抗、阿达木单抗和a干扰素有助于改善难治性或复发性BS葡萄膜炎的病程及激素与免疫抑制剂的减量。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "单抗类TNFa拮抗剂英夫利西单抗、阿达木单抗和a干扰素有助于改善难治性或复发性BS葡萄膜炎的病程及激素与免疫抑制剂的减量，对某一生物制剂效果不佳时，改换药物仍可能有效。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "plan_5_aminosalicylic_acid_for_gi",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "5-氨基水杨酸（2.25-3 g/d）和柳氮磺吡啶（3~4g/d）可用于轻、中度肠白塞综合征一线治疗，及缓解后维持治疗。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "5-氨基水杨酸（2.25-3 g/d）和柳氮磺吡啶（3~4g/d）可用于轻、中度肠白塞综合征一线治疗，及缓解后维持治疗。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "plan_prednisone_for_gi",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "激素可帮助溃疡快速愈合，往往用于中重度肠白塞综合征，建议起始剂量泼尼松0.5~1.0 mg/kg（或等效剂量甲泼尼龙或泼尼松龙）。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "激素可帮助溃疡快速愈合，往往用于中重度肠白塞综合征，建议起始剂量泼尼松0.5~1.0 mg/kg（或等效剂量甲泼尼龙或泼尼松龙）。"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "id": "plan_cyclophosphamide_for_gi",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "国内常用环磷酰胺（每2周0.4-0.6 g）诱导缓解，硫唑嘌呤（2.0~2.5 mg·kg⁻¹·d⁻¹）常用于维持缓解和预防手术后复发。",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "对中重度活动期患者，国内常用环磷酰胺（每2周0.4-0.6 g）诱导缓解，硫唑嘌呤（2.0~2.5 mg·kg⁻¹·d⁻¹）常用于维持缓解和预防手术后复发。"
+          ],
+          "confidence": 0.9
+        },
+        {
+          "id": "etiology_unknown_etiology",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "病因未明",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "白塞综合征是一种病因未明的全身慢性血管炎症性疾病"
+          ],
+          "confidence": 0.95
+        },
+        {
+          "id": "pathogenesis_vasculitis",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogenesis",
+          "entity_name": "以血管炎为基础病理改变的慢性、复发性自身免疫/炎症性疾病",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "白塞综合征(Behcet's syndrome, BS)又称白塞病(Behcet's disease, BD),是一种以血管炎为基础病理改变的慢性、复发性自身免疫/炎症性疾病"
+          ],
+          "confidence": 0.95
+        }
+      ],
+      "relationships": [
+        {
+          "id": "rel_behcets_has_default",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "白塞综合征",
+          "target_entity": "白塞综合征",
+          "source_id": "disease_behcets_syndrome",
+          "target_id": "sub_disease_behcets_syndrome_default",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "白塞综合征(Behcet's syndrome, BS)又称白塞病(Behcet's disease, BD),是一种以血管炎为基础病理改变的慢性、复发性自身免疫/炎症性疾病"
+          ]
+        },
+        {
+          "id": "rel_behcets_has_ocular",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "白塞综合征",
+          "target_entity": "眼白塞综合征",
+          "source_id": "disease_behcets_syndrome",
+          "target_id": "sub_disease_ocular_behcets",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "眼损害：亦称眼白塞综合征。眼是BS最常见的受累脏器"
+          ]
+        },
+        {
+          "id": "rel_behcets_has_vascular",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "白塞综合征",
+          "target_entity": "血管白塞综合征",
+          "source_id": "disease_behcets_syndrome",
+          "target_id": "sub_disease_vascular_behcets",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "血管损害：2.2%~50%患者可有血管受累，亦称血管白塞综合征"
+          ]
+        },
+        {
+          "id": "rel_behcets_has_neurological",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "白塞综合征",
+          "target_entity": "神经白塞综合征",
+          "source_id": "disease_behcets_syndrome",
+          "target_id": "sub_disease_neurological_behcets",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "神经系统损害：神经系统受累是BS最严重的并发症之一，称为神经白塞综合征"
+          ]
+        },
+        {
+          "id": "rel_behcets_has_gastrointestinal",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "白塞综合征",
+          "target_entity": "肠白塞综合征",
+          "source_id": "disease_behcets_syndrome",
+          "target_id": "sub_disease_gastrointestinal_behcets",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "消化道损害：又称肠甘塞综合征"
+          ]
+        },
+        {
+          "id": "rel_behcets_has_cardiac",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "白塞综合征",
+          "target_entity": "心脏白塞综合征",
+          "source_id": "disease_behcets_syndrome",
+          "target_id": "sub_disease_cardiac_behcets",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "心脏损害：心脏受累临床表现多样"
+          ]
+        },
+        {
+          "id": "rel_bs_manifests_as_oral_ulcer",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "白塞综合征",
+          "target_entity": "复发性痛性口腔溃疡",
+          "source_id": "sub_disease_behcets_syndrome_default",
+          "target_id": "symptom_aphthous_ulceration",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "1. 口腔溃疡：复发性（＞3次/年）、痛性口腔溃疡（Aphthous ulceration，阿弗他溃疡）通常是BS的首发症状，亦是最常见的临床表现，发生率95%以上。"
+          ]
+        },
+        {
+          "id": "rel_bs_manifests_as_genital_ulcer",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "白塞综合征",
+          "target_entity": "生殖器溃疡",
+          "source_id": "sub_disease_behcets_syndrome_default",
+          "target_id": "symptom_genital_ulcer",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "2. 生殖器溃疡：很少为首发表现，发生率为51.7%~93%。"
+          ]
+        },
+        {
+          "id": "rel_bs_manifests_as_uveitis",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "白塞综合征",
+          "target_entity": "葡萄膜炎",
+          "source_id": "sub_disease_behcets_syndrome_default",
+          "target_id": "symptom_uveitis",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "主要表现为反复发作的口腔溃疡、生殖器溃疡、葡萄膜炎和皮肤损害"
+          ]
+        },
+        {
+          "id": "rel_bs_manifests_as_skin_lesion",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "白塞综合征",
+          "target_entity": "皮肤损害",
+          "source_id": "sub_disease_behcets_syndrome_default",
+          "target_id": "symptom_skin_lesion",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "皮肤损害：约39.4%~87.1%的BS患者可出现皮肤损害"
+          ]
+        },
+        {
+          "id": "rel_ocular_bs_manifests_as_visual_loss",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "眼白塞综合征",
+          "target_entity": "视力下降",
+          "source_id": "sub_disease_ocular_behcets",
+          "target_id": "symptom_visual_loss",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "眼部受累……主要表现为突然出现的视力下降、眼前漂浮物。"
+          ]
+        },
+        {
+          "id": "rel_vascular_bs_manifests_as_chest_pain",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "血管白塞综合征",
+          "target_entity": "胸痛",
+          "source_id": "sub_disease_vascular_behcets",
+          "target_id": "symptom_chest_pain",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "肺部损害:最常累及肺血管，出现肺动脉瘤、肺血栓形成，临床表现为咳嗽、胸痛、胸闷、呼吸困难"
+          ]
+        },
+        {
+          "id": "rel_neuro_bs_manifests_as_headache",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "神经白塞综合征",
+          "target_entity": "头痛",
+          "source_id": "sub_disease_neurological_behcets",
+          "target_id": "symptom_headache",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "神经系统受累：……表现为亚急性发作的头痛、颅神经麻痹、构音障碍、共济失调和偏瘫"
+          ]
+        },
+        {
+          "id": "rel_gi_bs_manifests_as_abdominal_pain",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "肠白塞综合征",
+          "target_entity": "腹痛",
+          "source_id": "sub_disease_gastrointestinal_behcets",
+          "target_id": "symptom_abdominal_pain",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "消化道损害：……临床表现为腹痛、腹部包块、腹泻、腹胀、吞咽困难、嗳气、呕吐、便血、便秘等"
+          ]
+        },
+        {
+          "id": "rel_bs_requires_pathergy",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "白塞综合征",
+          "target_entity": "针刺反应试验",
+          "source_id": "sub_disease_behcets_syndrome_default",
+          "target_id": "test_pathergy_test",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "针刺反应试验是诊断BS的特异性体征。用20号无菌针头在前臂屈面中部斜行刺入约0.5 cm沿纵向稍作捻转后退出,24-48 h后局部出现直径＞2 mm的毛囊炎样小红点或脓疱疹样改变为阳性"
+          ]
+        },
+        {
+          "id": "rel_bs_requires_hla_b51",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "白塞综合征",
+          "target_entity": "人类白细胞抗原-B51",
+          "source_id": "sub_disease_behcets_syndrome_default",
+          "target_id": "test_hla_b51",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "人类白细胞抗原（HLA）-B51阳性率较高。"
+          ]
+        },
+        {
+          "id": "rel_bs_follows_general_principle",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "白塞综合征",
+          "target_entity": "迅速抑制炎症，防止复发，防止不可逆的器官损伤，延缓疾病进展。",
+          "source_id": "sub_disease_behcets_syndrome_default",
+          "target_id": "treatment_general_principle",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": ""
+        },
+        {
+          "id": "rel_bs_follows_multidisciplinary",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "白塞综合征",
+          "target_entity": "多学科联合诊疗、个体化治疗、早期治疗有助于控制病情，改善预后。",
+          "source_id": "sub_disease_behcets_syndrome_default",
+          "target_id": "treatment_multidisciplinary_individualized",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": ""
+        },
+        {
+          "id": "rel_treatment_implements_by_nsaids",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "迅速抑制炎症，防止复发，防止不可逆的器官损伤，延缓疾病进展。",
+          "target_entity": "非甾体抗炎药（NSAIDs）对结节性红斑和疼痛性溃疡有一定疗效。",
+          "source_id": "treatment_general_principle",
+          "target_id": "plan_nsaids_for_cutaneous",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "（三） 全身药物治疗 1. 皮肤黏膜受累：非甾体抗炎药（NSAIDs）对结节性红斑和疼痛性溃疡有一定疗效。"
+          ]
+        },
+        {
+          "id": "rel_treatment_implements_by_colchicine",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "迅速抑制炎症，防止复发，防止不可逆的器官损伤，延缓疾病进展。",
+          "target_entity": "秋水仙碱（0.5 mg,每日2~3次）通过抑制中性粒细胞功能改善结节红斑和口腔溃疡，并可预防复发。",
+          "source_id": "treatment_general_principle",
+          "target_id": "plan_colchicine_for_cutaneous",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "秋水仙碱（0.5 mg,每日2~3次）通过抑制中性粒细胞功能改善结节红斑和口腔溃疡，并可预防复发。"
+          ]
+        },
+        {
+          "id": "rel_bs_causes_unknown_etiology",
+          "relation_type": "causes",
+          "relation_type_cn": "导致",
+          "source_entity": "白塞综合征",
+          "target_entity": "病因未明",
+          "source_id": "sub_disease_behcets_syndrome_default",
+          "target_id": "etiology_unknown_etiology",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "白塞综合征是一种病因未明的全身慢性血管炎症性疾病"
+          ]
+        },
+        {
+          "id": "rel_bs_explained_by_vasculitis",
+          "relation_type": "explained_by",
+          "relation_type_cn": "机制解释",
+          "source_entity": "白塞综合征",
+          "target_entity": "以血管炎为基础病理改变的慢性、复发性自身免疫/炎症性疾病",
+          "source_id": "sub_disease_behcets_syndrome_default",
+          "target_id": "pathogenesis_vasculitis",
+          "chunk_id": "__FULL_DOCUMENT__",
+          "evidence_ids": [
+            "白塞综合征(Behcet's syndrome, BS)又称白塞病(Behcet's disease, BD),是一种以血管炎为基础病理改变的慢性、复发性自身免疫/炎症性疾病"
+          ]
+        }
+      ]
+    }
+  },
+  "review": {
+    "__FULL_DOCUMENT__": {
+      "chunk_id": "__FULL_DOCUMENT__",
+      "section_title": "全文",
+      "page_start": 1,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "program": "llm",
+    "note": "LLM 全文级复验结果；extractions 按文档存储实体和关系；review 存储整份 PDF 复验状态。"
+  }
+}

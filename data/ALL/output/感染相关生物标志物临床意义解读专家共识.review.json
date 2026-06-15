@@ -1,0 +1,2964 @@
+{
+  "base_info": {
+    "doc_key": "感染相关生物标志物临床意义解读专家共识",
+    "doc_id": "DOC_ceed9ed0d1f6",
+    "source_title": "感染相关生物标志物临床意义解读专家共识",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\感染相关生物标志物临床意义解读专家共识.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 15,
+    "total_chunks": 40,
+    "has_kg": true,
+    "kg_status": "matched",
+    "kg_matched_chunks": 40
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0001::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0001"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0001::Sub_Disease::感染相关生物标志物异常",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物异常",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0001"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0001::Test::生物标志物检测",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "生物标志物检测",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0001"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0001::Treatment::生物标志物临床意义解读",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "生物标志物临床意义解读",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0001"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0001::Sub_Disease::感染相关生物标志物异常|requires_test|DOC_ceed9ed0d1f6__CH0001::Test::生物标志物检测",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常",
+          "target_entity": "生物标志物检测",
+          "source_id": "DOC_ceed9ed0d1f6__CH0001::Sub_Disease::感染相关生物标志物异常",
+          "target_id": "DOC_ceed9ed0d1f6__CH0001::Test::生物标志物检测",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0001"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0001::Sub_Disease::感染相关生物标志物异常|follows_treatment|DOC_ceed9ed0d1f6__CH0001::Treatment::生物标志物临床意义解读",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "感染相关生物标志物异常",
+          "target_entity": "生物标志物临床意义解读",
+          "source_id": "DOC_ceed9ed0d1f6__CH0001::Sub_Disease::感染相关生物标志物异常",
+          "target_id": "DOC_ceed9ed0d1f6__CH0001::Treatment::生物标志物临床意义解读",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0001"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0001::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0001::Sub_Disease::感染相关生物标志物异常",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物异常",
+          "source_id": "DOC_ceed9ed0d1f6__CH0001::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0001::Sub_Disease::感染相关生物标志物异常",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0001"
+        }
+      ]
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0002::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0002"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0003::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0003"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0003::Sub_Disease::感染相关生物标志物",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0003"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0003::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0003::Sub_Disease::感染相关生物标志物",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物",
+          "source_id": "DOC_ceed9ed0d1f6__CH0003::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0003::Sub_Disease::感染相关生物标志物",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0003"
+        }
+      ]
+    },
+    "CH0004": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0004::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0004"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0004::Sub_Disease::感染相关生物标志物",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0004"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0004::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0004::Sub_Disease::感染相关生物标志物",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物",
+          "source_id": "DOC_ceed9ed0d1f6__CH0004::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0004::Sub_Disease::感染相关生物标志物",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0004"
+        }
+      ]
+    },
+    "CH0005": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0005::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0005"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0006::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0006"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0006::Sub_Disease::感染相关生物标志物异常",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物异常",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0006"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0006::Test::生物标志物检测",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "生物标志物检测",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0006"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0006::Treatment::生物标志物临床意义解读",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "生物标志物临床意义解读",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0006"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0006::Sub_Disease::感染相关生物标志物异常|requires_test|DOC_ceed9ed0d1f6__CH0006::Test::生物标志物检测",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常",
+          "target_entity": "生物标志物检测",
+          "source_id": "DOC_ceed9ed0d1f6__CH0006::Sub_Disease::感染相关生物标志物异常",
+          "target_id": "DOC_ceed9ed0d1f6__CH0006::Test::生物标志物检测",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0006"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0006::Sub_Disease::感染相关生物标志物异常|follows_treatment|DOC_ceed9ed0d1f6__CH0006::Treatment::生物标志物临床意义解读",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "感染相关生物标志物异常",
+          "target_entity": "生物标志物临床意义解读",
+          "source_id": "DOC_ceed9ed0d1f6__CH0006::Sub_Disease::感染相关生物标志物异常",
+          "target_id": "DOC_ceed9ed0d1f6__CH0006::Treatment::生物标志物临床意义解读",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0006"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0006::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0006::Sub_Disease::感染相关生物标志物异常",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物异常",
+          "source_id": "DOC_ceed9ed0d1f6__CH0006::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0006::Sub_Disease::感染相关生物标志物异常",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0006"
+        }
+      ]
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0007::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0007"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0007::Sub_Disease::感染相关生物标志物异常状态",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物异常状态",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0007"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0007::Test::生物标志物检测",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "生物标志物检测",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0007"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0007::Sub_Disease::感染相关生物标志物异常状态|requires_test|DOC_ceed9ed0d1f6__CH0007::Test::生物标志物检测",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常状态",
+          "target_entity": "生物标志物检测",
+          "source_id": "DOC_ceed9ed0d1f6__CH0007::Sub_Disease::感染相关生物标志物异常状态",
+          "target_id": "DOC_ceed9ed0d1f6__CH0007::Test::生物标志物检测",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0007"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0007::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0007::Sub_Disease::感染相关生物标志物异常状态",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物异常状态",
+          "source_id": "DOC_ceed9ed0d1f6__CH0007::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0007::Sub_Disease::感染相关生物标志物异常状态",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0007"
+        }
+      ]
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0008::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0008"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0008::Sub_Disease::感染相关生物标志物异常",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物异常",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0008"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0008::Test::生物标志物",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "生物标志物",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0008"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0008::Sub_Disease::感染相关生物标志物异常|requires_test|DOC_ceed9ed0d1f6__CH0008::Test::生物标志物",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常",
+          "target_entity": "生物标志物",
+          "source_id": "DOC_ceed9ed0d1f6__CH0008::Sub_Disease::感染相关生物标志物异常",
+          "target_id": "DOC_ceed9ed0d1f6__CH0008::Test::生物标志物",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0008"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0008::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0008::Sub_Disease::感染相关生物标志物异常",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物异常",
+          "source_id": "DOC_ceed9ed0d1f6__CH0008::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0008::Sub_Disease::感染相关生物标志物异常",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0008"
+        }
+      ]
+    },
+    "CH0009": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0009::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0009"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0010": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0010::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0010"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0010::Sub_Disease::感染相关生物标志物异常",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物异常",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0010"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0010::Test::PAB",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "PAB",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0010"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0010::Test::UQ7",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "UQ7",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0010"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0010::Test::RS",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "RS",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0010"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0010::Sub_Disease::感染相关生物标志物异常|requires_test|DOC_ceed9ed0d1f6__CH0010::Test::PAB",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常",
+          "target_entity": "PAB",
+          "source_id": "DOC_ceed9ed0d1f6__CH0010::Sub_Disease::感染相关生物标志物异常",
+          "target_id": "DOC_ceed9ed0d1f6__CH0010::Test::PAB",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0010"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0010::Sub_Disease::感染相关生物标志物异常|requires_test|DOC_ceed9ed0d1f6__CH0010::Test::UQ7",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常",
+          "target_entity": "UQ7",
+          "source_id": "DOC_ceed9ed0d1f6__CH0010::Sub_Disease::感染相关生物标志物异常",
+          "target_id": "DOC_ceed9ed0d1f6__CH0010::Test::UQ7",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0010"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0010::Sub_Disease::感染相关生物标志物异常|requires_test|DOC_ceed9ed0d1f6__CH0010::Test::RS",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常",
+          "target_entity": "RS",
+          "source_id": "DOC_ceed9ed0d1f6__CH0010::Sub_Disease::感染相关生物标志物异常",
+          "target_id": "DOC_ceed9ed0d1f6__CH0010::Test::RS",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0010"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0010::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0010::Sub_Disease::感染相关生物标志物异常",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物异常",
+          "source_id": "DOC_ceed9ed0d1f6__CH0010::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0010::Sub_Disease::感染相关生物标志物异常",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0010"
+        }
+      ]
+    },
+    "CH0011": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0011::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0011",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0011"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0012": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0012::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0012",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0012"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0013": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0013::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0013",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0013"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0014": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0014::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0014",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0014"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0015": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0015::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0015",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0015"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0016": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0016::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0016",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0016"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0016::Sub_Disease::感染相关生物标志物异常状态",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物异常状态",
+          "chunk_id": "CH0016",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0016"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0016::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0016::Sub_Disease::感染相关生物标志物异常状态",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物异常状态",
+          "source_id": "DOC_ceed9ed0d1f6__CH0016::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0016::Sub_Disease::感染相关生物标志物异常状态",
+          "chunk_id": "CH0016",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0016"
+        }
+      ]
+    },
+    "CH0017": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0017::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0017",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0017"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0018": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物异常状态",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Test::0DINZ2$",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "0DINZ2$",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Test::I=",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "I=",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Test::=<D",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "=<D",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Test::SU=",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "SU=",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Test::0E=KI",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "0E=KI",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Test::=HG0GJ0/1",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "=HG0GJ0/1",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Test::JHL2K!Z",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "JHL2K!Z",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Test::S2",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "S2",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Test::78",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "78",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Test::6$",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "6$",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态|requires_test|DOC_ceed9ed0d1f6__CH0018::Test::0DINZ2$",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常状态",
+          "target_entity": "0DINZ2$",
+          "source_id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "target_id": "DOC_ceed9ed0d1f6__CH0018::Test::0DINZ2$",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态|requires_test|DOC_ceed9ed0d1f6__CH0018::Test::I=",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常状态",
+          "target_entity": "I=",
+          "source_id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "target_id": "DOC_ceed9ed0d1f6__CH0018::Test::I=",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态|requires_test|DOC_ceed9ed0d1f6__CH0018::Test::=<D",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常状态",
+          "target_entity": "=<D",
+          "source_id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "target_id": "DOC_ceed9ed0d1f6__CH0018::Test::=<D",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态|requires_test|DOC_ceed9ed0d1f6__CH0018::Test::SU=",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常状态",
+          "target_entity": "SU=",
+          "source_id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "target_id": "DOC_ceed9ed0d1f6__CH0018::Test::SU=",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态|requires_test|DOC_ceed9ed0d1f6__CH0018::Test::0E=KI",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常状态",
+          "target_entity": "0E=KI",
+          "source_id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "target_id": "DOC_ceed9ed0d1f6__CH0018::Test::0E=KI",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态|requires_test|DOC_ceed9ed0d1f6__CH0018::Test::=HG0GJ0/1",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常状态",
+          "target_entity": "=HG0GJ0/1",
+          "source_id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "target_id": "DOC_ceed9ed0d1f6__CH0018::Test::=HG0GJ0/1",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态|requires_test|DOC_ceed9ed0d1f6__CH0018::Test::JHL2K!Z",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常状态",
+          "target_entity": "JHL2K!Z",
+          "source_id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "target_id": "DOC_ceed9ed0d1f6__CH0018::Test::JHL2K!Z",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态|requires_test|DOC_ceed9ed0d1f6__CH0018::Test::S2",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常状态",
+          "target_entity": "S2",
+          "source_id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "target_id": "DOC_ceed9ed0d1f6__CH0018::Test::S2",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态|requires_test|DOC_ceed9ed0d1f6__CH0018::Test::78",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常状态",
+          "target_entity": "78",
+          "source_id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "target_id": "DOC_ceed9ed0d1f6__CH0018::Test::78",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态|requires_test|DOC_ceed9ed0d1f6__CH0018::Test::6$",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常状态",
+          "target_entity": "6$",
+          "source_id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "target_id": "DOC_ceed9ed0d1f6__CH0018::Test::6$",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0018::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物异常状态",
+          "source_id": "DOC_ceed9ed0d1f6__CH0018::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0018::Sub_Disease::感染相关生物标志物异常状态",
+          "chunk_id": "CH0018",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0018"
+        }
+      ]
+    },
+    "CH0019": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0019::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0019",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0019"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0020": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0020::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0020",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0020"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0021": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0021::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0021",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0021"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0022": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0022::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0022",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0022"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0022::Sub_Disease::感染相关生物标志物异常",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物异常",
+          "chunk_id": "CH0022",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0022"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0022::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0022::Sub_Disease::感染相关生物标志物异常",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物异常",
+          "source_id": "DOC_ceed9ed0d1f6__CH0022::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0022::Sub_Disease::感染相关生物标志物异常",
+          "chunk_id": "CH0022",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0022"
+        }
+      ]
+    },
+    "CH0023": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0023::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0023",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0023"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0023::Sub_Disease::感染相关生物标志物",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物",
+          "chunk_id": "CH0023",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0023"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0023::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0023::Sub_Disease::感染相关生物标志物",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物",
+          "source_id": "DOC_ceed9ed0d1f6__CH0023::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0023::Sub_Disease::感染相关生物标志物",
+          "chunk_id": "CH0023",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0023"
+        }
+      ]
+    },
+    "CH0024": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0024::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0024",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0024"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0024::Sub_Disease::感染相关生物标志物异常",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物异常",
+          "chunk_id": "CH0024",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0024"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0024::Test::生物标志物检测",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "生物标志物检测",
+          "chunk_id": "CH0024",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0024"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0024::Treatment::解读生物标志物的临床意义",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "解读生物标志物的临床意义",
+          "chunk_id": "CH0024",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0024"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0024::Sub_Disease::感染相关生物标志物异常|requires_test|DOC_ceed9ed0d1f6__CH0024::Test::生物标志物检测",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物异常",
+          "target_entity": "生物标志物检测",
+          "source_id": "DOC_ceed9ed0d1f6__CH0024::Sub_Disease::感染相关生物标志物异常",
+          "target_id": "DOC_ceed9ed0d1f6__CH0024::Test::生物标志物检测",
+          "chunk_id": "CH0024",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0024"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0024::Sub_Disease::感染相关生物标志物异常|follows_treatment|DOC_ceed9ed0d1f6__CH0024::Treatment::解读生物标志物的临床意义",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "感染相关生物标志物异常",
+          "target_entity": "解读生物标志物的临床意义",
+          "source_id": "DOC_ceed9ed0d1f6__CH0024::Sub_Disease::感染相关生物标志物异常",
+          "target_id": "DOC_ceed9ed0d1f6__CH0024::Treatment::解读生物标志物的临床意义",
+          "chunk_id": "CH0024",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0024"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0024::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0024::Sub_Disease::感染相关生物标志物异常",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物异常",
+          "source_id": "DOC_ceed9ed0d1f6__CH0024::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0024::Sub_Disease::感染相关生物标志物异常",
+          "chunk_id": "CH0024",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0024"
+        }
+      ]
+    },
+    "CH0025": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0025::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0025",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0025"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0026": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0026::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0026",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0026"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0027": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0027::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0027",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0027"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0028": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "脓毒症",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Test::降钙素原（PCT）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "降钙素原（PCT）",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Test::C反应蛋白（CRP）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "C反应蛋白（CRP）",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Test::白细胞计数",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "白细胞计数",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Test::前白蛋白",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "前白蛋白",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Test::IL-6",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "IL-6",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Treatment::生物标志物动态监测指导抗感染治疗决策",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "生物标志物动态监测指导抗感染治疗决策",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Treatment::早期识别感染进展与预后评估",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "早期识别感染进展与预后评估",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Treatment::区分感染与非感染性炎症",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "区分感染与非感染性炎症",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Plan::PCT指导抗生素管理",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "PCT指导抗生素管理",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Plan::多标志物联合评估",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "多标志物联合评估",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0028::Test::降钙素原（PCT）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "降钙素原（PCT）",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Test::降钙素原（PCT）",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0028::Test::C反应蛋白（CRP）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "C反应蛋白（CRP）",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Test::C反应蛋白（CRP）",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0028::Test::白细胞计数",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "白细胞计数",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Test::白细胞计数",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0028::Test::前白蛋白",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "前白蛋白",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Test::前白蛋白",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0028::Test::IL-6",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "IL-6",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Test::IL-6",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症|follows_treatment|DOC_ceed9ed0d1f6__CH0028::Treatment::生物标志物动态监测指导抗感染治疗决策",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "脓毒症",
+          "target_entity": "生物标志物动态监测指导抗感染治疗决策",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Treatment::生物标志物动态监测指导抗感染治疗决策",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症|follows_treatment|DOC_ceed9ed0d1f6__CH0028::Treatment::早期识别感染进展与预后评估",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "脓毒症",
+          "target_entity": "早期识别感染进展与预后评估",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Treatment::早期识别感染进展与预后评估",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症|follows_treatment|DOC_ceed9ed0d1f6__CH0028::Treatment::区分感染与非感染性炎症",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "脓毒症",
+          "target_entity": "区分感染与非感染性炎症",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Treatment::区分感染与非感染性炎症",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Treatment::生物标志物动态监测指导抗感染治疗决策|implements_by|DOC_ceed9ed0d1f6__CH0028::Plan::PCT指导抗生素管理",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "生物标志物动态监测指导抗感染治疗决策",
+          "target_entity": "PCT指导抗生素管理",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Treatment::生物标志物动态监测指导抗感染治疗决策",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Plan::PCT指导抗生素管理",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Treatment::生物标志物动态监测指导抗感染治疗决策|implements_by|DOC_ceed9ed0d1f6__CH0028::Plan::多标志物联合评估",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "生物标志物动态监测指导抗感染治疗决策",
+          "target_entity": "多标志物联合评估",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Treatment::生物标志物动态监测指导抗感染治疗决策",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Plan::多标志物联合评估",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "脓毒症",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Sub_Disease::脓毒症",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Treatment::早期识别感染进展与预后评估|implements_by|DOC_ceed9ed0d1f6__CH0028::Plan::PCT指导抗生素管理",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "早期识别感染进展与预后评估",
+          "target_entity": "PCT指导抗生素管理",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Treatment::早期识别感染进展与预后评估",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Plan::PCT指导抗生素管理",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Treatment::早期识别感染进展与预后评估|implements_by|DOC_ceed9ed0d1f6__CH0028::Plan::多标志物联合评估",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "早期识别感染进展与预后评估",
+          "target_entity": "多标志物联合评估",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Treatment::早期识别感染进展与预后评估",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Plan::多标志物联合评估",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Treatment::区分感染与非感染性炎症|implements_by|DOC_ceed9ed0d1f6__CH0028::Plan::PCT指导抗生素管理",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "区分感染与非感染性炎症",
+          "target_entity": "PCT指导抗生素管理",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Treatment::区分感染与非感染性炎症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Plan::PCT指导抗生素管理",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0028::Treatment::区分感染与非感染性炎症|implements_by|DOC_ceed9ed0d1f6__CH0028::Plan::多标志物联合评估",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "区分感染与非感染性炎症",
+          "target_entity": "多标志物联合评估",
+          "source_id": "DOC_ceed9ed0d1f6__CH0028::Treatment::区分感染与非感染性炎症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0028::Plan::多标志物联合评估",
+          "chunk_id": "CH0028",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0028"
+        }
+      ]
+    },
+    "CH0029": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0029::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0029",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0029"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0029::Sub_Disease::社区获得性肺炎",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "社区获得性肺炎",
+          "chunk_id": "CH0029",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0029"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0029::Treatment::抗感染治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "抗感染治疗",
+          "chunk_id": "CH0029",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0029"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0029::Plan::抗感染治疗方案",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "抗感染治疗方案",
+          "chunk_id": "CH0029",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0029"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0029::Sub_Disease::社区获得性肺炎|follows_treatment|DOC_ceed9ed0d1f6__CH0029::Treatment::抗感染治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "社区获得性肺炎",
+          "target_entity": "抗感染治疗",
+          "source_id": "DOC_ceed9ed0d1f6__CH0029::Sub_Disease::社区获得性肺炎",
+          "target_id": "DOC_ceed9ed0d1f6__CH0029::Treatment::抗感染治疗",
+          "chunk_id": "CH0029",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0029"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0029::Treatment::抗感染治疗|implements_by|DOC_ceed9ed0d1f6__CH0029::Plan::抗感染治疗方案",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "抗感染治疗",
+          "target_entity": "抗感染治疗方案",
+          "source_id": "DOC_ceed9ed0d1f6__CH0029::Treatment::抗感染治疗",
+          "target_id": "DOC_ceed9ed0d1f6__CH0029::Plan::抗感染治疗方案",
+          "chunk_id": "CH0029",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0029"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0029::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0029::Sub_Disease::社区获得性肺炎",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "社区获得性肺炎",
+          "source_id": "DOC_ceed9ed0d1f6__CH0029::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0029::Sub_Disease::社区获得性肺炎",
+          "chunk_id": "CH0029",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0029"
+        }
+      ]
+    },
+    "CH0030": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0030::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0030",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0030"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0030::Sub_Disease::感染相关生物标志物",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "感染相关生物标志物",
+          "chunk_id": "CH0030",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0030"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0030::Test::感染相关生物标志物",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "感染相关生物标志物",
+          "chunk_id": "CH0030",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0030"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0030::Treatment::临床意义解读",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "临床意义解读",
+          "chunk_id": "CH0030",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0030"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0030::Sub_Disease::感染相关生物标志物|requires_test|DOC_ceed9ed0d1f6__CH0030::Test::感染相关生物标志物",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "感染相关生物标志物",
+          "target_entity": "感染相关生物标志物",
+          "source_id": "DOC_ceed9ed0d1f6__CH0030::Sub_Disease::感染相关生物标志物",
+          "target_id": "DOC_ceed9ed0d1f6__CH0030::Test::感染相关生物标志物",
+          "chunk_id": "CH0030",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0030"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0030::Sub_Disease::感染相关生物标志物|follows_treatment|DOC_ceed9ed0d1f6__CH0030::Treatment::临床意义解读",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "感染相关生物标志物",
+          "target_entity": "临床意义解读",
+          "source_id": "DOC_ceed9ed0d1f6__CH0030::Sub_Disease::感染相关生物标志物",
+          "target_id": "DOC_ceed9ed0d1f6__CH0030::Treatment::临床意义解读",
+          "chunk_id": "CH0030",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0030"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0030::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0030::Sub_Disease::感染相关生物标志物",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "感染相关生物标志物",
+          "source_id": "DOC_ceed9ed0d1f6__CH0030::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0030::Sub_Disease::感染相关生物标志物",
+          "chunk_id": "CH0030",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0030"
+        }
+      ]
+    },
+    "CH0031": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "细菌性感染",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Test::降钙素原（PCT）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "降钙素原（PCT）",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Test::C反应蛋白（CRP）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "C反应蛋白（CRP）",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Test::白细胞计数",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "白细胞计数",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Test::血清淀粉样蛋白A（SAA）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "血清淀粉样蛋白A（SAA）",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Test::IL-6",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "IL-6",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Treatment::生物标志物联合动态监测用于鉴别细菌性感染与非感染性炎症",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "生物标志物联合动态监测用于鉴别细菌性感染与非感染性炎症",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染|requires_test|DOC_ceed9ed0d1f6__CH0031::Test::降钙素原（PCT）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "细菌性感染",
+          "target_entity": "降钙素原（PCT）",
+          "source_id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0031::Test::降钙素原（PCT）",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染|requires_test|DOC_ceed9ed0d1f6__CH0031::Test::C反应蛋白（CRP）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "细菌性感染",
+          "target_entity": "C反应蛋白（CRP）",
+          "source_id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0031::Test::C反应蛋白（CRP）",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染|requires_test|DOC_ceed9ed0d1f6__CH0031::Test::白细胞计数",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "细菌性感染",
+          "target_entity": "白细胞计数",
+          "source_id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0031::Test::白细胞计数",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染|requires_test|DOC_ceed9ed0d1f6__CH0031::Test::血清淀粉样蛋白A（SAA）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "细菌性感染",
+          "target_entity": "血清淀粉样蛋白A（SAA）",
+          "source_id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0031::Test::血清淀粉样蛋白A（SAA）",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染|requires_test|DOC_ceed9ed0d1f6__CH0031::Test::IL-6",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "细菌性感染",
+          "target_entity": "IL-6",
+          "source_id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0031::Test::IL-6",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染|follows_treatment|DOC_ceed9ed0d1f6__CH0031::Treatment::生物标志物联合动态监测用于鉴别细菌性感染与非感染性炎症",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "细菌性感染",
+          "target_entity": "生物标志物联合动态监测用于鉴别细菌性感染与非感染性炎症",
+          "source_id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0031::Treatment::生物标志物联合动态监测用于鉴别细菌性感染与非感染性炎症",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0031::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "细菌性感染",
+          "source_id": "DOC_ceed9ed0d1f6__CH0031::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0031::Sub_Disease::细菌性感染",
+          "chunk_id": "CH0031",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0031"
+        }
+      ]
+    },
+    "CH0032": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0032::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0032",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0032"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0033": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0033::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0033",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0033"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0034": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0034::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0034",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0034"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0035": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0035::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0035",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0035"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0035::Sub_Disease::脓毒症",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "脓毒症",
+          "chunk_id": "CH0035",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0035"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0035::Test::生物标志物",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "生物标志物",
+          "chunk_id": "CH0035",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0035"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0035::Treatment::感染相关生物标志物的临床意义解读",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "感染相关生物标志物的临床意义解读",
+          "chunk_id": "CH0035",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0035"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0035::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0035::Test::生物标志物",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "生物标志物",
+          "source_id": "DOC_ceed9ed0d1f6__CH0035::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0035::Test::生物标志物",
+          "chunk_id": "CH0035",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0035"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0035::Sub_Disease::脓毒症|follows_treatment|DOC_ceed9ed0d1f6__CH0035::Treatment::感染相关生物标志物的临床意义解读",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "脓毒症",
+          "target_entity": "感染相关生物标志物的临床意义解读",
+          "source_id": "DOC_ceed9ed0d1f6__CH0035::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0035::Treatment::感染相关生物标志物的临床意义解读",
+          "chunk_id": "CH0035",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0035"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0035::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0035::Sub_Disease::脓毒症",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "脓毒症",
+          "source_id": "DOC_ceed9ed0d1f6__CH0035::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0035::Sub_Disease::脓毒症",
+          "chunk_id": "CH0035",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0035"
+        }
+      ]
+    },
+    "CH0036": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "脓毒症",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::降钙素原",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "降钙素原",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::C反应蛋白",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "C反应蛋白",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::白细胞计数",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "白细胞计数",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::前白蛋白",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "前白蛋白",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::淋巴细胞计数",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "淋巴细胞计数",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::中性粒细胞/淋巴细胞比值",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "中性粒细胞/淋巴细胞比值",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::血清淀粉样蛋白A",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "血清淀粉样蛋白A",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::可溶性髓系细胞触发受体-1",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "可溶性髓系细胞触发受体-1",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::脂多糖结合蛋白",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "脂多糖结合蛋白",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::IL-6",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "IL-6",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::IL-8",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "IL-8",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::IL-10",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "IL-10",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::IL-1β",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "IL-1β",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::TNF-α",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "TNF-α",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::CD64",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "CD64",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::HLA-DR",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "HLA-DR",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::CD11b",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "CD11b",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::CD14",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "CD14",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::CD163",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "CD163",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::CD274（PD-L1）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "CD274（PD-L1）",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::CD39",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "CD39",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::CD73",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "CD73",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::sTREM-1",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "sTREM-1",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::suPAR",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "suPAR",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::Presepsin",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "Presepsin",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::EndoCAb",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "EndoCAb",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::D-二聚体",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "D-二聚体",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::凝血酶原时间",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "凝血酶原时间",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::活化部分凝血活酶时间",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "活化部分凝血活酶时间",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::纤维蛋白原",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "纤维蛋白原",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::抗凝血酶III",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "抗凝血酶III",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::蛋白C",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "蛋白C",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::蛋白S",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "蛋白S",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Test::血小板计数",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "血小板计数",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Treatment::生物标志物联合应用以提高诊断效能",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "生物标志物联合应用以提高诊断效能",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Treatment::动态监测生物标志物变化评估病情进展与预后",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "动态监测生物标志物变化评估病情进展与预后",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Treatment::区分感染与非感染性炎症反应",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "区分感染与非感染性炎症反应",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::降钙素原",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "降钙素原",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::降钙素原",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::C反应蛋白",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "C反应蛋白",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::C反应蛋白",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::白细胞计数",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "白细胞计数",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::白细胞计数",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::前白蛋白",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "前白蛋白",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::前白蛋白",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::淋巴细胞计数",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "淋巴细胞计数",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::淋巴细胞计数",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::中性粒细胞/淋巴细胞比值",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "中性粒细胞/淋巴细胞比值",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::中性粒细胞/淋巴细胞比值",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::血清淀粉样蛋白A",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "血清淀粉样蛋白A",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::血清淀粉样蛋白A",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::可溶性髓系细胞触发受体-1",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "可溶性髓系细胞触发受体-1",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::可溶性髓系细胞触发受体-1",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::脂多糖结合蛋白",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "脂多糖结合蛋白",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::脂多糖结合蛋白",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::IL-6",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "IL-6",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::IL-6",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::IL-8",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "IL-8",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::IL-8",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::IL-10",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "IL-10",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::IL-10",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::IL-1β",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "IL-1β",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::IL-1β",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::TNF-α",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "TNF-α",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::TNF-α",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::CD64",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "CD64",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::CD64",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::HLA-DR",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "HLA-DR",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::HLA-DR",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::CD11b",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "CD11b",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::CD11b",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::CD14",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "CD14",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::CD14",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::CD163",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "CD163",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::CD163",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::CD274（PD-L1）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "CD274（PD-L1）",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::CD274（PD-L1）",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::CD39",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "CD39",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::CD39",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::CD73",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "CD73",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::CD73",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::sTREM-1",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "sTREM-1",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::sTREM-1",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::suPAR",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "suPAR",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::suPAR",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::Presepsin",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "Presepsin",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::Presepsin",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::EndoCAb",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "EndoCAb",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::EndoCAb",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::D-二聚体",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "D-二聚体",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::D-二聚体",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::凝血酶原时间",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "凝血酶原时间",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::凝血酶原时间",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::活化部分凝血活酶时间",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "活化部分凝血活酶时间",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::活化部分凝血活酶时间",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::纤维蛋白原",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "纤维蛋白原",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::纤维蛋白原",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::抗凝血酶III",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "抗凝血酶III",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::抗凝血酶III",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::蛋白C",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "蛋白C",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::蛋白C",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::蛋白S",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "蛋白S",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::蛋白S",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|requires_test|DOC_ceed9ed0d1f6__CH0036::Test::血小板计数",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "脓毒症",
+          "target_entity": "血小板计数",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Test::血小板计数",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|follows_treatment|DOC_ceed9ed0d1f6__CH0036::Treatment::生物标志物联合应用以提高诊断效能",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "脓毒症",
+          "target_entity": "生物标志物联合应用以提高诊断效能",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Treatment::生物标志物联合应用以提高诊断效能",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|follows_treatment|DOC_ceed9ed0d1f6__CH0036::Treatment::动态监测生物标志物变化评估病情进展与预后",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "脓毒症",
+          "target_entity": "动态监测生物标志物变化评估病情进展与预后",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Treatment::动态监测生物标志物变化评估病情进展与预后",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症|follows_treatment|DOC_ceed9ed0d1f6__CH0036::Treatment::区分感染与非感染性炎症反应",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "脓毒症",
+          "target_entity": "区分感染与非感染性炎症反应",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Treatment::区分感染与非感染性炎症反应",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0036::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "脓毒症",
+          "source_id": "DOC_ceed9ed0d1f6__CH0036::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0036::Sub_Disease::脓毒症",
+          "chunk_id": "CH0036",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0036"
+        }
+      ]
+    },
+    "CH0037": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "侵袭性真菌感染",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Test::(1→3)-β-D-葡聚糖检测（G试验）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "(1→3)-β-D-葡聚糖检测（G试验）",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Test::(2→5)-甘露聚糖抗原检测（GM试验）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "(2→5)-甘露聚糖抗原检测（GM试验）",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Test::真菌培养",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "真菌培养",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Test::组织病理学检查",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "组织病理学检查",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Treatment::早期经验性抗真菌治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "早期经验性抗真菌治疗",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Treatment::目标治疗需依据病原学结果调整",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "目标治疗需依据病原学结果调整",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染|requires_test|DOC_ceed9ed0d1f6__CH0037::Test::(1→3)-β-D-葡聚糖检测（G试验）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "侵袭性真菌感染",
+          "target_entity": "(1→3)-β-D-葡聚糖检测（G试验）",
+          "source_id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0037::Test::(1→3)-β-D-葡聚糖检测（G试验）",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染|requires_test|DOC_ceed9ed0d1f6__CH0037::Test::(2→5)-甘露聚糖抗原检测（GM试验）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "侵袭性真菌感染",
+          "target_entity": "(2→5)-甘露聚糖抗原检测（GM试验）",
+          "source_id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0037::Test::(2→5)-甘露聚糖抗原检测（GM试验）",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染|requires_test|DOC_ceed9ed0d1f6__CH0037::Test::真菌培养",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "侵袭性真菌感染",
+          "target_entity": "真菌培养",
+          "source_id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0037::Test::真菌培养",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染|requires_test|DOC_ceed9ed0d1f6__CH0037::Test::组织病理学检查",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "侵袭性真菌感染",
+          "target_entity": "组织病理学检查",
+          "source_id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0037::Test::组织病理学检查",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Disease::感染|has_sub_disease|DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "感染",
+          "target_entity": "侵袭性真菌感染",
+          "source_id": "DOC_ceed9ed0d1f6__CH0037::Disease::感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染|follows_treatment|DOC_ceed9ed0d1f6__CH0037::Treatment::早期经验性抗真菌治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "侵袭性真菌感染",
+          "target_entity": "早期经验性抗真菌治疗",
+          "source_id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0037::Treatment::早期经验性抗真菌治疗",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        },
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染|follows_treatment|DOC_ceed9ed0d1f6__CH0037::Treatment::目标治疗需依据病原学结果调整",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "侵袭性真菌感染",
+          "target_entity": "目标治疗需依据病原学结果调整",
+          "source_id": "DOC_ceed9ed0d1f6__CH0037::Sub_Disease::侵袭性真菌感染",
+          "target_id": "DOC_ceed9ed0d1f6__CH0037::Treatment::目标治疗需依据病原学结果调整",
+          "chunk_id": "CH0037",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0037"
+        }
+      ]
+    },
+    "CH0038": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0038::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0038",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0038"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0039": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0039::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0039",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0039"
+        }
+      ],
+      "relationships": []
+    },
+    "CH0040": {
+      "entities": [
+        {
+          "id": "DOC_ceed9ed0d1f6__CH0040::Disease::感染",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "感染",
+          "chunk_id": "CH0040",
+          "evidence_ids": "DOC_ceed9ed0d1f6:CH0040"
+        }
+      ],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "前言/概述",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "前言/概述",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "前言/概述",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "前言/概述",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "前言/概述",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "前言/概述",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "前言/概述",
+      "page_start": 2,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "前言/概述",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "前言/概述",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "前言/概述",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0011": {
+      "chunk_id": "CH0011",
+      "section_title": "前言/概述",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0012": {
+      "chunk_id": "CH0012",
+      "section_title": "前言/概述",
+      "page_start": 4,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0013": {
+      "chunk_id": "CH0013",
+      "section_title": "前言/概述",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0014": {
+      "chunk_id": "CH0014",
+      "section_title": "前言/概述",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0015": {
+      "chunk_id": "CH0015",
+      "section_title": "前言/概述",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0016": {
+      "chunk_id": "CH0016",
+      "section_title": "前言/概述",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0017": {
+      "chunk_id": "CH0017",
+      "section_title": "前言/概述",
+      "page_start": 6,
+      "page_end": 8,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0018": {
+      "chunk_id": "CH0018",
+      "section_title": "前言/概述",
+      "page_start": 8,
+      "page_end": 8,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0019": {
+      "chunk_id": "CH0019",
+      "section_title": "前言/概述",
+      "page_start": 8,
+      "page_end": 8,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0020": {
+      "chunk_id": "CH0020",
+      "section_title": "前言/概述",
+      "page_start": 8,
+      "page_end": 8,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0021": {
+      "chunk_id": "CH0021",
+      "section_title": "前言/概述",
+      "page_start": 8,
+      "page_end": 8,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0022": {
+      "chunk_id": "CH0022",
+      "section_title": "前言/概述",
+      "page_start": 8,
+      "page_end": 10,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0023": {
+      "chunk_id": "CH0023",
+      "section_title": "前言/概述",
+      "page_start": 10,
+      "page_end": 10,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0024": {
+      "chunk_id": "CH0024",
+      "section_title": "前言/概述",
+      "page_start": 10,
+      "page_end": 10,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0025": {
+      "chunk_id": "CH0025",
+      "section_title": "前言/概述",
+      "page_start": 10,
+      "page_end": 10,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0026": {
+      "chunk_id": "CH0026",
+      "section_title": "前言/概述",
+      "page_start": 10,
+      "page_end": 10,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0027": {
+      "chunk_id": "CH0027",
+      "section_title": "前言/概述",
+      "page_start": 10,
+      "page_end": 10,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0028": {
+      "chunk_id": "CH0028",
+      "section_title": "前言/概述",
+      "page_start": 10,
+      "page_end": 12,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0029": {
+      "chunk_id": "CH0029",
+      "section_title": "前言/概述",
+      "page_start": 12,
+      "page_end": 12,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0030": {
+      "chunk_id": "CH0030",
+      "section_title": "前言/概述",
+      "page_start": 12,
+      "page_end": 12,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0031": {
+      "chunk_id": "CH0031",
+      "section_title": "5)3&!\"#\"$%&$%$)*.&X/-R,/+HLF/L&4%$’&%5&%4’&",
+      "page_start": 12,
+      "page_end": 12,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0032": {
+      "chunk_id": "CH0032",
+      "section_title": "5)3&!\"#\"$%&$%$)*.&X/-R,/+HLF/L&4%$’&%5&%4’&",
+      "page_start": 12,
+      "page_end": 12,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0033": {
+      "chunk_id": "CH0033",
+      "section_title": "44)&",
+      "page_start": 12,
+      "page_end": 12,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0034": {
+      "chunk_id": "CH0034",
+      "section_title": "44)&",
+      "page_start": 12,
+      "page_end": 14,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0035": {
+      "chunk_id": "CH0035",
+      "section_title": "44)&",
+      "page_start": 14,
+      "page_end": 14,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0036": {
+      "chunk_id": "CH0036",
+      "section_title": "44)&",
+      "page_start": 14,
+      "page_end": 14,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0037": {
+      "chunk_id": "CH0037",
+      "section_title": "44)&",
+      "page_start": 14,
+      "page_end": 14,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0038": {
+      "chunk_id": "CH0038",
+      "section_title": "44)&",
+      "page_start": 14,
+      "page_end": 14,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0039": {
+      "chunk_id": "CH0039",
+      "section_title": "6)%&",
+      "page_start": 14,
+      "page_end": 14,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0040": {
+      "chunk_id": "CH0040",
+      "section_title": "6)%&",
+      "page_start": 14,
+      "page_end": 14,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "pass",
+      "error",
+      "unreviewed"
+    ],
+    "note": "base_info 记录 PDF 级基础信息；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态和备注。"
+  }
+}

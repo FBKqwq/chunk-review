@@ -1,0 +1,2080 @@
+{
+  "base_info": {
+    "doc_key": "百日咳（2023年）",
+    "doc_id": "DOC_65f24d91cdee",
+    "source_title": "百日咳（2023年）",
+    "pdf_path": "data\\raw_pdfs\\s\\百日咳（2023年）.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 11,
+    "total_chunks": 13,
+    "has_entitybase": true,
+    "entitybase_status": "matched",
+    "entitybase_matched_chunks": 11,
+    "program": "snorkel"
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "TEMP_be9813842ab8",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "百日咳",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_de96202f3457",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "婴儿百日咳",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.8
+        },
+        {
+          "id": "TEMP_3ab29095f593",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "百日咳鲍特菌",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_a5f5f4996c8f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "接种疫苗后产生的免疫力衰减",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_ee4f136d3917",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "百日咳鲍特菌变异",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "TEMP_2dce266abdce",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "百日咳鲍特菌",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ec56379ffa2b",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "百日咳鲍特菌表达多种毒力因子及百日咳毒素（PT）的作用机制",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0004": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0005": {
+      "entities": [
+        {
+          "id": "TEMP_4ed96bdf6c85",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "百日咳鲍特菌感染",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_0de3a086173f",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "百日咳脑病",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_708946439faf",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "连续痉挛性咳嗽",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2eeb8a865cc5",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "高音调似鸡鸣样的吸气吼声",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_58da8c95a01b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "纵隔气肿",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_8c71fc3cf813",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "皮下气肿",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_55ddf73fc474",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "百日咳鲍特菌",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d385e03843f1",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "PT等毒素",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_e2853e25af72",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "冷风",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_7a230707fef9",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "烟雾",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_36b1df664579",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "进食",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_a81ab06c1696",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "细菌侵入易感者呼吸道后，首先粘附于呼吸道上皮细胞纤毛上，在局部繁殖并产生PT等毒素，引起上皮细胞纤毛麻痹、细胞变性和上皮细胞坏死脱落，导致小支气管中黏液及坏死上皮细胞堆聚潴留，分泌物排出受阻，刺激呼吸道周围神经，传入延髓咳嗽中枢，反射性地引起连续痉挛性咳嗽",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_0187a0822551",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "痉咳时患者处于呼气状态，痉咳末，由于吸入大量空气通过痉挛的声门而发出高音调似鸡鸣样的吸气吼声",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a69e0758a8e2",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "剧烈咳嗽刺激大脑皮质的咳嗽中枢可形成持久的兴奋灶",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_9762bc82d076",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "剧烈咳嗽还可使肺泡破裂形成纵隔气肿和皮下气肿",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_c4a04f8a2bb0",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "痉咳不止，使脑部缺氧、充血、水肿并发百日咳脑病",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_019696c1507f",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "CD4+T细胞和Th1细胞分泌的细胞因子所介导的免疫反应，在百日咳鲍特菌感染中起重要作用",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "TEMP_602ea3a532f4",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肺不张",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_a50441ddc36a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "支气管扩张",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_df75fa9c9579",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "脑病",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_30e8f9831edb",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "呼吸道黏膜损害及上皮细胞病变",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_61791a429131",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "炎性细胞浸润及间质炎症形成",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c0abb7a7172f",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "局部淋巴结肿大",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_ee4dd9b8dead",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "分泌物阻塞致肺部并发症机制",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_c4ab520fee6c",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "脑组织充血水肿及神经细胞变性",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "TEMP_ae8542c44dd7",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "百日咳",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f9852758e587",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "青少年或成人百日咳",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_93cafec81d7d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "新生儿和6月龄以下婴儿百日咳",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_e9d4a14839e4",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肺炎",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_c89523866430",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肺不张",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_aa57d606b80e",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "气胸",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_5c6165f6d1b3",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "纵隔气肿",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_005df05460d5",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "皮下气肿",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_dc51e0ed5e2b",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肺动脉高压",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_125e340aa489",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "窒息",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_1a5bb118f9c6",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "百日咳脑病",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_190c08be0a5f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "流涕",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_4601cf96458e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "打喷嚏",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_1eab6ed2edf5",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "流泪",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_9a4cd843961c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咽痛",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_20529dc4ae73",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "阵发性咳嗽",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_af8de144aec8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_3b49793b9560",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "阵发性痉挛性咳嗽",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_cf1503d6542a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咳嗽末吸气性吼声",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_665a70751024",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咳出黏痰",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_d847a61dee32",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "呕吐",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_56c5d8f96fcd",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "舌系带溃疡",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_9d2b7215aaa8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "面部浮肿",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_866f2e79702d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼睑浮肿",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_ba837bc4549a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼结膜出血",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_9439532466e9",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "鼻衄",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_f41ec9c1e98b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "颅内出血",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_730cc44550f9",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发绀",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_7bc01efc863d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "呼吸暂停",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_d2b1f3f62dd6",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "惊厥",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_dc7cf5f70c39",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "心动过缓",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_ec85152e0c77",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "心脏停搏",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_df6d8a535011",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "鸡鸣样吼声",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_3a525fb0c86a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "抽搐",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_6e627aa7d6b1",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "高热",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_b01cd1440176",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "昏迷",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_575574994218",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "偏瘫",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_cd967ace256f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "猝死",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_896fd8783839",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "腺病毒",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_88594e4c856b",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "呼吸道合胞病毒",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_d48629b6f828",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "肺炎链球菌",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_e54940d933dc",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "金黄色葡萄球菌",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_385aa1a31159",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "流感嗜血杆菌",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "TEMP_7724b8b27ddc",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "百日咳",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_83e2f9b346c2",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咳嗽",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d64009056ef3",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "白细胞增多",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d0af89e4055c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血常规检查",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_1c6321a87396",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "白细胞",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_0866e423a9dd",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "淋巴细胞",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b5ed7d3a37ec",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "细菌培养",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_89a9a6a8e345",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "核酸检测",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a7d0be96f497",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清学检查",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_47ab78e13711",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "百日咳鲍特菌PT特异性IgG",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8ada4252764d",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "PT-IgG抗体滴度",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_91dd15621d2e",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "百日咳鲍特菌",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0009": {
+      "entities": [
+        {
+          "id": "TEMP_01e8d2e71d39",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "百日咳",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_abfc37f263d2",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "疑似病例",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_5db71815d082",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "临床诊断病例",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_110dd2183264",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "确诊病例",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_b2b26f6074da",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "阵发性痉挛性咳嗽",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a155eb74dcee",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "呼吸暂停",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_6af54bc4413c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "窒息",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_767fb85784ed",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "紫绀",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_0763a7195b25",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "心动过缓",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_ad45412a8f67",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咳嗽",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_072abacc2bc3",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_740704864856",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "外周血白细胞",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_da4c6c325575",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "淋巴细胞",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_1fcd78ba7852",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "百日咳鲍特菌培养",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_62717a26dbd7",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "百日咳鲍特菌核酸检测",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_34172d71de18",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "PT-IgG抗体",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_464c2495e65e",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "百日咳鲍特菌",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_92d4c9a814d2",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "百日咳流行病学暴露史",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_a349fc0bcac0",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "确诊病例接触史",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0010": {
+      "entities": [
+        {
+          "id": "TEMP_d12bf7eda369",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "百日咳",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_45cf46dab5ff",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "百日咳样综合征",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f7e1ead3754d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "呼吸道感染",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_5c4fcd0267ef",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "慢性咳嗽",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_108cac96994d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "支气管淋巴结结核",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ee571e782759",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "气管支气管异物",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_1173f08070e8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "刺激性阵发性咳嗽",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_62d9ac6be03e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咳嗽末吸气性鸡鸣样吼声",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_97f2e94f3ab2",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血常规",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_00ec437a87ac",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肺部影像学",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_005c1150ab93",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "病原学检查",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ce3e9052b91f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "副百日咳杆菌",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c5b48bc622ac",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "呼吸道合胞病毒",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_6a8c94468366",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "腺病毒",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d20d7e0724b6",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "其他呼吸道病毒",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_0ef6ee569933",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "肺炎支原体",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ef497ce38754",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "肺炎衣原体",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0011": {
+      "entities": [
+        {
+          "id": "TEMP_4e2a79a826a0",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "百日咳",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9ca3ac7e8bf7",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "大环内酯类耐药的百日咳鲍特菌引起的感染",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_256cd7f77592",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "百日咳脑病",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c947811ae0c2",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "继发细菌性肺炎",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_cde87319d8dd",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "初咳期",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_4cf745ae2144",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "痉咳期",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_d4ff8b0b953f",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "恢复期",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_341ad0cd3e87",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "痉咳",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7febaab3c692",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "缺氧",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8316907dd1c3",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "窒息",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_822169a79c9f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "新生儿肥厚性幽门狭窄",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_c6ee8021c772",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肾损伤",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_34317078d77e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "结晶尿",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_c8e6ae28280a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "皮疹",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_1740f174b50b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "药敏",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f8cb86ed8068",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "按呼吸道传染病隔离",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_da313a05363a",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对症支持治疗",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c7b3aa185ee4",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "百日咳的抗菌治疗首选大环内酯类抗生素",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b052115da7b2",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "存在禁忌或耐药时可使用复方磺胺甲噁唑",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_43490bdbfc50",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对疑似病例可以经验性抗菌药物治疗",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_5ee06fd430be",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "百日咳脑病治疗原则",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_1f4e319ee1a5",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "继发细菌性肺炎治疗原则",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8d187128edfa",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "营养及维生素钙剂补充",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e3e88d6a28fb",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "鼻饲",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_99a1506134d8",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "氧疗",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_83646ef01501",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "阿奇霉素给药方案",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c58eeb34fce9",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "红霉素给药方案",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_394f55c15775",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "克拉霉素给药方案",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_0fb0e2a207ef",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "复方磺胺甲噁唑给药方案",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ccaa7d52c083",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "头孢哌酮钠舒巴坦及哌拉西林他唑巴坦治疗",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_9330a576eff4",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "百日咳鲍特菌",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2ee821a9b384",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "耐大环内酯类的菌株",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_e63433b064be",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "外感时疫",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_6bb0bdcf095a",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "内蕴伏痰",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_f2ef5218166c",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "时邪",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_c37abd4d44af",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "外感时疫，内蕴伏痰，时邪与伏痰搏结，阻遏气道，肺气上逆而为病",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0012": {
+      "entities": [
+        {
+          "id": "TEMP_d87f6c7b1ef5",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "初咳期轻症",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b607a33f87f6",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "初咳期重症",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e34cd6108108",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "痉咳期轻症",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7b41a5b612ef",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "痉咳期重症",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_de34539d8307",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "恢复期",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f91cbc66ab5a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咳嗽",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_df6142840a41",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "流清鼻涕",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_81a5544d7ace",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "微热",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_3b620b08f376",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "涕泪交流",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_b311bc67fc23",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "舌淡红苔薄白",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_d86298ed3f70",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "脉浮数",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_a90ac30deb7c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咳声不爽",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_e82645134c43",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "面赤口渴",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_94d7c15b2815",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热较重",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_e2b809194f22",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "鼻塞",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_f450a92dc7bf",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "无汗或少汗",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_09cd62595952",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "舌红苔薄黄",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_9754e31aac57",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "脉数",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_3fbf506b127d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "阵发痉挛性咳嗽",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_1ba353f49564",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "日轻夜重",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_b98e784bf800",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咳即作吐",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_7e50b23911a9",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼睑浮肿",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_89630be8e038",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "痰中带血",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_c82983fc5b1b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "口鼻呛血",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_4c836aa5ad3b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "舌红苔黄腻",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_b21f4565e5a7",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "口鼻呛血较重",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_e48535bcc547",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咳嗽逐渐减少、减轻",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_d36de157fd8e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "痰少",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_b60d72af3e14",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "两颧发红",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_3f1faa4d9d14",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "潮热",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_515c8745f993",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "微汗",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_af1a5010c60e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "舌质红",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_2aad9f293c28",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "苔薄",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_11d8a3b04c1b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "脉细数",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_4ccb4635e3aa",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "甘桔汤",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_54d5f27d16c5",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "麻杏石甘汤",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_17ded2f54791",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "宁嗽汤",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c34775487017",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "千金苇茎汤及痰热清注射液",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f769424ddae5",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "沙参麦冬汤",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0013": {
+      "entities": [
+        {
+          "id": "TEMP_d6cda100b353",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "百日咳",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_0cddfafe13bc",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "痉咳",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_e3555b1c1792",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "呼吸道隔离",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_6e56049811a3",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "暴露后预防",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_e133a5096462",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "疫苗接种",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_4fe6ca07c53c",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "呼吸道隔离至少到有效抗菌药物治疗后5天，对于未及时给予有效抗菌药物治疗的患者，隔离期为痉咳后21天",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3401b72585b9",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "做好住院患者所在房间通风，并按照《医疗机构消毒技术规范》做好房间物体表面的清洁和消毒。接触患者时佩戴医用防护口罩，并严格执行手卫生",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_274439899cca",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "在暴露后21天内（尽可能暴露后1~2周内）接受药物预防或者紧急接种疫苗预防，药物选择、剂量、疗程与治疗相同",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d4741e8bcd13",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "使用白喉类毒素、无细胞百日咳菌苗、破伤风类毒素（DTaP）三联疫苗，接种时间为3月龄、4月龄、5月龄，18月龄时各接种1剂次",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a4ecb0d1c35a",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "若有流行时易感人群仍需加强接种",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "前言/概述",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "百日咳诊疗方案",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "一、病原学",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "二、流行病学",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "三、发病机制",
+      "page_start": 2,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "四、病理改变",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "五、临床表现",
+      "page_start": 3,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "六、实验室检查",
+      "page_start": 4,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "七、诊断",
+      "page_start": 5,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "八、鉴别诊断",
+      "page_start": 6,
+      "page_end": 7,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0011": {
+      "chunk_id": "CH0011",
+      "section_title": "九、治疗",
+      "page_start": 7,
+      "page_end": 9,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0012": {
+      "chunk_id": "CH0012",
+      "section_title": "九、治疗",
+      "page_start": 9,
+      "page_end": 10,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0013": {
+      "chunk_id": "CH0013",
+      "section_title": "十、预防",
+      "page_start": 11,
+      "page_end": 11,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "program": "snorkel",
+    "note": "Snorkel entitybase 复验结果；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态。"
+  }
+}

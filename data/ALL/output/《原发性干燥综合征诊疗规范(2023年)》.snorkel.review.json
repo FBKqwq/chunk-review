@@ -1,0 +1,2836 @@
+{
+  "base_info": {
+    "doc_key": "《原发性干燥综合征诊疗规范(2023年)》",
+    "doc_id": "DOC_6d313cac36f4",
+    "source_title": "《原发性干燥综合征诊疗规范(2023年)》",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\《原发性干燥综合征诊疗规范(2023年)》.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 9,
+    "total_chunks": 18,
+    "has_entitybase": true,
+    "entitybase_status": "matched",
+    "entitybase_matched_chunks": 18,
+    "program": "snorkel"
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "TEMP_fed07c85cc81",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "干燥综合征",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_31e1dabc12ec",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "原发性干燥综合征",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c8dbedeaa612",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "继发性干燥综合征",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_1c9b2c10509e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "唾液腺功能受损",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_c452a41214f0",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "泪腺功能受损",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_41ec1f0c4dd9",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清抗",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.75
+        },
+        {
+          "id": "TEMP_09a8d6638cc8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "淋巴细胞增殖",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_8af1f963a8fc",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "外分泌腺体损伤",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_34de02ae7d5d",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "淋巴细胞增殖及进行性外分泌腺体损伤",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.94
+        }
+      ],
+      "relationships": []
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "TEMP_ff7f68c76569",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "干燥综合征",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_60a5b915d551",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "原发性干燥综合征",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_a23f99c539db",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "继发性干燥综合征",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_c632d46ebfdb",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "涎腺功能受损",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_0c0d135756df",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "泪腺功能受损",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_13d177f932b7",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清抗SSA抗体",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_b542c334c0b7",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "唇腺病理学",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_4fced2c0cdfc",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "规范局部和系统受累患者的合理诊治",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_7fadf6e56f52",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "遗传",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_428cbc144de7",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "病毒感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_8de5da722dba",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "性激素异常",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_ef5f1629a786",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "淋巴细胞增殖及进行性外分泌腺体损伤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.98
+        }
+      ],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "TEMP_c79e4f769227",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "SS",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_24af8a98cae1",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "口干",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_3bece02ef66d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼干",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_8559e9518465",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "唾液腺肿大",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_5c251a27580a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼部干涩",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_8f668f23fd99",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "磨砂感",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_85ebff2e76f6",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼部充血",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_80e2598d673c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "干燥性角结膜炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_717cfac22dae",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "角膜上皮糜烂",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_0654d7d09b75",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "角膜新生血管化",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ab0b9938fa4e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "角膜溃疡",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_de70e8ec88ce",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "角膜穿孔",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_0fc15a27c3d2",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "失明",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_50f23cbb02e5",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "进食困难",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_5e7ca99ec72b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "片状牙齿脱落",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b200a97ec935",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "多发猖獗龋齿",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_47df95ca499c",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "唾液分泌减少、唾液黏蛋白缺少",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_a1118b8addf4",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "泪腺分泌功能低下",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    },
+    "CH0004": {
+      "entities": [
+        {
+          "id": "TEMP_871a07db8081",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "干燥综合征",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a4543454b5ed",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "原发性干燥综合征",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_66f179cbfcb6",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "原发性干燥综合征",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_a7018b82063f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "乏力",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_202a2fbad0bd",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_af1abc4d811c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "皮肤干燥",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_59110109fb0f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "雷诺现象",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_45ac5e19ac18",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "紫癜",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_03ca3edd36c9",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "皮肤溃疡",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_09725bc46b59",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "坏疽",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_a11379223637",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "凹陷性瘢痕",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_52f5e529face",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "微梗死",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_3b28cb755b2e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "荨麻疹样皮肤损害",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_3cd87dd9994a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "甲周梗死",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_ca041eddbbb6",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "无压痛性红斑结节",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_85a40942d66e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "关节痛",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_4a435643478e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肌无力",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_c437ca6383ae",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "气道干燥",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_11749b41978d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "胃食管反流病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ff4f7c84513f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "喉刺激症状",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_7c37f15cfdde",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "气管刺激症状",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_457c29a35ae0",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "黄疸",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_53061f98e61e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肝脾肿大",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_6bd1f1e86ba8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肾小管性酸中毒",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_849a294dacff",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肾性尿崩",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_7852aea68cd4",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "范可尼综合征",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_e3bf8b7accec",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肾钙化结石",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_43ae0272f490",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清肌酸激酶",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ffdd1e754b22",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肌电图",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a07e3a72490e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肌肉磁共振成像",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_dd3ac147d7d4",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肾脏穿刺",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_6c89fffb9d15",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "唾液流量减少",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_6492d60db54d",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "非甾体抗炎药",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_feaf6b1ff9ef",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "激素",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_fbe79d84cbdf",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "淋巴细胞浸润",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_d8c9d964548f",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "淋巴细胞浸润导致胰泡萎缩、胰管狭窄等慢性胰腺炎改变",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    },
+    "CH0005": {
+      "entities": [
+        {
+          "id": "TEMP_edcd60abf998",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "干燥综合征",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_346b1cc67889",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "干燥综合征相关周围神经病变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_824c026f02b1",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "干燥综合征相关自主神经综合征",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_b538ecba9e5d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "干燥综合征相关中枢神经系统受累",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_8ec58e5fe01b",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "干燥综合征相关自身免疫性血细胞减少",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_5f302dce8da2",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "干燥综合征相关淋巴瘤",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_a5852ad3f94a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "干燥综合征相关冷球蛋白血症",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_87e6882aede4",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "周围感觉神经受累",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_9c71ff403a8f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "运动神经受累",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_bcdfb1911292",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "体位性低血压",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_c059cb5e326d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "阿迪瞳孔",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_9b52ea7c2b22",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "无汗",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_c17c6c95b51f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "心动过速",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_8188303119f5",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "胃肠功能紊乱",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_3d97393cc0f2",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "B细胞长期活化",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_54c59cbc7004",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "B细胞长期活化导致冷球蛋白血症及淋巴瘤风险增高",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.92
+        }
+      ],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "TEMP_9b66c381e393",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血常规",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8d32678b7235",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "尿常规",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a29125b33aba",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "粪常规",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_32c23037a38f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肝功能",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8bab2a9d5332",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肾功能",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_69eb5ce4374e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血糖",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_98a28da4a1a7",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "电解质",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_17d40f63027a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "红细胞沉降率",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e40524721540",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "C反应蛋白",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4f4582f2ebb0",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "补体",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_bab62fd758a4",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "胸部高分辨CT",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e88a14cb4029",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "免疫球蛋白测定",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a4c89e41fa11",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗核抗体（ANA）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c1cade24fdce",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗SSA抗体",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_36d1cb9efcc9",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗SSB抗体",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f90d425ca450",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗着丝点抗体",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_645b1556593c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗胞衬蛋白抗体",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_bc4a96698960",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "类风湿因子（RF）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "TEMP_00312b6385e6",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "唾液流率",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e01c988f656a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "腮腺造影",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_25b5a04112fa",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "唇腺活检",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "TEMP_72afb451859e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "唇腺活检",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_5f18e48d9393",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "盐酸阿替卡因或2%利多卡因行下唇术区局部浸润麻醉",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_7ba138ac8c51",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "切开一个0.5~1cm的水平切口或梭形切口",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_988b49ed4076",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "钝性剥离腺体并用虹膜剪切除腺体组织",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_c85c75fb03b2",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "至少取4个唾液腺；若腺体<2mm则取6个；最小腺体表面积为2mm²",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_083eb98e9285",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "缝合切口，局部消毒，压迫切口",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4a1bf576be27",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "术后给予止痛药，氯己定漱口水含漱每日三次，餐后使用10天",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_59f116649326",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "伤口愈合期间避免辛辣刺激性食物1周",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_5ce8753198f3",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "1周后拆线",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0009": {
+      "entities": [
+        {
+          "id": "TEMP_453a8afc886c",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "干燥综合征",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b98fa05de701",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "灶性淋巴细胞浸润性唾液腺炎",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_b3116cddf9cc",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "非特异性慢性唾液腺炎",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a4995afb61a5",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "慢性硬化性唾液腺炎",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_04628316ae8f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "唇腺活检",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    },
+    "CH0010": {
+      "entities": [
+        {
+          "id": "TEMP_6f74e1452b7d",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "干眼症",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_61a201baf06d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "SS相关的干眼症",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_6c13a0e1d56e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼部干涩感",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c41c5de8a80f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "烧灼感",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ccbe55331f55",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "异物感",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4fd78a0b0ca6",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "针刺感",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_467146575dc5",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼痒",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_751636421565",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "畏光",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_82073581b92b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼红",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_813a572719e8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "视物模糊",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b48ad731dbb8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "视力波动",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_423dfbd80e0f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "Schirmer试验",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_673d828cfcfb",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "泪膜破裂时间",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_142948442b0a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "角结膜染色",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d816308c5526",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "水分生产不足",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_fac2f010e04b",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "泪液蒸发损失",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0011": {
+      "entities": [
+        {
+          "id": "TEMP_c98a73982aaf",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "角膜荧光素染色",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3217c25d7351",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "结膜丽斯胺绿染色",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ee0bd71124af",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "结膜角膜染色评分（OSS）",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_effe77d8fde8",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "van Bijsterveld评分",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0012": {
+      "entities": [
+        {
+          "id": "TEMP_751a53f6bb49",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "干燥综合征",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_dd6e3c408e3a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "原发性干燥综合征",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_36af40e6a66b",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "继发性干燥综合征",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_4ae917202cfc",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "口干",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f1a7ba5726be",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腮腺反复肿大",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_6df6dcc8b211",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "吞咽干性食物需要饮水帮助",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_3a097f433f76",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼干",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e78a064f87fb",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "沙子进眼或磨砂感觉",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_67f3a01b2129",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "需用人工泪液",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_ae7a940a1236",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "Schirmer试验",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_78614403b0f1",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "角膜染色",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_25b3cacb0880",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "下唇腺组织病理学检查",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_0dc99632473e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "唾液流率",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_66798fdaf7e4",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "腮腺造影",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_d8f5aec6f7e8",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "唾液腺放射性核素检查",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_8fe9e56123bc",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗SSA抗体",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_6a25431de18e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗SSB抗体",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_69ba05babe28",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "头颈面部放疗史",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_0e6257ccfc97",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "丙型肝炎病毒感染",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_940c96c1dc4d",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "艾滋病",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_f194077fe610",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "淋巴瘤",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_70f3de9270bd",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "结节病",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_13fed3671ead",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "移植物抗宿主病",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8a088bcb173f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "抗乙酰胆碱药",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0013": {
+      "entities": [
+        {
+          "id": "TEMP_11c907e6c8a1",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "干燥综合征",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_41177862960c",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "干燥综合征",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_258d497e078d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼干",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_ebb8360ffa57",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "口干",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_23c6f581def8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼中反复沙砾感",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_7363031d3095",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "吞咽干性食物需要频繁饮水帮助",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_b187078a41ad",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清抗SSA抗体",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_638e7168e8b0",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清抗SSB抗体",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_4d36df9b40cf",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "类风湿因子",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_58b6869e3187",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗核抗体",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_2d1b9ce98e31",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "OSS",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_86dd85b95503",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "唇腺活检",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0014": {
+      "entities": [
+        {
+          "id": "TEMP_3cd3f7b90690",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "pSS",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b504f23c3eb5",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "口干燥症",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_1ffd72855511",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "眼干燥症",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_08df8fe0f34d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "干燥性角结膜炎",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_6c44c6307689",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "口、眼干燥",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_bcc13006a7f9",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "多学科合作治疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_33dece399187",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "患者教育及生活方式干预",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_35234e590049",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "咀嚼无糖口香糖结合唾液替代品、润滑剂和或机械刺激",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_2ac57df3bd4b",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "毛果芸香碱5mg，每日3次（每日剂量15~20mg）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_93e7a37fc729",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "环戊硫酮片、溴己新片和盐酸氨溴索片",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3e4b044631f4",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "人工涎液替代治疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_6a1b337d4c5d",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "每天至少使用两次人工泪液",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_c5bcd81a0025",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "使用含有透明质酸盐或羧甲基纤维素且不含防腐剂的人工泪液",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_5fe8d8fb65e0",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "润滑油膏睡前给药",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_392059df5721",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "局部使用含环孢素A滴眼液及自体血清处理",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_fa7573202b41",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "激素类滴眼液由眼科专科医生指导短期内使用（不超过2~4周）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_2dae2669139d",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "免疫异常反应",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.98
+        }
+      ],
+      "relationships": []
+    },
+    "CH0015": {
+      "entities": [
+        {
+          "id": "TEMP_2a34b621ac55",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "干燥综合征",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_20ed20c5ed1d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "间质性肺炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_027aa0886a77",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "关节痛/关节炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_6ccd82232e57",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肌肉受累",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_6c70424ded25",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肾脏受累",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_33cebac8484a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "神经系统受累",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a13a833fc06d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "皮肤症状（环状红斑、血管炎）",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_92be2e49036f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "环状红斑",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b46d1bfd9c91",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "血管炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c0c125e7ed54",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "呼吸症状",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_a73bf73baa2d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "关节剧痛",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_9e88cea330c2",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肌无力",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_89881a4a029a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肺一氧化碳弥散量（DLCO）",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_553078b5adce",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清肌酸激酶",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_d91d3125eb05",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "局部使用激素治疗皮肤环状红斑",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_02eb893ed49c",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "全身激素治疗广泛或严重的皮肤病变",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_79d0c1497cee",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "全身激素治疗血管炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_ce677a3f2498",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "激素减量过程中加用免疫抑制剂",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_338a4e8114af",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "口服或静脉注射激素治疗严重和进展较快的间质性肺炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9c190e36f9b8",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "免疫抑制剂治疗间质性肺炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_14cde0d87c62",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "抗纤维化药物治疗间质性肺炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_c30d0a371c0f",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "吸入型激素和β2‑肾上腺素受体激动剂用于肺部受累",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_569134720473",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "非甾体抗炎药和羟氯喹治疗关节痛/关节炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_0005d7e5c889",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "短程小剂量激素缓解关节剧痛",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_d5554ad238f7",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "其他免疫抑制剂治疗关节痛/关节炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_cb320e73cbed",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "激素作为相关性肌炎的一线疗法",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_34bed6cb79d3",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "免疫抑制剂联合激素减少不良反应",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_c66149b0a5c0",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "激素治疗肾小管间质性肾炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_8a8dc9fd7123",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "激素静脉冲击治疗膜增生性肾小球肾炎（MPGN）",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_e0f92c2eb7ee",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "环磷酰胺或硫唑嘌呤维持治疗MPGN",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2c4d1bcde838",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "经验性使用大剂量激素冲击治疗神经系统受累",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_5716c3a8b442",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "全身激素联合免疫抑制剂治疗视神经脊髓炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_99eff38b9f8a",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硫唑嘌呤、霉酚酸酯和甲氨蝶呤用于激素减量过程",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c6fc8072796e",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "霉酚酸酯和硫唑嘌呤用于间质性肺炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_9390558f503f",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "吡非尼酮和尼达尼布用于间质性肺炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_81787b52eb53",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "沙丁胺醇用于肺部受累",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_3754524f3f0c",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "非甾体抗炎药、羟氯喹用于关节痛/关节炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_8873c8b47b41",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "小剂量激素用于缓解关节剧痛",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_c69ce83ed96f",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "甲氨蝶呤、来氟米特、艾拉莫德用于关节痛/关节炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_d40551540119",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "甲氨蝶呤用于肌肉受累",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_44183415bd23",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硫唑嘌呤、霉酚酸酯、他克莫司、环孢素A及IVIG用于肌肉受累",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_c203cf520dd6",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "利妥昔单抗用于肌肉受累",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_e3ae2c4292b9",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "激素静脉冲击治疗MPGN",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_f118ad774b88",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "环磷酰胺或硫唑嘌呤维持治疗MPGN",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_724846ee585b",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "血浆置换、利妥昔单抗和霉酚酸酯用于pSS的肾脏受累",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_9cac9179b5ba",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "静脉注射甲泼尼龙用于视神经脊髓炎",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_61eb20f83de5",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "霉酚酸酯或硫唑嘌呤用于视神经脊髓炎维持治疗",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.93
+        }
+      ],
+      "relationships": []
+    },
+    "CH0016": {
+      "entities": [
+        {
+          "id": "TEMP_2d1392a2d9fa",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "冷球蛋白血症",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_343d090e8bc5",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "原发性胆汁性胆管炎",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_3738a9b04681",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "血细胞减少",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7e532b7a8976",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "血小板严重减低",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_db9f3a0a4992",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "全身性血管炎",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2ccd148126e5",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "严重的关节炎",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_2bc08e516a9e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "周围神经病变",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_5856e4d8ba32",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "激素治疗",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_75a721815d89",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "免疫抑制剂治疗",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_38ecbbdbb21e",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "血浆置换",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_2a20dde438ea",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "生物制剂治疗",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_824e0fd78aa1",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "甲泼尼龙冲击治疗（0.5~1g/d）",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_d666066695e1",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "静脉用大剂量免疫球蛋白0.4g·kg-1·d-1，3~5d",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_cfdc477948af",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "熊去氧胆酸治疗",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_4916749f3713",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "抗CD20抗体（利妥昔单抗）进行B细胞清除治疗",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_6054cf34900c",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "抗CD22抗体进行B细胞清除治疗",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0017": {
+      "entities": [
+        {
+          "id": "TEMP_36379d88189b",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "SS",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7dc17f515e86",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "病变局限于唾液腺、泪腺、皮肤黏膜外分泌腺体者",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_246940412d8e",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "有内脏损害者",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_7a0b3b9204e7",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "进行性肺纤维化",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_53a823d53bf0",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "中枢神经病变",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_2e44b33be647",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肾功能不全",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_1a22568d9358",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "合并恶性淋巴瘤者",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_060fe103360b",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "恰当治疗",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.85
+        }
+      ],
+      "relationships": []
+    },
+    "CH0018": {
+      "entities": [
+        {
+          "id": "TEMP_6c9b1786a163",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "干燥综合征",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_af9638059f4d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "口干舌燥",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_ad6dce298cd5",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "龋齿频发",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_666794091b16",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "牙齿破损呈片状脱落",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_53a4121d17cd",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腮腺肿大",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_69676c7fc025",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼睛干涩",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_f59dc4bfc8b9",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "眼泪减少",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_4c1b0b13cf97",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "2016年ACR和EULAR联合制订的SS分类标准",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_30ac8c97e881",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对仅有口干、眼干等干燥症状的患者一般多采用人工泪液、毒蕈碱受体激动剂缓解干燥症状",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_e37be1c6f025",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "有系统受累的患者需酌情加用激素和免疫抑制剂治疗",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_f30a466de82d",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "人工泪液",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b28aaf45a64a",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "毒蕈碱受体激动剂",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ea08b96b0f99",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "激素",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_660206726f84",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "免疫抑制剂",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.94
+        }
+      ],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "原发性干燥综合征诊疗规范",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "原发性干燥综合征诊疗规范",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "一、临床表现",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "（二）系统表现",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "（二）系统表现",
+      "page_start": 2,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "二、辅助检查",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "三、SS口腔科检查",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "四、SS唇腺活检的标准操作",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "五、SS唇腺病理诊断",
+      "page_start": 3,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "六、SS的眼科评估流程",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0011": {
+      "chunk_id": "CH0011",
+      "section_title": "（二）客观检查",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0012": {
+      "chunk_id": "CH0012",
+      "section_title": "七、分类诊断标准",
+      "page_start": 4,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0013": {
+      "chunk_id": "CH0013",
+      "section_title": "七、分类诊断标准",
+      "page_start": 5,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0014": {
+      "chunk_id": "CH0014",
+      "section_title": "八、治疗方案及原则",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0015": {
+      "chunk_id": "CH0015",
+      "section_title": "（三）系统症状的治疗",
+      "page_start": 6,
+      "page_end": 7,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0016": {
+      "chunk_id": "CH0016",
+      "section_title": "（三）系统症状的治疗",
+      "page_start": 7,
+      "page_end": 7,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0017": {
+      "chunk_id": "CH0017",
+      "section_title": "九、预后",
+      "page_start": 7,
+      "page_end": 7,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0018": {
+      "chunk_id": "CH0018",
+      "section_title": "诊疗要点",
+      "page_start": 7,
+      "page_end": 7,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "program": "snorkel",
+    "note": "Snorkel entitybase 复验结果；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态。"
+  }
+}

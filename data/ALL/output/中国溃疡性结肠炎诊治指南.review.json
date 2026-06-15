@@ -1,0 +1,2723 @@
+{
+  "base_info": {
+    "doc_key": "中国溃疡性结肠炎诊治指南",
+    "doc_id": "DOC_03a589adcc82",
+    "source_title": "中国溃疡性结肠炎诊治指南",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\中国溃疡性结肠炎诊治指南.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 4,
+    "total_chunks": 10,
+    "has_kg": true,
+    "kg_status": "matched",
+    "kg_matched_chunks": 10
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "DOC_03a589adcc82__CH0001::Disease::溃疡性结肠炎",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_03a589adcc82:CH0001"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0001::Sub_Disease::溃疡性结肠炎",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_03a589adcc82:CH0001"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0001::Treatment::规范临床行为",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "规范临床行为",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_03a589adcc82:CH0001"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0001::Treatment::深化对溃疡性结肠炎治疗基本原则和进展的认识",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "深化对溃疡性结肠炎治疗基本原则和进展的认识",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_03a589adcc82:CH0001"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0001::Plan::2023年共识修订版指南治疗部分",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "2023年共识修订版指南治疗部分",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_03a589adcc82:CH0001"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_03a589adcc82__CH0001::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0001::Treatment::规范临床行为",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "规范临床行为",
+          "source_id": "DOC_03a589adcc82__CH0001::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0001::Treatment::规范临床行为",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_03a589adcc82:CH0001"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0001::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0001::Treatment::深化对溃疡性结肠炎治疗基本原则和进展的认识",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "深化对溃疡性结肠炎治疗基本原则和进展的认识",
+          "source_id": "DOC_03a589adcc82__CH0001::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0001::Treatment::深化对溃疡性结肠炎治疗基本原则和进展的认识",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_03a589adcc82:CH0001"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0001::Treatment::规范临床行为|implements_by|DOC_03a589adcc82__CH0001::Plan::2023年共识修订版指南治疗部分",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "规范临床行为",
+          "target_entity": "2023年共识修订版指南治疗部分",
+          "source_id": "DOC_03a589adcc82__CH0001::Treatment::规范临床行为",
+          "target_id": "DOC_03a589adcc82__CH0001::Plan::2023年共识修订版指南治疗部分",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_03a589adcc82:CH0001"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0001::Treatment::深化对溃疡性结肠炎治疗基本原则和进展的认识|implements_by|DOC_03a589adcc82__CH0001::Plan::2023年共识修订版指南治疗部分",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "深化对溃疡性结肠炎治疗基本原则和进展的认识",
+          "target_entity": "2023年共识修订版指南治疗部分",
+          "source_id": "DOC_03a589adcc82__CH0001::Treatment::深化对溃疡性结肠炎治疗基本原则和进展的认识",
+          "target_id": "DOC_03a589adcc82__CH0001::Plan::2023年共识修订版指南治疗部分",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_03a589adcc82:CH0001"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0001::Disease::溃疡性结肠炎|has_sub_disease|DOC_03a589adcc82__CH0001::Sub_Disease::溃疡性结肠炎",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "溃疡性结肠炎",
+          "source_id": "DOC_03a589adcc82__CH0001::Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0001::Sub_Disease::溃疡性结肠炎",
+          "chunk_id": "CH0001",
+          "evidence_ids": "DOC_03a589adcc82:CH0001"
+        }
+      ]
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "DOC_03a589adcc82__CH0002::Disease::溃疡性结肠炎",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Symptom::病情易于反复发作",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "病情易于反复发作",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Symptom::合并多种并发症",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "合并多种并发症",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Symptom::肠外表现",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肠外表现",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Symptom::严重影响患者生活质量",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "严重影响患者生活质量",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Treatment::改善治疗策略以增强患者预后",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "改善治疗策略以增强患者预后",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Treatment::明确治疗目标、原则和药物应用",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "明确治疗目标、原则和药物应用",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Treatment::标准化临床行为并落实于临床实践",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "标准化临床行为并落实于临床实践",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Plan::2023版指南制定",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "2023版指南制定",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0002::Symptom::病情易于反复发作",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "病情易于反复发作",
+          "source_id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0002::Symptom::病情易于反复发作",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0002::Symptom::合并多种并发症",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "合并多种并发症",
+          "source_id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0002::Symptom::合并多种并发症",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0002::Symptom::肠外表现",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "肠外表现",
+          "source_id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0002::Symptom::肠外表现",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0002::Symptom::严重影响患者生活质量",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "严重影响患者生活质量",
+          "source_id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0002::Symptom::严重影响患者生活质量",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0002::Treatment::改善治疗策略以增强患者预后",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "改善治疗策略以增强患者预后",
+          "source_id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0002::Treatment::改善治疗策略以增强患者预后",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0002::Treatment::明确治疗目标、原则和药物应用",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "明确治疗目标、原则和药物应用",
+          "source_id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0002::Treatment::明确治疗目标、原则和药物应用",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0002::Treatment::标准化临床行为并落实于临床实践",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "标准化临床行为并落实于临床实践",
+          "source_id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0002::Treatment::标准化临床行为并落实于临床实践",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Treatment::改善治疗策略以增强患者预后|implements_by|DOC_03a589adcc82__CH0002::Plan::2023版指南制定",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "改善治疗策略以增强患者预后",
+          "target_entity": "2023版指南制定",
+          "source_id": "DOC_03a589adcc82__CH0002::Treatment::改善治疗策略以增强患者预后",
+          "target_id": "DOC_03a589adcc82__CH0002::Plan::2023版指南制定",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Treatment::明确治疗目标、原则和药物应用|implements_by|DOC_03a589adcc82__CH0002::Plan::2023版指南制定",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "明确治疗目标、原则和药物应用",
+          "target_entity": "2023版指南制定",
+          "source_id": "DOC_03a589adcc82__CH0002::Treatment::明确治疗目标、原则和药物应用",
+          "target_id": "DOC_03a589adcc82__CH0002::Plan::2023版指南制定",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Treatment::标准化临床行为并落实于临床实践|implements_by|DOC_03a589adcc82__CH0002::Plan::2023版指南制定",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "标准化临床行为并落实于临床实践",
+          "target_entity": "2023版指南制定",
+          "source_id": "DOC_03a589adcc82__CH0002::Treatment::标准化临床行为并落实于临床实践",
+          "target_id": "DOC_03a589adcc82__CH0002::Plan::2023版指南制定",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0002::Disease::溃疡性结肠炎|has_sub_disease|DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "溃疡性结肠炎",
+          "source_id": "DOC_03a589adcc82__CH0002::Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0002::Sub_Disease::溃疡性结肠炎",
+          "chunk_id": "CH0002",
+          "evidence_ids": "DOC_03a589adcc82:CH0002"
+        }
+      ]
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "DOC_03a589adcc82__CH0003::Disease::溃疡性结肠炎",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Sub_Disease::溃疡性结肠炎",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Treatment::提高治疗水平、改善患者预后",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "提高治疗水平、改善患者预后",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Treatment::明确治疗目标、原则及药物应用",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "明确治疗目标、原则及药物应用",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Treatment::规范临床行为",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "规范临床行为",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Treatment::落实到临床实践工作中",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "落实到临床实践工作中",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Plan::2023年指南治疗部分",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "2023年指南治疗部分",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_03a589adcc82__CH0003::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0003::Treatment::提高治疗水平、改善患者预后",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "提高治疗水平、改善患者预后",
+          "source_id": "DOC_03a589adcc82__CH0003::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0003::Treatment::提高治疗水平、改善患者预后",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0003::Treatment::明确治疗目标、原则及药物应用",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "明确治疗目标、原则及药物应用",
+          "source_id": "DOC_03a589adcc82__CH0003::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0003::Treatment::明确治疗目标、原则及药物应用",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0003::Treatment::规范临床行为",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "规范临床行为",
+          "source_id": "DOC_03a589adcc82__CH0003::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0003::Treatment::规范临床行为",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0003::Treatment::落实到临床实践工作中",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "落实到临床实践工作中",
+          "source_id": "DOC_03a589adcc82__CH0003::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0003::Treatment::落实到临床实践工作中",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Treatment::提高治疗水平、改善患者预后|implements_by|DOC_03a589adcc82__CH0003::Plan::2023年指南治疗部分",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "提高治疗水平、改善患者预后",
+          "target_entity": "2023年指南治疗部分",
+          "source_id": "DOC_03a589adcc82__CH0003::Treatment::提高治疗水平、改善患者预后",
+          "target_id": "DOC_03a589adcc82__CH0003::Plan::2023年指南治疗部分",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Treatment::明确治疗目标、原则及药物应用|implements_by|DOC_03a589adcc82__CH0003::Plan::2023年指南治疗部分",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "明确治疗目标、原则及药物应用",
+          "target_entity": "2023年指南治疗部分",
+          "source_id": "DOC_03a589adcc82__CH0003::Treatment::明确治疗目标、原则及药物应用",
+          "target_id": "DOC_03a589adcc82__CH0003::Plan::2023年指南治疗部分",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Treatment::规范临床行为|implements_by|DOC_03a589adcc82__CH0003::Plan::2023年指南治疗部分",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "规范临床行为",
+          "target_entity": "2023年指南治疗部分",
+          "source_id": "DOC_03a589adcc82__CH0003::Treatment::规范临床行为",
+          "target_id": "DOC_03a589adcc82__CH0003::Plan::2023年指南治疗部分",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Treatment::落实到临床实践工作中|implements_by|DOC_03a589adcc82__CH0003::Plan::2023年指南治疗部分",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "落实到临床实践工作中",
+          "target_entity": "2023年指南治疗部分",
+          "source_id": "DOC_03a589adcc82__CH0003::Treatment::落实到临床实践工作中",
+          "target_id": "DOC_03a589adcc82__CH0003::Plan::2023年指南治疗部分",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0003::Disease::溃疡性结肠炎|has_sub_disease|DOC_03a589adcc82__CH0003::Sub_Disease::溃疡性结肠炎",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "溃疡性结肠炎",
+          "source_id": "DOC_03a589adcc82__CH0003::Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0003::Sub_Disease::溃疡性结肠炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "DOC_03a589adcc82:CH0003"
+        }
+      ]
+    },
+    "CH0004": {
+      "entities": [
+        {
+          "id": "DOC_03a589adcc82__CH0004::Disease::溃疡性结肠炎",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "急性重度溃疡性结肠炎",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Symptom::反复发作",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "反复发作",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Symptom::肠外表现",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肠外表现",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Symptom::并发症",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "并发症",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Treatment::分期分度分段的治疗原则",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "分期分度分段的治疗原则",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Treatment::对UC活动度进行轻中度、中重度、急性重度分层治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "对UC活动度进行轻中度、中重度、急性重度分层治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Treatment::高度重视和积极治疗急性重度UC",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "高度重视和积极治疗急性重度UC",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Treatment::重视缓解期维持治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "重视缓解期维持治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Plan::维持治疗",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "维持治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Plan::5-ASA长程治疗",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "5-ASA长程治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0004::Symptom::反复发作",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "急性重度溃疡性结肠炎",
+          "target_entity": "反复发作",
+          "source_id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0004::Symptom::反复发作",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0004::Symptom::肠外表现",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "急性重度溃疡性结肠炎",
+          "target_entity": "肠外表现",
+          "source_id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0004::Symptom::肠外表现",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0004::Symptom::并发症",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "急性重度溃疡性结肠炎",
+          "target_entity": "并发症",
+          "source_id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0004::Symptom::并发症",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0004::Treatment::高度重视和积极治疗急性重度UC",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "急性重度溃疡性结肠炎",
+          "target_entity": "高度重视和积极治疗急性重度UC",
+          "source_id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0004::Treatment::高度重视和积极治疗急性重度UC",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0004::Treatment::对UC活动度进行轻中度、中重度、急性重度分层治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "急性重度溃疡性结肠炎",
+          "target_entity": "对UC活动度进行轻中度、中重度、急性重度分层治疗",
+          "source_id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0004::Treatment::对UC活动度进行轻中度、中重度、急性重度分层治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Treatment::重视缓解期维持治疗|implements_by|DOC_03a589adcc82__CH0004::Plan::维持治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "重视缓解期维持治疗",
+          "target_entity": "维持治疗",
+          "source_id": "DOC_03a589adcc82__CH0004::Treatment::重视缓解期维持治疗",
+          "target_id": "DOC_03a589adcc82__CH0004::Plan::维持治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Treatment::重视缓解期维持治疗|implements_by|DOC_03a589adcc82__CH0004::Plan::5-ASA长程治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "重视缓解期维持治疗",
+          "target_entity": "5-ASA长程治疗",
+          "source_id": "DOC_03a589adcc82__CH0004::Treatment::重视缓解期维持治疗",
+          "target_id": "DOC_03a589adcc82__CH0004::Plan::5-ASA长程治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Disease::溃疡性结肠炎|has_sub_disease|DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "急性重度溃疡性结肠炎",
+          "source_id": "DOC_03a589adcc82__CH0004::Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0004::Treatment::分期分度分段的治疗原则",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "急性重度溃疡性结肠炎",
+          "target_entity": "分期分度分段的治疗原则",
+          "source_id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0004::Treatment::分期分度分段的治疗原则",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0004::Treatment::重视缓解期维持治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "急性重度溃疡性结肠炎",
+          "target_entity": "重视缓解期维持治疗",
+          "source_id": "DOC_03a589adcc82__CH0004::Sub_Disease::急性重度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0004::Treatment::重视缓解期维持治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Treatment::分期分度分段的治疗原则|implements_by|DOC_03a589adcc82__CH0004::Plan::维持治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "分期分度分段的治疗原则",
+          "target_entity": "维持治疗",
+          "source_id": "DOC_03a589adcc82__CH0004::Treatment::分期分度分段的治疗原则",
+          "target_id": "DOC_03a589adcc82__CH0004::Plan::维持治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Treatment::分期分度分段的治疗原则|implements_by|DOC_03a589adcc82__CH0004::Plan::5-ASA长程治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "分期分度分段的治疗原则",
+          "target_entity": "5-ASA长程治疗",
+          "source_id": "DOC_03a589adcc82__CH0004::Treatment::分期分度分段的治疗原则",
+          "target_id": "DOC_03a589adcc82__CH0004::Plan::5-ASA长程治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Treatment::对UC活动度进行轻中度、中重度、急性重度分层治疗|implements_by|DOC_03a589adcc82__CH0004::Plan::维持治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对UC活动度进行轻中度、中重度、急性重度分层治疗",
+          "target_entity": "维持治疗",
+          "source_id": "DOC_03a589adcc82__CH0004::Treatment::对UC活动度进行轻中度、中重度、急性重度分层治疗",
+          "target_id": "DOC_03a589adcc82__CH0004::Plan::维持治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Treatment::对UC活动度进行轻中度、中重度、急性重度分层治疗|implements_by|DOC_03a589adcc82__CH0004::Plan::5-ASA长程治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "对UC活动度进行轻中度、中重度、急性重度分层治疗",
+          "target_entity": "5-ASA长程治疗",
+          "source_id": "DOC_03a589adcc82__CH0004::Treatment::对UC活动度进行轻中度、中重度、急性重度分层治疗",
+          "target_id": "DOC_03a589adcc82__CH0004::Plan::5-ASA长程治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Treatment::高度重视和积极治疗急性重度UC|implements_by|DOC_03a589adcc82__CH0004::Plan::维持治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "高度重视和积极治疗急性重度UC",
+          "target_entity": "维持治疗",
+          "source_id": "DOC_03a589adcc82__CH0004::Treatment::高度重视和积极治疗急性重度UC",
+          "target_id": "DOC_03a589adcc82__CH0004::Plan::维持治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0004::Treatment::高度重视和积极治疗急性重度UC|implements_by|DOC_03a589adcc82__CH0004::Plan::5-ASA长程治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "高度重视和积极治疗急性重度UC",
+          "target_entity": "5-ASA长程治疗",
+          "source_id": "DOC_03a589adcc82__CH0004::Treatment::高度重视和积极治疗急性重度UC",
+          "target_id": "DOC_03a589adcc82__CH0004::Plan::5-ASA长程治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "DOC_03a589adcc82:CH0004"
+        }
+      ]
+    },
+    "CH0005": {
+      "entities": [
+        {
+          "id": "DOC_03a589adcc82__CH0005::Disease::溃疡性结肠炎",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Symptom::直肠出血",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "直肠出血",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Symptom::大便频率增加",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "大便频率增加",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Test::Mayo内镜评分≤1（既往黏膜愈合标准）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "Mayo内镜评分≤1（既往黏膜愈合标准）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Test::Mayo0分 vs Mayo1分（复发风险差异）",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "Mayo0分 vs Mayo1分（复发风险差异）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Test::UCEIS≥7",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "UCEIS≥7",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Test::C反应蛋白升高",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "C反应蛋白升高",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Test::低白蛋白血症",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "低白蛋白血症",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::早期应用生物制剂需匹配高危因素",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "早期应用生物制剂需匹配高危因素",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Plan::短期治疗目标",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "短期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Plan::中期治疗目标",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "中期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Plan::长期治疗目标",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "长期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Plan::高危因素识别",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "高危因素识别",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0005::Symptom::直肠出血",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "直肠出血",
+          "source_id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0005::Symptom::直肠出血",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0005::Symptom::大便频率增加",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "大便频率增加",
+          "source_id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0005::Symptom::大便频率增加",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎|requires_test|DOC_03a589adcc82__CH0005::Test::Mayo内镜评分≤1（既往黏膜愈合标准）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "Mayo内镜评分≤1（既往黏膜愈合标准）",
+          "source_id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0005::Test::Mayo内镜评分≤1（既往黏膜愈合标准）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎|requires_test|DOC_03a589adcc82__CH0005::Test::Mayo0分 vs Mayo1分（复发风险差异）",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "Mayo0分 vs Mayo1分（复发风险差异）",
+          "source_id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0005::Test::Mayo0分 vs Mayo1分（复发风险差异）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎|requires_test|DOC_03a589adcc82__CH0005::Test::UCEIS≥7",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "UCEIS≥7",
+          "source_id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0005::Test::UCEIS≥7",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎|requires_test|DOC_03a589adcc82__CH0005::Test::C反应蛋白升高",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "C反应蛋白升高",
+          "source_id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0005::Test::C反应蛋白升高",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎|requires_test|DOC_03a589adcc82__CH0005::Test::低白蛋白血症",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "低白蛋白血症",
+          "source_id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0005::Test::低白蛋白血症",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0005::Treatment::分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "source_id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0005::Treatment::分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0005::Treatment::不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "source_id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0005::Treatment::不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0005::Treatment::生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "source_id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0005::Treatment::生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0005::Treatment::早期应用生物制剂需匹配高危因素",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "早期应用生物制剂需匹配高危因素",
+          "source_id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0005::Treatment::早期应用生物制剂需匹配高危因素",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）|implements_by|DOC_03a589adcc82__CH0005::Plan::短期治疗目标",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "target_entity": "短期治疗目标",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::短期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）|implements_by|DOC_03a589adcc82__CH0005::Plan::中期治疗目标",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "target_entity": "中期治疗目标",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::中期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）|implements_by|DOC_03a589adcc82__CH0005::Plan::长期治疗目标",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "target_entity": "长期治疗目标",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::长期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::早期应用生物制剂需匹配高危因素|implements_by|DOC_03a589adcc82__CH0005::Plan::高危因素识别",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "早期应用生物制剂需匹配高危因素",
+          "target_entity": "高危因素识别",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::早期应用生物制剂需匹配高危因素",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::高危因素识别",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Disease::溃疡性结肠炎|has_sub_disease|DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "溃疡性结肠炎",
+          "source_id": "DOC_03a589adcc82__CH0005::Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0005::Sub_Disease::溃疡性结肠炎",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）|implements_by|DOC_03a589adcc82__CH0005::Plan::高危因素识别",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "target_entity": "高危因素识别",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::分层设定治疗目标（短期临床应答、中期临床缓解与炎症指标正常化、长期黏膜愈合）",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::高危因素识别",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标|implements_by|DOC_03a589adcc82__CH0005::Plan::短期治疗目标",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "target_entity": "短期治疗目标",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::短期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标|implements_by|DOC_03a589adcc82__CH0005::Plan::中期治疗目标",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "target_entity": "中期治疗目标",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::中期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标|implements_by|DOC_03a589adcc82__CH0005::Plan::长期治疗目标",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "target_entity": "长期治疗目标",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::长期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标|implements_by|DOC_03a589adcc82__CH0005::Plan::高危因素识别",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "target_entity": "高危因素识别",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::不将组织学愈合作为治疗目标，但可作为黏膜愈合的辅助指标",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::高危因素识别",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物|implements_by|DOC_03a589adcc82__CH0005::Plan::短期治疗目标",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "target_entity": "短期治疗目标",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::短期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物|implements_by|DOC_03a589adcc82__CH0005::Plan::中期治疗目标",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "target_entity": "中期治疗目标",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::中期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物|implements_by|DOC_03a589adcc82__CH0005::Plan::长期治疗目标",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "target_entity": "长期治疗目标",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::长期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物|implements_by|DOC_03a589adcc82__CH0005::Plan::高危因素识别",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "target_entity": "高危因素识别",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::生物制剂在轻中度UC美沙拉嗪无效时与糖皮质激素地位等同；中重度UC可考虑作为一线药物",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::高危因素识别",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::早期应用生物制剂需匹配高危因素|implements_by|DOC_03a589adcc82__CH0005::Plan::短期治疗目标",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "早期应用生物制剂需匹配高危因素",
+          "target_entity": "短期治疗目标",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::早期应用生物制剂需匹配高危因素",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::短期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::早期应用生物制剂需匹配高危因素|implements_by|DOC_03a589adcc82__CH0005::Plan::中期治疗目标",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "早期应用生物制剂需匹配高危因素",
+          "target_entity": "中期治疗目标",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::早期应用生物制剂需匹配高危因素",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::中期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0005::Treatment::早期应用生物制剂需匹配高危因素|implements_by|DOC_03a589adcc82__CH0005::Plan::长期治疗目标",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "早期应用生物制剂需匹配高危因素",
+          "target_entity": "长期治疗目标",
+          "source_id": "DOC_03a589adcc82__CH0005::Treatment::早期应用生物制剂需匹配高危因素",
+          "target_id": "DOC_03a589adcc82__CH0005::Plan::长期治疗目标",
+          "chunk_id": "CH0005",
+          "evidence_ids": "DOC_03a589adcc82:CH0005"
+        }
+      ]
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "DOC_03a589adcc82__CH0006::Disease::溃疡性结肠炎",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "轻度活动性溃疡性直肠炎",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Symptom::轻度活动性",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "轻度活动性",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Symptom::直肠炎",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "直肠炎",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Symptom::左半结肠型活动性UC",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "左半结肠型活动性UC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Symptom::全结肠型UC",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "全结肠型UC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Symptom::中度活动性UC",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "中度活动性UC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "局部用药或口服联合局部用药疗效更优",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Plan::轻度(初治)活动性UC诱导缓解",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "轻度(初治)活动性UC诱导缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Plan::轻度活动性溃疡性直肠炎诱导缓解",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "轻度活动性溃疡性直肠炎诱导缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Plan::轻中度左半结肠型活动性UC诱导缓解",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "轻中度左半结肠型活动性UC诱导缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Plan::广泛结肠型轻中度UC诱导缓解",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "广泛结肠型轻中度UC诱导缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Plan::轻度直肠型UC维持缓解",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "轻度直肠型UC维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Plan::轻度左半结肠型UC维持缓解",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "轻度左半结肠型UC维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Plan::轻度全结肠型UC维持缓解",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "轻度全结肠型UC维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::左半结肠型活动性UC",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "左半结肠型活动性UC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::全结肠型UC",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "全结肠型UC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::中度活动性UC",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "中度活动性UC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎|manifests_as|DOC_03a589adcc82__CH0006::Symptom::轻度活动性",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "轻度活动性溃疡性直肠炎",
+          "target_entity": "轻度活动性",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎",
+          "target_id": "DOC_03a589adcc82__CH0006::Symptom::轻度活动性",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎|manifests_as|DOC_03a589adcc82__CH0006::Symptom::直肠炎",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "轻度活动性溃疡性直肠炎",
+          "target_entity": "直肠炎",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎",
+          "target_id": "DOC_03a589adcc82__CH0006::Symptom::直肠炎",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::左半结肠型活动性UC|manifests_as|DOC_03a589adcc82__CH0006::Symptom::左半结肠型活动性UC",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "左半结肠型活动性UC",
+          "target_entity": "左半结肠型活动性UC",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::左半结肠型活动性UC",
+          "target_id": "DOC_03a589adcc82__CH0006::Symptom::左半结肠型活动性UC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::全结肠型UC|manifests_as|DOC_03a589adcc82__CH0006::Symptom::全结肠型UC",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "全结肠型UC",
+          "target_entity": "全结肠型UC",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::全结肠型UC",
+          "target_id": "DOC_03a589adcc82__CH0006::Symptom::全结肠型UC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::中度活动性UC|manifests_as|DOC_03a589adcc82__CH0006::Symptom::中度活动性UC",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "中度活动性UC",
+          "target_entity": "中度活动性UC",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::中度活动性UC",
+          "target_id": "DOC_03a589adcc82__CH0006::Symptom::中度活动性UC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎|follows_treatment|DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "轻度活动性溃疡性直肠炎",
+          "target_entity": "美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎",
+          "target_id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::左半结肠型活动性UC|follows_treatment|DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "左半结肠型活动性UC",
+          "target_entity": "美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::左半结肠型活动性UC",
+          "target_id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::全结肠型UC|follows_treatment|DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "全结肠型UC",
+          "target_entity": "美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::全结肠型UC",
+          "target_id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::中度活动性UC|follows_treatment|DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "中度活动性UC",
+          "target_entity": "美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::中度活动性UC",
+          "target_id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎|follows_treatment|DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "轻度活动性溃疡性直肠炎",
+          "target_entity": "局部用药或口服联合局部用药疗效更优",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎",
+          "target_id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::左半结肠型活动性UC|follows_treatment|DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "左半结肠型活动性UC",
+          "target_entity": "局部用药或口服联合局部用药疗效更优",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::左半结肠型活动性UC",
+          "target_id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解|implements_by|DOC_03a589adcc82__CH0006::Plan::轻度(初治)活动性UC诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_entity": "轻度(初治)活动性UC诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::轻度(初治)活动性UC诱导缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解|implements_by|DOC_03a589adcc82__CH0006::Plan::轻度活动性溃疡性直肠炎诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_entity": "轻度活动性溃疡性直肠炎诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::轻度活动性溃疡性直肠炎诱导缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解|implements_by|DOC_03a589adcc82__CH0006::Plan::轻中度左半结肠型活动性UC诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_entity": "轻中度左半结肠型活动性UC诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::轻中度左半结肠型活动性UC诱导缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解|implements_by|DOC_03a589adcc82__CH0006::Plan::广泛结肠型轻中度UC诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_entity": "广泛结肠型轻中度UC诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::广泛结肠型轻中度UC诱导缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解|implements_by|DOC_03a589adcc82__CH0006::Plan::轻度直肠型UC维持缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_entity": "轻度直肠型UC维持缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::轻度直肠型UC维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解|implements_by|DOC_03a589adcc82__CH0006::Plan::轻度左半结肠型UC维持缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_entity": "轻度左半结肠型UC维持缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::轻度左半结肠型UC维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解|implements_by|DOC_03a589adcc82__CH0006::Plan::轻度全结肠型UC维持缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_entity": "轻度全结肠型UC维持缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::美沙拉嗪一线用于轻中度UC诱导和维持缓解",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::轻度全结肠型UC维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优|implements_by|DOC_03a589adcc82__CH0006::Plan::轻度活动性溃疡性直肠炎诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "局部用药或口服联合局部用药疗效更优",
+          "target_entity": "轻度活动性溃疡性直肠炎诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::轻度活动性溃疡性直肠炎诱导缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优|implements_by|DOC_03a589adcc82__CH0006::Plan::轻中度左半结肠型活动性UC诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "局部用药或口服联合局部用药疗效更优",
+          "target_entity": "轻中度左半结肠型活动性UC诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::轻中度左半结肠型活动性UC诱导缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Disease::溃疡性结肠炎|has_sub_disease|DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "轻度活动性溃疡性直肠炎",
+          "source_id": "DOC_03a589adcc82__CH0006::Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎|manifests_as|DOC_03a589adcc82__CH0006::Symptom::左半结肠型活动性UC",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "轻度活动性溃疡性直肠炎",
+          "target_entity": "左半结肠型活动性UC",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎",
+          "target_id": "DOC_03a589adcc82__CH0006::Symptom::左半结肠型活动性UC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎|manifests_as|DOC_03a589adcc82__CH0006::Symptom::全结肠型UC",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "轻度活动性溃疡性直肠炎",
+          "target_entity": "全结肠型UC",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎",
+          "target_id": "DOC_03a589adcc82__CH0006::Symptom::全结肠型UC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎|manifests_as|DOC_03a589adcc82__CH0006::Symptom::中度活动性UC",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "轻度活动性溃疡性直肠炎",
+          "target_entity": "中度活动性UC",
+          "source_id": "DOC_03a589adcc82__CH0006::Sub_Disease::轻度活动性溃疡性直肠炎",
+          "target_id": "DOC_03a589adcc82__CH0006::Symptom::中度活动性UC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优|implements_by|DOC_03a589adcc82__CH0006::Plan::轻度(初治)活动性UC诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "局部用药或口服联合局部用药疗效更优",
+          "target_entity": "轻度(初治)活动性UC诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::轻度(初治)活动性UC诱导缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优|implements_by|DOC_03a589adcc82__CH0006::Plan::广泛结肠型轻中度UC诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "局部用药或口服联合局部用药疗效更优",
+          "target_entity": "广泛结肠型轻中度UC诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::广泛结肠型轻中度UC诱导缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优|implements_by|DOC_03a589adcc82__CH0006::Plan::轻度直肠型UC维持缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "局部用药或口服联合局部用药疗效更优",
+          "target_entity": "轻度直肠型UC维持缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::轻度直肠型UC维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优|implements_by|DOC_03a589adcc82__CH0006::Plan::轻度左半结肠型UC维持缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "局部用药或口服联合局部用药疗效更优",
+          "target_entity": "轻度左半结肠型UC维持缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::轻度左半结肠型UC维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优|implements_by|DOC_03a589adcc82__CH0006::Plan::轻度全结肠型UC维持缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "局部用药或口服联合局部用药疗效更优",
+          "target_entity": "轻度全结肠型UC维持缓解",
+          "source_id": "DOC_03a589adcc82__CH0006::Treatment::局部用药或口服联合局部用药疗效更优",
+          "target_id": "DOC_03a589adcc82__CH0006::Plan::轻度全结肠型UC维持缓解",
+          "chunk_id": "CH0006",
+          "evidence_ids": "DOC_03a589adcc82:CH0006"
+        }
+      ]
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "DOC_03a589adcc82__CH0007::Disease::溃疡性结肠炎",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "轻中度溃疡性结肠炎",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Symptom::排便频率增加",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "排便频率增加",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Symptom::直肠出血",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "直肠出血",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::顿服与分次服用5-ASA疗效相同",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "顿服与分次服用5-ASA疗效相同",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Plan::高剂量口服5-ASA维持治疗",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "高剂量口服5-ASA维持治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Plan::4.8g/d口服5-ASA诱导治疗",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "4.8g/d口服5-ASA诱导治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Plan::2.4g/d口服5-ASA诱导治疗",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "2.4g/d口服5-ASA诱导治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Plan::4g/d 5-ASA灌肠治疗",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "4g/d 5-ASA灌肠治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0007::Symptom::排便频率增加",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "轻中度溃疡性结肠炎",
+          "target_entity": "排便频率增加",
+          "source_id": "DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0007::Symptom::排便频率增加",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0007::Symptom::直肠出血",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "轻中度溃疡性结肠炎",
+          "target_entity": "直肠出血",
+          "source_id": "DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0007::Symptom::直肠出血",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0007::Treatment::依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "轻中度溃疡性结肠炎",
+          "target_entity": "依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "source_id": "DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0007::Treatment::依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0007::Treatment::足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "轻中度溃疡性结肠炎",
+          "target_entity": "足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0007::Treatment::足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0007::Treatment::顿服与分次服用5-ASA疗效相同",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "轻中度溃疡性结肠炎",
+          "target_entity": "顿服与分次服用5-ASA疗效相同",
+          "source_id": "DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0007::Treatment::顿服与分次服用5-ASA疗效相同",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::依据剂量-疗效正比关系优化5-ASA治疗方案|implements_by|DOC_03a589adcc82__CH0007::Plan::高剂量口服5-ASA维持治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "target_entity": "高剂量口服5-ASA维持治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Treatment::依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "target_id": "DOC_03a589adcc82__CH0007::Plan::高剂量口服5-ASA维持治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::依据剂量-疗效正比关系优化5-ASA治疗方案|implements_by|DOC_03a589adcc82__CH0007::Plan::4.8g/d口服5-ASA诱导治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "target_entity": "4.8g/d口服5-ASA诱导治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Treatment::依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "target_id": "DOC_03a589adcc82__CH0007::Plan::4.8g/d口服5-ASA诱导治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::依据剂量-疗效正比关系优化5-ASA治疗方案|implements_by|DOC_03a589adcc82__CH0007::Plan::2.4g/d口服5-ASA诱导治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "target_entity": "2.4g/d口服5-ASA诱导治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Treatment::依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "target_id": "DOC_03a589adcc82__CH0007::Plan::2.4g/d口服5-ASA诱导治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::依据剂量-疗效正比关系优化5-ASA治疗方案|implements_by|DOC_03a589adcc82__CH0007::Plan::4g/d 5-ASA灌肠治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "target_entity": "4g/d 5-ASA灌肠治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Treatment::依据剂量-疗效正比关系优化5-ASA治疗方案",
+          "target_id": "DOC_03a589adcc82__CH0007::Plan::4g/d 5-ASA灌肠治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Disease::溃疡性结肠炎|has_sub_disease|DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "轻中度溃疡性结肠炎",
+          "source_id": "DOC_03a589adcc82__CH0007::Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0007::Sub_Disease::轻中度溃疡性结肠炎",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗|implements_by|DOC_03a589adcc82__CH0007::Plan::高剂量口服5-ASA维持治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "target_entity": "高剂量口服5-ASA维持治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Treatment::足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "target_id": "DOC_03a589adcc82__CH0007::Plan::高剂量口服5-ASA维持治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗|implements_by|DOC_03a589adcc82__CH0007::Plan::4.8g/d口服5-ASA诱导治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "target_entity": "4.8g/d口服5-ASA诱导治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Treatment::足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "target_id": "DOC_03a589adcc82__CH0007::Plan::4.8g/d口服5-ASA诱导治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗|implements_by|DOC_03a589adcc82__CH0007::Plan::2.4g/d口服5-ASA诱导治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "target_entity": "2.4g/d口服5-ASA诱导治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Treatment::足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "target_id": "DOC_03a589adcc82__CH0007::Plan::2.4g/d口服5-ASA诱导治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗|implements_by|DOC_03a589adcc82__CH0007::Plan::4g/d 5-ASA灌肠治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "target_entity": "4g/d 5-ASA灌肠治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Treatment::足量美沙拉嗪治疗2~4周后症状控制不佳者应及时转换治疗",
+          "target_id": "DOC_03a589adcc82__CH0007::Plan::4g/d 5-ASA灌肠治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::顿服与分次服用5-ASA疗效相同|implements_by|DOC_03a589adcc82__CH0007::Plan::高剂量口服5-ASA维持治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "顿服与分次服用5-ASA疗效相同",
+          "target_entity": "高剂量口服5-ASA维持治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Treatment::顿服与分次服用5-ASA疗效相同",
+          "target_id": "DOC_03a589adcc82__CH0007::Plan::高剂量口服5-ASA维持治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::顿服与分次服用5-ASA疗效相同|implements_by|DOC_03a589adcc82__CH0007::Plan::4.8g/d口服5-ASA诱导治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "顿服与分次服用5-ASA疗效相同",
+          "target_entity": "4.8g/d口服5-ASA诱导治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Treatment::顿服与分次服用5-ASA疗效相同",
+          "target_id": "DOC_03a589adcc82__CH0007::Plan::4.8g/d口服5-ASA诱导治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::顿服与分次服用5-ASA疗效相同|implements_by|DOC_03a589adcc82__CH0007::Plan::2.4g/d口服5-ASA诱导治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "顿服与分次服用5-ASA疗效相同",
+          "target_entity": "2.4g/d口服5-ASA诱导治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Treatment::顿服与分次服用5-ASA疗效相同",
+          "target_id": "DOC_03a589adcc82__CH0007::Plan::2.4g/d口服5-ASA诱导治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0007::Treatment::顿服与分次服用5-ASA疗效相同|implements_by|DOC_03a589adcc82__CH0007::Plan::4g/d 5-ASA灌肠治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "顿服与分次服用5-ASA疗效相同",
+          "target_entity": "4g/d 5-ASA灌肠治疗",
+          "source_id": "DOC_03a589adcc82__CH0007::Treatment::顿服与分次服用5-ASA疗效相同",
+          "target_id": "DOC_03a589adcc82__CH0007::Plan::4g/d 5-ASA灌肠治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "DOC_03a589adcc82:CH0007"
+        }
+      ]
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "DOC_03a589adcc82__CH0008::Disease::溃疡性结肠炎",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "活动性溃疡性结肠炎",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Symptom::急性重度",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "急性重度",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Symptom::轻中度活动性",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "轻中度活动性",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Symptom::中度活动性",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "中度活动性",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Symptom::激素依赖",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "激素依赖",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Symptom::激素抵抗",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "激素抵抗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::糖皮质激素一线诱导缓解",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "糖皮质激素一线诱导缓解",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::生物制剂早期应用",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "生物制剂早期应用",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::中药作为5-ASA无效或不耐受时的替代选择",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "中药作为5-ASA无效或不耐受时的替代选择",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::中药联合灌肠用于左半结肠型",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "中药联合灌肠用于左半结肠型",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Plan::糖皮质激素诱导缓解",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "糖皮质激素诱导缓解",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Plan::生物制剂诱导缓解",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "生物制剂诱导缓解",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Plan::中药治疗",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "中药治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0008::Symptom::急性重度",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "活动性溃疡性结肠炎",
+          "target_entity": "急性重度",
+          "source_id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0008::Symptom::急性重度",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0008::Symptom::轻中度活动性",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "活动性溃疡性结肠炎",
+          "target_entity": "轻中度活动性",
+          "source_id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0008::Symptom::轻中度活动性",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0008::Symptom::中度活动性",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "活动性溃疡性结肠炎",
+          "target_entity": "中度活动性",
+          "source_id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0008::Symptom::中度活动性",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0008::Symptom::激素依赖",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "活动性溃疡性结肠炎",
+          "target_entity": "激素依赖",
+          "source_id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0008::Symptom::激素依赖",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0008::Symptom::激素抵抗",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "活动性溃疡性结肠炎",
+          "target_entity": "激素抵抗",
+          "source_id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0008::Symptom::激素抵抗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0008::Treatment::糖皮质激素一线诱导缓解",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "活动性溃疡性结肠炎",
+          "target_entity": "糖皮质激素一线诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0008::Treatment::糖皮质激素一线诱导缓解",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0008::Treatment::生物制剂早期应用",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "活动性溃疡性结肠炎",
+          "target_entity": "生物制剂早期应用",
+          "source_id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0008::Treatment::生物制剂早期应用",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0008::Treatment::中药作为5-ASA无效或不耐受时的替代选择",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "活动性溃疡性结肠炎",
+          "target_entity": "中药作为5-ASA无效或不耐受时的替代选择",
+          "source_id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0008::Treatment::中药作为5-ASA无效或不耐受时的替代选择",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0008::Treatment::中药联合灌肠用于左半结肠型",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "活动性溃疡性结肠炎",
+          "target_entity": "中药联合灌肠用于左半结肠型",
+          "source_id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0008::Treatment::中药联合灌肠用于左半结肠型",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::糖皮质激素一线诱导缓解|implements_by|DOC_03a589adcc82__CH0008::Plan::糖皮质激素诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "糖皮质激素一线诱导缓解",
+          "target_entity": "糖皮质激素诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0008::Treatment::糖皮质激素一线诱导缓解",
+          "target_id": "DOC_03a589adcc82__CH0008::Plan::糖皮质激素诱导缓解",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::生物制剂早期应用|implements_by|DOC_03a589adcc82__CH0008::Plan::生物制剂诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "生物制剂早期应用",
+          "target_entity": "生物制剂诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0008::Treatment::生物制剂早期应用",
+          "target_id": "DOC_03a589adcc82__CH0008::Plan::生物制剂诱导缓解",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::中药作为5-ASA无效或不耐受时的替代选择|implements_by|DOC_03a589adcc82__CH0008::Plan::中药治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "中药作为5-ASA无效或不耐受时的替代选择",
+          "target_entity": "中药治疗",
+          "source_id": "DOC_03a589adcc82__CH0008::Treatment::中药作为5-ASA无效或不耐受时的替代选择",
+          "target_id": "DOC_03a589adcc82__CH0008::Plan::中药治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::中药联合灌肠用于左半结肠型|implements_by|DOC_03a589adcc82__CH0008::Plan::中药治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "中药联合灌肠用于左半结肠型",
+          "target_entity": "中药治疗",
+          "source_id": "DOC_03a589adcc82__CH0008::Treatment::中药联合灌肠用于左半结肠型",
+          "target_id": "DOC_03a589adcc82__CH0008::Plan::中药治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Disease::溃疡性结肠炎|has_sub_disease|DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "活动性溃疡性结肠炎",
+          "source_id": "DOC_03a589adcc82__CH0008::Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0008::Sub_Disease::活动性溃疡性结肠炎",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::糖皮质激素一线诱导缓解|implements_by|DOC_03a589adcc82__CH0008::Plan::生物制剂诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "糖皮质激素一线诱导缓解",
+          "target_entity": "生物制剂诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0008::Treatment::糖皮质激素一线诱导缓解",
+          "target_id": "DOC_03a589adcc82__CH0008::Plan::生物制剂诱导缓解",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::糖皮质激素一线诱导缓解|implements_by|DOC_03a589adcc82__CH0008::Plan::中药治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "糖皮质激素一线诱导缓解",
+          "target_entity": "中药治疗",
+          "source_id": "DOC_03a589adcc82__CH0008::Treatment::糖皮质激素一线诱导缓解",
+          "target_id": "DOC_03a589adcc82__CH0008::Plan::中药治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::生物制剂早期应用|implements_by|DOC_03a589adcc82__CH0008::Plan::糖皮质激素诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "生物制剂早期应用",
+          "target_entity": "糖皮质激素诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0008::Treatment::生物制剂早期应用",
+          "target_id": "DOC_03a589adcc82__CH0008::Plan::糖皮质激素诱导缓解",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::生物制剂早期应用|implements_by|DOC_03a589adcc82__CH0008::Plan::中药治疗",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "生物制剂早期应用",
+          "target_entity": "中药治疗",
+          "source_id": "DOC_03a589adcc82__CH0008::Treatment::生物制剂早期应用",
+          "target_id": "DOC_03a589adcc82__CH0008::Plan::中药治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::中药作为5-ASA无效或不耐受时的替代选择|implements_by|DOC_03a589adcc82__CH0008::Plan::糖皮质激素诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "中药作为5-ASA无效或不耐受时的替代选择",
+          "target_entity": "糖皮质激素诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0008::Treatment::中药作为5-ASA无效或不耐受时的替代选择",
+          "target_id": "DOC_03a589adcc82__CH0008::Plan::糖皮质激素诱导缓解",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::中药作为5-ASA无效或不耐受时的替代选择|implements_by|DOC_03a589adcc82__CH0008::Plan::生物制剂诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "中药作为5-ASA无效或不耐受时的替代选择",
+          "target_entity": "生物制剂诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0008::Treatment::中药作为5-ASA无效或不耐受时的替代选择",
+          "target_id": "DOC_03a589adcc82__CH0008::Plan::生物制剂诱导缓解",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::中药联合灌肠用于左半结肠型|implements_by|DOC_03a589adcc82__CH0008::Plan::糖皮质激素诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "中药联合灌肠用于左半结肠型",
+          "target_entity": "糖皮质激素诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0008::Treatment::中药联合灌肠用于左半结肠型",
+          "target_id": "DOC_03a589adcc82__CH0008::Plan::糖皮质激素诱导缓解",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0008::Treatment::中药联合灌肠用于左半结肠型|implements_by|DOC_03a589adcc82__CH0008::Plan::生物制剂诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "中药联合灌肠用于左半结肠型",
+          "target_entity": "生物制剂诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0008::Treatment::中药联合灌肠用于左半结肠型",
+          "target_id": "DOC_03a589adcc82__CH0008::Plan::生物制剂诱导缓解",
+          "chunk_id": "CH0008",
+          "evidence_ids": "DOC_03a589adcc82:CH0008"
+        }
+      ]
+    },
+    "CH0009": {
+      "entities": [
+        {
+          "id": "DOC_03a589adcc82__CH0009::Disease::溃疡性结肠炎",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_03a589adcc82:CH0009"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0009::Sub_Disease::活动性轻中度溃疡性结肠炎",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "活动性轻中度溃疡性结肠炎",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_03a589adcc82:CH0009"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0009::Treatment::不常规推荐粪菌移植用于轻中度溃疡性结肠炎",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "不常规推荐粪菌移植用于轻中度溃疡性结肠炎",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_03a589adcc82:CH0009"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0009::Treatment::粪菌移植对诱导活动性轻中度溃疡性结肠炎缓解有一定治疗前景",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "粪菌移植对诱导活动性轻中度溃疡性结肠炎缓解有一定治疗前景",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_03a589adcc82:CH0009"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0009::Plan::粪菌移植",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "粪菌移植",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_03a589adcc82:CH0009"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_03a589adcc82__CH0009::Sub_Disease::活动性轻中度溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0009::Treatment::不常规推荐粪菌移植用于轻中度溃疡性结肠炎",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "活动性轻中度溃疡性结肠炎",
+          "target_entity": "不常规推荐粪菌移植用于轻中度溃疡性结肠炎",
+          "source_id": "DOC_03a589adcc82__CH0009::Sub_Disease::活动性轻中度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0009::Treatment::不常规推荐粪菌移植用于轻中度溃疡性结肠炎",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_03a589adcc82:CH0009"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0009::Sub_Disease::活动性轻中度溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0009::Treatment::粪菌移植对诱导活动性轻中度溃疡性结肠炎缓解有一定治疗前景",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "活动性轻中度溃疡性结肠炎",
+          "target_entity": "粪菌移植对诱导活动性轻中度溃疡性结肠炎缓解有一定治疗前景",
+          "source_id": "DOC_03a589adcc82__CH0009::Sub_Disease::活动性轻中度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0009::Treatment::粪菌移植对诱导活动性轻中度溃疡性结肠炎缓解有一定治疗前景",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_03a589adcc82:CH0009"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0009::Treatment::不常规推荐粪菌移植用于轻中度溃疡性结肠炎|implements_by|DOC_03a589adcc82__CH0009::Plan::粪菌移植",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "不常规推荐粪菌移植用于轻中度溃疡性结肠炎",
+          "target_entity": "粪菌移植",
+          "source_id": "DOC_03a589adcc82__CH0009::Treatment::不常规推荐粪菌移植用于轻中度溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0009::Plan::粪菌移植",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_03a589adcc82:CH0009"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0009::Treatment::粪菌移植对诱导活动性轻中度溃疡性结肠炎缓解有一定治疗前景|implements_by|DOC_03a589adcc82__CH0009::Plan::粪菌移植",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "粪菌移植对诱导活动性轻中度溃疡性结肠炎缓解有一定治疗前景",
+          "target_entity": "粪菌移植",
+          "source_id": "DOC_03a589adcc82__CH0009::Treatment::粪菌移植对诱导活动性轻中度溃疡性结肠炎缓解有一定治疗前景",
+          "target_id": "DOC_03a589adcc82__CH0009::Plan::粪菌移植",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_03a589adcc82:CH0009"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0009::Disease::溃疡性结肠炎|has_sub_disease|DOC_03a589adcc82__CH0009::Sub_Disease::活动性轻中度溃疡性结肠炎",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "活动性轻中度溃疡性结肠炎",
+          "source_id": "DOC_03a589adcc82__CH0009::Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0009::Sub_Disease::活动性轻中度溃疡性结肠炎",
+          "chunk_id": "CH0009",
+          "evidence_ids": "DOC_03a589adcc82:CH0009"
+        }
+      ]
+    },
+    "CH0010": {
+      "entities": [
+        {
+          "id": "DOC_03a589adcc82__CH0010::Disease::溃疡性结肠炎",
+          "entity_type": "疾病",
+          "raw_label": "Disease",
+          "entity_name": "溃疡性结肠炎",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎",
+          "entity_type": "确诊疾病",
+          "raw_label": "Sub_Disease",
+          "entity_name": "轻中度活动性溃疡性结肠炎",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Symptom::肠道症状相对较轻",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "肠道症状相对较轻",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Symptom::反应蛋白增高",
+          "entity_type": "临床表现",
+          "raw_label": "Symptom",
+          "entity_name": "反应蛋白增高",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Test::C反应蛋白增高",
+          "entity_type": "指标",
+          "raw_label": "Test",
+          "entity_name": "C反应蛋白增高",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Treatment::个体化治疗原则",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "个体化治疗原则",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Treatment::辨证选择治疗方案和手段",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "辨证选择治疗方案和手段",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Treatment::避免对非肠道原因导致的炎症标志物升高过度强化免疫抑制治疗",
+          "entity_type": "治疗原则",
+          "raw_label": "Treatment",
+          "entity_name": "避免对非肠道原因导致的炎症标志物升高过度强化免疫抑制治疗",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Plan::MMX美沙拉嗪诱导缓解",
+          "entity_type": "治疗方案",
+          "raw_label": "Plan",
+          "entity_name": "MMX美沙拉嗪诱导缓解",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        }
+      ],
+      "relationships": [
+        {
+          "id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0010::Symptom::肠道症状相对较轻",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "轻中度活动性溃疡性结肠炎",
+          "target_entity": "肠道症状相对较轻",
+          "source_id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0010::Symptom::肠道症状相对较轻",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎|manifests_as|DOC_03a589adcc82__CH0010::Symptom::反应蛋白增高",
+          "relation_type": "manifests_as",
+          "relation_type_cn": "表现为",
+          "source_entity": "轻中度活动性溃疡性结肠炎",
+          "target_entity": "反应蛋白增高",
+          "source_id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0010::Symptom::反应蛋白增高",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎|requires_test|DOC_03a589adcc82__CH0010::Test::C反应蛋白增高",
+          "relation_type": "requires_test",
+          "relation_type_cn": "需要指标",
+          "source_entity": "轻中度活动性溃疡性结肠炎",
+          "target_entity": "C反应蛋白增高",
+          "source_id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0010::Test::C反应蛋白增高",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0010::Treatment::个体化治疗原则",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "轻中度活动性溃疡性结肠炎",
+          "target_entity": "个体化治疗原则",
+          "source_id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0010::Treatment::个体化治疗原则",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0010::Treatment::辨证选择治疗方案和手段",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "轻中度活动性溃疡性结肠炎",
+          "target_entity": "辨证选择治疗方案和手段",
+          "source_id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0010::Treatment::辨证选择治疗方案和手段",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎|follows_treatment|DOC_03a589adcc82__CH0010::Treatment::避免对非肠道原因导致的炎症标志物升高过度强化免疫抑制治疗",
+          "relation_type": "follows_treatment",
+          "relation_type_cn": "确定原则",
+          "source_entity": "轻中度活动性溃疡性结肠炎",
+          "target_entity": "避免对非肠道原因导致的炎症标志物升高过度强化免疫抑制治疗",
+          "source_id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0010::Treatment::避免对非肠道原因导致的炎症标志物升高过度强化免疫抑制治疗",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Treatment::个体化治疗原则|implements_by|DOC_03a589adcc82__CH0010::Plan::MMX美沙拉嗪诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "个体化治疗原则",
+          "target_entity": "MMX美沙拉嗪诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0010::Treatment::个体化治疗原则",
+          "target_id": "DOC_03a589adcc82__CH0010::Plan::MMX美沙拉嗪诱导缓解",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Treatment::辨证选择治疗方案和手段|implements_by|DOC_03a589adcc82__CH0010::Plan::MMX美沙拉嗪诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "辨证选择治疗方案和手段",
+          "target_entity": "MMX美沙拉嗪诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0010::Treatment::辨证选择治疗方案和手段",
+          "target_id": "DOC_03a589adcc82__CH0010::Plan::MMX美沙拉嗪诱导缓解",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Disease::溃疡性结肠炎|has_sub_disease|DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎",
+          "relation_type": "has_sub_disease",
+          "relation_type_cn": "包含分型",
+          "source_entity": "溃疡性结肠炎",
+          "target_entity": "轻中度活动性溃疡性结肠炎",
+          "source_id": "DOC_03a589adcc82__CH0010::Disease::溃疡性结肠炎",
+          "target_id": "DOC_03a589adcc82__CH0010::Sub_Disease::轻中度活动性溃疡性结肠炎",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        },
+        {
+          "id": "DOC_03a589adcc82__CH0010::Treatment::避免对非肠道原因导致的炎症标志物升高过度强化免疫抑制治疗|implements_by|DOC_03a589adcc82__CH0010::Plan::MMX美沙拉嗪诱导缓解",
+          "relation_type": "implements_by",
+          "relation_type_cn": "落实方案",
+          "source_entity": "避免对非肠道原因导致的炎症标志物升高过度强化免疫抑制治疗",
+          "target_entity": "MMX美沙拉嗪诱导缓解",
+          "source_id": "DOC_03a589adcc82__CH0010::Treatment::避免对非肠道原因导致的炎症标志物升高过度强化免疫抑制治疗",
+          "target_id": "DOC_03a589adcc82__CH0010::Plan::MMX美沙拉嗪诱导缓解",
+          "chunk_id": "CH0010",
+          "evidence_ids": "DOC_03a589adcc82:CH0010"
+        }
+      ]
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "前言/概述",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "Abstract",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "Abstract",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "12023年《指南》和2018年《共识》治疗部分比较",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "1.2治疗目标更加严谨",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "2.1.1明确提出了诱导和维持缓解的剂量及用法UC",
+      "page_start": 2,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "2.1.2明确提出了剂量和疗效关系来指导治疗优",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "2.2糖皮质激素在治疗中的地位和作用",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "2.5粪菌移植在治疗中的地位和作用",
+      "page_start": 3,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "2.5粪菌移植在治疗中的地位和作用",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "pass",
+      "error",
+      "unreviewed"
+    ],
+    "note": "base_info 记录 PDF 级基础信息；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态和备注。"
+  }
+}

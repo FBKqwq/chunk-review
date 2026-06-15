@@ -1,0 +1,195 @@
+{
+  "base_info": {
+    "doc_key": "中国Castleman病诊断与治疗指南（2025年版）",
+    "doc_id": "DOC_d5b6dae0a94b",
+    "source_title": "中国Castleman病诊断与治疗指南（2025年版）",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\中国Castleman病诊断与治疗指南（2025年版）.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 7,
+    "total_chunks": 13,
+    "has_kg": false,
+    "kg_status": "missing",
+    "kg_matched_chunks": 0
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0002": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0004": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0005": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0007": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0008": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0009": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0010": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0011": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0012": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0013": {
+      "entities": [],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "前言/概述",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "前言/概述",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "一、定义",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "一、定义",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "一、定义",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "二、CD的临床分型",
+      "page_start": 2,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "三、CD的诊断标准",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "四,CD的治疗",
+      "page_start": 3,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "四,CD的治疗",
+      "page_start": 4,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "四,CD的治疗",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0011": {
+      "chunk_id": "CH0011",
+      "section_title": "四,CD的治疗",
+      "page_start": 5,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0012": {
+      "chunk_id": "CH0012",
+      "section_title": "四,CD的治疗",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0013": {
+      "chunk_id": "CH0013",
+      "section_title": "四、随访",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "note": "base_info 记录 PDF 级基础信息；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态和备注；status 中 0=通过，1=解析错误。"
+  }
+}

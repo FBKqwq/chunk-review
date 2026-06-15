@@ -1,0 +1,42 @@
+{
+  "base_info": {
+    "doc_key": "2014 成人感染性心内膜炎预防、诊断和治疗专家共识",
+    "doc_id": "DOC_17b6ab0d00a2",
+    "source_title": "2014 成人感染性心内膜炎预防、诊断和治疗专家共识",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\2014 成人感染性心内膜炎预防、诊断和治疗专家共识.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 11,
+    "total_chunks": 0,
+    "concatenated_chunk_count": 0,
+    "has_llm": false,
+    "llm_status": "missing",
+    "program": "llm",
+    "review_mode": "document"
+  },
+  "extractions": {
+    "__FULL_DOCUMENT__": {
+      "entities": [],
+      "relationships": []
+    }
+  },
+  "review": {
+    "__FULL_DOCUMENT__": {
+      "chunk_id": "__FULL_DOCUMENT__",
+      "section_title": "全文",
+      "page_start": null,
+      "page_end": null,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "program": "llm",
+    "note": "LLM 全文级复验结果；extractions 按文档存储实体和关系；review 存储整份 PDF 复验状态。"
+  }
+}

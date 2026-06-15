@@ -1,0 +1,1338 @@
+{
+  "base_info": {
+    "doc_key": "中国中性粒细胞缺乏伴发热患者抗菌药物临床应用指南（2012）",
+    "doc_id": "DOC_73487dbbec74",
+    "source_title": "中国中性粒细胞缺乏伴发热患者抗菌药物临床应用指南（2012）",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\中国中性粒细胞缺乏伴发热患者抗菌药物临床应用指南（2012）.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 4,
+    "total_chunks": 10,
+    "has_entitybase": true,
+    "entitybase_status": "matched",
+    "entitybase_matched_chunks": 10,
+    "program": "snorkel"
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "TEMP_5ab9682535f2",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "中性粒细胞缺乏",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_92583967a133",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "中性粒细胞缺乏伴发热",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_7b6df3232876",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.92
+        }
+      ],
+      "relationships": []
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "TEMP_5cbe469878da",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "中性粒细胞缺乏伴发热",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8b2de2809306",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "中性粒细胞缺乏伴感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_0e6b8f51def9",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "血流感染",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_cc87f958d7a8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_ac4d28345f43",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "感染症状不典型",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_47960c842a98",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "外周血WBC",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_ab09e98921f4",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "中性粒细胞缺乏",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_5e92aee333ce",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "化疗",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_6d12983f4e2e",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "黏膜屏障受损",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_75077a74c70d",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "大肠埃希菌",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_e4a2866ff91f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "肺炎克雷伯菌",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_1c4fdd57b6d6",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "铜绿假单胞菌",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_a7a560d051d2",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "鲍曼不动杆菌",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_268dc6628f51",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "嗜麦芽窄食单胞菌",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_cb29b5d00187",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "凝固酶阴性葡萄球菌",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_b7f46f10b469",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "金黄色葡萄球菌",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_da72309ff127",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "肠球菌",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_03a592d09eb2",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "链球菌属",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_67c8f3945868",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "ESBL阳性大肠埃希菌",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ed45426021c2",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "ESBL阳性克雷伯菌属",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a8147a1925e3",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "MRSA",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_94acc5b7a179",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "VRE",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        }
+      ],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "TEMP_adee4aeeba8f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d1f2b578ece0",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "病原学阳性培养",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_6f7d22b01051",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对发热伴中性粒细胞缺乏的患者在出现临床表现后尽早应用经验性抗菌药物的治疗",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_9b727891ddd0",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "中性粒细胞缺乏",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    },
+    "CH0004": {
+      "entities": [
+        {
+          "id": "TEMP_f216fb98f87d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0005": {
+      "entities": [
+        {
+          "id": "TEMP_d4df41892111",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "中性粒细胞缺乏伴发热",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_65215299bfad",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "高危患者",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_7b5917ba7590",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "低危患者",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_033e4b54a0bc",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_a904712bee15",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "血流动力学不稳定",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_65eea839bab3",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "口腔或胃肠道黏膜炎",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_b4c9c3d3664f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "吞咽困难",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_5b655a8d101f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹痛",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9a69047ebc57",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "恶心",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_cb6f3bbadf52",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "呕吐",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d44eb5eaf8f9",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹泻",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4b1e0d6251f0",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "新发的神经系统改变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_b9fd27ddab8d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "精神症状",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_b489952fefe8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "新发的肺部浸润",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_34e5cae7ac0a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "低氧血症",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_38d8b91969b7",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "ANC",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_bc40eec7e993",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "转氨酶水平",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_2a8858149478",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肌酐清除率",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_ab4bae3305b4",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "危险分层作为中性粒细胞缺乏伴发热患者治疗开始前必要的工作",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_8d9cf476de91",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "高危患者应首选住院接受经验性静脉抗菌药物治疗",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_a23286768bbd",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "中性粒细胞缺乏",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.98
+        }
+      ],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "TEMP_b898789a3e01",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e0f88cdcd0da",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹泻",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_48641fc28947",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "尿路感染的症状或体征",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_a41c4f46eaee",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "咯痰",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_59900641cf1d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "呼吸道症状和体征",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_6ebf49f4de28",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "完整血细胞计数（ＣＢＣ）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_50a3983799c2",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血肌酐",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_62aa45d8ede5",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "尿素氮",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2379c9fc4712",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "电解质",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_25272d66e29a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肝脏转氨酶",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2a2213880d80",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "总胆红素",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c198d6ca2e30",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血培养",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_881163b55eaf",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "粪便培养",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_306aa41d44b6",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "艰难梭菌培养或毒素检测",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_61b214491171",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "中段尿定量培养",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9bc835440432",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "痰标本常规涂片检查",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_bc665e73c041",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "痰标本细菌培养",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_729909b9581a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "胸部ＣＴ检查",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a28bfb3569dc",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "脑脊液培养",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_3cbdfc6b1ddf",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "皮肤穿刺活检",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_44f82c969498",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "初始经验性抗菌药物治疗",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_f5a943a9d540",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "有效的经验性抗菌药物治疗需要选择具有杀菌活性、抗假单胞菌活性和良好安全性的药物",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2edbc8a4465c",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "每３ｄ进行复查",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_d4c5a22323d7",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "每间隔２ｄ进行１次重复培养",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4b04954b8869",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "铜绿假单胞菌",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e6e16f3868b0",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "其他严重革兰阴性菌",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_22ca2934138f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "凝固酶阴性葡萄球菌",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "TEMP_98e5d69f5588",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_93855f7f132c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发冷",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_f829bce49ca2",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "寒颤",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_ae21a179b6e7",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "口腔黏膜炎",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_8877ab77e643",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "蜂窝织炎",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_507a5378d421",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血培养",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_ecf7d7bacbfc",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "药敏试验",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_ecf6a644eae0",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "初始经验性用药中需要加入抗革兰阳性菌活性的药物",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_25b673ec6d31",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "初始治疗可以接受口服或静脉注射经验性抗菌药物治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_987c698c7604",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "万古霉素或替考拉宁或利奈唑胺",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_fe40103a198c",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "联合口服环丙沙星和阿莫西林克拉维酸",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_2d6a91c30de4",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "单用左氧氟沙星",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_04f32f794234",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "选择β内酰胺类药物治疗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_de6695c92e1d",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "中性粒细胞缺乏",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_010086fbe64f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "导管相关感染",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.92
+        }
+      ],
+      "relationships": []
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "TEMP_3d5cf5a8e256",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_30723050a45d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "血液动力学不稳定",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_d9fa907c5c6a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血培养",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_f7707e5b6ffa",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "根据危险分层、确诊感染的病原菌和患者对初始治疗的反应等因素进行综合判断调整抗菌药物覆盖",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_9797723439c2",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "根据感染部位和分离细菌的药物敏感报告来调整初始经验性抗菌药物",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_a5725b20fe21",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "尽早停用抗革兰阳性菌药物（如万古霉素）若未发现革兰阳性菌感染证据",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_9961f36ac5ac",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "扩展抗菌方案以覆盖耐药性革兰阴性菌、革兰阳性菌、厌氧菌和真菌",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_74b7ba45f64f",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "考虑真菌和耐药革兰阳性球菌感染及碳青霉烯耐药革兰阴性细菌感染可能性，并选用针对性药物",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c4ed2791f767",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "低危门诊患者发热和症状48h内无好转时应住院并改用静脉广谱抗菌药物",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_56343845be3f",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "高危或预计中性粒细胞缺乏＞10d患者应用广谱抗菌药物4～7d后仍发热者加用经验性抗真菌治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_12852a29e3fd",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "将初始用头孢菌素类改为碳青霉烯类（亚胺培南或美罗培南）",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3151aed4c653",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "加用一种氨基糖苷类药物、环丙沙星、氨曲南或万古霉素",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_7bfa703b6134",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "选用头孢哌酮舒巴坦等抗非发酵菌效果较好的药物",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_5ec895c4f4b4",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "中性粒细胞缺乏",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.99
+        }
+      ],
+      "relationships": []
+    },
+    "CH0009": {
+      "entities": [
+        {
+          "id": "TEMP_983bf59f6643",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "抗菌药物治疗应持续用于至少整个中性粒细胞缺乏期间（直至ANC≥0.5×10⁹/L）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_754376d9a340",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对于有临床或微生物学感染证据的患者，疗程取决于特定的微生物和感染部位",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8a7c0c5777e6",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对无法解释的发热患者，建议初始治疗持续至血细胞有明显的恢复迹象",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_f501a1a914b5",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "抗菌药物治疗疗程需要＞4周或至病灶愈合、症状消失",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_1cd7b841afc8",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "由金黄色葡萄球菌、铜绿假单胞菌或分枝杆菌所引起的导管相关性血流感染，在拔除导管的同时全身应用抗菌药物治疗至少需要14 d",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_2f9a77a08c68",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "对MRSA血流感染，使用糖肽类药物、达托霉素等治疗至少14 d，合并迁徙性病灶者还要适当延长",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_2ed29bad51fe",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "对耐甲氧西林凝固酶阴性的葡萄球菌或肠球菌引起的血流感染，体温正常后需持续抗菌药物治疗5～7 d",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_f2c8f772eb39",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "一般在ANC≥0.5×10⁹/L时停药",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_405611d41cce",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "如果适当的疗程已经结束、已证实感染的所有症状和体征消失、仍然存在中性粒细胞缺乏的患者，可以考虑执行预防性用药方案直至血细胞恢复",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_dc65a5698a31",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "金黄色葡萄球菌",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_ec7d683946f8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "铜绿假单胞菌",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_7c18b286fb08",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "分枝杆菌",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8f594b5f1c65",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "MRSA",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_96cd463b38ba",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "耐甲氧西林凝固酶阴性的葡萄球菌",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_2e9927cb2192",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "肠球菌",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0010": {
+      "entities": [
+        {
+          "id": "TEMP_84976e0b9a01",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对预计出现严重的中性粒细胞缺乏（ＡＮＣ≤０．１×１０９／Ｌ）或持续时间较长（超过７ｄ）的高危患者，考虑氟喹诺酮类药物预防性用药",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_876bec1cc321",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "为了取得更好的预防效果，推荐从中性粒细胞缺乏开始应用至ＡＮＣ＞０．５×１０９／Ｌ或出现明显的血细胞恢复的证据",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_3ba3ab28c0fb",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "通常不推荐在氟喹诺酮预防性用药的同时合并使用抗革兰阳性菌药物",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_e4821ae69169",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对于预计中性粒细胞缺乏≤７ｄ的低危患者，不推荐预防性应用抗菌药物",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_8ac179bf1279",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "氟喹诺酮类药物预防性用药",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_24d7b53661f2",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "左氧氟沙星",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_532aced22127",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "环丙沙星",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_bf08ad509338",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "中性粒细胞缺乏",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.99
+        }
+      ],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "前言/概述",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "一、流行病学",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "一、流行病学",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "二、定义",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "三、患者风险评估",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "四、门诊、体格检查、实验室检查",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "四、门诊、体格检查、实验室检查",
+      "page_start": 2,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "六、抗菌药物的调整",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "七、抗菌药物治疗的疗程",
+      "page_start": 3,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "八、抗菌药物预防给药的时机",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "program": "snorkel",
+    "note": "Snorkel entitybase 复验结果；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态。"
+  }
+}

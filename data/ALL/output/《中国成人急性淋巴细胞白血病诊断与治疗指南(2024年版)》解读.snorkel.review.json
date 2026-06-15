@@ -1,0 +1,1157 @@
+{
+  "base_info": {
+    "doc_key": "《中国成人急性淋巴细胞白血病诊断与治疗指南(2024年版)》解读",
+    "doc_id": "DOC_4790b25cc034",
+    "source_title": "《中国成人急性淋巴细胞白血病诊断与治疗指南(2024年版)》解读",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\《中国成人急性淋巴细胞白血病诊断与治疗指南(2024年版)》解读.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 4,
+    "total_chunks": 8,
+    "has_entitybase": true,
+    "entitybase_status": "matched",
+    "entitybase_matched_chunks": 8,
+    "program": "snorkel"
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "TEMP_1aa4ccd36d2a",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性白血病",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_79c15e2b6164",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "成人急性淋巴细胞白血病",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_2bd65d35a1d0",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "前体淋巴细胞肿瘤———淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "TEMP_6336bf9532f4",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性淋巴细胞白血病",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_56de83b53efe",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴iAMP21的B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_1c1b05bb22d3",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "BCR::ABL1样B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_f86ee6429435",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "早期T前体淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_fd98f65049f0",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴TCF3::HLF融合基因的B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_d4e5884eecc2",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "ETV6::RUNX1样B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_fa12c7c947c0",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴其他确定基因异常的B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_7653e0aa7c85",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "ETP-ALL",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7d2a7973f94f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "基因表达谱检测",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_74474a889281",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "FISH",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_a8e6f97a116a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "RT-PCR",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_5c0c29fc3fd2",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "RNA-seq",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_7577132c9df7",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "ETP-ALL免疫表型诊断积分",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_13275702f712",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "iAMP21",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_fdc1d3fd6595",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "BCR::ABL1",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_871963c204b3",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "TCF3::HLF融合基因",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_59517b9570e5",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "ETV6::RUNX1",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_da7abf29ffda",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "DUX4重排",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_fce6ebde112d",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "MEF2D重排",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_0df3e8c05eef",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "ZNF384重排",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_53072288810a",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "NUTM1重排",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_bc3d5f509726",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "IG::MYC融合基因",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_4a252ec3fcdf",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "PAX5改变",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_11a5400a7da9",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "PAX5 p.P80R",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        }
+      ],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "TEMP_161f48ec0504",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性淋巴细胞白血病",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_986ff1e3b03d",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "慢性髓性白血病",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_59956d97b6ef",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "Ph+ ALL",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_50b39f1cee46",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "BCR::ABL1阳性不伴IKZF1plus且无CML病史的Ph+ ALL",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_c95c2f2ec6b2",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "BCR::ABL1阳性伴IKZF1plus和（或）CML病史的Ph+ ALL",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_e35e1128e2b8",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "初诊CML急变",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_baf83ea887a2",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "初诊Ph+ ALL",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_c203fb733e5d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴DUX4重排的B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_7cb90f6061a9",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴PAX5 p.P80R的B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_6feef535b049",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴MEF2D重排的B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_57f65fe7a070",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴ZNF384重排的B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_ac5bb8c1e5ed",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴PAX5改变的B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_a595631ad824",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴TP53突变的B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_c74f03393488",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴HLF重排的B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_a7163c985801",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴IgH重排的B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_f30dd9c1200c",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴MYC重排的B淋巴母细胞白血病／淋巴瘤",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_8271db4d3793",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "FISH检测",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a693145ad7a2",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "BCR::ABL1融合基因",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_58c2dccd9865",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "IKZF1plus",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        }
+      ],
+      "relationships": []
+    },
+    "CH0004": {
+      "entities": [
+        {
+          "id": "TEMP_f2c3e77e1230",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性淋巴细胞白血病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_5b4d2360c807",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "中枢神经系统白血病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_6d0c3b660dfa",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "Ph-急性淋巴细胞白血病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_bd0a26a994f7",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "Ph+急性淋巴细胞白血病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_5330850d420e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血小板计数",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_d3853e4360a4",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "外周血原始细胞检测",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_ec690aae010c",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "诱导治疗结束后应尽快开始缓解后的巩固强化治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_36b927af38ca",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "CNSL预防应尽早开始",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_11a230812df6",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "鞘内注射总次数一般至少应达12次以上",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d060b758a5fa",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "拟行HSCT的患者一般在HSCT前至少应完成4～6次鞘内注射",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f1366e272cb7",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "鞘注频率一般不超过2次／周",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_29b514e16933",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "维持治疗时长应达到自取得完全缓解（CR）后总的治疗周期至少2年",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_3eeae040cc89",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "腰椎穿刺、鞘内注射",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_8e4a1dbe0af3",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "放疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_0c408cb04935",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "小剂量化疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_cc8b866b1329",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "小剂量化疗联合酪氨酸激酶抑制剂（TKIs）",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_98fb85239f7f",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "TKIs单药继续维持治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.92
+        }
+      ],
+      "relationships": []
+    },
+    "CH0005": {
+      "entities": [
+        {
+          "id": "TEMP_768a9aa45411",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性淋巴细胞白血病",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_427bd35498c8",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "Ph- ALL",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_c1ac6f042cf0",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "Ph- ALL AYA患者",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_10bceb0f2c5e",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "Ph- ALL 成年（40～59岁）患者",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9fedcf5530de",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "Ph- ALL 老年患者",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_3f110b34a49b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "可测量残留病（MRD）",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_1df1f9fa2206",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对初诊AYA患者一线治疗优先选择儿童特点联合化疗方案",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_e5082c93cdb3",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "在Ph- ALL患者CR后的治疗中推荐条件允许的患者可加入多个疗程CD19/CD3双特异性抗体进行巩固",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_ec53752d52d6",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "CALGB10403方案",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_63203c511f30",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "DFCI ALL方案",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_79331c4b3c1c",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "IH-2014方案",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_ceb8fdefb2bc",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "PDT-ALL-2016方案",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_a8646a0eae5b",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "ECOG1910方案",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_2fe2528f3890",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "Mini-HCVD方案＋CD22ADC±CD19/CD3双特异性抗体",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "TEMP_589bced3e04e",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "ALL",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_17d81bb226c4",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "Ph+ ALL",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_7da2345e3119",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "难治复发ALL",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_3f70bb6465c7",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "难治复发Ph+ ALL",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_05b61bc1714f",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "T-ALL",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_a5fe9dbc7376",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "MRD",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_f62c3f3ca70b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "BCR::ABL1融合基因检测",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_bcc202124199",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "免疫治疗为基础的挽救治疗",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_48f2a3bb8305",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "TKI联合抗体或CAR-T细胞治疗",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_0c055bda6a05",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "异基因HSCT",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_728eb5c94055",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "TKI+CD19/CD3双特异性抗体",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_40ce89005cc1",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "自体HSCT后予TKI维持治疗",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_2c9620d3abd7",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "CD19 CAR-T细胞（纳基奥仑赛）",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_52d649289e93",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "CD22 ADC",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_f80658f6bd09",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "CD19/CD3双特异性抗体",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_ff839992262c",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "西达本胺为基础的T-ALL方案",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_7f17ac198410",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "BCL-2抑制剂为基础的联合挽救治疗方案",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.89
+        }
+      ],
+      "relationships": []
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "TEMP_947f13ff0fb8",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "白血病",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_00dd28e21972",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "急性髓系白血病",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_0ffd1d4ce91e",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "中枢神经系统白血病",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_1cbac73c74c2",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "髓外疾病",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_56c47c9f29bb",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "临床症状",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.8
+        },
+        {
+          "id": "TEMP_09dee4ee18f0",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "PET检查",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "TEMP_f930bc4bba72",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "ALL",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_70593bc46bdd",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "成人ALL",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_1d3fb01b7405",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "流式细胞术",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_d6ffa3c7241d",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "PCR",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_bd8abd8fb75e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "IgH高通量测序",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_2fef51b04cee",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "TCR高通量测序",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_25aff7653892",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "骨髓检查",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_c4fdd0c57d8d",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "按MRD水平调整治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_d9b230be5311",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "诱导治疗结束时（1个月左右）MRD监测",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_ad232260b618",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "治疗3个月MRD监测",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_dfdf52fe2cc7",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "治疗6个月MRD监测",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_d110a0013f9a",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "巩固治疗结束时MRD监测",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_ca98551440d4",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "每个疗程复查骨髓并MRD监测",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.98
+        }
+      ],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "前言/概述",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "１诊断分型",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "２预后分组",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "３治疗",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "３．１初诊一线治疗",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "３治疗",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "４治疗反应",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "５疗效监测",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "program": "snorkel",
+    "note": "Snorkel entitybase 复验结果；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态。"
+  }
+}

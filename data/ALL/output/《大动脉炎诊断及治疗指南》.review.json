@@ -1,0 +1,117 @@
+{
+  "base_info": {
+    "doc_key": "《大动脉炎诊断及治疗指南》",
+    "doc_id": "DOC_49c7062dd37c",
+    "source_title": "《大动脉炎诊断及治疗指南》",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\《大动脉炎诊断及治疗指南》.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 2,
+    "total_chunks": 7,
+    "has_kg": false,
+    "kg_status": "missing",
+    "kg_matched_chunks": 0
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0002": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0004": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0005": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0007": {
+      "entities": [],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "大动脉炎诊断及治疗指南",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "1",
+      "remark": "",
+      "updated_at": "2026-06-08T10:54:46"
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "1概述",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "2临床表现",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "2临床表现",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "3诊断要点",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "4治疗方案及原则",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "4．6外科手术治疗",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "pass",
+      "error",
+      "unreviewed"
+    ],
+    "note": "base_info 记录 PDF 级基础信息；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态和备注。"
+  }
+}

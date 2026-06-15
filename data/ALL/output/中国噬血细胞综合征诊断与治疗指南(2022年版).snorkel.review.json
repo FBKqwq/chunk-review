@@ -1,0 +1,2260 @@
+{
+  "base_info": {
+    "doc_key": "中国噬血细胞综合征诊断与治疗指南(2022年版)",
+    "doc_id": "DOC_d862d72e35cc",
+    "source_title": "中国噬血细胞综合征诊断与治疗指南(2022年版)",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\中国噬血细胞综合征诊断与治疗指南(2022年版).pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 8,
+    "total_chunks": 13,
+    "has_entitybase": true,
+    "entitybase_status": "matched",
+    "entitybase_matched_chunks": 11,
+    "program": "snorkel"
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "TEMP_055513ba9c93",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "噬血细胞综合征",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_78a12dda33c1",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "遗传性噬血细胞综合征",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9b5bf87057bc",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "获得性噬血细胞综合征",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_dc39bcdf6907",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "缺乏特异性临床表现",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_206d258b4688",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "遗传性免疫调节功能异常",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_50b7d92142e8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "获得性免疫调节功能异常",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_77bf5a596b56",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "免疫调节功能异常导致的严重炎症反应",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    },
+    "CH0002": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "TEMP_dd42b3accce4",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "HLH",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2176642ce7b7",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "家族性HLH",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_5c32d364bde2",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "免疫缺陷综合征相关HLH",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_515891d78014",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "X连锁淋巴增生性疾病相关HLH",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_7de787e63a75",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "EB病毒驱动型HLH",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_60776784f093",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "原发性HLH",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_d494a3fb7d1c",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "继发性HLH",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_ae3eda762b4c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_dae5c3d0d93b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "血细胞减少",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_51bb6176dd62",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肝脾肿大",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_32d958c7311e",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "遗传性淋巴细胞毒功能受损",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_14b19c454f49",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "炎症活性相关基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_87a15df6011e",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "PRF1基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4c193be9f40c",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "UNC13D基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_35b86cfa34f9",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "STX11基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_661b4ee754c9",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "STXBP2基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_60195467f9d6",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "RAB27A基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9123f3efb468",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "LYST基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3b6e238cb42b",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "AP3B1基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_bdba6580ca90",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "SH2D1A基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_68f7117a3249",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "XIAP基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_492714c2ece8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "NLRC4基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7c1a10eae685",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "CDC42基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_514dccac2b4d",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "MAGT1基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_169923381e7f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "ITK基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a25eb201d9c8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "CD27基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_60dcb69ce70a",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "CD70基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2286710206a0",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "CTPS1基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c6d4566fa039",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "RASGRP1基因缺陷",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e0169352e20e",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "淋巴细胞、单核细胞和巨噬细胞异常激活、增殖和分泌大量炎性细胞因子引起的过度炎症反应",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.99
+        }
+      ],
+      "relationships": []
+    },
+    "CH0004": {
+      "entities": [
+        {
+          "id": "TEMP_e61bd920c508",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_0c51c84f58c3",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "继发性HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_0c4de571cf5b",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "原发性HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_ac67e8a885b3",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "原因不明HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_65b536548918",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "恶性肿瘤相关HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_d8b343fb7981",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "淋巴瘤相关HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_11729df19266",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "实体肿瘤相关HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_62b1568f3f86",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "风湿免疫性疾病相关HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_4c5b2ec021f8",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "巨噬细胞活化综合征",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_fe802f108670",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "感染相关HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_880f50a0aec8",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "EB病毒相关HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_258fad2320fd",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "器官移植相关HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_1232217698fc",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "造血干细胞移植相关HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_bcef7346ef68",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CAR-T治疗相关HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_de2e021c26c3",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "妊娠相关HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_515fe09da366",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "药物相关HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_e8b46e50cbe9",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "遗传代谢性疾病相关HLH",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_5c087bfa187d",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "肿瘤",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_781db0a92a6d",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "风湿免疫性疾病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_16687aa8b473",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_05ad9ad7090b",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "血液系统恶性肿瘤",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_692ed095007c",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "淋巴瘤",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_973d3f88483e",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "急性白血病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_e8df14245123",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "NK细胞淋巴瘤",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_973fa638071e",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "T细胞淋巴瘤",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_54f5145807e5",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "胃癌",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_8113a09457f6",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "胸腺癌",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_8536e05a1527",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "胚胎细胞肿瘤",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_fdd56e47984d",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "全身性青少年特发性关节炎",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_bbb461b87515",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "成人Still病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_4c3b1ec1efca",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "系统性红斑狼疮",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_9686e99933b6",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "坏死性淋巴结炎",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_f043390d1a67",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "细菌感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_5baa02b560a8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "真菌感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_5450ad2df0b8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "病毒感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_de9ee2ffb183",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "原虫感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4d44af02df50",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "EB病毒感染",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_3c36b467f638",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "器官移植",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_95f2574f50e8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "造血干细胞移植",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_32c5d44f07da",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "CAR-T免疫治疗",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_2bd63f3b9a08",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "妊娠",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_94b65c925d30",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "药物",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_a48de42005ec",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "遗传代谢性疾病",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_9eb5e5282fc5",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "严重炎症反应综合征",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_f879c13dfec2",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "二次打击",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0005": {
+      "entities": [
+        {
+          "id": "TEMP_0fe11c1af0dc",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "HLH",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_dcc17f7e290a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "HLH-2004",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_e2143cdf4185",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CNS-HLH",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_a883eb5aa77f",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "原发性HLH",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_9eb733ebb198",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_645c49479696",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "脾大",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_cab2fd197d67",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "精神和(或)神经系统症状",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_de60275470eb",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "易激惹",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b622987ae65a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "意识改变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_27206b245d8d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "癫痫",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4cfcf44bcec9",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "惊厥",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_6a908132b45f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "脑膜刺激征",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2e446ed6f369",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "共济失调",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_6d90d52485ba",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "偏瘫",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_df54e0650ea1",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "骨髓检查",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_bf4778d55463",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "脾脏检查",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e0e9d69b5762",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肝脏检查",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e5af049ae723",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "淋巴结检查",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a4bf75359f1e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "NK细胞活性检测",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_9a1d2b92f252",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清铁蛋白",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_7558e4a59bf8",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "sCD25",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_643ba6de81fe",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "头颅MRI",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_f06a5fe6cbef",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "脑脊液检测",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_01d66c061f7c",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "PRF1病理性突变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7ce97365f0e0",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "UNC13D病理性突变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7414f15fba49",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "STX11病理性突变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_37ec2d4c7e36",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "STXBP2病理性突变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b2efb6b0b584",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "Rab27a病理性突变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ee5a79f72392",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "LYST病理性突变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_070597d26fd5",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "SH2D1A病理性突变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_141aa6816827",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "BIRC4病理性突变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_504c5d9c8ee8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "ITK病理性突变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_90b22b5d20b5",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "AP3B1病理性突变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_0dfe0abb23cf",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "MAGT1病理性突变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b4cf36b18856",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "CD27病理性突变",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "TEMP_c7e3e69d43db",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "HLH",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_5c389e34d91a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_7d3c15442e23",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "血细胞减少",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_64f9f2459299",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "脾大",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_5a8042bff1ab",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肝功能异常",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_fc1d9b2004ac",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清铁蛋白",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_e88b9e05604c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "空腹TG",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_63471a57d656",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "纤维蛋白原",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_d7ed5437fff5",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "NK细胞活性",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_f2c373a5a4ca",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "sCD25",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_28d47d48d606",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "细胞因子谱",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_2f72efe341fa",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "即刻开展HLH确诊相关的检测",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_0f6fed9e7c15",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "密切监测病情变化，并重复评估HLH相关指标",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_acb41f223b49",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "监测病情变化，必要时重复评估",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_464ae84f63a8",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "对疑似HLH病例首先检测血清铁蛋白水平",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_fa1b43da3997",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "对铁蛋白数值高于当地实验室检测上限的样本进行倍数稀释",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_944c8cdeab4a",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "对血清铁蛋白<500μg/L的患者进行密切的临床观察",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "TEMP_e86f2e9d4487",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "HLH",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e25c0e1ac002",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "原发性HLH",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_f1ecde8f4ce2",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "恶性肿瘤相关HLH",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_26e48305c8db",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "风湿免疫性疾病相关HLH",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_ccd2ac58d689",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_94d41fefa4b4",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "盗汗",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_3748160fb953",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "体重下降",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_e61179e287fe",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "皮疹",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_80e1d8c76bff",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "淋巴结肿大",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9390e93d6251",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "CD107a检测",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_9e01f859d363",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "穿孔素蛋白表达检测",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_f3875c3a4aa1",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "EBV-DNA检测",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_ed66407edff9",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "病原学NGS检查",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_32ad0cd26fab",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "PET-CT",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_daaab0f6361e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "骨髓活检",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_7d0be347d28c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "免疫球蛋白检测",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_c42ff09cdf59",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "补体检测",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_6fc65e860e1a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "自身抗体检测",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_6cfd8ac3c351",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "及早进行病因筛查",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_1125ef4f594f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "EBV感染",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.98
+        }
+      ],
+      "relationships": []
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "TEMP_a2e267e106e7",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "噬血细胞综合征",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_fedd0ae7e712",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "风湿免疫性疾病相关HLH",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_d10a68bd450a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "感染相关HLH",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_a8494bd0555c",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "轻型HLH",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_d5c3f38973fd",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗核抗体",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_04ef5b492d2b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗中性粒细胞胞质抗体",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_854d0348ed3e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "可提取性核抗原",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_26ef6ae66f16",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "正电子发射断层显像",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_0ca8e81b9479",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "诱导缓解治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_6ce4111a89eb",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "病因治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_8763a44f35ac",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "HLH-1994方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_65e63c6aa13f",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "糖皮质激素冲击治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_115de44cb1c0",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "针对病原体的治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_494062b24ed0",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "依托泊苷和地塞米松联合治疗",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_abde571e5ffe",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "VP-16剂量方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_c53466a6c35d",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "地塞米松剂量方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_b48278c9af79",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "基于年龄调整的VP-16剂量",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_20e9571f9594",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "环孢霉素A加用方案",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_75a31fb7a16f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "杜氏利什曼原虫",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_26d714108eb2",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "布氏杆菌病",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f4fefad7c83f",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "过度的炎症状态",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.93
+        }
+      ],
+      "relationships": []
+    },
+    "CH0009": {
+      "entities": [
+        {
+          "id": "TEMP_6a0bbed35fc6",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "HLH",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_944f161146fe",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "难治性HLH",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_93d4eb51632e",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "复发性HLH",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_4734dd9f154c",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "EBV-HLH",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_4d97b30037c0",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "风湿免疫性疾病相关HLH",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_2735d7a44af9",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "原发性HLH",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3e7ded9164a5",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "挽救治疗",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_8837e5bb291b",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "采用与初始诱导治疗不同的挽救治疗方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_d184272689b5",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "DEP方案：脂质体多柔比星25mg/m²第1天；依托泊苷100mg/m²/d第1天；甲泼尼龙2mg/kg/d第1~3天；0.2mg/kg/d第4~14天",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_04e6665be5c9",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "L-DEP方案：DEP方案联合培门冬酶1800U/m²第3天，每28天交替使用DEP和L-DEP方案",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_1c17a1a3bc40",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "芦可替尼单药治疗：14岁以下按体重<10kg、≤20kg或>20kg分别给予2.5mg、5mg或10mg，2次/d；14岁及以上10mg，2次/d",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4cc3e5b7416f",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "依帕伐单抗：起始剂量1mg/kg，3d⁻¹；后续递增至3mg/kg、6mg/kg，最大10mg/kg；疗程8周（可延长至等待造血干细胞移植或缩短至不少于4周）；联用地塞米松5~10mg/m²/d，于依帕伐单抗给药前1天开始",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_5a3a72f08f8d",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "CD52单抗（阿伦单抗）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_fb6b0e66d619",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "IL-1受体拮抗剂（阿那白滞素）",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_5516ab27c749",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "EBV",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_5e3673bd2070",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "IFN-γ介导的过度炎症反应",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.91
+        }
+      ],
+      "relationships": []
+    },
+    "CH0010": {
+      "entities": [
+        {
+          "id": "TEMP_b751cc78a9bb",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "HLH",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e3aa65152bea",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "原发性HLH",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_c9358728a6b4",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "继发性HLH",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_952a744ced72",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CNS-HLH",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_77f963896478",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "EBV-HLH",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_a13b53e90eef",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "高侵袭性淋巴瘤相关HLH",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_148902e6be44",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "风湿免疫性疾病相关HLH",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_bd6441d05210",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "维持治疗",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_e43c0d35ab21",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "allo-HSCT",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_145a27b96bbc",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "鞘内注射治疗",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_0204e8db9ac4",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "依托泊苷150mg.m-2，2周1次；地塞米松10mg.m-2.d-1，连续3d，2周1次",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_07944807187c",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "鞘内注射甲氨蝶呤和地塞米松",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_fe9ba3d586bc",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "年龄<1岁，MTX6mg/Dex2mg；1～2岁，MTX8mg/Dex2mg；2～3岁，MTX10mg/Dex4mg；>3岁，MTX12mg/Dex5mg",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_429b8c1ca9c1",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "每周鞘内注射治疗持续到中枢神经系统(临床和CSF指标)恢复正常至少1周后",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_6fdb815ec055",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "EBV",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.94
+        }
+      ],
+      "relationships": []
+    },
+    "CH0011": {
+      "entities": [
+        {
+          "id": "TEMP_94dabfa3514a",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "HLH",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_1959764b14bf",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "重症HLH",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_2d900bbdc8b6",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_7566fdc658d2",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "经验性广谱抗生素治疗",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_8e2c1d612d7b",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "维持血小板计数>50×10⁹/L以及凝血检查相对正常",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_333e7a49c509",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "严密监测脏器功能，对症支持治疗",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_fb08f8a936b3",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "输注血小板、凝血酶原复合物和新鲜冰冻血浆，必要时补充活化Ⅶ因子",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_1bcf006647d6",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "促血小板生成药物，包括重组人血小板生成素(rhTPO)和艾曲泊帕",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_fac5ef943f70",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "血浆置换及持续肾替代疗法",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_36a4edbbffd8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "真菌感染",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_46807b2733fe",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "卡氏肺孢子虫肺炎",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_8004b67471f1",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "中性粒细胞减少",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_0b5b4fe8aae9",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "药物毒性及炎症反应导致多脏器功能不全",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.94
+        }
+      ],
+      "relationships": []
+    },
+    "CH0012": {
+      "entities": [
+        {
+          "id": "TEMP_7838bc33b6c0",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "噬血细胞综合征",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_899795bd252a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CNS-HLH",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_bd8568b36fc5",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "意识水平下降",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_920af3a983f8",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "sCD25",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_00299ceb8c98",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "铁蛋白",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_e89cc6a82e78",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "甘油三酯",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_1c27eae64bd4",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血细胞计数",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_a9ff4de068be",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "丙氨酸转氨酶",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_e1066a270bf4",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "诱导治疗期间每2周评估一次疗效",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.99
+        }
+      ],
+      "relationships": []
+    },
+    "CH0013": {
+      "entities": [],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "中国噬血细胞综合征诊断与治疗指南（2022年版）",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "中国噬血细胞综合征诊断与治疗指南（2022年版）",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "HLH的定义和分类",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "(二)HLH的分类w",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "二、HLH诊断标准",
+      "page_start": 2,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "三、HLH临床诊断路径",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "三、HLH临床诊断路径",
+      "page_start": 3,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "四、HLH的治疗路径",
+      "page_start": 4,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "(二)挽救治疗",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "四、HLH的治疗路径",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0011": {
+      "chunk_id": "CH0011",
+      "section_title": "四、HLH的治疗路径",
+      "page_start": 5,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0012": {
+      "chunk_id": "CH0012",
+      "section_title": "五、HLH疗效评估29",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0013": {
+      "chunk_id": "CH0013",
+      "section_title": "指南制定委员会名单",
+      "page_start": 6,
+      "page_end": 7,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "program": "snorkel",
+    "note": "Snorkel entitybase 复验结果；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态。"
+  }
+}

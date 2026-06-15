@@ -1,0 +1,2037 @@
+{
+  "base_info": {
+    "doc_key": "中国急性胰腺炎诊治指南（2021）",
+    "doc_id": "DOC_cd919377605d",
+    "source_title": "中国急性胰腺炎诊治指南（2021）",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\中国急性胰腺炎诊治指南（2021）.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 8,
+    "total_chunks": 13,
+    "has_entitybase": true,
+    "entitybase_status": "matched",
+    "entitybase_matched_chunks": 13,
+    "program": "snorkel"
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "TEMP_55ba7236802a",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_42e6f52d0f44",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "胆源性急性胰腺炎",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3faa2cecba2e",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "高甘油三酯血症性急性胰腺炎",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ea2a9b53ac0a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "酒精性急性胰腺炎",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7547b73e63d6",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "急性发作的持续性上腹部剧烈疼痛",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_a8fcbb7e8da1",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "向背部放射",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3f657cc6228d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹胀",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_50f9cda20399",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "恶心",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_166239da17f7",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "呕吐",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a6d2abc9e90b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "呕吐后疼痛不缓解",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_843a8f4c0f93",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "心动过速",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_b3e38389368b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "低血压",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_35d50da2b373",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "少尿",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_95f0a3e593ae",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "精神状态改变",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_4c52f02ae284",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹部轻压痛",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_91177e5e17eb",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹膜刺激征",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_05bfca622483",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "Grey-Turner征",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_7721b4471016",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "Cullen征",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_073025f80480",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清淀粉酶",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_eb773e4a7718",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "脂肪酶",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_fe9f8ac55e25",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "腹部CT",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d91f23e8cf9f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "胆石病",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_1ff869cd56c5",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "高甘油三酯血症",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_995aa6386192",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "过度饮酒",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a6b2c1abbf84",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "药物",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_d661fd7f1e12",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "ERCP术后",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_35feb71a6703",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "高钙血症",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_6af38a993d63",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "感染",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_9ddb7928e3df",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "遗传",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_99edbce94a59",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "自身免疫疾病",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_f94825f9386d",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "创伤",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_72a2072d2786",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "胰酶异常激活对胰腺自身及周围器官产生消化作用",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.98
+        }
+      ],
+      "relationships": []
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "TEMP_0d75b74512b9",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_e580120b1b70",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "胆源性急性胰腺炎",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_b20d60854268",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "上腹部持续性疼痛",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_b3af75d4242a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清淀粉酶",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_82f39f7da70a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "脂肪酶",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_195666912b68",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "腹部影像学检查",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_a03e1efe5f08",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "CT",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_d00887f41bfa",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "改良CT严重指数",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_043b0a394039",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "MRI",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_9fd8558a3a2e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "超声检查",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_c8b21536cf38",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "磁共振胰胆管成像",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_770b3f53bcf9",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "内镜超声",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        }
+      ],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "TEMP_1d74bb73f930",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_538391612d63",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "轻症急性胰腺炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_0d2ebd4ae514",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "中重症急性胰腺炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_eb47620ab3b8",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "重症急性胰腺炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_a0f64ccc615b",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "轻型急性胰腺炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_27dcc460ed2c",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "中型急性胰腺炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_9b3a90159b16",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "重型急性胰腺炎",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_aabdb30d422f",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CAP",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_af023b1c0aa6",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "改良Marshall评分系统",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_05cd39c1521f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血细胞比容",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_99c0c44eab34",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清尿素氮",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_cc57f0f91fe0",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "C-反应蛋白",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_bb9e84edbfdf",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "严密监测病人生命体征，评估是否存在器官功能障碍",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_42797a6c7429",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对存在器官功能障碍的病人，应进入ICU治疗",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    },
+    "CH0004": {
+      "entities": [
+        {
+          "id": "TEMP_9acbb794e39b",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_237580366c35",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "重症急性胰腺炎",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_dc667c2c253d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "胆源性急性胰腺炎",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_6a1522936963",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "感染性坏死",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_b883eb0bdea5",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "包裹性坏死",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_fd4fd34fc08e",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "急性胰周液体积聚",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c881d0e84b2f",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "急性坏死物积聚",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4c82dfb64c68",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "胰腺假性囊肿",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_964f3bf4f286",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "全身炎性反应综合征",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_c278de87818b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "器官功能障碍",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_1eba99b3cd3a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "增强CT检查",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_c9ab53dfdc91",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "超声检查",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_a7b0d9ab6e5d",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "多学科综合治疗协作组模式",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_6766e89567ab",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "胆道系统结石",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_9a05365910af",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "持续存在的SIRS和器官功能障碍是病情严重程度的重要决定因素",
+          "chunk_id": "CH0004",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0005": {
+      "entities": [
+        {
+          "id": "TEMP_54927768d6ff",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_0d939e2f6eed",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "SAP",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.8
+        },
+        {
+          "id": "TEMP_a22c04e42c64",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "尿量",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_918e6b74066b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "平均动脉压",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_cc895e36aa20",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "中心静脉压",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_45e1a1096c43",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "中心静脉血氧饱和度",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_12c4f09a6f9d",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "动脉血乳酸",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_d76731fb1da4",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清尿素氮",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_f0ef2df46c16",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血细胞比容",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_b9a4bf5aae67",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "早期液体治疗",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f91a54b0575a",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "目标导向的液体治疗",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_075091e25a6f",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "液体治疗首选晶体液",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_fa44682a9bce",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "5~10mL/（kg·h）液体治疗起始速度",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_786f3a288b70",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "去甲肾上腺素提升血压",
+          "chunk_id": "CH0005",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "TEMP_8e55aa75a484",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_6f172831dd60",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "胆源性急性胰腺炎",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_87566594dc65",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "重症急性胰腺炎",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_4f2ff93fedc8",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "轻症急性胰腺炎",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_568f1f83fe2f",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "疼痛",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_dcc83e17734f",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "急诊ERCP治疗",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_a047d88336bf",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "镇痛治疗",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_e1c5ad7c287a",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "肠内营养治疗",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_580840fe815a",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "晶体液液体治疗",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8eb30e431612",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "镇痛治疗启动时机",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_ba7031e751b4",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "ERCP手术时机",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_15d7fc09489f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "胆道系统结石",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "TEMP_88b9139f5f07",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_fbf15978527c",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "高脂血症性急性胰腺炎",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_d5b2630a56d1",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "重症急性胰腺炎",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_33933904658d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹痛",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_02b75de0b34b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹胀",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_db47e1b2667f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血甘油三酯",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_bbb508e1dcaa",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "禁食水≥24h后的饮食调节",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_cc21958ed20b",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "降低腹内压",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_6f922f0266e5",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "不推荐预防性使用抗菌药物",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_e9c154a36ca0",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "小剂量低分子肝素",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_299ac49f7da4",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "胰岛素",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_470fb722770c",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "血脂吸附和（或）血浆置换",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_815cdfb0077a",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "胃肠减压",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_278e3e17a6df",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "灌肠",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_a6a8014d5794",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "促胃肠动力药",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_91cc5e5a1155",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "经皮穿刺引流",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_cb2569a0025c",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "高脂血症",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "TEMP_f3c501093cee",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_37056f00f2a7",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "胆源性急性胰腺炎",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_51934e72e6d6",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "高脂血症性急性胰腺炎",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_47e4d980fed0",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "ACS",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b49784420d68",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "PP",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_421f9efc81cb",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "WON",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4488f6341bfd",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "器官功能障碍",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_616e1ff43da5",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "急诊ERCP无助于缓解胆源性急性胰腺炎",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_d478714490e1",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "镇痛是急性胰腺炎的重要辅助治疗措施",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_20ec536ba1ff",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "尽早开展经口或肠内营养",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_1f269561a4c2",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "肠内营养优于肠外营养",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_0cc1527ab519",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "采用综合治疗手段以快速降低甘油三酯水平",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_fad2c83c6d30",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "采用综合措施降低腹内压",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_03fca8ece96b",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "不推荐常规使用抗菌药物预防胰腺或胰周感染",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.98
+        }
+      ],
+      "relationships": []
+    },
+    "CH0009": {
+      "entities": [
+        {
+          "id": "TEMP_f00af072e6be",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_1c45b6ce7108",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "感染性胰腺坏死",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_545c7b95b920",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_fa3ef8d7f540",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹痛",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_ff3275e592ff",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肾功能不全",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_f453551f7b1e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "呼吸功能不全",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_6470cf3a63a0",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "凝血功能异常",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_8f9973d73b4a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "循环不稳定",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_a5873662c167",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "白细胞计数",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_60aa549daf54",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "C反应蛋白",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_24c73e48795b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "IL-6",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_1fd59165696d",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "降钙素原",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_4c69cf6b3a6c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "CT检查",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_93fd23e9d0b7",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "应用抗菌药物",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_a63e01def1fb",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "经皮穿刺引流",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.89
+        },
+        {
+          "id": "TEMP_befe8e3d94c9",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "内镜下穿刺引流",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.89
+        },
+        {
+          "id": "TEMP_f92015b2bbef",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "视频辅助清创",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_66aad969d5ba",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "内镜下清创",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_e277f336c5c0",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "开腹手术",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.87
+        },
+        {
+          "id": "TEMP_4739ccd358a0",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "ANC合并感染",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_4df09d0a9297",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "WON合并感染",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.85
+        }
+      ],
+      "relationships": []
+    },
+    "CH0010": {
+      "entities": [
+        {
+          "id": "TEMP_efdb112f76a8",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_af8c374d4eb5",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "感染性胰腺坏死",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_41e87fcb0dd5",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "IPN",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_bf8645e8135e",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "Step-up方式",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_6a83dbe065b7",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "内镜下“Step-up”手术",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_78760a283987",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "外科“Step-up”",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_bfed6a55f2f1",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "穿刺引流",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_20ca3931fb42",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "视频辅助清创",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e2e41858deda",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "开腹手术",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9facacff3663",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "PCD",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_b5093f2c0991",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "内镜下引流",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_c98cb614b213",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "ACS",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0011": {
+      "entities": [
+        {
+          "id": "TEMP_334ba2d12da8",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_be4e8e651524",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "感染性胰腺坏死",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_7c2fd0a4656f",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "胰腺与胰管断裂综合征",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_5ae851e90539",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "包裹性坏死",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_2d79a903e510",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_610f9cbfa108",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹痛",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_9914d79a4787",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "降钙素原",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_3b001a10156f",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "IPN手术治疗的干预时机应延迟至发病4周后",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_0b2d424a4791",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "IPN病人的治疗以“Step-up”策略为主",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_3f1e181c68be",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "应用抗菌药物及穿刺引流可使部分病人免于手术",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9d1abdd9dde7",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "微创清创",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_454b2edf44ed",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "开腹手术",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0012": {
+      "entities": [
+        {
+          "id": "TEMP_50689a73cb03",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_372f2200b701",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "门静脉、脾静脉血栓形成在急性胰腺炎",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_60d2a5e81c6c",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "胰源性门静脉高压",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_341cbbd3e795",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "复发性急性胰腺炎",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_cfa954986d1c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "上消化道大出血",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_dee13a67dc1f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血管造影检查",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_f0571b2365c8",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "不建议对急性胰腺炎后门静脉及脾静脉血栓形成病人行抗凝治疗",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_687cd05fdcb1",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "积极处理胰腺原发疾病是治疗的关键",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_a0b91587fb4d",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "病因治疗是预防急性胰腺炎反复发作的主要手段",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_5e5880bbc8ba",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "脾切除术",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_2202481fbbbe",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "脾动脉栓塞或脾切除术",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_372b3451d37c",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "血管栓塞术治疗",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_1e9e0bfe6472",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "手术治疗",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_60051b9c6754",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "胆囊切除术",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_02b733e55096",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "口服降脂药物治疗",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_e2cec663971b",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "戒酒",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_3b354a42a63f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "急、慢性胰腺炎",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_86cd65b70c88",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "血栓形成与胰腺坏死位置和程度有关",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0013": {
+      "entities": [
+        {
+          "id": "TEMP_c177cfea95b6",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "急性胰腺炎",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_017dcbcb938a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "胆源性胰腺炎",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_d14bf7631b10",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "MAP",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_a35cc6f14c9d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "MSAP",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_e74f9be1baa6",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "SAP",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_2e2b776b2b32",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "腹腔镜胆囊切除术",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_74995cc44ce0",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "当次发病出院前完成胆囊切除术",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_e7191782bad9",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "发病后～个月实施手术",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_c4e6d9001a86",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "胆囊结石",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_4e064251e69e",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "胆总管结石",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.91
+        }
+      ],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "急性胰腺炎指因胰酶异常激活对胰腺自身及周围器",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "急性胰腺炎指因胰酶异常激活对胰腺自身及周围器",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "1.5急性胰腺炎的严重程度分级临床常用的急性胰腺",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "急性胰腺炎指因胰酶异常激活对胰腺自身及周围器",
+      "page_start": 2,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "2.1早期治疗急性胰腺炎的早期治疗主要包括液体治",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "2.1.2急诊ERCP治疗指征与时机胆道系统结石是急性",
+      "page_start": 3,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "2.1.2急诊ERCP治疗指征与时机胆道系统结石是急性",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "2.2后期治疗急性胰腺炎的后期治疗主要针对其各种",
+      "page_start": 4,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "2.2.1感染性胰腺坏死的诊断感染性胰腺坏死（infected",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "2.2.1感染性胰腺坏死的诊断感染性胰腺坏死（infected",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0011": {
+      "chunk_id": "CH0011",
+      "section_title": "2.2.6IPN的手术时机手术时机是决定IPN病人预后的",
+      "page_start": 5,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0012": {
+      "chunk_id": "CH0012",
+      "section_title": "2.2.8静脉高压的处理门静脉、脾静脉血栓形成在急性胰腺炎",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0013": {
+      "chunk_id": "CH0013",
+      "section_title": "3.1胆源性胰腺炎胆囊切除的时机腹腔镜胆囊切除术",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "program": "snorkel",
+    "note": "Snorkel entitybase 复验结果；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态。"
+  }
+}

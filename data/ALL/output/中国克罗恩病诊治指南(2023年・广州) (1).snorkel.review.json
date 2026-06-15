@@ -1,0 +1,3635 @@
+{
+  "base_info": {
+    "doc_key": "中国克罗恩病诊治指南(2023年・广州) (1)",
+    "doc_id": "DOC_ccf83bd2da03",
+    "source_title": "中国克罗恩病诊治指南(2023年・广州) (1)",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\中国克罗恩病诊治指南(2023年・广州) (1).pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 36,
+    "total_chunks": 43,
+    "has_entitybase": true,
+    "entitybase_status": "matched",
+    "entitybase_matched_chunks": 33,
+    "program": "snorkel"
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "TEMP_b6ded225fd51",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.98
+        }
+      ],
+      "relationships": []
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "TEMP_b7e4e0b24964",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "炎症性肠病",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_08241262f0a3",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "Crohn′s Disease",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0004": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0005": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "TEMP_266df91eb7a1",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_97e4c9ac9109",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_137a6bb3af5c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹痛",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_c20f4a8edb84",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹泻",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_51b47f7a465a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "体质量下降",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_15bd4f26e099",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "乏力",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_cee6c5cfafe6",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_54042e3ba764",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "生长发育迟缓",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_407c71cf4891",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "贫血",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_269603a6dcfb",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "反复瘘管形成",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_d8e7f48674c8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肛周脓肿",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_f139d3813bec",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肛瘘",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_967a38e22778",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "粪便钙卫蛋白",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_f0cdbe03584d",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血常规",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_7bf8f7d8d7e7",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "C反应蛋白",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_4372de822a08",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "红细胞沉降率",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_18a5c7a2144a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "白蛋白",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_e887eca93019",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "CD小肠成像",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_8c38a686b7ac",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "磁共振小肠成像",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_7f69ee7b7fbe",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肠道超声",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_e1eaccfa56ef",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "回结肠镜",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_a263f1c1bb01",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "胃十二指肠镜",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_d34ddcb6d62d",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "小肠胶囊内镜",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_f6e8c87aedc8",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "气囊辅助小肠镜检查",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.93
+        }
+      ],
+      "relationships": []
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "TEMP_c43f80255726",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "粪钙卫蛋白",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0009": {
+      "entities": [
+        {
+          "id": "TEMP_f39d0f30bac2",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_d70661d9b8b9",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "小肠受累的克罗恩病",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_78dee9d629b9",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "粪钙卫蛋白",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_5440b35a8748",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "结肠镜",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.99
+        }
+      ],
+      "relationships": []
+    },
+    "CH0010": {
+      "entities": [
+        {
+          "id": "TEMP_6f5dea1dcaee",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_670e205e522d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "上消化道受累的克罗恩病",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_99670e4b4588",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "孤立胃、十二指肠病变的克罗恩病",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_dbd96ff6cb46",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "恶心",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_8fa4d6b1f2b2",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "呕吐",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_313ee69a296a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "食欲不佳",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_7c880622bb14",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "吞咽困难",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_0593f8bfa117",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "吞咽疼痛",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_65a4a9d33f40",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "口腔阿弗他样溃疡",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a386f19d4578",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "胃十二指肠镜",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_aa1597efe25b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "活检病理检查",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_9a47d329a288",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "结肠镜",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_3d3d271fa662",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "常规行胃十二指肠镜和活检病理检查以明确上消化道累及",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_84c0290f7c57",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "胃十二指肠镜多点活检，部位包括食管、胃、十二指肠",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0011": {
+      "entities": [
+        {
+          "id": "TEMP_53b6cc201714",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_74a56158210b",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "局灶性增强性胃炎",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_8185ea8abf17",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "十二指肠局灶隐窝炎",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_103c835b7f38",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肉芽肿性炎",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_0c78f056091c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "胶囊内镜检查",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_7270c39fad96",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "CTE",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_9e4e42f4f16e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "MRE",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_6569e742e28c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肠道超声",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_32858b7e82b1",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "小肠钡剂造影",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_98f772159cf0",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "探路胶囊",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.87
+        },
+        {
+          "id": "TEMP_5174f4489d77",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "建议行胶囊内镜检查前评估肠道狭窄情况以降低胶囊滞留风险",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_8a3d9d2bbbb1",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "内镜取出或保守治疗排出胶囊",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.93
+        }
+      ],
+      "relationships": []
+    },
+    "CH0012": {
+      "entities": [
+        {
+          "id": "TEMP_d2dcb8addd3f",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_095e90e8af13",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "疑诊克罗恩病",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3bc432d62152",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "新诊断的克罗恩病",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_6e55eba6c206",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "拟诊克罗恩病",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2b09749e461c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "CTE",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_e02fe6744edf",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "MRE",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_a8b362922344",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "小肠胶囊内镜检查",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_4383d58f403e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "结肠镜检查",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_f8b6c965b3a4",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "气囊辅助小肠镜检查",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_22270fb1317c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "黏膜活检",
+          "chunk_id": "CH0012",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0013": {
+      "entities": [
+        {
+          "id": "TEMP_ae70596237f8",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_528cdd315337",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CD肛瘘",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_536d2026334c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "CTE",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_42ec259bd7c7",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "MRE",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_8b9830a393d1",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "小肠钡剂造影",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_2f7aee87c505",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肛周MRI检查",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_27fb1da826ff",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肛周超声检查",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_152a1b9b8fc5",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "经直肠超声",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_f9e07e7bad7a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "麻醉下直肠探查",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_e755601105b7",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肠道超声",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.93
+        }
+      ],
+      "relationships": []
+    },
+    "CH0014": {
+      "entities": [
+        {
+          "id": "TEMP_2c4a134578fa",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_31c35c490f31",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肠结核",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_8e842ead9add",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肠型贝赫切特综合征",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_abf656e5afdf",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肠白塞病",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_e106379d920a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肠道淋巴瘤",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_5cb8ad98985a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹痛",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_c9e45052be47",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹部包块",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_919b6b7d6196",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "发热",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_2a814d56c2bb",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "结核菌素试验",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_357b1bb14335",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "干扰素释放试验γ",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_0b66e00f3741",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "抗酸染色",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_f4a92d924480",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "经验性抗结核治疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_01eb36c77455",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "经验性抗结核治疗8~12周",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_b4530edeaca6",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "结核分枝杆菌",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0015": {
+      "entities": [
+        {
+          "id": "TEMP_655cac749115",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d316e6001811",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肠结核",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_7ac6482eed89",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肠白塞病",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_3b5087a82837",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肠淋巴瘤",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_cd8250749b23",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3ff6c7f03a8b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "右下腹痛",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_f5d652102d77",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "右下腹包块",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_38f4503f13f5",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "消化道出血",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_e6be16c393e8",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "复发性口腔溃疡",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_19c765d566f2",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "外阴生殖器皮肤溃疡",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_dcf35b53d14e",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹痛",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_949a6d6ef664",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹泻",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ad849e2f2024",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "体质量下降",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4baafb08a0fe",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹部包块",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9f07b4ada04c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肠梗阻",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9074c173fae1",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "内镜下活检",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_4f89fe24a04c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "手术探查",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_7a8ad495a9f4",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "组织病理学检查",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_2af9eaaf4aae",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "完整的CD诊断应包括疾病分型、疾病活动程度和并发症",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.98
+        }
+      ],
+      "relationships": []
+    },
+    "CH0016": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0017": {
+      "entities": [
+        {
+          "id": "TEMP_42fce4df7cd8",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_f40dd8d54a22",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "克罗恩病（A2L3B1p，中度活动期）",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_b4c16dacc498",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "穿透型克罗恩病",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_cb5fab3bdd99",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "狭窄型克罗恩病",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7ef2f127e33e",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "结肠型克罗恩病",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_5cfc6b20bf2d",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "吸烟",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.98
+        }
+      ],
+      "relationships": []
+    },
+    "CH0018": {
+      "entities": [
+        {
+          "id": "TEMP_e6e1d536bc3d",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b27ef88eabc9",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "临床症状缓解",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_f5af9a6abb24",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清炎性指标",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_c7e31adee158",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "粪便炎性指标",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_c86afaf039c9",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "内镜下黏膜愈合",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_23ab71320a11",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "诱导疾病缓解、维持缓解",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b6a8e0d6d3be",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "达标治疗（treat-to-target）",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0019": {
+      "entities": [
+        {
+          "id": "TEMP_4563ffe3bfdc",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0019",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3a41e2803806",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "回肠型克罗恩病",
+          "chunk_id": "CH0019",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_1763b7eea6fc",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "早期、积极使用生物制剂或糖皮质激素诱导缓解",
+          "chunk_id": "CH0019",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_9a94a77be4cf",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "降阶梯治疗策略",
+          "chunk_id": "CH0019",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_163da96a5423",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "生物制剂诱导和维持缓解",
+          "chunk_id": "CH0019",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_d53b557e0c09",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "生物制剂诱导缓解后以免疫抑制剂维持缓解",
+          "chunk_id": "CH0019",
+          "evidence_ids": "",
+          "confidence": 0.91
+        }
+      ],
+      "relationships": []
+    },
+    "CH0020": {
+      "entities": [
+        {
+          "id": "TEMP_d218efafaa7f",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_cbda66937127",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "轻度活动期克罗恩病",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_f127f502ed23",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "病变局限于回盲部的克罗恩病",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_816b34ab0eae",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "轻中度活动性克罗恩病",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_67cb9610af01",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴有高危因素的轻度活动期克罗恩病",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_951f12e45255",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "传统药物治疗失败的轻度活动期克罗恩病",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_dc5fc0251b8e",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "局部或系统性使用糖皮质激素进行诱导缓解",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_6521d0f2f986",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "应用口服布地奈德",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_471fadb25e31",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "使用生物制剂进行诱导缓解",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_e6104e09e66a",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "泼尼松0.75~1.00mg·kg-1·d-1",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_3b2df8c7a9fb",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "甲泼尼龙或氢化可的松（相当剂量）",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_ce48099f5754",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "口服布地奈德（回肠释放剂型）",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b3cc0c2451b2",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "氨基水杨酸（ASA）制剂",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_58fd64fb7614",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "美沙拉嗪（低剂量1~2g/d和高剂量3.2~4.0g/d）",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_8ab3db482a4c",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "柳氮磺吡啶",
+          "chunk_id": "CH0020",
+          "evidence_ids": "",
+          "confidence": 0.91
+        }
+      ],
+      "relationships": []
+    },
+    "CH0021": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0022": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0023": {
+      "entities": [
+        {
+          "id": "TEMP_f941638c912b",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0023",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_5511d972201e",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "中重度活动期克罗恩病",
+          "chunk_id": "CH0023",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_b6d27188489d",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "C反应蛋白",
+          "chunk_id": "CH0023",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_0fcca012ba47",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "粪钙卫蛋白",
+          "chunk_id": "CH0023",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_e69b9eb1a7a3",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "维得利珠单抗用于中重度活动期克罗恩病患者的诱导缓解",
+          "chunk_id": "CH0023",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_20780cb2f458",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "乌司奴单抗用于中重度活动期克罗恩病患者的诱导缓解",
+          "chunk_id": "CH0023",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_706f6e7d9675",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "维得利珠单抗静脉给药诱导缓解",
+          "chunk_id": "CH0023",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_15eaba70736d",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "乌司奴单抗皮下注射诱导缓解",
+          "chunk_id": "CH0023",
+          "evidence_ids": "",
+          "confidence": 0.94
+        }
+      ],
+      "relationships": []
+    },
+    "CH0024": {
+      "entities": [
+        {
+          "id": "TEMP_7e0c0a688bf9",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0024",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a3465ddb5785",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "中重度活动期克罗恩病",
+          "chunk_id": "CH0024",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_69928100d599",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "轻度活动性克罗恩病",
+          "chunk_id": "CH0024",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_78fb997d5998",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "活动性克罗恩病",
+          "chunk_id": "CH0024",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_e38595fc3d8a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "合并感染或存在肛周复杂瘘管的克罗恩病",
+          "chunk_id": "CH0024",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_df19980554b6",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "选择性Janus激酶（JAK）抑制剂用于诱导缓解",
+          "chunk_id": "CH0024",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_318a5841bb65",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "全肠内营养用于诱导缓解",
+          "chunk_id": "CH0024",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_24002e87f390",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "抗菌药物用于合并感染或肛周复杂瘘管",
+          "chunk_id": "CH0024",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_a4fc8ac547c1",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "乌帕替尼治疗",
+          "chunk_id": "CH0024",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_0c4ab840ea44",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "全肠内营养（EEN）治疗",
+          "chunk_id": "CH0024",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0025": {
+      "entities": [
+        {
+          "id": "TEMP_d72a6372c527",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "不推荐使用抗菌药物诱导缓解或维持缓解",
+          "chunk_id": "CH0025",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0026": {
+      "entities": [
+        {
+          "id": "TEMP_9ce4562efb75",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0026",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_cf4057f6647b",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "结肠型CD",
+          "chunk_id": "CH0026",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_754f50f32714",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "回结肠型CD",
+          "chunk_id": "CH0026",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e01695c83e04",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "NUDT15基因多态性检测",
+          "chunk_id": "CH0026",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_b2be4b74930f",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "维持治疗",
+          "chunk_id": "CH0026",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_e35501ccb608",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "糖皮质激素不应用于CD的维持治疗",
+          "chunk_id": "CH0026",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_e95d11bf9294",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "硫嘌呤类药物和甲氨蝶呤可用于CD的维持治疗",
+          "chunk_id": "CH0026",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_535e058c1262",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硫唑嘌呤",
+          "chunk_id": "CH0026",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_8abc351ca88d",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "甲氨蝶呤15mg每周肌肉注射1次",
+          "chunk_id": "CH0026",
+          "evidence_ids": "",
+          "confidence": 0.93
+        }
+      ],
+      "relationships": []
+    },
+    "CH0027": {
+      "entities": [
+        {
+          "id": "TEMP_b3b5bfc4423a",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0027",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_cac341b057f6",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "中重度活动性克罗恩病",
+          "chunk_id": "CH0027",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_7fe97bd6b353",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "继续使用同种生物制剂维持治疗",
+          "chunk_id": "CH0027",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_3f81d74f254d",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "联合使用免疫抑制剂以减少IFX抗药抗体产生",
+          "chunk_id": "CH0027",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_c6e9940683ef",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "IFX 5mg/kg组维持治疗30周",
+          "chunk_id": "CH0027",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_699b69f82fda",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "IFX 10mg/kg组维持治疗30周",
+          "chunk_id": "CH0027",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_c06dea9604ac",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "ADA治疗组第26周维持治疗",
+          "chunk_id": "CH0027",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_8d62a422aa8d",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "ADA治疗组第56周维持治疗",
+          "chunk_id": "CH0027",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_72381df34a12",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "VDZ每4周1次维持治疗",
+          "chunk_id": "CH0027",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_1ca71f868943",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "VDZ每8周1次维持治疗",
+          "chunk_id": "CH0027",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0028": {
+      "entities": [
+        {
+          "id": "TEMP_4eb9a6909296",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0028",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_eb12b3866b59",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "中重度克罗恩病",
+          "chunk_id": "CH0028",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_0db8014f4ed7",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对于使用选择性JAK抑制剂诱导缓解的CD患者，建议继续使用同种药物维持治疗",
+          "chunk_id": "CH0028",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_fc335e424287",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "乌帕替尼15mg维持缓解",
+          "chunk_id": "CH0028",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_a8f77abfde81",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "乌帕替尼30mg维持缓解",
+          "chunk_id": "CH0028",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_dcd0e4d6b8d1",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "沙利度胺50mg/d用于诱导和维持缓解",
+          "chunk_id": "CH0028",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0029": {
+      "entities": [
+        {
+          "id": "TEMP_a902cf9b93be",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0029",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_08a65aa349ff",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "合并瘘管的克罗恩病",
+          "chunk_id": "CH0029",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_b3c43a696efa",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肠道狭窄型克罗恩病",
+          "chunk_id": "CH0029",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a0584643a88b",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "沙利度胺治疗克罗恩病",
+          "chunk_id": "CH0029",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_0e5852d32ab0",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "内镜下球囊扩张术治疗克罗恩病肠道狭窄",
+          "chunk_id": "CH0029",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_87bab5358a1e",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "内镜下狭窄切开术治疗克罗恩病肠道狭窄",
+          "chunk_id": "CH0029",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_317c90c8f2e1",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "沙利度胺200mg/d治疗合并瘘管的克罗恩病",
+          "chunk_id": "CH0029",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b43ee3053fbf",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "沙利度胺1.5~2.5mg·kg-1·d-1治疗儿童克罗恩病",
+          "chunk_id": "CH0029",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    },
+    "CH0030": {
+      "entities": [
+        {
+          "id": "TEMP_affc10f9341a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CD合并肛周病变/瘘管型CD",
+          "chunk_id": "CH0030",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_21fcc6e4ab66",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CD合并活动性肛瘘",
+          "chunk_id": "CH0030",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_a84fd6e32736",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CD合并静止性肛瘘",
+          "chunk_id": "CH0030",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_923ddf36df2d",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "VDZ可考虑用于CD合并肛瘘的治疗",
+          "chunk_id": "CH0030",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0031": {
+      "entities": [
+        {
+          "id": "TEMP_0a13e2e56eb8",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "CD",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7127fecaff0e",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "狭窄型CD",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_2679995f8892",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "局限性回肠末端CD",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_476164cd87dc",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肠穿孔",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_7cff283b21a1",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肠梗阻",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_85da76958cb2",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "腹部脓肿",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_0af13b8f5029",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "消化道出血",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_327ecc367f32",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "异型增生",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_49cde26f3751",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "癌变",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_80b1f08c3f45",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "CTE",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_34c04f1fa302",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "MRE",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_94e1da1bbb9f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肠道超声",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_27cd416c8ae1",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "内镜",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ff79919e9176",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "外科手术治疗",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_9862ed44aa5e",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "围手术期管理",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_5739a01645fa",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "腹腔镜下切除回肠末端狭窄、纤维化疾病和疾病活动的回肠末端（<40cm）",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_b357f411416f",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "腹腔镜下回盲部切除术",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_000b70b49c8f",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "术前至少1周进行术前营养支持，包括肠内营养、肠外营养或联合营养",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_0f9596d29109",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "营养不良",
+          "chunk_id": "CH0031",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    },
+    "CH0032": {
+      "entities": [
+        {
+          "id": "TEMP_c4eacd4dd0b7",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CD",
+          "chunk_id": "CH0032",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_1d9f50297f23",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "术前EEN",
+          "chunk_id": "CH0032",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_8e4432500788",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "围手术期减少糖皮质激素暴露",
+          "chunk_id": "CH0032",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_ee9ad5a4efb8",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "术前18~30d行EEN",
+          "chunk_id": "CH0032",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_7a978561b958",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "蛋白质摄入量1.2~1.5g·kg-1·d-1",
+          "chunk_id": "CH0032",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_e8c373d4f3dc",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "监测和纠正微量营养素缺乏",
+          "chunk_id": "CH0032",
+          "evidence_ids": "",
+          "confidence": 0.89
+        },
+        {
+          "id": "TEMP_92ae52ec9580",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "泼尼松剂量<20mg/d",
+          "chunk_id": "CH0032",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_8b7c744cb62c",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "糖皮质激素",
+          "chunk_id": "CH0032",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_eb550bf4bd60",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "免疫抑制剂",
+          "chunk_id": "CH0032",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ff5171aa8396",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "生物制剂",
+          "chunk_id": "CH0032",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_62459c61591b",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "多次手术切除",
+          "chunk_id": "CH0032",
+          "evidence_ids": "",
+          "confidence": 0.94
+        }
+      ],
+      "relationships": []
+    },
+    "CH0033": {
+      "entities": [
+        {
+          "id": "TEMP_afdbba82c160",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "CD",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_6e377e4ed5c3",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CD",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_3a7107230f02",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "避免一期吻合，考虑保护性造口术",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_3655f94ff222",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "术前无须强制停用生物制剂",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_a0a3f706bf2d",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "保护性造口术",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_4ee57a3207de",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "术前持续使用硫唑嘌呤、巯基嘌呤或甲氨蝶呤",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_6727215f96aa",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "术前12周内应用抗TNF制剂",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_c668ba16260a",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "术前个月内未接受生物制剂治疗",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_fe66f7013983",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "免疫抑制剂",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_b19794b646ee",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "抗TNF制剂",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_539636045917",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "术前腹腔内脓肿",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_0587ae99e7a7",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "结肠吻合",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_954c326fe8c7",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "炎症活动",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_076402b24d01",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "长期住院",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_be4fb2cb03ab",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "糖皮质激素暴露",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_3d4d280f5311",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "营养不良",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b2b5931dc13a",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "贫血",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_291844265b3c",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "血小板增多",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_fdd96ee0eda1",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "行动能力下降",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_abdc65445264",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "急诊手术",
+          "chunk_id": "CH0033",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0034": {
+      "entities": [
+        {
+          "id": "TEMP_9dff36f0be05",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "CD",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2875e598d295",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "30d CD",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_4ad37698bb90",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "穿透性疾病",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_66dc9dbd9060",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肛周病变",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_c42f96645250",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "广泛小肠疾病",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_e97b285b29d7",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "在肠切除术后进行积极的预防性治疗",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_51b08845c4f9",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "预防性治疗通常在手术后2~4周开始",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_4ce91e57e779",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "硫嘌呤类药物能有效预防CD术后临床和内镜下复发",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_edeb20d5f180",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "生物制剂可有效预防和治疗术后CD复发，可使用术前有效的生物制剂在术后继续治疗",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_15bebb3dedc5",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "甲硝唑（3个月）+硫唑嘌呤（12个月）",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_3600b09555b8",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "甲硝唑（3个月）+安慰剂（12个月）",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_3075fe0f63b8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "吸烟",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_af3386280374",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "诊断时年龄较轻",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_f78733e010e1",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "既往肠道手术史",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_9b6d703b2c85",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "阳性切缘",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_10ab381ccf55",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "肌间和黏膜下神经丛炎",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_fe61f8809711",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "肉芽肿",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_ecadb2aa8a6a",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "回肠黏膜菌群微生态失调",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_7777dd6feb71",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "粪杆菌丰度降低",
+          "chunk_id": "CH0034",
+          "evidence_ids": "",
+          "confidence": 0.92
+        }
+      ],
+      "relationships": []
+    },
+    "CH0035": {
+      "entities": [
+        {
+          "id": "TEMP_4162dada7f83",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0035",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_f2ab9cd5d095",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CD术后复发",
+          "chunk_id": "CH0035",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_75cb2ac72671",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "内镜下复发",
+          "chunk_id": "CH0035",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_ab734f723b51",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "临床复发",
+          "chunk_id": "CH0035",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_1a461b021021",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "严重内镜复发",
+          "chunk_id": "CH0035",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_5e9d963c1704",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "粪钙卫蛋白",
+          "chunk_id": "CH0035",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b1c4b64e2986",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "CTE",
+          "chunk_id": "CH0035",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_ab7c76321f73",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "MRE",
+          "chunk_id": "CH0035",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_5ec777ae8144",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "术后内镜复查以评估复发",
+          "chunk_id": "CH0035",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_cb0cf902f125",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "FC联合CTE/MRE替代内镜评估",
+          "chunk_id": "CH0035",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_077ec5b241e5",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "术后6个月复查内镜",
+          "chunk_id": "CH0035",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_65ee9be72c28",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "复发高危因素",
+          "chunk_id": "CH0035",
+          "evidence_ids": "",
+          "confidence": 0.92
+        }
+      ],
+      "relationships": []
+    },
+    "CH0036": {
+      "entities": [
+        {
+          "id": "TEMP_d944ab32c0ee",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "CD",
+          "chunk_id": "CH0036",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_566bfc8f380a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "肠切除术后CD复发",
+          "chunk_id": "CH0036",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_7f7de2dfee99",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "术后严重复发（Rutgeerts评分≥i3）",
+          "chunk_id": "CH0036",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_4b1ce6b09522",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "FC检测",
+          "chunk_id": "CH0036",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_f0bcef276e81",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "肠道超声",
+          "chunk_id": "CH0036",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_deff32253bfe",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "CTE",
+          "chunk_id": "CH0036",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ee0e777e8b9c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "MRE",
+          "chunk_id": "CH0036",
+          "evidence_ids": "",
+          "confidence": 0.94
+        }
+      ],
+      "relationships": []
+    },
+    "CH0037": {
+      "entities": [
+        {
+          "id": "TEMP_d2faad85fa22",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CD",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_31b52ffca541",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "白细胞减少",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_520a351a987c",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "骨髓抑制",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a59607759409",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肝损伤",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_87afa67bf698",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "胃肠道反应",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_0cec8ee92363",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "感染",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_73f751df60d9",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "NUDT15基因型检测",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_240535e10bf3",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "6⁃硫鸟嘌呤核苷酸（6⁃TGN）浓度监测",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_12b8ae50fdd8",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "根据NUDT15基因型进行药物剂量调整",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_700d32df4995",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "NUDT15基因型检测",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_c0afbeedd365",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "监测6⁃TGN浓度",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_d900b921cf3a",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "NUDT15基因R139C位点变异",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_fedb812d8887",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "NUDT15 c.415C>T突变",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_025015a9f302",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "NUDT15 c.36_37insGGAGTC突变",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7f12e818aab6",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "NUDT15 c.52G>A突变",
+          "chunk_id": "CH0037",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0038": {
+      "entities": [
+        {
+          "id": "TEMP_1c02892f1a8d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CD",
+          "chunk_id": "CH0038",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_9cb7c957a9df",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "UC",
+          "chunk_id": "CH0038",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e28f504de72c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "治疗药物监测",
+          "chunk_id": "CH0038",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_8aaa4afeb897",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "IFX药物浓度监测",
+          "chunk_id": "CH0038",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_40b970f9d2a4",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "ATI监测",
+          "chunk_id": "CH0038",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_9ebb9cba4b26",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "6-TGN浓度检测",
+          "chunk_id": "CH0038",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_c69a19170617",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "根据TDM结果指导IFX治疗",
+          "chunk_id": "CH0038",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_e4a5ac669f45",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "主动TDM",
+          "chunk_id": "CH0038",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_1ff018558f1f",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "被动TDM",
+          "chunk_id": "CH0038",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_30286fad561a",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "IFX目标谷浓度维持在3~7μg/mL",
+          "chunk_id": "CH0038",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_a2eb4101c992",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "IFX目标谷浓度维持在3~8μg/mL",
+          "chunk_id": "CH0038",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_96ecd078270e",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "优化治疗以提高IFX谷浓度",
+          "chunk_id": "CH0038",
+          "evidence_ids": "",
+          "confidence": 0.93
+        }
+      ],
+      "relationships": []
+    },
+    "CH0039": {
+      "entities": [
+        {
+          "id": "TEMP_fb90c634a436",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0039",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_f2073027daa3",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "结肠受累的克罗恩病",
+          "chunk_id": "CH0039",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_b3ddf1ff51a7",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CD相关小肠癌",
+          "chunk_id": "CH0039",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e5d16dd489b9",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "CD合并肛周病变",
+          "chunk_id": "CH0039",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_3ef3a703e977",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "结肠镜检查",
+          "chunk_id": "CH0039",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_20edbd2711bb",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对结肠受累的克罗恩病患者在诊断8年后常规进行结肠镜筛查以早期发现肠道癌变",
+          "chunk_id": "CH0039",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_f5be8447634f",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "结肠镜筛查时从多个结肠段进行多部位肠黏膜活检，尤其对炎症部位溃疡边缘活检",
+          "chunk_id": "CH0039",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_22518786f6f8",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "高、中、低风险患者结肠镜筛查间隔分别为每年、每2~3年、每5年",
+          "chunk_id": "CH0039",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_aa63ab6fc4e5",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "在疾病缓解期进行肿瘤筛查",
+          "chunk_id": "CH0039",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4ba96bbde1ad",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "病程长",
+          "chunk_id": "CH0039",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_113d5c45a543",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "难治性",
+          "chunk_id": "CH0039",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_b77ecf39736c",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "肠道狭窄",
+          "chunk_id": "CH0039",
+          "evidence_ids": "",
+          "confidence": 0.93
+        }
+      ],
+      "relationships": []
+    },
+    "CH0040": {
+      "entities": [
+        {
+          "id": "TEMP_92f671a6648d",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "克罗恩病",
+          "chunk_id": "CH0040",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_4b615e4dab88",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "结肠受累克罗恩病",
+          "chunk_id": "CH0040",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_98f46266a272",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "营养风险筛查工具2002",
+          "chunk_id": "CH0040",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_456a04ca02d6",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "患者主观整体评估量表",
+          "chunk_id": "CH0040",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_d8b8ee89f2fe",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "医院焦虑抑郁量表",
+          "chunk_id": "CH0040",
+          "evidence_ids": "",
+          "confidence": 0.88
+        },
+        {
+          "id": "TEMP_0c2484e62f9f",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "CD患者应常规进行营养评估和营养监测，并根据结果制订个体化的营养支持治疗方案",
+          "chunk_id": "CH0040",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_94d946bb2b3b",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "建议对CD患者的精神健康状况进行评估，发现患者出现心理问题时，应及时进行干预",
+          "chunk_id": "CH0040",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0041": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0042": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0043": {
+      "entities": [],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "·共识与指南·",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "·共识与指南·",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "·共识与指南·",
+      "page_start": 1,
+      "page_end": 1,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "一、方法",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "一、方法",
+      "page_start": 2,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "一、方法",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "二、诊断和评估",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "二、诊断和评估",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "二、诊断和评估",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "二、诊断和评估",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0011": {
+      "chunk_id": "CH0011",
+      "section_title": "二、诊断和评估",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0012": {
+      "chunk_id": "CH0012",
+      "section_title": "二、诊断和评估",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0013": {
+      "chunk_id": "CH0013",
+      "section_title": "二、诊断和评估",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0014": {
+      "chunk_id": "CH0014",
+      "section_title": "二、诊断和评估",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0015": {
+      "chunk_id": "CH0015",
+      "section_title": "二、诊断和评估",
+      "page_start": 7,
+      "page_end": 7,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0016": {
+      "chunk_id": "CH0016",
+      "section_title": "二、诊断和评估",
+      "page_start": 7,
+      "page_end": 7,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0017": {
+      "chunk_id": "CH0017",
+      "section_title": "二、诊断和评估",
+      "page_start": 8,
+      "page_end": 8,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0018": {
+      "chunk_id": "CH0018",
+      "section_title": "三、治疗",
+      "page_start": 8,
+      "page_end": 8,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0019": {
+      "chunk_id": "CH0019",
+      "section_title": "三、治疗",
+      "page_start": 9,
+      "page_end": 9,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0020": {
+      "chunk_id": "CH0020",
+      "section_title": "1.诱导缓解",
+      "page_start": 9,
+      "page_end": 9,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0021": {
+      "chunk_id": "CH0021",
+      "section_title": "1.诱导缓解",
+      "page_start": 9,
+      "page_end": 10,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0022": {
+      "chunk_id": "CH0022",
+      "section_title": "1.诱导缓解",
+      "page_start": 10,
+      "page_end": 10,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0023": {
+      "chunk_id": "CH0023",
+      "section_title": "1.诱导缓解",
+      "page_start": 10,
+      "page_end": 11,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0024": {
+      "chunk_id": "CH0024",
+      "section_title": "1.诱导缓解",
+      "page_start": 11,
+      "page_end": 11,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0025": {
+      "chunk_id": "CH0025",
+      "section_title": "1.诱导缓解",
+      "page_start": 11,
+      "page_end": 11,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0026": {
+      "chunk_id": "CH0026",
+      "section_title": "2.维持缓解",
+      "page_start": 11,
+      "page_end": 12,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0027": {
+      "chunk_id": "CH0027",
+      "section_title": "2.维持缓解",
+      "page_start": 12,
+      "page_end": 13,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0028": {
+      "chunk_id": "CH0028",
+      "section_title": "2.维持缓解",
+      "page_start": 13,
+      "page_end": 13,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0029": {
+      "chunk_id": "CH0029",
+      "section_title": "2.维持缓解",
+      "page_start": 13,
+      "page_end": 13,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0030": {
+      "chunk_id": "CH0030",
+      "section_title": "四、CD合并肛周病变/瘘管型CD的处理原则",
+      "page_start": 14,
+      "page_end": 15,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0031": {
+      "chunk_id": "CH0031",
+      "section_title": "五、CD围手术期管理和预防术后复发",
+      "page_start": 15,
+      "page_end": 15,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0032": {
+      "chunk_id": "CH0032",
+      "section_title": "五、CD围手术期管理和预防术后复发",
+      "page_start": 15,
+      "page_end": 15,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0033": {
+      "chunk_id": "CH0033",
+      "section_title": "五、CD围手术期管理和预防术后复发",
+      "page_start": 16,
+      "page_end": 16,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0034": {
+      "chunk_id": "CH0034",
+      "section_title": "10.8【推荐意见d 36】对于有复发危险因素的30d CD患",
+      "page_start": 16,
+      "page_end": 17,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0035": {
+      "chunk_id": "CH0035",
+      "section_title": "10.8【推荐意见d 36】对于有复发危险因素的30d CD患",
+      "page_start": 17,
+      "page_end": 17,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0036": {
+      "chunk_id": "CH0036",
+      "section_title": "10.8【推荐意见d 36】对于有复发危险因素的30d CD患",
+      "page_start": 17,
+      "page_end": 17,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0037": {
+      "chunk_id": "CH0037",
+      "section_title": "六、治疗监测和患者管理",
+      "page_start": 17,
+      "page_end": 17,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0038": {
+      "chunk_id": "CH0038",
+      "section_title": "六、治疗监测和患者管理",
+      "page_start": 18,
+      "page_end": 18,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0039": {
+      "chunk_id": "CH0039",
+      "section_title": "六、治疗监测和患者管理",
+      "page_start": 18,
+      "page_end": 18,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0040": {
+      "chunk_id": "CH0040",
+      "section_title": "六、治疗监测和患者管理",
+      "page_start": 19,
+      "page_end": 19,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0041": {
+      "chunk_id": "CH0041",
+      "section_title": "六、治疗监测和患者管理",
+      "page_start": 19,
+      "page_end": 19,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0042": {
+      "chunk_id": "CH0042",
+      "section_title": "七、展望",
+      "page_start": 19,
+      "page_end": 20,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0043": {
+      "chunk_id": "CH0043",
+      "section_title": "七、展望",
+      "page_start": 20,
+      "page_end": 20,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "program": "snorkel",
+    "note": "Snorkel entitybase 复验结果；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态。"
+  }
+}

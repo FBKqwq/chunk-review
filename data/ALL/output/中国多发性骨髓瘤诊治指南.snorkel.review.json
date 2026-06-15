@@ -1,0 +1,2275 @@
+{
+  "base_info": {
+    "doc_key": "中国多发性骨髓瘤诊治指南",
+    "doc_id": "DOC_170739347fa4",
+    "source_title": "中国多发性骨髓瘤诊治指南",
+    "pdf_path": "C:\\Users\\zhurunjie\\Desktop\\snorkel\\code\\data\\raw_pdfs\\F\\中国多发性骨髓瘤诊治指南.pdf",
+    "chunking_method": "section_semantic_v1",
+    "total_pages": 10,
+    "total_chunks": 18,
+    "has_entitybase": true,
+    "entitybase_status": "matched",
+    "entitybase_matched_chunks": 15,
+    "program": "snorkel"
+  },
+  "extractions": {
+    "CH0001": {
+      "entities": [
+        {
+          "id": "TEMP_64a6509055b4",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_de0a27bb9afd",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "意义未明的单克隆丙种球蛋白病",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_1ed0d94d16f5",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "冒烟型骨髓瘤",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_7ad1364e5333",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "活动性多发性骨髓瘤",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_a7c309be5041",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "高危冒烟型骨髓瘤",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_c5ae644448ec",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清单克隆M蛋白",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_3d2dc86ea719",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "骨髓单克隆浆细胞比例",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_4b2e94f4d82a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "受累/非受累血清游离轻链比",
+          "chunk_id": "CH0001",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0002": {
+      "entities": [
+        {
+          "id": "TEMP_174a10412230",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_eaf73c0c887b",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "IgG型多发性骨髓瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_832671a0ba60",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "IgA型多发性骨髓瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_02b45b30ad1b",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "IgD型多发性骨髓瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_29c256061b4f",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "IgM型多发性骨髓瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_9e323186849f",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "IgE型多发性骨髓瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_1e9f026fc17e",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "轻链型多发性骨髓瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a384d0072e6f",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "双克隆型多发性骨髓瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_edc8ce3eb45d",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "不分泌型多发性骨髓瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_915b61be0065",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "λ轻链型多发性骨髓瘤",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_8bf2d5beaa18",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "髓外浸润",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_74945d9d8fdf",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肾功能不全",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_1210b2c3c54b",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "淀粉样变性",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_12f84b45a691",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "高黏滞血症",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_7de1c3ad5081",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "获得性血管性血友病",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_870cda126b5a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清蛋白电泳",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_713d72e2b0f7",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "免疫固定电泳",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_729017502452",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清游离轻链",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_c8b01fa17e3f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "尿免疫固定电泳",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_43b9de6ac4c0",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "荧光原位杂交",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_663ae166873c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "二代测序",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_96243458ded8",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "IgD",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_ddf47503b309",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "IgM",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_57bbf58661fa",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "t(11;14)阳性导致细胞周期素D1表达",
+          "chunk_id": "CH0002",
+          "evidence_ids": "",
+          "confidence": 0.92
+        }
+      ],
+      "relationships": []
+    },
+    "CH0003": {
+      "entities": [
+        {
+          "id": "TEMP_b96432de7f95",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_6eb948703010",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "双克隆型骨髓瘤MM",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_cf8f19791408",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "不分泌型骨髓瘤",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_75916cc250cf",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "寡分泌型MM",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_4639dd0fccb2",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "IgE MM",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_f5bc1289d7aa",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "骨破坏",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_1466a64f8d69",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "免疫固定电泳",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_b7efad2dbeea",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "骨髓活检",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_17d86bc5266e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "骨髓细胞涂片",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_69079505cf2a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "FISH检测",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_aced407a7d95",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "MRI检查",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f1ff8a3ced25",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "PET‑CT",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_3dd33dfb9e11",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "X线片",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_e6d395f4a164",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "CT",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_25b1d06a3799",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清游离轻链比",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_70a0dfc662b3",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "24h尿轻链定量",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_94568fc41f9f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清免疫球蛋白定量",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_701b2450309f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "流式细胞术",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_0faecbbdc420",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "克隆性骨髓浆细胞比例≥10%",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3bd95b3d56e1",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "骨髓瘤浆细胞具有灶性、不均匀分布的特点",
+          "chunk_id": "CH0003",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0004": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0005": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0006": {
+      "entities": [
+        {
+          "id": "TEMP_0aeca7d873aa",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "IgG",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a9022e334873",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "IgA",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_cf1dacef6226",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "尿本周蛋白",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c2294ff8794e",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清肌酐",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_6a76544fa15f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "乳酸脱氢酶",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_98b663697d24",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "t(14;16)",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2d9751d60f47",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "del(17p)",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_ab47e9ce1482",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "1q21+",
+          "chunk_id": "CH0006",
+          "evidence_ids": "",
+          "confidence": 0.9
+        }
+      ],
+      "relationships": []
+    },
+    "CH0007": {
+      "entities": [
+        {
+          "id": "TEMP_fd231c5a942c",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "MM",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_70b3c4fa9565",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "高危MM",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.85
+        },
+        {
+          "id": "TEMP_603df9489993",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "GA评分",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_0b8ac4990083",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "细胞遗传学异常",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e7c53caa96d3",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "循环浆细胞",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_48fc91655fde",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "髓外病灶",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_081160b3e420",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "基因表达谱",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a1c6082f1fe0",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "R‑ISS",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ee342db4447f",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "细胞遗传学异常",
+          "chunk_id": "CH0007",
+          "evidence_ids": "",
+          "confidence": 0.98
+        }
+      ],
+      "relationships": []
+    },
+    "CH0008": {
+      "entities": [
+        {
+          "id": "TEMP_6f950d502f19",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_40a32c8210e9",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "超高危多发性骨髓瘤",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_374fdd78cec1",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "难治复发多发性骨髓瘤",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_1f78c1ebd59d",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "微小残留病检测",
+          "chunk_id": "CH0008",
+          "evidence_ids": "",
+          "confidence": 0.93
+        }
+      ],
+      "relationships": []
+    },
+    "CH0009": {
+      "entities": [
+        {
+          "id": "TEMP_abd8a4170e1f",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_5b036970e897",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_081c16b2762d",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清免疫固定电泳",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_635c8d51de03",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "尿免疫固定电泳",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_451157e031e4",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清FLC比值",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_cdb1b89f2a0f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "骨髓免疫组织化学染色",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_1df254296d95",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "多色流式细胞术",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_002463b78e77",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清蛋白电泳",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_97d8c861c3a7",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "尿M蛋白",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_943da6f8381b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清M蛋白",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_d4d7ee9aef14",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "24h尿M蛋白",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_d16450632cc5",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清FLC",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_fbc0cb4951ad",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "骨髓浆细胞比例",
+          "chunk_id": "CH0009",
+          "evidence_ids": "",
+          "confidence": 0.91
+        }
+      ],
+      "relationships": []
+    },
+    "CH0010": {
+      "entities": [
+        {
+          "id": "TEMP_01121d0b13a3",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_bd77e08fad90",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "临床复发",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_15ea481ad13a",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "后复发",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_1bc316df5577",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "高钙血症",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7bf7087f88ae",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "血红蛋白下降",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2cd1af1a9d5d",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "血肌酐上升",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2349bfd7bdc6",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "高黏滞血症",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a018225dc6ba",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清M蛋白",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_97d8c682eb0b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "尿M蛋白",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_831381bfb2ca",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清FLC",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_69684f040e27",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "骨髓浆细胞比例",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a21c64b56474",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "免疫固定电泳",
+          "chunk_id": "CH0010",
+          "evidence_ids": "",
+          "confidence": 0.95
+        }
+      ],
+      "relationships": []
+    },
+    "CH0011": {
+      "entities": [
+        {
+          "id": "TEMP_c3a61721a6a1",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_aed92e310aba",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "微小残留病阴性",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_d8ae5aa1baa8",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "微小残留病阳性",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_8bfeadd3b49a",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "二代流式",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_808fdc63e676",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "二代测序",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_2c4e99b3e274",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "PET-CT",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_ab90c347e5ce",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清FLC",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_0dc7b060575f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "M蛋白",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_36db5db03993",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "骨髓样本",
+          "chunk_id": "CH0011",
+          "evidence_ids": "",
+          "confidence": 0.88
+        }
+      ],
+      "relationships": []
+    },
+    "CH0012": {
+      "entities": [],
+      "relationships": []
+    },
+    "CH0013": {
+      "entities": [
+        {
+          "id": "TEMP_8ecf3d541bfc",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_022d3c140ad8",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "高危SMM",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3ee5e7f37304",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "中低危SMM",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_241cf2986fa4",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "超高危MM",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e1c5c57063df",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "不推荐提前干预",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_76abbc5dd4e8",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "推荐定期监测和随访",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_452c593b8c0d",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "自体造血干细胞移植仍可为首选",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_6a88dfe17f72",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "推荐选择以蛋白酶体抑制剂联合免疫调节剂及地塞米松的三药联合诱导治疗",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_8873dc4f8df6",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "建议在诱导治疗后先行干细胞采集冻存",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_cebc2b3a5374",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "推荐行串联移植",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_f00422be8ebd",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "诱导治疗后应用IMWGGA再评分",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_2a2c99415520",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "移植前含来那度胺的疗程数应尽可能≤4个疗程",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_4443cfc530b2",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "干细胞动员方案可用大剂量环磷酰胺（CTX）等化疗方案联合粒细胞集落刺激因子或趋化因子受体拮抗剂",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7bd6d966dc15",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "预处理常用方案美法仑140~200mg/m2",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_219968b05590",
+          "entity_type": "病理生理机制阐述",
+          "raw_label": "pathogeneses",
+          "entity_name": "克隆性浆细胞异常增殖",
+          "chunk_id": "CH0013",
+          "evidence_ids": "",
+          "confidence": 0.99
+        }
+      ],
+      "relationships": []
+    },
+    "CH0014": {
+      "entities": [
+        {
+          "id": "TEMP_a63f72e2d624",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_928e49096045",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "新诊断多发性骨髓瘤",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_02d1d744fb05",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "适合自体造血干细胞移植的多发性骨髓瘤",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_9851fc9e1077",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "不适合自体造血干细胞移植的多发性骨髓瘤",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_1cf7f27807be",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "高危多发性骨髓瘤",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_c5e034192e1f",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "IMWGGA评分",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_8fa66b98b746",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "诱导治疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_7c0a627820e7",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "维持治疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_994e0d992768",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "根据IMWGGA评分评估患者健康状态以指导诱导治疗方案选择",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_8aeda1d88406",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硼替佐米/来那度胺/地塞米松（VRd）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_e98f4756218b",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硼替佐米/环磷酰胺/地塞米松（VCd）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b1ae15c9563f",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硼替佐米/沙利度胺/地塞米松（VTd）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d1571be7f4be",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "CD38单抗/来那度胺/地塞米松（DRd）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_b99e04fd794f",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "CD38单抗/硼替佐米/美法仑/醋酸泼尼松（D-VMP）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e87df29b3ae2",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硼替佐米/美法仑/醋酸泼尼松（VMP）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_5fcfd4cfe8b8",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "美法仑/醋酸泼尼松/沙利度胺（MPT）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_a29bde64c34a",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "来那度胺/地塞米松（Rd）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f05889ca4483",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硼替佐米/地塞米松（Vd）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_36aa75390465",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "来那度胺/环磷酰胺/地塞米松（RCd）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_f0e6a4283549",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硼替佐米/泊马度胺/地塞米松（VPd）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7dce9380cecd",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硼替佐米/阿霉素/地塞米松（PAd）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_5d1601a80ea0",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "沙利度胺/阿霉素/地塞米松（TAd）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_6ad5d9321e06",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "沙利度胺/环磷酰胺/地塞米松（TCd）",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_4cbe1dd96770",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "来那度胺维持治疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_5614519c6c20",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "硼替佐米维持治疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_afbfdbc2274f",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "伊沙佐米维持治疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_6d61aea25c64",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "沙利度胺维持治疗",
+          "chunk_id": "CH0014",
+          "evidence_ids": "",
+          "confidence": 0.93
+        }
+      ],
+      "relationships": []
+    },
+    "CH0015": {
+      "entities": [
+        {
+          "id": "TEMP_d305db616f2a",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 1.0
+        },
+        {
+          "id": "TEMP_de8365c8a2fb",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "复发MM",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_763fe0048317",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "首次复发",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_6705eac3e853",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴有浆细胞瘤的复发患者",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_555d33fdb038",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "伴有髓外浆细胞瘤者",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_f7c0641c2d70",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "治疗目标是获得最大程度的缓解，延长无进展生存期",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_fcef5b893749",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "尽可能选用疗效较高的联合治疗方案再次获得PR及以上疗效",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_eb7bf29caf52",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "应根据对来那度胺或硼替佐米的耐药性选择合适的联合化疗方案",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_36b7b90c9c3a",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "对伴有浆细胞瘤的复发患者，使用含细胞毒药物的多药联合方案",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_cca7eb07af1d",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "再诱导治疗后，如果有效，建议持续治疗直至疾病进展或不可耐受的毒副作用",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.99
+        },
+        {
+          "id": "TEMP_64552ffbee86",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "有冻存自体干细胞者可行挽救性ASCT",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_73901ba891f2",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "地塞米松环磷酰胺依托泊苷顺铂硼替佐米（dCEP±V）",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_941dc9ab99f3",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "地塞米松沙利度胺顺铂阿霉素环磷酰胺依托泊苷硼替佐米（dT‑PACE±V）",
+          "chunk_id": "CH0015",
+          "evidence_ids": "",
+          "confidence": 0.96
+        }
+      ],
+      "relationships": []
+    },
+    "CH0016": {
+      "entities": [
+        {
+          "id": "TEMP_43104661e674",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3c0f05619a05",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "有症状MM",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_e3ef266911ec",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "无症状骨髓瘤",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_26e23fae677c",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "骨靶向治疗",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_0dd2c4c1f062",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "静脉使用双膦酸盐（包括唑来膦酸等）或皮下注射地舒单抗",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_69676058e450",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "唑来膦酸和地舒单抗使用前应进行口腔检查，使用中避免口腔侵袭性操作",
+          "chunk_id": "CH0016",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    },
+    "CH0017": {
+      "entities": [
+        {
+          "id": "TEMP_8a69c5b31e72",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_d269944c1f63",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "多发性骨髓瘤高钙血症",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_6dff659f49de",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "多发性骨髓瘤肾功能不全",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_f7ba9946eb5c",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "多发性骨髓瘤贫血",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_61a8aa656fd9",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "多发性骨髓瘤感染",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_bf1bbe2b79c8",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "多发性骨髓瘤静脉血栓栓塞症",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_c76276692274",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "多发性骨髓瘤高黏滞血症",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_28410d53fc10",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "高钙血症",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_d39477919827",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "肾功能不全",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_640dfd9e4ca4",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "贫血",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_ef27bd7a8367",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "感染",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_8adf0717111a",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "静脉血栓栓塞症",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_55c2f543c261",
+          "entity_type": "临床表现",
+          "raw_label": "symptoms",
+          "entity_name": "高黏滞血症",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_05ecfc8a4813",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "乙型肝炎病毒血清学检测",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_ed39c4571846",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "病毒载量监测",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_4633c8d3f40d",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "水化、利尿以维持尿量>1500ml/d",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_ee60f673a310",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "水化、碱化、利尿以避免肾功能不全",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_a4015b7cc2e8",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "静脉使用免疫球蛋白",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f70a86168803",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "预防耶氏肺孢子菌肺炎和真菌感染",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_de9209a22238",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "预防性使用抗病毒药物",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_cfb0452de83c",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "预防性使用抑制病毒复制的药物",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_e115bcc2e709",
+          "entity_type": "治疗原则",
+          "raw_label": "treatments",
+          "entity_name": "分层预防性抗凝或抗血栓治疗",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_9a1fb7f8734f",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "日补液2000~3000ml",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_d0addee76459",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "使用利尿剂以保持尿量>1500ml/d",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_f1f81bb21559",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "大剂量糖皮质激素",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_a85a9a8a2324",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "降钙素",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_5ab753a68bcf",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "血液或腹膜透析替代治疗",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.93
+        },
+        {
+          "id": "TEMP_fc1eff3a0854",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "使用阿司匹林",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.92
+        },
+        {
+          "id": "TEMP_6f3e2c700172",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "使用华法林、低分子肝素或口服抗凝剂",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.91
+        },
+        {
+          "id": "TEMP_157fc8f3cd12",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "血浆置换",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.9
+        },
+        {
+          "id": "TEMP_8b7e87a4bd92",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "CD38单抗",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_7eb0018ea89b",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "蛋白酶体抑制剂",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.94
+        },
+        {
+          "id": "TEMP_119cd75161b6",
+          "entity_type": "病因",
+          "raw_label": "etiologies",
+          "entity_name": "大剂量地塞米松方案",
+          "chunk_id": "CH0017",
+          "evidence_ids": "",
+          "confidence": 0.93
+        }
+      ],
+      "relationships": []
+    },
+    "CH0018": {
+      "entities": [
+        {
+          "id": "TEMP_87d4f9d8572e",
+          "entity_type": "疾病",
+          "raw_label": "diseases",
+          "entity_name": "多发性骨髓瘤",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_847da7bf4b01",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "冒烟型多发性骨髓瘤",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_3b484807dece",
+          "entity_type": "确诊疾病",
+          "raw_label": "sub_diseases",
+          "entity_name": "不分泌型骨髓瘤",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_cbae034fa3df",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血肌酐",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f5ec21a52143",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "白蛋白",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b17a45ea3ab8",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "乳酸脱氢酶",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_75bcc32faabf",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清钙",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_b9babc3dbbfa",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "β2微球蛋白",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_f85256831267",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清免疫球蛋白定量",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_05697c0934d0",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清蛋白电泳",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_e2549280393c",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血免疫固定电泳",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_72498f590932",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "24h尿总蛋白",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_3d8eb2522f72",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "尿蛋白电泳",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_ef9155588961",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "尿免疫固定电泳",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.95
+        },
+        {
+          "id": "TEMP_c24d43bb9816",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "骨骼检查",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.96
+        },
+        {
+          "id": "TEMP_aedd9250239b",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "骨髓检查",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_b9b7f2f846f6",
+          "entity_type": "指标",
+          "raw_label": "tests",
+          "entity_name": "血清FLC",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_b27fe838a189",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "每3个月复查相关指标",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_d9a537330d42",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "每年进行1次骨骼检查或在有临床症状时进行",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.97
+        },
+        {
+          "id": "TEMP_20ee8fe3f72e",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "诱导治疗期间每1~2个疗程进行1次疗效评估",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.98
+        },
+        {
+          "id": "TEMP_cc4e9e4d5357",
+          "entity_type": "治疗方案",
+          "raw_label": "plans",
+          "entity_name": "每6个月进行1次骨骼检查或根据临床症状进行",
+          "chunk_id": "CH0018",
+          "evidence_ids": "",
+          "confidence": 0.97
+        }
+      ],
+      "relationships": []
+    }
+  },
+  "review": {
+    "CH0001": {
+      "chunk_id": "CH0001",
+      "section_title": "多发性骨髓瘤诊断与治疗指南",
+      "page_start": 1,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0002": {
+      "chunk_id": "CH0002",
+      "section_title": "（三）分型",
+      "page_start": 2,
+      "page_end": 2,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0003": {
+      "chunk_id": "CH0003",
+      "section_title": "多发性骨髓瘤诊断与治疗指南",
+      "page_start": 2,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0004": {
+      "chunk_id": "CH0004",
+      "section_title": "（四）分期",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0005": {
+      "chunk_id": "CH0005",
+      "section_title": "三、鉴别诊断",
+      "page_start": 3,
+      "page_end": 3,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0006": {
+      "chunk_id": "CH0006",
+      "section_title": "3.骨骼检查中溶骨病变大于",
+      "page_start": 3,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0007": {
+      "chunk_id": "CH0007",
+      "section_title": "四、MM的预后评估与危险分层",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0008": {
+      "chunk_id": "CH0008",
+      "section_title": "五、MM的疗效评估",
+      "page_start": 4,
+      "page_end": 4,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0009": {
+      "chunk_id": "CH0009",
+      "section_title": "（一）传统的IMWG疗效标准",
+      "page_start": 4,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0010": {
+      "chunk_id": "CH0010",
+      "section_title": "（一）传统的IMWG疗效标准",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0011": {
+      "chunk_id": "CH0011",
+      "section_title": "（二） 微小残留病疗效标准",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0012": {
+      "chunk_id": "CH0012",
+      "section_title": "六、新诊断MM的治疗",
+      "page_start": 5,
+      "page_end": 5,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0013": {
+      "chunk_id": "CH0013",
+      "section_title": "（一）治疗原则",
+      "page_start": 5,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0014": {
+      "chunk_id": "CH0014",
+      "section_title": "六、新诊断MM的治疗",
+      "page_start": 6,
+      "page_end": 6,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0015": {
+      "chunk_id": "CH0015",
+      "section_title": "七、复发MM的治疗",
+      "page_start": 6,
+      "page_end": 7,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0016": {
+      "chunk_id": "CH0016",
+      "section_title": "八、支持治疗",
+      "page_start": 7,
+      "page_end": 7,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0017": {
+      "chunk_id": "CH0017",
+      "section_title": "八、支持治疗",
+      "page_start": 7,
+      "page_end": 8,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    },
+    "CH0018": {
+      "chunk_id": "CH0018",
+      "section_title": "九、随访监测",
+      "page_start": 8,
+      "page_end": 8,
+      "status": "unreviewed",
+      "remark": "",
+      "updated_at": null
+    }
+  },
+  "schema": {
+    "status_enum": [
+      "0",
+      "1",
+      "unreviewed"
+    ],
+    "program": "snorkel",
+    "note": "Snorkel entitybase 复验结果；extractions 按 chunk_id 存储实体和关系；review 按 chunk_id 存储人工复验状态。"
+  }
+}
